@@ -1,0 +1,1404 @@
+
+
+DESY 95-241 December 1995
+
+On the Theoretical Status of
+
+Deep Inelastic Scattering
+
+J. Bl"umlein
+
+DESY-Zeuthen, Platanenallee 6, D-15735 Zeuthen, Germany
+
+Abstract The theoretical status of perturbative QED and QCD corrections to deep inelastic scattering is reviewed.
+
+Invited talk at the XXV International Symposium on Multiparticle Dynamics,
+
+Stara Lesna, Slovakia, 11-17 September, 1995
+
+ON THE THEORETICAL STATUS OF
+
+DEEP INELASTIC SCATTERING
+
+JOHANNES BL "UMLEIN DESY-Zeuthen, Platanenallee 6,
+
+D-15735 Zeuthen, Germany e-mail: H1KBLU@dsyibm.desy.de
+
+ABSTRACT The theoretical status of perturbative QED and QCD corrections to deep inelastic scattering is reviewed.
+
+1. Introduction 2. QED radiative corrections to DIS 3. The running coupling constant 4. The evolution equation 4.1. Splitting functions 4.2. Coefficient functions 4.3. O(ff3s ) corrections 5. Resummation of small x contributions 5.1. Singlet terms 5.2. Non-singlet terms 6. Heavy flavour contributions to structure functions 7. J= production 8. QCD corrections to polarized structure functions 9. Open problems
+
+1. Introduction Deep inelastic lepton-hadron scattering provides one of the cleanest ways to investigate the nucleon structure at short distances. Since both charged leptons (e\Sigma ; _\Sigma ) and neutrinos (*; *) may be used as probes in neutral and charged current deep inelastic scattering off protons or isoscalar targets a variety of scattering cross sections can be measured containing different flavour combinations of quarks. Furthermore, the spin structure of nucleons can be investigated using both polarized leptons and targets.
+
+The basic diagram describing the process is shown in figure 1. The neutral and charged current scattering cross sections are given by
+
+d2oelNNC dxdQ2 = Pl;B(Q
+
+2) MN sy
+
+x(s \Gamma M 2N )2 L
+
+_* B W
+
+B _* (1)
+
+in the Born approximation. The leptonic and hadronic tensors L_*B ; W B_* depend
+
+1
+
+on the quantum numbers of the lepton and hadron, respectively, and those of the exchanged boson 1. Here, x and y denote the Bjorken variables, Q2 = (l \Gamma l0)2, and s = (l + P )2. The factor Pl;B(Q2) collects couplings and propagator terms, e.g. Pl\Sigma ;fl(Q2) = 2ssff2=Q4, P*;W + (Q2) = G2F M 4W =(4ss(Q2 + M 2W )2), with ff being the fine structure constant, GF the Fermi constant, and MW the W boson mass.
+
+g spectators
+
+current jet B
+
+l0
+
+pqf l
+
+pqi = xP
+
+q
+
+N f Figure 1: Diagram describing deep inelastic lN scattering, with B = fl; Z; W \Sigma , N = p; n, and l = l\Sigma ; *; *.
+
+The hadronic tensor may be represented by the structure functions describing the scattering process. In the parton model the structure functions are expressed in terms of parton densities, qi(x; Q2). For l\Sigma N scattering the structure functions are thus given by:
+
+F2(x; Q2) = xX
+
+q e
+
+2q[q(x; Q2) + q(x; Q2)] jflj2
+
+G2(x; Q2) = 2xX
+
+q e
+
+qvq[q(x; Q2) + q(x; Q2)] jflZj
+
+H2(x; Q2) = xX
+
+q (v
+
+2q + a2q)[q(x; Q2) + q(x; Q2)] jZj2
+
+xG3(x; Q2) = 2xX
+
+q e
+
+qaq[q(x; Q2) \Gamma q(x; Q2)] jflZj
+
+xH3(x; Q2) = xX
+
+q v
+
+qaq[q(x; Q2) \Gamma q(x; Q2)] jZj2
+
+W +2 (x; Q2) = 2xX
+
+i [d
+
+i(x; Q2) + ui(x; Q2)] jW +j2
+
+W \Gamma 2 (x; Q2) = 2xX
+
+i [
+
+ui(x; Q2) + di(x; Q2)] jW \Gamma j2
+
+xW +3 (x; Q2) = 2xX
+
+i [d
+
+i(x; Q2) \Gamma ui(x; Q2)] jW +j2
+
+xW \Gamma 3 (x; Q2) = 2xX
+
+i [
+
+ui(x; Q2) \Gamma di(x; Q2)] jW \Gamma j2
+
+(2)
+
+where eq; vq, and aq denote the charge, vector-, and axialvector coupling constants of the quarks. The *(*)N scattering processes are described by six further structure functions W *;\Sigma 2 , xW *;\Sigma 3 , F2Z, and xF3Z, in lowest order. In O(ffs) also the longitudinal structure functions
+
+SL(x; Q2) = S2(x; Q2) \Gamma 2xS1(x; Q2); (3)
+
+2
+
+with S j F; G; H; W \Sigma , and FZ, contribute to the scattering cross sections.
+
+In the case of polarized lepton-polarized hadron scattering a similar amount of structure functions occurs 2. In the kinematical range of the present experiments the scattering cross section is determined by the jflj2 term, however, and in this approximation only the structure functions g1(x; Q2) and g2(x; Q2) contribute.
+
+Not all of the structure functions mentioned above can be determined at a sufficient accuracy combining different cross section measurements 3. The structure functions F l
+
+\Sigma p(d)
+
+2 (x; Q2), and the combinations W *N2 (x; Q2) j 12 iW +2 + W \Gamma 2 j, and
+
+xW *N3 (x; Q2) j 12 ixW +3 + xW \Gamma 3 j can be measured precisely in two variables (x; Q2) in a wide kinematical range. For them QCD analyses may be performed to determine the QCD parameter \Lambda and constraints on the gluon density.
+
+The measurement of the longitudinal structure functions F l
+
+\Sigma p(d)
+
+L (x; Q2) is more difficult and requires a variation of the CMS energy keeping x and Q2 fixed. A
+
+precise determination of this structure function is of special importance since it is directly related to the gluon density, see sect. 4.2. For other structure functions as xGl
+
+\Sigma p(d)
+
+3 , or F2Z, only the x-shape may be determined since they are measured from cross section differences, or, the reconstruction of the kinematical variables turns out
+
+to be difficult.
+
+The determination of the QCD and QED corrections to the different deep inelastic scattering processes is of great importance for the quantitative understanding of the nucleon structure. In the present paper we give a survey on the status of perturbative QED and QCD radiative corrections to deep inelastic scattering processes. We also include a discussion of the status of the determination of ffs, and of the QCD corrections to some exclusive processes, as the heavy flavour structure functions and J= production in lN scattering, which play an important role for the determination of the gluon density of the proton.
+
+2. QED Radiative Corrections to DIS The QED radiative corrections to the deep inelastic scattering cross sections may become rather larger in some kinematical ranges. They have to be precisely known to unfold the neutral and charged current structure functions from the scattering cross sections. The first dedicated calculation of the radiative corrections to deep inelastic eN scattering was performed by Mo and Tsai 4 and used in the analysis of the SLAC experiments. Later calculations were performed in refs. 5\Gamma 6 for l\Sigma N scattering. The detailed knowledge of QED and electroweak radiative corrections was of special importance also for the measurements of the electroweak parameters in deep inelastic *(*)N scattering 7\Gamma 14. With the advent of HERA the radiative corrections were partly recalculated and dedicated calculations for deep inelastic neutral and charged current e\Sigma p scattering were carried out by different groups using different techniques 15\Gamma 30. These approaches include both semi-analytical calculations 15\Gamma 27
+
+3
+
+and calculations based on Monte Carlo techniques 28\Gamma 30.
+
+Dominant contributions to the QED radiative corrections may be obtained using leading log (LLA) techniques 16\Gamma 24. This approach, which is based on the factorization of (collinear) fermion mass singularities, allows to determine the terms / ff ln(Q2=m2f ) in a straightforward way for different settings of the measured kinematical variables. Also higher order terms were calculated within this approach 21;24. The LLA QED radiative corrections may be described by
+
+d2oeLLA
+
+dxdy =
+
+d2oe0 dxdy +
+
+d2oel;1loop
+
+dxdy +
+
+d2oeC dxdy +
+
+d2oel;2loop
+
+dxdy +
+
+d2oel;?2;soft
+
+dxdy +
+
+d2oel;e
+
+\Gamma !e+
+
+dxdy + ::: (4) Here, l labels the type of bremsstarhlung, which is in lowest order either initial or final state radiation. In higher orders also products of initial and final state radiation terms contribute. In many situations final state radiation does not occur, or can be delt with in a cumulative way due to the calorimetric measurement of the scattered electron. Then all terms refer to initial state radiation only. The label C denotes the Compton-contributiona, i.e. the collinear term formed by low Q2 radiation of the virtual photon from the initial state hadron or quark lines. The soft contributions, ? 2; sof t, can be exponentiated. Starting with O(ff2) also terms due to e\Gamma ! e+ conversion are present in the leading logarithmic order.
+
+The first order terms are described by:
+
+d2oeini(fin);1loop
+
+dxdy =
+
+ff 2ss Le
+
+1Z
+
+0
+
+dzP (1)ee 8!:`(z \Gamma z0)J (x; y; Q2) d
+
+2oe0
+
+dxdy fififififix=^x;y=^y;S= ^S \Gamma
+
+d2oe0 dxdy 9=; ;
+
+(5) where
+
+P (1)ee = 1 + z
+
+2
+
+1 \Gamma z (6) denotes the non-singlet QED splitting function of a massless fermion into a fermion. The scale of the correction is set by the logarithm
+
+Le = ln Q
+
+2
+
+m2e \Gamma 1: (7) This notion reproduces the soft photon terms of complete calculations in leptonic variables (cf. e.g. 27). The shifted variables ^x; ^y, and the Jacobian J depend on the choice of the outer kinematical variables (see 27 for a summary of these terms).
+
+The Compton term is given by 17;18
+
+d2oeC dxldyl =
+
+ff3 xlS h1 + (1 \Gamma yl)
+
+2i ln Q2l
+
+M 2N !
+
+1Z
+
+xl
+
+dz
+
+z2
+
+z2 + (xl \Gamma z)2
+
+xl(1 \Gamma yl) Xf hqf (z; Q
+
+2l ) + _qf (z; Q2l )i
+
+(8) aThis term was already found in ref. 4.
+
+4
+
+for leptonic variables in LLA. A more refined expression was derived in ref. 22. LLA second order corrections are easily obtained by convoluting with the leading order NSsplitting function. Although the Compton-type contribution counts to the radiative corrections to deep inelastic scattering in an inclusive description, its experimental signature is rather different compared to typical deep inelastic events, showing a photon-electron pair which is nearly balanced in p? and little hadronic activity only 22. Such a signature can be easily tagged. Due to this one may even use these events to measure nucleon structure functions both at small x and small Q2.
+
+The second order corrections O((ffLe)2) are:
+
+d2oel;2loop
+
+dxdy = ^
+
+ff 2ss Le*
+
+2 Z 1
+
+0 dzP
+
+(2;1)ee (z) 8!:`(z \Gamma z0)J (x; y; z) d2oe0
+
+dxdy fififififix=^x;y=^y;S= ^S \Gamma
+
+d2oe0 dxdy 9=;
+
++ ` ff2ss '
+
+2 Z 1
+
+z0 dz 8!:L
+
+2eP (2;2)ee (z) + Le X
+
+f=l;q ln
+
+Q2 m2f P
+
+(2;3) ee;f (z)9=; J (x; y; z) d
+
+2oe0
+
+dxdy fififififix=^x;y=^y;S= ^S :
+
+(9) Here the different second order splitting functions are given by
+
+P (2;1)ee (z) = 12 hP (1)ee \Omega P (1)ee i (z)
+
+= 1 + z
+
+2
+
+1 \Gamma z ^2 ln(1 \Gamma z) \Gamma ln z +
+
+3 2 * +
+
+1 2 (1 + z) ln z \Gamma (1 \Gamma z); (10)
+
+P (2;2)ee (z) = 12 hP (1)efl \Omega P (1)fle i (z)
+
+j (1 + z) ln z + 12 (1 \Gamma z) + 23 1z (1 \Gamma z3); (11) P (2;3)ee;f (z) = Nc(f )Q2f 13 P (1)ee (z)` `1 \Gamma z \Gamma 2mfE
+
+e ' (12)
+
+denoting double-photon radiation, scattering of a fermion into a fermion by a collinear photon, and collinear fermion pair production. \Omega denotes the Mellin convolution
+
+A(x) \Omega B(x) = Z
+
+1
+
+0 dx1 Z
+
+1 0 dx2ffi(x \Gamma x1x2)A(x1)B(x2); (13) Qf is the fermion charge, and Nc(f ) = 3 for quarks, Nc(f ) = 1 for leptons, respectively.
+
+The soft-photon exponentiation is performed solving the non-singlet evolution equation in the range z ! 1 analytically (cf. e.g. 31). Since the terms up to O(ff2) were taken into account in eq. (9) already the corresponding contributions have to be subtracted. One obtains 24:
+
+d2oe(?2;soft)
+
+dxdy = Z
+
+1 0 dzP
+
+(?2)ee (z; Q2) 8!:`(z \Gamma z0)J (x; y; z) d2oe(0)
+
+dxdy fififififix=^x;y=^y;S= ^S \Gamma
+
+d2oe(0)
+
+dxdy 9=; ;
+
+(14)
+
+5
+
+with
+
+P ?2ee (z; Q2) = DNS (z; Q2) \Gamma ff2ss Le 21 \Gamma z ae1 + ff2ss Le ^116 + 2 ln(1 \Gamma z)*oe ;
+
+(15)
+
+DNS (z; Q2) = i(1 \Gamma z)i\Gamma 1 exp h
+
+1 2 i i
+
+3 2 \Gamma 2flE ji
+
+\Gamma (1 + i) ; (16) i = \Gamma 3 ln [1 \Gamma (ff=3ss)Le] : (17)
+
+Finally, the fermion conversion term in O(ff2L2e) reads 24:
+
+d2oe(2;e
+
+\Gamma !e+)
+
+dxdy = Z
+
+1 z0 dzP (z; Q
+
+2; e\Gamma ! e+)J (x; y; z) d2oe(0)
+
+dxdy fififififix=^x;y=^y;S= ^S ; (18)
+
+with the conversion rate given by
+
+P (z; Q2; e\Gamma ! e+) = ` ff2ss '
+
+2 L2
+
+eP (2
+
+;2) ee (z): (19)
+
+-0.5 -0.25
+
+0 0.25
+
+0.5 0.75
+
+1 1.25
+
+1.5 1.75
+
+2
+
+0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+
+y
+
+dNC(1)(x,y)
+
+0 0.025
+
+0.05 0.075
+
+0.1 0.125
+
+0.15 0.175
+
+0.2
+
+0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+
+y
+
+dNC (x,y)
+
+Figure 2: a) O(ff) initial state QED corrections to neutral current deep inelastic scattering for leptonic variables in LLA. b) initial state QED corrections using the double angle method. A z-cut of E = 35 GeV (cf. 24) is applied. Full lines: LLA corrections up to second order + soft exponentiation; dashed lines: 1st order LLA corrections.
+
+In figure 2 we illustrate the size of QED radiative corrections for two types of the measurement of the kinematical variables in the case of neutral current deep inelastic scattering. In the case of the (classical) leptonic variables x and Q2 are determined
+
+6
+
+from the measurement of the scattered lepton only. In the double angle method the scattering angles of the outgoing lepton and hadronic jet are used on the other handb. Whereas the radiative corrections for leptonic variables become very large at small x and high y, they behave flat in y in the case of the double angle method and are very small in the range x ^ 0:01, where the structure functions become rather large. Thus the latter set of variables behaves ideal in this respect.
+
+The different methods to calculate the QED radiative corrections have been compared in O(ff) for a variety of kinematical measurements and are well understood. In 2nd order so far only LLA results are available 21;24 for the full set of outer kinematical variables studied by the HERA experiments.
+
+3. The running coupling constant The strong coupling ffs(_2) is a central parameter in QCD. It is not an observable itself but the various hard scattering processes are often compared with respect to this quantity. Since it is scheme-dependent these comparisons have to be performed in a single renormalization scheme, as e.g. the MS-scheme 32. The running of ffs(_2) is determined by the renormalization group equation 33.
+
+dffs(_2)
+
+ln _2 = \Gamma
+
+fi0 4ss ff
+
+2s \Gamma fi1
+
+(4ss)2 ff
+
+3s \Gamma fi2
+
+(4ss)3 ff
+
+4s + : : : : (20)
+
+So far the contributions to the fi-function have been calculated up to 3-loop order in the MS-scheme, where the LO 34\Gamma 36, NLO 37;38, and NNLO 39;40 terms are given by
+
+fi0 = 11 \Gamma 23 Nf ; (21) fi1 = 102 \Gamma 383 Nf ; (22) fi2 = 28572 \Gamma 503318 Nf + 32554 N 2f : (23) Nf denotes the number of active flavours. The solution of (20) reads:
+
+1 ffs(Q2) =
+
+1 ffs(Q20) +
+
+fi0 4ss ln
+
+Q2 Q20 ! + \Phi
+
+(n)(ffs(Q2); fii) \Gamma \Phi (n)(ffs(Q20); fii) (24)
+
+The superscript n denotes the term at which the expansion of the fi-function in (20) was truncated. In NNLO one obtains
+
+\Phi (2)(x; fii) = \Gamma fi18ssfi
+
+0 ln fififififi
+
+16ss2x2 16ss2fi0 + 4fi1ssx + fi2x2 fififififi
+
++ fi
+
+21 \Gamma 2fi0fi2
+
+8ssfi0q4fi2fi0 \Gamma fi21 arctan 0@
+
+2ssfi1 + fi2x 2ssq4fi0fi2 \Gamma fi21 1A : (25) bFor other types of measurements see 27 and references therein.
+
+7
+
+Note that
+
+Nf ^ 5 : 4fi0fi2 \Gamma fi21 ? 0
+
+Nf = 6 : 4fi0fi2 \Gamma fi21 ! 0: (26)
+
+Table 1: Summary of recent measurements of ffs (from 42) and results from lattice calculations (cf. 43).
+
+hQi ffs(Q) Process [ GeV] ffs(M 0Z) exp. theor. Theory
+
+GLS (CCFR) 1.73 0:107 + 0:007\Gamma 0:009 + 0:006\Gamma 0:007 + 0:004\Gamma 0:006 NNLO Ro/ (CLEO) 1.78 0:116 \Sigma 0:003 0.002 0.002 NNLO Ro/ (ALEPH) 1.78 0:122 \Sigma 0:003 0.002 0.002 NNLO Ro/ (OPAL) 1.78 0:123 \Sigma 0:003 0.002 0.002 NNLO Ro/ (P. Raczka) 1.78 0:120 \Sigma 0:003 0.002 0.002 NNLO jc ! flfl (CLEO) 2.98 0:101 \Sigma 0:010 0.008 0.006 NLO \Upsilon (1S) (CLEO) 9.46 0:111 \Sigma 0:006 0.001 0.006 NLO ep ! jets (H1) 5-60 0:123 \Sigma 0:018 0.014 0.010 NLO pp ! W jets (D0) 80.6 0:121 \Sigma 0:014 0.012 0.005 NLO DIS: *F2; xF3 5 0:111 \Sigma 0:006 0.004 0.004 NLO _F2 7.1 0:113 \Sigma 0:005 0.003 0.004 NLO e+e\Gamma ! jets (CLEO) 10.53 0:113 \Sigma 0:006 0.002 0.006 NLO e+e\Gamma ! Z0: scal. viol. (ALEPH) 91.2 0:127 \Sigma 0:011 - - NLO ev. shapes (SLD) 91.2 0:120 \Sigma 0:008 0.003 0.008 resum.
+
+fl(Z0 ! had:) (LEP) 91.2 0:127 \Sigma 0:006 0.005 +0:003\Gamma 0:004 NNLO LGT 0.111 to 0.115 0.005 to 0.007 43
+
+One may solve eq. (20) using ffs(Q0) j ffs(MZ ) as input. Due to the fact that Nf = 5 for Q ! 10 GeV the NNLO correction diminishes the NLO solution slightly at low values of Q, cf. 41.
+
+In table 1 recent measurements of ffs (cf. 42) from different Q ranges are compared, which were evaluated at the Z0 scale. We also added the range of recent results from lattice calculations (LGT) (cf. 43). The most precise measurements stem from the various high statistics deep inelastic scattering experiments at the one side, and high precision measurements of different observables in e+e\Gamma annihilation, on the other side. The average values for these measurements are:
+
+DIS : ffs(MZ ) = 0:112 \Sigma 0:004 (27) e+e\Gamma : ffs(MZ ) = 0:121 \Sigma 0:004; (28)
+
+8
+
+showing a 2oe difference at present. The results from lattice calculations yield values of ffs(MZ) = 0:111:::0:115. Here, the systematical error is estimated to be of O(0:005:::0:007) still 43. Whereas the pure gauge-field contributions are rather well understood the quark terms deserve more detailed investigations in the future to obtain decisive results.
+
+4. The Evolution Equation The structure functions, Fj(x; Q2), describing the deep inelastic scattering cross sections may be expressed as a convolution of the bare parton densities, ^fi, and hard scattering cross sections, oeij,
+
+Fj(x; Q2) = ^fi(x) \Omega oeij(ffs; Q2=_2; x; "): (29) The functions oeij contain initial state mass- and ultraviolet singularities. If the calculation is performed in 4\Gamma " dimensions they emerge as poles in ". The mass singularities can be factorized and absorbed into the bare parton densities 44. The ultraviolet singularities are removed by the renormalization of the bare coupling constant, ffs. In this way two scales, the mass factorization scale, _1, and the renormalization scale, _2, are introduced. One further separates oeij into its pole-, \Gamma ki , and non-pole parts, Cjk. This separation is obviously arbitrary and introduces a scheme-dependence. One obtains:
+
+Fj(x; Q2) = ^f i(x) \Omega \Gamma ki (ffs(_22); _21=_2; _21=_22; ") \Omega Cjk(ffs(_22); Q2=_21; _21=_22; x): (30) The first two factors on the rhs of (30) define the renormalized parton densities, f i, which are scheme-dependent. One may identify the scales _1 = _2 = M and obtains
+
+Fj(x; Q2) = f k(x; ffs(M 2); M 2=_2) \Omega Cjk(ffs(M 2); Q2=M 2; x): (31) Let us transform the above equations to moment space byZ
+
+1 0 dxx
+
+N\Gamma 1\Delta (x) j \Delta (N ): (32)
+
+The invariance of the structure functions Fi against the choice of M may be expressed by "
+
+M @@M + fi(g) @@g \Gamma 2fl(g)# Fj(N ) = 0 (33)
+
+leading to "
+
+M @@M + fi(g) @@g + flN^ (g) \Gamma 2fl(g)# fk(N ) = 0; (34)"
+
+M @@M + fi(g) @@g \Gamma flN^ (g)# Cjk(N ) = 0; (35)
+
+9
+
+where we use a generic notation for the anomalous dimensions, flN^ . Here, eq. (34) describes the evolution of the parton densities, which results directly from the renormalization group equation. The anomalous dimensions fl^ are the Mellin transforms of the splitting functions, which will be defined below.
+
+Let us introduce some combinations of parton densities:
+
+q\Gamma i (x; Q2) = qi(x; Q2) \Gamma qi(x; Q2) (36) q+i (x; Q2) = qi(x; Q2) + qi(x; Q2) (37)
+
+q+(x; Q2) =
+
+NfX
+
+i=1
+
+q+i (x; Q2) (38)
+
+~q\Gamma i (x; Q2) = q+i (x; Q2) \Gamma 1N
+
+f q
+
++(x; Q2): (39)
+
+q\Gamma i and ~q\Gamma i denote flavour non-singlet combinations, and q+ is the singlet density. The Mellin transform of (34) yields the non-singlet and singlet evolution equations in x space:
+
+d d ln Q2 q
+
+\Gamma i (x; Q2) = ffs(Q2)
+
+2ss P
+
+\Gamma (x; ffs) \Omega q\Gamma i (x; Q2) (40)
+
+d d ln Q2 ~q
+
+\Gamma i (x; Q2) = ffs(Q2)
+
+2ss P
+
++(x; ffs) \Omega ~q\Gamma i (x; Q2) (41)
+
+d d ln Q2 "
+
+q+(x; Q2) G(x; Q2) # =
+
+ffs(Q2)
+
+2ss P (x; ffs) \Omega "
+
+q+(x; Q2) G(x; Q2) # : (42)
+
+The splitting functions, P \Sigma and P can be expressed by the following perturbative series:
+
+P \Sigma (x; ffs) = P (0)NS + ffs2ss P \Sigma ;(1)(x) + ` ffs2ss '
+
+2 P \Sigma ;(2)(x) + ::: (43)
+
+P (x; ffs) = P (0) + ffs2ss P (1)(x) + ` ffs2ss '
+
+2
+
+P (2)(x) + ::: : (44)
+
+Let us change the evolution scale Q j M introducing
+
+t := \Gamma 2fi
+
+0 ln
+
+ffs(Q2) ffs(Q20) (45) ffs(Q2)
+
+2ss d ln Q
+
+2 = 1 \Gamma fi1
+
+2fi0
+
+ffs(Q2)
+
+2ss + :::! dt: (46)
+
+Then, the evolution equations may be rewritten as:
+
+q\Gamma i (x; t) := E\Gamma (x; t) \Omega q\Gamma i (x) (47) q+i (x; t) := E+(x; t) \Omega q+i (x; t) + 1N
+
+f hE11(x; t) \Gamma E
+
++(x; t)i \Omega q+(x)
+
+10
+
++ 1N
+
+f E
+
+12(x; t) \Omega G(x) (48)"
+
+q+i (x; t) G(x; t) # = E(x; t) \Omega "
+
+q+i (x; t) G(x; t) # ; (49)
+
+where we introduced the evolution operators E\Sigma and E obeying the initial conditions
+
+limt!0 E\Sigma (x; t) = ffi(1 \Gamma x) (50) limt!0 E\Sigma (x; t) = 1ffi(1 \Gamma x): (51)
+
+They allow to separate the non-perturbative input densities q\Sigma i (x); q+(x) and G(x) from those terms which can be calculated perturbatively. The evolution operators itself obey the evolution equations:
+
+d dt E
+
+\Sigma (x; t) = (PNS(x) + ffs(t)
+
+2ss R
+
+\Sigma (x) + :::) \Omega E\Sigma (x; t) (52)
+
+d dt E(x; t) = (P
+
+(0)(x) + ffs(t)
+
+2ss R(x) + :::) \Omega E(x; t); (53)
+
+where
+
+R\Sigma (x) = P \Sigma ;(1)(x) \Gamma fi12fi
+
+0 P
+
+(0) NS (54)
+
+R(x) = P (1)(x) \Gamma fi12fi
+
+0
+
+P (0): (55)
+
+4.1. Splitting Functions The well-known leading order singlet splitting functions are given by45\Gamma 50 :
+
+P (0)qq (z) = CF " 1 + z
+
+2
+
+(1 \Gamma z)+ +
+
+3 2 ffi(1 \Gamma z)# (56)
+
+P (0)qg (z) = Tf Nf hz2 + (1 \Gamma z)2i (57)
+
+P (0)gq (z) = CF 1 + (1 \Gamma z)
+
+2
+
+z (58) P (0)gg (z) = 2CA " 1 \Gamma zz + z(1 \Gamma z)
+
++ # +
+
+1 2 fi0ffi(1 \Gamma z); (59)
+
+and the non-singlet splitting funtion obeys P (0)NS (z) j P (0)qq (z). Here, CA = Nc = 3, CF = (N 2c \Gamma 1)=Nc, and Tf = 1=2. In leading order the splitting functions for space and timelike virtualities are the same 31. This relation is violated in higher orders.
+
+11
+
+The non-singlet splitting functions in NLO51\Gamma 55 for spacelike virtualities are given by:
+
+P \Sigma (z; ffs) = bP \Sigma (z; ffs) \Gamma ffi(1 \Gamma z) Z
+
+1
+
+0 dz bP
+
+\Gamma (z; ffs); (60)b
+
+P \Sigma (z; ffs) = bPqq(z; ffs) \Sigma bPqq(z; ffs); (61) where the superscript \Sigma labels the type of non-singlet evolution, see eqs. (40, 41).b
+
+Pqq(z; ffs) = ` ffs2ss ' CF 1 + z
+
+2
+
+1 \Gamma z !
+
++ ` ffs2ss '
+
+2 ^C2
+
+F PF (z) + 12 CF CAPG(z) + CF Nf Tf PNf (z)* (62)b
+
+Pqq(z; ffs) = ` ffs2ss '
+
+2 ^C2
+
+F \Gamma 12 CF CA* PA(z) (63)
+
+PF (z) = \Gamma 2 1 + z
+
+2
+
+1 \Gamma z ln z ln(1 \Gamma z) \Gamma `
+
+3 1 \Gamma z + 2z' ln z \Gamma
+
+1 2 (1 + z) ln
+
+2 z
+
+\Gamma 5(1 \Gamma z) (64) PG(z) = 1 + z
+
+2
+
+1 \Gamma z ^ln
+
+2 z + 11
+
+3 ln z +
+
+67
+
+9 \Gamma
+
+1 3 ss
+
+2* + 2(1 + z) ln z + 40
+
+3 (1 \Gamma z) (65)
+
+PNf (z) = \Gamma 23 " 1 + z
+
+2
+
+1 \Gamma z `ln z +
+
+5 3 ' + 2(1 \Gamma z)# (66)
+
+PA(z) = 2 1 + z
+
+2
+
+1 \Gamma z Z
+
+1=(1+z) z=(1+z)
+
+du
+
+u ln `
+
+1 \Gamma u
+
+u ' + 2(1 + z) ln z + 4(1 \Gamma z) (67)
+
+The NLO singlet splitting functions were derived in refs. 55\Gamma 58 for the unpolarized case both for space- and timelike virtualities.
+
+4.2. Coefficient Functions In the calculation of the higher order corrections to the structure functions the coefficient functions are required (cf. eq. (31)). These are scheme-dependent quantities. In the MS-scheme they read in O(ffs) 59:
+
+C(1)F 2 (z) = CF " 1 + z
+
+2
+
+1 \Gamma z `ln
+
+1 \Gamma z
+
+z \Gamma
+
+3 4 ' +
+
+1 4 (9 + 5z)#+ (68)
+
+C(1)F 1 (z) = C(1)F 2 (z) \Gamma 2zCF (69) C(1)F 3 (z) = C(1)F 2 (z) \Gamma CF (1 + z) (70)
+
+C(1)G2 (z) = 2Nf Tf aehz2 + (1 \Gamma z)2i ln 1 \Gamma zz \Gamma 1 + 8z(1 \Gamma z)oe (71)
+
+C(1)G1 (z) = C(1)G2 (z) \Gamma 8Nf Tf z(1 \Gamma z): (72)
+
+12
+
+The O(ff2s) contributions to the coefficient functions were calculated in refs. 60\Gamma 63 for the structure functions F2, FL, and xF3. Whereas in refs. 61\Gamma 63 the coefficient functions were derived in z-space, the moments M njn=2;:::10 were calculated for FL and F2 in ref. 60. The results of both calculations do fully agree.
+
+To illustrate the numerical importance of the O(ff2s) calculation we compare in figure 3 the O(ffs) and the O(ff2s) result for the structure function FL(x; Q2) in the MS-scheme using the parametrization 64 for the parton densities.
+
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+
+10 -4 10 -3 10 -2 10 -1 x FL(x,Q 2 )
+
+Figure 3: Comparison of QCD corrections to the structure function FL(x; Q2). O(ffs) (dashed line); O(ff2s) (full line); from 65.
+
+The NLO correction leads to a depletion relatively to the LO result by , 15% at x , 10\Gamma 4. In the small x range FL(x; Q2) is widely determined by the gluon density. The O(ff2s) corrections are not negligible and have to be taken into account for the unfolding of the gluon density from a measurement of FL(x; Q2).
+
+4.3. O(ff3s ) corrections For a series of observables related to deep inelastic scattering QCD corrections up to 3-loop order were calculated. The quantities which were studied so far are moments of structure functions and specific combinations which are related to sum-rules 66\Gamma 68 of structure functions.
+
+The O(ff3s) corrections to the Bjorken-69, the Gross-Llewellyn Smith-70, and the polarized Bjorken71 sum rules are:Z
+
+1 0 dx hF
+
+*p 1 (x; Q2) \Gamma F
+
+*p 1 (x; Q2)i = 1 \Gamma 23 ff
+
+s
+
+ss \Gamma 2:3519 `
+
+ffs
+
+ss '
+
+2 \Gamma 8:4852 ` ffs
+
+ss '
+
+3 + ::: (73)
+
+Z 1
+
+0 dx hF
+
+*p3 (x; Q2) \Gamma F *p3 (x; Q2)i = 6 (1 \Gamma ffs
+
+ss + `
+
+ffs
+
+ss '
+
+2 `\Gamma 55
+
+12 +
+
+1 3 Nf '
+
+13
+
++ ` ffsss '
+
+3 ^\Gamma 13841
+
+216 \Gamma
+
+44
+
+9 i3 +
+
+55
+
+2 i5
+
++ Nf ` 100091296 + 9154 i3 \Gamma 53 i5' \Gamma 115648 N 2f *oe (74)Z 1 0 dx hg
+
+ep1 (x; Q2) \Gamma gen
+
+1 (x; Q2)i = 13 fififififi g
+
+A
+
+gV fififififi ae1 \Gamma
+
+ffs
+
+ss :::
+
++ ` ffsss '
+
+3 ^:::N
+
+f ` 103391296 + 6154 i3 \Gamma :::' :::*)(75)
+
+Note the small difference in the correction factors between the Gross-Llewellyn-Smith and the polarized Bjorken sum rules in the Nf term in O(ff3s).
+
+These calculations are performed by fast formula manipulation programs as FORM 72. Due to the complexity of the problem they request hundred(s) of CPU hours on present day computers. The non-singlet moments M njn=2;4;6;8 of the structure functions F2(x; Q2) and FL(x; Q2) were also calculated 73. The calculation of still higher moments for the non-singlet case and the first singlet moments of these structure functions is being performed currently 74.
+
+Precise experimental data for the sum-rules and moments quoted will allow very concise tests of QCD in its perturbative range.
+
+5. Resummation of small x contributions At small values of x contributions to the splitting functions show a singular behaviour. This is both the case for the singlet and non-singlet splitting functions. Resummations of large terms are also required at large x 75. Here we will deal with the small x behaviour only.
+
+5.1. Singlet terms In the singlet case the singularity in the splitting function is of the type P / (1=x)ffls lnl\Gamma 1 x. In leading order these contributions are resummed by the BFKL equation 76c. The leading singular terms in the gluon anomalous dimension, flgg, to all orders in ffs are given by the solution of
+
+N \Gamma 1 = ffsO/ [flL(N; ffs)] ; (76)
+
+O/(z) = 2(1) \Gamma (z) \Gamma (1 \Gamma z); (77)
+
+with ffs = CAffs=ss. The solution of (76) is multivalued and one has to select a single Riemann-sheet. This is done imposing the condition
+
+limjNj!1 flL(N; ffs) / ffsN \Gamma 1 ; N ffl C: (78) cFor a recent review see ref. 77.
+
+14
+
+In figure 4 real and imaginary part of this solution are shown. Asymptotically, i.e. for A j ffs=(N \Gamma 1) o/ 1, one obtains:
+
+flL(N; ffs) = ffsN \Gamma 1 (1 + 2
+
+1X
+
+k=1
+
+i2k+1fl2k+1L (N; ffs))
+
+j A + 2i3A4 + 2i5A6 + 12i23 A7 + : : : : (79) The solution of (76) using (78) contains three branch points. They are solutions of the equation (z j flsL):
+
+0(z) \Gamma ss
+
+2
+
+2
+
+1 sin2 ssz = 0; (80) and are 78;79 given by:
+
+flsL1 = 1=2 (81) flsL2;3 = \Gamma 0:4252 \Sigma 0:4739i : (82)
+
+The former value is seen in figure 4 as the `roof' in Refl, the latter ones are the edges at ae = \Gamma 1:4105 \Sigma 1:9721i.
+
+-0.6 -0.4 -0.2
+
+0 0.2 0.4 0.6
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+Im r
+
+Reg
+
+-1 -0.75
+
+-0.5 -0.25
+
+0 0.25
+
+0.5 0.75
+
+1
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+Im r
+
+Im g
+
+Figure 4: The solution of eq. (76) for complex values of ae j (N \Gamma 1)=ffs. a) Re(flL); b) Im(flL), cf. 79. The resummation for the most singular terms in the singlet anomalous dimension takes the form 80 :
+
+flab(N; ffs) =
+
+1X
+
+k=1 `
+
+ffs N \Gamma 1 '
+
+k A(k)
+
+ab +
+
+1X
+
+k=1
+
+ffs ` ffsN \Gamma 1 '
+
+k B(k)
+
+ab + O ff2s ` ff
+
+s
+
+N \Gamma 1 '
+
+k! : (83)
+
+The LO and NLO terms to this matrix equation are given by
+
+\Gamma L(N ) = 0 0CF
+
+CA flL(N ) flL(N ) ! (84)
+
+15
+
+\Gamma NL(N ) =
+
+CF CA flNL(N ) \Gamma
+
+2ffs
+
+3ss Tf flNL(N )fl
+
+ffi(N ) flj(N ) ! : (85)
+
+So far only the quark contributions in the NLO terms are calculated. These, and the LO terms, are functions of flL. An approximate solution for flNL reads 80d
+
+flNL(N ) ' 2ffs3ss Tf (1 + 2:17 ffsN \Gamma 1 + 2:30 ` ffsN \Gamma 1 '
+
+2 + 8:27 ` ffs
+
+N \Gamma 1 '
+
+3 + :::) : (86)
+
+One may use the expression (83), supplemented by the terms contributing to (flab) up to NLO (cf. section 4), and solve the singlet evolution equation. This was done in 83;78 assuming a flat input at Q20 = 4 GeV2.
+
+Figure 5: Resummed predictions for the structure function F2(x; Q2) 78, see text. In figure 5 the behaviour of F2(x; Q2) due to different contributions to the evolution is illustrated. The evolution of the flat input using the pure LO and NLO terms leads to a small rise at low x. The resummed LO terms affect F2 through the gluon density only and lead to a correction which is rather small if compared to the correction due to the resummed NLO terms, which affect the quark densities directly. Here, for the yet unknown entries flffi;j in eq. (85) the NLO terms were used. Since the resummation (83) is performed for the most singular terms at small x only, momentum conservation has to be restored explicitely. This is possible in different ways. One may either introduce an appropriate term / ffi(1 \Gamma z) in the splitting functions or multiply the anomalous dimensions by (1 \Gamma N ). The latter solution is illustrated by the full line in figure 5, while the former is shown as the dotted line. The large difference between the two solutions shows that it is likely that sub-dominant terms may be as important for the scaling violations of F2 as the singular terms at small x.
+
+dRelated numerical studies were performed in ref. 81;82 also.
+
+16
+
+A unified form for a leading order evolution eqution accounting both for the small x terms due to the BFKL equation and the evolution kernels 45\Gamma 50 was found in 84\Gamma 86. It is based on the angular ordering of the gluon cascade. In the limit of small x the BFKL equation is obtained, while for medium and large values of x this equation turns into the LO evolution equation of pure gluodynamics, i.e. the angular ordering turns into strong ordering of k?. This concept was worked out in leading order so far. A numerical illustration of this resummation was given in 87.
+
+5.2. Non-singlet terms As shown in sect. 4.1 the most singular terms in the non-singlet splitting functions in O(ffs) and O(ff2s) behave as ffs(ffs ln2 x)k. In ref. 88 a resummation of these contributions to the \Sigma combinations (cf. eq. (60)) of non-singlet structure functions was derived. Recently very sizeable corrections 89 due to this resummation have been claimed both for unpolarized and polarized structure functions.
+
+Similar to the considerations in section 5.1 the resummation can be studied in the context of the renormalization group equation, see ref. 90. Unlike the case of the BFKL equation the present resummation deals not with the anomalous dimension but with the structure function itself. Therefore one has to consider the evolution equation for the non-singlet structure functions here:
+
+@F \Sigma NS;i(x; as)
+
+@as = \Gamma
+
+1 fi0a2s K
+
+\Sigma i (x; as) \Omega F \Sigma NS;i(x; as); (87)
+
+where as = ffs(Q2)=(4ss). In NLO the evolution kernels K\Sigma NS;1 are
+
+K\Sigma i;1(x; as) = PNS;0(x)as + "P \Sigma NS;1(x) \Gamma fi1fi
+
+0 P
+
+NS;0(x) \Gamma fi0c\Sigma i;1(x)# a2s (88)
+
+The labels \Sigma denote the type of the non-singlet evolution. The combination F ep2 \Gamma F en2 , e.g., belongs to the `+0 type, and xF *N3 +xF *N3 and gep1 \Gamma gen1 are `\Gamma 0 type combinations. In the latter case the splitting functions obey R 10 dxP \Gamma l (x) = 0 in each order in ffs due to fermion number conservation.
+
+The resummation of the most singular parts in the kernels K \Sigma i (x; as) read in N -space 88:
+
+\Gamma +NS;x!0(N ) = \Gamma 2N 8!:1 \Gamma s1 \Gamma 2ffsCFssN 2 9=; (89)
+
+\Gamma \Gamma NS;x!0(N ) = \Gamma 2N 8!:1 \Gamma vuut1 \Gamma 2ffsCFssN 2 "1 \Gamma 2NcffsssN ddN ln iez
+
+2=4D\Gamma 1=2N
+
+2c (z)j#9=; ;
+
+(90) where N = zqffs=2, and ffs = Ncffs=ss. Dp(x) denotes the function of the parabolic cylinder. Up to O(ff2s) the coefficient functions in the MS-scheme behave at most
+
+17
+
+/ ln2k\Gamma 1 x. Therefore the contributions to K\Sigma NS;x!0(x; as) can be directly compared with the results from fixed order perturbation theory at least up to NNLO in the MS-scheme. These are known up to NLO and are found to agree 90.
+
+f = F2 ep - F2 en
+
+x Q2 = 104 GeV2 Q2 = 100 GeV2 Q2 = 10 GeV2
+
+-f NLO f NLO
+
+\Delta f 10 -6 10 -5 10 -4 10 -3 10 -2 10 -1
+
+10 -5 10 -4 10 -3 10 -2 10 -1 1
+
+f = g1 ep - g1 en
+
+x
+
+f NLO f (A) f (B)
+
+104 = Q2(GeV2) 100 10
+
+0.5 1 2
+
+5 10
+
+0.5 0.60.7
+
+0.80.9
+
+1
+
+2 3 4 5 67
+
+89 10
+
+10 -5 10 -4 10 -3 10 -2 10 -1 1 Figure 6: The small-x Q2 evolution of non-singlet structure functions in NLO and the correction due to the resummed kernels eqs. (89,90)90: a) F ep2 \Gamma F en2 ; b) gep1 \Gamma gen1 . The labels A and B refer to the way in which fermion number conservation is restored. A: \Gamma \Gamma (N; as) ! \Gamma \Gamma (N; as) \Gamma \Gamma \Gamma (1; as), B: \Gamma \Gamma (N; as) ! \Gamma \Gamma (N; as) \Delta (1 \Gamma N ).
+
+In figure 6 we compare the evolution for + and \Gamma non-singlet combinations of structure functions in NLO with the resummed contributions beyond NLO. The latter terms yield corrections at the level of O(1%) in the accessible kinematical ranges (cf. 91). Moreover, in the case of \Gamma type combinations different possible ways to restore fermion number conservation lead to a variation of the terms beyond NLO by a factor of three. This signals that yet unknown medium-x contributions to the evolution kernels may be as important as the small x terms. A similar behaviour was observed in the case of the singlet terms in sect. 5.1.
+
+6. Heavy flavour contributions to structure functions In lowest order the contributions to the heavy flavour structure functions F2;L(x; Q2) for the jflj2 term in neutral current deep inelastic scattering are described by the diagrams due to photon-gluon fusion. They are given by
+
+F QQ2;L (x; Q2; m2Q) = 2e2Qx ffs(_
+
+2)
+
+2ss Z
+
+1 ax
+
+dy
+
+y C
+
+Q g;2;L xy ; m
+
+2Q
+
+Q2 ! G(y; _
+
+2); (91)
+
+where
+
+CQg;2 z; M
+
+2Q
+
+Q2 ! =
+
+1 2 ("z
+
+2 + (1 \Gamma z)2 + z(1 \Gamma 3z) 4m
+
+2Q
+
+Q2 \Gamma z
+
+2 8m
+
+2Q
+
+Q4 # ln
+
+1 + fi 1 \Gamma fi
+
++ fi "\Gamma 1 + 8z(1 \Gamma z) \Gamma z(1 \Gamma z) 4m
+
+2Q
+
+Q2 #) ; (92)
+
+18
+
+CQg;L z; M
+
+2Q
+
+Q2 ! = \Gamma z
+
+2 4m
+
+2Q
+
+Q2 ln
+
+1 + fi 1 \Gamma fi + 2fiz(1 \Gamma z); (93)
+
+with a = 1 + 4M 2Q=Q2 and fi2 = 1 \Gamma (4m2Q=Q2)z(1 \Gamma z)\Gamma 1. These contributions and the other LO terms were derived in refs. 92\Gamma 99.
+
+The NLO contributions were calculated in ref. 100\Gamma 103. Phenomenological studies can be found in 104;105. The NLO corrections stabilize the numerical values of the scattering cross section with respect to the choice of the factorization scale.
+
+In figure 7 numerical results are shown for the LO and NLO contributions to F cc2 (x; Q2) 101 illustrating the size of the NLO corrections vs the LO term.
+
+.0001 .001 .01 .1 1
+
+.0001.001.01.1 1
+
+x
+
+Figure 7: The x-dependence of F LO;cc2 (x; Q2; m2c) (lower pair) and F NLO;cc2 (x; Q2; m2c) (upper pair) at fixed Q2. The solid lines are for Q2 = 100 GeV2 and the dashed lines are for Q2 = 10 GeV2; (from 101).
+
+7. J= production As in the case of heavy flavour production from the measurement of the deep inelastic production cross section of J= particles the gluon density can be determined. In lowest order the cross section for the photoproduction case is given by 106
+
+doe0
+
+dt1 =
+
+128ss2
+
+3
+
+ffff2se2c
+
+s2 M
+
+2J= j\Phi (0)j2
+
+MJ=
+
+s2s21 + t2t21 + u2u21
+
+s21t21u21 (94)
+
+in the colour-singlet model. Here we used the abbrevation ri = r \Gamma M 2J=; r j s; t; u. The scattering cross section for finite photon virtualities (Q2 ? 0) was derived in 107;108. At a photon beam energy of Efl = 150 GeV, e.g., the production cross section is lowered by a factor of , 7 for Q2 = 20 GeV2 compared to Q2 = 0.
+
+Recently the NLO corrections to the photoproduction cross section have been calculated 109;110. A stabilization of the scale behaviour in the range Q2=m2c ? 1:5 was obtained in comparison with the leading order result.
+
+19
+
+Figure 8: The total cross section oe(fl + p ! J= + X) as a function of the photon-proton CMS energy for different parametrizations of the parton densities (from 110).
+
+In figure 8 the total production cross section (NLO) is shown and compared with recent measurements at HERA.
+
+8. QCD corrections to polarized structure functions
+
+The leading order singlet splitting functions for polarized deep inelastic scattering 111;112;48 are :
+
+P (0)qq (z) = CF " 1 + z
+
+2
+
+(1 \Gamma z)+ +
+
+3 2 ffi(1 \Gamma z)# (95)
+
+P (0)qg (z) = Tf Nf hz2 \Gamma (1 \Gamma z)2i (96)
+
+P (0)gq (z) = CF 1 \Gamma (1 \Gamma z)
+
+2
+
+z (97) P (0)gg (z) = CA " 2(1 \Gamma z)
+
++ \Gamma 4z + 2# +
+
+fi0
+
+2 ffi(1 \Gamma z) (98)
+
+Again the non singlet splitting function obeys PNS (x) j Pqq(x). The non-singlet splitting functions in NLO are known from the unpolarized case (see sect. 4.1) already. Recently also the singlet splitting functions in NLO were calculated 113 in the MS-scheme. The result of this calculation has been confirmed in 114 recently. It is interesting to note that eqs. (96, 97) differ from eqs. (57, 58) by relative signs in some of the terms. A common characteristics of these quantities is their leading singularity behaviour at small x. Unlike the unpolarized case the Mellin transform of the leading terms behave , 1=N k .
+
+The LO coefficient functions in the MS-scheme are115\Gamma 117
+
+Cq;NS(z) = ffi(1 \Gamma z) + ffs4ss CF (4 ln(1 \Gamma z)1 \Gamma z !
+
++
+
+\Gamma 3 ` 11 \Gamma z '
+
++ \Gamma 2(1 + z) ln(1 \Gamma z)
+
+\Gamma 2 1 + z
+
+2
+
+1 \Gamma z ln(z) + 4 + 2z \Gamma ffi(1 \Gamma z)(4i(2) + 9)) ; (99)
+
+20
+
+Cg(z) = ffs4ss Nf Tf f4(2z \Gamma 1) [ln(1 \Gamma z) \Gamma ln(z)] + 4(3 \Gamma 4z)g : (100) The NLO coefficient functions were calculated in ref. 118.
+
+With these quantities at hand the scaling violations of the structure function g1(x; Q2) can be studied up to NLO. This has been done recently119;120 extending earlier studies in leading order. Still the parametrizations of the polarized parton densities do widely vary. Particularly this holds for extrapolations to the small x and large Q2 ranges.
+
+-20 -17.5
+
+-15 -12.5
+
+-10 -7.5
+
+-5 -2.5
+
+0 2.5
+
+10 -4 10 -3 10 -2 10 -1 1x g1p (x,Q 2 )
+
+10 #
+
+-2 -1
+
+0 1 2 3 4 5
+
+10 -4 10 -3 10 -2 10 -1 1x g1p (x,Q 2 )
+
+10 # Figure 9: LO Parametrizations of the structure function gp1(x; Q2) in the range x ? 10\Gamma 4. Full line: Q2 = 10 GeV2, dashed line: Q2 = 102 GeV2, dotted line: Q2 = 103 GeV2, dash-dotted line: Q2 = 104 GeV2 (cf. 91); a) parametrization ref. 121; b) parametrization ref. 122.
+
+A systematic collection of the parametrizations for polarized parton densities and their evolution in LO (later than 1989) can be found in 123.
+
+9. Open Problems At the end of this survey I would like to list a series of open problems, the solution of which is of importance for the forthcoming development of the understanding of deep inelastic scattering in the perturbative range.
+
+Concerning the QED corrections O(ff2Le) terms should be calculated for sets of variables in which the 2nd order LLA terms are still large. Furthermore, complete O(ff) calculations should be performed for some sets of kinematical variables for which only LLA results exist to further improve the numerical accuracy.
+
+The knowledge of the 3-loop non-singlet and singlet splitting functions for unpolarized deep inelastic scattering would be important to perform QCD tests at the level of NNLO corrections using measurements of the structure functions F2(x; Q2), W2(x; Q2), and xW3(x; Q2). As a by-product of these calculations also a partial test of the validity of the resummations discussed in section 5 would be obtained.
+
+The calculation of the NLO corrections to the BFKL equation are needed for
+
+21
+
+futher studies of the behaviour of the anomalous dimension at small x.
+
+NLO corrections should be calculated for different processes in polarized lepton- polarized nucleon scattering. They are also not yet performed for deep inelastic leptoproduction of J= particles at Q2 ? 0.
+
+Besides of the twist-2 contributions to structure functions being discussed in the present paper the understanding of higher twist terms is important. Particularly gluonic twist-4 contributions to F2(x; Q2) would be interesting to be derived in a complete calculation to compare with results obtained in Regge approaches for the limit of small x. These terms may play an important role in understanding the screening of the gluon density.
+
+Acknowledgements I would like to thank W.L. van Neerven, S. Riemersma, and A. Vogt for interesting discussions.
+
+10. References
+
+1. E. Derman, Phys. Rev. D7 (1973) 2755. 2. M. Anselmino, P. Gambino, and J. Kalinowski, Z. Physik C64 (1994) 267. 3. For a review cf. J. Bl"umlein, Surveys in High Energy Physics 7 (1994) 181. 4. L. Mo and Y. Tsai, Rev. Mod. Phys. 41 (1969) 205. 5. D. Bardin, O. Fedorenko, and N. Shumeiko, J. Phys. G7 (1981) 1331. 6. M. Consoli and M. Greco, Nucl. Phys. B186 (1981) 519. 7. A. DeRujula, R. Petronzio, and A. Savoy-Navarro, Nucl. Phys. B154 (1979)
+
+394. 8. W. Marciano and A. Sirlin, Phys. Rev. D22 (1980) 2695; E: D31 (1985) 213;
+
+Nucl. Phys. B189 (1981) 442. 9. S. Sarantakos, A. Sirlin, and W. Marciano, Nucl. Phys. B217 (1983) 84. 10. J. Wheater and C. Llewellyn-Smith, Phys. Letters B105 (1981) 486; Nucl.
+
+Phys. B208 (1982) 27; E: B226 (1983) 547. 11. E. Paschos and M. Wirbel, Nucl. Phys. B194 (1982) 189. 12. M. Wirbel, Z. Physik C14 (1982) 293. 13. I. Liede, Nucl. Phys. B229 (1983) 499. 14. D. Bardin and V. Dokuchaeva, Sov. J. Nucl. Phys. 36 (1982) 282; JINR
+
+E2-84-260. 15. D. Bardin, C. Burdik, P. Christova, and T. Riemann, JINR E2-87-595;
+
+Z. Physik C42 (1989) 679; C44 (1989) 149. 16. E. Kuraev, N. Merenkov, V. Fadin, Sov. J. Nucl. Phys. 47 (1988) 1009. 17. W. Beenakker, F. Berends, and W. van Neerven, in: Proc. of the Workshop on Electroweak Radiative Corrections, Ringberg, Germany, ed. J. K"uhn, (Springer, Berlin, 1989), p. 3. 18. J. Bl"umlein, Z. Physik C47 (1990) 89. 19. J. Bl"umlein, Phys. Letters B271 (1991) 267.
+
+22
+
+20. G. Montagna, O. Nicrosini, and L. Trentadue, Nucl. Phys. B357 (1991) 390. 21. J. Kripfganz, H. M"ohring, and H. Spiesberger, Z. Physik C49 (1991) 501. 22. J. Bl"umlein, G. Levman, and H. Spiesberger, J. Phys. G19 (1993) 1695. 23. A. Akhundov, D. Bardin, L. Kalinovskaya, and T. Riemann, Phys. Letters
+
+B301 (1993) 447. 24. J. Bl"umlein, Z. Physik C65 (1995) 293. 25. A. Akhundov, D. Bardin, L. Kalinovskaya, and T. Riemann, DESY 94-115,
+
+. 26. D. Bardin, P. Christova, L. Kalinovskaya, and T. Riemann, Phys. Letters
+
+B357 (1995) 456. 27. A. Arbuzov, D. Bardin, J. Bl"umlein, L. Kalinovskaya, and T. Riemann,
+
+DESY 95-185, . 28. M. B"ohm and H. Spiesberger, Nucl. Phys. B294 (1987) 1081. 29. H. Spiesberger, Nucl. Phys. B349 (1991) 109. 30. A. Kwiatkowski, H. M"ohring, and H. Spiesberger, Comput. Phys. Commun.
+
+69 (1992) 155. 31. V. Gribov and L. Lipatov, Sov. J. Nucl. Phys. 15 (1972) 451, 675. 32. W. Bardeen, A. Buras, D. Duke, and T. Muta, Phys. Rev. D18 (1978) 3998. 33. E.C.G. Stueckelberg and A. Peterman, Helv. Phys. Acta 26 (1953) 499;
+
+M. Gell-Mann and F. Low, Phys. Rev. 95 (1954) 1300; L.V. Ovsyannikov, Dokl. Akad. Nauk SSSR 109 (1956) 1112; K. Symanzik, Comm. Math. Phys. 18 (1970) 227; C.G. Callan, Jr., Phys. Rev. D2 (1970) 1541; A. Peterman, Phys. Rep. 53 (1979) 157 and references therein. 34. D. Gross and F. Wilczek, Phys. Rev. Lett. 30 (1973) 1343. 35. D. Politzer Phys. Rev. Lett. 30 (1973) 1346. 36. G. t'Hooft, unpublished, (cf. Proc. Colloquium on Renormalization of
+
+Yang-Mills Fields and Application to Particle Physics, Marseille, 1972, ed. C.P. Korthals-Altes); G. t'Hooft, Nucl. Phys. B254 (1985) 11; see also: I.B. Khriplovich, Yad. Fiz. (1969) 409. 37. W. Caswell, Phys. Rev. Lett. 33 (1974) 244. 38. D. Jones, Nucl. Phys. B75 (1974) 531. 39. O. Tarasov, A. Vladimirov, and A. Zharkov, Phys. Letters B93 (1980) 429. 40. S. Larin and J. Vermaseren Phys. Letters B303 (1993) 334. 41. J. Bl"umlein and J.F. Botts, Phys. Letters B325 (1994) 190; E: B331 (1994)
+
+449. 42. S. Bethke, PITHA 95/14, in: Proc. of the XXX Rencontre de Moriond, Les
+
+Arcs, France, March 1995, (World Scientific, Singapore, 1995), ed. J. Tran Thanh Van. 43. For a review of recent results see: P. Weisz, contribution to: Proc. Lattice '95,
+
+. 44. H.D. Politzer, Nucl. Phys. B129 (1977) 301;
+
+D. Amati, R. Petronzio, and G. Veneziano, Nucl. Phys. B140 (1978) 54;
+
+23
+
+S.B. Libby and G. Sterman, Phys. Rev. D18 (1978) 3252, 4737; A.H. Mueller, Phys. Rev. D18 (1978) 3705; J.C. Collins and G. Sterman, Nucl. Phys. B185 (1981) 172; J.C. Collins, D. Soper, and G. Sterman, Nucl. Phys. B261 (1985) 104; G.T. Bodwin, Phys. Rev. D31 (1985) 2616. 45. D. Gross and F. Wilczek, Phys. Rev. D8 (1974) 416; D9 (1974) 980. 46. H. Georgi and D. Politzer, Phys. Rev. D9 (1974) 416. 47. L. Lipatov, Sov. J. Nucl. Phys. 20 (1975) 94. 48. G. Altarelli and G. Parisi, Nucl. Phys. B126 (1977) 298. 49. K. Kim and K. Schilcher, Phys. Rev. D17 (1978) 2800. 50. Yu. Dokshitser, Sov. Phys. JETP 46 (1977) 641. 51. E. Floratos, D. Ross, and C. Sachrajda, Nucl. Phys. B129 (1977) 66, E: B139
+
+(1978) 545; Nucl. Phys. B152 (1979) 493. 52. A. Gonzalez-Arroyo, C. Lopez, and F. Yndurain, Nucl. Phys. B153 (1979)
+
+161. 53. G. Curci, W. Furmanski, and R. Petronzio, Nucl. Phys. B175 (1980) 27. 54. G. Floratos, P. Lacaze, and C. Kounnas, Phys. Letters B98 (1981) 89. 55. G. Floratos, P. Lacaze, and C. Kounnas, Nucl. Phys. B192 (1981) 417. 56. A. Gonzalez-Arroyo and C. Lopez, Nucl. Phys. B166 (1980) 429. 57. G. Floratos, P. Lacaze, and C. Kounnas, Phys. Letters B98 (1981) 285. 58. W. Furmanski and R. Petronzio, Phys. Letters B97 (1980) 437. 59. For a summary of coefficient functions in the MS scheme to O(ffs) see: W. Furmanski and R. Petronzio, Z. Physik C11 (1982) 293, and references therein. 60. S. Larin and J. Vermaseren, Z. Physik C57 (1993) 93. B383 (1992) 525. 61. E. Zijlstra and W. van Neerven, Phys. Letters B272 (1991) 127; B273 (1991)
+
+476. 62. E. Zijlstra and W. van Neerven, Nucl. Phys. B383 (1992) 525. 63. E. Zijlstra and W. van Neerven, Phys. Letters B 297 (1993) 377. 64. H.L. Lai, J. Botts, J. Huston, J.G. Morfin, J.F. Owens, J.W. Qiu, W.K. Tung,
+
+and H. Weerts, Phys. Rev. D51 (1995) 4763. 65. J. Bl"umlein, Nucl. Phys. B (Proc. Suppl.) 39B,C (1995) 22. 66. S. Larin, F. Tkachov, and J. Vermaseren, Phys. Rev. Lett. 66 (1991) 862. 67. S. Larin and J. Vermaseren, Phys. Letters B259 (1991) 345. 68. S. Larin, F. Tkachov, and J. Vermaseren, Phys. Letters B272 (1991) 121. 69. J. Bjorken, Phys. Rev. 163 (1967) 1767. 70. D. Gross and C. Llewellyn-Smith, Nucl. Phys. B14 (1969) 337. 71. J. Bjorken, Phys. Rev. 148 (1966) 1476; D1 (1970) 1376. 72. J. Vermaseren, Symbolical Manipulation with FORM, (CAN, Amsterdam,
+
+1991). 73. S. Larin, V. Tkachov, and J. Vermaseren, Phys. Letters B272 (1991) 121;
+
+S. Larin, T. van Ritbergen, and J. Vermaseren, Nucl. Phys. B427 (1994) 41. 74. J. Vermaseren et al., in preparation. 75. G. Sterman, ITP-SB-95-30, .
+
+24
+
+76. E. Kuraev, L. Lipatov, and V. Fadin, Sov. Phys. JETP 45 (1977) 199;
+
+L. Lipatov, Sov. J. Nucl. Phys. 23 (1976) 338; Ya. Balitzkii and L. Lipatov, Sov. J. Nucl. Phys. 28 (1978) 822. 77. V. Del Duca, DESY 95-023, . 78. K. Ellis, F. Hautmann, and B. Webber, Phys. Letters B348 (1995) 582. 79. J. Bl"umlein, DESY 95-125, in: Proc. of the XXX Rencontre de Moriond, Les
+
+Arcs, France, March 1995, (World Scientific, Singapore, 1995), ed. J. Tran Thanh Van, . 80. S. Catani and F. Hautmann, Nucl. Phys. B427 (1994) 475. 81. J. Forshaw, R. Roberts, and S. Thorne, Phys. Letters B356 (1995) 79. 82. R. Ball and S. Forte, Phys. Letters B351 (1995) 313. 83. R.K. Ellis, Z. Kunszt, and E.M. Levin, Nucl. Phys. B420 (1994) 517; E:
+
+B433 (1995) 498. 84. G. Marchesini in: Proc. of the Workshop `QCD at 200 TeV', Erice, Italy,
+
+1990, eds. L. Cifarelli and Yu. Dokshitser, (Plenum Press, New York 1992), p. 183. 85. M. Ciafaloni, Nucl. Phys. B296 (1988) 49. 86. S. Catani, F. Fiorani, and G. Marchesini, Phys. Lett B234 (1990) 339; Nucl.
+
+Phys. B336 (1990) 18. 87. J. Kwiecinski, A. Martin, and P. Sutton, Phys. Rev. D52 (1995) 1445. 88. R. Kirschner and L. Lipatov, Nucl. Phys. B213 (1983) 122. 89. B.I. Ermolaev, S.I. Manayenkov, and M.G. Ryskin, DESY 95-017;
+
+J. Bartels, B.I. Ermolaev, and M.G. Ryskin, DESY 95-124. 90. J. Bl"umlein and A. Vogt, DESY 95-175, . 91. J. Bl"umlein, DESY 95-164, , in: Proc of the Workshop
+
+Prospects on Spin Physics at HERA, Zeuthen, 1995, eds. J. Bl"umlein and W.D. Nowak, (DESY, Hamburg, 1995), p. 179. 92. E. Witten, Nucl. Phys. B104 (1976) 445. 93. J. Babcock and D. Sivers Phys. Rev. D18 (1978) 2301. 94. M. Shifman, A. Vainstein, and V. Zakharov, Nucl. Phys. B136 (1978) 157. 95. Gl"uck and Reya, Phys. Letters B83 (1979) 98. 96. J. Leveille and T. Weiler, Nucl. Phys. B147 (1979) 147. 97. U. Baur and J. van der Bij, Nucl. Phys. B304 (1988) 451. 98. G. Schuler, Nucl. Phys. B299 (1988) 21. 99. M. Gl"uck, R. Godbole, and E. Reya, Z. Physik C38 (1988) 441, E: C39 (1988)
+
+590. 100. K. Ellis and P. Nason, Nucl. Phys. B327 (1989) 49; E: B335 (1990) 260;
+
+J. Smith and W.L. van Neerven, Nucl. Phys. B374 (1992) 36. 101. E. Laenen, S. Riemersma, J. Smith, and W.L. van Neerven, Phys. Letters
+
+B291 (1992) 325; Nucl. Phys. B392 (1993) 162, 229. 102. M. Aivazis, F. Olness, and Wu-Ki Tung, Phys. Rev. D50 (1994) 3085. 103. M. Aivazis, J.C. Collins, F. Olness, and Wu-Ki Tung, Phys. Rev. D50 (1994)
+
+3102.
+
+25
+
+104. F. Olness and S. Riemersma, Phys. Rev. D51 (1995) 4746. S. Riemersma,
+
+J. Smith, and W.L. van Neerven, Phys. Letters B347 (1995) 143. 105. B.W. Harris and J. Smith, Phys. Letters B353 (1995) 535; Nucl. Phys.
+
+B452 (1995) 109. 106. E. Berger and D. Jones, Phys. Rev. D23 (1981) 1521. 107. R. Baier and R. R"uckl, 1982 Nucl. Phys. B201 (1982) 1; B218 (1983) 289. 108. J. K"orner, J. Cleymans, M. Kuroda, and G. Gounaris, Nucl. Phys. B204
+
+(1982) 6. 109. M. Kr"amer, J. Zunft, J. Steegborn, and P. Zerwas, Phys. Letters B348 (1995)
+
+657. 110. M. Kr"amer, DESY 95-155, . 111. K. Sasaki, Progr. Theor. Phys. 54 (1975) 1816. 112. M.A. Ahmed and G.G. Ross, Phys. Letters B56 (1975) 385; Nucl. Phys.
+
+B111 (1976) 298. 113. R. Mertig and W.L. van Neerven, INLO-PUB-6(95), NIKHEF-H/95-031,
+
+ revised version, Nov. 1995]. 114. W. Vogelsang, RAL-TR-95-71, . 115. G. Altarelli, K. Ellis, and G. Martinelli, Nucl. Phys. B157 (1979) 461. 116. B. Humpert and W. van Neerven, Nucl. Phys. B184 (1981) 225. 117. G. Bodwin and J. Qiu, Phys. Rev. D41 (1990) 2755. 118. E.B. Zijlstra and W.L. van Neerven, Nucl. Phys. B417 (1994) 61; E: B426
+
+(1994) 245. 119. M. Gl"uck, E. Reya, and W. Vogelsang, DO-TH-95-13,  and
+
+update (in preparation). 120. R. Ball, S. Forte, and G. Ridolfi, CERN-TH-95-266, , revised version. 121. M. Gl"uck, E. Reya, and W. Vogelsang, Phys. Letters B359 (1995) 201. 122. S.J. Brodsky, M. Burkhardt, and I. Schmidt, Nucl. Phys. B441 (1995) 197. 123. G. Ladinsky, in: Proc of the Workshop Prospects on Spin Physics at HERA,
+
+Zeuthen, 1995, eds. J. Bl"umlein and W.D. Nowak, (DESY, Hamburg, 1995), p. 285.
+
+26
+

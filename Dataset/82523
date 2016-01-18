@@ -1,0 +1,378 @@
+LBNL Physics Note 12.26.01
+
+Semi-classical derivation of the number of photons emitted by a neutrino with mass and
+magnetic moment passing through a magnetic field
+
+J. D. Jackson
+
+A. Preliminaries
+2
+We consider a neutrino of mass m , energy E = mc , and magnetic moment of
+magnitude µ moving at uniform speed v c in the z direction in the laboratory in which there
+is a magnetic field in the x direction of magnitude B(z). For conceptual purposes we imagine
+a uniform field B0 of length L in the z direction, but all that enters to a high degree of accuracy
+is
+2
+B( z)
+dz = B20L (1)
+-
+
+The parameters apparently of interest are typically m = 1 eV, E = 50 GeV, L = 10
+m, and B0 = 2 tesla. [Ref. 1]. The neutrino is therefore extremely relativistic ( =
+10
+O(5 . 10 )).
+____________________________
+1 K. S. McFarland, A. C. Melissinos, N. V. Mikheev, and W. W. Repko, "Neutrino scattering
+in a magnetic field," (Rochester preprint, September 25, 2001)
+____________________________
+
+We perform our calculation in the neutrino's rest frame K'. In that frame, the transverse
+magnetic field becomes B'(z') = B(z'=z/ ), accompanied by a transverse electric field in the
+y direction E' B' . The neutrino at rest `sees' a pulse of radiation traveling in the negative z
+direction, with time-varying fields, Bx' (t' = z / c), Ey'(t' = z/ c) . The frequency spectrum of
+
+the pulse of virtual quanta is given in terms of
+
+
+B'( ' ) = 1 dt'B'
+x (t' )ei 't' (2)
+2 -
+
+We have the identity,
+
+
+2 2
+d ' B'( ' ) =
+dt' B'(t' )
+= B20L /c (3)
+- -
+
+Here we have one power of relative to (1) because of the Lorentz transformation properties
+
+of Bx and of the coordinate z. Below we need the one-sided frequency integral,
+
+
+2
+
+
+
+2
+d ' B'( ' ) =
+1 B2L/ c (4)
+2 0
+0
+
+With the typical parameters given above, the range of support in the incident virtual photon's
+3
+energy is of order h c /L = O(10 eV). The typical frequency involved in the scattering or
+induced radiation by the neutrino therefore has h 'typical >> mc2. Whatever the shape of the
+magnetic field in the laboratory, the pulse of virtual photons will appear as almost a delta
+function in rest-frame time to the neutrino.
+
+B. Classical intensity of radiation
+Classically, the power radiated per unit solid angle in K' by the driven magnetic
+moment of the neutrino is [ref. 2]
+______________________________________
+2 J. D. Jackson, Classical Electrodynamics , 3rd ed., (Wiley, N.Y., 1998), p. 451, problem
+9.7(a).
+______________________________________
+
+2
+dP(t' ) = 1 ^ k × d2m (5)
+d '
+4 c3 dt'2
+
+Here úk is a unit vector in the direction of the emitted radiation, m is the neutrino's magnetic
+moment, and contrary to ref. 2 the power is expressed in Gaussian units.
+The equation of motion for the magnetic moment in an external field is found from the
+torque equation for its spin s , using the relation m = 2 s / h:
+dm = 2µ m×B'( t' ) (6)
+dt' h
+
+The second time derivative of m is
+
+d2m
+= 2µ m
+
+× dB'( t' ) + dm × B'( t' )
+(7)
+dt'2 h dt' dt'
+
+Substitution from (6) in the second term leads to
+
+d2m
+= 2µ m
+
+× dB'( t' ) + 2µ (m × B'( t' )) × B'( t' )
+(8)
+dt'2 h dt' h
+
+If the magnetic field were constant, only the second term in (8) would be present. As pointed
+out privately by Adrian Melissinos, this term yields the classical equivalent of the spin-flip
+radiation discussed in the introduction of ref. 3. But here we are interested in the opposite
+
+
+3
+
+
+________________________________________
+3 J. D. Jackson, "On understanding spin-flip synchrotron radiation and the transverse
+polarization of electrons in storage rings," Rev. Mod. Phys. 48, 417-433 (1976). See Eqs.
+(7) -(10) and remarks in section B on p. 420.
+________________________________________
+
+limit, that of a rapidly varying magnetic field that produces only a very small oscillating term
+in the magnetic moment. Dropping the second term in (8, approximating m on the right hand
+side with the static part m(0), and writing B'(t') = úx B'(t'), the adequately approximate
+solution for the second time derivative of m is
+
+d2m = 2µ (m(0)×^ x ) d B' (t' ) (9)
+dt'2 h dt'
+
+Then the radiated power per unit solid angle is
+
+
+2
+d P(t' ) µ2
+= ^
+k × (m( 0 ) × ^ x ) 2 d B'(t' ) (10)
+d ' h2c3 dt'
+
+Following the discussion of p. 673-674 of Ref. 2, the radiated intensity per unit frequency
+interval per unit solid angle in K' is
+
+
+d 2I = 2 µ2 ^ 2
+k × (m( 0 )× ^ x )2 '2 B'( ' ) (11)
+d 'd ' h2c3
+
+where B'( ') is defined by (2) and only positive frequencies are relevant in (11).
+
+
+Incident z Figure 1 shows the variables for
+virtual evaluation of the angular
+photons distribution. Note that the angle
+k ' is the angle of the radiation
+with respect to the negative
+z-axis, representing the scattering
+angle for the outgoing photon, if we
+- ' view the process as scattering of
+the virtual quanta.
+
+
+y
+
+B' '
+
+
+4
+
+
+Figure 1
+x
+The angular distribution factor in (11) is
+
+^
+k × (m( 0 ) × ^ x )2 = m2 2
+z( 0 ) cos2 ' +sin2 'cos2 '
++ my( 0)sin 2 '
+
+- 2mz( 0 )my( 0 )sin ' cos 'sin ' (12)
+
+
+The average over azimuthal angle ' is
+
+
+^
+k × (m( 0 ) × ^ x ) 2 = 1 m2( 0 ) 1
++ cos2 ' 2(0)sin2 ' (13)
+2 z + my
+'
+
+2 2
+Summing over final spin states, we have mz( 0 ) = my( 0 ) = 2 . These equalities can be
+2 2 2 2
+understood in terms of simple spin considerations: (a) = + + =
+m x y y 3 2 ;
+(b) the radiation intensity involves the square of the matrix elements, summed over final
+2 2 2
+states, for example, my( 0 ) = f y i = 2 i y i = 2. The net result for the
+f
+azimuthally averaged energy radiated per unit frequency per unit solid angle is
+
+d 2I = 1 µ4 2
+3
+-cos2 '
+'2 B'( ' ) (14)
+d 'd ' h2c3
+2
+This is the classical intensity of radiation scattered by the neutrino. Since cB'( ' ) / 2 can
+be viewed as the flux of energy of the virtual photons, the classical "scattering" cross
+section is
+
+d
+= 2 4 '2
+3 - cos2 '
+d ' (15)
+classical h2c4
+
+C. Compton-recoil modification
+When the energy of the incident photon becomes comparable to the rest energy of the
+particle, the particle's recoil makes the energy (frequency) of the scattered photon less than
+that of the incident photon. That's the effect discovered by Compton. Just as Jackson (Ref. 2)
+does in Section 14.8 for the scattering of radiation by a charged particle (to convert the
+Thomson cross section into the quantum-mechanical result for scalar particles), we take
+account of the recoil kinematics by multiplying the classical expressions (14) or (15) by the
+"Compton factor,"
+
+
+5
+
+
+-2
+2
+'
+scatt = 1+ h ' 1
+( -cos ')
+(16)
+'
+m c2
+inc
+
+Eq.(16) is just the ratio of the emitted photon phase space, with and withour recoil
+correctiion.
+As described in the Introduction, the typical virtual photon has an energy large
+compared to the neutrino's rest energy. The Compton factor vanishes rapidly as the angle oe'
+increases. In the approximation that the spectrum is dominated by frequencies such that
+2
+h '>> m c2 , we can put cos ' = 1 in the numerator. Then the integration of (14) over angles
+becomes
+
+dI
+= 4 4 ' 2 2 2
+B'( ' ) m c2 dx /(1+ x)2
+= 4 4m ' B'( ' ) (17)
+0
+d ' h2c3 h ' h3c
+
+where x = h '(1- cos ' )/ m c2 and we have set the large upper limit to infinity (to the
+neglect of relative terms of order m c2 /h ' ). The corresponding cross section for incident
+frequency ' is
+
+4
+2
+(s - m2 )
+semi-classical = 8 4m ' = 4 4 (s - m2c4 ) = 4 4 (18)
+h3c2 h4c4 0 me
+In the final form we have reverted to "particle physics" units where hand c are suppressed.
+The unit of magnetic moment is 0 = eh / 2mec, 2m c2h '= s -m 2c4, and s is the usual
+Mandelstam variable.
+
+D. Number of photons emitted
+The distribution in incident frequency ' of the number of photons radiated (or more
+accurately, removed from the virtual photon flux incident) is (17) divided by the energy h ' of
+a single photon;
+
+dN = 4 4m 2
+B'( ' ) (19)
+d ' h4c
+
+The total number N of photons, the integral over ' , is according to (4),
+
+2 4
+N = 2 4 E B2 h2c2 2
+0 L = E B L (20)
+8 0
+h4c4 0 (mec2 )4
+2
+Here E = m c2 is the neutrino energy in the laboratory and B0 L is the longitudinal
+integral of the square of the magnetic field given by (1).
+
+
+6
+
+
+
+E. Comparison with QED calculation of "Compton" scattering by neutrino
+The lowest order QED cross section, akin to the Klein-Nishina formula, for the
+scattering of photons from the massive neutrino with a magnetic moment has been evaluated
+by N. V. Mikheev [Ref. 4]. In invariant form, the differential scattering cross section is
+________________________________________
+4 N. V. Mikheev, private communication. The total cross section in the approximation of the
+neglect of the neutrino mass is given as Eq.(8) of Ref. 1.
+________________________________________
+
+d
+= 4 4 m 2 - u
+- 2m 2t - 2m 4t2 (21)
+dt
+s
+- m 2 ( s - m 2 )2 (m 2 - u)( s - m 2 )3
+
+Here we have again suppressed powers of hand c. For comparison with the classical cross
+section (15) or the semi-classical product of (15) and (16), we go to the neutrino rest frame
+and convert to the conventional differential cross section per unit solid angle. The result is
+
+3
+d '
+= 2 4 '2 scatt
+3 - cos2 ' (22)
+d ' '
+QED h2c4 inc
+
+or
+
+d
+= 2 4 '2 ( 3 - cos2 ' )
+d ' 3 (23)
+QED h2c4 1
++ h ' 1(-cos ')/m c2
+
+
+Two features: (I) The low frequency limit agrees completely with the classical result, as
+expected; (ii) The quantum modification involves the third power of ( )
+'scatt / 'inc , not the
+second, as given by (16). The additional power of the "Compton factor" causes a more rapid
+decrease with increasing angle and so the integration over angles corresponding to (17)
+yields a total cross section at high energies one half as large, namely,
+
+4
+2
+(s - m2 )
+QED = 8 4 (24)
+0 me
+
+One might wonder if a more careful consideration of the kinematics could have fixed
+the modification of Section C to give the cube rather than the square of the ratio of outgoing to
+incoming frequencies and so yield a very satisfying semi-classical derivation of the process. I
+think not, at least not without prescient "intuition.". The quantum correction for magnetic
+moment radiation is different from that for charge radiation. The Klein-Nishina cross section
+gives an illustration for g = 2. The differential cross section in the target rest frame can be
+written
+
+
+7
+
+
+2
+d 2 2
+
+= '
+scatt 1 'inc
+(1+ cos2 ' ) + 'scatt (1- cos ' )2 (25)
+d ' m2 'inc 2 'inc
+2m2
+K- N e
+
+The factors in front times the first term is the contribution of the charge, namely, the Thomson
+cross section times (16). The second term, with its additional power of 'scatt / 'inc and
+square of the incident frequency, is the Dirac magnetic moment contribution. The particular
+angular dependence is characteristic of g = 2. The angular dependence in (22) or (23) is
+characteristic of g = .
+The semi-classical calculation gives semi-quantitative results, differing by a factor of
+two from the QED results for and the number of photons N. Since the whole process is of
+only academic interest at best, the semi-classical physicist aka experimenter can be content
+that he/she now "understands" the mechanism.
+
+
+

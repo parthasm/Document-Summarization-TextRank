@@ -1,0 +1,55 @@
+
+
+ 8 Dec 93
+
+The Isgur-Wise Function from the Lattice
+
+Laurent Lellouch (UKQCD Collaboration)
+
+Physics Department, The University Southampton, SO9 5NH, United Kingdom
+
+ABSTRACT We calculate the Isgur-Wise function by measuring the elastic scattering amplitude of a D meson in the quenched approximation on a 243 \Theta 48 lattice at fi = 6:2, using an O(a)-improved fermion action. We use this result, in conjunction with heavy-quark symmetry, to extract jVcbj from the experimentally measured _B ! D
+
+\Lambda l_* differential
+
+decay width.
+
+Heavy-quark symmetry enables all the non-perturbative, strong-interaction physics for semi-leptonic _B ! D, D\Lambda decays to be parametrized in terms of a single universal function, ,(!), of ! j v \Delta v0, where v and v0 are the four-velocities of the _B and D mesons respectively[1, 2]. ,(!) is known as the Isgur-Wise function and is normalized at zero recoil: ,(1) = 1[2]. With ,(!), one can extract the Cabibbo-Kobayashi-Maskawa matrix element Vcb from experimental measurements of the rate for _B ! D\Lambda l_* decays[3]. We report here on a lattice QCD calculation of the Isgur-Wise function and on the corresponding determination of Vcb. We also perform a qualitative test of the flavor component of heavy-quark symmetry.
+
+To obtain the Isgur-Wise function, we evaluate the elastic scattering matrix element hD(p0)j_cfl_cjD(p)i on the mass shell[4]. Because the electromagnetic current
+
+_cfl_c is conserved, this matrix element can be parametrized in terms of a single form factor:
+
+hD(p0)j_cfl_cjD(p)i = mD(v + v0)_ hel(!) ; (1) where p(0) = mDv(0) and ! = v \Delta v0 is the four-velocity recoil. In the limit of exact heavy-quark symmetry this form factor is simply ,(!).
+
+There are two sources of corrections to this simple result:
+
+hel(!) = \Theta 1 + fiel(!) + flel(!)\Lambda ,(!) : (2) The first correction, fiel(!), stems from perturbative QCD corrections to the heavy-quark current. We obtain this correction from Neubert's short distance expansion of heavy-quark currents[5]. The second correction, flel(!), is due to higher-dimension operators with coefficients proportional to inverse powers of the charm quark mass. flel(!) is difficult to quantify because it involves the light degrees of freedom and is therefore nonperturbative. Luke's theorem[6], however, guarantees that there is no O (\Lambda QCD=(2mc)) correction to hel(!) at zero recoil. Moreover, model estimates of this correction appears to remain well below 3% over the range of experimentally accessible recoils[7]. That this correction is small is corroborated by the fact that we see no
+
+differences in the ratio hel(!)=(1+fiel(!)) computed for two values of the heavy-quark mass. Thus, we will neglect flel(!) in extracting the Isgur-Wise function from hel(!). As defined in Eq. (2), ,(!) is renormalizationgroup invariant and normalized to one at ! = 1[5].
+
+We work in the quenched approximation on a 243 \Theta 48 lattice at fi = 6:2, which corresponds to an inverse lattice spacing a\Gamma 1 = 2:73(5) GeV , as determined from the string tension[8]. Our calculation is performed on sixty SU (3) gauge field configurations (for details see Ref. [8]). The mesons are composed of a propagating heavy quark with a mass around that of the charm quark, and a light antiquark with a mass around that of the strange quark. To reduce discretization errors, the quark propagators are calculated using an O(a)- improved action[9]. This improvement is particularly important here since we are studying the propagation of quarks whose bare masses are around one half the inverse lattice spacing. Our statistical errors are calculated according to the bootstrap procedure described in Ref. [8].
+
+To obtain the matrix element hD(p0)j_cfl_cjD(p)i, we calculate the ratio of three-point correlators,
+
+A_(tx) j P
+
+x;y e
+
+\Gamma i(q\Delta x+p
+
+0\Delta y)hJ(y) V _(x) Jy(0)iP
+
+x;y hJ(y) V 0(x) J
+
+y(0)i ; (3)
+
+where J is a spatially-extended interpolating field for the D meson[10], V _ is the O(a)-improved version of the vector current _cfl_c[11] and p=p0 + q. To evaluate these correlators, we use the standard source method[12]. We choose ty = 24 and symmetrize the correlators about that point using Euclidean time reversal. We evaluate A_ for three values of the light-quark mass (^l = 0:14144, 0.14226, 0.14262) which straddle the strange quark mass (given by ^s = 0:1419(1)[13]); two values of the heavy-quark mass (^h = 0:121; 0:129) around that of the charm quark (given by ^c'0:129[14]); and several values of the initial and final D-meson momenta, all less than (ss=12a)p2. Error: /undefinedresult in --idtransform--
+Operand stack:
+--nostringval-- --nostringval-- --nostringval-- 0.9068 0
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:122/250(L)-- --dict:42/200(L)-- --dict:42/50(L)--
+Current allocation mode is local
+

@@ -1,0 +1,292 @@
+
+
+ 15 Aug 94
+
+LA-UR-94-2754 EVOLUTION OF THE DISORIENTED CHIRAL CONDENSATES IN
+
+THE MEAN FIELD APPROXIMATION
+
+YUVAL KLUGER\Lambda Theoretical Division, Los Alamos National Laboratory, Los Alamos,
+
+New Mexico 87545, USA
+
+ABSTRACT We study the dynamics of the chiral phase transition expected during the expansion of the quark-gluon plasma produced in a high energy hadron or heavy ion collision, using the O(4) linear sigma model in the mean field approximation. Starting from an approximate equilibrium configuration at an initial proper time o/ in the disordered phase, we study the transition to the ordered broken symmetry phase as the system expands and cools.
+
+We give results for the proper time evolution of the effective pion mass and for the pion two point correlation function. We investigate the possibility of disoriented chiral condensate being formed during the expansion. In order to create large domains of disoriented chiral condensates low-momentum instabilities have to last for long enough periods of time. Our simulations show no instabilities for an initial thermal configuration. For the far-of-equilibrium cases studied, the instabilities are formed during the initial stages of the expansion survive for short proper times. For slow expansion rates even such configurations do not develop instabilities.
+
+\Lambda This work was done in collaboration with Fred Cooper, Alex Kovner, Emil Mottola and Juan Pablo Paz. This research was performed in part using the resources located at the Advanced Computing Laboratory of Los Alamos National Laboratory, Los Alamos, NM 87545.
+
+1. Model and Approximations
+
+The possibility of producing large correlated regions of quark condensate ! _qiqj ? pointing along the wrong direction in isospin space was proposed 1\Gamma 2 to explain rare events where there is a deficit or excess of neutral pions observed in cosmic ray experiments3. The idea that such disoriented chiral condensates (DCC's) can be formed has been the source of several experimental proposals4 in high energy collisions. It has been recognized that nonequilibrium dynamics can yield regions of DCC5\Gamma 10. These authors introduced instabilities of low momenta modes by quenching the system, i.e., evolving a "hot" state under the dynamics of a zero temperature hamiltonian.
+
+There are clearly two important questions that the theoretical models should aim to answer. The first one is to determine whether during the evolution that follows the collision there are instabilities affecting the fluctuations, in which case there is a chance of the correlations growing.
+
+The second question is, assuming the instability exists, can the correlated domains grow large enough so that many pions can be emitted from each domain making the detection of DCC's possible. Experimentally, one can look at the probability distribution of the fraction of neutral pions P (f ) where f = nss0 =(nss0 + nss\Sigma ). Assuming that all isospin orientations of ~ss are equally distributed so that P (\Omega ) = const, and using the equation P (\Omega )d\Omega = P (f )df , one finds that for an ideal case where only one large domain is formed this distribution is given by P (f ) = 1=2pf , provided that ni / jssij2, where f = cos2 `. If the final particle distribution results from uncorrelated events, one would expect the neutral fraction to be distributed binomially around f = 1=3. Thus, for an ensemble with domains of different sizes the resulting distribution P (f ) dwells somewhere in between binomial and domain-like distribution. To address these questions we employ the O(4) linear sigma model, in the mean field approximations, which seems to have the essential attributes of being simple but realistic enough: it has the correct chiral symmetry properties and also appropriately describes the low energy phenomenology of pions. Moreover, the mean field approximation improves the classical approximation, because it takes into account quantum fluctuations that can not be neglected when the system cools down. In this model the mesons are organized in an O(4) vector (OE1; OE2; OE3; OE4) = (oe; ss1; ss2; ss3). The effective action is derived by using the the large N expansion of a O(N ) model, and is given by
+
+\Gamma [ _\Phi ; _O/] = Z d4xf\Gamma 12
+
+NX
+
+i=1
+
+_OEi(2 + _O/) _OEi + _O/
+
+2
+
+4* +
+
+1 2 _O/v
+
+2 + H _oe + i
+
+2N tr lnG
+
+\Gamma 1 0 g; (1)
+
+where G\Gamma 10 (x; y) = i[2 + _O/(x)] ffi4(x \Gamma y), and O/ = *(PNi=1 OEiOEi \Gamma v2) with N = 4. Varying the effective action with respect to the mean fields, we derive their equations of motion
+
+(2x + _O/(x)) _OEi(x) = Hffii1 (2)
+
+_O/(x) = *(\Gamma v2 +
+
+NX
+
+i=1
+
+[ _OEi 2(x) + G0(x; x)]): (3)
+
+The functions G0(x; x) that appear in (3) are the coincidence limit of the propagators G0(x; y) that invert the operator G\Gamma 10 .
+
+By calculating two and four point function the parameters *, H and v were chosen to give the best fit to the physical observables fss, mss and the ffiI=0s phase shifts10.
+
+In Bjorken's Baked Alaska picture boost invariant initial conditions are fixed at an initial proper time o/0 (these initial configurations eventually lead to a flat rapidity distribution of pions as expected in the future RHIC experiments). Dynamics then incorporates a cooling mechanism that may lead to low momentum instabilities (in contrast to a crude quench approximation that plants the instabilities from the beginning). In the boost invariant picture it is natural to use the following set of coordinates
+
+o/ j (t2 \Gamma z2)1=2; j j 12 log( t + zt \Gamma z ); x?; (4) where o/ is the proper time and j is the spatial rapidity. The equations of motion reduce to
+
+o/ \Gamma 1@o/ o/ @o/ _OEi(o/ ) + _O/(o/ ) _OEi(o/ ) = Hffii1; (5) _O/(o/ ) = *(\Gamma v2 +
+
+NX
+
+i=1
+
+[ _OEi 2(o/ )+ ! '2(j; x?; o/ ) ?]); (6)i
+
+o/ \Gamma 1@o/ o/ @o/ \Gamma o/ \Gamma 2@2j \Gamma @2? + _O/(o/ )j'(j; x?; o/ ) = 0; (7) where we have introduced an auxiliary field '(x; o/ ), related to the Wightman function by:
+
+G0(jx; x?; o/x; jy; y?; o/y) j! '(jx; x?; o/x) '(jy; y?; o/y) ? : (8) At equal proper times
+
+G0(jx; x?; jy; y?; o/ ) = Gc(jx; x?; jy; y?; o/ ); (9) where Gc(x; y) j 1N PNi=1 ! OEi(x)OEi(y) ? \Gamma _OEi(x) _OEi(y). We expand the field ' in an orthonormal basis
+
+'(j; x?; o/ ) j 1o/ 1=2 Z dk(exp(ik \Delta x)fk(o/ ) ak + h:c:); (10)
+
+where k \Delta x j kjj + ~k?~x?, dk j dkjd2k?=(2ss)3, and the mode functions fk(o/ ) evolve according to:
+
+"fk = \Gamma ( k
+
+2j
+
+o/ 2 + ~k
+
+2 ? + _O/(o/ ) + 14o/ 2 )fk j \Gamma !
+
+2kfk: (11)
+
+A dot here denotes the derivative with respect to the proper time o/ . The Fourier transform of the expectation value ! (')2(x; o/ ) ? can be expressed in terms of the mode functions fk and of the distribution functions
+
+nk j! aykak ?; gk j! akak ?; g\Lambda k j! aykayk ? (12) which entirely characterize the initial state of the quantum field.
+
+In order to solve equations (5), (6) and (11) as an initial value problem, we need to fix at o/0 the mean values _OEik, ._OEik, nk, gk and g\Lambda k. This amounts to specifying five initial conditions at each momentum k. \Lambda In the boost invariant case _OEik(o/ ) = ._OEik(o/ ) = 0 for k 6= 0.
+
+The complexity of the processes we study suggests that our initial configuration is not a pure state but a mixed ensemble that should be described by a density matrix. In the mean field approximation the most general density matrix for each mode k is a gaussian with five parameters associated with the above initial conditions and it can be written as
+
+ae(OEik; OE0ik) = 1p2ssG
+
+ik expfi
+
+._OEik(OE0\Lambda ik \Gamma OE\Lambda ik) \Gamma 1
+
+2 (Kik \Gamma 4Gik\Sigma
+
+2ik)jOE0ik \Gamma OEikj2
+
+\Gamma i\Sigma ik[jOEik \Gamma _OEikj2 \Gamma jOE0ik \Gamma _OEikj2] \Gamma 18G
+
+ik jOEik + OE
+
+0ik \Gamma 2 _OEikj2g; (13)
+
+where
+
+Gik = ! OEik OE\Lambda ik ? \Gamma _OEik _OE\Lambda ik (14) Kik = ! .OEik .OE\Lambda ik ? \Gamma ._OEik ._OE
+
+\Lambda
+
+ik (15)
+
+4\Sigma ikGik = ! fOEik; .OE\Lambda ikg ? \Gamma f _OEik; ._OE
+
+\Lambda
+
+ikg: (16)
+
+Pure density matrix satisfies the condition p j K \Gamma 4G\Sigma 2 + 1=4G = 0 (no OEi(k)OE0i(k) mixed term). This subset corresponds to squeezed-coherent states11. For \Sigma = 0 and Gik = 1=p2!k, the density matrix operator becomes ^aec = jc ?! cj where jc ? is a coherent state. One can make a direct connection between our calculation and earlier work5\Gamma 8, which used classical approximation to the same model. The equilibrium density matrix of a free theory is Gaussian and in the high T limit (fi!k !! 1) has the following representation:
+
+ae= Y
+
+ik
+
+Z
+
+d _OEikd ._OEik expf\Gamma fi2 (j ._OEikj2 + (k2 + m2)j _OEikj2)gaecik( _OEik; ._OEik): (17)
+
+Therefore, solving the mean field equations with an initial thermal homogeneous density matrix is equivalent to solving the semi classical equations for a thermal
+
+\Lambda The formulation of Eqs. (5), (6) and (11) may give an impression, that we have to specify extra four initial conditions for fk(o/0) and .fk(o/0). This impression is false, since as it can be easily checked that the change of fk(o/0) and .fk(o/0) if accompanied by an appropriate change of nk and g
+
+\Lambda
+
+k according to aBogolyubov transformation leaves
+
+Gc, .Gc and "Gc invariant, and these quantities (together with _OEik,.
+
+_OE
+
+ik) unambigously specify the initial data. Therefore, we will fix the initial data fk(o/0) and .fk(o/0) sothat the vacuum state coincides with the ordinary Minkowsky vacuum, at least for high momentum.
+
+ensemble of inhomogeneous "classical" initial conditions. We want to stress the point that in the framework of the the mean field approximation one has to fix five initial conditions to describe the whole ensemble, instead of separately calculating the equations of motion for each member of the ensemble, as has been done in5\Gamma 8.
+
+In the interacting case, ^aeth = e\Gamma fiH is not a gaussian any more, and therefore it is not contained in the set of mean field density matrices. However, one can approximate the thermal density matrix by replacing the quartic terms by using the thermal mass. We note that for a gaussian density matrix the requirement of isospin invariance leads immediately to a factorization form ae = Qi aei. Due to the factorizability of the density matrix, if one species i has a large average ! N i ?, the whole density matrix will also have a large ! N ? and vice versa. This is also true for the variance ! (N \Gamma _N)2 ?. The mean field approximation can only accommodate ensembles with either large fluctuations in both the total number of pions and number of neutral pions or small fluctuations in both observables. Ensembles that have sharply defined total number of particles but large fluctuations in the number of neutral pions can not be described in this framework.
+
+2. Results
+
+In Fig. 1 we display the time evolution of the effective mass _O/, the mean density of particles ! n ?j! dN=djdx? ? and the relative fluctuation of dN=djdx? starting at initial proper time o/0 = 1f m=c. We also plot the time evolution of the fourier transform of the correlator Gc(\Delta j; \Delta x?; o/ ) at the planes jk?j = 0 and kj = 0. The left row corresponds to an initial thermal configuration. In this case _O/ does not become negative during the evolution so that no instabilities develop. The density ! dN=djdx? ? grows very mildly and so does its relative fluctuation. The fluctuation at large proper times is almost equivalent to its initial value. Therefore, observing a DCC for an initial thermal ensemble is unlikely. From the inverse width at half height of the profile of the Fourier transform we learn that the size of a domain in the beam direction is about one unit of space-time rapidity and about 1f m or less in the transverse direction. In the right row we generated instabilities by choosing an initial ensemble that is far from equilibrium for which we modified only the initial condition for ._oe from 0 to \Gamma 1. We see that _O/ becomes negative at early stages of the evolution and at this time an exponential growth of the low momenta modes occur. The density ! dN=djdx? ? triples itself by sucking energy from the _oe field and reaches a plateau after few tens of f ermi=c. The relative fluctuation of this density also grows substantially and therefore the observation of DCC is more likely for this "peculiar" ensemble. This is also reflected in the structures appearing in the fourier transforms of Gc. More specifically we see that at the transverse direction there is an amplification of the amplitude at low momenta, which corresponds to a domain of about 2f m. However, in this case it is hard to define the size of the domain by naively measuring the inverse width due to multiple scales that
+
+emerge during the dynamics. For similar out of equilibrium ensembles we found no instabilities if we start the simulations at proper times greater than 2f m=c. This implies that if the expansion rate is too slow or if we start with lower energy densities even for out of equilibrium ensembles, DCC will be hardly produced.
+
+References 1. A. Anselm, Phys. Lett. B217, 169 (1989); A. Anselm and M. Ryskin, Phys.
+
+Lett. B226, 482 (1991).2. J.-P. Blaizot, A. Krzywicki, Phys. Rev.
+
+D46, 246 (1992).3. C.M.G. Lattes, Y. Fujimoto and S. Hasegawa, Phys. Rep.
+
+65, 151 (1980).4. J.D. Bjorken, K. Kowalsky and C.C. Taylor, SLAC-PUB-6109 preprint (1993).
+
+5. K. Rajagopal and F. Wilczek, Nucl. Phys. B379, 395 (1993).6. S. Gavin, A. Gocksch and R.D. Pisarski, Phys. Rev. Lett.
+
+72, 2143 (1994).7. Z. Huang and X.N. Wang, LBL Preprint LBL-34931 (1993).
+
+8. S. Gavin and B. Mueller, Phys. Lett. B329, 486 (1994).9. D. Boyanovsky, D.S. Lee and A. Singh, Phys. Rev.
+
+D48, 800 (1993).10. F. Cooper, Y. Kluger, E. Mottola, J.P. Paz, LA-UR-94-1569 preprint (1994).
+
+11. I. Kogan, Phys. ReV. D 48, 3971 (1993); I. Kogan, JETP Lett. 59, 312
+
+(1994).
+
+Thermal initial state 0 10 20 30 40 0.3
+
+0.4 0.5 0.6 0.7 0.8
+
+t (fm) c (fm -2)
+
+Non thermal initial state
+
+0 10 20 30 40 0
+
+1 2
+
+t (fm) c (fm -2)
+
+0 10 20 30 40 0.378
+
+0.38 0.382 0.384 0.386
+
+t (fm) a' n n~ = a' dN/d
+
+hdxdy n~
+
+0 10 20 30 40 0.4
+
+0.6 0.8
+
+1 1.2
+
+t (fm) a' n n~ = a' dN/d
+
+hdxdy n~
+
+0 10 20 30 40 1.74
+
+1.75 1.76 1.77 1.78
+
+t (fm)a' \Delta x \Delta y\Delta h
+
+( n - a' n n~ ) 2n~ 1/2/
+
+a' n n~
+
+0 10 20 30 40 0
+
+2 4 6 8
+
+t (fm)a' \Delta x \Delta y\Delta h
+
+( n - a' n n~ ) 2n~ 1/2/
+
+a' n n~
+
+t=1 t=4.84 t=8.17 t=13.03
+
+0 1 2 3 4 5 0
+
+1 2
+
+kh (fm-1) G
+
+c(k
+
+h,p=0;
+
+t)
+
+0 1 2 3 4 5 0
+
+5 10 15
+
+kh (fm-1) G
+
+c(k
+
+h,p=0;
+
+t)
+
+0 0.5 1 1.5 0
+
+1 2
+
+p (fm-1) G
+
+c(k
+
+h=0,p;
+
+t)
+
+0 0.5 1 1.5 0
+
+5 10
+
+p (fm-1) G
+
+c(k
+
+h=0,p;
+
+t)
+
+Fig. 1. Proper time evolution of the _O/ field, ! dN=djdx? ?, the relative fluctuation of dN=djdx? times the square root of the extent of the system (\Delta x?\Delta j)1=2 and of the fourier transforms of the Green`s function Gc at the planes of p j jk?j = 0 and kj = 0. The left row is for an initial thermal distribution where nik = 1=(exp fi!k \Gamma 1), _oe(o/0 = 1) = _oeeq(T =
+
+200M eV ), _ssi(1) = ._ssi(1) = ._oe(1) = 0. The right row has the same initial conditions as in the left one, but for ._oe(1) = \Gamma 1.
+

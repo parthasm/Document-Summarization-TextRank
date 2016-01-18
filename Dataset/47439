@@ -1,0 +1,718 @@
+
+
+ 9 Oct 1995
+
+UUITP-17/95 OUTP-95 38P
+
+October 1995
+
+Limits on direct detection of neutralino
+
+dark matter from b ! sfl decays
+
+Lars Bergstr"om Stockholm University, Department of Physics,
+
+Box 6730, S-113 85 Stockholm, Sweden
+
+and University of Uppsala, Department of Theoretical Physics,
+
+Box 803, S-751 08 Uppsala, Sweden
+
+and
+
+Paolo Gondolo Universit'e de Paris VII, Physique Th'eorique et Hautes Energies,
+
+Tour 14-24, 5e 'etage, 2 place Jussieu, 75005 Paris, France
+
+and University of Oxford, Department of Physics, Theoretical Physics,
+
+1 Keble Road, Oxford, OX1 3NP, United Kingdom
+
+Abstract We analyze the rate of detection of minimal supersymmetric neutralino dark matter in germanium, sapphire and sodium iodide detectors, imposing cosmological and recent accelerator bounds including those from b ! sfl decay. We find, in contrast with several other recent analyses, that although the b ! sfl constraint reduces the number of viable models, models still remain where the counting rate in solid state detectors exceeds 10 kg
+
+\Gamma 1 day\Gamma 1.
+
+The recent observation by the CLEO collaboration of the b ! sfl decay [1] has stirred interest in the possible bounds obtainable for supersymmetric models that contribute to this process [2]. Some authors [3, 4] have gone one step further and analyzed the consequences of this and other accelerator bounds for the predicted rates in experiments aimed at detecting neutralino dark matter. One problem with even the so-called "minimal" supersymmetric standard model (MSSM) is that it contains a large number of parameters which in principle are free, although several of them are constrained by various naturalness arguments and experimental bounds on flavor changing interactions etc. In order to reduce
+
+the number of parameters, some assumptions related to supersymmetric grand unification of coupling constants and masses are usually made. Even more restricted models have been suggested (e.g., [5]), where the simplest possible structure is chosen at the GUT scale and the electroweak symmetry breaking is assumed to be achieved only through radiative corrections to the Higgs potential when the GUT parameters are run to lower energies using the renormalization group equations.
+
+As expected, making the model more restrictive gives more restrictive bounds on the experimental signals of the lightest supersymmetric particles, both in accelerator experiments and in dark matter detection experiments (if supersymmetry is related at all to the dark matter problem of the galactic halo). In particular, it was shown in [3, 4, 5] that rates for both direct and indirect detection of neutralino dark matter generally become very small in this type of models. At this point it should be realized, however, that evidence is mounting that whatever the effective low-energy supersymmetric model is, it is unlikely to be of such a simplified form. For instance, in models derived from superstrings it is not clear if there is an intermediate GUT scale at all. Even if there is, threshold corrections at the GUT scale may be important (for a recent discussion of some of these problems, see [6]). In fact, recent analyses of the MSSM phenomenology have appeared in which the universality condition of the scalar masses at the GUT scale is relaxed, especially for the Higgs sector [7]. It has also recently been suggested [8] that to reproduce the measured value of ffs at low energies, it may even be necessary to modify one of most frequently used relations, that of the gaugino mass parameters (we follow the notational convention of [9]):
+
+M1 = 53 tan2 `wM2 ,\Gamma 0:5M2; M2 = ffewsin2 `
+
+wffs M3 ,\Gamma 0:3M3:
+
+(1)
+
+The upshot of this is that although the simplistic models have the virtue of being predictive, and due to small rates largely irrelevant for present-day dark matter detectors, the price paid is the lack of generality.
+
+If one adopts a phenomenological approach and allows for a more general variation of parameters in the MSSM, still of course consistent with experimental bounds and giving correct low-energy symmetry breaking, one may be tempted to define a probability measure in parameter space. That is, one may want to translate the number of allowed models giving, e.g., a range of detection rates to a "probability". This method is often used implicitly as one typically scans a large number of models and presents results as density of points in some parameter plane. It may then be tempting to assign values where there is a large density of model points a higher probability than those with small density. We will argue, illustrated by some simple examples, that this is not meaningful to do, since different parametrizations of the models can give completely different results.
+
+The conservative approach we propose is to regard the whole range of outcomes of a calculation as a priori equally probable, irrespective of the parametrization. This means that really only upper and lower limits can be given. Another consequence of this philosophy is that it becomes important to scan the model parameter space accurately enough to discover also the very extreme outcomes of the calculation, since they will be used for setting the bounds.
+
+2
+
+We started this study with the intention of relaxing the various GUT or radiative breaking conditions to explore the full range of possibilities in a generic minimal supersymmetric model. We found, to our surprise, that even without relaxing those assumptions there still were models in which the dark matter detection rates in solid state detectors were quite high. We think that this discrepancy with published results may be due to insufficient scanning of parameters space in the earlier works.
+
+The minimal supersymmetric standard models We work in the framework of the minimal N = 1 supersymmetric extension of the standard model defined by, besides the particle content and gauge couplings required by supersymmetry, the superpotential
+
+W = fflij i\Gamma ^e\Lambda RYE^liL ^Hj1 \Gamma ^d\Lambda RYD^qiL ^Hj1 + ^u\Lambda RYU ^qiL ^Hj2 \Gamma _ ^Hi1 ^Hj2j (2) and the soft supersymmetry-breaking potential
+
+Vsoft = fflij i\Gamma ~e\Lambda RAEYE~liLHj1 \Gamma ~d\Lambda RADYD~qiLHj1 + ~u\Lambda RAU YU ~qiLHj2 \Gamma B_Hi1Hj2 + h:c:j
+
++Hi\Lambda 1 m21Hi1 + Hi\Lambda 2 m22Hi2 +~qi\Lambda L M2Q~qiL +~li\Lambda L M2L~liL + ~u\Lambda RM2U ~uR + ~d\Lambda RM2D~dR + ~e\Lambda RM2E~eR
+
++ 12 M1 ~B ~B + 12 M2 i ~W 3 ~W 3 + 2 ~W + ~W \Gamma j + 12 M3~g~g: (3)
+
+Here i and j are SU(2) indices (ffl12 = +1), Y's, A's and M's are 3 \Theta 3 matrices in generation space, and the other boldface letter are vectors in generation space.
+
+The one-loop effective potential for the Higgs fields in the dimensional reduction renormalization scheme then follows (see [10]):
+
+V = _21Hi\Lambda 1 Hi1 + _22Hi\Lambda 2 Hi2 \Gamma B_ ifflijHi1Hj2 + h:c:j
+
++ 18 (g2 + g02) iHi\Lambda 1 Hi1 \Gamma Hi\Lambda 2 Hi2j
+
+2 + 1
+
+2 g
+
+2 fififiHi\Lambda 1 Hi2fififi2 + \Delta V1 ; (4)
+
+with _21 = _2 + m21, _22 = _2 + m22 and the one-loop corrections
+
+\Delta V1 = 164ss2 Str "M4 log M
+
+2
+
+Q2 \Gamma
+
+3 2 !# : (5)
+
+The supertrace is defined as Strf (M2) = Pi Ci(\Gamma 1)2si(2si + 1)f (m2i ) where Ci is the color degrees of freedom and si is the spin of the ith particle.
+
+Electroweak symmetry breaking is caused by both H11 and H22 acquiring vacuum expectation values, h
+
+H11 i = v1; hH22 i = v2; (6)
+
+with g2(v21 + v22) = 2m2W , with the further assumption that vacuum expectation values of all other scalar fields (in particular, squark and sleptons) vanish. This avoids color and/or charge breaking vacua.
+
+3
+
+At the tree level, the correct symmetry breaking pattern results if
+
+_21 + _22 ? 2jB_j; (7) to guarantee a potential bounded from below, and
+
+_21_22 ! B2_2; (8) to have a saddle point and not a minimum at v1 = v2 = 0. At the one-loop level, the potential is automatically bounded from below thanks to the logarithms in the one-loop contributions, and the origin is not an extremum.
+
+The minimization conditions of the potential (4) can be written as
+
+0 = p2v h_21 cos2 fi \Gamma _22 sin2 fi + 18(g2 + g02)v2 cos 2fii + \Delta T1 ; 0 = p2v h 12(_21 + _22) sin 2fi \Gamma B_i + \Delta T2 ; (9)
+
+where v2 = v21 + v22, tan fi = v2=v1 and \Delta T1, \Delta T2 are one-loop tadpole contributions [10]. These minimization conditions allow one to trade two of the Higgs potential parameters _21, _22 and B_ for the Z boson mass m2Z = 12 (g2 + g02)(v21 + v22) and the ratio of vevs tan fi. The third parameter can further be reexpressed in terms of the mass of one of the physical Higgs bosons.
+
+When diagonalizing the mass matrix for the scalar Higgs fields, besides a charged and a neutral would-be Goldstone bosons which become the longitudinal polarizations of the W \Sigma and Z gauge bosons, one finds a neutral CP-odd Higgs boson A, two neutral CP-even Higgs bosons H1;2 and a charged Higgs boson H\Sigma , which will play an important role in the calculation. Choosing as independent parameter the mass mA of the CP-odd Higgs boson, the masses of the other Higgs bosons are given by
+
+M2H = ` m
+
+2A cos2 fi + m2Z sin2 fi + \Delta M211 \Gamma sin fi cos fi(m2A + m2Z) + \Delta M212\Gamma
+
+sin fi cos fi(m2A + m2Z) + \Delta M221 m2A sin2 fi + m2Z cos2 fi + \Delta M222 ' (10)
+
+m2H\Sigma = m2A + m2W + \Delta \Sigma : (11) The quantities \Delta M2ij and \Delta \Sigma are the one-loop radiative corrections coming from virtual (s)top and (s)bottom loops, calculated within the effective potential approach as in [11]. Diagonalization of M2H gives the two CP-even Higgs boson masses, mH1;2 , and their mixing angle ff (\Gamma ss=2 ! ff ! 0).
+
+The neutralinos ~O/0i are linear combination of the neutral gauge bosons ~B, ~W3 and of the neutral higgsinos ~H01 , ~H02 . In this basis, their mass matrix
+
+M~O/0
+
+1;2;3;4 =
+
+0BBB BB@
+
+M1 0 \Gamma g
+
+0v1p
+
+2 +
+
+g0v2p
+
+20 M
+
+2 + gv
+
+1p
+
+2 \Gamma
+
+gv2p
+
+2\Gamma g0v1p
+
+2 +
+
+gv1p
+
+2 0 \Gamma _
+
++ g
+
+0v2p
+
+2 \Gamma
+
+gv2p
+
+2 \Gamma _ 0
+
+1CCC CCA (12)
+
+4
+
+is diagonalized analytically to give four neutral Majorana states,
+
+~O/0i = Zi1 ~B + Zi2 ~W 3 + Zi3 ~H01 + Zi4 ~H02 ; (13) the lightest of which, to be called O/, is then the candidate for the particle making up the dark matter in the universe.
+
+The charginos are linear combinations of the charged gauge bosons ~W \Sigma and of the charged higgsinos ~H\Gamma 1 , ~H+2 . Their mass mass terms are given by
+
+( ~W \Gamma ~H\Gamma 1 ) M~O/\Sigma ` ~W
+
++
+
+~H+2 ' + h.c. (14)
+
+Their mass matrix,
+
+M~O/\Sigma = ` M2 gv2gv
+
+1 _ ' ; (15)
+
+is diagonalized by the following linear combinations
+
+~O/\Gamma i = Ui1 ~W \Gamma + Ui2 ~H\Gamma 1 ; (16) ~O/+i = Vi1 ~W + + Vi2 ~H+1 : (17)
+
+We choose det(U ) = 1 and U \Lambda M~O/\Sigma V y = diag(m~O/\Sigma
+
+1 ; m~O/
+
+\Sigma 2 ) with non-negative charginomasses m
+
+~O/\Sigma i * 0. When discussing the squark mass matrix including mixing, it is convenient to choose
+
+a basis where the squarks are rotated in the same way as the corresponding quarks in the standard model. We follow the conventions of the particle data group [12] and put the mixing in the left-handed d-quark fields, so that the definition of the Cabibbo-KobayashiMaskawa matrix is K = V1Vy2, where V1 (V2) rotates the interaction left-handed u-quark (d-quark) fields to mass eigenstates. For sleptons we choose an analogous basis, but due to the masslessness of neutrinos no analog of the CKM matrix appears.
+
+We then obtain the general 6 \Theta 6 ~u- and ~d-squark mass matrices:
+
+M2~u = M
+
+2Q + myumu + DuLL1 \Gamma myu(AyU + _\Lambda cot fi)\Gamma
+
+(AU + _ cot fi)mu M2U + mumyu + DuRR1 ! ; (18)
+
+M2~d = KyM
+
+2QK + mdmyd + DdLL1 \Gamma myd(AyD + _\Lambda tan fi)
+
+\Gamma (AD + _ tan fi)md M2D + mydmd + DdRR1 ! ; (19) and the general sneutrino and charged slepton masses
+
+M2~* = M2L + D*LL1 (20)
+
+M2~e = ` M
+
+2L + memye + DeLL1 \Gamma mye(AyE + _\Lambda tan fi)\Gamma
+
+(AE + _ tan fi)me M2E + myeme + DeRR1 ' : (21) Here
+
+DfLL = m2Z cos 2fi(T3f \Gamma ef sin2 `w); (22)
+
+5
+
+DfRR = m2Z cos 2fief sin2 `w: (23) In the chosen basis, mu = diag (mu; mc; mt), md = diag (md; ms; mb) and me = diag(me;m_; mo/ ).
+
+The slepton and squark mass eigenstates ~fk (~*k with k = 1; 2; 3 and ~ek, ~uk and ~dk with k = 1; : : :; 6) diagonalize the previous mass matrices and are related to the current sfermion eigenstates ~fL and ~fR via (a = 1; 2; 3)
+
+~fLa =
+
+6X
+
+k=1
+
+~fk\Gamma \Lambda kaF L ; (24)
+
+~fRa =
+
+6X
+
+k=1
+
+~fk\Gamma \Lambda kaF R: (25)
+
+The squark and charged slepton mixing matrices \Gamma UL;R, \Gamma DL;R and \Gamma EL;R have dimension 6 \Theta 3, while the sneutrino mixing matrix \Gamma *L has dimension 3 \Theta 3.
+
+For simplicity, and to get in touch with published papers [3], we then make a simple ansatz for the up-to-now arbitrary soft supersymmetry-breaking parameters:
+
+AU = diag(0; 0; At) AD = diag(0; 0; Ab) AE = 0 MQ = MU = MD = ME = ML = m01:
+
+(26)
+
+This allows the squark mass matrices to be diagonalized analytically. For example, for the top squark one has, in terms of top squark mixing angle `~t,
+
+\Gamma ~t1~tUL = \Gamma ~t2~tUR = cos `~t; \Gamma ~t2~tUL = \Gamma \Gamma ~t1~tUR = sin `~t: (27) Notice that the ansatz (26) implies the absence of tree-level flavor changing neutral currents in all sectors of the model. It is not however the more general ansatz for the absence of tree-level FCNC's, which would only demand that the trilinear couplings Ai, the soft mass matrices M2i and also KyM2QK be diagonal, and not necessarily equal to each other. Notice also that this is typically not what is obtained in low-energy supergravity models with a universal scalar mass at the grand-unification (or Planck) scale, in which the running of the scalar masses down to the electroweak scale generates off-diagonal terms and tree-level FCNC's in the squark sector.
+
+The b ! sfl branching ratio
+
+In the calculation of the branching ratio for b ! sfl we follow [13]. In the standard model, the rate is given by
+
+\Gamma (b ! sfl) = m
+
+5b jAW j2
+
+16ss ; (28) with
+
+AW = 3eg
+
+2
+
+32ss2m2W K\Lambda tsKtb xtW f1(xtW ); (29)
+
+6
+
+where e and g are evaluated at the b mass scale, and the function f1 arises from the loop integration:
+
+f1(x) = 8x
+
+3 \Gamma 3x2 \Gamma 12x + 7 + 6x(2 \Gamma 3x) log(x)
+
+36(x \Gamma 1)4 : (30) Here and in the following xij = m2i =m2j .
+
+For a general supersymmetric model, contributions from charged Higgs bosons H\Gamma , charginos ~O/\Gamma , gluinos ~g and neutralinos ~O/0 have to be added to AW . In our case, only the standard model contribution AW and those for H\Gamma and ~O/\Gamma enter, since the gluino and neutralino contributions vanish because of our ansatz for the squark mass matrices (absence of tree-level FCNC's).
+
+AH\Gamma and A~O/\Gamma can be written as (see, e.g. [13])
+
+AH\Gamma = eg
+
+2
+
+32ss2m2W K\Lambda tsKtb xtH hcot
+
+2 fi f1(xtH) + f2(xtH)i ; (31)
+
+A~O/\Gamma = \Gamma
+
+2X
+
+c=1
+
+6X k=1
+
+e 16ss2m2~O/\Sigma
+
+c ^
+
+gL~uk ~O/\Sigma c bg\Lambda L~u
+
+k ~O/
+
+\Sigma c s f1(x~O/\Gamma c ~uk )+
+
++gR~uk ~O/\Sigma c bg\Lambda L~u
+
+k ~O/
+
+\Sigma c s m~O/
+
+\Gamma c
+
+mb f3(x~O/
+
+\Gamma c ~uk )*; (32)
+
+where gL~uk ~O/\Sigma c d and gR~uk ~O/\Sigma c d are the left- and right-handed down-quark-chargino-up-squark vertex constants given by
+
+gL~uk ~O/\Sigma c d =
+
+3X
+
+i=1 i
+
+V \Lambda c2\Gamma kiURY iU \Gamma gV \Lambda c1\Gamma kiULj Kid (33)
+
+gR~uk ~O/\Sigma c d =
+
+3X
+
+i=1
+
+Uc2\Gamma kiULKidY dD: (34)
+
+The additional loop integration functions entering are
+
+f2(x) = 5x
+
+2 \Gamma 8x + 3 + 2(2 \Gamma 3x) log(x)
+
+6(x \Gamma 1)3 (35) and
+
+f3(x) = \Gamma 7x
+
+2 + 12x \Gamma 5 \Gamma 2x(2 \Gamma 3x) log(x)
+
+6(x \Gamma 1)3 : (36) It is important for our result that the loop integration functions fi(x) (i = 1; 2; 3) are decreasing positive functions of x [14].
+
+The b ! sfl branching ratio is finally evaluated as
+
+BR(b ! sfl) = BR(b ! ce_*) \Gamma (b ! sfl)\Gamma (b ! ce_*) (37) with
+
+BR(b ! ce_*) = 0:107 (38)
+
+7
+
+and
+
+\Gamma (b ! ce_*) = m
+
+5bG2F
+
+192ss3 jKcbj
+
+2ae(xcb)*(mb; xcb); (39)
+
+where
+
+ae(x) = 1 \Gamma 8x2 + 8x6 \Gamma x8 \Gamma 24x4 log(x) (40)
+
+is a phase space factor, and
+
+*(m; x) = 1 \Gamma 23ss ffs(m)fS(x) (41) is a QCD correction factor for the semileptonic decay (fS(xcb) ,\Gamma 2:4 [15]).
+
+A complication in the analysis is given by possibly large QCD corrections to the b ! sfl decay, which at present are plagued by theoretical uncertainties (see e.g. ref. [16]). Therefore we preferentially opted for the tree-level value described in this section. In the discussion we will comment on the effect of including QCD corrections according to the procedure outlined in ref. [13].
+
+The direct detection rate
+
+The rate for direct detection of galactic neutralinos, integrated over deposited energy assuming no energy threshold, is
+
+R = X
+
+i
+
+NinO/hoeiO/vi; (42)
+
+where Ni is the number of nuclei of species i in the detector, nO/ is the local galactic neutralino number density, oeiO/ is the neutralino-nucleus elastic cross section, and the angular brackets denote an average over v, the neutralino speed relative to the detector.
+
+We take the local galactic neutralino velocity distribution as a truncated gaussian, which in the detector frame moving at speed vO relative to the galactic halo reads
+
+f (v) = 1N
+
+cut
+
+v2 uvOoe (exp "\Gamma
+
+(u \Gamma vO)2
+
+2oe2 # \Gamma exp "\Gamma
+
+min(u + vO; vcut)2
+
+2oe2 #) (43)
+
+for vesc ! v ! pv2esc + (vO + vcut)2 and zero otherwise, with u = pv2 + v2esc and
+
+Ncut = vcutoe exp \Gamma v
+
+2cut
+
+2oe2 ! \Gamma r
+
+ss
+
+2 erf `
+
+vcutp
+
+2oe ' : (44)
+
+Numerically, we have taken the halo line-of-sight velocity dispersion oe =120 km/s, the galactic escape speed vcut = 600 km/s, the relative Earth-halo speed vO = 264 km/s (a yearly average) and the Earth escape speed vesc = 11.9 km/s. We have adopted a local dark matter density mO/nO/ = 0.3 GeV/cm3 whenever the calculated neutralino relic density \Omega O/h2 ? \Omega gal:DMh2, the density of dark matter in galactic halos averaged over the entire universe. This is meant to represent the minimum value for which neutralinos could make up the totality of the galactic dark matter. When \Omega O/h2 ! \Omega gal:DMh2, we have scaled
+
+8
+
+nO/ proportionally to \Omega O/=\Omega gal:DM. The value to choose for \Omega gal:DMh2 is quite uncertain, both because of uncertainties in the density and extension of galactic halos and because of the poorly known relation between the universally-averaged and the local dark matter densities. Just for comparison, we have chosen the same value \Omega gal:DMh2 = 0:025 as in ref. [3], but we call to the attention of the reader that values smaller by one order of magnitude would still be acceptable.
+
+The neutralino-nucleus elastic cross section can be written as
+
+oeiO/ = 14ssv2 Z
+
+4m2iO/v2
+
+0 dq
+
+2G2iO/(q2); (45)
+
+where miO/ is the neutralino-nucleus reduced mass, q is the momentum transfer and GiO/(q2) is the effective neutralino-nucleus vertex. In this calculation we write
+
+G2iO/(q2) = A2i F 2S (q2)G2S + 4\Lambda 2i F 2A(q2)G2A; (46) (often \Lambda 2i appears as *2J(J + 1) ) and assume gaussian nuclear form factors [17]
+
+FS(q2) = FA(q2) = exp(\Gamma q2R2i =6_h2); (47)
+
+Ri = (0:3 + 0:89A1=3i )fm; (48) which should provide us with a good approximation of the integrated detection rate [18], in which we are only interested. Since the non-zero-spin nuclei we consider have an unpaired proton, we consider the scalar and axial neutralino-proton vertices GS and GA, a neutron admixture giving a contribution that can be neglected. Using heavy-squark effective lagrangians [19], we get
+
+GS = X
+
+q=u;d;s;c;b;th
+
+_qqi 0@ X
+
+h=H1;H2
+
+ghO/O/ghqq
+
+m2h \Gamma
+
+1 2
+
+6X
+
+k=1
+
+gL~qkO/qgR~qkO/q
+
+m2~qk 1A (49)
+
+and
+
+GA = X
+
+q=u;d;s
+
+\Delta q gZO/O/gZqqm2
+
+Z +
+
+1 8
+
+6X
+
+k=1
+
+g2L~qkO/q + g2R~qkO/q
+
+m2~qk ! : (50)
+
+The g's are elementary vertices involving the particles indicated by the indices, and they read
+
+ghO/O/ = ( (gZO/2 \Gamma gyZO/1) (\Gamma ZO/3 cos ff + ZO/4 sin ff) ; for H1;(gZ
+
+O/2 \Gamma gyZO/1) (ZO/3 sin ff + ZO/4 cos ff) ; for H2; (51)
+
+ghqq = ( \Gamma Yq cos ff=p2; for H1;+Y
+
+q sin ff=p2; for H2; (52)
+
+gZO/O/ = g2 cos `
+
+W iZ
+
+2O/3 \Gamma Z2O/4j (53)
+
+gZqq = \Gamma g2 cos `
+
+W T
+
+3q; (54)
+
+gL~qkO/q = gLL\Gamma kqQL + gRL\Gamma kqQR; (55) gR~qkO/q = gLR\Gamma kqQL + gRR\Gamma kqQR; (56)
+
+9
+
+with
+
+gLL = \Gamma 1p2 `T3qgZO/2 + 13gyZO/1' ; (57) gRR = p2eqgyZO/1; (58)
+
+gLR = gRL = ( \Gamma YqZO/3; for q = u; c; t;\Gamma Y
+
+qZO/4; for q = d; s; b; (59)
+
+and
+
+Yq = ( mq=v2; for q = u; c; t;m
+
+q=v1; for q = d; s; b: (60)
+
+Numerically, we have taken [20]
+
+muh_uui = 0:023mp; mdh_ddi = 0:034mp; (61) msh_ssi = 0:14mp; mch_cci = mbh_bbi = mth_tti = 0:595mp; (62)
+
+and [21]
+
+\Delta u = 0:77; \Delta d = \Gamma 0:49; \Delta s = \Gamma 0:15: (63)
+
+Moreover, we have used
+
+\Lambda 2Al = 0:35; \Lambda 2Na = 0:041 and \Lambda 2I = 0:007; (64) according to the odd-group model [22].
+
+One should be aware that both our choice of nuclear form factors and of neutralinonucleon vertices and the numerical values adopted for the nucleon matrix elements are at best approximate. A more sophisticated treatment (see discussion and references in [23]), would however, beyond still presenting theoretical and calculational weaknesses, change the rate values by much less than the spread due to the unknown supersymmetric parameters.1
+
+Sampling of supersymmetric parameter space
+
+When solving the minimal supersymmetric standard models defined above we let the universal (weak-scale) sfermion mass parameter m0 vary between 100 and 3000 GeV, the soft supersymmetry breaking parameters Ab and At between \Gamma 3m0 and 3m0, tan fi between 1.2 and 50, the pseudoscalar mass mA between its experimentally allowed lower bound and 1000 GeV, and we fix the top quark mass at mt = 175 GeV.
+
+For the model scan, two alternative sets of parameters are used: (1) the usual _ and M2, both varied logarithmically in the interval [\Gamma 5000; 5000] GeV, and (2) the mass of the lightest neutralino mO/ and its gaugino fraction Zg = Z2O/1 + Z2O/2, varied logarithmically in
+
+1The b ! sfl formulas in ref. [23] and in the accompanying computer code neutdriver seem to contain some errors. After correction and fixing of some bugs, neutdriver gave results in qualitative agreement with ours. We thank G. Jungman for providing us with the source code.
+
+10
+
+[\Gamma 5000; 5000] GeV and linearly in [0:00001; 0:99999]. To start with, we enforce the gaugino mass unification conditions (1).
+
+With this definition of the MSSM models (which we note is the same as in [3]), we generate model parameters randomly within the bounds mentioned above and proceed to calculate the mass spectrum, the couplings, the Z-boson invisible width, etc. We keep only models that satisfy the accelerator constraints given in the 1995 Review of Particle Properties [12]. In addition, we drop models that violate the 95% C.L. limits from the CLEO experiment [1] 1:0 \Delta 10\Gamma 4 ! BR(b ! sfl) ! 3:4 \Delta 10\Gamma 4. We ask for 4,000 models satisfying the accelerator constraints including b ! sfl.
+
+Then for each model allowed by the accelerator constraints we calculate the relic density of neutralinos \Omega O/h2. We use the formalism in ref. [24] to carefully treat resonant annihilations and threshold effects, keeping finite widths of unstable particles, including all two-body annihilation channels of neutralinos. The annihilation cross sections used were derived using a novel helicity projection technique [25], and were checked against published results for several of the subprocesses. Only models that would not overclose the universe, i.e. in which \Omega O/h2 ! 1, are considered cosmologically viable.
+
+In fig. 1 we show the _-M2 location of the viable models that survive all experimental bounds, including the \Omega O/h2 and b ! sfl constraints. Fig. 1(a) refers to the _-M2 sampling, and fig. 1(b) to the mO/-Zg sampling.
+
+At this point we compute integrated direct detection rates for pure germanium (76Ge), sapphire (Al2O3) and sodium iodide (NaI) detectors, which are representative of devices presently under research or development. The rates resulting in experimentally and cosmologically viable models are presented in fig. 2 for a Ge detector. Again, fig. 2(a) refers to the _-M2 sampling, and fig. 2(b) to the mO/-Zg sampling.
+
+The huge spread of possible rates, even at fixed neutralino mass, is evident. This hinders the predictability of the class of MSSM models we consider, and is one of the driving reasons for introducing more restrictive, and so more predictive, relations among the model parameters.
+
+A fact should however be noticed: in the two samplings, no points have interesting detection rates, say above 1 event/kg/day in Ge. Can we conclude that in the class of models we consider the b ! sfl constraint is so strong to exclude interesting detection rates?
+
+Compare figs. 2(a) and 2(b): the aesthetic appearance of the clouds of points is quite different. This is only due to the different a priori probabilities used in the two samplings. It is obvious that Nature, if she has chosen supersymmetry, has realized just one of the models appearing as dots in our figures. By the same token, we have no reason to prefer an a priori probability measure over another. And so we must not be lead astray by attaching a probability to the points in the figures. We must not turn sentences like `most of the models give low detection rates' into statements on the relative likelihood of high and low detection rates. The same applies of course to histograms derived from such samplings. And if comparison of figs. 2(a) and 2(b) is not convincing enough, it should become inescapable in the following.
+
+We perform two special scans, of 500 models each, demanding to consider only models in which the scalar piece of the neutralino-proton cross section is larger than a tenth of
+
+11
+
+the corresponding Dirac neutrino-proton cross section. This in order to pick out points with the highest detection rates. In the first scan we sample in _-M2 as before but restrict the range of the Higgs pseudoscalar mass to mA 2 [0; 60] GeV. In the second scan, we sample in mO/-Zg with the restricted mA range and further demand mO/ 2 [800; 1200] GeV and Zg 2 [0:01; 0:99]. The results of these special scans for Ge, Al2O3 and NaI are shown in fig. 3, combined with (the top parts of) those of the previous samplings. Remarkably, the high-rate zones, empty before, are now filled with points. Particularly striking is the concentration of points around mO/ ,\Gamma 1000 GeV, which obviously comes from the second special sampling. In fig. 4 we also show the dependence of the counting rates on the gaugino fraction Zg for the combined sample. The upper band, corresponding to the two special scans, is almost flat. The slightly higher rates at Zg ? 0:5 are essentially due to a weaker or even absent \Omega -suppression of the galactic neutralino density.
+
+We remind that all points shown in figs. 3 and 4 are compatible with the experimental and cosmological constraints mentioned above, which include the b ! sfl bounds. And so we conclude that, as far as only these constraints are considered, there are viable models with an integrated counting rate as large as 10 events/kg/day in Ge, and even 100 events/kg/day in NaI. These models might well be already probed (and excluded) by current dark matter searches.
+
+Discussion
+
+As we have shown, contrary to the results of [3], we find models with as high Ge counting rate as 10 events/kg/day which still do not violate the b ! sfl bound.
+
+In fig. 5 we plot the b ! sfl rate as a function of the H\Sigma mass. The Ge detection rate decreases from the upper left to the lower right panel. The vertical band of points at relatively low mH\Sigma belongs to the two special samples, and shows best at high Ge rates. The curve at relatively large mH\Sigma , most pronounced at very low Ge rates, comes from the naive _-M2 and mO/-Zg samplings combined, and describes the naively-expected relationship between detection rate and charged Higgs boson mass. The two groups of points are detached, but this is only an artifact of the sampling procedure.
+
+The reason for having an acceptable b ! sfl from a relatively light (100 - 200 GeV) H\Sigma happens to be a cancellation between the charged Higgs contribution and the contribution from the lighter of the two charginos [14]. The latter may be sizable at large tan fi when the top-squark mixing is substantial and the lightest chargino is dominantly a charged higgsino ~O/\Sigma 2 ss ~H\Sigma and is relatively light (jM2j AE j_j ,? mW ). Under these conditions, the dominant chargino contribution is well approximated by
+
+A~O/\Gamma ss \Gamma sign(_`~t) eg
+
+2
+
+16ss2m2W K\Lambda tsKtb
+
+mWp 2jm~O/\Gamma
+
+2 j cos fi \Delta \Delta fififi
+
+U~O/\Gamma
+
+2 ~H
+
+\Gamma V~O/+
+
+2 ~H
+
++ sin `~t cos `~tfififi fififif3(x~t1 ~O/\Gamma
+
+2 ) \Gamma f3(x~t2 ~O/
+
+\Gamma 2 )fififi : (65)
+
+This charged higgsino contribution can be negative and effectively cancel the W boson and charged Higgs boson contributions, which are always positive, when the top squark mixing angle `~t and the parameter _ have the same sign. In terms of the soft-supersymmetry
+
+12
+
+breaking parameters this amounts to
+
+_(At + _ cot fi) ! 0; (66) or in common instances in which At = O(m0) AE _= tan fi to roughly _At ! 0. In our class of models it is possible to satisfy the previous condition (66) for both _ positive and _ negative, because we are free to choose the sign and magnitude of At. This freedom is lost in models imposing additional theoretical constraints, for example in no-scale models or in models with a flat K"ahler manifold (A = 0 or A = B \Gamma m respectively at the unification scale).
+
+We have also performed an analysis including QCD corrections to the b ! sfl amplitudes according to the prescription in ref. [13]. For a given model, the BR(b ! sfl) is generally larger than the tree level value, so some of the models that were previous viable have too large a QCD-corrected BR(b ! sfl). However, other models that had too low a tree-level b ! sfl decay rate become viable when the QCD corrections increase BR(b ! sfl). So our conclusions on the existence of models with high counting rates and acceptable BR(b ! sfl) remain valid even after including QCD corrections.
+
+We already mentioned that we have chosen \Omega gal:DMh2 = 0:025 just for the sake of comparison with ref. [3], and that the actual value to use might even one order of magnitude larger or smaller. Were it smaller, many models in which the detection rate is suppressed just because of a too small relic density would add to the number of models with important detection rates. Fig. 6 shows the predicted rates in Ge versus the calculated neutralino relic density \Omega O/h2, for the combined sample of models. The two naive samples fill the triangular shape at the bottom, and the two special samples are the band and cloud in the upper parts. Models to the right of the solid vertical line overclose the universe (and have been plotted to illustrate the trend of R versus \Omega O/h2). Rates to the left of the vertical dashed line (\Omega O/ = \Omega gal:DM) are \Omega -suppressed by our simple-minded prescription for the local galactic neutralino density at low \Omega O/. Lowering \Omega gal:DM shifts the tip of the `volcano' upwards and towards the left so that right-hand side continues straight to the left, and raises the cloud of specially-sampled models to still higher rates. This would also lower the typical neutralino mass (here 1000 GeV) for which calculated detection rates are highest. Notice that in some of the interesting models, the neutralino relic density is larger than what is needed for them to fill up galactic halos, i.e. \Omega O/ ? \Omega gal:DM.
+
+Some of the models shown in the figures may indeed be already excluded by current negative searches of halo neutralinos. We have not tagged these models as excluded because a serious analysis would require a more detailed calculation of the predicted rates, involving different differential rates for each experiment, sophisticated nuclear form factors, quenching factors, etc. Such an analysis is out of the scope of the present paper.
+
+We set out to go beyond the restrictive supergravity models and examine neutralino detection rates in a general minimal supersymmetric model. Relaxing our ansatz (26) on the sfermion masses would demand the consideration of several phenomenological bounds from flavor changing neutral currents, as e.g. the K0 _K0 and B0 _B0 mass differences, the electric dipole moment of the neutron, etc. We have started by relaxing the request of a universal gaugino mass, eqs. (1), inspired by a recent suggestion to reproduce the measured value of ffs at low energies [8]. We have replaced eqs. (1) by M1 ,\Gamma 0:3M2 ,\Gamma M3 and run
+
+13
+
+through our calculation again. The plots we obtain do not differ qualitatively from those we presented, and the quantitative differences are slight. For these reasons, we do not show them here. Our conclusions on the existence of supersymmetric models with acceptable b ! sfl branching ratios and important detection rates remain the same.
+
+Conclusions
+
+In this paper we have shown that even with the same kind of supersymmetric models as in [3], and enforcing the constraints from b ! sfl, we obtain a range of predictions for direct dark matter search experiments that are much less restrictive. In particular we have found models in which the integrated counting rates in Ge detectors are calculated to be higher than 10 events/kg/day, and even higher in NaI detectors. The basic reason behind the compatibility of these models with the b ! sfl constraints is the non-existence of a lower bound on the charged Higgs boson from b ! sfl measurements, since in the presence of a large top squark mixing the W and H\Sigma contributions to the b ! sfl amplitude may be effectively canceled at large tan fi by the contribution from a light charged higgsino. This cancellation may occur at both positive and negative values of _.
+
+We have argued that with the present ignorance of the origin of an effective low-energy supersymmetric theory one should allow the phenomenological parameters to vary over as large a range as possible without imposing unnecessary relations between parameters (but still restricting them according to various experimental bounds coming from particle physics and cosmology). Although we have kept some simplifying assumptions, the large range of the predicted rates is remarkable. As dark matter detectors improve, we expect this range to be successively narrowed.
+
+We have stressed that the density of points in the plots depends on the assumed a priori distribution of the parameters. One should not be misled in thinking that rate values in zones where there are more points are more probable than those in which there are few. To illustrate this, we have shown the rates obtained by trading _ and M2 with the neutralino mass mO/ and gaugino fraction Zg. The aesthetic appearance of the plots is indeed different. To further stress our point, we have also presented the rates for an a priori distribution which privileges light charginos and light charged Higgs bosons. With this choice, high detection rates with acceptable b ! sfl branching ratios look "generic." It is therefore apparent that no probability should be attached to the plotted point distributions (or to histograms derived from them), and that the figures can only illustrate possible neutralino detection rates. With this caveat, the detection rates are highest for a neutralino mass around 1000 GeV, preferentially more gaugino than higgsino, but these neutralino characteristics are sensitive to the prescription for the \Omega -suppression of the galactic neutralino density.
+
+Naturally, one should consider properties that are invariant under an arbitrary change of the a priori parameter probabilities, like the maximum (or minimum) values of the quantities of interest (the detection rates in our case). Unfortunately, a thorough and fine scanning of parameter space is computationally very expensive and an alternative analytical extremization seems prohibitively complicated. We therefore have to leave the following question open: are there in fact additional, allowed points in the empty regions
+
+14
+
+of our plots? Acknowledgments
+
+This work was supported in part by European Community Twinning and Mobility (Theoretical Astroparticle Network, TAN) grants. L.B. acknowledges the support from the Swedish Natural Science Research Council and wants to thank the Department of Physics at UC Berkeley for hospitality while part of this work was performed. P.G. is supported by the abovementioned TAN and wishes to thank the Department of Physics at Stockholm University and the Laboratoire de Physique Corpusculaire at Coll`ege de France (Paris) for kind hospitality.
+
+References
+
+[1] M.S. Alam, et al. (CLEO Collaboration), Phys. Rev. Lett. 71 (1993) 674; Phys. Rev.
+
+Lett. 74 (1995) 2885.
+
+[2] V. Barger, M. Berger, R. Phillips, Phys. Rev. Lett. 70 (1993) 1368; J.L. Hewett, Phys.
+
+Rev. Lett. 70 (1993) 1045; Y. Okada, Phys. Lett. B315 (1993) 119; R. Garisto and J.N. Ng, Phys. Lett. B315 (1993) 372.
+
+[3] F.M. Borzumati, M. Drees and M.M. Nojiri, Phys. Rev. D51 (1995) 341. [4] P. Nath and R. Arnowitt, Phys. Lett. B336 (1994) 395; Phys. Rev. Lett. 74 (1995)
+
+4592.
+
+[5] E. Diehl, G.L. Kane, C. Kolda and J.D. Wells,  (1995) [6] K.R. Dienes and A.E. Faraggi, IASSNS-HEP-94/113,  (1995). [7] N. Polonsky and A. Pomarol, Phys. Rev. D51 (1995) 6532; D. Matalliotakis and H.P.
+
+Nilles, Nucl. Phys. B435 (1995) 115; M. Olechowski and S. Pokorski, Phys. Lett. B344 (1995) 201; S. Dimopoulos and A. Pomarol, Phys. Lett. B353 (1995) 222; H. Murayama, LBL-36962 (1995) ; V. Berezinsky et al., CERN-TH/95- 206 (1995) .
+
+[8] L. Roszkowski and M. Shifman, . [9] H.E. Haber and G.L. Kane, Phys. Rep. 117 (1985) 75; J.F. Gunion and H.E. Haber,
+
+Nucl. Phys. B272 (1986) 1 [Erratum-ibid. B402 (1993) 567].
+
+[10] V. Barger, M.S. Berger and P. Ohmann, Phys. Rev. D49 (1994) 4908. [11] M. Berger, Phys. Rev. D41 (1990) 225; H.E. Haber and R. Hempfling, Phys. Rev.
+
+Lett. 66 (1991) 1815; P.H. Chankowski, S. Pokorski and J. Rosiek, Phys. Lett. B281 (1992) 100; J. Ellis, G. Ridolfi and F. Zwirner, Phys. Lett. B257 (1991) 83; Y. Okada, M. Yamaguchi and T. Yanagida, Phys. Lett. B262 (1991) 54; A. Brignole, Phys. Lett. B281 (1992) 284; J. Kodaira, Y. Yasui and K. Sasaki, Phys. Rev. D50 (1994) 7035.
+
+15
+
+[12] L. Montanet et al. (Particle Data Group), Phys. Rev. D50 (1994) 1173. [13] S. Bertolini, F. Borzumati, A. Masiero and G. Ridolfi, Nucl. Phys. B353 (1991) 591. [14] R. Garisto and J.N. Ng, Phys. Lett. B315 (1993) 372. [15] N. Cabibbo and L. Maiani, Phys. Lett. B79 (1978) 109. [16] A.J. Buras, M. Misiak, M. Munz and S. Pokorski, Nucl. Phys. B242 (1994) 374; A.
+
+Ali and C. Greub, Z. Phys. C60 (1993) 423.
+
+[17] A. Gould, Ap. J. 321 (1987) 571. [18] J. Ellis and R. Flores, Nucl. Phys. B307 (1988) 883; Phys. Lett B263 (1991) 259. [19] K. Griest, Phys. Rev. D28 (1988) 2357; R. Barbieri, M. Frigeni and G.F. Giudice,
+
+Nucl. Phys. B313 (1989) 725; G. Gelmini, P. Gondolo and E. Roulet, Nucl. Phys. B351 (1991) 623; M. Kamionkowski, Phys. Rev. D44 (1991) 3021; A. Bottino et al., Astropart. Phys. 2 (1994) 77.
+
+[20] J. Gasser, H. Leutwyler and M.E. Sainio, Phys. Lett. B253 (1991) 252. [21] D. Adams et al, Phys. Lett. B357 (1995) 248. [22] J. Engel and P. Vogel, Phys. Rev. D40 (1989) 3132; J. Engel, S. Pittel and P. Vogel,
+
+Int. J. Mod. Phys. E1 (1992) 1.
+
+[23] G. Jungman, M. Kamionkowski and K. Griest, Phys. Rep. to appear, 
+
+(1995).
+
+[24] P. Gondolo and G. Gelmini, Nucl. Phys. B360 (1991) 145. [25] P. Gondolo, in preparation.
+
+16
+
+Figure captions
+
+Figure 1: Location of experimentally and cosmologically viable models in the _-M2 plane for (a) the _-M2 sample and (b) the mO/-Zg sample.
+
+Figure 2: Integrated direct detection rate R off 76Ge versus neutralino mass mO/ for (a) the _-M2 sample and (b) the mO/-Zg sample.
+
+Figure 3: Integrated direct detection rate R in 76Ge, Al2O3 and NaI detectors versus neutralino mass mO/ for the combined sample.
+
+Figure 4: Integrated direct detection rate R in 76Ge, Al2O3 and NaI detectors versus neutralino gaugino fraction Zg for the combined sample.
+
+Figure 5: Branching ratio for b ! sfl decays versus charged Higgs boson mass mH\Sigma for the combined sample.
+
+Figure 6: Integrated direct detection rate R off 76Ge versus neutralino relic density \Omega O/h2 for the combined sample.
+
+17
+

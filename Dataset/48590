@@ -1,0 +1,118 @@
+
+
+ 8 May 1995
+
+INTRODUCTION TO THE POMERON STRUCTURE FUNCTION\Lambda
+
+P V Landshoff DAMTP, University of Cambridge
+
+In many ways the pomeron is like the photon, but there are important differences. Factorisation allows us to define a pomeron structure function, even though the pomeron is not a particle. Although we have a model for the light-quark content of the pomeron, which led to the prediction that a surprisingly large fraction of events at HERA would have an extremely-fast final-state proton, its charm and gluon content will have to be got from experiment. Because the pomeron is not a particle, we cannot derive a momentum sum rule.
+
+Definition of the pomeron structure function This introduction to the pomeron structure function applies to the soft pomeron, whose exchange is responsible for the s0:08 rise in total cross-sections[1]. See for example figure 1, which shows the flp cross-section: the curve is the sum of an s0:08 term corresponding to the soft pomeron and an s\Gamma 0:45 term corresponding to (ae; !; f2; a2) exchange. I do not know to what extent my discussion may apply to any other pomeron, whether it be a less soft one[2][3] or a hard one[4].
+
+Figure 1: flp total cross-section. The data for elastic scattering and diffraction dissociation in pp and _pp collisions are described extremely well[5] by supposing that soft pomeron exchange is similar to photon exchange. For photon exchange between a pair of quarks, the amplitude is
+
+fl \Delta fl e2 h 1t i (1a) while for soft pomeron exchange it is
+
+fl \Delta fl fi20 h(ff
+
+0s)ff(t)\Gamma 1,ff(t)i (1b)
+
+Thus the charge e is replaced by a constant pomeron coupling fi0 ss 2GeV\Gamma 1, and the photon propagator is replaced by the expression in square brackets which is something like a pomeron propagator. Here
+
+ff(t) = 1 + ffl + ff
+
+0t
+
+\Lambda Based on talks given in April 1995 at Photon '95 (Sheffield) and DIS '95 (Paris)
+
+1
+
+ffl ss 0:08 ff0 = 0:25GeV
+
+\Gamma 2 (2)
+
+and ,ff is a phase factor \Gamma e
+
+1
+
+2 issff.
+
+Although photon and pomeron exchange have similarities, there is a crucial difference. The photon propagator has a pole at t = 0 because there is a real zero-mass photon, but there is no pole at t = 0 in the pomeron propagator because the pomeron is not a particle. We do expect to find a 2++ particle, probably a glueball, with mass m such that ff(m2) = 2, but this particle would have m ss 1:9 GeV and so it has no direct influence on the properties of pomeron exchange near t = 0. (However, it is interesting that the WA91 collaboration has reported a 2++ glueball candidate with just this mass[6][5].)
+
+Consider now the proton structure function F proton2 . Being related to the total fl\Lambda p cross-section, it corresponds to a sum over all possible final states. In some small fraction of events, there is an extremely fast proton in the final state[7]. Such events contribute to F proton2 (x; Q2) a part which we call F diffractive2 (x; Q2). In order to define this we must decide what we mean by an "extremely fast" proton, that is we must specify the maximum fraction , of its longitudinal momentum we allow it to lose to include the event. Alternatively, rather than summing over , up to some maximaum value, we may introduce , as an extra variable into F diffractive2 , and in fact it is useful to introduce also the momentum transfer t between the initial and final protons: F diffractive2 = F diffractive2 (x; Q2; ,; t).
+
+This definition of F diffractive2 does not mention the pomeron. By interpreting it in terms of pomeron exchange we find that it has some simple properties: it is leading twist (and so varies only slowly with Q2), and it factorises[8].
+
+(c) (a) (b)
+
+Figure 2: The parton model: (a) F proton2 (b) F diffractive2 and (c) F pomeron2 . The black lines represent the pomeron.
+
+In the simple parton model[9], which is a good approximation at not-too-large Q2, F proton2 corresponds to the diagram in figure 2a. The lower bubble is the amplitude that gives the probability of finding a quark in the proton. It includes all possible nonperturbative contributions. In drawing figure 2a I have used the optical theorem: if we cut the diagram down the middle we reveal the final states. A part of the bubble corresponds to those final states that contain an extremely fast proton, and if we take that part we obtain the diagram of figure 2b. As I have said, this part is leading twist.
+
+The thick lines represent the pomeron. The momentum it carries away from the proton is just ,p +: : :. In recognition of this it is nowadays usual to rename , and instead call it xIP . Soft pomeron exchange has a factorisation property, which yields
+
+d2 dtdxIP F
+
+diffractive2 (x; Q2; xIP ; t) = FIP=p(t; xIP )F pomeron2 (fi; Q2; t)
+
+fi = x=xIP FIP=p(t; xIP ) = 9fi
+
+20
+
+4ss2 [F1(t)]
+
+2x1\Gamma 2ff(t)IP (3)
+
+Here F1 is the Dirac elastic form factor of the proton.
+
+2
+
+Momentum sum rule We may regard FIP=p(t; xIP ) as the flux of pomerons emitted by the proton, and F pomeron2 as the structure function of the pomeron. In the parton model, F pomeron2 is just the upper part of figure 2b, drawn in figure 2c. Figure 2c looks just like figure 2a, with the intial-state proton apparently replaced by an intial-state pomeron. However, there is no particle called the pomeron; figure 2c rather makes sense because of the factorisation property (3).
+
+In fact, because there is no pomeron particle near t = 0, this factorisation is not uniquely defined. I think that (3) is the most natural way to define it[8], but we could just as well multiply one of the factors in (3) by any number N and the other by 1=N . Indeed, the choice N = 12 ss is found in the
+
+literature[10][2]. Because of this ambiguity, one cannot derive a momentum sum rule for F pomeron2 : if such a sum rule were to be satisfied for some choice of N , obviously it would not be for any other choice. One cannot derive a momentum sum rule because the pomeron is not a particle.
+
+Simple model for the pomeron structure function I have said that the pomeron in some ways resembles the photon, and so one expects that it has a quark structure function something like that of the photon, in that it consists of two pieces at not-toolarge Q2: one that can be calculated from a simple box diagram and another that is not calculable and is most important at small fi.
+
+(b)(a) Figure 3: (a) box contribution to F pomeron2 . The black lines represent the pomeron.
+
+(b) the equivalent when pomeron exchange is modelled by two-gluon exchange.
+
+The box contribution corresponds to figure 3a. The simplest model for pomeron exchange is that it corresponds to the exchange of a pair of nonperturbative gluons[11]. Then figure 3a becomes the sum of the two diagrams in figure 3b. Together these give[8][12]
+
+fiqpomeron(fi) = Cfi(1 \Gamma fi) (5) where C ss 0:2 for each light quark and each light antiquark. This formula provided the remarkable prediction, nearly 10 years ago[8], that some 10% of HERA events would have a very fast final-state proton.
+
+The other piece[8] of the pomeron quark structure function resembles the ae-like contribution to the photon structure function, and so is most important for small fi, where it behaves as fi\Gamma ffl. If fi is not too small, one expects that ffl = 0:08, as for the proton structure function[13]. But for extremely small fi one would expect the same to happen as with F proton2 , and see a marked increase in the effective value of ffl.
+
+Scaling violation and related issues Even though the pomeron is not a particle, the factorisation that leads to figure 2c makes it natural[8][14] to write an evolution equation for F pomeron2 similar to that for F proton2 , as if the pomeron were the initial state. For this, one needs an input gluon distribution gpomeron(fi) at some initial Q2 value. One might guess that its shape is not too different from that of qpomeron(fi), but this is just a guess. Further, we have no model that tells us how large it is. Experiment will be important here, for example high-pT jet production in real-photon diffractive events, the analogue of the UA8 experiment at the CERN _pp collider[15].
+
+3
+
+We also need to know what is the initial charmed-quark content of the pomeron. Again we have no reliable model, and so experiment will be important. The coupling of the pomeron to quarks could be rather flavour-blind, so that the c-quark content might be quite large even at quite small Q2, but even if the coupling is flavour-blind there may be a suppression because of the mass[12]. We do not know.
+
+This research is supported in part by the EU Programme "Human Capital and Mobility", Network "Physics at High Energy Colliders", contract CHRX-CT93-0357 (DG 12 COMA), and by PPARC.
+
+References
+
+1 A Donnachie and P V Landshoff, Physics Letters B296 (1992) 227 2 A Capella, A Kaidalov, C Merino and J Tran Thanh Van,  3 E Gotsman, E M Levin and U Maor,  4 E A Kuraev, L N Lipatov and V S Fadin, Sov Physics JETP 44 (1976) 443
+
+L V Gribov, E M Levin and M G Ryskin, Physics Reports 100 (1983) 1
+
+5 P V Landshoff, The two pomerons,  6 WA91 collaboration: S Abatzis et al, Physics Letters B324 (1994) 509 7 G Ingelman and P Schlein, Physics Letters B152 (1985) 256 8 A Donnachie and P V Landshoff, Physics Letters B191 (1987) 309; Nuclear Physics B303 (1988)
+
+634
+
+9 P V Landshoff, J C Polkinghorne and R D Short, Nuclear Physics B28 (1970) 210 10 E L Berger, J C Collins, D Soper and G Sterman, Nuclear Physics B288 (1987) 704 11 P V Landshoff and O Nachtmann, Z Physik C35 (1987) 211 12 N N Nikolaev and B G Zakharov, J Exp Theor Phys 78 (1994) 598 M Diehl, Z Physik C66 (1995)
+
+181
+
+13 A Donnachie and P V Landshoff, Z Physik C61 (1994) 139
+
+H Abramowicz, E M Levin, A Levy and U Maor, Physics Letters B269 (1991) 465
+
+14 T Gehrmann and W J Stirling,  15 UA8 collaboration: P Schlein, Nuclear Physics B (Proc Suppl) 33A,B (1993) 41
+
+4
+

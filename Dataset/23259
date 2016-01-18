@@ -1,0 +1,285 @@
+F.V.Tkachov Phys. Rev. Lett. 73 (1994) 2405; Erratum 74 (1995) 2618 1
+
+
+Measuring the number of hadronic jets
+
+F.V. Tkachov*(a)
+Physics Department, Penn State University, State College, Pennsylvania 16802
+
+(Received XX Xxxxxx 1994)
+
+A quantitative description of the qualitative feature of multihadron final states known as the
+"number of jets" is given by a sequence of infrared finite shape observables (jet discriminators) that:
+take continuous values between 0 and 1; are stable--unlike clustering algorithms--against small
+variations of the input (data errors, Sudakov effects etc.); have a form of multiparticle correlators
+that is natural in the context of quantum field theory and hence are better suited for a systematic
+study of theoretical uncertainties (logarithmic and power corrections).
+
+
+1. The jet paradigm is the foundation of the high-energy On the measurement side, any algorithm that produces an
+collider physics1. It is based on the experimental evidence for integer number of jets cannot be fully satisfactory-- even be-
+hadronic jets2 and the Quantum Chromodynamics-based pic- fore any dynamics gets involved. Indeed, such an algorithm
+ture of hadronic energy flow inheriting the shape of partonic rips the continuum of multiparticle states by mapping it to the
+energy flow in the underlying hard process3. However, the discrete set of natural numbers. A discontinuous mapping is
+problem of adequate numerical description of multijet structure unstable with respect to small variations (measurement errors
+of multihadron events proved theoretically subtle, its apparent or unknown higher order corrections) for some values of input
+simplicity turned out deceptive, while its satisfactory solution, data (cf. Fig. 1).11 As a result, the inversion of hadronization is
+elusive. The fundamental role of calorimetric measurements in a mathematically ill-posed problem, whence the problem of
+high-energy experiments warrants a scrutiny of the logical spurious jets, and the sensitivity to Sudakov effects and to irre-
+principles of such measurements. levant details of recombination procedures.8 This pathology is
+2. It makes sense to divide the problems where jets are somewhat masked off by averaging over many events. But a
+studied into two classes. The descriptive theory of hadronic deterministic recombination algorithm is applied separately to
+jets studies the dynamics of jets as such4; one is mostly inter- each stochastically generated event. So, instead of a statistical
+ested in qualitative effects that occur in the leading logarithmic compensation of errors, there occurs a smearing between cross
+order; a systematic improvement of theoretical predictions is, sections with adjacent numbers of jets.12 It can be eliminated
+typically, hardly possible.5 neither by increasing statistics, nor by varying the jet resolution
+The second class (precision measurements) comprises ycut , and it is more important for smaller ycut , lower energies
+quantitative studies of the Standard Model (determination of and larger numbers of jets.13
+2
+S (Q ) etc.1) where one aims at a highest reliability for What, then, could be a quantitative measure for the qualita-
+both data and theoretical predictions: tive feature of multiparticle final states known as the "number
+Reliability of data means that the problem ought to be re- of jets", a measure that allows a correct handling of data errors
+garded as the one of measurement rather than the one of mod- and a systematic study of theoretical uncertainties, and that is
+eling dynamics. One has to ensure that measurements be stable unbiased by the imperfect knowledge of jet dynamics?
+with respect to errors in data from calorimeter cells, their posi- 4. MATHEMATICAL NATURE OF "ENERGY FLOW". If is a calo-
+tion and geometry, etc. (otherwise physical information may be rimeter cell, then the energy deposited in it by particles that hit
+distorted by artefacts of measurement procedures), and that the the cell is E( ) 0 . Energy conservation implies that if one
+data experimentalists produce be not biased by the imperfect takes two non-overlapping cells and ' and combines them
+knowledge of details of dynamics. into one, then the energy deposited in it is the sum of energies
+Reliability of theoretical predictions means that it ought to deposited in and ' separately: E( ) = E( ) + E( ) .
+be possible to systematically include logarithmic and power One can consider cells simply as parts (subsets) of the unit
+corrections. The observables one uses ought to conform to the sphere around the collision point. Then the energy flow (EF for
+ 17 Jan 1999 general structure of the underlying formalism (perturbative short) is a non-negative additive function on the subsets .
+Quantum Field Theory) to ensure a better control over theore-
+tical uncertainties due to a considerable sophistication of the Such functions are known as abstract measures.14, 15
+modern analytical methods of the theory of Feynman diagrams6. Let P be a multiparticle state, P = {E , $p }
+i i i , where Ei and
+
+3. Jet counting is an attempt to use jets of hadrons to tag $
+pi are the energy and direction (a unit 3-vector) of the i-th parti-
+events. Its great usefulness7 is due to the fact that the very cle. All information about P obtainable using calorimeters is its EF
+presence of jets and their number is the most direct and clear represented as a linear combination of -functions localized at $pi ,
+manifestation of the dynamics of QCD. =
+The conventional jet counting determines an integer number EP ( $p) E $ ( $ )
+p , (1)
+i i pi
+of jets for each event using algorithms8 which attempt to recon- where $p is a variable unit 3-vector running over the sphere.
+struct the underlying partons' momenta by, in effect, inverting The energy measured by a cell is
+the hadronization. They were invented9 in the context of de-
+scriptive theory of jets, involve many ambiguities8, and their E ( ) $
+= dp E ( $p) = E .
+P z
+P $
+p
+i
+i
+use in measurement-type problems may not be accepted un- The observables we deal with in calorimetric measurements
+critically: are functions of EFs E. Let f (E) be such a function. Its stabi-
+On the theory side, the definition of jets in such algorithms uses
+phase space cutoffs to take into account cancellations of IR singula- lity with respect to data errors translates into a concrete kind of
+rities. This is rather unnatural within the formalism of QFT: one continuity. Let En be a sequence of EFs such that, however
+has to recur to numerics even in simpler cases10 whereas a study small the energy resolution and geometry of calorimeters, En
+of power corrections remains practically impossible. become indistinguishable within data errors for all n large
+
+
+F.V.Tkachov Phys. Rev. Lett. 73 (1994) 2405; Erratum 74 (1995) 2618 2
+
+
+r
+enough. This calorimetric or C-convergence of EFs is for- where p 0 = = $
+i are light-like 4-momenta ( p E
+i i , p E p
+i i i ) and
+malized as follows. Let 0 ( $p) 1 be a continuous function the 4-vector P2 = 1 describes the reference frame22. Symmetry
+on the unit sphere. It can be thought of as describing local effi- yields a similar factor for each pair of arguments. One gets the
+ciency of a calorimeter cell: for a given EF E( $p) the ex- sequence of jet discriminators:
+pression z d$p E( $p)( $)
+p E is the energy measured by this J (E , p$ ,K, E , p$ ) = E K E j ( p$ ,K, p$ )
+,
+m 1 1 N N i i m i i
+cell. Then C-convergence of E 1 m 1 m
+n is equivalent to numerical 1i K
+< <i N
+1 m
+convergence of E for any "detector" .16 For a correctly
+n
+j ( p$ ,K, p$ ) = N . (5)
+defined observable f , f ( m 1 m m ij
+n
+E ) should converge in numerical
+1i < jm
+sense for any such sequence En . Such functions f (calorime- Jm
+tric, or C-observables) are exactly the ones that are stable with It turns out that 0 1 on any state if Nm is defined from
+respect to measurement errors of calorimetric detectors. the condition J sym = sym
+m (P ) 1 where P is a limit of uniformly
+5. The role of C-continuity is best understood with the help sym = -1
+of analogy with the familiar length measurements. Length is distributed states PN with N so that E N
+i and
+habitually represented as a real number--an idealization that, N d$ . Then N = , N = / , N = ,
+i 4 z i
+p 2 2 3 27 4 4 36
+one tends to forget, is highly non-trivial from a historical per-
+spective. In particular, the familiar continuity of real numbers N = =
+5 9375 / 32 , N6 455625 / 128 .23
+is useful only inasmuch as it corresponds to the stability of, Some special values of Jm(P ) are as follows. For the state
+say, volume computations with respect to data errors of the P sym
+3 consisting of 3 symmetrically arranged particles,
+length measurements involved. The elusive reality of calorime- J (P sym ) = / . . For a symmetric state of 4 particles
+tric measurements is that whereas rulers measure length as a 3 3 27 32 0 84
+real number, calorimetric detectors measure energy flow as an (tetrahedron) J = =
+3 ( 4
+P sym) 1 , J4 ( 4
+P sym) 64 / 81 . For a sym-
+
+additive function on subsets, and the C-continuity plays exactly metric state of six particles (octahedron),
+the same role for data errors of calorimeters as the usual conti- J sym sym
+= =
+3 (P ) J
+6 4 ( 6
+P ) 1 .
+nuity of real numbers does for rulers. 1
+6. A large class of C-observables is immediately found as
+follows.17 Consider the direct product of m identical EFs
+E( $p) . Then the standard theorems14 imply C-continuity of the
+
+observables of the following form: ycut
+F (E) = dp$ K dp$ E( p$ )KE( p$ ) f ( p$ ,K, p$ ) , (2)
+m z 1 z m 1 m m 1 m
+0
+where fm is any continuous symmetric function. A function on m =1 2 3 4 5 6
+EFs induces a function on multiparticle states: using (1) and
+(2) one obtains: Fig. 1. The crosses are the values of the jet discriminators Jm for a typical
+final state. When looked at sideways, the fat lines represent the "number of
+F {
+c E , p$ }h = E K E f ( p$ ,K, p$ )
+. (3)
+m i i i i
+K i i m i i
+1 m 1 n 1 m jets" as a function of ycut .
+This is automatically fragmentation invariant. If fm satisfy Fig. 1 shows a typical picture of values of jet discriminators.
+minimal requirements of regularity (e.g. existence of first de- The usual jet counting amounts to replacing the continuous Jm
+rivatives), then Fm are IR finite18. Such C-observables are in- with 0 or 1 (the blobs). This can be achieved e.g. by introduc-
+terpreted as average values of operators that are m-local in ing a cutoff ycut as shown.24 The non-zero tail at large m is
+momentum space, which offers a possibility of their systematic due to hadronization (including Sudakov effects). The instabi-
+theoretical study.19 Examples of C-observables are the well- lity with respect to such effects as well as to data errors (shifts
+known thrust, spherocity, etc. (see Ref. 4 for a complete list).20 of the crosses) is clearly seen.25
+Algebraic combinations of C-observables are again C- Note that J
+m 0 for m larger than the number of particles
+observables. But taking e.g. infinite sums of such functions (or detector cells). For decreasing width of jets and for
+( m + ) requires care: one can arrive at observables that are m > M (a typical number of jets in the event), Jm are in-
+IR safe in each order of perturbation theory, continuous in the
+ordinary sense as functions of particles' energies and momenta creasingly suppressed by powers of 2 and of the energy frac-
+for any fixed number of particles, but not C-continuous.21 A tions of soft particles. This ensures a monotonic decrease of the
+complete understanding of this subtlety in a general QFT con- values of J >
+m for m M for typical events. Numerical experi-
+text is lacking. Anyhow, C-continuity limits available options, ments show that the decrease of Jm is a universal feature even
+and if one wishes to deal with correlator-type observables then for m M .23,26
+the above Fm remain the only choice. Fragmentation causes the values of Jm to increase as com-
+7. MEASURING THE "NUMBER OF JETS". Imagine a step func- pared with the parton state. However, the C-continuity of Jm
+tion equal to 0 on states with less than m jets, and to 1 else- ensures that the closer (in the calorimetric sense) the final had-
+where. A sequence of such functions (m = 1, 2, ...) would do the ron state to the parton state, the less the difference in values of
+job of jet counting just fine. But we wish to deal with C-obser- C-observables, and the less the upward shift of J
+vables. So, consider a C-observable (3) that is exactly 0 on any m .
+8. For the case of hadrons in the initial state one should
+state with less than m particles. Then f p p =
+m ( $ , $ ,K) 0 , so that
+modify J
+f p p m to suppress contributions from the hadron beams.
+m ( $1, $2 ,K) should contain a nullifying factor 12 , e.g.: For pp , say, it is sufficient to introduce into j
+m the factor
+1 1
+= - cos = - -
+p p p P p P
+12 1 12 ( 1 2)( 1 ) ( 2 ) , (4) 1 2
+- cos i per each particle where i is the angle between the
+particle's direction and the beam axis.
+
+
+F.V.Tkachov Phys. Rev. Lett. 73 (1994) 2405; Erratum 74 (1995) 2618 3
+
+
+
+9. Now, fix a multiparticle state P and consider any jet
+counting algorithm A that produces an integer number of jets [4] R. Barlow, Rep. Prog. Phys. 36, 1067 (1993).
+N y [5] For instance, one needs to identify jet axes to study the QCD coher-
+A ( cut ; P ) for each ycut , which is non-decreasing as ence (Yu. L. Dokshitzer et al., Rev. Mod. Phys. 60, 373 (1988)), but
+y
+cut 0 . Then from Fig. 1 one sees that one could, in theory, the notion of jet's axis is ambiguous beyond the leading order of per-
+restore a sequence of jet discriminators J A turbation theory.
+m ( P ) similar to [6] Cf. F. V. Tkachov, in Ref. 7.
+J A
+m (P ) . Thus, the information content of Jm ( P ) and [7] Cf. Proc. New Techniques for Calculating Higher Order QCD Cor-
+N y rections (ETH, Zürich, 16-18 December 1992), ed. Z. Kunszt (ETH,
+A ( cut ; P ) is essentially equivalent. But it is hardly possible Zürich, 1992).
+to find meaningful expressions for J A
+m ( P ) for the popular al- [8] For a review see S. Bethke et al., Nucl. Phys. B370, 310 (1992) and
+gorithms. Our J S. Catani, in: Proc. 17th INFN Eloisatron Project Workshop, Erice,
+m (P ) are singled out by the transparency of 1991, ed. L. Cifarelli and Yu. L. Dokshitzer (Plenum Press, New
+analytical structure. York).
+10. So, studying the average values of jet discriminators [9] T. Sjöstrand, Comp. Phys. Commun. 28, 229 (1983); see also Ref. 8.
+Jm (qualitatively interpreted as fractions of events with no [10] Cf. W. T. Giele and E. W. N. Glover, Phys. Rev. D46, 198 (1991).
+[11] A more stable variant of recombination was described in S. Youssef,
+less than m jets) instead of the usual n -jet fractions may have Comp. Phys. Commun. 45, 423 (1987).
+an advantage of reducing, in perspective, both theoretical and [12] Cross sections for adjacent numbers of jets differ by O( ) , so 1% of
+S
+experimental uncertainties: 3-jet events identified as having 4 jets (due to data errors or incom-
+To compute Jm from data, one would treat each calorime- plete knowledge of hadronization) means an O(10%) error for the 4-
+ter cell as a particle (the correctness of this is ensured by C- jet cross section.
+[13] Multijet channels can be used e.g. for top search (F. A. Berends et al.,
+continuity). Computations can be optimized due to the regular Nucl. Phys. B357, 32 (1991)). On the other hand, the study of multi-
+structure of Jm in several ways: (i) One can do the summa- jet cross sections by UA2 (K. Jacobs, in "Joint Int. Lepton-Photon
+tions à la Monte-Carlo with probabilities equal to energy frac- Symp. on HEP" (1991, Geneva) World Scientific: Singapore, 1992)
+tions. (ii) A preclustering can be used due to C-continuity to concluded that the agreement of the data with theory they found for 4­
+6 jets "can be considered as largely accidental".
+reduce the number of particles to, say, 30 when computa- [14] For a thorough treatment see L. Schwartz, Analyse Mathématique,
+tions are easily manageable; since the exact expression is vol. 1 (Hermann, Paris, 1967).
+known, the approximation errors are fully under control here. [15] The word "measure" is used here in two different meanings, physical
+(iii) The computation of (5) can be parallelized. and mathematical, not to be confused.
+On the theoretical side, studying effects of hadronization [16] Note that all possible EFs form an infinitely-dimensional space, and
+would reduce to studying logarithmic and power corrections to there are many radically non-equivalent ways to define convergence
+(i.e. topology) in such spaces (see any textbook on functional analy-
+Jm . Resummation of logarithms is done via the standard sis). To appreciate the subtlety of the problem recall the large-scale
+renormalization group. The analytical calculations of the cor- study of G. C. Fox and S. Wolfram, Nucl. Phys. B149, 413 (1979),
+responding diagrams are easier due to the simple analytical who adopted an incorrect idealization of EFs as functions on the unit
+sphere with L
+form of the weights in the phase space integrals (cf. (4)). Also, 2 topology (familiar from quantum mechanics) and the
+research was lead astray towards studying spherical harmonics etc.
+a prospect opens for a study of power corrections27. Recall that Our C-convergence is the well-known weak convergence of linear
+the power corrections for + -
+tot (e e hadrons) J2 are functionals. It cannot be described in terms of a single-valued distance
+given by expressions involving vacuum condensates28 that are function or norm (cf. Ref. 14). This may be psychologically uncom-
+directly related to soft singularities; the structure of power cor- fortable but such is the nature of calorimetric measurements.
+rections can be obtained within perturbation theory29 while the [17] Cf. the cumbersome constructions of Fox and Wolfram, in Ref. 16.
+[18] G. Sterman, Phys. Rev. D19, 3135 (1979).
+values of condensates are estimated via the lattice QCD. A [19] Cf. F. R. Ore and G. Sterman, Nucl. Phys. B165, 93 (1980).
+similar approach should be feasible for the jet discriminators.30 [20] Note that the energy correlations of C. C. Basham et al., Phys. Rev.
+11. The importance of the problem of jet definition was im- Lett. 41, 1585 (1978) are a special case of Fm --but with a discon-
+pressed upon me by S. D. Ellis. A crucial encouragement came tinuous fm . Since hadronization is not inverted here, the lack of C-
+from A. V. Radyushkin. I thank Z. Kunszt and ETH for the continuity is numerically less important than with recombination algo-
+hospitality during the Workshop on New Techniques for Cal- rithms.
+culating Higher Order QCD Corrections (ETH, Zürich, De- [21] F. V. Tkachov, in "Joint International Workshop on High Energy
+cember 1992)--its atmosphere catalyzed the present work. Physics" (September 1993, Zvenigorod, Russia), ed.
+Yu. Bashmakov, S. Catani, R. K. Ellis, I. F. Ginzburg, B. B. Levtchenko (INP MSU: Moscow, 1994), p. 80.
+[22] For e+e- this is the total 4-momentum. For ep one may wish to
+B. L. Ioffe, A. Klatchko, Z. Kunszt, D. V. Shirkov, choose a different frame--as described e.g. by B. Webber, J. Phys.
+T. Sjöstrand, I. K. Sobolev, B. Straub, S. Youssef and the three G19, 1567 (1993).
+referees supplied bibliography and/or necessary criticisms. I [23] I thank B. B. Levtchenko for numerical checks of this.
+thank the participants of several workshops and seminars for [24] Such a jet counting procedure was called Moscow sieve in
+lively discussions, and J. C. Collins and H. Grotch for the hos- F.V. Tkachov, technical report, INR-F5T/93-01 (unpublished).
+pitality at the Penn State University where this work was com- [25] The figure suggests that the importance of Sudakov effects in the con-
+ventional recombination algorithms is an artefact due to the instability
+pleted. It was supported in parts by the U.S. Department of En- of the latter.
+ergy (grant DE-FG02-90ER-40577) and by the International [26] S. Catani et al., Nucl. Phys. B406, 187 (1993) discuss relationship
+Science Foundation (grant MP9000). between jet clustering algorithms and event shape measures, including
+the monotonicity.
+* On leave of absence from the Institute for Nuclear Research of Rus- [27] whose importance is discussed by B. W. Webber, in Ref. 7.
+sian Academy of Sciences, Moscow 117312, Russia. [28] M. A. Shifman et al, Nucl. Phys. B147, 448 (1979).
+[1] For a review see S. D. Ellis, "Lectures on perturbative QCD, jets and [29] F. V. Tkachov, Phys. Lett. B125, 85 (1983).
+the Standard Model: collider phenomenology" at the 1987 Theoretical [30] The required mathematics is reviewed in Ref. 6.
+Advanced Study Institute (1987, July, St. John's College, Santa Fe,
+NM), available as technical report NSF-ITP-88-55.
+[2] G. Hanson et al., Phys. Rev. Lett. 35, 1609 (1975).
+[3] G. Sterman and S. Weinberg, Phys. Rev. Lett. 39, 1436 (1977).
+
+
+

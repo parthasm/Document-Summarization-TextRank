@@ -1,0 +1,1558 @@
+
+
+ 22 Nov 1995
+
+PREPRINT UTTG - 15 - 95
+
+The Two-Nucleon Potential from Chiral Lagrangians
+
+C. Ord'o~nez Theory Group, Department of Physics The University of Texas at Austin, Austin, Texas 78712
+
+and Department of Physics and Astronomy Vanderbilt University, Nashville, Tennessee 37203
+
+L. Ray Department of Physics The University of Texas at Austin, Austin, Texas 78712
+
+U. van Kolck Department of Physics, Box 351560 University of Washington, Seattle, Washington 98195
+
+Abstract Chiral symmetry is consistently implemented in the two-nucleon problem at low-energy through the general effective chiral lagrangian. The potential is obtained up to a certain order in chiral perturbation theory both in momentum and coordinate space. Results of a fit to scattering phase shifts and bound state data are presented, where satisfactory agreement is found for laboratory energies up to about 100 MeV.
+
+1 Introduction The problem of deriving the interaction potential between two nucleons continues to be one of the most fundamental problems in nuclear physics. Early field theoretical work in this area [1, 2, 3, 4] encountered many difficulties, mostly due to the non-renormalizability of meson theory. This was followed by more phenomenological approaches which utilized empirical forms for the medium and short-range parts of the interaction potential [5, 6]. During the last two decades a compromise approach has been developed in which meson exchange potentials provide the medium and long-range parts of the nucleon-nucleon (NN) potential while the short-range dynamics is treated phenomenologically [7, 8, 9]. Although the latter approaches have achieved very impressive empirical descriptions of nucleon-nucleon bound state (deuteron) and scattering data the connection between the nucleonnucleon interaction and the fundamental, underlying dynamics of the strong interaction remains unclear. It is for this reason that the nucleon-nucleon problem continues to be of fundamental interest.
+
+It has been argued [10] that Regge phenomenology can be extended to lowenergy nucleon-nucleon scattering with Regge poles leading to a one-boson-exchange (OBE) potential where i) the contributions of meson trajectories (including scalar "'s) are dominated by the particles with lowest spin which couple to nucleons with a gaussian form factor and ii) gaussian potentials arise from the Pomeron and tensor trajectories. Such a potential in a nonrelativistic expansion has been constructed by the Nijmegen group [7] and fits data very well. However, Regge cuts are simply neglected. The Bonn group [8] made a serious attempt to include multi-boson exchange in the framework of old-fashioned perturbation theory. In addition to the OBE of known mesons they included the following: 2ss and ssae exchange with both nucleons and \Delta isobars in intermediate states, "correlated" two-pion exchange in the form of a oe0 scalar meson, ssoeOBE exchange (with oeOBE an approximation to 2ss, oe0 and ssae exchanges), and ss! exchange. Agreement with data is quite good.
+
+Nevertheless, the justification for such approaches in terms of quantum chromodynamics (QCD) remains mysterious. In particular, it is not clear how to consistently deal with the exchange of mesons which have masses of the order of the typical inverse hadronic radius set by the QCD scale \Lambda QCD. This has led a number of researchers [11] to attempt derivations of nucleon-nucleon scattering from quark models (either constituent or bag) formulated in terms of some effective degrees of freedom which carry the same quantum numbers as the current quarks and gluons. Although such models are not derived from QCD either, they usually have only a few parameters, most of which are fixed by fitting one-nucleon properties. Generally these models produce adequate short-range interactions [11], but the long range potential continues to be formulated in terms of pion exchange.
+
+It seems natural, therefore, to start a treatment of the nuclear force problem by recognizing the unique role played by the pion. Although we are largely ignorant of the non-perturbative dynamics of QCD at low energies, we know there exists an approximate chiral symmetry which is broken by the vacuum. This symmetry
+
+1
+
+restricts the form of the allowed interactions of pions among themselves and with other particles. Consequences of approximate chiral symmetry are i) the small mass of the pion relative to the QCD scale, \Lambda QCD, and its subsequent long-range contribution to the NN potential and ii) theorems relating processes involving different numbers of pions which yield some predictive power. The pion is indeed the most important character, besides the nucleon, in the nuclear physics drama.
+
+The distinguished status of the pion in determining the NN interaction has, of course, been emphasized before, particularly by the Stony Brook and Paris groups [9]. The coordinate space potential developed by the latter contains: i) a long range, "theoretical" part constructed through unitarity, analyticity and crossing relations from ssss and ssN phase shifts, which includes one, two (continuum plus ae, ") and partially three pion exchanges (in the form of !) and ii) short range, purely phenomenological spin and isospin dependent parts. Both groups evolved from this model-independent but parameter-crowded approach to the other extreme, the two-parameter Skyrme model. Semi-quantitative success resulted, except for the lack of a central, intermediate range attraction [12]. (For a review of further developments, see [13].)
+
+What is fundamentally new in the present approach [14, 15] is the development of the NN potential within the framework of the general effective chiral lagrangian. By considering the most general lagrangian which involves the pion and the nucleon, and transforms under chiral symmetry as the QCD lagrangian, we divide the NN problem into two parts. The first task concerns QCD and its reformulation in terms of the relevant, low-energy degrees of freedom. The resulting theory must have the form of the general chiral lagrangian (because the latter contains all the interactions with the correct symmetry), where the coupling constants are, in principle, known functions of fundamental quantities like \Lambda QCD and the quark masses. In other words, the dynamics of QCD is buried in the couplings of the effective chiral lagrangian. Since different models based on QCD represent different attempts to capture the essence of this underlying dynamics, they will generally differ in the strengths of the low-energy parameters. The second part of the problem is to relate the parameters of the effective chiral lagrangian to the measured, low-energy NN scattering data and deuteron properties.
+
+Clearly, we do not attempt to "solve" QCD here, but instead concentrate on the second task described in the preceeding paragraph. We start with the general chiral lagrangian with undetermined coefficients. Because chiral symmetry is manifest (contrary to most meson-exchange models--e.g. [7, 8]), our approach is a priori compatible both with QCD and with all known low-energy phenomenology, including ssss, ssN , and flN scattering, meson-exchange currents, etc. Our scheme is model independent in the sense that we do not adopt either a massive meson exchange picture or a particular quark model. When a systematic analysis based on a chiral lagrangian is carried out for such processes as ssN scattering, a number of the unknown coefficients in our model can be determined independently of the NN data. In the meantime we keep these parameters free in the NN data fitting procedure.
+
+We do have to make one assumption, that of naturalness, which requires that
+
+2
+
+the parameters be consistent with naive dimensional analysis. With this one assumption a perturbative treatment of the nuclear potential can be developed that is lacking in other approaches. Here the perturbative expansion is in powers of momentum divided by a typical QCD mass scale. Up to a given order of expansion the effective chiral lagrangian specifies precisely the terms which appear in the NN potential. Of course, there is no guarantee that the resulting potential will be sufficient to describe the data. If a good overall description of the data results, it means that the perturbation expansion was carried out to the order the precision of the data requires. If, on the other hand, an important phenomenological ingredient (e.g. scalar isoscalar attraction) is missing, then this might indicate that a certain operator or diagram is more important than naively expected. This in turn would be indicative of some characteristic dynamic mechanism, and we would be learning something about QCD.
+
+We emphasize that our aim here is not to obtain better fits to the nucleonnucleon data than the already excellent fits achieved with meson-exchange potentials. We do intend for this approach to help establish a bridge between QCD and nuclear physics and to provide a sound model of the nucleon-nucleon potential whose off shell structure is fixed and which may be used for calculating other nuclear processes. In short, the general chiral lagrangian is a useful way to parametrize both our ignorance of QCD and our knowledge of nuclear physics.
+
+General ingredients and properties of effective chiral lagrangians for nuclear physics applications are discussed in Sec. 2; the effective chiral lagrangian expansion used here is presented in Sec. 3. The two-nucleon potential is derived to a certain order in chiral perturbation theory in momentum space in Sec. 4 and in Sec. 5 is transformed into coordinate space, using a momentum space gaussian cut-off. The special techniques required to calculate NN scattering and bound state properties with the present coordinate space potential are discussed in Sec. 6 and the results of fitting the nucleon-nucleon scattering and bound state data are presented in Sec. 7. Conclusions are given in Sec. 8. Finally, many details are deferred to the Appendices. An initial report of these results was presented in Refs. [14, 15].
+
+2 Power Counting In this work the low energy NN potential is expanded in powers of momentum divided by a QCD mass scale. Typical three-momenta Q exchanged in nuclei can be estimated as the inverse of the rms electromagnetic radius hr2chi1=2 of a light nucleus. For example, for the triton with hr2chi1=2 ' 1:75fm we find that Q , mss, the pion mass. In QCD the coupling becomes strong and is dominated by non-perturbative effects below a momentum scale M that is roughly given by a typical hadronic mass, , 1 GeV. Whenever we face such a two-scale problem it is useful to separate the corresponding physics by considering an effective, lowenergy theory which involves only the relevant degrees of freedom, all with small three-momenta Q. Such theories can be formulated with a lagrangian that is local
+
+3
+
+(in the sense that it involves only operators containing fields at the same spacetime point) and shares the symmetries of the underlying theory, in this case QCD. The dynamical information for modes with momenta ?,M is contained in an infinite set of parameters.
+
+What then are the relevant degrees of freedom in the case of low energy nuclear physics? Unlike the situation at high energies where quark and gluon degrees of freedom are indirectly manifest in the data (e.g. jets, deep inelastic scattering, quarkonium production, etc.), low energy nuclear physics does not reveal this underlying QCD structure in any obvious way. Therefore the relevant fields for this study should represent mesons and baryons. Clearly, the lightest stable particles in each sector should be included. The pion ss has a mass that is small compared to M , and its pseudo-Goldstone boson nature makes it a fundamental ingredient. The nucleon N has a mass mN which is not small but because protons and neutrons comprise the principle constituents of nuclei they must be included. (The explicit appearance of the nucleon mass mN in the effective theory requires care as has been discussed previously [16, 17]). The effects of higher mass meson and baryon states will generally be suppressed by the inverse of the meson masses or by the inverse of the mass differences between the baryons and the nucleon. We retain only those mass states for which this factor is much larger than , 1=M . In the meson sector, this implies that we do not explicitly keep the ae, !, etc. , whose masses are ?, 5:5mss which are closer to M than to mss. In the baryon sector we retain only the \Delta isobar which has a mass m\Delta , mN + 2mss, but do not include the N \Lambda with mass mN\Lambda , mN + 3:5mss nor any other higher mass baryon state. The contributions of these additional fields could be included in a similar way as is done for the \Delta . The other octet pseudo-Goldstone bosons and the hyperons are also omitted. For simplicity we consider only SU (2) \Theta SU (2), however our treatment can be readily extended to SU (3) \Theta SU (3) to encompass hypernuclear physics.
+
+The requirement that the low energy lagrangian incorporates the symmetries of QCD restricts the form of possible interactions involving ss , N and \Delta , but we are still left with an infinite set of interactions i with coupling constants gi, which differ in the number of derivatives or powers of pion mass di, fermion fields fi, etc. If we knew how to solve QCD at low energies, we could calculate these coupling constants directly. Since there is no a priori reason for the couplings in the effective chiral lagrangian to be small, no a priori perturbation expansion for the infinite set of interactions can be formulated.
+
+We can proceed only by making an assumption of naturalness which means that when a coupling constant gi of mass dimension \Gamma ffii is expressed as gi =
+
+~giM \Gamma ffii , the dimensionless coupling constant ~gi will be of order unity. Of course this might not be true for all the couplings and this will become apparent through phenomenological data analysis. If a coupling constant is found to be anomalously large or small, it may require special treatment at low energies, but this may also indicate a particular dynamical or symmetry effect at the level of QCD.
+
+We now have a natural expansion parameter QM , mssM , the contribution of any diagram being characterized by the power * of the soft momentum Q. We
+
+4
+
+organize our perturbation expansion by counting powers of Q in the same way that is done to get the superficial degree of divergence of a graph, where special care is taken with baryons due to explicit factors which contain their large masses. In the present effective theory it is assumed that all three-momenta Q o/ mN ; nucleons and \Delta 's are therefore nonrelativistic 1.
+
+The first task is to organize the expansion in such a way as to eliminate timederivatives of the fermions in interaction terms, since they would contribute large factors. This has been done by redefining the fermion fields in terms of velocity eigenstates [19], but also more simply by directly replacing the time-derivatives of fermion fields using the equations of motion for the fermions [16, 17]. In so doing we generate interaction terms that have already been accounted for, which simply result in a redefinition of existing coefficients.
+
+The second task is to distinguish between so-called reducible and irreducible diagrams. Reducible diagrams are those which can be separated into two parts by cutting through an intermediate state which contains only the initial or final particles. This type of intermediate state produces infrared divergences in the limit when the baryon kinetic energy is ignored; when it is not, a small recoil energy denominator results which makes the overall diagram bigger than expected by a factor mNQ AE 1. The contributions of these reducible diagrams are automatically
+
+included by solving the Lippmann-Schwinger or Schr"odinger (in the nonrelativistic limit) equations of motion.
+
+The simplest way to isolate these two types of diagrams is to work in the framework of old-fashioned, time-ordered perturbation theory. Irreducible diagrams are those that contain only intermediate states with energies that differ from the initial energy by an amount O(Q). For an irreducible diagram with Vi vertices of type i, L loops, C separately connected pieces and Ef = 2A external fermion lines, the power of Q can be conveniently written as
+
+* = 4 \Gamma A + 2L \Gamma 2C + X
+
+i V
+
+i\Delta i (1)
+
+where
+
+\Delta i = di + fi2 \Gamma 2 (2)
+
+is called the index of vertex i. Any reducible diagram can be constructed from
+
+1Since we do not know a priori what the scale M is exactly, it is not clear how relativistic corrections (which are suppressed by 1=mN ) compare to 1=M corrections. A rough idea of their relative importance can be obtained from the following naive dimensional argument. The nucleon-nucleon potential in momentum space can be written as V (p; p0) = ffI(p; p0) where I(p; p0) is some dimensionless function of the initial and final c.m. momenta p and p0, respectively, and ff , 2ss2=M 2 if we count powers of 2 and ss `a la [18]. Substituting this in the LippmannSchwinger equation we obtain an expansion in ffQmN =2ss2 , QmN =M 2. A shallow bound-state indicates that this series barely diverges, so we estimate that M 2 , QmN . This estimate is admittedly crude and it is not crucial for our approach but it suggests that relativistic corrections
+
+O( Qm
+
+N ) are O(
+
+Q2 M2 ). If M is actually larger, it only indicates that relativistic corrections are
+
+relatively a little larger than assumed here.
+
+5
+
+irreducible diagrams by connecting the latter with intermediate states with energies that differ from the initial energy by an amount O(Q2=mN ) or smaller.
+
+Here we deal with diagrams involving only two external nucleons. Irreducible diagrams are then two-nucleon irreducible; any intermediate state contains at least one pion or isobar. The two-nucleon potential is defined as the sum of such irreducible diagrams, their contributions being ordered by Eq. (1). The full NN scattering amplitude is evaluated by iterating the nuclear potential in the LippmannSchwinger equation, or equivalently, by solving (numerically) the corresponding Schr"odinger equation.
+
+3 Effective Chiral Lagrangian In order to construct a perturbative expansion in Q=M , Eq. (1) requires \Delta i * 0, for in this case there is a lower bound for * corresponding to diagrams with the maximum number of separately connected pieces, no loops and all vertices having \Delta i = 0. Corrections with higher * are obtained by inserting loops and interactions with \Delta i ? 0, and decreasing the number of connected pieces. We will show that chiral symmetry requires
+
+\Delta i * 0. (3)
+
+Here, for simplicity, we work with QCD with only two light flavors u and d with masses mu and md, but it is straightforward to include the strange quark. In the limit of vanishing quark masses there is an SU (2) \Theta SU (2) , SO(4) symmetry which is spontaneously broken to SU (2) , SO(3). As a result, there exist Goldstone bosons whose fields live in the three-sphere S3 , SO(4)=SO(3), with a diameter that turns out to be the pion decay constant Fss ' 190MeV. Following Weinberg [16, 17] we use stereographic coordinates ss; the covariant derivative is then
+
+D_ = 11 + ss2=F 2
+
+ss
+
+@_ss
+
+Fss j D
+
+\Gamma 1 @_ss
+
+Fss . (4)
+
+The baryons considered here provide the 1=2 and 3=2 representations of the spin and isospin SU (2) groups. A nucleon N (isobar \Delta ) is described by a Pauli spinor (a 4-component spinor) in both spin and isospin spaces, the respective generators being denoted by 12~oe( 12~oe(3=2)) and t(t(3=2)). There are also, of course, 2\Theta 4 transition
+
+operators 12 ~S and T , satisfying
+
+SiS+j = 13 (2ffiij \Gamma i"ijkoek) (5) TaT +b = 16 (ffiab \Gamma i"abctc), (6) which allow us to couple N and \Delta in bilinear terms with spin and isospin transfer 1, respectively.
+
+6
+
+The effective chiral lagrangian is constructed out of the fields D_, N and \Delta and their covariant derivatives,
+
+D_D* = @_D* + iE_ \Theta D* (7)D
+
+_N = (@_ + t \Delta E_)N (8)D
+
+_\Delta = (@_ + t(3=2) \Delta E_)\Delta ; (9)
+
+where
+
+E_ j 2iF
+
+ss ss \Theta D
+
+_. (10)
+
+This is done by considering all possible isoscalar terms and imposing the discrete spacetime symmetries of QCD, parity and time-reversal.
+
+That is not all though, because the quark masses break SO(4) explicitly. The symmetry breaking terms can be written as a linear combination of the fourth component of a chiral four-vector and the third component of another four-vector, with coefficients 12 (mu + md) and 12(mu \Gamma md), respectively. We account for this explicit symmetry breaking by including in the chiral lagrangian all the terms constructed out of ss, N and \Delta that transform under SO(4) in the same way. Their coefficients will then be proportional to powers of these combinations of quark masses. That is the way the pion mass arises, m2ss / (mu + md), so each power of mu + md will count as Q2. For simplicity we neglect isospin breaking terms proportional to (mu \Gamma md). When the latter are included along similar lines we begin to understand why isospin violating effects are so feeble in most nuclear phenomena [20]. Appendix A presents further details regarding the transformation properties of the field representation used here.
+
+By writing operators that are chiral invariant or that break chiral invariance proportional to the quark mass term, we immediately see that all interaction terms have \Delta i * 0; operators involving only pions have at least two derivatives or two powers of mss and nucleon bilinears have at least one derivative. Chiral symmetry therefore guarantees a natural perturbative low-energy theory.
+
+The index of interaction \Delta i provides a useful ordering scheme for the chiral lagrangian. Below we denote by L(n), referred to as the n-th order lagrangian, the collection of terms with indices \Delta i = n. We explicitly show only those terms relevant for our application. Since we evaluate diagrams only up to one-loop, interaction operators with more pion fields or isobars than those exhibited below do not contribute to this potential, although they are there in general, in many cases to assure chiral invariance. Note also that we eliminate some redundant terms by integrating by parts, by using the equations of motion (e.g. to eliminate nucleon time-derivatives), and by applying Fierz reordering [21].
+
+The lowest order lagrangian is
+
+L(0) = \Gamma 12 D\Gamma 2(( ~rss)2 \Gamma .ss2) \Gamma 12 D\Gamma 1m2ssss2
+
++ _N [i@0 \Gamma 2D\Gamma 1F \Gamma 2ss t \Delta (ss \Theta .ss) \Gamma mN ]N\Gamma
+
+2D\Gamma 1F \Gamma 1ss gA _N (t \Delta ~oe \Delta ~rss)N
+
+7
+
+\Gamma 12 CS _N N _N N \Gamma 12 CT _N~oeN \Delta _N~oeN + _\Delta [i@0 \Gamma 2D\Gamma 1F \Gamma 2ss t(3=2) \Delta (ss \Theta .ss) \Gamma m\Delta ]\Delta \Gamma
+
+2D\Gamma 1F \Gamma 1ss hA[ _NT \Delta (~S \Delta ~rss)\Delta + h:c:] + : : : (11)
+
+where gA is the axial vector coupling of the nucleon, hA is the \Delta N ss coupling, CS and CT are the parameters first introduced by Weinberg [16, 17], and as usual we work in units where _hc = 1.
+
+In this work we will also employ terms with more derivatives and powers of ss. The first-order lagrangian is
+
+L(1) = \Gamma B1F 2
+
+ss D
+
+\Gamma 2 _N N [( ~rss)2 \Gamma .ss2]
+
+\Gamma B2F 2
+
+ss D
+
+\Gamma 2"ijk"abc _N oektcN @issa@jssb
+
+\Gamma B3F 2
+
+ss m
+
+2ssD\Gamma 1 _N N ss2
+
++ : : : (12) where the Bi's are coefficients of order O(1=M ); in particular, the last interaction term proportional to B3 contributes to a scalar-isoscalar term similar to the oe term in meson exchange potentials. The second-order lagrangian is
+
+L(2) = 12m
+
+N
+
+_N ~r2N \Gamma A
+
+01
+
+Fss [ _N (t \Delta ~oe \Delta ~rss) ~r
+
+2N + ~r2N (t \Delta ~oe \Delta ~rss)N ]
+
+\Gamma A
+
+02
+
+Fss ~rN (t \Delta ~oe \Delta ~rss) \Delta ~rN\Gamma C01[( _N ~rN )2 + ( ~rN N )2] \Gamma C02( _N ~rN ) \Delta ( ~rN N )\Gamma C03 _N N [ _N ~r2N + ~r2N N ] \Gamma iC04[ _N ~rN \Delta ( ~rN \Theta ~oeN ) + ( ~rN )N \Delta ( _N~oe \Theta ~rN )]\Gamma
+
+iC05 _N N ( ~rN \Delta ~oe \Theta ~rN ) \Gamma iC06( _N~oeN ) \Delta ( ~rN \Theta ~rN )\Gamma (C07ffiikffijl + C08ffiilffikj + C09ffiijffikl) \Theta
+
+[ _N oek@iN _N oel@jN + @iN oekN @j N oelN ]\Gamma (C010ffiikffijl + C011ffiilffikj + C012ffiijffikl) _N oek@iN @j N oelN
+
+\Gamma ( 12 C013(ffiikffijl + ffiilffikj) + C014ffiijffikl) \Theta
+
+[@iN oek@jN + @jN oek@iN ] _N oelN + : : : (13)
+
+where the A0i and C0i are additional undetermined coefficients of order O(1=M 2).
+
+8
+
+Using this expansion for the lagrangian and the rules for diagrams in timeordered perturbation theory, it is straightforward to construct the interaction potential. Because we eliminated time derivatives in all interaction terms but four (those that come together with the pion and fermion kinetic terms in L(0), and the B1 term in L(1)), and because each of these four terms involves at least two pion fields, the interaction hamiltonian is just (\Gamma 1) times the interaction lagrangian, up to interactions with more pion fields that do not contribute to the order we are working.
+
+4 The Two-Nucleon Potential in Momentum Space We are now in position to calculate any process involving soft pions and nonrelativistic nucleons. Equations (1), (2) and (3) guarantee that the dominant contributions to such processes come from tree graphs with the maximum number of connected pieces and constructed out of the lagrangian L(0). When applied to processes with at most one nucleon, this is equivalent to that given by current algebra. For example, the Weinberg [22] pion-pion and Tomozawa-Weinberg [22, 23] pion-nucleon s-wave scattering lengths are readily obtained. But in the late 1970s Weinberg [24] pointed out that chiral lagrangians, in addition, provide a framework for evaluating corrections to the dominant contributions. The systematic treatment of chiral perturbation theory in the mesonic sector began with the work of Gasser and Leutwyler [25] and has been extensively studied in the case of SU (3) \Theta SU (3), up to L = 1 and \Delta i = 2, and including electroweak effects (for an introduction, see Ref. [26]). A systematic study of the SU (2) \Theta SU (2) chiral lagrangian for processes involving one nucleon was started by Gasser, Sainio and ^Svarc [27] and is continuing with the work of Bernard, Kaiser and Meissner, and many others (for a review see Ref.[28]). In principle, the coefficients gA, hA, Bi and A0i can be determined from analyses of one nucleon processes once all contributions through one loop are evaluated. Unfortunately, this has not yet been done. In Sec. 7 we obtain values for all the parameters by fitting low energy nucleon-nucleon data. It should be kept in mind, however, that the number of parameters in the present potential could be reduced when sufficient information from the one-nucleon sector is gathered. For the many nucleon system the present theory is consistent with the empirical observation that three-(and more-)body forces are smaller than two-body forces. Some of the implications of this result are discussed in Ref. [29]. Furthermore, meson exchange currents [30], pion scattering [31] and pion photoproduction [32] on nuclei have also been studied in the same approach. For the remainder of this work we restrict our study to the two-nucleon system.
+
+For only two nucleons in the initial and final state A = 2 and C = 1; Eq. (1) then simplifies to
+
+* = 2L + X
+
+i V
+
+i\Delta i : (14)
+
+As usual we work in the center-of-mass (c.m.) system and denote the initial energy by 2mN + E, initial (final) momentum by ~p(~p 0) and define ~q j ~p \Gamma ~p 0 and ~k j
+
+9
+
+1 2(~p + ~p
+
+0) as the transferred and average momenta, respectively. Subscripts 1 and 2
+
+on spin and isospin matrices ~oe and t refer to nucleons 1 and 2.
+
+The leading order potential V (0) (with * = 0) is obtained from the graphs in Fig.1 and interactions given by L(0) in Eq. (11). Note that to this order nucleons are static, so that their energies in intermediate states are simply mN and the \Delta isobar does not contribute. One obtains [16] the well-known static one-pionexchange (OPE) potential supplemented by contact interactions where,
+
+V (0) = \Gamma ( 2gAF
+
+ss )
+
+2t1 \Delta t2 ~oe1 \Delta ~q ~oe2 \Delta ~q
+
+~q 2 + m2ss + CS + CT ~oe1 \Delta ~oe2 : (15)
+
+The OPE term provides the longest range part of the NN force, and it is well established [33] that it accounts for the higher partial waves in nucleon-nucleon scattering and the bulk of the properties of the deuteron, such as its quadrupole moment. Of course the NN potential has other sizeable components, including a spin-orbit force, a strong short-range repulsion and an intermediate range attraction. Clearly, the lowest order result in Eq. (15) does not account for these additional components. A test of the present approach is to determine whether higher order contributions yield such features.
+
+First-order corrections in Q=M (* = 1) also come from the graphs of Fig.1, but with one vertex from L(1). However, there are no suitable vertices in Eq. (12) for the tree graphs in Fig.1 and we conclude that there are no corrections to the leading order potential V (0) that are smaller by just one power of Q=M , i.e.
+
+V (1) = 0. (16) This is a direct consequence of parity invariance. For the tree graphs, we could only add a power of momentum (or subtract one and add an extra power of m2ss) to V (0), but this is actually a three-momentum because we eliminated time derivatives. This results in an odd number of three-momenta from which parity conserving terms cannot be constructed.
+
+There are, however, many corrections of second-order, where * = 2. This includes tree graph contributions from L(2) and a number of one-loop diagrams.
+
+First, we obtain corrections from the tree graphs in Fig.1 where one vertex comes from the interactions in L(2) in Eq. (13) and the nucleons remain static. We also obtain tree level corrections where the vertices are from L(0) in Eq. (11) but where recoil is included in the intermediate state. Order * = 2 tree level corrections using two factors from L(1) cannot be formed because, as we noticed above, there are no suitable vertices in Eq. (12). The tree graph O[(Q=M )2] correction is therefore given by
+
+V (2)tree = \Gamma 2gAF 2
+
+ss
+
+t1 \Delta t2 ~oe1 \Delta ~q ~oe2 \Delta ~q~q 2 + m2
+
+ss
+
+\Theta (A1q2 + A2k2 \Gamma 2gA E \Gamma
+
+1 4mN (4~k
+
+2 + ~q 2)q
+
+~q 2 + m2ss )
+
+10
+
++C1~q 2 + C2~k2 + (C3~q 2 + C4~k2)~oe1 \Delta ~oe2 +iC5 ~oe1 + ~oe22 \Delta (~q \Theta ~k) + C6~q \Delta ~oe1~q \Delta ~oe2 +C7~k \Delta ~oe1~k \Delta ~oe2 ; (17) where the Ai's and Ci's are combinations (see Appendix B) of the A0i 's and C0i 's of Eq. (13). The explicit energy dependent term is discussed in Appendix C.
+
+Second, there are contributions from the one-loop graphs in Fig.2 with all vertex factors coming from L(0). (Other one loop graphs only contribute to the renormalization of parameters in the lagrangian.) Intermediate states include those with two nucleons, one nucleon and one isobar, and two isobars. Denoting
+
+!\Sigma j q(~q \Sigma ~l)2 + 4m2ss (18)
+
+\Delta j m\Delta \Gamma mN ; (19)
+
+straightforward calculation gives
+
+V (2)loop;no\Delta = \Gamma 12F 4
+
+ss
+
+t1 \Delta t2 Z d
+
+3l
+
+(2ss)3
+
+1 !+!\Gamma
+
+(!+ \Gamma !\Gamma )2
+
+(!+ + !\Gamma )
+
+\Gamma 4( gAF 2
+
+ss )
+
+2t1 \Delta t2 Z d3l
+
+(2ss)3
+
+1 !+!\Gamma 0@
+
+~q 2 \Gamma ~l2 !+ \Gamma !\Gamma 1A
+
+\Gamma 14 ( gAF
+
+ss )
+
+4 Z d3l
+
+(2ss)3
+
+1 !3+!\Gamma (
+
+3 !\Gamma +
+
+8t1 \Delta t2 !+ + !\Gamma ! (~q
+
+2 \Gamma ~l2)2
+
++ 4 3!
+
++ + !\Gamma +
+
+8t1 \Delta t2
+
+!\Gamma ! ~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)) (20)
+
+for the diagrams of Fig.2a,b,c,d that do not include isobars in intermediate states,
+
+V (2)loop;one\Delta = 89 h
+
+2A
+
+F 4ss t1 \Delta t2 Z
+
+d3l (2ss)3
+
+1 (!+ + !\Gamma )
+
+~q 2 \Gamma ~l2 (!+ + 2\Delta )(!\Gamma + 2\Delta )
+
+\Gamma 118 g
+
+2Ah2A
+
+F 4ss f(3 + 4t1 \Delta t2)
+
+\Theta Z d
+
+3l
+
+(2ss)3 [(~q
+
+2 \Gamma ~l2)2 + 2~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)]
+
+\Theta " 1!
+
++!\Gamma (!+ + !\Gamma )
+
+1 !+(!\Gamma + 2\Delta ) +
+
+1 !\Gamma (!+ + 2\Delta ) !
+
++ 12 1\Delta !
+
++!\Gamma
+
+1 !+!\Gamma +
+
+1 !+(!\Gamma + 2\Delta ) +
+
+1 !\Gamma (!+ + 2\Delta )
+
++ 1(!
+
++ + 2\Delta )(!\Gamma + 2\Delta ) !#
+
++(3 \Gamma 4t1 \Delta t2) Z d
+
+3~l
+
+(2ss)3 [(~q
+
+2 \Gamma ~l2)2 \Gamma 2~oe1(~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)]
+
+11
+
+\Theta 1!
+
++!\Gamma "
+
+1 !+ + !\Gamma + 2\Delta
+
+1 !+!\Gamma +
+
+1 (!+ + 2\Delta )(!\Gamma + 2\Delta ) !
+
++ 1!
+
++ + !\Gamma +
+
+1 !+ + !\Gamma + 2\Delta !
+
+\Theta 1!
+
+\Gamma (!\Gamma + 2\Delta ) +
+
+1 !+(!\Gamma + 2\Delta ) !#) (21)
+
+for the diagrams of Fig.2b,c,d,e with one intermediate isobar, and
+
+V (2)loop;two\Delta = \Gamma 2h
+
+4A
+
+81F 4ss f(3 \Gamma 2t1 \Delta t2)
+
+\Theta Z d
+
+3l
+
+(2ss)3 [(~q
+
+2 \Gamma ~l2)2 \Gamma ~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)]
+
+\Theta 1!
+
++!\Gamma
+
+1 (!+ + 2\Delta )
+
+1 (!\Gamma + 2\Delta ) "
+
+1 !+ + !\Gamma +
+
+1 2\Delta #
+
++(3 + 2t1 \Delta t2) Z d
+
+3l
+
+(2ss)3 [(~q
+
+2 \Gamma ~l2)2 + ~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)]
+
+\Theta 1!
+
++!\Gamma (!+ + !\Gamma + 4\Delta ) "
+
+1 (!+ + 2\Delta )
+
+1 (!\Gamma + 2\Delta )
+
++ !+ + !
+
+\Gamma + 2\Delta
+
+!+ + !\Gamma
+
+1 (!\Gamma + 2\Delta )2 +
+
+1 (!+ + 2\Delta )2 !#) (22)
+
+for the diagrams of Fig. 2c,d,e that have two intermediate \Delta 's.
+
+Finally, we consider corrections of order [(Q=M )3] where * = 3. Again, some terms could come from the tree graphs of Fig.1 with one vertex from L(3), but the same argument used for V (1) guarantees that
+
+V (3)tree = 0 : (23) Other third-order corrections would come from the one-loop graphs of Fig.2 where one vertex is from L(1) in Eq. (12). Parity invariance requires the contribution from Fig.2a to vanish, as can be confirmed by explicit calculation, and because there are no ss _N N couplings in L(1), the diagrams in Fig.2c,d,e also do not contribute. Fig.2b gives
+
+V (3)loop;no\Delta = \Gamma 14 gAF 2
+
+ss !
+
+2 Z d3l
+
+(2ss)3
+
+1 !2+!2\Gamma n3(~q
+
+2 \Gamma ~l2)[\Gamma B1(~q 2 \Gamma ~l2) + 4m2ssB3]
+
++ 16B2~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)t1 \Delta t2o (24) for no \Delta in the intermediate state, and
+
+V (3)loop;one\Delta = \Gamma 19 hAF 2
+
+ss !
+
+2 Z d3l
+
+(2ss)3
+
+1 !+!\Gamma
+
+1 (!+ + !\Gamma )
+
+1 (!+ + 2\Delta )(!\Gamma + 2\Delta )
+
+12
+
+\Theta n(!+ + !\Gamma + 2\Delta )[3(~q 2 \Gamma ~l 2)(\Gamma B1(~q 2 \Gamma ~l2) + 4m2ssB3)
+
++ 4B2~oe1 \Delta (~q \Theta ~l)~oe2 \Delta (~q \Theta ~l)t1 \Delta t2] + 6B1\Delta !+!\Gamma (~q 2 \Gamma ~l2)o (25)
+
+when there is one.
+
+Further corrections are of higher order (* * 4). They include i) two-loop graphs, like the ones in Fig.3, that are numerous and harder to calculate, and ii) tree graphs with a vertex from L(4), which would bring many new undetermined coefficients. We do not attempt to include them here.
+
+The momentum space form of the potential, first presented in [14], facilitates a discussion of its structure and the comparison with other models. As usual the longest range part of the potential is given by one pion exchange [Eq. (15)], including the dominant, static OPE potential first obtained by Yukawa [1], plus corrections [Eq. (17)]. The A1 and A2 terms in Eq. (17) derive from the leading corrections to the ss _NN vertex that arise in an expansion of its form factor in powers of momenta over the form factor parameter. The q2 dependence is usual (see for example Ref.[8] where monopole and dipole forms are used), whereas the k2 dependence is not as common, however it too has been recently considered (e.g. Williamsburg model [34]). The other correction to the static OPE potential is the energy dependent term in Eq. (17), which arises from the recoil of the nucleon upon pion emission.
+
+The intermediate range parts of the potential are due to two pion exchange (TPE) and are determined by parameters Fss, gA, hA, m\Delta \Gamma mN , B1, B2 and B3. The contributions from box and crossed box diagrams (Fig.2c,d,e) are standard. The one in Eq. (20) (g4A term) was first considered by Brueckner and Watson [2], while those with \Delta 's in Eq. (21) (g2Ah2A terms) and Eq. (22) (h4A terms) are due to Sugawara and von Hippel [4]. As a check, our results also agree with the appropriate limit of the expressions listed in Ref. [35]. But we would like to emphasize that there also exist TPE contributions from the "pair" diagrams of Fig.2a,b that are less common. Those in Eq. (20) and the B3-term in Eq. (24) have also been suggested before by Sugawara and Okubo [3], but with arbitrary coefficients. Here the terms in Eq. (20) are fixed by chiral symmetry in terms of gA and Fss while the B3 term comes from the ssN oe-term. To the same order, we also have in Eq. (24) two new terms (B1; B2). The corresponding terms with \Delta in Eqs. (21) and (25) are also new. It is important to emphasize that these contributions from the non-linear coupling of the pion to the nucleon are a consequence of chiral symmetry and that they are not usually included 2 in meson exchange potentials (e.g. Refs. [7, 8]). On the other hand, these terms are the only form of "correlated" pion exchange
+
+2More recently, there has been some interest in the constraints of chiral symmetry to the TPE NN force, but limited to the diagrams corresponding to Eq. (20). For example, in Ref. [36] the scalar- isoscalar component of these diagrams has been studied, although a different definition of potential is considered; Ref. [37] discussed the relevance of energy dependence in OPEP to the definition of these TPE potentials; and in Ref. [38], Eq. (20) was examined for the unphysical case of gA = 1.
+
+13
+
+in our potential. The more traditional s-wave correlated TPE (Fig.3a) is higher order in the formalism discussed here.
+
+The loop integrals in Eqs. (20), (21), (22), (24) and (25) diverge. Moreover, iteration in the Lippmann-Schwinger equation of (even the lowest order terms in) the potential produces further infinities. Regularization is therefore necessary, and counterterms are required to absorb the dependence on the regulator. The contact terms [the Ci's in Eqs. (15) and (17)] perform exactly this function. Once renormalized, they contain the effect of exchange of higher energy modes and are not constrained by chiral symmetry; i.e. all combinations of spin operators and momenta (up to second power) that satisfy parity and time-reversal are included. This results in spin-orbit (C5), spin-spin and tensor (CT ; C3; C4; C6; C7), and spin independent central (CS; C1; C2) forces. In order to compare with other approaches it will be convenient to "undo" our previous Fierz reordering [21] and rewrite the coefficients Ci as
+
+Ci = C(0)i + C(1)i t1 \Delta t2. (26)
+
+5 The Two-Nucleon Potential in Coordinate Space
+
+Nucleon-nucleon scattering calculations, including those presented here, very often use a coordinate space representation. In order to transform the momentum space potential in Eqs. (15) - (26) into coordinate space we first have to specify the regularization procedure. The use of dimensional regularization here poses a problem that we have not yet succeeded in solving: how to iterate the potential to all orders in arbitrary dimension. Instead we use a momentum space cut-off \Lambda !, M , as has been done in other potential models, because it is conceptually and mathematically simpler. The form of the cut-off function and the value assumed for \Lambda are somewhat arbitrary and presumably not very important (see results in Sec. 7); variations in the cut-off are compensated to some extent by a redefinition of the free parameters in the theory. Again for simplicity, we follow the Nijmegen group [7] and assume a gaussian cut-off function exp(\Gamma ~l2=\Lambda 2), which regulates the loop integrals in the potential. In order to further regulate the loops arising from the iteration of the potential, we also cut-off the transferred momentum q using the same cut-off function, exp(\Gamma ~q 2=\Lambda 2).
+
+All integrals over ~q and ~l can be reduced to simpler expressions involving one dimensional integrals that can easily be evaluated numerically. We use the formulas and techniques presented in Refs. [35, 39]--see Appendix D for details. Only the final form is presented here.
+
+The tensor, total spin, and relative orbital angular momentum operators are defined, as usual, by
+
+S12 = 3~oe1 \Delta ~r~oe2 \Delta ~rr2 \Gamma ~oe1 \Delta ~oe2 ;
+
+14
+
+~S = 12 (~oe1 + ~oe2) ; ~L = \Gamma i~r \Theta ~r ; (27)
+
+respectively. In terms of these operators and the Pauli matrices o/ in isospin space the present potential can be expressed in terms of the following 20 operators:
+
+Op=1;:::;20 = 1; o/ 1 \Delta o/ 2; ~oe1 \Delta ~oe2; ~oe1 \Delta ~oe2o/ 1 \Delta o/ 2; S12; S12o/ 1 \Delta o/ 2; ~L \Delta ~S;
+
+~L \Delta ~So/ 1 \Delta o/ 2; ~L2; ~L2o/ 1 \Delta o/ 2; ~L2~oe1 \Delta ~oe2; ~L2~oe1 \Delta ~oe2o/ 1 \Delta o/ 2;
+
+(~L \Delta ~S)2; (~L \Delta ~S)2o/ 1 \Delta o/ 2; S12~L \Delta ~S; S12~L \Delta ~So/ 1 \Delta o/ 2; S12~L2; S12~L2o/ 1 \Delta o/ 2; S12(~L \Delta ~S)2; S12(~L \Delta ~S)2o/ 1 \Delta o/ 2 : (28)
+
+The NN potential in coordinate space is written as
+
+V =
+
+20X
+
+p=1 V
+
+p(r; @@r ; @
+
+2
+
+@r2 ; E)O
+
+p (29)
+
+where
+
+Vp(r; @@r ; @
+
+2
+
+@r2 ; E) = V
+
+0p (r; E) + V 1p (r; E) @
+
+@r + V
+
+2p (r; E) @2
+
+@r2 (30)
+
+is an energy dependent radial operator determined by the radial functions V 0p (r; E), V 1p (r; E) and V 2p (r; E). These sixty functions (some vanish) are listed in Appendix E. Each consists of a sum of terms with coefficients determined by the parameters of the chiral lagrangian, and each term involves at most one one-dimensional integral of the functions from Appendix D. They are smooth at the origin thanks to regularization. The energy dependence in the radial functions of Eq. (30) is linear (see Appendix C).
+
+The first eight operators, Op=1;:::;8, are standard and are accompanied in most potentials by radial functions with no derivatives. In this model they receive contributions from pion exchanges and contact terms. The next six operators,O
+
+p=9;:::;14, complete the set used in the phenomenological Urbana v14 potential [6],
+
+where, V 1p = V 2p = 0 for p = 9; : : : ; 14. What is characteristic of the structure of our potential is the presence of first and second derivative terms for p = 1; : : : 8 and the presence of the other six operators Op=15;:::;20. All of these additional terms arise from the O(k2) dependence in the A2, C2, C4, C7, and recoil correction terms.
+
+6 Solution of the Schr"odinger Equation Having obtained a coordinate space representation of the potential the next step is to solve the Schr"odinger equation numerically. The procedure is standard, but care must be exercised with respect to the derivative terms.
+
+As usual, basis functions of definite total isospin I, total orbital angular momentum L, total spin S, and total angular momentum J (and its third component m) were used; the relative c.m. NN wave function was decomposed into a partial
+
+15
+
+wave sum of products of radial and spin-angle functions. By projecting onto the spin-angle basis a set of radial Schr"odinger equations results which can be written schematically as "
+
+X(2) @
+
+2
+
+@r2 + X
+
+(1) @
+
+@r + X
+
+(0)# R = 0 ; (31)
+
+where
+
+X(0) = 12_r2 L(L + 1) + X
+
+p V
+
+(0)p hOpi \Gamma E ;
+
+X(1) = \Gamma 1_r + X
+
+p V
+
+(1)p hOpi ;
+
+X(2) = \Gamma 12_ + X
+
+p V
+
+(2)p hOpi ; (32)
+
+_ is the reduced mass, and hi denotes a matrix element between spin-angle basis functions. Spin singlet and triplet L = J channels are uncoupled, so for these states R is a single radial function. For the tensor coupled triplet states with L = J \Sigma 1, R has two components and quantities X(0), X(1) and X(2) become 2 \Theta 2 matrices.
+
+In order to eliminate first derivative terms we define R j KOE where the auxiliary function K is chosen such that OE satisfies an equation with no first derivatives. This determines a differential equation for K which depends on X(1) and X(2), given by @K
+
+@r = \Gamma
+
+1 2 hX
+
+(2)i\Gamma 1 X(1)K ; (33)
+
+where Det(X(2)) 6= 0 and asymptotically K , r\Gamma 1. The boundary condition on K for triplet channels is fixed by further requiring that the two components of OE are linearly independent as r ! 1 which results in limr!1 Kij (r) = 1r ffiij, where ffiij is the Kronecker delta function. Function K at finite r was obtained by Runge-Kutta integration of Eq. (33).
+
+The resulting differential equation for OE is of the form
+
+@2OE(r)
+
+@r2 = A(r; E)OE(r) (34)
+
+where A(r; E) depends on X(0), X(1), X(2) and K. The wave function OE(r) satisfies the usual boundary conditions; i.e. OE vanishes at r = 0 and for large r, OE(r) matches to the asymptotic wave functions appropriate for scattering or bound states. The S-matrix or binding energy is obtained from the latter boundary condition. The NN S-matrix is expressed in terms of the usual phase shifts and mixing angles as in Eq. (7) of Ref. [40]. Eq. (34) was solved numerically for several positive scattering energies and for negative values of E to determine the deuteron binding energy and other properties. The calculated phase shifts and deuteron properties depend on the undetermined parameters in the lagrangian. The cut-off
+
+16
+
+parameter \Lambda was fixed and the remaining parameters of the lagrangian were varied until an optimized fit was obtained to recent NN phase shifts [41] (with errors from Ref. [42]) and measured deuteron properties [43].
+
+7 Fitting Results for Phase Shifts and Deuteron
+
+Properties
+
+The 26 parameters of the model (gA, hA, Fss, A1, A2, B1, B2, B3, C(0)S , C(0)T , C(0)1 ; : : : C(0)7 , C(1)S , C(1)T , C(1)1 ; : : : C(1)7 , see Appendix E) were varied in order to optimize the fit to the isospin 0 (from np) and isospin 1 (pp) phase shifts of Ref. [41] at 10, 25, 50 and 100 MeV laboratory kinetic energy. All partial wave channels with total angular momentum J ^ 2 were included in the fits. In addition the I = 0, 3S1 \Gamma 3 D1 tensor coupled bound state (deuteron) binding energy, magnetic moment and electric quadrupole moment were also used to constrain the fit. The phase shifts for the J ? 2 partial waves are dominated by the OPE potential at these low energies and were not used in the fitting procedure. The masses for the pion, nucleon and isobar used were mss = 140 MeV, mN = 939 MeV and m\Delta = 1232 MeV, respectively. The principle results of this study were obtained assuming the cut-off parameter \Lambda to be 3.90 fm\Gamma 1 (equal to the ae mass). Sensitivity to the cut-off parameter is discussed later in this section.
+
+The recent Nijmegen [41] phase shift solution was selected for fitting; errors were taken from the 1994 Arndt et al. [42] energy dependent phase shift analysis (solutions C10, C25, C50 and C100). The relative weighting of the chi-square contributions from the deuteron properties (binding energy, magnetic moment and electric quadrupole moment) and the scattering phase shifts was adjusted so as to achieve a suitable balance. The model was fitted to the phase shift parameters rather than directly to the NN scattering data since our goal here is to demonstrate the capabilities of the effective chiral lagrangian approach rather than to attempt to generate a phenomenological description of data which competes with other meson exchange models [7, 8, 9].
+
+A grid search using parameters hA, A1, A2, B1, B2, B3, C(0)S , C(0)T , C(0)1 ; : : : C(0)7 and fitting the I = 0 phase shifts and deuteron properties was initially conducted followed by a similar grid search for parameters C(1)S , C(1)T , C(1)1 ; : : : C(1)7 for the I = 1 phase shifts using the previously optimized values of hA, A1, A2, B1, B2, and B3. The OPE gA and Fss parameters were held fixed throughout the grid searches. A full, 26 parameter grid search was not feasible due to computational resource limitations. After locating a minimum in the chi-square space via the grid searches, the fits were optimized by simultaneously varying all 26 parameters using the downhill simplex method of chi-square minimization [44].
+
+The best fits to the Nijmegen phase shifts with \Lambda = 3:90 fm\Gamma 1 are shown for I = 0 and 1 in Figs. 4 and 5, respectively. Except for a few of the channels at 100 MeV, the fits (solid lines) are in quantitative agreement with the phase shifts (data points) where the errors from [42] are shown if larger than the data symbol.
+
+17
+
+The results are essentially the same as shown previously in Ref. [15] but these new fits are in significantly better agreement with the 25 and 50 MeV 1P1 and ffl1 Nijmegen phases than was obtained in this earlier analysis of the older SP89 phase shift solution [42]. The L = 0 singlet and triplet scattering lengths are predicted by our model to be -15.6 and 5.40 fm, respectively, in comparison with the measured values of -16.4(1.9) fm [45] and 5.396(11) fm [46]. The optimized values obtained here for the 26 parameters are given in Table I.
+
+The predicted phase shifts and mixing angles from our model (solid curves) for energies from 100 - 300 MeV are compared with the Nijmegen phase shift solutions (data points) in Figs. 6 and 7. For most of the partial wave parameters, except 1P1, ffl1 and ffl2, the model predictions and phase shift solutions are in qualitative
+
+agreement. Because of the low momentum nature of the model, as expressed in the explicit (Q=M ) expansion, no effort was made to fit the phase shifts at energies above 100 MeV.
+
+The deuteron properties for the \Lambda = 3:90 fm\Gamma 1 model fit are given in Table II in comparison with the measured values from Ref. [43]. Included are the binding energy, magnetic moment, electric quadrupole moment, asymptotic d-state to sstate wave function ratio, and d-state probability. The s- and d-state radial wave functions are also shown in Fig. 8. The negative portion of the d-state at small radii is also seen in the deuteron wave function of the Bonn potential [8], although both the radial extent and magnitude are larger here. We do not claim that the short range, high momentum components of our potential are realistic; no quantitative significance should be attached to this short-range part of the wave function. The depletion of the d-state at small radii, however, contributes to the low d-state probability of ,3% which we obtain. Both the quadrupole moment and the asymptotic d=s ratio are about 10% too small.
+
+Also given in Table II are corrected values for the deuteron parameters corresponding to the potential model reported previously [15]. In these earlier calculations the deuteron wave function was computed incorrectly, resulting in erroneous values for the calculated magnetic moment, quadrupole moment and d-state probability 3. For the corrected values the magnetic moment increased slightly by 1.4%, the quadrupole moment increased by 10% and is closer to the measured value, while the predicted d-state probability decreased from 5% to 3%. The scattering phase shifts, mixing angles, deuteron binding energy and asymptotic d=s ratio in Ref. [15] are not affected.
+
+It is interesting to study the sensitivity of the calculated phase shifts and deuteron parameters to the terms in the potential which are a direct consequence of chiral symmetry, corresponding to the diagrams in Figs. 2a and 2b. These include the first two terms in Eq. (20), the first term in Eq. (21) and the potentials in Eqs. (24) and (25) which depend on parameters B1, B2 and B3. To study this sensitivity, calculations for all partial wave channels were made in which each of the above terms in the potential was individually set to zero. The first two terms
+
+3We thank Prof. K. Holinde for suggesting there should be a mistake in our earlier value for the quadrupole moment.
+
+18
+
+in Eq. (20) and the first term in Eq. (21) have minor effects on the scattering phase shifts and mixing angles, however the chiral symmetry terms in Eq. (20) significantly affect the deuteron properties. The potentials in Eqs. (24) and (25), with the values for the parameters B1, B2 and B3 given in Table I, contribute substantially to the scattering predictions and the deuteron. This applies to Eqs. (24) and (25) individually and to the (B1, B2) terms and B3 "oe-term" individually as well.
+
+The NN potential model presented here is, admittedly, complicated. To assist the reader we show in Fig. 9 the radial potentials for the 1S0 channel corresponding to the \Lambda = 3:90 fm\Gamma 1 cut-off and the parameter values in Table I. The radial potentials W 0, W 1 and W 2 are defined by taking spin-angle matrix elements of the coordinate space potential in Eq. (29) where
+
+hV i j W 0(r; E) + W 1(r; E) @@r + W 2(r; E) @
+
+2
+
+@r2 : (35) For coupled partial wave channels the W functions become 2 \Theta 2 matrices. The values for the 1S0 potentials W 0, W 1 and W 2 at 50 MeV incident laboratory kinetic energy (the explicit energy dependence is weak) are shown in Fig. 9 by the dashed, dash-dot and dotted curves, respectively. The units for W 0, W 1 and W 2 are MeV, MeV\Delta fm and MeV\Delta fm2, respectively. We also define an effective, local potential, Veff (r; E), according to:
+
+A(r; E) j L(L + 1)r2 + 2_Veff (r; E) \Gamma 2_E ; (36) where A(r; E) was defined in Eq. (34). The effective, local potential for this case is shown in Fig. 9 by the solid curve. If the first and second derivative terms in Eq. (35) were set to zero then Veff (r; E) would be identical to W 0(r; E). The small difference between the solid and dashed curves in Fig. 9 is due to the derivative terms.
+
+Fits to the phase shifts and deuteron properties were also obtained with cut-off parameter values of 2.50 fm\Gamma 1 and 5.00 fm\Gamma 1. The results for the phase shifts and mixing angles for the \Lambda = 2:50; 3:90 and 5.00 fm\Gamma 1 potentials are shown in Figs. 10 and 11 by the dashed, solid and dotted curves, respectively. Using the \Lambda = 2:50 fm\Gamma 1 cut-off the 1P1 phase shift and ffl1 mixing angle were better described than with the \Lambda = 3:90 fm\Gamma 1 cut-off, however poorer fits to the 1S0, 3P2 and 3F2 phase shifts were obtained. Improved descriptions of the 1P1 and
+
+3P2 phase shifts were achieved with the \Lambda = 5:00 fm\Gamma 1 cut-off value compared to
+
+the \Lambda = 3:90 fm\Gamma 1 results, however poorer descriptions of the ffl1 and ffl2 mixing angles and the 1S0 and 1D2 phase shifts resulted. The corresponding deuteron parameter values for \Lambda = 2:50 fm\Gamma 1 and 5.00 fm\Gamma 1 are also given in Table II. Overall we find qualitatively similar descriptions of the NN scattering results and deuteron properties for a wide range of cut-off parameters from 2.5 to 5.0 fm\Gamma 1 (corresponding to a mass range from 0.5 to 1.0 GeV).
+
+19
+
+8 Summary and Conclusions We derived a low energy nucleon-nucleon potential, from an effective chiral lagrangian for soft pions and nonrelativistic nucleons using a perturbation expansion in powers of (Q=M ). We expressed the potential both in momentum space and in coordinate space, solved the corresponding Schr"odinger equation in coordinate space, and fitted scattering phase shifts and deuteron properties by varying the undetermined parameters of the lagrangian.
+
+In spirit, our approach is similar to that of the Paris group [9] where information on pion dynamics was used to construct the longer range parts of the potential, while more complicated dynamics was buried in unconstrained, short range parts. The fundamental difference between the approach of the Paris group and that of the present work is our use of effective field theory, rather than dispersion relations. Use of an effective chiral lagrangian not only ensures that our results are consistent with other aspects of pion phenomenology (chiral lagrangians to the order we use generally agree with data at the 20% level), but more importantly, explicitly incorporates the symmetries of QCD and provides a natural perturbative expansion. In this way we, like the Nijmegen group [7, 10], develop a potential within a theoretical framework, but unlike Refs. [7, 10] we carry out a controlled expansion. Our use of field theory and old-fashioned perturbation theory, on the other hand, causes our potential to be similar to a low-energy version of the Bonn potential [8].
+
+The potential in momentum space shares several features with these and other potentials. The short range parts have all the necessary spin and isospin structure. The pion exchange terms result in contributions that have been considered before, but also result in several new terms related to chiral symmetry. Energy dependence (which has implications for few-body forces [29]) arises naturally.
+
+The potential was transformed into coordinate space using a gaussian cut-off function. The O(k2) dependence in the momentum space potential leads to first and second derivative terms in the coordinate space representation. Elimination of first derivative terms in the radial Schr"odinger equation through use of an auxiliary function permitted standard numerical methods to be employed.
+
+We obtained reasonable, qualitative fits to the deuteron properties together with quantitative fits to most of the scattering phase shifts up to 100 MeV incident nucleon kinetic energy. This shows that our approach accounts for the principle features of the nucleon-nucleon potential and that these features can be naturally understood from the symmetries of QCD. However, the present work also makes clear that it is not practical for potential models derived from effective chiral lagrangians to compete with more phenomenological approaches, with respect to obtaining quantitative descriptions of NN data over a wide range of energies. Extension of the present model to higher energies and further improvement in the description of data could only result by including higher orders in chiral perturbation theory.
+
+Acknowledgements
+
+20
+
+We are grateful to many colleagues for discussions and comments, in particular R. A. Arndt, D. J. Ernst, K. Holinde, J. J. de Swart, R. Timmermans and S. Weinberg. This research was supported in part by U. S. Department of Energy Grants DE-FG03-94ER40845, DE-FG06-88ER40427 and DE-FG05-87ER40367 (with Vanderbilt University) and National Science Foundation grants NSF PHY 951 1632 and NSF PHY 900 1850 (with The University of Texas).
+
+21
+
+A Appendix Pions are (pseudo)Goldstone bosons of the spontaneous breaking SO(4) ! SO(3). They are associated with the broken generators of SO(4) and therefore live in the sphere SO(4)=SO(3) , S3. If we embed it in the euclidean E4 space, SO(4) transformations can be viewed as rotations of S3 in E4 planes. For example, SU (2)V of isospin consists of rotations in planes orthogonal to the fourth axis, while axial SU (2)A are rotations through planes that contain the fourth axis.
+
+The sphere can be parametrized in a variety of ways, for example with four cartesian coordinates f'; '4 j oeg subject to the constraint,
+
+oe2 + '2 = 14 F 2ss . (37) It is more convenient, however, to work with three unconstrained coordinates; therefore we use stereographic coordinates where
+
+ss j 2'1 + 2oe
+
+Fss
+
+. (38)
+
+Under an SU (2)V transformation with parameter ", the ss coordinates rotate according to
+
+ffiss = " \Theta ss, (39)
+
+but they transform non-linearly under SU (2)A with parameter ~" as given by
+
+ffiss = Fss 1 \Gamma ss
+
+2
+
+F 2ss !
+
+~" 2 +
+
+1 Fss (~" \Delta ss)ss : (40)
+
+A covariant derivative [see Eq. (4)] can be constructed, which is an isospin 1 object,
+
+ffiD_ = " \Theta D_, (41) which transforms under axial rotations as if under SU (2)V with a field-dependent parameter,
+
+ffiD_ = (~" \Theta ssF
+
+ss ) \Theta D
+
+_. (42)
+
+Fermions also transform linearly under the unbroken subgroup
+
+ffiN = i" \Delta tN (43)
+
+ffi\Delta = i" \Delta t(3=2)\Delta . (44)
+
+In this case too, it is simplest to work with fields that realize the whole group non-linearly, i.e. that transform under axial transformations as if under isospin with the same field-dependent parameter as in Eq. (42). In this case
+
+ffiN = i(~" \Theta ssF
+
+ss ) \Delta tN (45)
+
+ffi\Delta = i(~" \Theta ssF
+
+ss ) \Delta t
+
+(3=2)\Delta : (46)
+
+22
+
+It can be easily verified that the covariant derivatives of the pion, nucleon and isobar (Eqs. (7), (8) and (9), respectively) are indeed covariant; that is, they transform under SU (2) \Theta SU (2) in the same way the fields D_, N and \Delta do (see Eqs. (41)--(46)).
+
+A consequence of this is that an isoscalar constructed out of D_, N , \Delta and their covariant derivatives will automatically be invariant under the whole SU (2) \Theta SU (2). On the other hand, objects that transform under the full group as tensors involve also the ss field itself. For example, an SO(4) vector can be constructed according to 0@
+
+2 ssF
+
+ss
+
+1 + ss
+
+2
+
+F 2ss
+
+; 1 \Gamma
+
+ss2
+
+F 2ss
+
+1 + ss
+
+2
+
+F 2ss
+
+1A
+
+, (47)
+
+where its fourth component gives rise to the pion mass term in Eq. (11).
+
+B Appendix Here we list the relations between the Ai's, Ci's of Eq. (17) and the A0i's, and C0i's of Eq. (13):
+
+A1 = \Gamma (A01 \Gamma 12 A02) A2 = \Gamma (A01 + 12 A02)
+
+C1 = \Gamma C01 + C03 \Gamma 12 C02 C2 = 4(\Gamma C01 + C03 + 12 C02) C3 = \Gamma C09 \Gamma 12 (C012 + C014) C4 = 4(\Gamma C09 + 12 (C012 + C014)) C5 = \Gamma (2C04 + C05 \Gamma C06) C6 = \Gamma (C07 + C08 + 12 C010 \Gamma C011 \Gamma C013)
+
+C7 = \Gamma 4(C07 + C08 \Gamma 12 C010 + C011 + C013).
+
+C Appendix The origin of the explicit energy dependence of the present nucleon-nucleon potential is discussed here. One of the nice features of the chiral lagrangian approach is that it allows systematic inclusion of nucleon recoil corrections, i.e. energy dependent terms, as exemplified by Eq. (17) of Sec. 4. Here we give a somewhat general, though brief, description of how these terms arise. The systematic inclusion of
+
+23
+
+recoil corrections has recently been shown to result in cancellations between reducible and irreducible graphs in the three-nucleon problem [29, 31]. This justifies, within this approach, certain approximations often made in nuclear physics.
+
+The Lippmann-Schwinger equation for this case is given by
+
+T ~E\Sigma AB = VAB + X
+
+C
+
+VAC T ~E\Sigma CB ~EB \Gamma ~EC \Sigma iffl ; (48)
+
+where \Sigma refer to outgoing and incoming wave boundary conditions,
+
+VAB = i\Phi B; ^V \Phi Aj ; (49)
+
+^H = ^H0 + ^V ; (50)
+
+and the labels A, B and C denote quantum numbers for the free many-nucleon, pion, and isobar states \Phi A. The energy parameters in Eq. (48) are the sum of the individual energies of these particles.
+
+As is well known, Eq. (48) can be iterated to give the so-called "old-fashioned" perturbation theory, represented by the expansion
+
+T ~EAB = VAB+X
+
+C
+
+VAC 1( ~E
+
+B \Gamma ~EC) V
+
+CB +X
+
+C;D
+
+VAC 1( ~E
+
+B \Gamma ~EC ) V
+
+CD 1( ~E
+
+B \Gamma ~ED) V
+
+DB+\Delta \Delta \Delta ;
+
+(51) where the \Sigma and the iffl are omitted to simplify the notation. Notice that VAB in Eq. (51) is not energy dependent.
+
+Since we are interested in describing the low energy, nucleon-nucleon potential we choose the external particles to be only nonrelativistic nucleons. As in Sec. 2, it is convenient to introduce the effective potential as the sum of the irreducible diagrams of the series in Eq. (51). In the two-nucleon case this means diagrams where there is at least one pion or one isobar in the intermediate states (see Figs. 1 and 2). The complete set of diagrams can now be obtained by iterating this effective potential where the internal lines are two-nucleon lines (A ! ff, nucleons only):
+
+T ~Efffi = Veff;fffi( ~E) + X
+
+fl V
+
+eff;fffl( ~E) 1( ~E
+
+fi \Gamma ~Efl) V
+
+eff;flfi( ~E) + \Delta \Delta \Delta (52)
+
+Notice that Veff;fffi( ~E) does depend, by definition, on the energy ~E ( ~Efi in the energy denominators). To make contact with the nonrelativistic Schr"odinger equation we recall that, for n heavy nucleons,
+
+~Efi \Gamma ~Eff =
+
+nX
+
+i=1 q
+
+m2N + p2i \Gamma
+
+nX
+
+i=1 q
+
+m2N + p02i
+
+=
+
+nX
+
+i=1
+
+p2i 2mN \Gamma
+
+nX
+
+i=1
+
+p02i 2mN + small corrections = Efi \Gamma Eff + small corrections : (53)
+
+24
+
+Up to small corrections, which can be systematically accounted for, the effective potential depends on E = Pni p2i =(2mN ), the nonrelativistic kinetic energy. Clearly, in the infinite nucleon mass limit (static limit) this dependence vanishes
+
+and it is only in the O i QM j
+
+2 corrections to the lowest order term that they appear
+
+(Eq. (17)).
+
+D Appendix In order to obtain a potential in coordinate space we take Fourier transforms with a gaussian cut-off function with parameter \Lambda (see [35, 39] for details). With
+
+erfc(x) = 2pss Z
+
+1
+
+x dte
+
+\Gamma t2
+
+denoting the complementary error function, we define and use the following functions:
+
+I0(r) = 18sspss \Lambda 3e\Gamma (
+
+r\Lambda
+
+2 )
+
+2
+
+I2(r; mss) = 18ssr e(
+
+mss
+
+\Lambda )
+
+2 ^e\Gamma mssrerfc `\Gamma \Lambda r
+
+2 +
+
+mss
+
+\Lambda ' \Gamma e
+
+mssrerfc ` \Lambda r
+
+2 +
+
+mss
+
+\Lambda '*
+
+G2(*; r) = e\Gamma
+
+*2 \Lambda 2 I2(r; qm2ss + *2)
+
+F2(*; r) = I2(r; mss) \Gamma G2(*; r)
+
+OE0C(r; mss) = 4ssm
+
+ss I2(r; m
+
+ss)
+
+OE1C(r; mss) = OE0C(r; mss) \Gamma 4ssm3
+
+ss I
+
+0(r)
+
+OE2C(r; mss) = OE1C(r; mss) + 4ss\Lambda
+
+2
+
+m5ss "
+
+3 2 \Gamma `
+
+\Lambda r
+
+2 '
+
+2#
+
+I0(r)
+
+OE0T (r; mss) = 12(m
+
+ssr)3 e
+
+( mss\Lambda )2 ^`1 + mssr + 1
+
+3 (mssr)
+
+2' e\Gamma mssrerfc `\Gamma \Lambda r
+
+2 +
+
+mss
+
+\Lambda '
+
+\Gamma `1 \Gamma mssr + 13 (mssr)2' emssrerfc ` \Lambda r2 + mss\Lambda '*
+
+\Gamma 4ss3m3
+
+ss `1 +
+
+6 \Lambda 2r2 ' I0(r)
+
+OE1T (r; mss) = OE0T (r; mss) \Gamma ssr
+
+2\Lambda 4
+
+3m5ss I0(r) \Sigma 1(r; *) = m3ssOE0T (r; mss) \Gamma (m2ss + *2)3=2e\Gamma
+
+*2 \Lambda 2 OE0T (r; qm2ss + *2)
+
+\Sigma 2(r; *) = 13 m3ssOE1C (r; mss) \Gamma 13 (m2ss + *2)3=2e\Gamma
+
+*2 \Lambda 2 OE1C(r; qm2ss + *2)
+
+\Omega 1(r; *) = m5ssOE1T (r; mss) \Gamma (m2ss + *2)5=2e\Gamma
+
+*2 \Lambda 2 OE1T (r; qm2ss + *2)
+
+25
+
+\Omega 2(r; *) = 13 m5ssOE2C (r; mss) \Gamma 13 (m2ss + *2)5=2e\Gamma
+
+*2 \Lambda 2 OE2C(r; qm2ss + *2) ;
+
+plus the integrals:
+
+R(n;m)\Delta [f ] = 2ss Z
+
+1
+
+0 d*
+
+*2m (*2 + \Delta 2)n f (*)H
+
+1(r) = \Delta R(1;0)\Delta [G2] H2(r) = 1\Delta [I2(r; mss) \Gamma H1(r)] ;
+
+where f is any function of * and \Delta = m\Delta \Gamma mN .
+
+E Appendix Here we give the explicit forms of the 60 radial potential functions V ip (r), p = 1; : : : ; 20; i = 0; 1; 2, which appear in the coordinate space version of the potential in Eqs. (29) and (30). To save space the following combinations of functions and derivatives of functions are defined:
+
+D1(f ) j f
+
+0
+
+r `2f
+
+00 + 1
+
+r f
+
+0'
+
+D2(f ) j f
+
+0
+
+r `f
+
+00 \Gamma 1
+
+r f
+
+0'
+
+"1(f ) j f 0 + 2r f "2(f ) j f 0 \Gamma 1r f S(f; g) j f 00g00 + 2r2 f 0g0 T (f; g) j 1r (f 00g0 + f 0g00) + 1r2 f 0g0
+
+P(f; g) j 2r2 f 0g0 \Gamma 1r (f 0g00 + f 00g0) Q(f; g) j `\Gamma 4r f 0 \Gamma 2f 00 + 2m2ssf \Gamma I0' g ; where f = f (r) and g = g(r) are any of the functions defined in Appendix D, and a prime denotes differentiation with respect to r.
+
+We then have (where _hc = 1):
+
+V 01 = 1F 4
+
+ss n\Gamma 3g
+
+4AR(1;0)0 [S(I2; F2)] + 6g2A[B1S(I2; I2) + B3m2ss(I02)2]
+
++2g
+
+2Ah2A
+
+3 ^\Delta S(H2; H2) \Gamma 4S(I2; H2) \Gamma
+
+1 \Delta S(I2 + H1; I2 + H1)*
+
+26
+
+\Gamma 1627 h4A\Delta 2R(2;0)\Delta [S(G2; G2)]
+
++ 83 h2A\Delta hB1 iR(1;0)\Delta [S(G2; G2)] + R(1;1)\Delta [G022 ]j + B3m2ssR(1;0)\Delta [G022 ]ioe +C(0)S I0 \Gamma (C(0)1 + 14 C(0)2 )"1(I00) V 11 = \Gamma C(0)2 "1(I0) V 21 = \Gamma C(0)2 I0
+
+V 02 = 1F 4
+
+ss n\Gamma 2g
+
+4AR(1;0)0 [S(G2; F2)] \Gamma R(0;0)0 [Q(G2; G2)] + 4g2AR(0;0)0 [G022 ]
+
++ 29 g2Ah2A ^\Gamma 3\Delta S(H2; H2) + 4S(I2; H2) + 4\Delta S(H1; H1) \Gamma 4R(1;0)\Delta [S(G2; G2)] \Gamma 1\Delta S(I2 + H1; I2 + H1)* + 881 h4AR(2;1)\Delta [S(G2; G2)] \Gamma 89 h2AR(1;1)\Delta [G022 ]oe + 14 C(1)S I0 \Gamma 14 (C(1)1 + 14 C(1)2 )"1(I00) V 12 = \Gamma 14 C(1)2 "1(I0) V 22 = \Gamma 14 C(1)2 I0 V 03 = 1F 4
+
+ss n\Gamma 2g
+
+4AR(1;0)0 [T (G2; F2)]
+
+\Gamma 29 g2Ah2A ^3\Delta D1(H2) \Gamma 4T (I2; H2) \Gamma 4\Delta D1(H1) + 4R(1;0)\Delta [D1(G2)]
+
++ 1\Delta D1(I2 + H1)* + 881 h4AR(2;1)\Delta [D1(G2)]oe +C(0)T I0 \Gamma `C(0)3 + 14 C(0)4 + 13 C(0)6 + 112 C(0)7 ' "1(I00) V 13 = \Gamma (C(0)4 + 13 C(0)7 )"1(I0) V 23 = \Gamma (C(0)4 + 13 C(0)7 )I0 V 04 = 1F 4
+
+ss ae\Gamma
+
+4 3 g
+
+4 AR
+
+(1;0) 0 [T (I2; F2)] \Gamma 43 g2AB2D1(I2)
+
++ 227 g2Ah2A ^\Delta D1(H2) \Gamma 4T (I2; H2) \Gamma 1\Delta D1(I2 + H1)* \Gamma 4243 h4A\Delta 2R(2;0)\Delta [D1(G2)] \Gamma 427 h2AB2\Delta R(1;0)\Delta [D1(G2)]oe
+
++ `2gAF
+
+ss '
+
+2 ( m3ss
+
+48ss [OE
+
+1C \Gamma A1m2ss
+
+2gA OE
+
+2C ] + 1
+
+32 ^ER
+
+(1;0) 0 [\Sigma 2] + 14mN R
+
+(1;0) 0 [\Omega 2]*
+
++ 1128 " 1m
+
+N R
+
+(1;0) 0 ["1(\Sigma
+
+02)] \Gamma A2m3ss
+
+3ssgA "1(OE
+
+10C )#)
+
+27
+
++ 14 C(1)T I0 \Gamma 14 `C(1)3 + 14 C(1)4 + 13 C(1)6 + 112 C(1)7 ' "1(I00) V 14 = g
+
+2A
+
+8F 2ss "
+
+1 mN R
+
+(1;0) 0 ["1(\Sigma 2)] \Gamma A
+
+2m3ss
+
+3gAss "1(OE
+
+1C)# \Gamma 1
+
+4 (C
+
+(1) 4 + 13 C
+
+(1) 7 )"1(I0)
+
+V 24 = g
+
+2A
+
+8F 2ss
+
+1 mN R
+
+(1;0) 0 [\Sigma 2] \Gamma A
+
+2m3ss
+
+3ssgA OE
+
+1C ! \Gamma 1
+
+4 (C
+
+(1) 4 + 13 C
+
+(1) 7 )I0
+
+V 05 = 1F 4
+
+ss ae\Gamma g
+
+4AR(1;0)0 [P(G2; F2)] + 2
+
+9 g
+
+2Ah2A ^3\Delta D2(H2) + 2P(I2; H2) \Gamma 4
+
+\Delta D2(H1)
+
++ 4R(1;0)\Delta [D2(G2)] + 1\Delta D2(I2 + H1)* \Gamma 881 h4AR(2;1)\Delta [D2(G2)]oe
+
+\Gamma 13 (C(0)6 + 14 C(0)7 )"2(I00) V 15 = \Gamma 13 C(0)7 "2(I0) V 25 = \Gamma 13 C(0)7 I0 V 06 = 1F 4
+
+ss ae\Gamma
+
+2 3 g
+
+4 AR
+
+(1;0) 0 [P(I2; F2)] + 43 g2AB2D2(I2)
+
+\Gamma 227 g2Ah2A `\Delta D2(H2) + 2P(I2; H2) \Gamma 1\Delta D2(I2 + H1)'
+
++ 4243 h4A\Delta 2R(2;0)\Delta [D2(G2)] + 427 h2AB2\Delta R(1;0)\Delta [D2(G2)]oe + g
+
+2A
+
+F 2ss f
+
+m3ss
+
+4ss [OE
+
+0 T \Gamma A
+
+1m2ss
+
+2gA OE
+
+1 T ] + 18 ^ER
+
+(1;0) 0 [\Sigma 1] + 14mN R
+
+(1;0) 0 [\Omega 1]*
+
++ 132m
+
+N R
+
+(1;0) 0 ["1(\Sigma
+
+01) \Gamma 6
+
+r2 \Sigma 1] \Gamma
+
+A2m3ss 32ssgA `"1(OE
+
+00T ) \Gamma 6
+
+r2 OE
+
+0T ')
+
+\Gamma 112 (C(1)6 + 14 C(1)7 )"2(I00) V 16 = g
+
+2A
+
+8F 2ss (
+
+1 mN R
+
+(1;0) 0 ["1(\Sigma 1) + 2r \Sigma 1] \Gamma A
+
+2m3ss
+
+gAss `"1(OE
+
+0T ) + 2
+
+r OE
+
+0T ')
+
+\Gamma 112 C(1)7 "2(I0) V 26 = g
+
+2A
+
+4F 2ss (
+
+1 mN R
+
+(1;0) 0 [\Sigma 1] \Gamma A
+
+2m3ss
+
+gAss OE
+
+0T ) \Gamma 1
+
+12 C
+
+(1) 7 I0
+
+V 07 = 1r ^\Gamma C(0)5 I00 + 13 C(0)7 "1(I0)* V 17 = 23r C(0)7 I0 V 27 = 0
+
+V 08 = ` gA2rF
+
+ss '
+
+2 " A2m3ss
+
+ssgA OE
+
+0T \Gamma 1
+
+mN R
+
+(1;0) 0 [\Sigma 1]# + 14r ^\Gamma C
+
+(1) 5 I
+
+00 + 1
+
+3 C
+
+(1) 7 "1(I0)*
+
+28
+
+V 18 = 16r C(1)7 I0 V 28 = 0 V 09 = C(0)2 I0r2 V 19 = V 29 = 0 V 010 = 14 C(1)2 I0r2 V 110 = V 210 = 0 V 011 = (C(0)4 + 13 C(0)7 ) I0r2 V 111 = V 211 = 0
+
+V 012 = 12 ` gA2rF
+
+ss '
+
+2 " A2m3ss
+
+3gAss OE
+
+1C \Gamma 1
+
+mN R
+
+(1;0) 0 [\Sigma 2]# + 14 `C
+
+(1) 4 + 13 C
+
+(1) 7 ' I
+
+0
+
+r2
+
+V 112 = V 212 = 0
+
+V 013 = \Gamma 23 C(0)7 I0r2 V 113 = V 213 = 0 V 014 = \Gamma 16 C(1)7 I0r2 V 114 = V 214 = 0
+
+V 015 = 13 C(0)7 I
+
+00
+
+r \Gamma 3
+
+I0 r2 !
+
+V 115 = 23 C(0)7 I0r V 215 = 0
+
+V 016 = ` gA2rF
+
+ss '
+
+2 " A2m3ss
+
+gAss OE
+
+0 T \Gamma 1mN R
+
+(1;0) 0 [\Sigma 1]# + 112 C
+
+(1) 7 I
+
+00
+
+r \Gamma 3
+
+I0 r2 !
+
+V 116 = 16 C(1)7 I0r V 216 = 0 V 017 = 13 C(0)7 I0r2 V 117 = V 217 = 0
+
+V 018 = ` gA2rF
+
+ss '
+
+2 " A2m3ss
+
+gAss OE
+
+0 T \Gamma 1mN R
+
+(1;0) 0 [\Sigma 1]# + 112 C
+
+(1) 7 I
+
+0
+
+r2
+
+V 118 = V 218 = 0
+
+V 019 = \Gamma 23 C(0)7 I0r2 V 119 = V 219 = 0
+
+29
+
+V 020 = \Gamma 16 C(1)7 I0r2 V 120 = V 220 = 0 .
+
+30 Table I: Effective chiral lagrangian potential model parameters for \Lambda = 3:90 fm\Gamma 1 based on the fit to the Nijmegen phase shifts [41].
+
+gA 1.33 hA 2.03 Fss (MeV) 192 A1 (10\Gamma 6 MeV\Gamma 2) -1.38 A2 (10\Gamma 6 MeV\Gamma 2) 2.44 B1 (10\Gamma 2 MeV\Gamma 1) 0.342 B2 (10\Gamma 2 MeV\Gamma 1) 0.854 B3 (10\Gamma 2 MeV\Gamma 1) 1.77
+
+I = 0 I = 1 CS (10\Gamma 4 MeV\Gamma 2) 1.12 0.135 CT (10\Gamma 4 MeV\Gamma 2) -0.266 -0.689 C1 (10\Gamma 9 MeV\Gamma 4) 0.661 0.381 C2 (10\Gamma 9 MeV\Gamma 4) 3.39 2.97 C3 (10\Gamma 9 MeV\Gamma 4) -0.330 -0.0295 C4 (10\Gamma 9 MeV\Gamma 4) -0.144 0.453 C5 (10\Gamma 9 MeV\Gamma 4) 2.10 -0.910 C6 (10\Gamma 9 MeV\Gamma 4) 0.281 0.0998 C7 (10\Gamma 9 MeV\Gamma 4) 0.581 1.36
+
+31
+
+Table II: Experimental and effective chiral lagrangian model fitted values for the deuteron binding energy (BE), magnetic moment (_d), electric quadrupole moment (QE), asymptotic d=s ratio (j), and d-state probability (PD).
+
+Deuteron Fit to Nijmegen phase shifts [41] SP89 Fitsa Quantities Experimentb \Lambda = 2:50fm\Gamma 1 \Lambda = 3:90fm\Gamma 1 \Lambda = 5:00fm\Gamma 1 \Lambda = 3:90fm\Gamma 1
+
+BE (MeV) 2.224579(9) 2.15 2.24 2.18 2.18
+
+_d (_N ) 0.857406(1) 0.863 0.863 0.866 0.863 QE (fm2) 0.2859(3) 0.246 0.249 0.237 0.253
+
+j 0.0271(4) 0.0229 0.0244 0.0230 0.0239 PD (%) 2.98 2.86 2.40 2.89
+
+aCorrected values given here for fit in Ref. [15]
+
+bSee Ref. [43]
+
+32
+
+References
+
+[1] H. Yukawa, Proc. Phys.-Math. Soc. Jpn. 17 (1935) 48. [2] K.A. Brueckner and K.M. Watson, Phys. Rev. 92 (1953) 1023. [3] M. Sugawara and S. Okubo, Phys. Rev. 117 (1960) 605; ibid. 611. [4] H. Sugawara and F. von Hippel, Phys. Rev. 172 (1968) 1764. [5] R.V. Reid, Ann. Phys. (N. Y.) 50 (1968) 411. [6] I.E. Lagaris and V.R. Pandharipande, Nucl. Phys. A359 (1981) 331. [7] M.M. Nagels, T.A. Rijken and J.J. de Swart, Phys. Rev. D 17 (1978) 768;
+
+V.G.J. Stoks, R.A.M. Klomp, C.P.F. Terheggen and J.J. de Swart, Phys. Rev. C 49 (1994) 2950.
+
+[8] R. Machleidt, K. Holinde and Ch. Elster, Phys. Rep. 149 (1987) 1; R. Machleidt, in Advances in Nuclear Physics, Vol. 19, edited by J.W. Negele and E. Vogt (Plenum, New York, 1989), pp. 189-376.
+
+[9] M. Lacombe, B. Loiseau, J.M. Richard, R. Vinh Mau, J. C^ot'e, P. Pir`es,
+
+and R. de Tourreil, Phys. Rev. C 21 (1980) 861; R. Vinh Mau, "The Paris Nucleon-Nucleon Potential," in Mesons in Nuclei, Vol. I, edited by M. Rho and D. Wilkinson, (North-Holland, Amsterdam, 1979), pp. 151-196.
+
+[10] T.A. Rijken, Ann. Phys. 164 (1985) 1; ibid. 23. [11] F. Myhrer and J. Wroldsen, Rev. Mod. Phys. 60 (1988) 629; K. Yazaki,
+
+"Baryon-Baryon Interactions -- Quarks versus Mesons," in Few-Body Problems in Physics, edited by F. Gross, (AIP, New York, 1995), pp. 225-238.
+
+[12] A. Jackson, A.D. Jackson and V. Pasquier, Nucl. Phys. A432 (1985) 567;
+
+R. Vinh Mau, M. Lacombe, B. Loiseau, W.N. Cottingham and P. Lisboa, Phys. Lett. B 150 (1985) 259.
+
+[13] J. Wambach, Acta Phys. Polon. B 23 (1992) 1163. [14] C. Ord'o~nez and U. van Kolck, Phys. Lett. B 291 (1992) 459. [15] C. Ord'o~nez, L. Ray and U. van Kolck, Phys. Rev. Lett. 72 (1994) 1982. [16] S. Weinberg, Phys. Lett. B 251 (1990) 288. [17] S. Weinberg, Nucl. Phys. B363 (1991) 3. [18] A. Manohar and H. Georgi, Nucl. Phys. B234 (1984) 189. [19] E. Jenkins and A.V. Manohar, Phys. Lett. B 255 (1991) 558.
+
+33
+
+[20] U. van Kolck, U. of Texas Ph.D. dissertation (1993), and U. of Washington
+
+preprint DOE/ER/40427-13-N94.
+
+[21] M. Fierz, Z. Phys. 104 (1937) 553. [22] S. Weinberg, Phys. Rev. Lett. 17 (1966) 616. [23] Y. Tomozawa, Nuovo Cim. 46A (1966) 707. [24] S. Weinberg, Physica 96A (1979) 327. [25] J. Gasser and H. Leutwyler, Ann. Phys. 158 (1984) 142; Nucl. Phys. B250
+
+(1985) 465.
+
+[26] G. Ecker, "Chiral Perturbation Theory," in Quantitative Particle Physics,
+
+Carg`ese 1992, edited by M. L'evy, J.-L. Basdevant, M. Jacob, J. Iliopoulos, R. Gastmans and J.-M. G'erard, NATO ASI Series B, Vol. 311, (Plenum, New York, 1993), pp. 101-148.
+
+[27] J. Gasser, M.E. Sainio and A. ^Svarc, Nucl. Phys. B307 (1988) 779. [28] V. Bernard, N. Kaiser and U.-G. Meissner, Int. J. Mod. Phys. E4 (1995) 193. [29] U. van Kolck, Phys. Rev. C 49 (1994) 2932. [30] T.-S. Park, D.-P. Min and M. Rho, Phys. Rep. 233 (1993) 341. [31] S. Weinberg, Phys. Lett. B 295 (1992) 114. [32] S.R. Beane, C.Y. Lee and U. van Kolck, U. of Washington preprint
+
+DOE/ER/40427-06-N95, .
+
+[33] T.E.O. Ericson, Prog. Part. Nucl. Phys. 11 (1984) 245. [34] F. Gross, J.W. van Orden and K. Holinde, Phys. Rev. C 45 (1992) 2094. [35] Th.A. Rijken and V.G.J. Stoks, Phys. Rev. C 46 (1992) 73. [36] L.S. Celenza, A. Pantziris and C.M. Shakin, Phys. Rev. C 46 (1992) 2213. [37] J.L. Friar and S.A. Coon, Phys. Rev. C 49 (1994) 1272. [38] C.A. da Rocha and M.R. Robilotta, Phys. Rev. C 49 (1994) 1818; Phys.
+
+Rev. C 52 (1995) 531.
+
+[39] Th.A. Rijken, Ann. Phys. 208 (1991) 253. [40] L. Ray, Phys. Rev. C 35 (1987) 1072. [41] V.G.J. Stoks, R.A.M. Klomp, M.C.M. Rentmeester and J.J. de Swart, Phys.
+
+Rev. C 48 (1993) 792.
+
+34
+
+[42] R.A. Arndt, J.S. Hyslop III and L.D. Roper, Phys. Rev. D 35 (1987) 128;
+
+R.A. Arndt and L.D. Roper, Scattering Analysis Interactive Dial-in Program (SAID), Virginia Polytechnic Institute and State University; R.A. Arndt, private communication.
+
+[43] T.E.O. Ericson, Nucl. Phys. A416 (1984) 281c. [44] J.A. Nelder and R. Mead, Computer Journal 7 (1965) 308; W.H. Press,
+
+B.P. Flannery, S.A. Teukolsky and W.T. Vetterling, Numerical Recipes - The Art of Scientific Computing (Cambridge University Press, Cambridge, 1986), pp. 289-293.
+
+[45] R.P. Haddock, R.M. Salter, Jr., M. Zeller, J.B. Czirr, and D.R. Nygren,
+
+Phys. Rev. Lett. 14 (1965) 318. The I = 1 parameters of our potential were fitted to the pp phase shifts. Therefore the predicted L = 0 singlet scattering length is comparable to that measured in nn scattering, assuming charge symmetry.
+
+[46] H.P. Noyes, Phys. Rev. 130 (1963) 2025.
+
+35
+
+Figure Captions Figure (1) : Tree graphs contributing to the two-nucleon potential (solid
+
+lines are nucleons, dashed lines pions). Figure (2) : One loop graphs contributing to the two-nucleon potential
+
+(double lines represent nucleons or isobars). Only one time ordering is shown for each type of graph. In (d) and (e) we only consider those orderings that have at least one pion or one isobar in intermediate states. Figure (3) : Examples of two-loop graphs that are not included in
+
+our potential. Figure (4) : Best fit (solid curves) to the I = 0 np phase shifts and
+
+ffl1 mixing angle from Ref. [41] assuming a cut-off parameter \Lambda = 3:90 fm\Gamma 1. Errors in the phase shifts, where shown, are from Ref. [42]. Figure (5) : Best fit (solid curves) to the I = 1 pp phase shifts and
+
+ffl2 mixing angle from Ref. [41] assuming a cut-off parameter \Lambda = 3:90 fm\Gamma 1. Errors in the phase shifts, where shown, are from Ref. [42]. Figure (6) : Predictions (solid curves) using the \Lambda = 3:90 fm\Gamma 1 cut-off
+
+and the parameters in Table I in comparison with the Nijmegen phase shift solution [41] for the I = 0 np phase shifts and ffl1 mixing angle to 300 MeV. Errors in the phase shifts, where shown, are from Ref. [42]. Figure (7) : Predictions (solid curves) using the \Lambda = 3:90 fm\Gamma 1 cut-off
+
+and the parameters in Table I in comparison with the Nijmegen phase shift solution [41] for the I = 1 pp phase shifts and ffl2 mixing angle to 300 MeV. Errors in the phase shifts, where shown, are from Ref. [42]. Figure (8) : Deuteron s-state (upper curve) and d-state (lower curve)
+
+radial wave functions from the present NN potential using the \Lambda = 3:90 fm\Gamma 1 cut-off and the parameters in Table I. Figure (9) : Radial potentials for the 1S0 partial wave state at 50 MeV
+
+using the \Lambda = 3:90 fm\Gamma 1 cut-off and the parameters in Table I. The potentials W 0, W 1, W 2 and Veff defined in Eqs. (35) and (36) are indicated by the dashed, dash-dot, dotted and solid curves, respectively. The dash-dot (dotted) curve corresponds to W 1/fm (W 2/fm2). Figure (10): Best fits to the I = 0 np phase shifts and ffl1 mixing angle
+
+from Ref. [41] assuming \Lambda = 2:50 fm\Gamma 1 (dashed curves), 3.90 fm\Gamma 1 (solid curves), and 5.00 fm\Gamma 1 (dotted curves). The solid curves here and in Fig. 4 are identical. Figure (11): Best fits to the I = 1 pp phase shifts and ffl2 mixing angle
+
+from Ref. [41] assuming \Lambda = 2:50 fm\Gamma 1 (dashed curves), 3.90 fm\Gamma 1
+
+36
+
+(solid curves), and 5.00 fm\Gamma 1 (dotted curves). The solid curves here and in Fig. 5 are identical.
+
+37
+

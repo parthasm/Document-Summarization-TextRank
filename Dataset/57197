@@ -1,0 +1,692 @@
+
+
+ 22 Jun 95
+
+INLO-PUB-7/95 Anomalous four-fermion processes in
+
+electron-positron collisions
+
+\Lambda
+
+F.A. Berendsy and A.I. van Sighemz Instituut-Lorentz, University of Leiden, P.O.B. 9506, 2300 RA Leiden, The Netherlands
+
+June 22, 1995
+
+Abstract This paper studies the electroweak production of all possible fourfermion states in e+e\Gamma collisions with non-standard triple gauge boson couplings. All CP conserving couplings are considered. It is an extension of the methods and strategy, which were recently used for the Standard Model electroweak production of four-fermion final states. Since the fermions are taken to be massless the matrix elements can be evaluated efficiently, but certain phase space cuts have to be imposed to avoid singularities. Experimental cuts are of a similar nature. With the help of the constructed event generator a number of illustrative results is obtained for W -pair production. These show on one hand the distortions of the Standard Model angular distributions caused by either off-shell effects or initial state radiation. On the other hand, also the modifications of distributions due to anomalous couplings are presented, considering either signal diagrams or all diagrams.
+
+\Lambda This research has been partly supported by EU under contract number CHRX-CT-92-0004.
+
+yemail address: berends@rulgm0.LeidenUniv.nl
+
+zemail address: h88@nikhef.nl
+
+1
+
+1 Introduction Recently, the electroweak four-fermion production processes relevant for LEP2 and beyond have been studied in a number of ways. One of the objectives is to obtain a description of W -pair production better than an on-shell treatment with W -decay products attached to it. Thus all recent papers contain finite width effects. Some papers only include the three diagrams leading to W -pair production, others include all diagrams giving a specific four-fermion final state. Most of them include some form of initial state QED radiative corrections. There are semi-analytical methods [1, 2] and Monte Carlo approaches [3]-[10]. The former can only give distributions in the virtualities of the W 's, but no fermion distributions. The latter can produce any wanted distribution.
+
+Among the various Monte Carlo treatments we mention in particular the program EXCALIBUR, since it aims both at completeness and speed. All diagrams for any four-fermion final state are included and a relatively fast calculation is achieved by assuming massless fermions and by using a multichannel approach to generate the phase space. The details are given in [9], whereas the treatment of initial state radiation (ISR) can be found in [10].
+
+One of the objectives of LEP2 and future electron-positron colliders is a test of non-abelian triple gauge boson couplings. A way to quantify deviations from the Standard Model (SM) Yang-Mills couplings is to set experimental limits on anomalous couplings. Many discussions of the latter can be found in the literature, see e.g. [11, 12, 13]. Theoretical arguments, which reduce the a-priori large number of non-standard couplings are discussed in [13]. In order to investigate the experimental possibilities to measure limits on anomalous couplings one ideally needs samples of anomalous events, made by an event generator and one requires a fitting program containing the anomalous matrix element. The fitting program can then establish whether the input anomalous couplings can really be extracted from the generated anomalous data.
+
+Up to now such studies were made with tools, which have certain limitations. Usually data are generated for W -pair production containing three diagrams with W -decay attached to it in zero width approximation. The fitting programs use the same approximation. Examples of such investigations can be found in [13, 14]. Very recently a Monte Carlo program with anomalous couplings with a finite W -width became available [15]. It covers the semi-leptonic final states.
+
+In view of the advantages of the EXCALIBUR program it is natural to use its structure and strategy as a basis for an anomalous four-fermion generator.
+
+2
+
+Thus it is the aim of the present paper to describe the necessary additions and changes to the approach of [9, 10] to obtain a four-fermion generator with anomalous couplings.
+
+This generator has the following characteristics. Any massless four-fermion final state can be produced with CP conserving anomalous couplings. All abelian and non-abelian diagrams contributing to the final state are taken into account. It is also possible to restrict oneself to the "signal" diagrams of a process, e.g. for four-fermion production through W -pairs one takes only three diagrams. Finally, ISR can be switched on or off.
+
+The new anomalous matrix elements will be discussed in some detail, since they are the key ingredient of the anomalous EXCALIBUR program and since they would also be required for a fitting program.
+
+A number of numerical results for four-fermion production will be presented. On one hand they serve as illustration how the W finite width or ISR can modify SM angular distributions. On the other hand they show how non-standard distributions behave. The very relevant physics application is the one mentioned above: generating anomalous data and studying the extraction of anomalous couplings with a fitting program. It is expected that in the future this question will be addressed.
+
+The actual outline of the paper is as follows. In section 2 the anomalous couplings are described. The next section discusses those four-fermion final states, which are sensitive to anomalous couplings and gives the required matrix elements. Some illustrative examples of anomalous effects in distributions are shown in section 4, whereas section 5 contains conclusions.
+
+2 Anomalous couplings In this section those non-standard couplings are defined, which will be considered for the generation of anomalous four-fermion final states. When one uses only Lorentz invariance as condition there exist 14 couplings, which lead to deviations from the SM triple gauge boson couplings. Some of them can be immediately discarded since they would either modify the strength of the electromagnetic interaction or introduce C or CP violation in it. At this point there still are 9 parameters left, three of which lead to CP violation through the ZW W interaction. Also these will be omitted. We are then left with a Lagrangian of the form:
+
+L = L1(C- and P-conserving) +
+
+L2(CP-conserving, C- and P-violating):
+
+(1)
+
+3
+
+Here L1 takes the form
+
+L1 = \Gamma ie [A_(W \Gamma _*W +* \Gamma W +_*W \Gamma *) + F_* W +_W \Gamma *]
+
++ie cot `w [Z_(W \Gamma _*W +* \Gamma W +_*W \Gamma * ) + Z_*W +_W \Gamma *] \Gamma iexfl F_* W +_W \Gamma * + iexZZ_* W +_W \Gamma * +ieffiZ [Z_(W \Gamma _* W +* \Gamma W +_*W \Gamma *) + Z_* W +_W \Gamma *] +ie yflM 2
+
+W F
+
+**W \Gamma *_W +_*
+
+\Gamma ie yZM 2
+
+W Z
+
+**W \Gamma *_W +_*
+
+(2)
+
+whereas the second part reads
+
+L2 = \Gamma ezZM 2
+
+W @
+
+ff ^Zaeoe (@aeW \Gamma oeW +ff \Gamma @aeW \Gamma ffW +oe+
+
+@aeW +oeW \Gamma ff \Gamma @aeW +ffW \Gamma oe)
+
+(3)
+
+where ^Z_* is the dual field tensor
+
+^Zaeoe = 12 fflaeoefffiZfffi (4)
+
+with ffl0123 = \Gamma 1. Taking the anomalous couplings vanishing leaves us with the first and second lines in L1, i.e. the SM Lagrangian. Although this general form will be considered, there are theoretical symmetry arguments to reduce the number of independent couplings [13]. In practical fits this reduction will be necessary. For completeness we list the Feynman rule for the ZW W vertex when all particles are considered to be outgoing:
+
+\Delta
+
+p0 Z_
+
+W \Gamma ae
+
+W +* p+ p\Gamma
+
+4
+
+= ie (cot `w + ffiZ ) hgae*(p\Gamma \Gamma p+)_ + g_* (p+ \Gamma p0)ae + g_ae(p0 \Gamma p\Gamma )*i
+
++iexZ hg_aep0* \Gamma g_*p0aei
+
++ ieyZM 2
+
+W h(p
+
++ae p0*p\Gamma _ \Gamma p+_ p0aep\Gamma * ) + (p0 \Delta p+)(g_aep\Gamma * \Gamma gae*p\Gamma _ )
+
++ (p0 \Delta p\Gamma )(gae*p+_ \Gamma g_* p+ae ) + (p\Gamma \Delta p+)(g_*p0ae \Gamma g_aep0*)i \Gamma ezZM 2
+
+W hffl
+
+_ae^oep
+
+0* \Gamma ffl_*^oep0aei p0^(p+ \Gamma p\Gamma )oe:
+
+For the flW W vertex one has to replace cot `w + ffiZ by \Gamma 1, xz and yz by \Gamma xfl and \Gamma yfl . The coupling zfl is zero.
+
+With these vertices the matrix elements for four-fermion production will be evaluated. It should be noted that the form chosen in the interaction corresponds to that of [13]. In the Z couplings the signs look different from [13]. This is however compensated by the vectorboson-fermion couplings, which differ between the two papers. For the SM we use here for the photon-electron vertex iefl_ and for the Z-vertex iefl_(v \Gamma afl5) with a = \Gamma (4 sin `w cos `w)\Gamma 1 and v = a(1 \Gamma 4 sin2 `w). In [13] the latter is the same but the photon vertex has opposite sign.
+
+3 The matrix elements In the literature [16] studies have been made of the effect of non-standard triple gauge boson couplings on the following gauge boson production processes
+
+(1) e+ e\Gamma ! W + W \Gamma ,
+
+(2) e+ e\Gamma ! W e *e , (3) e+ e\Gamma ! Z *e _*e . They are described by 3, 9 and 7 diagrams respectively of which 2, 2 and 1 diagrams containing a triple gauge boson vertex. In practice these processes lead to four-fermion final states. For a specific four-fermion final state not only the "signal" diagrams of the above reactions contribute but also "background" diagrams, of which some contain also triple gauge boson vertices. Thus the anomalous couplings can contribute to the background diagrams
+
+5
+
+as well. Tables 1-3 list the leptonic, semileptonic and hadronic final states which can originate from one of the above signals. Moreover, the number of abelian diagrams (Na) and of non-abelian diagrams (Nn) is given. For the actual calculation of the matrix element we proceed as in [9]. We first repeat the SM calculation and then extend it to non-standard couplings. Although many diagrams can contribute to a specific final state there are only two topological structures (generic diagrams), given in fig. 1. In these diagrams all particles are considered to be outgoing. The actual Feynman diagrams will be obtained by crossing those electron and positron lines which were assigned to become the colliding e+e\Gamma pair. In the Abelian diagrams the charges of the fermions determine the character of the two exchanged bosons, which may be W +, W \Gamma , Z or fl. In the non-abelian diagrams, two of the vector bosons are fixed to be W + and W \Gamma , and the third one can be Z or fl. In this way we avoid double-counting of diagrams. In principle the particles and antiparticles can each be assigned in six ways to the external lines. For the non-abelian diagrams we get at most 8 diagrams and due to the specific final states considered we get at most 48 abelian diagrams. Fixing a specific four-fermion final state all possible assignments are tried. Only those which are allowed for by the couplings survive in first instance. Since also successively all helicity combinations are tried certain diagrams do not contribute as can be seen from the numerator of the generic abelian diagram:
+
+A(*; ae; oe; p1; p2; p3; p4; p5; p6) =
+
+= _u*(p1)fl_u*(p2)\Theta
+
+_uae(p3)fl_(/p1 + /p2 + /p3)fl*uae(p4)\Theta _uoe(p5)fl*uoe(p6) : (5)
+
+Here we have disregarded the particle/antiparticle distinction since it is already implied by the assignment of the external momenta. The helicity labels *; ae; oe = \Sigma 1 determine the helicity of both external legs on a given fermion line. Using the Weyl-van der Waerden formalism for helicity amplitudes [17] (or, equivalently, the Dirac formalism of [18]), the expression A can easily be calculated. For instance, for * = ae = oe = 1 one finds
+
+A(+; +; +; 1; 2; 3; 4; 5; 6) = 4h31i\Lambda h46i [h51i\Lambda h21i + h53i\Lambda h23i] (6) where the spinorial product is given, in terms of the momenta components, by
+
+hkji = ip1j + ip2j j " p
+
+0k \Gamma p3k
+
+p0j \Gamma p3j #
+
+1=2 \Gamma
+
+(k $ j) : (7)
+
+6
+
+p6; oe p5; oe p4; ae
+
+p3; ae p2; *
+
+p1; *
+
+V1 V2
+
+p6; oe p5; oe
+
+p4; ae
+
+p3; ae p2; *
+
+p1; *
+
+W \Gamma W +
+
+V
+
+Figure 1: generic diagrams for four-fermion production. The fermion momenta and helicities, and the bosons are indicated. The bosons V1;2 can be either Z, W \Sigma , or fl; V can be either Z or fl.
+
+We denote the expression of equation 6 by A0(1; 2; 3; 4; 5; 6). All helicity combinations can be expressed in terms of A0, as follows:
+
+A(+ + +) = A0(1; 2; 3; 4; 5; 6) A(\Gamma \Gamma \Gamma ) = A0(1; 2; 3; 4; 5; 6)\Lambda A(\Gamma + +) = A0(2; 1; 3; 4; 5; 6) A(+ \Gamma \Gamma ) = A0(2; 1; 3; 4; 5; 6)\Lambda A(+ + \Gamma ) = A0(1; 2; 3; 4; 6; 5) A(\Gamma \Gamma +) = A0(1; 2; 3; 4; 6; 5)\Lambda A(\Gamma + \Gamma ) = A0(2; 1; 3; 4; 6; 5) A(+ \Gamma +) = A0(2; 1; 3; 4; 6; 5)\Lambda :
+
+(8)
+
+The numerator in the non-abelian diagrams can also be written in terms of the function A:
+
+_u*(p1)flffu*(p2) _uae(p3)fl_uae(p4) _uoe(p5)fl*uoe(p6)\Theta f
+
+g_ff(p1 + p2)* + gff*(p5 + p6)_ + g*_(p3 + p4)ffg = A(*; ae; oe; 1; 2; 3; 4; 5; 6) \Gamma A(oe; ae; *; 5; 6; 3; 4; 1; 2) : (9)
+
+Thus, for massless fermions, every helicity amplitude consists of a sum of very systematic, and relatively compact, expressions.
+
+Extending now the flW W coupling with non-standard terms from the previous section we get as new numerator
+
+7
+
+[A(*; ae; oe; 1; 2; 3; 4; 5; 6) \Gamma A(oe; ae; *; 5; 6; 3; 4; 1; 2)] +xfl B(*; ae; oe; 1; 2; 3; 4; 5; 6) + yflM 2
+
+W [(p
+
+3 + p4) \Delta (p1 + p2)B(*; oe; ae; 1; 2; 5; 6; 3; 4)
+
+\Gamma (p5 + p6) \Delta (p1 + p2)B(*; ae; oe; 1; 2; 3; 4; 5; 6) +(p3 + p4) \Delta (p5 + p6)B(ae; *; oe; 3; 4; 1; 2; 5; 6)] + yflM 2
+
+W C(*; ae; oe; 1; 2; 3; 4; 5; 6)
+
+(10)
+
+and for the new ZW W -vertex
+
+\Gamma (cot `w + ffiZ) [A(*; ae; oe; 1; 2; 3; 4; 5; 6) \Gamma A(oe; ae; *; 5; 6; 3; 4; 1; 2)] \Gamma xZ B(*; ae; oe; 1; 2; 3; 4; 5; 6) \Gamma yZM 2
+
+W [(p
+
+3 + p4) \Delta (p1 + p2)B(*; oe; ae; 1; 2; 5; 6; 3; 4)
+
+\Gamma (p5 + p6) \Delta (p1 + p2)B(*; ae; oe; 1; 2; 3; 4; 5; 6) +(p3 + p4) \Delta (p5 + p6)B(ae; *; oe; 3; 4; 1; 2; 5; 6)] \Gamma yZM 2
+
+W C(*; ae; oe; 1; 2; 3; 4; 5; 6)
+
++ izZM 2
+
+W D(*; ae; oe; 1; 2; 3; 4; 5; 6)
+
+(11)
+
+where the new functions B, C and D are defined as
+
+B(+; +; +; 1; 2; 3; 4; 5; 6) = 2h31i\Lambda h35i\Lambda h26ih34i
+
++2h43i\Lambda h15i\Lambda h42ih46i; (12)
+
+C(+; +; +; 1; 2; 3; 4; 5; 6) = 2 [h13i\Lambda h23i + h14i\Lambda h24i] \Theta
+
+[h35i\Lambda h45i + h36i\Lambda h46i] [h51i\Lambda h61i + h52i\Lambda h62i] ; (13)
+
+8
+
+D(+; +; +; 1; 2; 3; 4; 5; 6) =
+
+2ih35i\Lambda h35i\Lambda h34ih56i [h13i\Lambda h23i + h14i\Lambda h24i]\Gamma
+
+2ih46ih46ih34i\Lambda h56i\Lambda [h13i\Lambda h23i + h14i\Lambda h24i] +2ih31i\Lambda h31i\Lambda h34ih12i [h53i\Lambda h63i + h54i\Lambda h64i]\Gamma
+
+2ih42ih42ih34i\Lambda h12i\Lambda [h53i\Lambda h63i + h54i\Lambda h64i] :
+
+(14)
+
+The expressions for B, C and D satisfy the same relations (8) as A. When equations (12)-(14) are denoted by B0, C0 and D0 then
+
+B(+ + +) = B0(1; 2; 3; 4; 5; 6) B(\Gamma \Gamma \Gamma ) = B0(1; 2; 3; 4; 5; 6)\Lambda B(\Gamma + +) = B0(2; 1; 3; 4; 5; 6) B(+ \Gamma \Gamma ) = B0(2; 1; 3; 4; 5; 6)\Lambda B(+ + \Gamma ) = B0(1; 2; 3; 4; 6; 5) B(\Gamma \Gamma +) = B0(1; 2; 3; 4; 6; 5)\Lambda B(\Gamma + \Gamma ) = B0(2; 1; 3; 4; 6; 5) B(+ \Gamma +) = B0(2; 1; 3; 4; 6; 5)\Lambda
+
+(15)
+
+and the same holds for C and D.
+
+Finally it should be noted that the vector boson propagators are implemented in the form (q2 \Gamma M 2V + iMV \Gamma V )\Gamma 1, irrespective whether q is timelike or not. This recipe guarantees the validity of electromagnetic gauge invariance. When this is violated even by a small amount forward electron cross sections can be off by orders of magnitude. This is due to photon exchange in the t-channel and was already noticed a long time ago as a problem in single W -production [19]. A less ad hoc solution to this problem is underway [20].
+
+4 Results Whereas at high energies total cross section measurements will give crucial information on the size of possible non-standard couplings, one has to consider at LEP2 angular distributions for this purpose. The natural five-dimensional differential cross section is
+
+doe(e\Gamma e+ \Gamma ! W \Gamma W + \Gamma ! f1 _f2f3 _f4)
+
+d cos `d cos `1dOE1d cos `2dOE2 (16)
+
+where ` is the angle between the incoming electron and W \Gamma . The angles `1, OE1 are the polar and azimuthal angles of the particle f1 in the rest system of the parent particle W \Gamma , whereas the angles `2, OE2 fulfill a similar role for the antiparticle _f4 originating from W +. The angles are defined with respect to coordinate frames related to the W \Gamma and W +. The z-directions are the
+
+9
+
+directions of the momenta of the vectorbosons. The y-axes are defined by respectively ~p\Gamma \Theta ~q\Gamma and ~q+ \Theta ~p+, where ~p\Gamma , ~p+ denote the momenta of the incoming electron and positron and ~q\Gamma , ~q+ the momenta of the W \Gamma and W +.
+
+In the zero width limit the above cross section is directly related to the helicity amplitudes for on-shell W -pair production and functions describing the decay of the vectorbosons [12, 13]. In principle direct fits to the above cross section could be performed. In practice one- or two-dimensional distributions will often be used. In the following we shall study doe=d cos `, doe=d cos `1, doe=dOE1.
+
+The main purpose of this section is to illustrate effects of certain phenomena which have sofar not been incorporated in anomalous coupling studies. These are the effects of the finite W -width, of ISR and of background diagrams. It is useful to define a number of (differential) cross sections oe evaluated under different assumptions. In the first place we introduce SM cross sections oeSM;on, oeSM , oeSM;ISR and oeSM;all which are respectively on-shell, off-shell signal cross sections (i.e. with three diagrams), the off-shell signal case with ISR and the cross section containing all diagrams. Furthermore, we define oeAN , oeAN;ISR, and oeAN;all which are (differential) anomalous cross sections calculated with the three signal diagrams, without or with ISR, and with all diagrams without ISR.
+
+The following ratios give an illustration of the effects of the finite width, the ISR, background diagrams and of non-standard couplings:
+
+R1 = oeSMoe
+
+SM;on ; (17)
+
+R2 = oeSM;ISRoe
+
+SM ; (18)
+
+R3 = oeSM;alloe
+
+SM ; (19)
+
+R4 = oeANoe
+
+SM ; (20)
+
+R5 = oeAN;alloe
+
+SM;all : (21)
+
+The reaction which we take as example is
+
+e\Gamma e+ \Gamma ! e\Gamma _*eu _d: (22) The following input parameters are used
+
+ff\Gamma 1 = 128:07 sin2 `w = 0:23103
+
+10
+
+MZ = 91:1888 GeV MW = 80:23 GeV
+
+\Gamma Z = 2:4974 GeV \Gamma W = 2:08 GeV:
+
+where sin2 `w is chosen in such a way that combined with the above running ff value the correct G_ is obtained:
+
+G_ = ffssp2 sin2 `
+
+wM 2W : (23)
+
+For the ISR the usual value of ff is used. It should be noted that the above experimental values for the total widths are incorporated in the propagators. In EXCALIBUR the decay widths of the W into a lepton pair or quark pair are independent from the input total width. They follow from the other input parameters. Since one would like to have s-dependent widths in the s-channel and because this would violate gauge invariance the following practical procedure is used. The s-dependent widths can be transformed into a constant width [21]. When this constant width is used in both s- and tchannel gauge invariance is ensured in a simple way, which numerically agrees well with theoretically more sound methods [20]. Thus the calculations are performed with propagators (q2 \Gamma ~M 2V + i ~MV ~\Gamma V )\Gamma 1, where
+
+~MV = MV =q1 + fl2V ; (24)
+
+~\Gamma V = \Gamma V =q1 + fl2V ; (25)
+
+flV = \Gamma V =MV : (26)
+
+With these input values various differential cross sections have been evaluated. The SM and anomalous cross sections with all diagrams have to be calculated with cuts avoiding thus the singularities due to the massless fermions. In order to make meaningful comparisons the cross section oeSM in R3 has the same cuts. The imposed cuts are
+
+Ee\Gamma ;u; _d ? 20 GeV (27)j cos `e\Gamma ;u; _dj ! 0:9 (28)j
+
+cos 6 (u _d)j ! 0:9 (29)
+
+mu _d ? 10 GeV (30)
+
+where ` is the angle between the outgoing particles and the incoming beams.
+
+11
+
+In tables 4-7 total cross sections oeAN , oeAN;ISR, oeAN (cuts), oeAN;all are listed for an energy of 190 GeV. The SM differential cross sections are given in figure 2. Differential cross section ratios are given in the form of histograms in figs 3-10. From R1 it is seen that the inclusion of the finite width already changes the cos ` distribution by a few percent. Comparing the on- and offshell oeAN a similar angular modification arises [22]. Similarly the inclusion of ISR or background diagrams introduce even larger modifications of this angular distribution. In order to show the effects of the various anomalous couplings histograms of R4 and R5 are presented with values \Sigma 0:5 for every coupling successively, the others being zero at the same time. When doing the analysis with the three signal diagrams both for SM and non-standard couplings (R4) the overall picture is roughly the same as for the case where both cross sections contain all diagrams (R5). The effects of the anomalous couplings show up most clearly in the cos ` distribution as can been seen when comparing to the pictures of the cos `1 and OE1 distributions.
+
+5 Conclusions With the extended EXCALIBUR program it becomes possible to study effects of anomalous couplings in all four-fermion final states which receive contributions from non-abelian diagrams. In this way finite width effects of the vectorbosons are incorporated and studies of ISR and background diagrams can be made. Up to 2 TeV the program works efficiently. For studies at higher energies the present phase space treatment of the multiperipheral massive vectorboson diagrams should be adjusted, which in principle does not pose any problem. For LEP2 this is not yet required.
+
+From the presented results it is clear that in particular the distribution in the W production angle ` is affected by the finite W width, ISR and background. Also here anomalous couplings show up most clearly. The results of this paper give a quantative assesment of the above effects, which have hitherto not been considered in the literature.
+
+Acknowledgements We are grateful to W. Beenakker, M. Bilenky, R. Kleiss, J.L. Kneur and G.J. van Oldenborgh for valuable dicussions.
+
+12
+
+References
+
+[1] T. Muta, R. Najima and S. Wakaizumi, Mod. Phys. Lett. A1 (1986)
+
+203.
+
+[2] D. Bardin, M. Bilenky, A. Olchevski, and T. Riemann, Phys. Lett.
+
+B308 (1993) 191.
+
+[3] H. Anlauf, H.D. Dahmen, A. Himmler, P. Manakos, and T. Mannel,
+
+Nucl. Phys. ( Proc. Suppl.) 37B (1994) 81.
+
+[4] G.J. van Oldenborgh, P.J. Franzini and A. Borelli, Comp. Phys. Commun. 83 (1994) 14.
+
+[5] G. Montagna, O. Nicrosini, G. Passarino and F. Piccinini, Phys. Lett.
+
+B348 (1995) 178.
+
+[6] E. Boos, M. Sachwitz, H.J. Schreiber and S. Sichanin, Zeit. Phys. C61
+
+(1994) 675; DESY 93-183; DESY 94-91.
+
+[7] M. Dubinin, V. Edneral, Y. Kurihara and Y. Shimizu, Phys. Lett.
+
+B329 (1994) 379.
+
+[8] Y. Kurihara, D. Perret-Gallix, Y. Shimizu, KEK-CP-021, LAPP-EXP94-23.
+
+[9] F.A. Berends, R. Kleiss, R. Pittau, Nucl. Phys. B424 (1994) 308. [10] F.A. Berends, R. Kleiss, R. Pittau, Nucl. Phys. B426 (1994) 344. [11] K. Gaemers and G. Gounaris, Zeit. Phys. C1 (1979) 259. [12] K. Hagiwara, R. Peccei, D. Zeppenfeld and K. Hikasa, Nucl. Phys.
+
+B282 (1987) 253.
+
+[13] M. Bilenky, J.L. Kneur, F.M. Renard, and D. Schildknecht, Nucl. Phys.
+
+B409 (1993) 22.
+
+[14] R.L. Sekulin, Phys. Lett. B338 (1994) 369. [15] C. Papadopoulos, CERN-TH-95-46. [16] A. Miyamoto, in: Physics and Experiments with Linear Colliders,
+
+F. A. Harris, S. L. Olsen, S. Pakvasa, and X. Tata, eds. (World Scientific, Singapore, 1993) p.141.
+
+13
+
+[17] F. A. Berends and W. T. Giele, Nucl. Phys. B294 (1987) 700. [18] R. Kleiss and W. J. Stirling, Nucl. Phys. B262 (1985) 235. [19] F.A. Berends, and G.B. West, Phys. Rev. D1 (1970) 122. [20] E.N. Argyres, W. Beenakker, G.J. van Oldenborgh, A. Denner, S.
+
+Dittmaier, J. Hoogland, R. Kleiss, C.G. Papadopoulos, G. Passarino, to be published.
+
+[21] D. Bardin, A. Leike, T. Riemann, M. Sachwitz, Phys. Lett. B206
+
+(1988) 539.
+
+[22] M. Bilenky and J.L. Kneur, private communication.
+
+14 label final state Na Nn total signals 1 e+e\Gamma *e _*e 48 8 56 1 2 3 2 e\Gamma _*e*__+ 14 4 18 1 2 3 e\Gamma _*e*o/ o/ + 4 *ee+_\Gamma _*_ 5 *ee+o/ \Gamma _*o/ 6 _+_\Gamma *_ _*_ 17 2 19 1 7 o/ +o/ \Gamma *o/ _*o/ 8 _\Gamma _*_*o/ o/ + 7 2 9 1 9 o/ \Gamma _*o/ *__+ 10 *e_*e_+_\Gamma 17 2 19 3 11 *e_*eo/ +o/ \Gamma 12 *e_*e*e _*e 32 4 36 3 13 *e_*e*_ _*_ 11 1 12 3 14 *e_*e*o/ _*o/
+
+Table 1: leptonic four-fermion final states in e+e\Gamma collisions.
+
+15
+
+label final state Na Nn total signals 1 e\Gamma _*eu _d 16 4 20 1 2 2 e\Gamma _*ec_s 3 *ee+d_u 4 *ee+s_c 5 _\Gamma _*_u _d 8 2 10 1 6 _\Gamma _*_c_s 7 _+*_d_u 8 _+*_s_c 9 o/ \Gamma _*o/ u _d 10 o/ \Gamma _*o/ c_s 11 o/ +*o/ d_u 12 o/ +*o/ s_c 13 *e _*eu_u 17 2 19 3 14 *e _*ec_c 15 *e _*ed _d 17 2 19 3 16 *e _*es_s 17 *e _*eb_b
+
+Table 2: semileptonic four-fermion final states in e+e\Gamma collisions
+
+label final state Na Nn total signals 1 u_ud _d 33 2 35 1 2 c_cd _d 3 u _ds_c 9 2 11 1 4 d_uc_s
+
+Table 3: hadronic four-fermion final states in e+e\Gamma collisions.
+
+16
+
+ps = 190 GeV : oe
+
+SM = 0:6490 \Sigma 0:0010 pb
+
+only W W -diagrams, no ISR
+
+ffiZ xfl yfl xZ yZ zZ
+
+\Gamma 0:5 0.6729 0.6866 0.6823 0.6582 0.6592 0.6863
+
+0.0011 0.0015 0.0011 0.0011 0.0011 0.0011\Gamma 0:2 0.6537 0.6611 0.6578 0.6512 0.6501 0.6573
+
+0.0011 0.0010 0.0010 0.0010 0.0010 0.0011 0:2 0.6504 0.6402 0.6456 0.6486 0.6509 0.6493
+
+0.0010 0.0010 0.0011 0.0010 0.0010 0.0010 0:5 0.6666 0.6358 0.6524 0.6534 0.6617 0.6679
+
+0.0010 0.0010 0.0010 0.0010 0.0010 0.0010
+
+Table 4: oeAN succesively calculated for all anomalous couplings vanishing but one. Each second row gives the error to oeAN .
+
+ps = 190 GeV : oe
+
+SM = 0:5790 \Sigma 0:0011 pb
+
+only W W -diagrams, ISR
+
+ffiZ xfl yfl xZ yZ zZ
+
+\Gamma 0:5 0.6001 0.6084 0.6053 0.5882 0.5878 0.6077
+
+0.0011 0.0011 0.0011 0.0011 0.0011 0.0011\Gamma 0:2 0.5825 0.5889 0.5861 0.5806 0.5797 0.5853
+
+0.0011 0.0011 0.0011 0.0011 0.0011 0.0011 0:2 0.5809 0.5721 0.5766 0.5792 0.5811 0.5794
+
+0.0010 0.0011 0.0011 0.0011 0.0011 0.0010 0:5 0.5945 0.5683 0.5827 0.5834 0.5900 0.5928
+
+0.0011 0.0011 0.0011 0.0011 0.0011 0.0011
+
+Table 5: oeAN;ISR for similar case as in table 4
+
+17
+
+ps = 190 GeV : oe
+
+SM = 0:45970 \Sigma 0:00097 pb
+
+only W W -diagrams, no ISR, cuts
+
+ffiZ xfl yfl xZ yZ zZ
+
+\Gamma 0:5 0.4783 0.48705 0.48484 0.46781 0.46721 0.4909
+
+0.0010 0.00099 0.00099 0.00098 0.00098 0.0010\Gamma 0:2 0.46372 0.46863 0.46623 0.46191 0.46067 0.46787
+
+0.00098 0.00098 0.00097 0.00097 0.00097 0.00099 0:2 0.46050 0.45361 0.45774 0.45930 0.46134 0.45898
+
+0.00097 0.00097 0.00097 0.00097 0.00097 0.00097 0:5 0.47080 0.44998 0.46330 0.46256 0.46921 0.47068
+
+0.00097 0.00097 0.00097 0.00097 0.00097 0.00098
+
+Table 6: oeAN with the imposed cuts. Cases as in table 4
+
+ps = 190 GeV : oe
+
+SM = 0:4705 \Sigma 0:0010 pb
+
+all diagrams, no ISR, cuts
+
+ffiZ xfl yfl xZ yZ zZ
+
+\Gamma 0:5 0.4881 0.4961 0.4942 0.4791 0.4778 0.5018
+
+0.0011 0.0010 0.0010 0.0010 0.0010 0.0011\Gamma 0:2 0.4743 0.4786 0.4767 0.4724 0.4708 0.4782
+
+0.0010 0.0010 0.0010 0.0010 0.0010 0.0010 0:2 0.4724 0.4665 0.4690 0.4701 0.4725 0.4699
+
+0.0010 0.0010 0.0010 0.0010 0.0010 0.0010 0:5 0.4824 0.4651 0.4758 0.4737 0.4808 0.4816
+
+0.0010 0.0010 0.0010 0.0010 0.0010 0.0010
+
+Table 7: oeAN;all with the imposed cuts. Cases as in table 4
+
+18
+
+-1 -0.5 0 0.5 1 0.1 0.2 0.3
+
+-1 -0.5 0 0.5 1 0.1
+
+0.2
+
+0 1 2 3 4 5 6 0.1 0.15
+
+Figure 2: Distributions for the Standard Model
+
+19
+
+-1 -0.5 0 0.5 10.94 0.95 0.96 0.97
+
+-1 -0.5 0 0.5 1 0.88
+
+0.9 0.92 0.94
+
+-1 -0.5 0 0.5 1 1
+
+1.05
+
+1.1
+
+Figure 3: The ratios R1,R2,R3
+
+20
+
+-1 -0.5 0 0.5 1 0.88
+
+0.89
+
+0.9 0.91 0.92
+
+-1 -0.5 0 0.5 1 1
+
+1.02 1.04 1.06 1.08
+
+0 1 2 3 4 5 6 0.885
+
+0.89 0.895
+
+0.9
+
+0 1 2 3 4 5 6 1 1.02 1.04 1.06
+
+Figure 4: The ratios R2,R3
+
+21
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4 1.6
+
+Figure 5: The ratio R4
+
+22
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4 1.6
+
+Figure 6: The ratio R5
+
+23
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4 1.6
+
+Figure 7: The ratio R4
+
+24
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 1 1.2
+
+-1 -0.5 0 0.5 1 0.8
+
+1 1.2 1.4 1.6
+
+Figure 8: The ratio R5
+
+25
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 1 1.2
+
+0 1 2 3 4 5 6 1 1.2
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4 1.6
+
+Figure 9: The ratio R4
+
+26
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4
+
+0 1 2 3 4 5 6 1 1.2
+
+0 1 2 3 4 5 6 1 1.2
+
+0 1 2 3 4 5 6 0.8
+
+1 1.2 1.4 1.6
+
+Figure 10: The ratio R5
+
+27
+

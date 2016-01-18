@@ -1,0 +1,1247 @@
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 1 of 12
+
+
+
+
+
+ON THE LARGE-S BEHAVIOR OF TOTAL CROSS SECTIONS
+IN PERTURBATIVE QCD
+
+[Talk at QFTHEP-2000, Tver, 14-20 September 2000]
+
+
+Fyodor V. Tkachov
+
+INR RAS, Moscow, 117312, Russia
+ftkachov@ms2.inr.ac.ru
+
+
+Reported is a factorization theorem for large-s behavior of total cross sections obtained in a straightforward
+fashion from ordinary perturbation theory. The theorem extends the standard factorization results for the
+Bjorken and Drell-Yan processes. The obtaining of useful evolution equations is found to be problematic.
+A by-product is a direct method for systematic calculations of the parton evolution kernels.
+
+
+
+Disclaimer.
+The literature on the Regge limit is vast and hard to be familiar with for a newcomer to the field,
+so this text is likely to have missed some relevant publications, for which I apologize.
+I would appreciate to be notified of a relevant result.
+
+
+Introduction 1 direct extension of the standard results for the Bjorken
+and Drell-Yan processes. As to the corresponding evolu-
+I am going to report first results of a project in which I tion equation, I have not (yet) found one as straightfor-
+attempt to reexamine the problem of large-s behavior of ward to use in phenomenological applications as the
+total cross sections in perturbative QCD in a simple- renormalization group equations or the GLAPD
+minded but systematic fashion, i.e. starting from ordinary equation.
+Feynman diagrams and carefully expanding them in the It is far from possible to present complete details in
+large-s limit.1 The specific motivations for this project this text due to space-time limitations. However, there
+were: seem to be many interesting things one can do based on
+· importance of the subject for the cosmic neutrino the result 5.9 (see Sec. 5.13) even without entering into
+physics [2]; details of its derivation.
+· the TOTEM experiment being planned for LHC [3]; Technical foundation. Asymptotic operation 1.1
+· my personal frustration with the non-transparency of
+The technical foundation which made this project
+arXiv: 8 Jan 2001 the BFKL theory [4] (especially with the concept of
+reggeized gluons) and many other results of the theore- possible is the theory of asymptotic operation (AO; see
+tical school of logarithmic approximations where it is the review [8]) -- a systematic modern theory of asymp-
+customary to stick a running coupling into a formula by totic expansions of Feynman diagrams.3
+hand. Asymptotic expansions in parameters is a key piece of
+Since the theory of large-s behavior is closely connec- any physical formalism. In perturbative quantum field
+ted to the theory of deeply inelastic scattering (DIS; see
+e.g. [5]), an ancillary motivation was 3 The theory of AO originated in the dark pre-Gorbachev and pre-
+· the problem of calculation of NNLO corrections to the Internet age behind the Iron Curtain at the fringes of the established
+parton evolution (GLAPD [6]) kernels.2 theoretical communities [9], which circumstances provided fertile soil
+for a desinformation of the theoretical community in regard of author-
+Briefly, my conclusion is that an accurate pQCD deri- ship, originality and theoretical underpinnings of some of the most
+vation of the large-s behavior leads to formulae that are a important theoretical results in perturbative quantum field theory ob-
+tained since the early 80s -- a desinformation which has been affect-
+ing a sizeable fraction of theoretical HEP community and causing a
+1 This talk is an updated version of [1] where a technical difficulty considerable waste (bound to continue into the future) of both
+was overlooked at the final step of derivation (see below Eqs. 5.6, 5.7 research funds and human effort. The brief review of the original
+and the following discussion). This is corrected in the present version, papers given below is of course incomplete without a parallel review
+leading to somewhat less optimistic conclusions about predictability
+of "secondary" publications -- but ( sorry! no fun this time ) space
+of the large-s behavior within perturbative QCD. limitations and the focus of this talk do not allow it to branch out in
+2 The current state of the art is summarized in [7]. that direction.
+
+
+
+
+
+1
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 2 of 12
+
+
+
+
+
+theory, the difficulty of obtaining asymptotic expansions calculations (e.g. [19]; a recent example is [20]).
+is that formal expansions result in non-integrable singu- After the mathematical spadework performed in [10]6
+larities in integrands. The theory of AO is based on an and [22] the extension of AO to non-Euclidean7 asymp-
+efficient algorithmic treatment of the problem of singula- totic regimes required only a simple additional trick of
+rities via a powerful mathematical method derived from secondary expansion (the so-called homogenization [8],
+the theory of distributions [10], [11]. Distributions are [23]8). The non-Euclidean AO yielded a complete fully
+singular limits of ordinary functions, and it would have algorithmic solution for the problem of asymptotic
+been surprising if they did not emerge in studies of expansions of Feynman diagrams summarized in [23]:
+integrands with small parameters. Distributions in this For any diagram and for any asymptotic regime, the pre-
+context play an algorithmic role similar to complex or scriptions of [23] yield the corresponding asymptotic
+irrational numbers in the theory of algebraic equations. expansion in a maximally simple form which is suitable
+This simple analogy should give one an idea of the for obtaining factorization theorems.
+inefficiencies implied in the use of the old-fashioned The first application of non-Euclidean AO was to the
+Sudakov-Zimmermann-Lipatov-... methods. construction of a systematic gauge-invariant perturbation
+The theory of AO extends and generalizes [9] the theory for models with unstable fundamental fields [25].9
+pattern of reasoning pioneered by Bogolyubov in the dis- This is because the results for amplitudes with only
+covery [12] of a correct UV renormalization procedure. virtual loops can always be rewritten so as to eliminate
+The variant of AO which treated the class of so-called all traces of distributions10 and thus pretended to have
+Euclidean asymptotic regimes was developed in 1982­ been derived via ordinary methods (the so-called method
+1988 [9], [13]­[17], [10]. It was a major theoretical of regions), so I had to focus on applications to problems
+breakthrough in several respects (see [8] for more with real phase space11. The present project addresses
+details): another real phase space problem.
+(i) a key concept of perfect factorization (including the The method of AO can be viewed as a systematic
+requirement of purely power-and-log dependence on the reorganization of the conventional Bogolyubov-Para-
+expansion parameter) with far-reaching consequences4 syuk-Sudakov-Hepp-Zimmermann-Lipatov-... tech-
+for both theory and applications of OPE, etc. [13], [15];5 niques in such a way as to hide all the complexity of
+(ii) putting Wilson's operator-product expansion on a splitting the integration domain into subregions by
+firm foundation by obtaining it in a form valid for models providing a layer of abstraction based on the notion of
+with zero-mass particles such as QED and QCD [13]; singular distribution. AO offers a finite set of rules to
+generate a power-and-log asymptotic expansion of any
+(iii) discovery [13] and simple mnemonic rules [14] for Feynman diagram for a given asymptotic regime, with
+efficient formulae for calculations of Wilson's coeffici- the emphasis not just on splitting the integration domain
+ents in the MS scheme; but also on appropriate modifications of the integrand,
+(iv) an elegant general algorithmic scheme of derivation depending on the subregion (such modifications may
+of factorization theorems [16], [17] (see below Sec. 3.2); take the form of secondary expansions [8], [23]).
+(v) extension of the results for OPE (including efficient
+calculational formulae) to arbitrary Euclidean asymptotic
+regimes, including mass expansions [16], [17];
+
+(vi) a rigorous regularization-independent distribution-
+theoretic formalism which systematized the method of
+AO and prepared ground for its extensions (see [10] and 6 Construction of a regularization-independent treatment was an im-
+refs. therein). portant step e.g. in view of the failure of dimensional regularization in
+The discovered formulae in combination with the so- some Minkowski-space situations ([21] and Sec. 5 below).
+called integration-by-parts algorithms [18] formed a 7 I do not use the term Minkowski-space regimes because Minkowski
+theoretical foundation for a flourishing large-scale space allows Euclidean (and quasi-Euclidean) regimes.
+calculational industry, resulting in an array of NNLO 8 The time gap is explained by my involvement with the (then)
+burning problem of finding the best jet algorithm [24], which
+prevented me from doing a simple calculation in order to see that the
+4 Only such expansions attain the ultimate goal of any expansion, paradox I was puzzled by in 1992 (different results from different
+which is maximal simplification of calculations; only perfectly facto- scalings) does not exist (because the secondary expansion is done in
+rized results allow a correct phenomenological interpretation and the sense of distributions [23]).
+treatment of power corrections; uniqueness of such expansions result- 9
+ing in an automatic inheritance of gauge identities as well as a drastic The work was torpedoed by anonymous referees similarly to [17].
+simplification of the corresponding analyses (sums and products of The details are at http://www.inr.ac.ru/~ftkachov/projects/unstable.
+such expansions again possess this property). 10 This is a technical foundation for the effects mentioned in ftn. 3.
+5 Earlier versions of OPE -- however rigorously proved -- were 11 where I'd be more safe from plagiarism if not from anonymous
+flawed in this respect. See [8] for a discussion. referees.
+
+
+
+
+
+2
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 3 of 12
+
+
+
+
+
+AO effectively algebraizes the problem of obtaining and 2
+m . Componentwise, this is described by
+asymptotic expansions by offering a higher level of abs- 2 1/ 2
+p - p = O( )
+m , p = 0, p = O(s )
++ + + - . The quantities
+traction over -- and thus hiding the complexities of -- pertaining to the asymptotic limit will carry tildes.
+the splittings of integration region which old-fashioned The Regge (large-s ) regime corresponds to the case
+techniques must tackle directly.
+
+AO, therefore, stands in the same relation to old- when only s is large: 2
+p - p = O( )
+m , p = 0.
+± ± ±
+fashioned techniques as does integral calculus with
+respect to ancient methods based on explicit summations. ... 2.1
+
+Mathematically, the method of AO is rooted in the
+theory of distributions (for a discussion see [11]). The It will be convenient to regard the large parameters as
+distribution-theoretic viewpoint on singularities of per- O (1), and expand in the small parameters.
+turbation theory was pioneered by Bogolyubov in his It is also convenient to work with cross sections
+studies of UV divergences [12]. This idea (largely (p+,p-,m) normalized so as to be dimensionless.
+ignored by the experts for a quarter of a century) was In perturbation theory, this is a sum of unitarity diagrams
+extended to the problem of asymptotic expansion in the such as shown in Fig. 2.1. The first one is identically
+theory of AO [9], with great practical benefits as zero in the Regge limit (it does however play a role at
+discussed above. intermediate steps of the analysis).
+But the distribution-theoretic power of AO is best My analysis will also involve the quantity
+seen in the fact that for it, there is no fundamental diffe-
+( p , p ) = ( p , p ,0) -- which is usually referred to
+rence between, say, an ordinary singular function such as + - + -
+-
+x 1 and the corresponding singular distribution (x). as the hard parton cross section -- with the kinematical
+parameters formally set to their asymptotic values. Such
+A remarkable consequence of the distribution- a quantity is replete with collinear and IR singularities12
+theoretic nature of AO is that it works equally well for which are manifest in the form of poles in 1
+= (4 - D)
+2
+singular functions such as propagators (m 2 - p 2 - i0)-1 if dimensional regularization is used. Such singularities
+and for the related distributions such as (m 2 - p 2 - i0). correspond to large logarithms in the asymptotic
+This means that the prescriptions of AO [23] are behavior of (p+ ,p- ,m ). The method of AO establishes
+applicable equally well to Feynman diagrams corres- a direct algorithmic connection between such singula-
+ponding to amplitudes (virtual loops) and to unitarity rities and the large logarithms.
+diagrams corresponding to matrix elements squared A correct expansion of (p+ ,p- ,m ) in the asymptotic
+(phase space loops). regime (see below) yields
+
+
+
+
+
+
+
+
+( p , p )
++ - with all the
+The treatment of the two kinds of diagrams is com- singularities/poles appropriately subtracted via special
+pletely uniform with AO, allowing an efficient analysis counterterms, so that only logs of s survive.
+of real phase-space problems similar to the case of purely
+virtual loop diagrams. One-loop example 2.2
+
+Consider the simplest box. p-
+The old-fashioned methods cannot be applied in such In the asymptotic limit, its
+cases without first integrating out -functions, resulting singularities are generated by s k
+in considerable complications due to distortions of the the two denominators and the
+original fundamental product-of-propagators structure of two -functions, i.e. by the p+
+diagrams, which seems to be at least partially respon- product
+sible for the complexities of the large-s theory. 2
+- 2
+k k - ( 2
+k + p+ ) ( 2
+( ) (k - p )
+- ). There is also a nume-
+Setup 2 rator (a polynomial of k ). In the space of k ¸ the
+singularities can be shown as in the following picture.
+Consider the total cross p-
+section of the process shown
+in the picture. We will be s
+having in view standard
+renormalizable gauge models p+
+such as QED and QCD. Masses of the participating
+fields (electrons or quarks) are collectively denoted as m .
+The Bjorken (DIS) regime corresponds to the case
+12 UV singularities play no role and present no complications, and I
+when s and 2 2
+Q - p- are both much larger than 2
+p+ simply ignore them in the present discussion.
+
+
+
+
+
+3
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 4 of 12
+
+
+
+
+
+Prescriptions of AO 3
+¡
+
+
+
+
+
+¡
+p p¢
+¢
+
+
+
+
+
+Prescriptions of AO consist of the following steps:
+0 0 · An accurate formulation of the asymptotic regime in
+terms of kinematical parameters such as masses and
+p components of external momenta (this we've done
+¡ p¡
+
+
+
+
+
+
+2.3 already, see Sec. 2).
+·
+The left and right figures correspond to the Bjorken and Formal (Taylor) expansion of the integrands in the
+Regge limits, respectively. Each contains three light small parameter.
+cones. Their intersections correspond to more complex · Enumeration, description, and analysis (power count-
+singularities. The patterns of intersections are related but ing) of the singularities of the formal expansion, and con-
+different: in the Regge case there are more overlaps. nection of the non-integrable ones to the diagrammatic
+Non-integrable singularities are shown with fat lines: images ("singular subgraphs"). This amounts to con-
+¨
+
+
+
+
+green and blue segments correspond to the collinear struction of the so-called operation R which eliminates
+£ £
+singularities related to p+ and p- , and described by non-integrable singularities via additive counterterms
+2
+that are local in the space of integration momenta. This I
+k
+= 0,
+2.4 will call renormalization by analogy with the subtraction
+£ £
+k = ¤ xp , x (0,1) .
+±
+2
+(k
+± p ) = 0
+± of UV divergences. In this case it is usually sufficient to
+determine a minimal form of the coefficients; if dimen-
+The red dot on the right figure 2.3 corresponds to the soft sional regularization is applicable, it is sufficient to
+singularity: require that the coefficients contain only pure poles in .
+2
+k = 0, ¨
+R generalizes the regularization-independent prescrip-
+£ 2
+(k + p ) = 0, k = 0. tions of [10] which in turn are analytically similar to
++ 2.5
+Bogolyubov's R-operation in coordinate representation.
+£ 2
+(k
+- p ) = 0
+- · Construction of the so-called bare asymptotic opera-
+¨
+
+
+
+
+
+Diagrammatically, the factors contributing to the three tion A s which differs from R only by finite contributions
+singularities are as follows: to counterterms. Such finite contributions accumulate the
+non-analytical dependencies of the final answer (a.k.a.
+large logarithms of the small parameter) and ensure that
+the result is a correct asymptotic expansion of the origi-
+¥ ¦ § nal integral.
+The green and blue lines correspond to configurations · A combinatorial rearrangement (usually called
+£ £
+
+with internal momentum collinear to p and
+p
++ - , res- "factorization" although it may actually lead to exponen-
+pectively. Red lines (the vertical lines in the third figure) tiation or additive structures) of the contributions from
+¨
+
+
+
+
+are soft (zero momentum). Purely green and blue confi- different diagrams for both operations ( R and As ). This
+gurations correspond to GLAPD-type contributions; the can be followed by a derivation of the corresponding
+third configuration corresponds to a BFKL-type contribu- evolution equation.
+tion. In the Bjorken limit, only the green configuration
+contributes, giving rise to the standard result. In the AO establishes a direct correspondence between:
+Regge regime, however, the leading logarithmic (L) con- -- singular manifolds in the space of integration
+tribution comes from the third configuration, whereas the momenta;
+collinear contributions are (a) next-to-leading logarithmic
+-- subsets of singular factors contributing to the
+(NL) level and (b) proportional to the first diagram in 2.1
+corresponding singularities;
+which is zero in the Regge limit. So the GLAPD-type
+contributions actually emerge only at the NNL level. -- the corresponding diagrammatic images
+Neighborhoods of the singularities generate large ("subgraphs");
+logarithms in the corresponding limits. The technical -- the countereterms to be added to "bare" expressions.
+problem is to extract those contributions without explicit Such counterterms are localized exactly at the singula-
+evaluation of the original diagram. The Sudakov-Lipatov rities of the bare expressions, and are proportional to
+techniques is one way. Asymptotic operation is another. (derivatives of) -functions.
+
+
+
+
+
+4
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 5 of 12
+
+
+
+
+
+an expansion always follows the renormalization 3.3
+The beauty of the technique is that the writing of - except that the renormalization factor/kernel now
+functions is mechanical once the singular manifold is contains, in addition to poles, finite parts with non-trivial
+parametrized: e.g. for 2.4 the counterterms are13 (large-logarithmic) dependencies on the small
+( )
+dx c (x)
+(k ± xp ), parameters:
+
+± 3.1
+
+(s, m) = As (s, m) = K (m) £ (s) . 3.4
+where c is a coefficient to be determined. as
+
+The theory of AO guarantees that (s, m)
+¤ (s, m) to
+The least trivial part of the problem reduces to deter- as
+mining the coefficients of counterterms. The systematic the desired asymptotic precision, so that the quantity
+prescriptions were summarized in ref. [23]. I only note (s,m) is what one seeks except for the fact that the
+as
+that an essential element here is the so-called homogeni- two bare quantities on the r.h.s. of 3.4 contain divergen-
+zation, or secondary expansion, and that the formalism is ces and cannot be directly interpreted in a phenomenolo-
+kind of fool-proof in the sense that the problem of choos- gical context.
+ing a correct scaling to do the power counting for
+complicated singularities does not arise (it is resolved (vi) To this end one constructs an inversion of the renor-
+automatically if the prescriptions of AO are followed malization operator Z:
+unwaveringly). Fortunately, sometimes important results £ 1
+Z Z - 1. 3.5
+can be obtained without writing out explicit expressions
+for such coefficients. This important trick was introduced as a tool for deriving
+renormalization group equations, asymptotic expansions
+Standard Factorization Scenario 3.2 and studies of evolution equations in [28]. The inversion
+The general all-logs, all-powers algorithmic scheme is possible as a formal power series because Z differs
+of systematic derivation of factorization theorems was from unit operator only by higher-order corrections.
+pioneered in the theory of AO for OPE and mass (vii) From 3.5 and 3.4 one obtains
+expansions [16], [17], and is as follows.
+£ 1
+(s, m) K (m) Z -
+= £ Z £ (s)
+as
+(i) One starts with a quantity to be expanded, say
+£
+( = K m s
+s ( ) ( ) .
+, m ), and formulates the asymptotic regime, say, µ µ 3.6
+¡ 2
+s m (here s and m represent the scales of large and Alternatively, one can construct a renormalization for K
+small parameters). and use its inversion. The result is the same up to nota-
+tions.
+(ii) One writes down the so-called "bare" expression
+(s) -- which is (s,m) formally (Taylor-)expanded in (viii) The last step is to obtain evolution equations. To
+the asymptotic limit. this end one notes that both quantities on the r.h.s. of 3.4
+are renormalization group invariant. One simply applies
+(iii) One examines (enumerates and classifies) singulari- the standard differential renormalization group operator
+ties of the integrand of
+
+
+
+
+
+
+(s) in the space of integration D = d d ln µ = ln µ + (g) g
+to 3.3:
+momenta.
+£ £ 1
+-
+= = £ £
+(iv) One constructs the corresponding minimal renorma- D (s) DZ (s) DZ Z Z (s)
+µ
+¢
+
+
+
+
+
+
+lization procedure R . Represent this symbolically as = £ (s) ,
+µ 3.7
+
+(s) = R(s) = Z £ (s) .
+µ 3.3 where the operator is given by
+
+¢
+£ -
+R is applied to integrands, and the operator Z is a 1
+= DZ Z . 3.8
+¢
+
+
+
+
+
+"factorized" version of R obtained for the entire PT Note that, essentially by construction,
+series. The exact form of Z depends on details of the
+
+
+
+
+
+
+problem. It may be a multiplicative or additive operation, D (s, m) 0 .
+as 3.9
+an integral operator, or any mix of these. The subscript µ
+indicates that the usual arbitrariness is involved here, I called the above Standard Factorization Scenario
+parameterized by µ, as usual. because: it is the simplest and cleanest way to derive
+OPE in MS scheme; it worked fine in the discovery of
+(v) One constructs the correct asymptotic expansion in mass expansions and, more generally, expansions for
+the bare form. The point here is that the structure of such arbitrary Euclidean regimes (see [8] and refs. therein); it
+also works fine for the Bjorken regime in DIS (as well as
+the Drell-Yan process away from the threshold).
+13 The default lower and upper integration limits are 0 and 1
+throughout this text.
+
+
+
+
+
+5
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 6 of 12
+
+
+
+
+
+Application to the Bjorken regime 4 · For clarity's sake: objects like Kµ(x,m) incorporate,
+within PT, large logarithms of the small parameter,
+A straightforward application of the above prescrip- ln(m/µ ). Numerical values for such objects cannot be
+tions gets one the following results. The key point is to obtained within pQCD and must therefore be treated as
+write down the explicit form of renormalization 3.3. phenomenological input determined from experimental
+In this regime (in the leading power approximation but data. This was discussed in [15] in connection with the
+taking into account all logarithms) non-integrable (there- so-called vacuum condensates of local operators. Parton
+fore requiring non-zero counterterms) are only collinear distributions Kµ(x,m ) are another example.
+singularities, which are all logarithmic, and one obtains · An interesting related problem is whether the small-x
+-
+
+1
+( p ) = dx x Z (x) (
+xp ) . behavior of K
+µ + µ ( x, m ) can be reliably predicted from PT.
+col + 4.1
+Any equation obtained from PT and claimed to predict
+such a behavior must be based on a strong hypothesis
+
+
+Only the dependence on p+ is shown. The form of this ("behavior at small x obtained from PT persists outside
+integral operator is predetermined by the structure of the PT even if Kµ(x,m ) is uncalculable from PT at any non-
+simplest collinear singularity 2.4. The factorization zero x " or something essentially equivalent) and must
+which leads to Eq. 4.1 is depicted as follows: assume a necessarily non-trivial quark-and-gluon model
+for hadrons.
+
+On calculability of P(x ) 4.8
++ + The explicit expression for Z col has the following
+structure:
+
++ + + 4.9
+¡ ^
+Z (x) = dx dx (1- x - x ) Z (x ,...x ) ,
+col 1 l i col 1 l
+4.2
+where ^
+Z (x , is directly connected with the colli-
+¡ , x )
+col 1 l
+Comments related to internal loops within subgraphs are near singularities of diagrams contributing to the bare
+given in Sec. 4.8. ("hard") cross section. The variables xi are the fractions
+From 4.1, one obtains the evolution equation (cf. 3.7): of longitudinal momenta of unobserved final state
+partons (these variables correspond to the cut phase
+1 -
+1
+D ( p ) = dx x P( x) (xp ) ,
+µ + 4.3
+2 µ +
+Q / S space loops in 4.2). One has
+
+^
+where the lower limit results from the restriction Z (x , 4.10
+¡ , x ) = - P R G ,
+
+col 1 l col
+G
+
+2 2
+(xp + p ) = xs - Q > 0 .
++ - 4.4 where summation runs over all contributing diagrams,
+
+
+
+
+
+
+R is the specific variant
+P(x ) is nothing but the GLAPD kernel, and its P is the pole part operator, col
+¢
+
+
+
+
+
+expression in terms of Z is this (cf. 3.8): of R for collinear singularities, and R is R with-
+col col
+
+out the main counterterm. This formula is related to those
+1 - -
+1 1
+P(x) = dz z Z (z /x) DZ ( z) .
+encountered in the theory of UV renormalization; in the
+col col 4.5
+x latter case such formulae are written and used in integral
+The kernel is inverted in the operator sense. sense; in our case Eq. 4.10 directly generalizes the for-
+mulae for Euclidean infrared divergences in momentum
+One immediately obtains the AO in bare form (cf. 3.4) space (without momentum integrations) given in [10].
+1
+1
+dx x-
+= K (x,m) (xs) , In regard of the outstanding problem of NNLO calcu-
+as 4.6
+xBjorken lation of parton evolution kernels,14 I can say the follow-
+ing. The calculation of 4.10 is not so much difficult ana-
+and its analog in terms of finite quantities (cf. 3.6):
+lytically as it is cumbersome due to many parameters (3
+1
+1
+dx x-
+= K (x, m) (xs) . in the case of NNLO). In the NLO case, the quantities
+as µ µ 4.7
+xBjorken 4.10 are expressed in terms of simple integrals. In the
+NNLO case, it is not difficult to obtain simple low-dim-
+This agrees with the standard DIS factorization. Kµ is ensional integrals. Then there remain the integrals in 4.9
+directly seen to be the parton distribution at the scale µ and the one in 4.5. In the NLO case these integrals yield
+(trivial summations over parton flavors etc. are omitted). results15 that in my examples are clearly reminiscent of
+Exercise. Obtain the standard (GLAPD) evolution
+equation for K 14
+µ (x) from 4.7, 4.3 and 3.9. See [7] for a review of the state of the art.
+15 I am indebted to A.Kotikov for a help with this.
+
+
+
+
+
+6
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 7 of 12
+
+
+
+
+
+the available answers [26]. In the NNLO case, it is single additive contribution:
+possible to arrive at answers in the form of low-dimen-
+
+
+
+
+
+
+
+sional absolutely convergent integrals (all the poles are ( p , p ) = + ( p , p ) .
+µ + - col + - 5.3
+extracted at the level of 4.10, so afterwards one only
+deals with the finite coefficients of such poles) over The new additive term has no dependence on the external
+standard compact regions. Such integrals seem to be momenta (this is not quite trivial but is the only piece of
+easily amenable to numerical integration (I have not information from the analysis of singularities that will be
+studied their analytical calculability). Although rather used below) and contains only poles in .
+cumbersome, this scenario does not rely on matching One immediately writes down the AO in bare form as
+conditions nor on inversion of Mellin transform (as in it must differ from 5.3 only by dependence of renormali-
+a comparably cumbersome scenario of [20]). In short, zation kernels and on the small parameters (cf. 3.4):
+this seems to be a realistic scenario for a direct calcu-
+
+lation of parton evolution kernels. ( , ) = ( )
+as p p m
++ -
+dx dy
+
+Application to the Regge regime 5 + K (x, m) K ( y, m) (xp , yp ).
++ - 5.4
+x y
+
+The construction of AO for this case has many paral- Recall that
+¡
+
+
+
+
+
+is the regularized hard parton cross sec-
+lels with the Bjorken case. I first show the analog of 4.2: tion with all IR and collinear singularities in place.
+
+The form of 5.4 with two convolutions corresponding
+to the two partons' momenta is meant to bring out the
+similarity with the standard factorization results for DIS
++ + and Drell-Yan processes. From now on I will be using
+
+the fact that
+¡
+
+
+
+
+
+are scalar functions of s =
+2 p p
++ - only.
++ + + The next step is to reexpress
+¡
+
+
+
+
+
+in 5.4 in terms of the
+finite quantity 5.3. First use inversion of the collinear
++ renormalization similarly to the Bjorken case:
++
+¡ dz
+¡
+(s) = (m) + Q (z) (zs),
+as µ col 5.5
+z
++ + 1 dx
+where Q ( z) K (x, m) K (z /x, m) .
+µ µ µ
+z x
+
++ + + + Qµ(z ) is a well-defined function with no stronger than
+5.1 logarithmic singularity near z = 0 within PT.
+(In the case of the standard Drell-Yan process, there
+There is a full complement of terms corresponding to are no soft singularities, = 0 and Eq. 5.5 is equivalent to
+
+configurations collinear with respect to p+ (purely the standard factorization theorem; see e.g. [5]. Non-zero
+green; they are the same as in 4.2) as well as a similar set lower cutoffs for integrals in 5.5 then follow from kine-
+
+
+of terms corresponding to p- (purely blue; they mirror matical restrictions in
+
+
+
+
+
+
+.)
+col
+¡
+
+
+
+
+
+the green ones). Their contribution to R can be imme-
+diately written down in the factorized form as follows The importance of Eq. 5.5 is that it follows from an
+accurate analysis of ordinary PT diagrams in the same
+
+( p , p ) R ( p , p )
+col + - col + - manner as all the standard factorization theorems.
+dx dy
+=
+
+
+Z (x) Z ( y) (xp , yp ) .
+In this respect, Eq. 5.5 is unambiguous.
+col col + - 5.2
+x y
+
+To complete the transformation, one is tempted to add
+There are also qualitatively new terms (the last row; and subtract from
+
+
+
+
+
+
+-- in order to make it finite
+red lines correspond to soft [zero-momentum] singula- col
+rities). These are a major headache to accurately analyze (recall 5.3) -- the quantity ¡ and rewrite the result as
+and compute.16 Fortunately, the cumulative contribution follows:
+of such terms after momentum integrations reduce to a ? dz
+
+(s) = (m) + Q (z) (xs) ,
+as µ µ r 5.6
+z
+16 The subtleties of mixed soft-collinear singularities could be a source where
+of grave mistakes if not handled with care.
+
+
+
+
+
+7
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 8 of 12
+
+
+
+
+
+? Bjorken regime 4.7. A restriction observed within PT is
+dz
+
+( )
+m = ( )
+m - × Q (z) .
+µ µ
+5.7 = =
+z that the singularity at x y 0 is logarithmic, so that
+
+If these two formulae made sense then the result would -
+1
+K (x) < x , < . 5.8
+have been extremely attractive:17 in order to describe the µ
+~ 2
+
+Regge limit within pQCD one would only have to intro-
+duce a single new phenomenological constant µ(m); This is the weakest simple hypothesis that could (per-
+given such a constant and the parton distributions, it haps ought to, unless its validity is explicitly disproved)
+
+would have been sufficient to evolve
+be made about parton distributions based on PT.
+µ in 5.6.18 · The behavior of 5.5 near lower integration limit
+Alas, there is no reason for the square-bracketed implicates the non-perturbative parton distributions Kµ.
+integral to be convergent at z = 0; in fact, within PT it is This is a novel feature compared with the conventional
+logarithmically divergent. So the two expressions 5.6 and situations (Euclidean problems, the Bjorken regime, etc.)
+5.7 are ill-defined within PT. where subtractions never require knowledge of non-
+A naive attempt to obtain an evolution equation for perturbative dependencies.
+µ with respect to µ similarly to 5.6 also fails: one
+Therefore, an important decision one has to make at
+runs into divergent expressions of the form 5.7 with Z col this point is whether or not one is allowed to make hypo-
+in place of Kµ, and Z (x) ~ O(1) near zero in one loop
+col theses about small-x behavior of parton distributions.
+with powers of ln x in higher orders.
+In fact, it is apparent how to make such hypotheses in
+At this point we've run into a major problem which a satisfactory fashion given that the -dependence of
+is the source of all subsequent complications in the (perturbative) parton distributions is essential for a cor-
+study of the large-s regime. rect cancellation of poles in 5.5.
+The value of the above formalism is that it offers If one chooses not to make such hypotheses then there
+a rather simple explicit formal framework to discuss is essentially no choice but to introduce a cut at (low) z
+(if not solve) the problem. in order to split the integration region, and then perform
+Let us summarize the relevant properties of 5.5: the described identical transformation in the subregion
+· which is not adjacent to zero in order to render
+
+
+
+
+
+
+There is no natural kinematic cut as in the Bjorken col
+and Drell-Yan cases, so the integrations over x and y finite. Obtain:
+extend all the way down to zero.
+· ¡ 1 dz ¡
+The quantity
+
+
+
+(s) is the hard parton cross section = +
+col (s) µ, (s) Q (z) (zs),
+as c µ µ 5.9
+c z
+with (only) collinear singularities removed by the colli-
+near renormalization of 5.2, and since the tree level con- where
+tribution is zero, the singularity at z = 0 in 5.5 is dimensi- (s) = lnn s
+µ c µ µ
+c n 5.10
+n ( 2 .
+, , , )
+onally regulated just fine. However, any constant term
+
+along with
+
+
+
+
+
+
+causes the integral over z to diverge.19
+col Eq. 5.10 is obtained within PT after a complete expan-
+· Kµ are perfectly well-defined finite parton distribu- sion in of -- and canceling the poles (which must
+tions -- exactly the same objects already occurred in the cancel by construction) in -- the exact expression
+
+17 c 1
+It was reported in [1]. The analysis of [1] was correct up to Eq. 5.5. dz dz
+( )
+m + Q ( z) ( zs) - × Q ( z) .
+5.11
+18 µ µ
+After I had reported it in [1], B. Ermolaev notified me of the posting col
+z z
+0 c
+[27] which apparently builds upon an earlier work of the same
+authors. I am not prepared to comment on [27] due to my unfamili- The peculiar features of the factorization result 5.9­
+arity with their formalism which it is a matter of taste to characterize 5.10 are these:
+as either more or less cumbersome than mine (it is certainly indirect,
+inlike mine) -- it is just cumbersome enough that I cannot afford to (1) a mixed integral-multiplicative-additive form of the
+study it in detail immediately or even soon enough. Ref. [27] also factorization;
+claims that a large-s (small-x in the notations of [27]) pQCD predic-
+tion involving only one (if I am not mistaken) phenomenological con- (2) an infinite sum in 5.10 which is a function of s ;
+stant. In view of my findings (see e.g. Eq. 5.10) I am not sure whether (3) the cutoff c at the lower integration limit.
+it is possible to obtain such a result from pQCD without some hidden
+hypothesis (or an oversight, as was the case with [1]). I can only ex- All this introduces substantial complications in the
+press my regret that B. Ermolaev did not offer any comments at the study of evolution equations.
+time of [1].
+
+19 A similar failure of dimensional regularization was found in [21].
+
+
+
+
+
+8
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 9 of 12
+
+
+
+
+
+Discussion 5.12 On the subject of evolution equations 5.13
+
+(i) The derivation of 5.9­5.10 (including the transition There seems to be too many options in regard of deri-
+from 5.11 to 5.10) rests solely on an accurate study of vation of evolution equations, so my purpose here is not
+ordinary PT diagrams. No physical arguments were used to provide a specific algorithmic procedure but to demon-
+(whatever the adjective physical might mean). The non- strate the most obvious options.
+PT interpretations are made solely after all the expan- As discussed above, keeping µ and c independent
+sions, cancellations, etc., leading to 5.9­5.10 are means one should study evolution with respect to both
+completed. parameters. Evolution in c is useful if one chooses
+(ii) All finite quantities depend on µ as indicated; the c µ / s .
+expressions are sums of integer powers of ln µ , as is First of all, one could write down two formal evolu-
+usual with minimal subtractions. In the case of and Q , tion equations from the fact that the l.h.s. of 5.9 is inde-
+the argument of the logarithm actually contains the ratio pendent of µ and c. The differentiation in c yields a
+µ /m within PT. simple result:
+
+(iii) The role of the cutoff c is, in the final respect,
+similar to that of µ -- and one may even be tempted to d
+µ =
+, (s) Q (c) (cs).
+c µ µ 5.14
+choose c =µ / s , perhaps with a simple numerical coef- d ln c
+ficient. I prefer to keep µ and c separate to emphasize The differentiation in µ yields
+the fact that whereas µ corresponds to ordinary PT sub-
+tractions, the subtraction associated with c involves a D (s) = - (s; K ) ,
+µ,c µ,c µ 5.15
+non-perturbative function and is performed in a techni-
+cally different manner. 1 dz
+where s K = D Q z zs
+
+. 5.16
+(iv) The latter fact implies that along with the evolution µ, ( ; ) ( ) ( )
+c µ µ µ
+c z
+in µ , one should study evolution in c . I will not discuss
+the technical problem of how to combine both in a The latter is a functional of the parton distributions
+convenient numerical procedure. which enter via Qµ. The functional is quadratic in the
+parton distributions and does not involve their deriva-
+(v) To obtain cancellation of poles within PT, one tives. It is finite and formally obtainable from PT because
+should take into account the -dependence of Qµ(z ). As the derivative in the integrand is easily calculable: the
+a result, the coefficients µ,c, n receive contributions from evolution of parton distributions is known (Sec. 4),
+O (k) corrections to perturbative Qµ(z ), in addition to ¡
+some weighted integrals of Q whereas D (s) is found similarly to 5.9:
+µ ( z ) at = 0 . So the objects µ
+µ,c, n have to be regarded as new non-perturbative
+1 dx
+constants in phenomenological interpretations. The latter D (s) = 2 P(x) (xs)
+µ µ + µ, (s) ,
+c 5.17
+fact means (if one follows the usual logic) that the c x
+expression (s)
+µ given by 5.10 is a non-perturbative n 2
+,c where (s) = ln s µ .
+µ,c c, 5.18
+1 n
+n ( )
+function to be extracted from experimental data.
+
+The GLAPD evolution kernels P(x ) are given by 4.5 and
+Since there is an infinite number of diagrams in the all c,n calculable within PT as power series in the cou-
+PT series one starts with, there is no a priori principle to pling (normalized at µ) with numeric coefficients.
+prevent appearance of an infinite number of independent Eq. 5.18 is obtained by expansion in of, and canceling
+objects non-controllable by PT -- and this seems to be poles in, the following expression which is similar to
+exactly the situation with the large-s regime. 5.11:
+
+However, the factorization theorem for the Bjorken 1 c
+¡ ¡ dx dx
+= - + ¡
+regime also involves unknown functions (parton distribu- s D P x P x xs
+µ, ( ) 2 ( ) 2 ( ) ( ) .
+c col 5.19
+x x
+tions) yet it proves possible to obtain meaningful results c 0
+from it. So it would be premature to draw pessimistic Contributions to c,n for larger n start from higher
+conclusions from the above (although the picture is not orders of PT but this may not be enough to offset the
+rosy either). For instance, it may be important for an double-logarithmic nature of the series (log squared per
+efficient phenomenological use of the above factorization each power of the coupling). So there is a potential pro-
+to study the (in)dependence of the coefficients µ, blem with convergence here (or a missing exponentiation
+c, n on
+the process. of the Sudakov type).
+
+Assuming the representation 5.10, we can in principle
+extract coefficients of ln n (s /µ2) and obtain evolution
+
+
+
+
+9
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 10 of 12
+
+
+
+
+
+equations for the coefficients µ,c, n : 5.10) dominate asymptotically, but this requires further
+analysis.
+d
+Remember, however, that all
+µ = µ, c, n are in principle
+,c, Q (c) (c) ,
+n µ n 5.20
+d ln c independent constants -- independent between them-
+selves and independent from the parton distributions (at
+D = (n +1) - (K ) .
+µ,c,n µ,c,n 1
++ c,n µ 5.21 least within PT).
+
+Just how useful all the above equations could be, is a
+(
+n z ) is a well-defined power series in the coupling question which goes beyond the scope of this text.
+which is calculable to any perturbative order. (
+c, n Kµ ) is
+a functional of the parton distribution whose form and Conclusions 6
+coefficients can be found from PT.
+One could in principle fix µ (say, at 10 GeV), take A systematic diagram-by-diagram all-logarithms ana-
+externally provided parton distributions and the constants lysis based on the method of asymptotic operation [23],
+[8] allows one to reproduce the standard factorization
+µ, c, n , both normalized at the chosen value of µ. Then it
+theorems and evolution equations for the Bjorken asymp-
+would be sufficient to evolve
+
+
+
+
+
+
+µ with respect to s . totic regime in DIS and for the Drell-Yan process. The
+Since
+
+
+
+
+
+
+µ is a function of the ratio s /µ2, the evolution same method was earlier used to find powerful calcula-
+tional formulae for OPE and mass expansions [13], [16],
+equation in µ (Eq. 5.17) is in principle (I am not saying [17], now in a continuous large-scale use (cf. [20]).
+"in practice") sufficient.
+For the large-s behavior of total cross sections, the
+Let us approach the problem from a different direc- same systematic method yields a factorization theorem
+tion. Normalize couplings and parton distributions at (Eq. 5.9) in gauge theories such as QCD and QED. The
+µ = s so that Eqs.5.9­5.10 become theorem directly extends the standard results for the
+1 Bjorken regime in DIS and for the Drell-Yan processes.
+dz
+
+(s) = + Q ( z) (zs).
+as 5.22 The obtained factorization theorem involves an infini-
+s ,c,0 s s
+z
+c te number of new independent phenomenological coef-
+
+Recall that the perturbative
+
+
+
+
+
+
+(s)
+µ is a sum of ficients in addition to parton distributions (equivalently,
+a function which is uncalculable within pQCD). This
+k 2
+ln (s /µ ) with coefficients power series in , so
+S ,µ seems to give a literal interpretation to the characteriza-
+tion20 of the Regge regime as infinitely more complicated
+that
+
+
+
+
+
+
+(zs) is a sum of lnk z with coefficients power
+s than the Bjorken one. I cannot say at this point whether
+series in or not this infinite arbitrariness can be reduced in a
+S ,µ = ; the coefficients of the latter power
+s
+meaningful fashion (see comments after 5.24).
+series are just numbers. Then the only quantity that needs
+to be evolved is . If a closed evolution equation Whereas I am rather confident that the obtained facto-
+s ,c,0 rization theorem 5.9 is correct and that no hidden hypo-
+for this quantity were available, one would be able to thesss was used in its derivation from ordinary PT dia-
+predict the asymptotic cross section 5.22 with just one grams, the situation with the corresponding evolution
+new phenomenological number. However, Eq. 5.21 equations is less clear. I have explored some straight-
+couples µ,c, n with different n. forward options for deriving evolution equations, and the
+The form of 5.21 indicates that a diagonalization may conclusions are not encouraging so far: the resulting
+be possible. To this end assume the following Ansatz: equations (5.17, 5.21 and 5.20) appear to be rather more
+involved than the usual renormalization group equations
+(s) = lnn s s .
+µ,c 5.23
+n µ,c,n ( 0) or the GLAPD equations, and it is not clear how to make
+Then Eq. 5.21 becomes an efficient and systematic practical use of them.
+I am not claiming that the presented formulae consti-
+
+D
+= -
+(K ) . tute a complete formalism to study evolution at large s
+µ,c,n µ,c,n µ 5.24
+-- only the surface has been scratched. There are clearly
+many options, and determining an optimal way to evolve
+The functional on the r.h.s. (which is formally calculable cross sections to large s is a subject for a separate
+from PT as a coefficient of lnn (s s ) in 5.16) contains
+0 project.
+powers of logarithm of the ratio s /µ2 On the up side, the analysis of the Bjorken regime
+0 . Unfortunately,
+this diagonalized form cannot be used with 5.22. uncovers an algorithmic (although necessarily cumber-
+· some) scenario for direct (i.e. not relying on calculations
+It is not inconceivable that the dynamics of 5.24 (or
+5.21) is such that only terms with lowest n in 5.23 (or 20 which I heard in exactly this form from A. White.
+
+
+
+
+
+10
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 11 of 12
+
+
+
+
+
+of moments of structure functions) and systematic (i.e. radiative corrections. Theory of asymptotic
+suitable for next-next-to-leading order) calculations of operation ,  [QFTHEP'92;
+parton evolution kernels. Phys. Part. Nucl. 25 (1994) 649].
+Anyhow, the presented formalism offers what seems [9] F.V. Tkachov: Factorization via R-operation: the
+to be an explicit formal framework to discuss the large-s Extension Principle [in: Quarks-82. Proc. Int.
+Seminar. Sukhumi, May 5-7, 1982. INR, Moscow,
+behavior of total cross sections, and some options are 1982].
+likely to have not been explored yet. [10] A.N. Kuznetsov, F.V. Tkachov, and V.V. Vlasov:
+Lastly, it is not necessary to enter into details of deri- Techniques of distributions in applied quantum
+vation of the theorems 5.5 and 5.9 in order to play field theory. (I) Euclidean As-operation for
+theoretical games with their implications, for which a products of singular functions, ; (II)
+quite rich field is available (see Sec. 5.13). Applications to theory of Feynman diagrams, hep-
+.
+Acknowledgments [11] F.V. Tkachov: Distribution-theoretic methods in
+A.Butkevich [2] has been pressing me to help with perturbative quantum field theory, 
+clarifying the subject of large-s behavior of total cross [talk at The Bogolyubov Conf. on Problems of Theor.
+sections for over two years. M. Kienzle-Focacci and Math. Physics, Moscow-Dubna-Kyiv, 27 Sept. ­ 6
+W. Kienzle kindly provided information about the Oct. 1999, JINR].
+TOTEM experiment [3]. Many conversations with [12] N.N. Bogoliubov: Variational equations of quantum
+L. Lipatov were useful and encouraging, and the inspira- field theory, Doklady USSR Acad. Sci. 82 (1952)
+217;
+tional invitation to give a talk at [1] prompted me to sit N.N. Bogoliubov and D.V. Shirkov: Introduction to
+down to formulae. I thank K. Christos, B. Ermolaev, the Theory of Quantized Fields. Interscience, 1959.
+V. Fadin, M. Grazzini, K. Kato, A. Kotikov, E. Kuraev, [13] F.V. Tkachov: On the operator product expansion in
+A.Vasiljev and A.White for their interest and comments. the MS scheme [Phys. Lett. 124B (1983) 212].
+This work was supported in part by the Russian Foun- [14] S.G. Gorishny, S.A. Larin and F.V. Tkachov: The
+dation for Basic Research (quantum field theory section) algorithm for OPE coefficient functions in the MS
+under grant 99-02-18365. scheme [Phys. Lett. 124B (1983) 217].
+[15] F.V. Tkachov: The limit m
+q 0 of perturbative
+References QCD, Phys. Lett. 125B (1983) 85 .
+[16] F.V. Tkachov: Euclidean asymptotics of Feynman
+[1] F.V. Tkachov: On the structure of DIS and large-s integrals (I) Basic notions, KEK no. 8406265 [INR
+evolution equations [talk at the Int. Symp. P-332, 1984]; (II), KEK no. 8502209 [INR P-358,
+"Evolution equations and large order estimates in 1984]; summarized in:
+QCD. In honor of Lev Lipatov's 60th birthday", ~: Euclidean asymptotic expansions of Green
+PNPI, Gatchina, May 1-3, 2000; functions of quantum fields. (I) Expansions of
+http://www.inr.ac.ru/~ftkachov/Lipatov60]. products of singular functions, 
+[2] A.V. Butkevich et al.: Prospects for radio-wave and [Int. J. Mod. Phys. A8 (1993) 2047].
+acoustic detection of ultrahigh-energy and super- [17] G.B. Pivovarov and F.V. Tkachov: Combinatorics of
+high-energy cosmic neutrinos (cross-sections, Euclidean asymptotics of Green functions (IV),
+signals, thresholds) [Phys. Part. Nucl. 29 (1998) KEK no. 8502210 [INR P-370, 1984]; (V), KEK no.
+266]. 8610360 [INR -459, 1986]; summarized in:
+[3] http://totem.web.cern.ch/Totem/ ~: Euclidean asymptotic expansions of Green func-
+¡ ¢ £ £ ¤ ¥ ¦ § ¨ © © ¦ ¢ !
+
+
+[4] L.N. Lipatov: , tions of quantum fields. (II) Combinatorics of the
+" # $ % $ " & ' ( ) 0 1 2 ( 3 4 " 5 6 7 8 # $ 9 7 1 @ ( A ) ' ' 2 B ) C ) % ) ' @ D 7
+
+
+
+
+
+As-operation, 
+[5] CTEQ Collaboration (G.Sterman et al.): Handbook [Int. J. Mod. Phys. A8 (1993) 2241].
+of perturbative QCD [Rev. Mod. Phys. 67 (1995) [18] F.V. Tkachov: A theorem on analytical calculability
+157]. of 4-loop renormalization group functions
+[6] V.N. Gribov and L.N. Lipatov: Sov. J. Nucl. Phys. 15 [Phys. Lett. 100B (1981) 65];
+(1972) 675; S.G. Gorishny, S.A. Larin, L.R. Surguladze and
+L.N. Lipatov: Sov. J. Nucl. Phys. 20 (1975) 94; F.V. Tkachov: MINCER: program for multiloop
+G. Altarelli and calculations in quantum field theory for the
+G. Parisi:Nucl. Phys. B126 (1977) 298; SCHOONSCHIP system, [Comp. Phys. Comm. 55
+Yu.L.Dokshitser: Sov. Phys. JETP 46 (1977) 641. (1989) 381];
+[7] W.L. van Neerven and A. Fogt: Improved approxi- F.V. Tkachov: Algebraic algorithms for multiloop
+mations for the three-loop splitting functions in calculations. The first 15 years. What's next? hep-
+QCD,  [Phys. Lett. B490 (2000)  [NUIMA A389 (1996) 309].
+111]. [19] S.A. Larin, F.V. Tkachov and J.A.M. Vermaseren:
+[8] F.V. Tkachov: Advanced methods for studying
+
+
+
+
+
+11
+
+
+F.V. Tkachov: On the large-s behavior ... 2001-01-08 06:29 Page 12 of 12
+
+
+
+
+3
+S corrections to the Bjorken sum rule
+
+[Phys. Rev. Lett. 66 (1991) 862];
+J.H. Kühn: Heavy Flavor Production and Decay,
+ [Cracow International Symposium
+on Radiative Corrections, Cracow, Poland 1996].
+[20] S. Mosh and J.A.M. Vermaseren: Deep-inelastic
+structure functions: Reconstruction from Mellin
+moments, .
+[21] J.C. Collins and F.V. Tkachov: Breakdown of
+dimensional regularization in the Sudakov
+problem,  [Phys. Lett. 294B (1992)
+403];
+F.V. Tkachov: On dimensional regularization and
+mathematical rigour,  [in Proc. of
+QFTHEP'93. INP MSU, 1994].
+[22] F.V. Tkachov: Landau equations and asymptotic
+operation, PSU preprint, 1994
+; Int. J. Mod. Phys. A14 (1998) 683].
+[23] F.V. Tkachov: Towards systematic near-threshold
+expansions in perturbative QFT , 
+[Phys. Lett. B412 (1997) 350].
+[24] F.V. Tkachov: The optimal jet definition. Wrapping
+up the subject,  [talk at
+QFTHEP'2000, Tver, 4-20 September 2000].
+[25] F.V. Tkachov: Perturbation theory with unstable
+fundamental fields,  [in Proc. XXXII
+PNPI Winter School. Ed. Ya.I.Azimov, et al.
+St. Petersburg, PNPI, 1999, pp.166-181].
+[26] E.B. Zijlstra and W.L. van Neerven: Order 2
+S QCD
+corrections to the deep inelastic proton structure
+functions F2 and Fl [Nucl. Phys. B383 (1992) 525].
+[27] B.I. Ermolaev, M. Greco and S.I. Troyan: Intercepts
+of non-singlet structure functions, .
+[28] G.B. Pivovarov and F.V. Tkachov:
+Inversion of R-operation and -functional
+[Theor. Math. Phys. 77 (1988) 51].
+
+
+
+
+
+12
+
+
+

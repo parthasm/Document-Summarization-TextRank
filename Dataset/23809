@@ -1,0 +1,606 @@
+
+
+ 23 May 95
+
+NYU-TH-95/05/01 PRECISION TESTS OF THE STANDARD MODEL:
+
+EVIDENCE FOR RADIATIVE
+
+CORRECTIONS AND
+
+HIGHER ORDER EFFECTS
+
+Paolo Gambino
+
+May 1995
+
+Ph.D. Dissertation
+
+Physics Department New York University 4 Washington Place, New York
+
+NY 10003, USA1
+
+Principal Advisor: Alberto Sirlin 1E-mail: gambino@acf2.nyu.edu. Address after September 1, 1995: Max Planck Institut f"ur Physik, Werner Heisenberg Institut, F"ohringer Ring 6, D-80805 M"unchen, Germany.
+
+cfl Copyright 1995
+
+by Paolo Gambino
+
+Abstract Recent developments in the field of high precision calculations in the Standard Model are illustrated, with particular emphasis on the evidence for radiative corrections and on the estimate of the theoretical error in perturbative calculations. The most important high energy observables and the basic features of the renormalization program are discussed in the on-shell and MS frameworks, and a calculation of the relation between the electroweak mixing angle sin2 ^`W (MZ) and the effective coupling sin2 `lepteff measured at LEP and SLD is considered. I present strong indirect evidence for the contribution of bosonic electroweak corrections in the Standard Model, and argue that at the present level of experimental accuracy the full one-loop electroweak corrections are needed to describe the data. A complete calculation of O(ffffs) effects in bosonic vacuum polarization functions is discussed in the most general case of arbitrary quark masses and momentum transfer. Compact exact formulas are derived for the self-energies of electroweak vector bosons and Higgs scalars, including the case of some extensions of the Standard Model; the connection between the calculations based on dimensional regularization and on dispersion relations is also investigated. I illustrate some applications to electroweak observables, giving an estimate of the error due to the truncation of the perturbative series, which appears to be well under control. The first complete calculation of the O(G2_m2t M 2W ) contributions to the ae parameter in the Standard Model is then described for the case of neutrino-lepton scattering, and the result used to estimate the theoretical error in the prediction of MW and sin2 `lepteff . In view of the experimental precision expected at future colliders, this suggests that a complete two-loop calculation of the electroweak corrections is needed. Finally, in the appendices I list useful two-loop integrals, asymptotic formulas for the QCD corrections to two-point functions, and Ward identities connecting electroweak self-energies.
+
+iii
+
+Acknowledgements It is a pleasure to thank Alberto Sirlin for his patience, his support, and for innumerable and instructive conversations. I benefited immensely also from the collaboration with my friends Giuseppe Degrassi and Abdel Djouadi. A large part of the work described here has been done with them. I am grateful to all my collaborators, Mauro Anselmino, Sergio Fanchiotti, Ferruccio Feruglio, Jan Kalinowski, and Alessandro Vicini, for sharing with me their insight, the excitement of research, and their friendship, and to Enrico Predazzi for encouragement. I am happy to acknowledge significant technical help from Sergio Fanchiotti, and Caterina and Ruben Levi. Joannis Papavassiliou kindly helped me with some of the figures. The financial support of the Physics Department (Meyer Fellowship) and of the Graduate School of Arts and Science (James Arthur Fellowship) of New York University is gratefully acknowledged.
+
+iv
+
+Contents Acknowledgements iv 1 Introduction. 1 2 Basic Observables and Renormalization 3
+
+2.1 Input parameters and tests of the theory : : : : : : : : : : : : : : : : : : : : : : 3
+
+2.1.1 Input parameters : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 3 2.1.2 The electromagnetic coupling : : : : : : : : : : : : : : : : : : : : : : : : 6 2.1.3 MW and sin2 `lepteff : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 7 2.2 On-shell scheme : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 8 2.3 MS scheme : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 10 2.4 The leptonic effective sine in MS : : : : : : : : : : : : : : : : : : : : : : : : : : 13 2.5 Higher order corrections : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 17
+
+3 Evidence for radiative corrections 19
+
+3.1 Evidence from low-energy : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 19 3.2 Evidence from high-energy : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 20
+
+3.2.1 Bosonic radiative correction : : : : : : : : : : : : : : : : : : : : : : : : : 21 3.2.2 The Higgs contribution : : : : : : : : : : : : : : : : : : : : : : : : : : : 25
+
+4 QCD corrections 27
+
+4.1 QCD corrections to electroweak vector boson self-energies: complete calculation 28
+
+4.1.1 Mass definition and scheme dependence : : : : : : : : : : : : : : : : : : 31 4.1.2 Exact two-loop results : : : : : : : : : : : : : : : : : : : : : : : : : : : : 35 4.1.3 \Delta ae and a fourth generation of quarks : : : : : : : : : : : : : : : : : : : 38 4.2 QCD corrections to the Higgs vacuum polarization functions : : : : : : : : : : 43
+
+4.2.1 Notation and one-loop results : : : : : : : : : : : : : : : : : : : : : : : : 44 4.2.2 Exact two-loop results : : : : : : : : : : : : : : : : : : : : : : : : : : : : 47 4.3 Ward Identities: a consistency check : : : : : : : : : : : : : : : : : : : : : : : : 49 4.4 Dispersive approach : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 52
+
+4.4.1 Connection with dimensional regularization : : : : : : : : : : : : : : : : 54 4.4.2 An application : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 57
+
+v
+
+4.5 The choice of the scale of ffs : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 59 4.6 QCD corrections to basic electroweak observables : : : : : : : : : : : : : : : : : 61
+
+5 Higher order electroweak corrections 64
+
+5.1 Higher order effects of electroweak origin : : : : : : : : : : : : : : : : : : : : : : 64
+
+5.1.1 Large Higgs mass corrections : : : : : : : : : : : : : : : : : : : : : : : : 64 5.1.2 Large top mass corrections : : : : : : : : : : : : : : : : : : : : : : : : : 65 5.2 The example of \Delta ae: a complete calculation at O(G2_m2t M 2W ) : : : : : : : : : : : 67 5.3 Ward identities by Current Algebra : : : : : : : : : : : : : : : : : : : : : : : : : 73 5.4 Scheme dependence and numerical results : : : : : : : : : : : : : : : : : : : : : 79 5.5 Extrapolation to MW and sin2 `lepteff : : : : : : : : : : : : : : : : : : : : : : : : : 82
+
+6 Conclusions 85 A Two-loop integrals 87
+
+A.1 Scalar integrals for O(ffffs) calculations : : : : : : : : : : : : : : : : : : : : : : 87
+
+A.1.1 Relevant one-loop integrals at O(ffl) : : : : : : : : : : : : : : : : : : : : : 87 A.1.2 Scalar two-loop integrals. : : : : : : : : : : : : : : : : : : : : : : : : : : 88 A.2 Small momentum expansion of VPF's : : : : : : : : : : : : : : : : : : : : : : : 90
+
+B QCD corrections: useful formulae 92
+
+B.1 Asymptotic expressions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 92
+
+B.1.1 Vector boson self-energies : : : : : : : : : : : : : : : : : : : : : : : : : : 92 B.1.2 Scalar self-energies : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 95 B.2 Imaginary parts and partial widths : : : : : : : : : : : : : : : : : : : : : : : : : 96
+
+B.2.1 Vector boson self-energies : : : : : : : : : : : : : : : : : : : : : : : : : : 97 B.2.2 Scalar self-energies : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 99
+
+C Ward identities for electroweak VPF's 101
+
+C.1 Subleading with Higgs : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 101 C.2 Subleading without Higgs : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 102
+
+vi
+
+Chapter 1 Introduction. High energy experiments have reached in the last few years an impressive accuracy, which has called for an analogous precision in the predictions provided by theorists. The mass of the neutral gauge boson, for example, is now measured within few parts in 105, and the electroweak mixing angle at the Z mass scale is known at the level of two parts in a thousand, with the prospect to reach a relative uncertainty of 5 \Theta 10\Gamma 4 in the very near future.
+
+As in the electroweak sector of the Standard Model (SM) the coupling constants are small, perturbation theory is generally valid: perturbative calculations beyond the lowest order in quantum field theory involve a considerable amount of conceptual and calculational complexity, but at present they are the most valuable tool to test the existing theories and to explore possible alternatives, in particular in a future of increasing precision.
+
+The SM has indeed been very successful in describing a large amount of data over a wide range of energies, from zero momentum transfer up to the Z mass scale. There are a few discrepancies, that need to be carefully considered, but they are at the level of 2-3oe, and certainly not compelling. At present there are no glaring contradictions with SM predictions. On the other hand, there are strong theoretical arguments indicating that there must be physics beyond the SM; the current situation suggests that we need to investigate the very fine details of the SM structure before being able to open a window on the physics beyond. Precision calculations are therefore of crucial importance: they serve the twofold purpose of verifying the SM as a full-fledged Quantum Field Theory, uncovering the evidence for quantum corrections, and of allowing the detection of possible deviations from its predictions.
+
+In this framework, the recent reports of evidence for a top quark by the CDF and D; Collaborations at Fermilab [1,2] hit remarkably on the mark: the average of the values for the top quark mass given by CDF and D; (mt = 180 \Sigma 12 GeV) agrees surprisingly well with a recent global fit of experimental data (mt = 178 \Sigma 11+18\Gamma 19 GeV), obtained including all known radiative corrections of the SM [3]; these are often sensitive functions of the top mass, and the comparison of different observables allows us to set limits on this unknown parameter. As the precision in the measurement of mt improves, the focus is inevitably going to shift to the other standing enigma of the SM: the Higgs boson and the symmetry breaking mechanism, and the challenge to experimentalists and theorists would become more difficult, as the dependence of
+
+1
+
+CHAPTER 1. INTRODUCTION. 2 most observables on this sector of the theory is much weaker.
+
+In this dissertation I will try to illustrate some of the recent developments in the field of high precision calculations in the SM of the electroweak and strong interactions. In particular, I will address two complementary questions: what is the present experimental evidence for quantum corrections beyond the leading fermionic contributions; what is the possible role of higher order (beyond one-loop) contributions to electroweak observables. Specifically, I will consider the cases of MW and sin2 `lepteff , that appear to be most promising, among high-energy observables, for a significant improvement of the experimental accuracy.
+
+In Ch. 2 I introduce to two of the renormalization procedures most frequently employed in precision physics, and present a detailed calculation of the effective mixing angle measured on the Z-resonance by experiments at LEP and SLC. In Ch. 3 I will discuss the phenomenological evidence for radiative corrections in the SM. A simple example will illustrate that there is very strong indirect evidence from high-energy experiments for the bosonic corrections of the theory. Ch. 4 deals with the universal QCD corrections, i.e. the perturbative QCD corrections to vector boson self-energies that enter the determination of most precision observables. I will present a complete calculation of these effects in bosonic vacuum polarization functions at first order in ffs, for arbitrary values of the momentum transfer and of the quark masses involved, and discuss some of the Ward identities that connect them. In Ch. 5 I will consider potentially large two-loop contribution of electroweak origin, focussing on a calculation of the leading and next-to-leading contribution to the ae parameter in a heavy top expansion. The result is used to estimate the theoretical error in the determination of MW and sin2 `lepteff . Finally, Ch. 6 contains my conclusions.
+
+Chapter 2 Basic Observables and Renormalization
+
+In this chapter I will briefly introduce the basic features of the renormalization of the Standard Model (SM), the most important precision observables, and two renormalization procedures most frequently employed in the analysis of high-energy physics, the on-shell and MS schemes1. Finally, in Sec. 2.4, I will present a detailed calculation of the effective mixing angle measured at LEP and SLC in the MS scheme.
+
+2.1 Input parameters and tests of the theory 2.1.1 Input parameters The electroweak lagrangian is characterized by a number of free parameters: the fermion masses, the Higgs boson mass MH, the mixing angles and phase of the Kobayashi-Maskawa quark matrix2, and three independent parameters that describe the gauge sector of the SM. Two possible choices for the latter are
+
+g; g0; v; or g; MW ; MZ; (2.1) where g and g0 are the SU (2)L and U (1)Y couplings, v the vacuum expectation value of the Higgs field, and MW and MZ the vector boson masses. As the theory is renormalizable, this minimal set of parameters can in principle describe the physics at any order in perturbation theory. For what concerns the gauge sector of the SM, we therefore need only three input quantities, to be chosen among the most precise experimental observables; any additional measurement will test the theory. As can be seen from Table 2.1, based on Refs. [1-3, 7], at present the four most precise high-energy observables are the masses of the Z and W vector
+
+1Among the many reviews on the SM, the procedures to renormalize it, and on precision tests, one can refer for instance to Refs. [4-6].
+
+2In the event that neutrinos are massive, additional parameters have to be considered, masses and mixing
+
+angles, but neutrino masses are not expected to contribute significantly to precision physics, and I will disregard them in the following.
+
+3
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 4
+
+observable experimental value SM fit Ref: [3]
+
+MZ(GeV) 91:1888(44) 91:1887 \Gamma totZ (GeV) 2:4974(38) 2:4973 MW (GeV) 80:23(18) 80:32 \Sigma 0:06 \Sigma 0:01
+
+Rh 20:795(40) 20:786
+
+A0;`F B 0:0170(16) 0:0153A
+
+o/ 0:143(10) 0:143A
+
+e 0:135(11) 0:143 Rb 0:2202(20) 0:2158
+
+Rc 0:1583(98) 0:172 A0;bF B 0:0967(38) 0:1002 A0;cF B 0:0760(91) 0:0714 1 \Gamma M 2W =M 2Z(*N ) 0:2253(47) 0:2242
+
+sin2 `lepteff (ALR) 0:2294(10) 0:2320 \Sigma 0:0003+0:0000\Gamma 0:0002
+
+mt(GeV) 180(12) 178 \Sigma 11+18\Gamma 19 MH(GeV) ?, 65:1 !, 730
+
+ffs 0:118(6) 0:125 \Sigma 0:005 \Sigma 0:002
+
+Table 2.1: High-energy observables compared to their SM expectations. The SM predictions are based on a fit including all LEP, SLD, *N , and p_p collider data, but not the new mt measurements; the first error and the central value refer to MH = 300GeV, and the second error corresponds to the variation of the central value when MH varies between 60GeV and 1TeV.
+
+bosons, the total decay width of the Z boson, and the leptonic asymmetries. In addition to these high-energy quantities, and to the masses of the fermions except the top, two other electroweak observables are measured at low-energy with great accuracy: the fine structure constant ff, which is most precisely determined from the anomalous magnetic moment of the electron, and the Fermi constant G_, which is extracted from the muon lifetime. In Table 2.2 I show this set of six observables with their experimental errors.
+
+The most obvious choice in the present situation is to use
+
+ff G_ MZ (2.2) together with the fermion masses and mixing parameters as inputs to derive precise predictions for the other observables sin2 `lepteff , MW , \Gamma Z, and in principle for any electroweak observable. I will try to estimate the theoretical errors involved in this process, including the effects of the uncertainties of the inputs, which can be however expected to be small. In addition to these specifically electroweak input parameters, I will use the value
+
+ffs(MZ) j ffs(MZ)(5)MS = 0:118 \Sigma 0:006 (2.3) for the strong interaction coupling constant, corresponding to the 1994 world average [8] for the MS definition, with five active quark flavors.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 5
+
+observable experimental value [Ref:] uncertainty
+
+ff\Gamma 1 137:0359895(61) [14] 4:5 \Theta 10\Gamma 9
+
+G_ 1:16639(1) \Theta 10\Gamma 5GeV\Gamma 2 [14] 8:5 \Theta 10\Gamma 6 MZ 91:1888(44) GeV [3] 4:8 \Theta 10\Gamma 5
+
+sin2 `lepteff 0:2316(4) [3] 2 \Theta 10\Gamma 3
+
+MW 80:23(18)GeV [15] 2 \Theta 10\Gamma 3
+
+\Gamma totZ 2:4974(38)Gev [3] 1:5 \Theta 10\Gamma 3
+
+Table 2.2: The six most precise electroweak observables. The last column shows the relative uncertainties. The values for MZ and \Gamma Z are the 1994 LEP average, sin2 `lepteff is given as the average of LEP and SLC asymmetry values, and MW is the 1994 collider world average. It does not include the value MW = 80:24(25)GeV from s2 measurements in *N low-energy scattering.
+
+A number of natural relations link the couplings and the masses of the gauge bosons occurring in the bare SM Lagrangian. Most notably, we see that, although initially defined in terms of the gauge couplings, after spontaneous symmetry breaking the electroweak mixing angle `0W relates both bare masses and couplings among themselves:
+
+tan `0W = g00g
+
+0 ; e0 = g0 sin `
+
+0 W ; M 0W = cos `0W M 0Z: (2.4)
+
+At the tree level, using p2G_ = g2=(4M 2W ) and ff = e2=(4ss), the above relations can be re-written in terms of the input parameters (2.2)
+
+sin2 `W cos2 `W = ssffp2G
+
+_M 2Z ; (2.5a)
+
+M 2W = cos2 `W M 2Z: (2.5b) Radiative corrections modify the natural relations of the bare Lagrangian, and it is convenient to summarize their effect in a compact way [9-11]
+
+ssffp 2G_M 2Z = s
+
+2 c2 (1 \Gamma \Delta r) = ^s2^c2 (1 \Gamma \Delta ^r)
+
+M 2W = c2 M 2Z = ^c2 ^ae M 2Z: (2.6) The two different possibilities for the right-hand side refer to the fact that, when quantum corrections are incorporated, the relations of Eqs.(2.5) cannot hold true simultaneously, and a precise definition of the parameters involved is needed. The connection between the renormalized parameters of the Lagrangian and the experimental inputs is precisely the content of a renormalization scheme. It seems reasonable to define the masses as the physical masses of the gauge bosons, as they are the quantities that are presently being measured at experiments. In particular, one considers the complex-valued position of the pole of the propagator,
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 6
+
+_s = m20 + A(_s), where m0 is the bare mass and A(s) the vector-boson self-energy. This is certainly a gauge invariant quantity, as it is based on the fundamental properties of the Smatrix. Writing _s = m22 \Gamma im2\Gamma 2, two frequently used definitions are m2phys = Re_s = m22 and m2phys = m21 j m22 + \Gamma 22. It turns out that, in a large class of renormalizable gauges, m21 differs from the on-shell definition m2 = m20 + ReA(m2) by gauge-dependent terms of O(ff3) which lie beyond current and expected accuracies (in the complementary class of gauges, a gauge-dependent difference arises in O(ff2) but it is bounded and very small). Furthermore, m1 can be identified with the mass parameter measured at LEP [16], and can therefore be used in precision calculations. A similar pattern is expected for the mass of the W boson.
+
+Concerning the mixing angle, different choices are possible. Unlike the vector boson masses, the definition of a renormalized sin2 `W is purely conventional, and one can choose either of Eq.(2.5) to relate a renormalized mixing angle to observables3, or a different path, using the MS (Modified Minimal Subtraction) scheme [21]. All definitions differ by finite calculable radiative corrections.
+
+In Eq.(2.6) s, c, and ^s, ^c, are therefore abbreviations for, respectively, the "on-shell" sin `W , cos `W , and the MS quantities sin ^`W , cos ^`W . The first mixing angle, `W , is defined by the requirement that the third relation of Eq.(2.4) be valid at any order in perturbation theory [9],
+
+sin2 `W j 1 \Gamma M
+
+2 W
+
+M 2Z : (2.7)
+
+while the second one, ^`W , is defined by [20]
+
+sin2 ^`W (_)MS j ^ff(_)MS^ff
+
+2(_)MS : (2.8)
+
+Here ^ff(_)MS and ^ff2(_)MS are the electromagnetic and SU (2)L couplings defined at a mass scale _ in the MS scheme, a renormalization procedure that I will introduce in the next sections. The MS angle ^`W (_) is therefore a scale dependent quantity; for Z-physics the natural choice is to evaluate it at _ = MZ.
+
+2.1.2 The electromagnetic coupling Although the fine structure constant has practically no experimental uncertainty, the use of ff to describe physics on the Z-resonance is somewhat anomalous: among the three input parameters of (2.2), ff, defined at q2 = 0, is the only one that involves long-distance dynamics. This is witnessed by the appearance of mass singularities in the conventional renormalization of the electromagnetic coupling [9]. In fact, physics at the Z-scale is naturally described by shortdistance parameters defined at the MZ scale, like ff(MZ), the conventional electromagnetic running coupling evaluated at M 2Z
+
+ff(M 2Z) = ff1 + Re\Pi (f)
+
+flfl (M 2Z) \Gamma \Pi (f)flfl (0)
+
+= ff1 \Gamma \Delta ff ; (2.9)
+
+3The first solution (or improvements thereof) is used in the so-called G_ scheme [17-19], and the second in the on-shell scheme, that I will discuss in detail.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 7 where \Pi (f)flfl (q2) is the fermionic photon two-point function4, defined at squared transfer momentum q2. Numerically, ff(M 2Z) ss 1=128. Because of the importance of this input parameter, the precise knowledge of the denominator of Eq.(2.9) is crucial. Note that any other definition of ff at the MZ scale would be appropriate; another possibility is the MS definition that I will discuss in the next section. Unfortunately, the evaluation of Re\Pi flfl (M 2Z) \Gamma \Pi flfl (0) involves long-distance QCD dynamics in the light quark contribution for which perturbation theory cannot be used. The standard procedure [9, 12, 13] is to use experimental input from e+e\Gamma ! hadrons and numerically integrate the spectral function obtained in this way (see Sec. 4.5). This method introduces a substantial uncertainty in the determination of ff(M 2Z) stemming from low-energy data, a fact that has important consequences in the analysis of the precision electroweak data. In the following, I will use a very recent stateof-the-art determination [13] for the five light quark contribution to the running of ff, which gives \Pi (5)flfl (0) \Gamma Re\Pi (5)flfl (M 2Z) = 0:0280 \Sigma 0:00075. The leptonic contribution to the denominator of Eq.(2.9), \Delta ffl, keeping all leptonic masses [14] in the one-loop QED expressions, is \Delta ffl = 0:031419. This implies \Delta ff = 0:0594 \Sigma 0:0007, and ff\Gamma 1(M 2Z) = 128:90 \Sigma 0:10. The uncertainty is quite substantial, ss 7\Theta 10\Gamma 4, and affects any determination of the e.m. coupling at a high mass scale based on the fine structure constant (i.e. it is scheme independent). In fact, we will see that it is a real bottleneck to achieve greater theoretical accuracy. The increasing experimental precision indeed requires new accurate measurements of the cross-section e+e\Gamma ! hadrons at low energies. The problem could, in principle, be circumvented by using high-energy experiments to determine ff(M 2Z), but this entails a severe loss of information and is quite premature at present.
+
+2.1.3 MW and sin2 `lepteff Once the input parameters are specified, as we have done in the preceding sections, predictions for SM observables can be obtained and serve as tests of the theory. In the following, I will focus on two pseudo-observables6: the mass of the W boson and sin2 `lepteff . They are among the most precise quantities measured in high-energy experiments, and their experimental precision is expected to improve significantly in the next decade, as can be seen in Table 2.3
+
+4The convention adopted for the vacuum polarization functions throughout this work is the following: Aab(q2) is the transverse component of the vacuum polarization tensor for the transition between two vector bosons a and b, defined as \Gamma i times the standard Feynman amplitude. For the photon, Aflfl(q2) = \Gamma q2\Pi flfl(q2), and in general \Pi abT (q2) = \Gamma Aab(q2), in the notation introduced in Ch. 4.
+
+5Recently, two other re-evaluations of the hadronic contribution to the running of alpha have appeared
+
+[22, 23], and differ from Ref. [13] by 1-1.5oe. However, one of them [23] relies on three-loop perturbative QCD up to very low energies, instead of fully exploiting the experimental data, and it is not yet clear whether the procedure of Ref. [22] is completely consistent. The discrepancy is potentially significant, but its clarification lies beyond the scope of this work.
+
+6M
+
+W and sin2 `lepteff , as well as a number of other high-energy quantities, are sometimes called pseudoobservables, in contrast to real observables such as cross-sections and asymmetries. The former are related to
+
+the latter by some well-defined set of specific assumptions that constitutes a sort of deconvolution procedure and involves a certain amount of theoretical input. The distinction is not unimportant, as this procedure introduces a large theoretical error, mainly connected to the initial state QED corrections, that is generally taken into account by the experimental groups.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 8
+
+observable present uncertainty [exp:] ss year 2000 far future ffiMW (MeV) 180[w:a:] 50 \Sigma 20[Tevatron] 20[NLC]
+
+230[CDF] 40[LEP200]
+
+ffi sin2 `lepteff 4 \Theta 10\Gamma 4[SLD + LEP] 1 \Theta 10\Gamma 4[SLD + LEP] 6 \Theta 10\Gamma 5
+
+10 \Theta 10\Gamma 4[SLD] 2:5 \Theta 10\Gamma 4[SLD] [LHC] ffimt(GeV) 12[CDF + D;] 4[Tevatron] 2[LHC]
+
+Table 2.3: Precision goals at future colliders. NLC stands for the Next Linear Collider, a 500GeV e+e\Gamma collider under study. "Tevatron" implies extensive upgrades of the collider and detectors, and the start of Main Injector.
+
+(see Ref. [24]; the estimate of the error on sin2 `lepteff at LHC is taken from Ref. [25]). They are less affected by QCD corrections than \Gamma totZ ; the QCD corrections to MW and sin2 `lepteff will be studied in Ch. 4.
+
+The effective weak interaction angle employed by the LEP groups is defined by
+
+1 \Gamma 4 sin2 `lepteff = Re g
+
+` V
+
+g`A ; (2.10)
+
+where g`V and g`A are the effective vector and axial couplings in the Z0 ! `_` amplitude at resonance (with the exclusion of photon exchange effects), and ` denotes a charged lepton [3,26]. sin2 `lepteff is extracted from the on-resonance left-right and forward-backward asymmetries. In the determination of the effective angle, it is common practice to use the b and c quark asymmetry data together with the leptonic ones, as this procedure is practically model independent. In order to establish the connection with the MS parameter sin2 ^`W (MZ), or with s, the on-shell sine, we note that this amplitude is proportional to [27]
+
+! `_`jJ*Zj0 ? = \Gamma _u`fl* ^ 1 \Gamma fl54 \Gamma ^k`(q2) ^s2* v`; (2.11) where the electroweak form factor ^k(q2) and ^s2 can be replaced by k(q2) and s2 in the on-shell scheme, and v` and _u` are the lepton spinors7. The actual radiative corrections that enter into the determination of these two pseudo-observables therefore depend on the renormalization scheme. In the following I will present the case of the on-shell and MS schemes.
+
+2.2 On-shell scheme In the on-shell scheme [9, 28], in analogy with the traditional renormalization of QED, the fundamental parameters are chosen to be ff and the physical masses of all the particles of the
+
+7Alternatively, one could define effective couplings directly through the so-called bare asymmetries A0, derived from the experimental asymmetries after subtraction of soft photon and photon exchange effects. For example, A0;`LR = 2x=(1 + x2), with x = g`V =g`A. The difference comes from the imaginary part of ^k(q2), but we will see in Sec. 2.4 that the it is numerically very small.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 9 SM and, in particular for the gauge sector, MZ and MW . From the experimental values of the vector boson masses, we find (ffis2=s2)exp ss \Gamma 2(c2=s2)(ffiMW =MW )exp ss 1:6%, a very poor precision for a fundamental coupling. As the experimental precision on MW is not very good at present, and even after LEP200 will not be better than the one on G_, one has to resort to the relation, Eq.(2.6),
+
+s2c2 = M
+
+2 W
+
+M 2Z 1 \Gamma
+
+M 2W
+
+M 2Z ! =
+
+ssffp 2G_M 2Z[1 \Gamma \Delta r(MW ; mt; MH)]; (2.12)
+
+where \Delta r(MW ; mt; MH) is a finite radiative correction that includes the term \Delta ff defined above and the non-QED electroweak corrections to the muon decay [9]8. The inclusion of (1 \Gamma \Delta r) in the denominator of Eq.(2.12) effectively resums all leading logarithms of O(ffn logn mfMZ ) (in this way replacing ff with ff(M 2Z)), and to good approximation the terms of O(ff2 log mfMZ ) [29]9. Eq.(2.12) can be solved iteratively for MW and yields a prediction for MW or sin2 `W for any given value of mt and MH. The values for MW and s2 derived in this way are then used in the calculation of any other observable in the on-shell scheme. It is interesting to show the asymptotic behavior of the function \Delta r(mt; MH), as the comparison between the MW (mt; MH) obtained from Eq.(2.12) and M expW allows us to set limits on the possible range of mt and MH. The leading asymptotic behaviors for large mt and MH are
+
+\Delta r , \Gamma 3ff16sss4 m
+
+2t
+
+M 2Z + . . . (
+
+mt MZ AE 1)
+
+\Delta r , 11ff48sss2 ln M
+
+2 H
+
+M 2Z ! + . . . (
+
+MH
+
+MZ AE 1) (2.13)
+
+Note that the dependence is quadratic in mt and logarithmic in MH, and that the effects have opposite signs. This partially accounts for the fact that, in global analyses of the electroweak data, small MH values favor relatively small values of mt; it also explains why it is much more difficult to set bounds on MH than on mt. More generally, the whole set of precision observables can be calculated as a function of mt and MH, and the result fitted to the existing data, yielding the bounds for mt and MH shown in Table 2.1.
+
+In the on-shell framework it is natural to define the renormalized mixing angle according to Eq.(2.7). That definition is manifestly based on short-distance parameters, and it therefore absorbs large photon vacuum polarization effects that would be present adopting, for instance, the first of the relations in Eq.(2.5). The use of the on-shell mixing angle in Born amplitudes will not induce large loop effects of that kind. However, Eq.(2.7) does not absorb in sin2 `W large isospin violation effects that occur in the on-resonance amplitudes, and are due to the mass splitting in the top-bottom isodoublet. These manifest themselves in the counterterm of
+
+8As M
+
+Z, MW , G_ and ff are physical observables, it follows that the same is true of \Delta r.9
+
+In the on-shell scheme the incorporation of leading higher order reducible contributions of O(G2_m4t ) is subtle. It can be implemented following the procedure outlined in Ref. [30].
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 10 sin2 `W
+
+ffis2 = \Gamma c2 Y; Y = `
+
+ffiM2W
+
+M2W \Gamma
+
+ffiM2Z
+
+M2Z '`
+
+1 \Gamma ffiM
+
+2Z
+
+M2Z '
+
+; (2.14)
+
+where ffiM 2W = ReAWW (M 2W ) and ffiM 2Z = ReAZZ(M 2Z) + (fl; Z) mixing terms, are the mass counterterms of the vector bosons. At one-loop level we find Y = xt + . . ., where xt = 3 G_m
+
+2t
+
+8ss2p2is the leading top correction to the ae parameter [71], and the ellipses stand for the rest of the
+
+one-loop contribution. This problem is frequently circumvented by introducing an effective parameter _s2 j [1 + (c2=s2)xt]s2 or, equivalently, _c2 = c2(1 \Gamma xt).
+
+The determination of MW through Eq.(2.12) is affected by the parametric uncertainty on the inputs G_, ff, and MZ, and by the theoretical uncertainty on \Delta r, due to the truncation of the perturbative series. For instance, a change ffi\Delta r induces a shift in the determination of MW through the following relation
+
+(ffiMW )th = \Gamma MW2 s
+
+2
+
+(c2 \Gamma s2 \Gamma 2c2xt)
+
+ffi\Delta r (1 \Gamma \Delta ff); (2.15)
+
+where some higher order effects have been retained [36]. Using the result of Ref. [13], we see that the uncertainty on the hadronic contribution to the running of ff implies ffiM hadr:W ss 13MeV. This is the ultimate limit on the precision of a theoretical determination of MW in the present situation. In the next chapters, however, we will see that the theoretical error due to electroweak higher order effects in this determination can be of the same size. We can compare this uncertainty with the one coming from the experimental error for the input parameters. For instance, in the case of MZ, ffiMZ ' 4:4MeV. From Eq.(2.12) it is easy to see that this induces on MW an uncertainty ffiMW ss 5:4MeV, smaller than the one induced by ffi\Delta ff(hadr).
+
+2.3 MS scheme The on-shell scheme has the privilege of simplicity, but as we have seen above, it induces potentially large higher order corrections in the on-resonance amplitudes. The on-shell couplings do not seem therefore adequate expansion parameters unless one employs the effective couplings ff(M 2Z) and _s2. A very good alternative is provided by the MS scheme, which is the prevalent framework for QCD studies.
+
+The on-shell definition of the mixing angle is based on physical quantities; the renormalized parameter is set to be equal to an observable quantity, the ratio of the physical masses of the vector bosons. On the other hand, it is possible to define a renormalized parameter by choosing the counterterm associated to it. The MS definition of a renormalized parameter [21] is based on a theoretical prescription for the associated counterterm and requires that the calculation be performed in one particular regularization framework, i.e. dimensional regularization. The idea is to subtract only the divergent part (poles in n \Gamma 4) and the associated constants fl and
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 11 ln 4ss from the bare parameter10, as these are fixed exclusively by the bare Lagrangian, unlike the finite parts of the counterterm, that depend on the renormalization condition. The result is a scale dependent quantity, and a first example is ^ff(_), the MS e.m. coupling constant, defined by
+
+^ff(_)MS j ff1 \Gamma \Delta
+
+fl(_) (2.16)
+
+where \Delta fl(_) = \Pi (f)flfl (0)MS + ffss (7=2 ln(MW =_) \Gamma 1=6), with the subscript MS to indicate that 1=(n \Gamma 4) poles have been subtracted with their related constants. In addition to the fermionic self-energies, \Delta fl contains the contribution of W bosons. The hadronic part is evaluated adding and subtracting \Pi (5)flfl (M 2Z), which can be calculated perturbatively, and using the value \Pi (5)flfl (0) \Gamma Re\Pi (5)flfl (M 2Z) = 0:0280 \Sigma 0:0007 [13]. For MZ and MW as given in Table 2.2, mt = 175GeV, and including two-loop QCD effects following the results of Ch. 4, we obtain \Delta fl(MZ) = 0:0653 \Sigma 0:0007 and ^ff\Gamma 1(MZ) = 128:09 \Sigma 0:10. However, mt ? MZ, and according to the common practice in the MS scheme, we may subtract the top effects from Eq.(2.16), absorbing them in the definition of ^ff, as it would be the case for another heavy unknown charged particle. Decoupling the top quark from the definition of ^ff, we therefore have \Delta fl(MZ) = 0:0666 \Sigma 0:0007, and ^ff\Gamma 1(MZ) = 127:91 \Sigma 0:10, which differs from ff(MZ), the conventional running coupling constant of Sec. 2.1.2 by 0.73%, and has a similar uncertainty of ss 7 \Theta 10\Gamma 4.
+
+An analogous definition can be employed for the other couplings and masses. The bare relations Eq.(2.4) hold for all MS couplings and masses at a given scale _. In particular, we can relate the bare sine to the MS definition of Eq.(2.8) through (the ellipses indicate higher order contributions)
+
+sin2 ^`W (_)MS = sin2 `0W "1 + ff04ss 113 + 196 sin2 `0
+
+W !
+
+1
+
+ffl + . . .# : (2.17)
+
+Here I have subtracted only the poles and the related constants (not indicated), but one can think of implementing the decoupling of heavy particles as done above for ^ff. However, in this case a subtlety arises, as ff2(_)MS can be defined by charged or neutral current couplings, and the top affects them differently. According to the Marciano-Rosner [M-R] convention [38], adopted also in Ref. [36], the logarithmic term is subtracted in the evaluation of Re A(top)flZ (M 2Z)=M 2Z, which enters the form factor ^k`(M 2Z) of Eq.(2.11) as
+
+\Gamma ^c^s Re A
+
+(top) flZ (M 2Z)
+
+M 2Z = \Gamma
+
+^ff 6ss^s2 `1 \Gamma
+
+8 3 ^s
+
+2' ^`1 + ffs
+
+ss ' log ,t \Gamma
+
+15
+
+4
+
+ffs
+
+ss * + D(
+
+1 ,t ): (2.18)
+
+Here ,t j m2t =M 2Z and D(1=,t) represents small terms that decouple in the limit ,t ! 1. We see that at two-loop there is also an mt-independent term that should be subtracted as well. This additional finite counterterm keeps the fl \Gamma Z mixing independent of mt in neutral
+
+10This is consistently done at any order in perturbation theory by rescaling the 't Hooft mass scale _ ! _0efl=2(4ss)\Gamma 1=2.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 12 current amplitudes and allows sin2 ^`W (_)MS to be continuous at _ = mt, up to small O( ^ffffs) terms. The aim of the prescription is to make the value of sin2 ^`W (MZ), as extracted from the on-resonance asymmetries, very insensitive to heavy particles of mass M ? MZ. As can be seen from Eq.(2.18), the numerical difference between sin2 ^`W (MZ) evaluated with or without the M-R decoupling convention is very small, but not negligible, ss 0:0002 in the present mt range.
+
+The use of MS couplings would suggest the use of MS masses ^MZ(_) and ^MW (_) for the vector bosons11. However, as we have seen, the experiments provide the values of the physical or pole masses of the vector bosons, and the relation between M and ^M (_) involves large radiative corrections of O(G_m2t ln mt=_). At high orders in perturbation theory, it can be seen that a whole class of potentially large O(Gn_m2n\Gamma 2t M 2W ) contributions, corresponding to fermionic loop insertions on vector boson propagators, can be absorbed in the definition of the on-shell masses. The on-shell mass counterterms cancel completely the leading quadratic dependence of the heavy fermion loop. Thus, the use of MS couplings together with on-shell masses in the propagators seems preferable in order to keep higher order radiative corrections small [11]. An explicit example of this kind will be presented in Ch. 5, in the case of the two-loop O(G2_m2t M 2Z) contribution to the ae parameter, which turns out to be smaller when employing this prescription.
+
+If we choose this route, the auxiliary parameter sin2 ^`W (MZ) is derived from the inputs setting the mass scale equal to MZ, and using
+
+^s2^c2 = ssffp2G
+
+_M 2Z[1 \Gamma \Delta ^r(MW ; mt; MH; ^s)]; (2.19a)
+
+and MW is determined through Eq.(2.6)
+
+M 2W = ^ae(MW ; mt; MH; ^s) ^c2 M 2Z: (2.19b) Eqs.(2.19) can be solved simultaneously by iteration. The radiative correction ^ae(mt; MH; MW ; ^s), which now governs the MW -MZ interdependence, incorporates the custodial symmetry violation effect, quadratic in mt. ^ae can be readily obtained from the difference between the two definition of sin2 `W . Using s20 = s2 \Gamma ffis2 = ^s2 \Gamma ffi^s2, we have ^c2 = c2 (1\Gamma YMS), where MS indicates that ultraviolet poles and related constants have been subtracted from Y in Eq.(2.14), and _ has been set equal to MZ. It then follows that ^ae = (1 \Gamma YMS)\Gamma 1. The function \Delta ^r is obtained calculating the electroweak corrections to the muon decay in the MS framework [10, 11]. The asymptotic behavior of these two functions is similar to that of \Delta r, but the top dependence of sin2 ^`W (MZ) is milder, as part of it has been absorbed in the definition [10]
+
+\Delta ^r , \Gamma 3 ^ff16ss^s2^c2 m
+
+2t
+
+M 2Z + . . . (mt AE MZ): (2.20) Explicit formulae including some higher order effect can be found in Refs. [11, 36]. The use of ff instead of ^ff in the numerator of Eq.(2.19a) implies the appearance in \Delta ^r of the mass
+
+11This approach is illustrated in the first article of Ref. [6].
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 13 singularities contained in \Delta fl, and the corresponding hadronic uncertainty. The latter affects the determination of ^s2 according to
+
+(ffi^s2)th ss ^c
+
+2^s2
+
+(^c2 \Gamma ^s2)
+
+ffi\Delta ^r 1 \Gamma \Delta fl(MZ) ; (2.21)
+
+which leads to an uncertainty ss 2:5 \Theta 10\Gamma 4 due to the hadronic contribution to the running of ff; this is one order of magnitude larger than the one induced by the uncertainty in MZ. The determination of MW through Eq.(2.19b) differs by the one through Eq.(2.12) by higher order subleading contributions, when the leading mt terms are consistently implemented. A numerical analysis [36] of this scheme dependence has shown a maximum discrepancy ofss
+
+4MeV.
+
+An important part in the choice of the renormalization framework is played by the simplicity of the formulation. For instance, the use of sin2 `lepteff as definition for a renormalized coupling would complicate beyond reason the analytic computation of electroweak radiative corrections, as this parameter is based on a very specific physical amplitude. If this may appear as an aesthetic point of view in one-loop calculations, it becomes a vital matter in higher order calculations. The MS framework does provide a clear and simple environment for such involved computations12.
+
+Finally, it is worth mentioning that a precise determination of the MS parameters at the Z scale is a very convenient basis for applications to Grand Unified Theories (GUT), and for new physics in general. In particular, using the renormalization group, it is possible to relate the values of these parameters at MZ to the ones at a very high energy scale _, and in this way to test different scenarios of Grand Unification. For example, the minimal non-supersymmetric SU(5) GUT [31] predicts ^s2 = 3=8 at the unification scale, which extrapolates to ^s2 = 0:2100\Sigma 0:0025 \Sigma 0:0007 at MZ [32] using ff and ffs as inputs. Together with proton decay data, this prediction rules out the simplest GUTs. In contrast, in the minimal supersymmetric SM (MSSM) Grand Unification yields sin2 ^`W (MZ) = 0:2334 \Sigma 0:0025 \Sigma 0:0025, which is clearly compatible with present data. In practice, as the precision on sin2 ^`W (MZ) is now much better than the one on ffs(MZ), it is standard procedure to use the MSSM determination of sin2 ^`W (MZ) together with ^ff(MZ), and to predict ffs(MZ), assuming Grand Unification. Present data are compatible with this hypothesis [32]. This is just one illustration of the importance of precision calculation for uncovering new physics.
+
+2.4 The leptonic effective sine in MS As we have seen above, the MS definition of sin2 `W seems particularly suitable for the description of physics on the Z-resonance. It has been known for some time, for example, that the use of MS parameters in the Born amplitudes provides a very good approximation of the neutral current complete amplitude13, and in particular sin2 ^`W (MZ) is very close numerically
+
+12A comprehensive comparison of different renormalization schemes for the electroweak sector of the SM can be found in the second article of Ref. [6].
+
+13An exception is the Zb_b vertex [35], where large non-universal top terms are also present.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 14 to the parameter sin2 `lepteff extracted from the asymmetries. However, the reason and extent of this coincidence and the precise numerical relation between the two has not been spelled out in the literature. In view of the very accurate experimental determination of sin2 `lepteff , it is important to know the precise relation between the two mixing angle. In this section, I present a detailed calculation [34] of the form factor ^k(M 2Z) which controls this relation.
+
+Up to terms of order O( ^ff) in the MS framework we have [27]
+
+^k`(q2) = 1 \Gamma ^c^s \Theta AflZ(q
+
+2) \Gamma AflZ (0)\Lambda
+
+MS
+
+q2 \Gamma A(f)flflMS(q2) +
+
+^ff ss^s2 ^c
+
+2 log c2 \Gamma ^ff
+
+4ss^s2 V`(q
+
+2); (2.22)
+
+where AflZ (q2) is the fl \Gamma Z mixing self-energy, the subscript MS means that the MS renormalization has been carried out (i.e. the pole terms have been subtracted and the 't Hooft scale has been set equal to MZ), the superscript f stands for fermionic part, ^ff(MZ) = [127:91 \Sigma 0:10]\Gamma 1, c2 j M 2W =M 2Z and V`(q2) is a finite vertex correction. Explicitly,
+
+V`(q2) = 12 f ( q
+
+2
+
+M 2W ) + 4^c
+
+2 g( q2
+
+M 2W ) \Gamma
+
+1 \Gamma 6^s2 + 8^s4
+
+4^c2 f (
+
+q2 M 2Z ); (2.23)
+
+where f (x) and g(x) are defined in Eqs. (6d) and (6e) of Ref. [27]. I have included the photon self-energy A(f)flflMS(q2) in the second term of Eq.(2.22) because, as it will be explained later, it gives rise to relatively large O(ff2) terms.
+
+It is clear from Eq.(2.11) that the ratio of the vector and axial vector couplings at resonance is given by 1 \Gamma 4 ^k`(M 2Z) ^s2. We can now discuss the various contributions to ^k`(M 2Z).
+
+To O( ^ff) the fermionic contribution to the self-energy of Eq. (2.22) can be written in the form
+
+\Gamma ^c^s A
+
+(f) flZ (M 2Z)
+
+M 2Z =
+
+^ff ss^s2 Xi `
+
+QiCi
+
+4 \Gamma ^s
+
+2Q2i ' \Pi
+
+V (M 2
+
+Z; mi; mi)
+
+M 2Z ; (2.24)
+
+where Qi, Ci, and mi are the charge, third component of weak isospin (with eigenvalues \Sigma 1), and mass of the i-th fermion, the summation includes the color degree of freedom, \Pi V is the vacuum polarization function involving vector currents, according to the normalization of Ch. 4, and henceforth the MS renormalization is not indicated explicitly. For the leptons we can safely neglect the masses and using the result in App. B find that the contribution to Eq.(2.24) is ( ^ff=ss^s2)(5=12 + iss=4)(1 \Gamma 4^s2) = (3:3 + 6:2i)10\Gamma 4. In this calculation and henceforth I employ ^s2 = 0:2317, which corresponds to the central values mt = 178 GeV and mH = 300 GeV in the global fit of Ref. [3], and ^ff = (127:9)\Gamma 1.
+
+For the first five quark flavors I set again mi = 0 (it can be verified that this is an excellent approximation) and, including O( ^ffffs) corrections available from the expressions in App. B, obtain a contribution ( ^ff=ss^s2) (7=12 \Gamma 11 ^s2=9) [5=3 + (ffs=ss) (55=12 \Gamma 4i(3) + iss)] = (5:35 + i10:51) \Theta 10\Gamma 3, where I have used ffs = ffs(MZ) = 0:118 and i(3) = 1:20206:::.
+
+The top quark contribution to Eq.(2.24) can be derived from Eq.(2.18), and the complete expression can be again gleaned from App. B. For the current range 150GeV!,mt!,210 GeV [3], D(1=,t) varies from 6 \Theta 10\Gamma 5 to 3 \Theta 10\Gamma 5 and is of the same order of magnitude as neglected
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 15 two-loop contributions , ( ^ff=ss^s2)2 ss 10\Gamma 4 to Eq.(2.22). We reach the conclusion that when the M-R prescription is applied, the top quark contribution to Eq.(2.24) is very small.
+
+The other contributions to ^k`(M 2Z) in Eq.(2.22) can be readily obtained from the literature. This form factor is gauge invariant, but several individual components are not. I evaluate them in the 't Hooft-Feynman gauge, using MW = 80:23 GeV [3]: (i) the bosonic contributions\Gamma
+
+(^c=^s) [A(b)flZ(M 2Z) \Gamma A(b)flZ (0)]=M 2Z can be extracted from Ref. [39] and amount to \Gamma 5:94 \Theta 10\Gamma 3; (ii) \Gamma ( ^ff=4ss^s2) V`(M 2Z) can be obtained from Eq.(2.23) above and Eqs.(6d,e) of Ref. [27], and gives +(3:33+2:78i) 10\Gamma 3; (iii) ( ^ff=ss^s2)^c2 log c2 = \Gamma 2:11\Theta 10\Gamma 3; (iv) although two-loop effects have not been fully calculated, I include the O( ^ff2) contribution arising from the product of ImAflZ (M 2Z) and ImAflfl(M 2Z) in the second term of Eq.(2.22). The ratio M 2Z=(M 2Z \Gamma A(f)flfl (M 2Z)) is given by 0:992 \Gamma 0:0175i for the current range of mt, and the interference between the two imaginary parts gives a contribution to Eq.(2.24) of ss 1:9 \Theta 10\Gamma 4. It is quite sizable, relative to typical O( ^ff2) contributions, because these imaginary parts involve several additive terms. On the other hand, the large logarithmic O(ff2) corrections associated with the running of ff are already taken into account, in the MS scheme, by employing ^ff in the evaluation of AflZ.
+
+Combining all the above results we have ^k`(M 2Z) = 1 + (0:33+0:62i+5:32+105:1i\Gamma 5:94)\Theta 10\Gamma 3(0:9921 \Gamma 0:0178i) + D(1=,t) + (3:33 + 2:78i \Gamma 2:11) \Theta 10\Gamma 3, which to good approximation becomes
+
+^k`(M 2Z) = 1:0012 + i 0:0139; (2.25)
+
+where the real part slightly decreases for a heavy top. It is clear, on the basis of Eq.(2.25), that at the one-loop level the ratio of effective vector and axial vector couplings in the Z ! `_` amplitude is a complex number. This is also expected from general principles. On the other hand, the LEP groups interpret both sides of Eq.(2.10) as real quantities. This can be justified on the grounds that the imaginary component of ^k`(M 2Z) gives a negligible contribution to the leptonic T-even bare asymmetries and partial widths 14. For instance, the bare left-right asymmetry is given by A0;`LR = 2 Re(gV =gA)=[1 + jgV =gAj2] and one readily verifies that the inclusion of Im ^k`(M 2Z) decreases its value by only \Gamma 0:02%, and ffi sin2 `lepteff ss \Gamma 2%ffiA0;`LR=A0;`LR
+
+for the current value of sin2 `lepteff . Similarly, A0;`F B is modified by ss \Gamma 0:03%. Therefore we identify
+
+sin2 `lepteff = ^s2 Re ^k`(M 2Z): (2.26) Using Eq.(2.25) we have
+
+sin2 `lepteff \Gamma sin2 ^`W (MZ) = 2:8 \Theta 10\Gamma 4 ss 3 \Theta 10\Gamma 4; (2.27) which tends to approximate to 2:7 \Theta 10\Gamma 4 for a heavy top (mt?,185GeV).The following observations are appropriate at this stage: (a) because the Higgs boson does not contribute at the one-loop level to Eq.(2.22), the results of Eqs.(2.25, 2.27) are independent of mH; (b) it
+
+14The imaginary part of ^k`(m2Z), however, gives important contributions to T-odd leptonic asymmetries. See Ref. [40].
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 16 is clear that the closeness of Re ^k`(M 2Z) to unity and, correspondingly, the small difference in Eq.(2.27) are due to the cancellation of significantly larger terms. For instance, the light quark and bosonic contributions to the fl-Z mixing self-energy are of the roughly expected order of magnitude , ^ff=(2ss^s2) ss 5:4 \Theta 10\Gamma 3, but they largely cancel against each other. On the other hand, the O( ^ff) contributions to the Im ^k`(M 2Z) are ss 1%, an order of magnitude larger; (c) as the relation between sin2 ^`W (MZ) and sin2 `W j 1 \Gamma M 2W =M 2Z is well-known (see Sec. 2.3), Eq.(2.27) determines the connection between the three parameters.
+
+If the Marciano-Rosner decoupling convention is not applied, so that in the MS renormalization one only subtracts poles and sets the 't Hooft scale equal to MZ, there is a further contribution to Re ^k`(M 2Z) arising from the first term in Eq.(2.18). Using ffs(mt) ss 0:11, this amounts to \Gamma 6:1 \Theta 10\Gamma 4, \Gamma 8:7 \Theta 10\Gamma 4, \Gamma 1:09 \Theta 10\Gamma 3, for mt = 150; 180 and 210 GeV, respectively. Correspondingly, Re ^k`(M 2Z) becomes 1.0006, 1.0003, 1.0001, even closer to unity. As a consequence, although the difference between sin2 `lepteff and sin2 ^`W (MZ) depends more on mt when the M-R prescription is not applied, it is actually smaller for the current range 150!,mt!,210GeV. In fact, we find that it is 1 \Theta 10\Gamma 4 for 150 ^ mt ^ 191 GeV, and there is no difference in the fourth decimal for 192 ^ mt ^ 210 GeV.
+
+One can obtain a rough consistency check of the order of magnitude of Eq.(2.27) by comparing the fits of Ref. [3] (Table 2.1) with the calculations of Ref. [36]. Using the LEP, SLD, collider and * data, Ref. [3] finds mt = 178\Sigma 11+18\Gamma 19 and sin2 `lepteff = 0:2320\Sigma 0:0003 +0:0000\Gamma 0:0002. Their central values assume mH = 300 GeV, the first error represents experimental and theoretical uncertainties, while the second reflects changes corresponding to the assumptions mH = 60 GeV and MH = 1 TeV. According to Eq.(2.27), the corresponding central value for
+
+^s2 should be 0.2317. On the other hand, from Ref. [36] one finds ^s2 = 0:2317 for mt = 178 GeV and mH = 300 GeV. Thus, the comparison of the conclusions of Ref. [3] with the calculations of Ref. [36] is roughly consistent with Eq.(2.27). Of course, such consistency checks are not a substitute for precise, ab initio calculations, like the one leading to Eq.(2.27).
+
+Two additional comments can be useful at this stage: (a) Consistently with Eq.(2.10), sin2 `lepteff can be defined in terms of a bare forward-backward asymmetry A0;`F B, which is obtained from the physical asymmetry A`F B after extracting the effect of photon-mediated contributions and other radiative correction effects [26]. Therefore, we should not attempt to find the numerical relation between sin2 `lepteff and sin2 ^`W (MZ) by comparing detailed MS calculations of the physical asymmetry A`F B, as those in Ref. [27], with theoretical expressions for A0;`F B expressed in terms of sin2 `lepteff . The point is that A`F B contains electroweak effects not contained in A0;`F B. (b) Global analyses often cite the value of sin2 `lepteff as extracted only from the on-resonance asymmetries, while they give the prediction for mt derived from the complete data base. Current asymmetry results lead to determinations of sin2 `lepteff that are somewhat smaller than the sin2 ^`W (MZ) numbers corresponding to the central mt. This, however, is not a contradiction with Eq.(2.27), because the on-resonance asymmetries represent only a part of the experimental information. This is quite visible in the detailed report of Ref. [3], in which one finds sin2 `lepteff = 0:2317 \Sigma 0:0004 from the on-resonance asymmetries and, as mentioned before, larger values from the global fits.
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 17
+
+In summary, I have attempted to clarify the connection between sin2 `lepteff and sin2 ^`W (MZ) and obtained the value of their difference by means of a detailed calculation, both with and without the M-R decoupling convention [34]. I recall that sin2 `lepteff is defined in terms of a physical amplitude, while this is not the case for sin2 ^`W (MZ), the running MS parameter evaluated at the MZ-scale. Thus, it is clear that the two parameters are conceptually very different. On the other hand, we have found that their numerical values are very close (cf. Eq.(2.27)). As illustrated in the discussion after Eq.(2.27), this fact is probably due to a fortuitous cancellation of radiative corrections.
+
+2.5 Higher order corrections In the preceding sections I have outlined the main features of the renormalization program for electroweak high-energy physics. Although the bulk of the radiative corrections is doubtless represented by the one-loop contributions, it is necessary to consider all possible sources of large higher order contributions. In some case, as for the electromagnetic coupling, renormalization group techniques help to resum large contributions at any order. Whenever they are possible, however, explicit multi-loop calculations are the best way to investigate the convergence of the electroweak perturbative series. In fact, what we really need is an estimate of the theoretical error due to the truncation of the perturbative series. There exist heuristic methods for estimating the higher order contribution in QCD, but in general no such method applies to the more complicated situation of electroweak interactions. In the last few years, multi-loop calculations in electroweak physics have become increasingly important, as the lower bound on the top mass increased, and the experimental accuracy improved. One of the effects of the activity in this field has been the realization that the convergence of the electroweak series is not as smooth as it was believed: large higher order effects do exist, and must be taken into account. In the following I will restrict the analysis to the two observables considered in this chapter, MW and sin2 `lepteff . We can distinguish two kinds of possibly large higher order effects that can affect the predictions for these observables.
+
+ffl Large mass effects MH and mt are heavy, of the order of the spontaneous symmetry
+
+breaking scale. Heavy masses do not decouple in the SM and therefore we can expect loop contributions that are not bounded as mt and MH go to infinity. In particular, the so-called decoupling theorem of Appelquist and Carazzone [43] does not apply in this context. If we exclude the case of amplitudes involving external Higgs bosons, we can see that at the one-loop level the radiative corrections scale as the square of the top mass, and as the logarithm of MH, as in Eq.(2.13)15. At two-loop level, the leading heavy mass effects are of O(G2_m4t ) and O(ffG_M 2H). Since complete two-loop calculation do not exist at present, a good starting point would be to have all power-like heavy mass 15The logarithmic dependence on M
+
+H of the one-loop radiative corrections in the gauge sector of the SM has
+
+been first shown in Ref. [41]. In the limit of large MH the SM can be viewed as a gauged non-linear oe-model
+
+and the mass of the Higgs boson can be interpreted as an ultraviolet regulator. It is then easy to see that at one-loop the non-linear oe-model contains only logarithmic divergences [42].
+
+CHAPTER 2. BASIC OBSERVABLES AND RENORMALIZATION 18
+
+corrections under control. This kind of effects will be considered in Ch. 5. ffl QCD effects Because of the large coupling constant, perturbative QCD corrections
+
+can be sizable, even at a high energy scale. In particular, the determination of MW and sin2 `lepteff proceeds through physical amplitudes (muon decay and Z`_` vertex) that involve only oblique QCD corrections, i.e. QCD corrections to quark loop insertions on vector boson propagators. We have seen that large quadratic top effects can arise as a consequence of the SU (2)L symmetry breaking in the (t; b) isodoublet; we can therefore expect relevant QCD corrections of O(G_ffsm2t ). This kind of effects will be studied in Ch. 4.
+
+As we have seen, in the MS framework, the determination of sin2 `lepteff proceeds through Eq.(2.27) and Eq.(2.19a). The relation between sin2 `lepteff and sin2 ^`W (MZ), however, has already been evaluated keeping leading QCD effects in the hadronic self-energies, and, if the Marciano-Rosner prescription is employed, should be free of large power-like heavy mass effects of O(G2_m2t M 2Z). Therefore, the precise determination of MW and sin2 ^`W (MZ) through Eq.(2.19) becomes the most important task in precision physics. Some aspects of this effort will be illustrated in the following.
+
+But first, in the next chapter, I will present a simple method to attain indirect evidence that a full one-loop calculation is needed to describe current data.
+
+Chapter 3 Evidence for radiative corrections We know that a renormalizable quantum field theory includes quantum corrections of O(_h), and we know that the SM is very successful in describing current experimental data. One might then wonder what do we know phenomenologically about the quantum field structure of the SM. In this chapter I will discuss the current phenomenological evidence for radiative corrections. A simple example [33] will illustrate that there is very strong indirect evidence from high-energy experiments for the leading contributions due to fermionic loops, as well as for the numerically subleading contributions that involve virtual boson exchange.
+
+3.1 Evidence from low-energy The fundamental importance of radiative corrections in the electroweak theory has been known for a long time, and has been established first by low-energy experiments [47]. For example, in the absence of radiative corrections, a large violation of the unitarity of the CabibboKobayashi-Maskawa matrix (which is mainly determined from low-energy experiments) would appear. When all the one-loop electroweak corrections are included and the nuclear overlapping is appropriately taken into account, an analysis [44, 45] of the 14O super-allowed Fermi transitions leads to Vud = 0:9745 \Sigma 0:0005 \Sigma 0:0004. Vus and Vub are much smaller, and are extracted from \Delta S = 1 and B decays, yielding [45]
+
+jVudj2 + jVusj2 + jVubj2 = 0:9983 \Sigma 0:0015; (3.1) very close to unity. The radiative corrections affecting the derivation of Eq.(3.1) are quite sizable, about 4.1%, and involve vector boson exchanges. As the momentum scale is small, no large electromagnetic corrections due to the running of ff are present, and the sensitivity to mt is cancelled in the ratio between the amplitudes for fi-decay and muon decay, so that we can ascribe this large contribution to bosonic effects. When we analyze the data employing only tree level expressions and the Fermi-Coulomb function, we obtain 1:0386 \Sigma 0:0013 [47], which is about 30oe away from unity. In fact, the appearance of a large radiative correction in the determination of Vud can be traced back to the observation that the photonic corrections to the fi-decay in the local V-A electroweak theory are not convergent, unlike the ones to the
+
+19
+
+CHAPTER 3. EVIDENCE FOR RADIATIVE CORRECTIONS 20 muon decay1. They involve a logarithmic divergence , ln \Lambda mp , where mp is the mass of the nucleon. In the one-loop SM calculation [44], the cutoff is simply replaced by MZ, yielding a sizable contribution.
+
+On the other hand, one could argue that the effect of SM loop corrections that go beyond the QED corrections can be mimicked by simply setting the cutoff equal to MZ. However, in order to match the experimental precision, an accurate determination of the cutoff \Lambda in the Fermi effective field theory would be necessary. Although the order of magnitude of the cutoff can be easily guessed (the symmetry breaking scale v , G\Gamma 1=2_ ), without a precise determination the local V-A theory result for Eq.(3.1) can still be very different from unity [50]. Such a precise determination can only be provided in the framework of the full renormalizable SM. In conclusion, it appears that low-energy experiments provide a very strong evidence for electroweak radiative corrections of bosonic origin.
+
+3.2 Evidence from high-energy While the low-energy corrections in the problem of universality involve virtual fermions and W \Sigma , fl, and Z bosons, at high-energy the dominant corrections come from fermionic loops (an exception is the Z ! b_b vertex, where large corrections are induced by loops involving virtual bosons). As we have seen in the previous chapter, one of the main sources of large corrections is the running of ff, with the associated large logarithms. Evidence for radiative corrections beyond the running of ff has been analyzed in Ref. [47]. Direct evidence of such contributions comes from the comparison of the experimental data for specific observables with the predictions of a Born approximation in which ff has been replaced by ff(MZ) or ^ff. This kind of direct evidence is not particularly compelling, and presently reaches ss 1:5 \Gamma 2oe [48]. However, it has been argued [47] that very strong (at the level of 5-6oe) indirect or inferred evidence can be uncovered when the comparison is made between the Born approximation and the results of a global fit in the full SM to the whole body of electroweak data. The global fit provides more precise values than experiments for single observables, and incorporates all the interlocking relations that highly constrain the SM.
+
+It is also interesting to note that no Born approximation can accurately describe all the available experimental electroweak data. Indeed, we have seen in the previous chapter that two very different values for sin2 `W can be extracted from experiment: sin2 `lepteff and 1 \Gamma M 2W =M 2Z, respectively 0:2317 \Sigma 0:0004 and 0:2259 \Sigma 0:0035; they differ by 1.7oe. No Born approximation for the electroweak mixing angle can accommodate both values. Again, the discrepancy is much stronger if we compare the values for these observables in the SM fit of Table 2.1: we find sin2 `lepteff = 0:2320 \Sigma 0:0004 and 1 \Gamma M 2W =M 2Z = 0:2242 \Sigma 0:0012, which differ by 5.6oe. Note also that the fit of Table 2.1 does not include the latest CDF and D; values for mt.
+
+1A beautiful and simple explanation of this difference, based on Fierz transformations, can be found in Ref. [46].
+
+CHAPTER 3. EVIDENCE FOR RADIATIVE CORRECTIONS 21
+
+1Error: /typecheck in --put--
+Operand stack:
+--nostringval-- --nostringval-- --nostringval-- --nostringval-- 41.349 187.219 --nostringval-- 5.9998 5.9998 (0) 0 5.9998
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- 1 1 0 --nostringval-- %for_pos_int_continue --nostringval-- --nostringval-- (50) --nostringval-- %string_continue --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:143/250(L)-- --dict:16/200(L)-- --dict:88/100(L)--
+Current allocation mode is local
+Last OS error: 2
+

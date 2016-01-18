@@ -1,0 +1,840 @@
+
+
+ 4 Dec 1995
+
+DUKE-TH-95-98 Algebraic Content of Chiral Symmetry and the Strong Transitions of Heavy Mesons
+
+S.R. Beaney Department of Physics, Duke University
+
+Durham, NC 27708-0305
+
+sbeane@phy.duke.edu
+
+ABSTRACT The algebraic content of chiral symmetry constrains the strong interactions of mesons containing a single heavy quark. We show that the S-wave single-pion transition amplitudes of all heavy meson states are determined as a consequence of the participation of these states in reducible multiplets of unbroken SU (2)L \Theta SU (2)R. We find this representation content by making use of phenomenologically inspired Lie-algebraic sum rules, together with QCD constraints on the heavy meson spectrum in the heavy quark limit. For example, the transition amplitude for the process P \Lambda ! P ss, where P is a D or a B meson, is predicted to vanish. We also consider the Kaon system in light of our general conclusions for I = 12 states.
+
+y This work was supported by the
+
+U.S. Department of Energy (Grant DE-FG05-90ER40592).
+
+2 1. Introduction
+
+It is clearly desirable to pinpoint those aspects of the low-energy strong interactions that are consequences of the symmetries of QCD. Chiral perturbation theory (O/P T ) provides a systematic way of realizing this objective. However, O/P T is useful only in processes where all momenta exchanged are much less than 1 GeV. Moreover, the operators in the chiral lagrangian that encode the interactions of the Goldstone bosons with other hadrons enter with undetermined coefficients which must be taken from experiment. One might then wonder: Is there any sense in which the symmetries of the underlying theory constrain these coefficients?
+
+Dispersion sum rules offer a successful method of obtaining relations among coupling constants and masses. The basic idea is as follows. Analyticity relates an analytic function evaluated at a specific point in the complex plane, say s0, to an integral of the function over all values of s. If there exists an S-matrix element with soft enough asymptotic behaviour so that no subtractions are required, and which is uniquely determined by symmetry at the point s0, then saturating the dispersion integral with all possible single-particle singularities of the S-matrix element yields an expression of the form 1 = Pifflig2i , wheref
+
+gig is a set of coupling constants, and ffflig is a set of numerical coefficients. This sort of relation has proved remarkably successful at constraining coupling constants. Consider the paradigmatic example. In familiar form, the Adler-Weisberger sum rule [1] for the determination of the axial-vector coupling constant, gA, can be expressed as
+
+1 = g2A + 2f
+
+2ss
+
+ss Z
+
+1
+
+0
+
+d!
+
+! [oe\Gamma (!) \Gamma oe+ (!)] ; (1:1)
+
+where oe\Sigma represents the total cross-section for the scattering of a ss\Sigma on a proton. Resonance saturation of the dispersion integral gives
+
+1 = g2A + X
+
+fl
+
+fflflg2flNss (1:2)
+
+where fflfl is \Gamma or + when the intermediate state, fl, carries isospin 32 or 12 , respectively, and the gflNss are suitably normalized coupling constants. Saturation with \Delta (1232) yields gA ' 1:75, whereas a more careful analysis [2] which includes the vast number of other intermediate states with an appreciable coupling to the ssN channel gives gA ' 1:29, as compared to the experimental value gexpA = 1:25. This remarkable agreement established the first success of chiral symmetry in explaining low-energy strong interaction phenomena.
+
+On the other hand, from a purely theoretical point of view the pole saturated form of the sum rule, Eq. (1.2), might appear puzzling. Evidently, the left hand side of Eq. (1.2)
+
+3 is completely determined by symmetry, whereas the many coupling constants which contribute on the right hand side seem to be fine-tuned to special values in order to satisfy the equation. Actually, there is no paradox. The coupling constants are necessarily related by the same symmetry that determines the matrix element at a specific point. Consider instead the effective lagrangian point of view. In the usual non-linear realization of chiral symmetry, the goldstone bosons interact via complicated momentum-dependent operators. Therefore, S-matrix elements obtained from a chiral lagrangian are, in general, polynomials in the energy variables. If one expands the S-matrix in inverse powers of energy, the coefficients of the leading terms must vanish in order that the asymptotic behaviour of the S-matrix be consistent with observation. In general, any arbitrary number of coupling constants can contribute to each coefficient, and so we are again faced with a fine-tuning problem. Since chiral symmetry is the only symmetry in the problem, it should come as no surprise that chiral symmetry relates these coupling constants. These admittedly simplified arguments serve to illustrate that broken symmetries like chirality have dynamical consequences --which constrain the S-matrix in a special kinematic region, as well as algebraic consequences [3]--which relate coupling constants, and therefore constrain interactions in a kinematic-independent manner. O/P T is a widely applied method of exploring the dynamical consequences of chiral symmetry. On the other hand, comparatively little work has been done exploring the algebraic consequences of chiral symmetry.
+
+A review of early work on the algebraic consequences of chiral symmetry can be found in Ref. 4. Recently, it was shown that one can reproduce the main results of the nonrelativistic quark model --without recourse to the large-Nc approximation [5]-- by means of algebraic sum rules [6]. The chiral representation involving the pion was studied in Ref. 7 with implications for technicolor theories. Algebraic realizations have also been applied to the constituent quark model, for the purpose of explaining why constituent quarks act as bare dirac particles and determining gA [8], and for investigating the nature of the representation involving the elementary pion that appears in this model [9]. Possible implications for chiral symmetry restoration were pointed out in Ref. 10.
+
+In this paper, we consider how the algebraic consequences of chiral symmetry constrain the strong interactions of mesons containing a single heavy quark. In principle, we would like our conclusions to be pure reflections of the symmetries of QCD. In practice, as is the case in O/P T , we must make use of experimental input. Here experimental information enters in the form of constraints on the asymptotic behaviour of pion scattering amplitudes. The sum rules that emerge from these constraints can be expressed in Lie-algebraic form, and thus have straightforward group theoretical significance. Specifically, the Lie-algebraic sum rules reveal that for each helicity, hadrons fall into reducible representations of the unbroken chiral group [3]. The mixing angles that appear in these reducible representations
+
+4 are also constrained by the Lie-algebraic sum rules. This point of view is attractive since it allows one to view the observed asymptotic behaviour of S-matrix elements as a direct consequence of symmetry, something which is known to be the case in tractable (weakly coupled) gauge theories [11].
+
+The interactions of hadrons that contain a single heavy quark are constrained by the heavy quark symmetries. In the limit in which the heavy quark mass goes to infinity with its velocity held fixed, one can work in an effective theory which, for N heavy quarks, exhibits an SU (2N ) spin-flavor symmetry [12,13]. This symmetry has been used to study many properties of heavy hadrons. Here we focus on heavy mesons. In the heavy quark limit, heavy mesons fall into degenerate doublets labelled by the spin and parity of the light quark constituent [14]. Moreover, heavy quark symmetry relates transition amplitudes where heavy mesons emit or absorb pions, and imposes powerful constraints on the heavy meson mass matrix. We will show that these constraints, together with the algebraic content of chiral symmetry, uniquely determine all S-wave single-pion transition amplitudes of all heavy meson states. This result constitutes a solution of the chiral commutation relations for all helicities. However, as we will see below, this is true only to leading order in heavy hadron O/P T , where there are only S-wave pion transitions. In the spirit of O/P T and heavy quark symmetry, the usefulness of the algebraic content of chiral symmetry lies in understanding what features of the spectroscopy of heavy mesons can be understood on the basis of unbroken chiral symmetry. We find the extent to which the strong interactions of the heavy mesons are determined purely by symmetry to be remarkable. Unfortunately, the strong transitions of the heavy mesons are not well determined experimentally. This, of course, makes it difficult to assess the relevance of our "solution" to the real world. However, we will argue that unbroken chiral symmetry provides a consistent "explanation" for the pattern of what has been observed.
+
+In the Kaon system, on the other hand, there is a great deal of data but no heavy quark symmetry. Nevertheless, we will consider the phenomenology of the low-lying kaons in light of the general conclusions we reach for the helicity zero states of all I = 12 mesons. Kaon phenomenology suggests a picture distinct from what one would expect on the basis of unbroken chiral symmetry in the heavy quark limit. This is no surprise since the spectroscopy of heavy mesons is expected to be quite different from that of Kaons. We will provide a group theoretical interpretation for this difference, based on the representations of unbroken chiral symmetry filled out by these states.
+
+The paper is organized as follows. Section 2 is a review of the technology of the algebraic realizations, and elaborates previous work on the I = 12 sector. In section 3, we review heavy hadron chiral perturbation theory and write down the leading operators responsible for single-pion transitions among the low-lying heavy meson states. We also
+
+5 review some consequences of heavy quark symmetry relevant to the mass matrix. There is little new in these first two sections and yet the material is essential for what follows. In section 4 we consider the algebraic consequences of chiral symmetry in the heavy quark limit. The main results of the paper are in this section. Section 5 is a search for the correct representation content. Specifically, we analyze a chiral quartet composed of the lowest-lying heavy meson states. In section 6 we discuss our results in the context of heavy meson phenomenology, and consider the issue of heavy quark and chiral symmetry breaking. Section 7 is a phenomenological analysis of the K-meson system. In particular, we consider an Adler-Weisberger sum rule for ssK scattering. Finally, we summarize and conclude, and discuss further applications of this technology which might prove fruitful.
+
+2. Mended Chiral Symmetry
+
+First, we focus on QCD with two massless flavors. Consider the process ssff ! ssfi, where ff and fi are arbitrary single-hadron states. We assume that this process is determined by the sum of all chiral tree graphs. This is certainly true in the large-Nc limit [5]. However, we will argue below that there are circumstances where chiral tree graphs dominate, independent of large-Nc arguments. It is straightforward to construct the most general SU (2) \Theta SU (2) invariant operators which contribute to this process. Of course there are an infinite number of such terms, and only in special cases are all momentum transfers small enough to allow a consistent perturbative expansion. However, it turns out that in a Lorentz frame in which all momenta are collinear, the momentum structure of the most general Feynman amplitude involving the sum of all chiral tree graphs becomes transparent1. If the scattering amplitude is expanded in inverse powers of energy, the couplings of the heavy particle content to the Goldstone bosons appear at the same order in the energy variable as the term which is protected by chiral symmetry, and which therefore contains no invariant counterterm. The coefficient of this power in the energy variable is easily extracted and takes the form [3]
+
+C(\Gamma ) *fij;ffi / fifflijkTk \Gamma [X*i ; X*j ]gfiff (2:1) for the crossing-odd amplitude and
+
+C(+) *fij;ffi / f[X*j ; [X*i ; m2]] + [X*i ; [X*j ; m2]]gfiff (2:2) 1 See Ref. 15 for a concise review.
+
+6 for the crossing-even amplitude. The roman subscripts are isospin indices, Ti are the isospin matrices, and ^m2 is the mass-squared matrix. The helicity, *, is a conserved quantum number in the collinear frame. Xi is an axial-vector coupling matrix, related to the matrix element of the process ff(p; *) ! fi(p0; *0) + ss(q; i) in any frame in which the momenta are collinear:
+
+Mi(p0*0fi; p*ff) = (4fss )\Gamma 1(m2ff \Gamma m2fi)[X*i ]fiffffi*
+
+0*: (2:3)
+
+So far we have done nothing. In order to extract interesting physics it is necessary to determine experimentally, or otherwise, how the crossing-even and -odd amplitudes behave at high-energy. Here, by "high-energy" we mean energies of order the characteristic scale at which the momentum expansion fails. It is conventional to denote this scale \Lambda O/ , mae. At these energies, Regge behaviour --or a mechanism of equivalent efficiency-- should kick in in order to soften the bad asymptotic behaviour implied by the derivative expansion. We will require that the sum of all chiral tree graphs behave no worse than what Regge pole theory suggests for the full amplitude [3]. The crossing-odd amplitude is pure It = 1, for which Regge theory suggests
+
+M It=1fij;ffi (!; *) \Gamma \Gamma !!!1 !ff1(0)\Gamma 1; (2:4) where ff1(0) ' 0:5 is the intercept of the ae trajectory. If not familiar with this sort of language, one should instead note that there is substantial phenomenological evidence which suggests that the amplitude with It = 1 satisfies an unsubtracted dispersion relation; witness the successful determination of gA. In fact, we only make use of properties of Regge pole theory which have proved remarkably successful experimentally and so might be said to exhibit QCD behaviour [16]. In any case, C(\Gamma ) vanishes, leading to the generalized Adler-Weisberger (A-W) sum rule [3]
+
+[X*i ; X*j ]fiff = ifflijk(Tk)fiff: (2:5) Together with Eq. (2.5), the defining relations
+
+[Ti; Tj] = ifflijkTk; (2:6) and
+
+[Ti; X*j ]fiff = ifflijk(X*k )fiff (2:7) close the chiral algebra and we see that for each helicity, *, hadrons fall into representations of SU (2) \Theta SU (2), in spite of the fact that the group is spontaneously broken. However,
+
+7 Xi does not commute with the mass-squared matrix, ^m2, and therefore, in general, these representations are reducible. Consequently, additional constraints are required in order to fix the coefficients which mix the various irreducible representations. It is the reducibility of these representations that "hides" chiral symmetry at low-energies.
+
+Parity conservation has an important consequence. A combined space reflection and 180o rotation about the collinear direction in the process ff ! fi + ss leads to the selection rule [3]
+
+[Xi\Gamma *]fiff = \Gamma PffPfi(\Gamma )Jff\Gamma Jfi [Xi*]fiff; (2:8) where Pff and Jff are the intrinsic parity and spin of ff, respectively. The case of zero-helicity is of special interest as there is an additional quantum number to take into account. In the language of symmetries this is so because the SU (2)\Theta SU (2) algebra has an endomorphism, \Pi , which leaves the algebra invariant: \Pi Xi\Pi = \Gamma Xi, and \Pi Ti\Pi = Ti [7]. The eigenvalues of \Pi are normality, jff j Pff(\Gamma )Jff. Eq. (2.8) implies that [Xi0]fiff must vanish unless ff and fi satisfy the selection rule Pff(\Gamma )Jff = \Gamma Pfi(\Gamma )Jfi . So only zero-helicity states of opposite normality communicate by single-pion emission and absorption.
+
+The crossing-even amplitude has both It = 0 and It = 2, and so, in general, one must make an assumption2 about Regge trajectories with exotic (I = 2) quantum numbers in order to extract useful information about the mass-squared matrix [3]. Regge pole theory suggests
+
+M It=2fij;ffi (!; *) \Gamma \Gamma !!!1 !ff2(0); (2:9) where ff2 is the leading trajectory with exotic quantum numbers. The assumption that such trajectories are absent, ff2(0) ! 0, allows the derivation of superconvergence relations, which imply that C(+)ji is proportional to ffiji (i.e. pure It = 0). It then follows from Eq. (2.5) and a Jacobi identity that [3]
+
+[X*j ; [m2; X*i ]]fiff = \Gamma [m24]fiffffiij: (2:10) This commutation relation implies that the hadronic mass-squared matrix is the sum of a chiral invariant and the fourth component of a chiral 4-vector; i.e. ^m2= ^m20+ ^m24. When
+
+^m24 vanishes, the mass matrix, ^m2, commutes with Xi, and hadrons of a given mass form complete chiral multiplets. Since ^m24 is related to the It = 0 amplitude, we see that it is
+
+2 Note that if the hadrons in consideration carry only isospin 12 , with no single-pion transitions to states of higher isospin, any crossing-even amplitude is pure isoscalar in the t-channel, and there is thus no need for a further assumption.
+
+8 the exchange of Regge trajectories with vacuum quantum numbers that prevents chirality from showing up as an explicit (linear) symmetry of the strong interactions [17]. In modern language, ^m24 is the order parameter; when it vanishes, chiral symmetry is restored. This is no surprise since ^m24 transforms like the quark condensate, h _i3.
+
+Consider a system of I = 12 mesons. There are clearly no I = 32 mesons. So assuming that there are no pion-meson bound states (presumably an exact statement in the large-Nc limit), I = 12 mesons have no single-pion transitions to states of higher isospin. Therefore, insofar as unbroken chiral symmetry is concerned, I = 12 mesons behave much like constituent quarks. Hence, our discussion parallels that of Ref. 8. The fundamental difference is that mesons carry integer helicity. The only representations of SU (2) \Theta SU (2) that contain only a single I = 12 representation of the diagonal isospin subgroup are (0; 12 ) and ( 12 ; 0) [8]. So, in general, I = 12 states of definite helicity are linear combinations of any number of these irreducible representations with undetermined coefficients [8]. Mass splitting can only occur as a consequence of mixing between these representations since ^m2 is a sum of (0; 0) ( ^m20) and ( 12 ; 12 ) ( ^m24) contributions. In a basis in which all linear combinations of (0; 12 ) and ( 12 ; 0) irreducible representations appear in that order, the mass-squared matrix takes the supermatrix form [8]
+
+^m2 = ` ^A 00 ^B ' + ` 0 ^G^Gy 0 ' : (2:11) For * = 0 there are two distinct sectors of opposite normality. The effect of the normality operator is to change (0; 12 ) representations into ( 12 ; 0) representations and vice versa. Since \Pi commutes with ^m2, it follows that ^A = ^B and ^G = ^Gy. Eigenstates with j = (\Sigma ) are eigenvectors of ^A \Sigma ^G. In what follows we will concentrate solely on the helicity zero sector, unless otherwise stated.
+
+We now consider the most general statements that we can extract from the A-W sum rule. There are two ways to proceed [3]. One can work directly with the physical states, as one would in saturating a dispersion integral with a given number of resonances, or one can make use of the representation theory to build up physical particle states as sums of irreducible representations of SU (2)\Theta SU (2). Both methods will be used in this paper. The matrix element of Xi between two arbitrary I = 12 states, ff and fi, of opposite normality is
+
+hfijXijffi = Tir 43 hfijjXjjffi j Tigfiffss; (2:12) 3 Consider the O(4) vector: (2 _ifl5Ti; _) [18].
+
+9 where Ti = o/i=2 and the o/i are the Pauli matrices, and hfijjXjjffi is a reduced matrix element. Eq. (2.12) is simply the Wigner-Eckart theorem for a system of I = 12 states. The generalized A-W sum rule, Eq. (2.5), can easily be shown to take the form [3]X
+
+fl
+
+gfiflssgflffss = ffififf: (2:13)
+
+This form is ideally suited for a direct confrontation with experiment, as we will see below.
+
+Next we establish the representation theory for general I = 12 states. The action of \Pi and Xi on states labelled by their SU (2)L and SU (2)R content, respectively, is given by
+
+\Pi j0 12 il = j 12 0il (\Pi 2 = 1) Xij0 12 il = Tij0 12 il Xij 12 0il = \Gamma Tij 12 0il:
+
+(2:14)
+
+The states of definite normality --labelled by their j content-- are
+
+j\Sigma il j j0 12 il \Sigma j 12 0il: (2:15) Clearly \Pi j\Sigma il = \Sigma j\Sigma il and Xij\Sigma il = Tij\Upsilon il. We can now express the physical states, fi and ff, as sums of any number of fundamental states belonging to the allowed irreducible representations:
+
+jfii = X
+
+k
+
+bkj\Gamma ik
+
+jffi = X
+
+l
+
+alj+il; (2:16)
+
+where bk and al are unknown coefficients. Sandwiching Xi between these states yields
+
+hfijXijffi = Ti PkbkakpP
+
+ljblj2Pmjamj2
+
+: (2:17)
+
+The Schwarz inequality then implies jgfiffssj ^ 1. So the pion interactions of the helicity zero states of I = 12 mesons are bounded as a consequence of their participation in multiplets of unbroken SU (2) \Theta SU (2). In order to go further --that is, fix the coefficients, bk and al-- we must further constrain the asymptotic behaviour of the pion scattering amplitude.
+
+All that remains unconstrained is the part of the crossing-even amplitude which carries It = 0. Therefore, Regge trajectories with vacuum quantum numbers necessarily play a crucial role in determining the chiral multiplet structure of hadrons in the broken phase. Regge pole theory suggests
+
+M It=0fij;ffi (!; *) \Gamma \Gamma !!!1 !ff0(0); (2:18)
+
+10 where ff0 is the leading trajectory with vacuum quantum numbers. We assume that there are no I = 0 Regge trajectories with ff0(0) * 0 which contribute to transitions in which ff and fi represent different physical states [3,7]. In other words, we assume that scattering becomes purely elastic at high energies. Certainly phenomena suggest that this a good approximation. For example, the cross sections for the processes ss + N ! a1(1260) + N and N + N ! N \Lambda (1440) + N are less than 10% of those for ss + N ! ss + N and N + N ! N + N , respectively [19,20]. Although, this can be understood on the basis of simple "diffraction" arguments, it is certainly not clear --from the point of view of QCD-- why this is the case. Here we treat this constraint as experimental input. However, there also exists compelling theoretical evidence in favor of this assumption. In the pion sector, this assumption (together with the other algebraic sum rules) leads to ubiquitous relations such as m2ae = 2g2aessssfss2 --known as one of the KSRF relations [21], and m2a1 = 2m2ae, which can be derived independently using spectral function sum rules and vector meson dominance [22]. In any case, this assumption leads to a superconvergence relation, which can be expressed in Lie-algebraic form as [3,7]
+
+[m2; [X*i ; [X*j ; m2]]]fiff = 0: (2:19) This sum rule is simply the statement that ^m20 and ^m24 commute, or using Eq. (2.10),h
+
+ffj ^m24jfii = 0 when ff 6= fi. We can immediately extract the general consequences of this sum rule for the helicity zero states of the I = 12 mesons. We specialize a general theorem proved in Ref. 8 to zero helicity.
+
+As shown above, physical eigenstates of j = (\Sigma ) are eigenstates of ^A \Sigma ^G. Eq. (2.19) implies that ^A and ^G commute. Suppose that the vector ~a represents a physical state in the j = (+) basis, as in Eq. (2.16). Since ^A and ^G commute, ~a is a simultaneous eigenvector of
+
+^A and ^G, say with eigenvalues _2 and \Delta , respectively. Similarly, suppose that the vector
+
+~b represents a physical state in the j = (\Gamma ) basis; ~b is also a simultaneous eigenvector of ^A
+
+and ^G. There are then two possibilities: ~a and ~b have different eigenvalues in which case ~a \Delta ~b = 0, or ~a and ~b have the same eigenvalues in which case j~a \Delta ~bj = 1. Therefore, if we
+
+assume that there are no degenerate states of the same normality, it follows that only pairs of states with masses _2 \Sigma \Delta communicate by single-pion emission and absorption. Since ~a and ~b are the physical states defined in Eq. (2.16), it follows immediately that jgfiffssj = 1
+
+if ff and fi are paired, or gfiffss = 0, otherwise. This result is completely general and applies to all * = 0 states of the I = 12 mesons4. These mesons come in two varieties: Kaons
+
+4 In what follows, when we refer to the algebraic content of chiral symmetry, or the consequences of unbroken chiral symmetry, we will have this general consequence of the three chiral commutation relations in mind.
+
+11 and heavy mesons (D- and B-mesons). The Kaons are best suited to phenomenological analysis, and will be investigated later. However, the interactions of heavy mesons with pions are also constrained by heavy quark symmetry.
+
+3. Heavy Quark Symmetry
+
+In general, it is problematic to study pion-meson interactions in a systematic lagrangian formulation. For example, the ae meson can decay to two pions inside any Feynman diagram in which it appears. This decay generates a momentum transfer of order the ae mass, and is therefore not consistent with chiral power counting. So in studying the representations of unbroken chiral symmetry involving ae, one loses touch with the systematic effective lagrangian language5. In order to specialize to the subset of all chiral tree graphs -- which was essential in deriving the algebraic sum rules-- one must fall back on the large-N
+
+c approximation [5,7]. When heavy mesons are involved, the situation is somewhat ameliorated since heavy quark symmetry implies helpful degeneracies. In particular, we
+
+can justify the chiral tree approximation without invoking the large-Nc approximation if we are willing to assume that the mass splitting between any two members of a given heavy meson chiral multiplet is small compared to \Lambda O/. As long as this is the case, restriction to chiral tree graphs is automatic when one works to leading order in O/P T . Of course in O/P T there are tree graphs with any number of derivatives acting at the vertices, but these --together with loop graphs-- are higher order in the chiral expansion, and therefore constitute a small effect. This observation serves to illustrate that with heavy mesons it is not clear that the large-Nc limit is necessary in order to justify the chiral tree graph approximation.
+
+The effective lagrangian technology which allows one to study the chiral invariant pion transitions of heavy mesons is called heavy hadron O/P T [24]. Heavy hadron O/P T provides an expansion in powers of momenta divided by \Lambda O/ , mae, and in powers of \Lambda QCD divided by the heavy hadron mass. Hence, one would expect good results for charm and bottom mesons. Mesons containing a heavy quark can be classified by the spin (s`) and the parity (ss`) of the light quark [14]. Consequently, heavy mesons fall into degenerate doublets
+
+5 This is true only for the * = 0 sector. Recently, it has been shown that one can study pion transitions within the vector nonet in systematic fashion, since mass splittings are of order the pion mass or less [23]. Here unbroken chiral symmetry gives an interesting prediction: if the * = 1 states of the ae and the ! fill out a (2; 2) representation of SU (2) \Theta SU (2), then jg2j = 1 (see also Ref. 4).
+
+12 labelled by sss\Sigma = (s` \Sigma 12 )ss`. The ground state mesons have s` = 12 and ss` = (\Gamma ) and are denoted P (0\Gamma ) and P \Lambda (1\Gamma )6. This doublet can be arranged [24] into the "superfield"
+
+Ha = (1 + /v)p2 fP \Lambda _a fl_ \Gamma Pafl5g; (3:1) which transforms as Ha ! HaU yba under SU (3) \Theta SU (3). The first excited states have s` = 12 and ss` = (+), and are denoted P \Lambda 0 (0+) and P 01 (1+). These states are unobserved in both the D and B meson systems, and yet necessarily play an important role in what follows. In fact, our results will provide a plausible explanation for why these states are not observed. At the next level we have s` = 32 and ss` = (+), corresponding to P1 (1+) and P \Lambda 2 (2+). The states belonging to this multiplet are identified as D1(2420) (neutral) and D\Lambda 2(2465) (neutral), and B1(5725) and B\Lambda 2(5737). These four excited states can also be assembled [25,26] into the "superfields"
+
+Sa = (1 + /v)p2 fP 01_a fl_fl5 \Gamma P \Lambda 0 ag; (3:2) and
+
+T _a = (1 + /v)p2 fP \Lambda 2 _*a fl* \Gamma r 32 P1*afl5[g_* \Gamma 13 fl*(fl_ \Gamma v_)]g: (3:3) With respect to chiral symmetry, Sa and T _a transform like Ha. The three superfields transform as H ! SH under the heavy quark spin symmetry group, SU (2)v (S 2 SU (2)v). The kinetic terms of the three lowest lying doublets take the form
+
+Lkin = \Gamma T r[ _Haiv \Delta DbaHb] +T r[ _Sa(iv \Delta Dba\Gamma ffimS ffiba)Sb] + T r[ _T _a (iv \Delta Dba \Gamma ffimT ffiba)Tb_]; (3:4) where mass splitting between the doublets has been taken into account. The residual masses, ffimS = MP \Lambda 0 \Gamma MP = MP 01 \Gamma MP and ffimT = MP1 \Gamma MP = MP \Lambda 2 \Gamma MP , are defined in the heavy quark limit where the doublets are degenerate [25]. The covariant derivative is given by
+
+D_ab j ffiab@_ + V _ab = ffiab@_ + 12 (,y@_, + ,@_,y)ab; (3:5) and transforms as (D_H)a ! (D_H)aU yba under SU (3) \Theta SU (3). The Goldstone bosons are contained in the matrix field , = exp (iM=fss ), where
+
+6 The "\Lambda " superscript indicates positive normality (j = (+)), since, by convention, "\Lambda " is assigned to states in the spin-parity series J P = 0+; 1\Gamma ; 2+; : : :.
+
+13 M =
+
+266 664
+
+(1=p2)ss0 + (1=p6)j ss+ K+
+
+ss\Gamma \Gamma (1=p2)ss0 + (1=p6)j K0 K\Gamma _K0 \Gamma q23 j
+
+377 775 : (3:6)
+
+Out of , one can also construct
+
+A_ab = 12 i(,y@_, \Gamma ,@_,y)ab; (3:7) which transforms as A_ba ! UacA_cdUdb under SU (3)\Theta SU (3). The S-wave pion transitions within the heavy meson doublets are contained in the interaction lagrangian [24,25]
+
+L1ss = g T r \Theta _HaHb /Abafl5\Lambda + g0 T r \Theta _SaSb /Abafl5\Lambda + g00 T r \Theta _TaTb /Abafl5\Lambda : (3:8) The S-wave pion transitions among the heavy meson doublets arise from
+
+Ls = f 0 T r \Theta _SaT _b A_bafl5\Lambda + h T r \Theta _HaSb /Abafl5\Lambda + h:c: (3:9) Heavy quark symmetry forbids S-wave single-pion transitions between T _a and the groundstate mesons [14]. In effect, this term is absent from Ls. Higher partial waves arise from non-leading operators in the chiral expansion [25]. It is important to realize that these two lagrangians are fundamentally different. The mass splittings between the members of any heavy meson doublet are protected by heavy quark symmetry and therefore one might expect the interactions encoded in L1ss to respect chiral power counting. On the other hand, the mass splittings between heavy meson doublets are unbounded and so the interactions encoded in Ls are sensible only to the extent that these mass splittings are observed to be small. In the D and B meson systems the mass splitting between the 32 + doublet and the ground state doublet is around 400 MeV and so it is not unreasonable to expect that heavy hadron O/P T works for the interactions among the three lowest lying doublets.
+
+Heavy quark symmetry also constrains the heavy meson mass matrix. Mass splitting within the ground state doublet arises from the chromomagnetic-moment interaction term [24]
+
+*2 mQ T r \Theta _Haoe
+
+_* Haoe_* \Lambda ; (3:10)
+
+which yields MP \Lambda \Gamma MP = \Gamma 2*2=mQ j \Delta 2. *2 is independent of the heavy quark mass --up to a logarithmic dependence which is calculable in perturbative QCD [27]. For charm and bottom mesons, the mass difference, \Delta 2, is of order the pion mass, or less. As noted,
+
+14 this small mass splitting is essential to the consistency of heavy hadron O/P T . We learn more about the heavy meson mass matrix by working directly with the heavy quark degrees of freedom. The mass splitting operator in the heavy meson lagrangian arises from 1=mQ corrections to the heavy quark lagrangian [28]
+
+LHQET = _Qiv \Delta DQ + 12m
+
+Q
+
+_Q(iD)2Q \Gamma 12m
+
+Q
+
+_Qoe_* ( 12 gG_* )Q + : : : ; (3:11)
+
+which is obtained from QCD in the mQ ! 1 limit. Here Q represents a heavy quark field of definite velocity. The second and third term in Eq. (3.11) contribute to the heavy meson masses. The second term is the heavy quark kinetic energy and the third term arises from the chromomagnetic-moment of the heavy quark. The ground state heavy meson doublet contains a spin-zero and a spin-one meson. Hence, to order 1=mQ the masses can be expressed as [29,30]
+
+MP = mQ + _\Lambda (P ) + 1m
+
+Q f
+
+~K(P ) + ~G(P )g (3:12)
+
+MP \Lambda = mQ + _\Lambda (P ) + 1m
+
+Q f
+
+~K(P ) \Gamma 13 ~G(P )g; (3:13)
+
+where _\Lambda is a positive contribution --independent of the heavy quark mass-- and
+
+~K(H) = hHj 12 _QD2QjHi (3:14) ~G(H) = hHj 12 _Qoe_*( 12 gG_*)QjHi; (3:15) with jHi normalized to unity. These matrix elements are independent of the heavy quark mass. It then follows that MP \Lambda \Gamma MP = \Gamma 43 ~G=mQ, and one sees how the parameter *2 of heavy hadron chiral perturbation theory matches to a matrix element of a heavy quark operator. This general form for the masses in the 1=mQ expansion implies useful constraints among linear combinations of masses. To order 1=mQ, the combination 3MP \Lambda + MP is independent of ~G. This is a simple consequence of the fact that the leading mass splitting between P and P \Lambda arises from the coupling of the spin of the light quark to the spin of the heavy quark. This constraint leads to relations among heavy hadron masses that agree well with experiment [29]. Applying identical arguments to the excited state doublets, one finds that the combinations 3MP 01 + MP \Lambda 0 and 3MP1 + 5MP \Lambda 2 are also independent of ~G(H). In general, for a heavy meson doublet of states PJ1 and P \Lambda J2, the combination (2J1 + 1)MPJ1 + (2J2 + 1)MP \Lambda J2 is independent of mass splitting between PJ1 and P \Lambda J2, to order 1=mQ.
+
+One can also consider the constraints that exist among the squared masses. Directly from Eq. (3.12) and Eq. (3.13) we obtain
+
+15 M 2P = (mQ + _\Lambda )2 + 2f ~K + ~Gg + O( 1m
+
+Q ) (3:16)
+
+M 2P \Lambda = (mQ + _\Lambda )2 + 2f ~K \Gamma 13 ~Gg + O( 1m
+
+Q ); (3:17)
+
+and so M 2P \Lambda \Gamma M 2P = \Gamma 83 ~G + O(1=mQ). Hence, in the heavy quark limit, the mass-squared splitting in the ground state heavy meson doublet is independent of the heavy quark mass (again up to logarithmic corrections). This is certainly borne out by experiment, which gives [31]:
+
+M 2D\Lambda \Gamma M 2D = 0:56 GeV2 M 2B\Lambda \Gamma M 2B = 0:55 GeV2 M 2K\Lambda \Gamma M 2K = 0:53 GeV2:
+
+(3:18)
+
+Of course, why this works for kaons as well remains a mystery. What constraints exist among linear combinations of squared masses? In the heavy quark limit, the combination 3M 2P \Lambda +M 2P is independent of ~G. In general, the combination (2J1 +1)M 2PJ1 +(2J2 +1)M 2P \Lambda
+
+J2is independent of the mass-squared splitting between P
+
+J1 and P \Lambda J2, in the heavy quark limit.
+
+In summary, constraints on the mass matrix, up to order 1=mQ, translate to identical
+
+constraints on the mass-squared matrix in the heavy quark limit. These constraints will prove useful in what follows. It is important to realize that these constraints are rigorous consequences of QCD in the heavy quark expansion.
+
+4. Mended Chiral Symmetry in the Heavy Quark Limit
+
+We are now in a position to consider the joint consequences of unbroken SU (2)\Theta SU (2) and heavy quark symmetry. There is, of course, no loss of generality in considering the SU (2) \Theta SU (2) representation content of the heavy mesons; heavy quark symmetry and SU (3) automatically relate the isospin couplings to the strange couplings. We first relate the coupling constants that appear in the heavy hadron effective lagrangian to matrix elements of the axial-vector matrix, Xi:
+
+hP jX0i jP \Lambda i = gTih P jX0i jP \Lambda 0 i = hP 01jX0i jP \Lambda i = hTih
+
+P 01jX0i jP \Lambda 0 i = g0Tih P1jX0i jP \Lambda 0 i = hP 01jX0i jP \Lambda 2 i = f 0Tih
+
+P1jX0i jP \Lambda 2 i = g00Ti:
+
+(4:1)
+
+16 Here and below, the overall phases have been fixed by convention. In making this identification, we are clearly working to leading order in heavy hadron chiral perturbation theory. What about the transition matrix elements between non-zero helicity states? Since, to leading order in chiral perturbation theory, all single-pion transitions are in the S-wave, there is no distinction between the various transitions of definite helicity. For example, in general, the transition amplitude P 01 ! P \Lambda + ss has two independent coupling constants, and so the * = 0 and * = \Sigma 1 transitions are independent. However, when one restricts to S-waves, there is a single operator --proportional to ffl(P 01) \Delta ffl(P \Lambda ), where ffl(H)_ is the polarization vector of H. The remaining transition amplitudes among the three lowest-lying heavy meson doublets are given by
+
+hP \Lambda jX\Sigma 1i jP \Lambda i = \Sigma gTih
+
+P 01jX\Sigma 1i jP \Lambda i = hTih P 01jX\Sigma 1i jP 01i = \Sigma g0Tih P 01jX\Sigma 1i jP1i = \Sigma f 0Tih P 01jX\Sigma 1i jP \Lambda 2 i = f 0Tih P1jX\Sigma 1i jP1i = \Sigma g00Tih P \Lambda 2 jX\Sigma 1i jP \Lambda 2 i = hP \Lambda 2 jX\Sigma 2i jP \Lambda 2 i = \Sigma g00Ti:
+
+(4:2)
+
+Parity conservation relates the matrix elements with * to those with \Gamma * via the selection rule, Eq. (2.8). In the next section, we will see how the chiral representation content of the helicity zero states self-consistently determines the representation content of non-zero helicity states. This must be the case, as they are not independent, and thus provides an important consistency check. As shown above (see Eq. (2.17)), the heavy meson coupling constants are bounded as a consequence of the participation of heavy mesons in multiplets of unbroken chiral symmetry: g, h, g0, f 0 and g00 must all take values between \Gamma 1 and 1.
+
+Consider the representation of unbroken SU (2) \Theta SU (2) involving the ground-state heavy meson doublet. As illustrated in Table 4.1, the general theorem deduced from the three chiral commutation relations allows two scenarios consistent with heavy quark symmetry: (i) P is paired with P \Lambda 0 , and P \Lambda is paired with P 01. This yields jhj = 1, g = g0 = f 0 = 0. (ii) P is paired with P \Lambda . This yields jgj = 1 and h = 0. Here we assume that only adjacent heavy meson states participate in a given chiral multiplet. One might suppose that since P \Lambda 0 and P 01 are unobserved, P could be paired with P \Lambda 2 . However, as noted above, this transition is forbidden by heavy quark symmetry. So in the absence of the 12 + doublet, case (ii) would have to be realized.
+
+It is straightforward to show that case (ii) is inconsistent with QCD in the heavy quark limit. If P and P \Lambda are paired, then we know from the general considerations discussed
+
+17 Table 4.1: The "horizontal" heavy quark symmetry allows two general chiral multiplet structures. The brackets denote sectors that do not communitate by S-wave single-pion transitions.
+
+8! :
+
+P P \Lambda l l
+
+P \Lambda 0 P 01
+
+9= ;8!
+
+:
+
+P1 P \Lambda 2
+
+...
+
+9= ; (i)
+
+f P ! P \Lambda g8! :
+
+P \Lambda 0 P 01
+
+P1 P \Lambda 2.
+
+..
+
+9= ; (ii)
+
+above that their squared-masses can be written as _2 \Sigma \Delta , which leads to M 2P \Lambda \Gamma M 2P = 2\Delta , where \Delta (6= 0) is a diagonal element of the matrix ^m24. This pairing is clearly inconsistent with the constraint that 3M 2P \Lambda + M 2P be independent of \Delta in the heavy quark limit. Hence, case (ii) is inconsistent with QCD in the heavy quark limit7. On the other hand, as we will see below, case (i) easily accommodates this constraint. Since no two members of any heavy meson doublet have the same spin, no two members of any heavy meson doublet can be paired as in case (ii) and so our conclusion is universal; the trend exhibited by the two lowest lying doublets in Table 4.1(i) must be realized by all heavy meson quartets labelled by the light quark spin. Therefore, in the heavy quark limit, the algebraic content of chiral symmetry determines the S-wave8 single-pion transition amplitudes of all heavy meson states. We exhibit the solution diagramatically in Figure 4.1. In a very general sense, this solution leads one to expect that for a given light quark spin, the members of the higher-lying heavy meson doublet should experience strong S-wave pion decays and therefore should have large widths (assuming, of course, kinematically open channels), and the members of the lower-lying heavy meson doublet should experience no S-wave pion decays and therefore should have small widths. As regards the lowest lying doublets, we conclude that g = g0 = g00 = f 0 = 0 and jhj = 1. This is our main result.
+
+7 Note that this argument implicitly assumes that there are no magical cancellations among the various terms which contribute to the heavy meson mass-squared matrix in the heavy quark limit. For example, if we fine-tune the mass matrix so that \Gamma 3 ~K = ~G, then presumably case (ii) would be allowed.
+
+8 Here we are assuming that heavy hadron O/P T works not only within the lowest-lying
+
+quartet, but within any arbitrary quartet. That is, we assume that the mass splittings between heavy mesons with the same light quark spin are small compared to \Lambda O/.
+
+18 .fl .fl .fl
+
+.fl
+
+.fl .fl .fl
+
+.fl
+
+.fl .fl .fl
+
+.fl
+
+.fl .fl .fl
+
+.fl Jfl
+
+0fl 1fl 2fl 3fl 4fl
+
+Mfl2fl 1/2flsfllfl=fl
+
+7/2flsfllfl=fl 5/2flsfllfl=fl
+
+3/2flsfllfl=fl
+
+-fl4fl
+
+2fl+fl 0fl+fl 1fl+fl
+
+4fl+fl 3fl+fl3fl-fl 2fl-fl
+
+0fl-fl 1fl-fl
+
+1fl+fl 1fl-fl
+
+2fl+fl2fl-fl
+
+3fl+fl 3fl-fl
+
+Figure 4.1: The eight lowest lying heavy meson doublets placed on Regge-like trajectories. Here we assume uniform mass-squared splittings between exactly degenerate doublets. The dashed (dotted) lines correspond to even (odd) normality trajectories. The solid lines denote S-wave singlepion transitions allowed by unbroken chiral symmetry.
+
+As an aside, note that this conclusion also follows independently from a further constraint on the asymptotic behaviour of heavy meson scattering amplitudes. Again assume that P and P \Lambda are paired. In the heavy quark limit, P and P \Lambda are degenerate and so we must have \Delta o/ M 2P . Suppose \Delta = 0 for simplicity. There is then no exchange of Regge trajectories with vacuum quantum numbers in the processes ssP ! ssP and ssP \Lambda ! ssP \Lambda in the heavy quark limit. There is no reason why this should be the case. In fact, this would suggest that the heavy quark limit is inconsistent with broken chiral symmetry. Put another way, chiral symmetry is spontaneously broken by the non-perturbative dynamics of the light quarks, independent of what the heavy quarks are doing, and so the heavy quark limit should not imply the vanishing of the matrix elements of ^m24 between physical states. That is, we expect that hPij ^m24jPii 6= 0 and hPi\Lambda j ^m24jPi\Lambda i 6= 0 when M 2Pi\Lambda = M 2Pi. The subscript labels the heavy quark doublet. This condition eliminates case (i) and yields the same conclusions as above. It is interesting that a QCD constraint on the heavy
+
+19 hadron mass-matrix is equivalent to a constraint on the exchange of Regge trajectories with vacuum quantum numbers in a heavy hadron scattering process.
+
+Our work is not yet done. We must show that the heavy mesons can be accommodated in a representation of unbroken SU (2) \Theta SU (2) which is consistent with the above constraints. There are, in principle, an infinite number of representations that will yield case (i). In general, P is paired with P \Lambda 0 , with masses _2 \Sigma \Delta , and P \Lambda is paired with P 01, with masses *2 \Sigma \Delta 0. This corresponds to two independent chiral doublets. In the heavy quark limit a consistent solution to the QCD constraints exists if _2 = *2 and \Delta 0 = \Delta =3. We then have: M 2P \Lambda = _2 + 13 \Delta , M 2P = _2 \Gamma \Delta , M 2P \Lambda
+
+0 = _
+
+2 + \Delta , and MP
+
+01 = _2 \Gamma 13 \Delta .
+
+These mass relations provide an interesting consistency check since evidently the algebraic content of chiral symmetry ensures that if P and P \Lambda satisfy the QCD mass constraints, then so do P \Lambda 0 and P 01. Moreover, the relations between the mass-squared matrices of the chiral doublets imply that the doublets are not independent, but rather are embedded in a larger representation. We search for this representation in the next section.
+
+5. Chiral quartets in the Heavy Meson Spectrum
+
+Based on our assumptions, the ground- and first excited-state doublets do not communicate at all with higher level states via S-wave pion exchange. Therefore, we will consider a chiral quartet composed of P , P \Lambda , P 01, and P \Lambda 0 . The "true" representation could, in principle, be more complicated. However, as we will see, a quartet is the simplest representation which relates the squared-masses of these states in the manner required by unbroken chiral symmetry in the heavy quark limit. We will see how the various scenarios emerge in the representation theory. It is straightforward to show that the generalized A-W sum rule, Eq. (2.13), implies the three independent relations
+
+g2 + h2 = 1 gh + hg0 = 0 g02 + h2 = 1:
+
+(5:1)
+
+All S-wave transitions between the quartet and all higher excited states necessarily vanish, so f 0 = 0, etc. How do these sum rules arise in the representation theory? We can define four fundamental (normalized) states of definite normality:
+
+20 jOE\Sigma i j 1p2 (j0 12 iOE \Sigma j 12 0iOE) j\Sigma i j 1p2 (j0 12 i \Sigma j 12 0i):
+
+(5:2)
+
+The most general reducible chiral quartet filled out by the ground- and first excited-state heavy meson doublets is then
+
+jP i = sin `jOE\Gamma i \Gamma cos `j\Gamma ij
+
+P 01i = cos `jOE\Gamma i + sin `j\Gamma i (5:3)
+
+jP \Lambda i = sin fljOE+i + cos flj+ij
+
+P \Lambda 0 i = cos fljOE+i \Gamma sin flj+i: (5:4)
+
+With this representation content, it follows from Eq. (4.1) that
+
+g = \Gamma cos(` + fl) = \Gamma g0 h = sin(` + fl); (5:5) which are, of course, the entire content of the A-W sum rules, Eq. (5.1). Although here, we see that the values of the coupling constants that appear in the heavy meson lagrangian are fixed by a single unknown --the sum, ` + fl, of the mixing angles between the fundamental states of definite normality.
+
+What about the remaining non-zero helicity states? Within the quartet, there are two states with * = +1, which can be put into the chiral doublet:
+
+jP \Lambda i(+1) = sin fi+j0 12 iffi \Gamma cos fi+j 12 0iffij
+
+P 01i(+1) = cos fi+j0 12 iffi + sin fi+j 12 0iffi: (5:6)
+
+Taking matrix elements of Xi between these states, and using Eq. (4.2) yields
+
+g = \Gamma cos(2fi+) = \Gamma g0 h = sin(2fi+); (5:7)
+
+which again yield the entire content of Eq. (5.1), as they must. Therefore, fi+ = (` + fl)=2, and we see that the helicity zero states fix the representation content of non-zero helicity states, a consequence of the pure S-wave nature of the single-pion transitions to leading order in heavy hadron O/P T . Notice also that the non-zero helicity states are then automatically consistent with the general theorem given in Ref. 8, which we specialized to zero helicity. Similarly, there are two states with * = \Gamma 1, which can be placed in the (independent) doublet:
+
+21 jP \Lambda i(
+
+\Gamma 1) = sin fi\Gamma j0 1
+
+2 ij \Gamma cos fi
+
+\Gamma j 12 0i
+
+jj
+
+P 01i(
+
+\Gamma 1) = cos fi\Gamma j0 1
+
+2 ij + sin fi
+
+\Gamma j 12 0i
+
+j:
+
+(5:8)
+
+Parity conservation relates the * = 1 and \Gamma 1 mixing angles: fi\Gamma + fi+ = ss=2.
+
+Next we consider the constraints on the mass-squared matrix. Working directly with physical states, the superconvergent sum rule, Eq. (2.19), can be expressed in the form [3]X
+
+fl
+
+gfiflssgflffss \Gamma M 2fl \Gamma M 2fi \Delta = 0: (5:9)
+
+Our quartet is subject to the sum rules
+
+gh(M 2P \Lambda \Gamma M 2P 01) + hg0(M 2P \Lambda 0 \Gamma M 2P 01) = 0 gh(M 2P \Gamma M 2P \Lambda 0 ) + hg0(M 2P 01 \Gamma M 2P \Lambda 0 ) = 0; (5:10) which together with Eq. (5.1) imply
+
+gh(M 2P \Gamma M 2P 01) = gh(M 2P \Lambda \Gamma M 2P \Lambda 0 ) = 0: (5:11) In accord with the general theorem, there are three ways to satisfy these sum rules. If the same-normality states are degenerate, then the sum rules leave the coupling constants undetermined. This option is simply not realized in nature and so in what follows we will ignore it. We then have our familiar alternatives: (i) g = 0, which implies jhj = 1, or (ii) h = 0, which implies g = \Gamma g0 = 1 or \Gamma 1. We can also see how these alternatives arise in the representation theory.
+
+In the quartet basis in which j0 12 iOE, j0 12 i, j 12 0iOE, and j 12 0i appear in that order in the mass-squared matrix, ^m2, the mass-squared sub-matrices take the form
+
+^A = ` m2a m2cm2
+
+c m2b ' ;
+
+^G = ` ~m2d ~m2f~m2
+
+f ~m2e ' ; (5:12)
+
+where the elements of ^A and ^G are undetermined. It is now straightforward to obtain the matrix elements in the physical basis, using Eq. (5.3), Eq. (5.4), and Eq. (5.12). The odd-normality (j = (\Gamma )) chiral-scalar mass-squared matrix elements are given by
+
+hP j ^m20jP i = 12 (m2a + m2b ) \Gamma 12 (m2a \Gamma m2b ) cos 2` \Gamma m2c sin 2` hP 01j ^m20jP 01i = 12 (m2a + m2b ) + 12 (m2a \Gamma m2b ) cos 2` + m2c sin 2` hP j ^m20jP 01i = 12(m2a \Gamma m2b ) sin 2` \Gamma m2c cos 2`;
+
+(5:13)
+
+and the chiral-four-vector matrix elements are given by
+
+22 hP j ^m24jP i = \Gamma 12( ~m2d + ~m2e ) + 12 ( ~m2d \Gamma ~m2e ) cos 2` + ~m2f sin 2` hP 01j ^m24jP 01i = \Gamma 12( ~m2d + ~m2e ) \Gamma 12 ( ~m2d \Gamma ~m2e ) cos 2` \Gamma ~m2f sin 2` hP j ^m24jP 01i = \Gamma 12 ( ~m2d \Gamma ~m2e ) sin 2` + ~m2f cos 2`:
+
+(5:14)
+
+Similarly, the even-normality (j = (+)) chiral-scalar matrix elements are given by
+
+hP \Lambda j ^m20jP \Lambda i = 12 (m2a + m2b ) \Gamma 12(m2a \Gamma m2b ) cos 2fl + m2c sin 2fl hP \Lambda 0 j ^m20jP \Lambda 0 i = 12 (m2a + m2b ) + 12(m2a \Gamma m2b ) cos 2fl \Gamma m2c sin 2fl hP \Lambda j ^m20jP \Lambda 0 i = 12 (m2a \Gamma m2b ) sin 2fl + m2c cos 2fl;
+
+(5:15)
+
+and the chiral-four-vector matrix elements are given by
+
+hP \Lambda j ^m24jP \Lambda i = 12 ( ~m2d + ~m2e ) \Gamma 12 ( ~m2d \Gamma ~m2e ) cos 2fl + ~m2f sin 2fl hP \Lambda 0 j ^m24jP \Lambda 0 i = 12 ( ~m2d + ~m2e ) + 12 ( ~m2d \Gamma ~m2e ) cos 2fl \Gamma ~m2f sin 2fl hP \Lambda j ^m24jP \Lambda 0 i = 12 ( ~m2d \Gamma ~m2e ) sin 2fl + ~m2f cos 2fl:
+
+(5:16)
+
+In order that ^m2 be diagonal in the physical basis, we must have
+
+1 2 (m
+
+2a \Gamma m2b \Gamma ~m2
+
+d + ~m2e ) sin 2` \Gamma (m2c \Gamma ~m2f ) cos 2` = 0
+
+1 2 (m
+
+2a \Gamma m2b + ~m2
+
+d \Gamma ~m2e ) sin 2fl + (m2c + ~m2f ) cos 2fl = 0:
+
+(5:17)
+
+There are six unknown matrix elements and two unknown angles --subject to two constraints. It is clear that further assumptions must be made in order to extract any interesting information about the mass-squared matrix.
+
+Assume that ^m20 and ^m24 commute. Since ^A and ^G transform as distinct irreducible representations of SU (2) \Theta SU (2), they are linearly independent. The condition that ^A and ^G commute then implies m2a = m2b and ~m2d = ~m2e 9. We then have
+
+M 2P = m2a \Gamma ~m2d \Gamma (m2c \Gamma ~m2f ) sin 2` M 2P 0
+
+1 = m
+
+2a \Gamma ~m2
+
+d + (m2c \Gamma ~m2f ) sin 2`
+
+M 2P \Lambda = m2a + ~m2d + (m2c + ~m2f ) sin 2fl M 2P \Lambda 0 = m2a + ~m2d \Gamma (m2c + ~m2f ) sin 2fl
+
+(5:18)
+
+9 We can also have the trivial solution m2c = ~m2f = 0. This yields two decoupled (independent) doublets; e.g., P paired with P \Lambda 0 , and P \Lambda paired with P 01.
+
+23 subject to the conditions m2c cos 2` = m2c cos 2fl = ~m2f cos 2` = ~m2f cos 2fl = 0. These conditions imply that 2` = ss=2 + nss and 2fl = ss=2 + mss, where m and n are arbitrary integers. Defining ` j m + n, we then have
+
+` + fl = ss2 (` + 1) ; (5:19) and so we once again find our two separate cases of interest: (i) ` is even in which case g = g0 = 0 and jhj = 1, and (ii) ` is odd in which case h = 0 and g = \Gamma g0 = 1 or \Gamma 1. These alternatives are, as they must be, the same as those obtained directly from the sum rule, Eq. (2.19), and from the general theorem. However, we have shown that case (ii) is ruled out in the heavy quark limit, since it implies mass-squared splittings within heavy meson doublets that do not respect QCD constraints. Therefore, we know that ` must be even. Suppose ` = fl = 3ss=4. We then have
+
+M 2P = \Gamma m2a + m2c\Delta \Gamma \Gamma ~m2d + ~m2f \Delta M 2P 0
+
+1 = \Gamma m
+
+2a \Gamma m2c\Delta \Gamma \Gamma ~m2
+
+d \Gamma ~m2f \Delta
+
+M 2P \Lambda = \Gamma m2a \Gamma m2c\Delta + \Gamma ~m2d \Gamma ~m2f \Delta M 2P \Lambda 0 = \Gamma m2a + m2c\Delta + \Gamma ~m2d + ~m2f \Delta :
+
+(5:20)
+
+It is straightforward to prove that m2c = 0 is a further consequence of the QCD constraints on the mass-squared matrix in the heavy quark limit. From Eq. (5.20) it follows that
+
+M 2P \Lambda \Gamma M 2P = \Gamma 2m2c + 2 ~m2d j 4ffi1 M 2P 01 \Gamma M 2P \Lambda 0 = \Gamma 2m2c \Gamma 2 ~m2d j 4ffi2 3M 2P \Lambda + M 2P = 4m2a + 4 \Gamma ffi1 \Gamma ~m2f \Delta 3M 2P 01 + M 2P \Lambda 0 = 4m2a + 4 \Gamma ffi2 + ~m2f \Delta :
+
+(5:21)
+
+In the heavy quark limit m2a = m2Q and so the general solution to the QCD constraints is ffi1 = \Gamma ffi2 = ~m2f , which gives m2c = 0, as promised. This solution also implies ~m2f = ~m2d=2. As one moves away from the heavy quark limit, this relation is necessarily badly broken as it implies that P 01 lies below P \Lambda , spectroscopically. This is not surprising, since ~m2f is not protected by heavy quark symmetry; it governs the splitting between heavy meson doublets. Away from the heavy quark limit, m2c can be non-zero. However, m2c governs splitting within the heavy meson doublets and so is protected by heavy quark symmetry. Therefore, m2c is small --of order 1=m2Q at the level of the mass matrix-- in accord with observed mass-squared splittings (see Eq. (3.18)). We conclude that away from the heavy quark limit, the squared masses take the general form
+
+24 M 2P = m2a \Gamma ( ~m2d + ~m2f ) M 2P 0
+
+1 = m
+
+2a \Gamma ( ~m2
+
+d \Gamma ~m2f )
+
+M 2P \Lambda = m2a + ( ~m2d \Gamma ~m2f ) M 2P \Lambda 0 = m2a + ( ~m2d + ~m2f );
+
+(5:22)
+
+which leads to the mass relation:
+
+M 2P \Lambda 0 + M 2P = M 2P 01 + M 2P \Lambda : (5:23) This relation implies universal mass-squared splittings within the heavy meson doublets belonging to the lowest-lying quartet. Note also that in the ^m24 ! 0 limit there is complete degeneracy. Of course, our conclusions are general and apply to all heavy meson states. We conclude that the zero-helicity states of heavy mesons form reducible chiral quartets labelled by the light quark spin; generalizing Eq. (5.3) and Eq. (5.4) yields:
+
+1p
+
+2 fjOE\Gamma (s` \Gamma
+
+1 2) \Gamma i + j\Gamma (s` \Gamma
+
+1 2 ) \Gamma ig
+
+\Gamma 1p2 fjOE\Gamma (s` + 12) +i \Gamma j\Gamma (s` + 12 ) +ig
+
+(5:24)
+
+1p
+
+2 fjOE+ (s` +
+
+1 2) \Gamma i \Gamma j+ (s` +
+
+1 2 ) \Gamma ig
+
+\Gamma 1p2 fjOE+ (s` \Gamma 12) +i + j+ (s` \Gamma 12 ) +ig;
+
+(5:25)
+
+where the states are labelled by their SU (2)L \Theta SU (2)R, light quark spin, and parity content, respectively. The four lowest-lying quartets are exhibited in Figure 4.1.
+
+Note the remarkable similarity between this representation and the representation involving the pion itself. There one also finds a quartet consisting of the helicity zero states of ss, ffl (oe of old), ae, and a1 [32,3,7]. The representation content is as follows: ffl and 1=p2(ss + a1) are in a (2; 2), ae is in a (1; 3) + (3; 1), and 1=p2(ss \Gamma a1) is in a (1; 3) \Gamma (3; 1), where the representations are labelled by their SU (2)L and SU (2)R content, respectively. This similarity in chiral multiplet structure offers a means of explaining why certain relations derived for heavy hadrons also work well for light hadrons. The relation between the mass-squared matrices of the heavy and light mesons will be considered in a separate work [33].
+
+25 6. Heavy Meson Phenomenology
+
+As noted above, the strong pion transitions of the heavy meson states are not well determined experimentally. Here we will see how our predictions compare with existing measurements. Much effort has centered on determining the P \Lambda ! P ss (P is a D or a B meson) transition amplitude. Besides being of interest in its own right, this matrix element appears in many hadronic form factors relevant to weak decays. For example, at small pion momentum, the B\Lambda pole dominates the semileptonic decay B ! sse_*e [34]. Here we will focus on the D meson system.
+
+To leading order in chiral perturbation theory, the decay D\Lambda ! Dss is determined by g [24]:
+
+\Gamma \Gamma D\Lambda + ! D0ss+\Delta = g
+
+2
+
+12ssfss2 j~pssj
+
+3: (6:1)
+
+In our convention, fss = 93 MeV. The decay width with a neutral pion in the final state is reduced by a factor of 1=2. The anomalously small pion momentum (j~pssj = 40 MeV) leads one to expect that even if g = 1 (as suggested by the constituent quark model [35]), the D\Lambda lifetime is long and so should be hard to measure. At present, there are lower and upper bounds on this decay. The experimental upper limit on the D\Lambda width [36] yields g2 ! 0:5. The radiative D\Lambda decays offer an indirect method of determining g, and lead to the lower bound g2 ?, 0:1 [35]. This lower bound is not necessarily in conflict with our prediction, as our results were obtained in the heavy quark and chiral limits. We will discuss each type of symmetry breaking in turn.
+
+One might worry that heavy quark symmetry breaking could alter the chiral representation content of the heavy meson states, and thereby change the values of the coupling constants that were obtained in the heavy quark limit. This possibility is unlikely. Recall the discrete nature of the solution to the chiral commutation relations; the algebraic content of chiral symmetry implies that the single-pion transition amplitudes of I = 12 states can take only three values (e.g. \Gamma 1, 0, or 1 with suitable normalization), independent of heavy quark content or helicity [8]. Since the mixing angles which fix the representation content --and therefore the values of the coupling constants-- are determined by the properties of the leading Regge trajectories with vacuum quantum numbers, the properties of these trajectories would have to be sensitive to the heavy quark mass, which we have already argued is not the case. In fact, we found that this argument is equivalent to QCD constraints on the heavy meson mass-squared matrix. Therefore, the solution --found in the heavy quark limit-- should hold order-by-order in the 1=M expansion. This implies an infinite set of relations among symmetry breaking parameters in the heavy meson effective theory.
+
+26 The leading heavy quark symmetry breaking corrections to the decay P \Lambda ! P ss have recently been studied [37]. The relevant operators are
+
+g1 M T r \Theta _HaHb /Abafl5\Lambda +
+
+g2 M T r \Theta _Ha /Abafl5Hb\Lambda ; (6:2) where g1 and g2 are undetermined parameters. The effective coupling constants become [37]
+
+~gP = g + (g1 \Gamma g2)M (6:3) for the transition P \Lambda ! P ss, and
+
+~gP\Lambda = g + (g1 + g2)M (6:4) for the transition P \Lambda ! P \Lambda ss. Therefore, if the solution to the chiral commutation relations is indeed stable at each order in the 1=M expansion, it predicts g = 0 and g1 = g2 = 0. The latter prediction is, in principle, testable since these parameters contribute to any heavy meson process which receives corrections from pion loop graphs [37]. We will see below that there is important experimental evidence which suggests that the solution to the chiral commutation relations is stable to heavy quark symmetry breaking effects. In any case, as an exercise, we can easily check whether g = 0 is consistent with the experimental upper bound on ~g in the D meson system. Suppose ~g2 = 0:3. We then have jg1 \Gamma g2j=MD = 0:55. If, for example, g1 = \Gamma g2, we obtain jg1j ' 0:5 GeV, which is consistent with the dimensional estimate: jg1j, jg2j , p\Delta 2MD ' 0:5 GeV.
+
+There are two sorts of chiral symmetry breaking effects that we have to consider. In the decay width formula for P \Lambda ! P ss we have used physical pions to compute kinematical factors, and yet the coupling constant g was evaluated at zero pion mass; a non-zero pion mass interferes with the counting of powers of energy which was essential in deriving the Lie-algebraic sum rules [3]. Unfortunately, we know of no way of accounting for this small effect in a systematic fashion. The second type of breaking arises from chiral symmetry breaking operators in the effective lagrangian [38,39]. These effects lead to an effective coupling constant of the form
+
+geff = gae1 + Oi mss
+
+2
+
+\Lambda 2O/ log
+
+mss2
+
+_2 j + \Delta \Delta \Delta oe; (6:5)
+
+where _ is an arbitrary scale. These corrections arise from non-analytic (in mq) one loop graphs constructed from the leading order operators. This sort of correction is generically large [38]; i.e., a 20% effect. However, since there is an overall factor of g, these corrections are weighted by g, and so vanish together with the axial-vector source. Evidently, the prediction g = 0 is not subject to explicit chiral symmetry breaking effects of this type.
+
+27 Therefore, deviations of g from 0 should be due entirely to chiral symmetry breaking effects of the kinematic type discussed above. In other words, the solution unambiguously predicts that the transition amplitude for the process P \Lambda ! P ss should be very close to 0, and therefore the decay width for the process D\Lambda ! Dss should be very close to the experimental lower bound implied by the radiative decays. This is the most currently relevant prediction made by the algebraic content of chiral symmetry in the heavy meson system. This transition matrix element has been calculated in many models with no particular value favored. A Table listing theoretical predictions is given in Ref. 40.
+
+Although the 32 + states have been observed in the D and B meson systems, the 12 + states have not been observed. Of course these states are expected to exist. The constituent quark model suggests that S-wave decays should be strong [41], leading to the expectation that these states are very broad. The decay widths of the excited 12 + states to the ground state doublet are given by [25]
+
+\Gamma (P \Lambda 0 ! P ss\Gamma ) = jhj
+
+2
+
+4ssf 2ss j~pss(P
+
+\Lambda 0 ; P )j3
+
+\Gamma (P 01 ! P \Lambda ss\Gamma ) = jhj
+
+2
+
+4ssf 2ss j~pss(P
+
+01; P \Lambda )j3;
+
+(6:6)
+
+where
+
+j~pss (ff; fi) j3 = ` MfiM
+
+ff ' \Gamma Mff \Gamma Mfi\Delta
+
+2 h\Gamma Mff \Gamma M
+
+fi\Delta 2 \Gamma m2ssi
+
+1=2 : (6:7)
+
+If one takes MD01 = MD\Lambda 0 = 2:4 GeV as suggested by the quark model [41] one finds
+
+\Gamma (D\Lambda 0 ! Dss\Gamma ) = jhj2 [980 MeV] \Gamma (D01 ! D\Lambda ss\Gamma ) = jhj2 [400 MeV]; (6:8) and so a priori it is not surprising that these states are unobserved. These results are quite sensitive to the choice of the heavy meson masses, and yet it is gratifying that the general solution, jhj = 1, implies that these decays should take the maximum value allowed by unbroken chiral symmetry (of course there is no reason to believe that non-analytic chiral symmetry breaking corrections to these decays are small). The fact that these states are unobserved supports the conjecture that the general solution is independent of heavy quark symmetry breaking effects; the alternative solution, h = 0, would unambiguously predict that these states are narrow.
+
+28 Table 7.1: Contributions to the A-W sum rule for ssK scattering.
+
+fl g2flKss fl g2flKss K\Lambda (1410) !0.02 K\Lambda 3 (1780) 0.03 K\Lambda 0 (1430) 0.08 K\Lambda 0 (1950) !0.02 K\Lambda 2 (1430) 0.17 K\Lambda 4 (2045) !0.02 K\Lambda (1680) 0.06 K\Lambda 5 (2380) !0.02
+
+7. The Kaon system
+
+We have seen that unbroken chiral symmetry and heavy quark symmetry determine the S-wave pion transition amplitudes of heavy meson states. What about the Kaons? If there is no heavy quark symmetry, we can make use of phenomenological input in order to predict coupling constants using the A-W sum rule. The best known example of this phenomenological approach is the A-W sum rule for the determination of the nucleon axial-vector coupling, gA, as discussed above. We saw that an accurate result is obtained by including the many possible intermediate states [2]. From the point of view of chiral symmetry, it is not surprising that there are so many possible states in ssN scattering, since these can form reducible combinations of any number of (0; 12 ), ( 12 ; 0), (0; 32 ), ( 32 ; 0), (1; 12 ), and ( 12 ; 1) irreducible representations of SU (2) \Theta SU (2). This large number of possible representations makes it difficult to predict the pion transitions of the unflavored baryons using the algbraic sum rules [8].
+
+We can test the "phenomenological" A-W sum rule in the Kaon system in order to learn something about the representations of unbroken SU (2) \Theta SU (2) filled out by the low-lying kaons. Here, in order to justify neglect of the continuum we must invoke the large-Nc approximation. Consider the representation involving K and K\Lambda . As with gA, we define a coupling constant gK\Lambda Kss, which is determined from the sum rule by saturating with all possible intermediate states in ssK scattering. Since the intermediate states are sums of (0; 12 ) and ( 12 ; 0) representations, we might expect fewer relevant intermediate states than in pion-nucleon scattering. This expectation is borne out experimentally. The A-W sum rule for ssK scattering can be expressed as:
+
+g2K\Lambda Kss = 1 \Gamma X
+
+fl
+
+g2flKss; (7:1)
+
+where the coupling constants are related to the transition matrix elements in Eq. (2.12). The decay width for the process ff ! fi + ssi is given by
+
+29 \Gamma (ff ! fi + ssi) = j~pssj
+
+3jhfijXijffij2
+
+2ssf 2ss (2Jff + 1) ; (7:2) where ~pss is the pion momentum. Each term in the sum in Eq. (7.1) can be taken from experiment via the formula
+
+g2flKss = 8ssf 2ss (2Jfl + 1) \Gamma totfl B (fl ! Kss)=3j~p flss j3; (7:3) where we have used Eq. (2.12). In Table 7.1 we exhibit all observed intermediate states in ssK scattering. The experimental widths are central values quoted by the particle data group [42]. There is substantial experimental uncertainty associated with some of these decays.
+
+Keeping all intermediate states with an appreciable contribution (? 0:02), we findj gK\Lambda Kssj ' 0:66, which does not agree very well with the experimental value, jgexpK\Lambda Kssj = 0:44. According to our general conclusions, we would expect that jgK\Lambda Kssj = 1 or 0. The experimental value favors neither of these alternatives. However, the couplings of K to the set of intermediate states are generically small (see Table 7.1), and so the A-W sum rule suggests a representation content where jgK\Lambda Kssj = 1. Presumably the discrepancy arises from chiral symmetry breaking effects, which one would expect to be large, and/or the limitations of the large-Nc approximation. One might then wonder why this chiral representation content differs from that of the ground state heavy meson doublet. It is clear that the Goldstone nature of the Kaon requires that K and K\Lambda be paired. Algebraic realizations of SU (2) \Theta SU (2) accurately predict the coupling of ae to two pions (KSRF relation) [3,7]. If we consider algebraic realizations of SU (3)\Theta SU (3), the solution involving the pseudoscalar and vector octets necessarily incorporates the SU (2) \Theta SU (2) realization as a special case, and so a priori K and K\Lambda --which belong to the ss and ae SU (3) multiplets, respectively-- must communicate by single-pion emission and absorption. More specifically, SU (3) symmetry implies jhssjjXjjaeij = jhKjjXjjK\Lambda ij. Algebraic realizations of SU (2) \Theta SU (2) givejh
+
+ssjjXjjaeij = 1, which immediately yields jgK\Lambda Kssj = 1, an interesting consistency check. With K and K\Lambda paired, the S-wave transition amplitude of any 0+ state to the ssK channel necessarily takes the smallest value that unbroken chiral symmetry allows, namely zero. In fact, K\Lambda 0 (1430) contributes very little to the A-W sum rule 10, and is a scalar with well established properties. On the other hand, we have seen that in the heavy meson system the decay amplitude of the lowest lying scalar (P \Lambda 0 ) takes the largest value allowed by unbroken chiral symmetry, and, in fact, is not observed. This is completely analogous
+
+10 Note that although K\Lambda 0 (1430) decays primarily to the ssK channel, and has a substantial width (, 287 M eV ), the pion momentum is large (, 620 M eV ). See Table 7.1.
+
+30 Table 7.2: The chiral structure of the helicity zero states of the lowest lying mesons of a given character. The arrows indicate the "allowed" single-pion transitions.
+
+8! :
+
+ss ! ael l
+
+ffl ! a1
+
+9= ; (a)
+
+8! :
+
+P P \Lambda l l
+
+P \Lambda 0 P 01
+
+9= ; (b)
+
+8! :
+
+K ! K\Lambda 9=;
+
+(c) to the evanescent ffl in the ss system, whose width is fixed using identical assumptions to a value so large that one would not expect to observe it [3,7]. Hence, the algebraic content of chiral symmetry offers a generic explanation for why low-lying scalars are observed in certain systems, and not in others. We illustrate these conclusions in Table 7.2.
+
+8. Summary and Conclusion
+
+In chiral perturbation theory, one parametrizes strong interaction physics at lowenergies in a manner consistent with broken chiral symmetry. In general, for scattering processes, the leading order results (low-energy theorems) are completely fixed by chiral symmetry. Higher orders involve undetermined parameters that must be taken from experiment. This method is predictive because there are fewer undetermined parameters than observables. We have seen that chiral symmetry also has algebraic content which constrains some of these parameters. Extraction of the algebraic consequences of chiral symmetry requires an interplay between theory and experiment. In general, one must make use of experimental input in the form of asymptotic constraints on pion scattering amplitudes. These constraints lead to sum rules which can be expressed in Lie-algebraic form. In this paper we have made use of the following observationally inspired sum rules:
+
+(I) The generalized Adler-Weisberger sum rule,
+
+[Xi; Xj] = ifflijkTk (8:1) is the statement that hadrons fill out representations of SU (2)\Theta SU (2) in the broken phase.
+
+31 (II) The second sum rule, Eq. (2.10), is the statement that the mass-squared matrix is the sum of a term which transforms as a chiral scalar, and a term which transforms as the fourth component of a chiral four-vector:
+
+^m2 = ^m20 + ^m24: (8:2) For general pion scattering processes, this sum rule follows from the assumption that exotic Regge trajectories are absent. However, for chiral multiplets composed solely of I = 12 mesons, this sum rule requires no additional assumption beyond Eq. (8.1).
+
+(III) A third sum rule, Eq. (2.19), implies that
+
+\Theta ^m2
+
+0; ^m24\Lambda = 0: (8:3)
+
+This is the fundamental assumption; although it is phenomenologically inspired, it is the sole constraint used in this paper which cannot be directly traced to a symmetry of QCD. Nevertheless, it clearly has deep group theoretical significance as it fixes the angles which mix the various irreducible representations of SU (2) \Theta SU (2) that make up the heavy meson states.
+
+These three sum rules severely constrain the single-pion transitions of I = 12 mesons, and yet do not specify the representations of unbroken SU (2) \Theta SU (2) filled out by these states. Recall that in the context of constituent quarks, the chiral commutations relations provided no means of distinguishing between the solutions jgAj = 1 and gA = 0 [8]. However, additional constraints that heavy quark symmetry puts on the heavy meson spectrum unambiguously predict the single-pion transitions of the heavy meson states. The single-pion transition matrix elements are related to the couplings that appear in the heavy hadron effective lagrangian. At leading order there are only S-wave single-pion transitions among the heavy meson states, and so a single coupling constant determines the transitions of all helicity states of a given heavy meson. The fundamental predictions are: (i) the S-wave single-pion transitions between heavy mesons belonging to a single heavy meson doublet take the minimum value allowed by unbroken SU (2) \Theta SU (2) and so should be very weak (for example, g = 0). (ii) the S-wave transitions between heavy meson doublets of the same light quark spin take the maximum value allowed by unbroken SU (2) \Theta SU (2), and so should be strong (for example, jhj = 1). (iii) Predictions (i) and (ii) are stable order-by-order in the 1=M expansion. This overall picture is consistent with current experimental data in the D and B meson systems.
+
+32 There is much further work to be done exploring the algebraic consequences of chiral symmetry. We reiterate that the algebraic realizations provide an interesting symmetrybased method for relating properties of heavy and light hadrons. Given an arbitary heavy meson state, there is uncertainty associated with the coupling of the spin of the light quark to the heavy quark constituent. However, in the heavy quark limit, the dynamics of the heavy quarks decouple from the problem, leaving behind only the dynamics of the light quarks. The resulting constraints on the spectrum determine fundamental properties of the I = 12 SU (2)\Theta SU (2) representations. With this information one can use the SU (2)\Theta SU (2) representation theory to construct I = 0 and 1 meson states out of the fundamental I = 12 states, and, in turn, relate properties of light and heavy mesons. In particular, this method offers a promising means of understanding why certain mass relations (e.g. see Eq. (3.18)) derived for heavy hadrons also work well for light hadrons [33]. As regards the results presented in this paper, it would be interesting to see if our general solution can be expressed as a direct consequence of an enlarged algebra in which the generators of angular momentum participate [3]. For example, in this way one can include D-wave transitions --which are sub-leading in heavy hadron O/P T -- as well as S-wave transitions, in a formalism which relates the various helicities. From a technical standpoint, it would be interesting to have some understanding of the role of explicit chiral symmetry breaking effects of kinematic type, which are relevant in the derivation of the algebraic sum rules [3]. An extension to SU (3) \Theta SU (3) would allow one to study the representations of unbroken chiral symmetry filled out by the low-lying SU (3) multiplets. This representation content --which one would also expect to be of quartet form [7]-- would predict transition matrix elements between the pseudoscalar and vector octets, as well as potentially interesting mass-squared relations. It would also be interesting to consider algebraic photo-pion sum rules for heavy mesons [8,17], pion transitions of heavy Baryons, and implications of the algebraic content of chiral symmetry for the finite-temperature chiral phase transition.
+
+Acknowledgements
+
+I thank C. Greiner, S.B. Liao, S. Matinyan, Ulf-G. Meissner, B. M"uller, C.D. Roberts, M. Strickland, and especially R.P. Springer and U. van Kolck, for valuable conversations and criticism. I am grateful to M. Luke and S. Weinberg for clarifying several important points. This work was supported by the U.S. Department of Energy (Grant DE-FG05- 90ER40592).
+
+33 References
+
+1. S.L. Adler, Phys. Rev. Lett. 14 (1965) 1051 ;
+
+W.I. Weisberger, Phys. Rev. Lett. 14 (1965) 1047 .
+
+2. A. della Selva and L. Masperi, Nuovo Cimento A 4 (1967) 997 . 3. S. Weinberg, Phys. Rev. 177 (1969) 2604 . 4. R. de Alfaro, S. Fubini, G. Furlan, and G. Rossetti, Currents in Hadron Physics,
+
+(North-Holland, Amsterdam, 1973).
+
+5. G.'t Hooft, Nucl. Phys. B 72 (1974) 461 ;
+
+E. Witten, Nucl. Phys. B 160 (1979) 57 .
+
+6. S. Weinberg, UTTG-16-94, . 7. S. Weinberg, Phys. Rev. Lett. 65 (1990) 1177 . 8. S. Weinberg, Phys. Rev. Lett. 65 (1990) 1181 . 9. S.R. Beane and U. van Kolck, Phys. Lett. B 328 (1994) 137 . 10. S. Weinberg, "Unbreaking Symmetries,"
+
+to be published in Festschrift for Abdus Salam.
+
+11. See, for example, J.M. Cornwall, D.N. Levin, and G. Tiktopoulos,
+
+Phys. Rev. D 10 (1974) 1145 .
+
+12. N. Isgur and M.B. Wise, Phys. Lett. B 232 (1989) 113 . 13. H. Georgi, Phys. Lett. B 240 (1990) 447 . 14. N. Isgur and M.B. Wise, Phys. Rev. Lett. 66 (1991) 1130 . 15. B. Zumino, in Theory and Phenomenology in Particle Physics, 1968 International
+
+School of Physics `Ettore Majorana' (Academic Press, New York, 1969) p.42.
+
+16. See, for example, A. Donnachie and P.V. Landshoff, Phys. Lett. B 296 (1992) 227 . 17. S. Weinberg, in Lectures on Elementary Particles and Quantum Field Theory, edited
+
+by Stanley Deser et al, (MIT Press, Cambridge, MA, 1970) p.285.
+
+18. See, for example, U. van Kolck, in Low Energy Effective Theories and QCD, Proceedings of the 7th Summer School and Symposium on Nuclear Physics, edited by Dong-Pil Min, (Han Lim Won, Seoul, Korea, 1995).
+
+19. Yu.M. Antipov et al, Nucl. Phys. B 63 (1973) 141 . 20. J. Biel et al, Phys. Rev. Lett. 36 (1976) 504 ;
+
+H. de Kerret et al, Phys. Lett. B 63 (1976) 477 ; J. Biel et al, Phys. Lett. B 65 (1976) 291 .
+
+21. K. Kawarabayashi and M. Suzuki, Phys. Rev. Lett. 38 (1966) 883 ;
+
+34 Riazuddin and Fayyazuddin, Phys. Rev. 147 (1966) 1071 . 22. S. Weinberg, Phys. Rev. Lett. 18 (1967) 507 . 23. E. Jenkings, A.V. Manohar, and M.B. Wise, Phys. Rev. Lett. 75 (1995) 2272 . 24. M.B. Wise, Phys. Rev. D 45 (1992) R2188 . 25. A.F. Falk and M. Luke, Phys. Lett. B 292 (1992) 119 ;
+
+U. Kilian, J.G. K"orner, and D. Pirjol, Phys. Lett. B 288 (1992) 119 .
+
+26. A.F. Falk, Nucl. Phys. B 378 (1992) 79 . 27. G.P. LePage and B.A. Thacker, in Field Theory on the Lattice, Proceedings of the
+
+International Symposium, Seillac. France, 1987, edited by A. Billoire et al.
+
+28. A.F. Falk, B. Grinstein, and M. Luke, Nucl. Phys. B 357 (1991) 185 . 29. U. Aglietti, Phys. Lett. B 281 (1992) 341 . 30. M.B. Wise, CALT-68-1901, . 31. See, for example, J.M. Flynn and N. Isgur, J. Phys. G 18 (1992) 1627 . 32. F.J. Gilman and H. Harari, Phys. Rev. 165 (1968) 1803 . 33. S.R. Beane, work in progress. 34. N. Isgur and M.B. Wise, Phys. Rev. D 41 (1990) 151 . 35. J.F. Amundson et al, Phys. Lett. B 296 (1992) 415 ;
+
+P. Cho and H. Georgi, Phys. Lett. B 296 (1992) 408 .
+
+36. ACCMOR Collab. S. Barlag et al Phys. Lett. B 278 (1992) 480 . 37. C.G. Boyd and B. Grinstein, Nucl. Phys. B 442 (1995) 205 . 38. J.L. Goity, Phys. Rev. D 46 (1992) 3929 . 39. H-Y. Cheng et al, Phys. Rev. D 49 (1994) 5857 . 40. V.M. Belyaev et al, Phys. Rev. D 51 (1995) 6177 . 41. S. Godfrey and N. Isgur, Phys. Rev. D 32 (1985) 189 ;
+
+S. Godfrey and R. Kokoski, Phys. Rev. D 43 (1991) 1679 .
+
+42. Particle Data Group, Phys. Rev.D 50 (1994) .
+

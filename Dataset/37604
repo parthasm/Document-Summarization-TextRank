@@ -1,0 +1,460 @@
+
+
+ 15 Nov 1995
+
+DO/ Note: 2784 W+2jets production at Tevatron - VECBOS
+
+and CompHEP comparison
+
+November 13, 1995 A. Belyaev1, E. Boos2, L. Dudko3, A. Pukhov4 Institute of Nuclear Physics, Moscow State University, 119899 Moscow, Russia
+
+Abstract Results of calculation of all subprocesses in proton-antiproton collisions which contribute to the W+2jets final state are presented at Tevatron energy. The calculation has been carried out by means of the CompHEP software package. A detail comparison with VECBOS generator results for cross sections and various distributions shows an agreement at the level of Monte-Carlo accuracy. Therefore the additional independent check of VECBOS generator has been done. In complement to the VECBOS generator a new generator based on CompHEP allows to study individual subprocesses like W b_b or W c_c. The last point is important, for instance, for study W b_b part of the background for single top or Standard Model Higgs signal at Tevatron.
+
+1 Introduction Reactions with jets production at Tevatron provide a very important part of physical backgrounds to a different signal processes, like strong top pair production [1, 2], electroweak bosons pair production [3, 4], electroweak single top production [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], Standard Model Higgs production [17, 18]. In various searches VECBOS generator [19] has been used for such a background simulation. The processes with W + 2; 3; 4jets have been calculated in the past [20]. The calculations of the W b_b processes including b-quark mass have been carried out in [21].
+
+In this paper we present additional detail comparison of the rates and distributions between VECBOS and CompHEP for the simplest ( from calculation point of view) case of W+2jets production taking into account all nontrivial masses. Also contributions from different parton subreactions are presented separately. CompHEP [22, 23] is known software package for automatic calculation of cross sections and distributions for particle processes in Standard Model or any model which can be easily inserted by user ( e.g. composite models, supersymmetry, model with leptoquarks).
+
+For a comparison we did not include sea s - and c - quarks in the initial states. In fact this contribution is about 5 % from the total W+2jets rate. We also did not include any
+
+1e-mail: belyaev@sgi.npi.msu.su 2e-mail: boos@theory.npi.msu.su 3e-mail: dudko@sgi.npi.msu.su 4e-mail: pukhov@sasha.npi.msu.su
+
+1
+
+diagr.1 R u@@
+
+G
+
+-u
+
+G
+
+?u `
+
+W+
+
+R
+
+d@@
+
+diagr.2
+
+-u
+
+G
+
+?u G -u `
+
+W+
+
+R
+
+d@@
+
+diagr.3
+
+R u@@
+
+G
+
+-u `
+
+W+
+
+?d `
+
+d\Gamma \Gamma
+
+G
+
+diagr.4
+
+-u G
+
+?uW+ ?d G - d
+
+diagr.5
+
+-u -u `
+
+W+
+
+R
+
+d@@G
+
+G
+
+G
+
+diagr.6 -u `
+
+W+
+
+?d G -d `
+
+d\Gamma \Gamma
+
+G
+
+diagr.7
+
+-u - W+
+
+?d
+
+G ?d
+
+G - d
+
+diagr.8
+
+-u - W+
+
+?dd G G G
+
+diagr.1 G G
+
+G oe
+
+U ?uoe
+
+D - W+
+
+diagr.2
+
+G
+
+G
+
+Goe D oed `
+
+W+
+
+IU@@
+
+diagr.3
+
+G oeU
+
+?u
+
+G ?uoe
+
+D - W+
+
+diagr.4
+
+G oeU
+
+?uW+ ?doe D G
+
+diagr.5
+
+G oeu \Psi
+
+U\Gamma \Gamma
+
+G?uoe D R
+
+W+
+
+diagr.6 G oed `
+
+W+
+
+IU@@?doe D
+
+G
+
+diagr.7
+
+G
+
+\Psi D \Gamma \Gamma
+
+oed
+
+G
+
+6d` W+
+
+IU@@
+
+diagr.8
+
+G
+
+\Psi D\Gamma \Gamma
+
+oed `
+
+W+
+
+6 u \Psi U\Gamma \Gamma
+
+G
+
+diagr.1 -u G
+
+?u
+
+G ?uoe
+
+D - W+
+
+diagr.2
+
+-u G
+
+?uW+ ?doe D G
+
+diagr.3
+
+-u G
+
+G
+
+G?uoe D R
+
+W+
+
+diagr.4
+
+-u - W+
+
+?d
+
+G ?doe
+
+D G
+
+diagr.5
+
+-u `
+
+W+
+
+?doe D G
+
+G
+
+G
+
+A) B) C) Figure 1: diagrams for the most important subreactions for W+2jets background process: A) ug ! W +dg, B) g _d ! W + _ug and C) u _d ! W +gg
+
+fragmentation of partons to jets. So we considered final states just on a parton level for both VECBOS and CompHEP.
+
+There are many electroweak diagrams in the Standard Model which contribute to the W+2jets final state. The complete set of Standard Model diagrams one can easily get using the program CompHEP. However like in VECBOS we have taken into account only the strong diagrams which provide the dominate contribution. An example of such diagrams for the most important subreactions is presented in Fig.1. In Fig.1 the CompHEP notation for particles are shown. Namely, small letters `u' and `d' correspond to the quark line and capital letters `U' and `D' correspond to the anti-quark line. Capital `G' denotes the gluon line, `W+' corresponds to the W +-boson.
+
+In the calculations we have used for both VECBOS and CompHEP the CTEQ2pMS set of structure functions [24, 25] with QCD scale chosen equal W-boson mass and *QCD = 0:135 GeV. For all partonic jets in the final states the PTj ? 20 GeV cut has been used and we have used ffiRjj ? 0:5 cut for jet separation.
+
+2 Rates and distributions With assumptions mentioned above we have got the following total rate for the process p_p ! W + 2jet at the 1:8 TeV Tevatron energy:
+
+2
+
+Table 1: Contributions from different subreactions for W+2jets background process CompHEP VECBOS
+
+oe [pb] % from total rate % from total rate
+
+gg ! W +s_c 1.097 gg ! W +d_u 1.096
+
+gg ! W +2jet 2.193 1.7% 1.7%
+
+gu ! W +dg 2.447 g _d ! W + _ug 16.062
+
+gq + g _q ! W +2jet 18.509 14.2% 14.5%
+
+ug ! W +dg 40.631_ dg ! W + _ug 3.940
+
+qg + _qg ! W +2jet 44.571 34.0% 34.8%
+
+uu ! W +du 1.323_ d _d ! W +d_u 0.789
+
+_u _d ! W + _u_u 0.259_ d_u ! W + _u_u 1.016 uu ! W +du 1.323
+
+qq + _q _q ! W +2jet 4.710 3.6% 3.7%
+
+u _d ! W +b_b 1.191 u _d ! W +s_s 1.275 u _d ! W +c_c 1.261 u _d ! W +d _d 4.898 u _d ! W +u_u 4.914 u_u ! W +d_u 8.024 u_u ! W +s_c 0.097 u _d ! W +gg 33.003 d _d ! W +d_u 0.099 d _d ! W +s_c 0.020 d_u ! W +dd 3.412_ du ! W +b_b 0.036_ du ! W +s_s 0.039_ du ! W +c_c 0.039_ du ! W +d _d 0.103_ du ! W +u_u 0.103_ du ! W +gg 0.936_ d _d ! W + _d_u 1.491_ d _d ! W +s_c 0.001
+
+_uu ! W +s_c 0.001 _uu ! W + _d_u 0.037
+
+q _q ! W +2jet 60.95 46.5% 46.3%
+
+3
+
+CompHEP : p _p ! W + 2jet 130.0 pb VECBOS : p _p ! W + 2jet 127.3 pb Therefore the difference is of order of 2% and it means the results are in an agreement within an accuracy of Monte-Carlo calculation.
+
+Contributions from different subreactions are presented in Table 1.
+
+Table 2: Main processes for W+2jets background process cross section ug ! W +dg 40.6 pb ( 31.2% ) g _d ! W + _ug 16.0 pb ( 12.3% ) u _d ! W +gg 33.0 pb ( 25.4% )
+
+VECBOS CompHEP
+
+PT of jet with maximum PT [GeV]
+
+d s/dp
+
+T [pb/GeV
+
+]
+
+PT of jet with minimum PT [GeV] d s/dp
+
+T [pb/GeV
+
+]
+
+PT of W-boson [GeV] d s/dp
+
+T [pb/GeV
+
+]
+
+0 0.1 0.2 0.3 0.4 0.5
+
+0 50 100 150 200 0
+
+0.2 0.4 0.6 0.8
+
+1 1.2 1.4 1.6 1.8
+
+0 50 100 150 200
+
+0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0.3
+
+0 20 40 60 80 100 120 140 160 180 200
+
+Figure 2: PT distribution of a jet with a maximum and minimum PT In all cases the integration over initial parton distributions has been performed. In the Table 1 the first initial parton is in the proton and the second one is in the antiproton. It is interesting to point out that about 68.9 % from the total rate is coming from the three dominating subprocesses (see Fig.1) listed in Table 2 once more.
+
+In Table 1 the comparison between CompHEP and VECBOS is presented for different sets of subprocesses combined according to the initial parton states configuration. These sets are used in VECBOS. One can see a reasonable agreement for all cases.
+
+4
+
+h of jet with maximum pT d s/h [pb
+
+]
+
+VECBOS CompHEP
+
+h of jet with minimum pT
+
+d s/h [pb
+
+]
+
+h W-boson d s/h [pb
+
+]
+
+VECBOS CompHEP
+
+0 2 4 6 8 10 12 14
+
+-4 -2 0 2 4 0
+
+2 4 6 8 10 12
+
+-4 -2 0 2 4
+
+0 2 4 6 8 10 12
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5 Figure 3: Pseudorapidity distribution of a jet with a maximum and minimum PT In Fig.2 the PT distribution of a jet with a maximum and minimum PT is shown. The CompHEP PT distribution is a little bit harder at high PT . However this difference is of order of statistical fluctuations.
+
+In Fig.3 pseudorapidity distributions are demonstrated. One can see that the difference between CompHEP and VECBOS for the same jets with a maximum and minimum PT is rather small like in previous case.
+
+For various physical cases it is very important to know invariant mass distributions. The invariant mass distributions of two jets and W and jet are shown in Fig.4. One can see a very good agreement for VECBOS and CompHEP results.
+
+3 Conclusions We have calculated contributions from all subprocesses to the W+2jets production process at Tevatron using CompHEP program. For calculation of the total rates CompHEP program has been used itself while for event generation and analysis of the various distributions special event generator on the base of CompHEP package has been created.
+
+The only QCD part from a complete set of tree level diagrams has been taken into account. For a total rate and basic distributions an agreement between CompHEP and VECBOS results at the level of statistical fluctuations has been found. It means an additional independent check of a VECBOS generator has been done. This is important because the VECBOS has been used in particular for a background simulation in the top-quark analysis and discovery [1, 2].
+
+One can stress, however, that in the VECBOS case user can not get an information for an individual subreactions listed in the Table 1. But in some cases it can be very useful. For instance, the process with W b_b production provides an important background
+
+5
+
+invariant mass of two jets [GeV] d s/dm
+
+jj [pb/GeV
+
+]
+
+VECBOS CompHEP
+
+invariant mass of W+jet [GeV] d s/dm
+
+wj [pb/GeV
+
+]
+
+0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0.3
+
+0 50 100 150 200 250 300 350 400
+
+0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0.3
+
+0 50 100 150 200 250 300 350 400 Figure 4: Invariant mass distributions of two jets and W and jet are shown for searches for single top (see [16] and references therein) or SM Higgs [17, 18] in case if an effective b-tagging procedure is used.
+
+With the help of CompHEP one can separately calculate and analyse each of the subreaction, in particular, with W b_b or W c_c production taking into account fermions masses. Complete tree level calculations in Standard Model for the reactions W b_b and W b_b+ jet including all nontrivial masses have been done in [26] using COmpHEP package.
+
+Acknowledgements We would like to thank Pavel Ermolov, Boaz Klima, Ann Heinson and Slava Ilyin for useful discussions. We thank the DO/ Collaboration for their kind hospitality during our stay at Fermilab. We acknowledge the financial support of the U.S. Department of Energy and the Ministry of Science and Technology Policy in Russia. This work has been supported in part by grants #M9B300, #a140-f from the International Science Foundation and grand and grant #93-2492 from ICFPM&INTAS.
+
+6
+
+References
+
+[1] S. Abachi et al., (DO/ Collaboration), Phys. Rev. Lett. 74, 2632 (1995). [2] F. Abe et al., (CDF Collaboration), Phys. Rev. Lett. 74, 2626 (1995). [3] S. Abachi et al., (DO/ Collaboration), Phys. Rev. Lett. 75, 1023 (1995). [4] ELECTROWEAK BOSON PAIR PRODUCTION AT THE Tevatron. By CDF Collaboration and D0 Collaboration (Steven M. Errede for the collaboration). Proceedings of , 27th International Conference on High Energy Physics (ICHEP),Glasgow, Scotland, 20-27 Jul 1994, vol. 2 433-436
+
+[5] G. Bordes and B. van Eijk, Nucl. Phys. B435, 23 (1995). [6] S. Dawson, Nucl. Phys. B249, 42 (1985). [7] S. Willenbrock and D.A. Dicus, Phys. Rev. D 34, 155 (1986). [8] S. Dawson and S. Willenbrock, Nucl. Phys. B284, 449 (1987). [9] C.-P. Yuan, Phys. Rev. D 41, 42 (1990). [10] T. Moers, R. Priem, D. Rein and H. Reitler, in the Proceedings of the Large Hadron
+
+Collider Workshop, Aachen, 418 (1990).
+
+[11] G.V. Jikia and S.R. Slabospitsky, Phys. Lett B295, 136 (1992). [12] R.K. Ellis and S. Parke, Phys. Rev. D 46, 3785 (1992). [13] G. Bordes and B. van Eijk, Z. Phys. C57, 81 (1993). [14] D.O. Carlson and C.-P. Yuan, Phys. Lett. B306, 386 (1993). [15] D.O. Carlson and C.-P. Yuan, MSUHEP-40903 (1995). [16] A.Belyaev, E.Boos, A.Heinson "Electroweak top production at the Tevatron energies"
+
+Proc. of the Workshop of the top physics, Iowa State Univ., May 1995 Preprint MSUNPI 95-30/394 & UCR/95-17
+
+[17] A. Stange, W. Marciano, S. Willenbrock, Phys. Rev. D 49, 1354 (1994). [18] A.Belyaev, E.Boos, L.Dudko, Mod. Phys. Lett. A10, 25 (1995). [19] F.A. Berends, H. Kuijf, B. Tausk, W. Giele, Nucl. Phys. B357, 32 (1991);
+
+W.Giele, E.Clover, D.Kosover, Nucl. Phys. B403, 633 (1993); F.A.Berends, W.T. Giele, R. Kleiss,
+
+[20] F.A. Berends, W.T. Giele and H. Kuijf, Nucl. Phys. B321 (1989) 39;
+
+K. Hagiwara and D. Zeppenfeld, Nucl. Phys. B313(1989) 560; F.A.Berends, W.T. Giele, R. Kleiss, H. Kuijf and W.J. Stirling, Phys. Lett. B224 (1989) 237; H. Baer, V Barger and R.J. Philips, Phys.. Lett. B221 (1989) 398; W.T. Giele and W.J. Stirling Nucl. Phys. B343 (1990) 14; V. Barger, E. Mirkes, R.J.N. Phillips, T. Stelzer, Phys.Lett. B338 (1994) 336
+
+[21] Michelangelo L. Magano, Nucl. Phys. B405 (1993) 536;
+
+Z. Kunszt, Nucl. Phys., B247, 339 (1984)
+
+7
+
+[22] E.E. Boos et al., in the Proceedings of the XXVIth Rencontre de Moriond, ed. by
+
+J. Tran Than Van, Edition Frontiers, p.501 (1991); E.E. Boos et al., in the Proceedings of the Second International Workshop on Software Engineering, ed. by D. Perret-Gallix, World Scientific, p.665 (1992).
+
+[23] V.A. Ilyin, D.N. Kovalenko and A.E. Pukhov, INP MSU Preprint-95-2/366, Moscow
+
+State University, (1995).
+
+[24] J. Botts, J.G. Morfin, J.F. Owens, J. Qiu, W.-K. Tung and H. Weerts, (CTEQ Collaboration) Phys. Lett. B304, 159 (1993).
+
+[25] H. Plothow-Besch, Comp. Phys. Comm. 75, 396 (1993). [26] A.Belyaev, E.Boos, A.Pukhov, DO/ note in preparation
+
+8
+

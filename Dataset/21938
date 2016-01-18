@@ -1,0 +1,433 @@
+Axions from String Decay
+
+C. Hagmanna, S. Changb, and P. Sikivieb
+
+a Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, CA 94550
+
+b University of Florida, Physics Department, Gainesville, FL 32611
+
+We have studied numerically the evolution and decay of axion strings. These global defects decay
+mainly by axion emission and thus contribute to the cosmological axion energy density. The relative
+importance of this source relative to misalignment production of axions depends on the spectrum.
+Radiation spectra for various string loop configurations are presented. They support the contention
+that the string decay contribution is of the same order of magnitude as the contribution from
+misalignment.
+
+1. INTRODUCTION -
+with core size 1
+(
+= f )
+a and energy per
+unit length
+Axion strings arise in the early universe
+when the global U(1) symmetry breaks
+PQ 2
+µ f ln(L/
+a ) (2)
+spontaneously at the scale f a ~ 1012 GeV. A
+Brownian network of strings is formed initially where L is the long distance cutoff, i.e. the
+with O(1) string per horizon volume. As the interstring distance. The logarithmic factor in
+horizon expands, wiggles on the strings will Equation 2 distinguishes a global from a gauge
+start oscillating and radiate axions. Strings will (local) string, whose energy density decays
+also intercommute and form closed loops, exponentially outside of its core. For axion
+which collapse and convert into axions. t f a
+Simulations of gauge string networks show strings near QCD time, ln ( ) 70
+QCD and
+that a scaling solution [1,2] is reached after a most of the string energy resides outside of the
+few Hubble times with about one long string core.
+per horizon size and a population of decaying The number of axions emitted by strings
+loops. This process continues until QCD time, during the string epoch (1 GeV < T < 1012 GeV)
+when the axion acquires a small mass. As a can in principle be calculated from the
+ v2 10 Aug 1998 consequence, domain walls form between radiation spectrum of the evolving string
+strings. The wall-string system is short-lived network. Analytic techniques are not well
+because wall tension pulls the strings together, developed and one must rely on numerical
+followed by mutual annihilation into free simulations. A major difficulty is the
+axions. If there is an inflationary period after enormous loop to core size ratio of realistic
+PQ symmetry breaking with a reheat axion strings. Currently, the largest computer
+temperature < f simulations have ln (L / ) 7 . Yet, it is
+a , strings get diluted and do
+not contribute to the cosmological axion valuable to study the spectrum as a function of
+density. ln (L/ ) in order to deduce a possible trend.
+The dynamics of axion strings is governed This is especially important for closed loops as
+by the classical Lagrangian density they dissipate most of the string network
+energy.
+1 µ 1 2 2
+L = µ - ( - f ) (1) In the past, there has been considerable
+2 4 a controversy over the correct radiation
+spectrum. One group [3,4,5,6,7] (scenario A)
+where = exp (ia / f )
+a is a complex scalar argues that the spectrum is strongly peaked at
+field whose phase is the axion field. A simple wavelengths of order the loop size. This
+solution of (1) is a static, straight global string corresponds to an under-damped decay with
+
+
+about 5-10 oscillations per loop half-life when configurations are set up on large (~107 points)
+ln (L / ) 70 . A second group [8,9,10] Cartesian grids, and then time-evolved using
+(scenario B) argues that the loops decay the finite-difference equations derived from
+without oscillations, in a time of order the Eq. (1). A FFT spectrum analysis of the kinetic
+initial size divided by the speed of light. The and gradient energies during the collapse
+radiation spectrum is dE / dk ~1/ k (which is yields N (t)
+ax .
+also the spectrum of the static string field) with
+cutoffs at the inverse loop size and core 2.1. Circular loops
+thickness. Of course, it is possible that neither
+scenario A or B is correct. Because of azimuthal symmetry, circular loops
+The cosmological axion number density at can be studied in r-z space. By mirror
+time t is related to the radiation spectrum symmetry, the problem can be further reduced
+through to one quarter-plane.
+The static axion field far from the string core
+t
+1 t
+d µ (t) is (with f a 1)
+a
+n (t) ~ (3)
+t3 / 2 3 / 2
+t t (t)
+PQ
+where 1
+a (r, z) (r, z) (6)
+2
+
+1 dE d dE
+= (t) (t) d
+(4) in the infinite volume limit, where is the
+(t) d d solid angle subtended by the loop. We use as
+initial configuration the outcome of a
+and dE
+d is the radiated axion energy relaxation routine starting with Equation 6
+spectrum. A useful quantity is outside the core and
+
+dE dk
+N (t) = (t) . () 0.58( )exp(
+i ) (7)
+ax (5)
+dk k
+
+
+In scenario B, N ax is predicted to stay constant 2500
+since both axion radiation and static string
+field have the same spectrum. Conversely, one 2000
+expects N L
+ax to increase by ln( / ) in scenario n
+itio 1500
+A. The factor final initial
+r = N / s
+ax Nax , by which N ax op
+increases during the decay of a string loop re 1000
+determines the string decay contribution to the oC
+axion cosmological energy density. The string 500
+decay contribution is r times the contribution
+from misalignment. In scenario A, r is of the 0
+order ln (L/ ) , whereas in scenario B, r is of 0 1000 2000 3000 4000 5000
+order unity. Tim e
+
+
+Figure 1: Core position of collapsing loop versus time for
+= 0.001 (dotted line) and = 0.004 (solid line). The
+2. LOOP SIMULATIONS lattice size is 4096×4096.
+
+We have performed simulations of various
+loop geometries: (1) circular loops initially at within the core. Here, is the distance to the
+rest, (2) noncircular loops with angular string, and is the winding angle. The
+momentum, and (3) string-antistring pairs relaxation and the subsequent dynamical
+with angular momentum. The initial evolution are done with reflective boundary
+
+
+conditions. A step size dt = 0.2 was used for = c J (k r) sin (k z)
+z mn 0 m n
+the time evolution and the total energy was mn
+conserved to better than 1 %. In general the = c J (k r) cos (k z)
+r mn 1 m n (8)
+loops collapsed at nearly the speed of light mn
+
+without a rebound. For a small range of = c J (k r) cos (k z)
+mn 0 m n
+parameters, 80 < R / mn
+0 < 190, where R0 is the
+initial loop radius, we noticed a small bounce with the boundary conditions J (k R )
+m = 0
+as shown in Figure 1. 1 max
+There is a substantial Lorentz contraction of and sin (k Z )
+n = 0
+max . The dispersion
+the string core as it collapses (see Figure 2). A relationship is given by 2 2
+= k + k .
+lattice effect became evident when the reduced mn m n
+core size becomes comparable to the lattice Figure 3 shows the power spectrum
+spacing. This lattice effect consists of a dE / d (ln k ) displayed in ln k bins of
+"scraping" of the string core on the underlying width ln k = .
+0 5 at t = 0 and after the collapse
+grid, during which the kinetic energy of the at t = 3000. At both times, the spectrum
+string gets dissipated into high frequency exhibits an almost flat plateau, consistent with
+axion radiation. We always choose small a dE / dk 1/ k spectrum. The high frequency
+enough to avoid this phenomenon. cutoff of the spectrum is increased however
+after the collapse and is associated with the
+Lorentz contraction of the core.
+The evolution of N ax (E / k )
+mn mn during
+mn
+the loop collapse was studied for various
+values of R /
+0 . We observe a marked
+decrease of N ax by ~ 20 % during the collapse
+roughly independent of R /
+0 .
+
+
+
+
+
+10000
+
+
+8000
+
+
+) 6000
+k
+(ln /dE 4000
+d
+
+
+2000
+
+
+0
+Figure 2: Intensity plot of potential energy (contours 1 2 3 4 5 6 7 8 9 10 11
+represent constant potential energy) in vicinity of string ln k
+core for R = 2400, = 0.001 at t = 2600. The Lorentz factor is
+0
+
+about 4. The arrows represent the axion field.
+
+Figure 3: Energy spectrum of collapsing loop for R =
+0
+
+2400 and = 0.001. The white (black) histogram represents
+A spectrum analysis of the fields was the spectrum at t = 0 (t = 3000). The increased high
+performed by expanding the gradient and frequency cutoff of the final spectrum is due to the Lorentz
+kinetic energies as contraction of the core.
+
+
+1.1 10 7 emission of gravitational radiation and the
+loop diameter shrinks with time. The power is
+1.0 10 7 2
+P = G µ , where µ is the energy per unit
+length, G is the gravitational constant, and
+9.0 10 6 is a constant ~ 50 - 100 which depends on
+xaN , . Evidently, the power is independent of
+8.0 10 6 loop size, and the loop undergoes
+4
+1/( G µ) 10 oscillations in its lifetime. The
+7.0 10 6
+radiation power spectrum was numerically
+6.0 10 6 determined [15,16] to be 4 / 3
+P 1/ k
+k .
+0 2000 4000 6000 8000 Axion strings are much more short-lived
+Time
+Figure 4: N than gauge strings and radiate axions
+ax of a circular loop as a function of time for efficiently due to the strong topological
+R = 2400, and = 0.004 (solid line), = 0.001 (dashed line),
+0
+and = 0.00025 (dotted line). coupling between string and field. No closed
+loop solutions are known however.
+2.2. Rotating loops According to scenario A [7,15], the radiated
+power is 2
+P 50 fa , independent of loop size,
+There exists a family of nonintersecting and the loop shrinks linearly with time. The
+("Kibble-Turok") [11,12,13,14] loops, which expected number of oscillations per loop half-
+have been studied in the context of gauge life is ln (L / ) / 50 4 for ln (L / ) 70 . In
+strings. They are solutions of the Nambu-Goto addition, N ax should increase by a factor
+equations of motion and all have non-zero ln (L/ ) . In scenario B on the other hand, N
+angular momentum. ax
+Intercommuting (self-intersection with should remain approximately constant.
+reconnection) causes the loop sizes to shrink, We performed numerous simulations of
+and hence the average energy of radiated rotating loops on a 3D (2563) lattice with
+periodic boundary conditions. Standard
+axions to increase and hence N ax to decrease. Fourier techniques were used for the spectrum
+Intercommuting favors scenario B for these analysis, and N was computed as a function
+reasons. We picked the Kibble-Turok ax
+of time using the dispersion relationship
+configuration as an initial condition to avoid
+intercommuting as much as possible, thus
+giving scenario A the best possible chance to = 2(3 - cos k - cos k - cos k )
+mnp m n p . (10)
+get realized. 1.2 10 5
+A common loop parameterization is given by
+1.1 10 5
+
+x
+( , t) = R (
+2 {1 - )
+sin + 1
+-
+3
+sin +
+-
+sin +
+3 }
+1.0 10 5
+y
+( , t) = R2 {- (1-)
+cos - 1
+-
+3
+cos -
+-
+cos
+cos +
+3 }
+xa 9.0 104
+z
+( ,t) = R N
+2 {- 2 1
+( - )
+cos -
+-
+sin
+cos + }
+(9) 8.0 10 4
+where ± = ( ± t) / R , and ( ,
+0 2 R) is the 7.0 10 4
+length along the loop. For a significant subset
+[12,13,14] of the free parameters (
+)
+1
+,
+0 , 6.0 10 4
+(
+- , ) the loop never self-intersects. A 0 50 100 150 200 250 300 350 400
+Time
+noteworthy feature is the periodic appearance Figure 5: Nax of non-intersecting ("Kibble-Turok") loops
+of cusps, where the string velocity as a function of time for = 0.01, = 0, and = 0.2 (solid
+momentarily reaches the speed of light. The line), = 0.1 (dashed line), and = 0.0625 (dotted line). The
+motion of a gauge string is damped by lattice size is 2563 and R = 72.
+
+
+6000 system to form, which decays by emission of
+Etot axions and eventually annihilates.
+5000
+
+
+4000
+E
+y kin
+rge 3000
+nE
+2000 Egrad
+
+1000
+Epot
+0 0 50 100 150 200 250 300 350 400
+Time
+
+
+
+Figure 6: Energy of non-intersecting loop. Shown are
+total, gradient, kinetic, and potential energy as a function of
+time for = 0.01, = 0, and = 0.0625.
+
+
+Figure 5 shows N ax for various core sizes
+and constant , . The behavior is very
+similar to that of a non-rotating circular loop
+with a reduction of ~ 25 %. Figure 6 depicts the
+energy of the collapsing loop. Clearly, the total
+energy is well conserved. A few percent of the
+loop energy is dissipated as massive radiation,
+shown here as Epot .
+2.3. String-antistring pairs
+
+Lastly, we studied rotating, parallel string-
+antistring pairs, which can be thought of as
+cross-sections of loops with large eccentricity.
+The 20482 lattice was initialized with the
+Abrikosov ansatz [17]
+
+(x, y) =
+(x - x , y - y ) (x - x , y - y )
+1 1 1 2 2 2 (11)
+
+
+where ( x , y ), (x , y )
+1 1 2 2 are the locations of
+string and antistring respectively. The fields
+were relaxed with periodic boundary
+conditions and the cores held fixed. The time
+derivative (x, y) was obtained by a finite
+difference over a small time step. The
+attractive force per unit length between strings
+
+(
+( )
+) = V
+F
+2 /
+
+(12)
+Figure 7: Collapsing string-antistring pair. The initial
+rotational velocity of the cores is 0.4 and = 0.005. The
+is competing against the centrifugal force. In snapshots are for t = 40, 800, 1440.
+general, one expects a bound relativistic
+
+
+Figure 7 shows the decay of a string-antistring Acknowledgements
+system for an initial rotational velocity of 0.4.
+For the parameter range (3 < ln ( / ) , This work was performed under the
+v
+rot 0.6, ~ 500), the system collapsed auspices of the U.S. Department of Energy
+immediately in a time of order . under Contract No. W-7405-Eng-48 at LLNL
+and under DE-FG05-86ER40272 at the
+University of Florida. We thank Livermore
+The spectrum and N ax were computed as Computing for granting us generous access to
+well and Figure 8 shows the evolution for their facilities.
+several cases.
+
+8 103
+REFERENCES
+7 103
+
+1. D. Bennett and F. Bouchet, Phys. Rev. D41,
+6 103 2408 (1990).
+x 2. B. Allen and E.P.S. Shellard, Phys. Rev.
+a 5 103
+N Lett. 64, 119 (1990).
+3. R. Davis, Phys. Rev. D32, 3172 (1985);
+4 103
+Phys. Lett. 180B, 225 (1985).
+3 103 4. R.L. Davis and E.P.S. Shellard, Nucl. Phys.
+B324, 167 (1989).
+2 103 5. R.A. Battye and E.P.S. Shellard, Phys. Rev.
+0 500 1000 1500 2000 2500 Lett. 73, 2954 (1994); (E) ibid. 76, 2203
+Time (1996).
+6. R.A. Battye and E.P.S. Shellard, Nucl.
+Figure 8: N Phys. B423, 260 (1994).
+ax of collapsing string-antistring pair. The
+initial rotational velocity is 0.6 (dashed), 0.4 (solid), 0.2 7. R.A. Battye and E.P.S. Shellard, astro-
+(dotted) and = 0.005. ph/970614.
+8. D. Harari and P. Sikivie, Phys. Lett. 195B,
+3. CONCLUSION 361 (1987).
+9. C. Hagmann and P. Sikivie, Nucl. Phys.
+Two different opinions exist about how B363, 247 (1991).
+axion strings decay. The first view (scenario 10. C. Hagmann, S. Chang, and P. Sikivie, in
+A) states that the loops are moderately preparation.
+damped and oscillate several times during 11. T.W.B. Kibble and N. Turok, Phys. Lett.
+their lifetime. The instantaneous radiation 116B, 141 (1982).
+spectrum is dominated by wavelengths of 12. N. Turok, Nucl. Phys. B242, 520 (1984).
+order the loop size, and N 13. C. Burden, Phys. Lett. 164B, 277 (1985).
+ax is predicted to 14. A.L. Chen, D.A. DiCarlo, and S.A. Hotes,
+increase during the decay by a factor ln (L/ ) . Phys. Rev. D37, 863 (1988).
+Scenario B on the other hand proposes that 15. A. Vilenkin and T. Vachaspati, Phys. Rev.
+the loops are critically damped, the radiation D35, 1138 (1987).
+spectrum is 1/ k , and N ax is approximately 16. T. Vachaspati and A. Vilenkin, Phys. Rev.
+constant. Our simulations clearly support D31, 3052 (1985).
+scenario B since N ax decreases by about 20 % 17. E.P.S. Shellard, Nucl. Phys. B283, 624
+during the decay of axion loops for ln (L/ ) ~ (1987).
+6. Moreover, the decrease of N ax which we
+observe during the decay of string loops, does
+not change with ln (L/ ) over the range of
+ln (L/ ) which we investigated.
+
+
+

@@ -1,0 +1,390 @@
+
+
+ 25 Oct 1995
+
+DESY 95-175 October 1995
+
+On the Behaviour of Non-Singlet
+
+Structure Functions at Small x
+
+J. Bl"umleina and A. Vogtb;1
+
+aDESY-Zeuthen Platanenallee 6, D-15735 Zeuthen, Germany
+
+bDeutsches Elektronen-Synchrotron DESY Notkestrasse 85, D-22603 Hamburg, Germany
+
+Abstract The resummation of O(ffl+1s ln2l x) terms in the evolution kernels of non-singlet combinations of unpolarized and polarized structure functions is investigated. The agreement with complete calculations up to order ff2s is demonstrated, and the leading small-x contributions to the three-loop non-singlet splitting functions P \Sigma are derived. The additional contributions due to the resummed terms are studied numerically for the most important non-singlet structure functions. They are found to be about 1 % or smaller in the kinematical regions accessible at present and in the foreseeable future.
+
+1On leave of absence from Sektion Physik, Universit"at M"unchen, D-80333 Munich, Germany
+
+1 Introduction The resummation of leading contributions in the evolution kernels of singlet structure function combinations at small x [1] may lead to large effects [2]. In this case, the small-x evolution is dominated by the rightmost singularity in the N -moment plane , (ffs=[N \Gamma 1])l and higher order ffs corrections to it. Such terms are absent in the non-singlet kernels both for the unpolarized and polarized structure functions [3, 4], as well as in the singlet kernels in the polarized case [5, 6]. Here the most singular contributions behave like N (ffs=N 2)l. An all-order resummation of these terms for non-singlet structure functions has been worked out in ref. [7]. Very sizeable corrections due to this resummation have been claimed for both unpolarized and polarized structure functions recently [8]. In this way the small-x behaviour of the structure function evolution, e.g. of xF *d3 (x; Q2), F p2 (x; Q2) \Gamma F n2 (x; Q2), and g p1 (x; Q2) \Gamma gn1 (x; Q2), may be considerably affected.
+
+So far the resummation [7] was compared with the results of complete calculations only in the universal term of order ffs=N [7, 8]. After setting up our notation and recalling the standard NLO formulation in section 2, we will show in section 3 that the resummation [7] agrees with the known evolution kernels P \Sigma NS(x; ffs) in next to leading order (NLO) for q2 ! 0 as well in the small-x limit. The contributions / ff3s ln4 x to the so far uncalculated 3-loop non-singlet MS splitting functions are then derived from the results of ref. [7]. In section 4, we perform a numerical analysis for the most important non-singlet structure functions and compare the effect of the new terms beyond next to leading order with the NLO results.
+
+2 Evolution in fixed-order perturbative QCD The evolution equation for the non-singlet combinations f \Sigma NS(x; Q2) of parton densities reads
+
+@f \Sigma NS(x; Q2)
+
+@ ln Q2 = P
+
+\Sigma NS(x; ffs) \Omega f \Sigma NS(x; Q2) : (1)
+
+Here \Omega denotes the Mellin convolution, and P \Sigma NS(x; ffs) is specified below. In the following, all our expressions refer to the MS factorization and renormalization scheme, and we drop the subscript `NS' wherever the non-singlet character of the quantity under consideration is obvious from the superscript `\Sigma '. The splitting function combinations P \Sigma (x; ffs) are given by
+
+P \Sigma (x; ffs) = Pqq(x; ffs) \Sigma Pqq(x; ffs) j
+
+1X
+
+l=0
+
+al+1s P \Sigma l (x) (2)
+
+with as j ffs(Q2)=(4ss). We now restrict ourselves to the spacelike case, Q2 = \Gamma q2 ? 0. The expansion coefficients P \Gamma l (x) obey the sum ruleZ
+
+1
+
+0 dxP
+
+\Gamma l (x) = 0 8 l ffl N ; (3)
+
+which is due to fermion number conservation and Weierstrass' theorem, since as acts as an independent parameter. At present the splitting functions are known up to two-loop order [3, 4]. They read
+
+Pqq(x; as) = 2asCF " 1 + x
+
+2
+
+1 \Gamma x #+
+
++ 4a2s ^C2F PF (x) + 12 CF CGPG(x) + CF Nf TRPNf (x)* + O(a3s) (4)
+
+Pqq(x; as) = 4a2s ^C2F \Gamma 12 CF CG* PA(x) + O(a3s) ; (5)
+
+1
+
+where CF = (N 2c \Gamma 1)=(2Nc); CA = Nc, and TR = 1=2. Nf denotes the number of active flavours. The functions PI (x); I = F; G; Nf ; A were derived in refs. [4]. For x ! 0 the leading contributions to P \Sigma (x; as) are
+
+P +x!0(x; as) = 2asCF + 2a2sC2F ln2 x + O(a3s) P \Gamma x!0(x; as) = 2asCF + 2a2s h\Gamma 3C2F + 2CF CGi ln2 x + O(a3s) : (6)
+
+The (scheme dependent) parton densities f \Sigma (x; Q2) are no observables themselves beyond the leading order. Instead of their evolution equation (1), one can directly consider the evolution of the structure functions F \Sigma i (x; Q2) obtained by the convolution
+
+F \Sigma i (x; Q2) = c\Sigma i (x; Q2) \Omega f \Sigma i (x; Q2) : (7) Here c\Sigma i (x; Q2) denote the coefficient functions
+
+c\Sigma i (x; Q2) = ffi(1 \Gamma x) +
+
+1X
+
+l=1
+
+alsc\Sigma i;l(x) (8)
+
+corresponding to F \Sigma i (x; Q2). The evolution equation for F \Sigma i can be rewritten as an equation in as(Q2) rather than in Q2 using
+
+@as @ ln Q2 = \Gamma fi0a
+
+2s \Gamma fi1a3s + O(a4s) : (9)
+
+This leads to @F \Sigma
+
+i (x; as)
+
+@as = \Gamma
+
+1 fi0a2s K
+
+\Sigma i (x; as) \Omega F \Sigma i (x; as) ; (10)
+
+where the NLO evolution kernels K\Sigma i;1 are given by
+
+K\Sigma i;1(x; as) = PNS;0(x)as + "P \Sigma 1 (x) \Gamma fi1fi
+
+0 P
+
+NS;0(x) \Gamma fi0c\Sigma i;1(x)# a2s : (11)
+
+Note the obvious fact that the ln2 x terms of eqs. (6) enter the evolution equation (10) only in combination with the coefficient fi0 in eq. (9).
+
+3 Resummation of leading small-x terms The transformation to Mellin-N space
+
+M hK\Sigma x!0(as)i (N ) = Z
+
+1
+
+0 dx x
+
+N\Gamma 1K\Sigma x
+
+!0(x; as) j \Gamma 12 \Gamma
+
+\Sigma x
+
+!0(N; as) (12)
+
+of the most singular part of the evolution kernels K\Sigma in all orders in as was given in ref. [7]2:
+
+\Gamma +x!0(N; as) = \Gamma N 8!:1 \Gamma s1 \Gamma 8asCFN 2 9=;
+
+\Gamma \Gamma x!0(N; as) = \Gamma N 8!:1 \Gamma vuut1 \Gamma 8asCFN 2 "1 \Gamma 8NcasN ddN ln iez
+
+2=4D
+
+\Gamma 1=[2N2c ](z)j#9=; : (13)
+
+2Note that there are a few misprints in eq. (4.7) of ref. [7].
+
+2
+
+Here z = N=p2Ncas, and Dp(z) denotes the function of the parabolic cylinder [9]. We expand eqs. (13) into a power series in aks =N 2k\Gamma 1, and transform the result to x-space using
+
+M ^lnk ` 1x'* (N ) = k!N k+1 : (14) One obtains
+
+K+x!0(x; as) = 2asCF + 2a2sC2F ln2 x + 23 a3sC3F ln4 x + O(a4s ln6 x) (15) K\Gamma x!0(x; as) = 2asCF + 2a2sCF ^CF + 2N
+
+c * ln
+
+2 x + 2
+
+3 a
+
+3sCF "C2F \Gamma 3
+
+2N 2c # + O(ff
+
+4s ln6 x) :
+
+The expressions (15) agree with the corresponding result found for P \Sigma x!0(x; as), eqs. (6), in the complete NLO calculations of the non-singlet anomalous dimensions [4] in the most singular terms since
+
+CG \Gamma 32 CF = 1N
+
+c +
+
+1 2 CF (16)
+
+holds in SU (Nc).
+
+Besides the terms due to the anomalous dimensions P \Sigma l (x), also the coefficient functions c\Sigma i;l(x) contribute in the evolution equation (10). The latter quantities have been calculated toO
+
+(a2s) for the structure functions F2(x; Q2), xF3(x; Q2) and g1(x; Q2) [10, 11]. Expanding the coefficient functions for x ! 0, one finds that3
+
+ci;1(x) / ln ` 1x ' (17) ci;2(x) / ln3 ` 1x ' : (18) Therefore the terms of O(a2s) and O(a3s) in eqs. (15) can be identified with the parts of the non-singlet anomalous dimensions proportional to as(as ln2 x)l, assuming the validity of the resummation performed in ref. [7]. These contributions to P \Sigma 2 (x) read
+
+P +2; x!0(x) = 23 C3F ln4 x P \Gamma 2; x!0(x) = `\Gamma 103 C3F + 4C2F CG \Gamma CF C2G' ln4 x : (19)
+
+The calculation of the complete kernels K\Sigma (x; as) in eq. (10) in higher orders in as requires to take into account also higher orders in the fi-function. However, like in the NLO evoluOCon equation of section 2, the leading small-x terms in K\Sigma / as(as ln2 x)l do not occur together with factors containing the coefficients fiiji*1.
+
+It should be stressed that the agreement of the NLO terms between eqs. (15) obtained from the resummation [7] and eqs. (6) holds for q2 ! 0 only. For the time-like case q2 ? 0 one has [4]4
+
+P +x!0(x; as) = 2asCF \Gamma 2a2sC2F ln2 x + O(a3s) P \Gamma x!0(x; as) = 2asCF + 2a2s h\Gamma 5C2F + 2CF CGi ln2 x + O(a3s) : (20)
+
+3Note that apparent terms / 1=xm; m = 1; 2 cancel in the corresponding expressions of ref. [11]. 4The O(ff
+
+s) coefficient functions for e+e
+
+\Gamma annihilation or the Drell-Yan process behave also at most / ln(1=x),
+
+see ref. [10].
+
+3
+
+The difference between eqs. (6) and (20) is due to the violation of the Gribov-Lipatov relation in the ln2 x term of the NLO splitting functions.
+
+Considerations similar to those of ref. [7] may be valid for the spacelike twist-2 singlet evolution equations in the polarized case, where the matrix of the splitting functions up to two loops has been obtained in refs. [5, 6].
+
+4 Numerical results In moment space the evolution equation (10) for the non-singlet structure functions reduces to an ordinary differential equation. Taking into account the resummed kernels (13), the solution reads
+
+F \Sigma (N; as) = F \Sigma (N; a0) ` asa
+
+0 '
+
+flNS;0(N)=2fi0 (21)
+
+\Theta (exp " 12fi
+
+0 Z
+
+as a0 da
+
+1 a2 \Gamma
+
+\Sigma (N; as)# + as \Gamma a0
+
+2fi0 "~fl
+
+\Sigma 1 (N ) \Gamma fi1
+
+2fi0 flNS;0(N ) + 2fi0^ci;1(N )#)
+
+with
+
+fl\Sigma i (N ) = \Gamma 2 Z
+
+1
+
+0 dx x
+
+N\Gamma 1P \Sigma i (x) ; ^c\Sigma i (N ) = Z 1
+
+0 dx x
+
+N\Gamma 1c\Sigma i (x) (22)
+
+and a0 = as(Q20). Here ~fl\Sigma 1 (N ) denotes the two-loop anomalous dimension with the 1=N 3 term subtracted, since this contribution is accounted for already in the exponential factor. Moreover,
+
+\Gamma \Sigma (N; as) = \Gamma \Sigma x!0(N; as) + asN CF : (23) The well-known solution in NLO for the evolution of F \Sigma (N; as) can be recovered from (21) by expanding the exponential to order as.
+
+In the case of the non-singlet `+'-combinations the remaining integral in (21) can be done analytically, whereas it has to be performed numerically for the `-'-combinations involving the parabolic cylinder function. The transformation of the solution back into x-space finally affords one standard numerical integral in the complex N -plane [12]. We have also expanded the functions \Gamma \Sigma (N; as) in the coupling constant as. We find that in the practical cases considered below, one gets more than 90% of the resummation effect from the first two terms of the ffs expansion.
+
+As it stands, eq. (21) violates the fermion number conservation for the `-' non-singlet combinations. Here the conjecture is that the coefficient functions c\Sigma i;l(x) do not contain terms / ln2l x. For this no proof exists yet, however, we have verified this behaviour up to 2-loop order in section 3 for the coefficient functions of xF3, F NS2 , and gNS1 . Under this assumption fermion number conservation has to be restored for \Gamma \Gamma x!0(N; as). We approach this problem in two ways numerically. In a first set of calculations we subtract a corresponding term / ffi(1 \Gamma x) from the splitting functions P \Gamma , eq. (2), in each order in as (the numerical results are labelled by `A' later). In N -space this prescription leads to
+
+\Gamma \Gamma (N; as) ! \Gamma \Gamma (N; as) \Gamma \Gamma \Gamma (1; as) : (24) Another possibility (denoted by `B' in the following) is the restoration of fermion number conservation by subleading 1=N terms modifying \Gamma \Gamma according to
+
+\Gamma \Gamma (N; as) ! \Gamma \Gamma (N; as) \Delta (1 \Gamma N ) : (25)
+
+4
+
+The difference of the results obtained by these two procedures gives an indication on the degree of dominance of the leading terms included in the present resummation vs. uncalculated subleading contributions. Our two prescriptions for restoring fermion number conservation are analogous to the procedure in the second reference in [2] with respect to energy-momentum conservation in the unpolarized singlet case.
+
+Before we come to the quantities studied numerically, we have to specify the input parton densities for F \Sigma (N; a0) in (21). We choose Q20 = 4 GeV2 and \Lambda MS(Nf = 4) = 230 MeV. In the present study we use the same input densities and value of \Lambda QCD for the NLO and the resummed calculations. Specifically, in the unpolarized case we take the non-singlet combinations from the MRS(A) global fit [13]. For later use we note that xuv(x; Q20) behaves , x0:54 at small x. In the polarized case, we employ \Delta uv and \Delta dv at Q2 = 10 GeV2 from ref. [14]5. These densities were obtained from the DFLM [15] unpolarized valence input distributions by multiplication with x-dependent factors, yielding x\Delta uv , x0:83 at small x. We have evolved these distribution back in NLO from Q2 = 10 GeV2 to our input scale Q20 = 4 GeV2.
+
+We are now ready to present the resummation effects on the most important non-singlet combinations. In the unpolarized case, we consider the evolution of the `-'-combination
+
+1 2 hxF
+
+*N3 (x; Q20) + xF _*N3 (x; Q20)i = c\Gamma
+
+F3 (x; Q20) \Omega [xuv + xdv](x; Q20) (26)
+
+for an isoscalar target N , and of the `+'-quantity
+
+F ep2 (x; Q20) \Gamma F en2 (x; Q20) = c+F2 (x; Q20) \Omega 13 hxuv \Gamma xdv + 2(x _d \Gamma x_u)i (x; Q20) : (27) In the polarized case we investigate
+
+g ep1 (x; Q20) \Gamma g en1 (x; Q20) = c\Gamma g1 (x; Q20) \Omega 16 (\Delta uv \Gamma \Delta dv) (x; Q20) : (28) All these quantities are related to sum rules of phenomenological interest. xF3 and g1 are involved in the Gross-Llewellyn-Smith and Bjorken sum rules, respectively, which are used for the determination of ffs. The F2 difference leads to the Gottfried sum rule, which provides information on the isospin asymmetry of the light quark sea in the proton. In all these cases, experimental data have to be extrapolated towards small x, and hence the small-x Q2-evolution is of interest in principle. A `+'-combination in the polarized case is the interference structure function gflZ3 , but this quantity is hardly measureable and the effects of the resummation are even smaller than in gNS1 . We would like to note that the effects due to resummation in the `-'-combinations do not contribute to the first moment due to fermion number conservation.
+
+In figure 1, the NLO results for xF3 and the resummed corrections \Delta xF A;B3 j xF A;B3 \Gamma xF NLO3 are displayed. The resummation effects turn out to be about 1% or smaller over the whole x and Q2 range considered. The inclusion of subleading terms to restore the fermion number conservation (curves `B') reduces the effect by a factor of three or more at small x, showing that even at x as small as x = 10\Gamma 5 the resummed terms do not dominate. With respect to the size of the resummation effect, the situation is the same for F ep2 \Gamma F en2 as shown in figure 2. For this non-singlet combination there is no constraint due to fermion number conservation.
+
+The evolution of the polarized non-singlet structure function gep1 \Gamma gen1 is depicted in figure 3. Here the effect of the resummed Kernel (13) is bigger and reaches about 15% at x = 10\Gamma 5 for the Q2-values considered in the figure. This enhancement is due to the flatter small-x behaviour
+
+5We use x0 = 0:75 in eq. (12) of ref. [14].
+
+5
+
+of the input densities (\Delta uv , x\Gamma 0:17 vs. uv , x\Gamma 0:46)6. Note, however, that in the gp1-range accessible for polarized electron and proton scattering at HERA [16] the effect is again about 1% or less. The measurement of the difference gp1 \Gamma gn1 will have even larger statistical errors than those of gp1 alone, so that the effect due to resummation will not be resolvable in practice. With respect to the dominance of the resummed terms, the situation is the same as in the unpolarized case discussed for xF3.
+
+5 Conclusions We have investigated the effect of the resummation of terms of order ffl+1s ln2l x given in ref. [7] on the small-x behaviour of non-singlet structure functions for deep inelastic (polarized) lepton scattering both off unpolarized and polarized targets. The comparison with terms obtained in the same order by complete NLO calculations shows the equivalence of both approaches in this limit up to order ff2s. Since the coefficient functions up to two-loop order for the non-singlet combinations considered contain only terms less singular in ln x, the contributions to / a3s ln4 x in the three-loop splitting functions P \Sigma (x; as) can be predicted on the basis of ref. [7].
+
+The numerical analysis shows that the all-order resummation of the terms O(ffl+1s ln2l x) leads only to corrections on the level of 1% for non-singlet structure functions accessible experimentally at present or in the foreseeable future. Moreover, for the `-' non-singlet combinations fermion number conservation has to be obeyed. This can lead to a further reduction of the effect by a factor of about three ore more in the small-x range. The large sensitivity of the results on the prescription to implement the fermion number conservation constraint indicates the importance of so far uncalculated subleading terms O(ffl+1s ln2l\Gamma 1 x) down to the lowst values of x considered here, x = 10\Gamma 5. If it would be possible to measure the combination gp1 \Gamma gn1 at high precision down to x-values of this order, an enhancement relative to the NLO result ranging up to about 5 \Gamma 15 % were obtained, where again the spread in the correction very roughly accounts for yet unknown subleading terms.
+
+Acknowledgement We would like to thank R. Kirschner, L. Lipatov, W. van Neerven, and W. Vogelsang for useful discussions. This work was supported in part by the German Federal Ministry for Research and Technology under contract No. 05 6MU93P.
+
+References
+
+[1] E.A. Kuraev, L.N. Lipatov, and V.S. Fadin, Sov. Phys. JETP 45 (1977) 199;
+
+Ya.Ya. Balitzkii and L.N. Lipatov, Sov. J. Nucl. Phys. 28 (1978) 822.
+
+[2] S. Catani and F. Hautmann, Nucl. Phys B427 (1994) 475;
+
+K. Ellis, F. Hautmann, and B. Webber, Phys. Lett B348 (1995) 582.
+
+[3] D. Gross and F. Wilczek, Phys. Rev. D8 (1974) 416; D9 (1974) 980;
+
+H. Georgi and D. Politzer, Phys. Rev. D9 (1974) 416; L.N. Lipatov, Sov. J. Nucl. Phys. 20 (1975) 94; G. Altarelli and G. Parisi, Nucl. Phys. B126 (1977) 298;
+
+6More recent parametrizations of polarized parton distributions show a similar or steeper small-x behaviour, see e.g. refs. [17], leading to similar or smaller resummation effects.
+
+6
+
+K.J. Kim and K. Schilcher, Phys Rev. D17 (1978) 2800; Yu.L. Dokshitser, Sov. Phys. JETP 46 (1977) 641.
+
+[4] E.G. Floratos, D.A. Ross, and C.T. Sachrajda, Nucl. Phys. B129 (1977) 66, E: B139
+
+(1978) 545; Nucl. Phys. B152 (1979) 493; A. Gonzalez-Arroyo, C. Lopez, and F.J. Yndurain, Nucl. Phys. B153 (1979) 161; A. Gonzalez-Arroyo and C. Lopez, Nucl. Phys. B166 (1980) 429; G. Floratos, P. Lacaze, and C. Kounnas, Phys. Lett. B98 (1981) 89; Nucl. Phys. B192 (1981) 417; G. Curci, W. Furmanski and R. Petronzio, Nucl. Phys. B175 (1980) 27.
+
+[5] K. Sasaki, Progr. Theor. Phys. 54 (1975) 1816;
+
+M.A. Ahmed and G.G. Ross, Phys. Lett. B56 (1975) 385; Nucl. Phys. B111 (1976) 298; G. Altarelli and G. Parisi ref. [3].
+
+[6] R. Mertig and W.L. van Neerven, INLO-PUB-6(95), NIKHEF-H/95-031. [7] R. Kirschner and L.N. Lipatov, Nucl. Phys. B213 (1983) 122. [8] B.I. Ermolaev, S.I. Manayenkov, and M.G. Ryskin, DESY 95-017;
+
+J. Bartels, B.I. Ermolaev, and M.G. Ryskin, DESY 95-124.
+
+[9] I.M. Ryshik and I.S. Gradstein, Tables of Series, Products, and Integrals, (DVW, Berlin,
+
+1957), 7.340.
+
+[10] For a summary of coefficient functions in the MS scheme to O(ffs) see: W. Furmanski and
+
+R. Petronzio, Z. Phys. C11 (1982) 293 and references therein.
+
+[11] S.A. Larin and J.A.M. Vermaseren, Z. Phys. C57 (1993) 93;
+
+E.B. Zijlstra and W.L. van Neerven, Nucl. Phys. B383 (1992) 525; Phys. Lett. B297 (1993) 377; Nucl. Phys. B417 (1994) 61; E: B426 (1994) 245.
+
+[12] M. Gl"uck, E. Reya, and A. Vogt, Z. Phys. C48 (1990) 471. [13] A. Martin, R. Roberts, J. Stirling, Phys. Rev. D50 (1994) 6734. [14] Hai-Yang Cheng and C.F. Wai, Phys. Rev. D46 (1992) 125. [15] M. Diemoz, F. Ferroni, E. Longo, and G. Martinelli, Z. Phys. C39 (1988) 21. [16] J. Bl"umlein, DESY 95-164, and Proceedings of the Workshop `Prospects of Spin Physics
+
+at HERA', eds. J. Bl"umlein and W.D. Nowak, (DESY, Hamburg, 1995).
+
+[17] M. Gl"uck, E. Reya, and W. Vogelsang, Phys. Lett. B359 (1995) 201;
+
+M. Gl"uck, E. Reya, M. Stratmann, and W. Vogelsang, DO-TH 95/13, RAL-TR-95-042; G. Ladinsky, in: Proceedings of the Workshop `Prospects of Spin Physics at HERA', eds. J. Bl"umlein and W.D. Nowak, (DESY, Hamburg, 1995).
+
+7
+
+f = xF3 N
+
+x Q2 = 104 GeV2 Q2 = 100 GeV2 Q2 = 10 GeV2
+
+f NLO
+
+\Delta f (A) -\Delta f (A)
+
+\Delta f (B) -\Delta f (B)10 -5
+
+10 -4
+
+10 -3 10 -2 10 -1
+
+1
+
+10 -5 10 -4 10 -3 10 -2 10 -1 1 Figure 1: The small-x Q2-evolution of the non-singlet structure function xF N3 j 12 (xF *N3 +xF _*N3 ) for an isoscalar target N in NLO and the corrections to these results due to the resummed kernels derived from ref. [7]. `A' and `B' denote the two prescriptions for implementing the fermion number conservation discussed in the text.
+
+8
+
+f = F2 ep - F2 en
+
+x Q2 = 104 GeV2 Q2 = 100 GeV2 Q2 = 10 GeV2
+
+-f NLO f NLO
+
+\Delta f 10 -6 10 -5 10 -4 10 -3 10 -2 10 -1
+
+10 -5 10 -4 10 -3 10 -2 10 -1 1 Figure 2: The same as in Fig. 1, but for the combination F ep2 \Gamma F en2 . For this `+'-combination, there is no constraint on the kernels from fermion number conservation.
+
+9
+
+f = g1 ep - g1 en
+
+x
+
+f NLO f (A) f (B)
+
+104 = Q2(GeV2) 100 10
+
+0.5 1 2
+
+5 10
+
+0.5 0.60.7
+
+0.80.9
+
+1
+
+2 3 4 5 67
+
+89 10
+
+10 -5 10 -4 10 -3 10 -2 10 -1 1 Figure 3: The small-x Q2-evolution of the non-singlet polarized structure-function difference g ep1 \Gamma g en1 in NLO and with the resummed kernels taken into account. Again `A' and `B' denote the two prescriptions for implementing the fermion number conservation discussed in the text.
+
+10
+

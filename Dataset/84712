@@ -1,0 +1,2068 @@
+
+
+NYU-TH-95/03/03
+
+hep-ph/yymmnnn
+
+March 1995
+
+Gauge invariant three boson vertices and their Ward identities
+
+in the Standard Model
+
+Joannis Papavassiliou and Kostas Philippides
+
+New York University, Department of Physics Andre and Bella Meyer Hall of Physics, 4 Washington Place,
+
+New York, NY 10003
+
+ABSTRACT In the context of the Standard Model we extend the S-matrix pinch technique for non-conserved currents to the case of three boson vertices. We outline in detail how effective gauge invariant three boson vertices can be constructed, with all three incoming momenta off-shell. Explicit closed expressions for the vertices flW \Gamma W +, ZW \Gamma W +, and O/W \Gamma W + are reported. The three boson vertices so constructed satisfy naive QED-like Ward identities which relate them to the gauge invariant gauge boson self-energies previously constructed by the same method. The derivation of the aforementioned Ward identities relies on the sole requirement of complete gauge invariance of the S-matrix element considered; in particular, no knowledge of the explicit closed form of the three boson vertices involved is necessary. The validity of one of these Ward identities is demonstrated explicitly, through a detailed diagrammatic one-loop analysis, in the context of three different gauges.
+
+1 Introduction The pinch technique (PT) is an algorithm that allows the construction of modified gauge independent (g.i.) off-shell n-point functions, through the order by order rearrangement of Feynman graphs contributing to a certain physical and therefore ostensibly g.i. amplitude, such as an S-matrix element or a Wilson loop [1]. The PT was originally introduced in an attempt to gain insight from perturbation theory on issues encountered in developing a consistent truncation scheme for the Schwinger-Dyson (SD) equations governing the nonperturbative QCD dynamics [2]. Specifically, one wishes to construct a SD series which is manifestly g.i. already in its one-dressed loop truncated version. This is a non-trivial task, since the mechanism of gauge cancellations is very subtle, and involves in general a delicate conspiracy of terms coming from all orders.
+
+The systematic derivation of such a SD series for QCD has been the focal point of extensive research [3] [4]. Of particular interest in this context is the study of the three gluon vertex ^\Gamma 3 [5], and the four gluon vertex ^\Gamma 4 [6]. In particular, as explained first in [4] and later in [6], one attempts to construct an effective potential \Omega [7] for quarkless QCD, which, in ghost-free gauges, is a functional of only three basic quantities: the gluon selfenergy ( ^d), the three gluon vertex (^\Gamma 3), and the four gluon vertex (^\Gamma 4), e.g. \Omega ( ^d; ^\Gamma 3; ^\Gamma 4). One then requires that \Omega is manifestly gauge-independent for off-shell ^d, ^\Gamma 3, and ^\Gamma 4, e.g. when they do not necessarily satisfy their respective SD equations. This requirement can be enforced if ^d, ^\Gamma 3, and ^\Gamma 4 are individually gauge-independent, and, at the same time, the renormalized self energy ^\Pi _* is transverse, e.g.
+
+q_ ^\Pi _* = 0 (1.1) order by order in the dressed loop expansion [8]. The one-loop dressed expression for ^\Pi _* is schematically shown in Fig.1; we see that already at this level the fully dressed vertices
+
+^\Gamma 3 and ^\Gamma 4 make their appearance. It turns out that Eq.(1.1) can be satisfied as long as
+
+^d, ^\Gamma 3, and ^\Gamma 4 satisfy the following Ward identities (WI):
+
+q_1 ^\Gamma _*ff(q1; q2; q3) = T*ff(q2) ^d\Gamma 1(q2) \Gamma T*ff(q3) ^d\Gamma 1(q3) (1.2)
+
+q_1 ^\Gamma abcd_*fffi = fabp ^\Gamma cdp*fffi(q1 + q2; q3; q4) + c:p: ; (1.3)
+
+(1.4)
+
+where ^d\Gamma 1(q) = q2 \Gamma ^\Pi (q), T_*(q) = g_* \Gamma q_q* =q2 is the usual transverse projection operator, f abc the structure constants of the gauge group, and the abbreviation c.p. in the r.h.s. of Eq.(1.4) stands for "cyclic permutations" [9].
+
+Although this program has been layed out conceptually, its practical implementation is as yet incomplete. One thing is certain however: if Green's functions with the properties
+
+1
+
+described above can arise out of a self-consistent treatment of QCD, one should be able to construct Green's functions with the same properties at the level of ordinary perturbation theory after appropriate rearrangement of Feynman graphs. The PT accomplishes this task by providing the systematic algorithm needed to recover the desired Green's functions order by order in perturbation theory. So, g.i. three and four- gluon vertices have already been constructed via the PT at one-loop, and they satisfy the Ward identities of Eq.(1.4) [10] .
+
+A program similar to that outlined above for QCD has also been proposed for the case of non-Abelian gauge theories with either elementary Higgs particles or with dynamical symmetry breaking [11]. In an attempt to study the general structure of the g.i. Green's functions involved, the PT was extended to the case of theories with tree-level symmetry breaking. The technical modifications necessary to accomplish such a task have been presented in [12], in the context of an SU (2) toy model. The upshot of that analysis was that the PT, when properly applied, gives rise to g.i. two- and three point functions, which satisfy the same WI as in the symmetric (unbroken) case, provided one includes appropriate longitudinal Goldstone boson Green's functions. So, for example Eq.(1.1) becomes
+
+q_ ^\Pi _* + M ^\Pi * = 0 (1.5)
+
+where ^\Pi * is the g.i one-loop mixed self-energy between the (massive) gauge boson and the corresponding Goldstone boson. Clearly, Eq.(1.1) may be enforced, if we redefine the gauge boson self-energy to be ^\Pi tr_* = ^\Pi _* + Mq_q2 ^\Pi * with similar redefinitions for other n-point functions. Subsequently, the PT was extended to the full SM [13], and several interesting applications were proposed [14], [15], [16], [17].
+
+Even though formal considerations similar to those of the QCD case would provide sufficient grounds for a detailed study of g.i. three and four gauge boson vertices in the context of the SM, such a study was precipitated by phenomenological issues. In particular, the possibility of directly probing non-Abelian vertices in the upcoming LEP2 experiments, through the process e+e\Gamma ! W +W \Gamma , has led to extensive studies of anomalous gauge boson couplings, induced either by extensions of the SM, or by one-loop corrections within the SM [18], [19], [20]. In computing the latter, issues of gauge invariance become very important. So, form factors of the W boson, such as the magnetic dipole and electric quadrupole moments, turn out to be gauge dependent when extracted from the conventional off-shell flW W and ZW W vertices, calculated in the context of the R, gauges [22]. In addition, these quantities are infrared divergent and violate perturbative unitarity. All the above pathologies can be bypassed, as long as one instead extracts them from g.i. off-shell flW W and ZW W vertices constructed via the PT [23].
+
+2
+
+Given the relevance of g.i three boson vertices (TBV) both from the theoretical and the phenomenological point of view, we present in this paper the general methodology for their construction, for the electro-weak sector of the SM. We focus on the vertices involving one neutral and two charged incoming particles, with all three incoming momenta off-shell. In order to construct such vertices we consider a matrix element for six-fermion elastic scattering of the form e\Gamma e\Gamma * ! e\Gamma e\Gamma *, where the external electrons e are considered to be massive. This assumption is important, since, in addition to the g.i. vertices with three incoming gauge bosons (flW +W \Gamma and ZW +W \Gamma ) it enables the construction of g.i. three boson vertices where at least one of the incoming bosons is a scalar particle (unphysical would-be Goldstone bosons and physical Higgs boson). As we will see in what follows, the latter play a crucial role in the Ward identities enforcing the gauge-invariance of the S-matrix In particular, in this paper we focus on the following issues.
+
+a) We discuss the technical difficulties involved in the application of the PT when the necessary assumption is made that me 6= 0.
+
+b) We present the most general algorithm for constructing g.i vertices involving one neutral and two charged bosons.
+
+c) We explain how the requirement of the gauge invariance of the S-matrix gives rise to a set of WI, relating several of the g.i. vertices to each other. The derivation is general and does not require knowledge of the explicit closed form of the quantities involved. Most noticeably, the following WI,
+
+q_ b\Gamma
+
+ZW \Gamma W +
+
+_fffi (q; p1; p2) + iMZ b\Gamma
+
+O/W \Gamma W + fffi (q; p1; p2) = gc ^ b\Pi
+
+W fffi(p1) \Gamma b\Pi
+
+W fffi(p2)* (1.6)
+
+relates the g.i vertices b\Gamma
+
+ZW \Gamma W +
+
+_fffi and b\Gamma
+
+O/W \Gamma W + fffi to the g.i. W self-energy b\Pi
+
+W fffi. To the best
+
+of our knowledge the WI we present here has not been derived before within the PT or
+
+any other framework
+
+There is one additional reason why the study of the g.i. vertices and WI via the PT is interesting. As it was recently realized there is a close connection between the PT and the background field method (BFM) [24]. In particular it was shown that in all cases considered so far the PT Green's functions may be obtained directly, if one computes the conventional Green's functions in the context of the BFM, using the special value ,Q = 1 of the gauge fixing parameter used to gauge-fix the quantum field [25] [26]. Since however no formal connection between the two methods has yet been established, additional cases may have to be considered, at least for those Green's functions which are of particular physical relevance. The method for constructing vertices advertised above provides the framework for such a detailed investigation.
+
+It is important to emphasize that the closed form of the g.i. TBV obtained by the
+
+3
+
+application of the S-matrix PT does not depend on the particular process employed. So, instead of the process ee* ! ee* one could equally well extract the g.i TBV from a process of the form bbt ! bbt where t and b are the top and bottom quarks, respectively, or even a process involving gauge bosons as external on shell particles, such as W W fl ! W W fl. The fact that the PT gives rise to process-independent results had been conjectured some time ago [12], and has been recently proven [28] via detailed calculations. Moreover, the PT algorithm gives rise to exactly the same answers, regardless of the gauge fixing procedure chosen. This has been shown by explicit calculations for a wide variety of gauge fixing choices, such as the R, gauges, the light-cone gauge [2], the unitary gauge [29], and the background field gauges [25].
+
+The paper is organized as follows: In section 1 we briefly review some of the features of the PT, which are relevant to our purposes. In particular, we present a detailed analysis of the modifications necessary for the application of the PT in the context of the SM with non-conserved external currents. In section 2 the method for constructing the g.i. vertices is described in detail. In section 3 we apply the formalism developed in the previous section to a concrete example, and we perform an explicit one-loop calculation. In section 4 we outline the general method for obtaining WI within the PT framework, and we derive a set of WI for the newly constructed TBVs. In section 5 we explicitly prove the first of the Ward identities derived in the previous section, to one-loop order, in the context of three different gauges. Finally, in section 6 we present our conclusions.
+
+2 The Pinch Technique for non conserved currents The simplest example that demonstrates how the PT works is the gluon two point function (propagator). Consider the S-matrix element T for the 2!2 process of the elastic scattering of two fermions of masses m1 and m2 :
+
+q1(p1) + q2(p2) ! q1(^p1) + q2(^p2) : (2.1) To any order in perturbation theory T is independent of the gauge fixing parameter one has to use to define the free gluon propagator. For example in the covariant R, gauges the gluon propagator is given by
+
+\Delta _* (q) = 1q2 [g_* \Gamma (1 \Gamma ,) q_q*q2 ]: (2.2) On the other hand, as an explicit calculation shows, the conventionally defined proper self-energy depends on the gauge fixing parameter, in this case ,. At the one loop level the gauge dependence of the self-energy graphs is cancelled by contributions from other graphs, vertex or box, which, at first glance, do not seem to be propagator-like. That this
+
+4
+
+cancellation must occur and can be employed to define a g.i. self-energy, is evident from the decomposition:
+
+T (s; t; m1; m2) = T1(t; ,) + T2(t; m1; m2; ,) + T3(s; t; m1; m2; ,) (2.3) where the function T1(t) depends only on the Mandelstam variable t = \Gamma (^p1 \Gamma p1)2 = \Gamma q2, and not on s = (p1 + p2)2 or on the external masses. Typically, self-energy, vertex, and box diagrams contribute to T1, T2, and T3, respectively. Moreover, such contributions are , dependent. However, as the sum T (s; t; m1; m2) is g.i., it is easy to show that Eq.(2.3) can be recast in the form
+
+T (s; t; m1; m2) = ^T1(t) + ^T2(t; m1; m2) + ^T3(s; t; m1; m2); (2.4) where the ^Ti (i = 1; 2; 3) are separately ,-independent. The propagator-like parts of the vertex and box diagrams which enforce the gauge independence of T1(t), are called "pinch parts". The pinch parts emerge every time a gluon propagator or an elementary threegluon vertex contribute a longitudinal k_ to the original graph's numerator. The action of such a term is to trigger an elementary Ward identity of the form
+
+k_fl_ j k= = (k= + p= \Gamma mi) \Gamma (p= \Gamma mi)
+
+= S\Gamma 1i (p + k) \Gamma S\Gamma 1i (p) (2.5)
+
+once it gets contracted with a fl matrix. The first term on the right-hand side of 2.5 will remove the internal fermion propagator - that is a "pinch" - whereas S\Gamma 1(p) vanish on shell. Returning to the decomposition of Eq.(2.4), the function ^T1 is g.i. and may be identified with the contribution of the new propagator. We can construct the new propagator, or equivalently ^T1, directly from the Feynman rules. In doing so it is evident that any value for the gauge parameter , may be chosen, since ^T1, ^T2, and ^T3 are all independent of ,. The simplest of all covariant gauges is certainly the Feynman gauge (, = 1), which removes the longitudinal part of the gluon propagator. Therefore, the only possibility for pinching in four-fermion amplitudes arises from the four-momentum of the three-gluon vertices, and the only propagator-like contributions come from vertex graphs and not from boxes.
+
+The generalization of the PT from vector-like theories (such as QCD) to the SM is technically and conceptually straightforward, as long as one assumes that the external fermionic currents are conserved. For example, applying the PT to a SM amplitude, such as e\Gamma *e ! e\Gamma *e, with me = m* = 0, a ,-independent self-energy for the W -boson may be constructed [13].
+
+The situation becomes more involved if one decides to consider non-conserved external
+
+5
+
+fermionic currents, e.g. fermions with non-vanishing masses. The main reasons are the following:
+
+(a) The charged W couples to fermions with different, non-vanishing masses mi; mj 6= 0, and consequently the elementary Ward identity of Eq.(2.5) gets modified to :
+
+k_fl_PL j k=PL = S\Gamma 1i (p + k)PL \Gamma PRS\Gamma 1j (p) + miPL \Gamma mjPR (2.6) where
+
+PR;L = 1 \Sigma fl52 (2.7)
+
+are the chirality projection operators. The first two terms of Eq.(2.6) will pinch and vanish on shell, respectively, as they did before. But in addition, a term proportional to miPL \Gamma mjPR is left over. In a general R, gauge such terms give rise to extra propagator and vertex-like contributions, not present in the massless case. For the neutral Z that couples to fermions of the same mass we have to set mi = mj = m in Eq.(2.6).
+
+(b) Additional graphs involving the "unphysical" Goldstone bosons O/ and OE, and physical Higgs H , which do not couple to massless fermions, must now be included. Such graphs give rise to new pinch contributions, even in the Feynman gauge, due to the momenta carried by interaction vertices such as flOE+OE\Gamma , ZOE+OE\Gamma , W +OE\Gamma O/, HW +OE\Gamma etc, e.g. vertices with one vector gauge boson and two scalar bosons. So, for example, all the graphs of Fig.4 give rise to new vertex-like pinch contributions to the flW W and ZW W vertices, while in the massless case considered in [23], only graphs (1) and R(1;2) were present.
+
+(c) After the pinch contributions have been identified, particular care is needed in deciding how to allot them among the (eventually , independent) quantities one is attempting to construct. When constructing g.i. TBVs, for example, in the massless case (mi = mj = 0), all vertex-like pinch contributions are allotted among the flW W and ZW W , the only two vertices which contribute to the amplitude. In the massive case we propose to study, vertices such as O/W \Gamma W + , HW \Gamma W + , ZOE\Gamma W +, etc, contribute non-vanishingly to the amplitude, and they must also be rendered g.i. through proper allocation of the available vertex-like pinch parts. The details of how this is accomplished will be presented in the next section.
+
+Before we proceed with the construction of the vertices and the subtleties involved we record some useful formulas. In what follows we use the Feynman rules and the conventions of [30]. The tree-level vector-boson propagator \Delta i_* (q) in the R, gauges is given by
+
+\Delta _*i (q; ,i) = 1q2 \Gamma M 2
+
+i [g
+
+_* \Gamma (1 \Gamma ,i) q
+
+_q*
+
+q2 \Gamma ,iM 2i ] ; (2.8)
+
+6
+
+with i = W; Z; fl, and Mfl = 0. Its inverse \Delta \Gamma 1i (q; ,i)_* is given by
+
+\Delta \Gamma 1i (q; ,)_* = (q2 \Gamma M 2i )g_* \Gamma q_q* + 1,
+
+i q
+
+_q* : (2.9)
+
+The propagators \Delta s(q; ,i) of the unphysical (would-be) Goldstone bosons are given by
+
+\Delta s(q; ,i) = \Gamma 1q2 \Gamma ,
+
+iM 2i ; (2.10)
+
+with (s; i) = (OE; W ) or (O/; Z) and explicitly depend on ,i. On the other hand, the propagators of the fermions (quarks and leptons), as well as the propagator of the physical Higgs particle are ,i-independent at tree-level.
+
+The following identities, which hold for every value of the gauge fixing parameters ,i, will be used extensively [21]:
+
+\Delta _*i (q; ,i) = U _*i (q) \Gamma q
+
+_q*
+
+M 2i \Delta s(q; ,i) ; (2.11) where
+
+U _*i (q) = [g_* \Gamma q
+
+_q*
+
+M 2i ]
+
+1 q2 \Gamma M 2i (2.12)
+
+is the W and Z propagator in the unitary gauge (,W ; ,Z ! 1) and
+
+U \Gamma 1i (q)_* = g_*(q2 \Gamma M 2i ) \Gamma q_q* (2.13) its inverse . Furthermore,
+
+gff* = \Delta i*_(q; ,i)\Delta \Gamma 1i (q; ,i)_ff = \Delta i*_(q; ,i)U \Gamma 1i (q)_ff \Gamma q*qff\Delta s(q; ,i) ; (2.14) and
+
+q_ = \Gamma M 2i q*\Delta *_i (q; ,i) \Gamma q2q_\Delta s(q; ,i): (2.15)
+
+Finally, the divergences of the currents J _Z ; J _W ; J +_W of [13] are related at tree-level to the currents of the would-be Goldstone bosons JO/; JOE; J +OE by the following elementary identities:
+
+(_e O/ e) = \Gamma i q
+
+_
+
+MZ (_eZe)*
+
+(_*OE\Gamma e) = \Gamma i p
+
+ae 2
+
+MW (_*W
+
+\Gamma e)ae (2.16)
+
+(_eOE+*) = \Gamma i p
+
+oe1
+
+MW (_*W
+
++e)oe
+
+where q, p1, and p2 are the momenta carried by the bosons as shown in Fig.2.
+
+7
+
+3 The gauge independent three boson vertices In this section we show how to use the PT in order to construct gauge invariant threeboson-vertices (TBV) , with all three of their incoming momenta off shell.
+
+We consider the S-matrix element for the process
+
+e\Gamma (n) + *(`) + e\Gamma (r) ! e\Gamma (^n) + e\Gamma (^`) + *(^r) (3.1) where
+
+q = n \Gamma ^n ; p1 = ` \Gamma ^` ; p2 = r \Gamma ^r ; (3.2)
+
+are the momentum transfers at the corresponding fermion lines; they represent the incoming momenta of each of the bosons, merging in the TBV. The TBV's which can be extracted from the S-matrix element of the above process will be in general denoted asb \Gamma
+
+NLR, with N = fl; Z; O/; H ; L = W \Gamma ; OE\Gamma and R = W +; OE+, where N , L, and R stand
+
+for the neutral, left (positive charge created), and right (positive charge destroyed) legs of the vertex.
+
+We can extract g.i. improper vertices by identifying the part bT (q; p1; p2) of the Smatrix which is independent of the external momenta n; r; `; ^n; ^r; ^`, and only depends on the momentum transfers q; p1; p2. The general form of bT (q; p1; p2) is shown in Fig.3.b T (q; p1; p2) is g.i. as long as we append to the regular vertex graphs all parts of the rest of the graphs, which only depend on the momentum transfers q; p1; p2. Examples of graphs containing such vertex-like pinch parts are shown in Fig.4.
+
+The inclusion of these extra pieces cancels all ,i-dependent parts of the regular vertex diagrams; the only gauge dependence remaining stems from the tree-level expressions of the propagators of the boson legs. As we will see in section 5 the cancellation of this residual ,i dependence is enforced by a set of WI satisfied by the g.i b\Gamma
+
+T LR's. The final form
+
+of the g.i. bT (q; p1; p2) is a sum of individually g.i. sub-amplitudes bT
+
+NLR(q; p
+
+1; p2) and is
+
+given byb
+
+T (q; p1; p2) = X
+
+fT LRg
+
+(_eT e) (_eL*e) (_*eRe) bT
+
+T LR(q; p
+
+1; p2) (3.3)
+
+= X
+
+fT LRg
+
+(_eT e) (_eL*e) (_*eRe) ^\Delta N (q) ^\Delta L(p1) ^\Delta R(p2) b\Gamma
+
+T LR(q; p
+
+1; p2)
+
+where all internal Lorentz indices have been suppressed. In order to extract the proper
+
+^\Gamma NLR(q; p1; p2) from the respective ^T NLR(q; p1; p2) one must strip off the three g.i. ^\Delta s,
+
+by multiplying ^T NLR(q; p1; p2) with the respective inverse propagators ^\Delta \Gamma 1. We remind the reader that the ^\Delta may be individually constructed through the application of the PT to appropriate four-fermion amplitudes (see for example [13] and [16]).
+
+8
+
+Another equivalent and more economical way to isolate the proper vertex, described in detail in [5] and [23], is to notice that the conventional self-energies of the external boson legs can be converted to the respective g.i. PT self-energies, except for certain missing pinch pieces. These missing pieces may be supplemented to the self-energy by hand, and correspondingly subtracted from the TBV. All such terms are multiplied by an inverse tree-level propagator (which is the characteristic structure of all pinch terms), and they remove the tree-level boson propagator connecting them to the rest of the graph. Therefore, they are effectively one-particle irreducible, and they may be freely added to the rest of the one-particle irreducible terms contributing to the TBV [6].
+
+Schematically the g.i. T BV b\Gamma NLR will consist of the following pieces :b
+
+\Gamma NLR = \Gamma (,i=1)NLR + \Gamma PNLR \Gamma 12 \Pi PNN0 \Gamma (0)N0LR \Gamma 12 \Pi PLL0 \Gamma (0)NL0R \Gamma 12 \Pi PRR0 \Gamma (0)NLR0 (3.4) where \Gamma (,i=1)NLR are the conventional graphs contributing to the T BV in the Feynman gauge, \Gamma PNLR are all vertex-like pinch parts of box diagrams (also computed with ,i = 1 [31] ), which are kinematically equivalent to the TBV in question (this point will be further clarified later in this section), \Gamma (0)NLR are tree-level expressions of respective TBVs, and \Pi Pij (i; j = N; L; R) is the pinch contribution to the ij-boson self-energy (again at ,i = 1). Since the derivation of the pinch parts of propagators has been extensively discussed in the literature, we will first focus on the technical details pertaining to the construction of the term \Gamma PNLR in Eq.(3.4)
+
+The pinch parts of graphs are extracted using Eq.(2.6), whenever possible. The box diagrams of Fig.4 for example, represent the complete set of diagrams that can contribute vertex-like parts to the flW \Gamma W +, ZW \Gamma W +, and O/W \Gamma W + vertices [32]. Depending on which of the internal fermion propagator has been removed, the vertex-like pinch amplitudes assume one of the following forms:
+
+(_eL*):::(_*Re):::\Delta L:::(p1)\Delta R:::(p2) " g
+
+2
+
+2 (_efl
+
+_PLe) BN
+
+:::_ + g
+
+2
+
+2 me(_ePLe) M
+
+N ::: #
+
+(_*Re):::(_eN e):::\Delta R:::(p2)\Delta N:::(q) h (_eW +*)_ BL:::_ + iMW (_eOE+*) ML::: i
+
+(_eN e):::(_eL*):::\Delta N:::(q)\Delta L:::(p1) h (_*W \Gamma e)_ BR:::_ + iMW (_*OE\Gamma e) MR::: i (3.5)
+
+The ellipses in Eq.(3.5) represent appropriately contracted Lorentz indices, which we suppress. We note that the M terms originate from the mass left-overs of Eq.(2.6). The factors B and M in the expressions above are in general complicated functions of q, p1, and p2, and boson masses; however they do not depend on the individual momenta and masses of the external "test" fermions. Notice also that they are ultra-violet finite since they originated from box diagrams. Clearly, the B's or the M's may be zero for
+
+9
+
+some graphs. Once all relevant pinch contributions have been extracted, they must be judiciously allotted to the appropriate TBV's. To that end, one has to perform the following three steps:
+
+(i) The couplings multiplying the B and M in the r.h.s. of the first relation in Eq.(3.5) must be rewritten as a linear combination of the couplings of the bosons which can be attached to the corresponding fermion current. So, for the couplings of the neutral bosons on the top fermion line we write :
+
+g2
+
+2 fl
+
+aePL = \Gamma gc(_eZe)ae \Gamma gs(_efle)ae
+
+g2
+
+2 mePL = \Gamma gMW (_eHe) + gc
+
+iMZ
+
+2 (_eO/e) (3.6)
+
+On the other hand, the appropriate couplings for the charged bosons have already appeared in the r.h.s. of the second and third relation of Eq.(3.5).
+
+(ii) We use the identities given in Eq.(2.17) to rewrite the couplings of the Goldstone bosons to the fermions as divergences of the corresponding currents of the gauge bosons. At the end of these two steps the pinch parts in the square brackets of Eq.(3.5) assume the following form:^
+
+\Gamma gc(_eZe)ae `BN:::ae \Gamma qae2 MN:::' \Gamma gs(_efle)aeBN:::_ \Gamma gMW (_eHe)MN:::* (3.7)h
+
+BL:::ae + p1aeML:::i (_eW +*)ae (3.8)h BR:::ae + p2aeMR:::i (_*W \Gamma e)ae (3.9) (iii) The final step in transforming these expressions into the desired form of TBV is to recognize that a tree-level boson propagator must be attached at the point where the pinching took place. It is straightforward to make the missing photon and Higgs propagator appear. We only need to insert unity written as a product of a propagator and its inverse. The inverse propagator will be incorporated to the rest of the pinch expression. We emphasize that no additional , dependencies are introduced into the pinch expressions through this process, since the part of the inverse photon propagator proportional to ,fl vanishes from the amplitude due to conservation of the electromagnetic current J _fl , whereas the Higgs propagator and its inverse are g.i at tree-level. In order to accomplish this last step for the massive gauge bosons, we have to use the identities of Eq.(2.14), since now the relevant currents J _Z and J _W are not conserved. Finally we obtain :
+
+(_efle)ae g
+
+ae*
+
+q2 h\Gamma gs T
+
+*_(q) BN
+
+:::_i + (_eHe) \Delta H (q) h\Gamma gMW \Delta \Gamma 1H (q)M
+
+N :::i
+
+10
+
++ (_eZe)ae \Delta ae*Z (q) ^\Gamma gcU \Gamma 1*_ (q)Z `BN:::_ + q
+
+_
+
+2 M
+
+N :::'*
+
++ (_eO/e) \Delta O/(q) ^ iMZ gcq_ `BN:::_ + q
+
+_
+
+2 M
+
+N :::' * (3.10)
+
+hBL
+
+:::_ + p1_M
+
+L :::i hU \Gamma 1W (p1)*_\Delta
+
+ae* W (p1; ,W )(_eW +*)ae \Gamma iMW p
+
+_1 \Delta
+
+OE(p1; ,W )(_eOE+*)i (3.11)
+
+hBR
+
+:::_ + p2_M
+
+R :::i hU \Gamma 1W (p2)*_\Delta
+
+ae* W (p2; ,W )(_eW \Gamma *)ae \Gamma iMW p
+
+_2 \Delta
+
+OE(p2; ,W )(_eOE\Gamma *)i (3.12)
+
+It is now evident how the pinch parts must be allotted among the various (eventually g.i.) TVB's. We demonstrate it schematically below.
+
+From the graphs that pinch at the top (neutral) fermion line (Eq.3.10) the pinch parts are distributed as follows ;
+
+\Gamma gs T *_(q) BN:::_ \Gamma ! b\Gamma
+
+flLR
+
+*::
+
+\Gamma gcU \Gamma 1Z (q)*_ `BN:::_ + q
+
+_
+
+2 M
+
+N :::' \Gamma ! b\Gamma
+
+ZLR *::
+
+iMZgcq_ `BN:::_ + q
+
+_
+
+2 M
+
+N :::' \Gamma ! b\Gamma
+
+O/LR
+
+\Gamma gMW \Delta \Gamma 1H (q)MN::: \Gamma ! b\Gamma
+
+HLR (3.13)
+
+From the graphs that pinch on the left (Eq.3.11) we have :
+
+U \Gamma 1W (p1)*_ iBL:::_ \Gamma p1_ML:::j \Gamma ! b\Gamma
+
+NW \Gamma R
+
+:*:
+
+iMW p_1 iBL:::_ \Gamma p1_ML:::j \Gamma ! b\Gamma
+
+NOE\Gamma R (3.14)
+
+and from the graphs that pinch on the right (Eq.3.12) :
+
+U \Gamma 1W (p2)*_ iBR:::_ \Gamma p2_MR:::j \Gamma ! b\Gamma
+
+NLW +
+
+::*
+
+iMW p_2 iBR:::_ \Gamma p2_MR:::j \Gamma ! b\Gamma
+
+NLOE+ (3.15)
+
+The final step in the construction of the g.i. TBVs is the inclusion of all pinch terms that have been left over from converting gauge dependent boson self energies into their gauge independent PT counterparts, at other parts of the amplitude considered; they constitute the third term in the r.h.s. of Eq.(3.4). To begin with, it is important to recognize that in addition to the boson legs attached to the TBVs, the boson legs of the "monodromic" graphs (collectively depicted in Fig.8 (e),(f),(g)) must be rendered g.i. We call them "monodromic" (one-way), because their graph structure of vertices and edges (propagators) is that of an "Eulerian-path" or self avoiding curve. That is , all the vertices
+
+11
+
+can be visited by a line that does not run through an edge twice. Notice that they contain an off-shell fermion propagator. In the rest of this section we outline how such pieces are included in the vertices through a specific example.
+
+Let us concentrate on the Z self-energy legs. In the Feynman gauge (,i = 1), the only propagator-like pinch parts for the g.i. Z self-energy originate from the graph shown in Fig.3.a and its mirror graph Fig.3.b and their contribution is equal. For the Z self-energy leg attached to the ZW W vertex, one of the above graphs (Fig.3.c), is already present in the amplitude we consider and supplies half of the necessary pinch contribution. The other half, where the pinch would occur at the side where we now have the TBV vertex, is missing. Therefore its pinch contribution must be supplemented by hand to the Z self-energy graphs and subsequently subtracted from the ZW W vertex graphs. We observe that this contribution to the vertex will be of the form \Gamma 2g2c2IW W (q) [U _*Z (q)]\Gamma 1 \Delta *aeZ (q; ,Z) \Gamma ZW Waefffi . This last expression is explicitly gauge dependent. The effect of the monodromic graphs is to precisely cancel this residual gauge dependence. To understand how this cancellation mechanism works we now concentrate on the vertex-like pieces originating from the monodromic graphs. As a first step, their bosonic legs must be rendered g.i; in doing so we notice that, unlike the previous case, all the necessary propagator-like pinch parts are now available (an example of a graph that contributes such a pinch term is shown in Fig.3(d)). One then proceeds as usually and first pinches the fermion propagator inside the loop and then uses Eqs.(2.14 , 2.15) to attach boson propagators at the point where the pinching took place. At this point one observes that the momenta accompanying the part with the scalar propagator \Delta s in Eqs.(2.14 , 2.15) can trigger additional pinching and remove the remaining fermion propagator that was outside of the loop. Thus a vertex-like piece finally emerges from this part and must be included with the rest of the vertex graphs. Clearly, all these pieces are also explicitly gauge dependent since they carry a \Delta O/(q; ,Z), and by using Eq.(2.11) exactly cancel against the relevant \Delta O/(q; ,Z) part coming from the leg attached to the TBV. In the remaining expression the tree level propagators in the unitary gauge also cancel and the part that needs to be appended to the ZW W vertex is \Gamma 2g2c2IW W (q) \Gamma ZW W_fffi . A similar procedure must be followed case by case for all the TBVs and will conclude the construction of a g.i. three boson vertex.
+
+4 The vertices flW
+
+\Gamma W +, ZW \Gamma W +, O/W \Gamma W +
+
+In the previous section we presented the general procedure for constructing g.i. TBVs via the PT. In this section we focus on three particular TBVs, namely b\Gamma
+
+flW \Gamma W +, b\Gamma ZW \Gamma W +
+
+and b\Gamma
+
+O/W \Gamma W +, and we describe in detail their derivation. This section is rather technical;
+
+we present several intermediate results, which will also be used in subsequent sections.
+
+12
+
+The final expressions for b\Gamma
+
+flW \Gamma W +
+
+_fffi , b\Gamma
+
+ZW \Gamma W + _fffi and b\Gamma
+
+O/W \Gamma W + fffi , are summarised in Eq.(4.33)-
+
+Eq.(4.35).
+
+We adopt the following convention: The scalar parts of boson propagators of mass MA and momentum q will be denoted by
+
+A(q) j 1q2 \Gamma M 2
+
+A : (4.1)
+
+For example, with this notation the tree-level propagator for the W in Eq.(2.8) assumes the form :
+
+\Delta _*W (q) = [g_* \Gamma (1 \Gamma ,i) q
+
+_q*
+
+q2 \Gamma ,iM 2i ] W (q) ; (4.2) We introduce the following short-hand notation:Z
+
+(ABC) f:::g j Z (dk)A(k + p1)B(k \Gamma p2)C(k) f:::g ; (4.3) where the momentum integration measure is (dk) = d
+
+4k
+
+i(2ss)4 for convergent integrals and
+
+(dk) = _4\Gamma n d
+
+nk
+
+i(2ss)n for dimensionally regularized integrals. Furthermore, we define the
+
+scalar integrals
+
+JABC j JABC(q; p1; p2) = Z (ABC) ; (4.4)
+
+IAB(q) = Z (dk)A(k)B(k + q) : (4.5) The box diagrams containing vertex-like contributions, in the Feynman gauge are shown in Fig.4. From the first two diagrams of Fig.4, which we treat as one, we obtain
+
+N 1_fffi = gc U \Gamma 1Z (q)ae_ g2Baefffi (4.6)
+
+and
+
+N 1fffi = \Gamma iMZ gc qaeg2Baefffi ; (4.7)
+
+where g2Baefffi is the same expression as in the case for conserved currents (see [23] Eq.3.5 and Eq.3.6), namely
+
+g2Baefffi = X
+
+V =fl;Z
+
+g2V Z (W W V ) ^gfffi (k \Gamma 32 (p1 \Gamma p2))_ \Gamma gff_ (3k + 2q)fi \Gamma gfi_ (3k \Gamma 2q)ff* :
+
+(4.8) with gfl = gs and gZ = gc. N 1_fffi is allotted to the vertex b\Gamma
+
+ZW \Gamma W +
+
+_fffi whereas N 1fffi tob
+
+\Gamma
+
+O/W \Gamma W +
+
+fffi .
+
+Similarly, the graphs containing a Higgs boson (2 and 3 in Fig.4) yield:
+
+N 2_fffi + N 3_fffi = \Gamma M 2Z g3c q_gfffi M ; (4.9)
+
+13
+
+and
+
+N 2fffi + N 3fffi = \Gamma iMZ q2 g3c gfffi M ; (4.10)
+
+with
+
+M = 12 (JHZW + JZHW ) : (4.11)
+
+We note that box diagrams which contain any two internal neutral bosons, except the Higgs boson, give zero total pinch contribution. This is so because the pinch parts of the direct diagrams cancel against the corresponding pinch parts of the crossed diagram. Similarly, the pinch contributions of diagrams with one OE and one W in the loop cancel against the corresponding contribution from the mirror graphs, e.g. W $ OE.
+
+The pinch contributions of the diagrams 1,...,6 of the second row of Fig.4, where the pinching occurs at the leg of the W +, are extracted following exactly similar steps. We denote these pinch contributions by Ri_fffi where i = 1; ::; 6. In what follows the suffix cr is used to denote the inclusion of the crossed graphs which are not shown in Fig.4 . The relevant expressions of the pinch contributions of these graphs are :
+
+R(1;2;2cr)_fffi = gc U \Gamma 1W (p2)aefig2B\Gamma _ffae + R1_fffi + R2_fffi ; (4.12) where
+
+R1_fffi = g3cs2M 2W p2fig_ffJW W fl ; R2_fffi = g3c( 1 \Gamma 2s
+
+2
+
+2 )M
+
+2 W p2fig_ffJW W Z (4.13)
+
+and
+
+g2B\Gamma _fffi(q; p1; p2) = X
+
+V =fl;Z
+
+g2V Z (W W V ) G_fffi(q; p1; p2) ; (4.14)
+
+with
+
+G_fffi(q; p1; p2) = gfffi (3k + 3p1 \Gamma 2p2)_ + g_fi (3k + p1 \Gamma 2q)ff \Gamma gff_ (k + 2p1 \Gamma 2q)fi :
+
+(4.15) Notice that the result of the conserved current case can be recovered from Eq.(4.14) if we neglect the terms proportional to p1ff and p2fi (Eq.3.11 of [23]).
+
+The rest of the diagrams give :
+
+R3_fffi = g3 s
+
+4
+
+c M
+
+2 W p2fig_ffJW W fl ; (4.16)
+
+R4_fffi + R4cr_fffi = g3 s
+
+2(1 \Gamma 2s2)
+
+2c M
+
+2 W p2fig_ff ; JW W Z (4.17)
+
+R5_fffi = g
+
+3cM 2
+
+W
+
+2 p2fig_ffJW W H ; (4.18)
+
+14
+
+R6_fffi = g
+
+3M 2
+
+W
+
+2c p2fig_ffJZHW ; (4.19)
+
+We next turn to the rest of the graphs of Fig.4, third and fourth row, and isolate the
+
+pinch contributions, which will be appended to the vertex b\Gamma
+
+O/W \Gamma W +
+
+fffi . We denote them by
+
+Rifffi where i = 1; ::9. Their explicit expressions are:
+
+R1fffi + R2fffi + R2crfffi = g
+
+3
+
+iMZ
+
+s2 2c M
+
+2 W U \Gamma 1W (p2)fffi X
+
+V =fl;Z
+
+bV JW W V ; (4.20)
+
+R3fffi = g
+
+3
+
+iMZ
+
+s2 2c M
+
+2 W p2fi Z (W W fl) (k \Gamma 2q)ff ; (4.21)
+
+R4fffi + R4crfffi + R5fffi = g
+
+3
+
+iMZ
+
+cM 2W
+
+2 p2fi Z (W W Z) kff (4.22)
+
+\Gamma g
+
+3
+
+iMZ
+
+1 \Gamma s2
+
+2c M
+
+2 W p2fiqffJW W Z + g
+
+3M 2
+
+W
+
+i8cMZ p1ffp2fiJW W Z :
+
+The last term in the r.h.s. of Eq.(4.22) cancels against the corresponding contribution from the left,coming from the graphs L4fffi + L4crfffi + L5fffi.
+
+R6fffi = g
+
+3
+
+iMZ
+
+M 2W
+
+4c p2fi Z (W W H) kff ; (4.23)
+
+R7fffi = \Gamma g
+
+3
+
+iMZ
+
+M 2W
+
+2c qffp2fiJZHW ; (4.24)
+
+R8fffi + R8crfffi = g
+
+3
+
+iMZ
+
+M 2W
+
+2c U
+
+\Gamma 1 W (p2)fffiJHZW ; (4.25)
+
+R9fffi + R9crfffi = g
+
+3
+
+iMZ
+
+(1 \Gamma 2s2)
+
+4c M
+
+2 Z p2fi Z (HZW ) (2k + p1)ff : (4.26)
+
+The corresponding diagrams where the pinching occurs at the left fermion line we will denote as Li_aefi and Liaefi respectively. (these diagrams are not shown). They are given by:
+
+Li_fffi(q; p1; p2) = \Gamma Ri_fiff(q; p2; p1) ; Lifffi(q; p1; p2) = \Gamma Rififf(q; p2; p1) (4.27) The total pinch contribution is the sum of all relevant terms. We define :
+
+6X
+
+i=1 R
+
+i _fffi = g3cM 2W p2fig_ff M\Gamma ;
+
+6X
+
+i=1 L
+
+i _fffi = g3cM 2W p1ffg_fi M+ ; (4.28)
+
+9X i=1 R
+
+i fffi = g
+
+3c
+
+iMZ R
+
+\Gamma fffi ;
+
+6X
+
+i=1 L
+
+i fffi = g
+
+3c
+
+iMZ L
+
++ fffi (4.29)
+
+15
+
+where crossed graphs are included in the sums and
+
+M\Gamma (q; p1; p2) = s
+
+2
+
+c2 JW W fl +
+
+1 \Gamma 2s2
+
+2c2 JW W Z +
+
+1 2 JW W H +
+
+1 2c2 JZHW ; (4.30)
+
+M+(q; p1; p2) = \Gamma M\Gamma (q; p2; p1) : (4.31)
+
+The last step is to add the pinch contributions to the regular vertex graphs. Thus, if we define
+
+g2g\Gamma V W
+
+\Gamma W +
+
+_fffi j,i=1 =
+
+nVX
+
+i=1
+
+V i_fffij,i=1 ; g3c\Gamma O/W
+
+\Gamma W +
+
+fffi j,i=1 =
+
+21X
+
+i=1 S
+
+i fffij,i=1 ; (4.32)
+
+to be the sum of the usual graphs of the respective vertices in the Feynman gauge (depicted respectively at Fig.5 , with V= fl; Z ,nfl = 28 , nZ = 34 and Fig.6 ), we arrive at the following expressions for the g.i. TBVs
+
+1 g3s b\Gamma
+
+flW \Gamma W + _fffi = \Gamma
+
+flW \Gamma W + _fffi j,i=1 + q2T (q)
+
+ae _ Baefffi + U \Gamma 1W (p1)
+
+ae ffB+_aefi + U \Gamma 1W (p2)
+
+ae fiB
+
+\Gamma _ffae
+
+\Gamma 2\Gamma _fffi h IW W (q) + s2IW fl(p1) + c2IW Z(p1) + s2IW fl(p2) + c2IW Z(p2) i +p2fig_ff M\Gamma + p1ffg_fi M+ ; (4.33)
+
+1 g3c b\Gamma
+
+ZW \Gamma W + _fffi = \Gamma
+
+ZW \Gamma W + _fffi j,i=1 + U \Gamma 1Z (q)
+
+ae _Baefffi + U \Gamma 1W (p1)
+
+ae ffB+_aefi + U \Gamma 1W (p2)
+
+ae fiB\Gamma _ffae
+
+\Gamma 2\Gamma _fffi h IW W (q) + s2IW fl(p1) + c2IW Z(p1) + s2IW fl(p2) + c2IW Z(p2) i +q_gfffi M 2Z M + p2fig_ff M 2W M\Gamma + p1ffg_fi M 2W M+ ; (4.34)
+
+1 g3c b\Gamma
+
+O/W \Gamma W + fffi = \Gamma
+
+O/W \Gamma W + fffi j,i=1 \Gamma iMZq
+
+aeBaefffi \Gamma iMZq2M \Gamma i
+
+MZ R
+
+\Gamma fffi \Gamma iMZ L+fffi : (4.35)
+
+5 The Ward Identities In the previous two sections we outlined the construction of a generic g.i. TBV, and we computed the exact one-loop closed forms for the g.i. b\Gamma
+
+flW \Gamma W +
+
+_fffi b\Gamma
+
+ZW \Gamma W + _fffi , b\Gamma
+
+O/W \Gamma W + fffi . In
+
+this section we proceed to derive a set of Ward identities that the g.i. TBV satisfy. These
+
+Ward identities are a direct consequence of the gauge independence of the S-matrix, order by order in perturbation theory. It should be emphasized that the derivation of the WI does not require knowledge of the explicit closed form of the TBVs involved.
+
+After the construction of g.i. TBVs has been completed, the amplitude we consider has been reorganized into individually ,-independent structures connected by ,-dependent
+
+16
+
+tree level propagators. In other words, the PT algorithm only cancels all ,-dependencies originating from the tree-level propagators appearing inside the loops, but a residual ,- dependence, stemming from boson propagators outside of loops, survives at the end of the pinching process. The cancellation of this last ,-dependence becomes possible due to a set of WI satisfied by the g.i. TBV. One can actually derive these WI without any detailed knowledge of the algorithm which gives rise to the g.i. TBV. All one needs to assume is that such an algorithm exists (in our case the PT algorithm), and that all residual ,-dependencies should cancel from the S-matrix. So, once the g.i. TBVs have been constructed, one should examine whether or not they actually satisfy the required WI, as a self-consistency check. In this section we use the above arguments to derive the WIs, and we will explicitly check their validity at one-loop in the next section.
+
+It is instructive to illustrate the derivation of WI for a simpler case, namely the g.i. W propagator. We consider the one-loop S-matrix element of the process
+
+e\Gamma (b) + *e(t) ! *e(^b) + e\Gamma (^t) (5.1) with q = t \Gamma ^t = ^b \Gamma b , and apply the PT rules. As shown in Fig.7, the part of the S-matrix which only depends on q2 assumes the form:
+
+^T1 = (_eW +*)ae \Delta ae_W b\Pi W_* \Delta *oeW (_*W \Gamma e)oe + (_eW +*)ae \Delta ae_W b\Pi +_ \Delta OE (_*OE\Gamma e)
+
++ (_eOE+*) \Delta OE b\Pi \Gamma * \Delta *oeW (_*W \Gamma e)oe + (_eOE+*) \Delta OE b\Pi
+
+OE \Delta
+
+OE (_*OE\Gamma e) (5.2)
+
+Using Eq.(2.17) in order to pull out the factor (_eW +*)ae (_*W \Gamma e)oe , as well as Eq.(2.14), we can cast the above expression in the following form :
+
+^T1 = (_eW +*)ae " `U ae_W \Gamma qaeq_
+
+M2W \Delta OE' b\Pi
+
+W _* `U
+
+*oe W \Gamma
+
+q*qoe
+
+M2W \Delta OE' +
+
+(\Gamma iqae)
+
+MW \Delta OE b\Pi
+
+OE\Delta
+
+OE iq
+
+oe
+
+MW (5.3)
+
++ `U ae_W \Gamma qaeq_M2
+
+W \Delta OE' b\Pi
+
++ _ \Delta OE
+
+iqoe
+
+MW +
+
+(\Gamma iqae)
+
+MW \Delta OE b\Pi
+
+W _* `U
+
+*oe W \Gamma
+
+q*qoe
+
+M2W \Delta OE ' #(_*W
+
+\Gamma e)oe
+
+In this last expression the ,-dependence is carried solely by the tree-level Goldstone boson propagators \Delta OE(q; ,W ). The requirement that ^T1 is ,-independent, gives rise to two independent equations; the first enforces the cancellation of the terms with only one \Delta OE factor, whereas the second enforces the cancellation of the terms with a \Delta OE \Delta OE factor. It is then a matter of simple algebra to show that the following WI should hold [33] :
+
+q_ b\Pi
+
+W
+
+_*(q) \Upsilon iMW b\Pi
+
+\Sigma * (q) = 0 (5.4)
+
+q_ b\Pi
+
+\Sigma
+
+_ (q) \Sigma iMW b\Pi
+
+OE(q) = 0 (5.5)
+
+17
+
+q_q* b\Pi
+
+W
+
+_*(q) \Gamma M 2W b\Pi
+
+OE(q) = 0 (5.6)
+
+Similarly, the requirement of gauge independence for the S-matrix element of a neutral current process gives rise to the following set of WI, relating the two-point Greens functions of Z and its Goldstone boson O/ :
+
+q_ b\Pi
+
+Z
+
+_* (q) \Gamma iMZ b\Pi
+
+ZO/ * (q) = 0 (5.7)
+
+q_ b\Pi
+
+ZO/
+
+_ (q) + iMZ b\Pi
+
+O/(q) = 0 (5.8)
+
+q_q* b\Pi
+
+Z
+
+_* (q) \Gamma M 2Z b\Pi
+
+O/(q) = 0 (5.9)
+
+We now turn to our main objective, namely the derivation of the WI for the g.i TBVs. We consider again the S-matrix element of the process in Eq.(3.1). After the pinching is performed we focus on the diagrams of Fig.8, where now the "blobs" represent g.i. expressions. As before the residual ,\Gamma dependence of these graphs enters only through the tree-level bosonic propagators (solid, not-oriented lines) We call these graphs respectively :
+
+(i) three-boson vertex graphs ( Fig.8 (a) ) (ii) self-energy graphs ( Fig.8 (b),(c),(d) ) (iii) monodromic graphs ( Fig.8 (e),(f),(g) ) [34] At first sight, the monodromic graphs do not appear to be akin to the graphs of type (i) and (ii) (which only depend on the momentum transfers q; p1; p2), since they seem to explicitly depend on the external fermion momenta n; l; r or ^n; ^l; ^r, through the internal off-shell fermion propagators. Equivalently, one might think that the characteristic factor (_eT e) (_eL*e) (_*eRe) , containing the external fermionic currents, cannot be pulled out from the monodromic graphs. One should notice however, that, in the monodromic graphs additional pinching can take place, triggered by the longitudinal part of the bare vector boson propagators, thus eliminating the dependence on the internal fermion propagator. These pinch parts are vertex-like, and will therefore combine with the graphs of (i) and (ii), in order to cancel the remaining gauge dependence from the amplitude.
+
+To demon!strate this final cancellation, we use again Eq.(2.11) in order to isolate the residual gauge dependence of the S-matrix into bare Goldstone boson propagators only. All gauge dependent terms will display a characteristic structure, depending on the number and kind of Goldstone boson propagators they contain, and the momenta they carry. Clearly, all such terms form linearly independent combinations. A term with a gauge dependence of the form \Delta O/(q; ,Z)\Delta OE(p1; ,W ), for example, cannot cancel against a term of the form \Delta OE(p2; ,W )\Delta OE(p1; ,W ), nor a term of the form \Delta O/(q; ,Z)\Delta OE(p2; ,W ). Therefore,
+
+18
+
+for the final cancellation to occur, the cofactors in front of all such linearly independent terms must individually vanish. This last condition gives rise to the advertised WI.
+
+Let us first look at terms carrying only a gauge dependent factor of \Delta O/(q; ,Z) . Such terms can arise only from the diagrams shown in Fig.9. In what follows we use the WI of the boson self-energies Eqs.(5.4- 5.9) as well as the WI of the tree-level three vector boson vertex
+
+q_ \Gamma V W
+
+\Gamma W +
+
+_fffi (q; p1; p2) = gV hU \Gamma 1W (p2)fffi \Gamma U \Gamma 1W (p1)fffii ; (5.10)
+
+and pull out the common factor (_eZe)* (_*W +e)ae (_eW \Gamma *)oe . Then, the \Delta O/(q; ,Z) gauge dependent part is given by :
+
+1 M 2Z \Delta O/(q; ,Z) f Cv + Cse + C
+
+P m g
+
+*aeoe (5.11)
+
+where Cv; Cse; CPm are the contributions of the vertex, self-energy, and the pinched monodromic graphs, respectively:
+
+C*aeoev = U ffaeW (1) U fioeW (2) q* ^ q_ b\Gamma
+
+W
+
+_fffi + iMW b\Gamma
+
+i fffi * (5.12)
+
+C*aeoese = \Gamma U ffaeW (1) U fioeW (2) q* gc ` b\Pi
+
+W
+
+fffi(1) \Gamma b\Pi
+
+W fffi(2) ' \Gamma gcH
+
+*aeoe (5.13)
+
+(CPm)*aeoe = gcH*aeoe (5.14) with
+
+H*aeoe = q* ^ U ffaeW (1) b\Pi
+
+W
+
+fffi(1) U
+
+fioe W (1) \Gamma U
+
+ffae W (2) b\Pi
+
+W fffi(2) U
+
+fioe W (2) *
+
++ qff b\Pi
+
+Z
+
+fffi(q) U
+
+fi* Z (q) [ U
+
+oeae W (1) \Gamma U
+
+oeae W (2) ] (5.15)
+
+where 1, 2 in the arguments means p1 and p2, respectively.
+
+Since the gauge independence of the amplitude requires that the sum Cv + Cse + CPm in Eq.(5.11) must vanish, we arrive at the following WI, relating the ZW W and O/W W vertices :
+
+q_ b\Gamma
+
+ZW \Gamma W +
+
+_fffi + iMZ b\Gamma
+
+O/W \Gamma W + fffi = gc ^ b\Pi
+
+W fffi(1) \Gamma b\Pi
+
+W fffi(2)* (5.16)
+
+Repeating similar steps and requiring the cancellation of the \Delta OE(1) and \Delta OE(2) gauge dependencies, we obtain the following Ward identities, respectively
+
+pff1 b\Gamma
+
+ZW \Gamma W +
+
+_fffi + iMW b\Gamma
+
+ZOE\Gamma W + _fi = gc ^ b\Pi
+
+W _fi(2) \Gamma b\Pi
+
+Z _fi(q) \Gamma sc b\Pi
+
+Zfl _fi (q) * (5.17)
+
+19
+
+pfi2 b\Gamma
+
+ZW \Gamma W +
+
+_fffi + iMW b\Gamma
+
+ZOE\Gamma W + _ff = gc ^ b\Pi
+
+Z _fi(q) + sc b\Pi
+
+Zfl _fi (q) \Gamma b\Pi
+
+W _fi(1) * (5.18)
+
+The WI for the b\Gamma
+
+flW \Gamma W + vertex can be derived in a similar manner. We have:
+
+pff1 b\Gamma
+
+flW \Gamma W +
+
+_fffi + iMW b\Gamma
+
+flOE\Gamma W + _fi = gs ^ b\Pi
+
+W _fi(2) \Gamma b\Pi
+
+fl _fi(q) \Gamma cs b\Pi
+
+flZ _fi (q) * (5.19)
+
+pfi2 b\Gamma
+
+ZW \Gamma W +
+
+_fffi + iMW b\Gamma
+
+ZOE\Gamma W + _ff = gs ^ b\Pi
+
+fl _fi(q) + cs b\Pi
+
+flZ _fi (q) \Gamma b\Pi
+
+W _fi(1) * (5.20)
+
+which are the counterparts of Eq.(5.17) and Eq.(5.18). It is elementary to derive additional WI, through straightforward algebraic manipulations of the WI listed above. For example, the WI
+
+iMZpff1 b\Gamma
+
+O/W \Gamma W +
+
+fffi \Gamma iMW q
+
+ff b\Gamma ZOE
+
+\Gamma W +
+
+fffi = gc ^ p
+
+ff1 b\Pi W
+
+fffi(1) + p
+
+ff2 b\Pi W
+
+fffi(2) + q
+
+ff b\Pi Z
+
+fffi(q) * (5.21)
+
+or equivalently
+
+pff1 b\Gamma
+
+O/W \Gamma W +
+
+fffi \Gamma c q
+
+ff b\Gamma ZOE
+
+\Gamma W +
+
+fffi = gc ^ c b\Pi
+
++ fi (1) + c b\Pi
+
++ fffi(2) + b\Pi
+
+ZO/ fi (q) * (5.22)
+
+can be immediately obtained from Eq.(5.16) and Eq.(5.17), after contracting them with the appropriate four-momenta, and using the WIs of the self energies and the fact thatb \Pi
+
+Zfl
+
+fffi (q) is transverse.
+
+Finally, WIs where the g.i. TBV are contracted with two or three momenta can be
+
+easily derived, by demanding the cancellation of gauge dependencies stemming from terms with more than one Goldstone boson propagator.
+
+It is interesting to notice that an equation analogous to Eq.(5.16) for the b\Gamma
+
+flW \Gamma W +
+
+vertex, cannot be derived via this procedure. The reason is simply that all residual dependence on ,fl automatically disappears from the final expressions, due to current conservation, e.g. q_J fl_ = 0. In order to derive the remaining WI one must choose a gauge-fixing procedure like the axial or light-cone gauge, where the dependence of the gauge-boson legs on the gauge parameter does not vanish due to current conservation. In fact, this was the way the PT was originally implemented by Cornwall, when constructing the one-loop g.i. gluon self-energy [2]. In the axial (light-cone) gauge, for example, the tree-level propagator for the photon reads
+
+\Delta _*fl (q; n) = 1q2 "g_* \Gamma n_q* + n* q_n \Delta q # ; (5.23) where n_ is the gauge-fixing parameter (in the light-cone gauge n_n_ = 0). So, after using current conservation, the n with the appropriate Lorentz index will vanish, but the
+
+20
+
+other n will survive, and will only vanish if the desired WI are satisfied. Finally we obtain :
+
+q_ b\Pi
+
+flfl
+
+_* (q) = 0
+
+q_ b\Pi
+
+flZ
+
+_* (q) = 0 (5.24)
+
+q_ b\Pi
+
+flO/
+
+_ (q) = 0 ) b\Pi
+
+flO/ _ (q) = 0
+
+and
+
+q_ b\Gamma
+
+flW \Gamma W +
+
+_fffi = gs ^ b\Pi
+
+W fffi(1) \Gamma b\Pi
+
+W fffi(2)* ; (5.25)
+
+which was first proved in [23] by an explicit one-loop calculation. Clearly, similar WI can be derived for the gluon self-energy and three gluon vertex in QCD.
+
+All previous WI are the one-loop generalizations of the respective tree level WI. As shown in this section, their validity is crucial for the gauge independence of the S-matrix. It is important to emphasize that these WI make no reference to ghost terms, unlike the corresponding Slavnov-Taylor identities satisfied by the conventional, gauge-dependent vertices.
+
+The WI derived in this section are also true in the context of the BFM. In fact, in the BFM framework they are true to all orders in perturbation theory; their validity is enforced by the requirement that the Lagrangian is invariant under gauge transformations of the background fields. It should be emphasized however that the Green's functions of the background fields, which satisfy the aforementioned WIs, display in general a residual dependence on the parameter ,Q used to gauge fix the quantum gauge fields. As shown in [27] this remaining gauge dependence can be eliminated by the straightforward application of the PT in the context of the BFM. The analysis presented in this section indicates that these "naive", WIs are not an exclusive property of the BFM, but can be recovered for any type of gauge fixing procedure via the PT algorithm. Strictly speaking the WIs we have presented are valid to one loop order. This is so because our derivation relies on the ability to construct the ,-independent Green's functions (shown as blobs in Fig.8) with the PT algorithm, which has only been tested at one-loop. If one assumes that this procedure of isolating ,-independent blobs can be generalized to higher orders in perturbation theory, the generalization of the WI to higher orders will be relatively straightforward. Even though such an assumption is rather plausible no such proof exists.
+
+21
+
+6 Proof of the Ward Identities 6.1 Feynman gauge In this section we prove by an explicit calculation the first of the Ward identities derived in the previous section, namely q_ b\Gamma
+
+ZW \Gamma W +
+
+_fffi + iMZ b\Gamma
+
+O/W \Gamma W + fffi = gc ^ b\Pi
+
+W fffi(1) \Gamma b\Pi
+
+W fffi(2)*. We
+
+work in the Feynman gauge, where ,i = 1 for i = fl; W; Z. To that end, it is more
+
+economical to act with q_ directly on the individual graphs of b\Gamma
+
+Z
+
+_fffi and try to generate
+
+the r.h.s. of Eq.(5.16). The Feynman diagrams contributing to the g.i. W self-energies
+
+of the r.h.s. are shown in Fig.10 . The closed expression for the g.i. W self-energy has been obtained in [16] and it isb
+
+\Pi
+
+W
+
+fffi(q) = \Pi
+
+W fffi(q)j,=1 + 4U \Gamma 1fffi (q) hs2IW fl(q) + c2IW Z(q)i (6.1)
+
+We also emphasize that all necessary cancellations between graphs or parts of graphs are evident before any of the loop momentum integrations are carried out.
+
+To begin with, we notice that, all pinch parts originating from the top (neutral current) fermion line, automatically cancel in the l.h.s. Eq.(5.16), by virtue of the second and third of Eqs.(3.13).
+
+We start by considering the fermion graphs Fig.5 (1) and Fig.6 (1). This subset of graphs is automatically g.i., and receives therefore no pinch contributions. After a straightforward calculation we obtain ( in what follows we have pulled out a common factor of gc from the r.h.s. of all equations ) :
+
+q_V 1_fffi + iMZS1fffi = \Pi 1fffi(1) \Gamma \Pi 1fffi(2) (6.2) where \Pi 1fffi corresponds to the self-energy diagram (1) of Fig.10 .
+
+The remaining diagrams can be divided into three classes, depending on the type of internal boson propagators they contain. Following the notation of Eq.(4.3), these classes are denoted as (i) W W V diagrams, where V = fl; Z ( Fig.5 (2)-(22), Fig.6 (2)-(13) ) (ii) W W H diagrams ( Fig.5 (23)-(28), Fig.6 (14),(15) ), and (iii) ZHW diagrams ( Fig.5 (29)-(34), Fig.6 (16)-(21) ).
+
+WWV graphs : Vector boson graphs
+
+8X i=2
+
+q_V i_fffi =
+
+3X
+
+i=2 h \Pi
+
+i fffi(1) \Gamma \Pi
+
+i fffi(2) i
+
+\Gamma X
+
+V =flZ
+
+g2V \Delta M 2W V Z (W W V ) qae\Gamma aefffi(q; p1 \Gamma k; p2 + k)
+
+22
+
++ X
+
+V =flZ
+
+g2V Z W (k + p1)V (k) kffqfi + (1 $ 2)
+
+\Gamma X
+
+V =flZ
+
+g2V Z (W W V ) q \Delta (k \Gamma p2) kff(k \Gamma p2)fi + (1 $ 2)
+
+\Gamma 2g2 h U \Gamma 1W (1)fffi \Gamma U \Gamma 1W (2)fffii Z W (k + p1)W (k \Gamma p2) \Gamma U \Gamma 1W (1)ffae X
+
+V =flZ
+
+g2V Z (W W V ) hqaekfi + q*\Gamma *aefi(k \Gamma p2; \Gamma k; p2)i + (1 $ 2) (6.3)
+
+where the tree-level WI of Eq.(5.10), as well as the identities given in equations (4.11) and (4.12) of [23], have been used. The notation (1 $ 2) means to interchange in the precceding term p1 $ \Gamma p2 and ff $ fi. From the terms appearing in the r.h.s. of Eq.(6.3) only the first is part of the r.h.s. of the WI we attempt to prove. All other terms will cancel against other contributions from the remaining graphs. In particular, the left-over term of the second line will cancel against similar terms coming from the graphs which contain unphysical Goldstone bosons. Similarly, the terms in the next two lines of Eq.(6.3) will cancel against corresponding left-overs from the ghost graphs. Finally, the last two lines of Eq.(6.3), which display the characteristic pinch structure, will cancel against some of the pinch contributions to the ZW W vertex. All these cancellations will become evident in what follows.
+
+We next consider the ghost graphs (Fig.5 (9)-(12) and Fig.6 (2)-(5)). We have:
+
+12X
+
+i=9
+
+q_V i_fffi =
+
+7X
+
+i=4 h \Pi
+
+i fffi(1) \Gamma \Pi
+
+i fffi(2)i
+
+\Gamma X
+
+V =flZ
+
+g2V Z W (k + p1)V (k) kffqfi + (1 $ 2)
+
++ X
+
+V =flZ
+
+g2V Z (W W V ) q \Delta (k \Gamma p2) kff(k \Gamma p2)fi + (1 $ 2) (6.4)
+
+and
+
+iMZ
+
+5X
+
+i=2 S
+
+i fffi = \Gamma M
+
+2 W
+
+2c2 XV =flZ g
+
+2 V Z (W W V ) ( kffp2fi + kfip1ff ) (6.5)
+
+We see that the left-over terms of Eq.(6.4) cancel against parts of Eq.(6.3) as advertised. The contribution of Eq.(6.5) will cancel against pinch contributions to the O/W W vertex. Similarly, the graphs containing unphysical Goldstone bosons (Fig.5 (13)-(22) and Fig.6 (6)-(13)) yield:
+
+16X
+
+i=13 q
+
+_V i
+
+_fffi + iMZ
+
+9X
+
+i=6 S
+
+i fffi = g2s2M 2W X
+
+V =fl;Z
+
+bV Z (W W V ) qae\Gamma aefffi(q; p1 \Gamma k; p2 + k)
+
++ g2M 2W s
+
+2
+
+2c2 hU
+
+\Gamma 1 W (1)fffi \Gamma U
+
+\Gamma 1 W (2)fffii X
+
+V =fl;Z
+
+bV JW W V (6.6)
+
+23
+
+18X i=17
+
+q_V i_fffi + iMZ
+
+13X
+
+10 S
+
+i fffi =
+
+9X
+
+i=8 h \Pi
+
+i fffi(1) \Gamma \Pi
+
+i fffi(2)i (6.7)
+
+21X i=19 q
+
+_V i
+
+_fffi = \Pi 10fffi(1) \Gamma \Pi 10fffi(2)
+
+\Gamma g
+
+2
+
+8c2 Z W (k) [Z(k + p1) \Gamma Z(k \Gamma p2)] (2k + p1)ff(2k \Gamma p2)fi (6.8)
+
+q_ V 22_fffi = 0 (6.9) The first term in the r.h.s. of Eq.(6.6) cancels the appropriate term in Eq.(6.3), after employing the elementary identity \Gamma gcg2V \Delta M 2W V = \Gamma bV g3cs2M 2W , where bfl = +1 and bZ = \Gamma 1. The second term in the r.h.s. of Eq.(6.6) will cancel against pinch contributions to the O/W W vertex. Finally, we note that the left-over term in the r.h.s. of Eq.(6.8) contains only two internal propagators.
+
+The pinch parts give:
+
+q_[ B\Gamma _aefiU \Gamma 1W (p1)aeff + B+_ffaeU \Gamma 1W (p2)aefi ] = (6.10)
+
+2 h U \Gamma 1W (p1)fffi + U \Gamma 1W (p2)fffi i X
+
+V =fl;Z
+
+g2V [ IW V (p1) \Gamma IW V (p2) ]
+
++U \Gamma 1W (p2)fiae X
+
+V =fl;Z
+
+g2V Z (W W V ) hqaekff + q*\Gamma *ffae(\Gamma k \Gamma p1; p1; k)i + (1 $ 2)
+
+\Gamma 2g2q_\Gamma _fffi [ ::: ] = 2g2 h U \Gamma 1W (p1)fffi \Gamma U \Gamma 1W (p2)fffi i [ ::: ] (6.11) where the ellipses in the square brackets in Eq.(6.11) represent the terms of the second line of Eq.(4.34) multiplying \Gamma _fffi.
+
+4X
+
+i=1
+
+q_ iRi_fffi + Li_fffij = g2M 2W [p2fiqff \Gamma p1ffqfi] " s
+
+2
+
+c2 JW W fl +
+
+(1 \Gamma 2s2)
+
+2c2 JW W Z # (6.12)
+
+iMZ
+
+2X
+
+i=1 iR
+
+i fffi + L
+
+i fffij = g2M 2W s
+
+2
+
+2c2 hU
+
+\Gamma 1 fffi (p1) \Gamma U \Gamma 1fffi (p2)i X
+
+V =flZ
+
+bV JW W V (6.13)
+
+iMZ iR3fffi + L3fffij = g2M 2W s
+
+2
+
+2c2 Z (W W fl) [(k \Gamma 2q)ffp2fi + p1ff(k + 2q)fi] (6.14)
+
+24
+
+iMZ
+
+5X
+
+i=4 iR
+
+i fffi + L
+
+i fffij = + g2 M
+
+2 W
+
+2 Z (W W Z) [kffp2fi + p1ffkfi]
+
+\Gamma g2M 2W (1 \Gamma 2s
+
+2)
+
+2c2 [p2fiqff \Gamma p1ffqfi] JW W Z (6.15) At this point we notice that the contributions of the pinch parts cancel all the remaining
+
+left-overs of all other graphs we have considered thus far, except for the left-over term of Eq.(6.8). If we now collect all W self-energy terms in the r.h.s., we notice that all pinch and regular graphs have already appeared, except for the two graphs containing an internal Higgs boson, shown in Fig.10 (11) and (12)
+
+Next we consider the W W H graphs
+
+25X i=23 q
+
+_V i
+
+_fffi + iMZ
+
+15X
+
+i=14 S
+
+i fffi = \Pi 11fffi(1) \Gamma \Pi 11fffi(2)
+
+\Gamma g
+
+2M 2
+
+W
+
+4c2 Z (W W H) [kffp2fi + kfip1ff]
+
+\Gamma g
+
+2M 2
+
+W
+
+2 [p1ffp1fi \Gamma p2ffp2fi]JW W H (6.16)
+
+28X i=26 q
+
+_V i
+
+_fffi = \Pi 12fffi(1) \Gamma \Pi 12fffi(2) (6.17)
+
+\Gamma g
+
+2
+
+8c2 Z W (k) [H(k + p1) \Gamma H(k \Gamma p2)] (2k + p1)ff(2k \Gamma p2)fi The relevant pinch diagrams of this class contributing to the ZW W vertex give
+
+q_ iR5_fffi + L5_fffij = g
+
+2M 2
+
+W
+
+2 [p1ffp1fi \Gamma p2ffp2fi]JW W H (6.18)
+
+whereas the ones contributing to the O/W W vertex give
+
+iMZ iR6fffi + L6fffij = g
+
+2M 2
+
+W
+
+4c2 Z (W W H) [kffp2fi + kfip1ff] (6.19)
+
+It is now evident that all the W self-energy terms which constitute the r.h.s. of the
+
+WI have already appeared. The only two redundant terms are (i) the left-over term of Eq.(6.8), and (ii) the left-over term of Eq.(6.18), which survives after Eq.(6.16)-Eq.(6.19) have been added by parts. Like the term in (i) it also contains two internal propagators. Both terms will cancel exactly against the entire contribution of the graphs belonging to the ZHW class, which we now proceed to evaluate.
+
+We will only evaluate the diagrams where the Higgs boson appears on the left. The mirror graphs, with the Higgs boson on the right, can be treated in an exactly analogous way.
+
+25
+
+q_V 30_fffi = \Gamma g
+
+2M 2
+
+W
+
+c2 Z (HZW ) q
+
+_\Gamma _fffi(\Gamma k \Gamma p1; p1; k) (6.20)
+
+iMZS17fffi = g
+
+2M 2
+
+W
+
+c2 Z (HZW ) q
+
+_\Gamma _fffi(\Gamma k \Gamma p1; p1; k) \Gamma g2 M 2W
+
+2c2 U
+
+\Gamma 1 W (p2)fffiJHZW
+
+\Gamma g2 M
+
+2 W
+
+2c2 Z (HZW ) kffkfi + g
+
+2 M 2W
+
+2c2 gfffiIHZ(q) (6.21)
+
+The last term in the r.h.s. of the last equation will cancel against an equal and opposite contribution coming from the mirror diagram S18fffi
+
+q_V 32_fffi = \Gamma g
+
+2M 2
+
+Zs2
+
+2c2 qfi Z (HZW ) (2k + p1)ff (6.22)
+
+iMZS19fffi = g
+
+2M 2
+
+Zs2
+
+2c2 qfi Z (HZW ) (2k + p1)ff \Gamma g
+
+2 M 2Z s2
+
+4c2 Z (HZW ) (2k + p1)ff(k \Gamma p2)fi(6.23)
+
+q_V 34_fffi = g
+
+2
+
+8c2 iM
+
+2 Z \Gamma M 2Hj Z (HZW ) (2k + p1)ff(2k \Gamma p2)fi
+
++ g
+
+2
+
+8c2 Z W (k) [H(k + p1) \Gamma Z(k \Gamma p2)] (2k + p1)ff(2k \Gamma p2)fi (6.24)
+
+iMZS21fffi = g
+
+2
+
+8c2 M
+
+2 H Z (HZW ) (2k + p1)ff(2k \Gamma p2)fi (6.25)
+
+The pinch parts are :
+
+q_L6_fffi + iMZ L7fffi = \Gamma g2 M
+
+2 W
+
+2c2 p1ff Z (HZW ) kfi (6.26)
+
+iMZ i R8fffi + R8crfffi j = g2 M
+
+2 W
+
+2c2 U
+
+\Gamma 1 W (p2)fffiJHZW (6.27)
+
+iMZ i R9fffi + R9crfffi j = g2 M
+
+2 Z (1 \Gamma 2s2)
+
+8c2 p2fi Z (HZW ) (2k + p1)ff (6.28)
+
+When all the above equations, together with the corresponding contributions from the mirror graphs, are added by parts, all terms in the r.h.s. cancel among each other as expected, except for the terms with two internal propagators, from Eq.(6.24) and the mirror graph result, which exactly cancel the left-over terms mentioned previously, (i) and (ii). This concludes the proof of the advertised WI of Eq.(5.16), which is a central result of this paper. It is obvious from the previous proof that the pinch parts are instrumental for the validity of Eq.(5.16).
+
+26
+
+6.2 Unitary gauge The fact that the WIs of Green's functions constructed via the PT hold regardless of the gauge in which one chooses to work, can be most effectively demonstrated by proving their validity in different gauges. Although the usual graphs of a Green's function as well as its pinch parts assume different forms in different gauges, when summed they nevertheless combine into a unique expression independent of any specific gauge. In this section we will work in the unitary gauge, where additional pinch parts can originate from the longitudinal parts of the gauge boson propagators.
+
+We note that, even though the unitary gauge has been traditionally considered pathological, in the sense that it gives rise to non-renormalizable Green's functions , in the context of the PT it can be treated on an equal footing as the renormalizable R, gauges. In particular, as shown in [29] the application of the PT in the context of the unitary gauge gives rise to renormalizable Green's functions which are in fact identical to the ,-independent Green's functions obtained in the framework of the R, gauges.
+
+Applying the PT to the case of the three boson vertices in the unitary gauge, we have verified that the WI of Eq.(5.16) and Eq.(5.25) again hold true. We point out, that although the usual vertex graphs are fewer in this gauge, the graphs which can contribute pinch parts are quite numerous, a fact that makes calculations lengthier. We therefore do not present the entire proof of the WI, but only outline the steps in its derivation.
+
+The usual flW \Gamma W + vertex diagrams in this gauge are shown in Fig.5 (1)-(8) and (23), while for the ZW \Gamma W + vertex we have the additional graphs (29) and (30) of the same figure. The relevant W self energy diagrams in the unitary gauge are those shown in Fig.10 (1)-(3) and (11). The vertex graphs will be denoted as Vi_fffi, and the self energy graphs as U ifffi, where the index i counts the corresponding graphs of Fig.5 and Fig.10.
+
+The interesting feature of the unitary gauge is that the WI of the flW \Gamma W + vertex is satisfied separately by the usual and pinch parts, as one can verify immediately.
+
+For the fermion graphs Eq.(6.2) holds as usual since they are gauge invariant, e.g. V 1_fffi = V1_fffi and \Pi 1fffi = U 1fffi . The boson graphs give :
+
+q_V2;3_fffi + q_V6;5_fffi + q_V8;7_fffi = gc h U 2;3fffi (1) \Gamma U 2;3fffi (2) i (6.1) and
+
+q_V4_fffi = 0 (6.2) From the Higgs diagram we get :
+
+27
+
+q_V23_fffi = gc h U 11fffi(1) \Gamma U 11fffi(2) i (6.3) For the flW W vertex the above equations when summed give :
+
+q_Vfl_fffi = gc h U Wfffi(1) \Gamma U Wfffi(2) i (6.4) Evidently the Ward identity holds already for the usual vertex graphs, before any pinch contributions are included. One can then verify that the vertex like pinch contributions in the unitary gauge iVfl_fffij
+
+P (some of the additional ones, specific to the unitary gauge,
+
+are shown in Fig.11) , when contracted with q_, yield :
+
+q_ iVfl_fffij
+
+P = gc h PW
+
+fffi(1) \Gamma P
+
+W fffi(2) i (6.5)
+
+where PWfffi are the relevant propagator like parts, to be appended to the W self-energy in the unitary gauge. As shown in [29] the W self-energy obtained via the PT in the unitary gauge is identical to the one obtained via the PT in the context of the R, gauges, namely : b
+
+\Pi
+
+W
+
+fffi(q) = U
+
+W fffi + P
+
+W fffi : (6.6)
+
+Adding Eqs.(6.4) and (6.5) by parts we arrive again at the advertised WI of Eq.(5.25). For the ZW W vertex the proof proceeds in an analogous way. For the class of graphs that are common to both vertices flW W and ZW W the proof is identical. The WI is again satisfied separately by the regular vertex graphs and the pinch graphs. There are however two additional classes of contributions that need be considered. First, there are the extra regular vertex graphs 29 and 30 of Fig.5 along with similar box graphs that will contribute a pinch part to the vertex ; all the above graphs contain a Higgs particle. Second, unlike the photon case, the vertex like pinch parts originating from boxes where the pinching takes place at the leg of the Z, (fermion line on the top) do not vanish when contracted with q_. Since all propagator graphs of the W have already appeared on the left hand side of the WI, the sole role of these graphs is to provide a left over expression which is recognized as being equal to b\Gamma
+
+O/W \Gamma W +
+
+fffi . Of course, in the context of the unitary
+
+gauge this expression cannot be identified with a O/W W vertex, because there are no
+
+O/-fields to begin with.
+
+6.3 Feynman background field gauge In this section we prove the validity of the WI of Eqs.5.16 and Eq.(5.25) in the Feynman gauge of the BFM.
+
+In the BFM every bosonic field is decomposed into two parts, the quantum field \Phi and the background field b\Phi , e.g. \Phi ! \Phi + b\Phi . In the path integral one integrates the quantum
+
+28
+
+fields only, whereas the background fields are treated as additional sources ; consequently only the quantum fields appear inside loops.
+
+The ordinary gauge transformation of the gauge fields, for example W a_ , a = 1; 2; 3 and B_ in the case of an SU (2) \Theta U (1) group, is also split into two transformations. One of them corresponds to an ordinary gauge transformation, but only for the background fields cW a_ ; bB_, and is therefore called a background gauge transformation. By judiciously adding a non conventional gauge fixing term for the quantum fields we can promote this transformation to a symmetry of the Lagrangian. Therefore the Green's functions of the background fields are guaranteed to be background gauge invariant, namely \Gamma ( ^W a_ ^B* :::) = \Gamma ( ^W
+
+0a
+
+_ ^B
+
+0 *:::). As a result of this invariance the naive WI of section 5 are satisfied. Notice
+
+however that these Green's functions depend in general on the gauge parameters ,W ; ,B,
+
+used to gauge fix the quantum fields W a_ and B_ which appear inside their loops. In this formulation, S-matrix elements are calculated by forming trees of background Green's functions connected to each other by tree level background field propagators ; at this point the background fields also require gauge fixing.
+
+This gauge fixing is completely independent from the gauge fixing of the quantum fields, and the parameters ^,W ; ^,B may be in general different from the parameters ,W ; ,B.
+
+We choose to work in the Feynman gauge of the BFM where ,W = ,B j ,Q = 1. As was shown in [25] [27], at the one loop level, this particular gauge choice gives rise to background Green's functions which are identical to the g.i. Green's functions constructed via the PT. No formal understanding of this correspondence has yet been established ; the aforementioned agreement has been verified by comparing all Green's functions constructed so far at one loop via the PT with the corresponding BFM Green's functions . The operational reason for this identity of results is that pinching turns out to be zero in this particular gauge . To this end we remind the reader that pinch parts can originate in three ways : i) from the longitudinal part of gauge boson propagators, ii) from three gauge-boson vertices, and iii) from vertices with two Goldstone bosons and one gauge boson. All these can provide the appropriate momenta which when contracted with a fl-matrix will cancel a fermion propagator. By simple inspection of the Feynman rules of this gauge one immediately recognizes that all the necessary pieces that could generate pinch terms are missing. First of all, since this is a Feynman type of gauge there are no longitudinal parts for the gauge boson propagators. Secondly, one observes that in this gauge the three gauge boson vertex between a background and two quantum gauge fields ( which is gauge
+
+29
+
+dependent even at tree level ) assumes the form
+
+\Gamma fffifl(q; k; \Gamma q \Gamma k) = \Gamma Ffffifl + (1 \Gamma 1,
+
+Q )\Gamma
+
+P fffifl (6.1)
+
+where
+
+\Gamma Ffffifl = (2k + q)ffgfifl \Gamma 2qfigflff + 2qflgfffi (6.2)
+
+and
+
+\Gamma Pfffifl = \Gamma kfigflff \Gamma (k + q)flgfffi: (6.3)
+
+We see immediately that by setting ,Q = 1, the \Gamma Pfffifl part, which is the only one that can pinch, disappears. Finally, the elementary vertices of the form ^OEOEG where ^OE; OE are scalars (Higgs or unphysical would be Goldstone bosons) and G_ a quantum gauge field (W a_ ; B_), depend only on the momentum carried by the background field ^OE, namely
+
+\Gamma ^OEOEG_ (q; k; \Gamma q \Gamma k) / q_ (6.4) Therefore they also cannot trigger pinching. Consequently, since pinching has been rendered trivial (zero) in this gauge, one readily concludes that the Green's functions constructed via the PT in any gauge will be identical to the conventional Green's functions of the Feynman gauge of the BFM, i.e.b
+
+\Pi
+
+W
+
+fffi = \Pi
+
+^W fffi ; b\Gamma
+
+ZW \Gamma W + _fffi = \Gamma
+
+^Z ^W \Gamma ^W + ; etc::: (6.5)
+
+We now proceed to the proof of the WIs of Eq.(5.16) and Eq.(5.25). We need to consider only the usual vertex and self energy graphs in this gauge. The vertex graphs are those of Fig.5 and Fig.6 plus the additional ones of Fig.11 and Fig.12. Note that for the O/W \Gamma W + vertex there are no ghost graphs in this gauge ; so for this paragraph the graphs of Fig.6 (2,3,4,5) are replaced by those of Fig.12 (2,3,4,5). The modifications needed for the W self energy graphs are that an additional graph (Fig.10 (13)) must be included and the pinch graph must be removed. In all these figures the external legs are now considered to be background fields.
+
+We will use the same symbols for the various diagrams as in section 6.1, even though now, since we work in a different gauge, they correspond in general to different expressions. So V i_fffi will correspond to a ZW \Gamma W + vertex diagram , Sifffi to a O/W \Gamma W + vertex and \Pi ifffi to a W self-energy graph.
+
+By acting with q_ on the three gauge boson vertex graphs we readily obtain the following results.
+
+Fermion graphs :
+
+q_ V 1_fffi + iMZ S1fffi = gc h \Pi 1fffi(1) \Gamma \Pi 1fffi(2) i (6.6)
+
+30
+
+Gauge boson graphs :
+
+q_ V 2;3_fffi + q_ V 4;5_fffi + q_ V 6;7_fffi = gc h \Pi 2;3fffi(1) \Gamma \Pi 2;3fffi(2) i (6.7)
+
+q_ V 8_fffi = 0 (6.8) Ghost graphs :
+
+q_ V 9;10_fffi + q_ V 35;36_fffi + q_ V 37;38_fffi = gc h \Pi 5;4fffi(1) \Gamma \Pi 4;5fffi(2) i (6.9)
+
+q_ V 39_fffi = 0 (6.10) q_ V 11;12_fffi + q_ V 41;40_fffi + q_ V 43;42_fffi = gc h \Pi 7;6fffi(1) \Gamma \Pi 4;5fffi(2) i (6.11)
+
+q_ V 44_fffi = 0 (6.12) In fact Eq.(6.9) is identical to Eq.(6.11) part by part and correspondingly Eq.(6.10) is identical to Eq.(6.12). This is so because ghost graphs in this gauge result in identical expressions regardless of the orientation of the ghost line.
+
+Goldstone and gauge boson graphs : WWV propagators
+
+q_ V 13;14_fffi + iMZ S7;6fffi = 0 (6.13)
+
+q_ V 15;16_fffi + iMZ S9;8fffi = 0 (6.14) q_ V 17;18_fffi + iMZ S11;10fffi + iMZ S13;12fffi = gc h \Pi 9;8fffi(1) \Gamma \Pi 9;8fffi(2) i (6.15)
+
+q_ V 22_fffi = 0 (6.16) q_ V 45_fffi = gc h \Pi 13fffi(1) \Gamma \Pi 13fffi(2) i (6.17)
+
+q_ V 46_fffi + iMZ S22fffi = 0 (6.18) q_ V 47_fffi + iMZ S23fffi = 0 (6.19)
+
+31
+
+WWH propagators
+
+q_ V 23_fffi = gc h \Pi 11fffi(1) \Gamma \Pi 11fffi(2) i (6.20)
+
+q_ V 24_fffi + iMZ S14fffi = 0 (6.21) q_ V 25_fffi + iMZ S15fffi = 0 (6.22) HZW and ZHW propagators
+
+q_ V 29_fffi + iMZ S17fffi = 0 (6.23) and the mirror image graph
+
+q_ V 30_fffi + iMZ S16fffi = 0 (6.24)
+
+q_ V 31_fffi + iMZ S19fffi = 0 (6.25) and the mirror image graph
+
+q_ V 32_fffi + iMZ S18fffi = 0 (6.26)
+
+q_ V 49_fffi + iMZ S25fffi + iMZ S3fffi + iMZ S4fffi = 0 (6.27) q_ V 48_fffi + iMZ S24fffi + iMZ S2fffi + iMZ S5fffi = 0 (6.28) The rest of the Goldstone boson graphs give :
+
+q_ V 19_fffi + q_ V 20_fffi + q_ V 21_fffi = gc h \Pi 10fffi(1) \Gamma \Pi 10fffi(2) i (6.29)
+
+\Gamma g
+
+3
+
+8c Z Z(k)W (k + p1) (2k + p1)ff (2k + p1 \Gamma q)fi + g
+
+3
+
+8c Z Z(k)W (k \Gamma p2) (2k \Gamma p2)fi (2k \Gamma p2 + q)ff
+
+(6.30)
+
+q_ V 26_fffi + q_ V 27_fffi + q_ V 28_fffi = gc h \Pi 12fffi(1) \Gamma \Pi 12fffi(2) i (6.31)
+
+\Gamma g
+
+3
+
+8c Z H(k)W (k + p1) (2k + p1)ff (2k + p1 \Gamma q)fi
+
+32
+
++ g
+
+3
+
+8c Z H(k)W (k \Gamma p2) (2k \Gamma p2)fi (2k \Gamma p2 + q)ff
+
+(6.32)
+
+q_ V 33_fffi + iMZ S21fffi = g
+
+3
+
+8c Z H(k)W (k + p1) (2k + p1)ff (2k + p1 \Gamma q)fi \Gamma g
+
+3
+
+8c Z Z(k)W (k \Gamma p2) (2k \Gamma p2)fi (2k \Gamma p2 + q)ff (6.33)
+
+q_ V 34_fffi + iMZ S20fffi = g
+
+3
+
+8c Z Z(k)W (k + p1) (2k + p1)ff (2k + p1 \Gamma q)fi \Gamma g
+
+3
+
+8c Z H(k)W (k \Gamma p2) (2k \Gamma p2)fi (2k \Gamma p2 + q)ff (6.34) We observe that the left-over integrals of the above four equations Eq.(6.30)-Eq.(6.34) cancel.
+
+Adding equations Eq.(6.6)- Eq.(6.34) by parts we arrive at the desired result.
+
+7 Conclusions In this paper we have extended the S-matrix PT with non-conserved currents to the case of three boson vertices, with all three incoming momenta off-shell. We have outlined in detail how the effective gauge invariant three boson vertices can be constructed, and we have given explicit closed expressions for the vertices flW \Gamma W +, ZW \Gamma W +, and O/W \Gamma W + in Eq.(4.33), Eq.(4.34), and Eq.(4.35), respectively. The g.i. three boson vertices were shown to satisfy naive tree-level Ward identities, which relate them to the g.i. gauge boson self-energies previously constructed by the same method in [16]. The derivation of the aforementioned Ward identities relies on the sole requirement of complete gauge invariance of the S-matrix element considered. In particular, no knowledge of the explicit closed form of the three boson vertices involved is necessary, as long as they have been rendered individually ,-independent. The validity of one of these Ward identities has been proved explicitly, through a detailed diagrammatic one-loop analysis, in the context of three different gauges. The above proofs convincingly illustrate the gauge invariant nature of the entire procedure. Most noticeably, the proof of the Ward identity in the unitary gauge supplies additional evidence that the PT endowes the Green's functions computed in the unitary gauge with several desired theoretical properties, as already shown in [29] for the simpler case of the W self-energy.
+
+Of particular interest is the further exploration of the recently advocated connection between the PT and the BFM. Specifically, all cases studied thus far show that the
+
+33
+
+PT Green's functions coincide with the BFM Green's functions, computed at ,Q = 1. Unfortunately, no general proof of this point exists yet. In section 6.3 we presented a heuristic argument based on the structure of the Feynman rules in this particular gauge, which supports the general validity of this hypothesis, at least at the one-loop level. Due to the lack of a rigorous proof however, additional individual cases may have to be examined. To that end one will have to construct physically relevant Green's functions via the PT and then compare them with the analogous Green's functions of the BFM at ,Q = 1. The general methodology presented in section 3, and the closed explicit expressions reported in section 4 provide the starting point for such a detailed comparison. Furthermore, the general character of the Ward identities derived in this paper may provide additional clues towards a formal understanding of the PT algorithm. Results in this direction will be reported elsewhere.
+
+8 Acknowledgments One of us (K.P.) would like to thank V. Filippidis for technical support. This work was supported in part by the National Science Foundation Grant No..
+
+9 Figure Captions
+
+Figure 1 : One-loop-dressed Feynman graphs for the renormalized b\Pi _* (in a ghost free gauge ) necessary to implement the gauge invariance of the effective potential. All vertices and propagators are fully dressed.
+
+Figure 2 : The general structure of the part bT (q; p1; p2) of the S-matrix that depends only on the momentum transfers q; p1; p2 . The solid lines without orientation represent boson propagators.
+
+Figure 3 : Graphs contributing pinch parts to the construction of g.i. Z self-energies. Figure 4 : The graphs providing pinch parts to the flW W , ZW W and O/W W vertices in the Feynman gauge. The diagrams pinching the left fermion line as well as all types of crossed diagrams are not shown.
+
+Figure 5 : The usual graphs contributing to the the flW W and ZW W vertices in the Feynman gauge. Their corresponding expressions are denoted as V i_fffi in the text. In the unitary gauge only the graphs 1 to 8 , 23 and 29,30 are present; they are denoted as Vi_fffi. In the context of the BFM additional graphs must be included.
+
+Figure 6 : The usual graphs contributing to the O/W W vertex in the Feynman gauge. In the text they are denoted as Si_fffi. None of these graphs exist in the unitary gauge. In the BFM additional graphs must be included, whereas graphs containing ghosts are
+
+34
+
+absent.
+
+Figure 7 : The g.i. self-energies b\Pi
+
+W
+
+_* , b\Pi
+
++ _ , b\Pi
+
+\Gamma * and b\Pi
+
+OE (a, b, c, and d, respectively)
+
+Figure 8 : The vertex , self energy, and monodromic graphs of the S-matrix for the six-fermion process, after the PT rearrangement. Solid lines without orientation represent bosons. All loop expressions are now g.i. and the gauge dependence enters only through the tree propagators of the gauge bosons and their respective scalars. The mirror image and crossed graphs of the monodromic graphs are not shown.
+
+Figure 9 : Graphs contributing a gauge dependent part of the form \Delta (q; ,Z) to the ZW W part of the amplitude.
+
+Figure 10 : Feynman diagrams contributing to the W self-energy. Graph 13 is particular to the BFM.
+
+Figure 11 : Box graphs that in the unitary gauge can provide vertex-like pinch parts. In these graphs pinching is triggered through the longitudinal part of the vector bosons' propagators.
+
+Figure 12 : The additional flW W and ZW W vertex graphs of the Feynman gauge of the background field method. Together with those of Figure 5 they are denoted by V i_fffi in section 6.3.
+
+Figure 13 : The additional O/W W vertex graphs of the Feynman gauge of the background field method. Together with those of Figure 5 they are denoted by Si_fffi in section 6.3. Graphs 2 to 5 replace the ghost graphs 2 to 5 of Figure 5, which do not exist in this gauge.
+
+References
+
+[1] J. M. Cornwall, in Deeper Pathways in High Energy Physics, edited by B. Kursunoglu,
+
+A. Perlmutter, and L. Scott (Plenum, New York, 1977), p.683.
+
+[2] J. M. Cornwall, Phys. Rev. D 26 (1982) 1453. [3] J. M. Cornwall, Phys. Rev. D 38 (1988) 656. [4] J. M. Cornwall, Physica A 158 (1989) 97. [5] J. M. Cornwall and J. Papavassiliou , Phys. Rev. D 40 (1989) 3474. [6] J. Papavassiliou , Phys. Rev. D 47 (1993) 4728. [7] J. M. Cornwall, R. Jackiw, and E. T. Tomboulis Phys. Rev. D 10 (1974) 2428.
+
+J. M. Cornwall and R. Norton Ann. Phys. (N.Y.) 91 (1975) 106.
+
+35
+
+[8] Even if one assumes that ^d, ^\Gamma 3, and ^\Gamma 4, are individually g.i., \Omega still displays a residual
+
+dependence on the gauge-fixing parameter, stemming from the free part of the gluon propagators. Eq.(1.1) is the necessary condition for the order by order cancellation of this residual gauge dependence
+
+[9] It is only after the gauge invariance of \Omega has been guaranteed that one proceeds to
+
+obtain the SD equations for the g.i. Green's functions ^d, ^\Gamma 3, and ^\Gamma 4, by means of a variational principle. To that end, one extremizes independently the variations of \Omega ( ^d; ^\Gamma 3; ^\Gamma 4) with respect to ^d, ^\Gamma 3, and ^\Gamma 4, e.g. ffi\Omega ffi\Delta = 0, ffi\Omega ffi\Gamma
+
+3 = 0, and
+
+ffi\Omega ffi\Gamma 4 = 0, imposing
+
+Eq.(1.4) as an additional constraint.
+
+[10] It is important to emphasize that the Ward identities of Eq.(1.4) make no reference
+
+to ghosts; they are valid however also in the context of covariant gauges after the application of the PT.
+
+[11] R. Jackiw and K. Johnson Phys. Rev. D 8 (1973) 2386.
+
+J. M. Cornwall and R. Norton Phys. Rev. D 8 (1973) 3338. E. Eichten and F. Feinberg Phys. Rev. D 10 (1974) 2428.
+
+[12] J. Papavassiliou, Phys. Rev. D 41 (1990) 3179. [13] G. Degrassi and A. Sirlin , Nucl. Phys. B 383 (1992) 73.
+
+G. Degrassi and A. Sirlin , Phys. Rev. D 46 (1992) 3104.
+
+[14] G. Degrassi, B. Kniehl, and A. Sirlin, Phys. Rev. D 48 (1993) R3963. [15] J. Papavassiliou and C. Parrinello, Phys. Rev. D 50 (1994) 3059. [16] J. Papavassiliou , Phys. Rev. D 50 (1994) 5958. [17] K.Hagiwara, S.Matsumoto, C.S.Kim, Proceedings of the 14'th International Workshop, Weak Interactions and Neutrinos, Edited by J.E.Kim and S.K.Kim, (World Scientific, 1994), p.19. K.Hagiwara, D.Haidt, C.S.Kim and S.Matsumoto, Z. Phys. C64 (1994) 559.
+
+[18] K. J. F. Gaemers and G. J. Gounaris, Z. Phys. C 1 (1979) 259.
+
+K. Hagiwara, R.D. Peccei, D. Zeppenfeld, K. Hikasa, Nucl. Phys. B 282 (1987) 253.
+
+[19] U. Baur and D. Zeppenfeld, Nucl. Phys. B 308 (1988) 127.
+
+U. Baur and D. Zeppenfeld, Nucl. Phys. B 325 (1989) 253. E. N. Argyres, F.K. Diakonos, O. Korakianitis, C.G. Papadopoulos, W.J. Stirling, Phys. Lett. B 272 (1991) 431. E.N. Argyres, G. Katsilieris, O. Korakianitis, C.G. Papadopoulos, K. Philippides,
+
+36
+
+W.J. Stirling, Phys. Lett. B 280 (1992) 324. F.K. Diakonos, O. Korakianitis, C.G. Papadopoulos, K. Philippides, W.J. Stirling, Phys. Lett. B 303 (1993) 177.
+
+[20] S. J. Brodsky and J. R. Hiller, Phys. Rev. D 46 (1992) 2141.
+
+M. Clauson, E. Fahri, and R. L. Jaffe Phys. Rev. D 34 (1986) 873. G. Belanger, F. Boudjema, D. London, Phys. Rev. Lett. 65 (1990) 2943. F. Boudjema, Phys.Rev. D 36 (1987) 969. J. Wudka, Proceedings of the Workshop Search for New Phenomena at Colliding Beam Facilities, Oct 2-3, 1992, editor: Jeanne Rogers. J. Wudka, Proceedings of the XXVIIIth Rencontre de Moriond, Electroweak Interactions and Unified Theories, Les Arcs, Savoie, France, March 13-20, 1993, editor: J. Tran Thanh Van; pp. 441-448. Editions Frontieres, Gif-sur-Yvette, France (1993).
+
+[21] K. Fujikawa, B. W. Lee, and A. I. Sanda, Phys. Rev. D 6 (1972) 2923. [22] E.N. Argyres, G. Katsilieris, A.B. Lahanas, C.G. Papadopoulos, and V.C.Spanos,
+
+Nucl. Phys. B 391 (1993) 23.
+
+[23] J. Papavassiliou and K. Philippides, Phys. Rev. D 48 (1993) 4255. [24] L. F. Abbott, Nucl. Phys. B 185 (1981) 189, and references therein. [25] A. Denner, S. Dittmaier, and G. Weiglein, Phys. Lett. B 333 (1994) 420.
+
+S. Hashimoto, J. Kodaira, Y. Yasui, and K. Sasaki, Phys. Rev D 50 (1994) 7066. E. de Rafael and N. J. Watson, (unpublished).
+
+[26] Of course, one can apply the PT in the context of the BFM, to eliminate the residual
+
+,Q-dependence, when ,Q 6= 1. In that case one arrives again at precisely the same unique results as in any other gauge-fixing scheme [27].
+
+[27] J. Papavassiliou, Phys. Rev. D 51 (1995) 856. [28] N. Jay Watson, Universality of the Pinch Technique Gauge Boson Self Energies,
+
+CPT-94-P-3133, .
+
+[29] J. Papavassiliou and A. Sirlin, Phys. Rev.; D 50,5951 (1994). [30] K. Aoki, Z. Hioki, R. Kawabe, M. Konuma, T. Muta, Prog. Theor. Phys. Suppl. 73
+
+(1982) 1.
+
+[31] We emphasize again that, since the quantities constructed via the PT are ,-
+
+independent, any choice for the parameters , is legitimate.
+
+37
+
+[32] The diagrams where the pinching occurs at the fermion line on the left are exactly
+
+analogous to those where the pinching occurs at the fermion line on the right, and are not shown.
+
+[33] We remind the reader that the tadpole diagrams must also be included in the definition of the g.i. self-energies.
+
+[34] (ii) and (iii) are one-particle reducible graphs. The graphs in category (ii) become
+
+disconnected only after a gauge-boson line is cut. The graphs in (iii) become disconnected in an additional way, namely by cutting the off-shell fermionic propagator.
+
+[35] For the graphs with scalars attached to the external fermion lines the above factor
+
+can be pulled out after we use the relations of Eq.(2.17).
+
+38
+

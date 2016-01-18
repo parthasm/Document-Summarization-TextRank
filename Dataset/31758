@@ -1,0 +1,333 @@
+EVIDENCE FOR GLUON RECOMBINATION IN DEEP INELASTIC SCATTERING
+
+Kjell Prytz
+University of Gavle
+801 76 Gavle
+Sweden
+e-mail: kjell.prytz@hig.se
+PACS: 12.38.Bx
+
+Abstract
+The pomeron structure function is extracted from the latest H1 data and are subject to a QCD
+analysis. The result shows evidence for gluon recombination.
+
+Introduction
+We discuss the interpretation of the diffractive structure function as measured by the H1
+collaboration at DESY [1]. Using a model proposed in ref. 2 we extract the pomeron structure
+function, a notion that occur in Regge phenomenlogy [3]. Together with the Collins
+factorization theorem for diffractive scattering [4] a framework for applying QCD evolution
+equations to the pomeron parton dynamics can be constructed.
+The procedure involves many assumptions but since it was first proposed some 10-15 years
+ago [2] evidence and support for its correctness have been presented (see ref . 5 and
+references therein).
+In 1997, H1 published a paper [6] where the DGLAP QCD dynamics [7] was applied to their
+own first data. Their result showed that the DGLAP evolution equations are able to fit these
+data satisfactorily. However, in 1998 new data with an extended kinematic range were
+published [8] and it was found that the DGLAP equations could not provide a decent
+description of the data [1].
+In ref. 5 it was explained why DGLAP doesn't work for the latest H1 data and it was
+qualitatively shown that the inclusion of gluon recombination (or generally, a low-x higher
+twist term) in the analysis is sufficient to explain the data. These equations are denoted GLR-
+MQ [9] and corrects the DGLAP equations by adding terms accounting for gluon
+recombination.
+In this paper we apply the GLR-MQ equations quantitatively to the data by performing a full
+QCD analysis of the H1 data in leading order. The sole aim is to check whether the DGLAP
+equations can be ruled out in favour of the GLR-MQ equations.
+
+Pomeron Phenomenology
+In our model, the electromagnetic diffractive process is assumed to occur as depicted in fig. 1.
+
+
+
+
+
+Figure 1: The diffractive process with pomeron exchange in electromagnetic electron-proton high energy
+scattering.
+
+
+There are three vertices which are subject to the factorization theorems of Collins (upper) and
+of Regge (lower). The electromagnetic cross section can approximately be written [2]
+
+ds(ep epX ) 4 2 2
+pa y
+= 1
+[ - y + ]F D (x , t, , 2
+x Q ) (1)
+2 2
+dx dtdxdQ xQ 2 2 Pom
+Pom
+
+
+where F D D
+2 is called the diffractive structure function and the corresponding F1 structure
+function has been neglected.
+In the laboratory frame, y = /E where is the energy transfered by the photon in the process
+and E is the energy carried by the incoming electron. Q2 = -(k-k')2 where k and k' are the
+momenta of the incoming and outgoing electron respectively and x = Q2/2M where M is the
+proton mass. is the electromagnetic coupling, t is the squared four-momentum lost by the
+proton and xPom is the fraction of the incoming proton momentum lost by the proton which in
+the model is the fractional momentum carried by the pomeron.
+The Regge factorization theorem then leads to [2]
+
+D Pom x
+F ( x (2)
+Pom , t, x, 2
+2 Q ) = f Pom/ p (xPom, t)F ( , 2
+2 Q )
+xPom
+
+were fPom/p is usually called "the pomeron flux" and describes the coupling between the
+pomeron and proton. In a "quark-parton model jargong" one would say that fPom/p measures a
+(unnormalized) probability to find a pomeron "inside" the proton [2].
+We introduce = x/xPom which is interpreted (in the infinite momentum frame) as the fraction
+of the pomeron momentum carried by the struck parton.
+H1 presents their structure function data in terms of x D
+PomF2 . In order to obtain the pomeron
+structure function (F Pom
+2 ), which will be subject to the QCD analyses, we need to divide by
+xPom fPom/p.
+For the pomeron flux we use the information obtained by H1 [6]:
+
+bt
+e
+f (3)
+Pom/ p ( x Pom , t) = 2a -1
+Pom
+xPom
+
+where b = 4.6 GeV2 and a (t '
+) = a (0 ) + a t = 1.2 + 0.26 t is the Regge trajectory
+Pom Pom Pom
+for the pomeron. An integration over t is performed from ­1.0 GeV2 to 0 and xPom = 0.005. At
+this low value of xPom, H1 showed that there is negligible contribution from other exchange
+particles beyond the pomeron [6].
+We use the following evolution equations
+
+2 1 1
+2
+dG( ,
+b Q ) a (Q )
+s b b
+= [ dy 2 dy 2
+b G( y, Q ) Pgg ( ) + yq( y, Q ) Pgq ( ) ]
+p
+2 2 2
+d log Q 2 y y y y
+b b (4)
+1
+2 2 2 2 b
+81 s
+a (Q ) dy 2 81 s
+a (Q ) dy 2
+- [G( y, Q)] + [G( y, Q)]
+2 2 2 2
+16R Q y 16R Q y
+b b / 2
+
+
+d q
+b ( ,
+b Q2 ) a (Q2 1 1
+)
+s b b
+= [ dy 2 dy
+b G( y, Q )P 2
+qg ( ) + yq( y, Q )Pqq ( ) ]
+2
+log 2p 2
+d Q y y y 2 y
+b b (5)
+2 2
+27 s
+a Q
+( )
+- [G( ,
+b Q2 2
+)] + HT
+160 R 2Q 2
+where on the right hand side, the terms linear in gluon distribution G and quark distribution
+yq are given by DGLAP [7] and the terms quadratic in G are given by GLR-MQ [9]. The
+latter terms account for gluon recombination into gluons (eq. 1) and into quarks (eq. 2).
+The fourth term in the gluon evolution equation was introduced in order to conserve gluon
+momentum [10]. It was achieved by simply noting that a fusion of a couple of gluon results in
+a new one with higher momentum.
+The amount of gluon recombination is controlled by the pomeron size parameter R. The term
+denoted `HT' was introduced by Mueller and Qiu [9] but not fully given. It was neglected in
+our calculation.
+For the initial gluon and quark distributions, given at the lowest used Q2 = 1.2 GeV2, we use
+the following forms:
+
+q = C1 + C2 + C3 2 + C4 3 + C5 4 + C6 5
+G = g = C7 C8 (1-)C9
+
+The rather complicated form of the quark distribution is dictated by data.
+The pomeron is assumed to be a flavour singlet particle so that the evolution is purely singlet.
+We use four flavours and the QCD parameter = 200 MeV.
+We adopt a so called saturation procedure [11] meaning that if, in the gluon evolution, the
+sum of the recombination terms get larger than the DGLAP term we set the gluon derivative
+to zero. This actually happens in the low-, low-Q2 region of the data (see fig. 3) so a more
+thorough theoretical investigation about this effect is asked for.
+
+
+Results
+The result of the fit using the GLR-MQ equations is shown in fig. 2 with 2/dof = 58/62.
+
+
+
+
+
+Figure 2: Optimized fit of the H1 data based on the GLR-MQ equations.
+
+There are three free quantities in the fit: the quark and gluon distributions and the pomeron
+size. They mainly control the level, the Q2 dependence and the flattening of the data at low-Q2
+respectively. There is no size parameter in the DGLAP equations and accordingly they cannot
+account for the "flattening effect" seen at low-Q2.
+The result on the quark and gluon distribution is shown in fig. 3.
+
+
+
+
+
+Figure 3: The resulting gluon and quark distribution from the fit based on the GLR-MQ equations. The lines
+corresponds to Q2=1.2, 1.5, 2.5, 3.5, 4.5, 5, 7.5 and 9 GeV2.
+
+As has been noted several times earlier the gluons dominate in the pomeron. As can be seen in
+fig. 3, the gluon distribution exhibits an unusual evolution at low-. This is due to the
+
+
+saturation procedure adopted (see above). We expect that terms of twist-6 and higher, still
+missing in the theory, would make the distribution smoother.
+Furthermore, we note that the momentum sum rule is not fulfilled and momentum is not even
+conserved. The latter is mainly due to the saturation effect and the former has been discussed
+several times previously in the literature. In our view this is a theoretical issue which needs
+more considerations.
+As for the pomeron size we obtain R = 0.03 GeV-1 which is considerably smaller than
+previously obtained [12]. But since we don't aim for any error and correlation analysis of the
+fitting parameters in this paper we wish to refrain from drawing any conclusions from this. It
+should at this moment only be considered as a fit parameter. Clearly, this parameter is highly
+correlated with the gluon density and probably we need an extended Q2 lever arm in order to
+disentangle the correlation satisfactorily.
+We also perform a fit based on the DGLAP scheme shown in fig. 4 and resulting in 2/dof =
+72/62. In view of the rather large errors of the data, we consider this as a poor fit.
+
+
+
+
+
+Figure 4: Optimized fit of the H1 data based on the DGLAP equations.
+
+The resulting parton distributions are shown in fig. 5.
+
+
+Figure 5: The resulting gluon and quark distribution from the fit based on the DGLAP equations. The lines
+corresponds to Q2=1.2, 1.5, 2.5, 3.5, 4.5, 5, 7.5 and 9 GeV2.
+
+Since we look for gluon recombination in this analysis the region of low is most interesting.
+We therefore in addition investigate the fit quality for the first four -bins only, where also the
+data quality is best. For the GLR-MQ dynamics (figure 2) we then obtain 2/dof = 20/34
+whereas for the DGLAP dynamics (figure 4) we get 2/dof = 33/34. This indicate a favour for
+the GLR-MQ equations. Note that the errors on the data include systematics so that 2/dof < 1
+is expected for a perfect fit.
+
+Discussion
+We have seen that a large contribution of gluon recombination is needed in order to describe
+the data. Being used to discuss this effect in terms of `low-x effects' it might be surprising to
+see that the whole range of in the gluon evolution (compare fig. 3 and 5) is affected.
+However, the reason for associating gluon recombination with `low-x physics' is because it
+was first discussed in connection with nucleon structure. What really governs this dynamic is
+the gluon spatial density which is high at low-x in the nucleon. In the pomeron, however, due
+to its small size and gluon domination its gluon density is high throughout the kinematical
+region and gluon recombination is a natural part of its whole QCD evolution.
+One can of course question the whole approach of applying the GLR-MQ equations under
+such circumstances since we would expect even higher twist terms to become influential.
+These terms are not yet available but at the moment they serve as an explanation for the fact
+that the gluon distribution obtained in fig. 3 is rather odd, due to the kink at =0.15, and also
+that the pomeron size obtained is much smaller than expected. Nevertheless, although we
+could expect a more acceptable result when including terms of this kind, we certainly claim
+that the main interpretation of the data is given in this analysis; the pomeron is gluon
+dominated, exhibiting gluon recombination at such a level that saturation occurs in the
+kinematical region of the data and that in this model the pomeron is much smaller than the
+nucleon.
+After all, we cannot deny the data where the huge effect of gluon recombination is visible
+already `by eye'. Also, the effect of saturation is indicated through the flattening of data at
+low-Q2.
+We can also discuss and question the numerical result on the pomeron size which is, as
+mentioned above, strongly correlated with the gluon distribution. Due to this correlation we
+cannot increase the pomeron size since that just results in an increasing gluon density in order
+to keep the amount of gluon recombination approximately unchanged. As a consequence, the
+DGLAP terms will then increase contributions to the positive scaling violations and ruin the
+fit. Alternatively, one could try to account for the flattening effect with the DGLAP dynamics
+only and expect a very low gluon density at low-. This was done by H1 [6] with their old
+
+
+data but it doesn't work with the present data set since the optimum gluon distribution is
+shown in figure 5. Indeed, the density is low but not low enough to get a good fit.
+We should mention though, that we haven't made any attempt to allow for negative values of
+the gluon distribution. Such an approach could very well change the conclusions since it may
+account for the flattening effect at low-Q2. However, our opinion is that this is unphysical
+since our basis has been the physical quark-parton model. Since this model can account for
+the data when including gluon recombination we see no reason for such an exotic adventure.
+
+Conclusions and outlooks
+We have for the first time found a model which fit the complete H1 diffractive data set for
+xPom = 0.005. We have shown that the inclusion of gluon recombination solves the problem if
+we at the same time introduce an effect of gluon saturation.
+The parton densities found accordingly confirm the gluonic domination in the pomeron but
+the shape of the gluon distribution differs from that found by H1 [6] (fit 3).
+Our investigation also points to the needs of measurements extending the kinematical range of
+the data. We could then learn more about gluon recombination and in particular get safer
+information on the pomeron size.
+The recent preliminary data from H1 [13] might add further information concerning gluon
+recombination mainly due to improved precision. The general trend, however, is identical
+with the data used here, i.e. for F2 vs Q2 we see a flattening effect at low Q2 for the lowest
+bins at xPom < 0.005. Data at higher xPom is not considered by us due to contribution of other
+exchange particles than the pomeron.
+In the H1 paper [13] they claim that the DGLAP equations can describe the data. I disagree
+with this conclusion. No 2 is given but one can see bye eye that the flattening effect is not
+taken care of (see the bins =0.1 and =0.2 in figure 9 of this paper). No attempt to fit with
+GLR-MQ is made. In this analysis minimum Q2 = 6 GeV2 whereas the most pronounced
+effects of gluon recombination occur at lower Q2 explaining why they obtain an apparent
+reasonable DGLAP fit.
+As soon as these data are presented in tables one should use them to perform the same fits as
+in this paper. Since these data seem to agree with those that have been used in this paper,
+differing just in precision, and since no kinematical extension is presented, we cannot expect
+any other kind of conclusion than what has been drawn here.
+
+Acknowledgements
+Many thanks to Gunnar Ingelman for helpful suggestions. The work has been supported
+economically by the University of Gavle, Sweden.
+
+References
+1. L. Schoeffel (representing H1 and ZEUS), talk at PANIC99, Uppsala, June 1999.
+Published in Nucl. Phys. A663&664 (2000) 340
+2. G. Ingelman and K. Prytz, Z. Phys. C58 (1993) 285
+K.H. Streng, Proc. of the Hera Workshop 1987, ed. R.D. Peccei, publ. by DESY, p.
+365
+3. See e.g:
+K. Goulianos, Phys. Rep. 101 (1983) 169
+G. Ingelman and P. Schlein, Phys. Lett. 152B (1985) 256
+N. Arteaga-Romero, P.Kessler, J. Silva, Mod. Phys. Lett. A Vol 1, No 3, (1986) 211
+A. Donnachie and P.V. Landshoff, Nucl. Phys. B303 (1988) 634
+4. J.C. Collins, Phys. Rev. D57 (1998) 3051
+
+
+5. K. Prytz, accepted for publication in Eur. J of Phys, internal report nr 11-2001 of
+University of Gavle, Sweden.
+6. H1 Coll, C.Adloff et al., Z. Phys. C 76 (1997) 613
+7. Y.L. Dokshitzer, Sov. Phys. JETP 46 (1977) 641
+V.N. Gribov, L.N. Lipatov, Sov. J. Nucl. Phys. 15 (1972) 438 and 675
+G. Altarelli, G. Parisi, Nucl. Phys. B126 (1977) 641
+8. H1 Collab., Proc. 29th ICHEP98, Vancouver, Canada (1998), paper 571, ed. A.
+Astbury, D. Axen, J. Robinson, World Scientific Publishing 1998
+9. L.V. Gribov, E.M. Levin, M.G. Ryskin, Phys. Rep. 100 (1983) 1
+A.H. Mueller and J. Qiu, Nucl. Phys. B268 (1986) 427
+10. W. Zhu et al., Phys. Lett. B317 (1993) 200
+11. A.D. Martin et al., Phys. Rev. D47 (1993) 867
+12. W.T. Meyer, Nucl. Phys. B 12C (1990) 40
+P.Schlein et al., UA8 Coll., ECHEP Geneva 1991
+K. Goulianos, Nucl. Phys B 12C (1990) 110
+K.H. Streng, Phys. Lett. 166B (1986) 443, ibid 171B (1986) 313
+13. H1 Collab., Conf. Paper EPS 2001 in Budapest, Abstract no 808
+
+
+

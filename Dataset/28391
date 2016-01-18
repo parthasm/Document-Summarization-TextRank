@@ -1,0 +1,150 @@
+
+
+ 25 Aug 94
+
+LSU-0725-94 
+
+ABELIAN ACTION FOR QUARK CONFINEMENT:
+
+A DIRECT EVALUATION
+
+KEN YEE\Lambda Physics and Astronomy, LSU, Baton Rouge, LA 70803-4001, USA
+
+kyee@rouge.phys.lsu.edu
+
+ABSTRACT We evaluate SAP QCD, the Abelian projection QCD(APQCD) action, using the microcanonical demon method. For SU (2), we find that SAP QCD at strong coupling is essentially the compact QED(CQED) action with fiCQED = 12 fiSU(2). Since CQED deconfines when fiCQED ? 1, this relation must break down as fiSU(2) ! 2. Indeed we find SAP QCD mutates: near fiSU(2) , 2 it gains additional operators, including an exogenous negative magnetic monopole mass shift. Since monopoles are condensed in CQED when fiCQED ! 1, a vicarious corollary of these results is that SU (2) monopoles are condensed when fiSU(2) ! 2. SAP QCD for SU (3) has similar behavior.
+
+A clear demonstration that monopole condensation is the origin of QCD confinement would be a notable achievement. To this end, 't Hooft1-3 proposed that QCD monopoles are magnetic with respect to the [U (1)]N\Gamma 1 Cartan subgroup of color SU (N ). Full SU (N ) gauge symmetry obscures these charges and it is necessary to gauge fix at least the SU (N )=[U (1)]N\Gamma 1 symmetry to expose them. In this scenario monopoles are fixed-gauge manifestations of gauge field features responsible for QCD confinement. Only in special gauges does one have a picture of QCD confinement caused by monopole condensation. In other gauges the gauge field features causing confinement are still present but they do not look like magnetic monopoles.4
+
+Numerical studies have found that maximal Abelian(MA) gauge5 is compelling for 't Hooft's hypothesis. Upon decomposing gauge field A into purely diagonal(n) and purely off-diagonal(ch) parts
+
+A = An + Ach; (1) the MA gauge condition Dn_Ach_ j @_Ach_ \Gamma ig[An_; Ach_ ] = 0 leaves a residual [U (1)]N\Gamma 1 gauge invariance under \Omega residual = diag(exp\Gamma i!1 ; \Delta \Delta \Delta ; exp\Gamma i!N ) where PNi=1 !i = 0. Under \Omega residual the N diagonal matrix elements (An)ii transform as neutral photon fields whereas the N (N \Gamma 1) offdiagonal matrix elements (Ach)ij transform as charged matter fields: (An_)ii ! (An_)ii \Gamma 1g @_!i and, for i 6= j, (Ach_ )ij ! (Ach_ )ij exp\Gamma i(!i\Gamma !j). Since
+
+\Lambda Based on talks at the Workshop on Lattice Field Theory(Vienna, Austria) and the Workshop on Quantum Infrared Physics(Paris, France), to be published by World Scientific.
+
+R [dAch]
+
+Monte Carlo
+
+Abelian projection
+
+demon SAP QCD
+
+SQCD QCD gaugeconfiguration
+
+APQCD gauge
+
+configuration
+
+oe ? ?
+
+Fig. 1. To integrate out Ach we: (i)generate an importance sampling SU (N ) gauge configuration; (ii)project this configuration to a [U (1)]N\Gamma 1 configuration; and (iii)compute the SAP QCD couplings using the microcanonical demon.
+
+(Ach)ij carries two different U (1) charges, the Ach fields induce "interspecies" interactions between the N photons. On the lattice the monopole currents are identified according to discretized versions6 of k_ j 12ss ffl_**ffi@*f*ffi and f_* j @_An* \Gamma @*An_.
+
+This procedure where only the diagonal An components of the SU (N ) gauge fields are used for measuring k_ and f_* is called Abelian projection. Since PNi=1(An_)ii is
+
+invariant under \Omega residual, an irreducible representation of [U (1)]N\Gamma 1 is `i_ j (An_)ii \Gamma \Lambda _ where \Lambda _ j 1N PNj=1(An_)jj . While vector field \Lambda is [U (1)]N\Gamma 1 invariant, the `i transform as `i_ ! `i_ \Gamma 1g @_!i and obey constraint PNi=1 `i_ = 0. We shall refer to the quantum dynamics of the N angles `i as Abelian projected QCD or APQCD. Equivalently, APQCD is the field theory obtained by integrating out Ach and \Lambda from QCD in MA gauge.7 Its action SAP QCD is formally defined as
+
+\Gamma SAP QCD[`1; \Delta \Delta \Delta ; `N ] j lognZ [dAchd\Lambda ] exp(\Gamma SQCD) \Delta F P ffi[Dn_ Ach_ ]o: (2) Monopoles arise in APQCD due to topological quantum fluctuations in the compact fields `i.
+
+While there is no guarantee that SAP QCD has a simple form or is otherwise wellbehaved, it is of central import due to Abelian dominance,8 the fact that `i Wilson loops in APQCD have predominantly the same string tension as SU (N ) Wilson loops in QCD. Abelian dominance has the following formal implication. If trW is an SU (N ) Wilson loop and if h\Delta iQCD and h\Delta iAP QCD refer respectively to SQCD and SAP QCD
+
+expectation values, the APQCD operator W which obeys
+
+hW iAP QCD = trhWiQCD (3) is
+
+W = exp(+SAP QCD) Z [dAchd\Lambda ] exp(\Gamma SQCD) \Delta F P ffi[Dn_Ach_ ] trW: (4)
+
+Abelian dominance means that the complicated operator W, which in other gauges would be a superposition of assorted [U (1)]N\Gamma 1-invariant operators of various sizes and shapes, is (for string tension) well-approximated by a `i loop of the same size and shape as trW in MA gauge. In other gauges the hW iAP QCD string tension would be due to a combination of SAP QCD effects and properties of W. An extreme example in which SAP QCD is immaterial is in a (hypothetical) gauge where W = expf\Gamma *RT g \Delta 1--the constant APQCD operator with area law coefficient. In such a gauge, the coefficient in W hordes the area law and SAP QCD is immaterial because W is simply 1. In stark contrast, SAP QCD alone determines string tension in MA gauge: given SAP QCD one can reconstruct the QCD string tension using APQCD Wilson loops without reference to the RHS of (4). In MA gauge SAP QCD apparently knows all about QCD confinement properties.
+
+Our numerical procedure for evaluating SAP QCD is depicted in Figure 1. Let us temporarily focus on SU (2). First, we make a representative importance sampling APQCD gauge configuration by applying the Abelian projection to a Monte Carlo lattice SU (2) gauge configuration at some chosen coupling fiSU(2). Seeking the action SAP QCD which would reproduce this APQCD configuration7 in a Monte Carlo simulation, we state an ansatz for SAP QCD and apply the microcanonical demon technique9 to compute the parameters of this ansatz. This "inverse Monte Carlo" procedure is repeated to determine how SAP QCD fluctuates between different importance sampling SU (2) configurations.
+
+The general U (1)-invariant action consistent with APQCD involves an infinity of operators. Fortunately, previous studies7,10 and, independently, the demon technique indicate that neither extended nor highly charged Wilson loops contribute substantially to SAP QCD. In particular, we have applied the demon to an ansatz consisting of 1 \Theta 1, 2 \Theta 2, and 3 \Theta 3 plaquettes. Over a wide range of fiSU(2), we are unable to resolve a nonzero signal for any of the 2 \Theta 2 or 3 \Theta 3 plaquette couplings. Therefore, we focus now on a 1 \Theta 1 ansatz
+
+\Gamma Sansatz =
+
+3X
+
+q=1 Xx;_!* fi
+
+q cos q\Theta _* \Gamma ^ X
+
+x;_ k
+
+_(x)k_(x): (5)
+
+cos q\Theta _* is a 1 \Theta 1 plaquette in U (1) representation q given in terms of link angles `1_. ^ shifts the q = 1, 13 monopole mass11 implicit in fi1 cos \Theta _* , allowing the APQCD monopole mass to be independent of fi1. Of course, fii and ^ vary with fiSU(2).
+
+In our version of the demon technique, imagine a battalion of demons each carrying M coupled thermometers corresponding to the M undetermined coefficients in the ansatz action. (M = 4 for Sansatz.) The demons thermalize with the APQCD
+
+Fig. 2. Figure 2 depicts Sansatz coefficients fi1, fi2 and ^ as a function of fiSU(2). jfi3j, not depicted, is always smaller than jfi2j, typically by a factor of 3\Gamma 5. Our 203\Theta 16 lattices are all well inside the zero temperature phase for the fiSU(2) range depicted. The bold fi1 = 12fiSU(2) line is a guide-to-eye.
+
+configuration by hopping from link to link and exchanging energy(jaction) with the configuration.y The thermometers are coupled by requiring all of their energies to remain within a given range [\Gamma E0; E0]; if any proposed energy exchange violates this range it is rejected. Upon thermalization the couplings are read off from the battalion of energies, which has a Boltzmann distribution. Statistical errors are computed by jackknifing the demons. (The independent errors from jackknifing SU (2) configurations are comparable in size.) In principle, if Sansatz contains all the operators of SAP QCD the demon technique yields all the coupling constants exactly (modulo statistics). In practice, Sansatz is a truncated action which is unlikely to contain all SAP QCD operators. Extensive numerical experiments with idealized configurations12 reveal that if operators are missing the method yields effective values for the couplings. These effective values would not be the same as the "true" values when all operators are present.
+
+Figure 2 shows Sansatz coefficients fi1, fi2 and ^, computed by the demon, as a function of fiSU(2). jfi3j, not depicted, is always smaller than jfi2j, typically by a factor of 3 \Gamma 5. Each fiSU(2) configuration is generated fresh from a cold start so our data points do not contain any spurious correlations. Our N 3S \Theta NT = 203 \Theta 16 lattices are all well inside the zero temperature phase; for the range of fiSU(2) shown the APQCD Polyakov loop vanishes. As depicted, at strong coupling(fiSU(2) ! 2)
+
+fi1 , 12 fiSU(2); fi2;3 , 0; ^ , 0; (6) that is, SAP QCD reduces to the compact QED(CQED) action at strong coupling. At yContrary to Ref. 9 we do not update the APQCD configuration so that energy is figuratively rather than literally "exchanged." This shortens the numerical algorithm and avoids the possibility of damaging the APQCD configuration if the battalion of demons absorbs too much energy.
+
+Fig. 3. 3A compares APQCD plaquettes PAP QCD at fiSU(2) to CQED plaquettes PCQED at fiCQED = fi1(fiSU(2)) for a range of fiSU(2) values. When fiSU(2) ! 2 the data points lie on the bold PCQED = PAP QCD line showing that SCQED is a good model of SAP QCD. The set of points wandering off of the PCQED = PAP QCD line corresponds to fiSU(2) ? 2, when SCQED is not a good model of SAP QCD. 3B is an analogous plot using monopole densities.
+
+weaker coupling(fiSU(2) ? 2) fi2 and ^ grow in magnitude but fi1 always remains the largest coupling.
+
+Note that since monopoles are condensed when fiCQED ! 1 in13 CQED, Figure 2 or Eq. (6) proves (albeit vicariously) that SU (2) monopoles are condensed when fiSU(2) ! 2.
+
+When fiSU(2) ? 2, the situation is not so clear. In fact, Figure 2 suggests a paradox in the fiSU(2) ? 2 region: how can APQCD maintain confinement in the continuum limit if CQED deconfines when fiCQED ? 1? Clearly, either the meaning or validity of relation (6) must break down when fiSU(2) is sufficiently large. Either (I)Abelian dominance does not survive the fiSU(2) , 2 crossover making SAP QCD less pertinent at weaker coupling--see discussion pertaining to Eq. (4); or (II)SAP QCD gains additional operators near fiSU(2) , 2; or a combination of (I) and (II). We do not have anything to say about (I) in this Note except to observe that there has been no definitive study
+
+of Abelian dominance at larger fiSU(2) values.z
+
+(II) requires that SAP QCD is not well described by SCQED when fiSU(2) ? 2. Indeed,
+
+zIn typical string tension measurements, the static quark potential is determined by superimposing data points from a range of different fiSU(2) values.
+
+we can demonstrate this by simulating
+
+\Gamma SCQED = X
+
+x;_!* fi
+
+CQED cos \Theta _*
+
+jfiCQED=fi1(fiSU(2))
+
+(7)
+
+(also on a 203 \Theta 16 lattice) to see if it reproduces corresponding APQCD expectation values. As depicted in Figure 3, SCQED reproduces APQCD plaquette averages and monopole densities only in the SU (2) strong coupling region. At weaker coupling the CQED simulations start to disagree dramatically with APQCD. This implies that at weaker coupling either other terms of Sansatz have become important or Sansatz itself is inadequate. In any case, this means SAP QCD is not form-invariant between the strong and weak coupling regimes: at strong coupling SAP QCD is well approximated by SCQED; at crossover region fiSU(2) , 2 SAP QCD mutates and develops substantial deviations from SCQED. Inspection of Figure 2 reveals that a possible scenario might be that ^, the exogenous magnetic monopole mass shift, becomes more and more negative at larger fiSU(2). As negative monopole mass favors monopole condensation (compensating for a large fi1), the occurrence of a sufficiently negative ^ in SAP QCD at fiSU(2) ? 2 could maintain APQCD confinement.
+
+Note that Figure 2, as characterized by Eq. (6), "explains" Abelian dominance--at least in the strong coupling regime. The SU (2) plaquette in the strong coupling expansion behaves like PQCD , 14fiSU(2) and the CQED plaquette like PCQED , 12 fiCQED. Therefore, identifying PCQED(fiCQED = fi1) with PAP QCD and applying Eq. (6) yields
+
+PAP QCD , 14 fiSU(2) , PQCD: (8) Carrying this argument over to larger Wilson loops leads to a (strong) statement of Abelian dominance: at sufficiently strong coupling APQCD and QCD Wilson loop averages and, hence, string tensions are equal. Figure 4 confirms (8) and shows how it breaks down at weaker coupling. Note Eq. (8) contradicts the naive expectation, based on PQCD containing a trace over a 2 \Theta 2 matrix and PAP QCD involving no trace, that PAP QCD = 12PQCD.
+
+We have obtained similar results for the SU (3) Abelian projection which will be described elsewhere. For SU (3), SAP QCD is more complicated due to interspecies dynamics.10,14,15 Nonetheless, we have observed the same crossover behavior in SU (3). At strong coupling, SAP QCD is simple; at weaker coupling, there is a clear crossover to a more complicated action. A preliminary indication of this can be seen in the data reported in Ref. 3.
+
+In conclusion, SAP QCD is not form-invariant between the strong and weak coupling regimes. Thus, glamorous dynamical and phenomenological features of the Abelian projection confinement mechanism, such as Abelian dominance or the issue of whether APQCD is a Type I or Type II superconductor,16 might vary with lattice spacing. As it is, it is imperative to distinguish between strong and weak coupling data in order
+
+Fig. 4. Figure 4 depicts the APQCD and SU (2) plaquettes as a function of fiSU(2). In the strong coupling region(fiSU(2) ! 2), both the APQCD and SU (2) plaquettes grow like 14fiSU(2), the guide-to-eye line's slope. At weaker coupling(fiSU(2) ? 2) the APQCD plaquettes deviate substantially from the SU (2) plaquettes. Correspondingly, the monopole density decelerates noticeably near fiSU(2) , 2.
+
+to determine if these lattice results have a true continuum significance. 4. Acknowledgements
+
+It is a pleasure to thank Misha Polikarpov for many stimulating discussions and for the use of his SU (2) FORTRAN codes. I am indebted to the faculty and students of the Institute for Theoretical and Experimental Physics(ITEP) for their generous hospitality. Computing was done at the NERSC Supercomputer Center. The author is supported by DOE grant DE-FG05-91ER40617.
+
+1. G. 't Hooft, Nucl. Phys. B190 (1981) 455. 2. A. Kronfeld, G. Schierholz, U. Wiese, Nucl. Phys. B293 (1987) 461. 3. A review with more references is K. Yee, Proceedings of Lake Louise Winter Institute (February, 1994) to be published by World Scientific .
+
+4. Possible illustrations are M.N. Chernodub, M.I. Polikarpov, M.A. Zubkov, Nucl.
+
+Phys. B(Proc. Suppl.) 34 (1994) 256; M.I. Polikarpov, private communication; M.I. Polikarpov and K. Yee, Phys. Lett. B333 (1994) 452.
+
+5. A. Kronfeld, M. Laursen, G. Schierholz, U. Wiese, Phys. Lett. B198 (1987) 516. 6. T. Banks, R. Myerson and J. Kogut, Nucl. Phys. B129 (1977) 493; D. Toussaint
+
+and T. DeGrand, Phys. Rev. D22 (1980) 2478.
+
+7. K. Yee, Phys. Rev. D49 (1994) 2574. 8. T. Suzuki and I. Yotsuyanagi, Phys. Rev. D42 (1990) 4257; S. Hioki, S. Kitahara,
+
+S. Kiura, Y. Matsubara, O. Miyamura, S. Ohno, T. Suzuki, Phys. Lett. B272 (1991) 326.
+
+9. M. Creutz, A. Gocksch, M. Ogilvie, and M. Okawa, Phys. Rev. Lett. 53 (1984)
+
+875; M. Creutz, Phys. Rev. Lett. 50 (1983) 1411.
+
+10. K. Yee, Phys. Rev. D50 (1994) 2309. 11. J. Smit and A. van der Sijs, Nucl. Phys. B355 (1991) 603. 12. K. Yee, manuscript in preparation. 13. M.I. Polikarpov, L. Polley, U.J. Wiese, Phys. Lett. B253 (1991) 212. 14. M. I. Polikarpov and K. Yee, Phys. Lett. B316 (1993) 333. 15. K. Yee, accepted by Mod. Phys. Lett. A. 16. V. Singh, D. Browne, R. Haymaker, Phys. Lett. B306 (1993) 115.
+

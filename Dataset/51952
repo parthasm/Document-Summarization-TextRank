@@ -1,0 +1,202 @@
+
+
+DESY 95-121
+
+June 1995
+
+On the k? dependent gluon density of theproton
+
+Johannes Bl"umlein DESY-Zeuthen, Platanenallee 6, D-15735 Zeuthen, Germany
+
+Abstract The k? dependent gluon distribution is calculated accounting for the resummation of small x effects due to the Lipatov equation. It is represented by a convolution of a gluon density in the collinear limit and a universal function G(x; k2; _) for which an analytic expression is derived.
+
+Contribution to the Proceedings of the Workshop on Deep Inelastic Scattering, Paris, April 1995.
+
+On the k? dependent gluon density of the proton
+
+Johannes Bl"umlein DESY-Zeuthen, Platanenallee 6, D-15735 Zeuthen, Germany
+
+Abstract The k? dependent gluon distribution is calculated numerically accounting for the resummation of small x effects due to the Lipatov equation. It is represented by a convolution of a gluon density in the collinear limit and a universal function G(x; k2; _) for which an analytic expression is derived.
+
+1. Introduction In the small x range new dynamical effects are expected to determine the behaviour of structure functions. The evolution of parton densities is effected by terms due to non strong k? ordering and eventually by screening contributions. A description of contributions of this type requires to generalize the factorization of the hadronic matrix elements into coefficient functions and parton densities in which the k? depencence is not integrated out [1].
+
+This factorization covers the case of collinear factorization in the limit that the k2 dependence of the coefficient function is neglected. The k? dependent gluon density accounts for the resummation of small x effects. In the present paper we will consider those due to the Lipatov equation only. Since this equation behaves infrared finite no other singularities will emerge than in the case of mass factorization. The collinear singularities are delt with in the same way in the case of k? factorization.
+
+In the present paper the k? dependent gluon distribution is calculated for the case of the scheme [2, 3]. It can be represented as the convolution of the gluon density in the collinear limit g(x; _) and a function G(x; k2; _) for which an analytic expression will be derived. A numerical comparison of the k? dependent gluon densities accounting for the solution of the Lipatov equation and in the double logarithmic approximation (DLA) is given.
+
+\Lambda Talk given in session on Proton Structure at the Workshop on Deep Inelastic scattering and QCD, Paris, April 1995
+
+2. k? Factorization and the k? dependent gluon distribution
+
+The factorization relation for an observable Oi(x; _) reads
+
+Oi(x; _) = Z dk2^oeOi(x; k2; _) \Omega \Phi (x; k2; _) (1)
+
+where ^oeOi(x; k2; _) and \Phi (x; k2; _) denote the k2 dependent coefficient function and parton density], respectively. Eq. (1) can be rewritten as [2, 3]
+
+Oi(x; _) = ^oe0Oi (x; _) \Omega G(x; _) + R
+
+1
+
+0 dk2 \Theta ^oeOi (x; k2; _) \Gamma ^oe0Oi(x; _)\Lambda \Phi (x; k2; _) (2)
+
+with ^oe0Oi(x; _) = limk2!0 ^oeOi(x; k2; _). The first addend in (2) describes the conventional contribution due to collinear factorization. The second term contains the new contributions. Note that \Phi (x; k2; _) starts with terms / ffs. It has therefore not the interpretation of a probability density and may even become negative.
+
+As shown in [2] the k? dependent gluon distribution associated to eq. (2) reads in moment spacee
+
+\Phi (j; k2; _) = flc(j; ffs) 1k2 ` k
+
+2
+
+_2 '
+
+flc(j; ffs) e
+
+g(j; _) (3)
+
+where _ denotes a factorization scale, ffs = Ncffs(_)=ss, and g(x; _) is the gluon density. Eq. (3) accounts for the small x behaviour due to the Lipatov equation. Here
+
+] We will consider the gluon density in the present paper only.
+
+flc(j; ffs) is the solution of the eigenvalue equation of the homogeneous Lipatov equationyy
+
+j \Gamma 1 = ffsO/(flc(j; ffs)); O/(fl) = 2(1)\Gamma (fl)\Gamma (1\Gamma fl):
+
+(4)
+
+-0.6 -0.4 -0.2
+
+0 0.2 0.4 0.6
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+Im r
+
+Reg
+
+-1 -0.75
+
+-0.5 -0.25
+
+0 0.25
+
+0.5 0.75
+
+1
+
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+Im r
+
+Im g Fig. 1 Real and imaginary part of flc vs Re(ae) and Im(ae).
+
+In x space the k? dependent distribution is given by yyIn several recent approaches [4] to describe k? dependent gluon distributions phenomenological Ans"atze were used based on solutions of inhomogeneous Lipatov equations. Note that these descriptions are not related to eq. (2) and [2, 3].
+
+the convolution
+
+\Phi (x; k2; _) = G(x; k2; _) \Omega g(x; _); (5) correspondingly, withZ
+
+_2 0 dk
+
+2\Phi (x; k2; _) = ffi(1 \Gamma x): (6)
+
+The function G(x; k2; _) is universal and can be calculated numerically by a contour integral in the complex plane over the first factor in eq. (3). Since the solution of eq. (4) is multivalued the Mellin inversion to x space requires to select the branch in which for asymptotic values of j ffl C flc approaches the perturbative result flc(j; ffs) , ffs=(j \Gamma 1) for small values of ffs.
+
+We solved eq. (4) under this condition numerically using an adaptive Newton algorithm. The solution is characterized by the well-known branch point at ae j (j \Gamma 1)= ffs = 4 ln 2 and two further conjugate branch points (cf. also [5]). As shown in figure 1 the `ridge' in the real part due to the singularity at ae = 4 ln 2 persists until Reae , \Gamma 1:3 and turns into a flat form with Re(flc) , \Gamma 0:5 for jImaej ! 1:5. At the same time the imaginary part of flc becomes continuous again.
+
+3. An analytical solution for G(x; k2; _) Because the integration contour has to be situated outside the range of the singularities of flc one may expand flc(j; ffs) into a Laurent series over ae
+
+flc(j; ffs) =
+
+1X
+
+l=1
+
+glae\Gamma l (7)
+
+The coefficients gl are given in [6] up to l = 20 in analytical form extending an earlier result [7]. For small values of jImaej (jImaej ! 2) the truncated Laurent series leads to an oscillatory behaviour and eq. (7) does no longer serve to be an appropriate description of flc (cf. [6]).
+
+Using (7) a corresponding expansion may be performed for
+
+k2 eG(j; k2; _) = flc(j; ffs) exp[flc(j; ffs)L] (8) with L = ln(k2=_2). For the single terms of the Laurent series in ae the Mellin transform can be carried out analytically. Here it is important to expand the exponential in eq. (8) in such a way that the lowest order term in ffs of flc is kept in exponential form. One obtains
+
+k2G(x; k2; _) = ffsx I0 i2p ffs log(1=x)Lj
+
++ ffsx
+
+1X
+
+*=4
+
+d*(L) ` ffs log(1=x)L '
+
+(*\Gamma 1)=2
+
+\Theta I*\Gamma 1 i2p ffs log(1=x)Lj ; L ? 0: (9) The coefficients d*(L) are given in ref. [6]. Up to * = 20 they contain at most terms / L4. The first term in eq. (9) denotes the Green's function in DLA.
+
+For L ! 0 (9) takes the form
+
+k2G(x; k2; _) = ffsx
+
+1X
+
+l=1
+
+gl (l \Gamma 1)! ^ ffs `
+
+1 x '*
+
+l\Gamma 1
+
+; (10)
+
+and for L ! 0 (i.e. k2 ! _2) one has
+
+k2G(x; k2; _) = ffsx J0 i2p ffs log(1=x)jLjj
+
++ ffsx
+
+1X
+
+*=4
+
+d*(L) ` ffs log(1=x)jLj '
+
+(*\Gamma 1)=2
+
+\Theta J*\Gamma 1 i2p ffs log(1=x)jLjj : (11) Thus for k2 ! 0 damped, oscillating modes are obtained which vanish faster than 1=jLj\Gamma 1=4.
+
+4. Numerical Results The k? dependent gluon distribution \Phi (x; K2; _) (scaled by k2) is shown in figure 2 as a function of x and k2 for _2 = 20 GeV2.
+
+0 20 40 60 80 100
+
+10 -4 10 -3 10 -2 10 -1 1x k2 \Phi (x,k 2 ,u)
+
+Fig. 2 The k? dependent gluon distribution as a function of k2 and x. Full lines: complete solution eq. (5); dashed lines: solution in DLA. For the input distribution g(x; _)
+
+the parametrization [8] (LO) was used. The complete solution eq. (5) is larger than the DLA
+
+result for k2 ?, _2 at x !, 10\Gamma 3 by 10 to 15% while for k2 ! 0 smaller values are obtained. At larger values of x the complete solution approaches the DLA result. For k2 ! 0 \Phi (x; k2; _) vanishes. Since the DLA result is proportional to J0(2pffs log(1=x) log jk2=_2j) for k2 ! 0 a damped oscillatory behaviour is obtained in this approximation. The complete solution, on the other hand, behaves monotonous in the whole kinematical range.
+
+The calculation of G(x; k2; _) in eq. (5) by numerical Mellin inversion using the numerical solution of eq. (4) is rather time consuming compared to the convolution of the analytical solution (sect. 3) with the input distribution g(x; _). We compared both methods and found that the representation given in the previous section leads to a relative error of less than 0.002 using an expansion up to O( ff20s ).
+
+Since shape and size of the complete solution and in DLA are rather similar very precise measurements are required to establish the non-DLA contributions at small x.
+
+5. Conclusions We have calculated the k? dependent gluon density numerically in leading order using the BFKL equation. A consistent treatment of observables is possible in the scheme [2, 3]. The Green's function G(x; k2; _) was found both numerically and by a perturbative analytic expression expanding the complete solution up to O( ff20s ). Both representations agree better than 0:002 after convoluting with the respective input distributions g(x; _).
+
+The effect of the non-DLA terms in \Phi (x; k2; _) is of O(10:::15%). To reveal these contributions requires very accurate measurements in the small x range in the case of every observable being sensitive to the gluon density.
+
+References
+
+[1] M. Ciafaloni, Nucl. Phys. B296 (1987) 249; S. Catani, M.
+
+Ciafaloni, and F. Hautmann, Nucl. Phys. B366 (1991) 135. [2] J. Collins and R. Ellis, Nucl. Phys. B360 (1991) 3. [3] J. Bl"umlein, J. Phys.G19 (1993) 1623. [4] A. Askew et al., Phys. Rev. D47 (1993) 3375; D49 (1994)
+
+4402; J. Forshaw and R. Roberts, Phys. Lett. B335 (1994) 494. [5] R. Ellis, F. Hautmann, and B. Webber, Phys. Lett. B348
+
+(1995) 582. [6] J. Bl"umlein, DESY preprint, June 1995. [7] S. Catani, F. Fiorani, and G. Marchesini, Nucl. Phys. B336
+
+(1990) 18. [8] H. Lai et al., CTEQ collaboration, Phys. Rev. D51 (1995)
+
+4763.
+

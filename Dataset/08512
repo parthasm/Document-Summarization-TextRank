@@ -1,0 +1,362 @@
+
+
+October 94 On the connection between the pinch technique
+
+and the background field method.
+
+(To appear in Physical Review D)
+
+Joannis Papavassiliou Department of Physics, New York University, 4 Washington Place,
+
+New York, NY 10003, USA.
+
+ABSTRACT The connection between the pinch technique and the background field method is further explored. We show by explicit calculations that the application of the pinch technique in the framework of the background field method gives rise to exactly the same results as in the linear renormalizable gauges. The general method for extending the pinch technique to the case of Green's functions with off-shell fermions as incoming particles is presented. As an example, the one-loop gauge independent quark self-energy is constructed. We briefly discuss the possibility that the gluonic Green's functions, obtained by either method, correspond to physical quantities.
+
+1
+
+The pinch technique (PT) [1] is an algorithm that allows the construction of modified gauge independent (g.i.) n-point functions, through the order by order rearrangement of Feynman graphs contributing to a certain physical and therefore ostensibly g.i. process, such as an S-matrix element (Fig.1) or a Wilson loop. Its original motivation was to devise a consistent truncation scheme for the Schwinger-Dyson equations that govern the dynamics of gauge theories. In fact, it has been extensively employed as a part of a non-perturbative approach to continuum QCD [2]. On the other hand, most of its recent applications have been in the area of electroweak physics [3-5]. The simplest example that demonstrates how the PT works is the gluon two point function (propagator). Consider the S-matrix element T for the elastic scattering of two fermions of masses m1 and m2. To any order in perturbation theory T is independent of the gauge fixing parameter ,. On the other hand, as an explicit calculation shows, the conventionally defined proper self-energy (collectively depicted in graph 1(a) depends in on ,. At the one loop level this dependence is canceled by contributions from other graphs, such as 1(b), 1(c), and 1(d), which, at first glance, do not seem to be propagator-like. That this cancellation must occur and can be employed to define a g.i. self-energy, is evident from the decomposition:
+
+T (s; t; m1; m2) = T1(t; ,) + T2(t; m1; m2; ,) + T3(s; t; m1; m2; ,) ; (1) where the function T1(t) depends only on the Mandelstam variable t = \Gamma (^p1 \Gamma p1)2 = \Gamma q2, and not on s = (p1 + p2)2 or on the external masses. Typically, self-energy, vertex, and box diagrams contribute to T1, T2, and T3, respectively. Such contributions are , dependent, in general. However, as the sum T (s; t; m1; m2) is g.i., it is easy to show that Eq. (1) can be recast in the form
+
+T (s; t; m1; m2) = ^T1(t) + ^T2(t; m1; m2) + ^T3(s; t; m1; m2) ; (2) where the ^Ti (i = 1; 2; 3) are individually ,-independent. The propagator-like parts of graphs, such as 1(e), 1(f), and 1(g), which enforce the gauge independence of T1(t), are
+
+2
+
+called "pinch parts". They emerge every time a gluon propagator or an elementary threegluon vertex contribute a longitudinal k_ to the original graph's numerator. The action of such a term is to trigger an elementary Ward identity of the form /k = (/p + /k \Gamma m) \Gamma (/p \Gamma m) once it gets contracted with a fl matrix. The first term removes the internal fermion propagator (that is a "pinch"), whereas the second vanishes on shell. The g.i. function
+
+^T1 is identified with the contribution of the new effective propagator. Its one-loop closed
+
+form, renormalized in the M S scheme, reads
+
+^\Pi _* (q) = t_* ^\Pi (q) (3) ^\Pi (q) = \Gamma q2bg2[ln( \Gamma q
+
+2
+
+_2 ) \Gamma
+
+67 33 ] : (4)
+
+t_* = (g_* \Gamma q
+
+_q*
+
+q2 ), b =
+
+11ca 48ss2 is the coefficient in front of \Gamma g
+
+3 in the usual one loop fi
+
+function, and ca the Casimir operator for the adjoint representation. [ca = N for SU (N )]
+
+This procedure can be generalized to an arbitrary n-point function. In particular, the g.i. three and four point functions ^\Gamma _*ff and ^\Gamma _*fffi derived in [6] and [7] respectively, satisfy the following Ward identities [8]:
+
+q_1 ^\Gamma _*ff(q1; q2; q3) = t*ff(q2) ^d
+
+\Gamma 1(q2) \Gamma t*ff(q3) ^d\Gamma 1(q3)
+
+q_1 ^\Gamma abcd_*fffi = fabp ^\Gamma cdp*fffi(q1 + q2; q3; q4) + c:p: ;
+
+(5)
+
+where ^d
+
+\Gamma 1(q) = [q2 \Gamma ^\Pi (q)], the f abc are the structure constants of the gauge group, and
+
+"c.p." stands for "cyclic permutations". The above results have been originally obtained in the non-covariant light-cone gauge [2], and later in the linear renormalizable R, gauges [6]. The purpose of this paper is to discuss recent important developments in this field.
+
+Recently, an important connection between the PT and the background field method (BFM) [9] has been established [10-12]. In particular, it was shown that when QCD is quantized in the context of BFM, the conventional n-point functions, calculated with the BFM Feynman rules, coincide with those obtained via the PT, for the special value ,Q = 1 of the gauge fixing parameter ,Q, used to gauge-fix the "quantum" field. For any other
+
+3
+
+value of ,Q the resulting expressions differ from those obtained via the PT. However, the BFM n-point functions, for any choice of ,Q, satisfy exactly the same Ward identities as the PT n-point functions (Eq. (5) for example). Based on these observations, it was argued [10] that the PT is but a special case of the BFM, and represent one out of an infinite number of equivalent choices, parameterized by the values chosen for ,Q. Alternatively, one could say that the Feynman gauge (,Q = 1) in the BFM has the special property of rendering pinching trivial; thus, it provides an alternative, more economical way, for obtaining the PT results. It is important to emphasize however that the aforementioned equivalence between the PT and the BFM has only been established for specific, one-loop examples (two, three, and four point functions), mainly due to the fact that no formal understanding of the PT algorithm exists thus far. Although we have no progress to report in this direction, in the present paper we explore additional issues related to the connection between the PT and the BFM. In particular, we show via explicit one-loop calculations that:
+
+(a) The PT, when applied in the context of the BFM, for any value of the gauge-fixing parameter ,Q, gives exactly the same answer as in any other gauge checked so far. This exercise furnishes an additional check for the internal consistency of the PT.
+
+(b) After extending the PT to the fermionic sector, we show that the g.i. quarkpropagator obtained, coincides with the expression obtained for the quark propagator in the context of the BFM, again for the special value of ,Q = 1.
+
+(c) Finally, we conjecture that the PT and the BFM n-point functions correspond to physical quantities, which, at least in principle, can be measured.
+
+To the extend that the BFM n-point functions display a residual (even though mild) ,Q-dependence, one may still apply the PT algorithm, in order to obtain a g.i. answer. It turns out that the PT results can be recovered for every value of ,Q as long as one properly identifies the relevant pinch contributions concealed in the rest of the graphs contributing to the S-matrix element. These contributions vanish for ,Q = 1, but are non-vanishing
+
+4
+
+for any other value of ,Q. It seems therefore that, after the PT procedure is completed the same result emerges, regardless of the gauge fixing procedure (BFM, R,, light-cone, etc), or the value of the gauge fixing parameter (,Q, ,, n_, etc) used [13]. Therefore, as far as the PT is concerned, the difference between various gauge fixing procedures is only operational; in the BFM, for instance, the pinch contributions to the gluon two, three and four point functions are ultra-violet finite [14].
+
+We now proceed to apply for the first time the PT in the context of the BFM. As shown in [10], n-point functions, even when computed in the framework of the BFM, depend explicitly on ,Q. The one-loop gluon self-energy, for example, reads:
+
+\Pi _* = \Pi (,Q=1)_* + C(,Q)t_*
+
+= ^\Pi _* + C(,Q)t_* :
+
+(6)
+
+C(,Q) does not depend on q2; its explicit value is
+
+C(,Q) = *4 [\Gamma 8 + *]cag2 ; (7) where * = 1 \Gamma ,Q. It is amusing to notice that C(,Q) vanishes not only for ,Q = 1, but also for the less appealing value of ,Q = \Gamma 7.
+
+We next compute the propagator-like pinch contributions of the amplitude shown in Fig.1. using the BFM Feynman rules. It should be emphasized that no additional assumptions will be made, other than the straightforward application of the PT rules, which are common for any type of gauge-fixing procedure. The main characteristics of the Feynman rules in the BFM [9] are that the gauge fixing parameters for the "background" (classical) and the "quantum" fields are different (,C and ,Q respectively [15]), the three and four-gluon vertices are ,Q-dependent at tree-level, and the couplings to the ghosts are modified (they are however ,Q-independent). In particular, the three-gluon vertex assumes the form [10](omitting a factor ifabc)
+
+\Gamma (0)_*ff = ( 1 \Gamma ,Q,
+
+Q )\Gamma
+
+P _*ff + \Gamma
+
+F _*ff ; (8)
+
+5
+
+with \Gamma P
+
+_*ff = (q + k)* g_ff + k_g*ff
+
+\Gamma F_*ff = 2q_g*ff \Gamma 2q* g*ff \Gamma (2k + q)ffg_* :
+
+(9)
+
+\Gamma F_*ff satisfies the Ward identity qff\Gamma F_*ff = [k2 \Gamma (k +q)2]g_* . \Gamma P_*ff gives rise to pinch parts, when contracted with fl matrices. Clearly, it vanishes for ,Q = 1, and so do the longitudinal parts of the gluon propagators; therefore pinching in this gauge is zero. However, for any other value of ,Q the pinch contributions are non-vanishing.
+
+Setting Rk j g
+
+2_4\Gamma n
+
+(2ss)n R d
+
+nk, the dimensionally regularized loop integral, we obtain from
+
+the box diagrams [Fig.1(d) and the crossed, not shown]
+
+BP_* = i*caq4"t_* Z
+
+k
+
+1 k4(k + q)2 \Gamma
+
+*
+
+2 t_aetoe* Zk
+
+kaekoe
+
+k4(k + q)4 # ; (10)
+
+and from the vertex diagrams
+
+[V P1 ]_* = \Gamma i*caq2t_* Z
+
+k
+
+1 k4 ;
+
+[V P2 ]_* = i*caq2"t_* Z
+
+k
+
+2qk k4(k + q)2 +
+
+*
+
+2 t_aetoe* Zk
+
+kaekoe
+
+k4(k + q)4 # \Gamma B
+
+P _* \Gamma [V
+
+P1 ]
+
+_* :
+
+(11)
+
+[V P1 ]_* originates from graph (c) of Fig.1, the self-energy corrections for the external fermions (not shown), and the mirror graphs (also not shown); [V P2 ]_* from graph (b) of Fig.1 and its mirror graph (not shown). Notice that BP_* = BP_* jR, . Adding the contributions of Eq. (10) and Eq. (11) we obtain the total pinch contribution to the gluon self-energy:
+
+\Pi P_* = i*caq2"t_* Z
+
+k
+
+2qk k4(k + q)2 +
+
+*
+
+2 q
+
+2t_aetoe* Z
+
+k
+
+kaekoe k4(k + q)4 #
+
+= \Gamma *4 [\Gamma 8 + *]cag2t_* = \Gamma C(,Q)t_* :
+
+(12)
+
+The final step in constructing ~\Pi _* , the PT gluon self-energy in the BFM, is to append the pinch contributions from Eq. (12) to the conventional expression of Eq. (6). The answer is
+
+~\Pi _* = ^\Pi _* : (13)
+
+6
+
+So, the PT self-energy in the BFM ( ~\Pi _* ) is identical to that constructed in the R, or the non-covariant light-cone gauge ( ^\Pi _* ).
+
+Turning to the conventional three and four-point functions, it is straightforward to establish that, when calculated in the context of the BFM for an arbitrary value of ,Q, they are also ,Q-dependent. The answer has the general form:
+
+\Gamma _*ff(,Q; q1; q2; q3) = ^\Gamma _*ff(q1; q2; q3) + R_*ff(,Q; q1; q2; q3) \Gamma _*fffi(,Q; q1; q2; q3; q4) = ^\Gamma _*fffi(q1; q2; q3; q4) + S_*fffi(,Q; q1; q2; q3; q4) :
+
+(14)
+
+Both R_*ff and S_*fffi are ultra-violet finite, obey Bose symmetry, and vanish at ,Q = 1. In addition, as one can verify by an explicit calculation, they satisfy the following Ward identities:
+
+q_1 R_*ff = C(,Q)[q23 t*ff(q3) \Gamma q22t*ff(q2)]
+
+q_1 Sabcd_*fffi = fabpRcdp*fffi(q1 + q2; q3; q4) + c:p:
+
+(15)
+
+This is of course expected; indeed, since both \Gamma _*ff(,Q; q1; q2; q3) and ^\Gamma _*ff(q1; q2; q3) satisfy Eq. (5), with d $ ^d, and since \Pi _* and ^\Pi _* are related by Eq. (6), Eq. (15) must be satisfied. The above argument provides an additional consistency test; we emphasize however that, in the context of the PT, Eq. (15) can only be verified through an explicit calculation, but cannot be established a priori, based on more general arguments.
+
+One can construct ,Q-independent effective three and four gluon vertices in the BFM, ~\Gamma _*ff and ~\Gamma _*fffi , respectively, following directly the PT rules. To that end one has to use
+
+the BFM Feynman rules and isolate vertex-like pieces from all relevant Feynman diagrams contributing to the appropriate scattering processes to a given order (Fig.2). The sums \Gamma P_*ff and \Gamma P_*fffi of all such vertex-like contributions satisfy \Gamma P_*ff = \Gamma Roe*ff and \Gamma P_*fffi = \Gamma Soe*fffi. Adding \Gamma P_*ff and \Gamma P_*fffi to the regular ,Q-dependent contributions \Gamma _*ff and \Gamma _*fffi, respectively, one obtains
+
+~\Gamma _*ff = \Gamma _*ff + \Gamma P_*ff = \Gamma _*ffj(,
+
+Q=1) = ^\Gamma _*ff
+
+~\Gamma _*fffi = \Gamma _*fffi + \Gamma P_*fffi = \Gamma _*fffij(,
+
+Q=1) = ^\Gamma _*fffi :
+
+(16)
+
+7
+
+The PT has been so far applied to n-point functions, where all n incoming particles are off-shell gauge bosons (gluons). It is possible however to extend the PT to the case of npoint functions involving fermions (quarks) as incoming off-shell particles. Such an exercise is useful, for two reasons. First, one is interested in exploring the range of applicability of the PT by itself. Second, the connection between the PT and the BFM has only been established through explicit examples; it is therefore important to determine whether or not the aforementioned connection holds in the fermionic sector as well.
+
+In order to apply the PT in the fermionic sector, one has to embed a given n-point function with N off-shell fermion legs (N ^ n) into a process containing N gluons as incoming particles. A g.i. quark propagator can be extracted, for example, by applying the PT to a process such as gluon + quark ! gluon + quark (Fig.3) . Similarly, the g.i. gluon-quark vertex, with all three incoming momenta off-shell may be obtained by considering a process of the form quark + quark ! 2 gluons + 2 quarks.
+
+For simplicity we will treat the case of the quark propagator. It is important to notice that the conventional expression for the quark propagator is gauge-dependent both in BFM and the R, gauges. In fact, the two answers are identical; one can be obtained from the other by simply exchanging , $ ,Q. The gauge dependent answer is given by
+
+\Sigma ij (p) = \Sigma ij (p)j(,Q=1) + *g2cf ffiij "\Gamma (/p \Gamma m) Z
+
+k
+
+1 k4 + (/p \Gamma m) Zk
+
+1 [/k + /p \Gamma m]k4 (/p \Gamma m)# ;
+
+(17)
+
+where cf is the Casimir eigenvalue of the quark representation. We notice that the gaugedependent term in the r.h.s. of Eq. (17), even in the BFM context, is no longer ultra-violet finite. This is to be contrasted with the gluon n-point functions, which, as already mentioned, have ultra-violet finite gauge-dependent terms, at least for the n=2,3,4 cases, which have been explicitly calculated. The relevant pinch parts, some of which are schematically shown in Fig.3e, Fig.3g, and Fig.3i, exactly cancel the ,Q-dependent terms in the r.h.s. of Eq. (17). The technical details of how such a cancellation proceeds will be presented
+
+8
+
+elsewhere. The g.i. one-loop effective quark self-energy reads:
+
+~\Sigma ij (p) = ^\Sigma ij (p) = \Sigma (p)ij j(,
+
+Q=1) = \Sigma (p)
+
+ij j(
+
+,=1) : (18)
+
+We see that the g.i. answer obtained from the extension of the PT to the fermionic sector (quark propagator) again coincides with the conventional expression calculated at ,Q = 1 (or , = 1 for the R, gauges). It would be interesting to check if the same is true for the off-shell gluon-quark vertex [16]. The results of this study will be presented in a future communication.
+
+An important open question is if the g.i. quantities extracted via the PT (and equivalently the BFM) correspond to physical quantities. Using Eq. (4), it is straightforward to verify that, up to finite constant terms, which can be absorbed in the final normalization [17], the one-loop expression for ^T1 is :
+
+^T1 = _u1fl_u1f g
+
+2
+
+q2[1 + bg2 ln(
+
+\Gamma q2
+
+_2 )]
+
+g_u2fl_u2 ; (19)
+
+where ui are the external quark spinors. Thus, up to the kinematic factor 1q2 , the r.h.s. of Eq. (19) is the one-loop running coupling [18]. Equivalently, modulo finite constant terms, the expression of Eq. (19) is the Fourier transform of the static quark-antiquark potential, in the limit of very heavy quark masses [19] Clearly, the quark-antiquark potential is a physical quantity, which, at least in principle, can be extracted from experiment, or measured on the lattice. In fact, as was recently realized [20], when one computes the oneloop contribution to the scattering amplitude q _q ! q _q of quarks with mass M , retaining leading terms in q
+
+2
+
+M2 , one arrives again at the expression of Eq. (19). So in principle, one
+
+can extract the quantity of Eq. (19) from a scattering process, in which the momentum
+
+transfer q2 is considerably larger than the QCD mass \Lambda 2, so that perturbation theory will be reliable, and, at the same time, significantly smaller than the mass of the external quarks, so that the sub-leading corrections of order O( q
+
+2
+
+M2 ) can be safely neglected. Top-quark
+
+scattering, for example, could provide a physical process, where the above requirements
+
+are simultaneously met.
+
+9
+
+These observations lead to the conjecture that, the PT (or BFM) expressions for the gluonic n-point functions correspond (up to finite constant terms) to the static potential of a system of n heavy quarks. One obvious way of further testing this conjecture (although it would not conclusively prove it) is to determine through an explicit one-loop calculation, whether or not the PT (and BFM) expressions for the three (four) point functions are physically equivalent to the static potential of a system of three (four) heavy quarks. Calculations in this direction are already in progress. Regardless of the validity of the previous conjecture, however, it would clearly be very useful to establish a formal connection between the PT and the BFM for arbitrary Green's functions. An important step for accomplishing such a task would be the formulation of the PT at the level of the path integral (generating functional).
+
+In conclusion, in this paper we showed that the proper application of the PT in the context of the BFM gives rise to exactly the same n-point function as in the context of the R, gauges. Thus, the calculational simplifications of the BFM, especially for the value ,Q = 1 of the gauge fixing parameter, may be freely exploited. Furthermore, the PT was applied for the first time to the case of fermion (quark) self-energies. The g.i self-energy so obtained coincides with the conventional one, again for the special value of ,Q = 1. The generalization of the arguments presented above to the electro-weak sector of the Standard Model, is technically more involved, but conceptually straightforward.
+
+Acknowledgments: The author thanks K. Philippides, K. Sasaki, and M. Schaden, for useful discussions. This work was supported by NSF Grant No. .
+
+10
+
+1. References
+
+1. J. M. Cornwall, in Proceedings of the French-American Seminar on Theoretical Aspects of Quantum Chromodynamics, Marseille, France, 1981, edited J. W. Dash (Centre de Physique Th'eorique, Marseille, 1982).
+
+2. J. M. Cornwall, Phys. Rev. D 26, 1453 (1982). 3. J. Papavassiliou, Phys. Rev. D 41, 3179 (1990). 4. G. Degrassi and A. Sirlin, Phys. Rev. D 46, 3104 (1992). 5. G. Degrassi, B. Kniehl, and A. Sirlin, Phys. Rev. D 48, R3963 (1993). 6. J. M. Cornwall and J. Papavassiliou, Phys. Rev. D 40, 3474 (1989). 7. J. Papavassiliou, Phys. Rev. D 47, 4728 (1993). 8. An obvious ambiguity is associated with the construction of Green's functions via the
+
+PT. It is clear for instance that, after a g.i. gluon self-energy and gluon-quark vertex has been constructed via the PT, one has still the freedom, for example, to add an arbitrary term of the form (q2g_* \Gamma q_q* )f (q2) to the self-energy, and subtract it from the vertex. As long as the function f (q2) is g.i., such an operation satisfies the criterion of individual gauge invariance for the self-energy and vertex, respects their Ward identities, and preserves the uniqueness of the S-matrix. On the other hand the arbitrariness in the choice of f (q2) clearly interferes with any notion of uniqueness for the PT self-energy and the vertex.
+
+9. L. F. Abbott, Nucl. Phys. B 185, 189 (1981), and references therein. 10. A. Denner, S Dittmaier, G. Weiglein, BI-TP.94/17. 11. S. Hashimoto, J. Kodaira, Y. Yasui, and K. Sasaki, HUPD-9408, YNU-HEPTh-94-
+
+104.
+
+12. E. de Rafael, private communication.
+
+11
+
+13. We are not aware of a general proof of the previous statement; it seems however
+
+plausible, given the variety of gauge fixing procedures for which it has already been verified. See also J. Papavassiliou and A. Sirlin, BNL preprint BNL-60241 (1994), to appear in Phys.Rev.D, where the application of the PT in the Standard Model quantized in the unitary gauge, gives rise to exactly the same renormalizable and g.i answer for the one-loop W self-energy, as in the R, gauges.
+
+14. As we will see shortly, this is not true in general for Green's functions involving
+
+off-shell external quarks.
+
+15. The cancellation of ,C from the S-matrix is automatic, due to current conservation. 16. This is indeed true for the simpler case, where only the gluon momentum is off-shell,
+
+with the two quarks on shell (see for example [3]).
+
+17. Since constant terms are physically irrelevant, one cannot distinguish on physical
+
+grounds between the results obtained via the PT and those obtained in the BFM, for arbitrary values of ,Q.
+
+18. In the context of the BFM, the gluon self-energy is known to comply with the running
+
+coupling up to at least two loops [9].
+
+19. W. Fischler, Nucl. Phys. B 129, 157 (1977);
+
+A. Billoire, Phys. Lett. 92 B, 343 (1980).
+
+20. J. Papavassiliou, K. Philippides, and M. Schaden, in preparation.
+
+12
+
+2. Figure Captions
+
+(i) Figure 1 : Graphs (a)-(d) are some of the contributions to the S-matrix T . Graphs (e), (f) and (g) are pinch parts, which, when added to the usual self-energy graphs (a), give rise to a gauge independent effective self-energy.
+
+(ii) Figure 2: The general structure of the S-matrix elements used for the construction of gauge-independent three and four gluon vertices [(2a) and (2b), respectively], and some typical diagrams contributing vertex-like pinch contributions.
+
+(iii) Figure 3: Graphs (3b) and (3c) are the gauge dependent parts arising from the conventional self-energy graph (3a); they cancel against pinch contributions, such as (3e), (3g) and (3i).
+
+13
+

@@ -1,0 +1,217 @@
+PSN#:WEAP006 at ICALEPCS'01
+
+
+
+CONTROL SYSTEM OF THE BEPCII
+
+J. Zhao, C.H. Wang, X.C. Kong, G. Lei, S.F. Xu, Q. Le
+IHEP Beijing, 100039 P.R. China
+
+Abstract beam feedback system. The design goal of the BEPCII
+Recently the Chinese Academy of Sciences has is in table1.
+chosen BEPCII as the future development of the BEPC, Table1 The design goal of the BEPCII
+i.e. upgrade of both the machine and detector. The Beam Energy range 1- 2.8GeV
+luminosity of the machine is expected to increase to Beam energy 1.55 GeV
+1.0x1033cm-2s-1. The project will be started at the Beam current 1.116A
+beginning of 2002 and finished with in 3-4 years. The
+BEPC control system was built in 1987 and upgraded 1.0x1033 cm-2s-1
+Luminosity @1.55GeV
+in 1994. According to the design of the BEPCII, a Injection from linac Full energy injection
+double ring schema will be adopted and a number of
+new devices will be added in the system. The existing 250ma @ 2.5GeV
+Dedicated SR operation
+control system has to be upgraded. The BEPCII will be 150mA @ 2.8GeV
+distributed architecture and developed by EPICS. We
+are going to apply the standard hardware interfaces and 2 CURRENT SYSTEM
+mature technologies in the system. A number of VME The current control system of the BEPC was built in
+IOCs will be added in the system and the feildbus, 1987, which was transferred from SLAC New Spear
+PLCs will be used as device control for some kind of system and upgraded in 1994. A VAX4500 computer
+equipment. We will keep the existing system in use, with the CAMAC hardware controls most of the
+such as CAMAC modules and PC front-ends, and equipment on the storage ring, such as the magnet
+merge it into EPICS system. Recently the development power supplies, the RF cavities and the vacuum
+of the prototype is in progress. This paper will describe equipment. There are about 300 CAMAC modules and
+the system design and development issues. 4,000 channels in the system. Several sub-control
+systems are PC based system including the beam
+1 PROJECT OF BEPCII diagnostic system, the injection power supply and the
+linac system. Two VAX workstations serve as the
+The Beijing Electron Positron Collider (BEPC) was console and all of the machines are connected with
+constructed for both high energy physics and synchro- 100Mbps Ethernet. On the software side, the system is
+tron radiation researches. BEPC accelerators consist of an in-house made database driven system. And the
+a 202 m long electron-positron linac injector; a storage
+ring with a circumference of 240.4 m, and in applications for accelerator operation with its OPI are
+connection with each other, 210 m transport lines. closely linked to the real-time database. However, the
+There are two interaction points on the storage ring, accelerator commissioning model of the BEPCII is
+and a detector, the Beijing Spectrometer. The Beijing different from BEPC, so the accelerator commissioning
+Synchrotron Radiation Facility has 9 beamlines and 12 programs have to be transferred and modified from
+experimental stations. As an unique e+,e- collider other laboratories. In this case, the existing real-time
+operating in the t-charm region and the first SR source database does not match the new transferred
+in China, the machine has been well operated for over applications and the old OPI written by FORTH
+10 years since it was put into operation in 1989. language will not be used in future. The control system
+To upgrade the BEPC, known as BEPCII, i.e. has to be upgraded.
+increasing its luminosity to 1.0x1033cm-2s-1 with the When the system upgrade, we will utilize the existing
+major upgrades in both machine and the detector. equipment of the system, such as the CAMAC modules
+Running at the resonance peaks of J/y and y', the and PC based subsystems. The standard hardware
+BEPCII could provide data samples of J/y and y interfaces should be applied in the system so that it
+with good statistics for many important physics.[1] To could be an open and standard system. With regard to
+reach the goal of the higher luminosity, the double ring the software development environment, the EPICS will
+schema will be adopted and many new equipment will be a good choice for it is a mature software package
+be installed in the BEPCII, such as superconducting RF
+cavities, superconducting magnets, new BPMs and
+
+
+
+
+and widely used in the world. The cost-performance of presentation layer, process control layer and device
+the system should be considered for the limited budget. interface layer [3].
+As shown in Figure 1, several PCs, the cost-effective
+3 SYSTEM DEVELOPMENT equipment, and SUN workstations will be used as
+operator console at the presentation layer with the
+3.1 Software Engineering EPICS/OPI, which is a friendly graphic man-machine
+interface. There is a server machine in the top layer
+Project management is very important for the installing Oracle database, which provides data logging
+development of a control system. The BEPCII control and analysis service, the accelerator commissioning
+system has to be delivered on time and within the support, and general computing resources.[4]
+budget and it should meet the requirement of
+accelerator physicists. The standard of software con
+co s
+n o
+s l
+o e
+le
+engineering will be used in the project, which is based
+on software life cycle reference model. It includes
+several phases: the user requirement phase, system
+analysis and software requirement analysis, system LAN
+LAN
+
+design, coding and testing, installation and put into VME I
+VME O
+I C
+OC VME I
+VME O
+I C
+OC VME
+VM I
+E O
+I C
+OC PCs
+PC
+s
+operation. The documentation and review for the major EP
+E I
+P C
+I S/
+C PCA
+S/ S
+PCAS
+phases will be done. A software tool "Project 2000"
+will be used to manage the project BEPCII. And we are
+going to produce Chinese template of the documents CAM
+CA A
+M C
+AC us
+I/O
+I/O
+
+for the project management that will be used by our eld bFi I/O
+I/O
+users and developers.
+Now the user requirement phase is in progress. A
+detailed system design will be delivered in next March, Figure1 System architecture
+and a prototype of the control system will be built at In the process control layer, the PowerPC micro-
+same time. From beginning of 2003 we will spend two processors running VxWorks operating system will be
+years for system construction, and one year for system used as EPICS IOCs. In some existing subsystems the
+installation. We hope the BEPCII will finish its' PCs are still used as the front-ends. The VAX4500
+commissioning in December of 2006. computer will be eliminated. The majority real-time
+3.2 Development Tool tasks will run on the front-ends and the raw data are
+stored in the IOC real-time database. The standard
+To develop a large scale control system, a SCADA 100Mbit/sec switch Ethernet with TCP/IP protocol is
+(Supervisory Control and Data Acquisition) tool kit used as a LAN, which provides access to the distributed
+should be used. Currently there are many commercial computers.
+SCADA products in the world market and most of them The device interface layer provides interface to the
+are running on the PC and Windows NT platform, hardware, either as separate modules or as intelligent
+which mainly support PLC hardware. The EPICS can controllers. The fieldbuses will serve data exchange
+be considered a non-commercial SCADA tool, which with PLCs, intelligent controllers, and remote I/O
+was first developed by LANL and ANL and it is widely modules.
+used in the accelerator area. We are going to integrate
+the BEPCII control system by the EPICS after 5 SUBSYSTEMS
+evaluating the commercial SCADA products and
+EPICS [2]. The benefit of using EPICS is that a lot of There are seven subsystems in current BEPC
+applications for accelerator commissioning could be control system: the magnet power supply system in the
+shared, it strongly supports the VME hardware and it is storage ring and the transport lines, the radio frequency
+easy to get technical support from many HEP institutes system, the vacuum system, the injection system, the
+in the world, such as KEK-B, SLAC, APS, LANL and beam diagnostic system and the linac system.
+BESSYII. Some independent and slow control system To upgrade the control system and meet the
+could be developed by a commercial SCADA product. requirement of the BEPCII, the new parts of the system
+will be built with EPICS and some existing parts should
+4 SYSTEM ARCHITECTURE be merged into the EPICS system. (See figure1)
+The BEPC has a single ring and the BEPCII will
+The BEPCII control system will adopt a distributed adopt double ring schema to obtain higher luminosity.
+architecture, called "standard model". Logically, the The number of the magnet power supplies will be
+system is structured with three levels, which are increased on the storage ring (see Table2) and the
+
+
+
+
+superconducting RF cavities, new BPMs and beam store static and dynamic data including system
+feedback system will be added in the BEPCII. These configuration data, machine parameters, historical and
+equipment will be controlled by tens EPICS IOCs alarm data etc. And both of the two databases provide
+which consists of VME crates, PowerPCs, DSPs and user interface on the Web page and publish the running
+VME I/O modules. information. The first thing for us is to make signal
+Table2 Number of magnet power supplies on SR naming convention used in the databases and create the
+database structures.
+Power supply for BEPCII BEPC
+Bending magnets 6 1 8 TIMING
+SYSTEM
+Quadruple magnets 144 21
+Correctors 160
+64
+The timing system is to synchronize all of the
+Superconducting Mag. 10 0 relevant components in the accelerator of the BEPCII
+Sextuple magnets 4 4 complex. Since the RF frequency of the BEPCII will be
+The vacuum equipment and magnet power supplies changed from 200MHZ to about 500MHZ, so the
+of Linac accelerator will be controlled by PLCs and current timing system has to be upgraded. Except the
+remote I/O modules, which are connected to the EPICS hardware based fast timing system, the software based
+IOCs via feildbus. The ControlNet, CANbus are the timing system might be considered in some synchro-
+candidate of the feildbuses.[5] nization area.
+There are several PCs for beam diagnostic system
+running applications developed by Labview. The 9 CONCLUSION
+EPICS/PCAS will be installed on these PCs to merge
+the existing system to EPICS system. The project BEPCII will be started next year. In
+Some parts of the control system still use CAMAC order to build the control system with EPICS and
+I/O modules. We are going to add VME IOC in the develop basic applications, a prototype system should
+local control area and connect the CAMAC system to be created firstly. After making a great effort, we think
+EPICS system with VME-CAMAC interfaces. the upgraded system can meet the physical requirement
+Regards some slow controls, such as cooling water of the BEPCII and it will be an advanced, flexible and
+system, we are going to develop the independent reliable system.
+system with commercial SCADA products, because it
+supports PLCs, various sensor and controllers with 10 ACKNOWLEDGEMENT
+industrial standards.[6]
+
+6 APPLICATIONS The authors would like to thank all of the people and
+friends who have given us a lot of helps and advices in
+the system design stage.
+There are two kinds of applications in the system.
+One is application of device control; the other is REFERENCES
+application for accelerator commissioning. For the
+device control, we have to configure our own IOC [1] "Feasibility Study Report on BEPCII ", Edition1,
+database firstly. If need, there are some I/O drivers IHEP April 2001
+have to be developed for the special hardware interface. [2] "EPICS Release R3.14", APS Argonne.
+The graphic man-machine interface will be developed [3] Tadahiko Katoh, "Design and Construction Acce-
+by EPICS tool DM2K. A lot of applications for device lerator Control System" KEKB control group, 28
+control should be developed by EPICS tools or written Aug. 2000.
+with C/C++, Tcl/tk or SNL language of EPICS. The [4] J.Zhao et al, "Preliminary Design of the Control
+accelerator commissioning software is considered to System for SSRF and BTCF" ICALEPCS'97
+transfer from other laboratories, such as KEK-B or p56 ­ p58, Nov. 1997 Beijing, China.
+PEP-II and it has to be modified based on the physical [5] http://www.sns.bnl.gov/epics/cnet/
+requirement of the BEPCII. [6] A. Daneels , W. Salte "What is SCADA"
+ICALEPCS'99 p339-343 Oct. 1999 Trieste, Italy.
+7 DATABASES
+
+There are two kinds of database in the system, one is
+a distributed real-time database running in EPICS IOCs
+to store raw data; the other is a relational database
+Oracle, which will be installed on a server machine to
+
+
+

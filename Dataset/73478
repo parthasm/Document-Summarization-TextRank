@@ -1,0 +1,2042 @@
+
+
+ 8 Jan 1996
+
+ROME1-1127/95 STANDARD MODEL PROCESSES
+
+Conveners : F. Boudjema1 and B. Mele2 Working group : E. Accomando3, S. Ambrosanio2, A. Ballestrero3, D. Bardin4, G. B'elanger1, F. Berends5, M. Bonesini6, E. Boos7, M. Cacciari8, F. Caravaglios9, M. Dubinin7, J. Fujimoto10, E. Gabrielli2, A. Hasan11, W. Hollik12, T. Ishikawa10, S. Jadach13, T. Kaneko14, K. Kato15, S. Kawabata10, R. Kleiss16, Y. Kurihara10, D. Lehner17, R. Miquel18, K. Moenig18, G. Montagna19, M. Moretti20, O. Nicrosini18, G.J. van Oldenborgh5, C. Papadopoulos21, J. Papavassiliou22, G. Passarino3, D. Perret-Gallix1, F. Piccinini19, R. Pittau23, E. Poli19, L. Pollino19, P. Razis24, M. Schmitt25, D.J. Schotanus26, Y. Shimizu10, H. Tanaka27, L. Trentadue28, J. Ulbricht29, C. Verzegnassi30, B.F.L. Ward31, Z. W,as13, G.W. Wilson32.
+
+Abstract We present the results obtained by the Standard Model Process group in the CERN Workshop "Physics at LEP2" (1994/95).
+
+To appear in "Physics at LEP2", G Altarelli, T. Sj"ostrand and F. Zwirner eds., CERN Report 1996.
+
+1) ENS-LAPP, Annecy, France 2) INFN and Univ. Rome 1, Italy 3) INFN and Univ. Torino, Italy 4) DESY-IfH Zeuthen, Germany and JINR Dubna, Russia 5) Univ. Leiden, The Netherlands 6) INFN and Univ. Milan, Italy 7) Moscow State Univ., Russia 8) DESY, Hamburg, Germany 9) Univ. Oxford, United Kindom 10) KEK, Tsukuba, Japan 11) ETH, Z"urich, Switzerland 12) Univ. Karlsruhe, Germany 13) CERN, Geneva, Switzerland and INP, Krakow, Poland 14) Univ. Meiji-Gakuin, Totsuka, Japan 15) Univ. Kogakuin, Shinjuku, Japan 16) NIKHEF, Amsterdam, The Netherlands 17) DESY, Zeuthen, Germany 18) CERN, Geneva, Switzerland 19) INFN and Univ. Pavia, Italy 20) Univ. Southampton, United Kindom 21) Univ. Durham, United Kindom and CERN, Geneva, Switzerland 22) CPT-Marseille, France 23) PSI, Villigen, Switzerland 24) Univ. Cyprus, Nicosia, Cyprus 25) Univ. Wisconsin, USA 26) NIKHEF and Univ. Nijmegen, The Netherlands 27) Univ. Rikkyo, Nishi-Ikebukuro, Japan 28) Univ. Parma, Italy and CERN, Geneva, Switzerland 29) ETH, Z"urich, Switzerland 30) Univ. Lecce, Italy 31) Univ. Tennessee, Knoxville, TN and SLAC, Univ. Stanford, CA, USA 32) Univ. Hamburg and DESY, Hamburg, Germany.
+
+1
+
+Contents 1 Introduction 3 2 Two-Fermion Production 4
+
+2.1 General considerations, LEP2 vs LEP1 : : : : : : : : : : : : : : : : : : : : : : : 4 2.2 Radiative corrections and status of tuned comparisons : : : : : : : : : : : : : : : 5
+
+3 Single-photon production 15
+
+3.1 Experimental requirements : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 15 3.2 Calculations for e+e\Gamma ! * _*fl: lowest-order and radiative corrections : : : : : : 16 3.3 Towards a single-photon library : : : : : : : : : : : : : : : : : : : : : : : : : : : 19
+
+4 Photon-pair production 19 5 Four-Fermion Processes 21
+
+5.1 Classes of Feynman diagrams : : : : : : : : : : : : : : : : : : : : : : : : : : : : 21 5.2 Single-W production : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 23 5.3 Exact cross sections versus effective approximations : : : : : : : : : : : : : : : : 24 5.4 Radiative corrections within the multiperipheral diagrams. : : : : : : : : : : : : 29 5.5 Improved semi-analytical calculations for conversion-type four-fermion final states 31 5.6 Cross sections for all four-fermion final states with inclusion of all diagrams : : : 34
+
+6 Three Vector-Boson Production 37
+
+2
+
+1 Introduction While the energy increase of LEP will enable pair production of W 's and might open up the threshold for new particles, notably the Higgs boson, a host of standard model processes will also show up, as shown in Fig. 1.
+
+Figure 1: Cross sections for some typical standard model processes. For e+e\Gamma ! e+e\Gamma Z; e*eW; *e _*eZ only the dominant t-channel contribution is shown. The photons in Zfl and flfl are such that j cosefl j ! 0:9. For *_ _*_fl there is the additional cut Efl ?10GeV. In Zflfl, W +W \Gamma fl and ZZfl the photon cut is pflT ? 10GeV and all particles are
+
+separated with opening angles: deV ? 150; dV V 0 ? 100; V = W; Z; fl.
+
+Some of these processes can be considered as potential backgrounds to those most interesting signals LEP2 intends to investigate. For instance, there are four-fermion processes that cannot
+
+3
+
+be associated with the doubly-resonant W W production or with the Higgs-boson production. Therefore, it is essential to know as precisely as possible the expected yield for these processes. Quark- and lepton-pair production will be dominant reactions at LEP2 and can be exploited for precision tests in this new energy range. Moreover, starting below the threshold for W pair production one sees that other processes will take place, like for instance single Z and W production. Beyond the W W threshold, one can envisage Z-pair production or even triple vector-boson production, like W W fl, which involves the quartic vector couplings. The aim of the Working Group has therefore been to provide as precise an evaluation as possible of all those processes that were not investigated within the W W cross sections and distributions, the MW or the Higgs groups in this Workshop, and which did not deal specifically with QCD issues. The other objective was to indicate, like in the case of two-fermion and single-photon processes, which interesting physics issues could be investigated.
+
+2 Two-Fermion Production 2.1 General considerations, LEP2 vs LEP1 Quark- and lepton-pair production at LEP1 (and SLC) has provided one of the most stringent tests on the Standard Model (SM) of electroweak interactions. It has also either constrained or ruled out some alternative models, especially through their virtual indirect effects. At LEP2 energies, this process still remains one of the dominant processes. For instance, as evidenced from Fig. 1, quark pair production has a larger cross section than the W W process, the bread and butter of LEP2, and even larger after the inclusion of the initial state radiation (ISR). In view of this expected wealth of events, it is worth enquiring if the characteristics of the two-fermion observables will continue to be conducive to further tests of the SM and beyond. One important observation, however, is that, as one moves away from the Z-peak, not only fermion-pair production drops precipitously, but also the photon exchange becomes very important. The latter dominates the cross section for up-type quarks and even more so for _+_\Gamma , see Fig. 2. In particular, at ps = 175GeV one has oeZ=oefl ' 0:27; 0:68; 3:52; 1:44 for _; u; d and hadrons respectively. Another critical fact is the very large "correction" due to initial-state radiation (QED). Above , 100GeV this more than doubles the muon Born cross section, as displayed in Fig. 2. Therefore, it is essential that these corrections be controlled very precisely. At LEP1 the latter were also very important, leading to a , 74% reduction factor of the peak cross section, and were essentially due to soft-photon emission, while hard radiation (energetic collinear photons) was inhibited. Indeed, around the resonance \Gamma Z acts as a natural cut-off for hard radiation. On the other hand, away from the Z-peak, the fast decrease of the cross section favours the radiation of hard photons that boost the effective two-fermion centre-of-mass energy back to the Z mass: this is the so-called Z return. Therefore, if for the inclusive two-fermion cross section one looks at the invariant mass of the fermion pairs, mf _f = ps0 = psx, one sees that a large sample is clustered around mf _f ' MZ . The effect is quite dramatic for oeq_q where, at ps = 180GeV , about 70% of the events are "LEP1-type pairs", as one can see from Fig. 3.
+
+Still, considering the canonical integrated LEP2 luminosity (500pb\Gamma 1), one expects to measure the various two-fermion observables with a good precision (even after discarding the Z-return
+
+4
+
+Figure 2: The e+e\Gamma ! _+_\Gamma cross section before and after the ISR convolution. ISR is included according to [1].
+
+events) especially if one combines the 4 experiments. For instance, at ps = 175GeV , the expected experimental precision on the muon cross section is about 1:3%, while for the hadronic\Lambda one expects 0:7% [2]. The corresponding error for the forward-backward asymmetry of muons is \Delta A_F B , 0:01 [2]. Note that this asymmetry is much larger than at LEP1. Another interesting observable is Rb, with an expected overall accuracy of about 2:5% [3]. These numbers should serve as benchmarks for the required accuracy on the theoretical calculations, fflth . One should aim, at least, at a theoretical precision below half the values quoted above. For instance, for oeh one needs fflthh ! 0:3%.
+
+2.2 Radiative corrections and status of tuned comparisons Although there have been many exhaustive studies of two-fermion final states and many programs have been successfully tested, the comparisons among these programs have been performed and optimized for energies around the Z peak. For a very recent state-of-the-art investigation see [4], where the main emphasis was put on the expected theoretical accuracy, assessed by comparing different codes with different implementations of the radiative corrections. However, as for the case of ISR pointed at earlier, a few characteristics of the two-fermion cross-sections are modified and new aspects appear when going to higher energies. In order to address the issue of the status and the perspectives of tuned comparisons for e+e\Gamma ! _f f processes at LEP2 energies, it is worth reviewing the various building blocks for computing observables related to the process e+e\Gamma ! _f f . We have:
+
+\Lambda Here the W W events add as "backgrounds" that necessitate extra cuts.
+
+5
+
+e+e- 5 qq- Rs=180GeV 0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0 20 40 60 80 100 120 140 160 180Rs
+
+eff [GeV]
+
+ds/d Rs [nb/GeV
+
+]
+
+Figure 3: The invariant mass distribution of the hadrons at a centre-of-mass energy of 180GeV before (solid) and after (dashed) cuts. The cuts reject an event if an isolated high energy photon is seen in the detector; if not the acollinearity of the two jets has to be less than 200 and the observed invariant mass larger than 0:4ps. The inlet is a blow-up (logarithmic scale) showing what remains of the Z return events after cuts.
+
+a) Pure electroweak corrections for the (kernel) deconvoluted distributions, including weak
+
+boxes (W W and ZZ internal lines). The latter were neglected at LEP1 energies since their relative contribution was of order 10\Gamma 4.
+
+b) Final state (FS) QED and QCD corrections.
+
+c) Initial state (IS) QED radiation. d) IS lepton- and quark-pair production (PP).
+
+e) Initial-final (IF) QED interference.
+
+The result of the implementation of each block is to be compared between different codes before a global comparison, which incorporates all the parts, is made. This not only avoids eventual accidental cancellations, but also brings out the relative contribution of the various "ingredients" entering in the totally convoluted "realistic observables". Within the study group, issue a) (deconvoluted observables) has been investigated by comparing the results of three codes based on different approaches for the implementation of the kernel: TOPAZ0 [5] y, WOH [7] and ZFITTER [8]. TOPAZ0 results have been computed in the 't Hooft-Feynman gauge, , = 1, and within the M S scheme, WOH has also , = 1 but on shell (OS) renormalization scheme
+
+yNote that TOPAZ0 has been particularly designed to run around the Z resonance and it is not optimized for much higher energies. For the LEP2 study, TOPAZ0 has been modified by upgrading the radiator function according to ref. [6] and including the contribution from weak boxes.
+
+6
+
+(RS) and, finally, ZFITTER works in the unitary gauge and in the OS RS. All three codes have adopted the input parameters:
+
+MZ = 91:1884 GeV; mt = 175 GeV; mH = 300 GeV; ffs(MZ ) = 0:123; ff\Gamma 1(MZ ) = 128:896 (1)
+
+A complete comparison incorporating all a)-e) (realistic observables) has been restricted to TOPAZ0 (T) vs ZFITTER (Z) and covered a sample of six energies: the Z mass (in order to establish a link with the LEP1 calculations) and six LEP 2 energies, i.e. 140; 150; 161; 175; 190; 205 GeV.
+
+Because of the critical issue of the hard radiation at LEP2 energies and since both (T) and (Z) now apply the same QED radiator function for the total cross section, issue c) has been independently investigated by the Pavia group [9].
+
+ffl Pure Electroweak Corrections: effective couplings and the box problem The genuine electroweak corrections are by far the most interesting aspect of the two-fermion observables. Indirect virtual effects of new physics can also mimic these corrections. Hence, one needs to verify whether the strategies and approximations applied at the Z peak are still at work. For example, a question related to the actual implementation of higher-order corrections is connected with the attempt of parametrizing physical observables in terms of `running' effective couplings. This language of effective couplings, which has been so successful at LEP1, is deeply related to some factorization scheme that must be rediscussed at higher energies (for instance, weak boxes were neglected at LEP1). This language reduces the computational complexity, and does not introduce any t-dependence in the amplitudes, leading to a most useful and successful parametrization in terms of effective (s-dependent) vector and axial-vector couplings. Unfortunately, at LEP2 energies one expects the boxes to start resonating due to the W W (and, to a lesser extent, ZZ) thresholds. Moreover, as can be inferred from a cut across these boxes which reveals the e+e\Gamma ! W +W \Gamma t-channel exchange, the box contribution is not gauge invariant; in the same way that the t-channel for e+e\Gamma ! W +W \Gamma is not unitary. To quantify the effect of boxes one should first address some theoretical considerations about gauge invariance and give a procedure for isolating the effect of the weak boxes. It is well known that only a proper arrangement of the radiative corrections to e+e\Gamma ! _f f , including all contributions up to a given order, is gauge invariant. Every procedure designed for subtracting some part from the whole answer, for instance deconvolution of QED radiation, must respect gauge invariance. Formally, one writes the amplitude in terms of full 1PI vector-boson self-energies, initial(final) vertex corrections and multiparticle exchange diagrams. Next, the complex pole is derived in terms of the bare Lagrangian and, after a Laurent expansion, we end up with the pole, the residue at the pole and the non-resonating background (that encapsulates the t-dependence of the two-fermion amplitude), each of which is separately gauge invariant. It turns out that at LEP2 energies the non-resonating background (to which the boxes contribute) is not negligible. This is an unambiguous manifestation of the importance of the boxes. Instead of using the complex pole formalism, which is difficult to implement in the codes, the effect of the boxes in the comparison has been handled by agreeing on a procedure for "extracting" the W W exchange box diagram. Schematically, this diagram is denoted by BWW (,)
+
+7
+
+as computed in a general R, gauge. It may be split, non-uniquely though, according to
+
+BWW (,) = BWW (1) + i,2 \Gamma 1j \Delta (,) = BWW (,0) + _\Delta (,; ,0) (2)
+
+When working in the R, gauge, we can incorporate _\Delta into the rest of the amplitude, which is ,-dependent, and compute explicitly the W W box diagram in any ,0 gauge. This approach is gauge invariant but not unique, especially when different procedures are adopted like keeping the weak boxes outside the QED convolution or performing re-summations. At this point we can adopt two different strategies. On the one hand, one can use the ZFITTER prescription of including the weak boxes into the form-factors. These then become explicit functions of the scattering angle. On the other hand, for comparison purposes, a proposal for "de-boxization" has been made. As one presents results for QED deconvoluted quantities, we could also subtract weak boxes from the data with few simple rules:
+
+i It was agreed to substract BWW (, = 1). At LEP1 this contribution can be neglected, its
+
+relative effect being of order 10\Gamma 4.
+
+ii those who work in the , = 1 gauge stop here, iii those who work in any ,0 gauge compensate the rest of the amplitude with _\Delta (,0; 1).
+
+The effect of weak boxes (as defined above) is studied on the deconvoluted observables Odec (i.e. before the inclusion of any IS and FS radiation) through the quantity ffiB:
+
+ffiB = oedecoe
+
+0 \Gamma 1 where oe
+
+dec = oe0 + oebox (3)
+
+and oe0 is the corrected cross section but without the inclusion of boxes. First, for e+e\Gamma ! __; _dd; _uu TOPAZ0 and ZFITTER are found to agree extremely well fromp
+
+s = MZ up to LEP2 energies, including the region around the W W threshold. The relative discrepancy is well below the per-mil level for both _ and u and at worst 1:3 per-mil for d. There is some minor (in view of the expected experimental accuracy) disagreement with WOH(W ):j
+
+ffi(W \Gamma T )j_ ! 0:3% ; jffi(W \Gamma T )ju ! 0:5% ; jffi(W \Gamma T )jd ! 0:7%. An important result, already pointed at, is that the effect of weak boxes is not negligible (a few per-cent in terms of ffiB) especially around the W W threshold and at the highest LEP2 energies. For instance, at 205 GeV, ffiB for the _; d; u channels is \Gamma 1:1%(\Gamma 1:2%), \Gamma 2:2%(\Gamma 2:6%),\Gamma
+
+3:4%(\Gamma 4:1%) for TOPAZ0/ZFITTER(WOH). The results for the other energies are displayed in Table 1. This table also shows the effect of the boxes for oeb_b and oehadrons. For these two observables the comparison only involves TOPAZ0 and ZFITTER.
+
+Comparisons of the results for oeb_b reveals a discrepancy between TOPAZ0 and ZFITTER which attains , 2% at ps = 161GeV and 205GeV while the agreement for d is excellent. Looking in more detail, one sees that ZFITTER gives almost exactly the same ffiB for both d and b. It should be remarked that, in ZFITTER (but not TOPAZ0) the top mass is neglected in the boxes. The TOPAZ0 results suggest that the inclusion of the mass decreases the relative effect of the box, as one would naively expect. This disagreement is in fact another indication of the special role played by the b observables, a result reminiscent of the Z ! b_b at LEP1 and
+
+8
+
+ECM ZFITTER TOPAZ0 (GeV)
+
+oe_ oeu oed oeb oeh oe_ oeu oed oeb oeh MZ +0.00 -0.01 0.00 0.00 +0.00 +0.00 +0.00 -0.01 0.00 0.00
+
+100 -0.59 -3.56 -0.50 -0.51 -1.59 -0.59 -3.33 -0.40 -0.51 -1.41 140 +0.09 -11.09 +1.02 +0.94 -4.71 +0.07 -10.69 +0.84 +0.00 -4.66 150 +1.79 -10.00 +4.32 +4.36 -2.59 +1.81 -9.58 +4.09 +0.51 -3.10 161 +11.75 +3.52 +24.63 +24.90 +14.16 +11.81 +3.37 +23.38 +3.86 +10.17 175 +2.02 -12.64 +5.10 +5.14 -3.94 +1.84 -12.37 +4.67 +0.80 -4.29 190 -5.29 -25.25 -10.48 -10.60 -18.12 -5.58 -24.69 -10.25 -2.30 -16.45 205 -10.53 -34.89 -22.38 -22.56 -28.95 -10.95 -34.11 -21.66 -5.18 -25.60
+
+Table 1: The effect (in per-mil) of Weak Boxes, ffiB, on oe_, oeu, oed, oeb and oeh before convolution.
+
+the top connection. Note, however, that the b-box result does not have the same conceptual importance as the Zb_b vertex in the sense of the non-decoupling of the heavy top (or equivalently the contribution of the Goldstone Bosons). Anyhow, this disagreement largely gets diluted and disappears when considering the total hadronic cross section. For the hadrons, the largest difference in ffiB (about 0:4%) shows up around the W W threshold where the effect of the boxes is about 1%. The contribution of the boxes to oeh is larger at 190GeV and 205GeV, reaching about 2%. Concluding on the effect of boxes and the comparison between the genuine weak corrections, we mention that the effect of boxes on the forward-backward asymmetry for muons is well below 0.01 and that TOPAZ0 and ZFITTER have been checked to agree perfectly for this observable.
+
+Once one has subtracted the effect of the boxes, the remaining building block of the genuine electroweak corrections are essentially those one has dealt with at length at LEP1 (apart from the fact that these are now evaluated at k2 6= M 2Z). It is then worth inquiring about what one can learn from these "properly defined" observables that one has not from LEP1. In fact, one could further subtract the k2 = M 2Z part and express the LEP2 observables in terms of the corresponding LEP1 quantities as suggested in [10]. The LEP1 observables were powerful enough in the sense that heavy particles, like the top, did not decouple, therefore allowing to put stringent limits on (or even ruling out) models beyond the SM . Unfortunately, after isolating the LEP1 observables, the remaining k2 functions do not show much sensitivity to heavy particles, unless one is not far from their threshold. A most interesting topic concerning the k2 dependence is the extraction of the running of ffem. If this could be done unambiguously, in a gauge-invariant way, one might hope to measure the non-Abelian contribution to the running that exhibits anti-screening and which, at high-energy, slows down the growing of ffem. It has been suggested to exploit the pinch technique [11], but more work related to this important issue is still needed.
+
+ffl ISR: Pure QED radiation We have already stressed the qualitative difference between initial state radiation at LEP1 vs LEP2 energies. Because of this important difference and the overwhelming effect of this "correction" (see Fig. 1 and Fig. 2), it is crucial to reassess the implementations of the ISR
+
+9
+
+and then see how the convoluted "realistic" observables compare in different codes. This is most conveniently done by convoluting the weakly-corrected cross section oedec (see Eq. 3) with a radiator function, G(x = s0=s), that encapsulates the results of the QED corrections (virtual corrections and real radiation)
+
+oe(s) = Z
+
+1
+
+xcut dx oedec(s0) G(x) (4)
+
+For a fully extrapolated set-up, xcut = 4m2f =s. To cut the "Z-return" at LEP2, one may take xcut ? 0:5.
+
+Clearly the O(ff) result in G(x) is not sufficient. The O(ff2) has been computed exactly[6] while one can resum (at least) the soft photons to all orders. This resummation is important especially for LEP1, and introduces an "exponentiation scheme ambiguity". A typical scheme, or parametrization for G(x), after soft-photon resummation, is
+
+G(x) = fi (1 \Gamma x)fi\Gamma 1ffiS+V + ffiH(x); fi = 2 ffss (L \Gamma 1) L = log sm2
+
+e (5)
+
+where ffiS+V can be associated to the virtual and soft (bremsstrahlung) corrections while the additive ffiH is due to the hard-photon radiation (added linearly here). The large corrections are due to the "collinear logs" and formally one may write
+
+ffiS+V = 1X
+
+n=0 `
+
+ff
+
+ss '
+
+n nX
+
+i=0
+
+SniLi ffiH(x) = 1X
+
+n=1 `
+
+ff
+
+ss '
+
+n nX
+
+i=0
+
+Hni(x)Li (6)
+
+All schemes reproduce the leading logs, LL (i.e. Snn; Hnn) up to some order n. For LEP1, n = 2 is sufficient. However, not all schemes reproduce even the exact O(ff2) result. This difference is reflected essentially in the hard part and explains why schemes and codes (reproducing only the leading logs) that agree perfectly at LEP1 energies, no longer do so away from the resonance. Thus, TOPAZ0 has partly upgraded its radiator to reproduce the exact O(ff2) result. Using the definitions set in ref. [12], both TOPAZ0 and ZFITTER use now a radiator function of type GA (i.e. of the same kind as in Eq. 5). GA includes the complete O(ff2) corrections computed in [6].
+
+One also expects that different parametrizations of the hard part affect mainly the inclusive cross section, while if a large xcut value is imposed, that cuts away the hard radiation, the difference between the two schemes gets substantially smaller. To quantify the impact of the hard radiation terms and make a comparison with the situation at LEP1, the effect of the order O(ff3) LL versus the O(ff2) (LL also) has been investigated in the case of oe__. The implementation of the LL is most easily and conveniently done within the framework of the QED structure-function approach. The cross section obtained with a standard (LEP1) additive structure function with up to second-order hard contributions (oeAd2) is compared against a nonsinglet additive structure function inclusive of up to third-order hard-photon effects [13, 14] (oeAd3). Applied to LEP1 the relative contribution of the latter is below 10\Gamma 4. Figure 4 clearly illustrates the points raised above [9]. While a stringent xcut ? 0:5 makes the higher-order effects completely negligible (below 10\Gamma 4), for loose cuts xcut ! 0:3 (inclusive set-up) the effect lies in the range (0.1-0.4)% .
+
+10
+
+Figure 4: The relative effect of the third-order leading log hard corrections on oe__ as a function of the cut on the invariant mass. Four LEP2 energies are considered.
+
+While ZFITTER and TOPAZ0 use the same radiator function for the total cross section, only ZFITTER implements the leading-log correction to the forward-backward asymmetry as given in [15]. The latter involves a "non-symmetric "(i.e. it would vanish upon angular integration) O(ff2L2) contribution. This might be responsible for a tiny difference in AFB . The comparison between TOPAZ0 and ZFITTER for the purely photonic convolution has been made with two values of s0: the first corresponding to an inclusive set-up with s0 ? 0:015 s and the second to a loose cut on s0: s0 ? 0:5 s. In this first comparison about the effect of ISR, the contribution of the boxes discussed above is switched off. The results are displayed for the muon and hadronic cross sections, as well as the forward-backward asymmetry, in Table 2. For oe__ in the inclusive set-up, there is excellent agreement for all the energies considered with an almost constant relative deviation of about 3 per-mil. With a more stringent cut the agreement is further improved and almost reaches the accuracy achieved at LEP1. As for A_F B, the cut has little effect on the absolute deviation which never exceeds 0:006 and is thus very satisfactory. For the hadronic cross section, the worst deviation occurs at the W W threshold, attaining 7 per-mil in the inclusive set-up, but is reduced by an order of magnitude when the s0 cut is applied. This table also shows the large reduction in the event sample when the stricter cuts are applied, hence getting rid of the Z-return, as we discussed above.
+
+ffl IS Pair Production (PP) A consistent treatment of initial state radiation at O(ff2) should include the radiation of additional fermion pairs which also appear as a virtual correction at the two-loop level. Both TOPAZ0 and ZFITTER have used the available results at O(ff2) of the KKKS formulation [16]. This takes into account soft pair radiation with all events radiated up to some energy \Delta o/ ps and hard-pair radiation
+
+11
+
+s0 ? 0:015 s s0 ? 0:5 s Ecm (GeV) oe_(pb) oeh(pb) A_FB oe_(pb) oeh(pb) A_FB
+
+91.1884 1477.8 30442 -0.12891\Theta 10\Gamma 2 1444.5 30320 -0.10435\Theta 10\Gamma 2
+
+1477.5 30444 -0.14298\Theta 10\Gamma 2 1445.8 30326 -0.11169\Theta 10\Gamma 2
+
+0.20 -0.07 0.013 -0.90 -0.20 0.07 140 16.924 243.49 0.29892 7.4449 73.302 0.67141
+
+16.879 243.30 0.29787 7.4380 73.214 0.67705
+
+2.67 0.78 1.05 0.93 1.20 -5.64 150 13.676 189.70 0.29608 5.9608 52.284 0.64787
+
+13.636 189.70 0.29659 5.9556 52.224 0.65244
+
+2.93 0.00 -0.51 0.87 1.15 -4.57 161 11.085 148.33 0.28855 4.8799 39.325 0.62009
+
+11.046 149.00 0.29436 4.8728 39.351 0.62396
+
+3.53 -4.50 -5.81 1.46 -0.66 -3.87 175 9.0385 118.10 0.28826 4.0189 30.521 0.59394
+
+9.0118 118.15 0.29194 4.0152 30.467 0.59749
+
+2.96 -0.42 -3.68 0.92 1.77 -3.55 190 7.4763 95.922 0.28720 3.3516 24.394 0.57297
+
+7.4545 95.633 0.28982 3.3494 24.304 0.57635
+
+2.92 3.02 -2.62 0.66 3.70 -3.38 205 6.3184 80.021 0.28564 2.8479 20.119 0.55717
+
+6.2989 79.459 0.28811 2.8465 20.014 0.56043
+
+3.10 7.07 -2.47 0.49 5.25 -3.26
+
+Table 2: Comparing the results of the ISR convolution with boxes switched off. Two configurations are considered: s0 ? 0:015 s and s0 ? 0:5 s. The first row is ZFITTER and the second one is TOPAZ0. The third row is the relative deviation (in per-mil) for the cross sections and (103\Theta ) the absolute deviation for the forward-backward asymmetry.
+
+oepair = oeS+Vpair + oeHpair ; oeS+V = Z
+
+\Delta 2
+
+4m2 dq
+
+2 Z (ps\Gamma pq
+
+2)2
+
+(ps\Gamma \Delta )2 ds0
+
+d2oe4f dq2ds0 ;
+
+doeH
+
+ds0 = Z
+
+s(1\Gamma ps0=s)2 4m2 dq
+
+2 d2oe4f
+
+dq2ds0 ; oe
+
+H = Z s(1\Gamma \Delta =ps)
+
+2
+
+szmin ds0
+
+doeH
+
+ds0 (7)
+
+The formula in Eq.7 involves two parameters \Delta and zmin. The unnatural appearance of the infrared separator \Delta makes questionable the exponentiation of soft pairs. In [17], an exponentiated result is given which is valid for leptons. No analogous treatment is available for hadrons, where the O(ff2) result must be corrected for numerically when considering in addition IS photon radiation. No effort at all has been made so far in order to `adapt' TOPAZ0 and ZFITTER for the treatment of radiated high-energy pairs. Both TOPAZ0 and ZFITTER
+
+12
+
+do not exponentiate the "soft pairs" and oepair is added linearly to the cross section. There is also the so-called zmin problem [16]. IS PP has been successfully compared around the Z resonance for various values of this parameter, and finally the default has been set to zmin = 0:25. This corresponds to an experimental selection of Z decays where the invariant mass of the Z products is at least 50% of the total and the soft-hard separator \Delta has been fixed in the region where we see a plateau of stability. However, above the W W threshold the four fermion channel becomes competitive and one must establish a clear separation between real four-fermion events (see the section on four-fermion production below) and IS pair-production corrections to two fermion events. It looks plausible to include into the corrections for two-fermion events only very soft leptonic and hadronic pairs, i.e. something like zmin = 0:5; 0:6 corresponding to 70:7% or 77:5% of ps at ps = 200 GeV. For the following comparisons, zmin = 0:5 has been chosen. The effect of pure photonic and pair-production initial state radiation on oe__ is displayed in Table 3 in terms of the relative contribution of the "pairs", ffip. Although IS PP is very small
+
+Ecm (GeV) ZFITTER TOPAZ0
+
+91.1884 -2.57 -2.50
+
+100 +4.41 +4.96 140 -2.95 -0.59 150 -3.43 -0.80 161 -3.58 -0.90 175 -3.90 -0.97 190 -4.10 -1.03 205 -4.27 -1.07
+
+Table 3: The effect (in per-mil) of IS pair production, ffip, on oe__ with a cut s0 ? 0:015 s and zmin = 0:5. The first column is ZFITTER, the second is TOPAZ0.
+
+(a few per-mil), we observe a much less satisfactory agreement between the two codes. With a zmin = 0:5 cut the agreement ZFITTER/TOPAZ0 is remarkable up to the maximum positive contribution, which happens to be around 100 GeV, after which there is a consistent difference of about 0:2 \Gamma 0:3%. Incidentally, for the inclusive oe__, this is of the same order as the discrepancy between the two codes when the IS PP is switched off (see Table 2), with the result that the two effects largely cancel. Inclusion of pair production at high energies requires more theoretical work.
+
+ffl IF QED interference Although the formulations in TOPAZ0 and ZFITTER are totally independent, the IF QED interference has been tested successfully over the whole range of energies.
+
+ffl Global comparisons and realistic observables.
+
+For the global comparisons, all the ingredients listed above are included simultaneously. It should be noted that the weak boxes are added linearly to the cross section and are not convoluted with QED radiation. The outcome of this final overall confrontation are collected in Table 4 for the case of s0 ? 0:5s (and zmin = 0:5). For this value of s0, the radiative Z return at LEP2 would be effectively discarded, and the observables would be more sensitive to the high
+
+13
+
+Ecm (GeV) oe_(pb) oeh(pb) A_
+
+FB91.1884 1440.9 30243 -0.06278
+
+\Theta 10\Gamma 2
+
+1442.2 30249 -0.07646\Theta 10\Gamma 2
+
+-0.90 -0.20 0.14 100 110.47 2172.1 0.25148
+
+110.32 2169.5 0.25202
+
+1.36 +1.20 -0.54 140 7.5227 72.837 0.67444
+
+7.5147 73.108 0.68313
+
+1.06 -3.71 -8.69 150 6.0413 51.909 0.65176
+
+6.0347 52.157 0.65933
+
+1.09 -4.75 -7.57 161 4.9973 39.591 0.62250
+
+4.9883 39.748 0.62937
+
+1.80 -3.95 -6.87 175 4.0789 30.182 0.59910
+
+4.0737 30.363 0.60559
+
+1.28 -5.96 -6.49 190 3.3782 23.771 0.57940
+
+3.3747 23.950 0.58565
+
+1.04 -7.47 -6.25 205 2.8561 19.383 0.56462
+
+2.8535 19.548 0.57071
+
+0.91 -8.44 -6.09
+
+Table 4: Overall comparison with a cut s0 ? 0:5 s and zmin = 0:50 The first entry is ZFITTER, the second one is TOPAZ0. The third entry is the relative deviation (in per-mil) for the cross sections and (103\Theta ) the absolute deviation for the forward-backward asymmetry.
+
+energy component of the kernel with the genuine electroweak corrections. For the muon cross section, there is a remarkable agreement between the two codes almost equalling the level of accuracy reached at LEP1. It is always below 0:2% at all energies. In fact, even when relaxing the s0 cut to switch to the inclusive cross section, the agreement is excellent and much better than the relative deviation observed in the case of the inclusion of pair production. As pointed out above, the "more-than-needed" accuracy is partly due to some cancellation. For A_F B, the relative deviation does not compete with the one observed at LEP1 energies, nonetheless it stays below the 0.01 mark. As mentioned earlier, part of the discrepancy may be attributed to the different inclusion of the pure QED ISR in TOPAZ0 and ZFITTER (the asymmetricO
+
+(ff2) is not implemented in TOPAZ0). For the hadronic cross section, the agreement is quite satisfactory up to the W W threshold. Beyond this energy, it somehow degrades and reaches even 0:8%. However, at these energies the box contributions (before convolution) were found to show some discrepancy (see Table 1) that goes in the same direction as the discrepancy revealed in the "realistic observable". Some of the deviation here should be attributed to the different treatment of the boxes for oeb_b, and therefore one expects an improved agreement if
+
+14
+
+the b boxes are calculated with the same input parameters. Let us also mention that KORALZ has also been upgraded for LEP2 energies. KORALZ[18] is a Monte-Carlo program for e+e\Gamma ! 2f nfl (f = _; o/; u; d; c; s; b; *) which includes YFS exclusive exponentiation of initial and final state bremstrahlung. Weak boxes are implemented. Full details may be found in [19].
+
+As a conclusion, fermion pair production is under control. The study has also revealed which particular points require further investigation, i.e. especially the treatment of IS pairs. An important fact is the confirmation of the importance of the box contribution for all the two-fermion channels, mainly at the W W threshold and at the highest LEP2 energies. This should be kept in mind or compensated for when attempting to parametrize the two-fermion observables in terms of running effective couplings or s-dependent form factors. Another important aspect that needs a more detailed study is how different codes compare when realistic cuts (such as accolinearity cuts, cuts on the energy and scattering angle of the fermions) are applied on the fully dressed observables. A very preliminary investigation, restricted to the muon case, shows that the agreement between TOAPZ0 and ZFITTER somehow degrades when implementing an accolinearity cut. At the same time the integration error in TOPAZ0 is larger than what is at the Z peak. All this shows that more optimisation for LEP2 energies is needed, especially when introducing specific cuts.
+
+3 Single-photon production
+
+When studying fermion pair production the special case of neutrinos was not addressed, since this contributes an invisible cross section. At LEP1 [20], the latter can be inferred from the measurement of the lineshape, once it is assumed that all the visible modes are counted in \Gamma e;_;o/ and \Gamma h. Another, less competitive, method at LEP1, is the measurement of the single photon yield from e+e\Gamma ! * _*fl. At LEP2 this technique is the only available way to reveal the production of stable neutrals. One may think of the supersymmetric neutralinos and sneutrinos or a fourth generation neutrino, to cite a few. For these heavy "beyond the SM" neutrals, one needs to retain sufficient energy to produce them. Consequently, the associated radiation will tend to be softer than the typical photons coming from the SM radiative neutrino background. Actually, the latter are mostly very energetic and are easy to trigger on, since they are predominantly photons that recoil against real Z0 decays to the 3 light neutrino pairs. Once again, we are dealing with the radiative Z return, that produces very energetic photons. Thus the situation is much more promising than at LEP1.
+
+3.1 Experimental requirements Single-photon counting experiments at LEP1 have been rather delicate due to the essentially soft nature of the single photons. This necessitated low-trigger thresholds and high control of backgrounds in order to achieve sensitivity to the Z0 invisible width [21]. In general, LEP1 experiments have required Efl ? 1:5 GeV and have restricted to the large polar angle regionj
+
+cos(#)j ! 0:7. At LEP2, the photon energy spectrum from e+e\Gamma ! * _*fl(fl) gives highly energetic photons which are easy to trigger on and can be measured well. The detectors
+
+15
+
+are expected to function with similar performance as at LEP1. One relevant difference is that the minimum polar angle at which one can detect electromagnetic particles (veto angle), is likely to increase from about 25 mrad at LEP1 to about 33 mrad at LEP2 due to the installation of additional background shields to protect the tracking chambers from backgrounds produced at the higher beam energies. This will lead to more stringent cuts on the transverse momentum scaled to the beam energy, xT = pT =Eb, designed in order to kinematically eliminate backgrounds from, e.g., radiative Bhabha scattering (where the two electrons are below the veto angle). Moreover, LEP2 physics studies involving ISR can use the forward acceptance more readily than at LEP1, due to the much higher energies involved. Details depend on backgrounds and requirements: counting or measuring. Based on current analyses (studying for example e+e\Gamma ! flfl) acceptance in polar angle in the region j cos(#)j ! 0:95 should be achieved for photons with sufficient pT . Using canonical cuts of xT = pT =Eb ? 0:05 and j cos(#)j ! 0:95, leads to a cross-section of about 5 pb for ps = 180 GeV. So, there is potential for a 2% measurement of the inclusive cross-section per experiment for an integrated luminosity of 500 pb\Gamma 1, indicating that a theoretical precision below 1% (4 experiments) is desirable. Given the striking nature of such events and the favourable energy spectrum, it is likely that measurements will be statistics limited and not limited by experimental systematics. On the other hand, to achieve this accuracy a precise knowledge of the SM cross section is needed, also taking into account that some approximations used at LEP1 are no longer valid. Moreover, of particular interest to experimentalists is the inclusion in Monte Carlo codes of additional hard photons to the single photon, as such photons affect the acceptance when emitted at detectable polar angles.
+
+3.2 Calculations for e+e\Gamma ! * _*fl: lowest-order and radiative corrections Neutrino-pair production in association with a photon is not entirely due to Z decays. For *e there are additional W -exchange diagrams where the photon can be an ISR or from "internal radiation" (involving the non-Abelian W W fl vertex). These W -exchange diagrams are not negligible at all at LEP2 energies, contrary to LEP1 [20]. For instance, comparing the purely schannel *_ _*_fl with *e _*efl, there is about a factor 2 enhancement of the latter at ps = 175GeV, brought about by the t-channel. This applies for a visible photon with Efl ? 10GeV andj
+
+cos `eflj ! 0:9. Therefore, some of the approximations that worked so well for LEP1 and allowed for an easy implementation of the higher-order corrections are no longer valid. An excellent approximation at LEP1, the so-called PIA [22], is obtained by taking the Z contribution complemented by the limit MW ! 0 (and switching off the W W fl). This reproduces the exact result within 1%. Another equally good approximation convolutes the neutrino-pair cross section (with MW ! 0) with a radiator function[23]. These same approximations overestimate the result of the full calculation by some 30%, already at ps = 150GeV z. Because of the failure of these approximations as the energy increases, the implementation of the higher-order corrections for this three-body reaction requires a special attention. Full oneloop QED corrections have been computed [25, 26], while complete O(ff) weak corrections are presently known only for the "sub-process" e+e\Gamma ! Zfl [27]. Higher-order QED corrections, necessary to match the experimental precision reached at LEP, are taken into account in the
+
+zThis is obtained with Efl ? 1GeV; j cos `eflj ! 0:966, [24].
+
+16
+
+Monte Carlo [24, 28] and semi-analytical codes [23] used by LEP collaborations, through the QED structure-function approach (SF) or the YFS algorithm to implement multiphoton effects. For instance, within the SF method [29], the QED-corrected cross section can be written as [30]
+
+oe(s) = Z dx1 dx2 dEfl dcfl D(x1; s)D(x2; s) doedE
+
+fl dcfl ; (8)
+
+where doe=dEfl dcfl is the exact spectrum of Ref. [25], the photon variables refer to the centre-ofmass frame after initial-state radiation, and D(x; s) is the electron (positron) structure function. The explicit expression of D(x; s), including soft multiphoton emission and hard collinear bremsstrahlung up to O(ff2), can be found in [30].
+
+Figure 5: The QED-corrected and the Born cross section for e+e\Gamma ! * _*fl as a function of the centre-of-mass energy at LEP2. The approximations are detailed in the text. The cuts on the photon are Eminfl = 1 GeV and #minfl = 20ffi.
+
+Fig. 5 shows the QED-corrected cross section of e+e\Gamma ! * _*fl as a function of the centre-ofmass energy at LEP2, assuming the cuts Eminfl = 1 GeV and #minfl = 20ffi. The dash-dotted line represents the lowest-order total cross section obtained after integrating the exact photon spectrum doe=dEfl d cos #fl [25], the solid line is the result obtained according to the structure-function formulation of Ref. [30] (i.e. in the case of convolution of the full spectrum [25], including Z and W diagrams), and the dotted line, reported for the sake of comparison, shows the results obtained by simulating the approach of Ref. [24], namely correcting the Z contribution only, and adding to this result the W -exchange diagrams at tree levelx. Two considerations are in
+
+xStrictly speaking, in Ref. [24] the SF approach is applied to the complete O(ff) QED corrections to the Z exchange contribution of e+e\Gamma ! * _*fl. In the comparison reported here, the SF is applied to the tree level
+
+17
+
+order. First, the QED-corrected cross section at LEP2 is higher than the Born one as a consequence of the Z radiative return: the effect is to enhance, in this experimental set-up, the Born cross section by a factor of about 1.3. Secondly, the convolution of the full spectrum is in good agreement (within 1%) with the approach based on Ref. [24] because the QED-corrected cross section is largely dominated by the Z radiative return, and the tree-level contribution of W diagrams and W -Z interference is almost flat over the full energy range spanning from LEP1 to LEP2. The agreement between the two calculations is within the expected experimental accuracy.
+
+Figure 6: The energy distribution of the seen photon, without and with initial-state QED corrections, for a LEP1 (Eb = 48 GeV) and a LEP2 (Eb = 87:5 GeV) energy. The cuts on the seen photon are the same as with the previous figure. The numbers of events integrated in the case with ISR and without are proportional to the corresponding integrated cross sections.
+
+The single-photon energy distribution is shown in Fig. 6 after including the higher order ISR. The results confirm the qualitative arguments given above concerning the LEP2 vs LEP1 comparison. Two peaks are clearly visible in the photon energy distribution, both at LEP1 and LEP2 energies: the higher one is located at the energy value of about (1\Gamma M 2Z =s)ps=2, the lower one is due to 1=Efl (soft photon) peaking behaviour. As can be seen, the main modifications introduced by initial-state radiation are to reduce the higher peak and to enhance the lower one. The most important conclusion is that at LEP2 even after taking into account additional radiation, there still is a prominent peak around the recoil hard photon, hence allowing for a better discrimination of the heavy neutrals and improving the LEP1 limit on the number of neutrinos via the radiative method; even if this will not match the super-precision of the line-shape method. Further simulations of single-photon distributions at LEP2 versus LEP1
+
+e+e\Gamma ! * _*fl cross section. Weak corrections are implemented through an improved Born approximation in both cases. It has been checked that both versions agree within 1% with the approach of convoluting the full spectrum.
+
+18
+
+energies obtained analyzing the events generated by the Monte Carlo of Ref. [31] are given and commented in Ref. [30]. All the above results have been produced by means of a new Monte Carlo event generator [31] developed for radiative neutrino counting measurements at LEP1/LEP2 and based on eq. (8).
+
+3.3 Towards a single-photon library During this Workshop, the problem of finding a general approach to the computation of the single-photon spectrum associated to any process of the kind e+e\Gamma !(invisible) has been addressed. In particular, possible approximations have been studied that, starting from the e+e\Gamma !(invisible) cross section, could allow to get the corresponding single-photon spectrum in a straightforward way. The Standard Model process e+e\Gamma ! * _*fl can act as a benchmark for this purpose. Instead of the exact formula for the neutrino single-photon spectrum, one can use as a kernel in the convolution formula (8) an approximate factorized photonic spectrum given by
+
+doeapprox
+
+dxfldcfl = oe0((1 \Gamma xfl) s)H
+
+(ff)(xfl; cfl; s); (9)
+
+where oe0 is the total Standard Model cross section of e+e\Gamma ! (Z; W ) ! * _* and H(ff)(xfl; cfl; s) is the angular radiator proposed in Ref. [30] and derived from O(ff) pt-dependent structure functions [32]. It describes the probability of radiating a photon with a given energy fraction xfl = Efl=Eb at the angle #fl (cfl j cos #fl).
+
+This approximation can be used as a basic tool to develop a library of single-photon events, including standard and non-standard (in particular SUSY) processes. Indeed, given as a kernel the total cross section corresponding to a process of the type e+e\Gamma ! (invisible) objects, dressing it with the angular radiator H(ff), according to eq. (9), amounts to attaching a photon line on the external charged legs, including the "universal", factorized form of the photonic radiation. The above recipe has been checked against the exact Standard Model single-photon spectrum and found to be accurate at the level of a few per cent [30]. The same method has very recently been applied to the single-photon signature of the SUSY process e+e\Gamma ! O/O/fl (for the most general gaugino/higgsino composition of neutralinos in the MSSM)[33]. Its cross section has been obtained by convoluting the cross section for the channel e+e\Gamma ! O/O/ with the radiator function and found to be very hard to disentangle from the neutrino background (see the Neutralino Section in the New Particles Report for some results on this channel).
+
+4 Photon-pair production Photon-pair production is essentially a pure QED process, that is not very sensitive to the genuine weak radiative corrections. Therefore, contrary to the single-photon production, there is no new phenomenon to take into account with respect to LEP1. One way to exploit this clean channel is to probe the indirect effects of alternative models such as the exchange of a heavy excited electron or a contact interaction. However, to conduct these tests it is essential
+
+19
+
+to take into account the order O(ff3) QED corrections that could mimic new-physics effects. The corrected differential cross section may be written as:
+
+doe d\Omega !ff3 =
+
+ff2
+
+s
+
+1 + cos2` 1 \Gamma cos2` ! (1 + ffiQED) (10)
+
+where ` is the photon scattering angle with respect to the beam. ffiQED includes the virtual, soft and hard bremsstrahlung corrections [34]. This higher-order factor has been verified to be needed in order to reproduce the LEP1 data [35] as shown in Figure 7.
+
+This correction will have to be included also at LEP2. However, one expects the sensitivity
+
+a)
+
+Data QED with radiative corrections QED Born level
+
+(ds /d\Omega ) (pb/sr)
+
+b)
+
+|cos(q)| (ds /d\Omega )/(ds
+
+/d\Omega )Born
+
+0 25 50 75
+
+0 0.2 0.4 0.6 0.8 1
+
+0.5
+
+1 1.5
+
+0 0.2 0.4 0.6 0.8 1 Figure 7: (a) shows the comparison of the measured differential cross section with the QED prediction for the process e+e\Gamma ! flfl(fl) as a function of j cos `j. (b) shows the same cross sections normalized to the QED Born level prediction. The comparison leads to a O/2 = 0.53/dof.
+
+to the anomalous effects to be enhanced at LEP2, since the latter increase with energy, while the QED cross sections falls. For instance, the effect of an excited heavy electron that may be parameterized by a scale \Lambda \Sigma (depending on the chirality of the coupling) [36] or a general dimension-6 contact interaction with a scale \Lambda [12, 37] modify the differential cross section according to
+
+(doe=d\Omega ) = (doe=d\Omega )QED (1 + ffinew) (11)
+
+where ffinew ,= \Sigma s2=2 i1=\Lambda 4\Sigma j (1 \Gamma cos2 `) for the excited electron assumption and with an analogous expression for the contact interaction. A comparison of the measured and QED predicted differential cross sections, including the deviation, are reproduced from the L3 experiment in Figure 8. At LEP2, with an integrated luminosity of about 66 pb\Gamma 1, the lower limit on the scale of the contact term \Lambda is expected to increase from 600 to 800 GeV, while that
+
+20
+
+Data QED with radiative corrections
+
+\Lambda + = 149 GeV, \Lambda = 602 GeV \Lambda
+
+- = 143 GeV
+
+|cos(q)|
+
+(ds /d\Omega )/(d s/d \Omega )
+
+QED
+
+0.6 0.8
+
+1 1.2 1.4
+
+0 0.2 0.4 0.6 0.8 1 Figure 8: Comparison of the measured differential cross section with the QED predictions including the deviations for the parameter values shown in the figure, as a function of j cos `j. The cross sections are normalized to the radiatively corrected QED cross section. The functional effect of \Lambda + and \Lambda is the same.
+
+describing the excited electron, \Lambda + and \Lambda \Gamma , will go up to 200 GeV. These limits scale as the 1/4 power of the integrated luminosity.
+
+5 Four-Fermion Processes 5.1 Classes of Feynman diagrams At LEP2 centre-of-mass energies, four-fermion final states are produced with large cross sections. These are not only due to real W W and ZZ pair production with subsequent decays W ! _f f 0 and Z ! _f f , but arise from several production mechanisms, each giving sizeable contributions to the four-fermion cross section in specific configurations of the final-particle phase space. In Fig. 9, all the possible classes of four-fermion production diagrams are shown. The largest total cross sections arise from the multiperipheral diagrams. Here, two quasi-real photons are exchanged in the t-channel, giving rise to forward (and undetected) electrons/positrons plus a _f f pair with a non-resonant structure (the so-called "two-photon" processes). For instance, one has oe(e+e\Gamma ! e+e\Gamma o/ +o/ \Gamma ) , 102 pb for Mo/o/ ? 10GeV. On the other hand, although interesting for QCD studies (see the flfl Physics report) and as a main background for missing energy/momentum events (see the New Particles Physics report), these classes of processes do not sizeably contribute to final states that are of interest for the studies of W; Z and Higgs boson production. In the latter case, the main contributions come from double-resonant diagrams (conversion and nonabelian-annihilation diagrams in Fig. 9). Also single-resonant processes
+
+21
+
+Abelian Classes
+
+B1
+
+B2 \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma
+
+\Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+e+
+
+e
+
+\Gamma
+
+f1
+
+_f2
+
+f3
+
+_f4
+
+Conversion
+
+6 \Phi \Phi \Phi *
+
+\Phi \Phi \Phi
+
+HHHY HHH
+
+s s
+
+s s
+
+B
+
+B1 \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma
+
+\Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Gamma \Gamma
+
+\Gamma `\Gamma
+
+\Gamma \Gamma
+
+@@ @I@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma `\Gamma
+
+\Gamma \Gamma
+
+@@I @@
+
+@@I @@ HHYHH
+
+\Phi \Phi *\Phi \Phi
+
+s s
+
+s s
+
+e+
+
+e
+
+\Gamma
+
+f1
+
+_f2
+
+f3
+
+_f4
+
+Annihilation
+
+B1
+
+B2
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Phi \Phi \Phi *
+
+\Phi \Phi \Phi
+
+HHHY HHH \Phi \Phi ss\Phi
+
+\Phi
+
+\Phi \Phi ss\Phi \Phi
+
+HHHj
+
+HHH
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+s
+
+s
+
+s
+
+s
+
+e+
+
+e
+
+\Gamma
+
+e+; _*e e
+
+\Gamma ; *
+
+e
+
+f3
+
+_f4
+
+Bremsstrahlung
+
+B1 B2
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+6
+
+oe
+
+oe oe
+
+- -s
+
+s
+
+s se+
+
+e
+
+\Gamma
+
+e+; _*e e
+
+\Gamma ; *
+
+e
+
+f3
+
+_f4
+
+Multiperipheral Nonabelian Classes
+
+B2
+
+B1 B3\Lambda
+
+\Theta \Gamma \Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta
+
+\Lambda \Theta \Gamma
+
+\Delta \Theta \Delta
+
+\Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma
+
+\Phi \Phi \Phi *
+
+\Phi \Phi \Phi
+
+HHHY HHH \Phi \Phi \Phi ss\Phi \Phi
+
+\Phi
+
+HHHj
+
+HHH
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+s s s
+
+s
+
+e+
+
+e
+
+\Gamma
+
+e+; _*e e
+
+\Gamma ; *
+
+e
+
+_f4 f3
+
+Fusion
+
+B W
+
++
+
+W
+
+\Gamma
+
+\Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Theta \Delta \Lambda \Gamma \Lambda \Delta
+
+\Lambda \Delta \Lambda \Delta
+
+\Lambda \Delta \Lambda \Delta
+
+\Lambda \Delta \Lambda \Delta
+
+\Lambda \Delta
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Theta \Gamma \Theta \Gamma
+
+\Gamma \Gamma
+
+\Gamma `\Gamma
+
+\Gamma \Gamma
+
+@@ @I@
+
+@@
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+HHYHH \Phi \Phi *\Phi \Phi
+
+s s
+
+s
+
+s e+
+
+e
+
+\Gamma
+
+f1
+
+_f2
+
+f3
+
+_f4
+
+Annihilation
+
+(B = Z0; fl; B1; B2; B3 = Z0; fl; W \Sigma ; + Higgs Graphs:)
+
+Figure 9: Four-fermion production classes of diagrams.
+
+(proceeding through abelian-annihilation, bremsstrahlung, fusion and single-resonant conversion graphs) can give an important contribution to vector-boson physics, when the invariant mass constraint on one of the final fermion pairs is relaxed. A particular example is given by the single W; Z production, e+e\Gamma ! e*W ! e*f f 0 and e+e\Gamma ! eeZ ! eef f . In this case, most of the cross section is due to single-resonant bremsstrahlung and fusion diagrams, where an almost real photon is exchanged in the t-channel and one final electron escapes detection. In a sense, one could rename these channels as "three-(visible)fermion" processes. Some aspects of four-fermion processes are studied elsewhere in this report. Here we concentrate essentially on providing analytical (or semi-analytical) approaches. A particular attention is given to total cross sections especially in the case of forward electrons. We will also list the cross sections for the entire list of the four-fermion processes when some canonical cuts are imposed, as given by some available codes on the market, thus complementing the studies of
+
+22
+
+Figure 10: Total cross-section for e+e\Gamma ! e\Gamma _*u _d, all diagrams (solid), for, a), no cut on the final electron, and b), a cut on the electron angle with respect to the beams `e ? 8o. Dashed and dotted lines show the double-resonant and t-channel contribution , respectively.
+
+the Events Generators for WW Physics group.
+
+5.2 Single-W production The cross section for single (on-shell W ) production is shown in Fig. 1 and is dominated by the t-channel photon exchange. However, this is only one of the sub-processes that contributes to e+e\Gamma ! e\Gamma _*u _d. Complete tree-level cross sections for the process e+e\Gamma ! e\Gamma _*u _d have been computed using the GRACE system [38] with the complete set of tree-level diagrams and taking into account all fermion-mass effects. This allows to integrate with no cuts over the forward-electron angle and exactly assesses the relative importance of double-resonant W diagrams versus single-resonant W and non-resonant diagrams [39]. In Fig. 10, after applying some realistic experimental cuts on the quark ( Eu; _d ? 1GeV and angular separation from the beam `u; _d ? 8o), the comparison of the total cross sections for all the diagrams (that is, 20 graphs) with the double-resonant subset (given by conversion plus nonabelian annihilation graphs, total of 3) and the t-channel subset (given by bremsstrahlung, fusion and multiperipheral graphs, total of 10) is shown for a) no cut on the final electron, and b) a cut on the electron angle with respect to both beams `e ? 8o. The dominant contribution to the t-channel subset is given by the 4 diagrams where a photon is exchanged in the t-channel, with the e\Gamma scattered in the forward direction -. One can see that, below the W W threshold, the single-resonant and non-There is a very subtle problem with the implementation of the W width. A naive "running" width leads to disastrous predictions, see [39]. A general discussion about the implementation of the W width and gauge
+
+23
+
+resonant diagrams give a substantial contribution to the total cross section. At ps = 190GeV, their contribution is 4.4% of the total, while it increases at larger ps. On the other hand, imposing a cut on the forward electrons strongly depletes the t-channel contribution.
+
+Figure 11: Invariant u _d-mass distribution for e+e\Gamma ! e\Gamma _*u _d at ps = 180 GeV. The solid and dashed curves are, respectively, as for cases a) and b), of the previous figure.
+
+It is also interesting to compare the effect of the single-resonant and non-resonant diagrams on the quark-pair invariant mass distribution. Figure 11 shows how t-channel production can alter the Mu _d distribution and eventually play a role in the W mass determination.
+
+5.3 Exact cross sections versus effective approximations When including all the tree-level diagrams for a four-fermion process in a computer program, one can loose some insight on which subsets of diagrams are really dominant and which are "sub-leading". On the other hand, in order to treat correctly the phase-space integrations and to get a reliable result, one should distinguish the main/secondary groups of diagrams. At the same time it is also useful to check the reliability of effective approximations that allow to evaluate given subsets of diagrams in a much simpler way. The natural way of forming subsets of diagrams is by isolating subgraphs that (with the in- and out- intermediate particles taken on mass shell) correspond to some gauge-invariant process of lowest order [41] (other ways of decomposition have not been successful, especially at high energies [42]). In this section, such a procedure is illustrated in the particular process e+e\Gamma ! e+e\Gamma b_b. This channel is important as a background for Higgs bosons searches. Figure 12 shows the 48 diagrams that make up the complete set (excluding the two that involve Higgs bosons): 8 multiperipheral, 16
+
+invariance is discussed in the WW Physics Report. See also[40].
+
+24
+
+bremsstrahlung (single or non resonant, with a fl=Z in the t-channel), 8 conversion (single- or double-resonant) and 16 annihilation (single- or non-resonant) graphs. The first three classes of diagrams involve the subprocesses flfl ! b_b, fle ! V e (V = fl; Z) and e+e\Gamma ! V V , respectively. The contribution of each subset to the total cross section has been computed exactly at tree level by CompHEP[43], and then compared with the corresponding results obtained through appropriate effective approximations that are described in the following.
+
+Note that, in general, interferences between different subsets are found to be negligible at LEP2 energies, with the exception of the interferences of the bremsstrahlung diagrams with the Z ! b_b decay, and the conversion diagrams with the fl\Lambda ! e+e\Gamma and Z ! b_b decays (that gives -24 fb at ps = 200GeV). Then, apart from the interference between the bremsstrahlung diagram with Z ! b_b and the one with fl\Lambda ! b_b, which gives -3.2 fb at ps = 200GeV, all other interferences are found to be less than 1 fb at the same energy [41].
+
+ffl Effective approximation for multiperipheral diagrams. Using the equivalent photon spectrum in the Weizs"acker-Williams (WW) approximation [44], we can write the approximate formula for the total k cross section corresponding to multiperipheral diagrams (first row in Fig. 12)
+
+oe(flfl ! b_b) = Z
+
+1
+
+4m2b=s dx1 Z
+
+1 4m2b=x1s dx2 ^oe(flfl ! b_b) ffl (x1; ffi) ffl(x2; ffi) (12) where ffl(x; ffi) is given by [45]
+
+ffl(x; ffi) = ff2ss 1 + (1 \Gamma x)
+
+2
+
+x log
+
+1 \Gamma x
+
+x2
+
+1 ffi \Gamma 2
+
+1 \Gamma x
+
+x + 2xffi! (13)
+
+and ffi = m2e=4m2b . The subprocess cross section is given by (see, for instance, [46])
+
+^oe(flfl ! b_b) = 2ff
+
+2ss
+
+27^s `(3 \Gamma v
+
+4) log 1 + v
+
+1 \Gamma v \Gamma 2v(2 \Gamma v
+
+2)' (14)
+
+where v = q1 \Gamma 4m2b =^s. The results obtained through eq. (12) after a numerical integration are shown in Fig. 13 (dashed curve), and compared with the exact computation (solid curve) that includes also the multiperipheral flZ- and ZZ-exchange diagrams (the last two are found to be suppressed by a factor 10\Gamma 3 and 10\Gamma 6, respectively, relative to the dominant flfl contribution). The agreement is excellent (indeed, the two curves overlap completely).
+
+ffl Effective approximation for t-channel photon exchange (bremsstrahlung) diagrams. Diagrams including the subprocess fl\Lambda e ! Ze (second row in Fig. 12) are well approximated by
+
+oe(fl\Lambda e ! Ze) = Z
+
+xmax
+
+xmin dx Z
+
+Q2max Q2min dQ
+
+2 dffl(x; Q2)
+
+dQ2 ^oe(fl\Lambda e ! ZejQ
+
+2)Br(Z ! b_b) (15)
+
+where df
+
+fl (x; Q2)
+
+dQ2 =
+
+ff 2ss
+
+1 + (1 \Gamma x)2
+
+xQ2 \Gamma 2m
+
+2ex 1
+
+Q4 ! (16)
+
+ki.e. no cut on the invariant b_b mass, mb_b. The case including a cut on the invariant fermion mass and applications to the mf _f distribution are given below.
+
+25
+
+-e\Gamma - e\Gamma
+
+fl=Z
+
+oe _b
+
+?b
+
+- b
+
+fl=Z
+
+oee+ oe e+
+
+-e\Gamma - e\Gamma
+
+fl=Z
+
+- b
+
+6b oe
+
+_b
+
+fl=Z
+
+oee+ oe e+
+
+-e\Gamma -e
+
+\Gamma ` e
+
+\Gamma
+
+\Gamma \Gamma
+
+fl=Z
+
+`
+
+b
+
+\Gamma \Gamma
+
+I _b@@ fl=Z
+
+oee+
+
+I e+@@
+
+-e\Gamma fl=Z `
+
+b \Gamma \Gamma
+
+I _b@@?e \Gamma
+
+R e
+
+\Gamma @@fl=Z
+
+oee+
+
+I e+@@
+
+-e\Gamma `
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+fl=Z \Psi e+
+
+\Gamma \Gamma
+
+?e \Gamma
+
+oee+ fl=Z `
+
+b \Gamma \Gamma
+
+I _b@@
+
+-e\Gamma `
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+fl=Z
+
+oee+ oee
+
+\Gamma \Psi e
+
++
+
+\Gamma \Gamma
+
+fl=Z
+
+`
+
+b
+
+\Gamma \Gamma
+
+I _b@@
+
+-e\Gamma fl=Z `
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+I e+@@
+
+?e \Gamma
+
+oee+ fl=Z `
+
+b \Gamma \Gamma
+
+I _b@@
+
+-e\Gamma fl=Z `
+
+b \Gamma \Gamma
+
+I _b@@
+
+?e \Gamma
+
+oee+ fl=Z `
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+I e+@@
+
+Re \Gamma @
+
+@ \Psi e + \Gamma \Gamma
+
+fl=Z \Psi
+
+e+
+
+\Gamma \Gamma
+
+?e \Gamma
+
+`
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+fl=Z
+
+`
+
+b
+
+\Gamma \Gamma
+
+I _b@@
+
+Re \Gamma @
+
+@ \Psi e + \Gamma \Gamma
+
+fl=Z `
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+6e \Gamma \Psi e+
+
+\Gamma \Gamma
+
+fl=Z
+
+`
+
+b
+
+\Gamma \Gamma
+
+I _b@@
+
+Re \Gamma @
+
+@ \Psi e + \Gamma \Gamma
+
+fl=Z \Psi
+
+_b
+
+\Gamma \Gamma
+
+?b
+
+`
+
+b
+
+\Gamma \Gamma
+
+fl=Z
+
+`
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+I e+@@
+
+Re \Gamma @
+
+@ \Psi e + \Gamma \Gamma
+
+fl=Z `
+
+b
+
+\Gamma \Gamma
+
+6b \Psi _b\Gamma \Gamma
+
+fl=Z
+
+`
+
+e
+
+\Gamma
+
+\Gamma \Gamma
+
+I e+@@
+
+Figure 12: Complete set of diagrams for the process e+e\Gamma ! e+e\Gamma b_b.
+
+26
+
+with the integration limits
+
+Q2min = m2e x
+
+2
+
+1 \Gamma x; Q
+
+2max = m2Z (17)
+
+xmin = (me + mZ)
+
+2
+
+s ; xmax =
+
+(ps \Gamma me)2
+
+s :
+
+On the other hand, for the diagrams including the subprocess fl\Lambda e ! fl\Lambda e, one has
+
+oe(fl\Lambda e ! fl\Lambda e) = Z
+
+xmax
+
+xmin dx Z
+
+Q2max Q2min dQ
+
+2 1
+
+ss Z
+
+(p^s\Gamma me)2 4m2b
+
+dM 2fl\Lambda
+
+M 3fl\Lambda
+
+dffl(x; Q2)
+
+dQ2 ^oe(fl\Lambda e ! fl\Lambda ejQ
+
+2)\Gamma (fl\Lambda ! b_b)
+
+(18) with the integration limits
+
+Q2min = m2e x
+
+2
+
+1 \Gamma x ; Q
+
+2max = 4m2b (19)
+
+xmin = (me + 2mb)
+
+2
+
+s ; xmax =
+
+(ps \Gamma me)2
+
+s :
+
+The cross section for the subprocess fl\Lambda e ! V e, where V denotes Z or fl\Lambda , can be written in the form
+
+^oe(fl\Lambda e ! V ejQ2) = ff
+
+2ess
+
+^s CV 2(2x
+
+2 V \Gamma 2xV + 1) log ff + fiff \Gamma fi + (20)
+
++fi xe(7xV + 1) + xflxV (3x
+
+2V \Gamma 2xV + 1)
+
+xe + xflxV (xV \Gamma 1) + O(xe; xfl)!
+
+where
+
+xZ = m2Z=^s, xfl\Lambda = m2fl\Lambda =^s CZ = 8s
+
+4W \Gamma 4s2W + 1
+
+12s2W c2W , Cfl
+
+\Lambda = 23
+
+ff = 1 \Gamma xV + xexV \Gamma x2e \Gamma xfl(1 \Gamma xe \Gamma xV ) fi = [(1 + (xe \Gamma xfl)2 \Gamma 2xe \Gamma 2xfl)(1 + (xe \Gamma xV )2 \Gamma 2xe \Gamma 2xV )]1=2
+
+xe = m2e=^s, xfl = \Gamma Q2fl=^s, ^s = xs ffl Effective approximation for conversion, single and double-resonant diagrams. We start from the conversion subprocess e+e\Gamma ! fl\Lambda fl\Lambda (diagrams in the third row in Fig. 12). In this case
+
+oe(e+e\Gamma ! fl\Lambda 1 (f1 _f1)fl\Lambda 2 (f2 _f2)) = 1ss2 Z
+
+(ps\Gamma 2mf2 )2
+
+4m2f1
+
+dM 2fl\Lambda 1
+
+M 3fl\Lambda 1 Z
+
+(ps\Gamma Mfl1 )2 4m2f2
+
+dM 2fl\Lambda 2
+
+M 3fl\Lambda 2
+
+^oe(e+e\Gamma ! fl\Lambda fl\Lambda )\Gamma (fl\Lambda ! f1 _f1)\Gamma (fl\Lambda ! f2 _f2) (21)
+
+27
+
+where the off-shell photon decay width is given by
+
+\Gamma (fl\Lambda ! f _f ) = ff3 Q2f TcMfl\Lambda (1 + 2xf )q1 \Gamma 4xf (22) Q2f = 1=9 for the b-quark and 1 for the electron, xf = m2f =M 2fl\Lambda . The color factor Tc is equal to 3 for b-quark and 1 for the electron. The subprocess cross section is given by [47]
+
+^oe(e+e\Gamma ! fl\Lambda fl\Lambda ) = ff
+
+2ss
+
+s CD AD log
+
+ffD + fiD ffD \Gamma fiD \Gamma 3ffDfiD! (23)
+
+where
+
+CD = 41 \Gamma x
+
+1 \Gamma x2 , A
+
+D = 1 + (x1 + x2)2
+
+ffD = 1 \Gamma x1 \Gamma x2, fiD = q1 + (x1 \Gamma x2)2 \Gamma 2x1 \Gamma 2x2
+
+x1 = M 2fl\Lambda 1 =s, x2 = M 2fl\Lambda 2 =s.
+
+For the single-resonant process e+e\Gamma ! fl\Lambda Z one has
+
+oe(e+e\Gamma ! fl\Lambda (f1 _f1) + Z(f2 _f2)) = 1ss Z
+
+ps
+
+4m2f1
+
+dM 2fl\Lambda
+
+M 3fl\Lambda ^oe(e
+
++e\Gamma ! fl\Lambda (f1 _f1) + Z(f2 _f2))
+
+\Gamma (fl\Lambda ! f1 _f1)Br(Z ! f2 _f2) (24) where the subprocess cross section is given by the formula eq. (23) with the parameters
+
+CD = 41 \Gamma x
+
+fl\Lambda \Gamma xZ
+
+8s4W \Gamma 4s2W + 1
+
+2s2W c2W , AD = 1 + (xfl
+
+\Lambda + xZ)2
+
+ffD = 1 \Gamma xfl\Lambda \Gamma xZ, fiD = q1 + (xfl\Lambda \Gamma xZ)2 \Gamma 2xfl\Lambda \Gamma 2xZ
+
+xfl\Lambda = M 2fl\Lambda =s, xZ = m2Z=s.
+
+The cross section for the double resonant process e+e\Gamma ! ZZ, with the subsequent decays of Z in the narrow width approximation, is given by the subprocess cross section eq. 23 with parameters
+
+CD = 38s
+
+8W \Gamma 32s6W + 24s4W \Gamma s2W + 1
+
+16s4W c4W
+
+1 1 \Gamma 2xZ , AD = 1 + 4x
+
+2Z
+
+ffD = 1 \Gamma 2xZ , fiD = p1 \Gamma 4xZ,
+
+multiplied by Br(Z ! f1 _f1)Br(Z ! f2 _f2).
+
+In figure 13, one can see that the exact computation (solid) is always reasonably recovered by the above approximations (dashes). Indeed, adding the approximate formulae for multiperipheral, single and double conversion incoherently (with no interferences) the total cross section is reproduced within 5%.
+
+It is also possible to improve on the approximation for the conversion diagrams that involves the Z, by including the finite-width effects and even the ISR, as we will discuss below.
+
+28
+
+Figure 13: Effective approximations (dashed lines) and exact calculations (solid lines) corresponding to various subsets of diagrams for the process e+e\Gamma ! e+e\Gamma b_b.
+
+5.4 Radiative corrections within the multiperipheral diagrams. In this section, we discuss the accuracy of different versions of the Weizs"acker-Williams (WW) approximation [44] in describing both the integrated cross section (with a cut on the invariant mass of the fermions) as well as their pT distribution in two-photon processes. The effect of the QED corrections to the subprocess is also discussed within the approximation. In order to isolate the effect of the WW approximation error from other uncertainties (like QCD effects in two-photon hadron production), we study the flfl ! o/ +o/ \Gamma production as a reference process for more general cases.
+
+Within the approximation the tree-level cross section is given by eq. (12), implemented with a cut on the invariant mass of the o/ o/ pair. Several functions for the photon flux can be found in the literature, with the aim of giving more accurate descriptions of the exact rates. Indeed, it can happen that one formula can reproduce the total cross section quite precisely, but is less successful as far as some distributions are concerned, or vice versa. In general, the accuracy of a given approximation is both process and experimental-cut dependent.
+
+Here, we compare how two different flux functions fare with the exact tree-level and one-loop
+
+29
+
+QED corrected result. This correction is only applied to the sub-process flfl ! o/ o/ [48]. The phase-space integration of the final state (7-dimensional for the 4-bodies and 10-dimensional for the 5-bodies) was performed by using the Monte Carlo integration package BASES [49].
+
+The following two Weizs"acker-Williams spectra were examined
+
+f (1)fl (x) = ffssxae[1 + (1 \Gamma x)2] ln 2(1 \Gamma x)Em \Gamma 12 !
+
+\Gamma x
+
+2
+
+2 (ln x \Gamma 1) \Gamma
+
+(2 \Gamma x)2
+
+2 ln(2 \Gamma x)oe; (25)
+
+f (2)fl (x) = ffssx ([1 + (1 \Gamma x)2] ln 2(1 \Gamma x)x Em! \Gamma (1 \Gamma x)) (26)
+
+with f (1)fl (x) [WWA(1)] and f (2)fl (x) [WWA(2)] replacing ffl(x; ffi) in Eq.13 (note that the integration limits depends on the cut on Mo/o/ now).
+
+oe(pb) Born soft + loop hard O(ff) corr. exact 6.017(6) \Gamma 2:361(2) 2.403(2) 0.70(5) WWA(1) 6.171(4) \Gamma 2:392(1) 2.463(3) 1.16(6) WWA(2) 8.370(6) \Gamma 3:224(2) 3.316(4) 1.10(5)
+
+Table 5: Total cross section for o/ -pair production at ps = 180GeV with the invariant-mass cut Mo/o/ ? 30 GeV. The photon contribution is separated into soft and hard at kfl = 1keV . The last column shows the O(ff) correction in %.
+
+Table 5 summarizes the various components of the QED corrected total cross section calculated at ps = 180 GeV. The only kinematical cut applied is Mo/o/ ? 30GeV. The first spectrum, with f (1)fl (x), reproduces the exact integrated cross section within 2% while the second choice overestimates the integrated cross section by almost 30%. Note that the O(ff) correction is small, about 1% and is reproduced in all three cases. The impact of the choice of the photon spectrum on the pT distribution for the the o/ \Gamma was also studied. The results are shown in Fig. 14. We observe that the first approximation reproduces nicely the exact distribution for small pT (pT ! 20GeV) while the second one is more suited in the medium pT range, though both fall down too fast in the large pT region (where, however, the statistics is very poor). From this example, one can conclude that the best choice of the non-leading term in the WW approximations depends on which quantity one wants to reproduce. For instance, the WWA(2) has been preferred in the analysis of pT distributions of two-photon process with high pT at TRISTAN [50].
+
+30
+
+Figure 14: a) Pt distribution of o/ \Gamma at ps = 180 GeV for M (o/ o/ ) ? 30 GeV based on the exact calculation. b) shows the ratio of the WWA approximations over the exact result [see text for the definitions of WWA(1) and WWA(2)].
+
+5.5 Improved semi-analytical calculations for conversion-type fourfermion final states
+
+We have already discussed how the conversion type diagrams can be approximated. The above approximations can be further improved by including finite-width effects and inserting ISR. In this sub-section, we report on four-fermion cross sections and invariant mass distributions as obtained by the semi-analytical method. All angular degrees of freedom in the phase space (five at tree level, seven if the ISR is included) are integrated analytically. After these analytical integrations, elegant and short expressions are obtained for invariant mass distributions. Fast, numerically stable, and highly precise numerical algorithms are then used to integrate the remaining phase-space degrees of freedom, namely the two or three squared invariant masses. Semi-analytical results are, however, not suitable for experimental simulations. In this sense, the semi-analytical and the Monte Carlo approach are complementary, and semi-analytical results may serve as benchmarks for numerical approaches, which usually rely on the Monte Carlo technique. A short review of semi-analytical calculations may be found in [51].
+
+ffl Convolution formulae at tree level In the framework of the semi-analytical technique, total four-fermion production tree-level cross
+
+31
+
+sections are given by
+
+oeBorn(s) = Z ds1 Z ds2 p*sss2 \Delta X
+
+k
+
+d2oek(s; s1; s2)
+
+ds1ds2 : (27)
+
+Squared invariant masses for final-state fermion pair are represented by s1 and s2, and * j *(s; s1; s2) with *(a; b; c) = a2+b2+c2\Gamma 2ab\Gamma 2ac\Gamma 2bc. The subscript index k labels cross section contributions from squared amplitudes or interferences with distinct Feynman topologies and coupling structure. Partial double-differential cross sections have the form
+
+d2oek ds1ds2 = Ck(s; s1; s2) \Delta Gk(s; s1; s2) : (28)
+
+Coupling constants and off-shell boson propagators are collected in Ck, while Gk is a kinematical function obtained after fivefold analytical integration over the angular phase-space variables. Both Ck and Gk are given by very compact expressions. For different charged current (CC) and neutral current (NC) processes, Ck and Gk may be found in references [51, 52, 53, 54, 55].
+
+fflComplete O(ff) ISR with soft photon exponentiation A total four-fermion cross section with complete O(ff) ISR corrections including soft photon exponentiation is given by
+
+oeISR(s) = Z ds1 Z ds2
+
+sZ
+
+(ps1+ps2)2
+
+ds0
+
+s Xk
+
+d3\Sigma k(s; s0; s1; s2)
+
+ds1ds2ds0 (29)
+
+with the reduced squared center of mass energy s0 and
+
+d3\Sigma k(s; s0; s1; s2)
+
+ds1ds2ds0 = Ck(s0; s1; s2) \Delta hfiev
+
+fie\Gamma 1Sk + Hki ; (30)
+
+where fie = 2 ffss [ln(s=m2e) \Gamma 1] and v = (1 \Gamma s0=s). Both the soft+virtual and hard contributions, Sk and Hk, split into a universal, factorizing, process-independent and a non-universal, non-factorizing, process-dependent part. Using the twofold differential Born cross sections oek;0(s0; s1; s2) j p*sss02 \Delta Gk(s0; s1; s2), one obtains
+
+Sk(s; s0; s1; s2) = h1 + _S(s)i oek;0(s0; s1; s2) + oe ^S;k(s0; s1; s2) ;H
+
+k(s; s0; s1; s2) = _H (s; s0) oek;0(s0; s1; s2)-- -z ""
+
+Universal P art
+
++ oe ^H;k(s; s0; s1; s2)-- -z ""
+
+Non\Gamma universal P art
+
+(31)
+
+with the O(ff) soft+virtual and hard radiators _S and _H in the universal part given by
+
+_S(s) = ffss " ss
+
+2
+
+3 \Gamma
+
+1 2 # +
+
+3 4 fie _H(s; s0) = \Gamma
+
+1 2 1 +
+
+s0
+
+s ! fie : (32)
+
+If the index k is associated with s-channel e+e\Gamma annihilation diagrams only, non-universal ISR contributions are not present. Non-universal ISR contributions originate from the angular
+
+32
+
+0 20 40 60 80 100 120 140
+
+150 200 250 300 350 400 450 500 550 600
+
+1 10 10 2
+
+150 200 250 300 350 400 450 500 550 Figure 15: The NC8 cross section. The solid line represents the Born cross section, the dashdotted line includes universal, and the dotted line includes all ISR corrections. In the inset, the universally ISR corrected NC8 cross section is compared to the contributions from Z0 and photon pair production.
+
+dependence of initial state t- and u-channel propagators. Since the non-universal cross section contributions oe ^S;k and oe ^H;k do not contain the large logarithm fie, they only yield small cross section corrections up to a few percent. However, the analytical structure of oe ^S;k and oe ^H;k is very complex. An important feature of the non-universal corrections is the so-called screening property, i.e. an overall damping factor s1\Delta s2=s2 in the non-universal corrections [52, 55, 56]. It is important to note that screening is a likely property with respect to the proper high energy unitarity behavior of the completely ISR corrected cross section. Semi-analytical treatments of complete ISR are presented in references [52, 55, 56]. Details of the non-universal contributions may be found in [56, 57].
+
+As an example for numerical results, figures 15 and 16 present total cross sections for the NC8 process
+
+e+e\Gamma ! (Z0Z0; Z0fl; flfl) ! _+_\Gamma b_b (33) without and with invariant fermion-pair mass cuts [56]. In figure 15, the cross section correction due to universal the ISR varies between 12% at ps=130 GeV and 21% at 600 GeV. The additional relative correction from the non-universal ISR increases from 9 0=00 at 130 GeV to 4.2% at 600 GeV. From figure 16 one can see how the NC8 cross section approaches the cross section for the NC2 reaction e+e\Gamma ! (Z0Z0) ! _+_\Gamma b_b when invariant fermion-pair mass cuts are tightened. For the NC2 reaction, the effect of universal ISR varies between -28% at the
+
+33
+
+0 2 4 6 8 10 12
+
+150 200 250 300 350 400 450 500 550 600 Figure 16: The effect of cuts of 2 \Delta \Gamma Z and 5 \Delta \Gamma Z around the Z0 mass MZ on the NC8 (`All Graphs') and Z0 pair (`ZZ Graphs') cross sections. The cuts were applied to both the _+_\Gamma and the b_b pair invariant masses s1 and s2. All cross sections are universally ISR corrected.
+
+Z0 pair threshold and approximately +10% at 600 GeV. Non-universal corrections to the NC2 reaction amount to less than half a percent below and around the threshold and rise to 1.5% at 600 GeV. Results for the NC24 process, that is with complete set of diagrams contributing to e+e\Gamma ! f1 _f1 f2 _f2, with f1 6= f2 6= e; *e, are found in reference [54] (see also below). Details of semi-analytical results for Higgs production and CC processes are reported by the working groups Higgs, WW cross sections and distributions, and Event Generators for WW Physics in this Report.
+
+5.6 Cross sections for all four-fermion final states with inclusion of
+
+all diagrams
+
+In this section, we report on the results of a study of the tree-level cross sections for all possible four-fermion final states, as listed in Tables 6-8. The complete set of diagrams is taken into account in each case (the corresponding total number of diagrams (Nd) is shown in the same tables). Higgs-boson contributions are not included. This comparative study involves seven codes: ALPHA [58], CompHEP [43], EXCALIBUR [59], grc4f (a package for computing four-fermion processes based on GRACE [38]), WWGENPV/HIGGSPV [60], WPHACT [61] and WTO [62]. For a detailed description of the codes see the Event Generators for WW Physics Report. In this comparison ISR and gluon-exchange diagrams for the hadronic four34
+
+NN e+e
+
+\Gamma ! Nd ALPHA CompHEP EXCALIBUR grc4f HIGGSPV\Lambda WPHACT WTO
+
+1 e+e
+
+\Gamma *e _*e 56 257.3(2) 255.4(13) 256.7(2) 256.8(7) -- 257.0(2) --
+
+2 e
+
+\Gamma _*e*__+ 18 227.1(1) 227.8(5) 227.2(1) 227.0(2) 226.9(4)\Lambda 227.3(1) 227.2(1)
+
+3 e
+
+\Gamma _*e*o/o/ +
+
+4 *ee+_
+
+\Gamma _*_
+
+5 *ee+o/
+
+\Gamma _*o/
+
+6 _+_
+
+\Gamma *_ _*_ 19 228.6(2) 227.3(8) 228.6(2) 228.7(7) -- 228.6(0) 228.6(1)
+
+228.3(2)[
+
+m]
+
+7 o/ +o/
+
+\Gamma *o/ _*o/ 225.1(4)[m]
+
+8 _
+
+\Gamma _*_*o/ o/ + 9 218.5(1) 218.4(4) 218.2(1) 218.5(2) 218.4(1)\Lambda 218.6(2) 218.1(0)
+
+218.3(2)[
+
+m]
+
+9 o/
+
+\Gamma _*o/*__+
+
+10 e+e
+
+\Gamma e+e\Gamma 144 -- -- 109.7(2) 109.0(6) -- 109.6(2) --
+
+11 e+e
+
+\Gamma _+_\Gamma 48 -- 113.1(15) 116.6(2) 116.5(3) 112.8(19) 116.8(2) --
+
+111.6(1)[
+
+m]
+
+12 e+e
+
+\Gamma o/ +o/ \Gamma 58.68(5)[m]
+
+13 _+_
+
+\Gamma _+_\Gamma 48 5.456(5) 5.439(32) 5.476(10) 5.467(9) 5.65(52) 5.472(5) 5.460(17)
+
+5.387(7)[
+
+m]
+
+14 o/ +o/
+
+\Gamma o/ +o/ \Gamma 3.786(3)[m]
+
+15 _+_
+
+\Gamma o/ +o/ \Gamma 24 11.00(1) 10.95(4) 10.99(2) 10.97(4) 11.01(1) 11.02(2) 11.00(1)
+
+9.25(1)[
+
+m] 9.233(16)[m]
+
+16 e+e
+
+\Gamma *__*_ 20 -- 14.13(4) 14.15(2) 14.14(3) 14.34(17) 14.16(1) --
+
+17 e+e
+
+\Gamma *o/ _*o/
+
+18 *e _*e_+_
+
+\Gamma 19 17.78(2) 17.78(5) 17.92(4) 17.75(3) 17.79(1) 17.81(1) 17.83(15)
+
+17.39(3)[
+
+m]
+
+19 *e_*eo/ +o/
+
+\Gamma 11.08(1)[m]
+
+20 *o/ _*o/_+_
+
+\Gamma 10 10.10(1) 10.09(3) 10.14(2) 10.10(3) 10.10(1) 10.09(2) 10.05(3)
+
+10.038(8)[
+
+m]
+
+21 *__*_o/ +o/
+
+\Gamma 8.533(6)[m]
+
+22 *e_*e*e_*e 36 4.091(2) 4.108(22) 4.087(2) 4.085(5) -- 4.089(1) -- 23 *e _*e*__*_ 12 8.335(4) 8.335(9) 8.335(3) 8.335(6) 8.369(54) 8.339(1) 8.356(2) 24 *e_*e*o/ _*o/ 25 *__*_*_ _*_ 12 4.065(4) 4.107(8) 4.071(1) 4.063(4) 4.067(7) 4.068(1) 4.117(1) 26 *o/ _*o/ *o/ _*o/ 27 *_ _*_*o/ _*o/ 6 8.245(4) 8.234(9) 8.240(3) 8.240(4) 8.237(6) 8.241(1) 8.241(1)
+
+Table 6: Cross sections (in fb) for all the leptonic four-fermion final states. The superscript [m] marks all the results where complete fermion-mass effects are taken into account. The asterisks in the HIGGSPV column distinguish cross sections computed by the WWGENPV version of the program.
+
+35
+
+NN e+e
+
+\Gamma ! Nd ALPHA CompHEP EXCALIBUR grc4f HIGGSPV\Lambda WPHACT WTO
+
+1 e
+
+\Gamma _*eu _d 20 692.9(5) 693.3(13) 692.8(4) 692.5(4) 691.9(12)\Lambda 692.7(5) 692.8(3)
+
+2 e
+
+\Gamma _*ec_s 692.1(5)[m]
+
+3 *ee+d_u 4 *ee+s_c 5 _
+
+\Gamma _*_u _d 10 666.3(4) 664.9(11) 666.9(4) 666.2(4) 666.8(5)\Lambda 666.7(4) 666.2(1)
+
+6 _
+
+\Gamma _*_c_s 665.7(4)[m]
+
+7 _+*_d_u 8 _+*_s_c 9 o/
+
+\Gamma _*o/u _d 665.7(4)[m]
+
+10 o/
+
+\Gamma _*o/c_s 665.3(4)[m]
+
+11 o/ +*o/d_u 12 o/ +*o/s_c 13 e+e
+
+\Gamma u_u 48 -- 85.78(63) 86.87(9) 86.88(9) 84.91(93) 86.80(15) 87.64(34)
+
+14 e+e
+
+\Gamma c_c 78.20(42)[m]
+
+15 e+e
+
+\Gamma d _d 48 -- 42.77(21) 43.05(5) 42.95(7) 43.61(41) 43.01(9) 43.35(23)
+
+16 e+e
+
+\Gamma s_s
+
+17 e+e
+
+\Gamma b_b 36.51(5)[m]
+
+18 _+_
+
+\Gamma u_u 24 24.71(2) 24.58(6) 24.80(3) 24.69(3) 24.68(1) 24.69(2) 24.59(4)
+
+24.48(3)[
+
+m] 24.53(3)[m]
+
+19 _+_
+
+\Gamma c_c 24.57(6)[m]
+
+20 o/ +o/
+
+\Gamma u_u 20.29(3)[m]
+
+21 o/ +o/
+
+\Gamma c_c 20.39(5)[m]
+
+22 _+_
+
+\Gamma d _d 24 23.74(2) 23.65(7) 23.70(4) 23.71(1) 23.73(1) 23.71(2) 23.58(5)
+
+23.60(1)[
+
+m]
+
+23 _+_
+
+\Gamma s_s
+
+24 _+_
+
+\Gamma b_b 22.98(3)[m]
+
+25 o/ +o/
+
+\Gamma d _d 20.03(3)[m]
+
+26 o/ +o/
+
+\Gamma s_s
+
+27 o/ +o/
+
+\Gamma b_b 19.49(2)[m]
+
+28 *e _*eu_u 19 23.89(2) 23.88(5) 23.89(1) 23.82(4) 23.95(5) 23.87(1) 24.02(14) 29 *e_*ec_c 24.26(3)[
+
+m]
+
+30 *e_*ed _d 19 20.66(2) 20.62(5) 20.67(1) 20.63(2) 20.67(8) 20.65(1) 20.68(4) 31 *e_*es_s 32 *e_*eb_b 19.63(2)[
+
+m]
+
+33 *__*_u_u 10 21.04(2) 21.07(3) 21.09(1) 21.07(2) 21.08(1) 21.09(1) 21.13(14) 34 *__*_c_c 21.32(2)[
+
+m]
+
+35 *o/ _*o/u_u 36 *o/ _*o/c_c 37 *_ _*_d _d 10 19.88(2) 19.80 (4) 19.86(1) 19.85(2) 19.86(1) 19.87(1) 19.89(4) 38 *_ _*_s_s 39 *__*_b_b 19.16(1)[
+
+m]
+
+40 *o/ _*o/d _d 41 *o/ _*o/s_s 42 *o/ _*o/b_b
+
+Table 7: Cross sections (in fb) for all the semileptonic four-fermion final states. The notation is the same as in Table 6.
+
+36
+
+fermion final states (when implemented) are switched off. The effect of non-zero fermion masses for some of the processes has also been investigated by ALPHA and grc4f (see Tables 6-8). Total cross sections have been computed at the centre-of-mass energy ps = 190GeV, with the following cuts: E`\Sigma ? 1GeV , Eq ? 3GeV , `(`\Sigma \Gamma beam) ? 10o , `(`\Sigma \Gamma `0\Sigma ) ? 5o , `(`\Sigma \Gamma q) ? 5o , Mqq(0) ? 5GeV (cuts on the fermion energy variables are loosened in the case of massive fermions). Furthermore, in order to better check the agreement among the different codes, a canonical set of input parameter has been agreed upon in all the computations, that
+
+is MZ = 91:1888GeV, \Gamma Z = 2:4974GeV , MW = 80:23GeV , \Gamma W = 3GF M
+
+3Wp
+
+8ss = 2:0337GeV , ff\Gamma 1(2MW ) = 128:07, GF = 1:16639 10\Gamma 5GeV\Gamma 2 , sin2 `W from ff(2MW )2 sin2 `
+
+W =
+
+GF M2W
+
+ssp2 . In Table 6,the cross sections for all the four-lepton final states are shown, in Table 7 the ones for the
+
+semileptonic states and in Table 8 the ones for the hadronic four-fermion states. The error in the last one or two digits, corresponding to the Monte Carlo event generator, is also shown in parenthesis. One can see that the agreement among the different central values is in general at the level of a few per-mil, and even better in some cases. Note that, with the cuts above, the effect of the fermion masses can be not negligible, as can be seen by comparing the rates for muons to those for o/ 's for instance, (cf. Tables 6-7).
+
+NN e+e
+
+\Gamma ! N
+
+d ALPHA CompHEP EXCALIBUR grc4f HIGGSPV
+
+\Lambda WPHACT WTO
+
+1 u_ud _d 35 2063(1) 2045(7) 2064(1) 2064(3) -- 2064(0) 2062(1) 2 c_cs_s 2063(3)[
+
+m]
+
+3 u _ds_c 11 2015(1) 2019(6) 2015(1) 2015(1) 2015(1)
+
+\Lambda 2015(1) 2014(0)
+
+2013(3)[
+
+m]
+
+4 d_uc_s 5 u_uu_u 48 25.65(3) -- 25.75(1) 25.58(8) 25.36(17) 25.73(1) -- 6 c_cc_c 26.36(3)[
+
+m]
+
+7 d _dd _d 48 23.49(2) -- 23.49(1) 23.49(8) 23.28(14) 23.49(1) -- 8 s_ss_s 9 b_bb_b 22.11(11)[
+
+m]
+
+10 u_uc_c 24 51.54(5) 51.58(10) 51.59(2) 51.57(3) 51.60(4) 51.64(5) 51.50(7)
+
+52.21(5)[
+
+m] 52.28(3)[m]
+
+11 u_us_s 24 49.58(5) 49.47(14) 49.69(1) 49.68(4) 49.71(4) 49.66(3) 49.67(11) 12 u_ub_b 48.68(5)[
+
+m]
+
+13 c_cd _d 50.35(7)[
+
+m]
+
+14 c_cb_b 49.29(5)[
+
+m]
+
+15 d _ds_s 24 47.04(5) 46.95(9) 47.12(2) 47.12(3) 47.11(6) 47.11(3) 47.11(9) 16 d _db_b 46.08(4)[
+
+m]
+
+17 s_sb_b
+
+Table 8: Cross sections (in fb) for all the hadronic four-fermion final states. The notation is the same as in Table 6.
+
+6 Three Vector-Boson Production
+
+LEP2 can in principle be sensitive to quartic self-interactions of the electroweak vector bosons, through the production of two bosons plus one large-angle hard photon in the channels e+e\Gamma ! W W fl, ZZfl and Zflfl. While the inclusion of quartic couplings is essential to maintain gauge
+
+37
+
+invariance, these couplings cannot be simply isolated as subtle cancellations among many diagrams, including also trilinear couplings, take place. Nevertheless, triple vector-boson production can be used as a test for the presence of anomalous couplings, in particular flflW W flZW W and flflZZ [63].
+
+Figure 17: Three vector-bosons cross sections. The applied cuts are cos `eV ? 15o (V = W \Sigma ; Zfl) and cos `V V ? 10o, as well as a cut on pflT ? 10 GeV.
+
+The cross-sections for the production of three vector bosons are shown in Figure 17, where (generous) angular cuts cos `eV ? 15o (V = W \Sigma ; Zfl) and cos `V V ? 10o, as well as a cut on pflT ? 10 GeV, have been imposed to avoid backgrounds. The W W fl cross section increases very sharply near 170GeV (just above threshold) but LEP2 has barely enough energy to produce these final states with healthy statistics. One must therefore strive for the highest possible energy in order to increase the statistics. Furthermore, the sensitivity to anomalous couplings also rises with energy. Estimates using the above cuts have shown that even with a centre-ofmass energy of 230 GeV, one would need a two-orders-of-magnitude increase in precision to reach the level needed to test New Physics.
+
+38
+
+Acknowledgments: We would like to thank Alain Blondel and Tim Stelzer for briefing us at the early stages of the Workshop and taking an active part in our meetings and Wim Beenakker for checking the numbers in Table 1. Misha Dubinin is grateful to the Minami-Tateya group (Computing Physics Division, KEK, Tsukuba) for giving him the possibility to use their computing facilities. The conveners gratefully acknowledge the unfailing cooperation of Dima Bardin as concerns 4-fermion processes. This work has been partly supported by the Human Capital and Mobility Program of the European Community (contract numbers: ERB-CHRX-CT92-0004, ERB-CHRX-CT93-0132, ERB-CHRX-CT93-0319 and ERB-CHRX-CT93-0357); INTAS (93-1180 and 93-744); the International Science Foundation (M9B000 and M9B300) and the US Departement of Energy (DE-FG0295ER40896).
+
+References
+
+[1] G.Montagna, O.Nicrosini and F.Piccinini, Phys. Rev. D48 (1993) 1021 and references
+
+therein.
+
+[2] From an analysis made by R.Miquel and M.Schmitt. [3] From an analysis made by K.Moenig. [4] Reports of the Working Group on Precision Calculations for the Z-resonance, D.Bardin,
+
+W.Hollik and G.Passarino eds., CERN 95-03, March 1995.
+
+[5] G.Montagna, O.Nicrosini, G.Passarino, F.Piccinini and R.Pittau, Nucl. Phys. B401
+
+(1993) 3; G. Montagna, O. Nicrosini, G. Passarino, F. Piccinini and R. Pittau, program TOPAZ0, Comput. Phys. Commun. 76 (1993) 328.
+
+[6] F.A.Berends, G.Burgers and W.L.van Neerven, Nucl. Phys. B297 (1988) 429. [7] W.Hollik, program WOH. [8] D.Bardin et al., program ZFITTER 4.9, Nucl. Phys. B351 (1991) 1; Z. Phys. C44 (1989)
+
+493; Phys. Lett. B255 (1991) 290; CERN-TH.6443/1992, May 1992; .
+
+[9] Analysis made by M.Cacciari, G.Montagna, O.Nicrosini, F.Piccinini, E.Poli and L.Pollino. [10] F.M.Renard and C.Verzegnassi, preprint PM/95-35, . [11] See for instance, J.Papavassiliou and A.Pilaftsis, Phys. Rev. Lett. 75 (1995) 3060; NYUTH-95/06/02  to be published in Phys. Rev. D; K. Philippides and A. Sirlin, NYU-TH-95/10/01, .
+
+[12] Z Physics at LEP1, G.Altarelli, R.Kleiss and C.Verzegnassi eds., CERN 89-08, Vol. 1
+
+(1989) 235.
+
+[13] M.Skrzypek and S.Jadach, Z. Phys. C49 (1991) 577; M.Skrzypek, Acta Physica Polonica,
+
+B23 (1992) 135.
+
+[14] M.Cacciari, A.Deandrea, G.Montagna and O.Nicrosini, Europhysics Letters 17 (1992) 123.
+
+39
+
+[15] W.Beenakker, F.A.Berends and W.L.van Neerven, Applications of Renormalization Group
+
+Methods to Radiative Corrections, in: Proc. Int. Workshop on Radiative Corrections for e+e\Gamma Collisions, Schloss Ringberg, Tegernsee, FRG, April 1989, ed. J.H. K"uhn (Springer, Berlin, 1989), p. 3.
+
+[16] B.A.Kniehl, M.Krawczyk, J.H.K"uhn and R.G.Stuart, Phys. Lett. B209 (1988) 337. [17] S.Jadach, M.Skrzypek and M.Martinez, Phys. Lett. B280 (1992) 129. [18] S. Jadach, B.F.L. Ward, and Z. W,as, Comp. Phys. Commun. 79 (1994) 503. [19] WWW home page at http://hpjmiady.ifj.edu.pl/. [20] L.Trentadue et al., Neutrino Counting, in Z Physics at LEP1, G.Altarelli, R.Kleiss and
+
+C.Verzegnassi, eds., CERN 89-08, Vol. 1 (1989) p. 129, and references therein.
+
+[21] OPAL Collab., M.Z.Akrawy et al., Z. Phys. C50 (1991) 373; L3 Collab., B.Adeva et al.,
+
+Phys. Lett. B275 (1992) 209; L3 Collab., O.Adriani et al., Phys. Lett. B292 (1992) 463; ALEPH Collab., D.Buskulic et al., Phys. Lett. B313 (1993) 520; OPAL Collab., R.Akers et al., Z. Phys. C65 (1995) 47.
+
+[22] K.J.F.Gaemers, R.Gastmans and F.M.Renard, Phys. Rev. D19 (1979) 1605; G.Barbiellini,
+
+B.Richter and J.L.Siegrist, Phys. Lett. B106 (1981) 414.
+
+[23] O.Nicrosini and L.Trentadue, Nucl. Phys. B318 (1989) 1. [24] R.Miquel, C.Mana and M.Martinez, Z. Phys. C48 (1990) 309; also in QED Structure
+
+Functions, G. Bonvicini, ed., AIP Conf. Proc. No. 201 (AIP, New York, 1990), p. 395.
+
+[25] F.A.Berends et al., Nucl. Phys. B301 (1988) 583. [26] M.Igarashi and N.Nakazawa, Nucl. Phys. B288 (1987) 301; H. Veltman, Nucl. Phys. B312
+
+(1989) 1.
+
+[27] M.B"ohm and T.Sack, Z. Phys. C35 (1987) 119. [28] S.Jadach, B.F.L.Ward and Z.Was, Comput. Phys. Commun. 66 (1991) 276. [29] E.A.Kuraev and V.S.Fadin, Sov. J. Nucl. Phys. 41 (1985) 466; G.Altarelli and G.Martinelli,
+
+Physics at LEP, CERN Report 86-02, J.Ellis and R.Peccei, eds. (Geneva, 1986); O.Nicrosini and L.Trentadue, Phys. Lett. B196 (1987) 551.
+
+[30] G.Montagna, O.Nicrosini, F.Piccinini and L.Trentadue, Nucl. Phys. B452 (1995) 161. [31] G.Montagna, O.Nicrosini and F.Piccinini, in preparation (to be submitted to Comput.
+
+Phys. Commun.).
+
+[32] O.Nicrosini and L.Trentadue, Phys. Lett. B231 (1989) 487, and references therein. [33] S.Ambrosanio, B.Mele, G.Montagna, O.Nicrosini and F.Piccinini, preprint FNT/T-95/32,
+
+ROME1-1126/95 (1995).
+
+[34] F.A.Berends and R.Kleiss, Nucl. Phys. B186 (1981) 22. [35] OPAL Collab., M.Z.Akrawy et al., Phys. Lett. B257 (1991) 531; ALEPH Collab.,
+
+D.Buskulic et al., Z. Phys. C 59 (1993) 215; DELPHI Collab., P.Abreu et al., Phys. Lett. B327 (1994) 386; L3 Collab., M.Acciarri et al., Phys. Lett. B353 (1995) 136.
+
+[36] A.Litke, Harvard Univ. Ph.D. Thesis (1970), unpublished.
+
+40
+
+[37] O.J.P.Eboli et al., Phys. Lett. B271 (1991) 274. [38] T.Ishikawa, T.Kaneko, K.Kato, S.Kawabata, Y.Shimizu and K.Tanaka, KEK Report 92-
+
+19, 1993, The GRACE manual Ver. 1.0.
+
+[39] Y.Kurihara, D.Perret-Gallix and Y.Shimizu, Phys. Lett. B349 (1995) 367; J.Fujimoto,
+
+T.Ishikawa, S.Kawabata, Y.Kurihara, Y.Shimizu and D.Perret-Gallix Nucl. Phys. (Proc. Suppl.) 37B (1994) 169.
+
+[40] E.N. Argyres et al., Phys.Lett. B358 (1995) 339. [41] E.Boos, M.Sachwitz, H.J.Schreiber, S.Shichanin, Z. Phys. C64 (1994) 391. [42] M.Dubinin, V.Edneral, Y.Kurihara, Y.Shimizu, Phys. Lett. B329 (1994) 379. [43] E.Boos et al., Proc.of the XXVIth Recontre de Moriond, ed.by J.Tran Thanh Van, Editions
+
+Frontiers, 1991, p.501; E.Boos et al., Proc. of the Int. Conf. on Computing in High Energy Physics, ed.by Y.Watase, F.Abe, Universal Academy Press, Tokyo, 1991, p.391; E.Boos et al., Int. J. Mod. Phys. C5 (1994) 615; E.Boos et al., SNU CTP preprint 94-116, Seoul, 1994 .
+
+[44] C.F.Weizs"acker, Z. Phys. 88 (1934) 612; E.J.Williams, Phys. Rev. 45 (1934) 729. [45] S.Frixione, M.L.Mangano, P.Nason and G.Ridolfi, Phys. Lett. B319 (1993) 339 and references therein.
+
+[46] T.L.Barklow, preprint SLAC-PUB-5364, 1990. [47] E.Eichten, I.Hinchliffe, K.Lane, C.Quigg, Rev. Mod. Phys. 56 (1984) 579; E.L.Berger,
+
+E.Braaten, R.D.Field, Nucl. Phys. B239 (1984) 52.
+
+[48] Y.Shimizu, in preparation. [49] S.Kawabata, Comput. Phys. Commun. 41 (1986) 127, ibidem, Comput. Phys. Commun.
+
+88 (1995) 309.
+
+[50] P.Aurenche, J.P.Guillet, M.Fontannaz, Y.Shimizu, J.Fujimoto and K.Kato, Prog. Theor.
+
+Phys. 92 (1994) 175.
+
+[51] D.Bardin, M.Bilenky, D.Lehner, A.Olchevski and T.Riemann, Nucl. Phys. (Proc. Suppl.)
+
+37B (1994) 148.
+
+[52] D.Bardin, M.Bilenky, A.Olchevski and T.Riemann, Phys. Lett. B308 (1993) 403; E:
+
+Phys. Lett. B357 (1995) 725 .
+
+[53] D.Bardin and T.Riemann, preprint DESY 95-167 (1995) . [54] D.Bardin, A.Leike and T.Riemann, Phys. Lett. B344 (1995) 383; Phys. Lett. B353 (1995)
+
+513.
+
+[55] D.Bardin, D.Lehner and T.Riemann, preprint DESY 94-216 (1994), to appear in the proceedings of the IXth International Workshop "High Energy Physics and Quantum Field Theory", Zvenigorod, Moscow Region, Russia, September 1994 .
+
+[56] D.Lehner, Ph.D. thesis, Humboldt-University Berlin (1995), unpublished. [57] D.Bardin, D.Lehner and T.Riemann, in preparation. [58] F.Caravaglios and M.Moretti, Phys. Lett. B358 (1995) 332.
+
+41
+
+[59] F.A.Berends, R.Pittau and R.Kleiss, Nucl. Phys. B424 (1994) 308; Comput. Phys. Commun. 85 (1995) 437.
+
+[60] G. Montagna, O. Nicrosini and F. Piccinini, Comp. Phys. Commun. 90 (1995) 141. [61] A. Ballestrero, in preparation. The program is based on the helicity formalism described
+
+in A. Ballestrero and E. Maina, Phys. Lett. B350 (1995) 225.
+
+[62] G. Passarino, program WTO. [63] G.B'elanger and F.Boudjema, Phys. Lett. B288 (1992) 201.
+
+42
+

@@ -1,0 +1,436 @@
+F.V. Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996) 309 
+
+
+
+
+
+Algebraic algorithms for multiloop calculations
+The first 15 years. What's next?
+
+Fyodor V. Tkachov
+
+Institute for Nuclear Research of Russian Academy of Sciences, Moscow 117312
+
+
+
+
+The ideas behind the concept of algebraic ("integration-by-parts") algorithms for multiloop calculations are reviewed. For any
+topology and mass pattern, there exists a finite iterative algebraic procedure which transforms the corresponding Feynman-
+parameterized integrands into a form that is optimal for numerical integration, with all the poles in D ­ 4 explicitly extracted.
+
+
+
+
+The Concept (3-loop finite parts of massless self-energy diagrams)
+A victory has a hundred fathers seemed within grasp. The appetites whetted, it was sug-
+The concept of algebraic algorithms for multiloop in- gested that "we" tackle the many multiple series that
+tegrals [1]­[4] has brought about an industry of analyti- emerged there within the technique that I had shown to
+cal multiloop calculationsa, so it would not be inappro- be successful with 2-loop finite parts. However, I balked:
+priate to reminisce upon the anguish of its birth [1], if one were to appropriate the fruits of my meditations,
+given a non-negligible amount of research funds being one could at least leave me alone in the joy of the proc-
+ess. (That tacit arrangement was adhered to by the other
+misallocated through misinformationb.
+side with much gusto all the way through the theory of
+Back in 1979, when perturbative QCD, IBM, and the asymptotic expansions, which is another story [7].)
+USSR were in full bloom, the first project which I took
+part in was successfully completed. Our analytical cal- Being thus vigorously motivated, I conceived of a
+culation was receiving a considerable attention, and my method that would, ideally, meet the following criteria:
+V
+
+
+
+
+
+contribution to it was such that there was no doubt in my My method would reduce human intervention to an
+mind that it would be my Ph.D. thesis. However, the absolute minimum. First, because my eyesight was at
+senior member of our team of three intimated to me that stake. Second, although I remember being able (then) to
+the result would go instead into another thesis that would expand -functions in 2-loops pretty reliably, I was less
+W
+
+
+
+
+
+not be able to get composed "otherwise" (which was true sure about 3 loops.
+X
+
+
+
+
+
+beyond any shade of doubt). The deal (in which I had no That meant computer algebra and SCHOONSCHIP [8],
+negotiation powers) was accompanied by a swift promo- so that my ideal method would be basically simple to
+tion of the senior member.c A concrete reward for me make a program impleme
+X ntation feasible.
+was a deterioration of my eyesight by two diopters as a
+Third, the usual approach was (and largely remains)
+result of my innocent calculational enthusiasm. Moreo-
+to do all basic integrals "analytically" (i.e. by hand in the
+ver, due to the rigidity of Soviet system and my then in-
+usual human fashion) and leave to computer only traces,
+significance, I was stuck in that vulnerable position for
+scalar products, and substitutions of answers for the basic
+what seemed to be forever, although I was too light-
+ v2 7 Nov 1998 integrals. Since there were so many different integrals in
+hearted and inexperienced at the time to foresee all the
+3 loops, I decided that such an approach was unaccept-
+arXiv: v2 7 Nov 1998 consequences (which may have been just as well). able: My method would have to do something about all
+But research was fun and the next level of complexity
+those int
+X egrals too.
+
+a A number of papers in the proceedings of all AIHENP work- Lastly, my ideal method -- my baby -- had to be
+shops discuss calculations that make an essential use of identi- beautiful . That was the only kind of consolation I could
+ties obtained via differentiations in momentum space. expect to obtain with any degree of certainty.
+b often undocumented; but cf. an unsuspecting citation in [5]. (NB The list is by no means obsolete after 15 years.)
+Of course, Germany (say) is rich enough to afford some over- Where did I have to look for such a method? When-
+head, especially if one takes into account the grant-fetching ever one has to start from scratch (which one has to do
+¢¡¤£¦¥¦£¨§©¥
+
+
+value of the Russian multiloop expertise. However, " surprisingly often [7], [9]), a little philosophizing at the
+§ ¡ ¡#§ ¡ ¡'¡(§)¥0£ ¥2£¦34)5¡ ¡ ¡98@3 ¥ A
+
+
+
+
+
+¤ "! %$ ¤¤& !1 6¤7
+
+
+
+
+
+level of first principles is appropriate (because nothing
+§ ¡S§ £
+
+
+CB#DEFHG IP&!¨¤¤QR T ¤U " [6]
+c works like a sound first principle implemented with due
+Human nature is, of course, much the same everywhere in the simplicity and relentless logic):
+world. But one ought to remember about behavioral and social One general consideration was not unknown (see e.g.
+renormalization factors -- in the present case, roughly,
+Mr. James Carter over tovarishch Leonid Ilyich [Brezhnev]. [10]) but rarely heeded, namely, that best algorithms for
+
+
+F.V. Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996) 309  2
+
+
+
+
+computer algebra applications should avoid imitating sible variants and trying to combine them in all sorts of
+human ways of doing formulas. A rule of thumb is, one ways. It would have been easier to deal with 2-loop dia-
+has to trade the true complexity of the amazing pattern grams, but I did not know the answer and chose the 3-
+matching that human beings are capable of, for a dull loop ladder as my playing ground, so it took several
+hugeness of more or less uniform data structures (e.g. months to stumble upon the celebrated triangle relation
+polynomials) that computers are so good at. A difficulty [1]. That took care of planar diagrams. A little more ef-
+here is that one has to understand quite well what's go- fort yielded me non-planars in terms of one basic non-
+ing on inside computer algebra systems. Another diffi- planar diagram (as well as a rebuke for having failed to
+culty is in imagining an "analytical" algorithm that one explain sooner the entire significance of differential
+may not even be able to perform oneself. identities). I had a complete algorithm but could not re-
+Furthermore, "calculation" is nothing but a "trans - sist the temptation of wasting some more time discover-
+formation". In order to "transform" an object one has to ing (once a week or so) ways to reduce the one remaining
+understand its "structure". What is "structure" of 3-loop scalar non-planar integral to planar ones before the algo-
+massless self-energy integrals? (Exercise Answer this rithm was submitted for publication.
+before reading on.) First of all, it is the set of identities But that was not the whole story. When actual pro-
+expressing momentum conservation at vertices. That is gramming of the algorithm based on pure recursions [1],
+already used in simplifications of scalar products in nu- [2] was attempted, it proved a failure (the huge program
+merators. Next, "masslessness" means that Euler's ide n- simply would not work as a whole). The project remained
+tity Q f (Q) = f (Q) holds for massless self-energies at a standstill until an explicit solution of the triangle
+with Q the external momentum. (At that point I already recursion was found [3]. It resulted in a great speedup in
+knew better to be bothered by comments about how it was both debugging and performance of the program which
+silly to attempt to do integrals by differentiations.) Doing finally began to turn diagrams into numbers in a way that
+differentiation on the integrand and simplifying scalar caused me to baptize it "MINCER". I emphasize a central
+products one obtains an identity connecting several dif- role of that solution in the actual functioning of
+ferent integrals. The identity depends on how Q is passed MINCER [4] because misleadingly few references have
+through the propagators, so I started writing out all pos- been made to the fact in the literature.
+
+--------------------
+
+
+What's Next? Lastly, the true purpose of algebraic identities is not so
+...For the duration of 40 hours he was expounding to much to "calculate" the integrals as to make them
+Messrs. Gentlemen a great project, the execution of which simpler OR reduce their number.d
+subsequently brought a great glory to England and showed
+how far the human mind can reach out sometimes ! NB The meaning of "simpler" is, again, strictly co n-
+The Drilling Through The Moon With A Colossal Auger text-dependent: in the case of numerical integration it
+-- such was the subject of Mr. Lund's speech !... [11] need not mean "fewer terms" in the integrand but e.g.
+"more continuous derivatives". For instance, the new
+The range of applications of algebraic algorithms of multidimensional integration package MILX [15]
+the conventional type (differential identities in momen- provides an option of using higher-order quadratures
+tum space [1]) continues to expand (cf. the recent appli- along with Monte Carlo, thus greatly improving per-
+cations to the electron magnetic moment [12] and to the formance when integrands are sufficiently smooth.
+effective heavy quark theories [13]). What I'd like to
+discuss now is the case of integrals with several external So, let x = (x , , xK )
+1 K be the vector of Feynman pa-
+parameters (s, t , masses etc.), which is vital in modern rameters; S is the integration region, a simplex described
+high energy physics applications. by x > 0; x < 1; j = 1,K, K ( dim );
+j j j K S Q(x)
+First of all, with several parameters in the problem,
+the variety of analytical details is so enormous that one is and V x
+i ( ) are arbitrary polynomials of x with symbolic
+driven by desperation and logic to ignore them all and to coefficients; µi are symbolic (complex, transcendental)
+consider calculation of an arbitrary multiloop integral -- parameters. Consider integrals of the form
+however preposterous such an idea may seem!
+Second, one has to be clear about the meaning of
+"calculation". The enormity of the problem forces one to
+interpret it in a strictly pragmatic fashion as obtaining d Contrast this with the "algebraic calculability" of [14] which
+a family of "satisfactorily fast" algorithms to produce attempts to normalize the spectacular success achieved in the
+required curves. Such algorithms need not be based on case of massless self-energies which was merely a matter of
+"analytical" formulas. In fact, with many parameters in luck. A situation much more like what I envisaged in the be-
+the problem, numerics at the final stage can hardly ever ginning occured in the case of anomalous magnetic moment
+be avoided. where everything reduces to 18 independent integrals [12].
+
+
+F.V. Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996) 309  3
+
+
+
+
+µ -1 µ+1 µ
+x
+d Q(x) V i ( x
+z ) . (1) b P (x, )V ( x) = V (x) , (4)
+i
+S i
+where both b and P depend polynomially on and on
+
+
+
+
+
+
+Dimensionally/analytically regulated diagrams are ob- the coefficients of V. Take V ( x) = V (x) , perform the
+tained by appropriate choices of Q(x) , V x i i
+i ( ) and µi . differentiations in (4), cancel the symbolic powers and
+µi are equal to a fixed integer (denoted ni ; it can be equate coefficients of monomials of x on both sides; one
+positive, negative or zero) plus a symbolic part (denoted obtains a linear system of equations for the unknown
+i ): i are regarded as infinitesimal because an expan- coefficients of P . Bernstein's result is equivalent to ex-
+sion in istence of a non-zero solution of the system, i.e. some
+i has to be performed ultimately. The point is
+that, whereas the integral (1) may be well-defined as a determinant is non-zero. Perform a similar reduction for
+meromorphic function of µ (3), and compare the resulting linear system with that
+i , the expansion in i may obtained for (4). The former differs from the latter by
+not be performed directly in the integrand because some replacements of different entries of by different µ
+
+n i , so
+i may be too large and negative. that the determinant mentioned above cannot be zero.
+The structure I propose to exploit can be described as Therefore, the system has a non-zero solution, which
+"polynomials to symbolic powers" and is fully specified yields the identity (3) with the coefficients of P that are
+by (1): no further information about V x
+i ( ) will be used. rational functions of both µi and the coefficients of
+The key result I would like to present is as follows: V x
+i ( ) . Taking out all the denominators and combining
+Theorem A ("algorithm of algorithms of algebraic them into B yields (3). ¡
+multiloop calculations"). Any integral (1) can be re- P r o o f o f T h eo r em A One iteratively performs re-
+duced -- via a finite number of purely algebraic steps -- placements of the integrand with the corresponding l.h.s.
+to the following form with any given integer 0 : of (3) and performs integrations by parts to get rid of the
+1 differentiations. One does this (with appropriate P and
+x
+d ' Q' (x') +
+V i (x' )
+, (2)
+z i
+B B ) also for all integrals corresponding to the boundary
+S ' S i
+' terms resulting from integration by parts. After a finite
+where the sum contains a finite number of terms; S' can number of iterations the integer parts of all complex
+be either S or any of its boundary simplices with vari- powers become . ¡
+ous dim S' S ( dim S' = 0 is allowed); x' parameterize In dimensionally regulated diagrams, all i are linear
+S' in a natural fashion (e.g. some sets x' are obtained combinations of one symbolic parameter . This may
+¢
+
+
+
+
+
+by nullifying certain components of x ); Q'( x' ) are cause problems due to nullification of some B . That
+polynomials of x' ; B' are independent of x' ; B' and all would mean a breakdown of dimensional regularization
+coefficients of Q'( x' ) are polynomials of all µi and of so that an additional analytic regularization would have
+the coefficients of Q(x) and V x to be used to make all
+i ( ) ; V x
+i ( ' ) are restric- i independent. But since the
+identities (3) have to be found for arbitrary
+tions of V x i anyway (to
+i ( ) to the corresponding boundary simplices handle integrals with different integer parts of
+S' ; all numeric coefficients involved are integer. i ), there
+is no practical problem here. £
+The proof uses the following result:
+Discussion
+Theorem B ("generalized Bernstein functional
+equation"). For any finite set of polynomials V x · The operators P for the same topology but different
+i ( ) mass patterns need not be connected in any simple way.
+there exists an identity of the following form: · There is an infinite family of non-trivially different
+1
+B-1 +
+P (x, µ µ
+) V i (x) = V i (x) , (3)
+i i operators P satisfying (3) for the same V x
+i ( ) .
+i i · The only way, known to me at the time of this writ-
+where P ( x, ) is a polynomial of x and =
+i / ix ; B ing, of finding the polynomials P is via a direct study of
+and all coefficients of P are polynomials of µi and of the linear system of equations for the unknown coeffi-
+the coefficients of V x
+i ( ) . cients of P (cf. the proof of Theorem B). This is cumber-
+some (the form of the system depends on the degree of P
+P r o o f o f T h eo r em B Using methods of abstract
+algebra ("finitely generated ideals" of "graded left mo d- w.r.t. derivatives), but one has to find such an identity
+ules", etc.), one can establish (see e.g. [16]) existence of only once for each topology/mass pattern, and only poly-
+identities (3) for the case of exactly one (arbitrary) poly- nomial algebra with rational coefficients is involved.
+nomial -- a result known as the Bernstein functional · Multiplying both sides of (3) from the left by some of
+equation: V x
+i ( ) 's and absorbing the latter into P on the l.h.s., one
+
+
+F.V. Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996) 309  4
+
+
+
+proves existence of identities with only a subset of expo- F bx Agx I
+1 + µ 1
++ µ
+nents raised by +1, with others intact. In general, the 1- ( ) ( ) , (5)
+HG V x V x
+2(µ + 1) KJ =
+family of operators of this latter form contains ones that
+cannot be obtained from (3) as just described. These ad- where = - T ~- T ~ -
+Z R V 1
+e Rj and A = R V 1 . (Special
+ditional identities may result in more economical algo-
+rithms (iteratively raising each symbolic power to exactly cases of this relation in integral form have been known
+the minimal value required for achieving the desired for some time; cf. [18].) (Exercise Write this out for
+~
+smoothness of the integrand). your favorite one-loop integral.) (NB If V is singular
+· Similarly, one can directly seek an identity with +1's then one should determine its null space and treat trans-
+on the l.h.s. replaced with + N
+i 's with required Ni 0 verse and longitudinal coordinates separately.) Usually,
+(or even with some N < one first reduces non-scalar one-loop integrals to scalar
+i 0 if the integer part of the i -th
+original power was already positive), and with Q on the ones and then uses formulas for the latter in terms of
+r.h.s. This is similar to explicit solution of recurrent re- dilogarithms etc. -- a typical example of a procedure
+lations in the conventional algorithms [3], [12]. motivated by how human beings perform calculations.
+· More iterations make integrands smoother, but the The computer-oriented approach based on (5) is to apply
+original integrals did have singularities in external pa- it iteratively to the integrand (with all the numerators)
+rameters! The paradox is resolved by noticing that the until required regularity is achieved; then one can take
+denominators B have zeros. Those zeros, therefore, must advantage of the numerical integration schemes that em-
+correspond to both threshold singularities (hence B must ploy higher-order quadratures such as MILX [15].e
+be connected to determinants of the system of Landau · For 2-loop diagrams, the situation is as follows. For
+equations) and to the poles in D - 4 (in the case of di- the simplest sunset topology, if P is second order w.r.t.
+mensional regularization). 's (a minimal possible number of derivatives that
+· It follows that the algorithm automatically extracts yields a non-trivial identity (3)) then P has 5-th powers
+the poles in D - 4 : just expand integrands in the end in of x 's. ( NB The maximal powers of 's and x 's are ant i-
+D - 4 ; complex powers give rise to integer 0 powers correlated.) This is quite cumbersome, but it is a dull
+of V x complexity of a polynomial.
+i ( ) and logV ( x)
+i ; all the poles come from B 's.
+With well-defined integrals for the coefficients of the · Being a monotonous repetition of the same cumber-
+poles, their cancellations may be checked numerically. some algebraic identity, the algorithm is as unfitted for
+· Due to zeros of B's, the numerical advantage of hand calculations as it is perfect for programming.
+smoother integrands is lost near thresholds (where nu-
+merical convergence is poor anyway) due to cancellations Conclusions
+in the sum (2). However, the regions near thresholds may It took about 10 years for MINCER [4], an implementa-
+be systematically treated via asymptotic expansions ob- tion of the first algebraic multiloop algorithm [1]­[3], to
+tained by the method of asymptotic operation [7]. deliver reliable results. The amount of algebra involved
+· The identities of the original "integration-by-parts" in the construction and iterative application of (3) is even
+algorithm [1]­[2] can be regarded as special cases of (3). greater, and may prove huge enough to prevent the new
+In that sense, Eq. (3) represents the most general basic "algorithm of algorithms" from being actually used b e-
+type of algebraic identities for multiloop integrals, which yond one loop to any greater extent than the SONG OF
+justifies the name of Theorem A. Concerning the identi- SONGS is sung.
+ties connecting integrals with different values of the But consider this: If an identity (3) is explicitly con-
+space-time dimension D (cf. [18], [20], [19]), one notices structed for a given topology/mass pattern, then it simul-
+that D enters exponents of different factors with different taneously does the following things -- each of which
+signs, whereas in (3) all exponents change in the same would normally be an achievement per se:
+direction. So one cannot naturally interpret the new ¡
+It reduces integrands to a form that is optimal for
+identities as recurrences w.r.t. D (beyond one loop).
+· numerical integration.
+As a simple application, consider dimensionally
+¡
+regulated one-loop integrals which contain just one com- It allows straightforward program implementation.
+plex exponent, z -n-
+x
+d Q( x)V (x) , where n is a non- ¡
+S It explicitly extracts all (!) the poles in D - 4 .
+negative integer, is the complex regularization pa-
+
+
+
+
+
+
+Taking into account the unrestricted generality of the
+rameter, and V ( x) is a quadratic polynomial of x .
+~ new approach (it is applicable -- at least in theory --
+Without loss of generality V ( x) x V
+T x 2RT
+= + x + Z to any multiloop integral, including ones with, say, non-
+~
+where V is a K × K matrix and R is a K-vector. Then relativistic propagators etc. etc.) and the pace of progress
+
+
+e A specialized version of MILX is to be made available.
+
+
+F.V. Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996) 309  5
+
+
+
+
+of computer industry, it looks like it might possess a po- constructing an identity (3) for one's favorite two-loop
+tential to relieve us from some grueling chores in future topology.
+and to give a boost to the industry of loop calculations A c k n o wl ed g m en t s The trigger for this work was a
+(which needs it [21]; remember also the funds that went conversation with K. Kato at the Xth Zvenigorod work-
+into the lattice QCD). The operators P could be found by shop (INP MSU, September, 1995) concerning numerical
+solving a system of linear algebraic equations for their computation of loop integrals within the framework of
+coefficients -- a highly cumbersome procedure given all the GRACE project [22]. I thank N. Sveshnikov for a dis-
+the symbolic parameters involved (D, masses etc.) but cussion, and J. Vermaseren, D. Perret-Gallix and V. Ilyin
+requiring nothing that would go much beyond the stan- for helping a signal to get through. Financial support
+dard arsenal of polynomial computer algebra. So, anyone came from AIHENP' 96, ISF-Logovaz and the Russian
+equipped with a sufficiently fast and reasonably flexible Foundation for Basic Research (grant 95-02-05794).
+computer algebra system may already try one's hand at
+
+--------------------
+
+
+[1] F. V. Tkachov, Phys. Lett. 100B (1981) 65. [14] D. J. Broadhurst, Which Feynman diagrams are algebrai-
+[2] F. V. Tkachov, Methods of multiloop calculations in cally computable?, in Proc. II Int. Workshop AIHENP'92
+perturbative quantum field theory, Thesis, (INR, (Ed.: D. Perret-Gallix; Paris, 1992).
+the USSR Acad. Sci., Moscow, 1984); [15] G. I. Manankova, A. F. Tatarchenko, and F. V. Tkachov,
+K. G. C h e t y r k i n and F. V. Tkachov, Nucl. Phys. MILXy Way: How much better than VEGAS can one inte-
+B192 (1981) 159. grate in many dimensions? preprint FERMILAB-Conf-
+[3] F. V. Tkachov, Theor. Math. Phys. 56 (1983) 350. 95/213-T.
+[4] S. G. Gorishny, S. A. Larin, L. R. Surguladze, and [16] J.-E. Björk, Rings of differential operators (North-
+F. V. Tkachov, Comp. Phys. Comm. 55 (1989) 381; Holland, New York, 1979).
+S. A. Larin, F. V. Tkachov and J. A. M. Vermaseren, The [17] F. V. Tkachov, in Proc. Joint Int. Workshop on High
+FORM version of MINCER, preprint NIKHEF-H/91-18 Energy Physics (Zvenigorod, 1993; Ed.:
+(Amsterdam, 1991). B. B. Levtchenko; INP MSU, Moscow, 1993), [hep-
+[5] W. van Neerven, in New Techniques for Calculating .
+Higher Order QCD Corrections, (Ed.: Z. Kunszt; ETH, [18] Z. Bern, L. Dixon, and D. A. Kosower, Nucl. Phys. B412
+Zürich, 1992). (1994) 751.
+[6] Proverbs 29:24. [19] P. A. Baikov, Explicit solutions of n-loop vacuum integral
+[7] F. V. Tkachov, in Quarks-82. Proc. Int. Seminar, (Eds.: recurrence relations, preprint INP-96-11/418 (hep-
+A. N. Tavkhelidze et al.; INR, the USSR Acad. Sci., Mos- .
+cow, 1982); Euclidean asymptotics of Feynman integrals, [20] O.V. Tarasov, Connection between Feynman integrals
+preprint INR P-332 (Moscow, 1984); Int. J. Mod. Phys. having different values of the space-time dimension, pre-
+A8 (1993) 2047; Sov. J. Part. Nuclei 25 (1994) 649. print JINR E2-96-62 .
+[8] M.Veltman, SCHOONSCHIP, CERN preprint (1967). [21] D. Cassel, The DPF Long Term Planning Report and
+[9] F. V. Tkachov, Int. J. Mod. Phys. A12 (1997) 5411 (hep- Snowmass 1996, talk at the Fermilab Users Annual
+. Meeting (July, 1995).
+[10] D. Barton, J. Fitch, Rep. Prog. Phys. 35 (1972) 235. [22] Minami-Tateya Collaboration, Numerical Approach
+[11] A. P. Chekhov, Flying Islands (1883). toward Automation of Loop Amplitudes, in Proc. X Int.
+[12] S. Laporta and E. Remiddi, The analytical value of the Workshop on High Energy Physics (Zvenigorod, 1995;
+electron g - 2 at order 3 in QED, preprint DFUB-96/05 Eds.: B. B. Levtchenko and V. I. Savrin; INP MSU, Mos-
+
+
+
+
+
+
+. cow, 1996).
+[13] D. J. Broadhurst and A. Grozin, in Proc. IV Int. Workshop
+AIHENP'95 (Eds.: B. Denby et al.; World Scientific, Sin-
+gapore, 1995).
+
+
+

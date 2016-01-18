@@ -1,0 +1,237 @@
+CRITICISM OF "NECESSITY OF SIMULTANEOUS CO-EXISTENCE OF
+INSTANTANEOUS AND RETARDED INTERACTIONS IN CLASSICAL
+ELECTRODYNAMICS"1
+
+J. D. JACKSON
+Department of Physics, University of California, Berkeley .
+Berkeley, CA 94720, USA
+
+The demonstration that the electromagnetic fields derived from the Liénard-Wiechert potentials do not satisfy the
+Maxwell equations is proved to be false. Errors were made in the computation of the derivatives of retarded
+quantities. The subsequent inference of the necessity of both instantaneous and retarded electromagnetic interactions
+cannot be made. Different choices of gauge can lead to a variety of forms for the scalar and vector potentials, always
+with the same retarded fields. Classical electromagnetic theory is complete as usually expressed. One may choose
+to work in the Lorenz gauge in which all quantities are retarded.
+
+1. Introduction
+The authors of this paper1 make the claim that the electric and magnetic fields derived
+from the Liénard-Wiechert potentials for a charged particle in arbitrary motion do not satisfy the
+Maxwell equations. In particular, they purport to show that the fields do not satisfy the
+Maxwell equation corresponding to Faraday's law. This claim is particularly puzzling since the
+structure of the two homogeneous Maxwell equations (Faraday's law and absence of magnetic
+charges) are what permit the introduction of the scalar and vector potentials in the first place.
+The expressions for the fields in terms of the potentials,
+
+
+r r r
+A r r r
+E = - - ; B = × A (1)
+c t
+
+are such that the equations representing Faraday's law and the absence of magnetic charges,
+
+r r r r r
+× B
+E + = 0 ; B = 0 (2)
+c t
+
+are satisfied automatically. Yet the authors begin with the Liénard-Wiechert potentials, which are
+derived from the retarded solutions in the Lorenz gauge with a point charge source, find the well-
+known expressions for the electric and magnetic fields, and the proceed to show that Faraday's
+law is not obeyed! Apparently the authors believe only selectively in the mathematics of
+differentiation. If one substitutes the definitions (1) into the first equation of (2) one finds
+r r
+trivially × = 0 . Faraday's law must be satisfied!
+2. Source of the Mistake
+How can it be that the authors find the correct expressions for the fields by differentiation
+of the potentials with attention to the retarded nature of the expressions, yet fail to find
+Faraday's law obeyed? The answer is a fluke. The authors make two errors in computing
+
+
+2
+
+
+derivatives of the retarded expressions for the Liénard-Wiechert potentials. The first error occurs
+in their Eq.(11), first and third equations. They ignore a contribution to the spatial partial
+derivative for fixed time t from explicit spatial coordinate dependence (of the observation point),
+including only the implicit dependence through the retarded time t . The second error occurs in
+0
+the first equation in the unnumbered set of equations below Eq.(15). It reads
+
+R = - c (3)
+t0
+r r
+where R = r x - r x 0(t0 ), R is the magnitude of R , t = t - R(t )/c,
+0 0 r
+x is the observation point, and
+r
+x 0(t0 ) is the coordinate of the charged particle source. This first equation (3) is inconsistent
+with the correct second equation in that line. The correct result can be found as follows.
+Consider the time derivative of R2 with respect to t :
+0
+
+R2 3 R r r
+= R
+2R = 2 R j = - 2 R V (4)
+t t j t
+0 0 j =1 0
+
+The final step results from using the authors' correct second equation in the line. Hence we find
+
+r
+R = - R r V (5)
+t0 R
+This must replace the incorrect equation (3).
+
+3. The Correct Fields? How?
+Given two mistakes, how did the authors managed to obtain the correct Liénard-Wiechert
+fields? The answer is a lucky cancellation of an error in the gradient of the scalar potential with a
+compensating error in the time derivative of the vector potential. Explicitly (with unit charge for
+simplicity), one finds a term in the gradient of the scalar potential beyond the authors:
+
+r
+r r
+= r r +
+( t0 (6)
+R - R )2 t0
+
+
+The derivative with respect to t is the authors' Eq.(16). A compensating term occurs in the
+0
+time derivative of the vector potential,
+
+r r r
+A -
+= + t0 A (7)
+c t r r
+(R - R )2 t c t0
+
+
+
+3
+
+
+where the derivative with respect to t here is the authors' Eq.(18). In the sum the two added
+0
+terms cancel to give them the well-known correct Liénard-Wiechert electric field.
+The correct Liénard-Wiechert magnetic field emerges similarly. The correct computation
+r
+of the curl of A yields
+
+r r
+r r × r r r r
+× A A
+A = r r + =
+( t0 × t0 × . (8)
+R - R )2 t0 t0
+
+The last form is the authors' Eq.(13).
+
+4. Faraday's Law is Obeyed
+The fact that the authors' errors still gave the correct results for the fields is unfortunate.
+Armed with a mistaken faith in their (erroneous) method of calculation, they proceed to compute
+the necessary derivatives to test Faraday's law. They do not show any of the intermediate
+steps, but they do stress that they use the incorrect (3) instead of (5). Unfortunately for them, a
+fortuitous cancellation does not occur. Consequently they "prove" that Faraday's law is not
+valid.
+The Liénard-Wiechert fields are
+
+
+r r · ·
+E
+k = 1 (1 - 2 + R / c)( Rk - R k ) - ( R)R k / c (9)
+( R )3
+
+
+B i = i jk Rj Ek / R (10)
+
+r r r r · r
+where = 1 - R / R , = dr
+x = d /dt
+0(t0 )/ cdt0 , 0 are convenient shorthands, and all
+quantities are to be evaluated at the retarded time t = t - R(t )/c. Unlike the potentials they are
+0 0
+r r r
+not merely functions of (R - R ) and . Other derivatives enter. While the result of the
+substitution of the fields (9) and (10) into the equations (2) is a foregone conclusion (if one
+believes in mathematics), the explicit verification needs the following full set of derivatives:
+
+
+·
+R R R
+= j R
+; k = j k
+j k + k Rj ; k = -
+xj R x j R x j c R
+(11)
+
+
+4
+
+
+( R) R r r ·
+= j 1 - 2 + R / c -
+x j
+j R
+
+
+and
+r
+R r ·
+= - R R
+; k = - k / ; k = k /c
+c t R c t c t
+(12)
+
+r r ·
+( R ) r r 2
+= - R - R +
+c t R c
+
+r ·
+The derivatives of follow similarly.
+With these derivatives some elementary but tedious algebra shows that the fields (9) and
+(10) do indeed satisfy both of the homogeneous Maxwell equations (2), as well as the other two
+Maxwell equations.
+
+5. Failure of Subsequent Arguments
+The authors argue that the failure of the Liénard-Wiechert fields to satisfy the Maxwell
+equations implies the necessity for modification of electromagnetic theory along the lines of an
+earlier paper.2 In that paper one of the authors and another collaborator consider a charge in
+motion in a straight line with constant acceleration. They purport to show that the parallel
+component of the Liénard-Wiechert electric field (which they write down correctly) does not
+satisfy the wave equation on the line of motion. Now, this is again evidence of a selective belief
+in mathematics. The Liénard-Wiechert fields are obtained by differentiation from potentials that
+are retarded solutions of the wave equation. Starting with the wave equations for the scalar and
+vector potentials, one can by suitable differentiation and allowable interchange of orders of
+differentiation reach the conclusion that the electromagnetic fields derived from those potentials
+do (must!) satisfy the wave equation. Double differentiation of the fields (9) and (10) leads to
+the same result. All components of the fields satisfy the wave equation.
+In arriving at their false conclusion, these earlier authors2 do not show any intermediate
+steps, but they do write down at least one incorrect differentiation chain rule. On the basis of
+their wrong result, they argue for the necessity of both conventional retarded interactions and
+instantaneous, action-at-a distance interactions. Since the original demonstration is incorrect, the
+subsequent arguments have no basis. It is of course known that in certain gauges the potentials
+
+
+5
+
+
+can contain both retarded and instantaneous contributionsa. But there is no necessity for such a
+mixture. And the fields are always retarded, except in the strict static limit. Electromagnetic
+theory is complete in any chosen gauge. In the familiar Lorenz gauge all quantities, potentials and
+fields, are retarded.
+_________________________________
+a A paper addressing this issue and the related misconception that the fields obtained from
+potentials of different gauges can be different is to appear elsewhere.
+_________________________________
+
+References
+1. A. E. Chubykalo and S. J. Vlaev, Int. J. Mod. Phys. A14, 3789 (1999).
+2. A. E. Chubykalo and R. Smirov-Rueda, Phys. Rev. E53, 5373 (1996)
+
+Proposed Running head
+Criticism of Chubykalo and Vlaev's papers
+
+
+

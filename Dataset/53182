@@ -1,0 +1,316 @@
+
+
+ 31 Aug 95
+
+DUKE-TH-95-84 Can a pseudo-symmetry solve the cosmological constant
+
+problem?
+
+S.R. Beaney Department of Physics, Duke University
+
+Durham, NC 27708
+
+sbeane@phy.duke.edu
+
+ABSTRACT A general no-go theorem dampens hope that the cosmological constant problem can be solved by a local symmetry mechanism. The possibility is considered here that this no-go theorem can be avoided by a pseudosymmetry. A simple macroscopic effective field theory is constructed which admits an enhanced pseudo-symmetry in the absence of a cosmological term. It is pointed out that this pseudo-symmetry is an exact classical invariance of superstrings. The conjecture that this pseudo-symmetry survives in the quantum theory has several interesting consequences.
+
+To appear in Physics Letters B y This work was supported in part by the
+
+U.S. Department of Energy (Grant DE-FG05-90ER40592).
+
+2 The cosmological constant is very small at macroscopic scales. Since there is no evidence whatsoever of non-local phenomena in nature, the most conservative approach to the cosmological constant problem is to attempt to identify a workable symmetry mechanism in the macroscopic effective theory [1]. The source of the symmetry mechanism in the underlying theory is a separate issue. These statements lie at the heart of the effective field theory paradigm: One can always describe a particular physical phenomenon at the characteristic scale at which the phenomenon is relevant, without having to understand physics at other scales [2]. For example, we thankfully need not know where U (1) electromagnetism comes from in the underlying theory in order to find its consequences useful at low-energies.
+
+Here we take the conservative point of view; that is, we assume that the mechanism which renders the vacuum energy small is local. Very general considerations then require that there exist at least one quantum in the mili-eV range that has not yet been observed [1]. Unfortunately, this conservative viewpoint immediately runs into serious trouble. There exists a general "no-go" theorem which seems to eliminate the possibility of a solution based on a local symmetry argument [3]. Evidently, even if we assume the existence of unobserved quanta, there is no escaping an undesirable fine-tuning of parameters.
+
+In this letter, we will investigate the possibility that this no-go theorem can be circumvented by a pseudo-symmetry. That is, we will allow coupling constants to transform as well as fields. To our knowledge, this approach has never before been considered in the literature. We will first construct a toy effective field theory based on a non-linearly realized scale invariance and demonstrate the content of the no-go theorem. We focus on scale invariance because we can think of no other potentially relevant symmetry with non-trivial action on the metric field. Consider a global scale transformation:
+
+g_* \Gamma ! e
+
+\Gamma 2*g_*
+
+OE \Gamma ! OE + *M i \Gamma ! e*Dii:
+
+(1)
+
+General coordinate invariance, which is assumed, relates this transformation to one in which the coordinate scales, rather than the metric [4]. i is a general field coordinate with scale dimension matrix Di. The scalar field OE can be thought of as the Goldstone boson of broken scale invariance (a dilaton), as suggested by its transformation law. M is then the scale of spontaneous symmetry breaking. (In what follows, M is scaled out for notational convenience.)
+
+An interesting feature of this symmetry is that anomalies play a central role in its realization. This can be seen by way of the following argument [5]. A scale invariant potential will satisfy V (ffO/) = ff4V (O/); where O/ is a scalar field with canonical scale dimension. It follows that V has a minimum at the origin, V is flat, or V is unbounded from below. Therefore, a scalar field in a scale invariant theory can have a non-vanishing vacuum expectation value (VEV) if either (i) the potential is flat, or (ii) the scale invariance is anomalous. A linearly transforming field is readily constructed out of OE: O/ j eOE. Since hO/i 6= 0 for finite1 hOEi, if there is a non-trivial equilibrium point, either the dilaton
+
+1 Here we ignore the possibility of a "runaway" minimum.
+
+3 is a pseudo-Goldstone boson or the dilaton potential is flat. This has a very interesting consequence: If a dilaton solves the cosmological constant problem, the cosmological constant is not identically zero, since there always exists a scale at which a massive dilaton can be integrated out. (For example, in the absence of the dilaton there would be nothing to protect the vacuum against electromagnetic and gravitational fluctuations.) On general grounds, one would expect aeVAC ' (mOE)4. A rough cosmological bound [3] on aeVAC then
+
+implies mOE !, 10
+
+\Gamma 12GeV:
+
+Consider an effective field theory with all the massive particles in nature, except the dilaton, integrated out. The cutoff can be taken as the electron mass. For simplicity, consider first a toy model in which all symmetry breaking terms in the potential transform like the generic conformal anomaly
+
+fi (g)
+
+2g F
+
+a_* F_*a + mflm (g) _\Psi \Psi ; (2)
+
+where there is an implicit sum over all gauge and matter fields. The effective matter action takes the form
+
+Sm [OE; g] = \Gamma Z d4xpg V (OE) = Z d4xpg f\Gamma e4OE[\Delta 0 + OE\Delta 1 + e
+
+\Gamma OE\Delta 2]g (3)
+
+where V (OE) is the potential, and \Delta 0, \Delta 1, and \Delta 2 are c-number coefficients. It is a straightforward excercise to show that the second and third terms in Eq. (3) transform like the first and second terms in Eq. (2), respectively. The Einstein action2,
+
+SE [g] = \Gamma 12^2 Z d4xpg R; (4) can be made scale invariant by the replacement R ! Re2OE, and yet there is little motivation to do so. Here it is treated as an additional symmetry breaking term3 . The total action is then S[OE; g; A_; i; :::] = SE[g] + Sm[OE; g] + :::; where the dots include all derivative (including the dilaton kinetic term), and higher dimensional interactions of the dilaton, graviton, photon (A_), neutrinos (i), and any undetected forms of matter (e.g. axions?), consistent with the assumed symmetries.
+
+An equilibrium solution --constant in space and time-- to the dilaton field equation can be found such that
+
+0 = 4\Delta 0 + (4OEo + 1)\Delta 1 + 3\Delta 2e
+
+\Gamma OEo : (5)
+
+However, this is not the condition for a vanishing cosmological constant. The condition for a flat space solution of the Einstein equation is
+
+0 = \Delta 0 + OEo\Delta 1 + \Delta 2e
+
+\Gamma OEo: (6)
+
+2 Throughout, I follow the conventions of Ref. 3. 3 For consistency one should include a term e
+
+\Gamma 2OE\Delta 3 in (the square brackets of) the
+
+potential which transforms like the Einstein action. However, its inclusion adds no insight to the analysis.
+
+4 This constitutes an example of the no-go theorem. Evidently, scale invariance, in itself, is not enough to ensure a vanishing cosmological constant [3,6,7]. Nevertheless, one might consider the significance of what is missing. Eqs. (5) and (6) imply \Delta 1 = \Delta 2e
+
+\Gamma OEo . Under
+
+an infinitesimal scale transformation, Sm transforms as
+
+Sm [OE; g] ! ~Sm [OE; g] = Sm [OE; g] + fflZ d4xpg f\Gamma e4OE[\Delta 1 \Gamma \Delta 2e
+
+\Gamma OE]g: (7)
+
+Therefore, the extra fine-tuning condition obtains if the matter action is constrained to be scale invariant at the stationary point, or equivalently, if the vacuum is an infrared fixed point. In order that this condition be natural, it should emerge as a consequence of a symmetry of the effective theory. However, the no-go theorem in its general formulation seems to rule out this possibility [3]. This raises the question which is the focus of this letter: Does the action possess any helpful pseudo-symmetries?
+
+Any symmetry transformation relevant to the cosmological constant problem necessarily involves the metric field. With this in mind, note that Sm is invariant under the pseudo-symmetry transformation:
+
+OE \Gamma ! OE + a g_* \Gamma ! e
+
+\Gamma 2ag_*
+
+\Delta 0 \Gamma ! \Delta 0 \Gamma a\Delta 1 \Delta 2 \Gamma ! ea\Delta 2:
+
+(8)
+
+It is convenient to eliminate \Delta 0 by the equation of motion, Eq. (5), and reexpress the action in the form
+
+Sm[OE; g] = Z d4x(pge4OEo ) f\Gamma e4(OE
+
+\Gamma OEo)[ ~d1(OE \Gamma OEo \Gamma 1
+
+4 ) + ~d2(e
+
+\Gamma (OE\Gamma OEo) \Gamma 3
+
+4 )]g; (9)
+
+where ~d1 j \Delta 1 and ~d2 j \Delta 2e
+
+\Gamma OEo. This change of "basis" serves to illustrate that a
+
+shift in the coupling constants simply reparametrizes the dilaton VEV; ~d1 and ~d2 are, by construction, invariant under the transformation of Eq. (8), and so in the new basis, Sm is manifestly invariant under the transformation
+
+OE \Gamma ! OE + a g_* \Gamma ! e
+
+\Gamma 2ag_*
+
+OEo \Gamma ! OEo + a:
+
+(10)
+
+A priori, this transformation (or equivalently that of Eq. (8)) is not a pseudo-symmetry of the full theory, since the Einstein action, Eq. (4), is not an invariant. Moreover, the rescaling of the metric renders the vacuum energy OEo-dependent: hT __ (OEo)i = e4OEo ( ~d1 \Gamma ~d2): This is clearly problematic since the vacuum energy is a real measurable quantity in the presence of gravity. It is still possible to realize this invariance on the full theory; Sm must be constrained to vanish at the stationary point ( ~d1 = ~d2). Although the Einstein action is rescaled by the transformation, the Einstein equation, R_* = 0, is clearly an invariant (flat spacetime looks the same at all scales). One might expect the overall normalization of the Einstein action (quantum corrections) to become relevant when higher dimensional operators like ffR2 become important4. It is therefore gratifying that on general grounds
+
+4 Note that this operator is present even if the gravitational field is not quantized [8].
+
+5 this operator is suppressed relative to the Einstein term by a factor q2=M 2p , where q , mOE is a characteristic momentum in the effective theory. What about other sectors of the effective theory? Clearly Eq. (10) is an invariance of the full effective theory only if all operators involving matter and gauge fields are scale invariant; that is, only the dilaton potential can break the scale invariance. This is easily accomplished by inserting appropriate powers of the dilaton field where necessary (for example, \Gamma pgm _eOE is an invariant fermionic mass term). There is then a sense in which the cosmological constant is a natural parameter [9] in this toy effective theory, since in its absence, there is an enhanced pseudo-symmetry under the transformation of Eq. (10).
+
+Now we will show that the pseudo-symmetry, Eq. (10), implies a vanishing vacuum energy, independent of the specific form of the potential. Note that in the toy model, for finite values of OEo, hT __ (OEo)i is independent of OEo if and only if it vanishes. This suggests that the vacuum energy might vanish by an equation of constraint. Consider the classic example of reparametrization invariance: electrodynamics. Gauge invariance renders the time component of the vector potential, Ao, arbitrary. So one can always choose Ao = 0. However, one must also impose the condition, ffiS=ffiAo = 0 (Gauss's law), as an equation of constraint. In the present context, consider the following general argument with any number of scale anomalies, Na. Pseudo-symmetry of Sm can be expressed via the Ward identity:
+
+0 = ffig_* ffiSmffig
+
+_* + ffiOE
+
+ffiSm
+
+ffiOE + Xi ffi\Delta i
+
+ffiSm
+
+ffi\Delta i ; (11)
+
+where i ranges from 0 to Na. The \Delta i represent the undetermined dimensional parameters in the potential. The existence of a non-trivial equilibrium point implies
+
+0 = ffig_* ffiS
+
+om
+
+ffig_* + Xi ffi\Delta i
+
+ffiSom
+
+ffi\Delta i ; (12)
+
+where the superscript signifies that the action is at the equilibrium point. The freedom in choice of OEo can be expressed via the chain rule as
+
+ffiSom
+
+ffiOEo = Xi
+
+ffi\Delta i
+
+ffiOEo
+
+ffiSom
+
+ffi\Delta i =
+
+ffiSo
+
+ffiOEo : (13)
+
+In the last step, use has been made of the fact that only the potential varies with OEo. The definition of the energy-momentum tensor can then be used to obtain
+
+hT __ i = 1pg ffiS [OEo; g]ffiOE
+
+o : (14)
+
+The assumed pseudo-symmetry implies that the effective theory is invariant under relabelings of OEo, and so the equation of constraint guaranteeing an invariant vacuum energy is simply hT __ i = 0. A vanishing vacuum energy is therefore a natural consequence of the pseudo-symmetry, Eq. (10). Several general comments are in order. We must have Na ? 0 in order that an equilibrium point exist. However, it is easy to see that unless Na * 2, the system is overconstrained and the potential vanishes. The toy matter action, subject to
+
+6 V(f)fl
+
+fflofl ffloflfflofl1fl 2fl (a)fl (b)fl
+
+Figure 1: The dilaton potential. There are two ways in which the pseudosymmetry of Eq. (10) can be realized. In (a), the potential is non-zero and has a global minimum where the potential vanishes (non-supersymmetric realization). In (b), the potential is flat (supersymmetric realization), and the pseudo-symmetry is implicit.
+
+the equation of constraint, can be expressed in the form
+
+Sm[OE; g] = Z d4x(pge4OEo ) fm2M 2e4(OE
+
+\Gamma OEo)[1 \Gamma (OE \Gamma OEo) \Gamma e\Gamma (OE\Gamma OEo)]g; (15)
+
+where m2 = m2OE when OEo = 0. The potential is plotted in Figure 1a.
+
+What has been gained by this analysis? The name of the game is to find a symmetry principle which implies a vanishing cosmological constant at macroscopic scales. This analysis has identified a pseudo-symmetry, Eq. (10), which appears to accomplish this task. The questions of interest are then: (i) Why should the macroscopic effective theory respect this invariance? and (ii) What is the origin of the dilaton? One possibility is explored below.
+
+A generic property of string theory is the existence of a massless mode, the dilaton, which acts as the string coupling constant [10]. In superstring theories the graviton and the dilaton are in the same supermultiplet, and therefore the dilaton is constrained to be massless above the scale of supersymmetry breaking, mSUSY . Furthermore, supersymmetry forbids a non-zero potential. There is thus a large vacuum degeneracy. These degenerate vacua are related by a classical scale invariance, which is an exact property of superstring theory [11]. However, there is also an implicit reparametrization invariance, since the inequivalent vacua are labeled by the dilaton VEV; that is, the theory also has a simple classical invariance corresponding to an arbitrary shift in the dilaton VEV. Hence, the combined tranformation, Eq. (10), is an exact classical pseudo-symmetry of superstrings5.
+
+5 Of course, here we assume a particular definition for the metric, as well as suitable scaling tranformation laws for the gauge and matter fields in the string-inspired effective theory.
+
+7 Presumably quantum effects break supersymmetry and lift the vacuum degeneracy. Therefore, in the quantum theory, both the scale invariance and the invariance under shifts in the dilaton VEV are separately broken. However, since the combined pseudo-symmetry, Eq. (10), can be realized in the presence of a non-vanishing dilaton potential, in principle it could survive in the quantum theory. In other words one can think of the pseudosymmetry as having a supersymmetric realization (Figure 1b) in which a pseudo-symmetry transformation relates inequivalent vacua, as well as a non-supersymmetric realization (Figure 1a) in which a pseudo-symmetry transformation relates equivalent vacua (as in the toy model discussed above).
+
+This conjecture does not seem to violate any model-independent expectations. The dilaton is expected to have an exponential potential below mSUSY with certain general characteristics [12]. If the potential is perturbative in the string coupling constant, gs = eOE, it should be an expansion in g2s with model-dependent coefficients (determined by the mechanism that breaks supersymmetry). Non-perturbative effects would appear in powers of 1=g2s. Moreover, the potential should vanish as OE ! \Gamma 1, which corresponds to the weak coupling limit (as in Figure 1a). Evidently, a potential with the necessary properties can arise only if string theory is strongly coupled, since leading order cannot stabilize the potential [13]. What about the matter and gauge couplings? Here the pseudo-symmetry has a non-trivial consequence. As noted above, the pseudo-symmetry allows the breaking of scale invariance only in the potential. It therefore requires that the dilaton potential be strongly coupled, while the rest of the effective theory appear weakly coupled (the scale invariance must continue to hold in the quantum theory for operators involving gauge and matter fields ). This consequence is in fact desirable, since a stable minimum implies strong coupling whereas all of the good features of string theory seem to rely on weak coupling [14].
+
+There are independent phenomenological reasons for suspecting that a superstring dilaton is relevant to the cosmological constant problem. The fundamental bound on the dilaton mass is the observational bound on aeVAC, as mentioned above. Roughly,
+
+one would expect [3] aeVAC !, aeC (aeC is the critical energy density). If the dynamics of the dilaton is responsible for the vanishing of the cosmological constant, it follows that mOE !, (aeC)
+
+1 4 ' 10
+
+\Gamma 12GeV . Now consider the dilaton potential. On general grounds, one
+
+would expect m2OEM 2 ' _4, where _ is the largest characteristic scale generated by the scale anomaly [4]. Consider a superstring dilaton. The dilaton and the graviton are now of common origin, and so M = Mp. Since the dilaton is expected to aquire a potential and therefore a mass at mSUSY , it follows that m2OEM 2p ' m4SUSY : One further expects
+
+mSUSY ?, 4ssv; where v is the weak scale, and 4ssv is a naive dimensional estimate of the electroweak symmetry breaking scale. This relation implies a theoretical lower bound on the mass of a superstring dilaton, mOE ?, 10
+
+\Gamma 12GeV: Low-energy supersymmetry breaking,
+
+mSUSY ' 4ssv (mOE ' 10
+
+\Gamma 12GeV ), is then the only choice consistent with the cosmological
+
+bound on mOE. This choice has interesting cosmological implications. The vacuum energy is
+
+aeVAC ' \Gamma mOE\Delta 4 ' ` m
+
+2SUSY
+
+Mp '
+
+4 ' \Gamma
+
+10
+
+\Gamma 12 GeV \Delta 4 , aeC: (16)
+
+8 Theoretically this identity is interesting because it relates the hierarchy of scales to the large scale properties of the universe in a natural way. Moreover, cosmologies with aeVAC , aeC have many attractive features [15]. In particular, cold dark matter models with \Omega VAC ' 0:8 (\Omega = 1) are consistent with a wide variety of observations [16]. For example, it is well known that this is precisely what one needs in order to reconcile the recent measurement of the extragalactic distance scale [17] with estimated ages of galactic globular structures [18]. Recently, several independent groups [17] have extracted a Hubble constant of Ho = 80 \Sigma 17 km s
+
+\Gamma 1 M pc\Gamma 1, which is in conflict with the age estimate of 16:5 \Sigma 2 Gyr of Ref. 18,
+
+if one works in a flat universe with no cosmological constant. If one allows both matter and a positive cosmological constant (\Omega VAC + \Omega MATTER = 1), these measurements are consistent if \Omega VAC ' 0:8.
+
+What about bounds that arise from short distance tests of Newtonian gravity? In order to extract an observational bound for the dilaton mass, one must estimate the coupling strength of the dilaton to matter. This is accomplished by considering variations in the strong coupling scale expected from string inspired dilaton-matter couplings [4,19]. The relevant experiments in the millimeter-centimeter range are of "Cavendish" type, which probe deviations from the inverse-square law. The authors of Ref. 19 have calculated a lower bound on the mass of a tree level string dilaton using the data of Ref. 20. At the 2oe
+
+level they find mOE ?, 1:6 \Theta 10
+
+\Gamma 12GeV . Using a similar estimate for the coupling strength,
+
+the authors of Ref. 21 placed a lower bound on the mass of a superstring dilaton based on E"otv"os-type experiments and satellite observations, mOE ?, 2 \Theta 10
+
+\Gamma 13GeV: These bounds
+
+suggest that improved measurements in the millimeter range could discover the superstring dilaton.
+
+There is, however, a generic cosmological problem endemic to light scalars with gravitational strength couplings. At an earlier epoch, one would expect the dilaton to be shifted from its minimum by finite-temperature effects, or by inflation. Coherent oscillations about the minimum could lead to an epoch in which the dilaton dominates the energy density of the universe [22,23,24]. Here one would expect \Gamma OE , m3OE=M 2p which
+
+leads to tOE , 1033tu, where tu is the age of the universe, and so the dilaton is effectively stable. Hence the "misalignment" energy, acting as a form of dark matter, could overclose the universe in the present epoch, in blatant contradiction with observation. Although this problem renders the possibility of a light dilaton less attractive, the mechanism for a vanishing vacuum energy described above might act as a natural damping mechanism, since evidently the pseudo-symmetry constrains the dilaton to be at or very near its zerocurvature minimum at all scales. ( Presumably inflation would have to be driven by other fields.) Moreover, that these issues should be interrelated is appealing, since it is difficult to envision a solution of the cosmological constant problem, which is consistent with the effective theory paradigm, and yet does not involve at least one light scalar field with couplings of gravitational strength6.
+
+One frequently encounters the statement that understanding of why the cosmological constant is so small can emerge only from a consistent quantum theory of gravity. Athough possibly correct, it is not often appreciated just how radical this statement is. In fact, if the most conservative possibility is realized, a symmetry mechanism will be identified,
+
+6 See also Ref. 1 and Ref. 23.
+
+9 involving as yet unobserved quanta, which operates at the scale of a mili-eV -- a scale familiar to condensed matter physicists, and 31 orders of magnitude removed from the Planck scale. This conservative viewpoint rests on the spectacular success of local field theory. A general no-go theorem threatens the convervative point of view, and so should be subjected to extreme scrutiny. In this letter, it has been proposed that the no-go theorem might be avoided by assigning transformation properties to coupling constants as well as fields; i.e. via a pseudo-symmetry. In the context of a macroscopic effective theory with non-linearly realized scale invariance, an enhanced pseudo-symmetry has been identified in the absence of vacuum energy.
+
+The superstring argument presented above is much in the spirit of a non-renormalization theorem [25]. The classical string-inspired effective action is invariant under a pseudosymmetry transformation, which corresponds to a scale transformation accompanied by a shift in the dilaton VEV. We know that quantum corrections must break supersymmetry and lift the vacuum degeneracy. However, let us assume that the pseudo-symmetry survives in the quantum theory and use it to constrain the form of the low-energy effective action below the scale of supersymmetry breaking. The pseudo-symmetry constrains all matter and gauge couplings to be scale invariant (appear weakly coupled from point of view of string theory). The dilaton potential can have any number of terms, but it must have a global minimum where the potential vanishes (strongly coupled from string theory point of view). Hence, the pseudo-symmetry ensures that the vacuum energy remains zero after supersymmetry breaking.
+
+One might worry that the light dilaton discussed above is ruled out by experiment. On the contrary, simple dimensional arguments suggest that if a superstring dilaton is relevant to the cosmological constant problem, then its range should fall precisely in the region of parameter space with the weakest observational bounds. This in turn implies a nonzero vacuum energy density of the order of magnitude required by "best-fit" cosmological models.
+
+I am grateful for valuable conversations with A. Kapulkin, S.B. Liao, M. Mandelberg, C. Ordo~nez, and especially B. M"uller. I thank M. Strickland for help with the figure.
+
+10 References
+
+1. T. Banks, Nucl. Phys. B 309 (1988) 493 . 2. See, for example, H. Georgi, Ann. Rev. Nucl. Sci. 43 (1994) 209 . 3. S. Weinberg, Rev. Mod. Phy. 61 (1989) 1 . 4. C. Wetterich, Nucl. Phys. B 302 (1988) 668 . 5. F. Del Aguila and G.D. Coughlan, Phys. Lett. B 180 (1986) 25 . 6. R.D. Peccei, J. Sola, and C. Wetterich, Phys. Lett. B 195 (1987) 183 . 7. G.D. Coughlan, I. Kani, G.G. Ross, and G. Segr`e, Nucl. Phys. B 316 (1989) 469 . 8. See, for example, J.F. Donoghue, Phys. Rev. D 50 (1994) 3874 . 9. G. 't Hooft, in Recent Developments in Gauge Theories, Proc. of the NATO ASI,
+
+Carg`ese 1979, ed. G.'t Hooft et al (Plenum, 1980).
+
+10. M.B. Green, J.H. Schwartz, and E. Witten, Superstring Theory (Cambridge U.P.,
+
+Cambridge, 1987).
+
+11. E. Witten, Phys. Lett. B 155 (1985) 151 ;
+
+M. Dine and N. Seiberg, Phys. Rev. Lett. 55 (1985) 366 .
+
+12. See, for example, R. Brustein, CERN-TH-77255-94, . 13. M. Dine and N. Seiberg, Phys. Lett. B 162 (1985) 299 . 14. See, for example, M. Dine, SCIPP 95/11, . 15. P.J.E. Peebles, Ap. J. 284 (1984) 439 ;
+
+M.S. Turner, G. Steigman, and L.M. Krauss, Phys. Rev. Lett. 52 (1984) 2090 .
+
+16. G. Efstathiou, W.J. Sutherland, and S.J. Maddox, Nature 348 (1990) 705 ;
+
+M.S. Turner, Phys. Scripta T36 (1991) 167 .
+
+17. M.J. Pierce et al, Nature 371 (1994) 385 ;
+
+W.L. Freedman et al, Nature 371 (1994) 757 .
+
+18. D.A. VandenBergh, The Formation and Evolution of Star Clusters, edited by K. Janes,
+
+(Astr. Soc. Pacif., San Francisco, 1991); B. de Carlos, J.A. Casas, F. Quevedo, and E. Roulet, Phys. Lett. B 318 (1993) 447 .
+
+19. T. Damour and A.M. Polyakov, Nucl. Phys. B 423 (1994) 533 . 20. V.P. Mitrofanov and O.I. Ponomareva, Sov. Phys. JETP 67 (1988) 1963 . 21. J. Ellis, S. Kalara, K.A. Olive, and C. Wetterich, Phys. Lett. B 228 (1989) 264 . 22. G.D. Coughlan, W. Fischler, E.W. Kolb, S. Raby, and G.G. Ross, Phys. Lett. B 131
+
+(1983) 59 .
+
+23. T. Banks, M. Berkooz, and P.J. Steinhardt, RU-94-92, . 24. M.C. Bento and O. Bertolami, Phys. Lett. B 336 (1994) 6 . 25. N. Seiberg, RU-94-64, ;
+
+J.A. Harvey, EFI-94-589, .
+

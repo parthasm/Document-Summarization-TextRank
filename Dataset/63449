@@ -1,0 +1,328 @@
+
+
+ To appear in Comp. Phys. Commun.
+
+New Algorithm to Investigate Neural Networks1
+
+Bernd A. Berg2
+
+;3;4
+
+Abstract Random cost simulations were introduced as a method to investigate optimization problems in systems with conflicting constraints. Here I study the approach in connection with the training of a feed-forward multilayer perceptron, as used in high energy physics applications. It is suggested to use random cost simulations for generating a set of selected configurations. On each of those final minimization may then be performed by a standard algorithm. For the training example at hand many almost degenerate local minima are thus found. Some effort is spent to discuss whether they lead to equivalent classifications of the data.
+
+1This research was partially funded by the Department of Energy under contract DE-FG05-87ER40319. 2Department of Physics, The Florida State University, Tallahassee, FL 32306, USA. 3Supercomputer Computations Research Institute, Tallahassee, FL 32306, USA. 4E-mail: berg@hep.fsu.edu
+
+1 Introduction Recently there has been some interest [1, 2, 3, 4, 5] in Monte Carlo (MC) sampling from Broad Energy Distributions (BED). The basic idea is about twenty years old and was first introduced under the name Umbrella Sampling [6]. The increased interest in related methods began with the success of Multicanonical Sampling [1] in the study of first order phase transitions. The name multicanonical emphasizes the possibility of obtaining from one sample canonical expectation values over a temperature range. Soon a wide range of applications was realized. In particular it was stressed that the algorithmic ergodicity becomes enhanced by sampling with BED. This has lead to new perspectives concerning numerical investigations of systems with conflicting constraints, like for instance spin glasses [2, 4], proteins [7] or the traveling salesman problem [8].
+
+A complication of these approaches is that they sample with weight factors w(E) which are a-priori unknown functions of the energy E. It is part of the algorithm's purpose to converge to a suitable approximation, which then allows to estimate the spectral density ae(E). In practice complications emerge which are unknown for canonical MC simulations, where the correct weights are given by the Boltzmann factor wB(E) = exp(\Gamma fiE).
+
+The Random Cost (RC) method [9] samples a BED without the need of tedious recursions towards appropriate weight factors. This is achieved by employing simple master equations to enforce a random walk in a given cost function, for instance in the energy of a statistical mechanics system. The price paid is that one does not sample anymore with weights which depend only on the energy (i.e. the cost function). Consequently the ability to construct canonical expectations values is lost. This disadvantage is presumably of minor importance in applications to hard optimization problems, where one is mainly interested in an overview of the minima of the system and less in its statistical mechanics. RC may then compete with approaches like simulated annealing [10] or genetic algorithms [11].
+
+In ref.[9] the RC method was illustrated for an artificially simple cost function. Since
+
+1
+
+then, no new experience was reported. One reason, as we shall see, is that implementing the method in more realistic situations is not entirely straightforward. There is a large amount of innovative freedom in setting up the random walk master equations. Realistic applications require to make some decision and wrong ones render the algorithm ineffective.
+
+In the present paper I focus on applying the basic ideas to the training of Neural Networks (NN). In high energy physics NN constitute powerful nonlinear extensions of conventional data analysis methods, see [12, 13, 14] and references therein. In the context of this paper the purpose of the NN is to illustrate (a) how the RC method works and (b) how it may lead to interesting new physical insight. The training of a feed-forward two-layer perceptron to search for top quark production in "all-jet" channels [16] is considered. The RC simulations yield a large number of local minima, which are well-separated in parameter space. This allows to address relevant questions like:
+
+(i) Is one global minimum dominating or are there many almost degenerate minima?
+
+In case of many almost degenerate minima:
+
+(ii) What is their distribution in parameter space? (iii) Do different minima lead to the same, or at least to similar, classifications of the data
+
+into events and background?
+
+The NN and the training data are described in the next section. In section 3 the RC method is outlined in some details. Section 4 is devoted to numerical results and their interpretation. On their basis, I conclude that RC is a promising method in the context of exploring NN minima. One may hope for considerable further improvements by exploiting the innovative freedoms of the method more efficiently. Summary and conclusions are given in section 5.
+
+2
+
+2 The Training Example We shall consider the training of a feed-forward two-layer perceptron for tt detection through b-quark tagging with soft muons [16]. The network function is defined by
+
+Yk = g 24
+
+mX
+
+i=1
+
+!2i g 0@
+
+nX
+
+j=1
+
+!1ij djk + `1j 1A + `235 where g(x) = 11 + exp (\Gamma 2x) : (1)
+
+Here djk, (k = 1; :::; Nd) are experimental data and !2ij , `2, !1ij, `1i are the parameters of this network. In our example m = 5 and n = 4. Hence, there are 5 !2i , 1 `2, 20 !1ij and 5 `1i . This leaves us with 31 parameters which, generically, will now be denoted by x = (xj), (j = 1; :::; 31). The aim of a training program is to minimize the mean square error
+
+E2 = 1N
+
+d
+
+NdX
+
+k=1
+
+(Yk \Gamma `(Nb \Gamma k))2 : (2)
+
+The function Yk itself is not binary, but has the useful property that (under certain conditions) it can be interpreted as a Bayesian a posteriori probability [15]. We shall use Nd = 5000 data djk to train the network. For k = 1; :::; 2500 they are from the D0 50K sample [16, 17], and used to train the NN for background. This is achieved by choosing Nb = 2500:5, i.e. `(Nb \Gamma k) = 1. (The likelihood that a data point describes an event is less than 1=1000 for these data.) For k = 2501; :::; 5000 the data are MC generated events from the ISA180 ALL.HBOOK sample. Each data point is a standard AllJets 4-tuple [16]
+
+dj = (C; AP L; N J 1=10; HT 3=500); (j = 1; 2; 3; 4) : The symbols stay for the following global event quantities: C = centrality, AP L = aplanarity, N J 1 = average jet count, and HT 3 = sum of jet ET excluding the first two jets.
+
+3 Random Cost Simulations We are interested in finding many (local) minima of a function
+
+f = f (x) where x = (xj) = (x1; :::; xn) ;
+
+3
+
+and in that process possibly its global minimum. In hard optimization problems (problems with conflicting constraints) it happens that one has to overcome barriers (local increases) of the function f (x) before convergence into globally interesting minima is achieved. The purpose of the RC method is to overcome such barriers through a stochastic process. In essence the method is described by the following four steps.
+
+(i) Generate randomly a set of update proposal for the argument: f4x(k)g. (Here we
+
+distinguish different function arguments by subscripts in parenthesis, like x(k), whereas components of the argument are singled out through subscripts without parenthesis, like xj.)
+
+(ii) Calculate the function changes 4f(k) = f (x + 4x(k)) \Gamma f (x) : (iii) Divide the update proposals into three subsets. First, f4x+(k)g and f4x\Gamma (k0)g are defined
+
+such that 4f +(k) ? 4fmin and 4f \Gamma (k0) ! \Gamma 4fmin holds for the corresponding function changes. Here 4fmin ? 0 is some (small) cut-off. All update proposals with j4f 0(k00)j ^ 4fmin form the third set, f4x0(k00)g.
+
+(iv) When both, the f4x+(k)g and the f4x\Gamma (k0)g set, are non-empty: Updates from these
+
+sets are chosen according to a probabilistic law which enforces a random walk in the function value f . (In case that one of these sets is empty, violations may be allowed.)
+
+In this paper the set of update proposal is defined as follows. Each component xj is restricted to the same range jxjj ^ xmax. Allowed are updates in steps of 4xij with
+
+4xij = sign (i) 2\Gamma 1\Gamma jij xmax ; with i = \Sigma 1; \Sigma 2; :::; \Sigma imax : The subscript i labels the stepsize and sign, whereas j picks a component of x. The updates are thus confined to a grid. The minimum grid length 4xmin is determined by the choice of imax. I like to emphasize that my choice of update proposals is neither unique nor claimed to be particularly efficient. The method allows for all kind of choices and presently it is unclear by which criteria efficient ones may be singled out.
+
+4
+
+In [9] the entire 4fij array was calculated for each RC update. For the present, more realistic, cost function the computational effort becomes then considerable. Fortunately, it turns out to be rather straightforward to invent modified updating procedures which are far less CPU time intensive. The simulations of the next section relies on the following one:
+
+Elements of the 4xij array are picked at random [18] and the corresponding 4fij elements are calculated. As soon as 4fij ? 4fmin and 4fi0j0 ! \Gamma 4fmin elements are found, the RC update is performed. Let us first assume that this happens before the entire array 4xij is exhausted. Then either for 4fij ? 4fmin or for 4fi0j0 ! \Gamma 4fmin there will be precisely one proposal. ?From the other set, one element is picked at random. As the elements were already picked at random, it is sufficient to to chose the last element. This means, we have two definite updating proposals
+
+4x\Gamma j corresponding to 4f \Gamma ! \Gamma 4fmin and
+
+4x+j0 corresponding to 4f + ? 4fmin :
+
+The RC equation is then simply
+
+p\Gamma 4f \Gamma = p+ 4f + (3) This equation is easily solved for, say,
+
+p\Gamma = 4f
+
++
+
+4f \Gamma + 4f + : (4)
+
+A random number xr, uniformly distributed in the range 0 ! xr ^ 1, is then chosen. For xr ^ p\Gamma the 4x\Gamma j update is accepted, otherwise the 4x+j0 update.
+
+When the entire set 4xij leads only to updates with either 4fij ? \Gamma 4fmin or 4fij ! 4fmin, we have found a local minimum or maximum. To be precise, we have found a local minimum or maximum within the precision imposed by the cut-off choice 4fmin. In its present implementation the simulation continues by accepting the last proposed 4xij. The function values f will perform a random walk between thus defined local minima and
+
+5
+
+maxima. If 4f is a typical stepsize and fmax \Gamma fmin a typical distance between a local maximum and a local minimum, the simulation will need of the order jfmax \Gamma fminj2=j4f j2 steps to get from one side to the other. Here j4f j is bounded from below by 4fmin. Related to this, a too small choice of 4fmin renders the simulation inefficient. Instead of aiming at reaching local minima with high precision, it is here suggested to record the time series for a reasonable choice of 4fmin. Many independent regions of configuration space are then reached. Independent minima of the time series are subsequently taken as starting points for one of the conventional [19] downward minimization algorithms.
+
+One may further restrict the RC simulations by imposing additional bounds. For instance one may reject all updates which lead to a function value larger than an imposed maximum fmax ? 0. Or one may reject all updates with 4f ? 4fmax where, of course, 4fmax AE 4fmin ? 0. Some experience with such bounds is reported in the next section. As a general rule, I like to suggest that upper bounds on the function value should be imposed in a stochastic way by modifying the RC equation (3) in favor of one direction.
+
+4 Numerical Results Results from RC simulations of the NN error function (2) are now reported. Algorithmic performance and applications of physical relevance are treated in different subsections.
+
+4.1 Algorithmic performance For the parameters, discussed in the previous section, the following choices are made:
+
+4fmin = 10\Gamma 4; 4fmax = 0:1 ; and no upper bound fmax. Further
+
+jxjj ^ xmax = 2:5 and imax = 12jxj j ^ xmax = 10 and imax = 14
+
+6
+
+were tested. In each case 4xmin = 5=214 ss 0:00061. Distribution functions are defined by
+
+F (E2) = Z
+
+E2
+
+0 ae(E
+
+02) dE02 ;
+
+where ae(E2) is the corresponding probability density. In practice estimators are obtained by simply sorting [19] the sampled values of E2. To plot distribution functions, instead of histograms of the probability density ae(E2), has the advantage that one needs not to worry about an appropriate bin size. Figure 1 compares (for two xj ranges) the distribution functions from RC simulations versus those from random sampling (RS). Here a RS configuration is defined by choosing for each parameter a random number, uniformly distributed in the allowed range.
+
+The reader should focus on the behavior of F (E2) for small E2 values. The RC distributions show a sharp increase: For jxjj ^ 2:5 about 20% of the configurations are generated in the range E2 ^ 0:2. For jxjj ^ 10 this values is even up to more than 30% , implying that this is the preferable RC parameter choice. In contrast to RC simulations, RS generates almost no configurations in the E2 ^ 0:2 range. It is amazing to note that for RS the parameter range jxjj ^ 2:5 is preferable. For jxjj ^ 10 most RS configurations exhibit E2 values very close to 1/2.
+
+Concerning the RC results, it should be noticed that the distribution functions are not straight lines due to the fact that the magnitude of a typical change 4E2 (E2 is the function f of section 3) depends on E2. In the neighbourhood of local minima (in the sense of the algorithm) 4E2 proposals become small and the algorithm spends more time there. Of course, configurations related by small 4E2 changes are strongly correlated.
+
+To find out how many independent minima are generated, I depict in figure 2 the RC time series for the better parameter choice (jxjj ^ 10). Altogether 100,000 RC updates (changes of a single parameter) are performed. For each 1000 updates the minimum and maximum values reached are plotted and, in order of their occurance in the time series, connected by straight lines to guide the eyes. Autocorrelation are clearly visible, but at the same time it becomes clear that a large number of independent minima (certainly ? 20) are created.
+
+7
+
+Independent minima may be singled out by requiring that the time series went over some cut-off barrier Ec2 between subsequently recorded minima. From figure 2 as well as from the nature of the problem it is clear that Ec2 = 0:4 is a reasonably high choice. The lowest twenty minima left over then are depicted in figure 3 together with the lowest twenty minima obtained by creating 106 RS configurations. On a DEC 3000 Alpha 600 workstation the CPU time needed for the 100,000 RC updates was 12.2 hours and the CPU time to create 106 RS configurations was about 13 hours. It is obvious that RC easily outperforms RS also when autocorrelations are taken into account.
+
+Ideal efficiency of RC would be expected when energy barriers populate the region inbetween the minima reached by RS and those reached by RC. This is due to the feature that RC climbs as enthusiastically uphill as downhill. It works by suppressing the statistical weight of configurations in-between extrema. In our example there are no strong indications of such barriers. The better performance of RC seems to be entirely due to the fact that it samples the rare configurations with low (and high) E2 far better than RS. In this sense the present case is too simple for RC. It remains to be explored whether NN with actual barriers between the RS region and the RC minima do exist.
+
+A (primitive) steepest gradient minimization program was applied to the RC as well as to the RS configurations whose E2 values are shown in figure 3. The purpose is to converge to the local minimum closest to the starting configuration. After this minimization the average E2 and best E2;min values were
+
+E2 = 0:11831 \Sigma 0:00025; E2;min = 0:11586 for RC and
+
+E2 = 0:11896 \Sigma 0:00013; E2;min = 0:11788 for RS:
+
+The configurations thus found are called RC (or RS) minima in the following. Although the difference in the mean value E2 is not very dramatic, it is notable that the first seven RC minima are all lower than the best RS minimum.
+
+8
+
+Default settings of JETNET [12] return the value E2 = 0:11722 [17]. This would put it at position 5 in my set of RC minima. Running my minimization program on the configurations produced by JETNET reduces this value further to E2 = 0:11620. This is the second best of all my solutions and obtained far more CPU time efficient than the others. The point of RC is clearly not to save CPU time. Instead the purpose it to provide a simple method which allows to explore relatively hassle free relevant regions of the configurations space. Nowadays, it is normally a minor problem to find a fast workstation for a few days of MC simulations. To program a complicated approach could be the real stumbling block. The aim of a RC simulations is to gain increased confidence, that relevant regions of configuration space have not been overlooked. RS serves this purpose far less well, because the entropy of the interesting regions tends to be very small. If, in addition, energy barriers separate relevant minima from the high entropy region, RS with subsequent minimization may not get to them at all. Adding Gaussian noise to minimization certainly helps, but the entropy preference of such noise is the same as that of RS.
+
+RC greatly suppresses the high entropy regions while, at the same time, being able to climb up and down. Simulated annealing achieves the same purpose by varying the temperature. (The function E2 is then interpreted as the energy of a statistical mechanics system. It should be noted that RS corresponds to infinite temperature fi = 0.) Here an advantage of RC seems to be that it needs less detailed considerations. Parameter choices like 4fmin or xmax are needed in both approaches. RC is then ready for a long run, as eqns. (3) automatically ensure a broad distribution (figure 1). In simulated annealing one has to worry about a scheme for lowering (and possibly rising again) the temperature. In many applications one may be unwilling to spend the work it takes to tune an annealing scheme. Such a scheme is necessary, because statistical mechanics distributions are narrow at any fixed temperature.
+
+If desired RC allows some tuning too. In particular, as we are interested in minima, one may like to restrict the sampling region by introducing an upper bound fmax. This should
+
+9
+
+be done in a smooth way. Figure 4 compares the F (E2) distribution functions for a sharp versus a smooth upper bound fmax = 0:3. The smooth bound is achieved by doubling the p\Gamma value of equation (4) for E2 ? 0:3. It is clear that the simulation with the sharp upper bound is the worse: It spends a large amount of CPU time on the immediate neighborhood of E2 = 0:3, because the updating stepsize 4f approaches there 4fmin. The simulation with the smooth upper bound moves far more freely in the E2 = 0:3 neighborhood. Consequently, it spends less CPU time there and still reaches distant configurations faster. It should be noted that no major improvement over the simulation without upper bound was achieved. For the smooth bound the minima yield E2 = 0:11772 \Sigma 0:00012 and E2;min = 0:11680.
+
+In difficult situations it may be worthwhile to try RC as one of various approaches. Each method, simulated annealing [10], multicanonical annealing [8], genetic algorithms [11] or RC has its own specific way to explore configurations space. Which method wins is most likely problem dependent. Presently there are no a-priori criteria at hand to choose one method over the others. Not spending too much of your own time may well favour RC.
+
+4.2 Physical applications The physical purpose of finding many minima is to increase confidence in classifications proposed by a NN. It is after all some kind of black box. At the first look differences between the twenty RC minima are rather small. To make the point, let us consider the RC minima with lowest and highest E2. In figure 5 distribution functions F (Yk), with Yk defined by equation (1), for the event and background training data of these solutions (E2 = 0:11586 and E2 = 0:11984) are plotted. Events are the upper curves and background are the lower curves.
+
+It is seen that the smaller E2 value comes from the fact that this solution concentrates the background more efficiently into the Yk ! 1 limit. The other solution concentrates events more efficiently into the Yk ! 0 limit. Apparently, the price paid is that also some of the background events get placed into this limit, as is more clearly seen from the inlay.
+
+10
+
+Altogether one tends to conclude that the classifications are almost equivalent, the main difference being that the entire curve is shifted with slight distortions of the shape. However, one has to make sure that there is not internal re-ordering, i.e. identical data classified far apart in different distributions of similar shape. To address this and other questions, it is convenient to introduce some norms. Let X = (X1; :::; Xn) with 0 ^ Xi ^ 1, we define:
+
+jjXjj1 = 1n vuut
+
+nX
+
+i=1 (
+
+Xi)2 ; jjXjj2 = maxfjXij; i = 1; :::; ng and jjXjj3 = 1n
+
+nX
+
+i=1 j
+
+Xij : (5)
+
+Relying on these norms various average distances were calculated and are reported in table 1.
+
+Let us first address the distances in parameter space. The parameters of the twenty RC minima are denoted by
+
+x(s)min = (x(s)1 ; :::; x(s)31 ) where s = 1; :::; ns and ns = 20 for the RC results. The second column of table 1 gives
+
+hjjx(s)min \Gamma x(s)selectjji = 1n
+
+s
+
+nsX s=1 jjx
+
+(s) min \Gamma x
+
+(s) selectjj ;
+
+the average distance of the minima x(s)min away from the starting values x(s)select, which are selected from the RC simulation runs before local minimization is applied. When calculating the norms each x(s) component is first rescaled from the [\Gamma 10; 10] range into [\Gamma 0:5; 0:5], because a range of length one is used in the definition (5). The error bars in parenthesis apply to the last digits and correspond to our statistics of twenty solutions. Column two of table 1 should be compared with column four, where the (up to the given digits) exact average distance of 32 component independent random vectors x(s)ran and x(t)ran is written down. For these vectors each component is an uniformly distributed random number in the range [0,1). As expected, the found minima x(s)min are fairly close to the parameters x(s)select selected from the RC simulation.
+
+Column three collects the average distances
+
+hjjx(s)min \Gamma x(t)minjji = 1n
+
+s (ns \Gamma 1)
+
+nsX s=1
+
+nsX t=1 jjx
+
+(s) min \Gamma x
+
+(t) minjj
+
+11
+
+between different minima. There are 19 \Delta 20=2 = 190 different combination, to which the average values correspond. As only twenty are independent, the error bars are obtained asq
+
+oe=19 from the estimated variances. It is seen that these distances are close to the distances between random vectors. A plot of all parameter values found is given in figure 6 and looks very similar to a plot were uniform random numbers in the [\Gamma 10; 10] range are drawn for each parameter. It goes beyond the scope of this paper to analyse for correlations.
+
+Let us turn to distances in function space. The vector components are then of the form Y (s)k . For column five and six s and t label again our twenty RC minima and k = 1; :::; 5000 labels the training data. In column seven results for a random vector with 5000 components are reported.
+
+For the average distances jjY (s)sort \Gamma Y (t)sortjj the Y (s)k and Y (t)k components are sorted in increasing order before the norms are calculated. These distances are characteristic for the differences seen in plots like figure 5 (but note that now all data are accommodated in one distribution function). For all three norms these distances turn out to be about 5% of the distances jjY (s)ran \Gamma Y (t)ranjj which one encounters for random vectors of length 5000.
+
+The average distances jjY (s) \Gamma Y (t)jj are the quantities of physical interest: They relate directly to differences in the classification of our training data. For norm one and norm three the numbers are about two times those of the corresponding sorted vectors, i.e. about 10% of the random vector results. However, a few data points behave exceptional. The result for norm two means that the worst average re-ordering amounts to about 58% percent of the function values range (0 ^ Yk ^ 1). As these are averages taken over the 190 possible combinations of our solutions, the re-ordering of certain data with respect to two different network solutions is even worse. Indeed the largest re-ordering encountered is jjY (14) \Gamma Y (10)jj2 = 0:91, whereas the best of the worst is jjY (17) \Gamma Y (4)jj2 = 0:21. For the solution Y 0 found via JETNET and the best RC minimum we have jjY (1) \Gamma Y (0)jj2 = 0:31. Finally for the solutions depicted in figure 5 the value is jjY (20)\Gamma Y (1)jj2 = 0:57. These results show that the (slight) increase of E(s)2 with s for s = 1; :::; 20 seems to be irrelevant for the
+
+12
+
+reordering effect. Instead the internal structure of the solutions should be hold responsible.
+
+The small hjjY (s) \Gamma Y (t)jji averages obtained with the other two distance definitions imply that large re-ordering happens only for a few data points. This is confirmed by plotting the distribution function of the jY (s)k \Gamma Y (t)k j average in figure 7. For 98% of the data hjY (s)k \Gamma Y (t)k ji is less than 0.1. It should be noted that the highest value for hjY (s)k \Gamma Y (t)k ji is lower than hjjY (s)k \Gamma Y (t)k jj2i of the table, because the k values for which the largest value is obtained depends on s and t. Of course, it is no problem to identify the individual data points which are subject to large re-ordering. It may be interesting, but is beyond the scope of this paper, to investigate whether they exhibit particular physical characteristics.
+
+To what extent can one now trust a classification proposed by the NN? The worst case scenario combines different solutions in the following way:
+
+W nk = maxfY (s)k js = 1; :::; ng for events and
+
+W nk = minfY (s)k js = 1; :::; ng for background :
+
+Here a cut off on the maximum allowed E2 value has to be set. A value of the order of a few percent seems to be reasonable. In the situation at hand, the 4E2 difference between solutions # 1 and # 20 is about 3.5% . Figure 8 shows what happens when solutions s = 1; :::; 20 are successively combined according to the worst case scenario. In the region 0:1 ^ W nk ^ 0:9 results apparently get stable. However, in the extreme limits (i.e. for a small amount of data) crossover effects between classification as event versus background are found. The results suggest that one should not apply this NN in these limits.
+
+5 Summary and Conclusions RC simulations sample ergodically through configuration space, while greatly enhancing (as compared to RS) the likelihood of configurations in the neighbourhood of minima (or
+
+13
+
+maxima). The updating scheme employed in this paper is considerably improved over the version of [9]. Further significant progress in this direction seems to be likely.
+
+A large number of practically independent local minima may be obtained by combining RC simulations with subsequent minimization. Many regions of configuration space are thus covered and barriers between them can be overcome. This increases the confidence that best solutions are not incidentally overlooked. In the present case many, almost degenerate, inequivalent minima are found.
+
+For physical applications the central question is whether degenerate minima lead to identical classifications of the data. In the case at hand we find that this is to a limited extent the case. A small !2% fraction of the data exhibits fairly unpredictable re-ordering behavior. To be on the save side, one may combine several network solutions according to a worst case scenario.
+
+Acknowledgements: I would like to thank Harrison Prosper and Jeff McDonald for valuable discussions and for supplying me with the data used in this paper. The data, the final parameters and the RC Fortran program are available through e-mail to the author.
+
+References
+
+[1] B. Berg and T. Neuhaus, Phys. Rev. Lett. 68, 9 (1992); W. Janke, Recent Developments
+
+in Monte-Carlo Simulations of First-Order Phase Transitions, in Computer Simulation Studies in Condensed Matter Physics VII, D.P. Landau, K.K. Mon and H.-B. Sch"uttler (Eds.), Proceedings in Physics 78, Springer, 1994, pp.29-44.
+
+[2] B. Berg and T. Celik, Phys. Rev. Lett 69, 2292 (1992); B. Berg, Int J. Mod. Phys. C3,
+
+1083 (1992).
+
+14
+
+[3] A.P. Lyubartsev, A.A. Martinowski, S.V. Shevkunov and P.N. Vorontsov-Velyaminow,
+
+J. Chem. Phys. 96, 1176 (1992).
+
+[4] E. Marinari and G. Parisi, Europhys. Lett. 19, 451 (1992). [5] B. Hesselbo and R.B. Stinchcombe, Phys. Rev. Lett. 74, 2151 (1995). [6] G.M. Torrie and J.P. Valleau, J. Comp. Phys. 23, 187 (1977). [7] U. Hansmann and Y. Okamoto, J. Comput. Chem. 11, 1333 (1993); M.-H. Hao and H.
+
+Scheraga, J. Phys. Chem. 98, 9882 (1994).
+
+[8] J. Lee and M.Y. Choi, Phys. Rev. E50, R651 (1994). [9] B. Berg, Nature 361, 708 (1993). [10] S. Kirkpatrick, C.D. Gelatt and M.P. Vecchi, Science 220, 671 (1983). [11] J.H. Holland, Adaption in Natural and Artificial Systems, MIT Press, 1992. [12] L. L"onnblad, C. Peterson and T. R"ognvaldsson, Comp. Phys. Commun. 81, 187 (1994);
+
+Nucl. Phys. B 349, 675 (1991).
+
+[13] K.H. Becks, F. Block, J. Dress, P. Langefeld and F. Seidel, Nucl. Instrum. Methods A
+
+330, 482 (1993).
+
+[14] G. Stimpf-Abele and P. Yepes, Comput. Phys. Commun. 78, 1 (1993). [15] M.D. Richard and R.P. Lippmann, Neural Comput. 3, 461 (1991). [16] All-Jets Group, S. Ahn, N. Amos, P.Bhat, C. Cretzinger, J. McDonald, J. Moromisato,
+
+H. Prosper, C. Stewart, E. Won, and R. Yamada, D0 Note 2807 (December 1995) and D0 Note 2832 (in preparation). preparation).
+
+[17] Courtesy Harrison Prosper and Jeff Mc Donald.
+
+15
+
+[18] When an element of some set of N elements is picked at random, I mean that it is picked
+
+with probability 1=N .
+
+[19] W.H. Press, B.P. Flannery, S.A. Teukolsky and W.T. Vetterling, Numerical Recipes,
+
+Cambridge University Press, 1988.
+
+Tables
+
+1 2 3 4 5 6 7
+
+hjjx(s)select \Gamma x(s)minjji hjjx(s)min \Gamma x(t)minjji hjjx(s)ran \Gamma x(t)ranjji hjjY (s)sort \Gamma Y (t)sortjji hjjY (s) \Gamma Y (t)jji hjjY (s)ran \Gamma Y (t)ranjji jj:jj1 0.0253 (28) 0.361 (11) 0.4059 0.0217 (17) 0.0528 (22) 0.4082 jj:jj2 0.0754 (75) 0.794 (23) 0.8427 0.0457 (34) 0.579 (37) 0.9875 jj:jj3 0.0168 (22) 0.295 (10) 1/3 0.0180 (15) 0.0363 (16) 1/3
+
+Table 1: Average distances between various vectors in parameter and function space.
+
+16
+

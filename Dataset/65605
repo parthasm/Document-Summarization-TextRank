@@ -1,0 +1,260 @@
+
+
+ 30 Aug 1994
+
+HD-THEP-94-32 Multiloop Calculations in QED by
+
+Superparticle Path Integrals
+
+Michael G. Schmidt Institut f"ur Theoretische Physik
+
+Universit"at Heidelberg
+
+Philosophenweg 16
+
+69120 Heidelberg
+
+Christian Schubert Institut f"ur Hochenergiephysik Zeuthen DESY Deutsches Elektronen-Synchrotron
+
+Platanenallee 6
+
+15738 Zeuthen
+
+August 1994
+
+Abstract We use the worldline path integral approach to the Bern-Kosower formalism for extending this formalism to the calculation of higher order corrections to N - photon scattering. The case of the two-loop QED fi-function is considered in detail.
+
+Talk presented by C. S. at the Conference QCD 94, Montpellier, France, 7-13 July 1994
+
+We report on some progress we have recently made concerning the generalization of the Bern-Kosower formalism beyond the one-loop level. This formalism, which offers an alternative to Feynman diagram calculations, was originally developed by analyzing the infinite string-tension limit of certain superstring amplitudes [1], and its usefulness for one-loop calculations in gauge theories has been demonstrated by the calculation of both five-point gluon [2] and four-point graviton [3] amplitudes.
+
+Considering the difficulty of doing two-loop QCD calculations by standard methods, it would be obviously desirable to have a higher-order generalization of this method. While some progress has been made toward this goal in the original framework of Bern and Kosower [4], a derivation of two-loop rules for nonabelian gauge theory has, so far, remained elusive.
+
+One may hope that something can be learned for this problem from the simpler case of photon scattering in QED, which we will consider in this paper.
+
+For this purpose, we use the reformulation of the Bern-Kosower formalism due to Strassler [5]. This approach is based on the worldline path integral representation for the one-loop effective action induced by a spinor loop,
+
+\Gamma [A] = \Gamma 2Z
+
+1
+
+0
+
+dT
+
+T e
+
+\Gamma m2T Z DxD exp^\Gamma Z T
+
+0 do/ i
+
+1 4 .x
+
+2+ 1
+
+2 .+igA_ .x
+
+_\Gamma ig_F_** j*;
+
+(1) where the x_(o/ )'s are the periodic functions from the circle with circumference T into D - dimensional Euclidean spacetime, and the _(o/ )'s their antiperiodic supersymmetric partners. The case of scalar electrodynamics corresponds to deleting the fermionic path integral and the global factor of \Gamma 2.
+
+The "string-inspired" way of evaluating this type of path integral [5, 6] consists in extracting the integration over the center of mass x0,Z
+
+Dx = Z dx0Z Dy; Z
+
+T
+
+0 do/ y
+
+_(o/ ) = 0; (2)
+
+and evaluating the path integrals over y and by Wick contractions as in a one-dimensional field theory on the circle. The Green functions to be used are those adapted to the (anti-) periodicity conditions,
+
+hy_(o/1)y*(o/2)i = \Gamma g_* GB(o/1; o/2) = \Gamma g_* ^j o/1 \Gamma o/2 j \Gamma (o/1 \Gamma o/2)
+
+2
+
+T *; h_(o/1)*(o/2)i = 12 g_* GF (o/1; o/2) = 12 g_* sign(o/1 \Gamma o/2) :
+
+(3)
+
+1
+
+As shown in [5], explicit execution of the Wick contractions is necessary only for the bosonic path integral; once this has been done, the fermionic contributions may be incorporated using a simple substitution rule derived from worldline supersymmetry.
+
+One-loop scattering amplitudes are obtained by specializing the background to a finite sum of plane waves. In the case of QED, this procedure then leads to the same integral representations for one-loop photon scattering amplitudes as application of the Bern-Kosower rules.
+
+To extend this calculus to higher orders, one needs to know the generalizations of the above Green functions on the circle to higher order graphs. The simplest case to consider here - which is also the one relevant to photon scattering - is the case of a loop with insertions. In [7] it had been shown that the insertion of a scalar propagator into a loop between points x(o/a) and x(o/b), written in the Schwinger proper-time representationZ
+
+1 0 d _T e
+
+\Gamma m2 _T (4ss _T )\Gamma
+
+D
+
+2 exp"\Gamma (x(o/a) \Gamma x(o/b))
+
+2
+
+4 _T # ; (4) changes the Green function for the loop path integral into
+
+G(1)B (o/1; o/2) = GB(o/1; o/2) + 12 [GB(o/1; o/a) \Gamma GB(o/1; o/b)][GB(o/2; o/a) \Gamma GB(o/2; o/b)]_T + G
+
+B(o/a; o/b) (5)
+
+A similar formula exists for multiloop insertions.
+
+For extension to scalar electrodynamics, we have to replace the inserted scalar propagators by photon propagators. As is well-known from Wilsonloop theory, insertion of a photon propagator (in Feynman gauge) can be written as
+
+g2 8ss2 Z
+
+T 0 do/a Z
+
+T 0 do/b
+
+.x_(o/a) .x_(o/b) (x(o/a) \Gamma x(o/b))2 : (6) The transition to spinor electrodynamics may then be simply achieved by supersymmetrization, as will be explained in more detail elsewhere [8].
+
+As an illustration, let us recalculate the two-loop fi - function for spinor QED. In a Feynman diagram calculation of this quantity, one would have to calculate the three diagrams of fig. 1 using some regularization, say dimensional regularization, and then extract their 1ffl - poles. In the present formalism, those diagrams are combined into one integral, which has the useful consequence that we will not need a regulator except for the overall divergence.
+
+If one is only interested in the fi - function contribution, things may be simplified by choosing a constant background field F_*, and calculating the coefficient of the induced F_* F _* - term. One can then choose a gauge such that A* = 12 x_F_*, which makes the bosonic interaction term equal to i g2 .x_F_*x* .
+
+2
+
+Figure 1: Diagrams contributing to the two-loop vacuum polarization
+
+We first calculate the purely bosonic contributions, which are, as for scalar electrodynamics, obtained by inserting into the one-loop path integral the worldline current-current interaction term eq.( 6). The denominator is written in the proper-time representation, and absorbed into the worldline Green function as in the scalar case; the numerator remains, and participates in the Wick contractions. Expansion of the interaction exponential to second order yields
+
+\Gamma bos[F ] = \Gamma 2(4ss)
+
+\Gamma 4 Z dx0 Z
+
+1
+
+0
+
+dT
+
+T 3 e
+
+\Gamma m2T Z
+
+1
+
+0 d _T Z
+
+T 0 do/a Z
+
+T 0 do/b[ _T + GBab]
+
+\Gamma 2
+
+\Theta (\Gamma g
+
+2
+
+2 )
+
+g2
+
+2 Z
+
+T 0 do/1 Z
+
+T 0 do/2
+
+1 4 h .y
+
+_ 1 F_* y
+
+*1 .yff2 Ffffiyfi2 .y*
+
+a .yb*i (7)
+
+(note the appearence of the two-loop determinant factor [ _T + GB(o/a; o/b)]
+
+\Gamma 2
+
+[7]). The Wick contraction of h .y_1 y*1 .yff2 yfi2 .y*a .yb*i is then performed, using the two-loop Green function eq.( 5), and the result written out in terms of the bosonic one-loop Green function and its derivatives.
+
+To include the fermionic contributions, one now eliminates all factors of" GB by partial integrations with respect to o/1; o/2; o/a; o/b, and uses the one-loop substitution rule, replacing, for example,
+
+.GB12 .GB21 .GBab .GBba ! ( .GB12 .GB21 \Gamma GF 12GF 21)( .GBab .GBba \Gamma GF abGF ba)
+
+(8) etc. A sixfold integral remains to be done (fig. 2), the integrand being a
+
+polynomial in the various GBij; .GBij; GF ij, and in [ _T + GB(o/a; o/b)]
+
+\Gamma 1.
+
+In particular, the integrations over o/1; o/2 are polynomial, and the _T - integration may be made so by a change of variables
+
+_T ! fi( _T ) := GB(o/a; o/b)_
+
+T + GB(o/a; o/b) : (9)
+
+The result of these three integrations is a number of terms proportional to GB(o/a; o/b)
+
+\Gamma 2, G
+
+B(o/a; o/b)
+
+\Gamma 1 and G
+
+B(o/a; o/b)0. They all cancel, however, except
+
+the constant ones, rendering the o/a; o/b - integrals trivial. To extract the
+
+divergence of the remaining proper-time integral, one may use a Pauli-Villars regulator \Lambda , yielding
+
+3
+
+Figure 2: Definition of the six integration parameters
+
+Z 1
+
+0
+
+dT
+
+T e
+
+\Gamma m2T , ln \Lambda 2
+
+m2 (10)
+
+The final result for the divergent part of the two-loop effective action becomes
+
+\Gamma (2) , \Gamma ln \Lambda
+
+2
+
+m2 (4ss)
+
+\Gamma 4g4 Z dx0F
+
+_* F _* ; (11)
+
+from which one can derive the two-loop fi - function coefficient in the usual way, and with the usual result
+
+fi(2)(ff) = ff
+
+3
+
+2ss2 : (12) Let us summarize the peculiarities of this calculation:
+
+i) All integrations have been polynomial. ii) The three diagrams of fig. 1 have been combined into one calculation. iii) As a consequence, no regularization has been necessary except for the final proper-time integral.
+
+While this calculation cannot yet be considered a serious test of the formalism, those properties are certainly encouraging.
+
+4
+
+References
+
+[1] Z. Bern and D. A. Kosower, Phys. Rev. Lett. 66 (1991) 1669;
+
+Z. Bern and D. A. Kosower, Nucl. Phys. B379 (1992) 451.
+
+[2] Z. Bern, L. Dixon and D. A. Kosower, Phys. Rev. Lett. 70 (1993) 2677, . [3] Z. Bern, D. C. Dunbar and T. Shimada, Phys. Lett. B312(1993) 277, . [4] K. Roland, Phys. Lett. B289 (1992) 148. [5] M. J. Strassler, Nucl. Phys. B385 (1992) 145. [6] M. G. Schmidt and C. Schubert, Phys. Lett. B318 (1993) 438, . [7] M. G. Schmidt and C. Schubert, Phys. Lett. B331 (1994) 69, . [8] M. G. Schmidt and C. Schubert, in preparation.
+
+5
+

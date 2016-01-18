@@ -1,0 +1,348 @@
+
+
+
+
+On the singular behaviour of structure functions at low x
+
+by H. Navelet, R. Peschanski, S. Wallon Service de Physique Th'eorique, CEA-Saclay
+
+F-91191 Gif-sur-Yvette Cedex, FRANCE
+
+ABSTRACT We discuss the phenomenological extraction of the leading j-plane singularity from singlet structure functions Fs measured at small x: Using a saddle-point method we show that dlnFs=dln 1x is a suitable observable for this purpose in the region x ^ 10\Gamma 2: As an application, we confront and distinguish in a model-independent way structure function parametrizations coming from two different QCD evolution equations, namely the Lipatov (or BFKL) equation and the Gribov-Lipatov-Altarelli-Parisi (or GLAP). Recent results at HERA are discussed in this framework.
+
+Recent results from HERA experiments (H[1]1 and Zeus[2]) yield information on the singlet proton structure function Fs for a new range in the Bjorken variables, namely 10\Gamma 4 . x . 10\Gamma 2; 8 . Q2 . 60 GeV2: These experimental results, although of low statistics, have already provided promising theoretical information[3]:
+
+The rise of Fs as x becomes very small, has reinforced predictions of parametrizations based on perturbative QCD evolution equations, of a large increase in space-like gluon radiation. The QCD calculation in the leading \Gamma ffsln 1x \Delta n approximation[4] appears to be relevant for this phenomenon, even though non-perturbative effects[5] or gluon-gluon interactions[6] may modify its quantitative predictions.
+
+1
+
+In this framework, the structure function is dominated by a singularity in the j-plane of its Mellin transform, namely
+
+Fs(x) , x\Gamma a `ln 1x '
+
+b
+
+Z 1
+
+0 dx x
+
+j\Gamma 1Fs(x) , ~Fs(j) , 1
+
+(j \Gamma a)b+1 (1)
+
+with a ? 1 being the end-point singularity, and b characterizing the type of singularity (square root b = \Gamma 12 , pole b = 0, etc...). An exact calculation of the Lipatov (BFKL) singularity at a fixed external momentum scale yields b = \Gamma 12 but this coefficient may be substantially different for structure functions[5]:
+
+The Lipatov singularity is given by a = 1 + 4ln2 N
+
+css _ffs and may reach 1.5. However,
+
+even though this perturbative approach looks promising, some ambiguities have still to be resolved. For instance, non-perturbative contributions are present because of the large diffusion in the gluon transverse momentum scales contributing to the structure function[5]: More intringuingly a prediction (GRV parametrization[7]) based on the GLAP evolution equation[8] has also been successful at HERA. Its success is surprising because it is based on extrapolating from a very small value of Q2 = _2 by summing only the leading \Theta ffslnQ2\Lambda n contributions, and thus on a different picture of the j-plane singularity. Is its success a mere coincidence or is it due to a subtlety within the theory? This is the question we wish to settle.
+
+Our aim in this letter is to answer this question by proposing a model-independent study of the j\Gamma plane effective singularity of the structure functions. Our results are as follows:
+
+i) When using a saddle-point approximation valid at small x (x . 10\Gamma 2); the Mellin transform of eq.(1) reduces to a local correspondence. x \Gamma ! _j(x) between Fs and ~Fs (_j) :
+
+ii) Within the same approximation, the function dlnFs(x)=dln 1x depends only on the rightmost j\Gamma plane singularity of ~Fs: This result is in agreement with a recent empirical observation[9]:
+
+2
+
+iii) Applying this result to the BFKL or GLAP j\Gamma plane singularity, we show that while different analytically, they lead to an almost identical dlnFs(x)=dln 1x in the small x range of the HERA experiments, at fixed Q2.
+
+iv) The only way to distinguish the two types of singularities may be the Q2 dependence of dlnFs(x)=dln 1x .
+
+Let us prove assertion i). The saddle-point approximation relating a structure function at small x and its Mellin transform near its rightmost singularity is correct for the Lipatov singularity[11]. We will use this method in a general way. Let us consider the inverse Mellin transform of relation (1)
+
+Fs(x) = 12iss Z
+
+C e
+
+jln1=x+f dj (2)
+
+where f j ln ~Fs(j) and C is a contour in the complex j-plane with Re j = j0 at the right of all singularities of ~Fs(j):
+
+For ln 1=x large enough, we get using the saddle-point approximation
+
+lnFs(x) ' _j ln 1x + f \Gamma 12 ln(2ssf 00); (3) where the saddle point _j(x) is defined by the condition
+
+0 = ln 1x + f 0(_j) (4) and the primes mean the derivative w.r.t. j at j = _j, i.e. f 0 j dfdj fififi_j : Equation (4) gives a local relation x \Gamma ! _j(x): Moreover, f 0 is given by the dominant j-plane singularity of
+
+~Fs(j). As an example the singularity given in eq.(1) yields _j = a + (b + 1)=ln 1x . The value
+
+of \Theta ln 1x \Lambda
+
+\Gamma 1 is a measure of the distance to the singularity at j = a.
+
+Next we prove assertion ii) about dlnFs=dln 1x : Using the saddle-point formula (3), we get by differentiating,
+
+d ln ~Fs
+
+d ln 1x = _j +
+
+d_j d ln 1x aeln
+
+1 x + f
+
+0 \Gamma 1
+
+2
+
+f 000
+
+f 00 oe :
+
+3
+
+Note that d _jd ln 1
+
+x = [f
+
+00]\Gamma 1 : Finally, using (4), the derivative reads
+
+d ln ~F
+
+d ln 1x = _j \Gamma
+
+1 2 \Theta f
+
+00\Gamma 1\Lambda 0 ; (5)
+
+(this simple expression stems from the fact that the structure function is a Legendre transform for the conjugate variables j and ln 1x , see eq.(2)). Now we note that eq.(5) is dominated by the rightmost j-plane singularity of ~Fs: Indeed, non-singular (or less singular) contributions appears only in the saddle-point correction term, namely \Theta f 00\Gamma 1\Lambda
+
+0 ; and they
+
+are completely negligible in the small x domain.
+
+Indeed, a similar observation has been made recently about a background-subtracted structure function[9]. Our derivation, using the saddle-point method, provides an explanation for this empirical observation. The background has a singularity near j = 1, which has to be subtracted out in order to extract the main BFKL contribution as done in ref. [9].
+
+Now let us consider the well-known j\Gamma plane singularity generated by the GLAP evolution equations[8]: Define our notation by
+
+~Fs(j) = ` *F \Gamma *\Gamma *
+
++ \Gamma *\Gamma exp *+, +
+
+*+ \Gamma *F *+ \Gamma *\Gamma exp *
+
+\Gamma ,' (q + _q) (j)
+
++ 2Nf OE
+
+FG
+
+*+ \Gamma *F (exp *+, \Gamma exp *
+
+\Gamma ,) g(j)
+
+j *F \Gamma *\Gamma *
+
++ \Gamma *\Gamma exp *+, \Lambda (a regular function at j ? 0) ; (6)
+
+where , is the well known evolution parameter of the GLAP equation and (q + _q) (resp: g) are the input quark singlet (resp. gluon) structure functions at , = 0: Note that here we want to analyze the singularity structure of the GLAP evolution equation. Thus, we will apply our formalism to the case of input functions q; _q; g which are regular for j ? 0.
+
+The GLAP kernels read
+
+*F = \Gamma 43 ae4(j + 1) + 4flE \Gamma 3 \Gamma 2j(j + 1) oe
+
+4
+
+*G = \Gamma 12 f(j + 1) + flE g + 11 \Gamma 23 Nf + 24 \Gamma j
+
+2 + j + 1\Delta
+
+j (j2 \Gamma 1) (j + 2)
+
+OEFG = j
+
+2 + j + 2
+
+j(j + 1)(j + 2) OE
+
+GF = 8
+
+3
+
+j2 + j + 2
+
+j (j2 \Gamma 1)
+
+*\Sigma = 12 ae*F + *G \Sigma q(*F \Gamma *G)2 + 8Nf OEGF OEFGoe ; (7)
+
+where is the logarithmic derivative of the \Gamma function and flE the Euler constant.
+
+At this stage, some comments are in order. The full leading singularity at j = 1 in the GLAP equations is taken into account since all singular contributions at j = 1 (the essential singularity contained in e*+, and its polynomial prefactor) are present. This is due to the fact that *F ; *\Gamma ; OEFG are non-singular at j = 1 whereas *+ = 12j\Gamma 1 +regular function at j ? 0:
+
+On the other hand, the whole singularity structure of the GLAP equation depends only on the parameter ,
+
+, = 111 \Gamma 2
+
+3 Nf
+
+ln ae ln Q
+
+2=\Lambda 2
+
+ln _2=\Lambda 2 oe ; (8)
+
+where Q is the scale of the deep-inelastic reaction, _, the initial evolution scale, \Lambda , the QCD one-loop scale and Nf the number of flavors. Note that a phenomenological application[7] may require evolution beneath the perturbative domain i.e. (_ ! Q ^ Q0); where Q20 , GeV2: In our study, we shall use , to parametrize the GLAP singularity including the non-perturbative evolution range.
+
+Now let us demonstrate assertion iii), i.e. the equivalence between the GLAP and BFKL singularities in the small x range at fixed Q2: In Fig.1, the predictions of dlnF=dln 1x are given for three typical values of , and compared with the 2-parameter fit using the BFKL expression (1). The a and b parameters of eq.(1) are displayed as a function of , in Fig.2. Surprisingly enough, although the singularities are different analytically, both give similar results in the region of interest for HERA, 10\Gamma 4 . x . 10\Gamma 2: We have performed a variety of checks on this claim, varying the fitting range, and switching on and off the non-singular terms in the GLAP kernels themselves. This results in a small spread in the values of a and b, see Fig.2. For x * 10\Gamma 2 the regular terms can no longer be neglected,
+
+5
+
+while for x ^ 10\Gamma 4 the difference between the two parametrizations becomes noticeable, though still small.
+
+Now let us come to our final assertion iv) about the Q2-evolution of dlnF=dln 1x . The BFKL singularity is not expected to vary significantly with Q2; even if we take into account the running of the coupling constant[11]. To be more specific, the overall normalization of the singlet structure functions is indeed expected to vary as pQ2 but its shape is expected to remain unchanged[12]: This implies that dlnF=dln 1x is independent of Q2. In contrast, a distinctive feature of the GLAP singularity is its Q2 evolution. For the quantity dlnF=dln 1x this evolution is determined by the , dependence of a and b, see Fig.2. Note that a Q2 dependence compatible with the first-order GLAP equations has also been obtained in phenomenological studies of parton distributions evolution at small x, especially when the input functions are singular[13;14]:
+
+We will first discuss the phenomenological implications of our remarks. In Fig.3, we exhibit the data with corresponding fits for Q2 = 15 and 30 (GeV=c)2; values which correspond to the best-explored small-x domain. The lack of statistics in the present data excludes the possibility of obtaining a precise estimate of dlnFs=dln 1x : For this reason, we will proceed as following. We consider the scale _ in eq. (8), as the only relevant parameter with \Lambda fixed at a reference value of 100 MeV. Then, leaving free the normalization of the structure function at each Q2, we obtain an estimate of _ = 290\Sigma 60MeV. This preliminary analysis is an incentive for a more complete study which will be allowed by the larger statistics at HERA in the near future. At the very least, it confirms that either a BFKL or a GLAP singularity may well describe the present data. In agreement with the GRV phenomenological analysis[7], the value of _ is situated in the non-perturbative range of scales for QCD.
+
+Some theoretical comments are now in order. The BFKL singularity
+
+This singularity is obtained as a resummation of the leading \Theta ffsln 1x \Lambda n perturbative
+
+6
+
+QCD contributions coresponding to soft gluons. The measurement of proton structure functions in the low-x region accessible at HERA, may provide the first experimental signal of the BFKL singularity predicted long ago from QCD calculations[4]: However it is also known that this singularity contains non-perturbative contributions connected to the low transverse-momentum range of the gluons in the corresponding ladder diagrams. This is often cited as the kT \Gamma diffusion problem[5]: A somewhat related problem is the the infrared cut-off dependence[15] of the BFKL singularity, especially when the coupling constant is allowed to run. Let us see what can be learned from the comparison with the GLAP evolution equations.
+
+The GLAP singularity
+
+This singularity is obtained as a resummation of the leading \Theta ffslnQ2\Lambda n perturbative QCD contributions corresponding to the resummation of collinear gluons. More precisely, the use of this singularity at small x is nothing but the double logarithm approximation (DLA). The DLA approximation is not expected to be dominant in the present range of HERA experiments Thus it came as a surprise that the GRV parametrization[7] based on a fit of previous experimental results using the GLAP evolution equations over a large range of scales yields a good prediction of HERA data[1;2]: We now see by our method using dlnF=dln 1x that it is not a mere coincidence but a consequence of the striking similarity between GLAP and BFKL singular behaviour in the experimental small-x range.
+
+We obtained our results for evolution equations including a non-perturbative range, _ ^ Q ^ Q0: It is worthwhile to compare them to those obtained some time ago[13] in the deep-perturbative regime, Q AE Q0: Starting with the same input at Q0; the BFKL and GLAP evolution of the structure functions is found to be quite similar. The theoretical origin of this behaviour is the approximate equality of gluon anomalous dimensions when the expansion parameter ff
+
+s(Q2)
+
+j\Gamma 1 is small[13]. In our analysis, the expansion parameter near
+
+j = 1 is a\Gamma 1j\Gamma 1 ; see eq. (1), remaining of order 1 in the domain of phenomenological interest.
+
+Our conclusion is that the end-point of the singularity a is compatible with a genuine
+
+7
+
+BFKL singularity, while the type of singularity is modified. This can be seen from Fig.(2), where the parameter b evolves from a value not far from the predicted one (b , \Gamma 12 ); towards positive values at larger ,:
+
+One may object to the validity of the GLAP formalism in a region which includes non-perturbative contributions[16]: But, as we have already mentioned, non-perturbative contributions also have to be taken into account in the BFKL formalism for deep inelastic structure functions[5]: There may well be less difference between the two approaches at small x than expected. Let us discuss this point a little further. If this similarity is more than a coincidence, one obtains a new information on the non-perturbative region of the kT \Gamma diffusion of the BFKL gluon radiation. This suggests that the dominant ln 1x ; lnkT ranges for gluons in the ladder diagrams[5] contributing to Fs (assuming the extension of the BFKL evolution equation to the non-perturbative domain) could be in one-to-one correspondence with those in the GLAP equations with an evolution from a low _2 scale. The hadronic final states in Deep-Inelastic Scattering could be a sensitive test of this conjecture.
+
+As a final remark concerning the Q2 dependence, there seems to be a slight theoretical contradiction between the predictions of the BFKL and GLAP evolution equations at small x: Indeed, the latter can be proven to be valid if the input structure functions are singular enough[13;14] while the former predicts a different Q2-evolution pattern[12]. We have found a specific Q2 evolution of the BFKL parameters a(,); b(,) which remains to be studied theoretically and phenomenologically in order to clarify this point.
+
+Acknowledgements
+
+We thank J. Baudot warmly for his contribution to the initial stage of this work. Thanks also to M. Besan,con, J.-F. Laporte and Ch. Royon for fruitful discussions and A.D. Martin for communicating the paper of ref.[9].
+
+8
+
+REFERENCES [1] H1 Collaboration, Nucl. Phys.B407 (1993) 515. [2] Zeus Collaboration, Phys. Lett. B316 (1993) 412. [3] For a recent collection of reviews, see the special issue of Journal of Physics G , Vol.19
+
+(1993) 1425-1703. [4] E.A. Kuraev, L.N. Lipatov, V.S. Fadin, Sov. Phys. JETP 45 (1977) 199; Ya.Ya.
+
+Balitsky and L.N. Lipatov, Sov. Nucl. Phys. 28 (1978) 822. [5] Contributions of A.D. Martin and J. Bartels, see ref.[3] p.1603 and 1611. [6] L.V. Gribov, E.M. Levin and M.G. Ryskin, Phys. Rep. 100 (1993) 1. [7] M. Gl"uck, E. Reya and A. Vogt, Zeit. Phys. C53 (1992) 127; Phys. Lett. B306
+
+(1993) 391. [8] G. Altarelli and G. Parisi, Nucl. Phys. B126 (1977) 298; V.N. Gribov and L.N.
+
+Lipatov, Sov. Journ. Nucl. Phys. 15 (1972) 438 and 675. [9] A.J. Askew, J. Kwieci'nski, A.D. Martin, P.J. Sutton, Mod. Phys. Lett. A40 (1993)
+
+3813. [10] A.H. Mueller and H. Navelet, Nucl. Phys. B282 (1987) 727. [11] J.C. Collins, J. Kwieci'nski, Nucl. Phys. B316 (1989) 307; See also J. Kwieci'nski's
+
+contribution, ref.[3], p. 1443, and references therein. [12] A.J. Askew, K. Golec-Biernat, J. Kwieci'nski, A.D. Martin and P.J. Sutton, Krakow
+
+preprint IFJ 1653/PH (1993). [13] G. Marchesini and B. R. Webber, Nucl. Phys. B349 (1991) 617; E.M. Levin, G.
+
+Marchesini, M.G. Ryskin, B.R. Webber, Nucl. Phys. B357 (1991) 167. [14] R.K. Ellis, Z. Kunszt, E.M. Levin, Preprint Fermilab-PUB-93/350-T ETH-TH/93-41,
+
+9
+
+(1993). [15] J.C. Collins and P.V. Landshoff, Phys. Lett. B276 (1992) 196; J.R. Forshaw, P.
+
+Harriman and P.J. Sutton, Manchester preprint M/C-TH93/14 (1993). [16] J. R. Forshaw, Phys. Lett. B314 (1993) 425.
+
+10
+
+FIGURE CAPTIONS Figure 1: Comparison of BFKL and GLAP singularities for dlnF=dln 1x
+
+The predictions for dlnF=dln 1x in the small-x range are displayed for the GLAP singularity (dotted line) and the BFKL singularity (continuous line). The small-x range is limited from above (excluding the dashed lines) by the range of validity of the j\Gamma plane singularity dominance (see text). The curves are displayed for three typical values , = (:1; :2; :3) of the GLAP evolution parameter. The corresponding values of Q span a very large range between 1.7 and 8105GeV(!) with the chosen parameters (see formula (8) in the text).
+
+Figure 2: Correspondence between BFKL and GLAP singularity parameters
+
+The a and b parameters of the BFKL singularity, eq.(1), are displayed as functions of ,; the GLAP evolution parameter (full black stripes). The width corresponds to systematic variations on the fitting range, see text. The grey region corresponds to a simple power-law fit (b j 0):
+
+Figure 3: Phenomenological comparison
+
+The data for the singlet structure function at small x from H1 (Q2 = 15; 30 GeV2 from ref.[1]) and Zeus ( Q2 = 30 GeV2 from ref.[2]) are displayed in a ln Fs= ln 1x plot. The continuous line corresponds to a fit with _ = 290MeV, see formula (8). (The absolute normalization is fixed independently for each set of data, since we want to parametrize only the derivative dlnF=dln 1x ): An estimate of the admissible values give _ = 290 \Sigma 60MeV, which correspond to , = :135 \Sigma :015 ( Q2 = 15 GeV2) and to , = :15 \Sigma :02 ( Q2 = 30 GeV2), all other parameters being fixed as in the text.
+
+11
+
+-8 -7 -6 -5 -4 -3 -2 -1 0
+
+1.1 1.2 1.3
+
+1.4 1.5x = 0.1 d log F
+
+d log 1/x
+
+log 10 x
+
+-8 -7 -6 -5 -4 -3 -2 -1 0
+
+1.2
+
+1.4 1.6 1.8 d log F
+
+d log 1/x
+
+log 10 x x = 0.2
+
+-8 -7 -6 -5 -4 -3 -2 -1 0
+
+1.2
+
+1.4 1.6 1.8
+
+2 d log F
+
+log 10 x x = 0.3 d log 1/x
+
+12
+
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.41 1.1
+
+1.2 1.3
+
+1.4 1.5 1.6
+
+x
+
+a
+
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 -0.5
+
+0 0.5
+
+1 1.5
+
+2b
+
+x 13
+
+log 10 x-3.4 -3.2 -2.8 -2.6 -2.4 -2.2 -0.75
+
+-0.5 -0.25
+
+0.25
+
+0.5 0.75
+
+1log F ZEUS30 GeV 2
+
+log 10 x-3.25 -2.75 -2.5 -2.25 -2 -0.5
+
+0.5
+
+1 log F H130 GeV 2
+
+log 10 x -3.5 -3.25 -2.75 -2.5 -2.25 -2
+
+-1 -0.5
+
+0.5 log F H115 GeV 2
+
+14
+

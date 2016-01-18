@@ -1,0 +1,846 @@
+
+
+ 22 May 1995
+
+CRITICAL BEHAVIOR OF A FOUR-POINT
+
+SCHWINGER-DYSON EQUATION
+
+B. Holdom\Lambda and G. Triantaphyllou y Department of Physics, University of Toronto
+
+Toronto, ON M5S 1A7 Canada
+
+May 22, 1995
+
+Abstract We study the Schwinger-Dyson equation associated with a chiralitychanging fermion 4-point function in a strongly-coupled U (1) gauge theory. After making appropriate simplifications, we solve the equation numerically via a relaxation method. Our analysis provides an estimate of the critical coupling and it gives some indication as to the general momentum dependence of the 4-point function.
+
+\Lambda e-mail:holdom@utcc.utoronto.ca
+
+ye-mail:george@medb.physics.utoronto.ca
+
+0
+
+1 Introduction In this paper we wish to study the dynamical generation of momentum dependent fermion 4-point functions within strongly interacting gauge theories. These will be purely nonperturbative quantities associated with breakdown of chiral symmetries, and would for example imply the existence of the corresponding 4-fermion condensates. Our analysis is based on the Schwinger-Dyson (SD) formalism. The resulting equations are analytically intractable and thus we seek numerical solutions.
+
+We have two main goals in this study. One is to estimate the "critical coupling" necessary for the formation of the 4-fermion condensates. We would like to study this in the context of a situation where 4-fermion condensates develop on scales higher than the scale of mass formation. This would make it consistent to treat the 4-fermion condensate problem in isolation, independently of the mass generation problem. (This is not the case for QCD, but even in that case it is useful to at least consider the existence of the effects we study here). In extensions of the standard model the hierarchical symmetry breaking pattern we envisage can be a natural consequence of the fact that a 4-fermion condensate may break fewer gauged symmetries than the 2-fermion condensate.
+
+For example, in [1] it is shown how the top mass may be associated with a certain 4-fermion condensation occurring well above the electroweak symmetry breaking scale. The point is that a 4-fermion condensate, composed of fermions with standard quantum numbers, can signal a dynamical breaking of isospin symmetry while not breaking SU (2) \Theta U (1) gauge symmetry. A pattern of symmetry breaking is described [1] in which the isospin breaking feeds strongly into the top mass while not significantly influencing the W and Z masses.
+
+Our other goal is to make a first attempt to extract the momentum dependence
+
+1
+
+of the dynamical fermion 4-point function. For example if such an object is to play a role in generating a fermion mass, then two lines of the 4-point function may be closed off into a loop. The details of the momentum dependence, such as knowing the relative size of the 4-point function when different pairs of momenta are large, is then of interest. As a first guess, it is standard to appeal to some kind of factorization or vacuum saturation and treat the 4-point function as a product of two 2-point functions. We proceed beyond that type of picture here, although we are forced into making our own truncations of the full treatment.
+
+Truncations are also made in the study of the dynamical mass function, but there is growing confidence that most of the essential physics of chiral symmetry breaking is contained in these treatments. For example, the kernel of the SD equation is usually dealt with in some form of ladder approximation. But in the case of a constant coupling, which is the case we study here, it is found that the main conclusions regarding the behavior of the mass function are quite insensitive to the precise form of the kernel [2].
+
+In the present study we use a one gauge-boson exchange approximation. Since the gauge boson can attach to any pair of the four legs, the SD equation sums up a much more complicated set of diagrams than the set of ladder graphs. It is clear from the study of the mass function that the poorly understood infrared effects (e.g. confinement) are not important in extracting the intermediate and high momentum behavior of the mass function. We shall adopt a similar philosophy here, and drop various nonlinearities which arise only in the infrared.
+
+In the next section we consider the SD equation for the fermion 4-point function. In section 3 we present an explicit derivation of the equation within the framework of certain approximations, which are further discussed in section 4. In section 5 we discuss our numerical treatment, and in section 6 we present our results.
+
+2
+
+2 Schwinger-Dyson equation Our model consists of a strongly interacting U(1) gauge theory with one Dirac fermion. We start by considering 4-fermion operators of the form _a\Gamma abb _c\Gamma 0cdd, where \Gamma and \Gamma 0 are 4 \Theta 4 matrices and a; b; c; d are spinor indices. In this work, we are particularly interested in operators that are purely chirality changing1, i.e. of the form _L\Gamma R _L\Gamma 0R + h.c., where L j (1\Gamma fl5)2 and R j (1+fl5)2 . The two independent operators which have this property and respect parity are2
+
+1 2 ( _ _ + _fl
+
+5 _fl5) = _LR _LR + h:c:
+
+_oe_* _oe_* = _Loe_* R _Loe_*R + h:c:: (1)
+
+The vacuum expectation values of these two operators receive exclusively nonperturbative contributions, and their non-zero values signal a dynamical break-down of a chiral U (1)A. However the discrete symmetry ei(n=2)ssfl5 where n is an integer can remain unbroken and prevent fermion masses. We imagine that this discrete symmetry is broken on a smaller energy scale in which case the resulting fermion masses can be neglected in our analysis.
+
+We develop the appropriate SD formalism in analogy with the standard analysis of the 2-point function. The SD equation for the 2-point function expresses this function in terms of a 3-point function, as shown diagrammatically in Fig. 1. This equation is part of an infinite SD hierarchy, which must be truncated in some manner. The loop expansion in the effective potential formalism [4] leads to such an approximation, and at two-loops it yields the integral equation given in Fig. 2.
+
+The diagrammatic form of the SD equation for the 4-point function is shown in Fig. 3. It involves a 5-point function, and it is again a part of the infinite SD1For a discussion on chirality-conserving 4-fermion operators, see [3]. 2We choose to work in Euclidean space, so there is no difference between upper and lower
+
+Lorentz indices.
+
+3
+
+equation hierarchy. In the corresponding effective potential we have terms as shown in Fig. 4a, b. The smaller black dots depict the fermion self-energies, and the larger dots the 4-point function. If the fermions have non-zero self-energies, terms of the form shown in Fig. 4a, with and without gluons attached, would be important. The 4-fermion condensate would turn out to be proportional to the square of the 2-fermion condensate, if other diagrams are neglected.
+
+However, if the fermion masses can be neglected, as we assume in this work, then the diagram in Fig. 4b is essential for a nonvanishing 4-point function. Minimization of the effective potential with respect to the 4-point function leads us to an equation of the form shown in Fig. 5. It is clear that the 5-point function of Fig. 3 has been approximated by a 4-point function, with a gauge boson attached to one of the fermion legs with a bare coupling, as shown in Fig. 4c, and in complete analogy with the study of the 2-point function. Note that we have symmetrized the set of diagrams such that a gluon is attached to all possible pairs of fermion legs. We then have to insert a factor of 1=2 to recover the correct SD equation.
+
+The resulting SD equation is linear. Non-linearities would come from vacuum terms like the one shown in Fig. 6a, which contributes to the SD equation a term displayed in Fig. 6b. Note that the number of black dots in Fig. 6a must be even. These non-linear terms are not easily resummable, in contrast to the case of the 2- point function or the Nambu-Jona-Lasinio model. We do not consider these terms in this work since we expect them to affect the 4-point function mostly in the infra-red regime, in analogy with the 2-point function.
+
+We now derive the explicit analytic form of the equation shown diagrammatically in Fig. 5.
+
+4
+
+3 Feynman diagrams We are considering a 4-point function associated with the Green's functionD
+
+0jT fa(x)b(y)c(z)d(0)gj0E. The 4-point function receiving exclusively nonperturbative contributions is, in momentum space
+
+Oabcd(s; t; u; p12; p22; p32) = OS+P (Iab \Omega Icd + fl5ab \Omega fl5cd) + OT oe_*ab \Omega oe_*cd (2) where p1; :::; p4 are the external momenta corresponding to the fermions with spinor indices a; :::; d respectively. We wish to develop the SD equations for the two scalar functions OS+P and OT .
+
+When these functions appear inside the integrals in the SD equation, then their arguments depend on the loop momentum k flowing in the gauge boson propagator. For example, we have the k dependent variables si; ti, and ui, where the superscript i is equal to A; :::; F , corresponding to each of the six diagrams on the right-hand side of the equation in Fig. 5. They are given as follows:3
+
+s = \Gamma (p1 + p2)2 t = \Gamma (p1 \Gamma p4)2 u = \Gamma (p1 \Gamma p3)2 sA = s tA = \Gamma (p1 \Gamma p4 \Gamma k)2 uA = \Gamma (p1 \Gamma p3 \Gamma k)2 sB = s tB = \Gamma (p1 \Gamma p4 + k)2 uB = uA sC = \Gamma (p1 + p2 \Gamma k)2 tC = t uC = uA sD = \Gamma (p1 + p2 + k)2 tD = t uD = uA sE = sC tE = tA uE = u sF = sD tF = tA uF = u,
+
+The 4-point functions with arguments as they would appear inside the six diagrams are denoted by OiS+P and OiT , where i = A; :::; F .
+
+3We define these variables with a minus sign because we work in Euclidean space, and we want to work with positive quantities.
+
+5
+
+We then define the following functional operators \Gamma i:
+
+\Gamma A[K] j ff8ss3 Z d4k K(p
+
+1 \Gamma k)2(p2 + k)2
+
+\Gamma B[K] j ff8ss3 Z d4k K(p
+
+3 + k)2(p4 \Gamma k)2
+
+\Gamma C [K] j ff8ss3 Z d4k K(p
+
+1 \Gamma k)2(p4 \Gamma k)2
+
+\Gamma D[K] j ff8ss3 Z d4k K(p
+
+2 + k)2(p3 + k)2
+
+\Gamma E[K] j ff8ss3 Z d4k K(p
+
+1 \Gamma k)2(p3 \Gamma k)2
+
+\Gamma F [K] j ff8ss3 Z d4k K(p
+
+2 + k)2(p4 + k)2 ; (3)
+
+where K is a function of the loop and external momenta, with a possibly nontrivial spinor structure, and ff is the momentum-independent coupling. We work in the Landau gauge which is popular in studies of SD equations; the gauge boson propagator reads D
+
+_*
+
+k2 j
+
+1 k2 iffi
+
+_* \Gamma k_k*
+
+k2 j.
+
+With regards to the gauge dependence of our results we note that similar gauge
+
+dependence occurs in the two-point SD equation, and that the choice of Landau gauge in that case gives a critical coupling resembling that found in more complete treatments [5], [6]. Since one of our main objectives is to compare the critical coupling for the two-point and four-point functions, it seems natural to use the same approximation (ladder) and the same gauge (Landau). We also note that in our case of massless fermions the one-loop fermion self-energy vanishes in Landau gauge, thus making the use of the bare photon-fermion vertex consistent with the Ward-Takahashi identity. To do better and to approach our problem in a truly gauge invariant way, we would have to carry over the sort of treatment presented in [5]; this is a task far beyond our present means.
+
+To significantly reduce the complexity of our problem we make the following truncation. Inside the loop integrals we drop certain terms which are suppressed in
+
+6
+
+the large loop-momentum limit. In particular, we drop terms proportional to pi= , i = 1:::4, coming from the fermion propagators, and we replace k_k* terms, where k is the loop momentum, by k
+
+2
+
+4 ffi
+
+_*. An example of the effect of this type of truncation
+
+in a SD equation can be found in the literature. The authors of Ref.[7] used a 3-point SD equation for a calculation of the pion decay constant fss. They found that results obtained by neglecting terms in the pseudoscalar vertex proportional to external momenta were surprisingly very similar to their full results. The truncation in that case turns out to correspond to the popular Pagels-Stokar approximation [8] for the calculation of fss. Our case is of course quite different, and we will test further the effect of such a truncation below.
+
+In the following, by "Scalar insertion" we mean placing the function OS \Delta I \Omega I inside the integral on the right-hand side of the SD equation, by "Pseudoscalar insertion" placing OP \Delta fl5 \Omega fl5, and by "Tensor insertion" placing OT \Delta oe_* \Omega oe_* . The spinor structure can be simplified as follows: I. Diagrams A and B
+
+a) Scalar insertion: \Gamma A;B ^
+
+OA;BS
+
+k2 D
+
+_*fl*k=k=fl_* \Omega I = 3\Gamma A;B[OA;BS ]I \Omega I
+
+b) Pseudoscalar insertion: \Gamma A;B ^
+
+OA;BP
+
+k2 D
+
+_*fl*k=fl5k=fl_* \Omega fl5 = 3\Gamma A;B[OA;BP ]fl5 \Omega fl5
+
+c) Tensor insertion: \Gamma A;B ^
+
+OA;BT
+
+k2 D
+
+_*fl*k=oeo/aek=fl_* \Omega oeo/ae = \Gamma \Gamma A;B[OA;BT ]oe_* \Omega oe_*
+
+II. Diagrams C and D
+
+a) Scalar insertion: \Gamma C;D ^`
+
+OC;DS
+
+k2 D
+
+_*fl*k=' \Omega (k=fl_)* = 1
+
+4 \Gamma
+
+C;D[OC;DS ]oe_* \Omega oe_*
+
+b) Pseudoscalar insertion:
+
+7
+
+\Gamma C;D ^`
+
+OC;DP
+
+k2 D
+
+_*fl*k=fl5' \Omega (fl5k=fl_)* = 1
+
+4 \Gamma
+
+C;D[OC;DP ]oe_* \Omega oe_*
+
+c) Tensor insertion: \Gamma C;D ^`
+
+OC;DT
+
+k2 D
+
+_*fl*k=oeo/ae' \Omega (oeo/aek=fl_)* =
+
+2\Gamma C;D[OC;DT ]oe_* \Omega oe_* + 6\Gamma C;D[OC;DT ](I \Omega I + fl5 \Omega fl5) where we used the identity flffflfifl* = \Gamma ffifffifl* \Gamma ffifi*flff + ffiff*flfi + ifl5"fffi*_fl_. III. Diagrams E and F
+
+a) Scalar insertion: \Gamma E;F ^`
+
+OE;FS
+
+k2 D
+
+_* fl*k=' \Omega (fl_k=)* = \Gamma 1
+
+4 \Gamma
+
+E;F [OE;FS ]oe_* \Omega oe_*
+
+b) Pseudoscalar insertion: \Gamma E;F ^`
+
+OE;FP
+
+k2 D
+
+_* fl*k=fl5' \Omega (fl_k=fl5)* = \Gamma 1
+
+4 \Gamma
+
+E;F [OE;FP ]oe_* \Omega oe_*
+
+c) Tensor insertion: \Gamma E;F ^`
+
+OE;FT
+
+k2 D
+
+_* fl*k=oeo/ae' \Omega (fl_k=oeo/ae)* =
+
+2\Gamma E;F [OE;FT ]oe_* \Omega oe_* \Gamma 6\Gamma E;F [OE;FT ](I \Omega I + fl5 \Omega fl5):
+
+We may now equate terms proportional to I \Omega I, fl5 \Omega fl5 and oe_* \Omega oe_* on either side of SD equation, in order to obtain the following system of coupled integral equations:
+
+OS+P = 3(\Gamma A + \Gamma B)[OS+P ] +
+
+6(\Gamma C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OT ] OT = i\Gamma (\Gamma A + \Gamma B) + 2(\Gamma C + \Gamma D + \Gamma E + \Gamma F )j [OT ]
+
++ 12 (\Gamma C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OS+P ]; (4)
+
+where we have defined \Gamma i[O] j \Gamma i[Oi]; i = A; :::; F .
+
+8
+
+4 Further simplification This is still a formidable system of integral equations when it is realized that the quantities OS+P and OT are functions of six variables, s, t, u, p21, p22, and p23. The most interesting dependence is on the three variables s, t, and u, and we would be happy if we were able to solve for the function
+
+^O(s; t; u) j O(s; t; u; p2; p2; p2) (5)
+
+where 4p2 = s + t + u. But the SD equation does not permit this, since for loop momenta much larger than the external momenta we must know the value of O with two of the pi's much larger than the other two.
+
+In order to proceed we shall make the following replacement inside the integrals:
+
+O(s0 ; t0; u0; p021 ; p022 ; p023 ) ! ^O(s0; t0; u0)vuut j ^O(s; t; u)jj ^O(s
+
+0; t0; u0)j: (6)
+
+A prime indicates a possible dependence on the loop momentum k. For large loop momenta, we find it reasonable to assume that the value of O lies between its value when the large momentum flows through all of its legs and its value when the large momentum is removed. We have chosen the geometric mean.
+
+This prescription yields equations which can now be solved for the function ^O(s; t; u). The final equations are
+
+OS+P = 3(\Gamma A + \Gamma B)[OS+P ] +
+
+6jOT j jOS+P j (\Gamma
+
+C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OT ]
+
+OT = i\Gamma (\Gamma A + \Gamma B) + 2(\Gamma C + \Gamma D + \Gamma E + \Gamma F )j [OT ]
+
++ jOS+P j2jO
+
+T j (\Gamma
+
+C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OS+P ]; (7)
+
+where the function O is defined by the relation ^O j jOjO.
+
+9
+
+We can provide more motivation for the prescription in (6) as follows. If we were to drop the four terms depending on OT in the equation for OS+P , we would have a much simpler equation in which it is possible to set s = 0 and in which the solution depends on t + u only. In fact, if we make the replacements OS+P ! \Sigma and (t + u) ! p2 then we would be left with the linearized SD equation for the two-point function used to study the dynamical mass \Sigma (p2). The critical coupling would be the same, since we have the two diagrams A and B in Fig.5 which give identical one-gauge-boson exchange contributions in this case, and a factor of 1=2.
+
+In our case of constant coupling this equation is well-known to possess a solution of the form \Sigma (p2) ss 1=p up to logs. We therefore deduce that the result for ^OS+P j jOS+P jOS+P is such that it falls like 1=(t + u). This agrees with the fact that we are here summing the set of ladder graphs generated by diagrams A and B, and therefore the solution should behave like \Sigma (p2)2 ss 1=p2 when large momentum flows though both halves of the diagram and s = 0. We see that this consistency is a direct result of the prescription in (6), and we therefore proceed to use this prescription in the full set of equations. Note that the above discussion provides a naive guess as to the size of the critical coupling; it will be of interest to see how this survives in the full set of equations.
+
+5 Numerical Analysis We discretize the three-dimensional argument space spanned by s, t, and u, and the four-dimensional integration momentum space. We take the integration 4- momentum to have the form k_ = (k0; jkj sin ~` cos ~OE; jkj sin ~` sin ~OE; jkj cos ~`). Each of the variables s, t, u, jkj2 and k20 are spaced logarithmically according to log10(\Lambda 2IR) +
+
+i n log10(\Lambda
+
+2UV =\Lambda 2IR), where i = 1; :::; n. We discretize the integration angles by the prescriptions OE(i) = 2ssi=n and cos ~`(i) = \Gamma 1 + 2i=(n + 1). We do not take the points
+
+10
+
+~` = 0; ss as integration points, because the kernel has an integrable (collinear) singularity there. The ratio of the ultraviolet and infrared cutoffs, \Lambda UV =\Lambda IR, should not be too small, but we cannot take it too large either because of the limited number of points on the lattice.
+
+Since we have specialized to p2i = p2 for all i = 1; :::; 4, we may take a reference frame in which
+
+p1 = (p0; \Gamma jpj; 0; 0) p2 = (p0; jpj; 0; 0) p3 = (p0; jpj cos `; jpj sin `; 0) p4 = (p0; \Gamma jpj cos `; \Gamma jpj sin `; 0) (8)
+
+In this frame, s = 4p20, u = 4jpj2(1 + cos `) and t = 4jpj2(1 \Gamma cos `). For each point on the s, t, u lattice we calculate p0, jpj, and `, and then use these values to determine the kernels of the integral equations and the k-dependent arguments si; ti; ui (i = A; :::; F ) of the 4-point functions. Note that the 4-point functions are only defined for certain values of their arguments s, t, u according to the initial discretization. However, these 4-point functions are needed at different values of their arguments inside the integrals, due to the loop momentum. The values of the 4-point functions at these points are found by linear interpolation.
+
+The relaxation method used consists of inserting initial configurations for the 4-point functions OS+P and OT , and then iterating (4) until it is satisfied to a reasonable accuracy. For the results we present, the number of points on which the 4-point functions are defined is 123 and the number of integration points is 124. Moreover, we choose \Lambda UV =\Lambda IR = 6. The general features of the 4-point functions do not vary in any drastic way either by increasing the total number of points from 67 to 127, or by varying the \Lambda UV =\Lambda IR ratio.
+
+11
+
+6 The results Our equations exhibit critical behavior in the sense that the coupling must be sufficiently large to support a nonvanishing solution. For \Lambda UV =\Lambda IR = 6 we find a critical coupling
+
+ffc ff2ptc ss 0:96 \Sigma 0:1: (9)
+
+We denote by ff2ptc the critical coupling required for a chiral symmetry breaking
+
+solution in the 2-point function. To be consistent, we calculate ff2ptc using our 4- point function algorithm by keeping only diagrams A and B, setting s = 0, and using the same \Lambda UV =\Lambda IR. By our previous discussion this is equivalent (up to our approximations) to the 2-point SD equation. The ratio ffcff2pt
+
+c is not considerably
+
+affected by varying the \Lambda UV =\Lambda IR ratio. Our estimated error in ffc reflects only the
+
+effect of the finite number of points used, which limits the accuracy of the integration and the interpolation procedure used inside the integrals. Rather surprisingly, it appears that our naive guess above as to the size of the critical coupling survives in the full equations.
+
+The numerical solution of (4) is shown in Figs. 7-12. In Figs. 7-10 we give the functional dependence of the function ^OS+P j jOS+P jOS+P on ~t j t=\Lambda 2IR and on
+
+~u j u=\Lambda 2IR, for two different values of ~s j s=\Lambda 2IR. We use a logarithmic scale and only show points which are, in absolute value, greater than 10\Gamma 4. Note that for u ! t, which in our frame of reference corresponds to angles ` ? ss=2, the 4-point function is negative. In that region we plot the function \Gamma ^OS+P , as shown in Figs. 8 and 10.4 In Figs. 11-12 we give the analogous results for the function ^OT j jOT jOT . This function is always positive, although it comes close to vanishing for large t and u.
+
+4Note that the perspective on these figures is rotated by ss with respect to Figs. 7 and 9.
+
+12
+
+One of the main features of the 4-point functions is their slow fall with s. Another is that ^OS+P is roughly antisymmetric and ^OT roughly symmetric with respect to the interchange t $ u. These symmetry properties are quite consistent with the form of the full integral equations in (7). When the solutions are inserted into these equations we see that all terms in the ^OS+P equation are antisymmetric under the interchange t $ u, while all terms in the ^OT equation are symmetric. This follows from the way the C and D diagrams are related to the E and F diagrams when t $ u. Note that a solution with ^OS+P symmetric and ^OT antisymmetric under t $ u would also be consistent, but it is disfavored by the equations.
+
+The order of magnitude of jOS+P j and jOT j is the same when the angle ` is not too close to ss=2. This means that the ratios of the 4-point functions multiplying the coupling terms in (7) do not have a major effect; note that the appearance of these ratios is the main change from the equations in (4). In certain regions in the plots the 4-point functions display an almost linear slope (in logarithmic coordinates). Both j ^OS+P j and ^OT fall approximately as 1=t3 while remaining almost constant with u when t ! u, and fall approximately as 1=u3 while remaining almost constant with t when t ? u. The plots also display some structure (ridges etc.) on a smaller scale. We believe that these latter features are artifacts of our various truncations and/or the discretization.
+
+We would like some idea as to the effect of our procedure of dropping terms proportional to the external momenta. One check is obtained by solving the system of integral equations when the terms coupling the two equations with each other are dropped. We plot the corresponding result for ^OS+P in Fig. 13, and we find a result which is falling roughly as 1=(t + u) except for the highest values of t + u. This behavior over most t + u is consistent with our discussion above showing the correspondence of this case to the two-point function. The omission of terms in the
+
+13
+
+integral proportional to the external momentum causes a distortion in the solution only at the high end of t + u.
+
+By comparing Fig. 13 with our full result for ^OS+P , we can see that the terms which couple the two full equations together have a very large effect on the form of the solution. Most dramatic is the very strong dependence of ^OS+P on t \Gamma u. In the case of ^OT there is less difference between full result and the decoupled equation result displayed in Fig. 14. Also note that in the decoupled equation for ^OS+P , the variable s enters in a simpler way and we are able to set it equal to a constant (the infrared cut-off in Fig. 13). This is not possible in the full equations. Nevertheless, we find a fairly weak dependence on s in the full results.
+
+We have also made the following tests. When external momentum terms are dropped, we are distorting the integrand for loop momenta of order than or less than the external momenta. We may thus try making other distortions of the full equations in the infrared loop-momentum region and see the consequences. As one distortion, we apply an infrared cutoff on the loop momentum at a k2 equal to the p2 in (5). As another distortion, we replace all appearances of (P \Gamma k)2, where P is one or some combination of the external momenta, by the quantity max(P 2; k2), which is angle independent. In both cases, we find that the resulting 4-point functions are similar to those presented above, except for some of the highest values of s, t, and u.
+
+7 Conclusions In this work, we have treated a linearized and truncated Schwinger-Dyson equation for the 4-point function of fermions interacting via a strongly interacting U(1) gauge interaction in the Landau gauge. We considered chirality-changing 4-point functions which receive nonperturbative contributions exclusively. Our basic philosophy in
+
+14
+
+dealing with the full intractable problem is to make various truncations to it which allow solutions to be found, and then identify those features of the solutions which are generic. This work represents a first step in this direction.
+
+Thus far, our numerical results indicate that the equations exhibit a critical behavior, and that the critical coupling appears to be roughly equal to the one required for the formation of 2-fermion condensates. Our results also provide a first indication of the momentum dependence of the 4-point functions. Further studies and possible ramifications will be discussed elsewhere.
+
+15
+
+References
+
+[1] B. Holdom, Phys. Lett. B336, 85 (1994). [2] B. Holdom, Phys. Rev. Lett. 62, 997 (1989); U. Mahanta, Phys. Lett. B225,
+
+181 (1989).
+
+[3] D. A. Kosower, Phys. Rev. D 48, 1288 (1993). [4] J. M. Cornwall, R. Jackiw and E. Tomboulis, Phys. Rev. 10, 2428 (1974). [5] D. Atkinson, J.C.R. Bloch, V.P. Gusynin, M.R. Pennington and M. Reenders,
+
+Phys. Lett. B329 (1994) 117; A. Bashir and M. R. Pennington, Phys. Rev. D50 (1994) 7679.
+
+[6] T. Appelquist, K. Lane and U. Mahanta, Phys. Rev. Lett. 61 (1988) 1553. [7] K.-I. Aoki, M. Bando, T. Kugo, M. G. Mitchard, H. Nakatani, Prog. Theor.
+
+Phys. 84, 683 (1990); T. Kugo, M. G. Mitchard, Phys. Lett. 286, 355 (1992).
+
+[8] H. Pagels and S. Stokar, Phys. Rev. D20, 2947 (1979).
+
+16
+
+~ = ~'
+
+'\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta
+
+xx
+
+Figure 1: The schematic form of the SD equation for the 2-point function.
+
+y = y'
+
+'\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta
+
+Figure 2: The schematic form of the SD equation in ladder approximation.
+
+17
+
+~@
+
+@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+= ~@
+
+@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+''\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta xx
+
++ :::
+
+Figure 3: The schematic form of the SD equation for the 4-point function.
+
+18 ~@
+
+@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @ \Omega \Omega \Omega \Omega \Omega \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Psi \Psi \Psi \Psi \Psi
+
+ss ~@
+
+@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @ \Omega \Omega \Omega \Omega \Omega \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Psi \Psi \Psi \Psi \Psi
+
++ :::c)
+
+' &
+
+$ %
+
+'
+
+&
+
+$ % ~ ~
+
+ffffffff ffffffff ffff
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+\Omega \Omega \Omega \Omega \Omega \Omega \Omega \Omega \Omega \Omega b)
+
+a) '& $%'& $%y y~ff\Gamma \Delta \Omega
+
+''\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+Figure 4: a) A term in the effective potential. b) An example of a leading term at first order in ff, when the fermions are massless. c) The implied approximation.
+
+19
+
+~\Gamma fffi \Gamma aeo/@
+
+@@
+
+@@ae _
+
+L
+
+I
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma o/
+
+R
+
+` \Gamma \Gamma \Gamma \Gamma \Gamma fi R
+
+\Psi
+
+@@ @@ @ff
+
+_L
+
+R
+
+= ~\Psi \Psi \Psi \Psi
+
+\Psi
+
+\Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Phi \Phi \Phi \Phi \Phi @@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+A
+
++
+
+~ \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ffffffffff
+
+@@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+C
+
++
+
+~ ''\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma @ @@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+E
+
++
+
+~ ffffffff
+
+ff
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+\Omega \Omega \Omega \Omega \Omega
+
+@@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+B
+
++
+
+~
+
+\Omega \Omega \Omega \Omega \Omega \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Psi \Psi \Psi \Psi \Psi @@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+D
+
++
+
+~ ii\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma \Omega \Lambda \Gamma \Psi ``\Lambda \Gamma \Delta @@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+F
+
+Figure 5: The schematic form of the SD equation. We have labeled the four fermions by their spinor indices. We label the diagrams in the right-hand side by the capital letters A; :::; F . We omit the factor of 12 multiplying the right-hand side.
+
+20
+
+a)
+
+'
+
+&
+
+$ % ' &
+
+$ % ' &
+
+$ % ' &
+
+$ %~ ~ ~ ~
+
++ :::
+
+b) ~ ~ ~@
+
+@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma '
+
+&
+
+$ % ' &
+
+$ % \Gamma \Gamma
+
+\Gamma \Gamma \Gamma
+
+@@ @@ @
+
++ :::
+
+Figure 6: a) The first of the vacuum terms in the effective potential which would lead to a non-linear SD equation. b) The corresponding contribution to the SD equation.
+
+21
+
+10
+
+10
+
+1e-05 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1 10
+
+~t ~u ^OS+P
+
+Figure 7: The 4-point function ^OS+P when ^OS+P ? 0, for ~s = 1.
+
+10
+
+10
+
+1e-05 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1 10
+
+~t ~u \Gamma ^OS+P
+
+Figure 8: The 4-point function \Gamma ^OS+P when ^OS+P ! 0, for ~s = 1.
+
+22
+
+10
+
+10
+
+1e-05 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1 10
+
+~t ~u ^OS+P
+
+Figure 9: The 4-point function ^OS+P when ^OS+P ? 0, for ~s = 25.
+
+10
+
+10
+
+1e-05 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1 10
+
+~t ~u \Gamma ^OS+P
+
+Figure 10: The 4-point function \Gamma ^OS+P when ^OS+P ! 0, for ~s = 25.
+
+23
+
+10 10 1e-05 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1
+
+~t
+
+~u
+
+^OT
+
+Figure 11: The 4-point function ^OT for ~s = 1.
+
+10 10 0.0001
+
+0.001
+
+0.01
+
+0.1
+
+1 10
+
+~t
+
+~u
+
+^OT
+
+Figure 12: The 4-point function ^OT for ~s = 25.
+
+24
+
+10
+
+10
+
+0.001
+
+0.01
+
+0.1
+
+1
+
+~t ~u ^OS+P
+
+Figure 13: The 4-point function ^OS+P for ~s = 1, when the terms coupling the two equations are dropped.
+
+25
+
+10 10 1e-071e-06 1e-050.0001 0.0010.01
+
+0.1
+
+1
+
+~t
+
+~u
+
+^OT
+
+Figure 14: The 4-point function ^OT for ~s = 1, when the terms coupling the two equations are dropped.
+
+26
+

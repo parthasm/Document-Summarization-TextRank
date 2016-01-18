@@ -1,0 +1,522 @@
+
+
+ 20 Jun 94
+
+Monopoles and Quark Confinement:
+
+Introduction and Overview
+
+\Lambda
+
+Ken Yee Department of Physics and Astronomy, L.S.U.
+
+Baton Rouge, Louisiana 70803-4001, USA
+
+e-mail: kyee@rouge.phys.lsu.edu
+
+February 20, 1994
+
+Abstract We (try to) pedagogically explain how monopoles arise in QCD, why maximal Abelian(MA) gauge is "special" for monopole study, the Abelian projection in MA gauge, its resultant degrees of freedom(photons, monopoles and charged matter fields), species permutation symmetry, and the QCD-equivalent action in terms of these degrees of freedom. Then we turn to more recent developments in the subject: Abelian dominance, large N behavior of Abelian projected QCD, mass of the charged matter fields, notion of an effective photonmonopole action obtained by integrating out the charged matter fields, and problems encountered in evaluating this effective action using the microcanonical demon method on the lattice.
+
+LSUHEP-022094
+
+
+
+\Lambda Lecture to be published in the Proceedings of the Lake Louise Winter Institute, February 20-26, 1994, Alberta, Canada.
+
+1. Abelian Projection of QCD
+
+An open problem in QCD is to identify the quark confinement mechanism and understand how it works. To this end compact or lattice QED(CQED), whose action is \Gamma SCQED = P_!* fiCQED cos \Theta _* provides a compelling prototype. In lattice different forms notation [1], the expectation value of a Wilson loop W j exp i(A; J ) in CQED upon a BKT transformation [2] is
+
+hW i / X
+
+fkj@k=0g
+
+expf\Gamma eSg; (1)
+
+where e
+
+S j 12fi
+
+CQED (J; \Delta
+
+\Gamma 1J ) + 2ss2fiCQED(k; \Delta \Gamma 1k) \Gamma 2ssi(\Lambda dk; \Delta \Gamma 1E): (2)
+
+The 1-forms J and k are, respectively, conserved electric and magnetic monopole current loops. 2-form E is the electromagnetic field due to external current J : @E = J . \Delta \Gamma 1 is the inverse Laplacian. The first and second terms of eS correspond to the electromagnetic interaction energies of J and k. The third term is the interaction between the monopole currents and the background electric field E created by J .
+
+In the Meissner effect of BCS superconductivity, copper pairs--bosons carrying electric charge--dynamically squeeze magnetic flux into tubes which act to confine magnetic charges. When coupling fiCQED is sufficiently small, the entropy of the sum over monopole loops in (1) dominate over suppression by Boltzmann factor expf\Gamma eSg and monopoles are said to be "condensed." In this phase CQED exhibits the dual Meissner effect. Simulations indicate that
+
+1
+
+the CQED vacuum looks like an effective dual Type II superconductor [3]: magnetic monopoles, responding to the background electric field E, rearrange the electric field so that there is a net electric flux tube between the Wilson loop. The energy per unit length of this flux tube is the string tension. In this way, magnetic monopole condensation causes electric confinement in CQED.
+
+This characterization that monopoles are condensed in the confinement phase is formally justified as follows. CQED can be mapped to an Abelian Higgs model [4]. The shape of the effective potential V (OE) governing the Higgs field OE, which is closely related to the monopole creation operator, depends on the phase of CQED. In the confining phase V (OE) has a minimum at OE 6= 0 and, accordingly, vacuum expectation value hOEi 6= 0. Thusly, monopoles are condensed in CQED's confinement phase. In the deconfined phase, hOEi = 0.
+
+An analogous demonstration that monopole condensation is the origin of QCD confinement would be a great achievement [5]. But where are the monopoles in QCD? 't Hooft suggested the following idea [6]. Suppose QCD monopoles, like the 't Hooft-Polyakov monopoles of the GeorgiGlashow model [7], carry charges that are magnetic with respect to the [U (1)]N\Gamma 1 Cartan subgroup of color SU (N ). Then SU (N ) gauge symmetry obscures the magnetic charges and it is necessary to gauge fix at least the SU (N )=[U (1)]N\Gamma 1 symmetry to expose them.
+
+To this end, let X be a hermitian, traceless adjoint field transforming locally as
+
+X(x) ! \Omega (x)X(x)\Omega y(x): (3)
+
+2
+
+Consider the gauge in which X is diagonalized and its eigenvalues ordered according to increasing size. Such a gauge is achievable on any background gauge field because X transforms locally under \Omega . Except at sites where X has degenerate eigenvalues, this condition fixes the gauge completely modulo diagonal [U (1)]N\Gamma 1 gauge transformations
+
+\Omega residual = 0B@
+
+exp\Gamma i!1 .
+
+. .
+
+exp\Gamma i!N
+
+1CA
+
+;
+
+NX
+
+i=1 !
+
+i = 0: (4)
+
+Would-be QCD monopoles might arise as follows. Suppose X has two degenerate eigenvalues at xo in a 2 \Theta 2 block x of X. In the neighborhood around xo, x would be a 2 \Theta 2 hermitian matrix
+
+x(x) = \Phi o(x)1 +
+
+3X
+
+i=1
+
+oei\Phi i(x): (5)
+
+The \Phi i are real functions and oei the Pauli spin matrices. Eigenvalue degeneracy at xo means \Phi 1(xo) = \Phi 2(xo) = \Phi 3(xo) = 0. In D = 3 + 1 dimensional spacetime the typical loci of points simultaneously obeying these three conditions are lines. Assuming X is an analytic field, Taylor expansion yields
+
+\Phi i(x) = (x \Gamma xo) \Delta r\Phi i(xo) + O(x \Gamma xo)2 i = 1; 2; 3: (6) \Phi i near xo is (up to coordinate stretching) a "hedgehog" field and, in spherical coordinates centered at xo, the SU (2) gauge transformation which diagonalizes a hedgehog field is [7]
+
+\Omega (x) = ` cos
+
+\Theta
+
+2 exp
+
+\Gamma iOE sin \Theta
+
+2\Gamma expiOE sin \Theta
+
+2 cos
+
+\Theta
+
+2 ' : (7)
+
+3
+
+\Omega (xo) is ill-defined but it does not violate the gauge condition, which is ambiguous at xo since x(xo) / 1. Under gauge transformation
+
+A_ ! \Omega (A_ + ig @_)\Omega y (8) the SU (2) gauge field inside the 2 \Theta 2 subspace gains a component
+
+A3OE = igr sin ` i\Omega @OE\Omega yj
+
+3 = 1 \Gamma cos `
+
+2gr sin ` : (9)
+
+This is the field of a monopole carrying magnetic charge proportional to (+1; \Gamma 1) with respect to the U (1) subgroup generated by oe3 within the 2 \Theta 2 subspace. Hence, the lines where X has degenerate eigenvalues correspond to worldlines of monopoles carrying charge proportional to
+
+(\Delta \Delta \Delta ; 0; +1; \Gamma 1; 0; \Delta \Delta \Delta ): (10) These charges are magnetic with respect to the [U (1)]N\Gamma 1 residual gauge symmetry.
+
+Whether these monopoles are condensed or not in the QCD vacuum depends on both the choice of gauge fixing operator X and the nature of the gauge configurations dominating the QCD path integral. 't Hooft conjectured that, in fact, for a right choice of X these monopoles are manifestations of gauge field features responsible for QCD confinement. These features appear as magnetic monopoles in certain gauges. In these gauges one can hope to have a fixed-gauge picture of QCD confinement caused by monopole condensation. In other gauges the underlying gauge field features causing confinement are still present, but they do not appear as monopoles.
+
+4
+
+The nonperturbative nature of this conjecture requires calculations that were thought to be prohibitively hard until it was realized that relevant numerical calculations are feasible in lattice QCD [8]. Yet, as there is no elementary or otherwise natural candidate for X, it was not clear which gauge to use. It turns out [9]-[17] a compelling gauge is maximal Abelian(MA) gauge. Upon decomposing gauge field A into purely diagonal(n) and purely off-diagonal(ch) parts
+
+A = An + Ach; (11)
+
+MA gauge is
+
+Dn_Ach_ j @_Ach_ \Gamma ig[An_; Ach_ ] = 0: (12)
+
+While MA gauge is a differential rather than an X-diagonalization condition, it similarly leaves a residual [U (1)]N\Gamma 1 symmetry, Eq. (4). Under \Omega residual the N diagonal matrix elements (An)ii transform as neutral photon fields whereas the N (N \Gamma 1) offdiagonal matrix elements (Ach)ij transform as charged matter fields:
+
+(An_)ii ! (An_)ii \Gamma 1g @_!i; (13)
+
+(Ach_ )ij ! (Ach_ )ij exp\Gamma i(!i\Gamma !j) i 6= j; i; j 2 [1; N ]: (14) Since (Ach)ij carries two different U (1) charges, the Ach fields induce "interspecies" interactions between the N photons.
+
+MA gauge can be motivated [17] by considering the SU (N ) GeorgiGlashow(GG) model, which has an adjoint, bare mass M Higgs field \Phi coupled gauge invariantly to A. We can think of (pure) QCD as being the formal M ! 1 limit of the GG model because \Phi freezes out and decouples in this
+
+5
+
+limit. At all M , GG has finite energy 't Hooft-Polyakov monopole solutions magnetic according to electromagnetic field tensor [7]
+
+f_* = @_( b\Phi aAa*) \Gamma @* ( b\Phi aAa_) + ig b\Phi a[@_ b\Phi ; @* b\Phi ]a (15) where b\Phi a = \Phi a=(\Phi b\Phi b)
+
+1 2 . The value of f_* is gauge invariant but the three
+
+terms on the RHS of (15) mix under gauge transformations. The evaluation of f_* simplifies in gauges in which one or two of the three terms on the RHS of (15) vanish. MA gauge can be defined as the gauge in which \Phi is diagonalized. Diagonalization of \Phi induces a gauge transformation on the monopole solutions so that they obey MA gauge condition (12). In this gauge f_* for monopole fields reduces to the Abelian form
+
+f_* j @_An* \Gamma @*An_: (16) As \Phi is undefined in (pure) QCD it is unclear how to use (15) to identify magnetic monopoles in QCD. However, (12) and (16) do not depend explicitly on \Phi . This fortuitous fact allows one to try and identify monopoles in QCD by fixing the gauge fields to (12) and, following (16), evaluating f_* by treating the (An)ii as Abelian fields. On the lattice the monopole currents are identified according to a discretized version of1
+
+k_ j 12ss ffl_**ffi@*f*ffi; (17) a procedure known to be appropriate for CQED [18]. On the lattice An_ is compact--(An_)ii 2 [\Gamma ss; ss)--so that, as in CQED, it potentially may have
+
+1Our definition is a factor of 2 different from another common normalization, k_ j 1 4ss ffl_**ffi@*f*ffi.
+
+6
+
+nonzero magnetic monopole currents. Note that since @_k_ = 0 by definition of k_, monopole currents always flow in closed loops.
+
+This procedure where only the diagonal An components of nonAbelian gauge fields A are used to determine the monopole-related electromagnetic fields is called Abelian projection(AP). As operational exercises people have performed AP starting from a variety of gauges. As anticipated, the results vary with gauge. Only MA gauge has emerged as promising. While this certainly does not preclude the existence of some as-yet untried better gauge, all other tested trial gauges lead to at least one bad consequence which rules it out.
+
+For SU (2) QCD the following results hold in MA gauge: monopoles have a nonzero number density which persists as the lattice spacing is taken smaller and smaller [10]; they are quantifiably more dynamical in the confining phase than the finite temperature deconfined phase [8, 11]; their density seems to correlate to the nonAbelian string tension under cooling [13]; reminiscent of cooper pairs in the Meissner effect, the monopole currents circulate around effective chromoelectric flux tubes [14]; in the finite temperature deconfined phase the monopole density does not vanish, as they would not if they are also responsible for the string tension of spatial Wilson loops [15]. Some of these SU (2) results have been independently verified by the author for SU (3) [16]. 't Hooft's conjecture seems to be supported.
+
+In the remainder of this Section we show that interspecies interactions are 1=N suppressed. This indicates that the matter fields Ach, which mediate interspecies interactions by virtue of their two-species charges, lose their
+
+7
+
+influence at large N . Since PNi=1(An_)ii is invariant under (13), an irreducible representation of [U (1)]N\Gamma 1 is
+
+`i_ j (An_)ii \Gamma \Lambda _; \Lambda _ j 1N
+
+NX
+
+j=1(
+
+An_)jj : (18)
+
+While vector field \Lambda is [U (1)]N\Gamma 1 invariant, the `i transform as `i_ ! `i_ \Gamma 1g @_!i and obey constraint
+
+NX
+
+i=1 `
+
+i _ = 0: (19)
+
+We shall refer to the quantum dynamics of the N angles `i, which comprise a compact [U (1)]N\Gamma 1-invariant gauge field theory, as Abelian projected QCD or APQCD. As described in Section 2, APQCD is the field theory obtained by integrating out Ach and \Lambda from QCD in MA gauge. The dynamical variables of such Abelian gauge theories generically are photons, magnetic monopole current loops, and virtual electric current loops [19]. Due to (19), the AP electromagnetic field tensors f i_* j @_`i* \Gamma @*`i_ obey PNi=1 f i_* = 0 and, because monopoles always occur in charge-anticharge partners a la Eq. (10),
+
+NX
+
+i=1
+
+ki_ = 0: (20)
+
+APQCD expectation values have a species permutation symmetry by which [20] every species is equivalent to every other species; for i 6= j and i 6= l the relationship of species i to j is the same as i to l. If Ai and Bj refer to two operators A and B composed exclusively of species i and j links, species permutation implies that
+
+hAiBii = hAjBji; hAiBji = hAiBki; j 6= i; k 6= i: (21)
+
+8
+
+There is no implicit summation over repeated species indices in Eq. (21).
+
+Let ci be any operator such as `i, f i_* , or ki_ which obeys
+
+NX
+
+i=1 c
+
+i = 0: (22)
+
+Together with species permutation symmetry (22) implies that
+
+hcii = \Gamma X
+
+j6=i
+
+hcj i = \Gamma (N \Gamma 1)hcj i; (23)
+
+which in turn implies that hcii = 0. (21) and (22) also imply
+
+hAj cki = \Gamma i 1N \Gamma 1 jhAi cii j 6= k: (24) (24) says the correlator between two different species is 1=N suppressed relative to the same correlator between the same two operators of the same species. Interspecies interactions are 1=N suppressed and in the large N limit the N species decouple.
+
+What does (24) tell us about confinement? Consider
+
+c(i; j) j \Gamma i hW
+
+j cii
+
+hW ji (25)
+
+where W j is the jth-species time-like abelian Wilson loop (see Eq. (28) below) which we take to be suitably much larger than the abelian flux tube width. c(i; j) is the expectation value of operator ci in the background electric field created by a widely-separated static (qq)j pair. Eq. (24) implies that
+
+c(i; j) = \Gamma i 1N \Gamma 1 jc(j; j) i 6= j: (26) A physical interpretation emerges if, for example, we set ci = Ei, the ithspecies electric field. (26) implies the effective electric field E(i; j) points in
+
+9
+
+the opposite direction of E(j; j) and that E(i; j) is suppressed relative to E(j; j) by 1N\Gamma 1. The effective Abelian electric fields created by a (qq)j pair have a tendency to anti-align!
+
+10 2. APQCD Action and Integrating Out Ach
+
+How do the Abelian ki monopole currents cause string tension in the nonAbelian Wilson loops? This is prima facially a difficult question, and it is not at all obvious (or even likely) that a CQED-like picture is applicable even if the Abelian projection correctly identifies the monopoles. In MA gauge the QCD Lagrangian LQCD = \Gamma 12 P_* trF 2_* is decomposable as
+
+LQCD = \Gamma 12 X
+
+_* trif
+
+2 _* + V 2_* \Gamma g2T 2_* \Gamma 2ig(f_* + V_* )T_* j (27)
+
+where V_* j Dn_Ach* \Gamma Dn* Ach_ , T_* j [Ach_ ; Ach* ], and f_* is defined in (16). The second and fourth terms in the RHS of (27) contain interactions between the neutral An (or equivalently the ` and \Lambda ) fields and the charged Ach fields. Further, according to the second, third, and fourth terms the Ach fields propagate and self-interact. Hence, not only does the nonAbelian Wilson loop W j P exp i(A; J ) contain An and Ach components mixed together in a complicated way, the magnetic fields of the An monopoles must penetrate through a QCD vacuum populated with virtual Ach loops.
+
+To fix ideas, consider a simpleminded scenario in which the nonAbelian Wilson loop is dominated by its Abelian components, that is,2
+
+trhW i 7\Gamma ! *
+
+NX
+
+i=1h
+
+W ii; W i j exp i(J i; `i): (28)
+
+2In this Section we always assume QCD has been fixed to MA gauge. Since (28) relies on decomposition (11), it is unambiguous only if the SU (N )=[U (1)]N
+
+\Gamma 1 gauge symmetry
+
+is fixed. Abelian Wilson loops W i are invariant under only [U (1)]N
+
+\Gamma 1 and not the full
+
+SU (N ).
+
+11
+
+where * is some proportionality parameter and "7\Gamma !" means equality only in the very large Wilson loop limit. According to (28), the nonAbelian string tension is given by the string tensions of the N Abelian Wilson loops hW ii, which are all the same by species permutation symmetry. I do not know a formal justification for (28). Numerically, in SU (2) simulations Abelian Wilson loops seem to reproduce the nonAbelian string tension [11, 12], a result called "Abelian dominance" by its discoverers.
+
+Assuming (28) has some truth in it, let us consider where it leads. According to Eq. (24), current ki correlates to loop W j so that the W j string tension is affected not only by kj monopoles but also ki (i 6= j) monopoles. Thus, even assuming (28) the situation is more complex than CQED: the W j string tension has contributions from not only kj but also ki. Photons and Ach mediate the cross-species interactions.
+
+If we are interesting in just long distance confinement physics, we might seek a simplification by anticipating that the Ach fields have nonzero mass Mch. At distance scales longer than 1=Mch, we can integrate out the Ach fields and formulate QCD confinement exclusively in terms of the An fields, which hypothetically contain the confinement-causing monopoles in the first place. Then we might hope to understand Abelian string tension as due to the action of monopoles and photons without the complication of virtual Ach loops.
+
+Mch is estimated as follows. As is well-known [25], the nonAbelian adjoint Wilson loop crosses over from an area to a perimeter law beyond some critical size because a virtual AAy pair pops out of the vacuum once the en12
+
+ergy stored in the qq string exceeds the pair mass, which is roughly twice the effective gluon mass [26]. The Abelian projection image of this phenomenon occurs when the hW iW jyi string pops an AchAchy pair out of the vacuum. In SU (3) the effective gluon mass is of order Mg , 600M eV . This value, obtained from the pole of the gluon propagator [28], is not a selfevident definition of gluon mass. Indeed, Mg varies with gauge [29, 30]. (It is not inconsistent for the pole of the gluon propagator to vary with gauge since, because of confinement, gluon mass is not a direct observable.) If hW iW jyi crosses over to perimeter law at the same Wilson loop size as the nonAbelian adjoint Wilson loop and Abelian dominance extends to adjoint Wilson loops, then the Ach mass also must be of order
+
+Mch , Mg , 600M eV: (29) We stress that (29) is only a heuristic estimate; a numerical study of Mch is currently in progress [27].
+
+Formally integrating out the charged matter fields yields [21]
+
+\Gamma SAP QCD[`1; \Delta \Delta \Delta ; `N ] j lognZ [dAchd\Lambda ] exp(\Gamma SQCD) ffi[Dn_Ach_ ]o; (30) where we have reexpressed An in terms of the `i. We have also integrated out \Lambda which, being a [U (1)]N\Gamma 1 singlet, is not a gauge field. SAP QCD is a [U (1)]N\Gamma 1 invariant action in which monopoles arise as topological quantum fluctuations in the compact fields `i. Of course, there is no guarantee that SAP QCD has a simple form or is otherwise well-behaved. However, if it is and one is able to obtain an expression for SAP QCD, one can apply the CQED techniques [2, 4] to analyse APQCD. This potentially would lead to
+
+13
+
+an unambiguous demonstration that QCD monopoles are condensed, and a dynamical picture of how they cause Abelian string tension.
+
+There are several possible representations for an action with [U (1)]N\Gamma 1 gauge invariance and monopoles [21, 22, 23, 24]. Since we evaluate SAP QCD couplings on the lattice, the most suitable for us is an extension of lattice QED to N interacting U (1) species. We will focus on N = 3; extension to larger N is straightforward. One operator obeying gauge invariance and species permutation symmetry is3
+
+3X
+
+i=1
+
+1X q=1 fi
+
+q cos qf i_*: (31)
+
+My numerical calculations(described below) indicate that fi1 ?? fiq?1 , 0 and, in general, q = 1 operators have substantially bigger SAP QCD couplings than their q ? 1 counterparts. This is plausibly because SlatticeQCD itself contains only plaquettes in the fundamental representation and the Abelian angles `i are faithfully imbedded in the gauge fields A. In addition to 1 \Theta 1 plaquette cos qf_* one might also consider L \Theta M Wilson loops. Numerical simulations (see below) indicate that these larger Abelian Wilson loops are essentially absent from SAP QCD, possibly because SlatticeQCD is comprised of only 1 \Theta 1 plaquettes.
+
+Therefore, let us momentarily consider only q = 1, 1 \Theta 1 loops. In addition to some functional of monopole currents ki and expression (31), the only two other possible quasi-local, gauge invariant operators are
+
+cos(f i_* + f j_* ); cos(f i_* \Gamma f j_* ) i 6= j: (32) 3q must be an integer for cos q`i to be U (1) gauge invariant.
+
+14
+
+Since f 1_* + f 2_* = \Gamma f 3_* by (19), cos(f i_* + f j_*) is already included in (31). On the other hand, cos(f i_* \Gamma f j_* ) is not included, but numerical simulations indicate that their couplings vanish in SAP QCD. Perhaps this is because cos(f 1_* \Gamma f 2_* ) = cos(2f 1_* + f 3_* ) which contains a q = 2 component. Hence, a close approximation to SAP QCD is
+
+\Gamma S0 = log ffi` + log ffik +
+
+3X
+
+i=1n\Gamma
+
+^
+
+2 (k
+
+i; ki) + fi X
+
+x;_!* cos f
+
+i _* o (33)
+
+= log ffik \Gamma ^[(k1; k2) +
+
+2X
+
+i=1(
+
+ki; ki)] + fi X
+
+x;_!*[cos(f
+
+1 _* + f 2_* ) +
+
+2X
+
+i=1 cos
+
+f i_* ]
+
+where ffi` and ffik are delta functions which enforce (19) and (20). (On the lattice (19) does not automatically imply (20) so each requires its own delta function.) In (33) we have allowed for a fi-independent monopole mass parameter ^ a la Ref. [24]. If S0 accurately models SAP QCD, we can prove that monopole condensation causes confinement in APQCD: a BKT transformation [2] of the S0 partition function yieldsZ
+
+[d`i_] exp\Gamma S0 7\Gamma ! X
+
+fk1_;k2_j@_ki_=0g
+
+exp\Gamma Smono (34)
+
+where
+
+Smono = ik1; (^ + 4ss2fi\Delta \Gamma 1)k2j +
+
+2X
+
+i=1i
+
+ki; (^ + 4ss2fi\Delta \Gamma 1)kij: (35)
+
+The phases of (34) are determined by monopole condensation.
+
+To examined how well S0 corresponds to APQCD, first we generate an ensemble of importance sampling APQCD gauge configurations by applying the Abelian projection to an ensemble of Monte Carlo lattice QCD configurations. We seek the [U (1)]2 action, SAP QCD, which would generate the same
+
+15
+
+Table 1: APQCD couplings fiq(L) for trial action Sa. fiQCD fi1(1) fi2(1) fi3(1) fi1(2) fi2(2) fi3(2)
+
+5:7 .82(.04) .083(.005) -.004(.004) -.026(.002) .001(.006) -.01(.01) 6:0 .87(.02) .133(.002) -.013(.007) -.052(.002) .008(.004) -.009(.002)
+
+Table 2: APQCD couplings fiq(L = 1) and ^ for trial action Sb.
+
+fiQCD fi1(1) fi2(1) fi3(1) ^
+
+5:7 .82(.02) .077(.001) -.007(.004) -.028(.006) 6:0 .77(.02) .129(.002) -.021(.001) -.058(.002)
+
+ensemble of APQCD configurations. To this end, we introduce an ansatz for SAP QCD and use the microcanonical demon technique [31] to determine the optimal coupling constants of that ansatz. If the ansatz contains all the operators of SAP QCD the microcanonical demon technique measures all the coupling constants exactly up to statistical errors. In practice, however, we apply the technique only to simple truncated actions which are unlikely to contain all SAP QCD operators. If an operator is missing, the microcanonical demon gives effective values for the ansatz couplings adjusted to optimally fit the ensemble. These effective values would not be the same as the true values if all operators are included.
+
+Table 1 lists the results for ansatz
+
+\Gamma Sa j log ffi` + log ffik +
+
+2X
+
+L=1
+
+3X i=1
+
+3X q=1 fi
+
+q(L) X
+
+x;_!* cos qf
+
+i _*(L) (36)
+
+where L refers to Wilson loop size: cos qf_*(L) is an L \Theta L plaquette in U (1)
+
+16
+
+representation q. Table 2 lists the results for ansatz
+
+\Gamma Sb j log ffi` + log ffik +
+
+3X
+
+i=1n\Gamma
+
+^
+
+2 (k
+
+i; ki) + 3X
+
+q=1 fi
+
+q(1) X
+
+x;_!* cos qf
+
+i _*(1)o: (37)
+
+ki in Sb refers to the Toussaint-Degrand 13 monopole current. Examination of Tables 1 and 2 reveals the following:
+
+ffl L ? 1 Wilson loops do not contribute significantly to SAP QCD: L * 2
+
+Wilson loops have negligibly small couplings in Sa and, further, their presence(absence) in Sa(Sb) does not greatly affect the values of fiq(1) in Sa and Sb.
+
+ffl fi1;2 are nonzero, but fiq*3 are too small to be resolved. q = 1 operators
+
+are dominant.
+
+ffl ^ is small; its absence(presence) in Sa(Sb) does not greatly affect the
+
+values of fiq(1) in Sa and Sb.
+
+Thus, except for a small q = 2 correction S0 would seem to be a close approximation to SAP QCD. However, there are two very serious, unresolved problems. Firstly, simulations of Sb with Table 2 couplings indicate that it does not reproduce APQCD expectations values: Sb at fi1 = :82, fi2 = :07, and ^ = 0 has average plaquette hcos f i_* (1)i = :80(:001) and monopole density hjki4ji = :0007(:0002)--a dramatic discrepancy with APQCD at fiQCD = 5:7, which has average plaquette :71(:001) and monopole density :048(:001). Secondly, APQCD would not be confining if one believes Table 2; simulations indicate that Sb is not confining above fi1 = :585(:05) when fi2 = :07 and ^ = 0. The inability of these microcanonical demon results to reproduce
+
+17
+
+APQCD tells us that SAP QCD has a class of important operators we have neglected. Such operators may involve, for example, nonlocal interactions between pairs of Wilson loops which can arise from integrating out the Ach and \Lambda fields.
+
+At this writing I suspect the problem is the following. It is known that at fiQCD = 5:7 the lattice spacing is a , 1GeV \Gamma 1. As a is shorter than 1=Mch , 2GeV \Gamma 1 we cannot properly regard Ach as being "heavy" relative to Sa and Sb, which involve 1 \Theta 1 j a \Theta a plaquettes. a \Theta a plaquettes would have nonlocal interactions arising from the propagation of virtual Ach loops. A possible remedy is to reformulate SAP QCD entirely in terms of L ? 1=(aMch) Wilson loops. Its disadvantage is that the relation of such an action to pointlike 13 monopoles--which are known to scale in MA gauge--is complicated; one cannot easily write down a relation for it like (34). This approach is currently under investigation.
+
+4. Acknowledgements
+
+I am indebted to Dick Haymaker, Misha Polikarpov, Greg Poulis, Howard Trottier, and Richard Woloshyn for stimulating discussions, and to Mike Creutz for comments about the microcanonical demon. It is a pleasure to thank Professor Faqir Khanna and Ms. Audrey Schaapman of the Lake Louise Winter Institute for the opportunity to present my work at such an enjoyable workshop. Computing was done at the NERSC Supercomputer Center. The author is supported by DOE grant DE-FG05-91ER40617.
+
+18
+
+References [1] P. Becher and H. Joos, Z. Phys. C15, 343 (1982). [2] A. Polyakov, Phys. Lett. 59B, 82 (1975); T. Banks, R. Myerson and
+
+J. Kogut, Nucl. Phys. B129 (1977) 493; M. Peskin, Ann. Phys. 113 (1978) 122. A standard introduction is A. Polyakov, Gauge Fields and Strings, Harwood Academic Publisher (1987).
+
+[3] V. Singh, D. Browne, R. Haymaker, Phys. Rev. D47 (1993) 1715. [4] J. Frohlich and P. Marchetti, Comm. Math. Phys. 112 (1987) 343; M.I.
+
+Polikarpov, L. Polley, U.J. Wiese, Phys. Lett. B253 (1991) 212.
+
+[5] Monopole condensation is sufficient but not necessary for dual superconductivity. An example is M. Baker, J. Ball, and F. Zachariasen, Phys. Rev. D47 (1993) 3021 and references therein.
+
+[6] S. Mandelstam, Phys. Rept. 23C (1976) 245; G. 't Hooft, Nucl. Phys.
+
+B190 (1981) 455.
+
+[7] G. 't Hooft, Nucl. Phys. B79 (1974) 276; A. Polyakov, JETP Lett. 20
+
+(1974) 194. Extension to SU (N ) is described in A. Sinha, Phys. Rev. D14 (1976) 2016; W. Marciano and H. Pagels, Phys. Rev. D12 (1975) 1093; Phys. Rept. 36 (1978) 137.
+
+[8] A. Kronfeld, G. Schierholz, U. Wiese, Nucl. Phys. B293 (1987) 461. [9] A. Kronfeld, M. Laursen, G. Schierholz, U. Wiese, Phys. Lett. B198
+
+(1987) 516.
+
+19
+
+[10] V. Bornyakov, E. Ilgenfritz, M. Laursen, V. Mitrjushkin, M. MullerPreussker, A. van der Sijs, A. Zadorozhny, Phys. Lett. B261 (1991) 116.
+
+[11] T. Suzuki and I. Yotsuyanagi, Phys. Rev. D42 (1990) 4257; S. Hioki,
+
+S. Kitahara, S. Kiura, Y. Matsubara, O. Miyamura, S. Ohno, T. Suzuki, Phys. Lett. B272 (1991) 326.
+
+[12] Z. Ezawa and A. Iwazaki, Phys. Rev. D25 (1982) 2681. [13] L. Del Debbio, A. Di Giacomo, M. Maggiore, S. Olejnik, Phys. Lett.
+
+B267 (1991) 254.
+
+[14] V. Singh, D. Browne, R. Haymaker, Phys. Lett. B306 (1993) 115. [15] V. Bornyakov, V. Mitrjushkin, M. Muller-Preussker, Phys. Lett. B284
+
+(1992) 99.
+
+[16] K. Yee, Phys. Rev. D. (August, 1994 issue). [17] K. Yee, Nucl. Phys. B(Proc. Suppl.) 34 (1994) 189. [18] D. Toussaint and T. DeGrand, Phys. Rev. D22 (1980) 2478. [19] K. Yee,  (November, 1993). [20] M. I. Polikarpov and K. Yee, Phys. Lett. B316 (1993) 333. [21] K. Yee, Phys. Rev. D49 (1994) 2574. [22] J. Schwinger, Phys. Rev. D12 (1975) 3105. [23] T. Suzuki, Nucl. Phys. B(Proc. Suppl.) 30 (1993) 177.
+
+20
+
+[24] J. Smit and A. van der Sijs, Nucl. Phys. B355 (1991) 603. [25] For example, L. Del Debbio, M. Faber, and J. Greensite, INFN preprint
+
+IFUP-TH 54/92 and references therein.
+
+[26] C. Bernard, Nucl. Phys. B219 (1983) 341. [27] K. Yee, manuscript in preparation. [28] J. Mandula and M. Ogilvie, Phys. Lett. B185 (1987) 127. [29] C. Bernard, A. Soni, K. Yee, Nucl. Phys. B(Proc. Suppl.) 20 (1991) 410
+
+and manuscript in preparation.
+
+[30] M. I. Polikarpov, K. Yee, and M. A. Zubkov, Phys. Rev. D48 (1993)
+
+3377.
+
+[31] M. Creutz, A. Gocksch, M. Ogilvie, and M. Okawa, Phys. Rev. Lett. 53
+
+(1984) 875.
+
+21
+

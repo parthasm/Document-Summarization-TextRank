@@ -1,0 +1,188 @@
+PSN#TUAP059
+
+
+MAIN INJECTOR LCW (Low Conductivity Water) CONTROL SYSTEM
+
+K. C. Seino, FNAL, Batavia, IL 60510, USA
+
+
+
+Abstract The modules are DIN rail mountable for
+There are six service buildings uniformly spaced instantaneous installations, and they can be removed
+along the perimeter of MI (Main Injector). A total of from their wiring bases for easy installation and
+18 LCW pumps were installed around the MI ring maintenance. Moreover, every module is isolated
+with 3 pumps per building. Approximately 8,000 from a common bus and other modules for fault-free
+GPM of LCW is required to cool magnets, bus and operations.
+power supplies in the MI enclosure and service
+buildings. In each service building, a PLC control 1.2 Instrumentation
+system controls pumps and valves, and it monitors
+pressures, flow, resistivities and temperatures. The The sensors, transmitters, local indicators, actuators
+PLC hardware system consists of a Gateway module and other field devices had been specified, purchased
+and a variety of I/O modules, which are made by and installed by the Mechanical Support group.
+Sixnet of Clifton Park, NY. The control system However, we did cabling/wiring, set key parameters,
+communicates with other buildings including MCR calibrated, did some adjustments and did trouble-
+(Main Control Room) via an Ethernet link and front- shooting on these field devices. For this reason, I will
+end computers. For more details of the MI LCW briefly make reference to them as follows.
+control system, refer to [1] and [2]. One of the key
+elements of the PLC software is called ISaGRAF (1) Pressure Transducers (Measurement Specialties
+workbench, which was created by CJ International of MSP-400-P-0064A, 0-400 psig), (2) Flow
+Seyssins, France. The workbench provides a Transmitters (Peek Measurement 2120R, 0-100
+comprehensive control-programming environment, GPM), (3) Differential Pressure Transmitters
+where control programs can be written in five (Rosemount 2024), (4) Liquid Level Indicators
+different languages. For more details of ISaGRAF, (Gems SureSite 86158), (5) Resistivity Meters
+refer to [3]. (Thornton 200CR, 0.0013-50 Mohm-cm with 0.1
+constant cell), (6) RTD Probes (Devar #RTDSF2.5),
+1 HARDWARE (7) Electric Valve Actuators (Keystone EPI-13, 1/4
+turn (close/open)), (8) Electric Valve Actuators for
+1.1 PLC Temperature Regulation (EIM 2000 M2CP, 1/4 turn
+(continuous)), and (9) Controller for EIM2000 above
+The PLC hardware system consists of a Gateway (Powers 535, PID control).
+module (local controller/remote communicator) and a
+variety of I/O modules. The product line of these 1.3 Cables
+modules is called as Sixtrak and is made by Sixnet of
+Clifton Park, NY. The Gateway module can be The cables were pulled in MI<10:50>, 52 & 60 in
+connected up to 20 I/O modules without expander 10/97 and 11/97. Since then, we had spent about ten
+modules, and it can be connected up to 128 I/O months on an inconstant basis to terminate the cables,
+doing tests and fixing problems on the cables, the
+modules with expanders. The Gateway scans I/O instrumentation and the PLC hardware for a total of
+modules and updates the information on them under a nine systems excluding one for CUB.
+program control, and it communicates with host We used several different types of cables -- (a)
+computers via an Ethernet link. The Gateway has 1 Belden #8761 for general use, (b) Belden #8719 for
+Mbytes of flash memory (for firmware), 256 Kb of high voltage, (c) Belden #9533 for RTD, (d) Belden
+battery backed RAM (for data), a real time clock and #9886 for 450 FT travel from MI-40 service building
+a RS232 serial port for local diagnostics. to Beam Dump, (e) Belden #8760 for Beam Dump, (f)
+For our applications, we are using several different Omega KK-J-20 for Type-J TCs (thermocouples) and
+types of I/O modules. They are analog input modules (g) Omega KK-K-20 for Type-K TCs.
+(4-20ma input, instrumentation and RTD), analog
+output modules, digital input modules (5VDC and 2 SOFTWARE
+24VDC) and digital output modules (relay).
+
+
+
+
+created in the dictionary. The Sixtags utility (a shared
+2.1 Sixnet Plant Floor tag database): The I/O and module tag names that are
+created in the Plant Floor configuration can be
+Plant Floor is a configuration and maintenance tool exported to the dictionary of an ISaGRAF project by
+for Sixtrak I/O systems. Using Plant Floor's windows the Export command of Sixtags.
+and menus, one assembles a graphic representation of The ISaGRAF I/O simulator can be run by clicking
+on Simulate in the Debugger menu. The simulator
+each I/O system. Configuration choices let him allows us to try out a program before it is run on a live
+customize each module in a given system. Once a system. This convenient tool saves time by
+system configuration is complete, the configuration is discovering problems and fixing them before a real
+downloaded to the Gateway module of the system. start-up. I/O variables can be locked (disconnected)
+Plant Floor is also a calibration tool for analog I/O from their corresponding external devices. Once they
+modules, and it provides real-time displays for the are locked, their status/values can be altered by the
+maintenance and diagnostics on I/O modules. debugger to proceed with the simulation.
+Fig. 1 shows an example of the sequential program.
+2.2 ISaGRAF For further details on ISaGRAF, one should refer to
+Ref. [1].
+ISaGRAF is a comprehensive control-programming
+environment that makes Sixtrak I/O a high 2.3 Interlocks/Trips
+performance, yet inexpensive controller. ISaGRAF
+uses standard industrial PLC programming
+
+
+
+A number of analog and digital signals are
+methodologies for designing powerful applications examined on the LCW control systems, and if certain
+without the need of high-level computer languages. conditions exist, the programs use them to interlock
+ISaGRAF is created by CJ International of Seyssins, the pump/valve operations. For each of the above
+France, and it is sold by Sixnet as a part of the Sixnet analog signals, upper and lower trip limits are
+software package. specified, and if the signal exceeds these limits, the
+An ISaGRAF project is a collection of individual program interlocks the related devices.
+programs and functions that form a complete control At two times (Start-up and Run times), conditions
+application. Each program controls one particular are tested. At the start-up time, if certain conditions
+part of the application. In February 1993, responding exist, the LCW pumps can not be turned on by the
+to the need for standards to reduce training costs and console command, and the trips are set true. In this
+guarantee portability, the IEC issued the IEC 1131-3 situation, the operator firstly removes the conditions
+standard: a specification of five PLC languages that and clears the trips. Secondly he sends the second
+can be mixed in the same application. The five command from the console to turn on the LCW
+languages are (a) Sequential Function Chart (SFC), pumps, because the first command has been cleared
+(b) Function Block Diagram (FBD), (c) Ladder when the trips occurred.
+Diagram (LD), (d) Structured Text (ST) and (e) During the run time, if certain conditions occur, the
+Instruction List (IL). LCW pumps are turned off, and the trips are set true.
+In this situation, the operator follows the same
+An ISaGRAF project consists of programs, sub- procedure mentioned above.
+programs and functions, which are placed in four
+different sections as follows. There are two special rules to observe. One is
+(1) Beginning: Programs in this section are 'Initial 15 sec Delay'. For 15 sec after the start-up,
+systematically executed in the beginning of a cycle some conditions are ignored for tripping. The other is
+after updating external inputs and outputs. '15 sec Filtering'. Signals are sampled at a certain
+(2) Sequential: Programs in this section are executed rate. If the conditions exist when sampled, the
+confirming to the SFC rules and the implementation occurrences are counted. If the counts exceed their
+on a series of steps and transitions. specified limits over the 15 sec periods, the LCW
+(3) End: Programs are executed at the end of a cycle pumps are tripped off.
+just before updating external outputs.
+(4) Functions: Sub-programs which can be called by 2.4 ACNET Connections
+programs in any of the other three sections.
+The ISaGRAF dictionary is simply the collection of In each of the service buildings (MI-10, 20, 30, 40,
+internal, input and output variables and defines that 50, 52 & 60), the Gateway module communicates
+are used in the programs of a project. Variables and with the front-end computer of the house via an
+defines are specified as Local (specific to one Ethernet link. The front-end in turn communicates
+program), Global (in any program within a project) or with the console system via the Ethernet link.
+Common (in any project in ISaGRAF), when they are
+
+
+
+
+
+There are a total of 9 front-ends that handle tasks
+related to the LCW controls. Some of them perform
+special tasks as well as communication. The MI-60
+front-end performs a number of special tasks -- (a) it
+reads the status on four local valves and writes it at
+CUB for MI Makeup, (b) it reads the status on M_V03 Fig. 1: Example of Sequential Program
+(MI-60 Magnet V03) and writes it to all the other
+locations, and (c) it reads the status of the LCW
+pumps around the MI ring, examines it for a condition
+(if all the pumps are off or not) and uses the result for
+an action, and (d) it also writes the result to CUB.
+The front-ends at MI-52, MI-60 and CUB do
+calculations to convert the liquid levels to their
+volume equivalents.
+
+2.5 Console Pages
+
+The I56 page and its subpages show all the
+activities of the MI LCW system. The Global
+subpage shows an overall view of the pump
+status/controls, where the operator can view the status
+on LCW pumps, Pond pumps, transfer pumps and
+other pumps, where he can turn on pond pumps
+individually, and where he can turn on LCW pumps
+using a list (specifying the turn-on order and pauses
+between).
+Fig. 2: Graphic View of MI-10 LCW System
+The MI-10 subpage shows a view of the MI-10
+LCW system, which displays the status/controls on
+pumps, valves and PLC, analog readings, trip flags
+and limits. Fig. 2 is a graphic view of the MI-10
+LCW system.
+
+REFERENCES
+
+[1] K. C. Seino, "Main Injector LCW Control
+System", FERMILAB-TM-2085, June 1999.
+[2] K. C. Seino, "CUB DI Column Control System",
+FERMILAB-TM-2086, June 1999.
+[3] CJ International, "ISaGRAF Version 3.00 User's
+Guide", 1995.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

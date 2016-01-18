@@ -1,0 +1,500 @@
+
+
+ 5 May 1994
+
+MIT-CTP-2295 CMU-HEP94-15 DOE/ER/40682-69
+
+Distinguishing Among Strong Decay Models
+
+Paul Geiger Department of Physics, Carnegie Mellon University, Pittsburgh, PA 15213.
+
+Eric S. Swanson Center for Theoretical Physics, Laboratory of Nuclear Science, and Department of Physics,
+
+Massachusetts Institute of Technology, Cambridge, MA 02139.
+
+(May, 1994)
+
+Abstract Two competing models for strong hadronic decays, the 3P0 and 3S1 models, are currently in use. Attempts to rule out one or the other have been hindered by a poor understanding of final state interactions and by ambiguities in the treatment of relativistic effects. In this article we study meson decays in both models, focussing on certain amplitude ratios for which the relativistic uncertainties largely cancel out (notably the S=D ratios in b1 ! ss! and a1 ! ssae), and using a Quark Born Formalism to estimate the final state interactions. We find that the 3P0 model is strongly favoured. In addition, we predict a P=F amplitude ratio of 1:6 \Sigma :2 for the decay ss2 ! ssae. We also study the parameter-dependence of some individual amplitudes (as opposed to amplitude ratios), in an attempt to identify a "best" version of the 3P0 model.
+
+Submitted to Physical Review D.
+
+1
+
+I. INTRODUCTION Quark pair-creation models for the strong decays of hadrons [1] have have been formulated and studied by a number of authors, beginning in about 1969. The Orsay group [2] developed Micu's original suggestion [3] that strong decays proceed by simple quark rearrangement following the creation of a 3P0 q _q pair from the vacuum. They applied this model with considerable success to a number of baryon and meson decays. The most extensive application to meson decays was made by Kokoski and Isgur in 1987 (Ref. [4], hereafter KI). In addition to calculating over 400 different amplitudes (about 60 of which have so far been measured) these authors also placed the model on a firmer theoretical footing by showing how it could be derived from a flux-tube picture based on lattice QCD. Strong baryon decays were also studied in the 3P0 model by Stancu and Stassart [5] and by Capstick and Roberts [6].
+
+Intriguingly, a quite different pair-creation model, also rooted in a flux tube picture of confinement, was developed concurrently with the 3P0 model. It is based on the observation that the QCD interaction Hamiltonian, Hint , R _fl0 * \Delta A0, when applied to an oriented chromoelectric flux tube, breaks the flux tube and creates a 3S1 q _q pair. Alcock et al. [7] have shown that this 3S1 model provides a good description of J=\Psi and \Upsilon decay widths (as does the 3P0 model). Kumano [8] studied pion-nucleon couplings in both models, and found the data unable to discriminate between them. A similarly inconclusive situation exists in p_p scattering, where the 3S1 and 3P0 models appear to describe p_p ! \Lambda _\Lambda equally well [9].
+
+It was pointed out in KI that S-wave decays of mesons provide a good arena for contrasting the two models, since the predicted rates for such decays tend to be much larger in the 3S1 model. In fact, KI concluded that the measured S=D amplitude ratio in b1 ! ss! rules
+
+out a significant 3S1 component in the decay operator: the 3S1 model predicts S=D , 20, whereas the measured ratio (and the 3P0 prediction) is about 4. (Note that it is almost impossible to salvage the 3S1 prediction by tuning the model, since amplitude ratios tend to be quite parameter-independent.)
+
+2
+
+However, Kumano and Pandharipande [10] (hereafter KP), argued for a reprieve of the 3S1 model, because final state interactions (FSI's) among the decay products (which had
+
+not been considered in any of the previous studies) can substantially alter the amplitude predictions. They showed that, for example, a repulsive nonresonant background FSI in ss! (which they modelled by a hard-core potential with a core radius of about 0:4 fm) significantly reduces S-wave amplitudes and can lower the above S=D prediction to the experimental value. Because of the dearth of experimental and theoretical information on short-range meson interactions, KP were unable to motivate their FSI potentials (which were tuned to fit the measured decay amplitudes) and could only argue that they were similar to empirical nucleon-nucleon potentials, and hence not unreasonable.
+
+In this paper we propose to employ the Quark Born Formalism introduced in Ref. [11,12] to calculate meson-meson FSI's in various channels, and then to re-examine the KP suppression mechanism using these calculated FSI's. The Quark Born Formalism has been successfully applied to ssss [11,12], Kss [13], KN [14] and N N [15] scattering so that we expect our FSI estimates to be reasonable. We are able to take into account some effects not considered in KP, such as the difference in FSI's among different ssss isospin channels. We shall find that our FSI potentials have a much smaller effect on decay amplitudes than the rather drastic hard-core potentials used in KP. Moreover, many of our potentials are attractive rather than repulsive. By focussing on amplitude ratios such as the above- mentioned S=D ratio in b1 ! ss!, as well as the corresponding ratio in a1 ! ssae (recently measured by the Argus collaboration [16]), we shall be able to sidestep many of the uncertainties associated with normalization and relativistic effects. This will enable us to draw fairly firm conclusions regarding the validity of each model.
+
+The paper is organized as follows: In Section II we provide descriptions of the decay models and of a brief review of the Quark Born Formalism. Section III contains our main results: effective potentials describing the mesonic FSI's, amplitude ratios as a function of FSI strengths, and a study of the parameter-dependence of some individual decay amplitudes. We summarize and conclude in Section IV.
+
+3
+
+II. MODELS AND METHODS A flux-tube-breaking picture of meson decays underlies both the 3P0 and 3S1 models. In turn, the flux-tube picture is suggested by (the strong coupling limit of) Hamiltonian lattice QCD. (Refs. [4,17] discuss these matters in detail; we shall only provide a brief recap here.) The lattice QCD Hamiltonian contains a flux-tube-breaking term which creates a quark and antiquark at neigbouring lattice sites R and R + a^n with the effective operator
+
+C(R; ^n) = \Psi y(R) ff \Delta ^n \Psi (R + a^n) (1) (where a is the lattice spacing). For the medium-to-small lattice spacings relevant to hadron spectroscopy, this may be expanded as
+
+C(R; ^n) ss \Psi y(R) ff \Delta ^n \Psi (R) + a \Psi y(R) ff \Delta ^n ^n \Delta r\Psi (R) (2) If the flux tube is "rough" at the scale a (i.e., if its zero-point oscillations are so strong that the flux tube meanders, with essentially random orientation at each point), then one should average over ^n. Only the second term in (2) survives such averaging, so that the effective pair creation operator becomes
+
+HP (R) j flP \Psi y(R) ff\Delta
+
+$r \Psi (
+
+R) ; (3)
+
+and the q _q pairs are created with 3P0 quantum numbers. The parameter flP introduced in this expression is a phenomenological constant representing the intrinsic pair creation strength. It will be adjusted to fit decay data. (Similar comments apply to flS in Eq. (4) below.)
+
+If, on the other hand, the flux tube is essentially straight then the first term in (2) survives and leads to pair creation in a 3S1 state:
+
+HS(R; ^n) j flS \Psi y(R) ff \Delta ^n \Psi (R) : (4) We call the above operators "effective" because they are built from quark fields only, with no explicit reference to the flux tubes that they break. Consider applying these operators to a
+
+4
+
+"frozen" meson state jr1; r2i. (This ket is meant to represent a quark at r1 and an antiquark at r2, joined by a ground-state flux tube. Spin indices are suppressed for the moment). We have
+
+HP (R) jr1; r2i = flP F P (r; w)\Psi y(R) ff\Delta
+
+$r \Psi (
+
+R) jr1; r2i (5)
+
+HS (R; ^n) jr1; r2i = flS F S(r; w)\Psi y(R) ff \Delta ^n \Psi (R) jr1; r2i ; (6) with ^n parallel to r1 \Gamma r2; the coordinates are defined in Fig. 1. The flux-tube information is contained in the F 's, which give the overlap of an initial, unbroken flux tube with two final-state flux tubes. In the 3S1 model, because the flux tube is assumed to be essentially straight, F S is usually taken to vanish unless the pair creation point R lies along the line joining r1 and r2. In the 3P0 model, the oscillating flux tube implies a more complicated form for F P . Based on their analysis of an idealized (harmonic) flux tube, KI advocates the approximation F P = e\Gamma (b=2)w
+
+2min, where w
+
+min is the shortest distance from the pair creation
+
+point to the line joining Q and _Q in Fig. 1, and b is the string tension in the flux tube. Typically, one uses the spectroscopic value b ss 0:18 GeV2, but it turns out that calculated decay widths are not very sensitive to this parameter. In fact, in the original 3P0 model F P was implicitly set equal to one [2]. For the sake of completeness, our calculations in both the 3P0 and 3S1 models were carried out with three kinds of flux tube:
+
+narrow flux tube : F = ffi(wmin) medium flux tube : F = e\Gamma (b=2)w
+
+2min
+
+wide flux tube : F = 1:
+
+(7)
+
+5
+
+rQ( )1
+
+rQ( )2r w
+
+q(R) q(R)
+
+Fig. 1. Coordinates for meson decay by flux-tube breaking. The non-relativistic limits of HP and HS are (keeping only creation operators)
+
+HP (R) ! flP X
+
+s3;s4 ~O/
+
+s3s4 bys3(R)
+
+$r dy
+
+s4 (R) (8)
+
+HS(R; ^n) ! flS X
+
+s3;s4 ~O/
+
+s3s4 bys3(R) ^n dys4 (R) (9)
+
+where
+
+~O/s3s4 j
+
+0BBB BBBBBB BBBBB @
+
+2ffis3"ffis4" \Gamma ffis3#ffis4" \Gamma ffis3"ffis4#
+
+\Gamma 2ffis3#ffis4#
+
+1CCC CCCCCC CCCCC A
+
+: (10)
+
+Decay amplitudes are given by hBCjH(P or S)jAi, where jAi, jBi, jCi are quark-model meson states:
+
+jAi = X
+
+s1s2 f1f2
+
+O/As1s2 \Phi Af1f2 Z d3r1d3r2 1(2ss)3=2 eiPA\Delta (r1+r2)=2 A(r1 \Gamma r2) jr1s1f1; r2s2f2i ; etc: (11)
+
+Colour indices have been suppressed. Our normalization is hA(P0)jA(P)i = ffi3(P \Gamma P0).
+
+The decay amplitude may be written as
+
+hBCjH(P or S)jAi = fl(P or S) OE~\Sigma \Delta ~I; (12)
+
+6
+
+where OE is a flavour overlap,
+
+OE j X
+
+f1f2f3f4
+
+\Phi \Lambda Bf3f2 \Phi \Lambda Cf1f4\Phi Af1f2 ; (13)
+
+~\Sigma is a spin overlap which can be expressed in terms of the meson spin wavefunctions and ~O/ as
+
+~\Sigma j X
+
+s1s2s3s4 O/
+
+\Lambda Bs
+
+3s2 O/
+
+\Lambda Cs
+
+1s4 O/
+
+As
+
+1s2 ~O/s3s4 ; (14)
+
+and ~I is a spatial overlap:
+
+~I P = Z d3rd3w A(r) F P (r; w) i~rB + ~rC + ~rBCj \Lambda B( r2 + w) \Lambda C( r2 \Gamma w) \Lambda BC(\Gamma r2 ) (15)
+
+~I S = Z d3rd3w A(r) F S(r; w) ^r \Lambda B( r2 + w) \Lambda C( r2 \Gamma w) \Lambda BC(\Gamma r2 ) (16) for the 3P0 and 3S1 models, respectively. Equations (15) and (16) are valid when all the quarks participating in a decay have the same mass, as is the case for the processes we consider here. (In deriving these expressions, our convention is that meson B is the one which contains the antiquark from meson A. Of course the other diagram must be included in all calculations.)
+
+We calculate decay amplitudes using two distinct sets of meson wavefunctions: (i) Harmonic oscillator wavefunctions with a single oscillator parameter, fi = 0:4 GeV, for all mesons. Although these cannot be regarded as realistic, they are a de facto standard for many nonrelativistic quark model calculations, and they lead to analytic results for many of our calculations, thus providing a check on our computer code. In addition, the quite good results obtained with SHO wavefunctions indicate that our findings are not strongly tied to a particular choice of wavefunctions.
+
+(ii) More realistic wavefunctions, obtained as eigenstates of a nonrelativistic Hamiltonian that incorporates Coulomb and linear-confinement terms, and a "smeared" magnetic hyperfine term. This Hamiltonian and its parameters (which were fitted to the low-lying meson spectrum) are described fully in Ref. [12].
+
+7
+
+The final ingredient in equations (15) and (16) is BC, the relative wavefunction of the decay products. In the absence of final state interactions BC is essentially just a Bessel function:
+
+BC(r) = s 2ss j`(kr) Y`m(\Omega r) (17) (where k is the decay momentum). When FSI's are turned on, j` is replaced by u`, the solution of a radial Schr"odinger equation in the presence of the effective FSI potential Veff. This potential simulates the nonresonant "background" contribution to the interaction of the outgoing mesons. We calculate it using the Quark Born Formalism [11,12], which involves computing the lowest order quark-level T-matrix for a given scattering process and equating it to an effective T-matrix for pointlike mesons. At lowest order, a single t-channel gluon is exchanged between quarks which have been placed in mesonic bound state wavefunctions. Colour neutrality then necessitates the exchange of a pair of quarks, hence the effective potentials are of short range; we neglect long range meson-exchange contributions. Nonlocality is incorporated by allowing for different potentials in different partial waves.
+
+The method has proven surprisingly effective in channels where meson exchange and resonance production do not interfere with the quark-level interaction [11-15]. The method predicts a repulsive interaction for pions in the isotensor channel and an attractive interaction in the isosinglet channel, in agreement with ssss scattering data (and in contrast with the use of isospin-independent ssss core interactions in Ref. [10]).
+
+For the final states we shall be considering here, the effective potential also receives contributions from diagrams involving q _q annihilation. The Quark Born Formalism has recently been extended to include such contributions [18]; the quark-level interaction is given by the nonrelativistic limit of s-channel one gluon exchange:
+
+Hann = f \Delta 2ssffsm2 ( 34 + ~Si \Delta ~Sj) ffi(~rij) (*ai =2) \Delta (*aj =2): (18) This operator connects the incoming 2-meson state to a q _qg (hybrid) intermediate state. As discussed in Ref. [18], a perturbative description of this intermediate state is inadequate;
+
+8
+
+colour confinement must at least raise the q _qg mass from its perturbative value of 2mq to the physical hybrid mass. One simple way of modelling such presently uncalculable confinement effects is to introduce an effective gluon mass into the gluon propagator:
+
+s\Gamma 1 ! is \Gamma _2gj
+
+\Gamma 1 : (19)
+
+The parameter f in Eq. (18) is intended to incorporate this modification. It is fixed by comparison to I = 0 ssss scattering.
+
+An alternative, probably better, way to proceed would be to calculate the meson-mesonhybrid couplings in a more realistic model such as the flux tube model of Ref. [17]. However, such a calculation appears to be extremely difficult since it involves summing over many excited hybrid intermediate states (S-wave mesons decouple from the lowest lying hybrids, and the excited hybrid spectrum is quite dense [17,19].) One may expect that the rather high hybrid masses will yield a small annihilation coupling; however, for the purposes of this paper we seek an upper bound on the coupling. Thus we adopt the first method instead. Its successful application to ssss scattering leads us to expect, on the basis of SU(6) symmetry, that it will provide a reasonable description of the (ss! and ssae) channels we shall need to consider.
+
+Finally, an A ! BC decay width is given by
+
+\Gamma = fl(P or S) 2ssk (Ph:Sp:) Z d\Omega qjM(k)j2 (20) where M is defined by
+
+ffi3(PA) M(k) = hB(k) C(\Gamma k)jH(P or S)jA(PA)i: (21) As discussed in Refs. [4,10], the choice of phase space (Ph.Sp. in equation (20)) is not entirely clear. The decay models we use are nonrelativistic, so it is perhaps most consistent to use nonrelativistic phase space, Ph:Sp: = MBMC =MA. However in many cases the decay momenta are quite large so that the actual phase space, Ph:Sp: = EBEC =MA, is significantly different from the nonrelativistic limit. The authors of Ref. [4] employ a third option,
+
+9
+
+Ph:Sp: = ~MB ~MC = ~MA, where ~Mi is the calculated mass of meson i in a spin-independent quark model. (This form is intended to interpolate between the weak binding limit where the model is exact, and the quite strongly bound meson states that one must actually use in equation (20) ). Following the approach of Ref. [10], we perform our calculations for all three types of phase space; the differences in the results may be taken to indicate the inherent uncertainty of the models. (Note that the S=D amplitude ratios are of course completely independent of the choice of phase space.)
+
+III. RESULTS AND DISCUSSION Like the decay amplitudes, the final state interactions are obtained as overlaps of meson wavefunctions. Thus we have two cases to consider, corresponding to the SHO and Coulombplus-linear wavefunctions described above.
+
+The T-matrices in the SHO case are as follows [20]. For ss! scattering
+
+Thypex = 4ssffs27m2 "3e\Gamma x(1\Gamma _) \Gamma e\Gamma x(1+_) + 163p3 e\Gamma 4x=3# (22)
+
+Tquadex = ss
+
+3=2
+
+3p2
+
+1 fim (3 \Gamma 4x) e
+
+\Gamma 2x (23)
+
+Tann = f \Delta 2ssffs9m2 h3e\Gamma x(1\Gamma _) \Gamma e\Gamma x(1+_)i (24) where m is the quark mass, x = k2=4fi2, _ is the cosine of the centre-of-mass scattering angle, and f is the parameter discussed in Section II. Thypex and Tquadex are the hyperfine and quadratic confinement contributions to the t-channel T-matrix, respectively, while Tann is the s-channel T-matrix. It is interesting to note that the confinement term is comparable in strength to the hyperfine term; in most cases studied previously (such as N N scattering), the hyperfine term is dominant (see Ref. [12] for further comments on this).
+
+For isospin-1 ssae scattering the results are
+
+10
+
+Thypex = Tconfex = 0 (25) Tann = f \Delta 4ssffs9m2 h3e\Gamma x(1\Gamma _) + e\Gamma x(1+_)i ; (26) and for ssss scattering in the ae channel,
+
+Thypex = Tconfex = 0 (27)
+
+Tann = f \Delta 4ssffS3m2 he\Gamma x(1\Gamma _) \Gamma e\Gamma x(1+_)i : (28) These T-matrix elements are to be simulated by effective potentials of the form Veff = a exp[\Gamma 1=2(r=b)2]. The Gaussian parameters a and b are obtained by equating the low-momentum behaviour of the actual and effective T-matrices, partial-wave by partialwave [21]. For ss!,
+
+ahypex (` = 0) = p2ffs27pssm2b3 (2 + 163p3 ) (29)
+
+aquadex (`) = 14fimb3 ffi`;0 (30)
+
+aann(`) = f ffsp2ss9m2b3 (3 \Gamma (\Gamma )`): (31) For ssae one obtains
+
+aann(`) = 2f ffsp2ss9m2b3 (3 + (\Gamma )`): (32) And for ssss
+
+aann(` = odd) = p2f ffSpss3m2b3 : (33) For the S-wave ss! hyperfine potential, b ss 1:1=(2fi); for the !ss confinement potential b ss 0:9=fi; in all other cases b = 1=(2fi). Table I shows the results of numerically evaluating
+
+11
+
+these expressions with typical quark model parameters: fi = 0:4 GeV (as in Ref. [4]), m = 0.33 GeV, and ffs = 0.6, and f = \Gamma 2:573 (from Ref. [18]).
+
+Also shown in Table I are the various T-matrices evaluated with Coulomb-plus-linear wavefunctions. (The results for Tex were previously reported in Ref. [12].) The quark potential parameters in this case were determined by a fit to meson masses. Although there is some variation between the SHO and C+L columns, these will have only minor effects on the decay amplitudes. Observe that the confinement effective potentials are very similar in the SHO and C+L cases. This has also been noted in Ref. [12] in the case of aeae scattering; it seems that the specific form of the confinement potential is unimportant - only the fact that it confines with a strength determined by the meson spectrum matters.
+
+TABLE I. Effective Potential Parameters. aSHO (GeV) bSHO (GeV\Gamma 1) aC+L (GeV) bC+L (GeV\Gamma 1) V !ssex;hyp 0.32 1.37 0.29 1.55 V !ssex;conf 0.16 2.28 0.11 2.07 V !ssann(` = even) -0.64 1.25 -0.56 1.35 V aessann(I = 1; ` even) -2.56 1.25 -2.24 1.35 V ssssann(I = 1; ` odd) -1.93 1.25 -2.55 1.11
+
+12
+
+We now turn to the crucial S=D ratios in b1 ! ss! and a1 ! ssae. We isolate the dependence of these quantities on the FSI strengths by fixing the Gaussian width parameters at b = 1:5 GeV\Gamma 1. Also, the D-wave effective potentials are set equal to the corresponding S-wave ones so that we may graph S=D versus a single independent variable. (Almost any other Ansatz for the D-wave potentials could be used instead; the distortion induced in higher waves by any reasonable Veff is small). Figure 2 shows the S=D amplitude ratio for b1 ! ss! versus the FSI strength a, for various wavefunction and flux-tube choices. The arrow indicates our "canonical" value of a, based on the Table I results. The experimental amplitude ratio is represented by a shaded horizontal band [22]. Figure 3 shows the corresponding results for a1 ! ssae [23].
+
+The figures show that extremely large FSI's are required to bring the 3S1 ratios down to the experimental bands. On the other hand, the 3P0 results are close to the data over a range of small to medium FSI strengths on the order of our calculated strengths. The 3P0 ratios are not very sensitive to the assumed form of the wavefunctions, however the SHO wavefunctions prefer a medium to wide flux tube while the Coulomb-plus-linear wavefunctions require a medium to narrow flux tube. Notice that the 3P0 ratios are much more sensitive to the flux tube width than are the 3S1 ratios. Our results for the P=F ratio in ss2 ! ssae show similar variation with respect to wavefunctions and flux tube geometry. In the region of parameter space that fits the measured ratios best, P=F ss 1:6. We (subjectively) estimate the error on this prediction to be \Sigma 0:2
+
+The ratio [\Gamma (ss2 ! aess)=\Gamma (ae3 ! !ss)]1=2, shown in Fig. 4, is only slightly more modeldependent. Because of the near degeneracy of the masses in these two decays (mae3 = 1691\Sigma 5 and mss2 = 1670 \Sigma 20 [22]), the three phase space Ans"atze described earlier give results that are equal to within 1%. The ae3 decay is an F-wave decay, consequently it is almost completely insensitive to FSI's. We therefore set V !sseff = 0 and graph the ratio as a function of the aess potential. (The ss2 ! (aess) has P and F -wave components; only the former are sensitive to V aesseff .)
+
+13
+
+3P
+
+0
+
+3S
+
+1
+
+15
+
+5 10
+
+0 S / D
+
+-2 -1 0 1 2 3 4 5-3
+
+a (GeV)
+
+3S
+
+1
+
+3P
+
+0
+
+15
+
+5 10
+
+0
+
+-2 -1 0 1 2 3 4 5
+
+S / D
+
+a (GeV) -3
+
+Fig. 2. S=D amplitude ratios for b1 ! ss!. In the left graph, SHO wavefunctions were used; in the right, Coulomb-plus-linear wavefunctions. Dashed lines show narrow flux-tube results, solid lines show medium flux-tube results, dotted lines show wide flux-tube results. (In the 3S1 model, there is negligible dependence on the type of flux tube, so only a solid line is shown.) The arrows indicate our estimates of the actual FSI strengths. The shaded bands give the experimental ratios.
+
+3P
+
+0
+
+3S
+
+1
+
+0 -10
+
+-20
+
+-30
+
+S / D
+
+-3 -2 -1 0 1 2 3 4 5
+
+a (GeV)
+
+3S
+
+1
+
+3P
+
+0
+
+S / D
+
+0 -10
+
+-20
+
+-30
+
+-2 -1 0 1 2 3 4 5-3
+
+a (GeV)
+
+Fig. 3. S=D amplitude ratios for a1 ! ssae. See Fig. 2 for key.
+
+14
+
+3P
+
+0
+
+3S
+
+1
+
+p2
+
+r3
+
+(\Gamma
+
+[
+
+rp]
+
+\Gamma [
+
+wp]
+
+)1/2
+
+-2 -1 0 1 2 3 4 5
+
+a (GeV) -3 0
+
+5 10
+
+Fig. 4. The (ss2 ! aess)=(ae3 ! !ss) amplitude ratio (calculated with Coulomb-plus-linear
+
+wavefunctions). See Fig. 2 for key.
+
+3P
+
+0
+
+a1
+
+rp()
+
+a2
+
+rp()
+
+[\Gamma
+
+S] \Gamma [
+
+D]
+
+( )1/2
+
+3S
+
+1
+
+-2 -1 0 1 2 3 4 5
+
+a (GeV) -3 0
+
+5 10
+
+Fig. 5. The (a1 ! (aess)S)=(a2 ! aess) amplitude ratio (calculated with Coulomb-plus-linear
+
+wavefunctions). See Fig. 2 for key.
+
+The situation for \Gamma (a1 ! (aess)S)=\Gamma (a2 ! aess) shown in Fig. 5 is similar, although here the various phase space factors differ by , 10%. (The results shown were obtained using the KI phase space prescription.)
+
+The 3P0 model is strongly favoured by these results. However, ambiguities remain in its application to individual decay amplitudes. In particular the form of the phase space to be used is unclear. This is especially true for decay involving pions, where strong binding and relativistic effects can be very large. Due to its chiral nature, the pion is very light with respect to other hadrons, yet it interacts with typical hadronic strength. This combination
+
+15
+
+of attributes is difficult to obtain in nonrelativistic models. For example the pion may be made as light as one wishes by increasing the strength of the hyperfine interaction, but only at the expense of decreasing the pion radius (and it is the size of hadrons which controls their interactions at low energy). Indeed, it seems that one reason for the success of the simple SHO wavefunctions is that they make the pion as large as the rho. Even so, special treatment must be given to decays involving pions in order to obtain agreement with measured widths. The Kokoski and Isgur phase space convention discussed in Section II provides one (very successful) method for enhancing pionic decay amplitudes, however it is of interest to check whether final state interactions can also provide the required enhancements. To this end, we have calculated the couplings necessary to reproduce experimental widths for a range of situations. The results are presented in Table II [24]. Case A corresponds to the `standard' 3P0 model, with SHO wavefunctions, no final state interactions, and no flux tube. It is
+
+apparent that the KI prescription gives the best results here. For comparison, Case B shows the couplings in the 3S1 model with no final state interactions, SHO wavefunctions, and no flux tube. Here the required couplings are quite uniform except for flS (ae ! ssss). Without FSI's, there is no single value of flS which correctly reproduces all the widths.
+
+The final two cases illustrate that it is possible to fit the decays using the 3P0 model with relativistic (case C) or nonrelativistic (case D) phase space. Case C is corresponds to Coulomb plus linear wavefunctions with a narrow flux tube. The final state interactions have had their ranges increased by a factor of ss p2 for each pion in the final state (Weinstein and Isgur have used a procedure similar to this in their study of the ssss and K _K systems [25]; the idea is to compensate for the small pion radius. For an alternative viewpoint see Ref. [11]). In case D, a somewhat stronger ssss interaction (with a depth of 3.0 GeV; everything else as in case C) allows the nonrelativistic phase space to work well. Finally, it should be pointed out that the good fit to the amplitude ratios was maintained in all (3P0) cases.
+
+Thus, we are unable to pin down a best set of parameters for the 3P0 model; there are several combinations of phase space, flux tube width, and FSI strength which fit the data with comparable accuracy.
+
+16
+
+TABLE II. Coupling constants (flP or flS) required to fit various decay widths. phase space ae ! ssss b1 ! ss! a1 ! ssae ss2 ! ssae _fl ffifl_fl
+
+Case A: 3P0 model, SHO, No FSI's, No flux tube ~mB ~mC = ~mA 0.37 0.42 0.37 0.37 0.38 0.07 mBmC =mA 1.94 0.91 0.79 0.81 1.1 0.50 EBEC=mA 0.71 0.53 0.46 0.42 0.53 0.24
+
+Case B: 3S1 model, SHO, No FSI's, No flux tubea ~mB ~mC = ~mA 0.89 0.23 0.19 0.23 0.39 0.86 mBmC =mA 4.8 0.49 0.42 0.51 1.56 1.39 EBEC=mA 1.7 0.28 0.25 0.26 0.62 1.16
+
+Case C: 3P0 model, C+L, wide FSI's, Narrow flux tube ~mB ~mC = ~mA 2.8 4.4 4.8 4.5 4.1 0.22 mBmC =mA 15.4 9.5 10.4 10.0 11.3 0.24 EBEC=mA 5.5 5.5 6.0 5.1 5.5 0.07
+
+Case D: 3P0 model, C+L, deep FSI's, Narrow flux tube ~mB ~mC = ~mA 2.0 4.4 4.8 4.5 3.9 0.33 mBmC =mA 10.9 9.5 10.4 10.0 10.2 0.06 EBEC=mA 3.9 5.5 6.0 5.1 4.9 0.24 aflS has units of GeV\Gamma 1.
+
+17
+
+IV. SUMMARY AND CONCLUSIONS We have studied several meson decay amplitude ratios in the 3S1 and 3P0 models, using the Quark Born Formalism to calculate final state interactions between the decay products. These ratios, in which relativistic uncertainties cancel out almost completely, show a clear preference for the 3P0 model; the 3S1 model cannot reproduce the experimental data without unreasonably strong FSI's. A measurement of the P=F amplitude ratio in ss2 ! ssae would further test this conclusion; we predict P=F = 1:6 \Sigma :2 using the 3P0 model.
+
+In addition, we have examined the parameter dependence of some individual decay amplitudes in the 3P0 model. We found that there is no unique prescription for dealing with the above-mentioned relativistic ambiguities. That is, equally good results can be obtained using any of several prescriptions for the decay phase space.
+
+Further progress will probably require a more fundamental description of the hadronic states and their couplings. A relativistic model which treats the decay and final state processes on an equal footing, and accommodates the special nature of the pion, would be extremely useful.
+
+ACKNOWLEDGMENTS We are grateful to Nathan Isgur for encouragement. PG thanks NSERC of Canada and the U.S. Dept. of Energy under grant No. DE-FG02-91ER40682 for financial support. ES acknowledges support under DOE grant DE-AC02-76ER03069.
+
+[1] Throughout this paper, we are concerned only with strong decays that are allowed by the
+
+Okubo-Zweig-Iizuka rule.
+
+18
+
+[2] A. Le Yaouanc, L. Oliver, O. Pene, and J.-C. Raynal, Phys. Rev. D 8, 2233 (1973); Phys.
+
+Lett. 71 B, 397 (1977); ibid 72 B, 57 (1977). See also W. Roberts and B. Silvestre-Brac, Few Body Syst. 11, 171 (1992).
+
+[3] L. Micu, Nucl. Phys. B10, 521 (1969); R. Carlitz and M. Kislinger, Phys. Rev. D 2, 336
+
+(1970).
+
+[4] R. Kokoski and N. Isgur, Phys. Rev. D 35, 907 (1987). [5] Fl. Stancu and P. Stassart, Phys. Rev. D 38, 233 (1988); 39, 343 (1989); 41, 916 (1990); 42,
+
+1521 (1990).
+
+[6] S. Capstick and W. Roberts, Phys. Rev. D 47, 1994; CEBAF-TH-93-18 (unpublished). [7] J.W. Alcock, M.J. Burfitt, W.N. Cottingham, Z. Phys. C25, 161 (1984). [8] S. Kumano, Phys. Rev. D 41, 195 (1990). [9] M. Khono and W. Weise, Nucl. Phys. A479, 433c (1988). [10] S. Kumano and V.R. Pandharipande, Phys. Rev. D 38, 146 (1988). [11] T. Barnes and E.S. Swanson, Phys. Rev. D 46, 131 (1992) [12] E.S. Swanson, Ann. Phys. (NY) 220, 73 (1992). [13] T. Barnes, E.S. Swanson, and J. Weinstein, Phys. Rev. D 46 (1992), 4868. [14] T. Barnes and E.S. Swanson, to appear, Phys. Rev. C. [15] T. Barnes, S. Capstick, M.D. Kovarik, and E.S. Swanson, Phys. Rev. C 48, 539 (1993). [16] H. Albrecht et al., Z. Phys. C 58, 61 (1993). [17] N. Isgur and J. Paton, Phys. Rev. D 31, 2910 (1985). [18] Z. Li, M. Guidry, T. Barnes, and E.S. Swanson, I = 0; 1 ssss and I = 1=2 Kss Scattering using
+
+Quark Born Diagrams, MIT-CTP-2277/ORNL-CCIP-94-01, Jan. 1994.
+
+19
+
+[19] N.Isgur and R. Kokoski, Phys. Rev. Lett. 54, 869 (1985); J. Merlin and J. Paton, J. Phys. G
+
+11, 439 (1985).
+
+[20] For FSI calculations with SHO wavefunctions, we employ the delta function form of the hyperfine interaction (as opposed to the smeared delta function used in the Coulomb-plus-linear case). The confinement potential was of the form \Gamma 12 ^ Pij r2ij ~*i2 ~*j2 . These choices keep the SHO results analytical and provide a further test of the stability of the effective potentials.
+
+[21] It should be stressed that all of these potentials are valid for low momenta only; more complicated parameterizations may be necessary at higher momenta.
+
+[22] Review of Particle Properties, Particle Data Group, Phys. Rev. D 45, no. 11, (1992). [23] The S=D ratio for the a1 is taken from the Argus measurement [16]; for consistency we also
+
+used the Argus a1 mass of 1.211 MeV in our calculations.
+
+[24] The measured widths are \Gamma (ae ! ssss) = 151:5 MeV, \Gamma (b1 ! ss!) = 155 MeV, \Gamma (a1 ! ssae) = 446
+
+MeV, and \Gamma (ss2 ! ssae) = 77:5 MeV.
+
+[25] J. Weinstein and N. Isgur, Phys. Rev. D 41, 2236 (1990).
+
+20
+

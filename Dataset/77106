@@ -1,0 +1,596 @@
+F.V. Tkachov  16 November 1998, 12:56 pm 1
+
+
+
+
+
+Perturbation Theory with Unstable Fundamental Fields
+
+Fyodor V. Tkachov
+
+Institute for Nuclear Research of Russian Academy of Sciences, Moscow 117312, Russia
+
+Monday, 16 November 1998, 12:56 pm
+
+
+
+
+Abstract
+
+The difficulties of perturbation theory associated with unstable fundamental fields (such as the lack of exact gauge
+invariance in each order) are cured if one constructs perturbative expansion directly for probabilities interpreted as
+distributions in kinematic variables. Such an expansion is made possible by the powerful method of non-Euclidean
+asymptotic operation [1].
+
+
+
+
+Unstable particles (Z, W, top quark, higgs boson, etc.) are at the focus of current high energy physics
+research. However, a systematic theoretical formalism that would allow complete calculations for the processes
+involving such particles at the high level of precision required, say, for LEP2 [2], is still lacking (for recent
+discussions see [3], [4]). This Letter describes a systematic, inherently natural, and rather simple if
+unconventional modification of the standard perturbation theory (PT) that relieves the latter of the difficulties
+due to instability of heavy particles. (The physical situations we are concerned with are those where the issues
+of time evolution do not emerge; for a recent discussion of such issues see e.g. [5].)
+
+Consider a process q q X l l
+1 2 1 2 mediated by an unstable field X (e.g. a Z or W boson). Its amplitude
+A(Q) contains the propagator of X proportional to [ M 2 - Q2 - ] 1
+0 -
+i where M and Q are the mass and
+4-momentum of X (for simplicity unitary gauge is implied throughout this Letter). The -i0 makes A(Q)
+integrable around Q2 M 2
+= but the probability P(Q) A(Q) 2 contains a non-integrable factor [ M 2 Q2 ] 2
+- -
+which generates infinity when smeared over Q2 around Q2 M 2
+= . (Such a smearing is needed e.g. to take
+into account initial state QED radiation [6].) The standard PT expression is, therefore, meaningless.
+
+Using an array of axiomatic techniques, Veltman [7] verified that a finite, unitary, and causal S -matrix in
+the Fock space spanned by stable particles only, is obtained if one Dyson-resums self-energy contributions
+(Q2 ) corresponding to the instability (g is the weak coupling):
+
+1 1
+ v6 16 Nov 1998 (Q; g) . (1)
+2 2
+- - i0 2 2 2 2
+M Q M - Q - g (Q )
+
+For unstable X , Im ( M 2 ) > 0 , so that the pole is pushed from the real axis into the complex plane and the
+corresponding probabilities are integrable.
+Unfortunately, a well-known fact is that such resummations destroy exact gauge invariance (cf. e.g. [8]).
+This results in ambiguities of theoretical predictions -- ambiguities which can be unsatisfactorily large [4].
+Similarly spoiled is perturbative unitarity [9]. Somewhat similar ambiguities occur in QCD with renormali-
+zation scale fixing [10]. In QCD one usually limits the dimensional scale's variation to values around a typical
+dimensional scale of the process being studied. In the present case, however, the residual dependence on gauge-
+fixing parameters is completely unphysical and their variation cannot be limited from physical considerations.
+Various attempts to circumvent these difficulties [11], [12], [13], [14], [4] are ad hoc, unsystematic, and
+cumbersome. The issue can be traced back to the non-power dependence on g in (1).
+Yet an option for obtaining a well-defined systematic expansion in pure powers of g does exist. To under-
+stand it, note the following:
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 2
+
+
+
+
+
+(i) Although PT is usually developed for amplitudes, in the end one only needs probabilities P(Q) .
+
+(ii) A minimal physically motivated restriction on mathematical nature of P(Q) is that P(Q) are measured
+using finite-resolution detectors and taking into account smearings for initial state radiation etc., so it suffices
+to define P(Q) as distributions [15] for which only integration with smooth localized weights is defined but
+not necessarily pointwise values.
+
+(iii) Even if exact P(Q; g) are continuous in Q, perturbative expansion implies a limiting procedure g 0
+which may (and actually does; cf. Eq. (2) below) bring one into the realm of singular distributions proper.
+Now consider the probability (rather than the amplitude) of the same process q q
+1 2 X l l
+1 2 with the
+resummed X -propagator (1). Try to expand ( ;
+Q g) 2 in powers of g . The naïve Taylor expansion restores the
+usual PT expression -- which is non-integrable and so is not a well-defined distribution. However, one actually
+deals with integrals of P(Q) with arbitrary weights, and expansion in g must preserve such integrability, i.e.
+the expansion must be in the sense of distributions. This means that one should expand not the product
+( ;
+Q g) 2 per se but its integrals with arbitrary smooth weights. The whole point here is that it proves possible
+to obtain expansion formulas without specifying a concrete expression for the weight. That the expansion for
+such integral must contain something new compared with the naïve expansion of ( ;
+Q g) 2 is not surprising in
+view of the non-integrability of the naïve expansion.
+
+A systematic theory of such expansions in the context of Feynman diagrams -- the theory of asymptotic
+operation (AO) -- has been fully developed 1 since 1982 [16] (for a review and complete references see [17]).
+Its Euclidean variant yielded powerful calculational formulas for short-distance and mass expansions [16], [18],
+[19], [20], [21] that are widely used at present [17], [22], [23]. The recent advance [1] extends AO to arbitrary
+problems in Minkowski space (with both loop and phase space integrals treated on equal footing).
+The key discovery of the theory of AO is that distributions with respect to PT integrals play a role similar to
+that of complex numbers with respect to algebraic equations. In both cases the resulting freedom of constructive
+manipulation proves to be hugely useful (the psychological difficulties one encounters in both cases are also not
+dissimilar). Furthermore, the low awareness of the theoretical community at large of the distribution-theoretic
+foundation of the mentioned calculational formulas is rooted, on the objective side, in the fact that in Euclidean
+type problems, -functions disappear from final formulas (similarly to how the imaginary unit may disappear
+from final expressions for the roots of algebraic equations). On the subjective side, the theory of AO emerged
+behind the Iron Curtain on the fringes of established theoretical communities. The two circumstances provided
+fertile soil for misinterpretations and miscitations to flourish (as discussed in [16] and [24]).
+In contrast to Euclidean situations, the problem of unstable particles is the first application of AO where
+distributions cannot be eliminated from answers naturally. This is because the weak-coupling expansion in our
+case connects squared propagators which describe intermediate unstable fields and the -functions which
+describe stable particles in the limit g = 0 ; cf. Eq. (2) and the discussion thereafter. So, the occurrence of
+singular distributions in a systematic expansion is rooted in the physical nature of the problem.
+Our above example represents a simple exercise in application of the machinery of AO. Denote
+= M 2 - Q2 , h() = Re (Q2) , f () = Im(Q2) , and h =
+n , f n n -th derivatives at = 0 . Then one has the
+following expansion for g 0 ,
+
+( ; 2 - - - - -
+Q g) g 2 ( ) f 1 VP[ 2
+] (x) ch f h f h f 2 '(x)h f 1 O(g2
+= + + - - + ) , (2)
+0 1 0 0 1 0 0 0
+
+
+where the elementary distribution VP[ -2 ] is defined by
+
+n-
+(-) 1 n
+d ln |
+-n |
+VP[ ] (3)
+( - 1)! d n
+n
+
+with derivatives in the sense of distributions. The latter simply means that after integration with a smooth
+
+
+1 Here "fully" means that, so far as I can see, all the formulas needed to apply the general theory of AO to expansions of
+concrete diagrams have been published. Of course, a big theory like this (the already published non-overlapping non-
+tutorial texts run well beyond 300 pages) can never be complete in the sense that its potential range of applications spans
+the entire theoretical particle physics based on Feynman diagrams ("No small parameter, no physics" [L.D. Landau]) so
+that there are many applications, each requiring a concretization of general formulas, as well as many topics of interest for
+mathematical physicists like finer points of proofs for various intermediate regularizations where, say, the dimensional
+regularization fails, generalizations to integrands beyond what may be ever needed in particle physics applications, etc.
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 3
+
+
+
+
+
+weight, the derivatives should be switched to the weight via formal integration by parts (see the excellent
+undergraduate level textbook [15].)
+To verify the expansion (2) [and its next term, Eq. (5)] is an elementary exercise in programming: choose
+any expressions for f ( ) and for h ( ) > 0 [both analytical near = 0 ], integrate both sides of (2) with any
+simple smooth weight over a finite segment containing = 0 , and vary g to check how the error estimate
+scales with g 0 .
+
+If one recalls the omitted trivial factors and that g2 f = -2
+0 M X to lowest order, then the O(g ) term in (2)
+corresponds to a free X -boson in the final state and to the familiar approximation
+
+(q q X l l ) (q q X ) × Br( X l l ) . (4)
+1 2 1 2 1 2 1 2
+
+The other terms on the r.h.s. of (2) yield a well-defined O(g 2 ) correction to (4). The correction exactly
+coincides with -2 of the naïve PT for 0 . The VP-prescription renders -2 integrable near = 0 , whereas
+the -functional terms ensure the estimate O(g2 ) after termwise integration of (2) with smooth localized
+weights. So our method, while yielding unconventional but essentially elementary formulas, is in perfect
+agreement with both physical intuition and the standard PT: the latter only misses the correct structure of the
+answer exactly at the singular point [the VP-prescription and the -functional terms on the r.h.s. of (2)].
+
+The expansion (2) can be extended to any order in g ; e.g. the term O(g 2 ) is (the overall factor g2 is
+dropped):
+
+2 3
+- 1 1
+- 2 2 2
+-
+h( ) VP[ ] + ''() f eh - f j - '() f e2 2 2
+h h f - h f - f f j
+2 0 0 0 0 0 1 0 0 1 1 0
+
+3
++ () -
+f e 2 2 2 2 1 2 2 2 1 3
+- h h f f + h h f + h f - h f f + h f - f f j . (5)
+0 0 1 1 0 0 2 0 0 1 2 0 2 0 1 0 2 2 0
+
+
+This, again, differs from the naïve PT expression 2 3
+h( ) - only exactly at = 0 .
+In the absence of massless particles and away from thresholds, the formulas (2)­(5) and their extensions to
+higher orders constitute a complete formalism (see, however, remark 6 at the end of the Letter).
+The generalization to models with massless particles is obtained as follows. For simplicity we assume to be
+away from non-zero thresholds (the general method of AO works near thresholds too with appropriate
+modifications [1]). Furthermore, we assume there are no complications due to t -channel singularities in the
+physical region of the sort treated in [25]; such complications are tangential to what we are after.
+The starting point is the S -matrix constructed according to the prescriptions of [7], but instead of ampli-
+tudes, one now deals with probabilities: One considers the collection of all unitarity diagrams with only stable
+particles in the initial and final states with self-energies responsible for instabilities Dyson-resummed.2 Then
+one enforces expansions of products of propagators and phase-space -functions in the sense of distributions in
+g that occur in denominators (prior to any integrations). Mathematically, this resembles expansions in small
+masses and is done using the method of AO [1]. The result for each diagram is guaranteed to run in powers
+(only integer powers occur in the present case) and logarithms of g , with no other dependences on g in the final
+result (the so-called perfectness of expansions which is a characteristic feature of AO [17]; concerning
+cancellations of logarithms of g see below).
+So, all one needs is to concretize the general prescriptions of non-Euclidean AO as presented in [1] to our
+specific problem. (This necessarily has to be done in the language of AO; consult [1], [20], [17]. Note that AO
+commutes with multiplications by polynomials [20], so numerators can be ignored in the present discussion and
+the description below is valid for fields of arbitrary spins.) It is sufficient to identify the singular subgraphs to
+which correspond counterterms to be added to formal expansion, together with the associated transverse
+coordinates and scalings needed to do power counting and reduce the coefficients of counterterms to power-
+and-log form. The following description of singular subgraphs is valid for models containing stable and
+unstable massive fields coupled to massless gauge fields (abelian or not). The case without unstable fields
+corresponds to QED/QCD-type soft singularities whose mechanism of cancellation is well understood; their
+cancellation takes place prior to expansions in self-energies, and the prescriptions given below correctly take
+into account those soft singularities on a diagram-by-diagram basis. In practice, the purely QED/QCD-type soft
+singularities do not require any additional special handling in the context of instability.
+
+
+2 It suffices to resum one-loop contributions. Inclusion of higher-order corrections into resummation does not affect the final
+answers; see below.
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 4
+
+
+
+
+
+Let G be a unitarity Feynman diagram. Call a line (ordinary or cut) massive or massless depending on the
+type of the corresponding field. Massive lines are further subdivided into unstable and stable. A singular
+subgraph is a collection of some (one or more) massive (unstable, and, perhaps, stable) lines and, perhaps,
+some (zero or more) massless lines of G; should also satisfy the following restrictions (a straightforward
+concretization of the general completeness condition of [1], sec. 2.5):
+a) Massless lines of should form a complete IR subgraph in the Euclidean sense [20]; let ka be their
+independent momenta.
+b) Massive lines of should form "chains" as follows: set k =
+a 0 and re-evaluate the momenta of all lines
+of G using momentum conservation; denote their new values as Qb; then a chain consists of all massive lines of
+with the same Qb and the same Lagrangian mass Mb with no lines with the same Qb and Mb in G outside .
+(A chain of may be part of a larger chain of ' because the set of momenta ka depends on .) A chain is
+unstable or stable depending on the corresponding particle's type.
+If can be split into kinematically independent parts then its counterterm is a product of counterterms for its
+parts. Each such part should again be a singular subgraph in its own right. So, if the counterterm for any such
+part is zero (cf. below) then the counterterm for the entire is also zero. In particular, in a non-factorizing
+subgraph , any its chain should be kinematically connected via massless lines to some other chain of ,
+meaning that there is a ka which passes through some (but not all) lines of either chain.
+The following optional restrictions eliminate non-factorizable 's whose counterterms are zero (as checked
+e.g. by explicit calculations):
+i) Each unstable chain of should have a line on each side of the cut (otherwise the singularity is non-
+pinched and no counterterm is required).
+ii) Similarly, each stable chain's Qb should correspond to an on-shell final/initial state particle; one can also
+say that each stable chain should contain a cut line (final or initial state).
+The transverse coordinates for such consist of all its k 2 - 2
+a and b Q M for all its chains. Then the
+b b
+-related counterterms to be added to the formal expansion are ( D
+) ( )
+a ka × b ( b ) with total number
+of derivatives on all -functions determined by power counting with uniform scaling in all b and ka . This
+scaling also defines the homogenization needed to reduce counterterms to purely power-and-log form ([1],
+sec.2.7).
+
+The last important point concerns intermediate regularization of the formal expansion. Dimensional
+regularization alone is insufficient (as is clear from the above example). So one must introduce a separate VP-
+prescription for each "bad" product of unstable propagators as determined by simple inspection (cf. (2) and the
+example below).
+
+With the above rules, writing out the AO for each unitarity diagram is a rather mechanical procedure ([1],
+Eqs. (2.9)­(2.12)) which yields the expansion in powers and logarithms of g . Explicit enumeration of singular
+configurations for physically interesting cases will be presented elsewhere [26].
+
+A non-trivial example is given by the following diagram:
+
+
+k
+
+Q (6)
+Q k Q k Q
+
+
+where k corresponds to photon, Q and Q + k , to a charged unstable X -boson. The corresponding product is
+
+( ;
+Q g) 2 (Q k; g) 2 (k 2
++ ) ,
++ (7)
+
+where + (k 2 ) = (k ) 2
+0 (k ) . There are three singular subgraphs, each with one chain: 1 and 2 consisting
+
+of pairs of equal-momentum X -lines (the subproducts ( ;
+Q g) 2 and (Q + k; g) 2 ), and 3 comprising the
+line k and all X -lines. With ~
+= M 2- (Q + k)2 , the expansion of (7) in g to o( )
+1 is
+
+VP[ -2 ] × VP[~
+-2] ( 2
+k ) + E(
++ ) × VP[~-2] ( 2
+k ) + VP[
++ -2]× E(~) ( 2
+k )
++
++ { 0
+C µ
+( ) (k ) + C '(
+1 )(k) + C () k o 1
+} (8)
+1 µ ( ) + ( ) ,
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 5
+
+
+
+
+
+where E( ) comprises all the -functional terms on the r.h.s. of (2). Eq. (8) strictly follows the general pattern
+of AO: The first summand is just the formal expansion with necessary VP-regularizations; the counterterms
+E( ) and E(~
+) correspond to the singular subgraphs 1 and 2 , and the counterterm in the last line, to 3 .
+Since the naïve formal expansion -2 ~-2 + 2
+(k ) is linearly divergent by power counting (based on the
+described uniform scaling in , ~
+, and k) at the singularity for = ~ = k =
+3 (localized at 0 ), the last line
+contains only -functions and their first-order derivatives. As is usual in the theory of AO, the coefficients Ci
+depend non-trivially on g . For instance, the O(g -2 ) contribution to C 0 is
+
+2 2
+- 2
+M F 1 I
+- - ln g f0
+4 - 2 ln + O() O(ln g) , (9)
+2 2
+g f M HG 2
+4 M KJ +
+0
+
+µ µ
+where = 1 (4 - )
+D . C and C are similar (without the overall g -2 ). For C , the bracket contains neither
+2 1 1 1
+
+poles nor logarithms. The poles -1 ensure integrability near = k = 0 of the first two lines of (8). The finite
+parts ensure the asymptotic estimate.
+
+The modified PT thus obtained contains all diagrams of the standard PT (with only stable particles in initial
+and final states) with VP-prescriptions for unstable particles' mass shell singularities, plus counterterms with
+some simple -functions times unambiguously defined coefficients (cf. (2) and (8)).
+
+Discussion
+
+1) The modified and standard PT coincide off the mass shell of unstable particles, so perturbative unitarity is
+unaffected. For the same reason, loop integrals are not affected and their calculation can be performed as usual
+(whatever that means). The UV counterterms for loop integrals in the MS scheme are exactly the same in the
+modified PT as in the standard one (cf. the treatment of UV renormalization in the theory of AO [27]).
+
+2) Evaluation of the non-trivial coefficients such as (9) has to be done only once for a finite number of different
+configurations of singular factors. (This work is currently in progress [26].)
+
+3) The logarithms of g in expansions of individual diagrams (cf. (9)) are completely analogous from
+mathematical point of view to logarithms of masses in Euclidean expansions [17], [28]. In the above example,
+contributions O(g -2 ln g) are cancelled by the two diagrams with virtual photon on one side of the cut
+(ensuring a physically correct limit g 0 after multiplication by decay vertex factors). This is a special case of
++ +
+a general mechanism based on unitarity of Veltman's S -matrix [7]: The unitarity relation T + T = T T
+connects complete sums of unitarity diagrams (the r.h.s.) with amplitudes (the l.h.s.). However, the expansion
+of amplitudes in powers of g is well-defined and contains no ln g terms, so such terms must cancel in the sum
+of all diagrams for the r.h.s. The physical origin of ln g contributions is the same as for the soft-photon
+singularities in QED, and their cancellation follows a similar pattern, too.
+
+4) If Veltman's S -matrix is gauge invariant order-by-order within the corresponding precision, i.e. if the sum
+of diagrams through O g n
+( ) is gauge invariant up to O g n
+( +1) corrections, then the same is true for the
+modified PT. But the latter is a purely power-and-log expansion, so a gauge dependence of the sum of all terms
+proportional to gn could not have been cancelled by terms proportional to g N with N > n . So the modified
+PT must be exactly gauge invariant in each order.
+
+5) A more general view on different variants of PT discussed here is as follows. Consider the integral Dyson
+equations for Green's functions of stable and unstable fields. Reconstruct S -matrix for stable particles only from
+the Green's functions as dictated by the first principles of QFT. The various versions of PT are then obtained
+via the following two tricks variously combined: (A) iterations of the Dyson equations starting from the free
+propagators and Lagrangian interaction vertices; (B) expansions of resulting diagrams to eliminate self-
+energies from denominators. Veltman's prescription then corresponds to an incomplete expansion in self-
+energies (rather than a resummation) -- incomplete to avoid spoiling the qualitative structure of poles. The
+naïve PT is then restored from Veltman's amplitudes via expansion in the residual self-energies in
+denominators (which operation does not commute with the squaring of amplitudes in the case of unstable
+particles). The modified PT bypasses this step and completes the expansion directly for probabilities.
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 6
+
+
+
+
+
+6) A potentially confusing feature of the modified PT that has to be clearly understood, is that its predictions
+are singular if integrable functions (cf. (2)), and their convergence to the continuous exact answer (i.e. to the
+familiar Breit-Wigner type shape) for Q2 M 2
+- is not pointwise but the so-called weak convergence,
+M X
+i.e. convergence of integrals with smooth weights; such weights can be chosen arbitrarily and after integration
+with such a weight, the convergence is the usual convergence of real numbers. It is this failure of the naïve
+pointwise convergence that is routinely misinterpreted (by incorrect analogy with hadron resonances3) as
+indicative of a "fundamentally non-perturbative" nature of the problem whereas what one actually deals with is
+an unfamiliar -- but in no way pathological or unusable; not even complex or difficult; just unfamiliar (which
+is enough to stir up passions though) -- type of convergence.
+First of all, from the viewpoint of sheer numerics, with rapidly varying functions (such as the Z peak without
+the initial and final state QED radiation), to rely on a pointwise convergence would be a notion very ill-
+conceived indeed . This is because negligible horizontal shifts of the function shape (such as due to higher-order
+corrections to the pole position) may induce misleadingly dramatic vertical shifts of the function values for a
+given value of the argument (an instability quite similar to what I discussed in connection with jet observables
+[29]; the material of sec. 15 of that work is particularly relevant for the present discussion). This means that it
+would be proper here to use one of the integral type convergences. For instance, to use the L2 convergence (least
+squares) is a step in the right direction (although one usually keeps the pointwise convergence at the back of
+one's mind even when actually using least squares in the end). But the L2 convergence does not take one far
+enough because it is unnecessarily restrictive in regard of the objects it can handle. In our case, the limit of zero
+coupling produces a phase space -function in the leading order in place of a continuous curve, and our
+modified PT yields a systematic expansion around that -function. So the logic of the problem compels one to
+pass the L2 convergence and go directly to the weak convergence if one wants to keep all options open.4
+Furthermore, the fixation on the Breit-Wigner shape appears to be artificial in the light of the fact that the
+modified PT yields an expansion around the phase-space -function corresponding to the stable particle at zero
+coupling (a key physical element of the formalism). A parametrization of cross sections prior to incorporating
+QED/QCD radiation in terms of VP's and 's (cf. Eq. (2)), while being completely equivalent to the
+conventional Breit-Wigner type parametrization as far as the numerical information both contain is concerned,
+is also a much simpler option (remember its exact gauge invariance). This simplicity is in a stark contrast with
+the convoluted 5 formalisms collectively erected around the Breit-Wigner shape and currently used for fitting
+the Z peak.
+Furthermore, the Breit-Wigner shape, however classical,6 is only a means to an end -- in our case, tests and
+the fitting of parameters of the Standard Model -- and the weak convergence is fully sufficient for that.
+For instance, for the case of LEP1 where one deals with just five fundamental free parameters [30], one could
+agree on a few weights localized around the Z peak, giving preference to those for which experimental errors
+are smaller and convergence of PT expansions is faster (both conditions favour slower-varying weights).
+From a different perspective, the approximation of a continuous curve by singular distributions is, in point of
+fact, hardly more counterintuitive than representing arbitrary functions on the real axis via linear combinations
+of periodic functions in the theory of Fourier transform where one also encounters difficulties with the naïve
+pointwise convergence to exact results (the well-known Gibbs phenomenon [31]). The difficulties are resolved
+by modifying the "raw" Fourier approximations, e.g. using the trick of Feier summation. Such tricks exploit
+a priori information about the exact answer (usually its regularity properties).7 They constitute an established
+
+
+3 That one should be careful to avoid such analogies was impressed upon me by I.F. Ginzburg.
+4 The fitting criteria based on the L2 convergence are actually special cases of those based on the weak convergence. Indeed,
+nothing prevents the weak convergence from being used with ordinary functions in place of L2 convergence. Instead of
+comparing directly function values as in the L2 case, one then compares weighted integrals of the function, and one can also
+employ some kind of a least squares type minimization criterion for fits (other options such as robust statistics are also
+allowed). If one takes very narrow weights, the L2 criteria are recovered. These arguments have a much wider significance
+than our concrete problem: whenever one deals with approximations of sharply varying functions, the approximation
+criteria based on weak convergence are preferable. This in fact is very much why weak convergences and distributions
+emerged and are widely used in the theory of partial differential equations.
+5 therefore, requiring too much hand work thus defeating an efficient automation which, for instance, is badly needed to
+tackle the O(104) one-loop diagrams that contribute to the processes studied at LEP2.
+6 and so anonymous-referee-safe .
+¡
+
+
+
+
+
+7 In other words, the input for obtaining the answer comprises, say, the number and values of Fourier coefficients plus the
+information about regularity properties of the answer. That such seemingly amorphous information can be effectively used
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 7
+
+
+
+
+
+field of research in applied mathematics (cf. the classical treatise [32]).
+Correspondingly, restoring a continuous function from singular approximations such as Eq. (2) is entirely
+feasible with knowledge of continuity of the answer. For instance, one can take a lesson from experimentalists
+who routinely apply a binning trick to finite samples of discrete events (either measured or obtained via Monte
+Carlo generators): such samples are, mathematically, nothing but sums of -functions -- singular distributions
+-- whereas the resulting histograms are ordinary functions. The transition involves what has to be
+mathematically interpreted as integration of the raw sum of -functions with rectangular weights (bins) spread
+along the real axis. (This is discussed in detail in sec. 15 of [29]; the ideology and much of the formalism
+described therein remains valid in the case of general distributions.) Such a processing never raises any
+eyebrows. A similar binning can be applied to theoretical answers such as Eq. (2); however, smooth rather than
+rectangular bins would have to be used here.
+A manual insertion of finite width into unstable propagators is also a variant of a regularization procedure
+based on available a priori information (analyticity properties). However, it ought to be performed after gauge-
+invariant expressions are obtained (including loop corrections). This is similar to inverting a set of expansions
+(2) for some standard left hand sides in order to re-express the VP-distributions and -functions in terms of
+a set of standard non-singular shapes.
+Lastly, the singular distributions are generally smeared away by the convolutions necessary to take into
+account QED/QCD radiation (use the definition (3) and formal integration by parts). This removes most of the
+sting from this issue, and reduces the whole matter to one of technical convenience rather than principle.8
+
+7 ) The described modification of PT is insensitive to inclusion of higher order self-energy corrections into the
+Dyson resummation: The additional dependences on g (of the coefficients f , h in the above examples) are
+i i
+analytical and as such allow safe Taylor expansion which in fact is automatically taken care of by the method of
+AO (via the homogenization). Together with uniqueness of power-and-log expansions [33], [17] this means
+that the modified PT per se involves no ambiguity whatsoever inasmuch as unstable fields are concerned.
+Therefore, and in view of the generality of the axiomatic results on which it is founded, the modified PT
+emerges as the perturbation theory for models with unstable fundamental fields.
+
+
+A c k n o wl e d g e me n t s. I am indebted to I.F. Ginzburg for suggesting the problem and a crucial encourage-
+ment, to M.L. Nekrasov for pointing out singular configurations involving soft radiation from stable
+initial/final state particles, and to D.Yu. Bardin and G. Passarino for providing their notes on the theory behind
+TOPAZ0 and ZFITTER [30], the two programs used to analyze the LEP1 data around the Z peak. I also thank
+for discussions E.E. Boos, V.I. Borodulin, G.V. Jikia, Yu.F. Pirogov, L.D. Soloviov and N.A. Sveshnikov . This
+work originated in the lively atmosphere of the workshops of QFTHEP series (INP MSU, Moscow) which
+provided financial support as did the Theory Division of CERN where I benefited from discussions with
+D.Yu. Bardin, S. Dittmaier, V.A. Khoze, J. Papavassiliou and M. Testa.
+
+
+
+
+
+
+in numerical applications, is only surprising at a first glance. Suppose the solution one seeks is a point on a plane, and one
+knows that the exact solution belongs to a line known a priori, and one insists (for whatever reasons) on approximations
+that also lie on that line. If one manages to obtain a "raw" approximate solution whose precision is known to be satisfactory
+but which happens to lie off the line, one simply improves the approximation by choosing the point on the line which is
+closest to the raw approximation; one then expects this new "regularized" approximation to approach the exact solution at
+the same rate as the raw one while staying on the line. The a priori information about, say, continuity of the exact solution
+is equivalent to stating that the latter lies in the subspace of continuous functions in the space of arbitrary functions. The
+infinite dimensionality of, and different convergences possible in, functional spaces creates specifics addressed by the
+theory of regularization methods. Such methods usually involve more or less sophisticated optimization techniques (finding
+an optimal point on the line closest to the raw approximation in the above example) to transform a raw approximation into
+a regularized one. The term "regularization" itself is motivated by the fact that such procedures are normally used to obtain
+approximations that possess required regularity properties starting from ones that do not.
+8 Unless one insists on "gedanken" experiments with monochromatic neutrino beams, in which case one must study the
+regularization methods mentioned above.
+
+
+F.V. Tkachov  16 November 1998, 12:56 pm 8
+
+
+
+
+
+References
+
+
+[1] F.V. Tkachov, Phys. Lett. B412 (1997) 350 .
+[2] G. Altarelli, T. Sjöstrand and F. Zwirner (Eds.), Physics at LEP2, CERN, 1996.
+[3] I.F. Ginzburg, talk at The 10th Workshop on Photon-Photon Collisions, Sheffield, April, 1995 .
+[4] S. Dittmaier, preprint CERN-TH/97-302 (1997)  and refs. therein.
+[5] L. Maiani and M. Testa, Annals Phys. 263 (1998) 353  and refs. therein.
+[6] E.A. Kuraev and V.S. Fadin, Sov. J. Nucl. Phys. 41 (1985) 466.
+[7] M. Veltman, Physica 29 (1963) 186.
+[8] M. Kuroda, G. Moultaka and D. Schildknecht, Nucl. Phys. B350 (1991) 25.
+[9] M.S. Chanowitz and M.K. Gaillard, Nucl. Phys. B261 (1985) 379.
+[10] G. Altarelli, Physics Reports 81 (1982) 1.
+[11] A. Sirlin, Phys. Rev. Lett. 67 (1991) 2127.
+[12] R.G. Stuart, talk at 1st Latin American Symp. on High-Energy Physics, Merida, Nov. 1-5, 1996 
+and refs. therein.
+[13] E.N. Argyres et al., Phys. Lett. B358 (1995) 339 [hep-ph/950721].
+[14] J. Papavassiliou and A. Pilaftsis, Phys.Rev. D58 (1998) 053002  and refs. therein.
+[15] L. Schwartz, Méthodes Mathématiques pour les Sciences Physiques. Hermann, 1961.
+[16] F.V. Tkachov, in: Quarks-82. Proc. Int. Seminar. Sukhumi, USSR. May 5-7, 1982, A.N. Tavkhelidze et al. (eds.),
+INR RAS, Moscow, 1982; Phys. Lett. 124B (1983) 212.
+[17] F.V. Tkachov, Phys. Part. Nucl. 25 (1994) 649  and refs. therein.
+[18] S.G. Gorishny, S.A. Larin and F.V. Tkachov, Phys. Lett. 124B (1983) 217.
+[19] G.B. Pivovarov and F.V. Tkachov, preprints INR -459 (Moscow, 1994) and INR P-370 (Moscow, 1996) [available
+online from http://ccdb1.KEK.jp/KISS.v3/kiss_prepri.html, nos. 8502210 .
+[20] F.V. Tkachov, Int. J. Mod. Phys. A8 (1993) 2047 .
+[21] G.B. Pivovarov and F.V. Tkachov, Int. J. Mod. Phys. A8 (1993) 2241 .
+[22] M. Samuel and L. Surguladze, Rev. Mod. Phys. 68 (1996) 259.
+[23] J.H. Kühn, in: Cracow Int. Symp. on Radiative Corrections, Cracow, Poland, 1996 .
+[24] F.V. Tkachov, in: The VIII Int. Workshop on High Energy Physics. Zvenigorod, Russia. 15-21 September 1993, INP
+MSU, Moscow, 1993 .
+[25] K. Melnikov and V.G. Serbo, Nucl. Phys. B483 (1996) 67 ; I.F. Ginzburg, Nucl. Phys. Proc.
+Suppl. 51A (1996) 85 .
+[26] M.L. Nekrasov and F.V. Tkachov, in preparation.
+[27] A.N. Kuznetsov and F.V. Tkachov, in Renormalization Group '91. Dubna, USSR. 3-6 Sept., 1991. World Scientific,
+1992; preprint INR-809/93 (1993) .
+[28] F.V. Tkachov, Phys. Lett. 125B (1983) 85.
+[29] F.V. Tkachov, Int. J. Mod. Phys. A12 (1997) 5411 .
+[30] D. Bardin and G. Passarino, preprint CERN-TH/98-92 .
+[31] G.A. Korn and T.M. Korn, Mathematical Handbook, 2nd ed., McGraw-Hill, New York, 1968, sec. 4.11.7.
+[32] A.N. Tikhonov and V.Y. Arsenin, Methods of Solving Ill-Posed Problems. NAUKA, Moscow 1986 (in Russian).
+[33] A. Erdèlyi, Asymptotic Expansions. Dover, 1956.
+
+
+

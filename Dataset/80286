@@ -1,0 +1,1140 @@
+
+
+ 18 Aug 94
+
+DAMTP-94-60 
+
+Diffractive production of dijets at
+
+HERA
+
+M. Diehl Department of Applied Mathematics and Theoretical Physics,
+
+University of Cambridge, Cambridge CB3 9EW, England
+
+Abstract We investigate the production of a quark-antiquark pair in diffractive photon-proton scattering, approximating soft pomeron exchange by the exchange of two nonperturbative gluons. In deep inelastic scattering at HERA, events with two jets and the scattered proton in the final state are predicted to be observable, with an important contribution from charm production. For photoproduction of light quark jets with high transverse momentum we find that both exchanged gluons must have a large invariant mass, so that the cross section is very small, whereas for charm quarks it is quite appreciable. From our calculation we also extract the quark structure function of the pomeron for the scaling variable z no too close to 0 or 1, finding a strong flavour dependence and a behaviour somewhat harder than z(1 \Gamma z) for light quarks.
+
+1
+
+1 Introduction Despite the great progress in describing strong interactions that has been achieved since the advent of QCD, processes that involve large distances, or small momentum transfers, are far from being well understood at present. Since the strong coupling becomes large at small momentum scales, perturbation theory cannot be directly applied in this situation, at least not in a straightforward manner. On the other hand, the phenomenology of soft processes, such as diffractive scattering or dissociation of hadrons, is fairly well described by the exchange of Regge trajectories. Most of these can be associated with mesons or baryons, but not so the trajectory with vacuum quantum numbers, the pomeron. The investigation of its properties and of how it can be described in terms of QCD is a challenge both for experiment and theory.
+
+At HERA, one is effectively colliding protons with real or virtual photons. One can look for collisions where the proton stays intact and loses only a tiny fraction of its momentum (instead of the proton there may also be a lowlying excitation such as N ss in the final state, cf. [1]), and where the pomeron it has radiated interacts with the photon. For purely kinematic reasons, the centre of mass of the photon-pomeron subreaction is well separated in rapidity from the scattered proton or proton remnant. Since the exchanged object is colourless there is no need for colour rearrangement in the final state which would "fill" this "rapidity gap" with further hadrons. Such a reaction can probe electromagnetic interactions of the pomeron. Given the high energies of the photon-proton collision at HERA, the photon-pomeron system can have an invariant mass large enough to allow for a hard reaction, which is amenable to a perturbative calculation, so that one is at the interface of soft and hard QCD. Events with a large rapidity gap and a jet structure in the final state have indeed been observed at HERA [2] and will be studied in more detail in the next few years.
+
+In this paper we investigate diffractive events with only the scattered proton and a pair of jets in the final state, the jets coming from a quarkantiquark pair produced in the photon-pomeron interaction (fig. 1). We consider both light and heavy flavours for the quarks, and both photoproduction and deep inelastic scattering (DIS). The framework of our calculation is the QCD-inspired model of Landshoff and Nachtmann [3, 4, 5], where the pomeron is approximated by two gluons with a nonperturbative propagator. It successfully reproduces some of the known phenomenological properties of the pomeron and has been used to describe exclusive diffractive ae production in deep inelastic scattering. The process p + fl ! p + q _q with real photons has previously been treated in this model [6], but there was an error in the calculation. For virtual photons the same reaction has been extensively studied in purely perturbative QCD, i. e. using the perturbative gluon
+
+2
+
+\Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi photon iiiiii
+
+ii
+
+PPPP
+
+PPPP
+
+-proton AA AA
+
+AA
+
+AA
+
+\Phi \Phi
+
+\Phi \Phi
+
+\Phi \Phi
+
+pomeron
+
+Figure 1: Diffractive production of q _q by pomeron exchange. The figure corresponds to two diagrams because of the two possible directions of charge flow in the upper quark line.
+
+propagator [7, 8, 9, 10, 11].
+
+In some aspects, the pomeron behaves quite like a particle. Ingelman and Schlein proposed to describe processes in which a pomeron undergoes a hard reaction in terms of a parton structure of the pomeron and introduced the corresponding structure functions [12]. In the parton model for ordinary hadrons the quark structure function is related with the total cross section for photoabsorption, which can be generalised to the quark structure function of the pomeron and the cross section for diffractive photoabsorption. We can calculate the latter at Born level if we integrate the cross section for diffractive q _q-production over the transverse quark momentum, and thus estimate the quark structure of the pomeron in our model.
+
+The present paper is organised as follows. In section 2 we describe the kinematics of the process under study and the kinematical limit we are working in. Section 3 briefly recapitulates the Landshoff-Nachtmann (LN) model of the pomeron and section 4 describes the calculation of the cross section for diffractive q _q-production in this model. Our results are presented separately for photoproduction and DIS in the following two sections. In particular, we find for photoproduction of light quarks that the exchanged gluons must each have a large invariant mass in order to contribute to the cross section. This is not the case for heavy flavours, and we obtain a cross section for photoproduction of charm which should be observable at HERA (incidentally it is of the same order as the one calculated for light quarks in [6]). In section 7 we calculate and discuss the quark structure function of the pomeron in the LN
+
+3
+
+model. The last section contains our conclusions. In an appendix, we briefly present what the phenomenological model of the pomeron by Donnachie and Landshoff [13, 14] predicts for our reaction, and show that it can be used to calculate the pomeron structure function, but not the production of high-pT jets.
+
+2 Kinematics We begin with introducing some convenient kinematic variables for the process
+
+p(p) + fl(q) ! p(p
+
+0) + q(P ) + _q(P 0) : (1)
+
+Let m be the mass of the quark q and p^s the invariant mass of the quarkantiquark pair. We consider both real and virtual photons, and use the conventional abbreviations
+
+Q2 = \Gamma q2; W 2 = (p + q)2; * = p:q (2) as well as Mp for the proton mass.
+
+For the momentum transfer of the proton (i. e. the momentum carried away by the pomeron) we use a Sudakov parametrisation
+
+p \Gamma p
+
+0 = \Delta = ,p + ,0q + \Delta T (3)
+
+with \Delta T transverse to both p and q. The on-shell conditions p2 = p02 = M 2p for the proton lead to a quadratic equation in , and ,0. Since we are interested in diffractive scattering, the squared momentum transfer t = \Delta 2 is small, sayj
+
+tj ^ 1 GeV2, and the ratio (W 2 + Q2)=(^s + Q2) is large, i. e. we are working in the Regge limit. As a consequence one finds that 0 ! , o/ 1, and that only one of the two solutions for the on-shell constraint is applicable, namely
+
+,
+
+0 ss \Delta
+
+2T \Gamma 2,M 2p
+
+2* t ss \Delta 2T \Gamma ,2M 2p : (4)
+
+Provided that ^s AE j\Delta 2T j, one can neglect ,0 compared with ,. One then has
+
+, = ^s + Q
+
+2
+
+W 2 + Q2 (5) and can interpret , as the proton's fractional loss of longitudinal momentum (cf. (3)). Requiring a minimum invariant jet mass p^s translates into a lower bound for ,. We shall also impose an upper bound of 0.01 on , to be reasonably sure that the exchange of a pomeron dominates that of other Regge trajectories [6, 15], even at t ss 0. In most of our numerical applications, the
+
+4
+
+cross section is dominated by smaller , and the effect of this bound is rather weak.
+
+In our calculation we shall neglect the transverse momentum \Delta T . To leading order in ,\Gamma 1 one then has from (3)
+
+p ss p
+
+0 ss ,\Gamma 1\Delta : (6)
+
+The proton mass will not appear in our results, since it turns out that terms involving Mp are suppressed at least by ,, such as in (4).
+
+We further introduce the transverse momentum pT of the quark relative to the photon direction in the q _q centre of mass. Note that for fixed pT and ^s the angle between the quark and the photon can take two different values which sum up to 180ffi. Interchanging these two values is tantamount to interchanging the quark and antiquark momenta, and due to charge conjugation invariance the squared transition amplitude is the same for both configurations. Summing over them gives a factor of 2 in the phase space element. After integration over the azimuthal angles associated with pT and \Delta T , one has
+
+d3p0
+
+2p00
+
+d3P
+
+2P0
+
+d3P0
+
+2P 00 ffi
+
+4(p0 + P + P 0 \Gamma p \Gamma q) = ss2
+
+2
+
+1
+
+^sq1 \Gamma 4(p2T + m2)=^s dt d, d
+
+p2T :
+
+(7) We require the transverse jet momentum to be large, say jpT j * 3 GeV at parton level, so that the jets can be identified experimentally and the produced quarks may be treated perturbatively in our calculation, including the case when Q2 = 0.
+
+3 The Landshoff-Nachtmann model In the LN model [3, 4, 5] the (soft) pomeron is modelled within QCD by the colour singlet part of two-gluon exchange. In contrast to a purely perturbative approach, nonperturbative effects are partly taken into account by allowing for the confinement of the gluons or, more precisely, by working with a nonperturbative gluon propagator. Nonperturbative effects are essential at low squared gluon momentum l2, whereas at hard scales perturbative behaviour dominates. When the perturbative piece, \Gamma g_* =l2 in Feynman gauge, is subtracted at large l2 one remains with a gluon propagator\Gamma
+
+g_* D(l2) which can be related to the gluon condensate of the nonperturbative QCD vacuum. It was found in [3] that in order to reproduce the additive quark rule for total hadronic cross sections D(0) has to be finite. Applied to certain processes, knowledge of the complete form of D(l2) is not necessary,
+
+5
+
+and only some of its moments are needed. In particular [4, 5, 6]1Z
+
+1 0 dl
+
+2[ff(0)s D(\Gamma l2)]2 = 9fi20
+
+4ssZ 1
+
+0 dl
+
+2 l2[ff(0)s D(\Gamma l2)]2 = 9fi20 _20
+
+8ss ; (8)
+
+where fi0 ss 2:0 GeV
+
+\Gamma 1 is the coupling of the pomeron to u and d-quarks [16],
+
+and ff(0)s the strong coupling constant between on-shell quarks and a low-l2 gluon, which we will take to be ff(0)s ss 1 (cf. [5]). The parameter _0 ss 1:1 GeV has been estimated from exclusive ae production in deep inelastic scattering [4], and sets the characteristic scale over which D(l2) decreases. To the results obtained with this propagator one has to add the contribution from the perturbative piece which was subtracted at large gluon momenta. In diffractive hadron-hadron scattering it gives only a small correction [4].
+
+Exchange of two noninteracting gluons is only the crudest approximation to the pomeron. We will calculate the leading term in ,\Gamma 1 at one-loop level, and in order to make contact with experiment we shall modify by hand the exponent of , using the pomeron trajectory
+
+ffIP (t) = 1 + ffl + ff
+
+0t (9)
+
+with ffl ss 0:08 [17] and ff0 ss 0:25 GeV
+
+\Gamma 2 [16].
+
+The scattering of physical hadrons is calculated from the scattering of their constituent quarks. LN have found that, if the length _
+
+\Gamma 10 is small
+
+compared with the hadron radius, the diagrams where the two gluons of the pomeron couple to different quarks in a hadron are suppressed, which naturally leads to the additive quark rule. Let us see what the remaining diagrams give for the radiation of a pomeron off a proton.
+
+We assume that the momentum of a constituent quark in the proton can be approximated by ~p ss xp with x AE ,, neglecting the transverse momentum of the constituents within the fast proton as we have previously neglected the transverse momentum \Delta T of the scattered proton. The product of Dirac matrices corresponding to the upper quark line in fig. 2 is
+
+tfiff = (6 ~p\Gamma 6\Delta + Mq) flfi (6 ~p\Gamma 6\Delta + 6 l + Mq) flff (6 ~p + Mq) ; (10) where Mq is an effective mass for the constituent quark. Its precise value turns out to be irrelevant for our calculation, since corresponding terms are nonleading in ,\Gamma 1. Rewriting ~p ss xp ss x,\Gamma 1\Delta we see that to leading order in ,\Gamma 1
+
+tfiff ss (6 ~p + Mq) flfi (6 ~p + Mq) flff (6 ~p + Mq)ss
+
+x,
+
+\Gamma 1 \Delta fi (6 ~p + Mq) flff (6 ~p + Mq) + (ff $ fi) ; (11)
+
+1The definitions in [4] differ from the ones used here by a colour factor of 2=9 (cf. next section), because the gluons are treated as abelian there.
+
+6
+
+~p-p -p
+
+0
+
+ff fi
+
+6l?l \Gamma \Delta
+
+Figure 2: A typical diagram contributing to the interaction between a proton and the pomeron, modelled by two nonperturbative gluons. The blobs stand for to the proton wave function and the dashed lines for gluons with Lorentz indices ff and fi.
+
+where in the last step we have used the anticommutation relations for Dirac matrices. The matrix structure of this expression involves just the vector current of the proton, i.e. to leading order the spin structure of the pomeronproton coupling is the same as for the coupling of the proton to a photon.2 Summing over the constituent quarks in the scattering amplitude one has for the proton vector current [18]
+
+hp
+
+0j X
+
+q=u;d
+
+_q(0)flffq(0)j pi ss 3F1(t) _u(p
+
+0)flffu(p) ; (12)
+
+where the t-dependence is controlled by the isoscalar form factor of the nucleon, which we approximate by the Dirac form factor of the proton3
+
+F1(t) = 4M
+
+2p \Gamma 2:8 t
+
+4M 2p \Gamma t `1 \Gamma
+
+t 0:7 GeV2 '
+
+\Gamma 2
+
+: (13)
+
+We will find in the next section that the factor x,\Gamma 1 in (11) is cancelled by the integration element of the loop momentum l, so that the coupling of the
+
+2Note, however, that due to its signature factor the pomeron has positive parity under charge conjugation, unlike the photon.
+
+3Since F1(t) depends strongly on the squared momentum transfer t ss \Delta 2
+
+T we do notneglect the transverse momentum \Delta
+
+T of the pomeron at this point. The above result (11) remains valid in this case if one replaces \Delta with \Delta \Gamma \Delta T
+
+7
+
+proton to the two gluons in the pomeron can be expressed in terms of \Delta and the current in (12).
+
+4 Calculation of the cross section We shall now give some details on the calculation of the process p+fl ! p+q _q or p + fl\Lambda ! p + q _q in the LN model.
+
+The leading term in ,\Gamma 1 comes from the antihermitian part of the transition matrix, which is equal to the imaginary part of the amplitude if an appropriate phase convention for spinors is used,4 and can be calculated using the unitarity relation for the scattering matrix. Fig. 3 shows the four corresponding Feynman diagrams. The lower fermion line stands for a constituent quark of the proton, which we shall treat as on-shell before and after the scattering.
+
+To project out the colour singlet part of the two-gluon amplitude, we note that the colour structure of all diagrams is given by
+
+tatb \Omega tatb = 29 11 \Omega 11 \Gamma 13 tc \Omega tc ; (14) ta denoting the Gell-Mann matrices divided by 2. Hence the appropriate factor for the colour-singlet amplitude is 2=9.
+
+For diagrams (c) and (d) we parametrise
+
+l = lT + j\Delta + j
+
+0 ~q ; (15)
+
+where
+
+~q = q + Q
+
+2
+
+^s + Q2 \Delta (16) is lightlike up to O(,2) and lT is transverse to \Delta and q. Putting the four quarks coupled to the gluon with momentum l on shell gives a set of quadratic equations in j and j0. We introduce ^t = (q \Gamma P )2 and ^u = (q \Gamma P 0)2 as Mandelstam variables of the subreaction IP + fl ! q _q, where IP denotes the pomeron. The integration element then is, to leading order in ,\Gamma 1,
+
+d4l ffi i(P \Gamma l)2 \Gamma m2j ffi i(~p \Gamma \Delta + l)2 \Gamma M 2q j = d
+
+2lT
+
+2x,\Gamma 1(^u \Gamma m2) : (17) One solution of the constraints gives, again to leading order,
+
+j = l
+
+2T \Gamma 2lT :pT
+
+^u \Gamma m2 ; j
+
+0 = O(,) ; l2 = \Gamma l2T ; (18)
+
+4This result has been obtained in an approach where the exchanged gluons are treated perturbatively [8]. For a nonperturbative gluon propagator it can be reproduced by a calculation along the lines of [3], where only analyticity properties of D(l2) are needed.
+
+8
+
+O/ OE\Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Sigma \Pi \Sigma \Pi \Sigma \Pi
+
+-
+
+-~p
+
+q P
+
+P 0 6l
+
+(a)
+
+O/ OE\Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Sigma \Pi \Sigma \Pi \Sigma \Pi
+
+-
+
+-~p
+
+q P
+
+P 0 6l
+
+(b) O/ OE\Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Sigma \Pi \Sigma \Pi \Sigma \Pi
+
+-
+
+-~p
+
+q P
+
+P 0 6l
+
+(c)
+
+O/ OE\Upsilon \Xi \Upsilon \Xi \Upsilon \Xi \Sigma \Pi \Sigma \Pi \Sigma \Pi
+
+-
+
+-~p
+
+q P
+
+P 0 6l
+
+(d) Figure 3: Feynman diagrams contributing to the imaginary part of the amplitude for p+fl ! p+q _q. The pomeron is approximated by two nonperturbative gluons (dashed lines).
+
+9
+
+whereas the other leads to
+
+l2 = x,
+
+\Gamma 1(^u \Gamma m2) ; (19)
+
+which is very large due to the factor ,\Gamma 1 and therefore has to be discarded. For the other two diagrams we make a similar ansatz
+
+l = \Gamma lT + j\Delta + j
+
+0 ~q (20)
+
+and, choosing the sign of lT in this particular way, obtain analogous results with ^u replaced by ^t and P by P 0 in equations (17) to (19). For the denominator of the off-shell quark propagator we then find da = ^t \Gamma m2, dc = ^u \Gamma m2 and
+
+db ^u \Gamma m2 =
+
+dd ^t \Gamma m2 =
+
+1
+
+p2T + m2
+
+^s ^s + Q2 "(lT \Gamma pT )
+
+2 + Q2
+
+^s (p
+
+2T + m2) + m2#
+
+(21) for diagrams (a), (c), (b) and (d), respectively. The kinematics of the first two of these diagrams are clearly different from those of the other two, and the contributions from the two separate sets will be discussed is some detail below.
+
+Together with (11) and (12) for the coupling of the gluons to the proton it is now straightforward to calculate the differential cross section for our process.5 We shall give some intermediate results which will be useful in the discussion.
+
+Let ff be the electromagnetic fine structure constant and eq the charge of the produced quarks in units of the elementary charge. In each diagram of fig. 3 there is one quark-gluon vertex which involves an off-shell quark. We take the running strong coupling ffs(p2T ) instead of ff(0)s for this vertex in all four diagrams, with the usual uncertainty about which argument should be chosen for the running coupling to keep higher loop corrections small. In our numerical studies we use a fixed ffs(p2T ) = 0:2, given that the variation of the running coupling is not very large in the relevant range of p2T . We use a flux factor 2(W 2 + Q2) = 2,\Gamma 1(^s + Q2) for the photon, take the average over the spin of the incoming proton, and sum over the spins of the final state fermions as well as the colour of the produced q _q pair. Then
+
+doeT;L dt d, dp2T =
+
+16
+
+3
+
+ffs(p2T )
+
+ff(0)s ffe
+
+2q ,1\Gamma 2ffIP (t) [F1(t)]2 1
+
+^s + Q2
+
+1q
+
+1 \Gamma 4(p2T + m2)=^s I
+
+T;L ; (22)
+
+5We have used the algebraic programs FORM by J Vermaseren and MATHEMATICA by Wolfram Research, Inc.
+
+10
+
+where
+
+IT = 1 \Gamma 2 p
+
+2T + m2
+
+^s !
+
+1 p2T + m2 \Theta Z
+
+d2lT
+
+ss [ff
+
+(0)s D(\Gamma l2T )]2 "pT + (lT \Gamma pT ) ^u \Gamma m2
+
+db #!
+
+2
+
++ m
+
+2
+
+p2T + m2 Z
+
+d2lT
+
+ss [ff
+
+(0)s D(\Gamma l2T )]2 "1 \Gamma ^u \Gamma m2
+
+db #!
+
+2
+
+(23)
+
+and
+
+IL = 4 Q
+
+2
+
+^s
+
+p2T + m2
+
+^s Z
+
+d2lT
+
+ss [ff
+
+(0)s D(\Gamma l2T )]2 \Theta "(
+
+1 \Gamma ^s + Q
+
+2
+
+2Q2 ) \Gamma (
+
+^u \Gamma m2
+
+db \Gamma
+
+^s + Q2
+
+2Q2 )#!
+
+2
+
+(24)
+
+for photons with transverse or longitudinal polarisation in the proton-photon centre of mass, respectively. The cross section is the same for the two possible transverse polarisations because we have integrated over the azimuthal angle of the jets.
+
+Note that it is possible to write the longitudinal cross section as the square of an integral over one loop momentum.6 Similarly, the transverse cross section is the sum of two squared integrals, the integrand in the first term being a vector quantity. By calculating separately the squared amplitudes for the sums of diagrams (a), (c) and (b), (d), as well as their interference term, it is possible to separate the contributions of these two sets to the cross section. In (23) the first term in each of the large brackets comes from the sum of (a) and (c), the second (with db in the denominator) from the sum of diagrams (b) and (d). Likewise, in (24), the first expression enclosed in curly braces comes from (a) and (c), the second one from (b) and (d). For the latter, the denominator db has cancelled in the term proportional to 1=Q2. One can see that the two sets of diagrams are not separately invariant under the electromagnetic gauge group, as the amplitudes for the sums of (a) and (c) and of (b) and (d) diverge for Q2 ! 0. Similarly, it turns out that these sums are nonzero if the photon polarisation is set proportional to its momentum q.
+
+One can easily perform the integrations over the azimuthal angle of lT and then has
+
+6It cannot readily be identified as proportional to the amplitude because the cross section is summed over polarisations and azimuthal angles in the final state.
+
+11
+
+IT = 1 \Gamma 2 p
+
+2T + m2
+
+^s !
+
+p2T p2T + m2 `Z
+
+1 0 dl
+
+2T [ff(0)s D(\Gamma l2T )]2f1(v; w)'2
+
++ m
+
+2
+
+p2T + m2 `Z
+
+1 0 dl
+
+2T [ff(0)s D(\Gamma l2T )]2f2(v; w)'2
+
+IL = 4 Q
+
+2
+
+^s
+
+p2T + m2
+
+^s `Z
+
+1 0 dl
+
+2T [ff(0)s D(\Gamma l2T )]2f2(v; w)'2 ; (25)
+
+where we have introduced the functions
+
+f1(v; w) = 1 + w2 24 v + w \Gamma 2q(v + w \Gamma 2)2 \Gamma 4(1 \Gamma w) \Gamma 135 f2(v; w) = 1 \Gamma wq(v + w \Gamma 2)2 \Gamma 4(1 \Gamma w) (26)
+
+of the arguments
+
+v = l
+
+2T
+
+p2T ; w =
+
+p2T + m2
+
+p2T
+
+^s + Q2
+
+^s : (27)
+
+Fig. 4 shows f1(v; w) and f2(v; w) for some fixed values of w. Independent of w, both f1 and f2 vanish at v = 0 and tend to 1 as v ! 1. For w = 1, f1 becomes the step function `(v \Gamma 1). The singularity of f2 at v = 1 in the same limit is spurious, since w only becomes 1 if both Q2 and m2 go to zero, and the integrals with f2 are multiplied with one of these factors.
+
+This representation of the cross section is similar to the one obtained by Nikolaev and Zakharov [9], who work with a perturbative gluon propagator. Our equations (22) and (25) to (27), taken at t = 0, are in agreement with eq. (22) to (27) of ref. [9]7 if
+
+1. we replace ffIP (t) in our eq. (22) with 1, i. e. if we do not introduce the
+
+pomeron trajectory in order to account for the interaction between the gluons,
+
+2. one takes into account that the strong coupling is taken at different
+
+momentum scales in the present paper and in [9],
+
+3. our [D(\Gamma l2T )]2 is replaced with V (lT )=(l2T + _2G)2, corresponding to the
+
+different assumptions in [9] about the gluon propagator and the coupling between the gluons in the pomeron to a hadron,
+
+7We assume that in the second line of their eq. (24) it should read ^2 instead of ^.
+
+12
+
+0.5 1 1.5 2 2.5 30 0.2
+
+0.4 0.6 0.8
+
+1
+
+f1
+
+v (a)
+
+0.5 1 1.5 2 2.5 3 -0.8 -0.6
+
+-0.4 -0.2
+
+0 0.2
+
+0.4 0.6
+
+f2
+
+v
+
+(b) Figure 4: The functions f1 and f2 of eq. (26) for w = 1:1 (full), w = 2 (dashed) and w = 10 (dot-dashed). f2 has a zero at v = 2(2 \Gamma w).
+
+13
+
+4. one makes a transformation from our integration variable , to their ff
+
+with
+
+^s = p
+
+2T + m2
+
+ff(1 \Gamma ff) (28) (eq. (19) of [9]). Using the relation (5) between , and ^s we find
+
+dff = 2 d^s p
+
+2T + m2
+
+^s2 1 \Gamma 4
+
+p2T + m2
+
+^s !
+
+\Gamma 1=2
+
+= 2 d, ,
+
+\Gamma 1 ^s + Q2
+
+^s
+
+p2T + m2
+
+^s 1 \Gamma 4
+
+p2T + m2
+
+^s !
+
+\Gamma 1=2
+
+: (29)
+
+Note that for fixed p2T and ^s there are two values of ff, which gives a factor of 2 in the integration element as explained at the end of section 2.8
+
+Assuming that due to the squared gluon propagator [D(\Gamma l2T )]2 the main contribution to the loop integrals comes from values of l2T up to the order of _20 ss 1:2 GeV2, which is small compared to the minimum p2T required for the jets, we can expand f1 and f2 to first order in l2T =p2T and obtain, using the second moment in (8),
+
+IT ss 81fi
+
+40 _40
+
+16ss2
+
+^s2 (^s + Q2)2
+
+1 (p2T + m2)28!:
+
+1 \Gamma 2 p
+
+2T + m2
+
+^s !
+
+p2T p2T + m2 1 \Gamma
+
+^s ^s + Q2
+
+p2T p2T + m2 !
+
+2
+
++ 14 m
+
+2
+
+p2T + m2 1 \Gamma 2
+
+^s ^s + Q2
+
+p2T p2T + m2 !
+
+29=;
+
+IL ss 81fi
+
+40 _40
+
+16ss2
+
+Q2 (^s + Q2)2
+
+1 p2T + m2 1 \Gamma 2
+
+^s ^s + Q2
+
+p2T p2T + m2 !
+
+2
+
+: (30)
+
+To assess how good this approximation is, we have evaluated the loop integrals in (25) for a specific model of the gluon propagator, namely [4]
+
+D(\Gamma l2T ) / 1 + l
+
+2T
+
+(n \Gamma 1)_20 !
+
+\Gamma n
+
+; (31)
+
+where n * 4 and the proportionality constant can easily be obtained from (8). For n ! 1 this becomes D(\Gamma l2T ) / exp(\Gamma l2T =_20). The approximation in (30) improves slightly with increasing n. Fig. 5 shows that it is rather good, although at small Q2=^s it underestimates the cross section for transverse photons.9
+
+8We differ from eq. (6) of [11] by this factor. 9If at Q2 = 5 GeV2, ^s = 400 GeV2 and m = 0, we integrate the transverse differential
+
+14
+
+20 40 60 80 1000 1 2
+
+3 4
+
+5 6 [10
+
+\Gamma 3 GeV\Gamma 4]
+
+Q2 [GeV2] (a)
+
+20 40 60 80 1000 0.5
+
+1 1.5
+
+2 2.5 [10
+
+\Gamma 3 GeV\Gamma 4]
+
+Q2 [GeV2] (b)
+
+Figure 5: (a) The squared loop integral of eq. (25) which involves f1 (full), compared with its approximation in (30) (dashed) for jpT j = 3 GeV, ^s = 4p2T , m = 0 and n = 4. To obtain the correct Q2-dependence of the cross section it has been multiplied with ^s=(^s + Q2). Up to this global factor, changing ^s and m corresponds to rescaling Q2 since f1 depends on these parameters only through w in (27). (b) Same as (a) but for f2 instead of f1 and with a global factor of Q2=(^s + Q2) instead of ^s=(^s + Q2), so as to obtain the Q2-behaviour of the longitudinal cross section.
+
+15
+
+In the calculation of ref. [6] the propagator denominators db and dd, which depend on the loop momentum, have been approximated by their values at lT = 0. This leads to a wrong result, because at l2T = 0 the integrands vanish, and to obtain the terms of order l2T the propagators have to be expanded to this order, too.
+
+5 Results for photoproduction We will now discuss our results for the case of photoproduction, concentrating on the production of light quarks. Setting m = 0 in eq. (30) one finds that the cross section for transverse photons is proportional to Q4, and thus vanishes for photoproduction even faster than the longitudinal one which behaves like Q2. This is not an artifact of the linear approximation in l2T =p2T which led to (30). At m = 0 and Q2 = 0 the function f1 in (25) is the step function `(l2T \Gamma p2T ) and the loop integral is strongly suppressed by a factor of order [D(\Gamma p2T )]2. For squared momenta of order p2T the perturbative part of the gluon propagator is of course dominant. To calculate its contribution one can substitute 1=(\Gamma l2T ) for D(\Gamma l2T ) and ffs(p2T ) for ff(0)s , taking all four quarkgluon vertices in fig. 3 as perturbative and using the perturbative coupling at the fixed scale p2T for simplicity. Then the cross section for m = 0 and Q2 = 0 becomes (cf. (22) and (25))
+
+doe dt d, dp2T =
+
+16
+
+3 [ffs(p
+
+2T )]4ffe2q ,1\Gamma 2ffIP (t)[F1(t)]2 1
+
+^s
+
+1q
+
+1 \Gamma 4p2T =^s 1 \Gamma 2
+
+p2T
+
+^s !
+
+1 p4T :(32)
+
+With jpT j * 3 GeV and , ^ 0:01 this gives a very small integrated flp cross section of 9:5 pb for u and d-quark jets at a photon-proton centre-of-mass energy of W = 200 GeV. The effect of imposing an upper limit in the integration over , is of the order of 10%.
+
+We must however bear in mind that because of the highly virtual gluons we are no longer dealing with the soft pomeron known from phenomenology. The introduction of the soft pomeron trajectory ffIP (t) to take into account higher order corrections to the exchange of two noninteracting gluons in fig. 3 is presumably no longer justified. We will not attempt to discuss here the difficult problem of the interplay between the soft pomeron and its perturbative counterpart, but only mention that if one substitutes for example the term ,\Gamma 2ffl in (32) which comes from the soft pomeron trajectory with ,\Gamma 1 corresponding to the Lipatov value for the pomeron intercept, the integrated
+
+cross section over p2T from 9 GeV2 to its upper kinematical limit, the approximation gives 70% of the exact value for n = 4.
+
+16
+
+cross section mentioned above becomes as large as 1:8 nb.10 Another question is whether the coupling of the Lipatov pomeron to the proton is dominated by soft or hard scales. In the approximation of two noninteracting gluons, the quark-gluon coupling has of course to be perturbative at the bottom of the diagrams in fig. 3 if it is perturbative at the top.
+
+Let us analyse in some detail what leads to the suppression of loop momenta l2T ! p2T for photoproduction and massless quarks. Eq. (21) for the denominators of the off-shell quark propagators in diagrams (b) and (d) now reads d
+
+b
+
+^u =
+
+dd
+
+^t =
+
+(lT \Gamma pT )2
+
+p2T ; (33)
+
+and from eq. (23) we take that the loop integral to be calculated isZ
+
+d2lT
+
+ss [D(\Gamma l
+
+2T )]2 "pT + (lT \Gamma pT ) p2T
+
+(lT \Gamma pT )2 # (34)
+
+or the analogous expression with 1=l4T instead of [D(\Gamma l2T )]2. The first term in large brackets comes from diagrams (a) and (c), the second from (b) and (d). The integral for the contribution from (b) and (d) is well known:11 for l2T ? p2T it averages to zero when the azimuthal angle is integrated out, so that only (a) and (c) contribute to the cross section, whereas for l2T ! p2T it gives a finite contribution which just cancels that from (a) and (c).
+
+Since the squared gluon propagator decreases rapidly with l2T the loop integral is dominated by the region where l2T is not too large compared with p2T . In a small part of this region, namely when lT ss pT , it follows from (33) that in diagrams (b) and (d) the real photon decays into two quarks which are on or near shell and as a consequence have to be approximately collinear with the photon direction. In this case one can expect important strong corrections to the coupling between the photon and the quarks, which in our calculation was taken as the electromagnetic Born-level vertex.
+
+Let us finally investigate the effect of a nonzero quark mass. For light quarks, the contribution to the cross section from the term with f1 in (25) is completely negligible for the same reason as above, since the parameter w in (27) is very close to the value 1, which it takes in the case of zero mass. There is, however, a small contribution from the term proportional to m2 which involves f2. Taking m = 150 MeV for strange quarks the nonperturbative contribution to the integrated cross section is very small (ss 2 pb). As indicated at the beginning of this section, the transverse cross section calculated with the nonperturbative propagator D(l2) vanishes faster than the longitudinal
+
+10Here we have used the slope ff0 of the soft pomeron, but the numerical effect of changing its value is not too great.
+
+11In two-dimensional electrostatics it occurs e. g. when the electric field of a rotationally
+
+symmetric charge distribution is calculated from Gauss' law.
+
+17
+
+one for Q2 ! 0. For production of u, d and s quarks at Q2 = 1 GeV2 the former is 3:4 pb whereas the latter is 45 pb, with W = 200 GeV, jpT j * 3 GeV and , ^ 0:01.
+
+To see how sensitive our results are to the choice of taking current masses for the produced quarks we have also done the calculation with constituent masses, 300 MeV for u and d and 450 MeV for s. Then, due to the term proportional to m2 in (25), the nonperturbative contribution to photoproduction of the three light quark species is 51 pb with W , jpT j and , as above.
+
+In the case of heavy quarks the situation changes and becomes similar to that in DIS. Photoproduction of charm quarks will therefore be treated in the next section.
+
+6 Results for deep inelastic scattering When Q2 is sufficiently large, small l2T are no longer suppressed in f1, because w in (27) is larger than 1. The same is true even at low Q2 for a large quark mass, such as for charm quarks with m = 1:5 GeV. From
+
+^t \Gamma m2 = \Gamma ^s + Q
+
+2
+
+2 `1 \Sigma q1 \Gamma 4(p
+
+2T + m2)=^s' (35)
+
+and the corresponding equation for ^u with the opposite sign in front of the square root, one can see that the denominators (21) of the propagators in diagrams (b) and (d) are limited by
+
+jdbj; jddj ? Q2 p
+
+2T + m2
+
+^s + m
+
+2 : (36)
+
+Therefore the corresponding quarks are well off-shell and the use of the Born level coupling with the photon, as well as that of the perturbative quark propagator, is justified.
+
+Let us us now discuss some numerical features of the cross section calculated in the LN model. Table 1 gives integrated cross sections obtained from our approximate formulae (30). For light quarks, the longitudinal cross section oeL is larger than the transverse one at very low Q2 (which is still an effect of the low-l2T suppression in f1), but the transverse contribution overtakes between Q2 = 10 GeV2 and Q2 = 15 GeV2. The transverse cross section oeT reaches its largest values around Q2 = 40 GeV2, and becomes quite small beyond 100 GeV2. For longitudinal photons, the cross section decreases for Q2 ? 10 GeV2 and is rather small when oeT takes its maximum. We should remark that the cross sections given in table 1 are lowest-order results which will be modified by perturbative QCD corrections to the upper part of the diagrams in fig. 3, in particular at large values of Q2.
+
+18
+
+Q2 oeT [ pb] oeL[ pb] [ GeV2] jet parent quarks
+
+u + d + s u + d + s c u + d + s u + d + s c
+
+current constituent current constituent
+
+masses masses masses masses 0 -- 51 300 -- -- -- 5 53 89 270 180 170 33 10 130 160 250 200 190 39 15 190 210 240 170 160 35 20 240 250 240 130 130 30 40 290 290 200 51 49 14 60 260 260 160 24 24 8 80 220 220 130 15 15 7 100 190 190 110 12 12 6 150 110 110 58 10 10 6 200 58 58 29 9 9 6 250 25 24 12 8 8 5
+
+Table 1: Integrated photon-proton cross sections obtained from (30) with a transverse jet momentum jpT j * 3 GeV and a fixed photon-proton centreof-mass energy of W = 200 GeV. The effect of the cut , ^ 0:01 is rather small.
+
+Whether one takes current or constituent masses for the light quarks does not make much difference for the results. The mass dependence is largest at low Q2, where taking constituent masses one obtains a somewhat larger transverse cross section. For Q2 * 15 GeV2 the change in oeT when taking current or constituent masses is below 10%, and the same is true for the different values of oeT for u; d or s quarks (apart from the different electric charges). In oeL the effect is yet smaller at all values of Q2.
+
+For charm quarks, the results are quite different. As we have mentioned in the previous section, the transverse cross section does not vanish at Q2 = 0. In fact, it takes its largest value there and decreases with Q2 at fixed W . The longitudinal cross section is negligible for all values of Q2.
+
+As for the dependence on the centre-of-mass energy, the cross section rises slowly with W . As an example, with Q2 = 50 GeV2, jpT j * 3 GeV and , ^ 0:01 we obtain a transverse cross section for u, d and s production (taking current masses) of 210 pb, 280 pb and 300 pb for W = 140 GeV, 200 GeV and 250 GeV, respectively. This behaviour can be understood if, using (5), one makes a transformation d,
+
+, =
+
+d^s ^s + Q2 (37)
+
+19
+
+and rewrites (22) and (25) in the form
+
+doe / ,2(1
+
+\Gamma ffIP (t)) [F1(t)]2 dt d^s dp2T ; (38)
+
+where the constant of proportionality depends on the variables ^s, p2T and Q2 only. Expressing , in terms of W 2 and ^s, we see that the only dependence on W comes from the term ,2(1\Gamma ffIP (t)) with its small exponent. The biggest effect is actually that the phase space is reduced at small W . We impose an upper limit on ,, and as a consequence there is a maximum allowed ^s increasing with W . If we integrate without any upper bound for ,, the above cross sections become 270 pb, 290 pb and 300 pb with an even weaker dependence on W . We also see that except for rather low values of W the effect of the cut on , is small, for W = 200 GeV the results with or without cut differ by less than 4%.
+
+Some features of partially integrated cross section are shown in figures 6 and 7. The ,-spectra in fig. 6 show that for W = 200 GeV the cross section is quite small at , = 0:01. One might remark that the differential cross section for longitudinal photons has a zero for certain values of the parameters. This can be most easily seen from the term in large brackets in (30), which vanishes at Q2 = ^s for m = 0 and at smaller Q2 if m 6= 0. Eq. (30) is only an approximation, and the true position of the zero is slightly different (fig. 5). That a zero does exist also follows from the fact that f2 changes its sign at low l2T as w increases (cf. fig. 4), so the loop integral involving f2 changes sign as well and must have a zero for some value of w. Due to the rather high values of Q2 at which this occurs it will however be very difficult to see the zero in experiment, because the transverse cross section is comparatively large in this region.
+
+The p2T -spectra in fig. 7 are fairly well described by a power behaviour doe=dp2T / jpT j\Gamma ffi. For production of the three light quark flavours with transverse photons, average values of the exponent are ffi ss 8:7 at Q2 = 10 GeV2 and ffi ss 6:4 at Q2 = 40 GeV2, and with longitudinal photons we find ffi ss 6 at Q2 = 10 GeV2. The spectra for charm quarks are less steep, with exponents ffi ss 6:7 at Q2 = 10 GeV2 and ffi ss 5:7 at Q2 = 40 GeV2, both for transverse photon polarisation.
+
+We finally estimate how the contribution from the perturbative gluon propagator at large l2T will modify these results. There is some arbitrariness in choosing the value of jlT j above which it should be taken into account [4], but it should be at the GeV-scale, and thus of the same order as the minimum jpT j required for the jets. Using a lower cutoff for the l2T -integration of ^2 = 4 GeV2 and replacing ff(0)s D(\Gamma l2T ) with ffs(l2T )=(\Gamma l2T ),12 we have studied the ratio between the perturbative and the nonperturbative contributions to the differential cross section (22), (30). In the case of transverse
+
+12One can also take the running coupling at p2
+
+T instead of l2T for the vertex involvingthe off-shell quark. The numerical difference is very small.
+
+20
+
+0.002 0.004 0.006 0.008 0.010 25 50
+
+75 100 125 150 175
+
+doeT =d, [nb]
+
+, (a)
+
+0.002 0.004 0.006 0.008 0.010 25 50
+
+75 100 125 150 175
+
+doeL=d, [nb]
+
+, (b)
+
+Figure 6: (a) doeT =d, summed over u and d quarks (m = 0, jpT j * 3 GeV, W = 200 GeV) at Q2 = 20 GeV2 (full), 50 GeV2 (dashed), 100 GeV2 (dotdashed). (b) The same for doeL=d, at Q2 = 5 GeV2 (full), 10 GeV2 (dashed), 20 GeV2 (dot-dashed).
+
+21
+
+10 15 20 250.5 1
+
+5 10
+
+50 100
+
+doe=dp2T [pb GeV
+
+\Gamma 2]
+
+p2T [GeV2] (a)
+
+10 15 20 251 5 10
+
+50 100
+
+doe=dp2T [pb GeV
+
+\Gamma 2]
+
+p2T [GeV2] (b)
+
+Figure 7: (a) The p2T -spectrum doe=dp2T for , ^ 0:01, W = 200 GeV and Q2 = 10 GeV2. The curves are for the production of u, d and s quarks (with current masses) and transverse fl\Lambda (full), the same quarks and longitudinal fl\Lambda (dash-dotted), and for charm quarks and transverse fl\Lambda (dashed). (b) The same at Q2 = 40 GeV2, without the curve for the (rather small) longitudinal cross section.
+
+22
+
+photons and light quarks it increases with p2T and is largest for low Q2=^s, where the nonperturbative cross section is very small. If one sets m = 0 and ^s = 4p2T , then for jpT j = 3 GeV the perturbative tail gives a correction of 10% for Q2 = 5 GeV2 and less than 3% when Q2 * 15 GeV2. Withj
+
+pT j = 6 GeV one finds an 8% correction at Q2 = 40 GeV2, which grows to 19% at Q2 = 15 GeV2. There however, the longitudinal cross section dominates over the transverse one anyway, so the perturbative correction is not too large at least for values of Q2 where the transverse cross section is important. Also, the absolute size of the perturbative contribution is always small compared with the scale set by the maximum values of the nonperturbative transverse and longitudinal cross sections. As for the production of charm quarks, we have seen that the nonperturbative transverse cross section does not vanish for low Q2. Even at Q2 = 0 the perturbative correction is below 4% for jpT j = 3 GeV, and less than 11% when jpT j is twice as large.
+
+In the case of longitudinal photon polarisation the perturbative correction to the cross section is smaller and can be neglected. Where the cross section for longitudinal photons calculated with ff(0)s D(\Gamma l2T ) vanishes, the contribution from the perturbative tail is unobservably small compared with the transverse cross section.
+
+As remarked in the previous section, the simple substitution of the nonperturbative by the perturbative gluon propagator and the introduction of the running strong coupling for all vertices may not be sufficient to describe the physics at large gluon momenta. If one takes the Lipatov intercept of the pomeron trajectory when the gluons in our one-loop calculation are hard, the contribution from the perturbative tail dominates over the one from small l2T when , is some parts in 10\Gamma 3 in the case of transverse photons, for longitudinal ones it is larger for some values of the parameters p2T , ^s, Q2, and smaller for others. We emphasise again that this is not meant as a proper treatment of the perturbative pomeron, but rather as an indication of what the numerical situation is under a certain assumption.
+
+7 The pomeron structure function In the present section we shall use our calculation of diffractive jet production to estimate the quark structure function of the pomeron.
+
+More precisely, one can generalise the usual relation between the cross section for the absorption of transverse photons by the proton and the quark distribution functions q(xB),
+
+oeT (fl
+
+\Lambda p) = 4ss2ff
+
+W 2 + Q2 Xq e
+
+2q q(xB) (39)
+
+with our choice of 2(W 2 + Q2) for the photon flux factor, to the differ23
+
+ential cross section doeT =(dt d,) for diffractive photoabsorption, introducing the diffractive distribution functions dq=(dt d,). Here xB = Q2=(2*) is the Bjorken variable, and the sum over q is to be taken for quarks and antiquarks. Under the assumption that diffractive scattering is dominated by pomeron exchange, and that the coupling of the pomeron to the proton and the diffractive final state factorises, one can write dq=(dt d,) as the product of the "flux of pomerons in the proton" and a quark structure function Gq=IP (z) of the pomeron. Since the pomeron is an isosinglet, the quark and antiquark distributions are equal. We use the definition of [13], that is
+
+xB dq(xB)dt d, = 9fi
+
+20
+
+4ss2 [F1(t)]
+
+2 ,1\Gamma 2ffIP (t) Gq=IP (z) ; (40)
+
+where
+
+z = xB=, = Q2=(^s + Q2) (41)
+
+is the scaling variable for the photon-pomeron subreaction. Together with the diffractive equivalent of (39) this gives
+
+doeT dt d, =
+
+ff ^s + Q2 9fi
+
+20 [F1(t)]2 ,1\Gamma 2ffIP (t) X
+
+q e
+
+2q 1
+
+z Gq=IP (z) : (42)
+
+In the phenomenological model of the pomeron which is described briefly in the appendix, one obtains a structure functione
+
+Gq=IP (z) = 3fi
+
+20_20
+
+8ss2 z(1 \Gamma z) ss 0:2 z(1 \Gamma z) (43) for each massless quark or antiquark and z not too small, say for z * 0:1 [13].
+
+Since p + fl ! p + q _q (fig. 1) is the "Born approximation" of diffractive photoabsorption, we may use our present calculation to estimate the pomeron quark structure in the LN model. This requires integration of the differential cross section (22), (25) over p2T from zero to its kinematical upper limit. A hard scale in the photon-pomeron reaction is now provided by Q2, and we shall furthermore require that the squared invariant mass ^s be large enough, say ^s * 20 GeV2. For fixed Q2 this puts an upper limit on the scaling variable z in (41) for which we assume our calculation to be sensible. However, it can be seen from (21) and (35) that if p2T is small and lT is near pT , the squared momentum of the off-shell quark in diagram (b) or (d) becomes small for light quarks, so that the perturbative treatment of the quark-photon coupling and the quark propagator in the upper part of the concerned diagram is problematic in a part of the region of integration.
+
+We have calculated Gq=IP (z) in z-steps of 0.1 with Q2 equal to 5, 10, 20, 50 and 100 GeV2, the requirement ^s * 20 GeV2 leading to z ^ 0:2, 0.3, 0.5, 0.7
+
+24
+
+and 0.8, respectively. We further take z * 0:1, corresponding to w * 10=9, so that the problems associated with w ! 1 which occur for photoproduction do not exist (cf. fig. 4).13
+
+When calculating the p2T -integrated cross section, we can no longer expand the loop integrand in l2T =p2T , after which only a moment of the gluon propagator was needed, and therefore we take the particular form (31) of D(l2) for different values of n. The dependence of our results on n is very weak, of the order of 5%, which gives some hope that the precise shape of D(l2) is not too important. As for the running coupling ffs(p2T ), which we introduced for the vertex involving the off-shell quark, we choose to freeze it when it becomes equal to one, admitting that again this is far from being a rigourous treatment. Using the QCD scale parameter \Lambda (4)MS = 260 MeV [19], the freezing point is at 570 MeV and varies by about 100 MeV when the cited errors on \Lambda (4)MS are taken into account.
+
+We find that our results are not very different in size from (43), with a shape that is somewhat shifted towards larger z. In the following, we shall give the ratio of Gq=IP (z) obtained in the LN model and eGq=IP (z) in (43). Fig. 8 shows this ratio for light quarks. The scaling in z is very good: where we have several Q2 for the same z, differences in the structure function are below 1%. Looking at (22) and (25) to (27), we observe that the loop integrals depend on ^s and Q2 only via w, and thus directly on z, and that the additional s-dependence via (p2T + m2)=^s is not very important for small values of p2T . In fact, low p2T dominate in the integrated transverse cross section, the contribution from the region p2T ? _20 being less than 10% for m = 0 and less than 20% for m = 450 MeV. The dominance of low p2T , which is already seen in jet production (cf. fig. 7), can be understood from the behaviour of f1, which is increasing in v = l2T =p2T . For f2 the situation is less clear-cut, but the corresponding term in the transverse cross section is suppressed by m2=(p2T + m2) and accounts for at most 25% of the result for light quarks. With the integrated cross section being dominated by low p2T , its size is influenced by the value we assume for the strong coupling ff(0)s rather than by the scale from which onwards we take the running coupling ffs(p2T ). If for example one uses ffs = 1 for all values of p2T , the result for the structure function grows only by a factor between 1.2 and 1.4 at m = 0 and by 1.4 to 1.6 for m = 450 MeV.
+
+Because we require ^s not to be too small in our calculation, we need to go to rather high Q2 to cover the whole z range (cf. (41)). The scaling we find presumably exists only in a lowest order approximation; it is to be expected that there will be scaling violation as Q2 increases, due to loop corrections to the upper parts of the Feynman diagrams (fig. 3) or, in other words, due
+
+13Also, for very small z, the contribution from the triple pomeron vertex becomes important [13].
+
+25
+
+0 0.5
+
+1 1.5
+
+2 2.5
+
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Gq=IP (z)= fGq=IP (z)
+
+z Figure 8: The ratio of the pomeron quark structure function Gq=IP (z) obtained in the LN model and the result (43) from the phenomenological approach of ref. [13]. The points correspond to Q2 = 100 GeV2 and m = 0 (3), m = 150 MeV (+), m = 300 MeV (2), and m = 450 MeV (\Theta ), respectively. Points for other values of Q2 coincide with the ones shown here to a good precision.
+
+to the perturbative evolution of the structure function.
+
+The dependence on the quark mass is rather pronounced and leads to a flavour asymmetry. The structure function is smaller for s quarks than for u and d quarks, and there is a difference both in shape and in the normalisation according to whether one takes current or constituent masses. Increasing m leads to a suppression at low p2T of the f1-term in (25), due to the factor p2T =(p2T + m2), and at the same time increases the parameter w / (p2T + m2)=p2T , so that f1 itself becomes smaller for most values of v (cf. fig. 4).
+
+From doeL=(dt d,) one can obtain a longitudinal structure function analogous to (42), which for light quarks turns out to be relatively unimportant. The longitudinal cross section is suppressed at low p2T by a factor (p2T +m2)=^s, and the longitudinal structure function is less than 6% of the transverse one for m = 0. Its importance grows with increasing m: at m = 450 MeV the ratio of longitudinal and transverse cross section reaches 20% for large z, but is still under 6% if one takes out the points at Q2 = 50 GeV2, z = 0:7 and at Q2 = 100 GeV2, z = 0:8.
+
+For charm quarks, Gq=IP (z) is about an order of magnitude smaller and
+
+26
+
+0 0.02 0.04 0.06 0.08
+
+0.1 0.12
+
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Gq=IP (z)= fGq=IP (z)
+
+z Figure 9: The pomeron structure function for charm quarks divided by (43). Displayed is the transverse structure function at Q2 = 100 GeV2 (2), which is almost the same for other values of Q2. The longitudinal structure function is shown at Q2 = 50 GeV2 (+) and at Q2 = 100 GeV2 (\Theta ).
+
+suppressed at large z (fig. 9), for the same reasons discussed above in connection with light quark masses. The dominance of low p2T is less pronounced, values of jpT j above the charm mass contributing between 12% and 35% to the integrated cross section. As a result, the perturbative region of ffs is now more important (taking a constant ffs = 1 gives an answer between 2 and 2.5 times as large). The scaling in z is still quite good: the variation of Gq=IP (z) with Q2 is at most 12%, and less than 7% when the values at Q2 = 5 GeV2 are not taken into account. The importance of the longitudinal structure function is no longer negligible at large z. It decreases with Q2 at fixed z, i. e. it shows no scaling, and increases strongly with z. For comparison the longitudinal structure function at two different Q2, normalised to eGq=IP (z), is included in fig. 9.
+
+Finally we remark that the contribution of the perturbative tail of the gluon propagator to the structure function can be neglected. The latter is dominated by low p2T and, as we have remarked at the end of section 6, the importance of the perturbative corrections is most important at high p2T .
+
+27
+
+8 Conclusions In the present paper we have calculated the cross section for diffractive production of a quark-antiquark pair with high transverse momentum pT in photon-proton scattering, modelling the pomeron by two noninteracting gluons with a nonperturbative propagator D(l2). To a good approximation the result only depends on a moment of D(l2) which has been estimated from exclusive diffractive ae production.
+
+We find that in deep inelastic scattering at HERA such events should occur with an observable cross section. The rate for charm quark production is comparable to the one for the light quark flavours, a prediction that appears to us worthwhile testing in experiment. For light quark production there is an important contribution from longitudinally polarised photons at moderate Q2, up to about 20 GeV2. As expected for soft pomeron exchange, the dependence of the cross section on the photon-proton centre-of-mass energy W is rather weak, the largest effect coming from the reduction of phase space at low W , which is due to an upper cutoff we impose on the fractional momentum loss , of the scattered proton.
+
+In the case of diffractive photoproduction of light quark jets, there is a cancellation in the loop integration unless the gluons are hard, at least if one takes current masses for the produced quarks. To give a nonvanishing contribution, the squared invariant mass of the gluons, which is equal to their squared transverse momentum relative to the pomeron direction, has to be at least of the order of the squared transverse momentum of the jets, and as a consequence the nonperturbative part D(l2) of the gluon propagator gives an unobservably small cross section. The diagrams we calculate give only the lowest order approximation of pomeron exchange in the process under study. We do not know how corrections from higher loops will modify this result, in particular the replacement of two noninteracting gluons by a ladder structure, which is believed to give an appropriate description of the pomeron. We might also remark that our calculation is done for zero transverse momentum \Delta T of the diffractively scattered proton, but a nonzero \Delta 2T would be small compared with the scale set by the p2T of the final state jets.
+
+For heavy flavour photoproduction the cancellation we have mentioned is not present and we find an appreciable cross section for charm quark jets in our model. If we assume that our result for light quarks is not radically changed by the corrections mentioned above, open charm should be dominating or at least enhanced in diffractive photoproduction. Provided that at least the part of the pomeron which couples to the jets is dominated by large gluon momenta, one might hope to study the hard pomeron in the case that experiment finds a significant rate of events with light quark jets, since they cannot be due to purely soft pomeron exchange. In any case it would
+
+28
+
+be interesting to study the flavour of the produced jets.
+
+From our calculation of q _q-production we can estimate the total cross section for diffractive photon-proton scattering and extract from it the quark structure function of the pomeron. For this we need a particular ansatz for the gluon propagator D(l2), but within a class of functions the results are approximately equal. For light quarks we find a structure function Gq=IP (z) almost independent of Q2, similar in size to the one obtained in a more phenomenological approach to the pomeron (43) and with a shape somewhat harder than z(1 \Gamma z). It is amusing to notice that in p_p-collisions, UA8 [20] have measured a pomeron structure function that is harder than z(1 \Gamma z), although with an uncertainty whether the dominating partons are quarks or gluons. Unlike in jet production, the dependence on the quark mass is rather strong, leading to a smaller structure function for strange quarks than for u and d, and to an uncertainty of a factor around 2 according to whether one takes current or constituent masses. For charm quarks the structure function is smaller by about an order of magnitude, and at large z it has a non-negligible contribution from longitudinal photons which is not scaling.
+
+We finally note that some of our results have previously been obtained in the purely perturbative model of Nikolaev and Zakharov [9, 10, 11]. In particular, they have found that the integrated cross section for diffractive q _q-production is suppressed for longitudinal photons and strongly flavour dependent if the photons are transverse, and that at large transverse quark momentum charm is enhanced with respect to light quarks. However, the relative contribution of charm is much smaller in their model than in ours, which was expected in [9]. Furthermore, the part of the quark structure function of the pomeron due to q _q-production was found [10] to behave approximately like z(1 \Gamma z). As for the production of light quark jets, it was reported [11] that the loop integration is dominated by squared gluon momenta of order p2T if the photon virtuality is very small compared with the invariant q _q-mass, i. e. in particular if the photons are real.
+
+Acknowledgements
+
+I am grateful to Peter Landshoff for suggesting this work and for many discussions. Thanks are also due to Otto Nachtmann for reading the manuscript, and to Robin Devenish and Peter Bussey for helpful email exchanges. This research is supported in part by the EU Programme "Human Capital and Mobility", Network "Physics at High Energy Colliders", Contract CHRXCT93-0357 (DG 12 COMA), and in part by Contract ERBCHBI-CT94-1342. It is also supported in part by PPARC.
+
+29
+
+A Results in a phenomenological model of
+
+the pomeron
+
+In this appendix we give the results of applying the phenomenological model of [13, 14] to the reaction investigated in the present paper.
+
+This approach to the pomeron builds on the observation that it behaves in many ways as an isoscalar photon, and its coupling to light quarks with small invariant mass is taken to be fi0 fl_. If one of the quark legs has large virtuality k2, this coupling has to be multiplied by some form factor f (k2) to ensure that it vanishes as k2 ! \Gamma 1. The simple ansatz f (k2) = _20=(_20 \Gamma k2) has been successful in describing the proton structure function at moderately low xB and diffractive ae production in DIS.
+
+In this framework the two diagrams that describe the diffractive process p + fl ! p + q _q are those one obtains from fig. 1 when taking into account the two possible directions of charge flow for the quark line. In the case of zero quark mass m, equations (22) to (24) for the cross section then are replaced with
+
+doe dt d, dp2T =
+
+27 4ss2 ffe
+
+2q fi40 ,1\Gamma 2ffIP (t) [F1(t)]2 1
+
+^s + Q2
+
+1q
+
+1 \Gamma 4p2T =^s \Theta
+
+if (^t) + f (^u)j2 \Theta
+
+8?????????? ??!????? ???????:
+
+1 \Gamma 2 p
+
+2T
+
+^s for transverse photons p2T
+
+^s
+
+(^s \Gamma Q2)2
+
+Q2^s for longitudinal photons
+
+p2T
+
+^s
+
+(^s + Q2)2
+
+Q2^s for scalar polarisation
+
+(44)
+
+where by "scalar polarisation" we mean that the polarisation vector of the photon is set proportional to its momentum q. We remark in passing that this is very similar to what one would obtain in the LN model considering only diagrams (a) and (c) in fig. 3 (whose kinematics correspond to that of fig. 1).14 The above result violates electromagnetic gauge invariance badly: the cross section for scalar photon polarisation is larger than that for longitudinal photons instead of being zero, and both are divergent when Q2 ! 0. For diffractive production of jets with large transverse momentum this model does not give physically reasonable results. Gauge invariance might be restored by introducing an appropriate contact interaction between the photon, the pomeron and the two quarks, as suggested by the field theoretic approach to diffractive scattering of ref. [21].
+
+14The cross sections are identical apart from factors ff
+
+s(p2T )=ff(0)s in the LN model and
+
+(f(^t) + f(^u))2=4 in the form factor approach.
+
+30
+
+If one takes p2T to be small compared with ^s, i. e. considers the case where the produced quarks are rather collinear with the photon-pomeron axis, the longitudinal and gauge terms in (44) become small compared with the transverse one and we might believe the results to be more reliable. If we require that ^s + Q2 AE _20 then
+
+f (^t) + f (^u) ss _
+
+20
+
+_20 + p2T (^s + Q2)=^s ; (45)
+
+and the integrated cross section for the process is dominated by the low p2T region (as it is in the LN model, cf. section 7). Integrating (44) over p2T * 0 we find that the results for longitudinal photons and pure gauge are suppressed compared with the transverse one by _20=(^s + Q2) (apart from logarithms). From the leading term for transverse photons the quark structure function (43) of the pomeron has been extracted in [13].
+
+References
+
+[1] J R Cudell, Nucl. Phys. B336 (1990) 1; P Amaudruz et al., NMC
+
+Collaboration, Z. Phys. C54 (1992) 239
+
+[2] ZEUS Collaboration, M. Derrick et al., Phys. Lett. B315 (1993) 481,
+
+preprint DESY 94-063 (1994)
+
+[3] P V Landshoff and O Nachtmann, Z. Phys. C35 (1987) 405 [4] A Donnachie and P V Landshoff, Nucl. Phys. B311 (1988/89) 509 [5] J R Cudell, A Donnachie and P V Landshoff, Nucl. Phys. B322 (1989)
+
+55
+
+[6] A Donnachie and P V Landshoff, Phys. Lett. B285 (1992) 172 [7] A H Mueller, Nucl. Phys. B335 (1990) 115; M G Ryskin, Sov. J. Nucl.
+
+Phys. 52 (1990) 529
+
+[8] E Levin and M W"usthoff, preprint DESY 92-166 (1992) [9] N N Nikolaev and B G Zakharov, Z. Phys. C53 (1992) 331 [10] N N Nikolaev and B G Zakharov, JETP 78 (1994) 598 [11] N N Nikolaev and B G Zakharov, Phys. Lett. B332 (1994) 177 [12] G Ingelman and P Schlein, Phys. Lett. B152 (1985) 256
+
+31
+
+[13] A Donnachie and P V Landshoff, Phys. Lett. B191 (1987) 309,
+
+Nucl. Phys. B303 (1988) 634
+
+[14] A Donnachie and P V Landshoff, Phys. Lett. B185 (1987) 403 [15] A Donnachie and P V Landshoff, Nucl. Phys. B244 (1984) 322 [16] A Donnachie and P V Landshoff, Nucl. Phys. B267 (1986) 690 [17] A Donnachie and P V Landshoff, Phys. Lett. B296 (1992) 227 [18] G A Jaroszkiewicz and P V Landshoff, Phys. Rev. D10 (1974) 170;
+
+P V Landshoff and J C Polkinghorne, Nucl. Phys. B32 (1971) 541
+
+[19] Particle Data Group, Phys. Rev. D45 (1992) No. 11-II [20] A Brandt et al., UA8 Collaboration, Phys. Lett. B297 (1992) 417 [21] O Nachtmann, Ann. Phys. 209 (1991) 436 and private communication
+
+32
+

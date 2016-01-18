@@ -1,0 +1,177 @@
+<HTML>
+<HEAD>
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>A Monte Carlo Generator for High Energy Nucleus- Nucleus Collision</TITLE>
+<META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<FONT SIZE=4><P ALIGN="LEFT">A Monte Carlo Generator for High Energy Nucleus- Nucleus Collision</P>
+<P ALIGN="CENTER">N. M. Hassan*, N. El-Harby and M. T. Hussein**</P>
+</FONT><P ALIGN="CENTER">Physics Department, Faculty of Education for girls, Boghdadia,</P>
+<P ALIGN="CENTER">Jeddah, Kingdom of Saudi Arabia. P.O. Box 9470 Jeddah 21413</P>
+<P ALIGN="CENTER">E-mail: HUSSEINMT@hotmail.com</P>
+<FONT SIZE=4><P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">Abstract</P>
+</FONT><P ALIGN="JUSTIFY">A Monte Carlo simulator is presented to reproduce data of nucleus-nucleus interactions at high energies. The program is designed in a microscopic point of view, where the cascade approach is applied. Moreover, each nucleon from both the target and the projectile is followed up on the time scale along the collision time. The effect of the mean field that depends on the nuclear density is considered. Elastic and inelastic scattering are allowed for the nucleon binary collisions during the cascade according to their center of mass energies. Particle productions are studied through the fragmentation of strings and sub-strings, which may be formed due to the color field between the interacting quarks rather than the gluing interactions. The predictions of the Monte Carlo are fairly compared with the recent CERN data of p-<SUP>32</SUP>S and <SUP>32</SUP>S-<SUP>32</SUP>S collisions at 200 A GeV incident energy. </P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">_________________________________________</P>
+<P ALIGN="JUSTIFY">** On leave of absence from Physics department, Faculty of Science, Cairo University, Cairo, Egypt.</P>
+<P ALIGN="JUSTIFY">* On leave of absence from Physics department, Faculty of Science, Cairo University, Fayoum branch, Fayoum Egypt.</P>
+<U><FONT SIZE=4><P ALIGN="JUSTIFY">1- Introduction</P>
+</U></FONT><P ALIGN="JUSTIFY">During the last decade, a new field emerged on the borderline between nuclear and particle physics, that is the ultra-relativistic heavy ion collisions. These new efforts have been investigated by estimates based on quantum chromodynamics QCD [1]. At very high energy densities, so-called quark gluon plasma QGP should exist. Such plasma consists of freely moving quarks, antiquarks and gluons which are no longer confined to nucleons as in normal matter. The main task of the problem is to understand the dynamics of the ultra-relativistic collisions with aiming at a quantitative description of the reaction. The most popular approach of investigating signals is to perform equilibrium calculations of hadronic and quark matters, and compare both with data. It is clear that any prediction for any of the signals depends strongly on the space-time evolution of the system. It is rather obvious that hadrons are destroyed during the reaction and we have to deal with quark-gluon rather than hadronic degrees of freedom. However, the quark-gluon system does not need to be equilibrated, so one might think of independent strings. The comparison of nucleus-nucleus (A-A) data with nucleon-nucleon (N-N) data may reflect light on the mechanism of interaction. However, in particular, this comparison is very sensitive, since at high energies, A-A collision is not simply a superposition of N-N collisions. The time scale between two N-N interactions is too small for hadronization, and therefore some intermediate object is involved in the second collision and all further ones. An alternative approach of studying high energy A-A scattering is to build models based on Gribove-Regg theory (GRT) [2]. There are many of quite elaborated models based on this theory, such as dual parton model [3] the quark gluon string [4] and the VENUS model [5]. The production of hadrons in the c.m. energies above several GeV is usually viewed as coloring string formation [6] and its decay or fragmentation. These approaches combine the kinematical constraints with assumptions above the mechanism and time evolution of the fragmentation process. In the present work we would like to extend our multi-string fragmentation hypothesis [7] in NN collision to the case of AA collisions. The best and reasonable way to do this, is to follow the cascade mechanism, and consider the problem in a microscopic point of view. The model in hand is based on the conjecture that the central rapidity region of production processes is dominated by the gluonic interactions whereas the jets of valance quarks populate the fragmentation regions containing the leading particles. The details of the model are presented in section 2. The Monte Carlo generators are described in section 3, and finally, result and discussion are given in section 4.</P>
+<FONT SIZE=4><P ALIGN="JUSTIFY">2- <U>The Model</P>
+</U></FONT><P ALIGN="JUSTIFY">The model in hand deals with the nucleus-nucleus collisions as a superposition of nucleon-nucleon collisions. In other words, the nucleon-nucleon event is the basic unit to build up the generator. So that the model is fully microscopic so that each nucleon is individually followed on the time scale. The effect of the Fermi momentum [8] and the mean field [9] are considered. The collision is switched on at time t = 0, with appropriate beam velocity and impact parameter. Each nucleon in both the target and the projectile is given a label. Considering the z-axis as the collision axis, we divide the collision time into small time intervals and investigate all pairs of particles whether they scatter. The condition of scattering is that the two particles approach a distance less than <IMG SRC="Image1.gif" WIDTH=117 HEIGHT=28>, where <IMG SRC="Image2.gif" WIDTH=46 HEIGHT=24>is the total nucleon –nucleon cross section at square of center of mass energy s. The scattered particles then undergo either elastic or inelastic scattering. The inelastic interaction is based on the assumed dominance of hadronic collisions by gluonic interactions where the two colliding nucleons are represented by the valence quarks carrying their quantum numbers plus the accompanying clouds of gluons which represent also the sea quark pairs. In the course of collision, gluonic clouds interact strongly and form strings and sub-strings [10,11] according to their available energies. The elastic collisions are expected to occur only at relatively low energies, i.e., when the nucleon energies slow down below 2 GeV. The diffraction dissociation [12,13] is the main process in this case. </P>
+<B><P ALIGN="JUSTIFY">2-1 The mean field</P>
+</B><P ALIGN="JUSTIFY">This type of field is very important, particularly when dealing problems of heavy ion collisions. The projectile nucleons, on passing through the target should feel a global field effect due to all the constituents of the target nucleus. This field is partially attractive and partially repulsive and depends on the nuclear density at the location of the particle under test. A reasonable parametric form of the mean field is:</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image3.gif" WIDTH=273 HEIGHT=25>&#9;&#9;&#9;&#9;&#9;(1)</P>
+<P ALIGN="JUSTIFY">Where <FONT FACE="Symbol">s</FONT> &gt;1, A and B are the attractive and repulsive components of the field respectively. The change in momentum of the test particle due to this field is derived using the Heisenberg picture,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image4.gif" WIDTH=100 HEIGHT=42>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;(2)</P>
+<P ALIGN="JUSTIFY">Where <I>H </I>is the Hamiltonian of a relativistic system,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image5.gif" WIDTH=168 HEIGHT=24>&#9;&#9;&#9;&#9;&#9;&#9;&#9;(3)</P>
+<P ALIGN="JUSTIFY">Then,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image6.gif" WIDTH=328 HEIGHT=42>&#9;&#9;&#9;&#9;(4)</P>
+<P ALIGN="JUSTIFY">The first and second terms of the Hamiltonian commute with <IMG SRC="Image7.gif" WIDTH=17 HEIGHT=20>, while the third term does not.</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image8.gif" WIDTH=368 HEIGHT=42>&#9;&#9;&#9;(5)</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image9.gif" WIDTH=214 HEIGHT=42>&#9;&#9;&#9;&#9;&#9;&#9;(6)</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image10.gif" WIDTH=97 HEIGHT=21>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;(7)</P>
+<P ALIGN="JUSTIFY">Hence, the momentum <IMG SRC="Image11.gif" WIDTH=49 HEIGHT=25>of the particle labeled <I>k, </I>at time<I> t </I>located at position<I> <IMG SRC="Image12.gif" WIDTH=12 HEIGHT=16></I>is given by,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image13.gif" WIDTH=222 HEIGHT=49>&#9;&#9;&#9;&#9;&#9;&#9;(8)</P>
+<P ALIGN="JUSTIFY">so that its new position is given by:</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image14.gif" WIDTH=216 HEIGHT=49>&#9;&#9;&#9;&#9;&#9;&#9;(9)</P>
+<B><P ALIGN="JUSTIFY">2-2 The elastic scattering</P>
+</B><P ALIGN="JUSTIFY">The simplest possible model of absorption and scattering is that the totally absorbing black disk of well-defined radius R, which defines the partial wave cross section as,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image15.gif" WIDTH=224 HEIGHT=46>&#9;&#9;&#9;&#9;&#9;&#9;(10)</P>
+<P ALIGN="JUSTIFY">And <IMG SRC="Image16.gif" WIDTH=193 HEIGHT=36>&#9;&#9;&#9;&#9;&#9;&#9;(11)</P>
+<P ALIGN="JUSTIFY">Setting <IMG SRC="Image17.gif" WIDTH=44 HEIGHT=24>then,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image18.gif" WIDTH=180 HEIGHT=36>,&#9;&#9;&#9;&#9;&#9;&#9;&#9;(12)</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image19.gif" WIDTH=188 HEIGHT=36>&#9;&#9;&#9;&#9;&#9;&#9;&#9;(13)</P>
+<P ALIGN="JUSTIFY">Where <IMG SRC="Image20.gif" WIDTH=14 HEIGHT=18>is the de Broglie wavelength of the colliding particles in their center of mass system. In this model the angular momentum contributed by the incident wave <I>l</I> varies from 0 to <IMG SRC="Image21.gif" WIDTH=73 HEIGHT=24>. As expected, the inelastic or absorption cross section is simply the geometrical area of the disc <IMG SRC="Image22.gif" WIDTH=29 HEIGHT=21>. And <IMG SRC="Image23.gif" WIDTH=68 HEIGHT=24>, and represents the diffraction or shadow scattering which is familiar in optics when a plane wave is interrupted by a completely absorbing obstacle. The angular distribution of the elastic scattering is the Fourier transfof the spatial distribution of the obstacle. For the <I>l<U><FONT SIZE=2>th</I></U></FONT> partial wave, it is represented by the Legendre polynomial <IMG SRC="Image24.gif" WIDTH=62 HEIGHT=24>. The sum over Legendre polynomials can be approximated for the small scattering angles by a Bessel function of the first order. In terms of momentum transfer q, </P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image25.gif" WIDTH=249 HEIGHT=90>&#9;&#9;&#9;&#9;&#9;(14)&#9;</P>
+<P ALIGN="JUSTIFY">The angular distribution and the momentum of the scattered particles are extracted from the last expression as will be indicated later in the section of Monte Carlo.</P>
+<B><P ALIGN="JUSTIFY">2-3 The inelastic scattering</P>
+</B><P ALIGN="JUSTIFY">The inelastic term in this model is dealt through the string fragmentation hypothesis [7] and the interaction gluon model [14], whereas the fragmentation region containing (leading particles) are populated by the jets of valence quarks [15]. The main merits of this approach lie in the fact that the phenomenology is reduced to microscopic concepts like parton -parton cross sections and structure function and different equilibrium properties of the gluonic and quark components of hadrons. This phenomenology includes the formation stage rather than the hadronization. The string dynamics may be summarized in the string formation due to the color field existing between two interacting quarks. Consider a string formed by an original quark q<SUB>o</SUB> with energy <I>w<SUB>o</I></SUB>. At the first vertex of fragmentation, the string breaks up producing <IMG SRC="Image26.gif" WIDTH=22 HEIGHT=20>with energy <I>z w</I><SUB>o</SUB> leaving the string with residual energy <IMG SRC="Image27.gif" WIDTH=93 HEIGHT=24>. Where <I>z</I> is a fraction 0&lt;<I>z</I>&lt;1 and has a distribution function <I>f </I>(<I>z</I>). Further fragmentation of the string will produce <IMG SRC="Image26.gif" WIDTH=22 HEIGHT=20>pairs in rank order forming mesons. After the n<U><SUP>th</U></SUP> rank, the residual energy of the string will be, </P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image28.gif" WIDTH=104 HEIGHT=25>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;(15)</P>
+<P ALIGN="JUSTIFY">Here, n represents the number of nodes of the string. And since a meson is produced at each node, so <I>n</I> measures also the number of mesons produced in the string. This leads also to the well-known multiplicity logarithmic relation [7].</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image29.gif" WIDTH=114 HEIGHT=25>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;(16)</P>
+<P ALIGN="JUSTIFY">Let <I>D</I> (<I>z</I>) represents the probability to find a hadron in a quark jet carrying a fraction of energy z, then,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image30.gif" WIDTH=225 HEIGHT=41>&#9;&#9;&#9;&#9;&#9;&#9;(17)</P>
+<P ALIGN="JUSTIFY">Where <I>f (z)</I> represents the probability to find a hadron containing the original quark q<SUB>o </SUB>at z. The second term in Eq.(17) contains the factor <I>f(1-z’)</I> which gives the probability that the remnant jet has a fraction of energy z’ and <I>D</I>(<I>z</I>”<I>=z/z</I>’) is the probability that this remnant jet produces particles with energy fraction <I>z</I>”<I>z</I>’<I>=z. </I>So that the integral in the second term as a whole represents the probability of producing hadron of different rank orders from the first string generation. At enough high available energy, there will be a chance to reproduce sub-strings or what is called a second generation to be represented as a third term in Eq.(17). By analogy, one can define the n<U><SUP>th</U></SUP> order generation as, </P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image31.gif" WIDTH=284 HEIGHT=46>&#9;&#9;&#9;&#9;&#9;(18)</P>
+<P ALIGN="JUSTIFY">And the general fragmentation function has the form,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image32.gif" WIDTH=108 HEIGHT=36>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;(19)</P>
+<P ALIGN="JUSTIFY">The fragmentation function <I>D</I>(<I>z</I>) is then used to simulate the energy, energy transfer and the angular distribution of the proposed hadrons. The form of the scaling fragmentation function <I>f</I>(<I>z</I>) is taken as,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image33.gif" WIDTH=148 HEIGHT=44>&#9;&#9;&#9;&#9;&#9;&#9;&#9;(20)</P>
+<P ALIGN="JUSTIFY">The first term in Eq.(20) represents the fragmentation of the valence quarks and the second one corresponds to the sea quarks.</P>
+<B><P ALIGN="JUSTIFY">2-4 The hadron production</P>
+</B><P ALIGN="JUSTIFY">The probability of formation a hadron <I>h</I> may be calculated from Eqs.(18,19). In ISR energy range, <IMG SRC="Image34.gif" WIDTH=97 HEIGHT=24>, it is enough to consider only the string formation up to the first generation, so that,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image35.gif" WIDTH=285 HEIGHT=45>&#9;&#9;&#9;&#9;&#9;(21)</P>
+<P ALIGN="JUSTIFY">The sum runs over all possible quark flavors shared in the hadron formation. For example q’= u (d) and <IMG SRC="Image36.gif" WIDTH=16 HEIGHT=21>(<IMG SRC="Image37.gif" WIDTH=14 HEIGHT=17>) for <FONT FACE="Symbol">p</FONT> <FONT SIZE=2>+</FONT> (<FONT FACE="Symbol">p</FONT> -)<SUP> </SUP>formation. While q’= u, <IMG SRC="Image37.gif" WIDTH=14 HEIGHT=17>or d, <IMG SRC="Image36.gif" WIDTH=16 HEIGHT=21>for <FONT FACE="Symbol">p</FONT> <SUP>o</SUP> formation and so on. Eq.(21) is an integral equation in <I>D</I>(<I>z</I>). It is difficult to solve it exactly, since it includes the function <I>D</I> also in the R.H.S. An approximate solution may be found using the perturbation approach. A first order solution is obtained by substituting <IMG SRC="Image38.gif" WIDTH=49 HEIGHT=41>by the zero order function <IMG SRC="Image39.gif" WIDTH=48 HEIGHT=41>. So that,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image40.gif" WIDTH=249 HEIGHT=41>&#9;&#9;&#9;&#9;&#9;(22)</P>
+<P ALIGN="JUSTIFY">Consequently, the second order is found when <I>D</I> is replaced by <I>D<SUP>(1)</I></SUP>.</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image41.gif" WIDTH=300 HEIGHT=90>&#9;&#9;&#9;&#9;(23)</P>
+<P ALIGN="JUSTIFY">Eq.(23) is similar, to a high extent, to Eq.(17,18) which represent the multi-order string fragmentation. This means that the perturbation terms may describe the formation of sub-strings.</P>
+<FONT SIZE=4><P ALIGN="JUSTIFY">3- <U>The Implementation of Monte Carlo</P>
+</U></FONT><P ALIGN="JUSTIFY">The Monte Carlo technique means building up random number generator, or algorithm for each physical quantity in the system. The generated numbers are not completely random, since they are controlled with the boundary conditions rather than all the dynamic effects acting on the system. The building of the generators, usually starts with the pseudo random number series uniformly distributed in the range {0,1}, which are defined in most software related to mathematics such as FORTRAN 77- 90, MATHEMATICA and MATHCAD. The boundary of the range is then stretched according to the boundary conditions applied. Finally, the probability distribution of the generated numbers are directed toward preferable population region according to the nature of the applied fields and all other dynamic effects striking the system. The Algorithm relating the generator (<I>x</I>) with its boundaries {a, b} with a distribution probability <I>f</I>(<I>x</I>) and the pseudo random number ( <I>r</I> ) is given by,</P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image42.gif" WIDTH=150 HEIGHT=49>&#9;&#9;&#9;&#9;&#9;&#9;&#9;(24)</P>
+<P ALIGN="JUSTIFY">Eq.(24) is solved either analytically or numerically to get the required series (x). Each generator should use its own pseudo random number series to satisfy the condition of randomness.</P>
+<P ALIGN="JUSTIFY">The Monte Carlo program for a nucleus- nucleus collision, N<SUB>A</SUB> + N<SUB>B</SUB> at incident energy E per nucleon, is designed as follows:</P>
+<OL>
+
+<P ALIGN="JUSTIFY"><LI>A specific number labels each nucleon from the target and projectile.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The geometry of the problem is set up so that the center of the target nucleus is chosen as the origin of the frame of reference. The impact parameter varies uniformly in the range { 0, R<SUB>A</SUB>+R<SUB>B</SUB>} so that its generator is, </LI></P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image43.gif" WIDTH=132 HEIGHT=24>&#9;&#9;&#9;&#9;&#9;&#9;&#9;(25)</P>
+<P ALIGN="JUSTIFY">Where the suffix (i) runs over the number of the generated events.</P>
+<P ALIGN="JUSTIFY"><LI>Position generator determines the initial positions of the nucleons in the three-dimension, assuming Gaussian initial density. The generator has the form of the solution of the equation, </LI></P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image44.gif" WIDTH=166 HEIGHT=25>&#9;&#9;&#9;&#9;&#9;&#9;(26)</P>
+<P ALIGN="JUSTIFY">Where the function <I>Erf</I> (<FONT FACE="Symbol">a</FONT> , x-x<SUB>o</SUB>) stands for the error function for an argument x about the point xo, and <FONT FACE="Symbol">a</FONT> is a parameter related to the normalization of the Gaussian surface density. Eq.(22) is solved numerically using the subroutine SUB ERF.</P>
+<P ALIGN="JUSTIFY"><LI>Similarly, the initial momentum of the target nucleon is found using the same SUB ERF assuming a Fermi momentum <IMG SRC="Image45.gif" WIDTH=145 HEIGHT=24>. The initial momentum of the projectile nucleons is set in z-direction with the proposed incident value. </LI></P>
+<P ALIGN="JUSTIFY"><LI>The initial spatial data is directed to an analyzer to be distributed in a histogram to calculate the density distribution and its gradient corresponding to time <I>t</I> = 0. </LI></P>
+<P ALIGN="JUSTIFY"><LI>The mean field is added, which modifies both the momentum and the position of the nucleons according to their position in the space.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The data are forward to a filter to check the condition of collision between all possible nucleon pairs in the system. The nucleon pair suffering a collision is directed to either the elastic or the inelastic subroutine using a Monte Carlo generator built upon experimental dependence [16] of thcross-section with the center of mass energy <IMG SRC="Image46.gif" WIDTH=24 HEIGHT=24>. The angular distribution and the spatial rearrangement of the scattered particles are estimated.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The processes are recycled again at the successive time intervals. At cycle, the nuclear density rather than the momentum, rapidity and angular distributions of the scattered particles are then found. The output data are collected in tables corresponding to the different time intervals. </LI></P></OL>
+
+<FONT SIZE=4><P ALIGN="JUSTIFY">4- <U>Results and Discussion.</P>
+</U></FONT><P ALIGN="JUSTIFY">The Monte Carlo program is applied to the reactions of p-<SUP>32</SUP>S a<SUP>32</SUP>S-<SUP>32</SUP>S at 200 A GeV. At least 200 runs are carried out simultaneously. A time interval <FONT FACE="Symbol">d</FONT>t =0.5 <I>fm/c</I> and spatial scanned interval <FONT FACE="Symbol">d</FONT>x =0.5 <I>fm</I> are used. The mean field parameters are adjusted to setup the equilibrium condition of the nuclear density distribution during the collision time. It is found that the relative ratio of the strength of the attractive to the repulsive field is ~ 1.6 in p-<SUP>32</SUP>S and 2.7 in <SUP>32</SUP>S-<SUP>32</SUP>S collision, The power of the attractive component is c=1.2 in all cases.</P>
+<P ALIGN="JUSTIFY">The parameters of the elastic and the inelastic subroutines are determined so that the output prediction of the Monte Carlo fit the experimental rapidity and the transverse momentum distributions. The main process at this incident energy is the inelastic one. The elastic collision contributes only when the energy of the leading particles slowdown to few GeV, due to the successive collisions. The perturbed string fragmentation function Eq.(22) is used to estimate the relative production of the different types of hadrons. The multiplicity of a hadron <I>h</I> depends on the length of the string producing it. The parameter ‘<I>a’</I> in the fragmentation function <I>f</I>, plays an important role in controlling the length of the string and hence the production ratio of the hadron. The parameter ‘<I>a</I>’ is adjusted to fit the experimental data for each hadron type alone. The value of ‘a‘ is found in the range 0.8 &lt;a &lt;1.6 with average value 1.28.</P>
+<P ALIGN="JUSTIFY">The program starts while the incident projectile is about <I>15 fm</I> apart from the target center along the z-axis. In Fig.(1), the transverse momentum distribution of fast protons produced in p-<SUP>32</SUP>S collision at time intervals 8, 12, 16 and 20 <I>fm/c</I> are displayed. The earlier produced protons are spread over a wide momentum range. As time goes on, and because of multiple scattering, the particles are confined in narrower range. The final distribution corresponding to time t = 20 <I>fm/c</I>, shows a peak at <I>pt</I> = 0.3 GeV/c. The prediction of the model shows good agreement in Fig.(2) with the data of the experiment CERN-NA-035 [17]. The Monte Carlo simulates the nuclear matter density during the different stages of the reaction. The results are given in Fig.(3). At time t = 0, the initial density shows a large Gaussian peak centered at the origin representing the target nucleus and a tail in the negative region simulates the trace of the incident light proton. As time goes on, the mean field and the multiple scattering reflect their effect on the system. Hence, the nuclear matter density is disturbed and shifted forward. It reaches the equilibrium before t ~ <I>15 fm/c</I>. The <SUP>32</SUP>S - <SUP>32</SUP>S collisions predict different results due to the effect of the size of the projectile nucleus as well as the possible number of binary collisions. The nuclear density distribution is displayed in Fig.(4) for the <SUP>32</SUP>S - <SUP>32</SUP>S collision. At the starting time, t = 0 fm/c, the distribution shows two distinct peaks corresponding to the projectile and the target nuclei before collision. The projectile peak is the narrower since the Fermi momentum is omitted and the incident beam is forward collimated. The system takes a long time to reach its equilibrium (t = 20 fm/c). The transverse momentum distribution at different time intervals covers a wider range as seen by Fig.(5). At the end of the collision time the pt distribution shows a peak at 0.15 GeV/c. This agrees with the data of the experiment CERN-NA-035 as may be seen in Fig.(6).</P>
+<U><FONT SIZE=4><P ALIGN="JUSTIFY">Conclusive remarks</P>
+<OL>
+
+</U></FONT><P ALIGN="JUSTIFY"><LI>During the heavy ion collisions, it is necessary to consider the effect of the mean field upon the passage of the leading particles through the nuclear matter. </LI></P>
+<P ALIGN="JUSTIFY"><LI>The effect of the mean field becomes very important with the increase of the mass of the interacting nuclei.</LI></P>
+<P ALIGN="JUSTIFY"><LI>Cascade approach presents a good tool in extending the problem of nucleon-nucleon collision to nucleon nucleus and hence, to nucleus-nucleus collision. In other word this approach stands on equal footing with the Gribove-Regg theory.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The string hypothesis successfully reproduced data of nucleus-nucleus collision. In this case, strings are produced in a wide range of spectral length according to the environment where it is generated.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The scaling fragmentation function <I>f</I>(<I>z</I>) is suitable for all types of hadrons with a specific fragmentation parameter for each one. </LI></P></OL>
+
+<U><FONT SIZE=4><P ALIGN="JUSTIFY">References</P>
+<OL>
+
+</U></FONT><P ALIGN="LEFT"><LI>Proc. Of quark matter 1990, Menton, France, May (1990).</LI></P>
+<P ALIGN="LEFT"><LI>A. Capell, J.A. Casdo, L. Pajares, A.V. Ramallo and J.Tran Thanh Van, Z.Phys. </LI></P>
+<B><P ALIGN="LEFT">C33</B> (1987) 541.</P>
+<P ALIGN="LEFT"><LI>J.Ranft and S.Ritter, Z.Phys. <B>C27</B> (1985) 413.</LI></P>
+<P ALIGN="LEFT"><LI>A. Kaidalov, Nucl. Phys. <B>A525</B> (1991)39.</LI></P>
+<P ALIGN="LEFT"><LI>K.Werner, Phys. Rev. <B>D39</B> (1989) 780</LI></P>
+<P ALIGN="LEFT"><LI>Y.Kurihara, J.Hufner and J.Aichelin, Z.Phys. <B>C42</B> (1989) 485.</LI></P>
+<P ALIGN="LEFT"><LI>M.T.Hussein, A. Rabea, A. El-Naghy and N.M. Hassan, Prog. Theor. Phys. <B>93 </LI></P>
+</B><P ALIGN="LEFT">(1995) 585.</P>
+<P ALIGN="LEFT">- M.T. Hussein, Particle World <B>4</B> (1994) 15. </P>
+<P ALIGN="LEFT"><LI>G.F. Bertsch, H. Kruse and S. Das Gupta, Phys. Rev. <B>C29</B>,(1984) 673.</LI></P>
+<P ALIGN="LEFT"><LI>G.F. Bertsch and S. Das Gupta, Phys. Reports <B>160</B> (1988) 189.</LI></P>
+<P ALIGN="JUSTIFY"><LI>P. Aurenche, F.W. Hopp, A. Capella, J.K. wiecinski, M. Morie, J. Ranft and J. </LI></P>
+<P ALIGN="JUSTIFY">Tran Thanh Van, Phys. Rev. <B>D45</B> (1992) 92.</P>
+<P ALIGN="JUSTIFY"><LI>D.J. Dean, A.S. Umar, J.S. Wu and M.K. Strayer, Phys. Rev. <B>C45</B> (1992) 400.</LI></P>
+<P ALIGN="LEFT"><LI>L. Foa, IL Nuovo Cim. <B>3</B> (1973) 283.</LI></P>
+<P ALIGN="LEFT"><LI>G.Giacomelli, Phys. Reports <B>23</B> (1976) 1231.</LI></P>
+<P ALIGN="LEFT"><LI>P. Carruthers, Nucl. Phys. <B>A418</B> (1984) 501.</LI></P>
+<P ALIGN="LEFT"><LI>R.M. Weiner, G. Wilk and Z. Woldarczyk, Phys. Rev<B>. D45</B> (1992) 2308.</LI></P>
+<P ALIGN="LEFT"><LI>U.Amaldi, M. Jacob and G. Matthiae, Ann. Rev. Nucl. Science <B>26</B> (1976) 385.</LI></P>
+<P ALIGN="LEFT"><LI>T. Alber et al, Europe .Phys.J. <B>C2</B>, (1998) </LI></P></OL>
+
+<OL START=0>
+
+<P ALIGN="LEFT"><LI>Direct communication with the particle data group (PDG) at Durham, </LI></P></OL>
+<DIR>
+<DIR>
+
+<P ALIGN="LEFT">England, Last updated at 1999.</P></DIR>
+</DIR>
+
+<U><FONT SIZE=4><P ALIGN="LEFT">Figure Captions</P>
+</U></FONT><B><P ALIGN="JUSTIFY">Fig.(1)</B> The time evolution of the transverse momentum distribution as predicted by the Monte Carlo (MSM) model, for protons produced in p-<SUP>32</SUP>S collisions at 200 GeV incident energy. The model parameters are <FONT FACE="Symbol">a</FONT> =0.002, <FONT FACE="Symbol">b</FONT> =-0.0032, c= 1.2 and the fragmentation parameter is 1.28 </P>
+<B><P ALIGN="JUSTIFY">Fig.(2)</B>. The transverse momentum distribution of protons produced in p-<SUP>32</SUP>S collisions at 200 GeV incident energy. The solid line represents the prediction of the Monte Carlo simulation and plus symbols are the data of the experiment CERN-NA-035.</P>
+<B><P ALIGN="JUSTIFY">Fig.(3)</B> The time evolution of the nucleon density distribution during the p-<SUP>32</SUP> collisions at 200 GeV incident energy. The curves are represented at time intervals t=0, 8 and t=20 fm/c. </P>
+<B><P ALIGN="JUSTIFY">Fig.(4)</B> The time evolution of the nucleon density distribution during the <SUP>32</SUP>S -<SUP>32</SUP>S collisions at 200 A GeV incident energy. The curves are represented at time intervals t=0, 8,16 and t=20 fm/c. </P>
+<B><P ALIGN="JUSTIFY">Fig.(5)</B> The time evolution of the transverse momentum distribution of fast protons produced in 32S-32S at 200 A GeV, as predicted by the Monte Carlo (MSM) model. The model parameters are <FONT FACE="Symbol">a</FONT> =0.003, <FONT FACE="Symbol">b</FONT> =-0.008, c= 1.2 and the fragmentation parameter is 1.28 </P>
+<B><P ALIGN="JUSTIFY">Fig.(6)</B> The transverse momentum distribution of protons produced in <SUP>32</SUP>S -<SUP>32</SUP>S collisions at 200 A GeV incident energy. The solid line represents the prediction of the Monte Carlo simulation and plus symbols are the data of the experiment CERN-NA-035.</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER"><IMG SRC="Image47.gif" WIDTH=497 HEIGHT=464></P>
+<FONT SIZE=2><P ALIGN="RIGHT">&nbsp;</P>
+</FONT><B><FONT SIZE=4><P ALIGN="CENTER">Fig. (1)</P>
+</B></FONT><FONT SIZE=2><P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><B><FONT SIZE=4><P ALIGN="CENTER">&nbsp;</P>
+</B></FONT><P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="CENTER"><IMG SRC="Image48.gif" WIDTH=489 HEIGHT=464></P>
+<B><FONT SIZE=4><P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">Fig.(2)</P>
+</B></FONT><P ALIGN="CENTER"><IMG SRC="Image49.gif" WIDTH=495 HEIGHT=801></P>
+<P ALIGN="CENTER">&nbsp;</P>
+<B><FONT SIZE=4><P ALIGN="CENTER">Fig.(3)</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</B></FONT><P ALIGN="CENTER"><IMG SRC="Image50.gif" WIDTH=442 HEIGHT=833></P>
+<FONT SIZE=4><P ALIGN="CENTER">Fig.(4) </P>
+</FONT><P ALIGN="CENTER"><IMG SRC="Image51.gif" WIDTH=488 HEIGHT=461></P>
+<B><FONT SIZE=4><P ALIGN="CENTER">Fig. (5)</P>
+</B></FONT><P ALIGN="CENTER"><IMG SRC="Image52.gif" WIDTH=477 HEIGHT=461></P>
+<B><FONT SIZE=4><P ALIGN="CENTER">Fig.(6)</P>
+<P ALIGN="CENTER">&nbsp;</P></B></FONT></BODY>
+</HTML>
+

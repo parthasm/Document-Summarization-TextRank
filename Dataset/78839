@@ -1,0 +1,244 @@
+
+
+ 5 Apr 95
+
+Energy and Atomic Mass Dependence of
+
+Nuclear Stopping Power in Relativistic Heavy-Ion Collisions in Interacting Gluon
+
+Model
+
+Q. J. Liu1\Lambda , W. Q. Chao1;2y and G. Wilk3z 1Institute of High Energy Physics, Academia Sinica,
+
+P.O. Box 918(4), 100039, Beijing, P. R. China 2CCAST (Word Lab.), P.O. Box 8730, 100080, Beijing, P. R. China
+
+3Soltan Institute for Nuclear Studies, Nuclear Theory Department,
+
+Warsaw, Poland
+
+Abstract We present a Monte-Carlo simulation of energy deposition process in relativistic heavy-ion collisions based on a new realization of the Interacting-Gluon-Model (IGM) for high energy N \Gamma N collisions. In particular we show results for proton spectra from collisions of Elab = 200 GeV=N 32S beam incident on 32S target and analyze the energy and mass dependence of nuclear stopping power predicted by our model. Theoretical predictions for proton rapidity distributions of both 208Pb + 208Pb collisions at Elab = 160 GeV=N CERN SPS and 197Au + 197Au at psNN = 200 GeV BNL RHIC are given.
+
+PACS: 25.75.+r
+
+1 Introduction Whether the central rapidity region is baryon free or not after the collision is an important issue in the field of relativistic heavy-ion collisions. These two different pictures imply different mechanisms for QGP formation, if QGP is really produced there, and thus will make the detection of QGP different for the two situations. The subject is directly related to how the C.M.S energies of the colliding nuclei are deposited in this region, i.e., to the nuclear stopping power. Though much work that has been done on both theoretical and experimental aspects of this subject indicates so far a baryon rich picture (i.e., complete stopping) [1] for heavy systems such as gold on gold below the AGS energies, where initial conditions for QGP formation are not well fulfilled, a common consensus on the issue has not yet been reached for heavy-ion collisions at CERN SPS to BNL RHIC and CERN LHC
+
+\Lambda e-mail: liuqj@bepc3.ihep.ac.cn
+
+ye-mail: zhaowq@bepc3.ihep.ac.cn ze-mail: wilk@fuw.edu.pl
+
+1
+
+energies, where one expects the formation of QGP. For example, FRITIOF [2] predicts fully baryon free in the central rapidity area for collisions of gold on gold at RHIC energies while VENUS [3] and DTU [4]) predict the opposite, although except for this, all models have almost the same predicting abilities from AGS to SPS energies.
+
+Whereas in the above mentioned models the main degrees of freedom are quarks (valence in LUND and with the sea-quark admixture in VENUS and DTU) and gluons are treated collectively as non-interacting strings, the Interacting-Gluon-Model (IGM) [5, 6, 7] pays more attention to the role of gluons in high energy collisions, following the fact that in the perturbative QCD (PQCD) gluon-gluon interactions are much more important than those between quarks [8]. IGM was already applied successfully to nuclear collisions, however either in the coherent nuclear tube version which does not allow for calculation of the nucleonic spectra [6] or in the version devoted to the specific problem of looking for coherent vs chaotic aspects of nuclear collisions, also not directly suitable for our present purposes [7].
+
+As both Ref.[6] and Ref.[7] have already shown the basic ability of IGM to describe adequately essential details of multiparticle production processes, we shall concentrate in this letter only on the study of nuclear stopping power provided by IGM when extended to heavy-ion collisions at C.M.S energies no smaller than those of SPS.
+
+2 Brief review on the IGM for high energy N \Gamma N process
+
+The IGM can be summarized as follows [5]: According to PQCD: oegg AE oegq AE oeqq, where oegg, oegq and oeqq are the interaction cross sections of a gluon-gluon, gluon-quark and quarkquark pair, respectively. Therefore, assuming that the above inequality holds also in soft interactions, in each event one has he following picture[5]:
+
+ffl Two colliding hadrons are represented by the valence quarks carrying their quantum
+
+numbers plus the accompanying clouds of gluons (which also include the sea q _q pairs and should therefore be regarded as effective ones). In the course of the collision, gluonic clouds interact strongly and form mini-fireballs (MF's) which are supposed to populate mainly in the central rapidity region of the reaction.
+
+ffl The valence quarks (together with the gluons which did not interact) get excited and
+
+form leading jets (LJ's) (or beam jets) which are supposed to populate mainly in the fragmentation regions of the reaction. Here we shall assume further that LJ's are identical with leading particles (practically nucleons).
+
+The above mentioned MF's eventually form a lump of gluonic matter which is called a central fireball (CF). It is this CF that governs the final state particle production in the central rapidity region.
+
+In the framework of the IGM, if fractions of x and y of the energy momentum of the incoming nucleons are deposited in central rapidity region and form a CF, then the energy E and momentum P and invariant mass M and rapidity \Delta of this CF are expressed as (all masses are neglected here):
+
+E = 12 ps (x + y); P = 12 ps (x \Gamma y) (1) and
+
+M = pxys; \Delta = 12 ln( xy ): (2)
+
+2
+
+while the probability distribution for producing such a CF is [6, 11]
+
+O/(x; y) = O/0 exp[\Gamma (x \Gamma hxi)
+
+2
+
+2hx2i \Gamma
+
+(y \Gamma hyi)2
+
+2hy2i ] `(xy \Gamma K
+
+2 min) (3)
+
+where O/0 is a normalization factor and Kmin = M0=ps stands for the minimal inelasticity allowed. There is simple relation among the moments hxi; hx2i and hyi; hy2i, which is valid at high energy, namely
+
+hxi ' 2hx2i ' hyi ' 2hy2i = ffp
+
+2 h
+
+M 20 oeNNin (s) (4)
+
+where ff is a constant related to the gluonic cross-section, ph represents fraction of the hadronic energy-momentum attributed to gluons in hadron structure function [9] (in fact we have here p2h = pprojectile \Delta ptarget = pP \Delta pT ), M0 is the lightest mass of the possible CF and oeNNin (s) is the inelastic cross section for high energy N \Gamma N process.
+
+We have thus essentially three input parameters (although highly correlated, cf. Eq.(4)): M0 delineating the gluonic phase space (i.e., x y * K2min = M 20 =s), ff fixing the strength of gluonic interaction and product of ph's dictating what part of energy-momentum of initial nucleons is used to form CF. 1
+
+3 IGM and high energy heavy-ion collisions We proceed now to simulation of energy deposition process in relativistic collisions of two nuclei A and B (with nucleus B incident on nucleus A), where A and B denote also their corresponding atomic numbers. In IGM it is realized in steps according to the following algorithm [13]:
+
+(i) We simulate positions of all the A and B nucleons, in the rest frames of colliding nuclei with the respective coordinate origins located at their mass centers and according to their nucleon densities aeA;B(r) given by the usual three-parameter Woods-Saxon form [14].
+
+(ii) For every heavy-ion collision event we sample the impact parameter b using the Glauber model [15], in which the inelastic cross section of high energy A \Gamma B process is given by
+
+oeABin = Z db[ 1 \Gamma e\Gamma oe
+
+NN in TAB(b)] (5)
+
+with
+
+TAB(b) = Z dbA dzA dbB dzB aeA(bA; zA) aeB(bB; zB) ffi(b \Gamma bA + bB) (6) being the thickness function normalized to 1. Consequently, the probability distribution for the impact parameter b is given by
+
+dP (b)
+
+db =
+
+1 \Gamma e\Gamma oe
+
+NN in TAB(b)
+
+oeABin : (7) 1It is perhaps worth mentioning that such a formulated IGM was, in addition to Refs.[[5, 6, 7]], used also to discuss the problem of inelasticity in cosmic ray experiments [10], to connect the limited number of clans in multiparticle distributions with the limited behaviour of inelasticity [11], and recently it was also discussed in connection with the possible mini-jets production [12].
+
+3
+
+Once the impact parameter b is selected according to Eq.(7), the transverse and longitudinal coordinates of all colliding nucleons can be determined from their initial coordinates. Finally all nucleons in both colliding nuclei are ordered according to their z-coordinates in lab. frame, which results in: zP (B) ! zP (B \Gamma 1) ! zP (B \Gamma 2) ! \Delta \Delta \Delta ! zP (1) ! zT (1) ! zT (2) ! \Delta \Delta \Delta ! zT (A) (zP (i) denotes the z-coordinate of the ith nucleon in nucleus B with i 2 (1; B) and zT (j) stands for the z-coordinate of jth nucleon in nucleus A with j 2 (1; A)).
+
+(iii) Finally, we simulate the nucleus-nucleus collision as proceeding via a number of consecutive N \Gamma N like collisions in the following way:
+
+ffl For a pair of nucleons ij: i = 1; . . . ; B from nucleus B and j = 1; . . .A from nucleus
+
+A, we check first if they interact. They do it if their transverse distance is smaller
+
+than qoe
+
+NN tot (sk)
+
+ss and psk * 2:14 GeV . Otherwise this pair will not collide and thefour-momenta of each of the two nucleons are kept unchanged. Here ps
+
+k stands for the energy of the k-th pair in its c.m. frame. Both impinging nucleons and the produced
+
+leading particles are assumed to propagate along straight lines.
+
+ffl For the pair of nucleons which do interact, we carry out the corresponding nucleonnucleon collision which proceed at current energy of the colliding nucleonic pair,p
+
+sk. whether th collision is elastic or inelastic is sampled according to the ratio of the corresponding cross sections oeNNel (sk) and oeNNtot (sk) taken from experimental data [16]. For inelastic collision, the IGM is called for providing a new gluonic CF and two new leading particles formed from both participating nucleons. The energy-momentum conservation implies the continuous degradation of the collision energy of interacting nucleonic pairs along the chain of consecutive scatterings. As all the 3 essential parameters of the IGM are kept unchanged with k (and equal to: ffp2h = 0:05 GeV 2fm2, M0 = 0:22 GeV )2, the above procedure corresponds to a tacit assumption of restoration of the gluonic clouds in the nucleons propagating through the nuclear matter after every inelastic collision. The magnitudes of the corresponding transverse momenta of colliding nucleons are sampled according to a Gaussian distribution with hpT i = 0:45 GeV/c [17]. For elastic scattering, we use differential cross section from Ref.[18] to generate new four-momenta of colliding nucleons.
+
+Such an implementation of IGM to nuclear collisions differs distinctly from that in Ref.[6] or Ref.[7]. In fact, it can be regarded as a new realization of the IGM, similar to the so called "model C"[19]. Contrary to Refs.[[6, 7]], it allows the presence of additional energymomentum transfer from the valence quark component of the colliding nucleons to gluons during the nuclear collision process (specifically: in between the consecutive scatterings). As we shall see below, such a scenario leads to the nuclear stopping compatible with experimental data.
+
+4 Results and discussion Fig.1 and Fig.2 display the event-normalized proton rapidity distributions in central collisions (corresponding to zero impact parameter, b = 0, in the above IGM.) of 32S + 32S and 197Au + 197Au, at CERN SPS and BNL RHIC energies, respectively. The noticeable feature
+
+of the displayed results is the increase of baryon number in the central rapidity region with increasing atomic mass of colliding nuclei and the decrease of baryon number in the region with growing energy.
+
+2As mentioned before, ff and ph's are strongly correlated and therefore usually given as product like in this case above. If we assume that like in Ref.[5], ph , 0:5, then ff = 0:2 GeV 2fm2.
+
+4
+
+A useful measure [20, 21] of the nuclear stoping power characterizing the baryon content of the central rapidity region is the mean rapidity shift h\Delta ypi of the projectile participant protons from their original beam rapidity. The larger is this value, the stronger is the stopping of the colliding system and the more baryons are showing up in the central rapidity region. In order to compare this measurement to those of other colliding systems at different energies, a relative stopping parameter, which also is an alternative of the event-normalized proton rapidity distributions, was introduced as follows[22]:
+
+S = h\Delta ypiy
+
+beam \Gamma ycm (8)
+
+with ycm being the rapidity of center of mass of all participant nucleons. The values of S for collisions of two mass symmetric nuclei as calculated in our model at CERN SPS and BNL RHIC energies are tabulated in Table 1. They confirm the statements suggested already by Fig.1 and Fig.2, namely that heavy systems are more stopped than light ones at the same energy psNN whereas for the same colliding system, the larger the psNN , the weaker is the nuclear stopping power.
+
+Table 1: The energy and mass dependence of relative stopping parameter S.
+
+System psNN (GeV ) b(fm) Theor. Exp. 32S + 32S 20 0-1 0.51 0.53
+
+32S + 32S 20 0 0.49 No 197Au+197Au 20 0 0.67 No
+
+32S + 32S 200 0 0.35 No 197Au+197Au 200 0 0.59 No
+
+The first conjecture results from the successive multiple scatterings of colliding nucleons and this effect manifested itself in recent experimental data [21] from NA35 Collaboration. The effect would increase the number of collisions an incident nucleon experiences, and would become stronger for heavier colliding systems. Therefore with a priori more inelastic collisions (which means more energy loss) present, heavy system are stopped more than light one at the same colliding energy. In fixed target Elab = 200 GeV =N 32S + 32S central collisions, there is good agreement between theoretical calculations and experimental results both for the relative stopping parameter S as shown in Table.1 and for the proton spectra as shown in Fig.3 and Fig.4. This agreement indicates that the multiple scattering effect has been properly accounted for in our simulation.
+
+The second statement is caused by the energy dependence of cross section oeNNin (s) in elementary high energy N \Gamma N processes. The smaller energy loss of a participant projectile proton or a weaker stopping power corresponds to a smaller value of hxi, and vice versa. Therefore a larger energy psNN of the colliding system leading to a larger oeNNin (s) according
+
+to Ref.[16], would results in a smaller value of hxi according to Eq.(4): hxi ' ffp
+
+2 h
+
+M20 oeNNin (s), and
+
+thus leads to a weaker nuclear stopping power.
+
+As a theoretical prediction we shown in Fig.5 the event-normalized proton rapidity distributions in central collisions of Elab = 160 GeV =N 208Pb + 208Pb with bfb = 0 fm, for which we predict the relative stopping parameter S = 0:67.
+
+5
+
+The theoretical results concerning proton spectra shown in Fig.3 and Fig.4 are both normalized to the experimentally observed proton number in order to facilitate comparison with data. Because in this letter we have assumed for simplicity that all participant protons are observed in the final state of the heavy-ion collisions, our estimations provide only upper limits for proton rapidity distributions. However, in mass symmetric heavy-ion collisions, it is expected to result in a reasonable conclusion on whether or not the central rapidity region is baryon free. This happens because other baryon productions (mainly strange baryon productions) which contribute to the net baryon rapidity distributions, proceed via fragmentation of the excited forward (backward) baryonic strings, (cf., Ref.[3]), and thus manifested themselves mostly in the projectile (target) rapidity region (also their abundances are much less than that of the protons considered there).3
+
+5 Conclusions Extending the IGM for high energy N \Gamma N process to relativistic heavy-ion collisions, we simulated energy deposition process in high energy nucleus-nucleus collisions. Our theoretical results of proton spectra in Elab = 200 GeV =N 32S + 32S central collisions are in good agreement with experimental data. Moreover, according to our calculations, the amount of baryons present in the central rapidity region in relativistic heavy-ion collisions, is determined both by the mass and by the energy psNN of the colliding systems. It decreases with the increase of psNN (indicating a weaker nuclear stopping power) and dramatically increases with the mass of the colliding systems (the final state baryons are inclined to be piled up in the central rapidity region signifying a stronger nuclear stopping power). Finally, if QGP will really be produced in Elab = 160 GeV =N 208Pb + 208Pb central collisions at SPS or in psNN = 200 GeV 197Au + 197Au central collisions at RHIC, it is predicted to be a baryon rich one, not a baryon free one. Although in this respect our conclusion is generally similar to that of the string models (cf., VENUS [3], DTU [4] and also [23]), we foresee a difference between IGM and the above mentioned models in the LHC energy range. The reason is the limited (i.e., at most increasing to a limited value) energy behaviour of inelasticity parameter of hadronic collisions predicted by IGM [10, 12] whereas it increases rather strongly in models presented in Refs.[[3, 4, 23]] (cf. Ref.[10] for more details). It means that asymptotically we should have generally broader distribution of baryons than those models predict, with width asymptotically constant (versus decreasing one in their case).
+
+Acknowledgement: This work is partly supported by Academia Sinica and National Science Foundation of China.
+
+References
+
+[1] J. Barrette et. al., Phys. Rev. Lett. 64, 1219 (1992); ibidem, 70, 2996 (1993); Y. Pang,
+
+T. J. Schlagel, and S. H. Kahana, Phys. Rev. Lett. 68, 2734 (1992); H. Sorge et. al., Nucl. Phys. A525, 95c (1991).
+
+[2] B. Andersson, G. Gustafson, and B. Nilsson-Almqvist, Nucl. Phys. B281, 289 (1987);
+
+B. Nilsson-Almqvist and E. Stenlund, Comput. Phys. Commun. 43, 387 (1987).
+
+3Some other papers [23, 24] which discuss strange baryon production from different point of view, also have difficulties with correct description of the experimental data [24, 25]. This is the current situations about the study of baryonic strange particle productions. Therefore, in our calculations, the baryon rapidity distributions from strange baryon production is supposed to have similar shape as that of protons based on measurements reported in Ref.[26] and Ref.[24].
+
+6
+
+[3] K. Werner, Phys. Rep. 232, 87 (1993). [4] Cf., for example: A. Capella et al, Phys. Rep. 236, 225 (1994) and references therein. [5] G. N. Fowler et. al., Phys. Rev. Lett. 55, 173 (1985) and Phys. Rev. D35, 870 (1987). [6] G. N. Fowler et al., Phys. Lett. B214, 657 (1988) and Phys. Rev. C40, 1219 (1989). [7] G. Wilk, Z. Wlodarczyk and R.M.Weiner, Proc. of the Workshop on Pre-Equilibrium
+
+Parton Dynamics, Berkeley, California, August 23 - September 3, 1993, ed. Xin-Nian Wang, LBL - 34831/UC - 413/CONF  p. 305.
+
+[8] E. V. Shuryak, Phys. Rep. 61, 71 (1980). [9] P. L'Heureux, B. Margolis and P. Valin, Phys. Rev. D32, 1681 (1985). [10] Yu. M. Shabelski, R. M. Weiner, G. Wilk and Z. Wlodarczyk, J.Phys. G18, 1281 (1992). [11] R. M. Weiner, G. Wilk and Z. Wlodarczyk, Phys. Rev. D45, 2308 (1992). [12] F. O. Dur~aes, F. S. Navarra and G. Wilk, Phys. Rev. D47, 3049 (1993) and D50, 6804
+
+(1994).
+
+[13] Liu Qing-Jun and Zhao Wei-Qin, Proton Spectra in Elab = 200 GeV =N 32S on 32S
+
+Central Collisions, submitted to High Energy Physics and Nuclear Physics.
+
+[14] C. W. Jager et. al., Atomic and Nuclear Data Table 14, 479 (1974). [15] R. J. Glauber, in: Lectures in Theoretical Physics, edited by W. E. Brittin and L.
+
+G. Dunham (Interscience, New York, 1959), Vol. 1 (cf. also: Cheuk-Yin Wong and Zhong-Dao Lu, Phys. Rev. 39, 2606 (1989)).
+
+[16] Particle Data Group, Phys. Lett. B239, 1 (1990). [17] Y. Eisenberg et. al., Nucl. Phys. B154, 239 (1979); B. Alper et. al., Nucl. Phys. B100,
+
+237 (1975).
+
+[18] J. Cugnon, T. Mizutani and J. Vandermeulen, Nucl. Phys. A352, 505 (1981). [19] G. Wilk, in: Multiparticle Production, Proc. of the Shandong Workshop, Jinan, Shandong, China, June 28 - July 6, 1987, (eds. R.C.Hwa and Xie Qu-bing), World Scientific, Singapore, 1987, p. 452. Cf. also: G. Wilk and Z. Wlodarczyk in: Proc. of the V Int. Symp. on Very High Energy Cosmic Ray Interactions, L'od'z, Poland, August 29 - Sept. 6, 1988, Contributed Papers Volume, p. 171; The University of L'od'z Publishers, L'od'z, 1988.
+
+[20] S. Date, M. Gyulassy and H. Sumiyoshi, Phys. Rev. D32, 619 (1988). [21] J.B"achler et. al., Phys. Rev. Lett. 72, 1479 (1994). [22] J. T. Mitchell, Nucl. Phys. A566, 415 (1994). [23] N. S. Amelin et. al., Phys. Rev. C47, 2299 (1993); H. J. Mohring et. al., Phys. Rev.
+
+D47, 4142 (1993); J. B"achler et. al., Z. Phys. C58, 367 (1993).
+
+[24] T. Alber et. al. (N A35 Collab.), Z. Phys. C64, 195 (1994). [25] V. Topor Pop et. al., Padova Univ. preprint DFPD-94-NP-42. [26] K. Jaeger et. al., Phys. Rev. D11, 2405 (1975).
+
+7
+
+Figure captions Fig. 1 Theoretical results of event-normalized proton rapidity distributions for fixed target
+
+central collisions (b = 0 fm) of Elab = 200 GeV =N 32S + 32S (solid line) and 197Au + 197Au (dotted line).
+
+Fig. 2 Theoretical results of event-normalized proton rapidity distributions for central collisions (b = 0 fm) of 32S + 32S (shown in solid line) and 197Au + 197Au (shown in dotted line) collisions at RHIC energy psNN = 200 GeV .
+
+Fig. 3 Event-normalized proton rapidity distributions in Elab = 200 GeV =N 32S + 32S
+
+fixed target central collisions. Solid line stands for theoretical result normalized to the experimentally observed number of protons. Experimental data are from reference [21].
+
+Fig. 4 Event-normalized proton transverse momentum distributions in fixed target central
+
+collisions of 32S + 32S with Elab = 200 GeV =N . Solid line stands for theoretical result normalized to the experimentally observed number of protons. Experimental data are from reference [21].
+
+Fig. 5 Theoretical prediction for event-normalized proton rapidity distributions in Elab =
+
+160 GeV =N and b = 0 fm fixed target 208Pb + 208Pb collisions.
+
+8 9 10
+

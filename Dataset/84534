@@ -1,0 +1,168 @@
+THAP041
+
+
+
+Fieldbus Device Drivers for Accelerator Control at DESY
+
+H. G. Wu, DESY
+
+Abstract Command/Configuration registers. One can load data
+In order to interface the DESY fieldbus adapter, into the register, then write to the command register to
+SEDAC (SErial Data Acquisition and Control system), start transmission. To determine telegram transmission
+a full duplex device driver was developed for the completion one can either poll the status register or
+Windows NT, Linux, VxWorks, and Solaris operating wait on interrupt.
+systems. Detailed driver development issues as well as
+a common user interface will be presented, along with a 3 DRIVER DEVELOPMENTS
+comparison of the device drivers among the different
+operating systems. In particular, we shall present
+benchmark results concerning general performance as 3.1 Comparison of different operating systems
+well as ease of development. There are different approaches to implementing
+device drivers for various operating systems.
+1 INTRODUCTION
+The DESY in-house fieldbus adapter SEDAC has 3.1.1 Windows NT
+been used extensively at DESY since 1979 when it was
+designed. Thousands of hardware pieces, ranging from The kernel SEDAC device driver on Window NT is
+control magnets, BPMs to vacuum pumps are all written with DDK (device driver kit) and SDK
+connected with the SEDAC bus. SEDAC is a single (software development kit). The development is rather
+master field bus. The SEDAC adapter (master) is via a easy because Window NT has a very powerful and rich
+I/O subsystem. Since the SEDAC adapter, and the IP to
+50 ohm BNC cable, over several kilometers, connecting PCI or ISA adapters are rather old, requiring hardware
+up to 32 SEDAC slave crates. The individual hardware jumpers, the SEDAC device driver under Windows NT
+modules are residing in the slave crate. Data are is still a legacy driver, without a Plug and Play feature
+transferred as 16 bits telegrams with 4 KHz rate, as such as WDM (Windows Driver Model) for Window
+read or write. There have been several generations of 2000.
+SEDAC adapters since then. In the past, during the
+upgrading of the machine control systems we have There are several important features for the kernel
+made several new SEDAC device drivers, which have a SEDAC driver:
+unified device access interface for using different
+versions of the adapters, and under various operating · It is object based design, the kernel objects are
+systems, such as Windows NT, Linux, VxWorks and extensively used, such as I/O Request Packets
+Solaris. (IRPs), Driver Objects, Device Objects and
+Device Extension, Interrupts Objects, Device
+arXiv: 21 Nov 2001 Queue Objects and Deferred Procedure Call
+2 HARDWARE COMPONENTS (DPC) Objects.
+One variant of the SEDAC adapters is a single slot · There is one kernel device queue (FIFO) for
+ISA card with one SEDAC line. another one is a each SEDAC IO device (line), the block of
+SEDAC IP (Industry Park) card with two lines, telegrams of all connected SEDAC lines can
+occupying two IP slots. For accessing the IP card we be parallel transmitted.
+·
+use two kinds of IP carrier card from Greenspring, It handles multiple adapters simultaneously.
+ATC40 ISA bus adapter and PCI-40A PCI bus adapter · It provides synchronous and asynchronous
+for PC. This allows access 4 SEDAC lines through a calls.
+·
+single ISA or PCI slot of a PC. The VME162 CPU A kernel timer keeps track of the passage of
+running VxWorks, with 4 on board IP slots, can also time during transmission for detecting
+timeout.
+directly access 4 SEDAC lines. Both interrupt driven · A cancel I/O routine is attached to each
+and polling mode of operation are possible. SEDAC IRP, the waiting telegrams submitted
+Like other field buses the register structure of the with asynchronous calls can be canceled by
+SEDAC adapter is rather simple, consisting of the user program. For an improperly
+READ/WRITE data, Status/Error and
+
+
+terminated program it is critical to remove telegram queues (a circular buffer) are mapped both for
+these telegrams away. VxWorks and Solaris. In order to have full bandwidth,
+· An event logger is installed to log important we choose polling mode for SEDAC device access. The
+events, such as device errors, into the System driver is operating in the user space, as a single task
+Event Log Buffer, for debugger purpose. owned device driver. A simple data structure, submitted
+· DPC is used for cleaning up packets, which from front-end server (SUN), to the queue is specified,
+makes the driver more responding. the VxWorks has a dedicated task, which is responding
+· It can request and release hardware resources for polling the queue at 4 KHz rate. After it wakes up,
+from/to the system via the registry to avoid it examines all the SEDAC lines and checks whether
+conflict with other drivers. there are waiting telegrams queued by the SUN. If there
+are any, it loads the telegrams into the adapter, then
+Several utility calls are provided, for giving status of waits for a response via semaphores. The interrupt
+the driver to applications. The diver can be called to service routine copies data and status, then releases the
+find out how many programs has connected to the semaphore for further data transmission.
+driver, how many telegrams waiting in the queue, and a
+call to cancel its own submitted telegrams. 3.2 Driver Interface
+We tested the kernel driver in polling mode, by The same user interfaces are used both for Windows
+adding either a kernel thread or a timer function. Since NT and Linux.
+the minimum time interval in NT kernel is 10 ms, In the case of a driver running under Windows NT,
+which is much longer then SEDAC telegram interval
+~250us, the thread or timer based polling driver is not we developed a DLL and an OCX (OLE Control
+suitable. eXtension) ActiveX control, for accessing the driver.
+It is easy to port the driver to WINDOW 2000 One can use direct DLL calls to read or write block of
+without many changes. telegrams synchronously. For asynchronous call one
+can use sedac.ocx. When transmission completes, the
+3.1.2 Linux SEDAC completion event will be fired. For Linux a
+similar interface routine was written. An application
+A similar kernel mode driver for Linux (kernel 2.0 can open a SEDAC line, then use simple read or write
+and 2.2) is written. Most of the coding was directly calls to transmit telegrams.
+copied from the driver on Window NT. Although the The interface routine, requested from an open line
+environment of Window NT and Linux operating call from an application, will open the SEDAC
+systems are very different, the handling of data transfer character device file (/dev/sedacX). Then the
+and control operations for the adapter are the same. application can fill in a data buffer, which contains the
+Both blocking and non-blocking calls, as well as a SEDAC line number, crate address and sub address, to
+select() mechanism are implemented. read or write. In response to a read or write call, the
+The asynchronous mode is not support directly by interface routines DeviceIoCOntrol() or ioctl() are used
+the driver. A separate user thread, with shared memory to access the device driver.
+can be used as a middle layer for making asynchronous
+calls. 3.3 Benchmarks
+The driver offers direct bus IO memory map,
+mmap() call, to application. For running full SEDAC The overhead of the kernel driver depends heavily on
+bandwidth, the application can map the SEDAC the CPU clock rates the number of connected SEDAC
+register IO memory into user space, then use polling lines. For a 133 Mhz Pentinum PC running Window
+mode to transmit telegrams. NT, the overhead is about 80us, while about 25us for
+The driver registration is down via command lines running Linux 2.2. This time is proportional to the
+during driver loading, by specifying I/O address and number of SEDAC lines, which are simultaneously in
+interrupt numbers. operation. If one use block telegrams, the transfer
+overhead is negligible, because the data transfers are all
+3.1.3 VxWorks handled down at interrupt level without lots of context
+switches between application and kernel driver. The
+We use VxWorks OS with SEDAC for the HERA large difference of the driver overhead between running
+magnet system. The front-end machine is a SUN Window NT and Linux shows that the NT system is
+workstation running Solarias with 2 CPUs, the handling many more resources, particularly as it cannot
+VxWorks memory, as a slave, can be seen from the be run in a console mode (i.e. no WINDOWS) as can
+SUN via the SBUS. In such a way, the SEDAC Linux.
+
+2
+
+
+The driver on VxWorks, as a single user mode
+driver, is operating on full bandwidth of 4 KHz.
+
+
+CONCLUSION
+
+There are similarities for writing a kernel device
+driver for different operating systems. If one driver is
+written, the others can be quickly ported with minor
+changes.
+The single user device driver in user space is most
+efficient and fast, as in the case of SEDAC device
+driver for HERA magnet system running VxWorks .
+The SEDAC device driver has shown all the
+advantages of a kernel device driver. It has high
+performance when interrupt driven. It is easy to add
+new features and adding more devices. It is also
+capable of serving multitask operation, and handling
+synchronous requests from multithreads.
+
+
+REFERENCES
+
+[1]H. Frese and G. Hochweller, 'The Serial Data
+Acquisition System at Petra', IEEE Nucl. Sci.
+26(1979), pp 3384
+
+[2] Art Baker, 'The Windows NT Device Driver Book',
+1997
+
+[3] Alessandro Rubini, 'Linux Device Divers', 1997
+
+[4] Wind River System Inc., 'Programmer's Guide',
+1997
+
+[5] Janet I. Egon and Thomas J. Teixeira, ' Writing A
+Unix Device Driver',1992
+
+
+
+
+
+
+3
+
+
+

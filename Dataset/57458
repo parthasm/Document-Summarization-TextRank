@@ -1,0 +1,563 @@
+JET ALGORITHMS.
+WRAPPING UP THE SUBJECT
+
+F. V. Tkachov
+
+Institute for Nuclear Research of Russian Academy of Sciences, Moscow 117312, Russia
+ftkachov@ms2.inr.ac.ru, http://www.inr.ac.ru/~ftkachov
+
+
+This postscriptum to the theory of jet definition 
+summarizes the points which did not find their way into the main text.
+
+
+
+
+
+Introduction 1 culminating in the design of a fast and robust Optimal
+Jet Finder [5]; the code is available from [14]).
+I've just been told that the subject of jet definition can
+never be wrapped up.1 What the title actually means is There is a remarkable synergy between different
+that this talk is supposed to close the series [1]­[5] in pieces, and none can be omitted without damaging the
+which I was presenting the theory of jet definition [6]­[9] whole. From the above list, it should be clear why it took
+as it evolved. The format and atmosphere of the QFTHEP 25 years to solve the problem of jet definition.
+workshops made them an ideal venue for that. In
+particular, all my useful interactions with experimen- Principles of the theory 3
+talists occurred or started at QFTHEPs -- including the The theory is systematically developed in two long
+contact with physicists from D0/ which resulted in the papers [7], [9]. It is based on the following metaphysical
+dotting of an i in the observation of the top quark (see realizations, treated in detail in [7]:
+Sec. 4). So, first of all:
+(I) An absolute importance of the subject. Indeed:
+Thanks to the or gani z er s! · data processing algorithms (=observables) are a
+meeting point of experimental data and theoretical
+Theoretical synthesis of the optimal jet definition 2 formulae;
+I do believe that the subject of jet definition is closed · hadronic jets are a way to observe quarks and gluons;
+in the sense that every thing relevant and important has · jets are everywhere in HEP.
+found its proper place in the theory of optimal jet
+definition (OJD): Realization of the absolute importance of the subject
+· metaphysics (what is measurement? [7]); made me dismiss the sentiment2 that any reasonable
+· piece of Fortran code can, in principle, be accepted as a
+mathematical statistics (the theory of quasi-optimal jet definition. The sentiment is only an expression of
+observables whose relevance extends beyond jets to any theoretical frustration at the 25 years' failure to find a
+arXiv: 17 Dec 2000 parameter estimation problems where theoretical input is solid foundation on which to build a systematic theory of
+represented by a Monte Carlo event generator [11]); jet definition.
+· "high mathematics" (the surprising relevance of the (II) The theory of jet definition should be tightly linked
+so-called *-weak topologies for description of calori- to quantum field theory, the theory of fundamental
+metric detectors and hadronic energy flow [7]); interactions of which jets are a visible manifestation. In
+· quantum field theory (the central role of energy corre- fact, my very first impression from the first explanations
+lators and their fundamental expression in terms of the I received about jet algorithms (from W. Giele at
+energy-momentum tensor [8]); Fermilab in 1992) was a surprise at how un-quantum-
+· QCD (the issues of IR safety, etc. [12]); field-theoretical the popular jet algorithms were.3 It was
+· numerical mathematics (algorithms for minimum obvious to me as the discoverer of the algorithms on
+search in 2K dimensions) and software engineering (the which the flourishing industry of NNLO QCD
+use of advanced software development tools [13])
+2 Voiced by M. Mangano at [15].
+3 There is a paradox here because G.Sterman and S. Weinberg each
+1 The person who said that announced after the talk his willingness to published a textbook on QFT. I have an explanation for the paradox
+
+
+
+
+
+eat his words but it has nothing to do with the subject of jets per se.
+
+
+
+
+1
+
+
+calculations is based ([16], [17]) that the conventional jet data processing algorithms, so that on the surface,
+definitions do not conform to QFT at the basic kinema- dynamical issues play a subordinate role (see, however,
+tical/structural level, resulting in complications for the discussion in Sec. 3.1).
+systematic theoretical analyses. After the paper [7] was finished, a well-meaning
+(III) Jet algorithms must be fully understood as an theorist advised me that I "should now do some data
+instrument of physical measurement. An implication is processing". The advice was ignored; the complexity of
+that the analysis of measurement errors, including the problem called for some division of labor; I just did
+fluctuations due to the statistical nature of quantum what I could in my situation, and went to great lengths4
+theory predictions -- most notably, how such errors sparing no effort5 to make my findings read by theorists
+survive the jet-algorithms-based data processing -- must and experimentalists alike.
+be a central issue to be addressed by the theory. This line As a reward for all the agony (not counting the
+of thought led me to investigate the following damage my other projects suffered due to a few years'
+fundamental analogy: neglect), the paper [7] earned me exactly three external
+citations. To the experimental one I'll turn in Sec. 4.
+ruler
+length real number Of the other two, one was an incorrect attempt to literally
+implement an ancillary interpretation quoted in a
+calorimetric detector
+energy flow
+? footnote of [7] (see [9] for details). The other was a
+prominent but non-specific citation in a review talk [20].
+
+Filling the empty slot was the key issue I was Behind the scenes, there was (among other things) an
+preoccupied with in [7]. earlier negative report on [6] which expressed a
+conviction that "kinematics" is not what the theory of jet
+In the practical aspect, ref. [7] introduced: algorithms is about -- and that the QCD dynamics was
+(i) A large new class of generalized shape observables the real issue. My reply (systematically presented in [7])
+(the so-called C-algebra), some interpreted as non- was that it may not be healthy to proceed to the dessert of
+integer jet numbers, others -- so-called spectral dynamics without first doing away with the soup of
+discriminators -- sensitive to the structure of multi-jet setting up the kinematics correctly.
+substates. The motivation was to illustrate that: In fact, there are two potentially conflicting issues:
+-- jet algorithms are, in principle, not needed to extract (a) Which jet definition is best for theoretical
+the physical information usually obtained by their inter- calculations?
+mediacy;
+-- such information is best extracted using generalized (b) Which jet algorithm is best for extracting maximum
+shape observables (this became a theorem in my second information from experimental data?
+paper [9]); and finally that The theory of the popular kT algorithm [21] simply
+-- jet algorithms are, from this viewpoint, only a means misses (b) and, settling on an ad hoc algorithmic scheme
+for approximate construction of such observables. (successive binary recombinations), focuses on (a).
+On top of that, convenience of theoretical calculations is
+(ii) The notion of regularization of event cuts as an ef- judged from the standpoint of the Sudakov-Lipatov
+fective means to suppress statistical fluctuations induced method of leading logarithmic approximation.
+in answers and thus enhance the signal/background. No expert in diagrammatics can fail to appreciate the
+(Ref. [9] offered a more systematic treatment and beauty of Sudakov's 1956 paper [22] -- or to be
+provided new examples and prescriptions for frustrated (at least at first) by L.N. Lipatov's calculational
+regularizations.) tornado -- yet to me, the LLA techniques is rather an
+(iii) A binary recombination algorithm with an optimal antiquated piece; there are much more powerful ways to
+recombination criterion which was derived uniquely handle diagrams [23].
+from first principles (within the assumption of the binary In short, the argumentation behind the kT algorithm
+recombination scheme) and which turned out to be a left me unimpressed.
+geometric mean of the JADE [18] and Geneva [19]
+criteria. (The optimal criterion was generalized in [9] into
+a global recombination scheme to become the optimal jet
+definition.)
+4 like spending a 36-hours-long birthday passing customs, waiting for
+In effect, the paper [7] introduced a novel, systematic a delayed plane and flying non-stop across the whole of Europe, the
+point of view on jet algorithms as a means of construc- Atlantic, and a good part of USA -- all this heroism in order to drop
+tion of observables for precision measurements; it is, in a the preprint [7] right where the action was.
+sense, purely kinematical in that it starts from the 5 The outrageously un-academic -- but extremely effective --graphic
+analysis of measurement errors and their evolution in on the first page was employed only after testing its effect on a few
+unwary colleagues
+
+
+
+
+2
+
+
+But what about dynamics?6 3.1 For convenience of discussion I divide the algorithms
+considered in [25] into two groups: the "good" algo-
+In the language of theory, "dynamics" is nothing more rithms (variations of the venerable Luclus8 and the kT)
+than qualitative properties of QCD matrix elements. and the "bad" algorithms (JADE and Geneva).
+The most basic such property is the collinear It was, of course, superfluous to include into com-
+singularities with the probability density behaving as parison the optimal criterion of [7] because its behavior
+-1
+~ d , 3.2 can be easily deduced from the results for the two "bad"
+algorithms. The latter fact being not mentioned in [25],
+where is the collinear angle of the emitted parton. here are some comments.
+The leading power behavior 3.2 is exactly what deter- The optimal, Geneva, and JADE criteria have, respec-
+mines the specific form of the usual conditions of IR tively, the following forms:
+safety as explicitly formulated in [24]. So making one's
+observables IR safe already includes the most important ( -
+E + E ) 1 E E × (1- cos < y , 3.4
+a b a b ab ) cut
+dynamical information into the picture. This is the case ( -
+E + E ) 2 E E × (1- cos < y , 3.5
+a b a b ab )
+e.g. with OJD -- both the 2 1 recombination version cut
+of [7] and the global N E E × (1- cos < y . 3.6
+a b ab )
+part N jets variant of [9]. cut
+If the collinear singularities were more severe, e.g. The optimal criterion happens to be a geometric mean of
+2
+- , then restrictions would have to be imposed not only the other two. It is perfectly clear that its behavior should
+on the values of observables but also on their first also be a median one.
+derivatives, and the entire theory [9] together with the Now the several graphs presented in [25] (e.g. Figs.
+resulting OJD would have changed accordingly. 18, 19, etc.) show that the behavior of JADE is always
+Compared with the leading power behavior, logarith- the worst, Geneva behaves erratically, and the "good"
+mic corrections -- resummed or not -- play a subor- algorithms populate the band between JADE and
+dinate role (this is particularly clear in the context of the Geneva.
+theory [7], [9] which offers a constructive model for the The band turns out to be pretty wide (proving that the
+notion of "physical information of the event"). effect of what one expects to be insignificant algorithmic
+So as no surprise comes the evidence (see Sec. 3.3) variations such as changes in the order of recombina-
+that the behavior of various flavors of kT algorithm would tions, is large and not incomparable with the difference
+differ from the binary version of OJD within the uncer- between the "good" and "bad" algorithms).
+tainties of the kT-type algorithms. It is also perfectly obvious that the optimal criterion is
+Moreover, ref. [9] contains an argument which demon- bound to be among the "good" algorithms. An implica-
+strates that OJD is optimal not only in the kinematical tion is that its global analog -- the OJD -- must behave
+sense but -- which was not a priori expected -- also in a similarly to the "good" algorithms.
+properly formulated dynamical sense. This shows that
+the IR safety (reflecting the singular structure 3.2) is all Now on to the experimental citation of [7].
+that really must be taken into account in the definition of
+jets; anything on top of that is best treated as something
+only theorists should worry about in their calculations.
+This conclusion is corroborated by the findings of [25] to
+which I now turn.
+
+Comparison of different binary recombination
+algorithms 3.3
+
+Another theoretical paper which came to my attention
+after the completion of [9] is the comparison of various
+versions of the iterative 2 1 recombination scheme per-
+formed by acknowledged experts in such matters [25].
+The comparison contains a number of results which are
+visible confirmations of some a priori claims made in [7]
+and [9]; for many, such explicit calculations may be more
+convincing than the logical arguments.7 (where such experiences may be common knowledge) rather then the
+specific one being dealt with (where such principles can be a novelty
+and, as such, are greeted with suspicion).
+6 A question by S. Catani at [15]. 8 Note that the definition of Luclus changed compared with the 1983
+7 A difficulty with synthetic solutions is that they often involve logical original [26]: the 1998 Luclus [25] is equivalent to the 1995 optimal
+patterns which abstract experiences from other problem domains criterion [7] with the angular factor square-rooted.
+
+
+
+
+3
+
+
+The top signal in the all-jets channel at D0/ 4 made the effort of finding me at Fermilab (where I was
+able to visit thanks to a G. Soros grant and the hospitality
+Recall that the two collaborations which reported the of FNAL theorists), showed me around the D0/ detector
+discovery of the top at FNAL in 1995, CDF and D0/, and brought me into contact with other members of the
+were in very different positions: CDF had the SVX b- all-jets group (S.Ahn and H.Prosper), and we had a nice
+tagging hardware which proved to be a powerful means long discussion about regularization of cuts and spectral
+for selecting the events with top. In particular, at the time discriminators. N. Sotnikova (a member of both D0/ and
+of the top discovery in 1995, D0/ could not see the top the QFTHEP team) ensured that the draft of [7] was well
+signal in the all-jets channel. So there was a strong advertised and plentifully available at D0/ . The next time
+competitive pressure on D0/ to seek alternative methods. I heard about the D0/ all-jets group was at QFTHEP'96
+The preprint release of [7] could not be more timely. from E.Boos who mentioned some striking results but
+I'd like to emphasize that the initial contact with D0/ could not provide any details. I tried to get into contact
+physicists occurred at QFTHEP'93 [1]. Another peculiar with D0/ but failed. I heard nothing from them since then
+circumstance is that both physicists (A. Klatchko and -- and switched to asymptotic expansions of Feynman
+D. Stewart) who are to be credited for bringing the new diagrams, the subject neglected since 1992 in favor of
+theory to the attention of the D0/ all-jets team, had to jets -- until I ran across ref. [10] while at CERN in
+leave physics. March, 2000. Their page 59 contains the following
+At QFTHEP'93 A. Klatchko picked up a copy of my passage which I cannot resist quoting:
+talk and brought it to Fermilab. The copy was inherited
+by D. Stewart. Although about to leave physics too, he
+
+
+"... Additional cuts are applied to remove events with noise from the Main Ring. After these cuts, about 280,000
+events remain. At this stage, the signal to background ratio is about 1:1000. Requiring an SLT b-tag increases the
+signal/background by about an order of magnitude, leaving 6000 events.
+
+To make further progress, D0 performs a multivariate analysis using thirteen variables, described briefly in
+Table 10. The principal ones are jet1 jet2
+H , H H - E - E A
+N
+3 , the average jet count , the aplanarity A , the
+T T T T T jets
+
+µ
+centrality jet
+C H E p
+jets , and the transverse momentum of the muon . A particularly powerful (and
+T T
+
+unusual) variable is the average jet count, defined by
+
+
+¤ 55 GeV ¤ 55 GeV
+¡
+A
+N ¢ E N £ E dE E dE (17)
+jets ,
+T T T T T
+15 GeV 15 GeV
+
+
+where N (> E is the number of jets with transverse energy greater than E . This variable, inspired by the work
+T ) T
+
+of Tkachov90 is interesting in that it assigns a nonintegral "number of jets" to the event.
+
+These thirteen variables are combined using feed-forward neural networks ..." (90 = [7])
+
+The final result of the procedure is observation of the top events differ. They might have replaced 's with the
+excess of events containing top over background in the equivalent integral quantities N (> E (similarly to how
+T )
+total cross section at the level of 3.2. this is done in the probability theory to avoid directly
+To appreciate the work behind the observable (17), dealing with singular probability densities) and then
+note that it has no direct analog in [7]. I can think of the used event generators to study the corresponding patterns
+following way to arrive at it. In [7], the so-called spectral for background events and events with top to arrive at
+discriminators were introduced which, for narrow jets, their observable (see Sec. 4.2).
+allowed representations At this point, I cannot help reminiscing how a promi-
+
+d w( )
+( - S ), 4.1 nent QCD expert told me he'd found ref. [7] incompre-
+j
+j hensible -- apparently, because there were in it no
+where summation runs over all (multi-)jets of the event leading logarithms, no parton distributions -- in short,
+and S none of what QCD theorists swear by. Another expert
+j is a variable like invariant mass (or transverse
+energy) of the (multi-)jet. This kind of observables are advised me that the things I discussed were not what
+not usually considered, and D0/ must have simply ignored experimentalists really needed. Also, shortly after the
+what I wrote about how such observables can be defined release of [7] an American theorist P. ventured to run
+bypassing jets, and focused on the simplest case, i.e. tests of spectral discriminators. Despite obtaining pic-
+distribution of event's jets along the axis E tures which fully agreed with the qualitative expectations
+T , and tried to
+see how the resulting patterns for background events and of [7], P. strangely made an exactly opposite conclusion.
+My guess is, he simply coded the formulae of [7] as is
+
+
+
+4
+
+
+without trying to understand their meaning, and naively The entire theory of jet algorithms now reduces to
+expected to see exactly the bumps I draw there. Instead, studying ways of construction of such approximations.
+he saw a shoulder, and a steeply rising background to the
+left of it. The presence of the shoulder was a clear indi- It is this embedding of the problem of jet definition into a
+cation that the signal was there, and one only had to broader context which provides an unambiguous
+study its evolution and to figure out a simple way to criterion for deciding which algorithm is best:
+extract the numerical information (e.g. a wavelet filter
+would do nicely). But, apparently, there are easier ways The best jet algorithm is that which allows one to
+construct the best observable for measurements of a
+for a theorist equipped with a computer and a MC given parameter; the best observable is that which
+generator to produce a publication than deep experimen- yields the best precision for the parameter.
+tation with novel ways to process data. (For fairness'
+sake, the dominant software engineering platform in Second, I now derived the most general N
+part N jets
+HEP -- Fortran, C, etc. -- does not encourage such recombination criterion for finding jets. The criterion
+experimentation.) required minimization of a multi-axes generalization of
+Power of regularizations 4.2 the well-known thrust. (An e-mail from W. Giele about a
+forthcoming session of the jet definition working group
+An important trick in the construction of good at FNAL in March, 2000 stimulated exploration of
+observables is regularization. This is a concept widely algorithmic implementations of OJD, resulting in an
+used in applied mathematics (see [7] for references). efficient code [5].)
+In [7] and [9], I only gave simple examples to illustrate Third, there were systematically motivated ways to
+potential benefits of regularizations (which, by the way, treat the problem of non-uniqueness of jet configurations
+come in many flavors, although with the same via association of multiple (appropriately weighted) jet
+underlying principles). The above D0/ observable (17) configurations with the same event. For details, the
+offers a great real-world discovery-class example of how reader is referred to [9].
+useful a regularization can be.
+Quasi-optimal observables 5.1
+Indeed, suppose one has noticed that top events tend
+to produce more energetic jets. Then one would consider Pondering the D0/ observable (17), one is faced with a
+the observable N (> c) ("the event has N jets with ener- natural question: Is there a way to obtain such
+gies above c") with some c . An integer-valued obser- "particularly powerful" observables in this and similar
+vable is discontinuous, and its discontinuities are, on problems with less guesswork than had been involved in
+general grounds, sources of non-optimality (loss of the finding of (17)? The answer is yes, and the corres-
+physical information due to unnecessary enhancement of ponding prescriptions are called the theory of quasi-
+statistical fluctuations in the transition from raw data to optimal observables. In view of its general importance,
+the values of the observable; see [9]). Such non-optima- it was posted separately [11] rephrased in the jargon of
+lities are eliminated by introducing a continuous regulari- parameter estimation of mathematical statistics. The
+zation, e.g. in the form of a smearing over the cut c . theory is simple and closely related to the Rao-Cramer
+General principles do not fix details like the weight used inequality; see [9] or [11].
+for the smearing. At this point some experimentation is Quasi-optimal observables are a means to approach
+needed. Finding an optimal shape of regularization, how- the quality of the maximal likelihood method in situa-
+ever, is a much more specific task than the original one. tions where its application is problematic such as
+Note that the smearing as a way to regulate a hard cut encountered in HEP (infinite dimensionality of the under-
+was not explicitly mentioned in [7] (although smearings lying event space and a probability density in the form of
+were mentioned in other contexts). event generator rather than an explicit formula).
+A conclusion from the D0/ experience is as follows: Although maximal likelihood is widely used (see e.g.
+[10]), the method of quasi-optimal observables is
+Learn to use regularizations. simpler, more flexible, and offers new options both for
+design of general-purpose software tools and for data
+processing in specific applications.
+Optimal jet definition: the final form 5 For instance, instead of the observable (17), I would
+The second part of the theory, ref. [9], improved upon simply MC-generate a quasi-optimal observable in the 6-
+the first in almost every point. I now had a proof that dimensional space of the variables jet
+E (e.g. using a
+T
+observables which yield the theoretically best precision rectangular grid; the formal parameter to be estimated
+for a particular parameter are always the generalized would be the coupling to produce top-antitop pairs).
+shape observables; jets-based observables can only yield If constructed with enough care, such an observable
+approximations to such optimal observables. As a result: might well obviate the need for neural networks.
+
+
+
+5
+
+
+(This would certainly be the case for a quasi-optimal quasi-optimal observables. As a result, OJD (unlike
+observable constructed for the variables including the six binary recombination algorithms, whether optimal or kT)
+jet
+E plus all the variables from Table 10 which cannot offers natural regularizations to solve such problems as
+T the potential non-uniqueness of jet configurations (which
+be expressed in terms of these.) reflects the fact that different parton configurations may
+² generate the same hadronic final state).
+It would be interesting to develop universal adaptive
+software to automatically generate quasi-optimal obser- On the difficulty of computer implementation 5.3
+vables given a sample of events and a number of (more
+or less ad hoc) variables. From [25] I learned that generalizations of thrust were
+proposed for jet definition in the early 80's [28].
+(It looks like this could be done without recurring to The exact form of OJD (in particular, the treatment of
+fancy techniques such as neural networks etc.) soft energy via an additive term) could, of course, not
+A practical conclusion is this: have been guessed a priori. On the other hand, ref. [25]
+concluded that jet search based on optimization of thrust-
+Learn to construct quasi-optimal observables. like shape observables was computationally prohibitive.
+To this I note the following:
+
+Unless I missed something in [10], the top mass has not The code and data structures of the OJD implemen-
+yet been measured in the all-jets channel at D0/. This tation described in [5] take under 300K of RAM for
+could be an excellent starting point. LEP2 events, and the algorithm finds jets for such an
+event in a fraction of a second on a modest Pentium.11
+The global N
+part N jets recombination algorithm 5.2 Such an algorithm could be implemented even on a 1984
+PC with 640K of RAM.
+The derivation, description and discussion can be
+found in [9]. A convenient brief summary of the defini- What was lacking was not hardware or even software
+tion is given in [5]. Suffice it to say the following: (the old Fortran IV not to say Turbo Pascal 1.0 would
+· have been sufficient) but expertise in numerical mathe-
+OJD prescribes to determine the jet configuration via matics and software engineering as well as determina-
+minimization of shape observables which generalize the tion. Determination could have only come from realiza-
+venerable thrust to n axes. tion of the theoretical depths behind OJD. The software
+· OJD is similar to a cone algorithm9 in that there is a engineering aspect is discussed in the notes collected in
+parameter, R, which limits the cone radius, and the [29]. Here I would only like to point out that the displa-
+resulting cones are less irregular than with binary cement of Fortran in favor of C++ (rather than strictly
+recombinations. type-safe languages such as any version of Oberon-2; see
+· Being a global version of the binary recombination e.g. [13]) in the physicists' software engineering is a
+algorithm of [7], its behavior and properties (e.g. disaster of historic proportions (and a good part of the
+stability) can only be better than for the binary explanation of inability of theorists to accomplish com-
+recombination version (which as we saw in Sec. 3.3 plete 1-loop calculations for LEP2). It is also absolutely
+should be on a par with other "good" jet algorithms10). irrational in view of the existence of simple and powerful
+· alternative in the form of the Oberon-2 family of
+The speed of jet search is expected to be languages representing the brilliant tradition of design of
+O( N × N ) ; compared with the 2
+O( N ) behavior
+part jets part N. Wirth and his school starting from the old Pascal (see
+of binary recombination schemes (including k [29] for more on this).
+T), this
+property alone might make OJD the jet algorithm of The harnessing of the digital revolution being a major
+choice for future colliders such as LHC where multi- infrastructure problem in physics as elsewhere, a com-
+plicities are much higher. petent and responsible policy of steering the HEP com-
+· OJD is intrinsically connected with the theory of munity towards the use of safe programming languages
+-- and redirecting human energy released thereby into
+more productive activities than debugging C++ codes --
+9 I incorrectly stated in a talk that OJD is equivalent to a cone would have a major positive impact on physics.
+algorithm for events with well defined jets. However, the cone radius
+in OJD depends on the distribution of energy around the jet axis, so
+that the techniques of energy corrections developed for fixed cone
+algorithms would have to be modified.
+10 This has been confirmed in a number of un-premeditated tests run
+on realistic MC event samples by Pablo Achard [27]. In at least one
+graph I saw with my own eyes, OJD resolved partons significantly 11 For the events tested by Pablo Achard [27], the OJD implemen-
+better (with an efficiency close to 100%) than kT (~70%) in the entire tation of [5] was somewhat slower -- but not significantly -- than kT.
+interval of rapidities where both algorithms yielded meaningful Note that ref. [5] focused on feasibility studies and did not attempt to
+results. implement all possible algorithmic optimizations.
+
+
+
+
+6
+
+
+Conclusions 6 Appendix. The benefits of OJD compared with kT 6.1
+
+To the best of my understanding, the subject of jet All the QCD argumentation behind kT boils down in
+definition as a theoretical problem is closed. the end to the proposition that with it, better theoretical
+The most important next task in regard of jet-related calculations are possible. However:
+data processing appears to be for physicists to learn to · Experimental data are more valuable than theoretical
+use OJD for construction of quasi-optimal observables numbers Preserving information from data is more
+for specific applications. important than making it easier for theorists to do their
+Psychologically, the main difficulty may be to stop calculations. OJD is optimal precisely because it
+wasting human effort (and other valuable resources) on preserves the experimental information in the best
+the obsolete jet definitions. manner possible.
+· As regards calculations: nothing compares with shape
+Acknowledgments observables such as thrust in regard of calculability (LLA
+This work was supported in part by the Russian Foun- or NLLA) and amenability to theoretical analyses (power
+dation for Basic Research (quantum field theory corrections), and OJD is based on such observables.
+section12) under grant 99-02-18365.13 Furthermore, there are better ways to do complex
+I am grateful to V. von Schlippe for a comment, and calculations than the archaic Lipatov-Sudakov
+to S. Karshenboim for suggesting a term. techniques, namely, the systematic machinery of
+asymptotic operation [23] whose euclidean version,
+Finally, it is my greatest pleasure to thank the organi- remember, is behind most of the well-known NNLO
+zers of the QFTHEP workshops (E.E. Boos, B.B, Lev- calculations in QCD.
+tchenko, V.I. Savrin and N.A. Sveshnikov ) for their · Further, the binary recombination scheme per se is
+invariable support over all these years. flawed (cf. the large variations between different variants
+of "good" recombination criteria [25]).
+· The kT algorithm behaves quadratically in the number
+of particles, and OJD may run faster for LHC multipli-
+12 There is far too much to my taste of this sort of things that goes cities.
+unrecorded, so here is my contribution: in 1998 when the above
+FNAL report was released, the HEP section of the Russian · OJD offers new options for a systematic construction
+Foundation for Basic Research denied me support for my projects. of better observables -- options not available within any
+If the support were not resumed by the quantum field theory section conventional jet definition schemes.
+(and no, jets were not even mentioned in my grant application) you
+would most certainly not learn about OJD.
+
+This must have something to do (as I realize post factum) with the
+old story of Landau vs. Bogolyubov reflected within the Russian
+theoretical physics in the form of a certain gruppovschina, with the
+two sections of RFBR influenced by the respective theoretical schools.
+I do not see what I personally have to do with that old story except a
+sufficient mathematical background to have drifted in my years of
+innocence to Bogolyubov's cathedra (I do own a complete set of the
+Landau and Lifshits textbooks too).
+
+For fairness' sake, the fundamental reason for that bitter controversy
+lied not so much in particular personalities (the mistake usually made)
+but in the overcentralization of everything in Russia, so that the entire
+hierarchy is affected by idiosyncrasies of the individuals at the top
+multiplied by the centuries-old tradition of servility of subordinates.
+
+There is an objective tendency for similar effects to occur wherever
+individuals are endowed with considerable administrative powers
+(Germany comes to mind, with perhaps servility replaced by
+discipline) and wherever resource-allocation politics finds fertile soil
+in complex hierarchies within which there often are no efficient checks
+to deter individuals from irresponsibility in spreading their
+"necessarily somewhat subjective" opinions.
+
+13 I wish I could benefit from even a tiny fraction of the funds used up
+by the two jet definition working groups (FNAL and Des Houches)
+which operated during 1999 while the work on the final version of [9]
+and on the software implementation of OJD [5], was in progress:
+a mere 0.1% would have been enough for a mighty upgrade of my
+computers. It is rather a paradox given the state of physics in Russia
+that up to this point, the work on the theory of jets and OJD was
+performed as a kind of charity for the international HEP community.
+
+
+
+
+7
+
+
+References
+
+[1] F.V. Tkachov: Calorimetric measurements and jet ~: Algebraic algorithms for multiloop calculations. The
+counting [QFTHEP'93, Zvenigorod, Russia, 15-21 Sept. first 15 years. What's next?,  [NUIMA
+1993, ed. B.Levtchenko, INP MSU, Moscow, 1994]. A389 (1996) 309].
+[2] F.V. Tkachov: Optimizing computations of jet [17] F.V. Tkachov: On the operator product expansion in the
+discriminators [QFTHEP'94, Zvenigorod, Russia, 16-22 MS scheme [Phys. Lett. 124B (1983) 212];
+Sept. 1994, ed. B.Levtchenko, INP MSU, Moscow, 1995]. ~: Advanced methods for studying radiative corrections.
+[3] F.V. Tkachov: From jet algorithms to C-algebra. Theory of asymptotic operation, 
+Measurement errors and regularization of cuts, hep- [QFTHEP'92; Phys. Part. Nucl. 25 (1994) 649].
+ [QFTHEP'95, Zvenigorod, Russia, 20-26 [18] JADE Collaboration (W. Bartel et al.), [Z. Phys. C33
+Sept., ed. B.Levtchenko, INP MSU, Moscow, 1996]. (1986) 23].
+[4] F.V. Tkachov: Status of the theory of jet observables [talk [19] S. Bethke, Z. Kunszt, D.E. Soper and W.J. Stirling: New jet
+at QFTHEP'97, Samara, Russia, 4-10 Sept. 1997]. cluster algorithms: next-to-leading order QCD and ha-
+[5] D.Y. Grigoriev and F.V. Tkachov: An efficient dronization corrections [Nucl. Phys. B370 (1992) 310].
+implementation of the optimal jet definition, [20] G. Sterman: Recent progress in QCD, 
+ [QFTHEP'99, Moscow, May 27 - June 2, [talk at APS Meeting of Division of Particles and Fields
+1999. Eds. B.Levtchenko and V.Savrin, INP MSU, (DPF 99), Los Angeles, CA, 5-9 Jan. 1999].
+Moscow, 2000]. [21] S. Catani, Y.L. Dokshitzer, M. Olsson, G. Turnock and
+[6] F.V. Tkachov: Measuring the number of hadronic jets, B.R. Webber: New clustering algorithm for multijet cross
+ [Phys. Rev. Lett. 73 (1994) 2405; Errata sections in e+e- annihilation [Phys. Lett. 269B (1991)
+ibid. 74 (1995) 2618]. 432].
+[7] F.V. Tkachov: Measuring multijet structure of hadronic [22] V.V. Sudakov: Vertex parts at very high energies in
+energy flow, or, What is a jet?,  [FERMI- quantum electrodynamics [Sov. Phys. JETP 30 (1956)
+LAB-PUB-95/191-T; Int. J. Mod. Phys. A12 (1997) 5411]. 87].
+[8] N.A. Sveshnikov and F.V. Tkachov: Jets and quantum [23] F.V. Tkachov: Towards systematic near-threshold
+field theory,  expansions in perturbative QFT ,  [Phys.
+[Phys. Lett. B382 (1996) 403]. Lett. B412 (1997) 350];
+[9] F.V. Tkachov: A theory of jet definition, ~: Distribution-theoretic methods in quantum field
+ (revised Jan. 2000). theory,  [talk at the Bogolyubov Conf.,
+[10] P.C. Bhat, H. Prosper and S.S. Snyder: Top quark physics Moscow-Dubna-Kyiv, 27 Sept. ­ 6 Oct. 1999].
+at the Tevatron,  [Int. J. Mod. Phys. A13 [24] G. Sterman: Mass divergences in annihilation processes.
+(1998) 5113]. I. Origin and nature of divergences in cut vacuum
+[11] F.V. Tkachov: Approaching the parameter estimation polarization diagrams [Phys. Rev. D17 (1978) 2773].
+quality of maximum likelihood via generalized moments, [25] S. Moretti, L. Lonnblad and T. Sjostrand: New and old jet
+. clustering algorithms for electron-positron events, hep-
+[12] G. Sterman and S. Weinberg: Jets from quantum  [JHEP 9808 (1998) 1].
+chromodynamics [Phys. Rev. Lett. 39 (1977) 1436]. [26] T. Sjöstrand: Comp. Phys. Comm. 28 (1983) 229.
+[13] Oberon Microsystems, Inc., http://www.oberon.ch. [27] Pablo.Achard@cern.ch (L3).
+[14] http://www.inr.ac.ru/~ftkachov/projects/jets/index.htm. [28] J.B. Babcock and R.E. Cutkosky: Identification of jets
+[15] F.V. Tkachov [talk the CERN Theory Div. Seminar, [Nucl.Phys. B176 (1980) 113].
+March 2000]. [29] F.V. Tkachov: Theoretical physicist's personal software
+[16] F.V. Tkachov: A theorem on analytical calculability of 4- engineering in the post-Java world [to be posted].
+loop renormalization group functions [Phys. Lett. 100B
+(1981) 65];
+
+
+
+
+
+8
+
+
+

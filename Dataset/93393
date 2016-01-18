@@ -1,0 +1,1702 @@
+
+
+ 26 Oct 95
+
+Relativistic Transport Approach for Nucleus-Nucleus
+
+Collisions from SIS to SPS Energies ?;??
+
+W. Ehehalt and W. Cassing Institut f"ur Theoretische Physik, Universit"at Giessen, 35392 Giessen, Germany
+
+Abstract
+
+We formulate a covariant transport approach for high energy nucleus-nucleus collisions where the real part of the nucleon selfenergies is fitted to nuclear matter properties which are evaluated on the basis of a NJL-type Lagrangian for the quark degrees of freedom. The parameters of the quark-model Lagrangian are fixed by the Gell-Mann, Oakes and Renner relation, the pion-nucleon \Sigma -term, the nucleon energy as well as the nuclear binding energy at saturation density ae0. We find the resulting scalar and vector selfenergies for nucleons to be well in line with either DiracBrueckner computations for ae ^ 2ae0 or those from the phenomenological optical potential when accounting for a swelling of the nucleon at finite nuclear matter density. The meson-baryon interaction density is modelled to describe a decrease of the meson mass with baryon density. The imaginary part of the hadron selfenergies is determined by a string fragmentation model which accounts for the in-medium mass of hadrons in line with the 'chiral' dynamics employed. The applicability of the transport approach is demonstrated in comparison with experimental data from SIS to SPS energies. The enhancement of the K+=ss+ ratio in A + A collisions compared to p + A reactions at AGS energies is reproduced within the 'chiral' dynamics. Furthermore, detailed predictions for the stopping in Pb + Pb collisions at 153 GeV/A are presented.
+
+1 Introduction The study of hot and dense nuclear matter by means of relativistic nucleusnucleus collisions is the major aim of high energy heavy-ion physics. However, any conclusions about the nuclear properties at high temperature or baryon densities must rely on the comparison of experimental data with theoretical
+
+? supported by DFG and GSI Darmstadt ?? Part of the PhD thesis of W. Ehehalt
+
+Preprint submitted to Elsevier Science 26 October 1995
+
+approaches based on nonequilibrium kinetic theory. Among these, the covariant RBUU approach [1-9], the QMD [10] or RQMD model [11] have been successfully used in the past. As a genuine feature of transport theories there are two essential ingredients: i.e. the baryon (and meson) scalar and vector selfenergies - which are neglected in a couple of approaches - as well as inmedium elastic and inelastic cross sections for all hadrons involved. Whereas in the low-energy regime these 'transport coefficients' can be calculated in the Dirac-Brueckner approach starting from the bare nucleon-nucleon interaction [12,13], this is no longer possible at high baryon density (aeB * 2-3ae0) and high temperature, since the number of independent hadronic degrees of freedom increases drastically and the nuclear system is expected to enter a phase where chiral symmetry is restored [14-17]. Such a phase transition is dynamically due to a change of the nonperturbative QCD vacuum at high temperature or baryon density and the chiral invariance of the interaction between quarks and gluons in the QCD Lagrangian. As a consequence the hadron selfenergies in the nuclear medium should change substantially especially close to the chiral phase transition and any transport theoretical study should include the generic properties of QCD that so far are known from nonperturbative computations on the lattice [18-21]. However, such nonperturbative calculations will not be possible for high baryon densities within the next years and we have to rely on suitable effective Lagrangians that lead to the same physical condensates and thermodynamic behaviour as the original QCD problem.
+
+In this paper we aim at formulating a 'chiral' transport theory for the hadronic degrees of freedom, which in covariant notation formally can be written as a coupled set of transport equations for the phase-space distributions fh(x; p) of hadron h [1-3,7,8], i.e.
+
+ni\Pi
+
+_ \Gamma \Pi *@p_U *h \Gamma M \Lambda h @p_U Sh j @_x + i\Pi *@x_U *h + M \Lambda h @x_U Sh j @_p o fh(x; p)
+
+= X
+
+h2h3h4::: Z
+
+d2d3d4 : : : [GyG]12!34:::ffi4\Gamma (\Pi + \Pi 2 \Gamma \Pi 3 \Gamma \Pi 4 : : :)
+
+\Theta nfh3(x; p3)fh4(x; p4) _fh(x; p) _fh2(x; p2) \Gamma fh(x; p)fh2(x; p2) _fh3(x; p3) _fh4(x; p4)o : : : : (1)
+
+In eq. (1) U Sh (x; p) and U _h (x; p) denote the real part of the scalar and vector hadron selfenergies, respectively, while [G+G]12!34:::ffi4\Gamma (\Pi + \Pi 2 \Gamma \Pi 3 \Gamma \Pi 4 : : :) is the 'transition rate' for the process 1 + 2 ! 3 + 4 + : : : which is taken to be on-shell in the semiclassical limit adopted 1 . The hadron quasi-particle
+
+1 The index \Gamma at the ffi-function indicates that off-shell transitions of width \Gamma should also be allowed. In the actual transport simulation, however, we use the on-shell limit \Gamma = 0.
+
+2
+
+properties in (1) are defined via the mass-shell constraint [7],
+
+ffi(\Pi _\Pi _ \Gamma M \Lambda 2h ) ; (2)
+
+with effective masses and momenta given by
+
+M \Lambda h (x; p) = Mh + U Sh (x; p)
+
+\Pi _(x; p) = p_ \Gamma U _h (x; p) ; (3)
+
+while the phase-space factors
+
+_fh(x; p) = 1 \Sigma fh(x; p) (4)
+
+are responsible for fermion Pauli-blocking or Bose enhancement, respectively, depending on the type of hadron in the final/initial channel. The dots in eq. (1) stand for further contributions to the collision term with more than two hadrons in the final/initial channels. The transport approach (1) is fully specified by U Sh (x; p) and U _h (x; p) (_ = 0; 1; 2; 3), which determine the meanfield propagation of the hadrons, and by the transition rates GyG ffi4(: : :) in the collision term, that describe the scattering and hadron production/absorption rates.
+
+The scalar and vector mean fields U Sh and U _h are conventionally determined in the mean-field limit from an effective hadronic Lagrangian density LH which is the sum of the Lagrangian density for the free fields L0h and some interaction density LintH , i.e.
+
+LH = X
+
+h L
+
+0h + LintH : (5)
+
+The actual form of LintH , however, is only known for more simple cases at low baryon density aeB and its general form at high aeB and for large relative momenta between the interacting hadrons - which is probed in nucleus-nucleus collisions up to 200 GeV/A - is essentially undetermined. This opens up a large parameter space for coupling constants ghh0, from factors at the vertices as well as respective powers in the hadron fields, which might lead to various density isomers in the nuclear equation of state or mesonic condensates, respectively.
+
+In order to reduce this large parameter space and to incorporate aspects of chiral symmetry we here adopt the strategy to specify LintH for baryons via an effective Lagrangian for the underlying quark degrees of freedom Lq for nuclear-matter phase-space configurations (see below). In fixing scalar and vector couplings as well as vertex cutoffs for the 'quarks' and by comparing the energy density for nuclear-matter configurations from Lq with that of LH
+
+3
+
+on the hadronic side, we can fit hadronic couplings and vertices in LintH even for high baryon densities and thus determine U Sh and U _h in the transport equation (1) in a less arbitrary way.
+
+The 'hard' hadronic processes, on the other hand, which govern the r.h.s. of eq. (1), are modeled by the LUND string-fragmentation [22] which is known to describe inelastic hadronic reactions in a wide energy regime at zero baryon density. The medium modifications due to the hadron selfenergies, however, require to introduce some conserving approximations in line with the density dependent hadron masses. With the specifications of U Sh (x; p) and U _h (x; p) and the inelastic collision rates GyGffi(:::) the transport approach (1), which will be denoted by HSD 2 , is fully defined and can be confronted with experiment.
+
+Our work thus is organized as follows: In Section 2 we will evaluate the nucleon selfenergies U SN; U _N on the basis of a NJL-type Lagrangian Lq and model the meson-baryon interaction. In this respect we first fix the free parameters of our quark model interaction by the Gell-Mann, Oakes and Renner relation [23], the pion-nucleon \Sigma -term and the free 'nucleon' mass. We then extend our study to the computation of the energy density of nuclear matter configurations, discuss the necessary modification of the nucleon formfactor in the medium and present results for the nuclear equation of state at low and high baryon density. Scalar and vector selfenergies for the nucleons are obtained by fitting the coupling parameters in the covariant approach of Weber et al. [7] to the density dependence of the effective mass and the energy per nucleon from the NJL calculations. We compare our results to the low density, low energy Dirac phenomenology and discuss the extrapolations to high baryon density and large relative momenta. Furthermore, the meson-baryon interactions in LintH are described along the line of Kaplan and Nelson [24] essentially employing density-dependent meson masses. In Section 3 we specify the modifications of the familiar LUND string-fragmentation model [22], which models the imaginary part of the hadron selfenergies or collision rates, to include (as a first step) the modification of the hadron masses at finite baryon density. In Section 4 we apply our transport approach to nucleus-nucleus collisions from SIS to SPS energies and test its applicability in comparison with experimental data. As a first test for the partial restoration of chiral symmetry in heavyion collisions we compute the K+=ss+ ratio for systems at AGS energies and compare to the available data. Section 5, finally, is devoted to a summary and discussion of open problems.
+
+2 Hadron-String-Dynamics
+
+4
+
+2 Hadron selfenergies In this section we specify the evaluation of the mean fields U Sh and U _h that enter the l.h.s. of the transport equation (1) for the mean-field propagation. In order to reduce the parameter space and to obtain extrapolations for U Sh and U _h at high baryon density, we use an effective Lagrangian density Lq for quarks that is compatible with the approximate chiral invariance of the QCD Lagrangian. We thus first fix the effective Lagrangian Lq for the quark degrees of freedom on the mean-field (one loop) level for low energy QCD problems, where the gluon fields Aa_(x) are supposed to be integrated out. The effective interaction determined in this way should not be used in further perturbation theory (e.g. for scattering or transition rates) since it is assumed to be the result of an infinite resummation of interaction diagrams. In a second step we then extract the real part of nucleon selfenergies from quark configurations that describe nuclear matter at finite density.
+
+2.1 The effective quark Lagrangian The underlying idea of an effective 4-point interaction for quarks has already been discussed e.g. by Vogl and Weise in ref. [25]. Since the fundamental currents in QCD are color currents, i.e. J a_ = _qfl_taq, an elementary color current interaction with a universal coupling GC is expected to be dominant. An effective Lagrangian for ffi(x1 \Gamma x2)-like quark interactions thus reads
+
+Lq(x) = _q(ifl_@_ \Gamma ^m0)q \Gamma G2C
+
+8X
+
+a=1 i
+
+_qfl_taqj2 ; (6)
+
+where ta(a = 1; :::; 8) are the SU (3)color matrices with tr(tatb) = ffiab=2; ^m0 a diagonal mass matrix in flavor space, i.e. ^m0 = diag(m0u; m0d; m0s ) and _q = (_u; _d; _s) is the quark spinor in case of SU (3)flavor. The color-current interaction is invariant under chiral transformations or SU (3)flavor rotations. The Lagrangian (6), however, in its present form is not yet well suited for the formulation of quark dynamics on the mean-field level because antisymmetrization generates a further mixing of color, flavor and Dirac indices. It is thus more convenient to introduce a Fierz transformation, i.e. to antisymmetrize the 4-point interaction to proceed with further computations on the Hartree level. The Fierz transform then generates color singlet as well as color octet terms, i.e. [25,26]
+
+Lq(x) = _q(ifl_@_ \Gamma ^m0)q + G2S
+
+8X
+
+i=0
+
+8!:
+
+_q *i2 q!
+
+2
+
++ _qifl5 *i2 q!
+
+29=;
+
+5
+
+\Gamma G2V
+
+8X
+
+i=0
+
+8!:
+
+_qfl_ *i2 q!
+
+2
+
++ _qfl5fl_ *i2 q!
+
+29=;
+
+\Gamma G2C
+
+8X
+
+a=1 i
+
+_qfl_taqj2 \Gamma 23 G2C
+
+8X
+
+a=1
+
+8X i=0
+
+8!:
+
+_q *
+
+i
+
+2 t
+
+aq!
+
+2
+
++ _qifl5 *
+
+i
+
+2 t
+
+aq!
+
+29=;
+
++ 13 G2C
+
+8X
+
+a=1
+
+8X i=0
+
+8!:
+
+_qfl_ *
+
+i
+
+2 t
+
+aq!
+
+2
+
++ _qfl_fl5 *
+
+i
+
+2 t
+
+aq!
+
+29=;
+
+; (7)
+
+where G2S = 2G2V = 89 G2C. In (7) the matrices *i(i = 1; ::; 8) stand for the SU (3)flavor degrees of freedom with tr(*i*j ) = 2ffiij while *0 is given by
+
+*0 = q 23I3 with I3 denoting the 3x3 unitary matrix in flavor space 3 . The Lagrangian (7) in its color-singlet version has been the starting point for RPAtype calculations for the bosonic excitations of the nonperturbative QCD vacuum, i.e. the mesonic degrees of freedom [25-27]. Similar Lagrangian densities have also been exploited by a variety of authors [28-36] following an early suggestion by Nambu and Jona-Lasinio (NJL) [37].
+
+In our present study we will discard the mesonic (RPA-type) sector and concentrate on the determination of a static effective quark-quark interaction by nucleon properties as well as nuclear matter related quantities. Similar concepts have been proposed by Guichon [38] and Saito and Thomas [39] based on bag-model wavefunctions. Here we start with a slightly different concept by determining the quark wavefunctions for the nucleon from the experimental data for the proton electromagnetic formfactor. In this way we intend to circumvent the problem of absolute confinement which cannot be dealt with properly using only a color neutral mean-field approach of the NJL-type. Since we are only interested in energy densities for given quark configurations, the resulting Lagrangian should not be used for dynamical studies such as the RPA response (mesonic sector). Furthermore, it is not expected that the respective soliton solution of (7) for a nucleon presents a dynamically stable object of a shape consistent with the experimental proton formfactor.
+
+2.2 The isospin symmetric nucleon system In this Subsection we concentrate on vacuum as well as nucleon properties, where the nucleons are assumed to be represented by 3 additional valence quarks with a fixed phase-space distribution on top of the (truncated) Dirac sea with a formfactor in line with the experimental data. The singlet terms of
+
+3 The most general four-point interaction compatible with QCD symmetries starts from combinations of all possible vector and axial currents. Therefore, in general, there is no strict relationship between GS and GV.
+
+6
+
+the Lagrangian (7) in the mean-field limit - performing the sum over the flavor matrix elements - then leads to the following Lagrangian for _k = (_u; _d; _s),
+
+Lq(x) = X
+
+k=u;d;s n
+
+_k iifl_@_ \Gamma m0kj k
+
++ G
+
+2S
+
+2 aei _kkj
+
+2 + i _
+
+kifl5kj
+
+2oe
+
+\Gamma G
+
+2V
+
+2 aei _kfl_kj
+
+2 + i _
+
+kfl5fl_kj
+
+2oeoe ; (8)
+
+where the couplings G2S and G2V are now considered as free parameters. For the systems of positive parity, which are of interest in our present work, also the pseudoscalar and pseudovector terms vanish in the Hartree limit such that we are left with the scalar and vector term, only. This is quite similar to the oe-! model [40,41] in the nuclear physics context. The hamiltonian density then is given by
+
+H(x) = X
+
+k=u;d;s n
+
+_k i\Gamma ifli@i + m0k \Gamma G2Sh _kkij k
+
++ G
+
+2S
+
+2 h _kki
+
+2 + G2V
+
+2 h _kfl_ki
+
+2o ; (9)
+
+which leads to the gap equations for the effective masses mk, i.e.
+
+mk = m0k \Gamma G2S h _kki: (10)
+
+Since the problem (9) decouples in the flavor degrees of freedom we will consider in the following only u-quarks assuming m0u = m0d and neglect a possible strangeness content of the nucleon furtheron.
+
+For the nonperturbative vacuum we then end up with the gap equation in phase space for the effective quark mass mu of u or d quarks:
+
+mu = m0u + G2S g(2ss)3 Z d3p muqp2 + m2
+
+u
+
+\Theta (\Lambda S\Gamma j p j) = mV ; (11)
+
+where we have introduced a spatial cutoff parameter \Lambda S to regularize the divergent integral over the Dirac sea. Alternatively, one might also introduce covariant cutoff schemes as in [25,34], but for reasons to be discussed below in context of eq. (13) we prefer to use the scheme (11), since we are basically interested in quark configurations with a well defined rest frame. In eq. (11) the factor g = 6 arizes from the trace over color and spin in eq. (10). The gap equation (11) then leads to a constituent quark mass mu ? m0u in the nonperturbative vacuum.
+
+7
+
+The coupling constant GS together with the cutoff parameter \Lambda S now can be determined via the Gell-Mann, Oakes and Renner relation [23] assumingh
+
+_uui = h_ddi,
+
+m2ss f 2ss = \Gamma (m0u + m0d) h_uui ; (12)
+
+where fss = 93:3 MeV is the pion decay constant, mss the physical pion mass and h_uui the scalar condensate (for u or d quarks in the vakuum). Choosing m0u = 7 MeV as an average value of the light quark mass the quark condensate then amounts to h_uui1=3 ss \Gamma 230 MeV; a value which is achieved by choosing a cutoff \Lambda S ss 0:59 GeV and GS ss 4:95 GeV\Gamma 1 in (11).
+
+In the presense of additional localized light valence quarks on top of the Dirac sea the gap equation (11) modifies locally to
+
+mu(r) = m0u \Gamma G2S g(2ss)3 Z d3p mu(r)qp2 + m
+
+u(r)2
+
+fu(r; p)
+
++G2S g(2ss)3 Z d3p mu(r)qp2 + m
+
+u(r)2
+
+\Theta (\Lambda S\Gamma j p j); (13)
+
+where fu(r; p) denotes the phase-space distribution of a single u-quark which has to determined in a model dependent way.
+
+In a fully dynamical theory on the mean-field level fu(r; p) should result from the solution of the Dirac equation
+
+f\Gamma ifli@i + m0k \Gamma G2SaeS(r) + fl0aeV(r)gk(r) = fl0Ekk(r) (14)
+
+with
+
+aeS(r) = h _k(r)k(r)i ; aeV(r) = hyk(r)k(r)i ; (15)
+
+and subsequent Wigner-transformation of Pk yk(r\Gamma s=2)k(r+s=2). However, since we do not aim at a dynamical theory for the nucleon - due to the lack of confinement in Lq(x) (8) - and we are only interested in the total energy of well defined quark configurations, we fix fu(r; p) (from outside) by the experimental electromagnetic formfactor of the proton which is well represented by a dipole approximation up to momentum transfers Q2 ss 25 GeV2/c2 [42]. This implies that the quark charge distribution (of a proton) is of the exponential form [43]
+
+hyq(r)q(r)i ss N0 exp(\Gamma j r j =b0) = aeq(r); (16)
+
+8
+
+where r is given in fm, b0 = 0:25 fm and N0 = (8ssb30)\Gamma 1 provides normalization to 1. Considering now a nucleon state averaged over spin and isospin, i.e. a mixture of proton, neutron and \Delta 0s of average mass MN ss 1:085 GeV, we obtain for the u-quark density
+
+aeu(r) ss 32 N0 exp(\Gamma j r j =b0); (17)
+
+where the factor 3/2 reflects the average u-quark content of the states considered. In the local density approximation the phase-space distribution for u-quarks then is given by
+
+fu(r; p) = \Theta (pF(r)\Gamma j p j) (18)
+
+with the local Fermi momentum
+
+pF(r) = (6=g ss2)1=3aeu(r)1=3: (19)
+
+This approximation has been quite successfully applied in the nuclear physics context [1,2] and also been adopted in [44,45] for quark oriented models. It is a legitimate approximation for the quark phase-space distribution as long as one is interested in expectation values like the total energy, only.
+
+Inserting fu(r; p) (18) with (17) and (19) in the gap equation (13) we can compute the effective quark mass mu(r) for the 'nucleon' described above. The resulting coordinate-space dependence of mu(r) (full line) for the 'nucleon' is shown in Fig. 1 together with the u-quark density huy(r)u(r)i = aeu(r) (dashed line). In the interior of the 'nucleon' the effective quark mass drops to about m0u = 7 MeV and thus the quark scalar selfenergy U qS to zero.
+
+Whereas the scalar sector now is fixed by the gap equation (13) for arbitrary quark phase-space distributions fu(r; p) - that are at rest within the frame of reference considered here - the local vector quark interaction is modified in order to allow for an explicite momentum dependence. We note that nonlocal generalizations of the NJL Lagrangian have been suggested by Bowler and Birse [46]. We adopt a similar concept and assume that the vector interaction in (8) is mediated by massive color neutral (vector) gluons which implies to modify the couplings
+
+GV ! GV \Lambda
+
+2V
+
+\Lambda 2V + q2 ; (20)
+
+where \Lambda V ss 1:2 \Gamma 1:5 GeV is a vector cutoff and q denotes the momentum transfer in the quark-quark interaction. This strategy is similar to that used in effective meson-exchange interactions for hadron-hadron scattering [47].
+
+9
+
+0.0 0.5 1.0 1.5 2.00.0 0.2 0.4 0.6 m [GeV]
+
+ru / 6 [1/fm3] -<qq>1/3 [GeV]
+
+r [fm] Fig. 1. Effective quark mass m = mu(r) (full line), quark density aeu(r) (dashed line) and scalar condensate \Gamma ! _qq ?1=3 (dotted line) as a function of the radial distance r from the center of the 'nucleon'.
+
+The energy density T 00(r) in phase-space representation thus reads (including a factor of 2 from the summation over u and d quarks)
+
+T 00(r)=2g Z d
+
+3p
+
+(2ss)3 qp
+
+2 + mu(r)2 fu(r; p)
+
+\Gamma 2g Z d
+
+3p
+
+(2ss)3 qp
+
+2 + mu(r)2 \Theta (\Lambda S\Gamma j p j)
+
++2 ( 12 G2SaeS(r)2 + 12 G2V g
+
+2
+
+(2ss)6 Z d
+
+3p1d3p2fu(r; p1) \Lambda 2V
+
+\Lambda 2V + (p1 \Gamma p2)2 fu(r; p2))\Gamma
+
+Evac; (21)
+
+where the vacuum contribution
+
+Evac = \Gamma 2 (g Z d
+
+3p
+
+(2ss)3 qp
+
+2 + m2u \Theta (\Lambda S\Gamma j p j) + 12 G2Sae2S0) (22)
+
+has been subtracted. In eq. (21) aeS = (mu \Gamma m0)=G2S is the scalar quark density and the vector quark density is aeV = g(2ss)3 R d3p fu(r; p). The total energy hHi
+
+of a quark configuration described by fu(r; p) then is obtained by integratingR
+
+d3r T 00(r).
+
+10
+
+The average nucleon energy to be fixed in our case corresponds to 1.085 GeV, which is the average of the nucleon and the \Delta mass. Since in eq. (21) for T 00(r) all quantities are determined except the quark vector coupling GV and cutoff \Lambda V, the vector coupling (for fixed \Lambda V ss 1:5 GeV) is well determined by the total energy of the quark configuration. Our fit provides GV = 4:2 GeV\Gamma 1 using fu(r; p) = \Theta (pF(r)\Gamma j p j) with pF(r) from (19). The pion-nucleon \Sigma -term, defined by the following matrix element with the nucleon state,
+
+\Sigma ssN = 12 (m0u + m0d) hNj_uu + _ddjNi ; (23)
+
+within the parameters stated above leads to \Sigma ssN ss 47 MeV, which is well in line with the value extracted from pion-nucleon s-wave scattering of 45 \Sigma 7 MeV from [48]. This will be of significant importance for the scalar nucleon selfenergy later on.
+
+We stress again that the coupling parameters GS, GV and cutoffs \Lambda S, \Lambda V only apply for the semiclassical static quark configurations discussed so far and should not be considered as appropriate for a fully dynamical theory on the basis of the Lagrangian (8). In fact, the vector coupling GV is larger than in refs. [25-27] where the mesonic sector has been explored. As a consequence we can only attempt to describe 'nucleons' at finite baryon density and have to discard mesonic degrees of freedom.
+
+2.3 Symmetric nuclear matter In order to evaluate the energy density for symmetric nuclear matter configurations we have to introduce in addition to fq = fu(r; p) a phase-space distribution for the nucleons or 'localized' quark states fN. Denoting by (rN; pN) the position and momentum of a nucleon, the corresponding quark phase-space distribution fq(r; p)rN;pN is obtained from a translation of the center of fq by
+
+rN and a proper Lorentz transformation by fiN = p=qp2 + m2N in phase space,
+
+i.e. a contraction of fq by fl\Gamma 1N = q1 \Gamma fi2N in coordinate space and dilation in momentum space by flN, which keeps the individual phase space integral invariant.
+
+Before going over to the nuclear matter problem we first consider two-nucleon configurations for 'frozen' nucleon quark distributions 4 in the nucleon-nucleon center-of-mass system (c.m.s.). As an example the local quark phase-space distribution fu(r; p) - as met in the overlap regime of two colliding quark states is depicted in Fig. 2 as a function of px and pz for py = 0. It's macroscopic pa4 This is denoted as the 'sudden' approximation in the nuclear physics context.
+
+11
+
+quarks antiquarks \Lambda S
+
+P1 P2p F1 p
+
+F2
+
+Fig. 2. Characteristic quark phase-space distribution in the overlap regime for two colliding nucleons for py = 0. The sphere with radius \Lambda S characterizes the Dirac sea contribution at rest.
+
+rameters are given by the relative momenta P1; P2 of the 'quark wave functions' with respect to the nuclear matter rest frame and the individual Fermi momenta pF1(r); pF2(r) that are determined by the individual densities at space position r by pFi(r) = (6=gss2aeiu(r))1=3 as before. The Dirac sea contribution at rest is indicated by the sphere with radius \Lambda S.
+
+Due to the 3-momentum cutoff \Lambda S in the gap equation (13) our prescription is not Lorentz-invariant and all quantities computed depend on the reference frame. For nucleon-nucleon collisions the natural frame of reference is the c.m.s., i.e. P1 = P2, which should be small compared to the nucleon mass. For the following illustration we thus restrict to small relative momenta of the 'nucleons' P = 3(P1 + P2) = 6P1.
+
+Iteration of the gap equation (13) for the two nucleon system then yields the effective mass mu(r; P1; P1; ae1; ae2) as well as the scalar density aeS(r). The resulting quark vector (solid lines) and scalar densities (dashed lines) are dis12
+
+played in Fig. 3 as a function of z = r for x = y = 0 for different distances R of the two nucleons (and a constant relative momentum P = 0:2 GeV/c). Due
+
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+
+r [fm -3 ]
+
+R=0.8 fm rV r
+
+S
+
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+
+r [fm -3 ]
+
+R=1.6 fm rV r
+
+S
+
+-3 -2 -1 0 1 2 3 0.0
+
+0.5 1.0 1.5 2.0 2.5 3.0
+
+r [fm -3 ]
+
+R=2.4 fm rV
+
+rS
+
+r [fm] Fig. 3. Spatial quark distribution 2/3 aeu(x = 0; y = 0; z = r) (full lines) and scalar quark density (dashed lines) for two colliding nucleons with relative momentum P = 0:2 GeV/c for different relative distances R from 0.8 fm to 2.4 fm.
+
+to the gap equation (13) the scalar quark density drops substantially even for a moderate overlap of the nucleons (R ss 1:6fm), which reflects the 'intermediate' range (oe-field) attraction of the two nucleons, whereas the overlap of the vector densities becomes more substantial at short distance (R ss 0:5fm), which reflects the !-field in terms of the conventional oe-! model [40].
+
+13
+
+We note that due to the non-covariant cutoff \Lambda S in the gap equation (13) the effective mass mu of a quark becomes momentum dependent for nucleonnucleon configurations even in the c.m.s. This is more quantitatively shown in Fig. 4 where mu(aeu; P ) is displayed as a function of P1 = P2 = P and
+
+0.0 0.4 0.8 1.2
+
+0.0
+
+0.5
+
+1.0
+
+0.1 0.2 0.3
+
+m [GeV] P [GeV/c]
+
+r [fm-3]
+
+Fig. 4. Effective quark mass m = mu(aeu; P ) as a function of P = P1 = P2 and aeu = ae1 = ae2 according to the gap equation (13).
+
+ae1 = ae2 = aeu to illustrate the smooth general dependence on density and relative momentum. It is clearly seen from Fig. 4 that the effective mass drops with density ae and increases for fixed ae with the relative momentum Pr = 2P . Since the origin of this momentum dependence is not of dynamical nature e.g. a finite range of the scalar quark-quark interaction - one has to worry about its consequences for the nuclear-matter computations we aim at. For aeB = 10ae0 we get a nuclear Fermi momentum pNF ss 0:57 GeV/c and thus for the relative momentum parameter P we have P = pNF =3 ss 0:19 GeV/c. A closer look at Fig. 4 then tells us that the effective quark mass is nearly independent on P for P ^ 0:2 GeV/c such that the momentum dependence of mu is rather insignificant for our purposes.
+
+However, before evaluating the energy density for nuclear matter configurations we have to make sure that for vanishing nuclear density the energy of a nucleon moving with momentum pN = 3pu agrees with the dispersion relation
+
+14
+
+of a free nucleon, i.e.
+
+E(pN) = qp2N + M 2N ; (24)
+
+where MN is the nucleon mass in its rest frame. This is indeed the case as shown in Fig. 5, where the relation (24) (dashed line) is compared to the result from integrating T 00(r) over r (solid line). The slight deviations from
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.41.0 1.2 1.4 1.6 1.8
+
+(pN2+MN2)1/2 HSD
+
+E [GeV]
+
+pN [GeV/c] Fig. 5. Free nucleon dispersion relation (24) (dashed line) and R d3r T 00(r) (solid line) for a 'nucleon' moving with momentum PN.
+
+the exact result (24) provide a measure for the violation of covariance in the model adopted here which, however, are not serious for nucleon momenta pN ^ 0:57 GeV/c. The result in Fig. 5 comes about because the total energy of the nucleon is dominated by the relative kinetic energy of the quarks.
+
+We now continue with the isospin symmetric nuclear matter problem where the nucleon phase-space distribution for fixed spin and isospin is given by
+
+fN(rN; pN) = \Theta (pF\Gamma j pN j) ; (25)
+
+with the nucleon Fermi momentum pF = (6=4ss2aeN)1=3, where aeN is the nuclear matter density which will be discussed in units of ae0 ss 0:17 fm\Gamma 3.
+
+Here a further problem is related with the change of the nucleon formfactor in the medium. As suggested e.g. by the interpretation of the EMC effect by
+
+15
+
+Close et al. [49] or arguments based on chiral symmetry by Brown [16] the nucleon might change its size in the nuclear medium such that the vector density of a quark is no longer given by (16). A fully dynamical model of the nucleon in the nuclear medium should give this modification of the formfactor in a selfconsistent manner. Since the Lagrangian (8) here is only considered to provide an effective quark-quark interaction for the energy density (21) we model such in-medium effects by modifying the width parameter b0 in (16) as
+
+b0(aeN) = 0:25 fm 1 + ff aeNae
+
+0 ! (26)
+
+with a parameter ff to be determined by the nuclear matter saturation point (see below).
+
+In order to carry out computations for the nuclear matter problem we simulate the quark phase-space distribution fu(r; p) - which enters T 00 in (21) - by characteristic samples k
+
+f ku (r; p) =
+
+AX
+
+j=1 f
+
+u(r \Gamma rjN; p \Gamma pjN; b0(aeN )) ; (27)
+
+where fu(r; p; b0) denotes the semiclassical quark phase-space distribution for a 'nucleon' of width b0(aeN) (26). The nucleon positions rjN are determined by Monte Carlo in a box of volume V = a3 with \Gamma a=2 ^ xjN; yjN; zjN ^ a=2. Only those samples are accepted for which the average distance to the next neighbour agrees within 3% with that for the respective infinite nuclear matter value. The nucleon momenta pjN then are selected by Monte Carlo with the constraint jpjNj ^ pF(aeN) and Pj pjN = 0. Additionally we rejects samples where the average kinetic energy
+
+TN = 1A
+
+AX
+
+j=1 `q(
+
+pjN)2 + M 2N \Gamma MN' (28)
+
+does not match with the nuclear matter value within 3%. The density aeN in these simulations is given by aeN = A=V (input) while A = 64 has been adopted throughout the calculations. In order to compile the dependence of the total energy on aeN we have scaled the individual positions rjN with a , ae\Gamma 1=3N and the momenta pjN with ae1=3N .
+
+A snapshot of the quark density (for fixed z) for a chacteristic sample k at normal nuclear matter density ae0 is shown in the upper part of Fig. 6; the resulting effective mass mu(r) according to the gap equation (13) - for the configuration shown in the upper part of Fig. 6 - is displayed in its lower
+
+16
+
+part. Since at normal nuclear matter density the overlap of the nucleons is only moderate, the individual scalar 'quark bags' can still approximately be separated in space for a given time. As an example for higher nucleon density
+
+0.5 1.0 1.5 2.0 2.5
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+0.0 0.5 1.0 1.5
+
+r [fm -3 ] y [fm]
+
+x [fm]
+
+0.5 1.0 1.5 2.0 2.5
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+0.0 0.1 0.2 0.3
+
+m [GeV]
+
+y [fm]
+
+x [fm] Fig. 6. Snapshot of the spatial quark distribution (for fixed z) at normal nuclear matter density ae0 (upper part) for ff = 0:18 together with the resulting effective quark mass m = mu(x; y) (lower part).
+
+we show a snapshot of the quark distribution at 4 \Theta ae0 for ff = 0:18 in Fig. 7
+
+17
+
+(upper part) together with the corresponding quark mass mu(x; y; z =const) (lower part) from the gap equation (13). Since the overlap of the quark distributions now becomes substantial, the average quark mass drops to about 30 MeV indicating partial chiral symmetry restoration.
+
+0.5 1.0 1.5
+
+0.5
+
+1.0
+
+1.5
+
+0.2 0.4 0.6 0.8 1.0 1.2
+
+r [fm -3 ] y [fm]
+
+x [fm]
+
+0.5 1.0 1.5
+
+0.5
+
+1.0
+
+1.5
+
+0.00 0.05 0.10 0.15
+
+m [GeV] y [fm]
+
+x [fm]
+
+Fig. 7. Snapshot of the spatial quark distribution (for fixed z) at 4 \Theta ae0 (upper part) together with the resulting effective quark mass m = mu(x; y) (lower part).
+
+18
+
+Now performing the integration of T 00(r) over coordinate space and averaging over characteristic samples k for nuclear matter configurations (as shown in Fig. 6) 5 , dividing by the number of nucleons on the grid and subtracting the bare nucleon mass we can compute the energy per nucleon (Nk ss 100),
+
+E
+
+A
+
+ae ae0 ! =
+
+1 A
+
+1 Nk
+
+NkX
+
+k=1 Z
+
+d3r T 00k (r) \Gamma MN; (29)
+
+and thus establish a direct link between the energy density of quarks with the energy per nucleon of isospin symmetric nuclear matter at finite density ae=ae0. In (29) the energy density T 00k (r) is defined by eq. (21) with fu(r; p) replaced by f ku (r; p) from (27).
+
+The energy per nucleon (29) (for ff = 0:18) is shown in Fig. 8 (full line) in comparison to the Dirac-Brueckner results from [13] (full squares) and the parametrizations POL6 and POL7 of the RBUU approach [9] that were found to optimally describe heavy-ion reactions in the energy regime up to about 1 GeV/A. We find the binding energy per nucleon (ss \Gamma 16 MeV at aeN = ae0) to be reproduced well for ff ss 0:18 which corresponds to a swelling of the nucleon by 18% at normal nuclear matter density. For ff = 0 there is no minimum in E/A due to the Pauli pressure such that the swelling of the nucleon - which enhances the scalar attraction and reduces the vector repulsion - is a necessary phenomenon within the present approach to achieve proper binding. The resulting incompressibility K of nuclear matter amounts to about K ss 250 MeV.
+
+Since the energy per nucleon in our approach (HSD) is well in between the limits of POL6 and POL7, as extracted from detailed comparisons in ref. [9] for nucleus-nucleus collisions in the SIS energy regime, we infer that the equation of state generated by the model is quite realistic in the lower density (ae ^ 3ae0) regime. Its extension to 10ae0 (lower part of Fig. 8), however, might still be questionable and has to be examined in comparison to experimental flow data at much higher (e.g. AGS) bombarding energies.
+
+The nuclear equation of state (EOS) in Fig. 8 shows no density isomer up to 10ae0 on the basis of the effective quark model adopted. The thermodynamic
+
+5 For technical reasons we first look for the 'nucleon' that exhibits a maximum quark density at a given grid point r (giving ae1; P1) and then sum up the quark contributions of the other 'nucleons' (giving ae2; P2). The corresponding values for mu(r) and T 00(r) are then taken from the parametrized configurations displayed in Fig. 2. We have tested for a couple of samples that this approximate evaluation works quite well if ensemble averages for nuclear matter configurations are considered.
+
+19
+
+0 1 2 3-0.02 0.00 0.02 0.04 DBHF
+
+HSD POL6 POL7
+
+E B /A [GeV]
+
+r / ro
+
+0 2 4 6 8 10 0.0
+
+0.1 0.2 0.3 0.4
+
+HSD POL7 POL6
+
+E B /A [GeV]
+
+r / ro Fig. 8. Equation of state for nuclear matter; HSD (solid line), DBHF (full squares); RBUU results: POL6 (dotted line), POL7 (dashed line) from ref. [9].
+
+pressure
+
+PT = ae2 @@ae `EA ' ; (30)
+
+furthermore, increases quadratically for ae=ae0 ? 2 and slightly levels off at high
+
+20
+
+density, but does not drop to zero in the range considered here. In view of the rather simple shape of the EOS in Fig. 8 and its similarity to the RBUU parameter sets POL6 and POL7 from ref. [9], it is now almost straight forward to 'extract' nucleon selfenergies U SN and U _N for the hadronic transport approach (1).
+
+2.4 Nucleon selfenergies The scalar and vector mean fields U Sh and U _h in eq. (1) for nucleons now can be specified along the line of ref. [7]. In order to achieve a covariant transport approach, which is also thermodynamically consistent [7], we parametrize the scalar and vector selfenergies in phase-space representation as
+
+U S(x; p) = U Sloc(x) \Gamma 4(2ss)3 _g
+
+2S
+
+m2S Z d
+
+4p0 M \Lambda (x; p0) _\Lambda 2S_
+
+\Lambda 2S \Gamma (p \Gamma p0)2 fN(x; p
+
+0) ;
+
+U _(x; p) = U _loc(x) + 4(2ss)3 _g
+
+2V
+
+m2V Z d
+
+4p0 \Pi _(x; p0) _\Lambda 2V_
+
+\Lambda 2V \Gamma (p \Gamma p0)2 fN(x; p
+
+0);(31)
+
+where fN(x; p) is the nucleon phase-space distribution. In (31) the effective nucleon mass M \Lambda (x; p) and the kinetic momentum \Pi _(x; p) are given by
+
+M \Lambda (x; p) = MN + U S(x; p) ;
+
+\Pi _(x; p) = p_ \Gamma U _(x; p) : (32)
+
+In (31) U Sloc(x) and U _loc(x) are the local parts of the selfenergy,
+
+U Sloc(x) = \Gamma g0S oeH(x); U _loc(x) = g0V !_H(x) (33)
+
+with
+
+!_H(x) = g
+
+0V
+
+m2V
+
+4 (2ss)3 Z d
+
+4p ~\Pi _(x; p)fN(x; p) ;
+
+~\Pi _ = \Pi _ \Gamma \Pi * (@_p U* ) \Gamma M \Lambda (@_p U S) ; (34) while oeH(x) is obtained from the solution of
+
+m2SoeH + Boe2H + Coe3H = g0S 4(2ss)3 Z d4p M \Lambda (x; p)fN(x; p): (35)
+
+21
+
+The quasi-particle properties are defined via the mass shell constraint [7]
+
+ffi(\Pi _\Pi _ \Gamma M \Lambda 2) : (36)
+
+The associated energy-momentum tensor reads
+
+T _*N (x) = 4(2ss)3 Z d4p ~\Pi _p* fN(x; p)
+
++ (@_oeH(x))(@*oeH(x)) \Gamma (@_!*H(x))(@*!H* (x)) + ae 12 m2Soe2H + 13 Boe3H + 14 Coe4H \Gamma 12 (@*oeH)(@*oeH) \Gamma 12 m2V!H* !*H
+
++ 12 (@*!ffiH)(@*!Hffi ) (37) \Gamma 2(2ss)3 Z d4p M \Lambda (x; p) 4(2ss)3 _g
+
+2S
+
+m2S Z d
+
+4p0 M \Lambda (x; p0) _\Lambda 2S_
+
+\Lambda 2S \Gamma (p \Gamma p0)2 fN(x; p
+
+0)
+
+\Gamma 2(2ss)3 Z d4p \Pi *(x; p) 4(2ss)3 _g
+
+2V
+
+m2V Z d
+
+4p0 \Pi *(x; p0) _\Lambda 2V_
+
+\Lambda 2V \Gamma (p \Gamma p0)2 fN(x; p
+
+0)) g_* :
+
+In this hadronic approach with momentum-dependent fields the 'free' parameters g0S; _gS; g0V; _gV; mS; mV; _\Lambda S; _\Lambda V; B; C allow to describe almost arbitrary equations of state and nucleon selfenergies. For nuclear matter at density aeN the energy per nucleon is given by
+
+E
+
+A =
+
+T 00N
+
+aeN \Gamma MN ; (38)
+
+where MN denotes the bare nucleon mass. The evaluation of T 00N for
+
+fN(p) = 2\Theta (\Pi 0)ffi(\Pi 2 \Gamma M \Lambda 2)\Theta (pNF \Gamma jpj) (39)
+
+with the nucleon Fermi momentum pNF then reduces to the coupled eqs. (44)- (49) in ref. [7] which don't have to be repeated here.
+
+The key link for determining the free parameters in the hadronic model above now is the model independent relation for the effective quark mass as a function of (small) aeN
+
+mu(aeN) = mV 1 \Gamma \Sigma ssNf 2
+
+ss m2ss ae
+
+N! ; (40)
+
+which follows from the Hellmann-Feynman theorem and the GOR relation (12) [50]. In (40) mV is the vacuum effective quark mass from (11). In this
+
+22
+
+context we show in Fig. 9 the average effective quark mass (in units of the vacuum mass mV ) (solid line) as a function of the nuclear density aeN = ae as obtained from the nuclear matter simulations. The effective quark mass drops by about 35 % at ae0 according to (40) with PssN = 47 MeV, and essentially continues with a constant slope up to about 2 \Theta ae0 ss 0:33fm\Gamma 3 in line with the Dirac-Brueckner analysis in ref. [51](cf. also ref. [52]). The bare quark mass then is reached at about aeN ss 0:6 fm\Gamma 3. It is important to note that the effective nucleon mass M \Lambda (pNF ) (normalized to the vacuum mass) in the RBUU approach of ref. [9] shows the same scaling with density up to about ae0, which is also well in line with Dirac phenomenology.
+
+0.0 0.3 0.6 0.90.0 0.2 0.4 0.6 0.8 1.0
+
+POL6 POL7 HSD
+
+m / m
+
+v
+
+r [fm-3] Fig. 9. Effective mass divided by the vacuum mass as a function of the nucleon density aeN = ae; quark mass m = mu(aeN ) in the HSD approach (solid line); nucleon mass in the RBUU approach: POL6 (dotted line), POL7 (dashed line).
+
+Thus observing that the equation of state from the effective NJL model (Fig. 8) as well as the relative scaling of the quark mass with nucleon density aeN (Fig. 9) is very similar to the more traditional RBUU transport approach from refs. [7,9] at low density aeN, we fix the parameters g0S; _gS; g0V; _gV; _\Lambda S; _\Lambda V : : : by the condition
+
+M \Lambda (aeN; pNF )
+
+MN =
+
+mu(aeN)
+
+mV ; (41)
+
+23
+
+which essentially determines the scalar selfenergy of the nucleon, as well as the equation of state from Fig. 8,`
+
+E
+
+A 'HSD =
+
+T 00N
+
+aeN \Gamma MN (42)
+
+up to aeN = 10ae0. The scalar and vector nucleon selfenergies then are uniquely determined by eqs. (31) - (39) for arbitrary nucleon phase-space distributions.
+
+0.0 0.2 0.4
+
+U o[ GeV]
+
+0.0 0.2 0.4 0.6 0.8 1.0-0.10 -0.05
+
+0.00 0.05 0.10
+
+DBHF Hama et al. HSD
+
+U SEP
+
+[GeV]
+
+Ekin [GeV]
+
+-0.4 -0.2
+
+U s[Ge V]
+
+Fig. 10. Nucleon selfenergies US, U0 and the Schroedinger equivalent potential USEP as a function of the nucleon kinetic energy Ekin with respect to the nuclear matter rest frame. HSD (solid line); DBHF (full squares); exp. data from Hama et al. [53] (crosses).
+
+In Fig. 10 we compare the resulting momentum dependence of the nucleon selfenergies at density ae0 with Dirac-Brueckner results from [13] (full dots). In the lower part of Fig. 10 the real part of the Schroedinger equivalent potential (SEP)
+
+USEP = US(ae0; P ) + U0(ae0; P ) + 12M
+
+N (US(ae0; P )
+
+2 \Gamma U0(ae0; P )2)
+
++U0(ae0; P ) qP
+
+2 + M 2N \Gamma MN
+
+MN (43)
+
+24
+
+is additionally shown (full line) in comparison to the optical potential analysis from Hama et al. [53] (dashed line) and Dirac-Brueckner computations from [13] up to momenta of 1 GeV/c. This comparison shows that the overall properties of the nucleon selfenergies for aeN ^ 3ae0 and Ekin ^ 1 GeV are reasonably met by our approach.
+
+Apart from the close analogy of our results with the oe-! model at 'low' momenta (cf. Fig. 10) we are especially interested in the 'high' momentum properties of the present approach, where the standard oe-! model is known to fail significantly. The respective results from our present approach for the scalar and vector nucleon selfenergy as well as the Schroedinger equivalent optical potential in analogy to Fig. 10 are displayed in Fig. 11 up to relative kinetic energies of 15 GeV. Whereas the scalar and vector nucleon selfenergies are found to gradually decrease with momentum (or kinetic energy) - which is essentially a consequence of the cutoff \Lambda V ss 1:5 GeV introduced in eq. (20) - the Schroedinger equivalent potential exhibits a maximum of about 70 MeV at 1 GeV and drops again for higher kinetic energy. Thus we expect the effects from the real part of the nucleon selfenergies to be of minor importance in the initial phase of nucleus-nucleus collisions at bombarding energies of a few GeV/A, where nucleon cascading with inelastic nucleon excitations should be dominant, i.e. the imaginary part of the hadron selfenergies (cf. Section 3).
+
+0.0 0.1 0.2
+
+U o[ GeV]
+
+0 2 4 6 8 10 12 14-0.10 -0.05
+
+0.00 0.05 0.10
+
+HSD U SEP
+
+[GeV]
+
+Ekin [GeV]
+
+-0.3 -0.2 -0.1
+
+0.0
+
+U s[Ge V]
+
+Fig. 11. Nucleon selfenergies US, U0 and the Schroedinger equivalent potential USEP as a function of the nucleon kinetic energy Ekin at normal nuclear matter density ae0.
+
+25
+
+Since a transport approach for high energy nucleus-nucleus collisions also has to include excited states of the nucleon as well as hyperons - we include nucleons, \Delta 's, N\Lambda (1440), N\Lambda (1535), \Lambda and \Sigma hyperons as well as their antiparticles their respective selfenergies have to be specified, too. As a first approximation we assume here that all baryons (made out of light (u,d) quarks) have the same scalar selfenergies as the nucleons; the vector selfenergy for antiparticles is introduced with a relative (-) sign according to time reversal 6 while the hyperons pick up a factor 2/3 according to the light quark content.
+
+2.5 Meson selfenergies Whereas the baryon selfenergies U Sh and U _h are a necessary ingredient for a relativistic transport model to achieve a realistic description of finite nuclei and intermediate energy nucleus-nucleus reactions, the meson selfenergies might be neglected in zero'th order as in conventional cascade simulations. However, in order to explore dynamical effects from a phase, where the chiral symmetry might be restored, they have to be specified as well (on the one-loop level) e.g. by a suitable Lagrangian density.
+
+In the HSD approach, where we propagate explicitly pions, kaons, j's and the vector mesons !, ae, OE, and K\Lambda (892) we assume that the pions as Goldstone bosons do not change their properties in the medium; we also discard selfenergies for the j-mesons in the present version. Thus a Lagrangian density for the coupled system of baryons and mesons can be written as
+
+LH = LB + X
+
+m L
+
+0m + LintaeB + Lint!B + LintOEB + LintKB ; (44)
+
+where LB corresponds to the baryon Lagrangian (density) specified in Subsection 2.4, L0m is the free meson Lagrangian density for a meson of type m and LintmB denote the meson-baryon interaction densities. The problem now is to fix LintmB in connection with chiral symmetry restoration.
+
+Kaplan and Nelson [24] have shown a way how to proceed in this case. Starting from a SU (3)L \Theta SU (3)R chiral Lagrangian and using chiral perturbation theory they write down an effective meson-baryon Lagrangian which they claim to be valid up to , 7ae0. Since the coefficients in this Lagrangian are approximately known experimentally (within an uncertainty of about 30%), one can model a Lagrangian of lower complexity, but with the same properties on the mean-field level. Such limits lead to the following dispersion relation for kaons in the nuclear medium [54]:
+
+6 This limit has to be taken with care because Teis et al. found in [3] that a sign change of the vector potential results in a too strong attraction for antiprotons.
+
+26
+
+!K+ (p) = 8!:p2 + m2K 0@1 \Gamma \Sigma KNf 2
+
+Km2K ae
+
+S + 3aeB8f 2
+
+KmK !
+
+21A9=;1=2
+
++ 38 aeBf 2
+
+K ;
+
+!K\Gamma (p) = 8!:p2 + m2K 0@1 \Gamma \Sigma KNf 2
+
+Km2K ae
+
+S + 3aeB8f 2
+
+KmK !
+
+21A9=;1=2 \Gamma 3
+
+8
+
+aeB f 2K ; (45)
+
+with mK denoting the bare kaon mass, fK ss 93 MeV and \Sigma KN ss 350 MeV, while aeS and aeB are the scalar and vector baryon densities, respectively. We thus approximate the interaction density for the K+-baryon system by
+
+LintK+B = 8!: \Sigma KNf 2
+
+K
+
+_BB \Gamma 38f 2
+
+K !
+
+2 i _
+
+Bfl_Bj
+
+29=; K+yK+
+
++ i 38f 2
+
+K (
+
+_Bfl_B)K+y(@_K+) + i 38f 2
+
+K (
+
+_Bfl_B)(@_K+y)K+ ; (46)
+
+where _B; B denote the baryon spinors, and for the K\Gamma -baryon system by
+
+LintK\Gamma B = 8!: \Sigma KNf 2
+
+K
+
+_BB \Gamma 38f 2
+
+K !
+
+2 i _
+
+Bfl_Bj
+
+29=; K\Gamma yK\Gamma
+
+\Gamma i 38f 2
+
+K (
+
+_Bfl_B)K\Gamma y(@_K\Gamma ) \Gamma i 38f 2
+
+K (
+
+_Bfl_B)(@_K\Gamma y)K\Gamma (47)
+
+as well as
+
+LintK0B = \Sigma KNf 2
+
+K (
+
+_BB) K0yK0 (48)
+
+with the kaon fields K+, K\Gamma and K0. We assume the same form of Lint for the K\Lambda -mesons, too. We note that Li and Ko have recently performed studies on the kaon dynamics at SIS energies with the same type of kaon-baryon interaction [55].
+
+With respect to the interaction of the vector mesons ae; !; OE with baryons we model LintmB according to the QCD sum rule studies by Hatsuda and Lee [56] as
+
+LintaeB = *aeae
+
+0 !
+
+2
+
+m2ae i _Bfl_Bj
+
+2 ae* yae
+
+* ;
+
+Lint!B = *!ae
+
+0 !
+
+2
+
+m2! i _Bfl_Bj
+
+2 !* y!
+
+* ;
+
+27
+
+LintOEB = *OEae
+
+0 !
+
+2
+
+m2OE i _Bfl_Bj
+
+2 OE*yOE
+
+* ; (49)
+
+with *ae = *! ss 0:18 and *OE ss 0:025 in order to obtain a linear dependence of the effective meson masses on the baryon density aeB = h _Bfl0Bi.
+
+With the specification of the meson-baryon interaction densities LintmB the real part of the hadron selfenergies is now fully defined on the one-loop level. While the determination of the baryon selfenergies was quite involved in this Section in order to achieve valid approximations at low and intermediate energies as well as reasonable extrapolations to high baryon densities, the meson sector still is rather poor and will have to be improved in future.
+
+3 Elastic and inelastic hadron scattering Whereas in a fully selfconsistent relativistic transport theory the real part and the imaginary part of hadron selfenergies are related by means of dispersion relations [1,3,13], it is not justified to employ the model selfenergies (determined in Section 2) in dispersion integrals for the imaginary part because the inelastic scattering rate of nucleons and mesons turns out to be wrong in the limit of vanishing baryon density. As known from transport studies at energies below 2 GeV/A the elementary cross sections in eq. (1) may be approximated by their values in free space. Thus as a first step we adopt the same strategy and use the explicite cross-sections as in the BUU model [57] (for ps ^ 2:6 GeV) - that have been successfully tested in the energy regime below 2 GeV/A bombarding energy - and by the LUND string formation and fragmentation model [22] (for ps ? 2:6 GeV) in case of baryon-baryon collisions. For mesonbaryon reactions we adopt a transition energy of ps = 1:8 GeV between the known low energy cross sections and the LUND model. We note that the actual values for the transition energies in the elementary cross sections are not sensitive to nucleus-nucleus collisions in the energy regime to be discussed in Section 4.
+
+In order to obtain a rough idea about the inelastic cross sections from the LUND string fragmentation model, we show in Fig. 12 the rapidity spectra for baryons, pions, kaons, ae and ! mesons from pp collisions at Tlab = 20 GeV in the pp center-of-mass system. Whereas the baryons turn out to be located in rapidity close to the initial rapidity of the two colliding baryons, the meson rapidities are dominantly centered around midrapidity with a small contribution from the deexcitation of the baryonic constituents close to the incoming baryon rapidities. This general tendency has to be kept in mind when comparing to nucleus-nucleus collisions later on.
+
+28
+
+0,0 0,2 0,4 0,6 0,8
+
+baryonsdN/dy
+
+0,00
+
+0,02 0,04
+
+h
+
+0,0 0,1 0,2 0,3
+
+p+-dN/d y
+
+0,00 0,01 0,02
+
+K+-
+
+-2 0 20,0 0,1 0,2
+
+y r+-dN/dy
+
+-2 0 20,00
+
+0,05 0,10
+
+y w
+
+Fig. 12. Rapidity distributions for baryons, pions, kaons, j; ! and ae mesons from the LUND string fragmentation model for pp collisions at Tlab = 20 GeV.
+
+The implementation of the LUND string formation and fragmentation model [22] - which describes the free transition probabilities - in a covariant transport theory implies to use a time scale to transform the cross-sections to collision rates and particle production rates. An appropriate time scale is given by a string formation time TF, which denotes the time between the formation and fragmentation of the string in the individual hadron-hadron center-of-mass system for a particle of rapidity ycm = 0. Due to covariance this time should be also related to the spatial extension of the interacting hadrons which on average gives TF ss 0:8 fm/c. The sensitivity of the proton rapidity spectra dN=dy to the actual value of TF ist shown in Fig. 13 for central collisions of 40Ca + 40Ca at 30 GeV/A. It is seen that TF controls essentially the rapidity
+
+distribution at midrapidity and at projectile and target rapidity, i.e. the baryon stopping in relativistic nucleus-nucleus collisions. We will adopt TF=0.8 fm/c for the calculations to be presented in Section 4; similar values are also used in the RQMD approach [58].
+
+29
+
+0 1 2 3 4
+
+TF=0.5 fm/cdN/dy
+
+
+
+TF=0.8 fm/c
+
+
+
+-2 -1 0 1 20 1 2 3 4
+
+TF=0.6 fm/cdN/dy
+
+y -2 -1 0 1 2
+
+TF=1.0 fm/c
+
+y Fig. 13. The proton rapidity distribution for central collisions of 40Ca + 40Ca at 30 GeV/A using TF= 0.5, 0.6, 0.8, 1.0 fm/c, respectively.
+
+In view of the 'chiral' dynamics addressed in this work, however, especially the productions rates of mesons should change at high baryon density [59] due to the reduced masses involved. Unfortunately, the actual meson scalar and vector selfenergies are quite a matter of debate and depend on the model parameters of the Lagrangians employed. Following the approach by Kaplan and Nelson [24] (c.f. Section 2.5), the average mass of a K+ K\Gamma pair is expected to follow approximately
+
+mK+K\Gamma ss mV(1 \Gamma 0:16aeN=ae0) (50)
+
+because the vector interaction drops out due to contributions with opposite sign and the term in ae2B is rather small. Furthermore, according to the mesonbaryon interaction densities (49) the in-medium mass for ae, ! and \Phi mesons - following Hatsuda and Lee [56]- can be approximated by
+
+m(aeN) ss mV(1 \Gamma *aeN=ae0) (51)
+
+with * ss 0.18 for ae, ! and * ss 0.025 for \Phi mesons. The weak dependence of the \Phi meson mass here is a consequence of the weak coupling of the strange quark to the light (u,d) quarks which dominantly make up the baryon density.
+
+In view of the substantial uncertainties of the meson selfenergies especially at high density we here use this more pragmatic model which does not claim
+
+30
+
+fundamental evidence 7 . Whereas the pion as a Goldstone boson is assumed not to change substantially with baryon density and temperature in the energy regime addressed, the kaons, K\Lambda 's, ae's, !'s and OE's are assumed to change their masses as displayed in Fig. 14 roughly in line with ref. [24,56] as pointed out above. The final values achieved at high baryon density are determined by the bare quark mass content of the mesons.
+
+0 2 4 6 8 0.2 0.4 0.6 0.8 1.0
+
+r+ r- K
+
++ KK*+
+
+\Phi
+
+m / m
+
+V
+
+r / ro Fig. 14. Parametrization of the effective meson masses - normalized to the vacuum masses mV - versus the baryon density used in the extended string fragmentation model (HSD).
+
+As an example for the effects to be expected at high baryon density we show in Fig. 15 the rapidity spectra of kaons and ae's for pp collisions at Tlab =20 GeV from the string fragmentation model that incorporates the density dependent meson masses from Fig. 14 8 . It is clearly seen that a dropping of the meson masses leads to a substantial enhancement of the K+K\Gamma and ae yields and to a widening of their rapidity distribution in the individual center-of-mass system. If such phenomena can be seen in comparison to experimental data will be investigated in the next Section.
+
+7 These assumptions about meson properties at high baryon density can only be controlled in confrontation with sensitive experimental data.
+
+8 The total four-momentum is conserved in the 'chiral' string fragmentation model.
+
+31
+
+-2 0 20,0 0,1 0,2 0,3 m*1.0
+
+m*0.7 m*0.4
+
+y r+-dN/dy
+
+-2 0 20,00 0,01 0,02 0,03 0,04 0,05
+
+m*1.0 m*0.7 m*0.4
+
+y K+-
+
+Fig. 15. Differential K+ + K\Gamma and ae rapidity distributions from the 'chiral' string fragmentation model at 1.0, 0.7 and 0.4 \Theta the bare masses for pp collisions at Tlab=20 GeV.
+
+4 Heavy-ion collisions
+
+The relativistic transport approach (HSD) outlined in Sections 2 and 3 now is applied to nucleus-nucleus collisions from the SIS to the SPS energy regime with particular emphasis on rapidity distributions and particle spectra to control the stopping achieved in these reactions. The explicit numerical implementation of the selfenergies and collisions rates is performed in close analogy to [9,57,60,61] and does not have to be repeated here. We note that the total conservation of energy and momentum throughout the time evolution is conserved on the 2 % level for central Au + Au collisions and even better for peripheral or light-ion induced reactions.
+
+As a first example we show in Fig. 16 the transverse ss0-spectra from Ar + Ca collisions at 1.5 GeV/A in comparison to the data of Berg et al. [62] as a characteristic system at SIS energies. Since at these energies the present approach is close to the results achieved with the former BUU model [63], the reproduction of the data is of similar quality. We thus conclude that the 'low energy dynamics' involving essentially nucleons, \Delta 's and pions is reasonably well included in our transport calculations.
+
+4.1 Stopping in high-energy nucleus-nucleus collisions The next system addressed is Si + Al at 14.6 GeV/A, i.e. the AGS energy regime. The computed rapidity distribution of protons and ss+-mesons for b = 1.5 fm is compared in Fig. 17 to the data from ref. [64]. Whereas the proton rapidity distribution turns out to be quite flat in rapidity y due to proton rescattering, the pion rapidity distribution is essentially of gaussian shape which reflects the pion rapidity spectrum from the string fragmentation
+
+32
+
+0.0 0.2 0.4 0.6 0.8 1.0 100
+
+101 102 103 104
+
+0.68 < Ylab < 0.84
+
+p0 Ar+Ca 1.5 GeV/A
+
+1/p
+
+T d s/dp
+
+t [mb/(GeV/c)
+
+2 ]
+
+pT [GeV/c] Fig. 16. Calculated transverse ss0-spectra for Ar + Ca at 1.5 GeV/A (full line) in comparison to the experimental data from ref. [62].
+
+model outlined in Section 3 (cf. Fig. 12). Similar to SIS energies [1,2] the proton rapidity distribution is insensitive to variations of the nucleon scalar and vector mean fields within the numerical accuracy.
+
+In analogy to Fig. 16 we show in Fig. 18 the calculated transverse mass-spectra of ss+-mesons for Si + Al at 14.6 GeV/A (solid lines) in comparison to the experimental data from ref. [64]. The overall agreement for lab. rapidities of y = 0.9, 1.7 and 2.7 seems to indicate that the general reaction dynamics is well reproduced within the HSD approach.
+
+The flat proton rapidity spectrum in Fig. 17 might lead to the interpretation that there is a substantial amount of stopping in the light system Si + Al. This, however, has to be taken with care because the actual snapshots of the baryon density distribution from our computations shown in Fig. 19 (l.h.s.)
+
+33
+
+0 2 4 6 8 10 SiAl14.6 GeV/A Proton
+
+dN/dy
+
+-3 -2 -1 0 1 2 30 2 4 6 8 10 SiAl14.6 GeV/A p+
+
+dN/dy
+
+ycm Fig. 17. Calculated proton and ss+ rapidity distribution (histrograms) for a central 14.6 GeV/A Si+Al collision in comparison to the data from [64] (full dots).
+
+as well the phase-space distribution (r.h.s.)
+
+f (z; pz; t) = (2ss)\Gamma 2 X
+
+b Z
+
+dr?dp?fb(r?; z; p?; pz; t) ; (52)
+
+where Pb denotes a sum over all baryon species, indicate a dominant transparency for the light system. This is essentially due to the large surface of the
+
+34
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.210 -5
+
+10-4
+
+10-3 10-2 10-1
+
+100 101
+
+p+
+
+x1/1000 x 1/100
+
+Si + Al central 14.6 GeV/A
+
+y=2.7
+
+y=1.7
+
+y=0.9
+
+(1/2 pm
+
+t)(d 2 N/dydm
+
+t) [GeV -2 ]
+
+mt - m [GeV] Fig. 18. Comparison of the calculated transverse mass spectra of ss+-mesons for Si + Al at 14.6 GeV/A with the experimental data from ref. [64] for rapidities y=0.9, 1.7, 2.7 in the laboratory system.
+
+two light nuclei with a nucleon-nucleon collision probability less than 1. Furthermore, the time evolution in momentum space (middle column) shows that the system is far from kinetic equilibrium in the baryon degrees of freedom in the final state.
+
+The amount of stopping at AGS energies is more clearly pronounced for central Au + Au reactions as displayed in Fig. 20 for the proton and ss\Gamma rapidity distributions. Though the pion rapidity spectrum does not differ very much in shape from that of the Si + Al system in Fig. 17 at first sight, the time evolution of the baryon distribution in coordinate space, momentum space and phase space (Fig. 21) for Au+Au at 14.6 GeV/A shows a clear approach versus equilibration. However, the coordinate space evolution indicates a dominant longitudinal expansion which is also reflected in the baryon momentum distribution that does not show full isotropy. Detailed experimental data and related comparisons, however, will become available soon at the energy of 10.8 GeV/A [65]. We note that the proton rapidity spectrum for central Au + Au collisions at this energy shows a similar amount of stopping as the RQMD approach [58].
+
+We continue our comparison to experimental data with the system S + S at 200 GeV/A, i.e. the SPS regime (Fig. 22). Though the experimental proton and ss\Gamma rapidity spectra (from [66]) are approximately reproduced, we cannot conclude
+
+35
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 6 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 6 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 6 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 9 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 9 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 9 fm/c
+
+p z [GeV/c]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+z [fm]
+
+14 fm/c x [fm]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+px [GeV/c]
+
+11 fm/c p z [GeV/c]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+z [fm] 11 fm/c p z [GeV/c]
+
+Fig. 19. Baryon density distribution (left column), momentum space (middle column) and phase-space distribution (right column) for a 14.6 GeV/A Si+Al collision at b = 1 fm for various times in fm/c.
+
+36
+
+-2 0 20 20 40 60 80 p-
+
+p * 0.5 Au + Au 10.8 GeV/A
+
+dN/dy
+
+y Fig. 20. Proton (dashed line) and ss\Gamma rapidity distribution (full line) for a central 10.8 GeV/A Au + Au collision.
+
+on the general applicability of our approach at SPS energies because also more simple models like HIJING or VENUS - with a less amount of rescattering can reproduce the data in a similar way [67]. A way out of this problem is to analyze the system Pb + Pb at 153 GeV/A (Fig. 23) that has recently been studied experimentally at the SPS. Our computed proton rapidity spectrum for central collisions shows no dip at midrapidity as in HIJING or VENUS simulations [67] but a flat spectrum similar to RQMD simulations [58]. On the other hand, the pion rapidity distributions are very similar to the S + S case, however, enhanced by about a factor of 7.5.
+
+4.2 Probing chiral symmetry restoration The problem of chiral symmetry restoration can be investigated e.g. via the K+=ss+ ratio as addressed in [59] since the kaon production should be enhanced due to the reduced in-medium mass (cf. Fig. 15). For this purpose we show in Table 1 the calculated K+=ss+ yields for the systems p + p, Si + Al, Si + Au at 14.6 GeV/A and Au + Au in comparison with the experimental data for two different szenarios. The first column represents the results of a simulation where only the bare masses of the mesons have been considered in the string fragmentation approach (HSD) and all mesons are propagated as free particles whereas the second column results from density-dependent
+
+37
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 0 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 4 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 10 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 10 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 10 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 14 fm/c
+
+x [fm]
+
+-10
+
+-5
+
+0 5 10 14 fm/c
+
+p z [GeV/c]
+
+-10
+
+-5
+
+0 5 10 14 fm/c
+
+p z [GeV/c]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+z [fm]
+
+18 fm/c x [fm]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+px [GeV/c]
+
+18 fm/c p z [GeV/c]
+
+-10 -5 0 5 10 -10
+
+-5
+
+0 5 10
+
+z [fm]
+
+18 fm/c p z [GeV/c]
+
+Fig. 21. Baryon density distribution (left column), momentum space (middle column) and phase-space distribution (right column) for a 14.6 GeV/A Au + Au collision at b = 0 fm for various times in fm/c.
+
+38
+
+-2 0 20 5 10 15 20 25 30 35
+
+S + S 200 GeV/A
+
+HSD (p-) HSD (p)
+
+p- data p data
+
+dN/dy
+
+y Fig. 22. Proton and ss\Gamma rapidity distribution for a central 200 GeV/A S + S collision in comparison to the data of ref. [66].
+
+-2 0 20 50 100 150 200 p-
+
+p Pb + Pb 153 GeV/A
+
+dN/dy
+
+y Fig. 23. Proton and ss\Gamma rapidity distribution for a 153 GeV/A Pb + Pb collision at b = 2 fm.
+
+39
+
+exp.ratio without kaon with kaon
+
+selfenergies selfenergies
+
+p + p 0.08 0.08 0.08 Si + Al 0.13 0.09 0.12 Si + Cu 0.16 0.1 0.15 Si + Au 0.19 0.11 0.16 Au + Au 0.22 0.12 0.21
+
+Table 1. The K+=ss+ ratio for p + p, Si + Al, Si + Au and Au + Au collisions at 14.6 GeV/A in comparison to the data from ref. [68].
+
+meson masses as described in Section 3. According to their drop in mass \Delta mh(r; t) = \Gamma U Sh (r; t) the mesons are propagated in their time-dependent scalar mean field U Sh (r; t) which couples linearly to the baryon density. Thus their momenta are decreased dynamically during the expansion of the hadronic system and the energy to become asymptotically on-shell is extracted from the collective motion. It is clearly seen that for density-dependent K+ masses the ratio is strongly enhanced for the heavier systems as seen experimentally. However, this enhancement could also be attributed to a closer approach to chemical equilibrium as advocated in ref. [68] which might be achieved due to enhanced hadronic cross sections in the dense medium. Whereas in principle the coupled transport equations (1) also describe the approach towards chemical equilibrium for large systems, it is not yet clear if all the proper reactions rates are presently included in our simulations such that no final evidence on chiral symmetry restoration can be extracted so far from the K+=ss+ ratio.
+
+The medium modifications of the ae-meson are most efficiently probed by dilepton spectroscopy [57,59,63] since due to its short lifetime the ae-meson has a good chance to decay in the dense baryonic environment. According to Fig. 15 we expect a substantial enhancement of dileptons in the invariant mass range 0.4 GeV ^ M ^ 0.7 GeV in nucleus-nucleus collisions as compared to p + A collisions due to a shift in the ae-mass spectrum and an enhanced ae-meson production in the dense medium especially via ss+ss\Gamma annihilation [69,70]. In fact, first computations for dilepton production within the HSD approach [70] show that the enhancement of dileptons in central S + Au collisions at 200 GeV/A (reported by the CERES-collaboration [71]) might be explained by the 'chiral' dynamics proposed in Sections 2 and 3.
+
+40
+
+5 Summary In this work we have presented a relativistic transport approach for hadrons (denoted by HSD 9 ) where the underlying (real parts of) nucleon selfenergies have been determined on the basis of an effective NJL-type Lagrangian for the quark degrees of freedom with a chiral invariant interaction density. Starting with a local color current interaction we have developed a model for spin and isospin averaged color neutral states on the basis of the experimental electromagnetic formfactor of the proton. The parameters in our model, which are all fixed by physical quantities are GS and \Lambda S for the scalar part, GV and \Lambda V for the vector part and ff, which describes the swelling of the nucleon in nuclear matter. The physical quantities which are sufficiently well met are: the averaged nucleon mass MN, the scalar vacuum condensate h _qqi, the pion-nucleon \Sigma -term, the nuclear equation of state (minimum at ae = ae0 with -16 MeV binding energy) and the Schroedinger equivalent potential USEP for nucleons. Due to the scalar-vector nature of the quark-quark interaction the nucleon selfenergies (fitted to the NJL results) are also close to those of the oe-! model of Walecka [40] in the low momentum and low density regime.
+
+Whereas the real part of the nucleon selfenergies has been determined from a quark oriented model to allow for reasonable extrapolations to the high density regime, the kaon, ae, ! and OE meson selfenergies are fixed in line with more simple Lagrangian densities (Section 2.5). In this respect the meson sector will need further improvement in future. However, especially at bombarding energies as high as 200 GeV/A, the imaginary part of the hadron selfenergies is more important. In the HSD approach the respective transition rates have been adopted from the LUND string fragmentation model [22] where the meson masses (except the pion and j) have been scaled in line with chirally invariant interaction densities. This more pragmatic model, of cause, has less founded reliability and thus one has to justify its applicability or inadequacy in comparison to experimental data.
+
+As a first step in this direction we have applied our relativistic transport approach to nucleus-nucleus collisions from SIS to SPS energies. Whereas the proton and pion rapidity distributions and transverse pion spectra look reasonably well for the systems studied experimentally, a clear signature for the chiral symmetry restoration could not unambiguously be established so far. This is because the strangeness enhancement observed experimentally at AGS and SPS energies might also be due to chemical equilibration or e.g. color-rope formation [58]. A better probe should be provided by dilepton spectroscopy in the invariant mass regime from 0.4 - 0.8 GeV [57] since the ae-meson predominantly decays in the dense medium. In fact, first computations on e+e\Gamma
+
+9 Hadron-String-Dynamics
+
+41
+
+production at SPS energies suggest that the dilepton enhancement seen by the CERES collaboration might be due to a dropping ae-mass in the medium [70].
+
+The nuclear equation of state computed within our approach (Fig. 8) shows no density isomer up to ae ss 10ae0. This prediction is essentially due to the fact that scalar and vector baryon selfenergies are approximately of the same order of magnitude, but different sign, up to ae ss 4ae0 and the repulsive vector interaction takes over at even higher ae together with the kinetic energy per nucleon. A density isomer thus can only occur if the vector coupling itself decreases at high baryon density or temperature. Some arguments in this direction have recently been proposed by Brown and Rho [72] and investigated in a model study by Li and Ko [73]. A clarification of this problem e.g. should be achieved by experimental data on the baryon flow as a function of projectile/target mass and bombarding energy in the energy regime in between SIS and SPS thus allowing for a closer look at the EOS at 'very high' baryon density.
+
+The authors acknowledge valuable and inspiring discussions througout this work with C. M. Ko, U. Mosel, H. St"ocker, S. Teis and Gy. Wolf. They are also grateful to T. Maruyama for an earlier version of the relativistic transport code used in the analysis of nucleus-nucleus collisions in the energy regime below 1 GeV/A.
+
+References
+
+[1] W. Cassing and U. Mosel, Prog. Part. Nucl. Phys. 25 (1990) 235. [2] B. Bl"attel, V. Koch and U. Mosel, Rep. Prog. Phys. 56 (1993) 1. [3] S. Teis, W. Cassing, T. Maruyama, and U. Mosel, Phys. Lett. B319 (1993) 47;
+
+Phys. Rev. C50 (1994) 388.
+
+[4] C. M. Ko, Q. Li and R. Wang, Phys. Rev. Lett. 59 (1987) 1084; C. M. Ko and
+
+Q. Li, Phys. Rev. C37 (1988) 2270; C. M. Ko, Nucl. Phys. A495.
+
+[5] X. S. Fang, C. M. Ko, G. Q. Li, and Y. M. Zheng, Phys. Rev. C49 (1994) R608;
+
+Nucl. Phys. A575 (1994) 766.
+
+[6] G. Q. Li, C. M. Ko, X. S. Fang, and Y. M. Zheng, Phys. Rev. C49 (1994) 1139;
+
+G. Q. Li, C. M. Ko and X. S. Fang, Phys. Lett. B329 (1994) 149.
+
+[7] K. Weber, B. Bl"attel, W. Cassing, H.-C. D"onges, V. Koch, A. Lang, and U.
+
+Mosel, Nucl. Phys. A539 (1992) 713.
+
+42
+
+[8] K. Weber, B. Bl"attel, W. Cassing, H.-C. D"onges, A. Lang, T. Maruyama, and
+
+U. Mosel, Nucl. Phys. A552 (1993) 571.
+
+[9] T. Maruyama, W. Cassing, U. Mosel, S. Teis, and K. Weber, Nucl. Phys. A573
+
+(1994) 653.
+
+[10] J. Aichelin, Phys. Reports 202 (1991) 233; J. Aichelin and H. St"ocker, Phys.
+
+Lett. B176 (1986) 14; J. Aichelin, G. Peilert, A. Bohnet, A. Rosenhauer, H. St"ocker, and W. Greiner, Phys. Rev. C37 (1988) 2451.
+
+[11] H. Sorge, H. St"ocker, and W. Greiner, Ann. Phys. 192 (1989) 266; Nucl. Phys.
+
+A498 (1989) 567c; H. Sorge, A. v. Keitz, R. Matiello, H. St"ocker, and W. Greiner, Z. Phys. C47 (1990) 629; Phys. Lett. B243 (1990) 7; A. Jahns, H. Sorge, H. St"ocker, and W. Greiner, Z. Phys. A341 (1992) 243.
+
+[12] W. Botermans and R. Malfliet, Phys. Rep. 198 (1990) 115. [13] R. Malfliet, Prog. Part. Nucl. Phys. 21 (1988) 207. [14] G. E. Brown, Prog. Theor. Phys. 91 (1987) 85. [15] G. E. Brown, C. M. Ko, Z. G. Wu, and L. H. Xia, Phys. Rev. C43 (1991) 1881. [16] G. E. Brown and M. Rho, Phys. Rev. Lett. 66 (1991) 2720. [17] V. Koch and G. E. Brown, Nucl. Phys. A560 (1993) 345. [18] B. Peterson, Nucl. Phys. B30 (1992) 66. [19] F. Karsch, Nucl. Phys. B34 (1993) 63. [20] J. Engels, Phys. Lett. B252 (1990) 625; J. Engels, F. Karsch and K. Redlich,
+
+Nucl. Phys. B435 (1995) 295.
+
+[21] F. Karsch and E. Laermann, Phys. Rev. D50 (1994) 6954. [22] B. Nilsson-Almqvist and E. Stenlund, Comp. Phys. Comm. 43 (1987) 387. [23] M. Gell-Mann, R. Oakes, and B. Renner, Phys. Rev. 175 (1968) 2195. [24] D.B. Kaplan and A.E. Nelson, Phys. Lett. B175 (1986) 57. [25] U. Vogl and W. Weise, Prog. Part. Nucl. Phys. 27 (1991) 195. [26] S. Klimt, M. Lutz, U. Vogl, and W. Weise, Nucl. Phys. A516 (1990) 429. [27] U. Vogl, M. Lutz, S. Klimt and W. Weise, Nucl. Phys. A516 (1990) 469. [28] M. C. Birse, J. Phys. G20 (1994) 1537. [29] J. H"ufner, S. P. Klevansky, P. Zhuang and H. Voss, Ann. of Physics 234 (1994)
+
+225.
+
+[30] P. P. Domitrovich and H. M"uther, J. Phys. G20 (1994) 1885. [31] S. P. Klevansky, Rev. Mod. Phys. 64 (1992) 649.
+
+43
+
+[32] T. Meissner, E. Ruiz Arriola and K. Goeke, Z. Phys. A339 (1990) 91. [33] R. Alkhofer, H. Reinhardt and H. Weigel, preprint UNITU-THEP-25/1994,
+
+ Dez. 1994.
+
+[34] T. Meissner, E. Ruiz Arriola, A. Blotz and K. Goeke, preprint RUB-42/93. [35] U. G. Meissner, Phys. Rep. 161 (1988) 213. [36] V. Bernard, U.-G. Meissner, and A. A. Osipov, Phys. Lett. B324 (1994) 201. [37] Y. Nambu and G. Jona-Lasinio, Phys. Rev. 122 (1961) 345; Phys. Rev. 124
+
+(1961) 246.
+
+[38] P. A. M. Guichon, Phys. Lett. B200 (1988) 235. [39] K. Saito and A. W. Thomas, Phys. Rev. C51 (1995) 2757. [40] J. D. Walecka, Ann. Phys. 83 (1974) 491. [41] B. D. Serot and J. D. Walecka, Adv. Nucl. Phys. vol. 16, ed. J. Negele and E.
+
+Vogt (Plenum, New York, 1986) p. 1 (1968) 2195.
+
+[42] M. Gourdin, Phys. Rep. 11 (1974) 29; D. Krupa, S. Dubnicka, V. Kundrat, and
+
+V.A. Meshcheryakov, J. Phys. G10 (1984) 455.
+
+[43] B. W. Bush and J. R. Nix, Ann. Phys. 227 (1993) 97. [44] U. Kalmbach, T. Vetter, T. S. Biro, and U. Mosel, Nucl. Phys. A563 (1993)
+
+584.
+
+[45] T. Vetter, T. S. Biro and U. Mosel, Nucl. Phys. A581 (1995) 598. [46] R. D. Bowler and M. C. Birse, Nucl. Phys. A582 (1995) 655. [47] R. Machleidt, K. Holinde and Ch. Elster, Phys. Rep. 149 (1987) 1. [48] J. Gasser, H. Leutwyler and M. E. Sainio, Phys. Lett. B253 (1991) 252. [49] F. E. Close, R.L. Jaffe, R.G. Roberts, and G.G. Ross, Phys. Rev. D31 (1985)
+
+1004.
+
+[50] T. D. Cohen, R. J. Furnstahl and D. K. Griegel, Phys. Rev. C45 (1992) 1881. [51] R. Brockmann and W. Weise, in 'Hadrons in Nuclear Matter', Proceedings
+
+of the International Workshop XXIII on Gross Properties of Nuclei and Nuclear Excitations, Hirschegg, Austria, Jan. 1995, ed. by H. Feldmeier and W. N"orenberg, p. 12.
+
+[52] G. Q. Li and C. M. Ko, Phys. Lett. B338 (1994) 118. [53] S. Hama, B. C. Clark, E. D. Cooper, H. S. Sherif and R. L. Mercer, Phys. Rev.
+
+C41 (1990) 2737. (1987) 1.
+
+[54] A.E. Nelson and D. Kaplan, Phys. Lett B192 (1987) 193.
+
+44
+
+[55] G.Q. Li and C.M. Ko, Nucl. Phys. A582 (1995) 731. [56] T. Hatsuda and S. H. Lee, Phys. Rev. C46 (1992) R34. [57] Gy. Wolf, W. Cassing, W. Ehehalt, and U. Mosel, Prog. Part. Nucl. Phys. 30
+
+(1993) 273.
+
+[58] H. Sorge, private communication. [59] C.M. Ko, Nucl. Phys. A583 (1995) 591c. [60] K. Niita, W. Cassing and U. Mosel, Nucl. Phys. A504 (1989) 391. [61] Gy. Wolf, G. Batko, W. Cassing, U. Mosel, K. Niita, and M. Sch"afer, Nucl.
+
+Phys. A517 (1990) 615.
+
+[62] F.D. Berg et al., Phys. Rev. Lett. 72 (1994) 977. [63] W. Ehehalt, W. Cassing, A. Engel, U. Mosel, and Gy. Wolf, Phys. Lett. B298
+
+(1993) 31.
+
+[64] T. Abbott et al., E802 Coll., Phys. Rev. C50 (1994) 1024. [65] P. Braun-Munzinger, private communication. [66] H. Stroebele et al., Nucl. Phys. A525 (1991) 59c. [67] M. Gyulassy, Quark Matter 95, preprint CU-TP-685. [68] P. Braun-Munzinger, J. Stachel, J.P. Wessels, and N. Xu, Phys. Lett. B344
+
+(1995) 43.
+
+[69] G.Q. Li, C.M. Ko, and G.E. Brown, submitted to Phys. Rev. Lett. [70] W. Cassing, W. Ehehalt, and C. M. Ko, Phys. Lett. B, in print; . [71] A. Drees, in 'Hadrons in Nuclear Matter', Proceedings of the International
+
+Workshop XXIII on Gross Properties of Nuclei and Nuclear Excitations, Hirschegg, Austria, Jan. 1995, ed. by H. Feldmeier and W. N"orenberg, p. 151.
+
+[72] G.E. Brown and M. Rho, Phys. Lett. B338 (1994) 301. [73] G. Q. Li and C. M. Ko, Phys. Lett. B351 (1995) 37.
+
+45
+

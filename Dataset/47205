@@ -1,0 +1,142 @@
+
+
+ 14 Jun 1994
+
+ON THE PROBLEM OF THE MAGNETIC MASS
+
+O. Philipsen Theory Group, DESY Notkestr. 85 D-22603 Hamburg, Germany
+
+1. INTRODUCTION
+
+A complete perturbative description of non-abelian field theories at finite temperature is prohibited due to the occurrence of infrared divergencies for massless fields and the corresponding breakdown of perturbation theory. In particular, this renders impossible a discussion of the electroweak phase transition in the immediate vicinity of the critical temperature, as well as an evaluation of the effective potential in the symmetric phase. A potential cure for this problem is the dynamical generation of a "magnetic mass", which has to be of the form , g2T , but whose coefficient cannot be calculated perturbatively, since it receives contributions from all orders of perturbation theory.1
+
+Recently an estimate of this coefficient was attempted2 by studying a set of gap equations for the full propagators of the theory. In this approach one rearranges the perturbation series by adding and subtracting mass counterterms to the action,
+
+S = S0 + ffiSm + Sint \Gamma ffiSm ; (1) and expanding in the modified interaction term Sint \Gamma ffiSm with propagators derived from S0 + ffiSm. If the up to now arbitrary counterterms ffiSm are chosen to represent the radiative corrections to the masses of the corresponding fields, one obtains propagators containing full masses m2 = m20 + ffim2, which are to be used in the evaluation of loop diagrams in the modified perturbation theory. The counterterm \Gamma ffiSm in the new interaction term ensures that the higher order contributions, which have been resummed into the propagator, do not contribute twice when calculations in higher orders are done. The value of the mass corrections ffim2 can be determined implicitly and self-consistently by calculating the self-energies of the fields in the modified perturbative scheme using full propagators. This corresponds to an infinite iteration of one-loop mass corrections and leads to a gap equation for the full masses m.3 In the case of the SU(2)-Higgs model the authors of Refs. 2 considered the gap equation
+
+m2T = \Pi T (p0 = 0; p ! 0) (2)
+
+for the transverse gauge boson mass mT in the symmetric phase (i. e. for a tree level mass mT 0 = 0), and they found in Landau gauge
+
+m2T = mT3ss g2T ; (3) yielding a nonvanishing magnetic mass mT = g2T =(3ss).
+
+Most equilibrium properties of field theories at very high temperature can be investigated by studying the corresponding dimensionally reduced field theory.4 It is therefore instructive to examine, if the dynamical generation of a mass for the spatial components of the vector fields can also be understood in the three-dimensional theory.5
+
+2. PURE GAUGE THEORY IN 3 DIMENSIONS
+
+Consider a pure gauge theory in three euclidean dimensions, where the gauge fields are known to remain massless at every finite order perturbation theory. In order to study non-perturbative dynamical mass generation a mass counterterm Aa_Aa_m2=2 is added and subtracted to the action following the rationale explained in the last section. After covariant gauge fixing and including the ghost term the Lagrangian density relevant for studying the one loop self-energy of the gauge fields is given by
+
+L = 14F a_* F a_* + m
+
+2
+
+2 Aa_Aa_ + 12, (@_Aa_)2 \Gamma _ca@_ \Theta ffiab@_ + g"abcAc_\Lambda cb : (4)
+
+In three dimensions there are only two linearly independent tensors with two Lorentz indices which can be chosen to be the transverse and longitudinal projectors,
+
+PL_* = p_p*p2 ; PT _* = ffi_* \Gamma p_p*p2 : (5)
+
+The propagator and the self-energy can thus be decomposed,
+
+Dab_*(p) = ffiab[DT (p)PT _* + DL(p)PL_* ] ;
+
+\Pi ab_*(p) = ffiab[\Pi T (p)PT _* + \Pi L(p)PL_* ] ; (6) yielding the full propagator
+
+~Dab_*(p) =
+
+1X
+
+n=0
+
+D(p)[\Pi (p)D(p)]n
+
+= ffiab h PT_*p2
+
+\Gamma \Pi T (p) +
+
+PL_* p2\Gamma \Pi L(p) i : (7)
+
+In order to find the magnetic mass the transverse self-energy \Pi T has to be calculated with the propagators following from (4). If the magnetic mass determined in this way is to have a physical meaning instead of being just a technical quantity appearing in calculations, it has to be independent of the gauge fixing parameter. We therefore do the calculation in a general covariant gauge in order to check the gauge dependence explicitly. Thus, we study the gap equation
+
+m2 = \Gamma \Pi T (p ! 0; m; ,) ; (8) which is shown diagrammatically in Fig. 1. Removing linearly divergent terms by means of dimensional regularization we obtain
+
+m2 = \Gamma g2 mss h\Gamma 56 + 13 ,3=2 + 3
+
+\Gamma 5,+2,5=2
+
+6(1\Gamma ,) i : (9)
+
+2
+
++ += + Figure 1. Gap equation for the self-consistent determination of the full mass correction for the propagator. The blobs on the lines indicate full propagators.
+
+In Landau gauge, , = 0, and with the replacement g2 ! g2T this reduces to equation (3). For four-dimensional theories at T 6= 0 we can therefore conclude that the generation of a magnetic mass as described by gap equations at one-loop order is a feature of the Matsubara zero modes.
+
+However, the mass term generated in this way is gauge dependent. In a study of the Debye mass it has been pointed out by Rebhan6 that, in order to obtain gauge invariant results, one has to define the mass by the position of the pole in the propagator rather than by the zero momentum limit of the self-energy. Adopting this prescription one has to consider the gap equation
+
+m2 = \Gamma \Pi T (p2 = \Gamma m2; m; ,) ; (10) instead of (8). However, the corresponding expression for the transverse self-energy still depends on ,.
+
+3. MASSIVE YANG-MILLS FIELDS IN 3 DIMENSIONS
+
+A gauge invariant way to implement mass terms for non-abelian gauge fields is provided by the mechanism of spontaneous symmetry breaking. Consider the gauge theory supplemented by a scalar field,
+
+L = 14F a_* F a_* + Tr(D_\Phi )y(D_\Phi ) + _2Tr(OEyOE) + *6 hTr(OEyOE)2i ; (11) where \Phi is a complex 2\Theta 2 matrix field transforming as the (1/2,1/2) representation of SU(2)\Theta SU(2). This field develops a nonvanishing vacuum expectation value h\Phi i = v, and can be parametrized by four real fields,
+
+\Phi = 12 (oe + io/ assa) : (12) Inserting this into (11) leads to the oe-model. Upon imposing the condition oe2 + (ssa)2 = v2 and sending *; _ ! 1 with v fixed the oe field decouples and one obtains the non-linear oe-model,
+
+L = 14 F a_*F a_* + g
+
+2v2
+
+8 Aa_Aa_ + 12(@_ssa)2 + gv2 (@_ssa)Aa_ \Gamma g2 "abc@_ssaAb_ssc
+
++O(ss4; ss3A; :::) : (13) where the gauge field has acquired a mass m0 = gv=2. We now perform the same procedure for this model as in the last section, the difference being that in this case we start out with a tree level mass m0 6= 0, which has to be sent to zero at the end of the calculation. To this Lagrangian we add the mass correction for the gauge fields, the R, gauge fixing term
+
+Lgf = 12, (@_Aa_ + m,ssa)2 ;
+
+3
+
+and the corresponding ghost term to arrive at
+
+L = 14F a_* F a_* + m
+
+2
+
+2 Aa_Aa_ + 12, (@_Aa_)2 + 12(@_ssa)2 + 12m2,ssassa \Gamma g2 "abc@_ssaAb_ssc\Gamma
+
+_ca h@_ \Gamma ffiab@_ + g"abcAc_\Delta + g
+
+2v
+
+4 ,"abcssc \Gamma m2,ffiabi cb : (14)
+
+The Goldstone fields ssa are unphysical and can be gauged away by going to the unitary gauge, in which (14) reduces to a theory describing a massive vector field,
+
+Lunitary = 14F a_* F a_* + m
+
+2
+
+2 Aa_Aa_ : (15)
+
+The self-energy of the gauge fields now gets an additional contribution from the Goldstone loop, Fig. 2.
+
+Figure 2. Contribution of the Goldstone modes to the gap equation for the model (14).
+
+We have derived the gap equations (8) and (10) for this model. In the first case we recover equation (9) with an additional term , p, from the Goldstone and ghost diagrams, leaving the expression gauge dependent. However, for the gap equation (10) we find in the limit m0 = 0
+
+m2 = g2 mss h 6364 ln 3 \Gamma 316 i : (16) This gap equation is manifestly gauge invariant and has, besides m = 0, the nontrivial solution
+
+m = 0:28g2 : (17)
+
+In conclusion it was found that dynamical generation of a transverse gauge field mass as it can be investigated by the study of gap equations occurs in purely threedimensional theories and hence, in the case of four-dimensional theories at T 6= 0, can be attributed to the static modes. We found a gauge invariant pole of the resummed gauge field propagator of the non-linear oe-model in the limit of vanishing tree level mass. If one interprets this model as the high temperature limit of four-dimensional SU(2) pure gauge theory, the value (17) for the magnetic mass is consistent with the results of other non-perturbative studies.7 In order to understand the precise meaning of the above results for physical, four-dimensional theories further studies are required. An investigation of the connection to the linear oe-model as well as a more systematic discussion of renormalization in the approach presented here is currently in progress.5
+
+REFERENCES 1. A. Linde, Phys. Lett. 93B:327 (1980);
+
+D. J. Gross, R. D. Pisarski and L. G. Yaffe, Rev. Mod. Phys. 53:43 (1981). 2. W. Buchm"uller, Z. Fodor, T. Helbig and D. Walliser, DESY Preprint DESY-93-021 (1993);
+
+J.R. Espinosa, M. Quiros and F. Zwirner, Phys. Lett. 314B:206 (1993). 3. L. Dolan and R. Jackiw, Phys. Rev. D9:3320 (1974). 4. T. Appelquist and R. Pisarski, Phys. Rev. D23:2305 (1981). 5. W. Buchm"uller and O. Philipsen, in preparation. 6. A. K. Rebhan, Phys. Rev. D48:3967 (1993). 7. A. Billoire, G. Lazarides and Q. Shafi, Phys. Lett. 103B:450 (1981);
+
+T. S. Bir'o and B. M"uller, Nucl. Phys. A561:477 (1993).
+
+4
+

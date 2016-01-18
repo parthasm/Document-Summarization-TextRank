@@ -1,0 +1,359 @@
+1
+
+
+Spectral representation for on-shell massless double box
+
+N. I. Ussyukina
+
+¡ ¢ £ ¤ £ ¥ £ ¦ § ¨ © ¥ ¦ © ¢ ¤ ¢ ¨ ¢ ¨ £ £ ¦ ! ¡ ¤ " ¦ © ¢ ¤ £ # # $ % $ $
+
+
+
+
+
+& ' ( ) ' 0 1 2 3 ( ( 4 5
+
+
+
+
+
+E-mail address: ussyuk@theory.npi.msu.su
+
+
+
+A method is presented for obtaining the -expansion
+for on-shell massless scalar double-box diagram.
+
+
+
+1. There are several reasons why calculation of two-loop diagrams is important. The study
+of two-loop diagrams is required by increasing precision of experiments. Examination of multi-
+jet processes requires analytical calculations of two-loop diagrams. At last, consideration of
+such diagrams helps us to develop and apply new methods of loop calculations.
+
+One-loop on-shell four-point diagram in 4 -theory has been considered in [1]. As
+compared with the one-loop case, the evaluation of two-loop diagrams is technically much
+more complicated and less investigated. Off-shell double-box problem in 4-dimensional space-
+time was solved in [2]. On-shell double-box problem is more complicated than the off-shell one
+because the appearence the infrared divergences. Our consideration will be in the framework of
+dimensional regularization [3]. On-shell double-box diagram has very high degree of
+divergences. Let n = 4 + 2 be the space-time dimension. Then on-shell double-box diagram
+D(s,t, k 2 ) diverges as -4 . It is evident that the expansion up to the forth degree is a very
+i
+
+difficult problem. On-shell problem can be solved for example by using various reduction
+methods (the integration-by-part method [4], uniqueness method [5]). Such approach was used
+in [6], but result was too combersome. For this reason it remained the problem to look for
+such scheme, that could lead to more visible result. Such method I'll consider in this paper.
+The talk is about so named Mellin expansion method. At first this method was used for
+multiloop calculations in [7]. With the help of this method I managed to find the visible
+solution for the on-shell double-box case.
+The remainder of the paper is organized as follows. In Section 2 we list notations, some
+most useful formulas and the main idea of calculation. In Section 3 we'll carry out some spade-
+ 11 Jan 1998 work before to use the Mellin expansion method. In Section 4 using the Mellin expansion
+method we'll obtain the spectral representation for four-point function. In Section 5 we discuss
+the results.
+
+2. In this section we list notations, some most useful formulas and the main idea of
+calculation.
+
+k1 k4
+
+D(s,t) =
+
+
+k k
+2 3
+
+Fig.1
+
+
+We use the standard notations s = (k + k )2 , t = (k + k )2 , k 2 = 0 .
+1 2 2 3 i
+
+
+2
+
+
+Not to complicate formulae, we omit henceforth the factors that are powers of 2, , i. These
+factors can be easily restored in the final results. Each line of diagrams carries a power-like
+factor that is pictured as a line with a label , for example,
+
+1 in momentum space ,
+
+2
+d p - i0i
+
+1 in coordinate space .
+
+2
+dx + i0i
+
+We'll use constantly the formula for propagator Fourier-transformation from momentum to
+coordinate space:
+
+1 (µ ) 1
+- × .
+2 2
+(k ) () (x )µ-
+
+
+The main idea of calculations consists in the possibility to reduce in the case k 2 = k 2 = 0
+4 3
+
+double-box diagram D(s, t) to three-point diagram (Fig.2) (q2 ,q2 ,q2 ) :
+1 2 3
+
+
+q1 q2
+1 1
+
+(q2,q2,q2) =
+1 2 3 1
+2 2
+
+
+q3
+
+
+Fig.2
+
+
+where
+
+q2 = (k + k x 2
+) , q2 = (k + k y 2
+) , q2 = txy , x = 1- x , y = 1- y ,
+1 1 2 2 3 4 3
+
+
+with the help of equality
+
+1 1
+
+D(s,t) = dx dy (q2 , q2 ,q2
+) .
+z z (1)
+1 2 3
+
+0 0
+
+
+The three-point diagram is more simple object for calculation and for expansion in than four-
+point diagram and if we will know the -expansion for , we'll obtain simply -expansion for D
+from this equality.
+3. In this section we'll carry out some preparatory work before using the Mellin-expansion
+method. The reason for this will be clear later. Using the uniqueness method we present the
+three-point diagram (here it is written in coordinate space) in the following form;
+
+
+3
+
+
+1+ 3
+1+ 1+ 2 1
+
+1 + (1 3 ) 2
+= +
+
+4(1+ )(1- 2) 1- 2 , (2)
+
+
+
+2 1 1 -
+3
+2 (2 ) 1
+( ) 1+
+= - +
+2
+1- 2 1
+( + 2) 1- 2
+. (3)
+1 +
+
+We begin our calculation from the usual Feynman -representation for diagram of Fig.3 in
+coordinate representation. Then we transform this -representation to spectral representation
+for Fig. 4.
+
+
+x q q
+y 1
+
+1+
+
+1 +
+
+z q
+2
+
+
+
+Fig. 3 Fig.4
+
+
+4. In this section we obtain at first spectral representation for diagram of Fig.3, then using
+the Mellin expansion method we'll reduce it to spectral representation for four-point function.
+Spectral representation for diagram of Fig.3 has the form
+
+1
+d d
+z z .
+
+l + + 2- 2
+2 2 2
+0 0 q n(y - z) + (x - y) + (x - z) s
+
+This expression can be presented in the form of two-fold Mellin integral [8]. After
+multiplying this Mellin expansion by the propagators that correspond to formula (3) and after
+transforming the result to momentum representation we obtain for two-loop three-point
+diagram of Fig.4 in momentum representation the following -representation
+
+z 2 2 2-2
+( )
+d 1 2 3 i
+(1
+) , (4)
+i - i i 2
+n 2 2 s
+1 2 1 23 2
+i q + q + q 1 3
+
+where
+
+1 2-1 2-1
+1 z (1 z)
+( ) = -
+dx
+z -
+1 dz .
+z
+i x 1
+l q
+1 0 +
+xz + z +
+1 2 3
+
+
+4
+
+
+This representation is very similar to ordinary -representation for one-loop three-point
+function, but the representation for two-loop case include weght-function ( ) .
+i
+After transformations that take into account equality (1) we obtain for four-point function:
+
+1 1 2
+2-1 -
+D(s, t) dx dy d d d (1+ )
+z z z z 1 3
+2
+2 2 2 z
+0 0 0 0 q
+n + + s
+n + q + q s
+1 2 0
+
+-
+z 1
+× dz .
+z +
+1
+(
+n 1+ )q2 + + zs
+
+At this stage we can see why the previous transformations were done. For the form (3) we can
+carry out integration over y. Then
+
+1 2-1 1
+D(s, t) dx d d d dz ,
+z z z z l ++ ql z (5)
+s + + tx +
+1
+1 1
+2
+q
+0 0 0 0 0 q
+n z
++ + zs
+
+and taking into account, that q2 = sx we obtain (here L = t / s )
+
+1
+D(s, t) J ,
+-
+s3 2
+
+2-1
+J = d d dx d
+z z z z
+1
+l + + Lq 1
+l + + q
+0 0 0 0
+
+× 1 1
+dz
+z + . (6)
+1
+lx + 1
+( + )(x + + q
+) lxz q
+0 + x + z +
+
+This spectral representation is a convenient starting point for both analytical and numerical
+calculations. For instance, in a separate publication I will obtain one of the irreducible diagrams
+that appeared in [10], which corresponds to L = -1 as well as a much more cumbersome
+analytical result for arbitrary L as a quadratic form of Li -functions.
+n
+
+
+
+Conclusions. In this paper we have considered an approach to the calculation of on-shell
+two-loop scalar double-box diagram. This approach is based on the following tools: (i) the
+Feynman parametric representation, (ii) the uniqueness method, (iii) Mellin-Barnes contour
+
+integrals. We considered only scalar diagrams (corresponding to massless 3 -theory) because
+expressions occuring in realistic calculations can be reduced to such scalar integrals. We have
+obtained the analytical formula (6), that can be used for calculations in various concrete cases.
+
+I am grateful to F.V.Tkachov for his interest in this work, useful discussions and help. The
+reseach was supported in part by the Russian Fund for Basic Reseach (grant 95-02-05794).
+
+
+References
+
+[1] W.L.van Neerven. Nucl. Phys. B268 (1986) 453.
+
+[2] N.I.Ussyukina, A.I.Davydychev. Phys. Lett. B 298 (1993) 363.
+
+[3] G.t'Hooft, M.Veltman. Nucl.Phys. B153 (1979) 365.
+
+[4] F.V.Tkachov. Phys.Lett. B100 (1981) 65.
+
+
+5
+
+
+[5] A.N.Vassiliev, Yu.M.Pis'mak, Yu.R.Honkonen. Teor. Mat.Fiz.(Russ.) 47 (1981) 291;
+
+N.I.Ussyukina. Teor.Mat.Fiz.(Russ.) 54 (1983) 124;
+
+D.I.Kazakov. Teor.Mat.Fiz.(Russ.) 58 (1984) 345.
+
+[6] N.I.Ussyukina. Preprint Fermilab-Pub-93/241-T;
+
+N.I.Ussyukina. In the X Int.Workshop on High Energy Physics. Zvenigorod, Russia, 1995
+
+(ed. B.B.Levchenko and V.I.Savrin, INP MSU, Moscow, 1996).
+
+[7] N.I.Ussyukina. Teor.Mat.Fiz.(Russ.) 22 (1975) 300.
+
+[8] W.N.Baily. Generalized hypergeometric series, University Press, Cambridge, 1935.
+
+[9] L.Levin. Polylogarithms and associated functions, North Holland, 1981.
+
+[10] A.V.Stepanova, F.V.Tkachov, in The XII Int. Workshop on High Energy Physics, Samara,
+Russia, September 1997 .
+
+
+

@@ -1,0 +1,89 @@
+
+
+ 30 May 95
+
+CPT-95/P.3196
+
+May 1995
+
+Semileptonic B ! D and B ! D\Lambda Decays
+
+from the Lattice y
+
+Laurent Lellouch z x (UKQCD Collaboration)
+
+CPT, CNRS Luminy, Case 907, F-13288 Marseille, France -
+
+Abstract We obtain form factors relevant for semileptonic B ! D and B ! D\Lambda decays from a quenched lattice QCD calculation. Our results enable us to test Heavy-Quark Symmetry, determine the Isgur-Wise function as well as obtain the Cabibbo-KobayashiMaskawa (CKM) matrix element Vcb from a measurement, by the CLEO collaboration, of the differential decay rate for semileptonic B ! D\Lambda decays. We find that the Isgur-Wise function has a slope of \Gamma (0:9 + 4\Gamma 4) at zero recoil and that jVcbjK(1) =
+
+0:037 + 1\Gamma 1 + 4\Gamma 2 (0:99=(1 + fiA1(1))), where the first set of errors is due to experimental uncertainties and the second to our errors on ae2. Here K(1) and fiA1(1) denote respectively power and radiative corrections at zero recoil.
+
+to appear in the Proceedings of the XXXth Rencontres de Moriond
+
+"QCD and High Energy Hadronic Interactions"
+
+Les Arcs, France, March 1995
+
+yThis research was supported by the UK Science and Engineering Research Council under grants GR/G 32779 and GR/J 21347.
+
+zemail: lellouch@cpt.univ-mrs.fr
+
+xI thank my colleagues from the UKQCD Collaboration and G. Martinelli for fruitful discussions. -Unit'e Propre de Recherche 7061.
+
+1 Introduction Semileptonic B ! D and B ! D\Lambda decays are interesting phenomenologically because their study enables one to determine the CKM matrix element Vcb as well as to test QCD in its nonperturbative domain. At the level of quarks, the b quark within the B meson decays into a c quark through the emission of a W boson. The amplitude for these decays is proportional to Vcb but the coupling of the quarks to the W is significantly altered by the non-perturbative stronginteraction dynamics which binds the quarks into their respective mesons. It is to compute these corrections that we resort to lattice QCD.
+
+The study of these decays is also interesting theoretically because it permits one to test the range of applicability of Heavy-Quark Symmetry (HQS). In a hadron composed of a heavy quark and light hadronic degrees of freedom one finds that the dynamics of the later become independent of the heavy quark's spin and mass when this mass is much larger than \Lambda QCD. Thus, to the extent that mb; mc AE \Lambda QCD, an SU (4) symmetry on the multiplet (c "; c #; b " ; b #) emerges. This symmetry, of course, leads to simplifications but it also determines the dependence of physical quantities on heavy-quark mass. Now, because the mass and spin of a heavy quark can be varied almost at will in lattice calculations, they are ideal for testing HQS.
+
+The QCD matrix elements required to describe these semileptonic decays can be parametrized in terms of six form factors:
+
+hD(v0)j_cfl_bjB(v)ip
+
+mBmD = (v + v
+
+0)_ h+(!) + (v \Gamma v0)_ h
+
+\Gamma (!) ;
+
+hD\Lambda (v0; ffl)j_cfl_bjB(v)ip
+
+mBmD\Lambda = iffl
+
+_*fffiffl\Lambda
+
+*v
+
+0 ffvfi hV (!) ; (1)
+
+hD
+
+\Lambda (v0; ffl)j_cfl_fl5bjB(v)ip
+
+mBmD\Lambda = (! + 1)ffl
+
+\Lambda _ hA
+
+1(!) \Gamma ffl
+
+\Lambda \Delta v (v_ hA
+
+2 + v
+
+0_ hA
+
+3 ) ;
+
+where !=v \Delta v0 and ffl_ is the polarization vector of the D\Lambda . In the heavy-quark limit, these six form factors reduce to a single universal function, ,(!), known as the Isgur-Wise function and normalized to 1 at !=1 [2]. We have
+
+hi(!) = (ffi + fii(!) + fli(!)) ,(!) ; (2) where ff+=ffV =ffA1 =ffA3 =1 and ff\Gamma =ff2=0. The functions fii parametrize perturbative, radiative corrections to the symmetry limit which we calculate using the results of [3]. The functions fli parametrize non-perturbative corrections which correspond to matrix elements of higher-dimension operators in Heavy-Quark Effective Theory and which are proportional to inverse powers of the heavy-quark masses. Luke's theorem [4] guarantees that fl+;A1 (1) begins at second order in (1=2mb;c).
+
+The results for the dominant form factors, h+ and hA1 , presented below were obtained from 60 quenched configurations on a 243 \Theta 48 lattice at fi=6:2, corresponding to an inverse lattice spacing of approximately 2:85 GeV. Quark propagators were generated from an O (a)- improved Wilson action [5] for three values of the light-quark mass around that of the strange and four values of the initial and final heavy-quark masses around that of the charm; the b cannot be simulated directly because its mass is of the same order as our cutoff. To obtain results relevant for the b, then, we extrapolate "charm"-quark results as described below. Also, where necessary, we extrapolate the results linearly in light-quark mass to the chiral limit. (For details, see Ref. [1].)
+
+2 Tests of Heavy Quark Symmetry To extrapolate h+ and hA1 obtained in the region of the charm to a domain relevant for Bdecays we must understand these form factors' dependence on heavy-quark mass. For this purpose, we study the quantities _h+(!)=(1 + fi+(!)) and _hA1 (!)=(1 + fiA1(!)) where we have subtracted all mass dependence due to radiative corrections. We work with _hi(!)jhi(!)=hi(1), i=+; A1, instead of hi(!) to reduce cutoff effects. Plotted in Fig. 1 is _h+=(1 + fi+) for four different values of the heavy-quark mass for transitions where initial and final heavy quarks are degenerate in mass.Error: /undefinedresult in --idtransform--
+Operand stack:
+--nostringval-- --nostringval-- 2.692 0
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:129/200(L)-- --dict:34/200(L)-- --dict:42/50(L)--
+Current allocation mode is local
+

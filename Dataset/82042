@@ -1,0 +1,1586 @@
+United Nations Educational Scientific and Cultural Organization
+and
+International Atomic Energy Agency
+
+
+THE ABDUS SALAM INTERNATIONAL CENTRE FOR THEORETICAL PHYSICS
+
+
+
+
+
+Supersymmetric Quantum Corrections
+and
+Poisson-Lie T-Duality
+
+
+
+
+
+F. Assaoui* and T. Lhallabi*
+The Abdus Salam International Centre for Theoretical Physics, Trieste, Italy.
+
+
+
+
+
+Abstract
+The quantum actions of the (4,4) supersymmetric non-linear sigma model and its dual in
+the Abelian case are constructed by using the background superfield method. The propagators
+of the quantum superfield and its dual and the gauge fixing actions of the original and dual
+(4,4) supersymmetric sigma models are determined. On the other hand, the BRST
+transformations are used to obtain the quantum dual action of the (4,4) supersymmetric non-
+arXiv: 28 Jul 2000 linear sigma model in the sense of Poisson-Lie T-duality.
+*
+
+
+
+
+
+
+* Permanent address: Section of High Energy Physics, H. E. P. L, University MohammedV, Scientific Fac,
+Rabat, Morocco.
+E-mail: Lhallabi@fsr.ac.ma
+
+
+1 - Introduction
+
+
+Various T-duality transformations [1] connecting two seemingly different sigma models
+
+or strings backgrounds, have aroused a considerable amount of interest. The non-Abelian T-
+
+duality transformation of the isometric sigma model on a group manifold G gives non-
+
+isometric sigma model on its lie algebra [2,3]. As a result, it was not known how to perform
+
+the inverse duality transformation to get back to the original model. In order to solve this
+
+problem C. Klimcik and P. Severa [4] proposed a generalization of the Abelian and traditional
+
+non-Abelian dualities called Poisson-Lie T-duality. The main idea of this approach is to
+
+replace the requirement of isometry of sigma model with respect to some group by a weaker
+
+condition, which is the Poisson-Lie symmetry of the theory. This generalized duality is
+
+associated with two groups forming a Drinfeld double [5] and the duality transformation
+
+exchanges their roles. This approach has received further developments in a serie of works
+
+[6]. Furthermore, the Abelian and non-Abelian T-duality of the two-dimensional (4,4)
+
+supersymmetric sigma model is treated classically [7] and its Poisson-Lie T-duality is
+
+discussed [8].
+
+On the other hand, the quantum equivalences of Poisson ­Lie T-duality related sigma
+
+models were studied perturbatively in [9] and [10]. It was shown that Poisson-Lie
+
+dualizability is compatible with renormalization at 1-loop. In the present work we start by
+
+studying the quantization of the dually related (4,4) supersymmetric sigma models in the
+
+Abelian case, by using the covariant background superfield formalism [11,12]. Thereafter, we
+
+discuss the quantum equivalence of (4,4) supersymmetric sigma models related by Poisson-
+
+Lie T-duality.
+
+The organization of this paper is as follows. In section 2, we construct the quantum
+
+actions of the (4,4) supersymmetric non-linear sigma model and its dual in the Abelian case
+
+by using the background superfield method. The propagators of the quantum superfield and
+
+its dual are obtained. Furthermore, the BRST transformations of the quantum and background
+
+superfields and their duals are given. This leads to the gauge fixing actions of the original and
+
+dual (4,4) supersymmetric sigma models. In section 3, we study the quantum Poisson-Lie T-
+
+duality of the (4,4) supersymmetric non-linear sigma model by using the BRST
+
+transformations associated with the transformation of the group elements. The generalized
+
+Cartan-Maurer equation is written in terms of the quantum supercurrents and the Poisson-Lie
+
+
+
+1
+
+
+symmetry conditions are given. Finally, in section 4 we make concluding remarks and discuss
+
+our results.
+
+
+2 - Quantization of the Dually Related (4,4) Supersymmetric Sigma Models in the
+Abelian Case
+
+
+We consider a supermanifold M with metric G a = 1, . . ., d and antisymmetric tensor
+ab
+
+
+B which determines a supersymmetric generalized Wess-Zumino term [13]. The action of
+ab
+
+
+the two- dimensional (4,4) supersymmetric sigma model [7] is given by
+
+
+
+S (2.1)
+( 4,4) = dµ (
+{G B D D
+ab + ab ) ++ a --b}
+
+where dµ d
+= 2 d
+y 2 +
+d2 -
+du
++ - is the measure of the two­dimensional (4,4) analytic subspace [14]
+
+
+and is a scalar superfield satisfying the analycity conditions [7]
+
++ a - a
+D- = 0 = D+ (2.2)
+
+with
+
+
++ -
+D = , D = ±
+- D
+- + + , and ± are the harmonic derivatives namely
+
++ -
+
+
+++ ++ + +
+D = -
+2
++ + --
+(2.3)
+-- -- - -
+D = -
+2
+- - ++
+
+
+with
+
+
+±±
+±
+= U
+U
+
+In order to set up a manifestly supersymmetric covariant background field formalism for the
+
+
+(4,4) supersymmetric non-linear sigma model based on the parallel transport equation [11,12],
+
+
+we introduce the unconstrained prepotential a
+(t) (0 t )
+1 defined along the non-
+
+
+geodesic curves a
+(y, +
+, -
+,U )
++ - [15] as:
+
+
+2 2
+a + - a
+= D D
+- + (2.4)
+
+
+
+
+
+2
+
+
+which connects the background superfield with the total superfield
+
+
+a a a
+= + (2.5)
+cl
+
+
+
+with
+
+
++ 2 - 2 a a
+D D
+- + ( )
+0 =
+cl (2.6)
++ 2 - 2 a a a
+D D
+- + )
+1
+( = +
+cl
+
+
+
+
+The non analytic superfield a
+satisfies the equation of parallel transport namely [16]:
+
+
+2
+d a
+d b
+
+a
+d c
++ ( (2.7)
+bc ) = 0
+2
+dt dt dt
+
+where the solution
+
+a a a 1 2 2
+= D D (2.8)
+cl + - a (
+bc ) b + - c
+cl - + +...
+2
+
+is obtained by using the initial conditions
+
+a a
+( )
+0 = .
+cl
+
+a
+d (2.9)
+a
+=
+dt t=0
+
+a
+is the background prepotential and a
+is the quantum superfield which is an unconstrained
+
+superfield. Consequently
+
+a a 1 2 2
+= - a ( D D (2.10.a)
+bc ) b + - c
+cl - + +...
+2
+
+with
+
+2 2
+a + - a
+= D D .
+- + (2.10.b)
+
+
+
+In order to generate a covariant set of background superfield vertices in powers of the
+
+quantum superfield a
+we insert the expansion (2.6) and (2.10) in the action (2.1). By using
+
+the developments of G and B [11] which are available in any coordinate system, the
+ab ab
+
+
+background superfield expansion of the two ­dimensional (4,4) supersymmetric sigma model
+
+is given by
+
+
+
+
+3
+
+
+S 2 2
+S () - S ( ) (4,4) D D
+cl - ( ) + - c
+c cl - + =
+( 4,4) (4,4)
+
+dµ F D D D D
+T { 2 2
+(
+ab ) ++ a -- + -
+b
+cl - +
+
+1 2 2 2 2 2 2
+- + - d + - e ++ + - a -- b
+R D D D D D D D D
+abde - + - + - +
+3
+1 2 2
+- d + - e ++ a b
+R D D D D
+abde - + --
+cl
+3 cl
+
+1 2 2 2 2
+- + - d + - e ++ a -- b
+R D D D D D D
+abde - + - + cl +.. }.
+3
+
+(2.11)
+
+with 2 + 2 - G B
+dµ = dµ d d , F
+- + = G B
++ and R = R + R (2.12)
+T ab ab ab abde abde abde
+
+which is the curvature tensor of the supermanifold M. - b
+D
+- is the supercovariant derivative
+
+defined by:
+
+-- b -- b b n -- m
+D = D + D (2.13)
+nm cl
+
+
+From the action (2.11) we see that the coefficients at all orders in the quantum non analytic
+
+superfield a
+are constructed from geometrical tensors that are functions of the background
+
+analytic superfield . However, the formulation of manifestly supersymmetric Feynman
+cl
+
+
+rules in terms of the analytic superfield a
+is not quite suitable in diagrammatic calculations.
+
+For this reason we introduce n-bein i
+e ( ) where n is the dimension of the supermanifold:
+a cl
+
+
+i
+e ( ) e ( ) = F ( ) (2.14)
+a cl ib cl ab cl
+
+
+by defining
+
+i i a
+= e ( ) (2.15)
+a cl
+
+
+the kinetic term in (2.11) becomes
+
+++ i 2
+-- + - i
+dµ 2
+D D D
+D - + (2.16)
+T
+
+
+with
+
+-- i -- i --i j
+D = D + V
+j (2.17)
+--i i -- m
+V ( ) V D
+j cl mj cl
+
+
+where - i
+V - is the superconnection on the supermanifold. Consequently the propagator of the
+j
+
+
+quantum superfield i
+is as follows:
+
+
+4
+
+
+G(z , u , z , u ) i
+= (z ,u ) j
+(z ,u )
+1 1 2 2 1 1 2 2 (2.18)
+2 2
+ij
+= - (D++ D--D+ D- ) 1-
+- + (z - z ) (u ,u )
+1 1 1 1 1 2 1 2
+
+
+with (z - z ) is the full (4,4) harmonic superspace function and (u ,u ) is the harmonic
+1 2 1 2
+
+
+function [17]. It is clear that the Feynman rules constructed from the expanded action (2.11)
+
+lead to manifestly covariant quantum corrections written as integrals on the full harmonic
+
+
+(4,4) superspace. The divergences can be removed by counterterms namely:
+
+
+S
+(4,4)
+= d L
+
+µ (2.19)
+T
+
+
+
+where the lagrangian counterterm L
+is a scalar function of the background superfield of
+
+dimension (-2) and zero Lorentz and Cartan-Weyl charges.
+
+The above procedure is adequate to establish a covariant background superfield
+
+
+expansion but the use of the unconstrained superfield a
+means that the action (2.11) has a
+
+quantum gauge invariance which must be gauge fixed. In fact, the gauge transformations of
+
+
+quantum and background superfields are given by
+
+
+a
+= a
+
+(2.20)
+cl = 0
+
+where a
+is a superparameter. The covariant gauge fixing term is obtained by introducing a
+
+BRST operator [14] namely
+
+
+a
+s = a
+C , scl = 0 (2.21)
+a
+sC = 0
+
+
+with a
+C an anticommuting ghost superfield associated to the superparameter a
+.
+
+Furthermore, we introduce an antighost a
+C' and a commuting a
+b superfields such that:
+
+
+
+sC'a = a
+b
+(2.22)
+a
+sb = 0 ,
+
+
+
+
+5
+
+
+which allow to obtain a (4,4) supersymmetric gauge fixing term with ghost number zero. By
+
+
+using dimensional arguments and postulating BRST invariance of the action
+S , the s-
+(4,4)
+
+
+
+invariant gauge fixing action is given by
+
+~
+S
+( 4,4) = dµ s F ( ) C
+( ' D++ D-- +C'
+-- ++ )
+GF T { a b a b
+ab cl cl (2.23)
+++ a b ++ -- e -- d
++ R D C' D D D
+abed cl cl }
+
+where and are coupling constants. The use of (2.21), (2.22) and (2.14) in the expansion of
+
+(2.23) leads to
+
+S µ
+( 4,4) = d b D++ D-- + C' D++D--C + b
+++ --
+GF T { i i i
+i i cl i
+
+++ a i ++ -- j -- d
++ R D b D D D (2.24)
+aijd cl cl
+
+++ a i ++ -- j -- d
++ R D C' D D C D
+aijd cl cl }
+
+Eliminating the auxiliary superfield b by using its equation of motion we obtain the following
+
+
+constraint
+
+++ --
+D D R D D D D (2.25)
+i + a j d
+++ --cli + ++
+aijd ++ -- --
+cl cl = 0
+
+Consequently the gauge fixing action (2.24) becomes:
+
+S µ (2.26)
+( 4,4) = d C' D ++ D --C + R D ++ C D ++ D --C D --
+'
+GF T { i a i j d
+i aijd cl cl }
+
+Let us now give the quantization of the dual (4,4) supersymmetric non linear sigma model
+
+
+which is given by [7]:
+
+~ ~ ~
+S µ (2.27)
+( 4,4) = d { ++ a --
+G
+( B ) D Y D Y
+ab + b
+ab }
+with
+
+a
+Y = {~ i
+, } and
+~ - ~ - ~
+G = G 1 G = G 1B G = G 1-B
+00 00 0i 00 0i i0 00 0i
+~ ~ - ~
+B = 0 B = G G
+1 B = - G 1-G (2.28)
+00 0i 00 0i i0 00 0i
+~
+G = G - G 1- G G + B B
+ij ij 00 [ 0i j 0 0i j 0 ]
+~
+B = B + G 1- G B + G B
+ij ij 00 [ 0i j 0 0 j 0i ]
+
+
+
+
+
+6
+
+
+As previously, the background superfield expansion of the dual (4,4) supersymmetric sigma
+
+~
+model action is given by using the developments of the dual metric tensor G and the dual
+ab
+
+~
+antisymmetric tensor B which are available in any coordinate system [11]
+ab
+
+
+
+
+~
+~ ~ S 2 2
+( 4,4) + - ~
+S (Y ) - S (Y ) Y D D
+cl - ( ) b
+b cl - + =
+( 4,4) (4,4) Y
+dµ F Y D D D D
+T {~ ++ ~ 2 2
+a -- + - ~
+( ) b
+ab cl - +
+
+1 ~ 2 2
++ - ~ 2 2
+d + - ~ 2 2
+e ++ + - ~ a -- ~
+- b
+R D D D D D D D D
+abde - + - + - +
+3
+1 ~ ~ 2 2
+d + - ~
+- e ++ a -- b
+R D D D Y D Y
+abde - +
+3 cl cl
+
+1 ~ 2 2
++ - ~ 2 2
+d + - ~e ++ ~
+- a -- b
+R D D D D D D Y
+abde - + - + cl + .. }
+.
+3
+
+(2.29)
+
+with
+
+~ ~ ~
+F = G + B (2.30)
+ab ab ab
+
+~ ~
+~
+G B
+R = R + R (2.31)
+abde abde abde
+
+
+and
+
+~ a a
+= Y = ~ ,
+cl cl { i
+cl }
+~ a a
+= Y = {~ ~0 i i
++ + = Y + ~
+, cl } a a
+cl
+
+
+where
+
+~ a + 2 - 2 ~ a 1 ~ a ~ ~b +2 -2 ~c
+= D
+- D+ - ( D D
+bc )
+cl - + +.. .
+2
+~ ~
+a
+= { 0 i
+, }
+
+
+By insering the Buscher's formulas (2.28) in the definition of the curvature tensor (2.31) we
+
+obtain the following relations
+
+
+
+
+
+7
+
+
+~
+G -2 G
+R = - G
+( ) R
+00de oo 00de
+~
+G
+R = - G -2
+( ) B R - G R
+0ide oo [ G B
+0i 00de oo 0ide ]
+~ (2.32)
+G G
+R = R - G 1
+( )- G R + G R - B R - B R
+i jde i jde oo [ G G B B
+0 j 0ide oi 0 jde 0 j 0ide oi 0 jde ]
++ G -2
+( ) G G - B B R
+oo [ 0i 0j oi oj ] G00de
+and
+
+~ ~
+B B
+R = 0 , R = - G 2
+( )- G R - G R
+00de 0ide oo [ G G
+0i 00de oo 0ide ]
+~
+B B
+R = R - G 1
+( )- B R + G R - B R - G R (2.33)
+i jde i jde oo [ G B G B
+0 j 0ide oi 0 jde 0i 0 jde oj 0ide ]
++ G -2
+( ) G B - B G R
+oo [ 0i 0j oi oj ] G00de
+We note that these relations are similar to that of the ordinary case given in Ref [18] by
+
+
+imposing a quantum duality condition. It is clear that the Feynman rules constructed from the
+
+
+expanded dual action (2.29) will yield manifestly covariant quantum corrections written as
+
+
+integrals over the full harmonic (4,4) superspace. The divergences can be removed by
+
+
+conterterms which are integrals in the (4,4) harmonic superspace of globally defined scalar
+
+
+functions of the dual background superfield
+
+~ ~
+S µ (2.34)
+(4,4) = d T L
+
+On the other hand, the propagators of the dual quantum superfield a
+~ are not standard as in
+
+the original theory. This can be surmoved by introducing the n-dual bein ~ k
+e (Y ) namely
+a cl
+
+
+
+
+k ~
+~ ~
+e (Y ) e (Y ) = F (Y ) (2.35)
+a cl b
+k cl ab cl
+
+
+by defining
+
+~ k ~ k a
+~
+= e Y
+( ) (2.36)
+a cl
+
+
+
+The insertion of (2.35) and (2.36) in the action (2.29) leads to the following kinetic term
+
+
+
+
+++ ~ k 2 2
+-- + - k
+dµ ~
+D D D
+D - + (2.37)
+T
+
+
+
+
+
+8
+
+
+with
+
+-- ~ ~ ~ ~
+k -- k --k l
+D = D + V
+l
+~ (2.38)
+--k ~k -- n
+V Y
+( ) V D Y
+l cl nl cl
+
+~
+where - k
+V - is the dual superconnection of the supermanifold. Therefore, the propagator of
+l
+
+
+the dual quantum superfield k
+~ is given by
+~ ~k ~
+G(z ,u , z , u ) = (z ,u ) l
+(z ,u )
+1 1 2 2 1 1 2 2 (2.39)
+2 2
+kl
+= - (D++D--D+ D- ) 1-
+- + (z - z ) (u ,u )
+1 1 1 1 1 2 1 2
+
+
+Furthermore, the dual action (2.29) has a quantum gauge invariance, which must be gauge
+
+fixed leading to Faddeev-Popov ghosts in the usual way. In fact, the gauge transformations of
+
+quantum and background dual superfields are given by
+
+~ a ~
+= a
+(2.40)
+( a
+Y )
+cl = 0
+
+with a
+~ a superparameter, and their corresponding BRST transformations are
+~ a ~
+s = a
+C , a
+Y
+s cl = 0
+~ (2.41)
+a
+sC = 0
+
+~
+C is a dual ghost superfield associated with the superparameter a
+~ . However the s-invariant
+
+gauge fixing dual action is given by
+
+
+~ ~ ~ ~ ~
+S
+( 4,4) = dµ s F Y
+( ) C
+( ' D++ D-- + C
+' ' Y
+)
+GF T { a b a b
+ab cl -- ++ cl (2.42)
+~ ++ ~
+a b ++ -- e -- d
++ 'R D Y C' D D D Y
+abed cl cl }
+
+where '
+and '
+are coupling constants and
+
+
+~ a ~
+sC' = a
+b
+~ (2.43)
+a
+sb = 0
+
+By using (2.35), (2.41) and (2.43) in the dual gauge fixing action (2.42) we obtain
+
+
+
+
+
+9
+
+
+~ ~ ~ ~ ~ ~
+S µ
+( 4,4) = d b D++ D-- + C' D++D--C + b' Y
+
+GF T { k k li
+k k ++ -- cl k
+~ ++ ~ ~
+a k ++ -- l -- d
++ ' R D Y b D D D Y (2.44)
+akld cl cl
+~ ++ ~ ~
+a k ++ -- l -- d
++ 'R D Y C' D D C D Y
+akld cl cl }
+~
+Eliminating the auxiliary dual superfield b by using its equation of motion we obtain the
+
+following constraint
+
+
+
+++ -- ~ ' ' ~ ++ a ++ -- ~
+D D Y R D Y D D D Y (2.45)
+k + l d
+++ -- cl k + --
+akld cl cl = 0
+
+
+We note that for ' '
+= =0 we obtain the equation of motion of the dual action
+~
+S which is equivalent to the equation of motion of the original action S .
+( 4,4) Y cl =
+cl =0 ( 4,4) 0
+
+
+Moreover, the constraints of the (4,4) supersymmetric sigma model and its dual are equivalent
+
+by using the following equalities
+
+
+
+~ = ~0 ~
+, =
+a { i i }
+a
+Y = ~ , (2.46)
+cl { a
+cl }
+' ~R = R
+akld akld
+
+
+
+
+
+3 - Quantum Equivalence of (4,4) Supersymmetric Sigma Models Related by Poisson-lie
+
+T-Duality
+
+Let us consider the two-dimensional (4,4) supersymmetric sigma model [7,8] which is
+
+described on the target supermanifold M by a metric G , a = 1, . . . , d and antisymmetric
+ab
+
+
+tensor Bab
+
+S µ (3.1)
+( 4,4) = d {F ( ) D D
+ab ++ a --b}
+
+where F = G + B . The structure group G of the target space defines a left (right) group
+ab ab ab
+
+
+action namely
+
+a i a
+= (3.2)
+i
+
+
+with i= 1, . . . , dimG, i
+are the world-sheet dependent superparameters and a
+are the
+i
+
+
+correspondingly right (left) invariant frames in the lie superalgebra G of the group G which
+
+satisfy the relation
+
+
+
+10
+
+
+[ , = f (3.3)
+i j ]a k a
+ij k
+
+
+where k
+f are the structure constants of the lie group G. Furthermore, the variation of the
+ij
+
+
+group G element is as follows
+
+
+g =
+g (3.4)
+
+or equivalently
+
+-
+g
+1 g = (3.5)
+
+
+
+On the other hand, the BRST transformations associated with (3.2) are given by
+
+
+
+s a = i a
+C i (3.6)
+a
+s C = 0
+
+In order to define a (4,4) supersymmetric quantum action with ghost number zero we
+
+a
+introduce a superfield C ' and an auxiliary superfield a
+b such that
+
+
+
+s C'a = a
+b
+(3.7)
+a
+sb = 0
+
+Since the classical lagrangian namely
+
+++ a -- b
+L = F () D D
+cl ab
+
+
+is invariant under the BRST transformations (3.6) thenL can be replaced by
+cl
+
+
+L = L sL^
++ (3.8)
+Q cl
+
+
+Consequently, the (4,4) supersymmetric quantum sigma model action is given by
+
+
+
+S ^
+µ (3.9)
+( 4,4)Q = d [Lcl + sL]
+with
+
+L^ = F ( D++C'
+) D-- + D++ D--C '
+ab [ a b a b ]
+
+This quantum action is expanded as:
+
+
+
+
+11
+
+
+S µ ( ) ( ) ( )
+( 4,4 = d F D++ D-- + C D-- F D++C '
+) - D++ F D--C
+'
+Q { a b j
+ab [ a b
+a a
+ba j ab j ] (3.10)
+i
+C [ b a
+d -- ' ++ a d ++ ' -- b
+F D C D + F D C D
+d ab j d ab i ]
+where we have used the constraint
+
+++
+D ( --
+F D D F D (3.11)
+ab b) + -- ( ++
+ba b) = 0
+
+which is obtained by eliminating the auxiliary superfield a
+b . Now let us give the variation of
+
+the action (3.10) under the BRST transformations (3.6) and (3.7) namely
+
+
+
+j
+sS µ
+(4,4) = d C D-- J ++ - D++ J -- + F D ++ D -- + sF D --C ' D ++
+
+Q { b
+d a b d a
+Qj Qj d ab j d ab j
+
+a b
+d ++ ' -- b d -- ' ++ i a
++ sF D C D + F D C D C
+d ab j d ab j i
+
+a
+d b ++ ' -- i
++ F D C D C
+d ab j i }
+
+(3.12)
+
+where the following constraint
+
+--
+D [ d ++
+F D D C F D F D D C F (3.13)
+d ab j a - ++ j a
+ab j ]+ ++ [ d --
+b ba j a + -- j a
+ba j ]= 0
+
+
+which is deduced by eliminating the auxiliary superfield, is used and the quantum
+
+supercurrents ±±
+J are given by
+Q
+
+
+++ a ++ b a ++ b
+J = F D + (sF ) D C'
+Qj ba j ba j (3.14)
+-- a -- b a -- b
+J = F D + (sF ) D C'
+Qj ab j ab j
+
+
+Consequently, the BRST invariance of the quantum action (3.10) leads to the following
+
+
+equation
+
+-- ++
+D J D J F D D D C D C D C D C
+Qj - ++ --
+Qj + d [ ++ a -- b -- 'b ++ i a b ++ '
+d ab j + i + a -- i ]
+i (3.15)
++ d
+sF [ -- 'b ++ a ++ '
+D C D D C D
+d ab j + a --b]=0
+
+which can be rewritten as
+
+(d + s)J l L
+Qj + ( )
+(3.16)
+Q = 0
+j
+
+
+
+
+where l denotes the lie derivative namely
+j
+
+
+
+
+
+12
+
+
+d
+l F = F
+
+ab d ab j
+j (3.17)
+d
+l sF = sF
+
+ab d ab j
+j
+
+
+
+d is the exterior derivative on the analytic subspace [8] and
+
+-- ++ ++ --
+J (3.18)
+Qj = J d
+Qj + JQj
+d
+
+
+are the Noetherian 1-forms on the world-sheet where the harmonic differentials are given by
+
+±± ±± ±±
+
+d = U dU
+
+On the other hand the action (3.10) possesses non-commutative conservation laws if the
+
+
+generalized Cartan-Maurer equation holds on shell
+
+
+1 ~
+(d + s)J f J J (3.19)
+Qi + jk
+i Q j Q k = 0
+2
+~ ~
+where jk
+f are the structure constants of the dual target space with lie superalgebra G .
+i
+
+
+Thereafter, from (3.16) and (3.19) we deduce that
+
+1 jk
+l (L )
+= ~
+f J J (3.20)
+Q i Q j Q k
+i 2
+
+Furthermore, the expansion of (3.19) in terms of ghost number leads to
+
+1 ~
+dJ f J J
+Qi + jk
+i Q j Q k = 0
+2 (3.21)
+sJQi = 0
+
+which are equivalent to
+
+±±
+±± JQi = 0
+- ±±
+-
+D J D J
+Qi = 0 = + ±±
++ Qi (3.22)
+±±
+sJQi = 0
+-- ++ ++ -- ++ ~
+D J D J J f J
+Qi - Qi + jk --
+Q j i Q k = 0
+
+
+
+By using the expressions of the supercurrents (3.14), the component equations (3.22) give the
+
+
+following conditions for F and its BRST transformations namely
+ab
+
+
+
+
+
+13
+
+
+~
+c jk d
+l (F ) = F
+f F (3.23.a)
+ab ca j i db k
+i
+
+~
+c jk d
+l (sF ) = F
+f sF
+ab ca j i db k
+i
+~ (3.23.b)
+c jk d
+l (sF ) = sF
+f F
+ab ca j i db k
+i
+
+
+a ~ jk d ++ 'e -- 'b
+sF f sF D C D C (3.24)
+ea j i db k = 0
+
+
+Thereafter, the equation (3.24) implies that
+
+++ ~
+jk --
+J f J
+i =
+' ' 0
+C j C k
+
+
+
+or equivalently
+
+J J = (3.25)
+' ' 0
+C C
+j k
+
+
+
+
+
+The equations (3.23.a) and (3.23.b) are the conditions of the Poisson-Lie symmetry
+
+formulated at the level of the (4,4) supersymmetric sigma model quantum lagrangian, as for
+
+the ordinary situation [4,6,19,8], by adding the condition (3.23.b) given by the lie derivative
+
+of the BRST transformation of the tensor F ( . However, we conclude that the (4,4)
+ab )
+
+
+supersymmetric quantum sigma model with the action of the group G on its target space
+
+~
+admits a Poisson-Lie dual model for some dual group G [6,20]. Therewith, the dual quantum
+
+action of (3.1) is given by
+
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+S dµ F ( ) D D s F ( )(D C ' D D D C ' (3.26)
+( 4,4)Q = { ++ a --
+ab b + [ ++ a -- b ++ a --
+ab + b ]}
+
+which satisfies the following conditions
+
+~ ~ ~ ~
+ab ca j i k ~ db
+l~ (F ) = F f F
+c j k d
+i
+~ ~ ~ ~ ~ ~ ~ ~ (3.27)
+ab ca j i k db ca j i k ~ db
+l~ ( ) = =
+i sF F f sF sF f F
+c j k d c j k j
+
+
+
+and where the backgrounds are related by
+
+
+
+[ -
+F ( F
+ab = )
+0 ] 1 ~ab ~
+= ( = )
+0
+[ (3.28)
+-
+-
+sF ( s F
+ab = )
+0 ] 1 = [ ~ab ~
+( ( = ))
+0 - ] 1
+1
+
+
+
+
+
+14
+
+
+Finally, we note that our results on Poisson-Lie T-duality and especially our general
+
+formulation of T-duality in non isometric backgrounds may applied to a wide class of non
+
+linear sigma models [21]. On the other hand, supersymmetric quantum cosmologies may be
+
+derived from the non-linear sigma model with appropriate linearity conditions [22].
+
+Therefore, it would be interesting to investigate N = 4 supersymmetric quantum cosmologies
+
+from the (4,4) supersymmetric non-linear sigma models associated with duality [23].
+
+
+
+4 - Conclusion
+
+In this paper, we have constructed the quantum actions of the (4,4) supersymmetric non-
+
+linear sigma model and its dual in the Abelian case by using the background superfield
+
+method, which is based on the parallel transport equation. Furthermore, we have deduced the
+
+relations between the curvature tensor of the supermanifold M and its dual by using the
+
+Buscher's formulas. The propagators of the quantum superfields and its dual are determined
+
+by introducing the n-bein a
+e ( ) and its dual ~a
+e (Y ) .
+i cl i cl
+
+
+On the other hand, by using the BRST transformations associated with the left (right)
+
+group action on the superfields of the supermanifold M, we have constructed the quantum
+
+(4,4) supersymmetric non-Abelian dual sigma model action. This is obtained in the sense of
+
+Poisson-Lie T-duality which generalizes the Abelian and non-Abelian dualities. The quantum
+
+action and its dual obey the same conditions of the Poisson-Lie symmetry but with the tilted
+
+and untilted variables interchanged. Thus, the non-commutative conservation laws for the
+
+quantum (4,4) supersymmetric sigma model are given in terms of the quantum
+
+supercurrents ±±
+J . However, the investigation of the N = 4 supersymmetric quantum
+Q
+
+
+cosmologies from the (4,4) supersymmetric non-linear sigma models associated with duality
+
+is under study [23].
+
+
+
+Acknowledgments
+
+The authors would like to thank Professor S. Randjbar-Deami for reading the manuscript
+and Professor M. Virasoro, the International Atomic Energy Agency and UNESCO for
+hospitality at the Abdus Salam International Centre for Theoretical Physics, Trieste. This
+work is supported by the program PARS n0 phys. 27.372/98 CNR and by the frame work of
+the Associate and Federation Schemes of the Abdus Salam International Centre for
+Theoretical Physics, Trieste.
+
+
+
+
+15
+
+
+References
+
+
+[1] T. Buscher, Phys. Lett. B194, 51 (1987); E. Alvarez, L. Alvarez-Gaume and Y. Lozano,
+
+Nucl. Phys. (Proc. Suppl) B41, 1 (1995); A. Giveon, M. Porati, E. Rabinovici, Phys.
+
+Rep244, 77 (1994).
+
+[2] X. De la Ossa and F. Quevedo, Nucl. Phys. B403, 377 (1993); B. E. Fridling and
+
+A. Jevicki, Phys. Lett. B134, 70 (1984); E. S. Fradkin, A. A. Tseytlin,
+
+Ann. Phys. 162, 31 (1985); M. J. O'Loughlim and S. Randjbar-Deami, ICTP prepeint
+
+N0 IC 98100.
+
+[3] T. Curtright and C. Zachos, Phys. Rev. D49, 5408 (1994); Phys. Rev. D52, 573 (1995).
+
+[4] C. Klimcik, P. Severa, Phys. Lett. B351, 455 (1995); C. Klimcik, Nucl. Phys. (Proc.
+
+Suppl) B46, 116 (1996).
+
+[5] V. G. Drinfeld, Quantum Groups, Proc. Int. Cong. Math, Berkley, Calif 798 (1986).
+
+[6] C. Klimcik, P. Severa, Phys. Lett. B372, 65 (1996); Phys. Lett. B383, 281 (1996); "T-
+
+duality and the moment map", IHES/P/96/70 ; E. Witten, J. Geom. Phys.
+
+22, 1 (1997); E. Tyurin, R. Von. Unge, Phys. Lett. B382, 233 (1996).
+
+[7] F. Assaoui, N. Benhamou, T. Lhallabi, Int. J. Mod. Phys. A, Vol. 14, No. 32, (1999)
+
+5093-5104.
+
+[8] F. Assaoui, T. Lhallabi, Lab/UFR-HEP/00/04, to appear in Int. Jour. Mod. Phys. A.
+
+[9] J. Balog, P. Forgacs, N. Mohammedi, L. Palla, J. Schnittger, Nucl. Phys. B353, 461
+
+(1998).
+
+[10] K. Sfetsos, Phys. Lett. B432, 365 (1998).
+
+[11] L.Alvarez-Gaume, D. Z. Freedman, S. Mukhi, Ann. Phys 134, 85 (1981); L.Alvarez-
+
+Gaume, Nucl. Phys. B184, 180 (1981); S. Mukhi, Nucl. Phys. B264, 640 (1986).
+
+[12] T. Lhallabi, Class. Quantum. Grav. 6, 883 (1989).
+
+[13] S. J. Jr. Gates, C. M. Hull, M. Recek, Nucl. Phys. B248, 157 (1984); T. L. Curtright,
+
+C. K. Zachos, Phys. Rev. Lett. 53, 1799 (1984).
+
+[14] T. Lhallabi, E. H Saidi, Int.J. Mod. Phys.A3, 187 (1988); Int.J. Mod. Phys.A3, 419
+
+(1988).
+
+[15] P. S. Howe, G. J. Papadopoulos, K. S. Stelle, PRE 29754-Nov 1986, 24p, Preprint
+
+Imprial /TP/85-86/13.
+
+[16] J. Honerkamp, Nucl. Phys. B36, 130 (1972).
+
+
+
+16
+
+
+[17] A. Galperin, E. Ivanov, V. Ogievetsky, E. Sokatchev, Class. Quantum. Grav. 2, 601
+
+(1985).
+
+[18] J. Balog, P. Forgacs, Z. Horvath, L. Palla, Phys. Lett. B388, 121 (1996).
+
+[19] E. Tyurin, Phys. Lett. B364, 157 (1994).
+
+[20] K. Sfetsos, Nucl. Phys. (Pro. Suppl). B56, 302 (1997); A. Alekssev, A. Malkin, Com.
+
+Math. Phys. 162, 147 (1994).
+
+[21] F. Assaoui, N. Benhamou, T. Lhallabi, In Preparation.
+
+[22] J. E. Lidsey, J. Maharana, Phys. Rev. D, CERN-TH/98-022, gr. .
+
+[23] F. Assaoui, T. Lhallabi, In Preparation.
+
+
+
+
+
+17
+
+
+

@@ -1,0 +1,420 @@
+
+
+ 18 Jul 1995
+
+DAMTP R-95/10 String Evolution with Friction
+
+C. J. A. P. Martins* and E. P. S. Shellard Department of Applied Mathematics and Theoretical Physics
+
+University of Cambridge Silver Street, Cambridge CB3 9EW y
+
+Abstract We study the effects of friction on the scaling evolution of string networks in condensed matter and cosmological contexts. We derive a generalized `one-scale' model with the string correlation length L and velocity v as dynamical variables. In non-relativistic systems, we obtain a well-known L / t1=2 law, showing that loop production is important. For electroweak cosmic strings, we show transient damped epoch scaling with L / t5=4 (or, in the matter era, L / t3=2). A low initial density implies an earlier period with L / t1=2. For GUT strings, the approach to linear scaling L / t is faster than previously estimated.
+
+1 Introduction The scaling evolution of vortex-string networks has been extensively studied analytically in both condensed matter and cosmological settings [1,2,3], but using rather different methods. Condensed matter descriptions tend to focus on a coarse-grained order parameter OE, providing a low-level picture of defect motion by estimating energy dissipation rates. However, high energy physicists take an `idealized' onedimensional view of string dynamics by integrating out the radial degrees of freedom (in the Higgs OE and other fields) to obtain a low-energy effective action--the Nambu action. The resulting equations of motion can then be averaged in order to describe the large-scale evolution of a string network in a so-called `one-scale' model [1]. This also involves incorporating energy loss mechanisms, including loop production (usually ignored in condensed matter models) and here we add frictional forces due to particle-string scattering. Our generalization of this simple `one-scale' model allows us to describe the scaling evolution of a string network in dramatically different regimes, ranging from a string-forming phase transition in the early universe through to a rapid quench in a liquid crystal. (Unless otherwise stated, we use units in which _h = c = kB = 1.)
+
+* Also at C. A. U. P., Rua do Campo Alegre 823, 4100 Porto, Portugal
+
+y Email: cjapm10 @ damtp.cam.ac.uk and epss @ damtp.cam.ac.uk
+
+Paper submitted to Physical Review Letters.
+
+1
+
+2 The evolution equations The motion of a cosmic string passing through a background radiation fluid is retarded by particle scattering. For a string resulting from the breaking of a local gauge symmetry the main contribution comes from Aharonov-Bohm scattering, and the corresponding frictional force per unit length is [4]
+
+Ff = \Gamma _`
+
+f
+
+vp 1 \Gamma v2 ; `
+
+f j _fiT 3 ; (1)
+
+where `f is the `friction lengthscale', v is the string velocity, _ is the string energy per unit length, and T is the background temperature. Here, fi is a numerical factor related to the number of particle species interacting with the string (expected to be of order unity for minimal-GUT strings). The phenomenological force law for a condensed matter system will take a similar form with the same velocity dependence.
+
+In an FRW universe with line element ds2 = a2(o/ ) \Gamma do/ 2 \Gamma dx2\Delta , the Nambu string equations of motion with the frictional force (1) can be written [4,5]
+
+"x + `2 .aa + a`
+
+f ' \Gamma 1 \Gamma .x
+
+2\Delta .x = 1
+
+ffl `
+
+x0
+
+ffl '
+
+0
+
+; (2)
+
+.ffl + `2 .aa + a`
+
+f ' .x
+
+2ffl = 0 ; (3)
+
+where the `coordinate energy per unit length' is defined by ffl2 = x02=(1 \Gamma .x2), with dots denoting derivatives with respect to o/ , which is identified with the worldsheet time, and primes for derivatives with respect to oe, a spacelike coordinate labelling points along the string. In deriving (2) and the constraint (3), we require the additional gauge condition that the string velocity be orthogonal to the string direction, that is, .x \Delta x0 = 0. This proves to be a particularly useful form because dissipation is naturally incorporated in the decay of the coordinate energy density ffl, while preserving the gauge conditions.
+
+The total string energy is given by E = _a(o/ ) R ffldoe, and we define the average rms string velocity v as v2 j h .x2i = R .x2ffldoe=R ffldoe. Then the total string energy density ae / E=a3 will obey the following evolution equation (in terms of physical time t, dt=do/ = a):
+
+dae
+
+dt + `2H \Gamma 1 + v
+
+2\Delta + v2
+
+`f ' ae = 0 : (4)
+
+The one-scale model Our aim is to study the evolution of the long-string network on the assumption that it can be characterized by a single lengthscale L. We therefore draw a distinction between long strings and small loops according to whether they are, respectively, larger or smaller than L. For Brownian long strings, we can define the `correlation length' L in terms of the network density ae1 as ae1 j _=L2.
+
+Following Kibble [1], the probability of a segment of length l moving with a velocity v intercommuting within a time ffit is approximately lvffit=L2. Consistent with our scaling assumption, we then assume that the probability of such an intersection
+
+2
+
+creating a loop of length in the range l to l + dl will be given by a scale-invariant function w (l=L). The rate of energy loss into loops is then given by`
+
+dae1
+
+dt 'to loops =
+
+v L ae1 Z w `
+
+l L '
+
+l L
+
+dl
+
+L j ~cv
+
+ae1
+
+L ; (5)
+
+where the loop `chopping' efficiency ~c is assumed to be constant. (Note that v now denotes the average velocity of the long strings only; in previous analyses without friction, this velocity was also assumed to be constant and absorbed into the definition of ~c.) Subtracting the loop energy losses we easily obtain the overall evolution equation for the characteristic lengthscale L,
+
+2 dLdt = 2HL(1 + v2) + Lv
+
+2
+
+`f + ~cv : (6)
+
+Velocity evolution We now consider the evolution of the average long-string velocity v. A non-relativistic equation can be easily obtained: it is just Newton's law
+
+_ dvdt = _L \Gamma _v `2H + 1`
+
+f ' : (7)
+
+This merely states that curvature accelerates the strings while damping (friction and expansion) slows them down. A relativistic generalization of the velocity evolution equation (7) can be obtained more rigorously by differentiating the definition of v2:
+
+dv
+
+dt = \Gamma 1 \Gamma v
+
+2\Delta ^ k
+
+L \Gamma v `2H +
+
+1 `f '* : (8)
+
+This involves two assumptions. Firstly, to obtain the damping term we have takenh
+
+.x4i = h .x2i2; the difference between the two is a second-order term. Secondly, in the curvature term, we have introduced L via the definition of the curvature radius vector,
+
+a(o/ )
+
+L ^u =
+
+d2x
+
+ds2 ; (9) where ^u is a unit vector and s is the physical length along the string. The dimensionless parameter k is defined by
+
+h(1 \Gamma .x2)( .x \Delta ^u)i j kv(1 \Gamma v2) : (10) Clearly k will be affected by the presence of small-scale structure on strings: on a perfectly smooth string, ^u and .x will be parallel so k = 1 (up to a second-order term as above); however this need not be so for a wiggly string. We shall have more to say about k below.
+
+Equations (6) and (8) form the basis of our generalized `one-scale' model, which we will now proceed to apply in several different contexts. We note that the velocityindependent `one-scale' model (6) has proved to be successful in describing the largescale properties of cosmic string networks in numerical simulations. Any deficiencies
+
+3
+
+0 0.5 1 1.5 2 0.1 0.15
+
+0.2
+
+0.3
+
+0.5
+
+0.7
+
+v vs. t/lf
+
+0 0.5 1 1.5 21 1.5
+
+2
+
+3
+
+5 7 10.
+
+15. L/lf vs. t/lf
+
+Figure 1: Log-log plots of the evolution of L and v in condensed matter systems for ~c = 0 (solid lines) and ~c = 1 (dotted lines), with k = 1 and initial conditions Li = cti = `f ,v
+
+i = 0:1. The relaxation to scaling is clear.
+
+seem to be associated with the emergence of significant small-scale structure, that is, propagating kinks and wiggles on scales well below L. In friction-dominated regimes, therefore, we should anticipate improved quantitative agreement because of the suppression of this substructure.
+
+3 Vortices in condensed matter systems As a simple application, we drop the time-dependence of the damping terms in (6) and (8), that is, we set H = 0 and `f = const. This should be appropriate for describing vortex-string network evolution in condensed matter systems. The evolution equations become (reintroducing the characteristic speed c):
+
+2 dLdt = v ` L`
+
+f
+
+v
+
+c + ~c' ;
+
+dv
+
+dt = \Gamma c
+
+2 \Gamma v2\Delta ` k
+
+L \Gamma
+
+v
+
+c
+
+1 `f ' : (11)
+
+This yields the following late-time asymptotic behaviour:
+
+L `f = [k (k + ~c)]
+
+1=2 ` ct
+
+`f '
+
+1=2
+
+; vc = ` kk + ~c '
+
+1=2 ` ct
+
+`f '
+
+\Gamma 1=2
+
+: (12)
+
+The asymptotic ratio of the loop formation and friction terms is ~c=k; as expected, increasing ~c (or including loop losses in the first place) leads to a lower network scaling density and a smaller average velocity v. Fig. 1 illustrates the relaxation to scaling for a particular set of initial conditions. The duration and nature of the transient regime depends on the initial conditions and the loop `chopping' efficiency--the larger the value of ~c, the faster the approach to `scaling'.
+
+The t1=2 scaling law for the characteristic lengthscale is a well-known result in the theory of phase ordering with a non-conserved order parameter, supported by simulations and experiment (see [3] for a recent review). In that context, it is obtainde by rather different methods; in particular it should be noted that loop formation is not explicitly included.
+
+4
+
+4 Strings in the early universe In the early universe the friction lengthscale increases with time (as t3=2 in the radiation era), so friction will only be important at `early times' [6] . Let Tc be the temperature of the string-forming phase transition. In a weakly-coupled Higgs model G_ = (Tc=mP l)2, the time of string formation is tc = (f G_)\Gamma 1m\Gamma 1P l , where
+
+f = 4ss (ssN =45)1=2. Defining t\Lambda as the time at which the two damping terms in (2,3) have equal magnitude we find
+
+t\Lambda = fi
+
+2
+
+f 3
+
+m\Gamma 1P l
+
+(G_)2 (Rad:) ; t
+
+\Lambda = ` 43 '
+
+3=2 fi
+
+f 3=2
+
+m\Gamma 1P l
+
+G_ `
+
+teq tP l '
+
+1=2
+
+(M at:): (13)
+
+String dynamics is friction-dominated from tc until t\Lambda , after which motion will become relativistic or `free'. A simple heuristic argument due to Kibble (see, for example [7]) suggests that in the damped phase the correlation length will scale as L / t5=4.
+
+As for initial conditions, we assume (following [7]) that `fi ! Li ! ti ss tc which,
+
+in terms of our variables, is ~oe\Gamma 1 ! ~Li ! 1, where ~oe = fi=f (G_)1=2 and ~L = L=tc. These two extreme limits could respectively correspond to a rapid second-order phase transition and a slow first-order transition . Note that using the definitions of fi, ~oe and f , one finds that the initial ratio of the string and background densities obeys
+
+32ss
+
+3 G_ ^ `
+
+ae1
+
+aeb 'i ^
+
+60i(3)
+
+ss4 ! ( ^ 0:75 ) ; (14)
+
+(where 0 ^ ! ! 1 is a model-dependent parameter). In fact, analysis of the evolution equations (6,8) shows that for physically reasonable values of ~c and k these bounds hold for all subsequent times. Consequently, cosmic strings can never dominate the universe.
+
+We now discuss the different evolution histories of electroweak and GUT strings.
+
+Electroweak strings For strings forming around the electroweak phase transition, we have tc ss 4 \Theta 1032tPl, t\Lambda ss 7 \Theta 1025tc and oe ss 2 \Theta 1015. Note that with \Omega = 1 and h ss 0:7 the time of equal matter and radiation densities is teq ss 1022tc (and the present time is t0 ss 1028tc), so friction-domination ends well into the matter era. We find that the early time evolution of the string network crucially depends on the initial string density. The complete evolution from tc through to t0 is illustrated in fig. 2 for several values of ~Li.
+
+If the initial string density is low, the correlation length is large, so friction dominates over curvature and the strings will move with small velocities. Since both the friction and loop formation terms in (62) are velocity-dependent, we find a period where strings are conformally stretched, with the dynamical variables behaving as
+
+L tc = ~Li `
+
+t tc '
+
+1=2
+
+; v = koe ~L
+
+i
+
+t tc : (15)
+
+For ~Li of order unity (close to the upper limit), this stretching regime can last up to ten orders of magnitude in time. As the velocity increases, the friction and loop
+
+5
+
+5 10 15 teq *to 32
+
+(c) -14 -12 -10
+
+-8 -6
+
+-4
+
+-2
+
+0
+
+5 10 15 teq *to 32 -30 -28 -26
+
+-24 -22 -20 -18 -16
+
+5 10 15 teq *to 32 0.6 0.8
+
+1.2
+
+1.4
+
+5 10 15 teq *to 32 -0.2
+
+0.2
+
+0.4 0.6 0.8
+
+1
+
+Figure 2: The evolution of electroweak string networks. The plots represent the exponent of the power-law dependence of (a) the correlation length L and (b) the average velocity v, while (c) shows the actual growth of v and (d) is the ratio of string and background densities (the latter two are log-log plots). Solid, dashed and dotted lines correspond to
+
+different initial conditions with ~Li = 10\Gamma 1, ~Li = 10\Gamma 4 and ~Li = 10\Gamma 8, respectively; the horizontal axis is labelled in orders of magnitude in rescaled time t=tc from the time of formation tc and also marked are teq, t\Lambda and t0.
+
+formation terms become of the same order of magnitude as the expansion term, and there follows a period where we find Kibble's law
+
+L tc = `
+
+2k(~c + k)
+
+3oe '
+
+1=2 ` t
+
+tc '
+
+5=4
+
+; v = ` 3k2oe(~c + k) '
+
+1=2 ` t
+
+tc '
+
+1=4
+
+: (16)
+
+However, notice that this only holds in the radiation era; in the corresponding regime in the matter era, we have L / t3=2 and v / t1=2. This latter regime is briefly achieved in fig. 2 before friction ceases to dominate the dynamics. The network then evolves towards the final scaling regime:
+
+L = ` 9k(k + ~c)8 '
+
+1=2
+
+t ; v = ` k2(k + ~c) '
+
+1=2
+
+: (17)
+
+Electroweak strings only just reach this `free' scaling regime by the present day. Note that if we begin with a sufficiently high string density, then there will be
+
+6
+
+2 4 6 8 10 0.5 0.6 0.7 0.8 0.9
+
+1.1 1.2
+
+2 4 6 8 100.01 0.02 0.05
+
+0.1 0.2
+
+0.5
+
+Figure 3: The two `extreme' cases of approach to scaling for minimal-GUT string networks. Solid and dashed lines correspond to high ( ~Li = 0.05) and low ( ~Li = 0.9) initial string density; ~c and k were chosen to fit radiation-era simulations. Plots represent the exponent of the power-law dependence of L and the average velocity v; now t? ss 2.93.
+
+no stretching regime (15) and the L(t) / t5=4 regime will begin immediately. A shortcoming of our model at extremely high densities is the fact that we do not incorporate (otherwise rare) loop reconnections back onto the network.
+
+GUT strings For a GUT model (with N = 106:75) which produces strings, we have tc ss 3 \Theta 104tP l, t\Lambda ss 855tc, teq ss 1050tc and oe ss 29. Fig. 3 illustrates the approach to scaling for the two extreme limits for the initial correlation length, 0:035 ! ~Li ! 1. Since the friction-dominated period between tc and t\Lambda is much shorter, the nature of the damped evolution becomes much less definite: although we can still identify the `stretching' and `friction' regimes, there is no longer a clear L / t1=2 or L / t5=4 dependence. In particular, the Kibble regime now depends sensitively on the initial conditions: the higher the initial string density, the higher the maximum exponent in the time-dependence of L.
+
+The asymptotic `free' scaling behaviour in the radiation and matter eras is
+
+L = ` k(k + ~c)e(2 \Gamma e) '
+
+1=2
+
+t ; v = ` (2 \Gamma e)ke(k + ~c) '
+
+1=2
+
+: (18)
+
+For constant ~c and k, this model predicts that the ratios of fl and v0 in the matter and radiation eras are independent of ~c and k, being respectively 3=2p2 and 1=p2 (whereas simulations, indicate that these ratios are respectively 2 and 0:9 [8]). On the other hand, we can reverse the argument and look for the values of ~c and k that match the simulations:
+
+~c r ss 0:24 ; kr ss 0:18 ; ~cm ss 0:17 ; km ss 0:49 : (19) If, as we claim, k is related to the small-scale structure (more small-scale structure corresponding to a smaller k) these values are qualitatively in agreement with the simulations. No doubt we require additional degrees of freedom to treat small-scale structure satisfactorily (see, for example, ref. [2]).
+
+7
+
+The main consequence of our analysis is that minimal-GUT strings approach the linear scaling regime (and, in particular, become relativistic) faster than previously estimated. Another important point concerns the transition between the radiation and matter eras which we find is much slower than previously estimated (extending for about seven orders of magnitude in time, the deviation from the L / t dependence never being more than 1%). However we must exercise care in this `free' regime given the matching problems at teq for ~c and k.
+
+5 Conclusions In conclusion, we have generalized Kibble's one-scale model by including friction and treating the average long-string velocity as a dynamical variable. We believe this model advances our understanding of the scale-invariant damped evolution of string networks, as well as the relaxation to this `scaling', in both condensed matter and cosmological contexts. It should form the basis for further progress and, for example, we may be able to gain insight into the effects of string smallscale structure via the parameter k (defined in (10)). In a longer more complete description, we have also applied this model to the study of global strings or vortices (see ref. [9]).
+
+Acknowledgements C.M. is funded by JNICT (Portugal) under `Programa PRAXIS XXI' (grant no. PRAXIS XXI/BD/3321/94). E.P.S. is funded by PPARC and we both acknowledge the support of PPARC and the EPSRC.
+
+References
+
+1. Kibble, T.W.B. [1985], Nucl. Phys. B252, 227. Erratum: Nucl. Phys. B261, 750. Bennett, D.P. [1986], Phys. Rev. D33, 872. Erratum: Phys. Rev. D34, 3932. Bennett, D.P. [1986], Phys. Rev. D34, 3592.
+
+2. Austin, D. , Copeland, E.J. & Kibble, T.W.B. [1993], Phys. Rev. D48, 5594. and
+
+references therein.
+
+3. Bray, A.J. [1995], to appear in Adv. Phys and references therein. 4. Vilenkin, A. [1991], Phys. Rev. D43, 1060. 5. Turok, N., & Bhattacharjee, P. [1984], Phys. Rev. D29, 1557. 6. Garriga, J., & Sakellariadou, M. [1993], Phys. Rev. D48, 2502. 7. Hindmarsh, M.B., & Kibble, T.W.B. [1995], to appear in Rev. Mod. Phys. 8. Bennett, D.P., & Bouchet, F.R. [1990], Phys. Rev. D41, 2408. Allen, B., & Shellard,
+
+E.P.S. [1990], Phys. Rev. Lett. 64, 119.
+
+9. Martins, C.J.A.P., & Shellard, E.P.S. [1995], submitted to Phys. Rev.D
+
+8
+

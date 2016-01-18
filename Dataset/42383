@@ -1,0 +1,1012 @@
+
+
+November 1993 McGill-93/40, UQAM-PHE-93/03, NEIPH-93-009, 
+
+How Big Can Anomalous W Couplings Be?
+
+C.P. Burgess,a* M. Frank,b and C. Hamzaouic a Institut de Physique, Universit'e de Neuch^atel 1 Rue A.L. Breguet, CH-2000 Neuch^atel, Switzerland.
+
+bPhysics Department, Concordia University 1455 de Maisonneuve Blvd., Montr'eal, Qu'ebec, Canada, H3G 1M8.
+
+cD'epartement de Physique, Universit'e du Qu'ebec `a Montr'eal Case Postale 8888, Succ. Centre-Ville, Montr'eal, Qu'ebec, Canada, H3C 3P8.
+
+Abstract Order-of-magnitude estimates have given us the prevailing wisdom that anomalous electroweak boson self-couplings must be 1% or smaller for any reasonable new physics, essentially precluding their observation at LEP 200. We examine these estimates using the (for technical reasons, CP-violating) one-loop form factors that arise in a completely generic theory of spin-one, spin-half and spin-zero particles. We find form factors which can be in the range (1 \Gamma 5)% (for q2 , 4M 2W ) and, due to threshhold enhancements, these largest values typically arise for light new physics, m !, 100 GeV, where effective lagrangian analyses do not apply. For the case where the underlying physics does involve only very heavy particles these calculations are compared with the general effective-lagrangian description. We also identify the generic features of these moments, and find robust patterns through which the nature of the underlying physics becomes imprinted through the kinds of form factors that are generated.
+
+* Permanent Address: Physics Department, McGill University, 3600 University St., Montr'eal, Qu'ebec, Canada, H3A 2T8.
+
+1
+
+1. Introduction The last decades have established the Standard Model (SM) as the definitive description of all non-gravitational experiments. Although at any given time experiments could be found which would imply its imminent failure, all such challenges have (so far) disappeared on closer inspection. In this respect the SM has been like Mark Twain: news of its demise has proven to be greatly exaggerated.
+
+Even so, the prevailing wisdom in the field is that the SM must soon fail. The big question is, where will it fail first? There are two types of experiments which have good discovery potential: those that directly explore higher energies, in the hopes of directly producing new particles; or those that examine previously unprobed types of interactions, where deviations from SM predictions may lurk.
+
+The study of e+e\Gamma collisions, at LEP 200, above the threshhold for W +W \Gamma pair production provides an example of this second type. The self-couplings of the electroweak gauge bosons can be probed here, permitting the detection of nonstandard three-point interactions (TGV's) [1], [2], potentially down to the 10% level [2], [3]. Similar precision might also be achievable using the reaction W ! W fl at the TeVatron, [4], and the LHC may ultimately present even better prospects [5], should it be built.
+
+Of course, in order to be detected, an anomalous TGV at this level must be possible for some underlying physics, and it must have escaped detection elsewhere in other precision electroweak experiments. And although this is possible at the purely phenomenological level [6], [7], [8], there are reasonably persuasive theoretical arguments that indicate that TGV's are unlikely to be larger than 1% or less. These arguments proceed along several lines.
+
+The simplest such argument simply amounts to coupling-constant counting. Loops involving new physics generate anomalous TGV's with a size of order (g=4ss)2, with g an electroweak gauge coupling, and so are at most a few times 10\Gamma 3. Since the gauge coupling is universal, this estimate includes a large class of models. One might hope to evade this bound by using the fact that longitudinal gauge bosons can couple with a strength that is larger than g. For example, in multihiggs models the relevant coupling is gmH =MW , which can be large if the Higgs is heavy, mH , 1 TeV. Even in this strongly-coupled case reasonably persuasive arguments limit the potential size of the anomalous TGV's that can be generated [9]. Using power counting techniques that are motivated by experience with chiral perturbation theory in QCD, TGV's can be expected to be of order M 2W =m2H or smaller -- i.e. at most a few percent -- even if induced by TeV-scale scalars.
+
+A separate argument to the same end is based on naturalness [6], [9]. Precision
+
+2
+
+electroweak measurements already bound deviations from the SM in the W \Sigma - and Z0-boson vacuum polarizations (the `oblique corrections') at the percent level [10], [11]. According to this line of reasoning, in the absence of a symmetry which distinguishes the oblique corrections from the TGV's, any new physics which generates one must also generate the other. If true, the better precision that is available for detecting oblique corrections would imply that any new physics must first be discovered there.
+
+In the present paper we consider TGV's that are induced at one loop within a completely general renormalizable theory of spinless, spin-half and spin-one particles. We do so with the following motives.
+
+ffl Motive 1: Our first goal is to use the explicit calculation as a vehicle for exploring the above theoretical arguments more systematically, and in more detail. Although the TGV's we compute are typically a few % in size, it is nevertheless still useful to know whether and under what circumstances these arguments fail. After all, if 10% effects are now expected to be detectable, perhaps 5% deviations or less will ultimately be visible once the experimenters have familiarized themselves with the new environment, given that they have sufficient motivation to look. If so, it would be of great interest to know more accurately just how large TGV's can be, and precisely which properties of the underlying theory are required to maximize their size. Indeed, in what follows we identify circumstances for which induced form factors can plausibly be in the range (1 \Gamma 5)%.
+
+Furthermore, potential loopholes in the above arguments do, in fact, exist. For example, arguments based on the properties of an effective lagrangian presuppose that the new physics is heavy enough to justify such an approach. It is conceivable, however, that the new physics is not much heavier than several hundred GeV, and yet has still escaped detection. We can address this possibility since we do not assume that our underlying new particles are heavy, and we compute the entire TGV form factors rather than simply their values at zero momentum transfer. We find that the largest effects do arise for light particles, where threshhold effects can enhance the sizes of the relevant one-loop results.
+
+Similarly, the naturalness argument which states that new physics must appear first through oblique corrections before it can appear in TGV's, need not apply when the dominant couplings of the new physics violate CP . Since the W \Sigma and Z0 vacuum polarizations cannot violate CP , CP itself is a symmetry which can suppress the contributions of new physics to oblique corrections relative to its contribution to TGV's. For example, if CP -violating phenomena are suppressed by some small(ish) parameter, ffl, in an underlying theory, then CP -violating TGV's arise at O(ffl), while their contributions to oblique corrections are O(ffl2). (Of course, the existence of this particular loophole may be cold comfort, since suppression by a small parameter like ffl would make the induced TGV's even smaller
+
+3
+
+than the expected O(1%). And any CP -preserving new-physics couplings would still need to escape detection.)
+
+ffl Motive 2: Our second motivation takes a separate tack. Eventually TGV's will be observed, if not at LEP then perhaps elsewhere. Once they are seen (if they are anomalous and are unaccounted for by the particles that are then known), the paramount question will concern the diagnosis of the kind of new physics that might be responsible. In order to provide a diagnosis we need to know the systematics of how different types of underlying physics differ in the TGV's that they can induce. By working with a very general underlying model, we are able to determine some of these systematics, which we list in Section (5). In passing, we also correct some errors in the literature concerning the implications of custodial symmetries for these vertices.
+
+For simplicity we restrict our attention here to CP -violating TGV's. Our main reason for doing so is that this eases the evaluation of the relevant Feynman graphs, although the extension to the general case is straightforward. This is also the case that is less well studied in the literature. We expect our results for the sizes of the induced form factors to apply equally well for the CP -invariant case.
+
+Here is how we organize our presentation. After briefly reviewing the potential CP violating three-point gauge boson self interactions in Section (2), we outline in Section (3) what might be expected on general grounds should the new physics which generates them be massive enough to have its effects be well described by an effective low-energy lagrangian. In Section (4) we identify the general features that follow for the electroweak form factors at one loop, and show how various classes of underlying physics can robustly leave their imprint through the pattern of TGV's which they produce. In Section (5) we then compute the CP -violating three-point interactions using more specific models which illustrate the potential sizes that can be obtained by supplementing the SM by additional spin-zero and spin-half particles. Using the underlying parameters which maximize the induced TGV's, in Section (6) we find representative underlying models which do not conflict with any other extant bounds. Our main conclusions are finally summarized in the final section.
+
+2. W \Sigma and Z0 Electroweak Moments We first review the definitions of the various electroweak form factors, in order to establish our notation. There are three types of form factors that describe the CP -violating couplings of an (on shell) W \Sigma boson to the photon and three more describe the analogous
+
+4
+
+W \Sigma couplings to the Z0. They are given in terms of the matrix elements [1], [2] of either the electromagnetic current, J_em, or the weak neutral current, J _nc, by:
+
+hW \Gamma jJ_V jW \Gamma i j \Gamma ieV "\Lambda ff(p1)\Gamma fffi_V (p1; p2)"fi(p2); (1) where:
+
+\Gamma fffi_V fifiCP\Gamma odd = \Gamma fffi_V fifiP;CP\Gamma odd + \Gamma fffi_V fifiC;CP\Gamma odd ; and:
+
+\Gamma fffi_V fifiP;CP\Gamma odd = \Gamma fV (q2)fflfffi_aeqae \Gamma 1M 2
+
+W g
+
+V (q2) p_fflfffioeaeqoepae
+
+\Gamma fffi_fl fifiC;CP\Gamma odd = iM 2
+
+W h
+
+fl (q2) \Theta q2 \Gamma qffjfi_ + qfijff_\Delta \Gamma 2q_qffqfi \Lambda ; (2)
+
+\Gamma fffi_Z fifiC;CP\Gamma odd = ihZ (q2) \Gamma qffjfi_ + qfijff_\Delta :
+
+Only the CP -violating part of the matrix element is listed here explicitly. p = p1 + p2 and q = p1 \Gamma p2 are respectively the sum and difference of the four-momenta, pi, of the initial and final W 's and "_(pi) are the W -boson polarization vectors. The subscript V = fl or Z indicates whether it is the electromagnetic or neutral-current coupling that is being considered. The coupling constant, eV , appropriate to each is taken as efl = e and eZ = e cw=sw in which e is the proton's charge and sw (cw) is the sine (cosine) of the electroweak mixing angle. Our notation here is related to that of Ref. [2] by: fV (q2) = f V6 (q2), gV (q2) = f V7 (q2), (q2=M 2W )hfl (q2) = f fl4 (q2), and hZ (q2) = f Z4 (q2). We treat hZ and hfl differently since the anomalous photon vertex is constrained by electromagnetic gauge invariance to be transverse, whereas the Z couplings need not be.
+
+For the Z0 we have:
+
+hZ0jJ_c jZ0i j \Gamma ieZ "\Lambda ff(p1)^\Gamma fffi_V (p1; p2)"fi(p2); ^\Gamma fffi_fl fififi
+
+CP\Gamma odd =
+
+i M 2Z ^hfl (q
+
+2) \Theta q2 \Gamma qffjfi_ + qfi jff_\Delta \Gamma 2q_qffqfi \Lambda : (3)
+
+^\Gamma fffi_
+
+Z fififiCP\Gamma odd = iM 2
+
+Z
+
+^hZ(q2) \Gamma qffjfi_ + qfi jff_\Delta : (4)
+
+The form factors hfl (q2), hZ (q2), ^hfl (q2) and ^hZ(q2) differ from the others in their transformation properties under P and C. Unlike fV (q2) and gV (q2), which violate P but preserve C, these effective interactions break C but are P -even. These selection rules
+
+5
+
+permit the form factors ffl(0) and gfl (0) to be much more strongly constrained than are the others. This is because they can contribute through loops to the electric dipole moments (edm's) of elementary fermions, such as the electron and the neutron, for which there are extremely strong limits. The bound that is obtained in this way for ffl was originally derived in the second of Refs. [12], while an analysis for gfl and hfl may be found in Ref. [13]. The strongest bounds to emerge from these analyses are:
+
+ffl(0) !, O(10\Gamma 3);
+
+gfl(0) !, O(10\Gamma 4): (5)
+
+Similar bounds do not hold for the other form-factors, which could be O(1) so far as direct phenomenological bounds are concerned. The somewhat model-dependent exception to this statement arises if some of the remaining form factors are related to ffl or gfl by some symmetry of the low-energy theory, as can be true for fZ and gZ, for instance [14]. It is perhaps worth emphasizing that hfl and ^hfl are the only CP -violating electromagnetic vertices for which no bounds exist [15].
+
+Due to the strength of the edm bounds it would be unnatural to expect to find any signal in any forseeable e+e\Gamma collisions due to the electromagnetic form factors ffl and gfl . (Recall that their detection at LEP or in hadron machines is only possible if they are not smaller than , 0:1 at the appropriate momentum transfers.) The same need not be true, however, for the other electroweak form factors. It is then irresistable to ask what kinds of new physics can produce them, how large they might reasonably be expected to be, and what general considerations can constrain their size. These are the topics of the following sections.
+
+3. The Effective-Lagrangian Limit Before computing these form factors in explicit models it is first worth extracting whatever information about them that may be had on general grounds. This section is devoted to determining the relations among the six electroweak form factors that follow simply from symmetry considerations if the new physics is associated with large energies, M , 1 TeV.1
+
+In this case the characteristic scale over which the form factors vary appreciably is the large scale, M , and so they may be well approximated at current energies by their values at
+
+1 Part of our motivation for doing so here is to clear up a lingering confusion in the literature as to the implications of custodial symmetries for TGV's.
+
+6
+
+q2 ss 0. When this is true, the simplest way to infer the implications for these `electroweak moments' is to write down the most general low-energy effective lagrangian [16] that is consistent with the assumed low-energy particle content and symmetries, and to compute the low-energy form factors within this theory. Any relations among the moments that follow from such a lagrangian then rely only on the assumed low-energy symmetries and spectrum, and must be shared by all underlying theories which possess these low-energy properties [17], [18].
+
+Any such approach must make a fundamental choice: the particle content that is assumed to appear in the low-energy theory. In particular, a key issue is whether or not this low-energy particle content fills out a linear realization of the electroweak gauge group, SUL(2) \Theta UY (1). If so, then the low-energy lagrangian should include the fields whose vacuum expectation values (v.e.v.s) are responsible for electroweak breaking. These fields might consist of just the Standard-Model Higgs, or perhaps also other degrees of freedom as well.
+
+If, on the other hand, it is the symmetry-breaking sector itself that has been integrated out then no Higgs field need appear in the low-energy lagrangian and the electroweak gauge group is nonlinearly realized. Equivalently, [19][20], only the electromagnetic part of the gauge group, Uem(1), need be linearly realized, and the rest of the electroweak gauge group may be ignored. An important feature which arises when the gauge group is nonlinearly realized, is that perturbative unitarity in the effective theory must break down at energies E ?, 8ssMW =g. As a result, whatever new physics is responsible for the effective theory must involve mass scales that are smaller than this.
+
+We consider, in turn, the implications of each of these choices in the following two subsections.
+
+3.1) CP -Violation due to the Electroweak Breaking Sector
+
+Perhaps the least restrictive scenario has the new physics responsible for any measured W -boson moment be associated with the poorly-understood sector which breaks the electroweak gauge symmetries. In this case the effective lagrangian need only linearly realize Uem(1) invariance and so contains one term for each of the six possible form factors. As a result, no relations are required, a priori , among the form factors in this most general case.
+
+The potential effective interactions are these. The effective interactions which have
+
+7
+
+dimension (mass)4 are conventionally written:
+
+Lfour = \Gamma ieW \Lambda _ W* `~^fl eF _* + ~^Z cws
+
+w eZ
+
+_* '
+
++ e cws
+
+w (a
+
+Z W \Lambda _ W* + ^aZZ_Z*)(@_Z* + @* Z_); (6)
+
+where the `tilde' represents the dual of the corresponding field strength: eZ_* = 12 ffl_**ae Z*ae. The rest have dimension six:
+
+Lsix = \Gamma ieW \Lambda _ * W* oe `~*fl eF _oe + ~*Z cws
+
+w eZ
+
+_ oe '
+
++ e (afl W \Lambda _ W* + ^afl Z_Z*)(@_@*F ** + (_ $ *)): (7)
+
+Notice that the terms proportional to afl and ^afl can be rewritten in terms of the gaugefermion and four-point gauge self-interactions using the SM equations of motion. This implies the complete equivalence of these two formulations of this interaction, since one can transform from one to another simply by performing a field redefinition [21]. We choose not to do so here, however, since we prefer to keep as much as possible of the universal contributions from new physics in the purely electroweak-boson sector.
+
+The relation between the effective couplings in these effective interactions, and the form factors as defined earlier is:
+
+ffl (0) = ~^fl + ~*fl M 2W ; gfl (0) = \Gamma 12 ~*fl M 2W ; hfl (0) = afl M 2W fZ (0) = ~^Z + ~*Z M 2W ; gZ(0) = \Gamma 12 ~*Z M 2W ; hZ (0) = aZ (8)
+
+and
+
+^hfl (0) = ^afl M 2
+
+Z; ^hZ (0) = ^aZ : (9)
+
+To draw any further conclusions, we must make some further assumptions regarding the nature of the underlying physics which is responsible for these effective interactions. We now list a few of the most plausible assumptions, together with their implications for our anomalous moments. We do so in order to obtain some intuition as to what sizes are to be expected for different types of underlying physics. These expectations are compared with the results of our explicit calculations in later sections.
+
+ffl Power Counting: The utility of any effective lagrangian relies on the validity of the lowenergy expansion in powers of E=M , where E is the energy of the phenomena which are
+
+8
+
+to be described by the effective theory, and M AE E is the heavy mass which characterizes the scale of the underlying physics. This implies a heirarchy amongst the various effective interactions, although the precise nature of the heirarchy depends on the nature of the underlying theory [20].
+
+If E and M were the only scales in the problem, then the effective theory could be expected to properly describe the E=M expansion in the underlying theory if the coefficient of any effective interaction were !, O(1) times the power of M which is required by dimensional analysis [22]. Applied to the TGV lagrangian of eq. (7), and including the a factor of the SUL(2) gauge coupling, g, for each W boson, this gives the estimates in column one of Table I, under the label DA, for Dimensional Analysis.2
+
+Unfortunately, things are not so simple for applications to W -boson scattering at several hundred GeV, as would be appropriate to LEP 200. In this case the electroweak symmetry-breaking scale, v = 246 GeV, arises, as well as the scales E and M , and we are interested in the limit where E , v o/ M . As a result, if effective interactions are to properly reproduce the 1=M expansion in the underlying theory, then they may have to be additionally suppressed by powers of v=M beyond the powers of 1=M that are required simply by dimensional analysis. (In practical examples this additional suppression factor typically turns out to be powers of g2v2=M 2 , M 2W =M 2.)
+
+In particular, it is reasonable to expect our anomalous TGV couplings to become smaller as M gets larger for fixed v and E.3 This property is automatic for the dimensionsix interactions but, as may be seen from Table I, does not hold for the dimension-four operators unless their couplings are additionally suppressed by powers of v=M . An estimate of the size of this suppression can be made using the power-counting techniques -- Naive Dimensional Analysis (NDA) [23] -- of chiral perturbation theory that work well in QCD. These estimates are plausible since it may happen that the electroweak symmetry-breaking sector involves only TeV-scale states, and the longitudinal gauge bosons are strongly coupled. In this case, chiral perturbation theory would be expected to apply to the low-energy couplings of the would-be Goldstone bosons that make up these longitudinal modes. As applied to anomalous TGV's, the NDA estimate amounts once more to pure dimensional analysis, with the additional condition that both the dimension-four and dimension-six terms be suppressed by a factor of v2. This estimate, together with the requirements of custodial symmetry (explained below) is displayed in column two of Table I.
+
+It must be stressed that this is just an estimate, although it does have the advantage 2 The factors of " reflect the requirements of custodial symmetry, and are explained below. 3 It must be kept in mind in making these arguments that M cannot become larger than O(4ssv)
+
+without running into troubles with perturbative unitarity.
+
+9
+
+of systematically organizing all of the terms of the effective lagrangian into an expansion in powers of v=M and E=M , applicable for M !, 4ssv. It need not include all possible underlying theories, nor need it necessarily provide an upper bound for the size that a coefficient in a generic underlying theory can take. This is illustrated in Table I, where column three gives an equally plausible estimate (explained below) which is based on different physical assumptions concerning the nature of the underlying physics. Although columns two and three are very similar to one another (if we identify " , v2=M 2), they disagree, for example, on their implications for the coefficients ~*fl and ~*Z .
+
+Coupling DA/Custodial NDA/Custodial LRDA
+
+~^fl g2 g2v2=M 2 g2v2=M 2 ~^Z \Gamma ~^fl s2w=c2w + " g2 \Gamma ~^fl s2w=c2w + " g2v2=M 2 \Gamma ~^fl s2w=c2w + g2v4=M 4
+
+~*fl g2=M 2 g2v2=M 4 g2=M 2
+
+~*Z g2=M 2 g2v2=M 4 ~*fl + g2v2=M 4
+
+afl g2=M 2 g2v2=M 4 g2v2=M 4 aZ " g2 " g2v2=M 2 g2v4=M 4
+
+^afl g2=M 2 g2v2=M 4 g2v2=M 4 ^aZ " g2 " g2v2=M 2 g2v4=M 4
+
+Table I This table displays a comparison of the estimated sizes for each of the effective TGV couplings using the three scenarios, discussed in the text, for the underlying physics. DA stands for Dimensional Analysis, which consists of simply counting dimensions and powers of the gauge coupling, g. NDA and LRDA respectively denote better-motivated estimates, using `Naive Dimensional Analysis' and `Linearly-Realized Dimensional Analysis', as explained in the text.
+
+ffl Custodial Symmetry: We do have some information beyond the simplest power counting, however. The relative strength of the low-energy neutral- and charged-current weak interactions, as described by the parameter ae, agree with the tree-level SM result, ae = 1, to within roughly a percent. This prediction is very sensitive to the nature of electroweak symmetry-breaking physics, and its natural explanation points to the existence of an approximate custodial SUc(2) symmetry [24]. Any such custodial symmetry has many more implications than simply the suppression of deviations from ae = 1. It imposes a heirarchy on all effective interactions which involve the electroweak gauge bosons, in particular
+
+10
+
+among the anomalous TGV's. Since the implications of custodial symmetry are often incorrectly stated in the literature, we derive them here in some detail.4
+
+By its very definition, the custodial symmetry must enforce the vanishing of \Delta ae = ae \Gamma 1. This is acheived by requiring the three real fields, W a_ with a = 1; 2; 3, to transform as a SUc(2)-triplet:
+
+ffiW a_ = fflabc!bW c_; (10) where !b is an infinitesimal SUc(2) transformation parameter, W_ = 1p2 (W 1_ + iW 2_) is the charged W -boson field, and W 3_ = c1Z_ + c2A_ is an as-yet-unspecified linear combination of the propagating Z and photon fields. The constants c1 and c2 are determined by diagonalizing the kinetic and mass terms, and will differ, in general, from the SM values. We take fermions to transform in a vectorlike way, with \Gamma ud\Delta transforming as doublets, for each generation.
+
+The implications of this custodial symmetry are obtained by writing out the most general lagrangian that it permits. We therefore demand a lagrangian of the following form:
+
+L(W; ; a) = Linv(W; ) + Lsb(W; ) + Lem(W; ; a); (11) where W denotes the three fields, W a_ , a_ is the electromagnetic gauge potential, and schematically represents all of the remaining matter fields. The three types of terms have the following explanation:
+
+1) Linv: These are the most general terms possible which do not involve the photon field, and which are custodial invariant. Since these terms preserve this symmetry, their coefficients can be O(1) (as indeed they are in the Standard Model).
+
+2) Lem: Since the electromagnetic interactions explicitly break the custodial symmetry - e.g. u and d have different electric charges, even in the Standard Model - we do not require that any terms involving the field a_ be symmetric under SUc(2). Coupling constants here nevertheless need not be particularly suppressed beyond the powers of the electromagnetic coupling, e, which accompany factors of a_.
+
+3) Lsb: This contains all of the terms in the lagrangian which explicitly break the custodial symmetry but do not involve the electromagnetic gauge potential. Included are, in particular, contributions to \Delta ae, so we demand that couplings in Lsb must all be suppressed by small symmetry-breaking parameters, " , 0:01. Such a suppression is completely natural
+
+4 Our treatment here follows a similar analysis that appeared in the unpublished version of Ref. [20].
+
+11
+
+because of the approximate SUc(2) symmetry. It is not ruined by radiative corrections arising from the interactions in Lem, since these contribute to Lsb couplings of order ff=4ss.
+
+The remainder of the argument now proceeds as follows. By diagonalizing the gauge kinetic and mass terms we first determine the constants c1 and c2 that give the overlap between W 3 and the propagation eigenstates, Z and A. By considering the electroweak couplings of fermions, we next verify that the custodial symmetry as defined really does ensure ae = 1 to lowest order. Finally, we compute the implications of the symmetry for anomalous TGV's.
+
+The most general Uem(1)-invariant free lagrangian which involves only the fields W a_ and a_ may be written:
+
+Lfreeinv = \Gamma 14 W a_* W _*a \Gamma 12 m2W W a_ W _a ; Lfreesb = \Gamma s4 W 3_* W 3_* \Gamma t2 m2W W 3_ W 3_: (12) Lfreeem = \Gamma 14 f_* f _* \Gamma *2 W 3_* f _* ;
+
+where f_* and W a_* are the usual abelian curls for the fields a_ and W a_ . (We choose to relegate the electromagnetic interactions which arise from the use of the Uem(1) gauge covariant derivative, D_W*, into Lem.) We have used the freedom to rescale the fields in an SUc(2)-invariant way to put two of the kinetic terms into their standard forms. The approximate custodial symmetry leads us to expect * , O(1), while s; t , O(").
+
+The neutral-boson propagation eigenstates for this free lagrangian are:
+
+Z_ j p1 + s \Gamma *2 W 3_ ; A_ j a_ + *W 3_ : (13) and the vector-boson masses become:
+
+\Gamma m2W W \Lambda _ W _ \Gamma 12 ` 1 + t1 + s \Gamma *2' m2W Z_Z_: (14)
+
+To check the size of \Delta ae we write down the boson-fermion couplings that are unsuppressed by ":
+
+LGFinv = ig fl_TaflL W a_ and LGFem = ie fl_Q a_: (15)
+
+12
+
+Ta and Q here respectively represent the generators of SUc(2) and Uem(1) on the fermion fields.5
+
+Transforming to boson propagation eigenstates, we obtain the standard chargedcurrent and electromagnetic interactions, with respective strengths given in the usual way by g and e, together with the following neutral-current interaction:
+
+Lnc = igp1 + s \Gamma *2 fl_ `T3flL \Gamma e*g Q' Z_: (16) From this we infer the SM values, sSM = tSM = 0, gSM = e=sw and *SM = sw, as well as the tree-level prediction for \Delta ae:
+
+\Delta ae = \Gamma t1 + t ss \Gamma t , O("); (17) as required. Although the variables s and * drop out of \Delta ae, they do contribute to precision electroweak measurements through their contributions to the oblique-correction parameters S, T and U [25]:
+
+ffS 4s2wc2w = \Gamma s +
+
+c2w \Gamma s2w
+
+swcw (* \Gamma *
+
+SM ); ffT = \Gamma t; ffU4s2
+
+wc2w = s + 2
+
+sw
+
+cw (* \Gamma *
+
+SM ): (18)
+
+The implications for CP -violating anomalous TGV's are equally simple to work out. TGV's that arise from Linv or Lem need not be suppressed by small custodial-breaking parameters. The most general such terms up to dimension six are
+
+LT GVinv = g ~,3! fflabc W a_ * W b* oe fW c_oe ; LT GVem = \Gamma ie~^fl W \Lambda _ W* ~f _* \Gamma ie~*fl W \Lambda _ * W* oe ~f _oe (19)
+
++ e(afl W \Lambda _ W* + ^afl Z_Z* )(@_@*f ** + (_ $ *)):
+
+Notice that the other potentially invariant combination, fflabc W a_ W b* fW c_* , turns out to be identically zero.
+
+5 We assume here a universal strength for the W a couplings to fermions, as well as no right-handed charged currents, neither of which follow automatically from custodial invariance. They can be ensured by enforcing other approximate flavour symmetries, but we ignore this complication as peripheral to our main point.
+
+13
+
+In terms of propagation eigenstates these expressions become:
+
+LTGVinv = \Gamma ie ~,s
+
+w cw W
+
+\Lambda _
+
+* W
+
+*
+
+oe eZ _
+
+oe (20)
+
+LTGVem = \Gamma ie~^fl W \Lambda _ W* ` eF _* \Gamma swc
+
+w eZ
+
+_* ' \Gamma ie~*fl W \Lambda
+
+_
+
+* W
+
+*
+
+oe ` eF _
+
+oe \Gamma s
+
+w
+
+cw eZ
+
+_ oe '
+
++ e(afl W \Lambda _ W* + ^afl Z_Z* )(@_@*F ** + (_ $ *)):
+
+where in these expressions we drop any small deviations in s; t; g and * from their SM values, as well as a q2-dependent contribution to hZ and ^hZ .
+
+The rest of the anomalous CP -violating TGV's must be suppressed by at least one factor of the small symmetry-breaking parameter, ". Notice that, although the custodial symmetry relates ~^fl and ~^Z according to ~^Z = \Gamma ~^fl s2w =c2w, no relation is imposed between
+
+~*fl and ~*Z .
+
+The resulting factors of " that are predicted in this way for each of the anomalous TGV's are listed in Columns one and two of Table I.
+
+3.2) CP -Violation NOT associated with the Electroweak Breaking Sector
+
+In the alternative scenario, the underlying physics which generates anomalous TGV's is not also responsible for electroweak symmetry breaking. In this case it is likely that the low-energy effective theory linearly realizes the electroweak gauge group, and so contains the fields whose v.e.v.s give masses to the W and the Z. We suppose for the present purposes that these fields are scalars, and that these scalars transform as SUL(2) doublets, since in this case the ae parameter is naturally close to one. The resulting effective operators must then be constructed from these fields, and must be SUL(2)\Theta UY (1) invariant [26]. This is the case analysed in Refs. [14], [18] and we repeat the conclusions here for comparison with the previous section.
+
+In this framework the lowest-dimension operators which contribute to CP -violating anomalous TGV's arise at dimension six. They may be written as a linear combination of the following two independent ones:
+
+A g
+
+3
+
+3! fflabcW
+
+a* _ W
+
+b* * fW
+
+c_ * + gg0 Re hBij (OEyi taOEj)i W
+
+a _* eB
+
+_* : (21)
+
+Here ta are the SUL(2) generators as represented on the Higgs fields, g0 and g denote the gauge couplings for each of the two factors of the electroweak gauge group, whose
+
+14
+
+field strengths are written B_* and W a_* . OEi; i = 1; : : : ; N are the Higgs doublets, whose (potentially complex) v.e.v.s we denote hOEii = \Gamma 0w
+
+i\Delta . (In the case of a single Higgs, w =v=p2.)
+
+Unlike the previous case, power counting arguments for this effective theory merely require that the coefficients A and Bij be O(1=M 2), since all additional suppression by powers of wi (or v) arises from the explicit dependence on the fields OEi.
+
+Once evaluated with OEi = hOEii, these effective interactions produce the following effective TGV couplings:
+
+~^fl = \Gamma g2 Re (Bij w\Lambda i wj) ; ~^Z = g2 Re (Bijw\Lambda i wj) s
+
+2w
+
+c2w ; ~*fl = g2 A; ~*Z = g2 A: (22)
+
+Notice that ~^fl and ~^Z are related to one another in the same way as is required by the custodial symmetry, while the relation ~*fl = ~*Z is not attributable to SUc(2) invariance. Being generated by dimension-six operators, the corresponding form factors, gV (0), are expected to be O(M 2W =M 2) in size. Deviations from the above relations amongst the form factors arise once higher-dimension operators are included, and so should be O(M 4W =M 4).
+
+These estimates for the sizes of the CP -violating form factors are summarized in column three - entitled `LRDA' for `Linearly-Realized Dimensional Analysis' - of Table I. As was emphasized earlier, they do not necessarily agree with the estimates obtained from NDA.
+
+4. Generic Features at One Loop We next turn to the explicit one-loop calculation of the six form factors. For the purposes of the present section, we take as our underlying theory a completely general renormalizable theory of interacting spinless, spin-half and spin-one particles. In this way we can identify those features of the induced anomalous TGV's which are generic to differing kinds of underlying physics. The main signatures we find in this way are summarized in Table II, below.
+
+We accordingly start with the most general renormalizable lagrangian that is possible for this particle content. Without loss of generality we choose to represent the fermions using a basis of Majorana spinors, i, just as we can (and do) represent our spinless particles with real scalar fields, OEa. The spin-one gauge potentials are Aff_. The lagrangian
+
+15
+
+is:
+
+L = \Gamma 12 (D_OE)a(D_OE)a \Gamma 12
+
+i/Di \Gamma 1
+
+4 F
+
+ff _* F
+
+ff_* \Gamma V (OE)
+
+\Gamma 12 mij
+
+ifl
+
+Lj + 12 \Gamma aij
+
+ifl
+
+Lj OEa + h:c: (23)
+
+Here D_OE = @_OE \Gamma iAff_ tffOE and D_ = @_ \Gamma iAff_ (TaflL \Gamma T \Lambda a flR) are the gauge covariant derivatives, and F ff_* = @_Aff* \Gamma @* Aff_ + cfffifl Afi_Afl* is the covariant field strength. The matrix representation of the hermitian generators of the gauge group acting on the scalar fields is denoted tff, and satisfy the algebra [tff; tfi ] = icflfffi tfl . For real scalar fields we have tff = tyff = \Gamma t\Lambda ff. The matrix representation of the gauge generators acting on lefthanded fermions is similarly denoted by Tff, and satisfy the identical algebra. We adopt a normalization in which the gauge couplings, g, are absorbed into the definitions of our gauge generators, tff and Tff. The scalar potential can be a generic quartic polynomial: V = 1 2(_2)
+
+abOEaOEb + 13!,abcOEaOEbOEc + 14!*abcdOEaOEbOEcOEd, subject to the gauge symmetries. Finally,
+
+the matrices mij and \Gamma aij are in general complex, must preserve the gauge symmetries, and can be taken to be symmetric in their fermion indices i and j.
+
+Once the scalar potential has been minimized, the scalar fields, OEa, acquire their v.e.v.sh OEai = va. Perturbing around these values using OEa = va + O/a, and working within unitary gauge, gives the scalar, spinor and gauge-boson mass matrices. These are, respectively: (M 2S )ab = (_2)ab + ,abcvc + 12*abcdvcvd, (MF )ij = mij + \Gamma aijva, and (M 2V )fffi = 12 vT ftff; tfi gv. We choose to formulate our Feynman rules within a basis of propagation eigenstates, and so we redefine our fields to diagonalize these mass matrices. This has the effect of altering all of the couplings of the theory tff ! ^tff, etc., although we do not write the `caret's in what follows, for brevity of notation.
+
+We now turn to the calculation of one-loop TGV's from these interactions. Since our theory is renormalizable, and no divergent subdiagrams are possible at one loop, we are guaranteed that all anomalous form factors must be finite. As a result we need not be concerned here with the intricacies of various regularization schemes.
+
+4.1) Gauge Bosons
+
+The simplest interactions to deal with are those which couple the gauge bosons to one another:
+
+LGB = \Gamma cfffifl @_Aff* Afi_Afl* \Gamma 14cfffifl cffffiffl Afi_Afl* A_ffi A*ffl : (24)
+
+16
+
+These can, in principle, contribute to anomalous TGV's through the diagrams of Fig. (1). These diagrams turn out to never generate CP -violating interactions, however, as may be seen by the following simple argument.
+
+The main point is that it is always possible to assign C and P quantum numbers to the gauge bosons in such a way as to ensure that the interactions of eq. (24) by themselves preserve C and P . Since we use real fields here, one such assignment is to simply choose all fields, Aff_ to be eigenstates of C and P with eigenvalues C = P = +1.
+
+Of course, once other interactions are included these C and P assignments may not turn out to preserve CP in these other interactions. But this is irrelevant for the purposes of generating a CP -violating TGV from Fig. (1), since this graph knows only about the gauge self-couplings. It is therefore sufficient, for the purposes of eliminating CP -violating TGV's, to establish that there exists a set of C and P charge assignments for which the gauge self-couplings alone can be made to preserve C and P .
+
+4.2) Fermions
+
+The only fermion interaction that can contribute to anomalous TGV's at one loop are the fermion-gauge couplings:
+
+LF G = i2 fl_(TffflL \Gamma T \Lambda ffflR) Aff_: (25) These interactions can contribute to TGV's via the Feynman graph of Fig. (2). Special cases of this graph have been evaluated for left-right-symmetric models in Refs. [14], [27] and [28]. Since we work with propagation eigenstates, CP violation enters into the graph through the vertices. These violate CP if their coupling matrices, Tff, are complex - i.e. not purely real or imaginary. Since these matrices are hermitian, CP -violation therefore can only arise within the off-diagonal terms in eq. (25).
+
+It might be expected that since both fV (q2) and gV (q2) share the same transformation properties under C and P , both would be generated whenever either is. Interestingly enough, this turns out not to be the case. Explicit calculation of Fig. (2) shows that both gfl(q2) and gZ(q2) vanish identically at one loop! The one-loop integrand is just not complicated enough to generate the required tensor structure, so these form factors never arise. This is an artifact of the one-loop approximation, however, and is no longer true at two loops [29].
+
+More specific information may be extracted by considering Fig. (2) in more detail. If the neutral-boson vertex is diagonal in flavour space, as is necessarily true for the photon,
+
+17
+
+then, as we have argued, it cannot break CP . In this case all of the CP violation must come from phases in the fermion-W couplings. But in order for these phases not to cancel between the two W vertices in Fig. (2), there must be two independent couplings between the participating fermions and the W boson. Since the photon couplings cannot change particle type, the only nonzero possibility arises when the fermions in the loop have both left- and right-handed couplings to the W boson. In this case a CP -violating result must be proportional to the product of the left- and right-handed couplings, and so (since the photon couplings preserve C and P ) the result necessarily also breaks P . The conclusion, then - as was pointed out in Ref. [14] - is that the only CP -violating W W fl form factor that can be produced by Fig. (2) is ffl(q2), and this can arise only if the fermions have both left- and right-handed couplings to the W boson.
+
+This same arguments do not so strongly restrict the neutral-current moments, such as W W Z or ZZZ. In this case more possibilities exist because the Z-fermion vertex can change flavour and can itself be P - and/or CP -violating. As a result, for instance, fZ(q2) can be nonzero even in the absence of right-handed charged currents, provided there are instead flavour-changing Z-fermion interactions. Similarly, hZ (q2) and/or ^hZ (q2) can also be nonzero, although the same considerations in this case imply that these form factors must be antisymmetric (at one loop) under the interchange of the masses of the two fermions which couple to the Z.6 (On this point our results appear to differ with those of Ref. [28].)
+
+These conclusions are summarized in column two of Table II.
+
+4.3) Scalars
+
+There are several gauge-scalar interactions that can contribute to one-loop TGV's. They are:
+
+LGS = LO/O/A + LO/AA + LO/O/AA (26) where
+
+LO/O/A = \Gamma i2 (O/T tff@_O/ \Gamma @_O/T tffO/) Aff_ LO/AA = \Gamma 12 (vT ftff; tfi gO/) Aff_ Afi_ (27) LO/O/AA = \Gamma 14 (O/T ftff; tfi gO/) Aff_Afi_: 6 That is, they must be antisymmetric with respect to m
+
+i$mj in the notation of Fig. (2).
+
+18
+
+Form Factor Gauge Bosons Fermions Scalars
+
+fV (q2) 0 Nonzero 0 gV (q2) 0 0 0 hV (q2) 0 Z Only Z Only
+
+^hV (q2) 0 Z Only Z Only
+
+Table II This table displays a comparison of the estimated sizes for each of the effective CP -violating TGV form factors that can arise at one loop. Each column represents the general result of the effects of couplings of the corresponding type of particles to gauge bosons. Items labelled `Z Only' are skew under the interchange mi$mj (see text), and so necessarily vanish when V =fl.
+
+In this case there are a great many types of graphs which can, in principle, contribute to anomalous TGV's. These are listed in Figs. (3) through (6). Some of these have been considered within the context of a two-Higgs-doublet model in Refs. [28] and [20].
+
+It is possible to draw some general conclusions concerning these interactions, along the lines of those which were obtained for fermion loops in the previous section. In particular, it is possible to choose parity assignments for each of these interactions in such a way as to make them all P invariant. This may be done by choosing all fields to be parity even (that is to say: scalars and polar vectors rather than pseudoscalars and axial vectors). As a result it is impossible to generate either of the form factors fV (q2) or gV (q2) from any of these scalar graphs. The only possible CP -violating contributions are therefore to hV (q2) and to ^hV (q2). This gives CP -violation in the scalar sector a distinctive signature.
+
+We see that CP -violating TGV form factors have a natural diagnostic property. Which form factors arise directly reflects the nature of the underlying physics which is responsible. In particular, CP -violation among new heavy scalars can only generate anomalous interactions which break both CP and C, while underlying fermions can instead produce both C- and P -breaking CP -violating couplings. Neither type can generate a nonzero gV (q2) at one loop, however.
+
+As before, more detailed information is also available. For electromagnetic vertices, CP -violation must enter the graph through the scalar couplings to the W boson. Since the electromagnetic couplings cannot change scalar flavour, and since only one type of scalar-W
+
+19
+
+vertex is possible for each flavour, CP -violation cancels between the two W vertices in the photon moments. hfl (q2) and ^hfl (q2) therefore both vanish at one loop. The same need not be true for the Z-boson coupling provided that the Z couplings do change scalar flavour. Just as for fermions, the requirement that the Z vertex change flavour is reflected in the antisymmetry of the final expressions for the scalar-generated anomalous TGV's under the interchange of the masses of the two scalars which connect to the Z-boson vertex.
+
+We summarize the one-loop signatures we have found for scalars in column three of Table II.
+
+5. Specific Features at One Loop We next turn to a more explicit evaluation of the one-loop TGV's. We do so in order to determine which parts of the parameter space of the underlying model lead to the largest induced couplings. The parameters that are required can then be compared with other phenomenological bounds to see whether the largest induced TGV's need be ruled out by other phenomenological information.
+
+In order to execute this program, we first compute the dependence of the loopgenerated TGV's on the underlying particle masses and couplings. We then use this dependence to determine what values maximize the result. Representative models which can produce these parameters in a phenomenologically acceptable way are then constructed in the next section.
+
+5.1) Fermion-Induced TGV's
+
+To explore the implications of underlying fermion loops for TGV's we evaluate the graph of Fig. (2). For convenience we write the fermion-gauge boson couplings generically as
+
+LF W = ig
+
+ifl_(A
+
+ij flL + Bij flR)j W_ + h:c:
+
+and LFV = ieV
+
+ifl_(CV
+
+ijflL + D
+
+V ij flR)
+
+j V_; (28)
+
+where V represents either the Z boson or the photon, and eV is the corresponding coupling as defined in Section (2). To be completely concrete, in the Standard Model we would have Bij = 0 and Aij = 1p2 Vij , where Vij is the Cabbibo-Kobayashi-Maskawa (CKM) matrix (for quarks). Similarly Cflij = Dflij = Qij for the photon, where Q is the matrix of electric charges chosen such that the proton has charge +1. And finally, CZij = 1c2
+
+w(T3 \Gamma Qs
+
+2w)ij, and
+
+DZij = \Gamma s
+
+2 w
+
+c2wQij. As usual, T3 here represents the matrix generator of the third component
+
+of weak hypercharge.
+
+20
+
+The Dipole Moment Form Factor, fV :
+
+With these convention for the fermion couplings, the result for the induced TGV may be expressed in a compact form in terms of a double integral over Feynman parameters. We find the following contribution to the dipole-moment form factor, fV (q2):
+
+fV (q2) = g
+
+2
+
+8ss2 Xij` hC1 I1 + C2 I2 + C3 I3 + C4 I4i; (29)
+
+where the constants Ci are given in terms of the fermion couplings by:
+
+C1 = \Gamma Im (A\Lambda i`CVij Aj` \Gamma B\Lambda i`DVijBj`); C2 = +pfiifi` Im (A\Lambda i`CVijBj` \Gamma B\Lambda i`DVijAj`); C3 = +pfijfi` Im (A\Lambda i`DVijBj` \Gamma B\Lambda i`CVij Aj`); and C4 = +pfiifij Im (A\Lambda i`DVijAj` \Gamma B\Lambda i`CVijBj`):
+
+(30)
+
+Here fii j m2i =M 2W represent the fermion masses, normalized to the W mass, and the labels `i', `j' and ``' are as defined in Fig. (2). The integrals, Ii, which arise are given by:
+
+I1 = Z
+
+1
+
+0 Z
+
+1 0 dx dy y
+
+2(1 \Gamma 2x) ae3 ln A \Gamma t
+
+4 ^
+
+1 \Gamma y2(1 \Gamma 2x)2A *oe
+
+I2 = Z
+
+1
+
+0 Z
+
+1 0 dx dy
+
+y [1 + y (1 \Gamma 2x)]A
+
+I3 = Z
+
+1
+
+0 Z
+
+1 0 dx dy
+
+y [1 \Gamma y (1 \Gamma 2x)]A
+
+I4 = Z
+
+1
+
+0 Z
+
+1 0 dx dy
+
+y2 (1 \Gamma 2x)A ;
+
+(31)
+
+with the function A defined by:
+
+A = fi`(1 \Gamma y) + fij xy + fii(1 \Gamma x)y \Gamma y(1 \Gamma y) \Gamma ty2x(1 \Gamma x): (32) These expressions all depend on q2 through the variable t j q2=M 2W .
+
+Notice that although I1 and I4 are antisymmetric under the interchange mi $ mj , I2 $ I3 under this replacement, so the sum of these terms need not antisymmetric. This reflects the fact that the contributions I1 and I4 rely for their CP-violation on the existence of flavour-changing Z couplings, while I2 and I3 are due to the interference of the left- and
+
+21
+
+right-handed couplings of the W . In particular, for the photon the condition Cflij = Dflij = Qiffiij implies that C1 = C4 = 0, and eq. (29) reduces to the expression obtained by earlier workers [14] [27].
+
+We have evaluated these integrals numerically, for various values of the fermion masses, mi, mj , m` and of q2. Fig. (7) exhibits an illustrative plot of the real and imaginary parts of fV (q2 = 4M 2W ) - where q2 = 4M 2W is the value most appropriate for LEP 200 - as a function of mi with mj = 100 GeV, and m` = 50 GeV. These mass values have been chosen in order to display the threshhold enhancement which occurs when (mi + mj )2 = q2 = 4M 2W .
+
+There are two points concerning this graph that bear emphasis:
+
+ffl 1: It is noteworthy that the threshhold enhancement makes the region of relatively small masses give larger contributions than do the large mass regions. This is quite representative of what happens for general combinations of masses. Of course, the presence of a threshhold, and the associated absorptive parts, also show that the new fermions in the loop are themselves being pair produced at these energies. In this case the electroweak form factors are much less interesting than this more spectacular production process, unless the produced fermions should not themselves be detectable at LEP 200. We determine when this can happen in the next Section, where we build explicit models for the underlying physics.
+
+ffl 2: For the purposes of the plot we have taken the imaginary parts of the combinations of coupling constants which appear in front of all terms to be one -- i.e. Im (\Delta \Delta \Delta ) = 1 -- a fact which must be kept in mind when making contact with specific models. For CP -violating TGV's this is overly optimistic to the extent that the CP -violating phases of the underlying model should turn out to be small. The same is not true for CP -preserving TGV's, however, for which this is not such a restrictive assumption. As may be seen for the Standard-Model couplings given above, the values ultimately taken by these parameters depend upon the representation content of the new particles, as well as on which vectorboson TGV's are under consideration.
+
+The Anapole Form Factor, hV :
+
+The graph of Fig. (2) also generates a contribution to hZ (q2), which is given by:
+
+hZ (q2) = g
+
+2
+
+8ss2 Xij` hD1 I4 + D2 I5:i; (33)
+
+22
+
+Here the constants Di are given by:
+
+D1 = +pfiifij Im (A\Lambda i`DZijAj` + B\Lambda i`CZijBj`): D2 = +Im (A\Lambda i`CZij Aj` + B\Lambda i`DZijBj`); (34)
+
+where the labels `i', `j' and ``' are as before. I4 is given above in eq. (31), and the new integral, I5, is:
+
+I5 = Z
+
+1
+
+0 Z
+
+1 0 dx dy y
+
+2(1 \Gamma 2x) aeln A \Gamma t
+
+4 ^
+
+1 \Gamma y2(1 \Gamma 2x)2A *oe : (35)
+
+As before, the function A is defined as in eq. (32). Notice the antisymmetry of both I4 and I5 under the interchange mi $ mj, as was argued on general grounds in the previous Section.
+
+Evaluating these integrals numerically, for the same values of the fermion masses and of q2 as were used above for fV -- i.e. mj = 100 GeV, m` = 50 GeV and q2 = 4M 2W -- leads to the plot of hV vs mi that is given in Fig. (8). For the purposes this plot, we take the various couplings to satisfy Im (\Delta \Delta \Delta ) = 1. Once again we find a threshhold enhancement when (mi + mj)2 = q2 = 4M 2W (i.e. mi = 60 GeV on the plot), as well as the required zero when mi = mj (= 100 GeV on the plot).
+
+5.2) Scalar-Induced TGV's
+
+We next perform for scalars a calculation that is similar to that just presented for fermions. An immediate complication here is the much larger class of graphs which, in principle, must be considered. We therefore restrict our goal here to finding reasonably representative examples with comparatively large TGV's, rather than to exhaustively surveying all models. As a result we compute here only the result for the loop of Fig. (6) (in which only scalars circulate within the loop), as well as the graph of Fig. (5) (in which two scalars circulate within the loop together with a single W boson). In this latter graph we consider only the case where it is the neutral gauge boson (Z or photon) which couples to the scalar line. This class is sufficiently simple to keep the labour involved under control, yet it is also general enough to include most of the phenomenologically interesting models. Previous workers [28] [20] have also restricted their attention to this class.
+
+23
+
+We parameterize our three-point scalar-vector interactions in the following way:
+
+LSSW = \Gamma igEijhOE\Lambda i @_OEj \Gamma (@_OE\Lambda i )OEjiW_ + h:c:
+
+LSSV = \Gamma ieV F ijV hOE\Lambda i @_OEj \Gamma (@_OE\Lambda i )OEjiV_ LSW W = \Gamma iGiMW OEi W \Lambda _ W _:
+
+(36)
+
+For the physical Higgs in the Standard Model these couplings would become: E = Ffl = FZ = 0 and G = 1.
+
+We may now compute the contributions to hV (q2) from the Feynman graphs of Figs. (5) and (6). As discussed in the previous section, both graphs give zero for the electromagnetic form factors, hfl (q2), and ^hfl (q2). For V = Z, the purely scalar loop of Fig. (6) gives:
+
+(hV )Fig:(6) = g
+
+2
+
+8ss2 Xij` Im [(E
+
+i`)\Lambda F ij
+
+Z Ej`] J1; (37)
+
+while evaluation of the graph of Fig. (5) (with the Z coupled to the scalar line) gives
+
+(hV )Fig:(5) = \Gamma g
+
+2
+
+8ss2 Xij` Im [(G
+
+i)\Lambda F ij
+
+Z G
+
+j] J2: (38)
+
+In these expressions Ji represent the following two-dimensional Feynman parameter integrals:
+
+J1 = Z
+
+1
+
+0 Z
+
+1 0 dx dy y
+
+2(1 \Gamma 2x)(16 ln A
+
++ 16 ^t[16y
+
+2x(x \Gamma 1) \Gamma 3(1 + 2y)] + 4(1 + 2y)(1 + y)A *)
+
+J2 = Z
+
+1
+
+0 Z
+
+1 0 dx dy y
+
+2(1 \Gamma 2x) ae8
+
+3 ln A +
+
+2 3 ^
+
+ty2x(1 \Gamma x) + fi` \Gamma y(1 \Gamma y)A *oe
+
+(39)
+
+The quantities fii again represent the mass ratios m2i =M 2W , t is again q2=M 2W , and A represents the same function of these quantities as was given in eq. (32).
+
+Some explanation is in order as to the meaning of the labels `i', `j and ``'. For Fig. (6), these labels refer to the species of scalars circulating in the loop, as defined in the figure. For Fig. (5), however, although `i' and `j' are also defined in this way, ``' runs over the
+
+24
+
+species of vector particle inside the loop. Typically this internal gauge boson is the W particle, in which case ` = W and fi` = 1. Notice that both of the integrals J1 and J2 have the expected antisymmetry under the interchange of the two scalar masses: mi $ mj.
+
+In Figs. (9) and (10) we present a representative plot of these expressions as functions of their mass arguments. For the purposes of comparison with the fermion results presented earlier, in Fig. (9) we use the same masses as were used in Figs. (7) and (8): q2 = 4M 2W , mj = 100 GeV, and m` = 50 GeV. For Fig. (10) we use the same values for mi and mj, but use m` = MW . For the purposes of these plots we also take the combination of couplings which premultiplies the integrals, Im (\Delta \Delta \Delta ), to equal one.
+
+Once again the threshhold enhancement is visible for mi = pq2 \Gamma mj = 60 GeV. And once again, this indicates the direct pair production of the underlying scalars, which may or may not be detectable depending on their properties.
+
+5.3) The Heavy-Mass Limit
+
+It is instructive to compare the above explicit expressions with the general form that is dictated by the effective lagrangian analysis of Section (3), in the limit that the masses of the particles in the loops are large. In this limit our general expression must reduce to the effective-lagrangian result. We make the following three remarks.
+
+ffl (1): The most basic prediction of the effective lagrangian is that the form factors are approximately independent of q2, being well described by their values at q2 = 0. It is clear, as we have verified numerically, that this q2-independent behaviour may be expected to hold up to powers of q2=M 2 for any q2 o/ M 2, where M is the underlying large particle mass. Since, for LEP-200 energies, q2 = 4M 2W , q2=M 2 is as small as 10% for M ?, 500 GeV.
+
+ffl (2): A second, more model-dependent, prediction of an effective theory concerns how quickly the results fall off as the heavy mass gets large. We next compare our explicit one-loop calculation with the estimates of Table I.
+
+Consider separately two cases according to whether or not the new CP -violating physics also breaks the electroweak gauge group. The simplest situation to analyse is that for which the new physics is SUL(2) \Theta UY (1)-invariant. In this case it is generally possible to make the scale of new physics arbitrarily large in comparison to v. The LRDA estimate then predicts that all anomalous TGV's should fall off at least as quickly as 1=M 2.
+
+For the one-loop calculation, an SUL(2) \Theta UY (1)-invariant way of taking the heavymass limit is to take the mass, M , of the heavy scalar or fermion multiplet to be large,
+
+25
+
+while taking no mass-splittings within this multiplet, \Delta M ! 0. With this choice our oneloop results indeed reproduce the predicted 1=M 2 behaviour. For scalars the loop result simply vanishes for \Delta M = 0, as do the contributions of the integrals I1 and I4 to the fermion loop. The fermion contribution C2I2 + C3I3, however, is nonzero in this limit, and it indeed falls off as M 2W =M 2.
+
+The large-M limit is more delicate when the new physics is not SUL(2) \Theta UY (1) invariant, because in this case we cannot take M to be larger than , 4ssv. As a result factors of v=M can be numerically difficult to separate from factors of 1=4ss. Fig. (11) illustrates the result of the loop calculation, where we plot fV (q2 = 4M 2W ) (which is real) against M , where the particle masses are chosen as m` = mj =2 = mi=3 j M . (Again we take Ci = 1.) As may be seen from the figure, the result quickly flattens off, becoming essentially M -independent, as M grows. Intuitively, this behaviour arises because the dominant contributions - in this example I1 dominates - are proportional to a power of \Delta M=M , which is fixed given our choices for particle masses. (A similar result holds for the scalar loop.)
+
+At first sight this behaviour seems to contradict the M -dependence of the NDA estimate of Table I, since this indicates a 1=M 2 dependence. This contradiction is illusory, though, since Table I does not keep track of any of the dimensionless constants of the underlying calculation. In particular it misses the fact that the coupling between the heavy fermion (or scalar) and the longitudinal gauge boson is given by a Yukawa (or scalar self-) coupling: * , M=v , gM=MW . Since we vary M with both g and MW fixed, this coupling grows with M . Including the loop factor 1=16ss2, gives a more precise version of the NDA estimate, which includes more of the details of the underlying model:
+
+~^V , ` *4ss'
+
+2 `M
+
+W
+
+M '
+
+2
+
+, i g4ssj
+
+2 : (40)
+
+We use the relation * , gM=MW in getting the last line. This refined estimate implies an M -independent result whose size is O(10\Gamma 3). This agrees well with both the behaviour and the size of the explicit loop result. Notice that this is often smaller than the largest value that is obtained for light fermions (and scalars) using the threshhold enhancement.
+
+ffl (3): The final feature which we explore is the nature by which the effects of the custodial symmetry arise in the specific models. Within the underlying theory, just as for the Standard Model, there are two types of interactions which break the custodial symmetry. They are (i) the UY (1) gauge couplings, and (ii) mass splittings between the members of
+
+26
+
+an SUL(2) multiplet. The custodial limit therefore corresponds to the situation where all components of the multiplet are degenerate in mass, and for which the matter couplings to the UY (1) gauge potential, B_, are turned off.
+
+Consider separately the contributions to the P - and CP -violating moments, fV (0) (or ~^V ) and the C- and CP -violating moments hV (0) (or aV ). For fV , only the fermion loop need be considered, since only fermions can contribute to this particular form factor. We have seen that the custodial limit of the effective lagrangian permits both ~^Z and ~^fl to be nonzero, provided that they are related by ~^Z = \Gamma ~^fl s2w=c2w. In the explicit calculation a nonzero result for these couplings is indeed obtained. Since the couplings to B_ vanish in the custodial limit, the photon and Z-boson TGV's are simply related in this limit by the relative size of their overlap with W 3_ . Keeping in mind the difference in normalizations -- i.e.: efl = e while eZ = ecw=sw -- we indeed find the required relation between ~^fl and
+
+~^Z in the custodial limit.
+
+For the anapole form factors, hV (0) and ^hV (0), the argument proceeds differently. Inspection of Table I indicates that, within the effective lagrangian, unbroken custodial symmetry implies that the Z-moments, hZ(0) and ^hZ (0), must vanish. This is indeed the result of the underlying calculation in the custodial limit, since in this limit all of the internal scalars must be degenerate in mass. But we've seen that this moment vanishes if mi = mj , regardless of whether it is produced by underlying fermions or by scalars. As a result it must also vanish in the limit when both mi and mj are taken to zero, as required.
+
+6. Model Building Our final goal is to construct illustrative models which can generate sizable TGV's and yet satisfy all current bounds. We also ask that the light particles which circulate within our loops not be themselves directly detectable at LEP 200. Our motivation for doing so is to search for an `existence proof' that anomalous TGV's of the size we have found might be the first indications of new physics. In so doing we consider separately the cases of new heavy fermions and scalars.
+
+Although we can construct an acceptable model of underlying scalar physics, we are unable to do so for fermions. The reason for this is tied to the fact that we are working only with CP -violating anomalous TGV's, for which light fermion electric dipole moments furnish extremely strong constraints. We do not expect to encounter the same obstacles for fermion models which produce sizable CP -conserving form factors. Unfortunately, however, the search for any such models lies outside the scope of our calculations. These conclusions are described in the present section.
+
+27
+
+The constraint which drives the search for models is the following question: How can a `phenomenologically interesting' - i.e. few % - anomalous W W Z coupling be generated without also creating a phenomenologically disasterous W W fl coupling of similar size?7
+
+6.1) A Fermion Model
+
+The above question has foiled our attempts to construct a viable model using underlying fermions. To see why this is so, consider what the model must satisfy. It must: (a) contain fermions in the (50 - 100) GeV mass range in order to take advantage of the threshhold enhancement; (b) violate CP ; (c) couple strongly enough to the Z boson to provide a sizable fZ (q2); and yet (d) not couple strongly enough to the photon to induce a similarly large ffl (q2). In order to avoid having TGV's be irrelevant, we would also ask that the pair-production of these fermions not itself be directly detectable at LEP.
+
+Two methods suggest themselves for suppressing the electromagnetic TGV's without also removing those for the Z. Either: add electroweak multiplets and suppress their contribution to ffl (q2) by arranging for their electrically-charged members to become very massive; or add electroweak singlets, and have these develop Z couplings by mixing with the SM neutrinos. We argue here that neither of these approaches leads to models which satisfy properties (a) through (d).
+
+We consider the second option first: introduce only electroweak singlets, and have them develop Z couplings through mixing with SM neutrinos. The difficulty with this scenario is that the mixing can never be strong enough to generate a sufficiently large W W Z TGV. Recall that the mixing angle, `, between a heavy electroweak-singlet state, S, of mass M , and a SM neutrino state, of mass m, is determined by diagonalizing the fermion mass matrix. This diagonalization gives a mixing angle that is (in order of magnitude) given by ` , pm=M . Since we require M ?, 50 GeV to being already ruled out by experiments at the Z resonance, and since even the tau-neutrino mass is bounded to be smaller than m !, 30 MeV, we see that ` !, 10\Gamma 2. Since the induced W So/ and ZS*o/ couplings are O(`) in size, we see that the TGV-inducing loop must be suppressed by at least `2 !, 10\Gamma 4. It therefore produces a W W Z vertex which is many orders of magnitude too small to be detected.
+
+In the alternative scenario we add a nontrivial electroweak multiplet, and attempt to suppress the contribution of its electrically-charged states to the TGV loop by making these states very heavy. At first glance this appears to be possible, since all of the loops
+
+7 Such a couping is only a disaster for the CP -violating TGV's, for which the bounds from the neutron and electron electric dipole moments apply.
+
+28
+
+which contribute to ffl involve at least two heavy charged-particle propagators, while fZ can be generated from graphs with only one such propagator. (Recall that the photon must be attached to the heavy charged-particle line.) Unfortunately, this observation does not parlay itself into a suppression of ffl relative to fZ. This is because the graphs involving only one heavy-particle propagator, which are supposed to produce the large contribution to fZ , must actually vanish in the limit where the neutral-particle masses, Mn, are much smaller than the charged particle masses, Mc. After all, in this limit the two fermions which couple to the Z - that is to say: the neutral particles - are effectively degenerate: mi , mj , Mn o/ Mc. And we've seen in previous sections that all of the contributions to fV which are not explicitly proportional to mi or mj vanish when mi = mj . As a result, the graphs which contribute differently to fZ and ffl actually turn out to be suppressed by a power of Mn=Mc. The same is not true of the graphs that fZ and ffl have in common. The consequence is that raising Mc relative to Mn does not lead to a suppression of ffl relative to fZ.
+
+There is yet another difficulty with this approach. Notice that the limit Mc AE Mn , MW strongly breaks the custodial symmetry which protects the prediction \Delta ae !, O(1%). With this pattern of masses, vacuum-polarization loops involving the heavy multiplet typically contribute an unacceptable amount to \Delta ae. If \Delta M 2 , M 2c \Gamma M 2n AE M 2W denotes the size of the mass splitting within the new multiplet, then \Delta ae , (ff\Delta M 2 =4ssM 2W ). So we would expect that even if a large charged-fermion mass could enhance ffl, the custodialsymmetry breaking in any such model would lead to an unacceptably large size for \Delta ae.
+
+6.2) A Scalar Model
+
+There is much more latitude in building a model of underlying scalars, since in this case there is no need to suppress the electromagnetic TGV. This is because scalars can only generate hV and ^hV , and these are poorly constrained for both V = Z and V = fl. In this section we construct a viable scalar model which generates maximal TGV's, as an existence proof that such models are possible.
+
+The model consists of supplementing the Standard Model Higgs, OE, with two additional scalar multiplets, O/ff and S. We choose O/ff to be a real SUL(2) triplet with vanishing hypercharge, YO/ = 0, and we take S to be a complex singlet with YS = \Gamma 1.8 Two multiplets are added in order to allow CP invariance to be broken by the renormalizable potential, as well as to permit off-diagonal Z-scalar couplings. The slightly unorthodox quantum numbers have a useful spinoff in that they do not permit the dimension-four
+
+8 Our hypercharge conventions are such that the SM Higgs has Y
+
+OE=
+
+1
+
+2.
+
+29
+
+fermion-flavour-changing Yukawa couplings to charged fermions, which can be a problem for multi-doublet models.
+
+We require vanishing v.e.v.s for both of the new fields. In order to prevent O/ff from developing an expectation once OE does, as would be possible through a OEOEO/ term in the potential, we impose a discrete symmetry under which the new fields are simultaneously reflected, (O/; S) ! (\Gamma O/; \Gamma S), while all SM fields are invariant. The most general renormalizable scalar potential that is possible for such a model is
+
+V (OE; O/; S) = *OE `OEyOE \Gamma v
+
+2
+
+2 '
+
+2
+
++ 12 _2O/ O/ffO/ff + _2S S\Lambda S + *O/ (O/ffO/ff)2 + *S (S\Lambda S)2
+
++ *OEO/ OEyOE O/ffO/ff + *OES OEyOE S\Lambda S + *O/S O/ffO/ff S\Lambda S
+
++ h*OEO/S ( ~OEytffOE) O/ffS + c:c:i :
+
+(41)
+
+Here the tff are generators of SUL(2), and OE is the usual SM Higgs. ~OE = \Gamma it2OE\Lambda is the conjugate of the SM doublet. The reality of the lagrangian implies that all of the parameters in V (OE; O/; S) must be real, with the exception of *OEO/S , which is the model's source of CP -violation.
+
+The parameters of this potential are chosen to ensure that hO/ai = hSi = 0, andh OEi = 1p2 \Gamma 0v\Delta . Expanding about this solution, we see that the scalar spectrum consists of two electrically-charged and two neutral scalars. The neutral-scalar mass eigenstates consist of the usual Higgs, having mass m2H = 2*OEv2, as well as O/3, which has mass m23 = _2O/ + 12 *OEO/v2. The charged states, S and O/ = 1p2 (O/1 + iO/2), mix through the following complex hermitian mass matrix:
+
+\Gamma 12 ` SO/ '
+
+y ` _2
+
+S + 12 *OES v2 \Gamma 14 *\Lambda OEO/Sv2\Gamma
+
+1 4 *OEO/S v2 _2O/ +
+
+1 2 *OEO/v2 ' `
+
+S
+
+O/ ' ; (42)
+
+which may be diagonalized by performing a two-by-two unitary rotation amongst the two charged scalars. This rotation involves a CP -violating phase provided that *OEO/S is complex.
+
+We may now compute the loop-induced anomalous TGV within this model. The first step is to determine which graphs can potentially be nonzero. Since our new fields have vanishing v.e.v.s, there are no O/V V 0 or SV V 0 vertices in this model, where V and V 0 represent either W or Z. This rules out any contribution from the graphs of Figs. (3) and (5). At first glance, those of Fig. (4) could contribute since the model has W \Lambda W O/\Lambda O/, W \Lambda W S\Lambda S, W \Lambda W O/23 and W \Lambda ZO/O/3 vertices. None of these graphs contributes in the end,
+
+30
+
+however. The W \Lambda W -type vertices can never contribute because they do not have the correct tensor structure to provide a contribution to hV . This same objection does not apply to the W \Lambda ZO/O/3 vertex or its hermitian conjugate, although these nevertheless give no contribution to CP -violating TGV's, since the result vanishes once the contribution from all possible internal scalars is summed. In the end, the only possible nonzero graph is that which involves just scalars circulating around the loop, giving the result proportional to J1 in eq. (33).
+
+We are free to choose the scalar masses in the (60\Gamma 100) GeV range which is consistent with the threshhold enhancement of the TGV integral. This is also large enough to evade direct production bounds at the Z resonance. We must also consider their indirect effects, which arise through their loop contributions to precision electroweak measurements. Since the new scalars have no Yukawa couplings to any of the charged SM fermions, their loop effects are completely described by their contribution to the W and Z vacuum polarizations - the `oblique' corrections. Because the intended masses of our scalars are not large compared to MW , these oblique corrections cannot be parameterized in terms of the original variables, S, T and U , of Ref. [10]. We must instead adopt the six-parameter generalization of Ref. [11], which is applicable to such comparatively light particles.
+
+Computing the scalar contributions to the weak-boson vacuum polarizations [30], and comparing the results to the global fit of Ref. [11], we see that our two scalar multiplets contribute acceptably to oblique corrections. An intuitive understanding of this follows from the observation that each real scalar contributes roughly 1=2ss ' 0:16 to the oblique parameters, such as S. So the contribution from our five real scalars is roughly five times as large: S ' 0:8. But the 2-oe bound for S that is found in Ref. [11] is \Gamma 4:3 ! S ! 2:5, with similar bounds holding for the other parameters. Our five real scalar states therefore slip inside these bounds at the present level of experimental precision.
+
+It is noteworthy that a fit involving the same data, but using only the variables S, T and U , gives the 2 \Gamma oe limit of \Gamma 1:3 ! S ! 0:3 [11], which would rule out the model we have presented. This is because, to the extent that the entire parameter space of the oblique corrections can be accessed within the underlying theory, the more parameters that contribute to the fit, the wider is the allowed range. As a result the bound for the light scalars is actually weaker in these circumstances than is the bound that would be expected for TeV scalars.
+
+We finally ask whether the pair-production of these scalars would be itself directly detectable at LEP 200. In this model there is a conserved quantum number associated with a common overall rotation of only the new scalar fields. As a result, the lightest exotic scalar is stable, and the heavier scalars can only decay into a gauge boson plus
+
+31
+
+a lighter scalar which would escape detection. If this reaction is energetically possible, then above the W threshhold, the signal for the production of these new scalars would be spectacular: a pair of W bosons which are not necessarily back-to-back, with appreciable missing energy. The decay would be impossible, however, if the mass splitting amongst the scalars is too small to permit the decay OE ! W OE0. In this case all of the scalars escape detection, and they could be expected to be first found through their contribution to the gauge boson anomalous TGV's.
+
+7. Conclusions In this paper we report on a detailed study of the kinds of CP-violating, three-point electroweak-boson self-couplings that are generated at one loop by generic new physics involving particles of spins zero through one. We identify several of the generic implications of this type of new physics, and illustrate these general properties with a few more detailed illustrative models.
+
+Several general conclusions emerge from this study. We consider two situations for which general remarks can be made: the case where the new physics is much heavier than the weak scale, and the situation where we make no assumptions concerning the new-particle masses, but for which the contributions to TGV's arise at one loop. Each of these two scenarios has its own distinguishing features, which might be used to diagnose the origins of anomalous TGV's, should these ever be observed. We summarize these conclusions for each of the two scenarios in the following paragraphs.
+
+7.1) Heavy New Physics
+
+Should the new physics be much heavier than the weak scale, then its effects may be analyzed in terms of the low-energy effective lagrangian which would be obtained by integrating out the heavy particles. The utility of such a lagrangian at LEP energies relies on the ability to expand observables in powers of MW =M , where M is the new-physics scale, and so its application requires M AE MW . In this limit we find the following general features (which apply equally well to both CP -violating and CP -preserving TGV's):
+
+ffl (1): Although some anomalous TGV's arise at dimension four in the effective lagrangian, they are generically expected to be suppressed by powers of MW =M in the two most plausible estimates for their sizes. These estimates are necessarily somewhat model-dependent, however, and we consider here for comparison the two examples of Naive Dimensional Analysis and Linearly-Realized Dimensional Analysis. NDA encodes power-counting arguments
+
+32
+
+that work well for strongly-coupled theories like QCD, while LRDA simply consists of ordinary dimensional analysis using the lagrangian which linearly realizes the electroweak gauge group, SUL(2) \Theta UY (1). The estimates we obtain by using these two schemes are displayed in Table I.
+
+We find that although these two kinds of estimates are based on different physical assumptions concerning the underlying theory, they agree for the strength of many, although not all, of the effective gauge-boson self-interactions. In particular they differ on their predictions for the couplings ~*V , which are expected to be O(g2v2=M 4) using NDA, but could be O(g2=M 2) in the linearly-realized theory. Finally LRDA implies ~*Z = ~*fl , up to higher-dimension, O(g2v2=M 4), corrections.
+
+ffl (2): We find that a custodial symmetry, which keeps the ae parameter near unity, enforces several relations among CP -violating TGV's. The custodial limit implies ~^Z and ~^fl are related by ~^Z = \Gamma ~^fl s2w=c2w. The couplings aZ and ^aZ must also vanish in this limit. No conditions at all are implied for ~*Z or ~*fl .
+
+ffl (3): Should the new physics not break the electroweak gauge group, and if this symmetry is broken by SUL(2)-doublet scalars, then the generic prediction ~*Z = ~*fl follows. Although this latter relation is sometimes claimed in the literature to follow from custodial symmetry, we see here that this is incorrect. It is instead a robust feature of the linearly-realized scenario, making it a useful diagnostic of the nature of the underlying physics should anomalous TGV's be detected.
+
+7.2) One-Loop TGV's
+
+Another situation for which general conclusions are possible is when the new physics which produces the TGV's is perturbative. In this case the type of CP -violating form factors that are generated directly reflects the nature of the relevant degrees of freedom of the underlying physics. In contrast with the effective-lagrangian analysis, the conclusions we draw in this case are more specific to CP -violating TGV's. We find that there are two kinds of couplings which can lead to CP -violating TGV's at one loop. These are either spin-half fermion/gauge-boson interactions, or scalar/gauge-boson interactions. Each of these produces a distinctive signature for the anomalous TGV's, which are summarized in Table II. We find:
+
+ffl (1): If the new particles whose CP -violating couplings generate the TGV's are spin-half fermions, then we expect the heirarchy fV ; hV AE gV . This is because only fV and hV can be generated at one loop, while the others cannot receive contributions at less than
+
+33
+
+two loops. gV does not arise at one loop simply because at this order the required tensor structure does not appear. The only situation for which this heirarchy between the sizes of fV and the other TGV's need not hold is when one-loop contributions to fV turn out to themselves be zero.
+
+ffl (2): If scalars are responsible for CP -violating TGV's, then we expect hV ; ^hV AE fV ; gV , since the CP -violating vertices which can contribute at one loop always also break C. This ensures that neither fV nor gV can be generated at less than two loops. Unless the oneloop contributions happen to hV and ^hV happen to vanish, these form factors are therefore expected to be the largest.
+
+7.3) A Promising Model
+
+We have searched the parameter space of the underlying model to determine what kinds of physics can maximize the TGV's that they produce. We find that the largest TGV's are generated by particles whose masses are of order MW . In this case, if two of the particles masses satisfy mi + mj = pq2 (= 2MW at the W pair-production threshhold), it is possible to have a threshhold enhancement of the one-loop graph, giving TGV's that can be several percent in size.
+
+Notice that these largest TGV's need not generated by physics at the TeV scale, contrary to the intuition that would be based on simple coupling-constant counting. After all, it is heaviest particles which couple most strongly to the longitudinal components of the W and the Z, with strength , gM=MW . According to this observation, the maximum TGV should be produced by the heaviest virtual particles. In practice, however, we find that this coupling growth with particle mass is compensated by a dependence of the loop on 1=M 2, leaving a result which is roughly independent of M for large M .
+
+We finally look for specific models which can have parameters which can produce the maximal TGV's, and yet not conflict with other phenomenological information. We can do so if the underlying CP -violation comes from the coupling of scalar particles. In this case particles can exist in the required mass range with the required couplings without having been hitherto detected, either in direct production experiments, or in precision electroweak measurements. They can also be not directly detectable at LEP 200 itself, even though their contributions to TGV's may be enhanced by threshhold effects.
+
+For underlying fermions, however, we are unable to build an phenomenologically acceptable model. This is because, for fermions, a detectably large contribution to fZ is always accompanied by a contribution to ffl that is of similar size. Such a large electromagnetic form factor would generate an electron and neutron electric dipole moment that
+
+34
+
+is several orders of magnitude larger than the current bound. This same objection would not apply to the CP -invariant TGV's, which might potentially receive large contributions from weak-scale fermions.
+
+We conclude that anomalous TGV's that are as large as 1% or so are not impossible, and should be searched for. Their detection would certainly point to new physics and, if detected in CP -violating TGV's, most likely to the existence of relatively light new scalars.
+
+Acknowledgments
+
+We would like to acknowledge many conversations with David London on the subject of custodial symmetries and TGV's, as well as Elie Boridy, Gilles Couture and Mourad Essid for lending a hand on several key occasions. This research was partially funded by N.S.E.R.C. of Canada, les Fonds F.C.A.R. du Qu'ebec, and the Swiss National Foundation.
+
+35
+
+Figure Captions ffl Figure (1): The Feynman graphs through which gauge-boson self-interactions might (but don't) contribute to anomalous CP -violating W W V vertices.
+
+ffl Figure (2): The Feynman graphs through which fermion/gauge-boson couplings contribute to anomalous CP -violating W W V vertices.
+
+ffl Figure (3): A class of Feynman graphs through which scalar-vector-vector and gaugeboson self-interactions might contribute to anomalous CP -violating W W V vertices. This class is meant to include all possible graphs for which one scalar and two vector particles circulate in the loop.
+
+ffl Figure (4): A class of Feynman graphs through which scalar-scalar-vector-vector interactions might contribute to anomalous CP -violating W W V vertices.
+
+ffl Figure (5): A class of Feynman graphs in which a loop containing two scalar particles and one vector one can contribute to anomalous CP -violating W W V vertices. In most applications only the graphs for which the external Z couples to two different types of scalars (labelled i and j) violate CP . There are two types of such graphs according to whether or not these scalars are electrically charged or neutral.
+
+ffl Figure (6): The Feynman graphs contributing to anomalous CP -violating W W V vertices which come from loops which involve only scalar particles.
+
+ffl Figure (7): This figure plots the contribution to fV (q2 = 4M 2W ) of a loop of fermions - Fig. (2) - whose masses are mj = 100 GeV and m` = 50 GeV. The result is plotted against m j mi.
+
+ffl Figure (8): This figure plots the contribution to hV (q2 = 4M 2W ) due to the fermion loop of Fig. (2), with masses chosen as mj = 100 GeV and m` = 50 GeV. The result is plotted against m j mi.
+
+36
+
+ffl Figure (9): Here we plot the contribution to hV (q2 = 4M 2W ) due to a purely scalar loop with masses chosen to be mj = 100 GeV and m` = 50. The result is plotted against mi.
+
+ffl Figure (10): Here we plot the contribution to hV (q2 = 4M 2W ) due to a scalar/gaugeboson loop. We take one of the scalar masses to be mj = 100 GeV and plot the result against the other scalar mass, mi. The vector-boson mass is chosen to be m` = MW .
+
+ffl Figure (11): Here we plot the contribution to fV (q2 = 4M 2W ) due to a fermion loop for which all of the masses can become large. We choose m` = mj =2 = mi=3 = m, and plot the result against m.
+
+37
+
+8. References [1] K.J.F. Gaemers and G.J. Gounaris, Zeit. Phys. C1 (1979) 259. [2] K. Hagiwara, R.D. Peccei, D. Zeppenfeld and K. Hikasa, Nucl. Phys. B282 (1987) 253. [3] K. Kallianpur and D.A. Dicus, Phys. Rev. D32 (1985) 35; A. Ali et.al., in "Physics at LEP", ed. by J. Ellis and R.D. Peccei, CERN 86-02 (1986); A. Blondel et.al., in "The Proceedings of the ECFA Workshop on LEP 200", Aachen, 1986, ed. by A. Bohm and W. Hooblond, CERN 87-08 (1987); M. Bilenki et.al., preprint BI-TP-92-44 (unpublished); P. Zerwas, in "The Proceedings of the ECFA Workshop on e+e\Gamma Colliders", MPI-PhE/93- 14, p 11, 1993.
+
+[4] J. Cortes, K. Hagiwara and F. Henzob, Nucl. Phys. B278 (1988) 26; U. Baur and E.L. Berger, Phys. Rev. D41 (1990) 1476; M. Samuel et.al., preprint OSU-PN-272 (1992).
+
+[5] U. Baur and D. Zeppenfeld, Nucl. Phys. B308 (1988) 127; G. Altarelli, in "The Proceedings of the Large Hadron Collider Workshop", edited by G. Jarlskog and D. Rein, CERN 90-10, vol I, p. 153, 1990; G. Valencia, in "The proceedings of the XXVI International Conference on High Energy Physics", Dallas, 1992; J. Bagger, S. Dawson and G. Valencia, Nucl. Phys. B399 (1993) 364.
+
+[6] A. de R'ujula, M.B. Gavela, P. Hernandez and E. Mass'o, Nucl. Phys. B384 (1992) 3. [7] P. Hernandez and F.J. Vegas, Phys. Lett. 307B (1993) 116. [8] D. Choudhury, P. Roy and R. Sinha, preprint TIFR-TH-93-08 (unpublished); C.P Burgess, S. Godfrey, H. K"onig, D. London and I. Maksymyk, preprint McGill-93/14, UdeM-LPN-TH-93-154, OCIP/C-93-7 (unpublished).
+
+[9] For a recent review see M. Einhorn, preprint UM-TH-93-17 (unpublished). [10] M.E. Peskin and T. Takeuchi, Phys. Rev. Lett. 65 (1990) 964; Phys. Rev. D46 (1992) 381; W.J. Marciano and J.L. Rosner, Phys. Rev. Lett. 65 (1990) 2963; D.C. Kennedy and P. Langacker, Phys. Rev. Lett. 65 (1990) 2967.
+
+38
+
+[11] I. Maksymyk, C.P. Burgess and D. London, preprint McGill-93/13, UdeM-LPN-TH93-151 (unpublished); C.P. Burgess, S. Godfrey, H. K"onig, D. London and I. Maksymyk, preprint McGill-93/24, UdeM-LPN-TH-93-166, OCIP/C-93-9 (unpublished).
+
+[12] F. Salzman and G. Salzman, Phys. Lett. 15 (1965) 91; Nuovo Cimento 41A (1966) 443; W.J. Marciano and A. Queijeiro, Phys. Rev. D33 (1986) 3449.
+
+[13] F. Hoogeveen, unpublished preprint, (1987); F. Boudjema, K. Hagiwara, C. Hamzaoui and K. Numata, Phys. Rev. D43 (1991) 2223.
+
+[14] D. Atwood, C.P. Burgess, C. Hamzaoui, B. Irwin and J.A. Robinson, Phys. Rev. D42 (1990) 3770.
+
+[15] F. Boudjema, C.P. Burgess, C. Hamzaoui and J. Robinson, Phys. Rev. D43 (1991) 3683.
+
+[16] S. Weinberg, Physica 96A (1979) 327; H. Georgi, Weak Interactions and Modern Particle Theory (Benjamin Cummings, Menlo Park, 1984); H. Georgi, to appear in Annual Review of Nuclear and Particle Science 43.
+
+[17] For a review of effective theories, including applications to CP -violation see: C.P. Burgess and J.A. Robinson, in the proceedings of the Summer Study on CP -Violation, Brookhaven National Laboratory, May 1990.
+
+[18] A. De R'ujula, M.B. Gavela, O. P`ene and F.J. Vegas, Nucl. Phys. B357 (1991) 311; M. Traseira and F.J. Vegas, Phys. Lett. 262B (1991) 12.
+
+[19] J.M. Cornwall, D.N. Levin and G. Tiktopoulos, Phys. Rev. D10 (1974) 1145; M.S. Chanowitz, M. Golden and H. Georgi, Phys. Rev. D36 (1987) 1490.
+
+[20] C.P. Burgess and David London, Phys. Rev. Lett. 69 (1992) 3428; Phys. Rev. D48 (1993) 4337.
+
+[21] See [17] for a recap-in-a-nutshell of this venerable argument, and C. Arzt, Michigan preprint UM-TH-92-28 (unpublished) for a more recent, and more thorough, discussion.
+
+39
+
+[22] A more precise statement of this rule, together with some exceptions that arise within the context of nonrelativistic applications may be found in: J. Polchinski, in the proceedings of the 1992 TASI summer institute.
+
+[23] A. Manohar and H. Georgi, Nucl. Phys. B234 (1984) 189; H.Georgi and L.Randall, Nucl. Phys. B276 (1986) 241; H. Georgi, Phys. Lett. 298B (1993) 187.
+
+[24] L. Susskind, Phys. Rev. D20 (1979) 2619; S. Weinberg, Phys. Rev. D13 (1976) 974, addendum-Phys. Rev. D19 (1979) 1277; E. Farhi and L. Susskind, Phys. Rev. C74 (1981) 278.
+
+[25] A more extensive analysis of the lowest-dimension terms in the general effective lagrangian, including a global fit for their parameters, may be found in C.P. Burgess, S. Godfrey, H. K"onig, D. London and I. Maksymyk, preprint McGill-93/12, OCIP/C-93-6, UdeM-LPN-TH-93-155 (unpublished).
+
+[26] C.J.C. Burges and H.J. Schnitzer, Nucl. Phys. B228 (1983) 464; W. Buchm"uller and D. Wyler, Nucl. Phys. B268 (1986) 621; C.N. Leung et. al., Z. Phys. C31 (1986) 433.
+
+[27] X.G. He and B.H.J. McKellar, Phys. Rev. D42 (1990) 3221; D. Chang et.al., Nucl. Phys. B355 (1991) 295.
+
+[28] X.G. He, J.P. Ma and B.H.J. McKellar, Phys. Lett. 304B (1993) 285. [29] C. Hamzaoui, (unpublished); I.B. Khriplovich and M.E. Pospelov, preprint BUDKERINP 93 - 88  (unpublished).
+
+[30] See e.g. L. Lavoura and L.F. Li, preprint Carnegie-Mellon preprint CMU-HEP-93-17.
+
+40
+

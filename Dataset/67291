@@ -1,0 +1,633 @@
+-1-
+
+
+
+
+
+CCNY-HEP-96/3
+February 1996
+
+
+
+
+
+On the 0++ Glueball Mass
+
+
+
+
+Stuart Samuel
+
+
+Department of Physics
+The City College of New York
+New York, New York, 10031 USA
+
+
+
+
+ABSTRACT
+
+An approximate vacuum wave functional 0 is proposed for 2+1-
+dimensional Yang-Mills theories. Using
+ 7 May 96 0, one can compute the 0++
+glueball mass MG in terms of the string tension. By using the idea of
+dimensional reduction, a prediction for MG can be made in 3+1
+dimensions. One finds MG 1.5 GeV.
+
+
+-2-
+
+
+
+I. Introduction
+
+
+Yang-Mills theories without quarks are expected to produce one or
+
+more bound states or glueballs. When quarks are present, such pure glue
+
+states should mix with qq
+- states but some meson might have a dominant
+gluon content. Possible candidates for such states are f0(1300), f0(1590),
+fJ(1710) and (1440).[1] The '(958) is expected to obtain a large fraction
+of its mass due to fluctuations in gluonic topological charge.[2-4]
+
+Initial lattice studies suggested that the lightest 0++ glueball might
+have a mass MG of ~1 GeV. Such lattice glueball computations have been
+among the most numerically demanding due to a poor signal to noise ratio.
+
+However, due to advances in algorithms and powerful computers, much
+progress has been made. The most recent lattice results give values of MG of
+1550 ± 50 MeV [5] and 1740 ± 71 MeV [6], suggesting that the fJ(1710) or
+f0(1590) might be the lightest 0++ glueball state. The fJ(1710) is favored
+since it has decay widths consistent with numerical simulations.[7]
+
+The purpose of this letter is to obtain an approximate analytic
+computation of the 0++ glueball mass in terms of the string tension . The
+
+calculation is carried out in D=2+1 dimensions and extended by dimensional
+
+reduction to D=3+1 dimensions. Analytic studies often provide more
+
+physical insight than numerical simulations. In addition, the interplay
+
+between numerical and analytic approaches can assist either approach in
+
+obtaining new methods and results.
+
+Our method consists in postulating the form of the ground state wave
+functional 0. The proposed 0 is adjusted to agree with weak and strong
+coupling limits. Support for our 0 comes from the previous work [8,9]. In
+particular, numerical and analytic studies [10-17] of the lattice Hamiltonian
+formulation [18] give rise to vacuum functionals similar to our 0.
+
+The Hamiltonian for the D=d+1 dimensional Yang-Mills theory is
+
+
+g2 1
+H = ddx Ea Ea(x) + ddx Ba
+2 i i 2g2 ij Baij(x) , (1.1)
+
+
+
+-3-
+
+
+
+1
+where Ea a a b c
+i (x) = , Ba - + fabcA A , g is the gauge coupling
+i Aa ij = iAj jAi i j
+i (x)
+constant and fabc are the structure constants: [a,b] = ifabcc, where the Lie-
+algebra generators a are normalized so that Tr(ab) = ab/2.
+
+In 2+1 dimensions, our key result is
+
+8
+MG , (1.2)
+g2 Cf
+where Cf is the value of casimir operator for the fundamental representation:
+aa = Cf I. For SU(N), Cf = (N2-1)/(2N).
+
+II. The Approximate Vacuum Wave Functional
+
+Express the ground state 0 as
+
+0 = exp(-f(B)) , (2.1)
+where f is a functional of B. As g goes to zero, the perturbative fpt(B) is
+
+1 d a a
+f
+pt(B) = d x
+B (x) 1 B (x)
+4g2 ij
+- 2 ij
+
+1 d d a a
+= d x
+d y
+B (x) 1
+(x,y)B (y) , (2.2)
+4g2 ij
+- 2 ij
+-1/2
+where the kernel (-2) (x,y) is
+
+d
+1
+p ( ( ))
+(x,y) = d
+exp ip x - y
+
+- 2 ( p p . (2.3)
+2 ) d
+In the abelian case for which there are no interactions, perturbation theory
+
+and Eq.(2.2) are exact. For the non-abelian case, Eq.(2.2) is not gauge-
+
+invariant but the violations of gauge invariance are of order g2.
+
+It has been conjectured that, in strong coupling, the ground state wave
+functional is governed by fsc(B) with [9]
+
+µ
+fsc(B) = ddx Ba
+2 ij Baij(x) , (2.4)
+
+
+
+-4-
+
+
+
+where µ is a parameter with dimensions of length(4-d). There is much
+
+evidence in support of Eq.(2.4).[9-17] In particular, lattice theory gives
+
+Eq.(2.4) as the leading strong coupling result.[15]
+
+In a confining theory in space-time dimensions D with 2 < D 4,
+Eq.(2.4) can be derived by the following argument. Work in a basis of
+
+generalized closed Wilson loops of arbitrary shape and number and in
+
+arbitrary representations. This gauge-invariant set forms a complete set of
+
+variables. Expand the vacuum functional in such a basis. Using constructive
+
+field theory, the vacuum state can be obtained by doing a functional integral
+
+weighted by exp(-S) in which one integrates over half of space-time
+
+corresponding to t<0 and uses free boundary conditions at t=0. The
+
+functional at t=0, obtained in this way, is the exact ground state wave
+
+functional. In a confining theory, Wilson loops of large area are suppressed.
+
+Due to the kinetic energy term g2 ddx Ea a
+i Ei (x)/2 in H, one sees that the
+
+there is also a contribution per unit length to the energy. Hence, Wilson
+
+loops of large area or large perimeter are suppressed. One concludes that,
+
+in a confining theory, f(B) in Eq.(2.1) is a sum over arbitrary numbers of
+
+Wilson loops in arbitrary representations for loops which are of small size.
+
+As a consequence, f(B) acts like a localized field theory. In computing
+
+vacuum expectation values, a confining theory in D dimensions becomes a
+
+localized field theory in d=D-1 dimensions governed by an action equal to
+2f(B) (the factor of two arises because |o|2 enters in computations). Now,
+use the idea behind the renormalization group. To compute the behavior of
+
+a large Wilson loop or long-distance correlation function, one may integrate
+
+out short-distance degrees of freedom. Integrate out to a scale slightly
+
+larger that the confinement distance. Then, the resulting field theory will
+
+be dominated by the local gauge-invariant operator of lowest dimension.
+This operator is Baij Baij. In space-time dimensions D with D 4, strong
+coupling corresponds to large distances. Hence, the effective vacuum
+
+functional in the strong coupling limit is given by Eq.(2.4).
+
+From the above discussion, it is clear that the true vacuum functional
+
+is quite complicated. However, a simplified functional, which interpolates
+
+
+-5-
+
+
+
+between the weak coupling (Eq.(2.2)) and strong coupling (Eq.(2.4)) forms,
+
+might produce good results for computations. Consider the approximate
+
+vacuum functional governed by
+
+1 d
+f(B) = d x
+TrB (x) - k
+D D + m 2
+( )-1/2(x,y)B (y) , (2.5)
+2 g2 ij k 0 ij
+
+where Bij(x) = aBaij(x), Tr stands for trace, Dk is the covariant derivative in
+the adjoint representation and m0 is a mass parameter.
+
+At short distances and small coupling, the derivative term in f(B)
+
+dominates and Eq.(2.5) reduces to Eq.(2.2). At large distances, the mass
+
+term dominates and f(B) in Eq.(2.5) reduces to Eq.(2.4) with
+
+1
+µ = 2m g2 . (2.6)
+Here, we have replaced the parameter m0 by a renormalized parameter m.
+In integrating out short-distance degrees of freedom, one expects m0 to be
+renormalized. In particular, m contains contributions related to the energy
+
+per unit length of the Wilson lines which enter Eq.(2.5), as we now explain.
+
+An explicit formula for the kernel in Eq.(2.5) for SU(N) is
+
+-
+1 /2
+- k
+D D + m2
+( ) (x,y ) = d
+
+k 0 ×
+s t ;s t 2
+1 1 2 2 0
+
+. 2
+DX()
+
+
+( ) 2
+( )
+d
+X + m
+exp - 12 0 × (2.7)
+X(0) = y 0
+
+X( ) = x
+
+
+. i
+0 . i
+
+exp i d
+A X () exp i d
+A X () ,
+i
+i
+xy 0 t1s2 yx t2s
+1
+
+where denotes the path-order product along X() and Ai = aAai (X()).
+The measure DX in Eq.(2.7) is the Feynman one [19] for a particle of unit
+mass in d dimensions. The subscripts s1, t1, s2, t2, which run from 1 to N
+for SU(N), are matrix indices:
+
+
+-6-
+
+
+
+Tr B k 2
+( )-1/2
+ij(x) - D D + m (x,y ) B =
+k 0 ij(y)
+-1/2
+k 2
+Bs1t1 ( D + m ) (x,y) s2t2
+ij (x) - D k 0 Bij (y) . (2.8)
+s t ;s t
+1 1 2 2
+
+
+Eq.(2.7) shows that - k
+D D + m2
+( )-1/2(x,y) involves a sum over paths of
+k 0
+
+
+a Wilson line in the adjoint representation which goes from the space-point
+
+y to the space-point x. Each path contributes with a particular probability.
+As m0 is increased, paths of smaller size are weighted comparatively more
+than paths of larger size. The Wilson lines in Eq.(2.7) render Eq.(2.5) gauge
+
+invariant. When the kinetic term g2ddx Ea a
+i Ei (x)/2 in H acts on the Wilson
+
+line, a contribution to the energy proportional to the length of the non-back-
+
+tracking part of the path is produced. Hence, it is energetically favorable to
+have m0 be non-zero. In the case of a U(1) group, the matrix factor in curly
+brackets in Eq.(2.7) is replaced by 1 and no such Wilson line contribution
+arises and it is energetically favorable for m0 to be zero.
+
+Besides having the correct strong and weak coupling limits, there is
+numerical evidence from lattice simulations that 0 in Eqs.(2.1) and (2.5) is
+a reasonable approximation for the 2+1 dimensional Yang-Mills theory.
+Consider expanding f(B) in inverse powers of m0. The result is
+
+2
+f(B) = µ 2 k
+( )
+0 d x
+Tr(B(x)B(x)) + µ2 d x
+Tr D B(x)D B(x) + ... , (2.9)
+k
+
+where
+
+µ 1 1
+0 = . (2.10)
+2m0 g2 , µ2 = - 4m30 g2
+Ref.[13] has performed Monte Carlo simulations of the ground state
+
+functional at intermediate couplings for SU(2) and found that the form in
+Eq.(2.9) fits the data well with µ0=(0.91 ± 0.02)/g4 and µ2= - (0.19 ± 0.05)/g8.
+Analytic strong coupling lattice computations in the Hamilonian formulation
+lead to similar results.[16] As predicted from Eq.(2.5), µ2 should be negative
+and this is borne out in simulations. The Monte Carlo data implies
+m0 1.55 g2 for SU(2).
+
+
+-7-
+
+
+
+III. Consequences of The Approximate Vacuum Functional
+
+
+Let us first consider D=2+1 space-time dimensions. In this case, the
+
+strong-coupling functional in Eq.(2.5) leads to confinement because the
+
+dimensionally reduced effective theory is similar to a localized Yang-Mills
+theory in two dimensions. The string tension is obtained from the vacuum
+
+expectation value of a spatially oriented Wilson loop. The result is
+
+g2mCf
+= . (3.1)
+4
+The 0++ glueball mass MG is obtained as the coefficient of the
+1 1
+exponential falloff of the correlation function <2 Baij Baij(0,0) 2 Bakl Bakl(0,t)> ~
+c(t) exp(-MGt) for large t. By exploiting Lorentz invariance, MG can be
+extracted from the vacuum functional via
+
+1 1
+<0|2 Baij Baij(x) 2 Bakl Bakl(y)|0> ~ c(r) exp(-MG r) , (3.2)
+where r = |x - y|. In two space dimensions and at large distances, the
+propagator for Ba12 in the effective field theory governed by |0|2 is
+(-2 + m2)1/2. One finds, using perturbation theory in this effective theory,
+
+that Eq.(3.2) holds with
+
+MG 2m . (3.3)
+Eq.(3.3) has a physical interpretation. The parameter m can be thought of
+
+as a constituent mass for a gluon. More precisely, m is the effective mass of
+
+an adjoint-representation configuration of gluons inside a bound state. Since
+
+two adjoint representations are needed to make a singlet, the glueball mass
+
+is approximately 2m.
+
+Combining (3.1) and (3.3), one arrives at the main result in Eq.(1.2).
+
+Monte Carlo simulations of the 2+1 dimensional SU(2) Yang-Mills
+
+theory have accurately [20] determined the string tension to be
+MC = (0.112 ± 0.002) g4. Using this value for in Eq.(1.2), we obtain
+MG 1.2 g2. The Monte Carlo calculations of ref.[21] give MG
+
+= (1.59 ± 0.01) g2. Thus, we find MG/
+3.6, while numerical simulations
+[21] give MG/
+= 4.77 ± 0.05. Using the difference between our results and
+
+
+-8-
+
+
+
+those of the lattice as a means of estimating systematic uncertainty, our
+
+method for computing the 0++ glueball mass is accurate to about 25%. For a
+
+summary of computations of MG/
+, see the references in ref.[22].
+For SU(3), Monte Carlo simulations give MC = (0.307 ± 0.004) g4.[23]
+This value of in conjunction with Eq.(1.2) leads to the SU(3) results
+
+MG 1.84 g2 , MG/
+3.3 . (3.4)
+The result in Eq.(3.4) is in reasonably agreement with strong coupling
+
+Hamiltonian computations [24].
+
+Recently, another analytic approach, based on finding exact
+eigenstates of the kinetic energy term in H, gives MG = N/ g2 for SU(N).[25]
+For SU(2), one obtains MG 0.64 g2, which is considerably smaller than the
+Monte Carlo result, suggesting that corrections involving the potential
+
+energy term d2x Ba12 Ba12(x)/2g2 may be important. For SU(3), the approach
+
+gives MG 0.95 g2, which is about half the value in Eq.(3.4).
+
+IV. Extrapolation to D=4
+
+
+The result in Eq.(1.2) does not directly apply to D=3+1 dimensions.
+
+However, one can appeal to the idea of dimensional reduction.[26] If a 3+1
+
+dimensional gauge theory is confining, then the computation of spatial
+
+correlation functions and Wilson loops involves only those degrees of
+freedom within the order of Lc in the time direction, where Lc is the
+confinement length. Hence, it should be possible to approximate a 3+1
+
+dimensional confining theory by a 2+1 dimensional theory. This idea has
+
+been used several times in past work[15,27] and is embodied in the result
+that fsc(B) can be used for the purposes of computing large spatial Wilson
+loops. Due to the beta function being negative, µ is expected to be
+
+exponentially large in 1/g2. In short, assuming four-dimensional
+
+confinement, results for MG/
+should be approximately the same in 2+1
+and 3+1 dimensions. In fact, Monte Carlo simulations of the SU(2) gauge
+
+
+-9-
+
+
+
+
+theory indicate that the glueball spectra, in units of
+, in 2+1 and 3+1
+dimensions agree to about 15%.[21]
+
+Assuming the validity of dimensional reduction, Eq.(3.4) with
+= 440 MeV gives a value of the 0++ glueball mass MG in D=3+1
+dimensions for the SU(3) gauge theory of
+
+MG 1.5 GeV . (4.1)
+V. Summary
+
+
+In summary, by using an approximate vacuum functional which
+
+interpolates between strong and weak coupling forms, we have obtained the
+
+relation in Eq.(1.2) between the lightest 0++ glueball mass and the string
+
+tension in 2+1 dimensions. Using dimensional reduction, we obtain a value
+of about 1.5 GeV for MG in 3+1 dimensions.
+
+Our value of 1.5 GeV for MG is much larger than many of the natural
+
+scales in Yang-Mills theory:
+is 440 MeV, the deconfining phase transition
+temperature is ~250 MeV, the mass of the color-singlet gluon cloud around
+
+a quark is ~300 MeV assuming that the contribution to the constituent mass
+
+of a quark in a bound state comes from such a gluon cloud, and the
+topological susceptibility <2> which enters the ' mass is <2>1/4 180 MeV
+
+[28-33]. On this basis one might expect approximate analytic computations
+of MG to yield values less than 1 GeV. For example, if the continuum strong
+coupling 2+1 dimensional Hamiltonian result [25] is assumed to extrapolate
+to D=3+1 by dimensional reduction, one would obtain MG 760 MeV.
+
+Since, as mentioned above, the error in our results in 2+1 dimensions
+
+is estimated to be about 25% and that the error in extrapolating to 3+1
+dimensions is about 15%, the total error in MG is around 30%. Our value of
+1.5 GeV for MG is about 15% less than the most accurate current lattice
+value of 1740 MeV [6].
+
+
+-10-
+
+
+
+Acknowledgments
+
+We thank V. P. Nair for discussions and Columbia University for hospitality.
+
+This work is supported in part by the United States Department of Energy
+
+under the grant number DE-FG02-92ER40698.
+
+
+
+
+
+References
+
+[1] Particle Data Group, Phys. Rev. D50 (1994) 1173.
+
+[2] H. Goldberg, Phys. Rev. Lett. 44 (1980) 363.
+
+[3] E. Witten, Nucl. Phys. B156 (1979) 269.
+
+[4] G. Veneziano, Nucl. Phys. B159 (1979) 213.
+
+[5] G. Bali, K. Schilling, A. Hulsebos, A. Irving, C. Michael and P.
+Stephenson, Phys. Lett. B309 (1993) 378.
+
+[6] J. Sexton, A. Vaccarino and D. Weingarten,
+Nucl. Phys. B (Proc. Suppl.) 34 (1994) 357.
+
+[7] J. Sexton, A. Vaccarino and D. Weingarten, Numerical Evidence for the
+Observation of a Scalar Glueball, preprint IBM-HET-95-2.
+
+[8] R. P. Feynman, Nucl. Phys. B188 (1981) 479.
+
+[9] J. Greensite, Nucl. Phys. B158 (1979) 469.
+
+[10] J. Greensite, Phys. Lett. B191 (1987) 431.
+
+[11] J. Greensite and J. Iwasaki, Phys. Lett. B223 (1989) 207.
+
+[12] H. Arisue, M. Kato and T. Fujiwara, Prog. Theor. Phys. 70 (1983) 229.
+
+[13] H. Arisue, Phys. Lett. B280 (1992) 85.
+
+[14] H. Arisue, Prog. Theor. Phys. 84 (1990) 951.
+
+[15] J. Greensite, Nucl. Phys. B166 (1980) 113.
+
+[16] S.-H. Guo, Q.-Z. Chen and L. Li, Phys. Rev. D49 (1994) 507.
+
+[17] Q.-Z. Chen, X.-Q. Luo and S.-H. Guo, Phys. Lett. B341 (1995) 349.
+
+[18] J. Kogut and L. Susskind, Phys. Rev. D11 (1975) 395.
+
+[19] R. P. Feynman and A. R. Hibbs, Quantum Mechanics and Path Integrals,
+(McGraw-Hill, 1965).
+
+
+-11-
+
+
+
+[20] M. Teper, Phys. Lett. B311 (1993) 223.
+
+[21] M. Teper, Phys. Lett. B289 (1992) 115;
+Nucl. Phys. B (Proc. Suppl.) 30 (1993) 529.
+
+[22] C. J. Hamer, M. Sheppeard, Z. Weihong, and D. Schütte, Universality
+for SU(2) Yang-Mills Theory in (2+1)D, preprint .
+
+[23] M. Lütgemeier, Nucl. Phys. B (Proc. Suppl.) 42 (1995) 523.
+
+[24] Q. Z. Chen, X. Q. Luo, S. H. Guo and X. Y. Fang,
+Phys. Lett. B348 (1995) 560.
+
+[25] D. Karabali and V. P. Nair, A Gauge-Invariant Hamiltonian Analysis for
+Non-Abelian Gauge Theories in (2+1) Dimensions, preprint
+CCNY-HEP 95/6 (October 1995).
+
+[26] S. Samuel, Nucl. Phys. B154 (1979) 62.
+
+[27] J. Ambjørn, P. Olesen and C. Peterson, Nucl. Phys. B240 (1994) 189.
+
+[28] P. Woit, Phys. Rev. Lett. 51 (1983) 638.
+
+[29] J. Hoek, M. Teper and J. Waterhouse, Phys. Lett. B180 (1986) 112.
+
+[30] M. Göckeler, A. S. Kronfeld, M. L. Laursen, G. Schierholz and
+U.-J. Wiese, Nucl. Phys. B292 (1987) 349.
+
+[31] A. S. Kronfeld, M. L. Laursen, G. Schierholz, S. Schleiermacher and
+U.-J. Wiese, Nucl. Phys. B305 (1988) 661.
+
+[32] M. Teper, Phys. Lett. B202 (1988) 553.
+
+[33] M. Campostrini, A. Di Giacomo, H. Panagopoulos and E. Vicari,
+Nucl. Phys. B329 (1990) 683.
+
+
+

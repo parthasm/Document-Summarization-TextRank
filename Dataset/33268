@@ -1,0 +1,534 @@
+
+
+
+
+
+
+Neutrino propagation in matter and CP violation
+
+
+
+Paul M. Fishbane*
+Physics Dept. and Institute for Nuclear and Particle Physics,
+Univ. of Virginia, Charlottesville, VA 22904-4714
+
+Peter Kaus**
+Aspen Center for Physics, Aspen, CO 81611
+
+
+
+
+
+We point out that the dependence on the order of the matter
+through which neutrinos pass can provide a window into
+CP violation in the neutrino sector. This allows for study of
+CP in the neutrino sector without the necessity of making a
+comparison between the behavior of neutrinos and that of
+antineutrinos.
+
+
+
+arXiv: v2 29 Dec 2000
+
+
+
+
+
+
+* e-mail address pmf2r@virginia.edu
+** e-mail address pkaus@futureone.com
+
+
+1
+
+
+The presence of neutrino oscillations [1-2] leads to the question of possible CP violation
+in a (fully-coupled) three-family neutrino sector [3]. We suggest here a probe of CP that
+uses an effect of the modification of neutrino evolution within matter1 [4-6]. The early
+two-family work of Refs. 4 and 5 arrives at a clear analytic result for propagation of
+neutrinos within a medium of constant density. Our method is also clearly illustrated in
+the two-family case. After development of our method we illustrate the three-family case
+with some numerical calculations.
+Neutrino propagation in material differs from propagation in vacuum because, in
+contrast to µ and , any e component in the neutrino beam can scatter from electrons in
+the material through charged current interactions. Consider neutrino passage through a set
+of N constant density material layers that we label 1, 2,..., N. These could be materials of
+finite width or could be a set of labels that represent an (arbitrarily good) approximation
+to a material of continuously varying density. Because of multi-family transitions, the
+order of the materials matters. With n neutrino families, the n × n amplitude A12...N is
+(t) = A12...N(t)(0). (1)
+where are the flavor states and t is the total time (or interchangably the total distance).
+The multiple-layer amplitude is the ordered product of the amplitudes for passage
+through the respective single layers,
+A12...N = A1A2...AN (2)
+While Eq. (2) is general, to proceed further we want to start with two families, for
+which we know the single-layer amplitude Aj is symmetric (see below). Then the
+amplitude for passage through the "reversed" material2, in which the order of layers is
+inverted, is
+T
+reverse N 21 N 2 1
+A = A = A A A
+= ( 1 2 N
+A A A
+)
+(3)
+= ( T T
+12 N
+A ) =( direct
+A ) .
+To see the consequences of this, recall that for two families with mass eigenvalues
+m 2 2 2
+i and a single (positive) mass difference factor m2 = m2 - m1 , and a Cabibbo matrix
+describing the flavor states in terms of the energy eigenstates in the usual way, the single-
+layer amplitude [4, 5] takes the general form
+
+. (4)
+* *
+
+-
+(In fact is pure imaginary, but that is unimportant here.) We can then show by
+recurrence that the N layer amplitude has the structure
+
+direct 12 N
+A = A = . (7)
+* *
+
+-
+This follows because the amplitude for N + 1 layers is
+
+
+
+
+
+1 In other work [3], the effects of matter imitate CP violation and it is necessary to distinguish the effects of
+matter from those of the presence of a CP-violating phase.
+2 We generally refer to quantities for the order 12...N as the "direct" case, and quantities for the order
+N...21 as the "reverse" case.
+
+
+2
+
+
+
+12 N 1
++ 12 N N 1
+A A A +
+= = * * * *
+
+- -
+.
+* *
+- +
+= ,
+
+* * * * * *
+
+- - -
+and this indeed has the structure of (7). It remains only to show by direct calculation
+starting from (4) that a two layer amplitude has the structure of (7), and this is easily
+done. This result can alternatively be derived in a continuum limit, for which the
+amplitude has an ordered exponential form.
+The combination of Eqs. (3) and (7) then tells us that
+*
+
+-
+reverse
+A = . (8)
+*
+
+Comparison between Eqs. (7) and (8) reveals that the probabilities Pij |Aij|2 satisfy
+reverse direct
+P = P ,
+ij ij
+
+although only the diagonal elements of the amplitudes are equal.
+The presence of three families complicates the situation. Even if we could
+establish that Eq. (3) were valid, it would give only a useful relation for the diagonal
+matrix elements of the direct and reverse amplitudes; assuming the validity of (3) we find
+reverse direct
+A = A . (9)
+jj jj
+
+With this statement alone and unitarity, one can deduce the fact that for two families the
+off-diagonal probabilites are the same; for example,
+reverse = 1 reverse
+- =1 direct direct
+P P - P = P .
+12 11 11 12
+
+For three families the off-diagonal probabilities for the direct and reverse probabilities
+would not generally be equal. Rather, for example,
+reverse reverse
++ =1 reverse
+- =1 direct direct direct
+P P P - P = P + P .
+12 13 11 11 12 13
+
+Let us turn now to the question of three families, including the possibility that the
+mixing matrix is complex (CP in the mixing matrix). We begin by recalling the amplitude
+in vacuo. With the CKM matrix V connecting the flavor eigenstate and energy
+eigenstate according to the = V, one can easily show that
+-i 1
+E t
+e 0 0
+
+A(t) -iE2t
+= V 0 e 0 V
+
+-i 3
+0 0 E t
+e
+
+(Given the freedom to remove an overall phase, it is possible to use, for example, Ei E
++ m 2
+i /(2E), and pull out factors so that the central matrix gives only dependence on the
+two mass difference factors m 2 2 2 2 2 2
+21 m2 - m1 and m31 m3 - m1 of the problem.)
+Only if there is no CP violation, so that V is real, is A symmetric. When matter is
+involved, and ignoring terms proportional to the unit matrix, the problem comes down to
+diagonalizing the matrix
+0 0 0 V
+0 0
+cc
+1
+2
+H V 0 m 0 V + 0 0 0 . (10)
+flavor 21
+2E
+2
+0 0 m 0 0 0
+31
+
+
+3
+
+
+This means finding a unitary matrix U such that
+0 0
+1
+
+
+UH U = 0 0 (11)
+flavor 2
+
+0 0
+3
+The time evolution equation is then solved in the diagonal basis, and after transformation
+back to the flavor basis we have
+-i1t
+e 0 0
+
+A(t) -i2t
+= U 0 e 0 U U D
+(t)U (12)
+-i3
+0 0 t
+e
+
+(We remark here that if the consequences of a nonzero are not to be lost, U cannot be
+found by using approximations based on a presumed neutrino mass hierarchy. Doing so
+leads to a decoupling in which the oscillation proceeds essentially through two-family
+steps, and this removes any effect of CP violation [7]. Similarly, if any m 2
+ij = 0, then
+can simply be set to 0.)
+At this point we can understand the effect of a CP-violating phase in V. If = 0,
+then V is real, and hence so is U, and A is symmetric. Equation (3) holds for the three
+channel case, and the respective diagonal elements of the direct and reverse processes are
+equal to one another. If, however, is non-zero, then V is no longer real, and neither is U.
+More specifically, we can generally write our primitive amplitude (12) with an index j for
+the material (including its widtht tj). Then for passage through a sequence of layers
+we have
+(A )T
+reverse = (( T
+
+U D t U U D t U U D t U
+N N ( N ) N )( ( ) )(
+2 2 2 2 1 1 ( 1 ) 1 ))
+* * *
+= (
+U ) *
+D (-t ) *
+U (
+U ) *
+D (-t ) *
+U (
+U D -t U
+N ) *
+N ( N ) *
+1 1 1 1 2 2 2 2 N
+
+
+= ( direct
+A (t t-
+i i ))* .
+In other words, the more general form of Eq. (3) is
+T
+*
+reverse
+A = (( direct
+A (t -t )) ) =( direct
+A t -t (13)
+i i ( i i ))
+
+In particular, the diagonal matrix elements of the direct and reverse processes are no
+longer equal, and this provides a way to test for the presence of a nonzero value of .
+Of the diagonal processes available to us, we cannot use the process e e. That
+is because, given the fact that the charged current occurs in the electron sector, there is no
+CP violation visible in e e to leading order in the weak interaction [8]. We have
+verified the argument with, among others, direct numerical calculation with the
+parameters described below: the process e e remains independent of material order
+and indeed independent of .
+The process µ µ does allow us to test the effect described here. To illustrate
+we use a set of numbers that correspond to the so-called large-angle solar MSW scenario
+- -
+[9], namely m 2 2 3 2 5
+32 m31 = 3.5 × 10 eV2, m21 = 5 × 10 eV2, sin13 = 0.10, sin23 =
+0.71, sin12 = 0.53, with two layers, layer 1 corresponding to a material with density 8
+-
+gm/cm3 (V 13
+cc = 2.4 × 10 eV) and layer 2 being that of the vacuum (or, for our purposes,
+
+
+
+4
+
+
+air). We consider three energies, E1 = 100 MeV, E2 = 500 MeV (corresponding to
+-
+m2/(2E) V 4
+cc in material 1 for m2 = 10 eV2), and E3 = 20 GeV (corresponding to a
+possible neutrino factory energy [3]). In Figs. 1a-c we plot for each energy the difference
+in probabilities for µ µ for the direct and reverse process. In the range from = 0 to
+= 1 rad, the dependence is essentially linear in the magnitude of the differences, with
+no effect for = 0 to the largest effect for the largest . Aside from the height
+magnification there is no additional -dependence, and we restrict the plots presented -
+here to = 0.5. The horizontal axis is the thickness of the air layer in units of 1013 eV 1;
+we have in Figs. 1a-c taken equal amounts of vacuum and material.
+A well-known characteristic of the types of effects we are talking about is that
+they are compressed at low energies and stretched out at higher energies, and this is
+clearly visible in the three figures. We note the following: At E1, the effect tends to be
+more symmetric about the horizontal axis. Because in any hypothetical experiment the
+fine oscillations tend to be averaged over, the symmetry is a disadvantage. If one spreads
+the horizontal axis over a much larger range, say from 0 to 100, then the envelope of the
+fine oscillations, which occurs in a series of "lobes" as is most visible in Fig. 1b, moves
+slowly to either side of the horizontal axis, but clearly E1 is not the most interesting case.
+That is reserved for E2, where the lobes are clearly of one sign or another and the effect is
+reasonably large. The case E3 also shows an average that is not symmetric about the
+horizontal axis, but over a larger distance scale.
+In Figure 2 we again consider the difference in probabilities for µ µ for the
+direct and reverse process, but this time there is ten times as much air as material (Fig.
+2a) or ten times as much material as air (Fig. 2b); again the horizontal scale is the amount
+of air in the same units as in Fig. 1. The effect remains large and systematic.
+Finally we remark on an off-diagonal process, µ e for definiteness. These
+processes have order dependence even in the absence of a CP-violating phase . Figures
+3a-b plot the probability difference for the direct and reverse processes for = 0 and =
+1 respectively. These probabilities certainly differ from one another; however, the
+standard for the detection of non-zero is different from the diagonal case.
+Whether the phenomenon being described here is of eventual use will depend on
+as-yet unknown features of the neutrino spectrum. Detectable oscillations over
+managable distances would certainly render our results more relevant. It is nevertheless
+interesting that there is at least in principle a way to look for CP-violation in the neutrino
+sector without having to compare neutrino and antineutrino processes.
+
+Acknowledgements
+
+We would like to thank the Aspen Center for Physics, where much of this work was
+done. PMF would also like to thank Dominique Schiff and the members of the LPTHE at
+Université de Paris-Sud for their hospitality. This work is supported in part by the U.S.
+Department of Energy under grant number DE-FG02 -97ER41027.
+
+
+
+
+
+5
+
+
+References
+
+1. Super-Kamiokande Collaboration, Y. Fukuda et al., Phys. Lett. B, 433 (1998) 9; ibid.,
+436 (1998) 33; Phys. Rev. Lett. 81 (1998) 1562; ibid., 82 (1999) 1810; ibid., 82 (1999)
+2430; E. Kearns, TAUP97, The 5th International Workshop on Topics in Astroparticle
+and Underground Physics, Nucl. Phys. Proc. Suppl. 70 (1999) 315; A. Habig for the
+Super-Kamiokande Collaboration, ; K. Scholberg for the Super-
+Kamiokande Collaboration,  to appear in the Proceedings of the 8th
+International Workshop on Neutrino Telescopes (Venice, Italy, 1999); G. L. Fogli, E.
+Lisi, A. Marrone, and G. Scioscia,  to appear in the Proceedings of WIN
+'99, 17th Annual Workshop on Weak Interactions and Neutrinos (Cape Town, South
+Africa, 1999); Kamiokande Collaboration, K. S. Hirata et al., Phys. Lett. B280, 146
+(1992); Y. Fukuda et al., Phys. Lett. B335 (1994) 237; IMB collaboration, R. Becker-
+Szendy et al., Nucl. Phys. B (Proc. Suppl.) 38 (1995) 331; Soudan-2 collaboration, W.
+W. M. Allison et al., Phys. Lett. B391 (1997) 491; Kamiokande Collaboration, S.
+Hatekeyama et al., Phys. Rev. Lett. 81 (1998) 2016; MACRO Collaboration, M.
+Ambrosio et al., Phys. Lett. B 434 (1998) 451; CHOOZ Collaboration, M. Apollonio et
+al., Phys. Lett. B420 (1998) 397.
+
+2. J. N. Bahcall and M. H. Pinsonneault, Rev. Mod. Phys. 67 (1995) 781; J. N. Bahcall, S.
+Basu, and M. H. Pinsonneault, Phys. Lett. B 433 (1998) 1; J. N. Bahcall, P. I. Krastev,
+and A. Yu. Smirnov, Phys. Rev. D58 (1998) 096016; B. T. Cleveland et al., Nucl. Phys.
+B (Proc. Suppl.) 38 (1995) 47; Kamiokande Collaboration, Y. Fukuda et al., Phys. Rev.
+Lett. 77 (1996) 1683; GALLEX Collaboration, W. Hampel et al., Phys. Lett. B388
+(1996) 384; SAGE Collaboration, J. N. Abdurashitov et al., Phys. Rev. Lett. 77 (1996)
+4708; Liquid Scintillator Neutrino Detector (LSND) Collaboration, C. Athanassopoulos
+et al., Phys. Rev. Lett. 75 (1996) 2650; ibid., 77 (1996) 3082; Phys. Rev. C58 (1998)
+2489; Phys. Rev. Lett. 81 (1998)1774; G. L. Fogli, E. Lisi, A. Marrone, and G. Scioscia,
+Phys. Rev. D59 (1999) 033001. See also G. L. Fogli, E. Lisi, and A. Marrone, Phys. Rev.
+D57 (1998) 5893 and references therein.
+
+3. For a general review, see for example C. Albright et al., Physics at a Neutrino Factory,
+Report to the Fermilab Directorate, . For work specifically relevant to CP
+violation, see among other work H. Minakata and H. Nunokawa, Phys. Lett. B143 (1997)
+369; J. Arafune and J. Sato, Phys. Rev. D55 (1997) 1653; M. Tanimoto, Phys. Rev. D55
+(1997) 322 and Prog. Theor. Phys. 97 (1997) 901; J. Arafune, M. Koike, and J. Sato,
+Phys. Rev. D56 (1997) 3093 and erratum ibid., D60 (1999) 119905; H. Minakata and H.
+Nunokawa, Phys. Rev. D57 (1998) 4403; S. M. Bilenky, C. Giunti, and W. Grimus, Phys.
+Rev. D58 (1998) 033001; A. De Rujula, M. B. Gavela, and P. Hernandez, Nucl. Phys.
+B547 (1999) 21; K. Dick et al., Nucl. Phys. B562 (1999) 29; A. Gago, V. Pleitez, and R.
+Zukanovich Funchal, Phys. Rev. D61 (2000) 016004; Z. Z. Xing, Phys. Lett. B 487
+(2000) 327 and hep-ph/009294; H. Minakata and H. Nunokawa,  and
+.
+
+4. S. P. Mikheyev and A. Yu. Smirnov, Sov. J. Nucl. Phys. 42, 913 (1985).
+
+
+
+
+
+6
+
+
+5. L. Wolfenstein, Phys. Rev. D17, 2369 (1978).
+
+6. The first paper to point out that a two-layer case is relevant to passage and conversion
+of neutrinos within the Earth is S. T. Petcov, Phys. Lett. B 434 (1998) 321. There is much
+subsequent work, including (and not necessarily in chronological order) M.V. Chizhov
+and S. T. Petcov, Phys. Rev. Lett. 83 (1999) 1096; M.V. Chizhov and S. T. Petcov, hep-
+; M.V. Chizhov, ; E. Kh. Akhmedov, Nucl. Phys. B538, 25
+(1999); E. Kh. Akhmedov, A. Dighe, P. Lipari, and A. Yu. Smirnov, Nucl Phys. B542, 3
+(1999); M. V. Chizhov, M. Maris, and S. T. Petcov, ; E. Kh. Akhmedov,
+; E. Kh. Akhmedov, Pramana 54, 47 (2000); E. Kh. Akhmedov and A.
+Yu. Smirnov, ; M. V. Chizhov and S. T. Petcov, ; I.
+Mocioiu and R. Shrock, Phys. Rev. D62 (2000) 053017; P. M. Fishbane, Phys. Rev. D62
+(2000) 093009; M. Freund and T. Ohlsson, Mod. Phys. Lett. A 15 (2000) 867; T. Ohlsson
+and H. Snellman, Phys. Lett. B 474 (2000) 153 and 480 (2000) 419(E).
+
+7. E. Kh. Akhmedov, Trieste Summer School in Particle Physics, 1999, .
+
+8. H. Minakata and H. Nunokawa, Phys. Lett. B468 (1999) 256.
+
+9. See for example V. Barger et al., Phys. Rev. D62 (2000) 013004.
+
+Figure Captions
+
+Figure 1. Probability differences for finding µ as a function of time from production as a
+pure µ between the case where the neutrino beam passes through two different layers of
+equal thickness in one order and the case where the beam passes through the layers in the
+reverse order. The horizontal axis is the time for passage through (or thickness of) the air
+layer. Parameter values as described in the text. (a) E = 100 MeV; (b) E = 500 MeV; (c)
+E = 20 GeV.
+
+Fig 2 As in Fig. 1, except the thickness of the air and the material layer are different. (a)
+Air thickness 10 times that of material thickness; (b) air thickness 1/10 that of material
+thickness.
+
+Figure 3. Probability differences for finding e as a function of time from production as a
+pure µ between the case where the neutrino beam passes through two different layers of
+equal thickness in one order and the case where the beam passes through the layers in the
+reverse order. The horizontal axis is the time for passage through (or thickness of) the air
+-
+layer in units of 1013 eV 1. Parameter values as described in the text. (a) = 0; (b) = 1.
+
+
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 1
+
+
+
+8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 2
+
+
+
+
+
+
+9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 3
+
+
+
+
+
+
+10
+
+
+

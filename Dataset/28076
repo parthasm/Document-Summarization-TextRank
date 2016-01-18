@@ -1,0 +1,142 @@
+
+
+ 24 Oct 1994
+
+A LATTICE STUDY OF THE GLUON PROPAGATOR, IN THE LANDAU GAUGE\Lambda .
+
+P. MARENZONIa, G. MARTINELLIb, N. STELLAc, M. TESTAb
+
+a Dip. di Ingegneria dell'Informazione
+
+Universit`a di Parma, Viale delle Scienze, 43100 Parma, Italy b Dip. di Fisica, Universit`a degli Studi di Roma "La Sapienza" and
+
+INFN, Sezione di Roma, P.le A. Moro 2, 00185 Rome, Italy. c Physics Department, "The University", S09 5NH Highfield, Southampton, U.K.
+
+ABSTRACT We present the results of two high-statistics studies of the gluon propagator in the Landau gauge, at fi = 6:0, on different lattice volumes. The dependence of the propagator on the momenta is well described by the expression G(k2) =h
+
+M 2+Z \Delta k2(k2=\Lambda 2)j)i
+
+\Gamma 1. We obtain a precise determination of j = 0:532(12),
+
+and verify that M 2 does not vanish in the infinite volume limit.
+
+The non-perturbative investigation of the behavior of the basic fields of the QCDLagrangian is crucial to shed light on the mechanism of confinement and can be achieved through numerical lattice computations of the Gluon Propagator1;2 [GP].The Euclidean GP in the Landau Gauge is:
+
+D_* (k) = Z d4xTrhA_(x)A*(0)ie\Gamma ikx = G(k2) ffi_* \Gamma k_k*k2 ! ; (1) where _; * = 1; : : : ; 4 and the trace is intended over color indices.Recently, there has been much effort in trying to obtain a non perturbative form for G(k2), both from analytic3\Gamma 7 and numerical8\Gamma 11 analyses. With the present studies, we investigate the non-perturbative form of G(k2) and its behaviour in the infinitevolume limit.
+
+In tab.1, the parameters of our simulations are summarized. The gauge fieldshave been generated with a Hybrid Monte Carlo algorithm
+
+12. The Landau gaugefixing has been performed and checked carefully, being this a crucial point whendealing with gauge-dependent quantities. The fluctuation left-over after gauge-fixing
+
+h@_A_(x)iLatt ^ 10\Gamma 6; are absolutely negligible1, with respect to the statistical errors. This can be checked since the condition @_A_(x) = 0 implies @tA0(~0; t) = 0. One can define the correlation hA0(t)A0(0)i at zero momentum, and study its time derivative.
+
+We have shown1;2 that it is zero within errors, and the gluon field A0(~0; t) is constant atthe level of 0
+
+:008% on each individual configuration. These results demonstrate thatthe present gauge-fixing procedure is the most effective, among those implemented in
+
+the literature9\Gamma 11.Accordingly to eqn.1, we compute 2-pt functions of the gluon field, defined in
+
+term of the link variable U_(x) as A_(x) = [U_(x) \Gamma U y_ (x)]=2i, which, using spectral \Lambda Talk presented by N.Stella.
+
+fi # confs. Volume @_A_ 6.0 1000 163 \Theta 32 ! 10\Gamma 6 6.0 500 243 \Theta 48 ! 10\Gamma 6
+
+Table 1: Summary of the parameters of our simulations.
+
+decomposition and translation invariance, can be written as
+
+D(t; ~k) = X
+
+~x
+
+TrhAj(x)Aj(0)iei~k\Delta ~x = X
+
+jii jh
+
+Aj(0)jiij2N
+
+i e
+
+\Gamma Eit; j = 1; : : : ; 3; (2)
+
+where the sum is over the states which couple to the gluon field and Ei is the energyof the state j
+
+ii. From eq. (2), the effective energy, defined as
+
+!eff (t; ~k) = log D(t; ~k)D(t + 1; ~k) : (3) should be a decreasing function of the time, for any value of the momentum ~k. In fig. 1, we show that !eff (t; ~k) is increasing with time, for all the momentum combinations considered. Hence, it is impossible1;8 to fit the GP to a sum of single particle polefunction, neither if physical states (N
+
+i ? 0) nor "ghost" (Ni ! 0) are considered.This is an unacceptable feature for the propagator of a physical particle. To avoid
+
+systematic uncertainties due to the presence of infrared and ultraviolet cut-offs onthe lattice, one can study the GP in the intermediate region of momenta. We find that G(k2) is well described by the following modeling function
+
+G(k2) = 1M
+
+2 + Zk2 i k2
+
+\Lambda 2 j
+
+j ;
+
+on the lattice\Gamma ! 1
+
+M 2L + ZL(k2)1+j ; (4)
+
+which depends on the parameters j; M 2L, and ZL. The stability and the quality of the fits have been checked in different ways1;2. On the two volumes, we find (see fig. 2)
+
+V = 163 \Theta 32
+
+8???!
+
+???:
+
+M 2L = 2:8(1) \Theta 10\Gamma 3 ZL = 9:01(4) \Theta 10\Gamma 2
+
+j = 0:56(6) O/2ndof = 1:5
+
+V = 243 \Theta 48
+
+8??????!
+
+??????:
+
+V = 243 \Theta 48 M 2L = 4:46(9) \Theta 10\Gamma 3 ZL = 0:102(1) j = 0:532(12) O/2ndof = 1:08
+
+(5)We observe that the finite volume has a very small effect in the value of the
+
+anomalous dimension, provided that the range of k2 is large enough. Indeed, we obtaina fairly accurate determination of
+
+j. The two determinations of M 2 are inconsistent,and M 2 increases with the volume. This feature rules out the hypothesis that thenon-zero value of
+
+M 2 is merely due to finite volume effects. If this were the case, wewould expect M 2 to scale roughly as 1=L2. It is possible to try a first, very crude
+
+extrapolation of the value of M 2 to the infinite volume limit. Using
+
+M 2(V ) = M 2(V = 1) + cost 1pV we get M 2(V = 1) = 6:202(8) \Theta 10\Gamma 3: (6)
+
+t k2[a2] !eff (t; ~k) G\Gamma 1(k2)
+
+fitting range
+
+Figure 1: Effective energy for gluon 2-pt functions. The four curves correspond to the following momenta: 2 : ~k = ~0, 3 : ~k = (2ss=24; 0; 0), x: ~k = (2ss=24; 2ss=24; 0) and 0 : ~k = (4ss=24; 0; 0). Figure 2: Best fit of the propagator in momentum space to the function 5. The figure corresponds to the case V = 243 \Theta 48.
+
+Using a\Gamma 1 , 2GeV, as determined by several simulations at fi = 6:0, we obtain
+
+M 2phys ' (160 MeV)2 ' (\Lambda QCD)2: (7) An interpretation of this result, in connection with colour confinement is, atpresent, absent. However, we stress that it is fundamental to understand the behaviour of both j and M 2 in the continuum limit.
+
+AcknowledgmentsWe are indebted to the Thinking Machines Corporation for allowing us to perform
+
+these simulations. G.M. and M.T. acknowledge the partial support os MURST, Italy.N.S. thanks the Noopolis-Sovena Foundation for financial support.
+
+1. P.Marenzoni, G.Martinelli, N.Stella, M.Testa, Phys.Lett. B318 (93) 511.2. P.Marenzoni, G.Martinelli, N.Stella,
+
+SHEP prep. 93/94-31.3. V.N. Gribov, Nucl.Phys. B139 (78) 19.4. N.Brown, M.Pennington,
+
+Phys.Rev. D38 (88) 2266.5. N.Brown, M.Pennington, Phys.Rev. D39 (89) 2723.6. M.Stingl, Phys.Rev. D34 (86) 3863.7. D.Zwanziger,
+
+Nucl.Phys. B378 (92) 525.8. J.E. Mandula, M. Ogilvie,
+
+Phys.Lett. B185 (87) 127.9. R.Gupta et al, Phys.Rev. D36 (87) 2813.10. C.Bernard, C. Parrinello, A. Soni,
+
+Nucl.Phys. B30 Proc. Suppl. (92) 535.11. C.Bernard, C.Parrinello, A. Soni, Phys.Rev. D49 (94) 1585.12. P.Marenzoni, G.Pugnetti, P.Rossi,
+
+Phys.Lett. B315 (93) 152.
+

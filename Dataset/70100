@@ -1,0 +1,514 @@
+
+
+
+
+SLAC-PUB-95-6955
+
+TTP95-26\Lambda
+
+July 1995 hep-ph/yymmnnn
+
+ANGULAR DISTRIBUTIONS OF MASSIVE QUARKS AND LEPTONS
+
+CLOSE TO THRESHOLDy
+
+S.J. Brodsky b, A.H. Hoang a;z, J.H. K"uhn a;b and T. Teubner a;z
+
+a Institut f"ur Theoretische Teilchenphysik, Universit"at Karlsruhe,
+
+D-76128 Karlsruhe, Germany b Stanford Linear Accelerator Center Stanford University, Stanford, CA 94309
+
+Abstract Predictions for the angular distribution of massive quarks and leptons are presented, including QCD and QED corrections. Recent results for the fermionic part of the two-loop corrections to the electromagnetic form factors are combined with the BLM scale fixing prescription. Two distinctly different scales arise as arguments of ffs(_2) near threshold: the relative momentum of the quarks governing the soft gluon exchange responsible for the Coulomb potential, and a large momentum scale approximately equal to twice the quark mass for the corrections induced by transverse gluons. Numerical predictions for charmed, bottom, and top quarks are given. One obtains a direct determination of ffV(Q2), the coupling in the heavy quark potential, which can be compared with lattice gauge theory predictions. The corresponding QED results for o/ pair production allow for a measurement of the magnetic moment of the o/ and could be tested at a future o/ -charm factory.
+
+(Submitted to Physics Letters B.)
+
+\Lambda The complete postscript file of this preprint, including figures, is available via anonymous ftp at ttpux2.physik.unikarlsruhe.de (129.13.102.139) as /ttp95-26/ttp95-26.ps or via www at http://ttpux2.physik.uni-karlsruhe.de/cgibin/preprints/ Report-no: TTP95-26.
+
+yWork supported by BMFT 056 KA 93P.
+
+ze-mails: hoang@ttpux2.physik.uni-karlsruhe.de and tt@ttpux2.physik.uni-karlsruhe.de
+
+1. Introduction QCD predictions for the angular distributions of partons can be tested in a variety of ways. For massless partons, i.e. light quarks or gluons, the canonical approach is based on angular distributions of jets or related quantities, like the thrust axis. In fact, the observation of a distribution / (1+cos2 `) for two-jet-events has provided convincing evidence for the spin-1/2 nature of partons produced in e+e\Gamma annihilation. Alternatively, for charmed or bottom quarks one may directly identify the heavy quark and heavy meson directions. This approach has been employed frequently in the analysis of the b quark angular distributions at high energies. In this kinematical region gluon radiation affects the shape of the distribution, typically rendering the lowest order predictions more isotropic. Real and virtual corrections must be considered jointly, since only the sum leads to an infrared finite prediction.
+
+In this paper a different kinematical region will be considered: heavy quark production close to threshold, where the cross section is dominated by a few exclusive channels. In this case one expects that the heavy mesons will essentially follow the heavy quark direction--a simple consequence of Newton's law of inertia. To employ the parton model in the case of hadron pair production may be somewhat surprising, since the structure of form factors for exclusive channels imposes stringent constraints on the angular distributions of the hadrons. However, as a consequence of the near degeneracy of the pseudoscalar and vector mesons B and B\Lambda , the sum of the various channels (BB, BB\Lambda + c.c., B\Lambda B\Lambda ) may easily combine to saturate the prediction for the angular distribution of the quarks. For definiteness, we will subsequently discuss the case of b quarks. For certain kinematical regions our calculation can be applied for charm quarks and will be valid a forteriori for top quarks.
+
+Close to threshold, in the limit fi = j~q j=q~q 2 + m2Q = q1 \Gamma 4m2Q=s ! 0, the cm angular distribution for e+e\Gamma ! Q Q is of course isotropic, a result of S-wave dominance. The small admixture of P -waves slightly above threshold provides a contribution / fi2 cos2 ` which will be studied in this paper. The tree graph prediction for the angular distribution is trivial. The leading O(ffs)
+
+2
+
+corrections have been evaluated in [1] for arbitrary quark mass and energy. However, unavoidably, the renormalization scale at which the strong coupling ffs(_2) has to be evaluated in these formulae can only be fixed by a two-loop calculation. In the high energy region one may convincingly argue on physical grounds that the scale for the dominant correction terms should be of order ps. In the threshold region, however, both ps and the quark momentum j~q j are viable options for the energy scale. In the BLM procedure [2] the renormalization scale is fixed by resumming all terms proportional to the QCD beta-function into the running coupling. To carry out the BLM procedure to leading order, it is sufficient to identify the nf terms in the next to leading order coefficients. Recent results for the fermionic part of the two-loop corrections to the total rate [3], and in particular to the fl\Lambda ! Q Q form factors allow for a solution of the scale-setting problem, at least in the threshold region. In fact, employing the BLM scale-setting prescription, one may even fix not only the scale but perhaps even accommodate the bulk of the two-loop corrections.
+
+Real radiation is strongly damped in the threshold region, decreasing / fi2 relative to the tree contributions. Hence, dropping the terms of higher power in fi, one may dispose of real radiation (even if multiplied by an infrared cutoff) and limit the discussion to virtual radiation; i.e. to the corrections to the form factors. Contributions from the instantaneous Coulomb potential and from hard photon exchange can be clearly distinguished, allowing for the resummation of the former. The contribution from the Coulomb part of the heavy quark rescattering yields a series in (ssffs=fi)n. If one utilizes the ffV scheme, defined for the heavy quark potential V (Q2) = \Gamma 4ss CF ffV(Q2)=Q2 ; then we find that the scale of ffV is set to a value proportional to s fi2, the square of the relative momentum. Thus one can obtain a determination of ffV(Q2) from measurements of e+e\Gamma ! Q Q near threshold. In particular we shall show that the "anisotropy" A(fi2) defined by
+
+dN d cos ` / 1 + A cos
+
+2 ` (1)
+
+is sensitive to of ffV(s fi2). Precise predictions for ffV(Q2) have been given in [4] using heavy quark lattice gauge theory with constraints from the \Upsilon spectrum.
+
+We also will discuss the application of the anisotropy formalism to the QED process e+e\Gamma !
+
+3
+
+o/ +o/ \Gamma . We shall show that the anisotropy of the angular distribution provides a new way to measure the Pauli form factors of the leptons, the analog of the anomalous magnetic moment in the timelike region. In addition, the radiative corrections we discuss here change the normalization of the cross section near threshold.
+
+2. Form factors, angular distributions, and infrared singularities The amplitude for the creation of a massive fermion pair from a virtual photon is characterized by the Dirac (F1) and Pauli (F2) form factors:
+
+u \Lambda _ v = ieQf u [ fl_ F1(q2) + i2 m oe_* q* F2(q2) ] v (2) where oe_* = i2[fl_; fl*]. The photon momentum flowing into the vertex is denoted by q, the fermion mass by m. The resulting angular distribution is conveniently expressed in terms of the electric and magnetic form factors Ge and Gm [5]:
+
+d oe(e+e\Gamma ! ff)
+
+d \Omega =
+
+ff2 Q2f fi
+
+4 s ^
+
+4 m2
+
+s jGej
+
+2 sin2 ` + jGmj2 (1 + cos2 `) * (3)
+
+with
+
+Ge = F1 + s4 m2 F2 ; Gm = F1 + F2 : (4)
+
+The anisotropy is thus given by
+
+A = jGmj
+
+2 \Gamma (1 \Gamma fi2)jGej2
+
+jGmj2 + (1 \Gamma fi2)jGej2
+
+= eA1 \Gamma eA ; (5)
+
+where e
+
+A = fi
+
+2
+
+2 j
+
+F1j2 (1 \Gamma fi2) \Gamma jF2j2j
+
+F1 + F2j2 (1 \Gamma fi2) : (6)
+
+In Born approximation ABorn = fi2=(2 \Gamma fi2). Note that for F2 = 0, the anisotropy is identical to the Born prediction, independent of F1. Thus the forme
+
+Ae ABorn \Gamma 1 = \Gamma 2 F2(s) ^ 1 + O(
+
+ff
+
+ss ) * ; eABorn =
+
+fi2
+
+2 (7)
+
+4
+
+isolates F2(s). This provides a way to experimentally determine the timelike Pauli form factor of the o/ lepton. The QED prediction is
+
+F2(4 m2) = \Gamma ff2 ss + O ` ffss '
+
+2!
+
+(8)
+
+which is, up to the sign, equal to the familiar Schwinger result F2(0) = ff=2ss. Away from threshold the one-loop QED prediction is
+
+F2(fi) = ffss ^ 1 \Gamma fi
+
+2
+
+4 fi `n
+
+1 \Gamma fi 1 + fi * : (9)
+
+We neglect this type of higher twist corrections in the following.
+
+In Born approximation F1 = 1 and F2 = 0. The impact of one- and two-loop radiative corrections on the form factors and angular distributions will be discussed in the context of QED in the remainder of this section; the case of immediate interest, namely QCD, will be discussed in section 3. To demonstrate the line of reasoning, we first shall present the arguments for the leading order calculation in some detail.
+
+In the QED calculation the order ff correction to the Dirac form factor ffiF1 in the timelike region exhibits an infrared singularity which can be regulated using a nonvanishing photon mass *:
+
+ffiF1 = ffiF fin1 + ffiF IR1 `n s*2 (10) with
+
+ffiF fin1 = ff ss4 fi \Gamma 32 ffss + ff ss4 fi + O(fi2) ; (11)
+
+ffiF IR1 = \Gamma 23 ffss fi2 + O(fi4) : (12)
+
+The leading term of F fin1 is proportional ssff=fi and exhibits the familiar Coulomb singularity. Also the constant term and the term linear in fi are infrared finite. The infrared singular part of F1 is strongly suppressed at threshold / fi2, giving rise to a fi3 contribution to the rate. The correction to the Pauli form factor ffiF2 is infrared finite and approaches a constant value at threshold:
+
+ffiF2 = \Gamma 12 ffss + O(fi2) : (13)
+
+5
+
+Real radiation, in contrast, vanishes as fi3 in the threshold region, where two powers of fi result from the square of the dipole matrix element, and one power of fi comes from phase space. It exhibits the same logarithmic dependence on the infrared cutoff as the F1 form factor and the same leading fi dependence as the infrared singular part of the virtual correction. As a consequence of the strong suppression / fi3 it can be neglected in the threshold region, together with the corresponding infrared divergent part of the form factor. The angular distribution and, similarly, the correction to the total cross section in the threshold region are therefore determined by the the infrared finite parts of the form factors. To order ff one thus finds for the coefficient describing the angular dependent piece
+
+A = ABorn ` 1 + 22 \Gamma fi2 ffss ' : (14)
+
+As we shall show there are interesting modifications of the anisotropy due to the running of the QCD coupling, and the dependence of the renormalization scale on ps and j~q j will be crucial.
+
+The O(ff2)-QED corrections to the form factors, induced by light fermion loops, have been calculated analytically in [3]. In the threshold region one obtains
+
+F1 = 1 + ff ss4 fi " 1 + ` ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+s fi2
+
+m2i \Gamma
+
+8 3! #
+
+\Gamma 32 ffss " 1 + `ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+s 4 m2i \Gamma
+
+1 2 ! # ; (15)
+
+F2 = ff ss4 fi ^ ` ffss ' nf3 *
+
+\Gamma 12 ffss " 1 + `ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+s 4 m2i \Gamma
+
+13
+
+6 ! # : (16)
+
+The calculation has been performed in the limit where the mass of the light virtual fermion mf is far smaller than m, a situation appropriate for the subsequent translation to QCD. The factor nf is introduced to allow for several light fermions and, in our case, to single out the fermion-induced terms. These formulae provide the first step on the way to a full two-loop calculation in order ff2. As we shall see, the results require two conceptionally different scales in the argument of the running coupling, a scale of order s from the hard virtual correction from transverse photons and
+
+6
+
+a soft scale of order s fi2 from the Coulomb rescattering. Supplemented by the BLM prescription they even determine the dominant two-loop gluon-induced terms in QCD.
+
+The linear combination appearing in the denominator of eA in Eq. (6) is thus given by
+
+F1 + F2 = 1 + ff ss4 fi " 1 + `ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+s fi2
+
+m2i \Gamma
+
+5 3! #
+
+\Gamma 2 ffss " 1 + `ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+s 4 m2i \Gamma
+
+11 12 ! # : (17)
+
+The nf terms arise from the vacuum polarization insertions and thus can be resummed into the QED running coupling:
+
+ff(Q2) = ff " 1 + ` ffss '
+
+nfX
+
+i=1
+
+1 3 `n
+
+Q2 m2i \Gamma
+
+5 3 ! # : (18)
+
+The constant 5/3 is the usual term in the Serber-Uehling vacuum polarization \Pi (Q2) at large Q2. This corresponds to the usual QED scheme where V (Q2) = \Gamma 4ss ff(Q2)=Q2 is the QED potential for the scattering of heavy test charges. One thus obtains
+
+F1 + F2 = 1 + ff(s fi
+
+2) ss
+
+4 fi \Gamma 2
+
+ff(s e3=4=4)
+
+ss
+
+,= 1 \Gamma 2 ff(s e3
+
+=4=4)
+
+ss ! 1 +
+
+ff(s fi2) ss
+
+4 fi ! : (19)
+
+Two distinctly different correction factors arise. The first originates from hard transverse photon exchange, with the scale set by the short distance process; the second from the instantaneous Coulomb potential. It is remarkable and non-trivial that the non-logarithmic terms in the ssff=fi corrections are absorbed if the relative momentum is adopted as the scale for the coupling. Up to two loops the running coupling governing the Coulomb singularity is thus identical to the running coupling in the potential. This will provide an important guide for the application of these results to QCD.
+
+The proper resummation of the 1=fi terms based on Sommerfeld's rescattering formula then leads to
+
+jF1 + F2j2 = 1 \Gamma 4 ff(m
+
+2 e3=4)
+
+ss !
+
+x 1 \Gamma e\Gamma x (20)
+
+7
+
+with
+
+x = ff(4 m
+
+2 fi2) ss
+
+fi : (21)
+
+In a similar way one finds for the relevant combination in the numerator of (6)
+
+jF1j2 \Gamma jF2j2 ,= 1 \Gamma 3 ff(m
+
+2 e7=6)
+
+ss !
+
+x0 1 \Gamma e\Gamma x0 (22)
+
+with
+
+x0 = ff(4 m
+
+2 fi2=e) ss
+
+fi : (23)
+
+The jF2j2 term in the numerator can actually be ignored in the present approximation. The scales of the effective coupling differ between the numerator and denominator of (6): In particular in the factor arising from Coulomb exchange the scale is significantly smaller in the numerator than in the denominator. This behavior is consistent with qualitative considerations based on the relative distances relevant for S- versus P -waves in the Coulomb part. In the factor arising from hard photon exchange the scales are quite comparable, with a slightly larger value in the numerator.
+
+One thus arrives at the prediction in the context of QED for the anisotropy which involves four scales:
+
+A = eA1 \Gamma eA ; eA = fi
+
+2
+
+2 i
+
+1 \Gamma 3 ff(m
+
+2e7=6)
+
+ss ji
+
+1 \Gamma 4 ff(m
+
+2e3=4)
+
+ss j
+
+1 \Gamma e\Gamma x 1 \Gamma e\Gamma x
+
+0 ff(4 m
+
+2 fi2=e)
+
+ff(4 m2 fi2) : (24)
+
+To display the effects more clearly, the ratio of the anisotropy to the Born prediction A=ABorn is shown in Fig. 1 for the case of o/ pair production. The dashed curve gives the prediction for constant ffQED; the solid curve shows the effect of the lepton vacuum polarization \Pi (Q2) in the QED running coupling. The vacuum polarization affects the anisotropy for small fi because two different scales appear in the S- and P -wave Coulomb rescattering corrections. Away from threshold A essentially measures the anomalous magnetic moment.
+
+3. From QED to QCD
+
+The QED coupling ff(Q2) translates into the the QCD coupling ffV(Q2), defined as the effective
+
+8
+
+1.0014 1.0016 1.0018
+
+1.002 1.0022 1.0024 1.0026 1.0028
+
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5b A/ABorn
+
+Figure 1: Ratio between the anisotropy A and the Born prediction ABorn as function of fi for the process e+e\Gamma ! o/ +o/ \Gamma . Dashed curve: constant ff; solid curve: including the running of ff.
+
+charge in the potential
+
+V (Q2) = \Gamma 43 4 ss ffV(Q
+
+2)
+
+Q2 (25) for the scattering of two heavy quarks in a color-singlet state. In the BLM procedure all terms
+
+arising from the non-zero beta-function are resummed into ffV(Q2). For example, all nf -dependent coefficients vanish in the ssff=fi terms if the scale of the relative momentum is adopted. This is, in fact, a result expected on general grounds: threshold physics is governed by the nonrelativistic instantaneous potential. Below threshold, the potential leads to bound states, above threshold it affects the cross section through final state interactions. It is, therefore, natural to take for the QCD case the coupling governing the QCD potential at the momentum scale involved in the rescattering. To relate ffV to ffMS, we use
+
+ffMS(Q2) = ffV(e+5=3 Q2) ^ 1 + 2 ffVss + O(ff2V) * : (26) In a similar way, BLM scale-fixing is adopted for the correction from hard gluon exchange. In the radiative correction, there still remain O(ff2s) terms, identical to the radiative corrections for the
+
+9
+
+0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0.3 0.35
+
+0.4 0.45
+
+0.2 0.25 0.3 0.35 0.4 0.45 0.5
+
+c b t
+
+Born
+
+b
+
+A
+
+Figure 2: Anisotropy for charmed, bottom and top quark production as a function of fi. Also shown is the Born prediction. We have assumed the effective quark masses mc = 1:7 GeV, mb = 5 GeV and mt = 175 GeV.
+
+theory with a fixed coupling constant. With the same scheme convention for the coupling as above, one arrives at e
+
+A = fi
+
+2
+
+2 i
+
+1 \Gamma 4 ffV(m
+
+2e7=6)
+
+ss ji
+
+1 \Gamma 163 ffV(m
+
+2e3=4)
+
+ss j
+
+1 \Gamma e\Gamma xs 1 \Gamma e\Gamma x0s
+
+ffV(4 m2 fi2=e)
+
+ffV(4 m2 fi2) (27)
+
+where
+
+xs = 4 ss3 ffV(4 m
+
+2fi2)
+
+fi ; x
+
+0s = 4 ss
+
+3
+
+ffV(4 m2fi2=e)
+
+fi : (28)
+
+The anisotropy A is plotted in Fig. 2 versus the velocity fi in the range 0:2 ! fi ! 0:5 for charmed, bottom, and top quarks. For comparison, the tree level prediction is also shown. For charmed quarks, only fi values above 0:4 are admitted in order to allow for the simultaneous production of DD and D\Lambda D. The charm prediction is particularly sensitive to the QCD parameters, since very low scales are accessible. Measurements of the anisotropy for e+e\Gamma ! cc thus have the potential of determining ffV in the regime where perturbation theory begins to fail.
+
+The curves are based on an input value ff(nf =5)MS (M 2Z) = 0:115. We use the two-loop beta-function
+
+10
+
+0 0.025
+
+0.05 0.075
+
+0.1 0.125
+
+0.15 0.175
+
+0.2 0.225
+
+0.25
+
+0.2 0.25 0.3 0.35 0.4 0.45 0.5
+
+as = 0.123 as = 0.115 as = 0.107
+
+b
+
+A
+
+(a) 0.1 0.15
+
+0.2 0.25
+
+0.3 0.35
+
+0.4 0.45
+
+0.5
+
+0.4 0.41 0.42 0.43 0.44 0.45 0.46 0.47 0.48 0.49 0.5
+
+as = 0.118 as = 0.115 as = 0.107
+
+b
+
+A
+
+(b) Figure 3: Sensitivity of the anisotropy A for (a) e+e\Gamma ! b b and (b) e+e\Gamma ! c c to changes in ffMS(M 2Z).
+
+11
+
+to evolve ffMS to lower momenta and then used Eq. (26) to calculate ffV(Q2). To investigate the sensitivity of the predictions for bottom quarks, the input value for ffMS(M 2Z) has been varied by \Sigma 0:008 from the central value of 0.115. As demonstrated in Fig. 3a the variation of the anisotropy parameter amounts to about 10%, and could therefore be accessible experimentally. The charm predictions (see Fig. 3b) are even more sensitive.
+
+4. Conclusions An important consequence of heavy quark kinematics is that the production angle of a heavy hadron follows the direction of the parent heavy quark. This applies not only at Born approximation, but also after QCD corrections have been applied. In this paper we have shown that the anisotropy A(fi2) in the cm angular distribution doe(e+e\Gamma ! QQ)=d\Omega / 1 + A cos2 ` of heavy quarks produced near threshold is sensitive to the QCD coupling ffV(Q2) at specific scales determined by the quark relative momentum pcm = ps fi. The coupling ffV(Q2) is the physical effective charge defined through heavy quark scattering. The predictions provide a connection between observables and thus are independent of theoretical conventions.
+
+An important feature of our analysis is the use of BLM scale-fixing, in which all higher-order corrections associated with the beta-function are resummed into the scale of the coupling. The resulting scale for ffV(Q2) corresponds to the mean gluon virtuality. In the case of the soft rescattering corrections to the S-wave, the BLM scale is s fi2 = p2cm. One thus has sensitivity to the running coupling over a range of momentum transfers within the same experiment. The anisotropy measurement thus can provide a check on other determinations of ffV(Q2), e.g. from heavy quark lattice gauge theory, or from the conversion of ffMS determinations to ffV as given in Eq. (26).
+
+Our analysis also shows that the running coupling appears within the cross section with several different scales. This is particularly apparent at low fi where the physical origin of the O(ffs) corrections can be traced to gluons with different polarization and virtuality.
+
+12
+
+In principle, the anisotropy of o/ pairs produced in e+e\Gamma ! o/ +o/ \Gamma could be used to measure the Pauli form factor F2(s) near threshold s ?, 4m2o/ . A highly precise measurement of the anisotropy thus could provide a measurement of a fundamental parameter of the o/ lepton, its timelike anomalous magnetic moment.
+
+Acknowledgments
+
+One of the Authors (JHK) would like to thank the SLAC Theory Group for hospitality and the Volkswagen-Stiftung Grant I/70452 for generous support.
+
+References [1] J. Jers'ak, E. Laermann and P.M. Zerwas, Phys. Rev. D 25 (1981) 1218. [2] S.J. Brodsky, G.P. Lepage and P.B. Mackenzie, Phys. Rev. D 28 (1983) 228.
+
+S.J. Brodsky and H.J. Lu, Phys. Rev. D 51 (1995) 3652.
+
+[3] A.H. Hoang, J.H. K"uhn and T. Teubner, Univ. of Karlsruhe preprint TTP95-10, to appear in
+
+Nucl. Phys. B.
+
+[4] C.T.H. Davies, K. Hornbostel, G.P. Lepage, A. Lidsey, J. Shigemitsu, J. Sloan, Phys. Lett. B
+
+345 (1995) 42.
+
+[5] F.M. Renard, Basics of Electron Positron Collisions, Editions Fronti`eres, Gif sur Yvette,
+
+France, pg. 114 ff.
+
+13
+

@@ -1,0 +1,5650 @@
+INSTANTONEN IN DER QCD
+
+Theorie und Anwendungen des
+
+Instanton-Fl®
+ussigkeit-Modells
+
+
+
+
+
+Dissertation der Fakult®
+at f®
+ur Physik
+
+der Ludwig-Maximilians-Universit®
+at M®
+unchen
+
+
+
+
+arXiv: v2 13 Mar 96
+
+vorgelegt von Marcus Hutter aus M®
+unchen
+am 17.10.1995
+
+
+1. Gutachter: Prof. H. Fritzsch
+2. Gutachter: Prof. S. Theisen
+M®undliche Pr®ufung: 9.2.1996
+
+
+1
+
+
+Zusammenfassung
+
+Die heutige Theorie der starken Wechselwirkung, die Quantenchromodynamik (QCD) ist
+eine nicht-abelsche Eichtheorie, basierend auf der Eichgruppe SU(3). Trotz ihrer forma-
+len ®
+Ahnlichkeit zur QED bestehen erhebliche Unterschiede. Schon 1973 konnte gezeigt
+werden, daﬂ die Kopplungskonstante g f®ur groﬂe Abst®ande w®achst [61]. Dies stellte die
+M®oglichkeit einer permanenten Einschlieﬂung von Quarks und Gluonen in Hadronen in
+Aussicht. Kurz darauf, im Jahre 1975, wurden nicht-triviale L®osungen der Euklidischen
+Yang-Mills Feldgleichungen gefunden, die heute BPST-Instantonen genannt werden [15]
+und erheblichen Einfluﬂ auf die Struktur der QCD bei niedrigen Energien haben. Viele
+exakte Resultate f®ur das ein-Instanton-Vakuum sind bekannt [11, 18], wobei ein ph®ano-
+menologisch interessantes Resultat die explizite Brechung der axialen U(1) Symmetrie ist
+[17]. Allerdings ist die 1-Instanton-Approximation, genau wie eine tree-level Berechnung
+in der St®orungstheorie, nicht in der Lage, Bindungszust®ande oder spontane Symmetrieb-
+rechung zu beschreiben. Der n®achte Schritt war die Untersuchung von exakten [16] und
+approximativen Multi-Instanton-L®osungen [14]. Es gibt zwei n®utzliche Bilder f®ur diese
+L®osungen. In einem Bild werden Instantonen als Tunnelprozesse zwischen topologisch
+verschiedenen Vakua angesehen. Im anderen Bild beschreibt die L®osung ein Ensemble
+ausgedehnter (Pseudo-)Teilchen im 4-dimensionalen Raum.
+
+In der gew®ohnlichen St®orungstheorie werden Fluktuationen um die triviale Null-L®osung
+berechnet. Die korrekte Quantisierungs-Vorschrift besteht darin, alle L®osungen der klas-
+sischen Feldgleichungen und deren Fluktuationen zu ber®ucksichtigen. In der Pfadintegral-
+Darstellung der QCD ist die Zustandssumme somit durch Ensemble ausgedehnter Teilchen
+(Instantonen) im 4-dimensionalen Raum bei der Temperatur g2 dominiert. Im einfachsten
+Fall beschreibt die Zustandssumme ein verd®unntes ideales Gas unabh®angiger Instantonen.
+Leider f®uhrt diese Annahme zu einer unendlichen Instanton-Dichte, hervorgerufen durch
+groﬂe Instantonen, was im krassen Widerspruch zur Annahme eines verd®unnten Gases
+steht. Dieses Problem ist unter dem Namen Infrarot-Problem bekannt. Man vermei-
+det dieses Problem durch die Annahme einer repulsiven Wechselwirkung [24], die den
+Kollaps stabilisiert. Dies ist das Modell einer 4-dimensionalen Fl®ussigkeit. Unter be-
+stimmten Voraussetzungen kann die Wechselwirkung durch eine effektive Dichte ersetzt
+werden. Das Instanton-Fl®ussigkeits-Modell im engeren Sinn beschreibt das QCD-Vakuum
+als Summe unabh®angiger Instantonen mit Radius = (600MeV)-1 und effektiver Dichte
+n = (200MeV)4. Ob dieses Modell korrekt ist, ist immer noch Gegenstand intensiver
+Untersuchungen. Bisher rechtfertigt im wesentlichen der ph®anomenologische Erfolg die
+Besch®aftigung mit diesem Modell.
+Durch numerische Simulation des Instanton-Fl®ussigkeit-Modells konnten eine Reihe
+hadronischer Gr®oﬂen bestimmt werden, insbesondere Meson-Massen, Baryon-Massen,
+Hadron-Wellenfunktionen und Kondensate [27, 28].
+
+Zur Berechnung des Quark-Propagators und der Meson-Korrelatoren gibt es auch ana-
+lytische Methoden. Die bedeutendsten Vorhersagen sind wohl die Brechung der chiralen
+Symmetrie (SBCS) im axialen Triplett-Kanal [25] und das Fehlen eines Goldstone Bosons
+im axialen Singulett-Kanal.
+
+Der gr®oﬂte Teil dieser Arbeit ist der Erweiterung der analytischen Methoden und der
+(semi-)analytischen Auswertung der Ergebnisse gewidmet.
+
+
+2
+
+
+Die Meson-Korrelatoren (auch Polarisations-Funktionen genannt) werden im Instanton-
+Fl®ussigkeits-Modell in Nullmoden- und 1/Nc-Approximation berechnet, wobei dynamische
+Quark-Schleifen ber®ucksichtigt werden. Durch einen spektralen Fit werden die Massen
+der , , , a1 und f1 Mesonen im chiralen Limes bestimmt. Eine gesonderte Betrachtung
+erm®oglicht auch die Berechnung der Masse. Die Ergebnisse stimmen auf 10% Niveau
+mit den experimentellen Werten ®uberein. Weiterhin wird versucht, die axialen Formfak-
+toren des Protons zu bestimmen. Diese stehen in Zusammenhang mit dem Proton-Spin(-
+Problem). Eine eichinvariante Gluon-Masse wird f®ur kleine Impulse berechnet.
+
+Die Arbeit wird abgeschlossen mit einigen Vorhersagen, die sich nicht speziell auf das
+Instanton-Fl®ussigkeits-Modell st®utzen. Im ein-Instanton-Vakuum wird ein eichinvarian-
+ter Quark-Propagator berechnet und mit dem regul®aren und dem singul®aren Propagator
+verglichen. Kriterien f®ur die Wahl einer geeignete Eichung, insbesondere f®ur die Wahl
+der singul®aren oder der regul®aren Eichung, werden gegeben. Eine endliche Relation zwi-
+schen dem Quark-Kondensat und der QCD-Skala wird hergeleitet, wobei weder ein
+Infrarot-Cutoff noch ein spezifisches Instanton-Modell verwendet werden.
+
+
+Inhaltsverzeichnis
+
+
+1 Einf®
+uhrung 7
+1.1 Ans®atze zur L®osung der QCD . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1.2 Inhaltsbeschreibung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+2 Theorie der Instanton-Fl®
+ussigkeit 12
+2.1 Trennung Gauﬂscher von nicht-Gauﬂschen Fluktuationen * . . . . . . . . . 12
+2.2 Effektive QCD-Lagrangefunktion im Hintergrundfeld * . . . . . . . . . . . 15
+2.3 Der semiklassische Limes * . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+2.4 Instantonen in der QCD . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+2.5 Quarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+2.6 Das Instanton-Fl®ussigkeits-Modell . . . . . . . . . . . . . . . . . . . . . . . 19
+
+3 Der Propagator leichter Quarks 22
+3.1 St®orungstheorie im Multi-Instanton Vakuum * . . . . . . . . . . . . . . . . 22
+3.2 Exakte Streuamplitude im ein-Instanton Vakuum * . . . . . . . . . . . . . 23
+3.3 Nullmoden Approximation . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+3.4 Effektiver Vertex im Multi-Instanton-Vakuum * . . . . . . . . . . . . . . . 24
+3.5 Eine willkommene Ausl®oschung * . . . . . . . . . . . . . . . . . . . . . . . 25
+3.6 Renormierung der Instanton-Dichte * . . . . . . . . . . . . . . . . . . . . . 26
+3.7 Selbstkonsistenz-Gleichung f®ur den Quark-Propagator * . . . . . . . . . . . 27
+3.8 Ein wenig Ph®anomenologie . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+3.9 1/Nc Entwicklung * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+3.10 Zusammenfassung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+4 Vier-Punkt-Funktionen 32
+4.1 Einf®uhrung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.2 1/Nc Approximation * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+4.3 L®osung der Bethe-Salpeter-Gleichung * . . . . . . . . . . . . . . . . . . . . 35
+4.4 Triplett- und Singulett-Korrelator * . . . . . . . . . . . . . . . . . . . . . . 37
+4.5 Zusammenfassung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+
+5 Korrelatoren leichter Mesonen 39
+5.1 Analytische Ausdr®ucke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+5.2 Analytische Ergebnisse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+5.3 Spektral-Darstellung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+5.4 Plot & Fit der Meson-Korrelatoren . . . . . . . . . . . . . . . . . . . . . . 44
+
+3
+
+
+4 INHALTSVERZEICHNIS
+
+
+6 Die axiale Anomalie 47
+6.1 Die Masse des Mesons . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+6.2 Messung der axialen Formfaktoren . . . . . . . . . . . . . . . . . . . . . . 51
+6.3 Die axialen Singulett-Str®ome und die Anomalie . . . . . . . . . . . . . . . 52
+6.4 Der Proton-Spin und seine Interpretation . . . . . . . . . . . . . . . . . . . 53
+6.5 Reduktion der Proton Formfaktoren zu Vakuum-Korrelatoren . . . . . . . 57
+6.6 Axiale Formfaktoren GGI (q) . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+1/2
+6.7 Der Anomalie-Formfaktor A(q) * . . . . . . . . . . . . . . . . . . . . . . . 59
+6.8 Die Anomalie-Formfaktoren K1/2(q) . . . . . . . . . . . . . . . . . . . . . . 61
+6.9 Diskussion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+
+7 Gluon-Masse 64
+7.1 Einf®uhrung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+7.2 Der Gluon-Propagator * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+7.3 Der Propagator im statistischen Hintergrund * . . . . . . . . . . . . . . . . 67
+7.4 Eine naive Sch®atzung f®ur die Gluon-Masse * . . . . . . . . . . . . . . . . . 68
+7.5 Entwicklung in der Instanton-Dichte * . . . . . . . . . . . . . . . . . . . . 69
+7.6 QCD Propagatoren * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+7.7 Propagatoren f®ur kleine Impulse * . . . . . . . . . . . . . . . . . . . . . . . 72
+7.8 Nullmoden * . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+7.9 Zusammenfassung & Ausblick . . . . . . . . . . . . . . . . . . . . . . . . . 74
+
+8 Eichinvarianter Quarkpropagator 75
+8.1 Allgemeines ®uber die Wahl einer geeigneten Eichung . . . . . . . . . . . . . 75
+8.2 Eine nat®urliche Eichung . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+8.3 ®
+Uber die Wahl einer Eichung in der Instanton-Physik . . . . . . . . . . . . 77
+8.4 Der Quark-Propagator in axialer Eichung * . . . . . . . . . . . . . . . . . . 77
+8.5 Effektive Quark-Masse * . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+8.6 Das Quark-Kondensat . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+8.7 Zusammenfassung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+
+9 Schluﬂbetrachtung 84
+9.1 Neue Erkenntnisse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+9.2 Ausblick . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+9.3 Danksagung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+
+A Anhang 87
+A.1 Notationen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+A.2 Instantonen in singul®arer, regul®arer und axialer Eichung . . . . . . . . . . . 88
+A.3 Mittelung ®uber die Instanton-Parameter I . . . . . . . . . . . . . . . . . . 89
+A.4 Numerische Auswertung der Fourier- Transformation . . . . . . . . . . . . 90
+A.5 Numerische Auswertung der Faltungen . . . . . . . . . . . . . . . . . . . . 91
+
+B Abbildungen 92
+B.1 Panorama-Funktion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
+B.2 Konstituenten-Quark-Masse in regul®arer, singul®arer und axialer Eichung . . 92
+
+
+INHALTSVERZEICHNIS 5
+
+
+B.3 Pseudoskalarer Triplett-Korrelator () . . . . . . . . . . . . . . . . . . . . . 92
+B.4 Pseudoskalarer Singulett-Korrelator ( ) . . . . . . . . . . . . . . . . . . . . 92
+B.5 Skalarer Triplett-Korrelator () . . . . . . . . . . . . . . . . . . . . . . . . . 92
+B.6 Skalarer Singulett-Korrelator () . . . . . . . . . . . . . . . . . . . . . . . . 92
+B.7 Axialvektor-Korrelator (a1, f1) . . . . . . . . . . . . . . . . . . . . . . . . . 92
+B.8 Vektor-Korrelator (, ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
+
+C Literatur 101
+
+
+
+Die mit * gekennzeichneten Kapitel sind eher technischer Natur.
+
+
+Tabellenverzeichnis
+
+
+3.1 Abh®angigkeit verschiedener Gr®oﬂen von den Parametern des Instanton-
+Fl®ussigkeit-Modells nR, , Nc . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+5.1 Chirale Symmetrie-Brechung und Supraleitung . . . . . . . . . . . . . . . . 42
+5.2 Meson-Korrelatoren -- Notation . . . . . . . . . . . . . . . . . . . . . . . . 44
+5.3 Meson-Massen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+
+6.1 Proton Formfaktoren bei Impuls®ubertrag Null . . . . . . . . . . . . . . . . 57
+
+A.1 Asymptotik von (p) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+
+
+
+
+
+6
+
+
+Kapitel 1
+
+Einf®
+uhrung
+
+
+Die Theorien zur Beschreibung der vier fundamentalen Kr®afte in der Physik ≠ Gravitation,
+elektromagnetische, schwache und starke Wechselwirkung ≠ sind allesamt Eichtheorien. In
+quantisierter Form werden die Kr®afte zwischen den verschiedenen Teilchen (Fermionen)
+durch Eich-Bosonen vermittelt. Die QCD ist die Theorie der starken Wechselwirkung
+zwischen Quarks und Gluonen. Sie ist eine SU(3) Eichtheorie mit der Lagrangefunktion1
+
+N
+1 f
+L = Ga Gµ + Ø
+
+4g2 µ a l(iD
+/ + iml)l . (1.1)
+l=1
+
+
+Ber®ucksichtigt man nur die leichten Quarks u, d und manchmal s und setzt man deren
+Masse auf Null, so erh®alt man eine Theorie mit nur einem Parameter, der Eichkopplung
+g, die jedoch aufgrund dimensionaler Transmutation kein freier Parameter ist. Trotz der
+Tatsache, daﬂ die Struktur der QCD einfach ist (z.B. verglichen mit der elektroschwachen
+Wechselwirkung), ist es wegen nicht-st®orungstheoretischer Effekte extrem schwierig, diese
+Theorie zu l®osen.
+
+
+
+1.1 Ans®
+atze zur L®
+osung der QCD
+
+Um die Rolle der Instantonen in der QCD einzuordnen, m®ochte ich zun®achst eine Reihe
+wichtiger Methoden zur L®osung der QCD erw®ahnen, beginnend mit Methoden, die allge-
+mein in der Quantenfeldtheorie (QFT) Anwendung finden, und endend mit spezifischeren
+Ans®atzen:
+
+
+∑ Axiomatische Feldtheorie: Wightman/Oswalder&Schrader haben eine Reihe von
+Minkowskischen/Euklidischen Axiomen f®ur Vakuum-Korrelatoren angegeben, die
+
+1In dieser Arbeit wird durchgehend die Euklidische Formulierung der QCD verwendet. Dies ist die
+Quelle einiger ungewohnter Faktoren i oder Minuszeichen. Ursache des 1/g2 Vorfaktors ist ein Skalieren
+der Eichfelder mit g.
+
+
+7
+
+
+8 KAPITEL 1. EINF ®
+UHRUNG
+
+
+jede QFT respektieren sollte (Analytizit®at, Regularit®at, Lorentzinvarianz, Loka-
+lit®at, . . . ). Es ist klar, daﬂ die aus diesen Axiomen abgeleiteten Theoreme von
+sehr allgemeiner Natur sein m®ussen (z.B. CPT-Invarianz), da von keiner konkreten
+Lagrangefunktion ausgegangen wird [2].
+
+∑ Haag-Ruelle/LSZ Theorie: S-Matrix-Elemente stehen in 1:1 Beziehung zu Vakuum-
+Korrelatoren [3]. Die S-Matrix ist das zentrale Objekt der Teilchen-Ph®anomenolo-
+gie und enth®alt wichtige Information wie Streuquerschnitte, Form-Faktoren, Struk-
+turfunktionen, u.s.w. Theoretischen Studien sind meist die Vakuum-Korrelatoren
+zug®anglicher. Die Notwendigkeit der expliziten Konstruktion des Hilbert-Raumes
+wird hier vermieden, was eine extrem schwierige Aufgabe ist, geht man ®uber die
+St®orungstheorie hinaus.
+
+∑ Quantisierung: Man mag an dieser Stelle einwenden, daﬂ 'Quantisierung' nicht in
+einer Liste von Methoden zur L®osung von QFT auftauchen sollte, da es eine Me-
+thode ist, eine QFT zu erhalten bzw. zu definieren. Auf der anderen Seite gibt es
+neben der kanonischen Quantisierung andere M®oglichkeiten eine Theorie zu quan-
+tisieren. Die popul®arste ist die Pfad-Integral-Quantisierung [8]. ®
+Ublicherweise wird
+diese in Lehrb®uchern zur Teilchenphysik nur als Abk®urzung benutzt, um bestimmte
+Theoreme schneller herleiten zu k®onnen. Geht man ®uber die St®orungstheorie hinaus,
+so f®uhren die verschiedenen Quantisierungs-Vorschriften h®aufig zu unterschiedlichen
+physikalischen und mathematischen Einsichten und zu unterschiedlichen Methoden,
+die Theorie zu l®osen. Varianten der Pfadintegral-Quantisierung sind die in Gitter-
+Eichtheorien verwendete Random-Walk-Quantisierung und die stochastische Quan-
+tisierung.
+
+∑ (Gebrochene) Symmetrie: Jeder Freiheitsgrad wie Spin, Flavor und Farbe ist m®ogli-
+cher Ursprung einer (approximativen) Symmetrie, wie SU(2Nf ) nebst Untergrup-
+pen hiervon und SU(3) Eichinvarianz. Erhaltene Str®ome und Ward-Identit®aten [4]
+sind die Konsequenz. Im Falle leichter Quarks gibt es dar®uberhinaus eine approxi-
+mative chirale Symmetrie, die zu PCAC, axialen Ward-Identit®aten, Stromalgebra-
+Theoremen, Soft-Pion Physik, etc. f®uhrt. Weiterhin besitzt die QCD mit mas-
+selosen Quarks eine anomal gebrochene Skaleninvarianz, die Ausgangspunkt der
+Renormierungs-Gruppen-Techniken ist [5].
+
+∑ St®orungstheorie: Aufgrund der asymptotischen Freiheit der QCD ist die Kopplung
+g f®ur groﬂe Energien klein und die St®orungstheorie in g ist anwendbar. Die QCD
+kann also f®ur Prozesse, in denen nur Impulse von, sagen wir, mehr als 1 GeV beteiligt
+sind, gel®ost werden. Das Verhalten von Korrelatoren f®ur kleine Abst®ande ist daher
+berechenbar (x 0.2 fm).
+∑ Operator-Produkt-Entwicklung (OPE): Eine Erweiterung der St®orungstheorie kann
+durch Separation der physikalischen Effekte bei kleinen Abst®anden von den Ef-
+fekten bei groﬂen Abst®anden erreicht werden. Erstere sind in den sog. Wilson-
+Koeffizienten enthalten, die st®orungstheoretisch berechnet werden k®onnen. Letztere
+nicht-perturbative Effekte sind in wenigen Vakuum- oder Hadron-Erwartungswerten
+
+
+1.1. ANS ®
+ATZE ZUR L ®
+OSUNG DER QCD 9
+
+
+lokaler Operatoren enthalten, die ph®anomenologisch oder Mithilfe von Modellannah-
+men bestimmt werden m®ussen [57]. Vakuum-Korrelatoren kann man auf diese Weise
+bis zu Abst®anden von x 0.3 ...0.5 fm bestimmen.
+∑ QCD Summen-Regeln: QCD-Summenregeln werden in vielf®altiger Weise
+zur Bestimmung von Hadron-Massen und -Kopplungen eingesetzt. Die allge-
+meine Methode ist, die Existenz bestimmter Hadronen anzunehmen und einen
+Resonanz+Kontinuum-Ansatz im Minkowski-Raum zu machen. Der Euklidische
+Korrelator wird theoretisch vorhergesagt (OPE, Gitter-Theorie, Instantonen). Mit-
+tels Dispersionsrelationen kann man den Ansatz in einem bestimmten Euklidischen
+Fenster durch Anpassen der Hadron-Parameter an den theoretischen Korrelator an-
+gleichen, und erh®alt so eine Vorhersage f®ur diese [57].
+
+∑ Effektive Theorien: Man kann effektive Lagrange-Funktionen konstruieren, die
+Mesonen und/oder Baryonen als fundamentale Felder enthalten, und mehr oder we-
+niger durch die QCD oder historisch motiviert sind oder aus anderen physikalischen
+Gebieten ®ubertragen wurden. Die Parameter werden experimentell bestimmt oder,
+soweit m®oglich, aus der QCD berechnet.
+
+
+Eine Reihe von Ph®anomenen sind mit den oben aufgelisteten Methoden qualitativ erkl®art
+und quantitativ berechnet worden, aber das Verhalten der QCD bei groﬂen Abst®anden
+ist weiterhin ungel®ost. Es gibt mindestens zwei Probleme, die in diesen Bereich fallen:
+Chirale Symmetrie-Brechung und Confinement. Bis heute wird die Brechung der chiralen
+Symmetrie angenommen und die Konsequenzen, wie Goldstone-Bosonen, werden unter
+dieser Annahme diskutiert. In der OPE verwendet man die aus dem Experiment be-
+stimmten von Null verschiedenen Werte f®ur das Quark- und f®ur andere Kondensate, hat
+aber keine M®oglichkeit jene vorauszusagen. Das Quark-Kondensat ist der Ordnungspa-
+rameter der chiralen Symmetrie und ein nicht-verschwindender Wert zeigt die spontane
+Brechung der chiralen Symmetrie (SBCS) an. Die Einschlieﬂung von Quarks und Gluonen
+zu Farb-Singulett-Zust®anden (Confinement) muﬂ auch angenommen werden.
+
+Ans®atze zur L®osung dieser Probleme sind:
+
+
+∑ Gitter-QCD: Im Prinzip ist die Methode sehr einfach. Das Kontinuum wird durch
+ein feines Gitter ersetzt, das ein groﬂes aber endliches Volumen ®uberdeckt. Das
+Pfadintegral ist so durch eine groﬂe, aber endliche Anzahl von Integralen ersetzt,
+die numerisch ausgewertet werden. Alle Vakuum-Korrelatoren k®onnen f®ur beliebige
+Euklidische Abst®ande berechnet werden. Auf diese Weise hat man Confinement und
+SBCS gezeigt und einige Hadron-Parameter bestimmt. In der Praxis sind Gitter-
+Rechnungen jedoch problematischer als der erste Eindruck, den diese skizzenhafte
+Beschreibung vielleicht zur®uckl®aﬂt [9].
+
+∑ Instantonen: Wie in der Gitter-QCD versucht man das Euklidische Pfad-Integral
+auszuwerten, aber nun in semiklassischer Approximation. Zus®atzlich zum globalen
+Minimum Aa = 0 der QCD-Wirkung, um das in der gew
+µ ®ohnlichen St®orungstheorie
+
+
+10 KAPITEL 1. EINF ®
+UHRUNG
+
+
+entwickelt wird, gibt es viele andere lokale Minima, die Instantonen genannt wer-
+den, und ber®ucksichtigt werden m®ussen [11, 15, 16]. Im Quark-Sektor erzeugt dies
+eine effektive Wechselwirkung zwischen den 2Nf leichten Quarks, die f®ur die SBCS
+verantwortlich ist [17]. Obwohl Confinement nicht erkl®art werden kann, k®onnen
+dennoch viele Hadron-Parameter berechnet werden [26, 27, 28], was die Vermutung
+nahelegt, daﬂ Confinement keine so groﬂe Rolle f®ur eine Reihe von Eigenschaften
+der Hadronen spielt.
+
+
+Oft erlaubt erst die Kombination der Resultate der verschiedenen Ans®atze Kontakt zur
+Ph®anomenologie.
+
+
+1.2 Inhaltsbeschreibung
+
+In dieser Arbeit werden die Implikationen der Instantonen auf die Hadron-Eigenschaften
+quantitativ und systematisch studiert. Als elementare Einf®uhrung in die klassische und se-
+miklassische Theorie von Solitonen und Instantonen kann [11] uneingeschr®ankt empfohlen
+werden.
+
+Kapitel 2 gibt eine Einf®uhrung in die semiklassische Berechnung nicht-trivialer Inte-
+grale. Der allgemeine Formalismus wird f®ur endlich-dimensionale Integrale entwickelt und
+anschlieﬂend auf die QCD-Zustandssumme ®ubertragen. Weiterhin wird das Instanton-
+Fl®ussigkeits-Modell eingef®uhrt.
+
+In Kapitel 3 wird der Propagator eines leichten Quarks berechnet. Alle n®otigen Ap-
+proximationen werden explizit erw®ahnt und diskutiert. Dynamische Quark-Schleifen re-
+normieren die Instanton-Dichte, welche mit dem Gluon-Kondensat identifiziert werden
+kann. Es wird gezeigt, daﬂ f®ur ein Quark-Flavor die 1/Nc Entwicklung exakt ist. Die
+Konstituenten-Quarkmasse und das Quark-Kondensat werden f®ur das u, d und s Quark
+berechnet.
+
+Die gleichen Approximationen werden in Kapitel 4 benutzt, um die 4-Punkt-Funktionen zu
+berechnen. Besondere Aufmerksamkeit gilt dem Singulett-Korrelator, zu dem eine Kette
+von Quark-Schleifen beitr®agt, die im Nc Limes nicht unterdr®uckt ist. Mit ein und
+derselben Approximation erhalten wir Goldstone-Bosonen im pseudoskalaren Triplett-
+Korrelator, aber kein masseloses Singulett-Boson.
+
+In Kapitel 5 werden die Meson-Korrelatoren diskutiert. Die Verwendung eines Spektral-
+Ansatzes erm®oglicht die Bestimmung einiger Meson-Massen und -Kopplungen. Diese wer-
+den mit den Werten aus numerischen Studien der Instanton-Fl®ussigkeit [28] und den ex-
+perimentellen Daten verglichen.
+
+Kapitel 6 besch®aftigt sich mit der axialen Anomalie. Die interessantesten Gr®oﬂen im
+axialen Singulett-Kanal sind die Masse des Mesons und der Spin des Protons. Durch
+Kombination der axialen Anomalie und der Skalen-Anomalie mit Ideen aus der Instanton-
+Physik kann m auf 10% genau vorhergesagt werden. Der Schwerpunkt liegt in der
+Diskussion des Proton-Spins und dessen Berechnung im Instanton-Fl®ussigkeit-Modells.
+
+
+1.2. INHALTSBESCHREIBUNG 11
+
+
+In Kapitel 7 wird der Geist- und der Gluon-Propagator im Instanton-Fl®ussigkeits-Modell
+berechnet. F®ur kleine Impulse ergibt sich eine Geist-Masse von 340 MeV und eine Gluon-
+Masse von 480 MeV. Die Massen sind unabh®angig vom Eichparameter .
+
+Kapitel 8 enth®alt den Versuch, einige Vorhersagen zu machen, ohne sich auf das Instanton-
+Fl®ussigkeits-Modell zu st®utzen. In regul®arer Eichung ist es m®oglich eine endliche Relation
+zwischen dem Quark-Kondensat und der QCD-Skala zu erhalten. Da die Endlichkeit
+wesentlich von der Wahl der Eichung abh®angt, wird mit einer ausf®uhrlichen Diskussion
+einer Eichwahl und der Berechnung eines eichinvarianten Propagators begonnen.
+
+Eine Zusammenfassung der in dieser Arbeit neu gewonnenen Erkenntnisse findet sich
+in Kapitel 9. Daran anschlieﬂend sind offene Fragen zusammengestellt, die eine weiterge-
+hende Untersuchung verdienen. Die Anh®ange enthalten eine Liste verwendeter Notationen
+und die explizite Gestalt eines Instantons und dessen Dirac-Nullmode in singul®arer, re-
+gul®arer und axialer Eichung. Weiterhin werden Verfahren zur numerischen Berechnung
+von Fouriertransformationen und Faltungen Lorentz-kovarianter Funktionen beschrieben.
+
+Alle Abbildungen befinden sich am Ende der Arbeit vor dem nach Sachgebieten geordneten
+Literaturverzeichnis.
+
+Die einzelnen Kapitel k®onnen unabh®angig voneinander gelesen werden. Die mit gekenn-
+zeichneten Abschnitte sind eher technischer Natur.
+
+
+Kapitel 2
+
+
+Theorie der Instanton-Fl®
+ussigkeit
+
+
+Dieses Kapitel stellt eine Einf®uhrung in die semiklassische Berechnung der QCD Zu-
+standssumme dar. Hierzu werden die Fluktuationen um L®osungen der klassischen Eukli-
+dischen Bewegungsgleichungen in (approximativ) Gauﬂsche und kollektive Koordinaten
+zerlegt (Abschnitt 2.2). In Abschnitt 2.3 werden die (approximativ) Gauﬂschen Frei-
+heitsgrade in semiklassischer Approximation ausintegriert. Die klassischen L®osungen der
+Yang-Mills-Gleichungen k®onnen nach ihrer Topologie N ZZ klassifiziert werden und
+werden Multi-Instanton-L®osungen genannt. Auf eine Einf®
+uhrung in die mathematisch
+sehr sch®one klassische Theorie von Instantonen [16] wird in dieser Arbeit verzichtet. Eine
+elementare Einf®uhrung in die klassische und semiklassische Theorie von Solitonen und
+Instantonen verschiedenster QFT findet man in [11]. Die klassische ein-Instanton-L®osung
+und die zugeh®orige semiklassische Zustandssumme werden in Abschnitt 2.4 angegeben.
+Die Multi-Instanton-L®osungen k®onnen im Falle wohlseparierter Instantonen auf den Fall
+eines Instantons zur®uckgef®uhrt werden. In Abschnitt 2.5 wird beschrieben wie Quarks
+die Zustandssumme modifizieren. In Abschnitt 2.6 wird das Infrarot-Problem diskutiert
+und das Instanton-Fl®ussigkeits-Modell zur "L®osung" dieses Problems vorgestellt. Den
+Kapiteln 3-7 liegt dieses Modell zugrunde.
+
+
+
+2.1 Trennung Gauﬂscher von nicht-Gauﬂschen
+Fluktuationen *
+
+
+Die QCD oder jede andere QFT in der Pfadintegral-Formulierung zu l®osen, ist ®aquivalent
+zur Berechnung der Zustandssumme Z mit externem Quellterm. Dies ist keine einfa-
+che Aufgabe, da man eine unendliche Zahl von Freiheitsgraden zu behandeln hat. Eine
+Art, dieses Problem zu meistern, ist, die Anzahl der Freiheitsgrade durch semiklassische
+Ausintegration der (approximativ) Gauﬂschen Freiheitsgrade zu reduzieren. ®
+Ubrig blei-
+ben die nicht-Gauﬂschen Freiheitsgrade, kollektive Koordinaten genannt, die mit anderen
+Methoden behandelt werden m®ussen.
+
+12
+
+
+2.1. TRENNUNG GAUﬂSCHER VON NICHT-GAUﬂSCHEN FLUKTUATIONEN *13
+
+
+Ich m®ochte mit einer allgemeinen Beschreibung der Separation Gauﬂscher von kollektiven
+Koordinaten beginnen, ohne mich auf eine QFT zu beziehen. Ziel ist es,
+
+Z = dnx e-S[x] (2.1)
+
+zu berechnen, wobei S eine reellwertige Funktion ist, die von einem n dimensionalen
+Vektor x IRn abh®angt. Das Integral sei dominiert durch Werte von x, die in einer
+Umgebung einer k-dimensionalen Unter-Mannigfaltigkeit des IRn liegen, welche durch
+x = f (), IRk parametrisiert sei. Vektoren im Tangentialraum von f() werden
+Nullmoden genannt, da S[x()] in dieser Richtung (nahezu) konstant ist. ®
+Ublicherweise
+beschreibt f () degenerierte oder approximative Minima von S. Weiterhin st®ort es nicht,
+falls f () Punkte enth®alt, die nur wenig zum Integral beitragen ≠ dies verursacht kei-
+nerlei Fehler ≠ aber f () darf keine wichtigen Punkte auslassen. In Abbildung B.1 ist
+ein zwei-dimensionales Beispiel mit einem Fluﬂ (ein-dimensionale Mannigfaltigkeit) mit
+steilen Fluﬂufern und hohen Bergen zu seinen Seiten zu sehen. Das Integral wird von der
+gestrichelten Fl®ache dominiert. Diese Fl®ache kann wie folgt parametrisiert werden:
+
+x = f () + y , x, y IRn , IRk . (2.2)
+Um diese Parametrisierung eindeutig zu machen, m®ussen wir k lineare Zusatz-Bedingun-
+gen an y stellen:
+y∑gi() = ci , 1 i k (2.3)
+Beispielsweise bewirkt ci = 0 und gi() = f ()/i, eine Beschr®ankung von y senkrecht
+zum "Fluﬂ": Es verbietet Fluktuationen in die nicht-Gauﬂschen Nullmoden-Richtungen.
+Jeder Punkt x wird jetzt (zumindest in der Umgebung des Flusses) eindeutig durch ein
+y, das der Nebenbedingung (2.3) gen®ugt, und durch ein mittels (2.2) parametrisiert.
+Nun muﬂ nur noch Z durch den Fluktuations-Vektor y und die kollektiven Koordinaten
+ausgedr®uckt werden. Eine elegante M®oglichkeit besteht darin, eine Faddeev-Popov-Eins
+einzuf®uhren,
+
+1 = dk dny k y∑gi() - ci n f() + y - x (x) (2.4)
+die als Definition von zu verstehen ist. F®ugt man diesen Ausdruck in (2.1) ein und
+integriert ®uber x, so erh®alt man:
+
+Z = dk dny k(y∑gi() - ci) (f() + y) e-S[f()+y] . (2.5)
+
+Die Ausf®uhrung der y-Integration in (2.4) ist trivial:
+
+-1(x) = dk k (x - f( ))gi( ) - ci . (2.6)
+
+F®ur x = f () + y tr®agt die -Funktion im Integral nur f®ur = bei. Daher d®urfen wir
+das -Argument in - linearisieren
+
+-1(f () + y) = dk k (y∑gi() )(
+j
+j - gi()∑f()
+j - j) (2.7)
+j
+
+= |detij (y∑jgi - gi∑jf)|-1
+
+
+14 KAPITEL 2. THEORIE DER INSTANTON-FL ®
+USSIGKEIT
+
+
+mit y∑gi() = ci .
+
+F®ur eine differenzierbare und bijektive Abbildung ist das Vorzeichen der Determinante
+konstant und kann positiv gew®ahlt werden. Ist die Abbildung nicht bijektiv, so werden
+Bereiche des IRn doppelt gez®ahlt, andere wiederum ausgelassen. In der QFT ist dieses
+Ph®anomen unter dem Begriff 'Gribov-Mehrdeutigkeit' [59] oder 'Double-Counting' be-
+kannt. Wir wollen Bijektivit®at lokal in einer Umgebung der durch f () beschriebenen
+Mannigfaltigkeit voraussetzen. Da es in der semiklassischen Approximation nur auf diese
+Umgebung ankommt, spielt eine m®ogliche Mehrdeutigkeit auﬂerhalb einer kleinen Umge-
+bung der Mannigfaltigkeit keine Rolle und die Betragstriche in (2.7) k®onnen weggelassen
+werden.
+
+Durch Einsetzen von in (2.5) erhalten wir
+
+
+Z = dk dny k(y∑gi() - ci) detij (y∑jgi() - gi()∑jf()) e-S[f()+y] . (2.8)
+
+Z kann noch in eine f®ur die semiklassische Approximation geeignetere Form gebracht
+werden, die auch die Analogie zur QFT mehr hervorhebt. Z ist von ci unabh®angig und
+daher ist auch die rechte Seite von (2.8) unabh®angig von ci, obwohl ci explizit erscheint.
+Durch Multiplikation mit
+
+1 = (2)-k/2 dkc e- 1 c2
+2 i i (2.9)
+
+kann die -Funktion gegl®attet werden. Die Determinante kann in der Form
+
+
+detA = d dØ
+eØA (2.10)
+
+
+geschrieben werden, wobei antikommutierende Grassmann Variablen (Geister) sind.
+Durch Einf®ugen von (2.9) und (2.10) in (2.8) und Ausf®uhren der c-Integration erh®alt man
+folgendes Resultat:
+
+
+Z = (2)-k/2 dk dny d dØ
+e-S[f()+y]-Sgf [y,]+SFPG[y,,,Ø] ,
+
+1
+Sgf = yT g () y , (2.11)
+2 i()gT
+i
+i
+
+SFPG = Ø
+i (y∑jgi() - gi()∑jf())j .
+ij
+
+
+F®ur eine global bijektive Transformation ist diese Darstellung der Zustandssumme Z
+immer noch exakt, f®ur eine lokal bijektive Transformation ist sie exakt in jeder Ordnung
+St®orungstheorie, insbesondere in semiklassischer Approximation. An dieser Stelle k®onnten
+nun die (approximativ) Gauﬂschen Freiheitsgrade y, und Ø
+in semiklassischer Approxi-
+mation ausintegriert werden. Die Zustandssumme ist dann nur noch ein Integral ®uber die
+kollektiven Koordinaten. In Abschnitt 2.3 wird dies direkt f®ur die QCD durchgef®uhrt.
+
+
+2.2. EFFEKTIVE QCD-LAGRANGEFUNKTION IM HINTERGRUNDFELD * 15
+
+
+2.2 Effektive QCD-Lagrangefunktion im Hinter-
+grundfeld *
+
+Wir betrachten nun den Fall der QCD:
+
+1
+Z = DAµ e-SY M[A] , SY M [A] = d4x Ga Gµ(x) (2.12)
+4g2 µ a
+
+Die Hintergrund-Konfigurationen, die SY M approximativ minimieren, werden mit Ø
+Aµ()
+bezeichnet. Ein allgemeines Eichfeld kann in der Form
+
+Aµ = ( Ø
+Aµ() + Bµ) , IRk (2.13)
+
+geschrieben werden, wobei Bµ Fluktuationen um den Hintergrund beschreiben und Aµ
+ein eichtransformiertes Feld ist
+
+A = SA
+µ µS + iSµS , S = ei SU(Nc) . (2.14)
+
+Wie im endlich-dimensionalen Fall m®ussen wir diese Darstellung durch zus®atzliche Bedin-
+gungen eindeutig machen. Wir fordern
+
+Dµ( Ø
+A)Bµ(x) = C(x) , (2.15)
+
+um die Eichfluktuationen zu fixieren und
+
+d4x iµ(x; )Bµ(x) = ci , 1 i k (2.16)
+
+um Fluktuationen in Nullmoden-Richtungen zu vermeiden. Die Herleitung einer effekti-
+ven Wirkung ®ahnlich (2.11) erfolgt vollkommen analog zum vorherigen Fall, nur daﬂ die
+Notation jetzt etwas komplizierter ist. Es gibt die folgende Korrespondenz:
+
+endlich-dimensionales Beispiel : i x y i gi (2.17)
+QCD : i, x A B i, (x) iµ
+
+Die Faddeev-Popov Eins hat die Form
+
+
+1 = dk D DBµ Dµ( Ø
+A)Bµ k i B
+µ µd4x ( Ø
+Aµ + Bµ) - Aµ [Aµ] . (2.18)
+
+Die einzelnen Schritte, um einen expliziten Ausdruck f®ur zu erhalten sind folgende:
+
+Versehe , und B mit Strichen, setze A = Ø
+A + B ein, linearisiere das letzte -Argument
+um B = B Integration durch und linearisiere die
+µ µ, f®
+uhre die funktionale Bµ ®
+ubrigen
+-Argumente um = und = 0. Ohne die Details der Rechnung hier zu pr®asentieren,
+erh®alt man [25]
+
+-1( Ø
+A() + B) = dk D k(Xi) (Y ) , (2.19)
+
+
+16 KAPITEL 2. THEORIE DER INSTANTON-FL ®
+USSIGKEIT
+
+
+Ø
+A i ()
+X µ µ
+i = d4x iµ() B
+- µ (j - j) + iµDµ( ØA + B) , (2.20)
+j j j
+
+
+Ø
+A
+Y = D µ
+µ( Ø
+A + B) (
+j - j) + Dµ( Ø
+A)Dµ( Ø
+A + B) . (2.21)
+j j
+
+Aus (2.15), (2.16), (2.20) und (2.21) kann man die Zustandssumme Z ohne weitere Rech-
+nung ablesen:
+
+
+Z = N() dk DBµ D DØ
+k iµBµd4x e-SQCD[ ØA,B,,Ø] , (2.22)
+
+
+
+SQCD = SY M [ Ø
+A + B] - Sgf[ ØA,B] + SFPG[ ØA,B,, Ø] ,
+1
+SY M = d4x Ga Gµ( Ø
+A + B) ,
+4g2 µ a
+1
+Sgf = d4x (D
+2 µ( Ø
+A)Bµ)2 , (2.23)
+
+Ø
+A i ()
+S µ µ
+F P G = Ø
+i d4x i () B
+µ - µ j
+ij j j
+
+Ø
+A
++ d4x Ø
+µ
+iiµDµ( Ø
+A + B)(x) + d4x Ø
+(x)Dµ( Ø
+A + B)
+i j j
+
+
++ d4x Ø
+(x)Dµ( Ø
+A)Dµ( Ø
+A + B)(x) .
+
+
+SQCD ist unabh®angig vom Eichparameter . Aus diesem Grund konnte die -Integration
+in die Definition des Normierungsfaktors N() absorbiert werden. (x) sind die gew®ohn-
+lichen Geist-Felder, deren Ursprung die Eichfixierung ist. F®ur jede weitere Bedingung
+(2.16) erh®alt man zus®atzliche Geist-Variablen i. F®ur Ø
+A = 0 und keine zus®atzliche Bedin-
+gung (k = 0) reduziert sich die obige Wirkung auf die Standard QCD-Wirkung inklusive
+Faddeev-Popov-Geistern in R Eichung
+
+1
+Sgf = d4x (
+2 µBµ)2 , SFPG = d4x Ø
+(x)µDµ(B)(x) . (2.24)
+
+
+Man beachte, daﬂ die Wirkung (2.22) immer noch exakt ist, wobei die nicht-harmonischen
+Freiheitsgrade i nun von den hoffentlich mehr Gauﬂschen Bµ und getrennt sind.
+
+F®ur kleine Kopplung g ist es nun m®oglich, Feynman-Regeln aus (2.23) in Analogie zu
+dem Fall ohne Hintergrund abzulesen. Dazu ist es n®otig den "freien" Gluon-, Geist-
+und Quark-Propagator zu gegebenen Hintergrund Ø
+A zu berechnen. Falls Ø
+A ein nicht-
+konstantes Feld ist, ist selbst das eine sehr komplizierte Aufgabe, im Gegensatz zur
+gew®ohnlichen St®orungstheorie um Ø
+A = 0. F®ur exakte Multi-Instanton-Konfigurationen
+wurden explizite Ausdr®ucke f®ur den Gluon- und Geist-Propagator in [18] hergeleitet.
+
+
+2.3. DER SEMIKLASSISCHE LIMES * 17
+
+
+2.3 Der semiklassische Limes *
+
+
+Anstatt eine formale St®orungstheorie in beliebiger Ordnung zu entwickeln, die aufgrund
+der Komplexit®at der Formeln praktisch unbrauchbar ist, ist es ratsam, sich auf den semi-
+klassischen Limes zu beschr®anken, in dem man nur Terme, die h®ochstens quadratisch in
+den Feldern sind, ber®ucksichtigt. In der QCD (und vielen anderen Feldtheorien) ist dies
+®aquivalent zur St®orungstheorie in niedrigster Ordnung, allerdings um einen nicht-trivialen
+Hintergrund!
+
+Bis jetzt haben wir i noch nicht n
+µ ®aher spezifiziert. Eine nat®urliche Wahl w®are
+iµ = Ø
+Aµ/i, um die Fluktuationen orthogonal zu den Nullmoden zu fixieren. Etwas
+praktischer ist es i in die sogenannte Hintergrundeichung zu transformieren:
+µ
+
+
+Ø
+A
+i µ
+µ = mit so, daﬂ D
+µ( Ø
+A)iµ = 0 . (2.25)
+j
+
+
+Weiterhin wollen wir annehmen, daﬂ Ø
+A die Eich-Wirkung SY M minimiert, d.h. wir ver-
+nachl®assigen die linearen Terme in SQCD. F®ur wohlseparierte Instantonen ist diese An-
+nahme erf®ullt.
+
+Die quadratischen Terme haben folgende explizite Gestalt:
+
+1
+SQCD = SY M [ Ø
+A] + d4x B
+2g2 µKµ( Ø
+A)B + d4x Ø
+(x)D2( Ø
+A)(x)
+
+Ø
+A Ø
+A
++ Ø
+µ µ
+iiµ Ø
+(x)D
+j + d4x µ( Ø
+A) j + O(Feld3) , (2.26)
+ij j j j
+
+
+
+1
+Kµ = -D2µ + 2iGµ + (1 - )D , (F c)
+µD , Gµ = F cGcµ ab = ifacb . (2.27)
+
+F®uhrt man die Gauﬂschen Integrale ®uber die Eichfelder und die Geister aus, so erh®alt man
+eine effektive Wirkung, die nur noch von den kollektiven Koordinaten i abh®angt:
+
+
+Z = dk e-Seff [] (2.28)
+
+
+Ø
+A Det(
+e-S µ
+ef f [] = det -D2( ØA))
+ij i () e-SY M[ Ø
+A] (2.29)
+µ j (Det Kµ( Ø
+A))1/2
+
+Die -Funktion in (2.22) beschr®ankt die Eichfeld-Fluktuationen auf den Raum senkrecht
+zu i . K ist definiert als die Projektion von K . Det
+µ µ µ auf den Raum orthogonal zu iµ
+ist das Produkt aller Eigenwerte von Kµ, ohne die k Nullmoden, die bei der Projektion
+entstanden sind.
+
+
+18 KAPITEL 2. THEORIE DER INSTANTON-FL ®
+USSIGKEIT
+
+
+2.4 Instantonen in der QCD
+
+
+Die L®osungen der klassischen Euklidischen Yang-Mills Bewegungsgleichungen k®onnen
+nach ihrer Topologie N ZZ klassifiziert werden und heiﬂen N Instanton1 L®osungen
+[16]. Die ein-Instanton L®osung hat die wohlbekannte Form [15]:
+
+(x 22
+Aa - zI)
+Iµ(x) = Oab
+I QI in singul
+bµ ®arer Eichung
+(x - zI)2 (x - zI)2 + 2
+2(x
+Aa (x) = Oab-QI - zI) in regul
+Iµ I bµ ®arer Eichung
+(x - zI)2 + 2
+I = (zI, OI, I, QI) = (Ort, Orientierung, Radius, topologische Ladung)
+
+Die Instanton-Parameter I spiegeln die Symmetrien der Lagrangefunktion wider (Trans-
+lation, Rotation, Skaleninvarianz, Parit®at). Es war eine groﬂe Leistung von 't Hooft, die
+Funktional-Determinante im ein-Instanton Hintergrund zu berechnen. Um ein endliches
+Resultat zu erhalten, muﬂ ZI auf den Ø
+Aa = 0 Fall normiert, regularisiert und renormiert
+µ
+werden. Das Ergebnis der sehr aufwendigen Berechnung [17] f®ur die Zustandssumme in
+semiklassischer Approximation ist
+
+Z
+I 1
+= d d4z d D() = V Ø
+D
+Z I D(I ) = I dOI dI D(I ) = V4 4
+0 2
+reg Q 0
+I =±1
+
+C
+D() = Nc S2Nce-S1() = C -5S2Nc()b
+5 0 Nc 0
+
+4.6e-1.679Nc
+CN =
+c 2(Nc - 1)!(Nc - 2)!
+82 82 1
+S0 = , S = b ln , =
+g2 1() = g2() P V
+0 1
+82 1 b 1 1
+S2() = = b ln + ln ln + O( ) ,
+g22() b ln 1
+
+
+
+D() ist die Dichte der Instantonen mit Radius , g1/2() ist die laufende Kopplungskon-
+stante in 1/2-Schleifen Approximation, b = 11N N2. S
+3 c und b = 17
+3 c 0 ist die klassische
+Wirkung eines Instantons und g0 die nackte (unrenormierte) tree-level Kopplungskon-
+stante. Eine Sch®atzung f®ur g0 erh®alt man, indem man g0 durch die laufende Kopplung
+an geeigneter Energieskala ersetzt. Diese ungl®
+uckliche Situation kann vermieden werden,
+indem man den 2-Schleifen Ausdruck f®ur D() verwendet, d.h. S0 durch S1 und S1 durch
+S2 ersetzt. Diese Ersetzung stellt allerdings nur f®ur kleine Kopplung eine Verbesserung
+dar. Wenn die QCD-Skala erreicht, sollte man sich auf eine tree-level oder 1-Schleifen
+Approximation beschr®anken, um brauchbare Resultate zu erhalten, da die St®orungsreihe
+nur asymptotisch konvergent ist.
+
+1In dieser Arbeit werde ich sowohl Instantonen (N > 0) also auch Anti-Instantonen (N < 0) Instan-
+tonen nennen und sie durch ihre topologische Ladung Q = N unterscheiden.
+
+
+2.5. QUARKS 19
+
+
+2.5 Quarks
+
+Zus®atzliche Felder, die eichinvariant an das Gluon-Feld gekoppelt sind, k®onnen einfach
+ber®ucksichtigt werden, indem man deren Wirkung zu SQCD addiert, das Eichfeld A durch
+Ø
+A+B ersetzt und die funktionale Integration ®uber die neuen Felder ausf®uhrt. Jedes Quark
+z.B. gibt einen zus®atzlichen Faktor
+
+DD Ø
+e- dx Ø(iD/+im) = Det(iD
+/ + im) (2.30)
+
+
+zur Zustandssumme Z, wobei
+
+iDµ = iµ + Ø
+Aµ + Bµ (2.31)
+
+die kovariante Ableitung ist. In semiklassischer Approximation kann Bµ auf Null gesetzt
+werden. D() muﬂ mit dem fermionischen Faktor
+
+1.34m(1 + m22 ln(m) + . . .) f®ur m 1
+F (m) := Det(iD
+/ + im) = (2.32)
+1 - 2 + ... f®ur m 1
+75m22
+
+multipliziert werden und b und b sind jetzt
+
+11 2 17 13 1 N
+b = N N N2 N f . (2.33)
+3 c - 3 f , b = 3 c - 3 cNf + 2 Nc
+
+2.6 Das Instanton-Fl®
+ussigkeits-Modell
+
+Die Summe wohlseparierter Instantonen (QI = ±1) ist ebenfalls eine approximative
+L®osung der YM-Gleichungen:
+
+N
+
+A = AI , S[A] NS0
+I=1
+
+Die Zustandssumme dieses sog. Instanton-Gases ist
+
+1
+Z = Z Ø
+N , ZN (V D)N
+N! 4
+N =0
+
+
+Die Summe wird dominiert durch Instanton-Konfigurationen mit der Dichte N/V4 = Ø
+D.
+Ungl®ucklicherweise ist Ø
+D unendlich und die Annahme eines stark verd®unnten Gases er-
+weist sich als falsch. Die Wahrscheinlichkeit kleiner Instantonen ist klein, da D() f®ur
+kleine Abst®ande rasch gegen Null geht. Auf der anderen Seite divergiert D() f®ur groﬂe
+Abst®ande. Dies ist letztendlich eine Folge der wachsenden Kopplungskonstante bei groﬂen
+Abst®anden. Dieses sog. Infrarot-Problem ist der Grund, warum sich viele Physiker von
+der Instanton-Physik abgewendet haben. Es besteht jedoch der folgende Ausweg [27].
+F®ur immer gr®oﬂere Abst®ande f®ullt sich das Vakuum mit mehr und mehr Instantonen
+
+
+20 KAPITEL 2. THEORIE DER INSTANTON-FL ®
+USSIGKEIT
+
+
+wachsender Gr®oﬂe. Auf einer bestimmten Skala bricht die Instanton-Gas-Approximation
+zusammen und man ist gen®otigt die Wechselwirkung zwischen den Instantonen zu ber®uck-
+sichtigen, die, wenn man Gl®uck hat, repulsiv ist und das Instanton-Medium stabilisiert.
+Die Stabilisierung k®onnte bei Abst®anden erfolgen bei denen eine semiklassische Behand-
+lung noch m®oglich ist und f®ur eine Dichte, bei der die Instantonen noch wohlseparierte
+Objekte, d.h. durch die Wechselwirkung noch nicht stark deformiert sind. Diesem Bild
+zufolge, das Instanton-Fl®ussigkeit genannt wird, gibt es einen schmalen Bereich erlaub-
+ter Instanton-Radien. Im Laufe der Jahre wurde dieses Bild immer mehr verfeinert und
+best®atigt:
+
+
+∑ Infrarot-Cutoff [14]
+∑ Hardkugel-Modell [24]
+∑ Variations-Ansatz [25]
+∑ Numerische Studien [27]
+∑ Ph®anomenologie [28]
+
+Der allereinfachste Vorschlag ist, einen Cutoff c einzuf®uhren und groﬂe Instantonen zu
+ignorieren [14]:
+c
+Ø
+D = d D()
+c
+0
+
+Der Cutoff muﬂ so klein gew®ahlt werden, daﬂ der Raumzeit-Bruchteil f , der mit Instan-
+tonen besetzt ist kleiner als 1 ist um das Modell eines verd®unnten Gases zu rechtfertigen
+
+2 c 1
+f = d 24D() < 1
+Nc 0 2
+
+Dieser einfache Cutoff Ansatz kann durch Einf®uhren einer skaleninvarianten Abstoﬂung
+(harte Kugeln), durch die groﬂe Instantonen effektiv unterdr®
+uckt werden, verbessert
+werden [24]. Dieses Vorgehen hat den Vorteil, die Skalen-Ward-Identit®aten zu erhal-
+ten, die durch den einfachen Cutoff-Ansatz verletzt w®urden. In [25] wurde eine derar-
+tige Abstoﬂung tats®achlich gefunden und f®uhrte zu einer ph®anomenologisch akzeptablen
+Packungsdichte. Leider hat sich herausgestellt, daﬂ diese Abstoﬂung ein Artefakt des ein-
+fachen Summen-Ansatzes ist [20]. Folglich ist das Infrarot-Problem immer noch ungel®ost.
+
+Dennoch ist es m®oglich, erfolgreich Vorhersagen zu machen, indem man einfach eine be-
+stimmte Instantondichte und einen Instantonradius annimmt. Das Vakuum scheint durch
+effektiv unabh®angige Instantonen mit Radius = 600 MeV-1 und mittlerem Abstand
+L0 = 200 MeV beschrieben werden zu k®onnen. Die totale Instanton-Dichte wird durch
+das experimentell bekannte Gluon-Kondensat fixiert [13]:
+
+1
+n = N/V4 = 1/L40 = < Ga
+322 µ Gµ
+a >= (200 MeV)4exp. (2.34)
+
+In Kapitel 3 werden wir zeigen, daﬂ diese Relation nicht durch leichte Quarks modifiziert
+wird. Das Verh®altnis L0/ ist in verschiedenen Arbeiten abgesch®atzt worden [25, 27, 29].
+
+(L0/)theor. = 3.0 . . . 3.2 . (2.35)
+
+
+2.6. DAS INSTANTON-FL ®
+USSIGKEITS-MODELL 21
+
+
+Das Instanton-Fl®ussigkeits-Modell ist somit durch folgende Modellannahme f®ur D(I)
+definiert:
+
+D(I) = n(I - ) , n = (200 MeV)4 , = 600 MeV-1 . (2.36)
+Dieses Modell beschreibt sehr erfolgreich die Physik leichter Hadronen. Ausf®uhrlich nu-
+merische Studien finden sich in [27, 28].
+
+In hochenergetischen Prozessen mit Impuls®ubertr®agen p von 1 -10 GeV wird D() meist
+mit einer um p-1 scharf lokalisierten Funktion multipliziert. Das Integral ®uber
+ist nun durch kleine Instantonen dominiert und Infrarot-konvergent. Die Ergebnisse sind
+somit unabh®angig vom Infrarot-Cutoff und es m®ussen keine Modellannahmen gemacht
+werden. Ein ®ahnliches Ph®anomen erm®oglicht es in Kapitel 8 eine Relation zwischen dem
+Quark-Kondensat und der QCD-Skala herzuleiten ohne Modellannahmen machen zu
+m®ussen. Allen anderen Kapiteln liegt das Instanton-Fl®ussigkeits-Modell zugrunde.
+
+
+Kapitel 3
+
+Der Propagator leichter Quarks
+
+
+In diesem Kapitel wird der gemittelte Quark-Propagator im Multi-Instanton-Vakuum
+berechnet. Die in [25] entwickelten Methoden werden um die Hinzunahme dynamischer
+Quark-Schleifen erweitert. Im ersten Abschnitt wird der Instanton-Hintergrund als klassi-
+sche externe St®orung behandelt. Da der Hintergrund aber nicht klein ist (z.B. in der Kopp-
+lungskonstante) m®ussen wir alle Feynman-Graphen aufsummieren. Im Falle eines Quark-
+Flavors ist dies tats®achlich m®oglich in der sog. Nullmoden Approximation. Erm®oglicht
+wird dies durch exakte Ausl®oschung bestimmter Graphen und durch Renormierung der
+Instantondichte. Als Nebenprodukt wird dabei die Frage, ob in Anwesenheit dynamischer
+Quarks das Gluon-Kondensat mit der Instanton-Dichte identifiziert werden darf, positiv
+beantwortet. Das Quark-Kondensat und eine Konstituenten-Quarkmasse werden in Ab-
+schnitt 3.8 aus dem Propagator gewonnen. Im letzten Abschnitt wird gezeigt, daﬂ der Fall
+zweier oder mehrerer Quark-Flavors im Limes Nc auf den Fall eines Quark-Flavors
+reduziert werden kann. Die Resultate des ein-Flavor Falles bleiben also im Rahmen dieser
+zus®atzlichen Approximation weiterhin g®ultig.
+
+
+3.1 St®
+orungstheorie im Multi-Instanton Vakuum *
+
+Es ist allgemein bekannt, wie Korrelatoren in Anwesenheit externer Felder berechnet
+werden, zumindest als St®orungsreihe in Potenzen des externen Feldes Aaµ(x). Im Falle der
+QCD im Instanton-Fl®ussigkeits-Modell ist das externe Feld eine Summe wohlseparierter
+Streuzentren A = A
+I I , die Instantonen genannt werden, einen festen Radius besitzen
+und statistisch unabh®angig und zuf®allig im Euklidischen Raum verteilt sind.
+
+F®
+ur den Anfang werden wir uns auf ein Quark-Flavor beschr®anken und Gluon-Schleifen
+vernachl®assigen. Die Euklidischen Feynman-Regeln haben die folgende Form:
+
+' 1
+= = S
+p/ + im 0 ,
+
+x AI
+' ' = A
+/I . (3.1)
+
+22
+
+
+3.2. EXAKTE STREUAMPLITUDE IM EIN-INSTANTON VAKUUM * 23
+
+
+In Operator Notation,
+
+1
+p|S0|q = -(p
+p/ + im - q) , x|A/I|y = A/I(x)(x - y) , (3.2)
+
+ddp
+-d(∑ ∑ ∑) := (2)d(∑ ∑ ∑) , d-dp := ,
+(2)d
+haben die Graphen die Bedeutung von Ketten bestehend aus einer alternierenden Folge
+von S0 und AI. Um einen Graphen ®uber die Instanton-Parameter I zu mitteln, hat man
+folgende Integration f®ur jedes Instanton auszuf®uhren:
+
+N N 1
+. . . I = d d4z
+V I . . . = I dOI . . . . (3.3)
+4 2 V
+Q 4
+I =±
+
+
+Zum Beispiel '
+E
+x
+
+
+
+tAI x AJ
+' 't ' ' =
+I=J
+
+
+N2
+= - d
+V 2 I dJ p|S0A/IS0A/IS0A/JS0|q Tr(S0A/JS0A/I) . (3.4)
+4
+
+Summation ®uber alle Paare verschiedener Instantonen (I, J) ergibt den Faktor N(N -1)
+N2. Die Quark-Schleife ist die Ursache des Minuszeichens und der Funktional-Spur "Tr".
+
+
+3.2 Exakte Streuamplitude im ein-Instanton Va-
+kuum *
+
+Die St®orungstheorie ist geeignet, um Streuprozesse zu studieren. Um chirale Symmetrie-
+brechung oder Bindungszust®ande zu erhalten, ist es n®otig, eine unendliche Reihe einer
+Unterklasse von Graphen aufzusummieren oder Schwinger-Dyson- oder Bethe-Salpeter-
+Gleichungen zu l®osen.
+
+Als erstes k®onnen wir sukzessive Streuungen an einem Instanton aufsummieren
+
+x AI x AI x AI
+' ' v d
+V ' ' '
+v ' '
+'
+d
+I := ' + ' + ' + . . . ,
+
+
+VI := A/I + A/IS0A/I + A/IS0A/IS0A/I + . . . = S-1
+0 (SI - S0)S-1
+0 (3.5)
+wobei
+SI = (S-1
+0 - A/I)-1 (3.6)
+der Quark-Propagator im ein-Instanton-Vakuum und VI die zugeh®orige exakte Streuam-
+plitude ist.
+
+
+24 KAPITEL 3. DER PROPAGATOR LEICHTER QUARKS
+
+
+3.3 Nullmoden Approximation
+
+Der Quark-Propagator im ein-Instanton-Vakuum hat die Spektraldarstellung
+
+(y)
+(i/ - A/ l(x)
+l
+I )l = ll = x|SI|y = . (3.7)
+l + im
+l
+
+wobei l und l die Eigenwerte bzw. Eigenfunktionen des Dirac-Operators sind. Es gibt
+einen Eigenwert Null iD/I = 0 (Anhang A.2) der den Propagator im chiralen Limes
+singul®ar werden l®aﬂt:
+
+SI = |I I| + SNZM
+im I . (3.8)
+In der sog. Nullmoden Approximation erstzt man den Nicht-Nullmoden-Anteil durch den
+freien Propagator
+' V '
+I
+=SI -S0 |I I| . (3.9)
+im
+
+Obwohl diese Approximation gut f®ur kleine wie auch f®ur groﬂe Impulse ist, kann sie
+schlecht f®ur mittlere Impulse sein. Wichtiger aber ist die Tatsache, daﬂ dies eine wilde
+(unsystematische) Approximation ist, die allgemeine Theoreme wie Ward-Identit®aten ver-
+letzen kann. Im Gegensatz hierzu sind alle anderen Approximationen systematischer Na-
+tur, da sie alle bekannten Symmetrien der QCD respektieren.
+
+
+∑ Semiklassische Approximation (systematisch)
+∑ Multi-Instanton-Vakuum ("systematisch")
+∑ 1/Nc Entwicklung (systematisch) (letzten Abschnitt)
+∑ Nullmoden Approximation (wild)
+
+Man beachte, daﬂ jede Wahl eines Hintergrund-Eichfeldes "systematisch" ist, im Sinne alle
+Symmetrien der QCD zu respektieren, solange ®uber alle Symmetrie-Parameter gemittelt
+wird.
+
+In den folgenden Abschnitten werden wir sehen, daﬂ die Vereinfachungen, die die Nullm-
+oden Approximation mit sich bringt, so groﬂ sind, daﬂ wir auf diesen Vorteil nicht ver-
+zichten k®onnen.
+
+
+
+3.4 Effektiver Vertex im Multi-Instanton-Vakuum
+*
+
+In Abschnitt 3.2 wurde die exakte Streuamplitude im ein-Instanton-Vakuum berechnet
+(VI). In diesem Abschnitt werde ich einen formalen Ausdruck f®ur die exakte Streuampli-
+tude an einem Instanton, welches sich in einem Multi-Instanton-Bad befindet herleiten
+(MI).
+
+
+3.5. EINE WILLKOMMENE AUSL ®
+OSCHUNG * 25
+
+
+Betrachten wir eine Quarklinie mit zweimaliger Streuung an VI, wobei wir zwischen bei-
+den Streuungen eine Reihe von Instantonen einschieben, die verschieden sind von I und
+allen Instantonen, die anderswo im Graphen vorkommen. Dies erm®oglicht eine Mittelung
+der eingeschlossenen Instantonen unabh®angig vom restlichen Graphen. Aufsummation
+aller Einsch®ube dieser Form, die mindestens ein Instanton enthalten, ergibt gerade den
+exakten Quark-Propagator S minus dem freien Propagator S0. Man beachte, daﬂ direkt
+wiederholte Streuung an AI bereits in VI ber®ucksichtigt wurde und somit "verboten" ist.
+
+Wir definieren
+
+' ' ' '
+
+' .
+<
+' .
+< .<
+VI
+V '
+I
+VI
+VI
+V '
+I
+MI :=
+VI + + +...
+.
+< := < - ' = S - S0 (3.10)
+
+
+MI = VI + VI(S - S0)VI + VI(S - S0)VI(S - S0)VI + ...
+= VI + VI(S - S0)MI .
+
+Diese Gleichung kann nach MI aufgel®ost werden, indem wir folgenden Ansatz f®ur MI
+machen:
+1
+MI = S-1
+iµ 0 |I I|S-1
+0 (3.11)
+
+Setzen wir MI und VI in (3.10) ein, so erhalten wir:
+
+1 1 1
+S-1 = (1 + (S (3.12)
+iµ 0 |I I|S-1
+0 im iµ I |S-1
+0 - S0)S-1
+0 |I )S-1
+0 |I I|S-1
+0
+
+
+
+= µ = m + i I|S-1
+0 (S - S0)S-1
+0 |I . (3.13)
+Das Instanton-Bad bewirkt folglich eine Ersetzung der Strom-Masse m durch eine effektive
+Masse µ.
+
+
+
+3.5 Eine willkommene Ausl®
+oschung *
+
+Im folgenden zeigen wir, daﬂ jeder Graph, der ein MI mehr als einmal enth®alt, einen
+Partner besitzt, der diesen kompensiert. Man betrachte einen Graphen , der zwei Streu-
+ungen MI am gleichen Instanton enth®alt. Der uns interessierende Teil des Graphen hat
+die folgende Gestalt:
+
+'
+p M ' q
+I p q r s
+. (q) (s)
+. I (p) I (r)
+. = I I (3.14)
+iµ iµ
+M E ip iq ir is
+I
+s E r
+
+
+26 KAPITEL 3. DER PROPAGATOR LEICHTER QUARKS
+
+
+p/ip sind Farb-/Dirac-Indizes am Quark-Bein mit Impuls p. In einem physikalischen
+Prozess gibt es zus®atzlich zu dem Graphen, der den oben angegebenen Subgraphen enth®alt,
+einen weiteren Graphen, in dem nur zwei Quark-Linien vertauscht sind:
+'
+p '
+p (s) s r (q) q
+∑ ∑ ∑ q
+M I (p)
+I I (r)
+I
+I
+MI = - (3.15)
+iµ iµ
+s E E r ip is ir iq
+Wie immer verursacht die Vertauschung zweier Quark-Linien ein Minuszeichen in der
+Amplitude. Durch einen kurzen Blick auf beide Ausdr®ucke ®uberzeugt man sich, daﬂ sie bis
+auf das Minuszeichen ®ubereinstimmen. Wir erhalten somit eine vollst®andige Ausl®oschung:
+
+' M ' ' '
+I
+...
+
++ MI
+MI = 0
+∑ ∑ ∑
+E
+M E E E
+I
+(3.16)
+
+Wann immer ein MI zwei- oder mehrfach in einem Graphen auftritt, existiert ein weite-
+rer Graph mit umgekehrtem Vorzeichen. Beide Beitr®age heben sich gegenseitig auf und
+k®onnen ignoriert werden. D.h. ein Quark kann an jedem Instanton nur einmal via MI
+streuen. Dies kann man auch auf andere Weise sehen: Aufgrund der Fermi-Statistik kann
+jeder Zustand nur einmal besetzt werden, aber es gibt nur einen Zustand f®ur jedes Quark
+in der Nullmoden Approximation ≠ und zwar die Nullmode.
+
+Es gibt zwei ®aquivalente Formulierungen der Feynman-Regeln:
+
+
+1. Zeichne alle topologisch verschiedenen Graphen, wobei die Ecken nicht nummeriert
+sind, und ordne jedem Graphen einen Symmetriefaktor zu.
+
+2. Zeichne alle topologisch verschiedenen Graphen, wobei die Ecken nummeriert sind,
+und ordne jedem Graphen einen Faktor 1/v! zu, wobei v die Anzahl der Ecken ist.
+
+
+Wenn alle Graphen, die MI enthalten, erlaubt sind, ist es im Rahmen der zweiten Be-
+schreibung nicht schwer zu sehen, daﬂ sie tats®achlich zu Paaren geordnet werden k®onnen.
+
+
+
+3.6 Renormierung der Instanton-Dichte *
+
+Bis jetzt ist die Ausl®oschung noch unvollst®andig, da nicht alle Graphen erlaubt sind.
+Betrachte z.B. E
+MI
+
+..
+
+.
+' '
++ M '
+I
+M '
+I
+M '
+I
+= 0
+verboten verboten
+
+
+3.7. SELBSTKONSISTENZ-GLEICHUNG F ®
+UR DEN QUARK-PROPAGATOR * 27
+
+
+Wie im Falle von VI sind beide Graphen nicht erlaubt. Ein weiteres Beispiel ist
+
+>∑
+
+MI
+..
+
+.
+' '
+< +
+∑ M '
+I
+MI M '
+I
+
+allgemei
+nste = 0
+verboten r Tadpole
+
+
+Es ist eine allgemeine Tatsache, daﬂ verbotene Graphen mit anderen verbotenen Graphen
+oder mit Tadpolen gepaart werden k®onnen und umgekehrt.
+
+Wir m®ussen also irgendwie alle Tadpole-Graphen verbieten. Jedes MI kann mit Tadpolen
+umgeben werden, die als universeller multiplikativer Faktor beitragen, der in eine Umde-
+finition der Instantondichte n absorbiert werden kann. Verwendet man diese renormierte
+Dichte1 nRNc, so ist die Paarung nun perfekt und der Satz "jedes MI tritt nur einmal
+auf" ist jetzt wahr.
+
+Wie man sich graphisch leicht ®uberzeugen kann, muﬂ in Anwesenheit dynamischer Quarks
+diese renormierte und nicht die nackte Instantondichte mit dem Gluon-Kondensat iden-
+tifiziert werden, da die gleichen Tadpole auch im Gluon-Kondensat beitragen. Die oft
+gestellte Frage, ob in Anwesenheit leichter Quarks das Gluonkondensat mit der Instan-
+tondichte identifiziert werden darf, ist in obigem Sinne also mit 'Ja' zu beantworten!
+
+
+
+3.7 Selbstkonsistenz-Gleichung f®
+ur den Quark-
+Propagator *
+
+Quark-Schleifen sind nicht l®anger m®oglich, da sie nicht durch ein gemeinsames Instanton
+mit anderen Teilen des Graphen verbunden werden k®onnen. Alle Graphen, die noch
+Beitragen k®onnen, sind Ketten verschiedener MI s:
+
+' '
+= '
+< + n
+M ' ' ' ' ' ' '
+I + n
+MI n
+MJ + n
+MI n
+MJ n
+MK
+I=J=...
+
+
+Die MI s k®onnen unabh®angig voneinander gemittelt werden
+
+n
+M := i M R
+I I , Mp M(p) := p|M|p = p22(p) . (3.17)
+2µ
+
+ist in Anhang A definiert. Das Ergebnis f®ur den Propagator hat die Form
+
+M M M
+S = S0 + S0 S S S
+i 0 + S0 i 0 i 0 + . . . = (S-1
+0 + M)-1 (3.18)
+
+Noch eine Sache ist zu erledigen: Wir m®ussen die zyklische Abh®angigkeit
+
+1nR ist als renormierte und durch Nc dividierte Dichte definiert!
+
+
+28 KAPITEL 3. DER PROPAGATOR LEICHTER QUARKS
+
+(3.18) S
+n
+
+
+E
+R M c(3.13)
+d
+d
+s µ
+(3.17)
+
+
+
+l®osen. Dies ist einfach, da µ nur eine Zahl ist. Durch Einsetzen von (3.17) und (3.18) in
+(3.13) erh®alt man folgende Gleichung f®ur µ
+
+22(p)M
+µ = m + d-4p p (p2 + m(m + M
+p2 + (m + M p)) (3.19)
+p)2
+
+
+die z.B. numerisch f®ur verschiedene Massen gel®ost werden kann.
+
+
+3.8 Ein wenig Ph®
+anomenologie
+
+Im chiralen Limes reduziert sich (3.19) zu
+
+p44(p)
+µ2 = nR d-4p = n ) (3.20)
+p2 + M2 R2 + O(n2
+R
+p
+
+
+µ2 ist proportional zu nR und somit ist M proportional zu nR. Dies steht im Gegensatz
+zu einer linearen Abh®angigkeit, die man durch eine naive Dichte-Entwicklung erhalten
+w®urde.
+
+Der letzte Ausdruck wurde durch Entwicklung des Nenners in der Dichte gewonnen, wobei
+
+
+= -2 d-4p p24 (p) = 6.6 (3.21)
+sing
+
+
+ist eine universelle Zahl. In Kapitel 8 wird ausf®uhrlich diskutiert, daﬂ f®ur kleine Impulse
+die singul®are und f®ur groﬂe Impulse die regul®are Eichung zu verwenden ist, wobei der
+Grenzbereich bei p 1 liegt. Da das Integral durch Impulse p < 1 dominiert wird,
+muﬂ die singul®are Eichung verwendet werden. F®ur die Standardwerte von nR und erh®alt
+man [25]
+
+µ2 = 6.6n
+0 R2 = (100MeV)2 ,
+M(p = 0) = 7.7nR = 300MeV . (3.22)
+
+Die exakte L®osung von (3.20), die durch numerische Iterationen gewonnen werden kann,
+vergr®oﬂert die Masse um 15%:
+
+M(0) = 345 MeV . (3.23)
+
+Die Impulsabh®angigkeit der Masse ist in Abbildung B.2 gezeigt. Mit gebotener Vorsicht
+kann man m + M(p) als Masse eines Konstituenten-Quarks interpretieren. F®ur hohe
+Energien geht der Ausdruck gegen die Strom-Masse, bei kleinen Impulsen ist die chirale
+Symmetrie gebrochen und das Quark nimmt seine Konstituenten-Masse m + M(0) an.
+
+
+3.8. EIN WENIG PH ®
+ANOMENOLOGIE 29
+
+
+Man beachte, daﬂ dies keine Polmasse, sondern eine virtuelle Masse bei p2 = 0 ist. Man
+sollte vielleicht in diesem Zusammenhang den etwas irref®uhrenden Begriff 'Masse' durch
+'Selbstenergie' ersetzen.
+
+Wir wollen nun eine kleine Strom-Masse, formal von der Ordnung nR, ber®ucksichtigen.
+Die Selbstkonsistenz-Gleichung (3.19) lautet nun
+
+m µ2
+1 = + 0 + O(n
+µ µ2 R) . (3.24)
+
+Aufl®osen nach µ ergibt
+
+1 1
+µ0 µ = m + m2 + µ2
+2 4 0 m + µ0 . (3.25)
+
+F®ur das Strange-Quark ist µ um den Faktor 2 vergr®oﬂert:
+
+µ(ms = 150MeV) = 200MeV (3.26)
+
+Interessanterweise bleibt ms + M(0) unver®andert 300MeV. F®ur Impuls®ubertrag Null wird
+die Verg®oﬂerung der Strom-Masse gerade durch ein gleich groﬂes Schrumpfen der dy-
+namischen Masse M(0) kompensiert. Vermutlich ist die Vernachl®assigung der nicht-
+Nullmoden, die f®ur Strange-Quarks wichtig werden k®onnen, f®ur die ph®anomenologisch zu
+kleine Masse verantwortlich.
+
+Aus dem Propagator kann man das Quark-Kondensat gewinnen
+
+Ø
+:= lim trCD(S(x) - S0(x)) = Nc d-4p trD(S(p) - S0(p)) . (3.27)
+x0
+
+
+In f®uhrender Ordnung in der Dichte erh®alt man
+
+n
+i Ø
+= RNc = Ga Gµ /322µ . (3.28)
+µ µ a
+
+
+Folgende Werte ergeben sich f®ur die Kondensate der u, d und s Quarks:
+
+i Ø
+uu = i Ø
+dd = (250MeV)3 , Ø
+ss = 0.5 Ø
+uu . (3.29)
+
+F®ur schwere Quarks gibt es eine ®ahnliche Relation
+
+i Ø
+= GaµGµ
+a /482m + O(m-3) , (3.30)
+
+die innerhalb einer Genauigkeit von 10% zu demselben Wert f®ur das Strange-Quark-
+Kondensat f®uhrt. Dies best®atigt die Hypothese, daﬂ Strange-Quarks sowohl als leicht,
+wie auch als schwer angesehen werden k®onnen. Diese Hypothese geht in Formeln ein,
+die Ausdr®ucke f®ur schwere an solche f®ur leichte Quarks anpassen (heavy-to-light-quark-
+matching).
+
+
+30 KAPITEL 3. DER PROPAGATOR LEICHTER QUARKS
+
+
+3.9 1/Nc Entwicklung *
+
+Wir wenden uns nun dem Fall von Nf leichten Quark-Flavors u, d, s, . . . zu. Die Diskus-
+sion des ein-Flavor Falles in den vorangegangenen Abschnitten kann bis zur paarweisen
+Ausl®oschung von Graphen, die mehr als ein MI enthalten, kopiert werden. (3.16) ist auch
+im Falle mehrerer Quark-Flavors wahr, solange beide Quark-Linien in (3.16) zum glei-
+chen Flavor geh®oren, denn MI kann nur Quarks gleichen Flavors verbinden. Es gilt also
+der Statz: "Jedes MI tritt pro Flavor nur einmal auf". Von dieser Stelle an bricht die
+Diskussion des ein-Flavor Falles zusammen, da es im Falle mehrerer Flavors Graphen mit
+Quark-Schleifen gibt, die zum Propagator beitragen. Der einfachste neue Beitrag hat die
+Form
+'
+E MJ
+MI
+.
+
+. .
+. ..
+'
+u u u
+M '
+I
+M '
+J
+
+
+Kann dieser Beitrag in irgendeinem Sinne als klein angesehen werden? Dies ist tats®achlich
+der Fall, denn Quark-Schleifen sind mit dem Faktor 1/Nc unterdr®uckt. In st®orungstheo-
+retischem Kontext ist dies ausf®uhrlich in [62] diskutiert, in der Instanton-Physik wurde
+dies zuerst in [25] ausgenutzt. Obwohl 1/3 keine sehr kleine Zahl ist, scheint die 1/Nc
+Entwicklung in vielen F®allen eine gute Approximation zu sein2.
+
+Betrachten wir einen Graphen und f®ugen eine weitere Quark-Schleife hinzu, bestehend
+aus:
+
+N neuen Instantonen S
+S Instanton-Streuungen N .
+
+Dies multipliziert den Graphen (Tabelle 3.1) mit einem Faktor O(N1+N-S). Folgende
+c
+F®alle sind m®oglich:
+
+
+1 + N - S
+= 1 N = S alle Instantonen sind neu
+die Schleife ist unverbunden
+= 0 ein altes Instanton Die Schleife ist ein Tadpole
+< 0 die Schleife ist mindestens mit 1/Nc unterdr®uckt
+
+
+Unverbundene Graphen werden durch Zustandsnormierung eliminiert und Tadpole wur-
+den in die renormierte Instanton-Dichte absorbiert. Quark-Schleifen sind also tats®achlich
+im Limes Nc unterdr®uckt. Zieht man die Nc-Abh®angigkeit aus Tabelle 3.1 erneut
+heran, so sieht man, daﬂ das gleiche Argument auch f®ur Gluon-Schleifen gilt.
+
+2Man beachte, daﬂ auch in der QED die Ladung e = 0.3 nicht klein ist, der tats®achliche Entwicklungs-
+Parameter = e2/4 = 1/137 aber winzig ist.
+
+
+3.10. ZUSAMMENFASSUNG 31
+
+
+
+Parameter nR, , Nc
+Instanton-Dichte n = N/V4 = nRNc (200MeV)4
+Instanton-Radius (600MeV)-1
+Anzahl der Farben Nc = 3
+Gluon-Kondensat GG = GaµGµ
+a /322 =: nRNc
+Quark-Kondensat Ø
+0.39 Nc-1nR (253MeV)3
+Konstituenten-Masse M(p) nR
+Quark-Masse Mquark(0) 7.7 nR 300MeV
+Gluon-Masse Mgluon(0) 12.6 nR 480MeV[40]
+Geist-Masse Mghost(0) 8.9 nR 340MeV[40]
+Meson-Korrelator Ø
+(x) Ø
+(0) trunc. Nc
+Quark-Schleife k' Nc
+Instanton-Streuung kI N-1n-1/2
+c R
+Instanton-Auftreten NcnR
+Gluon-Schleife k N2c-1
+Instanton-Streuung kI (N2c-1)-1
+Tabelle 3.1: Abh®angigkeit verschiedener Gr®oﬂen von den Parametern des Instanton-
+Fl®ussigkeit-Modells nR, , Nc.
+
+3.10 Zusammenfassung
+
+Der Quark-Propagator wurde im Instanton-Fl®ussigkeits-Modell in Nullmoden Approxi-
+mation und in 1/Nc Entwicklung berechnet. Dynamische Quark-Schleifen konnten in
+eine renormierte Instanton-Dichte absorbiert werden, welche mit dem Gluon-Kondensat
+zu identifizieren ist. Im Falle eines Quark-Flavors ist die 1/Nc-Entwicklung exakt. Die
+Werte f®ur die dynamische Quark-Masse und das Quark-Kondensat wurden f®ur up, down
+und strange Quark berechnet. In jeder Ordnung St®orungstheorie sind dynamische Quark-
+Schleifen f®ur alle Prozesse im Limes Nc unterdr®uckt. F®ur den Quark-Propagator
+bleibt diese Tatsache ®uber die St®orungstheorie hinaus g®ultig. Im n®achsten Kapitel werden
+wir sehen, daﬂ es in Meson-Korrelatoren nicht-unterdr®uckte Quark-Schleifen gibt.
+
+
+Kapitel 4
+
+Vier-Punkt-Funktionen
+
+
+In diesem Kapitel werden die Korrelatoren von vier Quark-Feldern im Instanton-
+Fl®ussigkeits-Modell in Nullmoden Approximation berechnet. Von besonderer Bedeutung
+ist dabei die Beobachtung, daﬂ in f®uhrender Ordnung in 1/Nc nicht alle Quark-Schleifen
+unterdr®uckt sind. Aufsummation aller Graphen f®uhrt in Abschnitt 4.2 auf Bethe-Salpeter-
+Gleichungen, die in Abschnitt 4.3 gel®ost werden. In Abschnitt 4.4 werden die Ergebnisse
+f®ur die verbundenen und freien Flavor-Singulett und -Triplett-Korrelatoren zusammenge-
+stellt.
+
+
+
+4.1 Einf®
+uhrung
+
+Im letzten Kapitel haben wir effektive Feynman-Regeln in der Nullmoden Approximation
+hergeleitet:
+' 1
+= = S
+p/ + im 0(p)
+
+
+' 1
+p M ' q
+I
+= p/ (q)q/
+iµ I (p)
+I
+
+
+
+Ein Quark eines bestimmten Flavors kann nur einmal am Instanton I via MI streuen.
+Tadpole-Graphen sind nicht erlaubt, sie sind in der renormierten Instanton-Dichte nR
+absorbiert, die zu benutzen ist, wenn ®uber die Instantonen gemittelt wird. Im Falle des
+Quark-Propagators sind dynamische Quark-Schleifen im Limes Nc unterdr®uckt und
+µ kann mittels (3.19) bestimmt werden. Im chiralen Limes haben wir
+
+µ2 = 6.6nR2 + O(n2 ) (4.1)
+R
+
+
+gefunden. In diesem Kapitel werden wir die 4-Punkt-Funktionen im Falle zweier Quark-
+Flavors gleicher Masse im Limes Nc in der Nullmoden Approximation berechnen:
+p < < q
+-(p - s + r - q) (p,s,q,r) = = (4.2)
+s > > r
+
+
+32
+
+
+4.2. 1/NC APPROXIMATION * 33
+
+
+= - dxdydzdw ei(py-qz+rw-sx) 0|T Ø(x)(y) Ø(z) (w)|0 .
+Das -Feld steht f®ur u und d Quark-Felder in beliebiger Kombination und =
+(11D, µ, µ, µ5, 5) ist eine der 16 Dirac-Matrizen. Ohne Einschr®ankung der Allgemein-
+heit betrachten wir nur Farb-Singulett-Korrelatoren. Die 4-Punkt-Funktionen k®onnen
+zum Studium von Meson-Korrelatoren (Kapitel 5) und Quark-Formfaktoren (Kapitel
+6) verwendet werden.
+
+
+
+4.2 1/Nc Approximation *
+
+Der allgemeinste Graph, der zum Quark-Propagator beitr®agt, ist nach den Regeln aus
+Abschnitt 4.1, eine Folge verschiedener Instantonen MI. Analog besteht der allgemeinste
+Graph eines Flavor-Triplett-Korrelators (Ø
+ud)( Ø
+du) aus zwei Quark-Propagatoren, wobei
+jeder Propagator jedes Instanton nur einmal enth®alt, z.B.
+
+'
+u u
+M
+M
+M
+M ' ' ' '
+J
+p M ' q
+I K L M
+. ..
+d
+. ...
+..
+M
+M
+M E E Ed
+P
+M
+M E E
+I
+s E N K M r
+
+Die linke und rechte Seite des Graphen bilden Farb-Singuletts nach Voraussetzung. Nicht-
+gemeinsame Instantonen k®onnen wie im Propagator-Fall gemittelt werden. Dies f®uhrt zu
+Graphen der Form u u
+<
+MI < MK < MN <
+.
+.
+.
+. . .
+d
+. . .d
+>
+MI> MK >
+M
+N >
+(4.3)
+
+wobei die fetten Linien mit groﬂem Pfeil f®ur den exakten Propagator stehen
+
+' '
+= '
+< + n
+M ' ' ' ' ' ' '+ . . .
+I + n
+MI n
+MJ + n
+MI n
+MJ n
+MK
+I=J=...
+
+
+Es kann gezeigt werden, daﬂ nicht-planare Graphen, wie
+
+u u
+<
+M
+N <
+MI<
+∑ ∑ ∑
+d
+∑ ∑d
+>
+MI>
+M
+N >
+
+
+
+mit 1/Nc unterdr®uckt sind, wieder unter der Voraussetzung, daﬂ die linke und rechte Seite
+Farb-Singuletts bilden. Folglich k®onnen nur die in (4.3) gezeigten Leiter-Diagramme zum
+Triplett-Korrelator beitragen.
+
+
+34 KAPITEL 4. VIER-PUNKT-FUNKTIONEN
+
+
+Man k®onnte meinen, daﬂ der gemischte Korrelator (Ø
+uu)( Ø
+dd) Null ist, da die Graphen
+notwendigerweise Quark-Schleifen enthalten, oder daﬂ vielleicht nur der zwei-Schleifen
+Graph beitr®agt. Dies ist jedoch nicht der Fall! Lassen Sie mich zuerst das Resultat ange-
+ben und es anschlieﬂend diskutieren: Graphen, die zum gemischten Korrelator beitragen
+sind Ketten von Quark-Schleifen
+
+u d u d
+< < < <
+
+
+MI
+MI
+∑ ∑ ∑
+MJ
+MJ
+∑ ∑ ∑
+M
+K
+M
+K
+∑ ∑ ∑
+> > > >
+u d u d (4.4)
+
+
+Abz®ahlen der Nc-Potenzen zeigt, daﬂ diese Kette von der Ordnung 1/Nc ist. Nach
+Ausf®uhrung der Farb-Spur auf der linken und der rechten Seite von (4.4), sehen wir,
+daﬂ der gemischte Korrelator von der Ordnung Nc ist. Formel (3.16) zeigt, daﬂ der
+Triplett-Korrelator von derselben Ordnung ist.
+
+Was ist in diesem Zusammenhang falsch an der im letzten Kapitel gezeigten Un-
+terdr®uckung von Quark-Schleifen? Eine wesentliche Annahme war, daﬂ jeder Graph,
+der eine Quark-Schleife enth®alt, aus einem Graphen konstruiert werden kann, der diese
+Schleife nicht enth®alt, indem diese Schleife einfach hinzugef®ugt wird. Elimiert man eine
+Schleife aus der Kette in (4.4) erh®alt man einen unverbundenen Graphen. Da wir nur
+die verbundenen 4-Punkt-Funktionen betrachten, kann die Kette folglich nicht auf eine
+Weise konstruiert werden, die n®otig w®are, um die Unterdr®uckung von Quark-Schleifen zu
+beweisen.
+
+Im Spezialfall von Meson-Korrelatoren (Kapitel 5) kann man auch einen anderen Stand-
+punkt einnehmen. Der unverbundene zwei-Schleifen-Beitrag ist von der Ordnung N2, der
+c
+allerdings (auﬂer im skalaren Fall) Null ist. Folglich ist die Schleifen-Kette kein f®uhrender
+Beitrag in Nc und nichts wurde bisher ®uber nicht-f®uhrende Beitr®age gezeigt.
+
+Auf der anderen Seite kann man alle verbundenen Graphen durch Hinzuf®ugen weiterer
+Instantonen und Schleifen zu (4.4) konstruieren -- aber nun zeigt ein Abz®ahlen der Nc-
+Potenzen, daﬂ jeder Versuch in einer 1/Nc Unterdr®uckung endet. Folglich ist obige Kette
+der allgemeinste Graph in f®uhrender Ordnung.
+
+Die gleichen Argumente gelten f®ur den ( Ø
+dd)( Ø
+dd) Korrelator, nur daﬂ die Kette (4.4) mit
+d startet.
+
+Um die 4-Punkt-Funktionen zu erhalten, m®ussen die Ketten gemittelt und aufsummiert
+werden. Alternativ kann dies in rekursiver Form, meist Bethe-Salpeter-Gleichung ge-
+nannt, geschrieben werden:
+
+u u u u u u u
+< < <
+MI < < MI < <
+.
+.
+G = . + .
+
+.
+. G
+> > > M I
+I > > MI > >
+d d d
+d d
+d d
+
+
+4.3. L ®
+OSUNG DER BETHE-SALPETER-GLEICHUNG * 35
+
+
+u d u d u d d
+< < < < < < <
+
+H =
+MI
+MI
+∑ ∑ ∑ +
+MI
+MI
+∑ ∑ ∑ K
+> > > > > > > I
+u d u d u d d (4.5)
+
+
+d d d u d
+< < < < <
+
+K =
+MI
+MI
+∑ ∑ ∑ H
+> > > > > I
+d d d u d
+
+
+
+4.3 L®
+osung der Bethe-Salpeter-Gleichung *
+
+Als erstes m®ussen wir den Integralkern der BS-Gleichung bestimmen. Die linke Seite des
+Integralkerns bildet immer ein Farb-Singulett, da nur Farb-Singulett-Korrelatoren be-
+trachtet werden. Im folgenden wird in singul®arer Eichung, die f®ur kleine Impulse geeignet
+ist, gearbeitet (Kapitel 8).
+Kontraktion der Farb- und Dirac-Indizes auf der linken Seite und Verwendung der Formeln
+aus Anhang A.2 und A.3 ergibt
+
+p q
+1
+MI... = r/ (s)s/p/ (q)q/
+(iµ)2 I (r)
+I I (p)
+I I = (4.6)
+s M I
+I
+r
+n 1 1
+= - Rp(p)q(q)r(r)s(s)-(p ± 5 ± 5 .
+µ2 - s + r - q) trD 2 2 ±
+
+
+Der Integralkern lautet folglich
+p M q p q
+I
+p q .. MI
+∑ ∑ ∑
+MI
+.
+1 := = - s =
+s M I I
+I
+s r r r
+
+1
+= - M ir + ip ir p r . (4.7)
+n pMqMrMs
+-(p - s + r - q) ipis iq 5 i 5
+s iq s q
+RNc
+
+
+Das Ergebnis ist proportional zur nicht-lokalen Version des 't Hooft Vertex zwischen Farb-
+Singulett-Zust®anden.
+
+Die L®osung der BS-Gleichung hat eine ®ahnliche Struktur wie der Integralkern:
+
+
+36 KAPITEL 4. VIER-PUNKT-FUNKTIONEN
+
+
+
+
+p q
+1
+A := - M
+n pMqMrMs
+-(p - s + r - q) (4.8)
+s r RNc
+A0(t)ip ir + A ir p r .
+is iq 5(t)ip
+5 i 5
+s iq s q
+
+
+A0 und A5 sind skalare Funktionen, die nur von t = p - s = q - r abh®angen. Der Beweis
+ist einfach: Der Integralkern ist von der Struktur (4.8) mit A0 = A5 = 1 und das Produkt
+zweier Vertices f®uhrt auf dieselbe Struktur.
+
+
+p < q p q
+A B = AF B =
+s > r s r
+
+
+
+1
+= - M
+n pMq MrMs
+-(p - s + r - q) (4.9)
+RNc
+
+A0F0B0(t)ip ir + A ir p r ,
+is iq 5F5B5(t)ip
+5 i 5
+s iq s q
+
+
+
+1
+F0(t) = - (dpds) M
+n pMstrD(S(p)S(s)) , (4.10)
+R
+1
+F5(t) = - (dpds) M
+n pMstrD(S(p)5S(s)5) , (4.11)
+R
+
+
+
+(dpds) := d-pd-s -(p - s - t) .
+
+Mit anderen Worten, Vertices der Struktur (4.8) bilden eine geschlossene Algebra. Der
+Grund f®ur dieses einfache Resultat ist, daﬂ der Integralkern eine einfache Produktfunktion
+ist, abgesehen von der impulserhaltenden -Funktion.
+
+Mittels (4.7), (4.8) und (4.9) reduziert sich die BS-Gleichung (4.5) auf primitive algebrai-
+sche Gleichungen f®ur G0/5(t), H0/5(t) und K0/5(t):
+
+G0/5(t) = 1 + F0/5(t)G0/5(t) ,
+H0/5(t) = -1 - F0/5(t)K0/5(t) ,
+K0/5(t) = -F0/5(t)H0/5(t) ,
+mit der L®osung
+1 1 F
+G = , H = , K = (4.12)
+1 - F -1 -F2 1 - F2
+wobei der Index 0 bzw. 5 und das Argument t unterdr®uckt wurden.
+
+
+4.4. TRIPLETT- UND SINGULETT-KORRELATOR * 37
+
+
+4.4 Triplett- und Singulett-Korrelator *
+
+Aufgrund der Isospin-Symmetrie bilden Mesonen Tripletts und Singuletts. Ersetzt man
+Ø
+in (4.2) durch entsprechende Triplett- and Singulett-Kombinationen (wobei wir uns
+die Notation des pseudoskalaren Korrelators borgen)
+
+1 1
+0 = (Øuu (Ø
+uu + Ø
+dd), (4.13)
+2 - Ødd), + = Øud, - = Ødu, = 2
+
+so gilt
+
+u u u d d u d d
+
+0 Ct 0 = 1 K + K
+2 - H - H
+u u u (4.14)
+d d u d d
+
+
+Folglich ist Ct = K - H = 1 . Dies stimmt mit G = 1 f®ur den geladenen Triplett-
+1-F 1-F
+Korrelator (±)(±) ®uberein -- wie es sein muﬂ. Im Singulett Fall erhalten wir Cs =
+K + H = - 1 .
+1+F
+
+Die Verallgemeinerung auf Nf Flavors bringt keinerlei Schwierigkeiten mit sich. F®ugt man
+Propagatoren in (4.8) an die externen Beine an, so erhalten wir unser Endergebnis f®ur die
+verbundenen 4-Punkt-Funktionen
+
+
+
+N
+conn(p, s, q, r) = c M
+-n pMqMrMs C0(t)trD(S(s)S(p))trD(S(q)S(r)) +
+R
+C5(t)trD(S(s)S(p)5)trD(S(q)S(r)5) (4.15)
+
+
+N
+Cs (t) = f - 1 f
+0/5 - ®
+ur den Singulett-Korrelator (4.16)
+(Nf - 1)F0/5(t) + 1
+1
+Ct0/5(t) = - f®ur nicht-Singulett-Korrelatoren
+F0/5(t) ± 1
+F0/5(t) sind in (4.10) definiert. Korrelatoren gemischter Flavor-Struktur, wie z.B. zwischen
+einem Singulett- und einem Triplett-Strom, sind wie zu erwarten Null.
+
+Der Vollst®andigkeit halber geben wir noch die Formeln f®ur die unverbundenen Anteile der
+4-Punkt-Funktionen an. Folgende Graphen k®onnen, abh®angig von der Flavorstruktur,
+beitragen:
+
+
+p < q
+
+= NctrD(S(p) S(s))-(p - q)-(r - s)
+s > r
+(4.17)
+p q
+
+=
+-N2trD(S(p))trD( S(q))-(p - s)-(q - r)
+
+
+38 KAPITEL 4. VIER-PUNKT-FUNKTIONEN
+
+
+
+
+
+Man beachte, daﬂ der zweite zwei-Schleifen-Term von der Odnung N2c ist. In den meisten
+Anwendungen f®allt dieser Term heraus oder tr®agt als uninteressante Konstante bei.
+
+F®ur den Nicht-Singulett und Singulett Fall erh®alt man:
+
+-(p - s + q - r)free(p,s,q,r) = (4.18)
+
+
+
+0 f®ur Nicht-Singulett
+= NctrD(S(p) S(s))-(p - q)-(r - s) + Nf ∑(4.17b) f®ur Singulett
+
+4.5 Zusammenfassung
+
+Die 4-Punkt-Quark-Korrelatoren wurden im Instanton-Fl®ussigkeits-Modell in Nullmoden
+Approximation und in 1/Nc Entwicklung berechnet. Die 1/Nc Entwicklung ist der Ersatz
+f®ur die Dichte-Entwicklung, die in Anwesenheit leichter Quarks versagt. Die Arbeit [25]
+wurde um die Hinzunahme dynamischer Quarks erweitert. Im Gegensatz zur urspr®ung-
+lichen "st®orungstheoretischen" 1/Nc Entwicklung [62] sind nicht alle Quark-Schleifen un-
+terdr®uckt. Im Flavor-Singulett-Meson-Korrelator ®uberlebt eine Kette von Quark-Schleifen
+den Nc Limes. Die hier gewonnenen Ausdr®ucke f®ur die 4-Punkt-Funktionen werden
+im folgenden Kapitel diskutiert.
+
+
+Kapitel 5
+
+Korrelatoren leichter Mesonen
+
+
+Die Meson-Korrelatoren, auch Polarisationsfunktionen genannt, enthalten Information
+®
+uber das Meson-Spektrum der QCD. Pole bei p2 = m2 zeigen die Existenz von Meso-
+nen der Masse m an. Mit den im Instanton-Fl®ussigkeits-Modell berechneten 4-Punkt-
+Funktionen (Kapitel 4) stehen uns auch die Meson-Korrelatoren analytisch, bis auf Inte-
+gration, zur Verf®ugung (Abschnitt 5.1). In Abschnitt 5.2 werden diese kurz diskutiert, wo-
+bei der pseudoskalare Kanal von besonderem Interesse ist. Aufgrund der chiralen Symme-
+triebrechung gibt es im Triplett-Kanal masselose Goldstone-Bosonen, im Singulett-Kanal
+hingegen nicht, da Instantonen die U(1)A-Symmetrie explizit brechen. Beide Ph®anomene
+besitzen ein Analogon in der Supraleitung. Um die Meson-Massen zu berechnen, wird in
+Abschnitt 5.3 ein Ansatz f®ur das Meson-Spektrum gemacht. Vergleich der theoretischen
+Kurve mit diesem Ansatz in Abschnitt 5.4 erm®oglicht die Bestimmung der Massen der
+leichtesten Mesonen in den verschiedenen Kan®alen. Die Auswertung der Integrale und
+der Angleich erfolgen numerisch.
+
+
+
+5.1 Analytische Ausdr®
+ucke
+
+Im letzten Kapitel haben wir einige Quark-vier-Punkt Funktionen berechnet (4.2). Die
+Meson-Korrelatoren sind lokale Versionen dieser Vertices und k®onnen einfach gewonnen
+werden, indem man x = y und z = w setzt. Im Impulsraum haben die Meson-Korrelatoren
+im Falle zweier Quark-Flavors (Nf = 2) die Form
+
+
+< <
+
+(t) = f ree(t) + conn(t) = K
+
+= (5.1)
+> >
+= (dpds) (dqdr)(p, s, q, r) = - dxeitx 0|T j(x)j (0)|0 ,
+1 1
+js/t(x) = (Ø
+uu(x) (0) = (Ø
+u u(0)
+2 ± Ødd(x)) , js/t
+2 ± Ød d(0)) ,
+
+(dpds) = d-pd-s -(p - s - t) , (dqdr) = d-qd-r -(q - r - t) ,
+
+39
+
+
+40 KAPITEL 5. KORRELATOREN LEICHTER MESONEN
+
+
+t = p - s = q - r .
+Durch Einsetzen der im letzten Kapitel berechneten vier-Punkt-Funktionen erh®alt man,
+bis auf Integration, analytische Ausdr®ucke f®ur die Meson-Korrelatoren. Die folgende Liste
+ist eine Zusammenfassung aller Formeln, die zur Berechnung der Meson-Korrelatoren
+ben®otigt werden:
+
+free(t) = N
+c (dpds) trD(S(p) S(s)) ,
+
+conn(t) = (t)0 (t) + C (t)5 (t)) , (5.2)
+-Nc(C0(t)0 5(t)5
+
+1 + f®ur den Singulett-Korrelator
+C0/5(t) = - ,
+F0/5(t) ± 1 - f®ur den Triplett-Korrelator
+1
+0 (t) = (dpds) M
+n pMstrD(S(p)S(s)) ,
+R
+1
+5(t) = (dpds) M
+n pMstrD(S(p)S(s)5) ,
+R
+
+F0(t) = -1 (dpds) M
+n pMstrD(S(p)S(s)) ,
+R
+
+F5(t) = -1 (dpds) M
+n pMstrD(S(p)5S(s)5) ,
+R
+1 n
+S(p) = , M R p22
+p/ + i(m + M p = sing(p) ,
+p) 2µ
+
+psing(p) = 2z [I
+z 0(z)K0(z) - I1(z)K1(z)]z=p/2 ,
+22 (p)Mp
+µ = m + d-4p sing (p2 + m(m + M
+p2 + (m + M p)) , (5.3)
+p)2
+
+nRNc = (200MeV)4 , = (600MeV)-1 .
+
+
+5.2 Analytische Ergebnisse
+
+F®uhrt man die Dirac-Spur aus, so gelangt man zu folgenden Ausdr®ucken:
+
+4 M ~
+M
+F pMs(±(ps) - ~
+Mp s)
+0/5(t) = - (dpds) ,
+nR (p2 + ~
+M2)(s2 + ~
+M2)
+p s
+4 M ~
+pMs( Ms)
+0/5(t) = (dpds) ±(ps) - ~Mp , (5.4)
+1/5 nR (p2 + ~
+M2)(s2 + ~
+M2)
+p s
+
+4i MpMs( ~
+Mpsµ
+5 (t) = (dpds) - ~Mspµ) ,
+µ5 nR (p2 + ~
+M2)(s2 + ~
+M2)
+p s
+~
+Mp = m + Mp
+
+Alle anderen Vertizes sind Null. Betrachte den ein-Instanton-Vertex (4.7) (den Inte-
+gralkern). Er tr®agt nur zum skalaren und pseudoskalaren Korrelator bei. Schon aus dieser
+
+
+5.3. SPEKTRAL-DARSTELLUNG 41
+
+
+Beobachtung kann man vorhersagen, daﬂ der verbundene Teil aller anderen Kan®ale klein
+ist, da ein potentieller Beitrag ein Multi-Instanton-Effekt sein muﬂ. In der Tat sind die ver-
+bundenen Vektor- und Tensor-Korrelatoren identisch Null. Aufgrund eines Extra-Faktors
+M nR im Z®ahler von 5 ist der verbundene Teil des axialen Korrelators mit O(n
+µ5 R)
+unterdr®uckt. Folglich ist dieser Beitrag klein und wird im folgenden vernachl®assigt.
+
+Weiterhin werden wir uns auf den chiralen Limes beschr®anken und setzen im folgenden
+m = 0. Mithilfe der Selbstkonsistenz-Gleichung (5.3) sieht man, daﬂ
+
+F5(t = 0) = 1 (5.5)
+
+Dies verursacht einen Pol bei t = 0 im pseudoskalaren Triplett-Korrelator wegen des
+Faktors F5(t) - 1 im Nenner von (5.2) und erzeugt die masselosen Goldstone-Pionen,
+welches man im chiralen Limes erwartet. Eine ausf®uhrlichere Diskussion kann in [25]
+gefunden werden. Im Gegensatz hierzu ist im Singulett-Korrelator das Minuszeichen
+durch ein Pluszeichen ersetzt und man erh®alt in diesem Kanal kein Goldstone-Boson, d.h.
+das (zwei-Flavor) Meson ist massiv! Ungl®ucklicherweise k®onnen wir auf diese Weise
+die Masse nicht zuverl®assig vorhersagen, da der Integralkern in diesem Kanal stark
+abstoﬂend ist und sich kein Bindungszustand ausbildet (vgl. Abschnitt 6.1). Andere
+attraktive Kr®afte m®ussen vorhanden sein, z.B. Confinement-Kr®afte, um ein zu formie-
+ren. Etwas ®ahnliches geschieht im skalaren Triplett-Kanal () (vergleiche Abbildung B.4
+und B.5). Tats®achlich sind die experimentellen Massen von und entartet. Das Feh-
+len eines masselosen pseudoskalaren Singulett-Mesons ist eine bedeutende Vorhersage der
+Instanton-Physik und tr®agt entscheidend zur L®osung des U(1)A-Problems bei.
+
+Beide Ph®anomene haben ihr Analogon in der BCS-Theorie der Supraleitung als masse-
+lose Exzitonen bzw. massive Plasma-Oszillationen. Sowohl die Ph®anomene als auch die
+Struktur der Rechnung lassen sich nahezu 1:1 aufeinander abbilden. Dem 't Hooft Ver-
+tex entspricht die Phonon-Elektron-Wechselwirkung. Weitere Parallelen lassen sich der
+Tabelle 5.1 entnehmen. Eine Einf®uhrung in die BCS-Theorie findet sich in [60].
+
+Eine interessante Feststellung ist, daﬂ in f®uhrender Ordnung in der Instanton-Dichte
+F0(t) = -F5(t) gilt, was zu einem masselosen Pol im skalaren Singulett-Korrelator f®uhrt.
+Numerisch stellt sich das -Meson in der Tat als sehr leicht heraus. Experimentell scheint
+ein leichtes skalares Singulett-Meson nicht ausgeschlossen werden zu k®onnen.
+
+
+5.3 Spektral-Darstellung
+
+Um ph®anomenologische Information aus den Meson-Korrelatoren zu ziehen, machen wir
+Gebrauch von der Spektraldarstellung
+
+
+(p) = d4x eipx 0|T j(x)j (0)|0 = d2 D(, x)(2) (5.6)
+0
+
+wobei
+(p2) = (2)3 4(p - qn) 0|j(0)|n n|j (0)
+|0 (5.7)
+n
+
+
+42 KAPITEL 5. KORRELATOREN LEICHTER MESONEN
+
+
+
+
+
+Instantonen in der QCD BCS-Theorie
+
+Ph®anomen Chirale Symm.-Brechung Supraleitung
+Bindungszust®ande . . . Ø
+qq-Paare=-Mesonen e-e--Paare=Cooper-Paare
+geb. durch attraktive . . . instanton-induzierte Phonon-Elektron-
+'t Hooft Wechselwirkung Wechselwirkung
+< I < < <
+. .
+. .
+.
+
+...
+> .
+I
+> > >
+im . . . pseudo-skalaren Kanal skalaren Kanal
+Ordnungsparameter Quark-Kondensat Dichte supraleitender Elek-
+Ø
+tronen (Cooper-Paare)
+Spontane Brechung der chiralen Symmetrie Eich-Symmetrie
+f®uhrt zu . . . Goldstone-Bosonen = Exzitonen =
+masselose Pionen masselose Dichte-Flukt.
+Vakuum-Polrisations- < #
+<
+J
+I
+∑ ∑ ∑
+Diagramme machen die
+masselosen Anregungen ∑∑∑ ∑ ∑ ∑ ∑ ∑ ∑
+>
+massiv im flavor Singulett-Fall f®ur die C "
+>
+oulomb!
+-WW
+= massives = massive Plasma-Osz.
+Tabelle 5.1: Analogie zwischen chiraler Symmetrie-Brechung in der QCD und der BCS-
+Theorie der Supraleitung
+
+
+5.3. SPEKTRAL-DARSTELLUNG 43
+
+
+die Spektraldichte und
+
+e-ipx 1
+D(m, x) = d-4p = (mx)K
+p2 + m2 42x2 1(mx) (5.8)
+
+der freie Propagator zur Masse m in Ortsdarstellung sind. Wir werden im Ortsraum dar-
+stellen, um einen Vergleich mit der Gitter-QCD und numerischen Studien zur Instanton-
+Fl®ussigkeit [28] zu erm®oglichen.
+
+Das Spektrum besteht aus mesonischen Resonanzen und Kontinuum-Beitr®agen. Ist man
+nur an den Eigenschaften der ersten Resonanz interessiert, so kann man den Rest des
+Spektrums durch das st®orungstheoretisch berechnete Kontinuum ersetzen.
+
+Man k®onnte der Meinung sein, daﬂ der unverbundene Teil der Korrelatoren nur zum
+Kontinuum beitr®agt und der verbundene Teil Information ®uber die Bindungszust®ande
+enth®alt, aber dies ist nicht generell der Fall. Auf der einen Seite besitzt die Bethe-Salpeter-
+Gleichung gebundene wie auch Kontinuums-L®osungen. Betrachten wir auf der anderen
+Seite eine Theorie mit einer schwachen attraktiven Wechselwirkung zwischen Teilchen der
+Masse m. Es ist klar, daﬂ in der freien Schleife nur ein Schnitt oberhalb 2m und kein Pol
+eines Bindungszustandes auftritt. In der exakten Polarisations-Funktion wird allerdings
+nur ein kleiner Teil des Kontinuums in einen Pol knapp unterhalb von 2m verwandelt.
+Der Euklidische Korrelator wird dadurch kaum beeinfluﬂt. Nimmt man nun eine schwache
+Attraktion, d.h. die Formierung eines Bindungszustandes an, so kann man dessen Masse
+bereits aus dem unverbundenen Beitrag extrahieren. Nat®urlich ist in diesem einfachen
+Beispiel jede Rechnung unn®otig. Es ist klar, daﬂ der Bindungszustand eine Masse von
+ungef®ahr 2m hat mit Fehlern von der Gr®oﬂenordnung der Wechselwirkung.
+
+Nimmt man an, daﬂ alle bisher vernachl®assigten Kr®afte in der QCD, insbesondere
+st®orungstheoretische Korrekturen, klein und attraktiv im Vektor- und Axialvektor-Kanal
+sind, so k®onnen wir die Massen der Bindungszust®ande bestimmen, obwohl im Rahmen
+unserer Approximation kein verbundener Teil existiert. Im Gegensatz zu obigem Beispiel
+sind die Verh®altnisse hier weniger trivial, da die Quarks keine scharfe Polmasse besitzen.
+Wir m®ussen den Korrelator also inspizieren, um die Meson-Massen zu extrahieren.
+
+Beginnen wir mit dem skalaren und dem pseudoskalaren Korrelator. Das leichteste Meson
+der Masse m ist mit der St®arke
+
+= 0|j1/5(0)|p . (5.9)
+an den Strom gekoppelt. Der Rest des Spektrums wird durch den Kontinuum-Beitrag
+oberhalb der Schwelle E angen®ahert. * bedeutet , , oder (Tabelle 5.2).
+E ist typischerweise von der Ordnung 1.5 GeV. Somit kann das Kontinuum mittels
+St®orungstheorie berechnet werden. Unser Ansatz f®
+ur das Spektrum hat die Form
+
+3s
+1/5(s) = 2(s ) + (s ) . (5.10)
+- m2 82 - E2
+Einsetzen der Spektraldichte in (5.6) ergibt
+
+fit (x) = 2D(m
+1/5 , x) + E(E, x) , (5.11)
+
+
+44 KAPITEL 5. KORRELATOREN LEICHTER MESONEN
+
+
+
+Korrelator = I=1 I=0
+Pseudoskalar 5 = j5j5 i5
+Skalar 1 = j1j1 11D
+Vektor µµ = jµjµ µ
+Axialvektor 5µµ = j5µj5µ µ5 a1 f1
+
+Tabelle 5.2: Meson-Korrelatoren
+
+3 (E 3
+E(E x)3
+, x) = (2K . (5.12)
+4x6 16 3(Ex) + (Ex)K2(Ex)) x0
+- 4x6
+Im n®achsten Abschnitt werden m, und E bestimmt, indem der ph®anomenologische
+Ansatz fit(x) an die theoretische Kurve sum(x) in einem Euklidischen Bereich angepaﬂt
+wird, in dem die theoretische Berechnung zuverl®assig ist.
+
+Betrachten wir nun den Vektor- und den Axialvektor-Korrelator. Der Vektor-Strom ist
+erhalten, der Korrelator ist somit transversal und nur die Vektormesonen k®onnen beitra-
+gen. Im chiralen Limes gilt gleiches f®ur den axialen Strom. Im axialen Singulett-Kanal
+muﬂ sorgf®altig zwischen zwei Str®omen unterschieden werden, einem erhaltenen und einem
+eichinvarianten, der die Anomalie enth®alt. In f®uhrender Ordnung in der Instanton-Dichte
+stimmen die Korrelatoren beider Str®ome ®uberein und sollten erhalten sein.
+
+F®ur erhaltene Vektor- und Axialvektor-Str®ome ist die Spektralfunktion transversal:
+
+p
+(5)(p2) = ( µp )(5)(p2) . (5.13)
+µ -µ + p2 T
+
+Die Kopplung des Vektor- und des Axialvektor-Mesons an den Strom ist durch
+
+i µ = 0|j(5)
+µ (0)|p (5.14)
+
+gegeben, wobei µ die Meson-Polarisation ist. Die Spektral- und Polarisations-Funktionen
+haben die Form
+
+3s
+-(5)
+µµ (s) = 32(s - m2) + (s
+42 - E2) , (5.15)
+-fit(5)(x) = 32D(m
+µµ , x) + 2E(E, x) .
+
+* ist hier , , a1 oder f1 (Tabelle 5.2).
+
+5.4 Plot & Fit der Meson-Korrelatoren
+
+Die Meson-Korrelatoren sind in Abbildung B.3 - B.8 dargestellt, normiert auf die Korre-
+latoren in niedrigster Ordnung St®orungstheorie:
+
+3 6
+0 (x) = , 0(5) = (5.16)
+1/5 4x6 µµ -4x6
+
+
+5.4. PLOT & FIT DER MESON-KORRELATOREN 45
+
+
+Sie zeigen also die Abweichung vom st®orungstheoretischen Verhalten. Die numerische
+Berechnung der Integrale ist in Anhang A.4 und A.5 diskutiert. Die Meson-Parameter,
+die durch Anpassen des Parameter-Ansatzes an die theoretische Kurve gewonnen wurden,
+sind in Tabelle 5.3 zusammengestellt. Shuryak&Verbaarshot [28] bestimmten dieselben
+Parameter mit Hilfe numerischer Studien der Instanton-Fl®ussigkeit. Deren Ergebnisse
+sind ebenfalls in Tabelle 5.3 aufgef®uhrt. Die Parameter im Vektor- und Axialvektor-Kanal
+stimmen sehr gut mit unseren Ergebnissen ®uberein. F®ur das - und das -Meson gibt es
+groﬂe Diskrepanzen in der Masse, aber das ist nicht verwunderlich: Wir betrachteten den
+chiralen Limes, in dem die Pionen masselos sind. Ein ®ahnliches Argument gilt f®ur das
+-Meson. Die Kopplungen stimmen gut ®uberein.
+
+Die Diskrepanz im Axialvektor-Kanal kann verschiedene Ursachen haben, die zur Zeit
+untersucht werden. Man kann auch direkt die Graphen vergleichen. Sie stimmen selbst
+in den F®allen, in denen ein spektraler Fit nicht funktioniert, wie dem und Kanal,
+mit [28] recht gut ®
+uberein. Aus alledem l®aﬂt sich schlieﬂen, daﬂ die Terme, die in unserer
+semi-analytischen Behandlung vernachl®assigt wurden, aber in den numerischen Studien
+ber®ucksichtigt wurden, klein sind und Korrekturen unterhalb 10% darstellen. Dies sind
+Beitr®age der nicht-Nullmoden und Korrekturen h®oherer Ordnung in 1/Nc. Erneut tritt die
+erstaunlich hohe Genauigkeit der 1/Nc Entwicklung zutage. Im Falle von Strange-Quarks
+werden die Beitr®age der nicht-Nulllmoden wichtiger.
+
+Zum Schluﬂ sollte man die Werte mit dem Experiment vergleichen. Soweit bekannt, sind
+diese Zahlen in Tabelle 5.3 aufgenommen. Eine ausf®
+uhrlichere Diskussion der Meson-
+Korrelatoren und der Vergleich mit den experimentellen Daten kann in [28] gefunden
+werden.
+
+
+46 KAPITEL 5. KORRELATOREN LEICHTER MESONEN
+
+
+
+
+
+Meson IG(JP C) m[MeV] [MeV] E[MeV] Quelle
+0 508±1 1276±33 1/Nc
+1-(0-+) 142±14 510±20 1360±100 Simulation
+138 480 -- Experiment
+= 0 ? ? 1/Nc
+0+(0-+) = 0 ? ? Simulation
+960 ? -- Experiment
+= 0 ? ? 1/Nc
+1-(0++) = 0 ? ? Simulation
+970 ? -- Experiment
+433±3 506±3 1446±20 1/Nc
+0+(0++) 543 500 1160 Simulation
+? ? -- Experiment
+930±5 408±4 1455±33 1/Nc
+1+(1--) 950±100 390±20 1500±100 Simulation
+780 409±5 -- Experiment
+930±5 408±4 1455±33 1/Nc
+0-(1--) ? ? ? Simulation
+780 390±5 -- Experiment
+1350±200 370±30 1050±80 1/Nc
+a1 1-(1++) 1132±50 305±20 1100±50 Simulation
+1260 400 -- Experiment
+1350±200 370±30 1050±80 1/Nc
+f1 0+(1++) 1210±50 293±20 1200±50 Simulation
+1285 ? -- Experiment
+
+Tabelle 5.3: Meson-Masse m, Kopplungs-Konstante und Kontinuum-Schwelle E.
+berechnet im Rahmen des Instanton-Fl®ussigkeit-Modells: a) in dieser Arbeit (1/Nc), b)
+aus numerischen Simulationen und c) vom Experiment.
+
+
+Kapitel 6
+
+Die axiale Anomalie
+
+
+Mit Hilfe des Instanton-Fl®ussigkeit-Modells k®onnen, bzgl. der chiralen Symmetrie-
+Brechung, eine Reihe von Vorhersagen gemacht werden. Obwohl die 't Hooft Wechsel-
+wirkung [17] die axiale U(1) Symmetrie explizit bricht, sind Instanton-Modelle bis jetzt
+nicht sehr erfolgreich beim Beschreiben des axialen Flavor-Singulett-Kanals. Die interes-
+santesten Gr®oﬂen in diesem Zusammenhang sind die Masse und der Spin des Protons.
+
+In Abschnitt 6.1 wird m durch Verkn®upfen verschiedener Techniken berechnet. Das
+Ergebnis h®angt nicht von spezifischen Besonderheiten der Instanton-Physik ab.
+
+Die Abschnitte 6.2, 6.3 und 6.4 f®
+uhren in das Proton-Spin-Problem ein. In Abschnitt 6.5
+werden die Proton Formfaktoren unter Annahme unabh®angiger Konstituenten-Quarks
+auf Vakuum-Korrelatoren bestehend aus 4 Quark-Feldern zur®uckgef®uhrt. Die axialen
+Singulett-Quark und -Gluon Formfaktoren werden in Abschnitt 6.6, 6.7 und 6.8 berech-
+net, wobei auf den Propagator und die 4-Punkt-Funktionen zur®uckgegriffen wird, die im
+Instanton-Fl®ussigkeits-Modell berechnet wurden. Die Eich(un)abh®angigkeit wird eben-
+falls untersucht. Eine Disukussion der Resultate und ein Vergleich mit [53] finden sich in
+Abschnitt 6.9.
+
+In den Abschnitten 6.2-6.5 wird ausnahmsweise die Minkowski-Notation verwendet.
+
+
+
+6.1 Die Masse des Mesons
+
+In vielen Kan®alen f®uhrte eine direkte Berechnung der Meson-Korrelatoren im Instanton-
+Fl®ussigkeits-Modell und ein spektraler Angleich zu brauchbaren Resultaten f®ur die Massen
+der leichtesten Mesonen (Kapitel 5). Sogar im axialen Triplett-Kanal war diese Methode
+erfolgreich, da das Modell SBCS korrekt beschreibt. Im axialen Singulett-Kanal verhin-
+derte eine starke Abstoﬂung die Ausbildung eines Mesons. Das Ergebnis war ein Fehlen
+eines masselosen Golstone-Bosons in diesem Kanal, aber die Masse des konnte nicht
+bestimmt werden. In diesem Abschnitt wird die Masse des durch Verkn®upfen verschie-
+dener Methoden berechnet. Mit Hilfe
+
+47
+
+
+48 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+∑ von Strom-Algebra-Resultaten f®ur ,
+∑ der 1/Nc Entwicklung,
+∑ einem Instanton-Model,
+∑ der Skalen-Anomalie
+
+ist es m®oglich, die Masse mit der Pion-Kopplungskonstante f und dem physikalischen
+Gluon-Kondensat in Beziehung zu setzen.
+
+In f®uhrender Ordnung in 1/Nc kann m mit der -Abh®angigkeit der QCD-Vakuum-
+Energie ohne Quarks in Verbindung gebracht werden1 [43]:
+
+4N d2E no quarks d2E
+m2 = f , = d4x 0
+f 2 d2 d2 |T Q(x)Q(0)|0 conn (6.1)
+=0
+
+
+Q(x) = s tr
+4 cG ~
+G(x) , Q = d4x Q(x) ZZ
+Q(x) ist die topologische Ladungsdichte und Q die Gesamt-Ladung. Folgende Argumente
+gehen in die Herleitung ein: F®ur groﬂe Nc ist die topologische Suszeptibilit®at d2E/d2
+durch das dominiert. Ausnutzen der axialen Anomalie und der Relation f = f , die
+f®ur Nc exakt ist, f®uhrt zur Witten-Formel (6.1).
+Der n®achste Schritt ist, die topologische Suszeptibilit®at auf das Gluon-Kondensat
+0|N(0)|0 zur®uckzuf®uhren
+
+N(x) = s tr
+4 cGG(x) , N = d4x N(x)
+
+Betrachten wir zun®achst die exakten N-Instanton-L®osungen (Q = N). Sie sind selbstdual
+(Gµ = ~
+Gµ) und folglich gilt
+
+0|T Q(x)Q(0)|0 conn = 0|T N(x)N(0)|0 conn . (6.2)
+
+Die exakten Anti-Instanton-L®osungen (Q = -N) sind anti-selbstdual (Gµ =- ~Gµ) und
+(6.2) gilt ebenfalls, da sich die zwei Minuszeichen gegenseitig aufheben. Ungl®ucklicher-
+weise sind die exakten L®osungen nicht die wichtigsten Beitr®age zur Zustandssumme.
+
+Die dominierenden Konfigurationen sind Instantonen und Anti-Instantonen in gemischter
+Form. Das einfachste Modell ist eine verd®unnte Summe A = A
+I I von Instantonen
+gemischter Ladung. In diesem Hintergrund ist Gµ ungef®ahr selbstdual in der N®ahe der
+Instanton-Zentren, ungef®ahr anti-selbstdual in der N®ahe der Anti-Instanton-Zentren und
+klein weit weg jeden Instantons. In f®uhrender Ordnung in der Instanton-Dichte ist
+
+Gµ(x) = ± ~Gµ(x) (6.3)
+
+wobei das Vorzeichen jetzt von x abh®angig ist! Ohne weitere Annahmen kann (6.2) f®ur
+x = 0 nicht mehr bewiesen werden.
+
+1 AB conn = AB - A B
+
+
+6.1. DIE MASSE DES MESONS 49
+
+
+Sei N±(x) wie folgt definiert:
+
+N(x) = N+(x) + N-(x) , Q(x) = N+(x) - N-(x)
+N+(x) hat die Gestalt einer Summe von H®ugeln in der N®ahe der Instanton-Zentren und
+N-(x) in der N®ahe der Anti-Instanton-Zentren. (6.2) muﬂ durch
+
+0|T Q(x)Q(0)|0 conn = 0|T N(x)N(0)|0 conn - 4 0|T N+(x)N-(0)|0 conn (6.4)
+ersetzt werden. Nimmt man die Unabh®angigkeit der Instantonen von den Anti-
+Instantonen an ( N+N- = N+ N- ) reduziert sich diese Gleichung erneut zu (6.2).
+
+Die n®achste Zutat ist das Skalenverhalten der QCD. Die klassische Chromodynamik ist
+skaleninvariant und das Noether-Theorem f®uhrt zu einem erhaltenen Strom. In der Quan-
+tentheorie ist die Skaleninvarianz anomal gebrochen (wie die axiale Singulett-Symmetrie).
+Ward-Identit®aten k®onnen hergeleitet werden, insbesondere [64]
+
+4 11
+d4x 0|T N(x)N(0)|0 conn = 0 N
+b |N(0)|0 , b = 3 c (6.5)
+
+In einem (anti)selbstdualen Hintergrund ist die topologische Suszeptibilit®at somit propor-
+tional zum Gluon-Kondensat [21]:
+
+d2E 4
+= 0
+d2 b |N(0)|0 (6.6)
+
+Die Gleichung bleibt g®ultig, wenn das QCD-Vakuum durch statistisch unabh®angige selbst-
+duale und anti-selbstduale Bereiche dominiert wird, wie oben gezeigt wurde. In der Tat
+gen®ugt die Unabh®angigkeit der totalen Instanton/Anti-Instanton-Zahl N±. (6.6) habe ich
+unter Verwendung der 1-Schleifen Instanton-Dichte D() [17] direkt ®uberpr®uft. Nur die
+Abh®angigkeit D() -5()b ist von Bedeutung. Aufgrund der Infrarot-Divergenz
+ist es n®otig, einen Cutoff einzuf®uhren. Dabei darf das Skalenverhalten nicht zerst®ort wer-
+den. Eine minimale ®
+Anderung ist, Cutoffs f± in der totalen Instanton/Anti-Instanton
+Packungsdichte einzuf®uhren. Die Packungsdichte ist der Bruchteil des durch Instanto-
+nen besetzten Raumzeit-Volumens und ist dimensionslos. Skaleninvarianz und die Un-
+abh®angigkeit von Instantonen und Anti-Instantonen sind gew®ahrleistet. Die Zustands-
+summe lautet
+Z = Z+ Z- (6.7)
+N+ N-
+N+N-
+
+N
+V N± 1 ±
+Z± = 4 d D( ) f 4
+N 1 . . . dN 1) . . . D(N ±
+± N ± ± - i
+±! 0 V4 i=1
+Eine l®angere Rechnung im thermodynamischen Limes V4 ergibt
+c - b N
+4 ±
+Z± = ±N±
+N± V44
+
+wobei c± = c±(f±, b) von N± unab®angige Konstanten sind. Zweimaliges Ableiten von ln Z
+nach ln c± f®uhrt zu (6.6). Das Ergebnis ist unabh®angig von f±.
+
+
+50 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+Eine attraktive Wechelwirkung w®urde die Suszeptibilit®at verkleinern (im Vergleich mit
+der Dichte). Dies kann man wie folgt sehen: Im extremen Fall einer sehr starken At-
+traktion sind alle Instantonen in Instanton-Anti-Instanton Molek®ulen gebunden, damit
+ist N+ = N- und Q 0. Auf der anderen Seite erh®oht eine abstoﬂende Wechselwirkung
+die Suszeptibilit®at:
+
+d2E 4
+< 0
+d2 b |N(0)|0 f®ur attraktive II Wechseleirkung (6.8)
+d2E 4
+> 0
+d2 b |N(0)|0 f®ur repulsive II Wechselwirkung (6.9)
+
+Die Verletzung von (6.6) kann als Maﬂ f®ur die II Wechselwirkung verwendet werden.
+
+In [25] wurde ein einfacher Summen-Ansatz A = AI gemacht, wobei die daraus re-
+sultierende Wechselwirkung nicht vernachl®assigt wurde. Eine zu (6.6) ®ahnliche Relation
+wurde hergeleitet, aber ohne den Faktor 4/b. Das Ergebnis selbst und ein Vergleich mit
+(6.9) zeigt, daﬂ eine abstoﬂende Kraft am Werk ist. Verbaarshot [20] hat gezeigt, daﬂ
+diese Abstoﬂung ein Artefakt des einfachen Summen-Ansatzes ist. Unter Verwendung des
+genaueren und komplizierteren Stromlinien-Ansatzes konnte er zeigen, daﬂ die Wechsel-
+wirkung stark von der relativen Orientierung der Instantonen abh®angt und die gemittelte
+Wechselwirkung um den Faktor 14 kleiner ist als in [25]. Das beste was man zur Zeit
+tun kann, ist, ®uberhaupt keine Wechselwirkung anzunehmen und die Packungsdichte bei
+einem kleinen Wert abzuschneiden.
+
+Es gibt ein allgemeineres Argument, warum die Relation in [25] falsch sein muﬂ. Die
+topologische Suszeptibilit®at ist von der Ordnung O(N0c), w®ahrend das Gluon-Kondensat
+O(Nc) ist. (6.6) ist konsistent mit Nc Betrachtungen aufgrund des Faktors 4/b.
+Wir fahren nun fort mit der Berechnung von m . Das physikalische Gluon-Kondensat ist
+
+0|N(0)|0 phys = nRNc = (200MeV)4 . (6.10)
+
+Durch die Anwesenheit leichter Quarks ist es um den Faktor < 1 reduziert
+
+0|N(0)|0 phys = 0|N(0)|0 no quarks (6.11)
+=0
+
+
+Wir erhalten folgende Formel f®
+ur die Masse
+
+4N 12
+m2 = f n
+f 2 11 R (6.12)
+
+
+
+Wie man sieht, ist m2 1/Nc, da f2 Nc und nR und unabh®angig von Nc sind. Die
+gr®oﬂte Unsicherheit liegt in der Bestimmung von . Verwendet man erneut das Instanton-
+Modell, so ist die Determinante des Dirac-Operators, wobei die Strom-Massen durch
+effektive Massen ersetzt werden m®ussen:
+
+= 1.34meff
+i 0.4...0.7 (6.13)
+i=u,d,s
+
+
+6.2. MESSUNG DER AXIALEN FORMFAKTOREN 51
+
+
+Die effektiven Massen wurden dabei gleich den Konstituenten-Massen gesetzt
+
+meff
+u = meff = 300 . . . 350 MeV , meff
+d s = 400 . . . 500 MeV (6.14)
+
+und auf den Wert des Instanton-Fl®ussigkeit-Modells ( = 600 MeV-1). Diese Sch®atzung
+f®
+ur ist konsistent mit [21]. Einsetzen von Nf = 3 und f = 132 MeV in (6.12) ergibt
+
+m = 884 ± 116MeV (6.15)
+und ist in guter ®
+Ubereinstimmung mit dem experimentellen Wert von 958 MeV. Verwendet
+man m als Input, so kann das Gluon-Kondensat der QCD ohne Quarks bestimmt werden
+
+s tr
+4 cGG no quarks = (246 MeV)4 (6.16)
+
+wobei wieder Nf = 3 gesetzt wurde.
+
+Der Faktor 4/b in (6.6) ist wesentlich, um die korrekte Nc Abh®angigkeit von m und
+®
+Ubereinstimmung mit dem Experiment zu erhalten. Die Diskussion hat gezeigt, daﬂ
+der -Kanal im Prinzip eine experimentelle ®
+Uberpr®ufung der Unabh®angigkeit selbstdua-
+ler und anti-selbstdualer Bereiche des QCD-Vakuums erm®oglicht, die eine Annahme in
+den einfachsten Instanton-Modellen ist. Es mag sich eines Tages herausstellen, daﬂ
+die Details aller Instanton-Modelle falsch sind, aber die Annahme der Unabh®angigkeit
+(anti)selbstdualer Bereiche weiterhin g®ultig bleibt.
+
+
+6.2 Messung der axialen Formfaktoren
+
+Die Vorw®arts-Matrix-Elemente der axialen Str®ome
+
+sµ = ps| Øµ5|ps , = u,d,s
+k®onnen als Quark-Spin-Beitrag zum Proton interpretiert werden. Diese Interpretation
+wird in den folgenden Abschnitten pr®azisiert werden. Drei Linearkombinationen der
+sind gemessen worden, was eine Bestimmung ihrer individuellen Werte erm®oglicht.
+
+Aus dem -Zerfall des Neutrons erh®alt man unter Ausnutzung der Isospin-Invarianz [50,
+54]
+a3 = gA = u - d = F + D = 1.254 ± 0.06 .
+Aus dem -Zerfall der Oktett-Hyperonen erh®alt man unter Ausnutzung der SU(3)F -
+Symmetrie [51, 54]
+3a8 = u + d -2s = 3F -D = 0.688±0.0035 .
+Aus der spin-abh®angigen Struktur-Funktion gp1 des Protons, die von der EMC [48] und
+der SMC [49] gemessen wurde, kann man
+
+1 4 1 1
+p = gp1(x)dx = u + d + s + O(s) = 0.142 ± 0.014 (6.17)
+0 9 9 9
+
+
+52 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+extrahieren. Angegeben ist der Welt-Mittelwert.
+
+Von speziellem Interesse ist die Quark-Spin-Summe
+
+3
+GI = a
+2 0 = u + d + s = 0.27 ± 0.13 (6.18)
+
+die aus den oben angegebenen Werten bestimmt werden kann. O(s) Korrekturen wur-
+den ber®ucksichtigt. GI weicht signifikant vom naiven Quark-Modell-Wert qm = 1
+ab. Diese Abweichung ist der Ursprung des sogenannten Spin-Problems. Weiterhin wi-
+derspricht die groﬂe Polarisation der Strange-Quarks im Proton
+
+s = -0.1 ± 0.05
+der Intuition, da dies einen hohen Strange-Quark-Anteil im Proton impliziert.
+
+Wesentlich mehr k®onnte zur Proton-Spin-Ph®anomenologie und zur experimentellen Situa-
+tion gesagt werden. F®ur eine Einf®uhrung und weitere Referenzen siehe [45, 46, 47, 48].
+Wir wollen nun eine sorgf®altigere Definition und Interpretation von GI und anderen
+Gr®oﬂen geben, die dann im folgenden im Instanton-Modell berechnet werden.
+
+
+
+6.3 Die axialen Singulett-Str®
+ome und die Anomalie
+
+Es ist wohlbekannt, daﬂ Produkte von Operatoren am gleichen Raumzeit-Punkt sehr sin-
+gul®are Objekte sind. Um die Ausdr®ucke wohldefiniert zu machen, muﬂ man die Operator-
+Produkte regularisieren und renormieren. Eine Anomalie tritt auf, falls diese Prozedur
+eine Symmetrie der Theorie bricht. Die wichtigsten sind die Brechung der Skaleninvarianz
+und der axialen Symmetrie [64]. Im folgenden wird die axiale Anomalie betrachtet [41].
+Das zu regularisierende Operator-Produkt ist der axiale Singulett-Strom,
+
+Jµ5(x) = Ø
+q(x)µ5q(x) (6.19)
+q{u,d,s,...}
+
+
+der lokal, eichinvariant und erhalten zu sein scheint2. Ungl®ucklicherweise geht nach Regu-
+larisierung eine der 3 Eigenschaften unvermeidbar verloren. Folglich k®onnen zwei verschie-
+dene lokale Str®ome definiert werden, ein erhaltener (c) und ein eichinvarianter (GI). Der
+dritte eichinvariante, erhaltene und nicht-lokale Strom ist in [42] in Zusammenhang mit
+dem U(1)-Problem diskutiert. Im folgenden wird die Summation ®uber die Quark-Flavors
+unterdr®
+uckt und f®
+ur den Quark-Feld-Operator geschrieben:
+
+x+
+JGI(x) = lim Ø
+(x + ) dz
+µ5 µ5P exp i ∑A(z) (x)
+0 x
+Jc Ø
+µ5(x) = lim (x + )µ5(x) (6.20)
+0
+
+2Die Terminologie 'erhalten' wird auch f®ur mq = 0 verwendet. Dieser Strom wird in der Literatur
+auch Symmetrie-Strom genannt.
+
+
+6.4. DER PROTON-SPIN UND SEINE INTERPRETATION 53
+
+
+Die Differenz zwischen den beiden Str®omen wird durch den Anomalie-Strom Kµ beschrie-
+ben:
+
+N 2
+K f s
+µ(x) = AA) , JGI = Jc + K
+2 µ trcA (G - 3 µ5 µ5 µ
+N
+µK f s
+µ(x) = tr
+2 cG ~
+G(x) = a(x) (6.21)
+
+µJcµ5(x) = 2mJ5(x) , J5 = i Ø
+5 .
+
+m ist die Strom-Quark-Masse und Nf die Zahl der Flavors. Beachte, daﬂ die Aufteilung
+von Jµ5 in einen erhaltenen und einen Anomalie-Teil eichabh®angig ist. Es gibt Versuche,
+beide durch physikalische Argumente eindeutig zu definieren [46]. Die Idee ist, Jcµ5 als
+naiven Parton-Modell-Spin und Kµ als gluonischen Beitrag zu definieren. Die Proton-
+Matrix-Elemente der verschiedenen Str®ome k®onnen durch reelle Formfaktoren Gi, Ki, A
+und J ausgedr®uckt werden:
+
+p s |JGI(0) (q2) (q2) u
+µ5 |ps = Øus (p ) µ5GGI1 - qµ5GGI2 s(p)
+p s |Jc (0) (q2) (q2) u
+µ5 |ps = Øus (p ) µ5Gc1 - qµ5Gc2 s(p)
+p s |Kµ(0)|ps = Øus (p ) µ5K1(q2) - qµ5K2(q2) us(p) (6.22)
+p s |a(0)|ps = 2MiA(q2)Øus (p )5us(p)
+p s |J5(0)|ps = iJ(q2)Øus (p )5us(p)
+M ist die Proton-Masse und q = p - p. (6.21) impliziert folgende Relationen zwischen
+den Formfaktoren:
+GGI
+1 = Gc1 + K1 , GGI
+2 = Gc2 + K2
+
+q2 m q2
+Gc Gc = J , K K
+1 - 2M 2 M 1 - 2M 2 = A (6.23)
+
+q2 m
+GGI
+1 - GGI J + A ,
+2M 2 = M
+
+wobei alle Formfaktoren bei q auszuwerten sind. Die letzte Gleichung setzt nur eichinva-
+riante Gr®oﬂen in Relation. Im n®achsten Abschnitt zeigen wir, daﬂ der Formfaktor GGI
+1
+bei Impuls®ubertrag Null mit dem Proton-Spin in Verbindung gebracht werden kann.
+
+
+
+6.4 Der Proton-Spin und seine Interpretation
+
+Der Energie-Impuls-Tensor Tµ ist erhalten (µT µ = 0), symmetrisch und eichinvariant
+und kann mit Hilfe des Noether-Theorems konstruiert werden. Der Drehimpuls-Dichte-
+Tensor Mµ ist assoziiert mit Lorentz-Transformationen und kann durch Tµ ausgedr®uckt
+werden:
+Mµ = xT µ - xTµ (6.24)
+
+
+54 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+M kann in Spin- und Bahnbeitrag der Quarks und der Gluonen zerlegt werden [54]:
+
+1
+Mµ = Mµ + Mµ + Mµ + Mµ G2(xgµ
+q,orb q,spin g,orb g,spin - 4 - xgµ) + (∑ ∑ ∑)
+1 1 1
+Mµ = i Ø
+µ(x = µ Ø
+µJGI
+q,orb 2 - x) , Mµ
+q,spin 2 5 = 2 5 (6.25)
+Mµ = = GµA
+g,orb -Gµ(x - x)A , Mµ
+g,spin - GµA
+Die letzten beiden Terme in Mµ tragen nicht zum Drehimpuls-Operator
+
+1
+Ji = ijk d3x M0jk(x) . (6.26)
+2
+
+bei. Das Matrix-Element von Jz im Proton-Zustand, wobei das Proton in Ruhe ist und
+der Spin in z-Richtung zeigt, ist
+
+1
+J = ps
+N |Jz|ps = ps|M012(0)|ps , N = ps|ps = -3(0) (6.27)
+Das Raum-Integral und die Zustands-Norm heben sich gegenseitig auf. Der Gesamt-Spin
+des Protons ist zweifellos 1/2 und man erh®alt die Summenregel
+
+1 1
+J = Lq + GI + L (6.28)
+2 g + g = 2
+
+wobei (Lq, 1GI, L
+2 g, g) der (Quark-Bahn, Quark-Spin, Gluon-Bahn, Gluon-Spin)
+Beitrag zum Proton-Spin sind, definiert als Matrix-Elemente der verschiedenen oben ge-
+gebenen Terme von M. Der axiale Strom miﬂt also den Quark-Spin-Beitrag zum Proton-
+Spin. In kovarianter Notation erhalten wir:
+
+sµGI = ps|JGI
+µ5 (0)|ps = GI = GGI
+1 (0) (6.29)
+
+Im naiven Quark-Modell besteht das Proton aus drei unabh®angigen Quarks in Ruhe. Es
+gibt keinen Bahn- und keinen Gluon-Beitrag zum Proton-Spin. Dies f®uhrt zur Summen-
+Regel J = 1GI = 1/2. In der realen Welt ist die Identifizierung von GI mit
+2
+dem Proton-Spin nicht korrekt, da JGI
+µ5 den Spin der (nahezu masselosen) Strom-Quarks
+miﬂt, w®ahrend das Proton aus drei massiven ( 300 MeV) Konstituenten-Quarks besteht.
+Weiterhin sollte in einem Modell nicht-wechselwirkender Konstituenten-Quarks der axiale
+Strom, der den Konstituenten-Quark-Spin miﬂt, anomalie-frei sein, da die Anomalie durch
+die Wechselwirkung mit den Gluonen zustande kommt. Folglich kann vielleicht der erhal-
+tene Strom Jcµ5 mit dem Konstituenten-Quark-Spin-Operator identifiziert werden.
+
+sµc = ps|Jc (0) (0) ?
+= 1 . (6.30)
+µ5 |ps = c = Gc1
+Aus (6.23) erhalten wir die Gleichung
+
+GI = c + K1(0) (6.31)
+
+die jetzt wie folgt interpretiert werden kann: Der Spin der Konstituenten-Quarks c
+setzt sich aus dem Spin der Strom-Quarks GI und einem Rest -K1(0) zusammen,
+
+
+6.4. DER PROTON-SPIN UND SEINE INTERPRETATION 55
+
+
+der Bahn- und Gluon-Beitr®age enth®alt. Der Ursprung dieser Beitr®age ist nicht die Bewe-
+gung oder Wechselwirkung der Konstituenten-Quarks im Proton, da die Konstituenten-
+Quarks im naiven Quark-Modell wechselwirkungsfrei und in Ruhe sind, sondern sie sind
+Ursache der Formierung massiver Quark aus masselosen Quarks. Folglich kann (6.31)
+f®ur individuelle "Konstituenten"-Quarks untersucht werden. Weiterhin sind die Gluon-
+Konfigurationen, die f®ur die Erzeugung der Quark-Masse verantwortlich sind, ebenfalls
+f®ur den Wert von K1(0) verantwortlich.
+
+Z.B. entsteht in Bag-Modellen ein massives Quark durch Einschluﬂ eines masselosen
+Quarks in eine Kugel. Der Spin des massiven Quarks ist die Summe des Spin- ( 1GI )
+2
+und des Bahn- 1 (1
+2 - GI) Beitrages der Strom-Quarks. Die Bag, k®onnte z.B. durch
+nicht-perturbative Gluon-Konfigurationen erzeugt sein. Die Gluonen sind somit sowohl
+f®ur die Massenerzeugung als auch indirekt f®ur den Bahndrehimpuls der Quarks verant-
+wortlich. Aus analytischen und numerischen Studien weiﬂ man, daﬂ im Bag-Modell der
+Konstituenten-Spin in 70% Spin und 30% Bahndrehimpuls aufgeteilt ist, falls man von
+masselosen Quarks ausgeht.
+
+W®ahrend (6.31) rigoros gilt, kann die Interpretation von 1 c als Spin des Konstituenten-
+2
+Quarks und sein Wert 1 in Frage gestellt werden. Ein Grund daf®ur ist, daﬂ ein axialer
+2
+Strom, der massive Konstituenten-Quarks beschreibt, keineswegs erhalten ist, im Wider-
+spruch zu Jc .
+µ5
+
+Es gibt eine weitere Relation zwischen GI und dem Formfaktor A bei Impuls®ubertrag
+Null. Bevor diese Relation hergeleitet wird, ist es sinnvoll, ein paar Worte ®uber die Rei-
+henfolge von Limites und masselose Pole zu verlieren. Folgende Limites werden gebildet:
+Das Raumzeitvolumen strebt gegen unendlich (V4 ), die Strom-Massen gehen gegen
+Null (m 0), da die up und down Massen sehr klein sind und q 0, da wir an den
+Vorw®arts-Matrix-Elementen interessiert sind. Im Prinzip k®onnen die Ergebnisse von der
+Reihenfolge der Limites abh®angen. Deshalb ist es wichtig die Reihenfolge konsistent mit
+der physikalischen Situation zu w®ahlen. D.h., wenn z.B. in der realen Welt q m ist, so
+muﬂ erst q 0 and dann m 0 erfolgen. Da wir an den Vorw®arts-Matrix-Elementen
+interessiert sind (q 0) und m = 0 in der realen Welt ist, ist die gerade angegebene
+Reihenfolge korrekt. Aufgrund des Cluster-Theorems gehen verbundene Korrelatoren in
+Ortsdarstellung gegen Null, falls der Abstand zweier Argumente gegen unendlich geht.
+Daraus folgt, daﬂ es keine (q)-Peaks im Impulsraum gibt und die Reihenfolge der Limi-
+tes q 0 und V4 kann willk®urlich erfolgen. Da m4V4 1 ist, muﬂ zuerst V4
+und dann m 0 erfolgen. In der statistischen Physik ist es eine wohlbekannte Tatsache,
+daﬂ eine Symmetrie nur spontan gebrochen werden kann, wenn es einen kleinen Term
+gibt, der diese Symmetrie explizit bricht und das Volumen des Systems gegen unendlich
+geht. Ganz am Ende kann der symmetrie-brechende Term entfernt werden. In der QCD
+ist die chirale Symmetrie spontan gebrochen (SBCS) und die kleinen Strom-Massen stel-
+len die explizite Brechung der chiralen Symmetrie dar. Daher muﬂ zuerst V4 und
+dann m 0 durchgef®uhrt werden [65]. Es kann also folgende Limes-Reihenfolge gew®ahlt
+werden:
+lim {lim[ lim (...)]}. (6.32)
+m0 q0 V4
+
+Dies rechtfertigt die von Anfang an benutzte Formulierung f®ur unendliches Volumen.
+
+
+56 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+In der realen QCD gibt es keine masselosen Teilchen (m = 0). Daher besitzen eichinva-
+riante Formfaktoren keine masselosen Pole, insbesondere gilt
+
+q 0
+q2GGI
+2 (q2) - 0 (6.33)
+
+Aus (6.23), (6.29) und (6.33) erh®alt man
+
+m
+GI = J(0) + A(0) (6.34)
+M
+
+Diese Relation gilt mit oder ohne Goldstone-Bosonen im axialen Singulett-Kanal. Expe-
+rimentell weiﬂ man, daﬂ das leichteste Teilchen in diesem Kanal das mit einer Masse
+von 958 MeV ist, die viel zu groﬂ f®ur ein Goldstone-Boson ist [63]. Folglich bleibt J(0)
+im chiralen Limes endlich und wir erhalten
+
+GI = A(0) for m 0 (6.35)
+
+Nimmt man die nicht-Existenz des axialen Singulett-Bosons von vornherein an, so ist die
+Reihenfolge der Limites in der Herleitung von (6.35) bedeutungslos. Beachten Sie, daﬂ
+(6.35) nur wahr ist, falls m = mu = md = ms gew®ahlt wird, obwohl alle drei Massen
+gegen Null gehen. Andernfalls w®
+urden zus®atzlich nicht-Singulett Str®ome auf der rechten
+Seite von (6.34) den chiralen Limes ®uberleben [55].
+
+Verkn®upfung von (6.23), (6.31) und (6.33) ergibt
+
+2Mc = q2Gc(q2)
+2 |q2=0 = -q2K2(q2)|q2=0
+
+c ist durch das Pol-Residuum von Gc2 gegeben. Da GGI
+2 keinen masselosen Pol be-
+sitzt, ist c ebenfalls durch den Pol von -K2 gegeben. Diese masselosen Pole werden
+Geist-Pole genannt und k®onnen in der Tat auftreten, auch wenn es keine masselosen physi-
+kalischen Teilchen gibt, da Gc und K
+2 2 eichabh®
+angige Objekte sind. Man beachte, daﬂ alle
+anderen in (6.23) definierten Formfaktoren eichinvariant und damit frei von masselosen
+Polen sind.
+
+Tabelle 6.1 gibt eine ®
+Ubersicht ®
+uber die Werte der Formfaktoren bei Impuls®
+ubertrag Null
+f®ur folgende Modelle:
+
+
+∑ Das naive Quark-Modell nicht-wechselwirkenden Konstituenten-Quarks der Masse
+m = M/3,
+∑ chirale QCD und Identifikation von c mit dem naiven Spin-Wert 1,
+∑ das Instanton-Fl®ussigkeits-Modell
+
+F®ur das Instanton-Fl®ussigkeits-Modell werden die in Tabelle 6.1 angegebenen Formfakto-
+ren in den folgenden Abschnitten berechnet.
+
+
+6.5. REDUKTION DER PROTON FORMFAKTOREN ZU VAKUUM-KORRELATOREN57
+
+
+
+c= q2 Gc+ m J K K GGI=c+ K J+ A
+2M 2 M 1 = q2
+2M 2+ A GI - q2
+2M 2 1 = m
+M
+3m = M 1 = 0 + 1 0 = 0 + 0 1 - 0 = 1 + 0 = 1 + 0
+m = 0 1 = 1 + 0 A-1= -1 + A A - 0 = 1 +A-1= 0 + A
+Instanton ? = ? + 0 0 = 1 +(-1) 1 - 0 = ? + 0 = 0 +(-1)
+
+Tabelle 6.1: Proton Formfaktoren bei Impuls®ubertrag q2 = 0 im naiven Konstituenten-
+Quark-Modell (3m = M), in der chiralen QCD (m=0) und im Instanton-Fl®ussigkeits-
+Modell (Instanton). Experimentell ist A = 0.27 ± 0.13.
+6.5 Reduktion der Proton Formfaktoren zu
+Vakuum-Korrelatoren
+
+In den folgenden Abschnitten werden einige der oben definierten Formfaktoren im
+Instanton-Fl®ussigkeits-Modell berechnet. Um die Resultate aus Kapitel 4 verwenden zu
+k®onnen, werden die Formfaktoren auf Vakuum-Korrelatoren zur®uckgef®uhrt.
+
+p s |B(0)|ps = (6.36)
+1
+= - Øu
+Z s (p ) d4x d4z eip x-ipz(i/x - M)(-i/z - M) 0|T (x)B(0)Ø(z)|0 us(p) .
+
+
+M ist die Proton-Masse und B(0) ist ein beliebiger lokaler Operator. (x) ist ein lo-
+kaler Operator mit den Quanten-Zahlen des Protons, also z.B. ein Produkt von drei
+Quark-Feldern in geeigneter Spin- und Flavor-Kombination [44]. Nimmt man an, daﬂ
+(x) f®ur unendliche Zeiten gegen einen freien Proton-Feld-Operator geht, so kann der
+Proton-Zustand ausreduziert werden und (6.36) ist gerade eine LSZ-Reduktions-Formel
+f®ur zusammengesetzte Felder. F®ur unsere Zwecke ist die folgende Form n®utzlicher:
+
+p s |B(0)|ps = ZØus (p )[ lim S-1(p )TB(p ,p)S-1(p)]us(p)
+p2,p 2M 2
+
+
+TB(p , p) = d4x d4z eip x-ipz 0|T (x)B(0)Ø(z)|0 (6.37)
+iZ
+S(p) = d4x eipx 0|T (x)Ø(0)|0 = + continuum
+p/ - M
+Z1/2u
+s(p) = 0|(0)|ps
+Der Vorteil dieser Darstellung ist, daﬂ die Masse M nicht explizit ben®otigt wird. In
+Euklidischen Berechnungen, wie Gitter-, Instanton- und OPE-Berechnungen ist es stets
+schwierig, Polmassen zu bestimmen.
+
+Diese Form der Darstellung kann auch als Spektral-Darstellung einer 3-Punkt-Funktion
+angesehen werden. Schiebt man zwei vollst®andige Systeme von Zust®anden in die 3-Punkt-
+Funktion ein, und f®uhrt man den Limes p2 = p 2 M2 durch, um den Proton-Zustand
+zu selektieren, so erh®alt man (6.37) direkt.
+
+Falls B(0) ein Quark-Strom ist, so enth®alt die 3-Punkt-Funktion ein Produkt von 8 Quark-
+Feldern. Dieser Ausdruck ist zu kompliziert, um im Multi-Instanton-Vakuum berechnet
+
+
+58 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+werden zu k®onnen. Im folgenden werden wir annehmen, daﬂ das Proton aus nahezu
+unabh®angigen Quarks besteht. In diesem Bild ist die wesentliche nicht-perturbative Ei-
+genschaft des Protons die Formierung von Konstituenten-Quarks aus Strom-Quarks. Die
+Kr®afte, die die Konstituenten im Proton einschlieﬂen, modifizieren die Eigenschaften des
+Protons nur wenig, auﬂer daﬂ das Proton dadurch stabil wird. Diese Annahme wird durch
+den Erfolg des Konstituenten-Modells gest®utzt. Die Formfaktoren des Protons sind da-
+mit die Summe der Formfaktoren der Konstituenten-Quarks. muﬂ durch ein einzelnes
+Quark-Feld mit Flavor up oder down ersetzt werden und M durch die Konstituenten-
+Quark-Masse. In diesem Fall ist es noch wichtiger (6.37) zu verwenden, da eine definite
+Polmasse f®ur den Quark-Propagator nicht zu erwarten ist. Betrachtet man den Quark-
+Propagator im Instanton-Fl®ussigkeits-Modell, so sieht man, daﬂ der p/ Term unrenormiert
+bleibt und damit Z = 1 ist. F®ur eine konstante Konstituenten-Masse w®are dieses Ar-
+gument rigoros. F®ur eine laufende Masse ist es zumindest plausibel, daﬂ Z weiterhin
+ungef®ahr eins ist. Diese Tatsache trifft auf alle Modelle chiraler Symmetrie-Brechung zu,
+die ich kenne. Eine konservative Absch®atzung ist
+
+0.7 Z 1 (6.38)
+Im folgenden werde ich Z = 1 setzen. Die Ergebnisse aller Formfaktoren muﬂ man sich
+mit Z multipliziert denken.
+
+
+6.6 Axiale Formfaktoren GGI (q)
+1/2
+
+
+Der Formfaktor des Stromes j = Ø
+eines Konstituenten-Quarks kann mit Hilfe von
+(6.37) auf eine 4-Punkt-Funktion (4.2) reduziert werden:
+
+
+trCD[Tj (p , p) ] = d4x d4z eip x-ipztr
+CD[ 0|T (x) Ø
+(0)(0) Ø
+(z)|0 ] = (6.39)
+
+= d-4q (q - p,q - p ,p,p )
+Die Polarisierungs-Funktionen wurden in Kapitel 4 definiert und im Instanton-
+Fl®ussigkeits-Modell berechnet. F®ur = µ5 ist der verbundene Teil der 4-Punkt-
+Funktion mit O(n1/2) unterdr
+R ®
+uckt. In f®uhrender Ordnung in der Instanton-Dichte tr®agt
+nur der unverbundene Teil (4.17) bei und wir erhalten
+
+TjGI (p , p) = S(p )µ5S(p) (6.40)
+µ5
+
+
+Einsetzen von (6.40) in (6.37) und Vergleich mit (6.22) ergibt
+
+p s |JGI
+µ5 (0)|ps = Øus (p )µ5us(p) (6.41)
+GGI(q2) = 1 , GGI(q2) = 0
+1 2
+
+Man beachte, daﬂ in singul®arer Eichung berechnet wurde, aber der verbundene Teil
+ist in jeder Eichung unterdr®uckt und der unverbundene Teil h®angt nur vom Propagator
+
+
+6.7. DER ANOMALIE-FORMFAKTOR A(Q) * 59
+
+
+ab, der sich so oder so k®urzt. Die Formfaktoren GGI (q) sind also in der Tat eichinvariant.
+1/2
+Das Ergebnis stimmt mit einem Modell freier massiver Quarks ®uberein. Weiterhin sieht
+man, daﬂ der Strom jGI nicht erhalten ist. Stromerhaltung w
+µ5 ®
+urde q2G2 = MG1 verlangen,
+was offensichtlich von (6.41) nicht erf®ullt wird. In der 1-Instanton-Approximation kann
+man von Anfang an mit der effektiven 't Hooft-Wechselwirkung [17] arbeiten, die die
+U(1)-Symmetrie explizit bricht und damit die Anomalie bereits enth®alt.
+
+Das Resultat f®ur den eichinvarianten Formfaktor (6.41), obwohl nicht konsistent mit den
+experimentellen Werten ist bis hierher zumindest theoretisch konsistent.
+
+
+
+6.7 Der Anomalie-Formfaktor A(q) *
+
+Widmen wir uns nun dem Anomalie-Formfaktor A. Durch erneutes Anwenden der
+Reduktions-Formel (6.37) mit B(0) = a(0) besteht die Aufgabe in der Berechnung der
+3-Punkt-Funktion Ta(p, s). Im Instanton-Modell ist der Feldoperator a(0) durch das
+klassische Feld aA(0) ersetzt, wobei A = A
+I I eine in a eingesetzte Multi-Instanton-
+Konfiguration ist. In gegebenem Hintergrund A kann der Korrelator in der Form
+
+0|T (x)a(0) Ø(z)|0 A = aA(0) 0|T (x) Ø(z)|0 A = aA(0)SA(x,z) (6.42)
+geschrieben werden, wobei SA(x, z) der Quark-Propagator im Multi-Instanton-Hinter-
+grund A ist. Die rechte Seite muﬂ nun ®uber die kollektiven Koordinaten I aller In-
+stantonen gemittelt werden. Ohne den Faktor aA(0) erg®abe dies gerade den gemittelten
+Propagator. Zum Verst®andnis der folgenden Diskussion ist es n®utlich, die Berechnung
+des Propagators in Kapitel 3 zu rekapitulieren. aA(y) ist das 2Nf -fache der topologischen
+Ladungsdichte am Raumzeitpunkt y. In der Umgebung eines Instantons der Ladung
+QI = ±1 hat die Dichte einen positiven/negativen H®ugel und ist klein ®uberall sonst.
+Folglich ist aA(y) nur von Null verschieden, wenn sich mindestens ein Instanton in der
+N®ahe von y befindet. Sei nun genau ein Instanton in der N®ahe von y = 0 fixiert. Die
+Orientierung und die Ladung der restlichen Instantonen kann unabh®angig gemittelt wer-
+den, aber bei der Mittelung ®uber die Orte zJ muﬂ das Gebiet in der Umgebung von y
+vermieden werden. Der n®achste Schritt ist, 2 Instantonen nahe y anzunehmen, u.s.w.
+Der relative Fehler, den man durch Vernachl®assigen dieser weiteren Beitr®age und durch
+Ignorieren der Restriktion von zJ macht, sind beide von O(nR). In f®uhrender Ordnung in
+der Instanton-Dichte k®onnen wir somit ein Intanton nahe y = 0 fixieren und nur diesen
+Beitrag zu aA(0) ber®ucksichtigen. Die anderen Instantonen k®onnen wie im Falle des Pro-
+pagators gemittelt werden. Die aufzusummierenden Diagramme sind dabei die gleichen,
+nur daﬂ ein Instanton I fixiert wird. Der Propagator besteht aus einer Folge von Streu-
+ungen an AJ (J = 1 . . . N), wobei mehrfache Streuungen am gleichen Instanton erlaubt
+sind. Es gibt 2 F®alle: Im ersten Fall sind alle Instantonen, die links aller AI auftreten,
+verschieden von allen Instantonen, die rechts aller AI auftreten. In f®uhrender Ordnung
+in 1/Nc sind alle Instantonen im Mittelabschnitt vom ersten bis zum letzten Auftreten
+von AI verschieden von den ®auﬂeren Instantonen. Die Instantonen auf der rechten und
+auf der linken Seite k®onnen unabh®angig voneinander gemittelt werden, was zu gemittel-
+ten Multi-Instanton Propagatoren f®uhrt. Mittelung des Mittelabschnitts, aber Fixierung
+
+
+60 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+von I, ergibt den effektiven Vertex MI. Der freie Teil des Korrelators im Impulsraum ist
+folglich
+T free
+a (p, s) = 2Nf QI(zI) <
+MI<
+p s I =
+
+= -2iN ^
+f Q(p - s) MpMsS(p)5S(s) (6.43)
+1 6 4
+QI(zI) = a (0) =
+2N AI ±
+f 2 z2 + 2
+I
+
+QI(zI) ist die Ladungsdichte eines Instantons der Ladung QI = ±1 und ^Q(q) =
+1 (q)2K
+2 2(q) ist die Fourier-Transformation3 f®
+ur QI = +1. F®ur p2 = s2 = M2 ist der
+Term MpMs gerade die Onshell-Masse M. Einsetzen von (6.43) in (6.37) und Vergleich
+mit (6.22) ergibt f®ur den freien Teil des Anomalie-Formfaktors:
+
+Afree(q) = -N ^
+f Q(q) , Afree(0) = -Nf (6.44)
+
+Im 2. Fall gibt es gemeinsame Instantonen zur linken und zur rechten Seite von I. Der
+verbundene Teil des Korrelators und des Formfaktors sind
+
+ß
+MI§
+
+T conn(p, s) = 2N = (6.45)
+a f QI (zI ) Cs
+p s I
+< • ¶<
+
+= -4Nfi ^Q(p - s)Cs(p
+5 - s)F5(p - s) MpMsS(p)5S(s)
+Aconn(q) = -2N ^
+f Q(q)C s
+5 (q)F5(q) , Aconn(0) = Nf - 1 (6.46)
+Dieses Ergebnis kann leicht mit Hilfe der Formeln aus Kapitel 4 hergeleitet werden. Im
+letzten Schritt wurde F5(0) = 1 und Cs5(0) = 1/Nf - 1 verwendet. F®ur ein Flavor ist der
+verbundene Teil Null, wie er es sein sollte. Der Anomalie-Formfaktor bei Impuls®ubertrag
+Null
+A(0) = Afree(0) + Aconn(0) = -1 (6.47)
+ist somit unabh®angig von der Zahl der Flavors! Dieses Resultat ist willkommen, auf-
+grund folgender Argumentation: Die Formfaktoren der axialen Singulett-Str®ome jµ5 soll-
+ten nicht von einem Quark-Flavor abh®angen, der nicht im betrachteten Teilchen-Zustand
+vorkommt. Deshalb erwartet man, daﬂ sie unabh®angig von Nf sind. Wegen (6.21) m®ussen
+dann auch Matrix-Elemente von a(x) unabh®angig von Nf sein. Aber dies ist nicht offen-
+sichtlich, da a(x) explizit proportional zu Nf ist und das Gluon-Feld nicht Flavor-sensitiv
+ist. Obige Rechnung zeigt, wie die Quark-Wechselwirkung den freien Teil, der propor-
+tional zu Nf ist, ausl®oscht, so daﬂ der Formfaktor insgesamt unabgh®angig von Nf ist,
+zumindest f®ur Impuls®ubertrag Null.
+
+3F®ur die ®
+Uberladung des Symbols K m®ochte ich mich entschuldigen: K2(q) ist eine modifizierte
+Bessel-Funktion, Kµ(x) ist der Anomalie-Strom und K1/2(q) dessen Formfaktoren.
+
+
+6.8. DIE ANOMALIE-FORMFAKTOREN K1/2(Q) 61
+
+
+6.8 Die Anomalie-Formfaktoren K1/2(q)
+
+F®ur K1/2(0) kann die Berechnung des letzten Abschnittes mit nur kleineren ®
+Anderungen
+®
+ubernommen werden. a(0) muﬂ zun®achst durch Kµ(0) ersetzt werden. Dies impliziert die
+Ersetzungen
+1
+2Q(z ^
+I ) ; Gµ(zI ) := Kµ (0) , 2 ^
+Q(q) G
+N A ; µ(q) (6.48)
+I
+f
+
+Gµ(zI) ist Kµ(0), wobei das Eichfeld ein bei zI plaziertes Instanton der Ladung QI = +1
+und ^
+Gµ(q) seine Fourier-Transformation ist. In regul®arer Eichung erhalten wir
+
+1 z
+Greg µ(z2 + 32)
+µ (z) = Kµ (0) = (6.49)
+N Areg -
+f I 2(z2 + 2)3
+^ q0
+Greg(q) =
+µ -iqµ2K2(q) - -2iqµ/q2
+Mit Hilfe dieser Ersetzungen in (6.43) und (6.45) erm®oglicht ein Vergleich mit (6.22) die
+Bestimmung von K1/2(q):
+
+q2
+Kreg
+1 (q) = 0 , lim Kreg
+2 (q) = 1 (6.50)
+q20 2M
+
+In singul®arer Eichung erhalten wir dagegen
+
+z
+Gsing(z) = Greg(z) + µ , ^
+Gsing(q) = ^
+Greg(q) + 2iq
+µ µ 2z4 µ µ µ/q2 q0
+- 0 (6.51)
+
+q2
+Ksing
+1 (q) = 0 , lim Ksing
+2 (q) = 0
+q20 2M
+
+
+Offensichtlich ist der Anomalie-Formfaktor K2(q) eichabh®angig und enth®alt einen mas-
+selosen Pol in der regul®aren Eichung. Der Grund hierf®ur ist die Eichabh®angigkeit des
+Anomalie-Stromes Kµ selbst. Man kann zeigen, daﬂ die Vorw®arts-Matrix-Elemente
+K1/2(0) f®ur kleine Eichtransformationen eichinvariant sind. Eine Eichtransformation wird
+'klein' genannt, wenn sie stetig in die Identit®at deformiert werden kann. Auf der anderen
+Seite ist die Eichtransformation, die ein Instanton von regul®arer Eichung in singul®are Ei-
+chung transformiert 'groﬂ', da die singul®are L®osung aufgrund der Singularit®at nicht stetig
+in die regul®are L®osung deformiert werden kann.
+
+Eine weitere bemerkenswerte Beobachtung ist, daﬂ die Relation
+
+q2
+K1(q) - K
+2M 2(q) = A(q) (6.52)
+
+in singul®arer Eichung verletzt ist, wie aus (6.51) ersichtlich ist:
+
+q2
+Ksing(q) Ksing = A(q) (6.53)
+1 - 2M 2
+
+
+62 KAPITEL 6. DIE AXIALE ANOMALIE
+
+
+Oberfl®achen-Terme sind der Grund f®ur diese Verletzung. F®ur die Herleitung von (6.52)
+wurde das Verschwinden von Oberfl®achen-Termen angenommen. Ersetzt man die ebene
+Wellenl®osung f®ur den Proton/Quark-Zustand durch ein Wellenpaket, dann fallen der Zu-
+stand und damit alle Matrix-Elemente gen®ugend schnell im r®aumlich Unendlichen ab und
+es gibt keine Oberfl®achen-Terme. Ein experimenteller Zustand ist stets ein mehr oder
+weniger lokalisiertes Wellenpaket. Folglich gibt es in regul®arer Eichung keine Oberfl®achen-
+Terme und
+q2
+Kreg(q) Kreg = A(q) (6.54)
+1 - 2M 2
+ist g®ultig f®ur alle q. Um in singul®arer Eichung arbeiten zu k®onnen, muﬂ als Raumzeit-
+Mannigfaltigkeit IR4\{0} gew®ahlt werden, um die unphysikalische Singularit®at auszu-
+schlieﬂen. Dieses kleine Loch sollte die Physik bei groﬂen Abst®anden nicht beeinflussen.
+Alle Ortsraum-Integrale sind folglich Integrale ®uber IR4\B(0). Eine partielle Integration
+kann nun auch zu Oberfl®achen-Termen bei Null f®uhren. Der Oberfl®achen-Term ist f®ur
+Gsing
+µ von Null verschieden, wie in (6.51) zu sehen ist. Dies ist die Ursache der Unglei-
+chung (6.53). Es ist ein wenig ®uberraschend, daﬂ nicht das langsam abfallende regul®are
+Eichfeld einen Oberfl®achen-Term bei unendlich verursacht, sondern die starke Singula-
+rit®at an den Instanton-Zentren einen Oberfl®achen-Term und damit die Verletzung (6.52)
+bewirkt.
+
+Folgende Standpunkte k®onnen eingenommen werden:
+
+
+1. Eichabh®angige Objekte, wie K1/2(q), sollten nicht betrachtet werden, da sie unphy-
+sikalisch sind, oder
+
+2. die Relation (6.52) wird durch Verwendung der regul®aren Eichung erhalten (dies
+widerspricht allerdings der Philosophie des Kapitels 8) oder
+
+3. die Relation (6.52) wird durch Hinzunahme von Oberfl®achen-Termen modifiziert,
+die bei partieller Integration entstehen.
+
+
+In folgender Diskussion werde ich Standpunkt 2 einnehmen.
+
+
+
+6.9 Diskussion
+
+Vergleicht man die Resultate f®ur die Formfaktoren GI = GGI(0), GGI(0), A(0),
+1 2
+K1(0) = Kreg
+1 (0) und K2(0) = Kreg
+2 (0), die in der letzten Zeile der Tabelle 6.1 zusammen-
+gefaﬂt sind, so sieht man deutlich, daﬂ sie widerspr®uchlich sind. Es ist nicht m®oglich, die
+restlichen Formfaktoren so zu bestimmen, daﬂ sie konsistent mit (6.23) und (6.33) sind
+Der offensichtlichste Widerspruch ist GI = A(0). Ein entgegengesetztes Vorzeichen
+der Anomalie w®are wenigstens theoretisch konsistent und w®urde der naiven Erwartung
+entsprechen. Der einzige Kandidat f®ur die Verletzung der axialen Ward-Identit®at ist die
+Vernachl®assigung der nicht-Nullmoden. Alle anderen Approximationen respektieren die
+Symmetrien der QCD, wie in Abschnitt 3.3 diskutiert wurde.
+
+
+6.9. DISKUSSION 63
+
+
+Forte [53] leitete die Relation + A(0) = 0 in einem Instanton-Modell im Falle eines
+Quark-Flavors unter Vernachl®assigung dynamischer Quark-Schleifen und in einer Dichte-
+Entwicklung her. wurde dort mit c identifiziert und K2(0) = 0 wurde implizit
+angenommen. Folglich ist A(0) = K1(0) und mit (6.31) kann man das willkommene
+Resultat GI = 0 zeigen.
+
+In Abschnitt 6.8 habe ich gezeigt, daﬂ die Anomalie zu K2 und nicht K1 beitr®agt. Dies
+ist die erste Diskrepanz zu [53]. Weiterhin habe ich in Abschnitt 6.6 gezeigt, daﬂ mit
+GI zu identifizieren ist. Dies ist die zweite Diskrepanz. Es mag sich herausstellen, daﬂ
+die Ber®ucksichtigung der nicht-Nullmoden diese Diskrepanz in einer Weise behebt, die zu
+einem ph®anomenologisch akzeptablen kleinen GI f®uhrt; doch dies bleibt zu zeigen. In
+der 1-Instanton-Approximation ist diese Ber®ucksichtigung bew®altigbar und wurde in [22]
+f®ur die Meson-Korrelatoren durchgef®uhrt. Die konsistente Erweiterung auf das Instanton-
+Fl®ussigkeits-Modell und die Quark-Formfaktoren war mir bisher nicht m®oglich.
+
+Diese Probleme sollten mit der Berechnung der Masse verglichen werden. Die Standard-
+Methode, die Meson-Korrelatoren zu berechnen und die Meson-Massen aus einem spektra-
+len Fit zu gewinnen, war im Falle des auch nicht sehr erfolgreich. Verfeinerte Argumente
+erlaubten in Abschnitt 6.6 eine erfolgreiche Bestimmung von m . Das Instanton-Modell
+ging eher in unspezifischer Weise ein. Es ging in die (Anti)selbstdualit®ats-Bedingung
+(6.21) und in der Absch®atzung f®ur die Unterdr®uckung des Gluon-Kondensats durch leichte
+Quarks ein. Vielleicht ist eine ®ahnliche, mehr indirekte Zuhilfenahme von Instantonen, in
+der Lage auch das Proton-Spin-Problem zu l®osen.
+
+Genauso gut ist es m®oglich, daﬂ das Proton-Spin-Problem nicht auf der Ebene von in-
+dividuellen Konstituenten-Quarks gel®ost werden kann, sondern mit einer starken Wech-
+selwirkung zwischen verschiedenen Konstituenten-Quarks im axialen Singulett-Kanal zu
+tun hat. Diese M®oglichkeit in Zusammenhang mit Instantonen ist in [69] diskutiert.
+
+
+Kapitel 7
+
+Gluon-Masse
+
+
+Bisher wurde das Instanton-Vakuum auf dem klassischen Niveau behandelt. In diesem Ka-
+pitel sollen die Quanten-Fluktuationen um das Instanton-Vakuum zum Gluon-Propagator
+berechnet werden.
+
+Abschnitt 7.1 ist eine kurze Einf®uhrung in die Probleme und die ph®anomenologischen Kon-
+sequenzen massiver Eichtheorien. In den anderen Abschnitten wird der Gluon-Propagator
+in verschiedenen Eichungen berechnet. In der Hintergrund = 1-Eichung hat der Gluon-
+Propagator die einfache Gestalt Sab = abg
+µ µ /(p2 - M(p)2). In Abschnitt 7.2 wird der
+inverse Propagator aus den Termen extrahiert, die quadratisch in den Fluktuationen um
+den Hintergrund sind. In Abschnitt 7.3 wird dieser Ausdruck ®uber relevante Hintergrund-
+Felder gemittelt und die Gluon-Masse M(p) extrahiert. In Abschnitt 7.4 wird M explizit
+im Multi-Instanton-Vakuum berechnet. F®
+ur groﬂe Impulse wird diese Masse allerdings
+von Termen, die vernachl®assigt wurden, ausgel®oscht. Weiterhin ist die Masse stark eich-
+abh®angig. Um zuverl®assige Resultate im gesamten Impulsbereich zu erhalten, wird in
+Abschnitt 7.5 eine Cluster-Entwicklung in der Instanton-Dichte vorgestellt. Zu diesem
+Zweck ben®otigen wir den Gluon-Propagator im ein-Instanton-Vakuum. Ben®otigte For-
+meln zur Konstruktion dieses Propagators sind in Abschnitt 7.6 zusammengestellt. Da
+diese Ausdr®ucke sehr lang sind, werden wir uns in Abschnitt 7.7 auf den Fall kleiner
+Impulse beschr®anken.
+
+
+
+7.1 Einf®
+uhrung
+
+Die Frage, ob die Erzeugung einer Masse f®ur Eichbosonen ohne Brechung der Eichsymme-
+trie m®oglich ist, ist sehr alt. Die explizite Einf®uhrung einer Gluon-Masse in der Lagrange-
+Diche verursacht einige Schwierigkeiten. Um die Eichinvarianz zu erhalten, m®ussen die
+Eichfelder an masselose skalare Teilchen gekoppelt werden [30, 31], die von physikalischen
+Matrix-Elementen entkoppeln. Die Masse kann keine konstante sein, sondern muﬂ f®ur
+groﬂe Impulse verschwinden, um die Renormierbarkeit der Theorie zu gew®ahrleisten (wei-
+che Masse). Beide Ph®anomene (masselose Skalare und eine weiche Gluon-Masse) treten
+auch in jedem Modell einer dynamischen Erzeugung einer Gluon-Masse auf. Es sollte
+
+64
+
+
+7.1. EINF ®
+UHRUNG 65
+
+
+erw®ahnt werden, daﬂ die Terminologie einer Masse nicht notwendigerweise eine Polmasse
+bedeutet, sondern die Selbstenergie. Von einer dynamischen Masse wird gesprochen, falls
+die Selbstenergie bei p2 = 0 von Null verschieden ist und somit der masselose Pol im
+Propagator verschwunden ist. In [38] wurde eine eichinvariante Gluon-Selbstenergie de-
+finiert und berechnet. L®osen der Schwinger-Dyson-Gleichungen liefert eine Masse von
+500 ±200MeV . Aufgrund der asymptotischen Freiheit verschwindet die Masse bei groﬂen
+Impulsen logarithmisch Mgluon(p) (lnp2)-12/11. Nicht-Perturbative Argumente ergeben
+ein Abfallverhalten, wie 1 (ln p2)12/11 [32, 33]. Als letztes sei noch erw®ahnt, daﬂ eine
+p2
+dynamische Gluon-Masse nicht im Widerspruch zu Confinement steht [34, 35, 36, 37].
+
+
+
+Neben der Regularisierung aller Infrarot-Divergenzen, hat eine Gluon-Masse ein Reihe
+ph®anomenologischer Konsequenzen. Eine direkte Konsequenz sind Gluon-Ball-Massen.
+Im einfachsten Bild, in dem Gluon-B®alle aus N Konstituenten-Gluonen bestehen, ist
+die Masse von der Ordnung N ∑Mgluon. Hadronen mit Gluonen k®onnen auch konstru-
+iert werden (Ø
+qqg, qqqg, . . . ). Nat®urlich sind die Gluonen aufgrund der starken Wechsel-
+wirkung hochgradig virtuell, und es ist nicht einmal klar ob dieses Bild qualitativ kor-
+rekt ist. Man kann nur auf den Quark-Sektor und den Erfolg des Konstituenten-Quark-
+Modells verweisen. Weiterhin modifiziert eine Gluon-Masse die transversale Impulsvertei-
+lung von Gluon-Jets und mit einer theoretisch vorhergesagten Gluon-Masse besitzt man
+einen nat®urlichen Energie-Cutoff. F®ur die Instanton-Physik ist eine Gluon-Masse eben-
+falls willkommen: In einer massiven Eichtheorie sind Instantonen der Gr®oﬂe M-1
+gluon
+exponentiell unterdr®uckt. Es gibt somit kein Infrarot-Problem mehr. Geht man vom
+Instanton-Fl®ussigkeits-Modell unabh®angiger Instantonen mit Radius = 600MeV -1 und
+einer Dichte von n = (200MeV )4 aus, so erh®alt man eine Gluon-Masse von Mgluon = 480
+MeV, die nahe der Cutoff-Skala -1 = 600MeV liegt. Man beachte, daﬂ diese M®oglichkeit
+das Infrarot-Problem zu l®osen verschieden ist, von der Standard-Hoffnung eine abstoﬂende
+Wechselwirkung zwischen groﬂen Instantonen zu finden [24, 25, 20].
+
+
+
+F®ur eine quantitative Theorie muﬂ die Berechnung des unphysikalischen Gluon-Propaga-
+tors auf eichinvariante Matrix-Elemente, wie Gluon-Ball-Korrelatoren, erweitert werden.
+Dies ist ein Problem in allen bisherigen Arbeiten (inklusive dieser). Die Methoden eine
+Gluon-Masse zu erhalten sind zu kompliziert, um auf physikalische Gr®oﬂen angewendet
+werden zu k®onnen. Daher ist es schwierig, die oben erw®ahnten physikalischen Anwendun-
+gen quantitativ zu machen.
+
+
+
+In den folgenden Abschnitten wird der gemittelte Quanten-Gluon-Propagator f®ur verschie-
+dene Eichungen im Multi-Instanton-Hintergrund berechnet. Obwohl explizite Ausdr®ucke
+seit langer Zeit bekannt sind [18], wurden sie in ph®anomenologischen Anwendungen bisher
+nicht verwendet, da sie sehr kompliziert sind. Bisher wurde der Instanton-Hintergrund
+klassisch bahandelt. Selbst die 1-Schleifen Instanton-Wirkung [17] ist aufgrund des
+Infrarot-Problems von geringer praktischer Bedeutung. Auf der anderen Seite k®onnen
+Quanten-Korrekturen zu gluonischen n-Punkt-Funktionen groﬂ sein.
+
+
+66 KAPITEL 7. GLUON-MASSE
+
+
+7.2 Der Gluon-Propagator *
+
+Die erste Aufgabe, um einen formalen Ausdruck f®ur den Gluon-Propagator in einem Hin-
+tergrundfeld zu gewinnen, besteht darin, LQCD[ ØA + B] in den Fluktuationen Ba um das
+µ
+Hintergrund-Feld Ø
+Aa zu entwickeln. Der in Ba quadratische Term ist dann nach Definition
+µ µ
+der inverse Gluon-Propagator. F®ur Ø
+Aaµ wird sp®ater die Instanton-Fl®ussigkeit eingesetzt.
+Wir gehen von der Euklidischen QCD-Lagrangedichte
+
+1
+LQCD = Ga
+4g2 µGµ
+a , Gaµ(A) = µAa - Aaµ + fabcAbµAc
+
+aus. Einsetzen von A = Ø
+A + B ergibt
+
+1
+g2LQCD( ØA + B) = Ga
+4 µ( Ø
+A + B)Gµ
+a ( Ø
+A + B) =
+
+
+O(B0) O(B1) O(B2)
+1 1
+= Ø
+Ga Ø
+Gµ Ba Ø
+Dab Ø
+Gµ + Ba Ø
+Dcb Ø
+Gc Ø
+Dcb
+4 µ a + µ b 2 µ(- Ø
+Dac
+µ - 2facb µ + Ø
+Dac
+µ )Bb
++
+
+1
++ f Ø
+abcBb
+µBc
+Dad
+µ Bd
++ f +
+4 abcBbµBcfadeBdµBe µ(. . .) , (7.1)
+O(B3) O(B4)
+
+wobei Ø
+Dab Ø
+µ = µab + facbAcµ die kovariante Ableitung mit Ø
+A anstelle von A ist. Analog ist
+Ø
+Ga = Ga ( Ø
+A). Die Oberfl
+µ µ ®achenterme µ(. . .) beeinflussen den Propagator nicht. L®ost Ø
+A
+die QCD-Bewegungsgleichungen, so verschwindet der in B lineare Term. In Hintergrund-
+Eichung Ø
+Dcb
+Bb
+= 0 ist der letzte Term des O(B2)-Beitrags Null. Aus dem in B qua-
+dratischen Term kann nun der inverse Gluon-Propagator abgelesen werden. Im folgenden
+werden die Striche ®uber A, G und D unterdr®uckt, da die ungestrichenen Gr®oﬂen nicht
+l®anger ben®otigt werden:
+
+(S-1)ab
+µ = -Dac
+Dcb
+µ - 2facbGcµ . (7.2)
+Zur Vereinfachung der Notation f®uhren wir folgende Abk®urzungen ein:
+
+Gµ = F cGcµ , Aµ = F cAcµ ,
+
+(F c)ab = ifacb , [F a, F b] = ifabcF c , trcF aF b = Ncab , Nc = 3 ,
+
+( ^
+Pµ)ab = iDab , ^
+p
+µ µ = iµ , ^
+Pµ = ^
+pµ + Aµ ,
+
+^
+pµX = [^
+pµ, X] + X ^
+pµ = i(µX) + X ^
+pµ . (7.3)
+
+Die letzte Gleichung wurde nur aufgenommen, um zu betonen, daﬂ ^
+p und ^
+P im Operator-
+Sinne verwendet werden. F a sind die Generatoren in adjungierter Darstellung und fabc
+die Strukturkonstanten der Farb-Eichgruppe SU(Nc). Der Propagator schreibt sich nun:
+
+S-1 = ^
+P 2 + V )
+µ µ + 2iGµ = ( ^
+p2 + ^
+p∑A + A∑^p+ A2)µ + 2iGµ = (S-1
+0 µ ,
+
+S0 =
+µ µ / ^
+p2 , Vµ = (A2 + ^
+p∑A + A∑^p)µ + 2iGµ . (7.4)
+
+
+7.3. DER PROPAGATOR IM STATISTISCHEN HINTERGRUND * 67
+
+
+S0 ist der freie Propagator ohne Hintergrund und V kann als Wechselwirkungs-Potential
+des Hintergrundes aufgefaﬂt werden. Die QCD-Lagrange-Dichte (7.1) kann in einer f®ur
+die St®orungstheorie geeigneteren Form geschrieben werden:
+
+1 1
+g2LQCD = Ga (B)Gµ(B) + BaV abBb + f BcBdAµ (7.5)
+4 µ a 2 µ µ abcfaedBb
+µ e
+
+
+Terme, die unabh®angig und linear in B sind, wurden weggelassen. Konstante Terme
+sind f®ur die Dynamik irrelevant und in B lineare Terme sind Null, falls A die QCD-
+Bewegungsgleichungen l®ost. Die durch den Hintergrund hinzugekommenen Terme erzeu-
+gen zwei zus®atzliche Feynman-Graphen
+µ, a
+V ,b =Vabµ
+, c
+µ, b
+A = gfabcfaedAe
+µ
+
+
+
+, d
+
+Es sollte betont werden, daﬂ f®ur kleine Kopplung g der
+behandelt werden kann, der erste hingegen nicht! Daher
+dem ersten Graphen.
+
+
+
+7.3 Der Propagator im statistisc
+
+Der n®achste Schritt in der Berechnung des Propagators
+
+S = (S-1
+0 + V )-1 = S0(11 + T )-1 ,
+
+ist die Ausarbeitung eines Approximations-Schemas.
+entwickeln:
+S = S0(11 - T + T2 - T3 +
+Beachte, daﬂ S(x, y) = x|S|y im allgemeinen nicht translations-
+ist, da Aµ und damit T es ebenfalls nicht sind. Letztendlic
+in einem konkreten Hintergrund interessiert, sondern n
+Hintergrund-Felder. An dieser Stelle sind nicht die Quan
+Vakuum gemeint, sondern klassische Felder, die sich vom
+und die Euklidische Wirkung Ldx minimieren.
+S = S0(11 - T + T2 - T3 +
+die ®
+Uberstreichung bedeutet Mittelung ®uber relevan
+Instanton-Fl®ussigkeitsmodell ist diese Mittelung in Anhang
+tergrund statistisch translationsinvariant, so ist auch S
+
+
+68 KAPITEL 7. GLUON-MASSE
+
+
+S(p, q) = p|S|q = S(p)-(p - q). diagonal im Impulsraum. Da wir S in der Form
+S(p) = (p2 + M(p)2)-1 ben®otigen, ist es sinnvoll (7.8) zu invertieren
+
+-1
+S = ^
+p2 + M(^
+p)2 = (11 - T + T2 - T3 + ...)-1S-1
+0 (7.9)
+
+und erneut in T zu entwickeln. Ohne Mittelung w®are dies eine geometrische Reihe und
+gerade unser urspr®unglicher Ausdruck S-1 = S-1
+0 + V . Durch die Mittelung stehen die
+einzelnen Terme nun in keinerlei Beziehung zueinander. Entwickeln und Sortieren nach
+Potenzen von T ergibt:
+
+-1 2 3
+S = (11 + T - (T2 - T ) + (T3 - T T2 - T2 T + T ))S-1
+0 + O(T 4) (7.10)
+= S-1 + V
+0 - (V S0V - V S0V ) + ...
+= S-1 + M2, M2 = M2 + . . . , M2 = V , M2 = V S
+0 1 - M22 1 2 0V - V S0V .
+Im n®achsten Abschnitten wird M1 im Instanton-Fl®ussigkeits-Modell berechnet.
+
+
+7.4 Eine naive Sch®
+atzung f®
+ur die Gluon-Masse *
+
+Im Instanton-Fl®ussigkeits-Modell, in dem A = A
+I I eine Summe von Instantonen in
+singul®arer Eichung mit festem Radius = 600MeV-1 ist, kann die Streuamplitude
+
+V µ = (A2 + ^
+p ∑ A + A ∑ ^p)µ + 2iGµ
+auf einfache Weise berechnet werden. Eine kurze Rechnung zeigt [40]
+
+Aµ = AIµ I = 0 , Gµ = 0 (7.11)
+
+122N
+A2 = A2 c
+I I = n2
+N2 ab
+c - 1
+Hieraus ergibt sich f®
+ur M21 = V = A2
+
+122N
+M c
+1 = n
+N2 420MeV , (7.12)
+c - 1
+
+wobei die Instanton-Dichte n = (200 MeV)4 verwendet wurde. Dieser Wert stimmt gut
+mit den Ergebnissen von [38] und [39] ®uberein.
+
+F®ur groﬂe Impulse gibt es allerdings einen Term in M2, der M1 vollst®andig aufhebt.
+Aufgrund der asymptotischen Freiheit ist eine f®ur groﬂe Impulse verschwindende Masse
+auch zu erwarten. Um dies im Detail zu sehen, kann man die Potenzen der ^
+p s in M22
+z®ahlen. V S0V = M41/p2 verschwindet f®ur groﬂe p. V enth®alt allerdings ein ^p im Z®ahler
+(^
+pA) und S0 = 1/^
+p2. V S0V kann somit f®ur groﬂe p von Null verschieden sein. Betrachte
+
+p
+V S µp
+0V = (pA + Ap)S0(pA + Ap) + weitere Terme = 4Aµ A
+p2 + . . .
+
+
+7.5. ENTWICKLUNG IN DER INSTANTON-DICHTE * 69
+
+
+wobei [p, AI] = iµAµ = 0 ausgenutzt wurde.
+I
+
+p
+x|V S µp
+0V |y = 4Aµ(x) x| p2 |y A(y) + . . .
+
+Aus µ x|pµp/p2|y = x|y = (x - y) folgt x|pµp/p2|y = 1
+4 µ (x - y) + spurfreie
+Terme.
+x|V S0V |y = Aµ(x)Aµ(x)(x - y) + ... = x|A2|y + ...
+Folglich enth®alt M2 = A2 + . . . = M2 + . . . einen Term, der M2 vollst
+2 1 1 ®andig eliminiert. In
+Kapitel 8 wird erkl®art, warum in singul®arer Eichung solche Ausl®oschungen zu erwarten
+sind.
+
+Im n®achsten Abschnitt pr®asentieren wir eine systematische Entwicklung des Propagators
+in der Instanton-Dichte.
+
+
+
+7.5 Entwicklung in der Instanton-Dichte *
+
+In diesem Abschnitt wird der Gluon-Propagator in der Instanton-Dichte n entwickelt.
+Diese Entwicklung ergibt zuverl®assige Resultate f®ur alle Euklidischen Impulse p, insbe-
+sondere f®ur kleine Impulse. Weiterhin ist das Ergebnis eichinvariant.
+
+Der Mittelwert einer beliebigen Potenz des ein-Instanton-Feldes ist proportional zum in-
+versen Raumzeit-Volumen: An f
+I 1 ®ur n
+V 1. Die Entwicklung des Quadrats einer
+Multi-Instanton-Konfiguration in der Instanton-Dichte lautet
+
+N
+
+A2 = A2 + NAI (N - 1)AI = NA2 +O(n2) (7.13)
+I
+I=1 O(n) O(n) O(n)
+
+
+und allgemeiner
+
+An = NAn + O(n2) , V n = NV n + O(n2) f
+I I ®
+ur n 1, (7.14)
+
+wobei VI = V (AI) definiert in (7.4) mit A ersetzt durch AI ist. Summiert man alle in n
+linearen Terme in (7.10) auf, so erh®alt man:
+
+-1
+S = (11 + T - T2 + T3 - ...)S-1 + O(n2)
+0
+
+= (11 + N(TI - T2 + T3 + O(n2)
+I I - . . .))S-1
+0
+= (11 + NTeff )S-1
+0 + O(n2) = S-1
+0 + NVeff + O(n2) (7.15)
+
+
+Teff = TI - T2I + T3I - ... = TI - TI(TI - T2I + ...) = TI - TITeff
+Veff = VI - VIS0Veff = Veff = S-1(S mit (7.16)
+0 0 - SI)S-1
+0
+S-1 = S-1 + V
+I 0 I ist der Propagator im ein-Instanton-Vakuum. (7.17)
+
+
+70 KAPITEL 7. GLUON-MASSE
+
+
+Allgemein kann man eine Cluster-Entwicklung f®ur eine beliebige Funktion von A
+durchf®uhren:
+
+N
+f (A1 + . . . + AN ) = f (A) = (N ) ( )f (A
+l -)l-k(lk 1 + . . . + Ak) = (7.18)
+l=0 k=0..l
+
+1
+= f (0) + Nf (A1) - f(0)+ N(N +O(n3)
+2 - 1)f(A1 + A2) - 2f(A2) + f(0)
+O(1) O(n) O(n2)
+
+Die erste Zeile ist eine Identit®at (sogar ohne Mittelung). Setzt man f®ur f eine Taylor-
+Entwicklung in die zweite Zeile ein und ber®ucksichtigt man die Nicht-Unterscheidbarkeit
+verschiedener Instantonen, so sieht man, daﬂ alle Monome im k-ten Term k oder mehr
+verschiedene Instantonen enthalten. Die Mittelung faktorisiert in k Faktoren, jeder pro-
+portional zu n. Somit ist der k-te Term tats®achlich von der Ordnung nk. Es ist einfach
+(7.18) auf mehr als eine Feldspezies zu erweitern. Besteht A aus NI Instantonen und NI
+Anti-Instantonen, so erh®alt man in erster Ordnung in n:
+
+f (A) = f (0) + NIf (AI) - f(0) + NØIf(AØI) - f(0) + O(n2). (7.19)
+
+Setzt man in (7.19) den Propagator S ein, so erh®alt man
+
+S = S(A) = S(0) + NS(AI) - S(0) + O(n2) = S0 + NSI - S0+ O(n2) (7.20)
+
+Invertieren ergibt erneut (7.15) bis auf Terme der Ordnung n2.
+
+
+
+7.6 QCD Propagatoren *
+
+In Abschnitt 7.5 sahen wir, daﬂ es gen®ugt, den ein-Instanton-Propagator zu kennen, um S
+in erster Ordnung n zu berechnen. Gl®ucklicherweise ist dieser Propagator bekannt, doch
+ist der Ausdruck recht kompliziert und obendrein divergent.
+
+Der Gluon-Propagator Sab mit Spin S = 1 in adjungierter Farbdarstellung1 (C = 1)
+Iµ
+kann aus dem Geist-Propagator ab (S = 0, C = 1) berechnet werden, welcher explizit
+I
+f®ur den ein-Instanton-Hintergrund bekannt ist. Auf folgende Weise kann ein Propaga-
+tor gegebenen Spins S in einem selbstdualen Hintergrund aus dem skalaren Propagator
+gleicher Farb-Darstellung C gewonnen werden:
+
+Notation:
+
+Aµ = T aAa , [T a, T b] = i
+µ abcT c , T a = Generator von SU(2)c
+0 in skalarer (C = 0)
+T a =
+a/2 infundamentaler (C = 1) Farb-Darstellung (7.21)
+2
+1Aus historische i ∑a∑ in adjungierter (C = 1)
+n Gr®unden manchmal Isospin genannt [18].
+
+
+7.6. QCD PROPAGATOREN * 71
+
+
+1
+Pµ = pµ + Aµ , pµ = iµ , ~
+Gµ = 2 µG , {µ,} = 2µ
+
+Spin 0 Propagator ~
+:
+~
+-1 = P 2 = ~ = P-2 (7.22)
+Spin 1 Propagator S:
+2
+
+1 + 1
+S-1 = P/ = 5 - 5
+µP µ = S = P/~ + ~
+P/ f®ur G
+2 2 µ = ~
+Gµ (7.23)
+
+
+Spin 1 Propagator S:
+
+1
+S-1 = P 2 ~
+)P
+µ µ + 2iGµ - (1 - µP =
+S ~ ~
+µ = qµ P2P - (1 - )Pµ2P f®ur Gµ = ~
+Gµ, (7.24)
+
+qµ = µ + µ - µ + µ .
+Herleitung und Diskussion dieser Formeln findet man in [18]. Einige Kommentare sind an
+dieser Stelle angebracht. Obige Formeln sind g®ultig f®ur beliebige Farb-Darstellung. Wir
+ben®otigen sie jedoch nur f®ur die adjungierte Darstellung C = 1. F®ur S = 0 gibt es Nullm-
+oden und der Propagator ist nur in einem zu den Nullmoden orthogonalen Unterraum das
+Inverse des Kernels. Implikationen und Probleme dieser Beobachtung werden in Abschnitt
+7.8 diskutiert. Der Spin 1 Kernel ist der quadratische Term der QCD-Lagrange-Funktion
+(7.1) mit Eichfixierungs-Term 1 (Dab
+2 µ Bb
+µ)2 in Verallgemeinerung des = 1 Falles, der in
+den ersten Abschnitten untersucht wurde.
+
+Mit
+2 ( x) ( y)
+(x) = 1 + , F (x, y) = 1 + 2 , (7.25)
+x2 x2 y2
+
+µ = ( , i) , µ = (, -i) , µ = µ + iØaµa
+kann der Geist-Propagator f®ur ein Instanton in der Form [18]
+
+1 tr
+ab(x, y) = 2 aF (x, y)bF (y, x) = (7.26)
+I 42(x - y)2(x)(y)
+2 22
+= ab ab + abc Ø
+cµxµy
+42(x - y)2 - 42(x2 + 2)(y2 + 2) 42(x - y)2(x2 + 2)(y2 + 2)
+24(((xy)2
++ - x2y2)ab + abcØcµxµy(xy) + ØaµØbxµyxy)
+42(x - y)2(x2 + 2)x2(y2 + 2)y2
+geschrieben werden [18]. Zur Vereinfachung wurde das Instanton an den Ursprung zI = 0
+in Standard-Orientierung gesetzt. Mittels (7.24) ist es m®oglich den Gluon-Propagator Sab
+Iµ
+explizit auszuschreiben, dies f®uhrt allerdings auf einen sehr langen Ausdruck. W®ahrend
+ab exakt gemittelt und im Impulsraum mit Hilfe modifizierter Besselfunktionen darge-
+I
+stellt werden kann, scheint dies unm®oglich f®ur Sab . Es ist also n
+Iµ ®otig, S f®
+ur groﬂe oder
+kleine Impulse zu entwickeln. Letztendlich werden wir den vollen Ausdruck f®ur S nicht
+ben®otigen.
+
+
+72 KAPITEL 7. GLUON-MASSE
+
+
+7.7 Propagatoren f®
+ur kleine Impulse *
+
+Die Rechnung vereinfacht sich erheblich, wenn wir (p) und S(p) f®ur kleine Impulse
+entwickeln. Da p immer in der dimensionslosen Kombination (p) auftritt, kann der
+f®uhrende Term f®ur kleine p gefunden werden, indem nur -Terme niedrigster Ordnung
+beibehalten werden. Mit anderen Worten: Kleine p entsprechen groﬂen x und f®
+ur x
+kann vernachl®assigt werden. Beginnen wir mit dem Geist-Propagator aus (7.26):
+
+ab = ab
+I 0 - 2W ab + O(4) (7.27)
+
+ab(x, y) = ab
+0 42(x - y)2
+2
+W ab(x, y) = ab + abc Ø
+cµxµy
+42x2y2 42(x - y)2x2y2
+0(p) = 1/p2 ist der freie (Aaµ 0) Geist-Propagator. Nach Restaurierung der Instanton-
+Position z und -Orientierung U kann begonnen werden 0 - I zu mitteln. Der -Term
+in W wird durch Mittelung ®uber die Instanton-Orientierung eliminiert:
+
+1 d4z
+x|ab0-ab , (7.28)
+I |y = 42ab2 V4 42(x - z)242(z - y)2
+Dieses Integral ist Infrarot-divergent. Nutzt man aus, daﬂ 1/42(x - y)2 die Fourier-
+Transformation von 1/p2 ist, so kann man das Integral zu
+
+1 1 1
+V4 x|0-I|y = 422 d4z x|p2|z z|p2|y = 422 x|p4|y
+
+umschreiben. Die Divergenz ist nun in der Tatsache verborgen, daﬂ die Ortsdarstellung
+von p-4 nicht existiert. Letztendlich sind wir aber nicht an der Ortdarstellung, sondern
+an der Impulsdarstellung interessiert. Daher wirkt sich die Divergenz nicht dramatisch
+aus. Einsetzen von in (7.16) ergibt
+
+ghost 422 1 1
+V eff = -1
+0 0-I -1
+0 = p2 p2 = 422 = 2p4W (7.29)
+V4 p4 V4
+
+und f®uhrt im SU(2)c-Fall zu einer Geist-Masse von
+
+M2ghost(p = 0) = NV eff = 422n
+
+die in den Geist-Propagator ab = ab(p2 + M2 (p))-1 einzusetzen ist. Verallgemeine-
+ghost
+rung auf den Fall von Nc Farben ergibt
+
+Mghost(p = 0) = 22nR = 8.9nR = 340 MeV (7.30)
+
+wobei nR := n/Nc von der Ordnung O(N0) ist. Die wichtigste Erkenntnis hieraus ist, daﬂ
+c
+M = 0 ist. Ein skalares Teilchen in adjungierter Farbdarstellung nimmt im Instanton-
+Hintergrund eine dynamische Masse an.
+
+
+7.8. NULLMODEN * 73
+
+
+Widmen wir uns nun der Gluon-Masse bei kleinen Energien. Dazu muﬂ (7.27) in (7.24)
+eingesetzt werden. Entwicklet man Pµ bis zur Ordnung 2
+
+2F
+P a Ø
+aµx
+µ = pµ + 2
+Aµ + O(4) ,
+Aµ = x4
+so erh®alt man
+
+P
+µ2P A
+I = pµ0p - 2pµ(0W + W 0)p + 2(pµ0 +
+Aµ0p) + O(4) .
+
+Der freie Gluon-Propagator in R-Eichung ist
+
+1 p
+S0 = q p p ( µp ) .
+µ µ p2
+0 - (1 - )pµ20 = p2 µ - (1 - ) p2
+
+Nutzt man aus, daﬂ p mit gemittelten Gr®oﬂen wie W kommutiert, so erh®alt man
+
+S0 = 2[q
+µ - SIµ µ p(0W + W 0)p - (1 - )pµ(0W + W 0)pµ]
+S0 = 22W (p2
+µ - SIµ µ - (1 - )pµp) = 22p2WS0µ
+gluon
+V eff = S-1
+0 S0 - SIS-1
+0 = 22p2S-1
+0 W
+
+-1
+S = S-1
+0 + NV gluon = S-1
+ef f 0 (1
+1 + 2M2ghost(0)/p2)
+p2S µ - (1 - )pµp
+S = 0 = p2 mit (7.31)
+p2 + M2 (0) p2 + M2 (p2)
+ghost gluon
+
+M2 (p2) = 2M2 (0) + O(p2)
+gluon ghost
+
+Wir erhalten somit das interessante Resultat, daﬂ bei Impulstransfer 0 die Gluon-Masse
+um den Faktor 2 gr®oﬂer ist als die Geist-Masse. Vielleicht ist die Relation Mgluon
+2Mghost auch f®ur gr®oﬂere p g®ultig. Die Gluon-Masse bei Impulstransfer Null ist
+Mgluon(p = 0) = 4nR = 12.6nR = 480 MeV (7.32)
+
+
+7.8 Nullmoden *
+
+Bisher haben wir das Problem der Nullmoden ignoriert. Alle Gluon-Feld-Fluktuationen
+m®ussen orthogonal auf diesen stehen, was durch einen auf den Nullmoden orthogonalen
+Gluon-Propagator erreicht wird. Von (7.24) muﬂ folglich die Projektion auf den Null-
+modenraum subtrahiert werden. Dies eliminiert auch eine Divergenz, die durch Qua-
+drieren des zweiten Terms in (7.26) entsteht. Ein weiteres Problem ist, daﬂ das Skalar-
+produkt der Nullmoden mit dem Propagator nicht existiert [18]. Alle diese Probleme
+betreffen Terme, die Proportional zu 4 sind; sie sind somit gegenstandslos f®ur p2 = 0.
+Ein weiteres Indiz, daﬂ die Massenerzeugung nicht von den Nullmoden abh®angt, ist der
+Geist-Propagator, da es im Spin-0-Fall keine Nullmoden gibt. Dies sollte mit dem Quark-
+Propagator verglichen werden, in dem die Nullmoden f®ur die Massenerzeugung verant-
+wortlich sind, und die sogenannte Nullmoden-Approximation die Berechnungen enorm
+vereinfacht.
+
+
+74 KAPITEL 7. GLUON-MASSE
+
+
+7.9 Zusammenfassung & Ausblick
+
+Der Gluon-Propagator wurde im Instanton-Fl®ussigkeits-Modell f®ur kleine Impulse p in
+f®
+uhrender Ordnung in der Instanton-Dichte berechnet. Eine von Nc unabh®angige Masse
+konnte extrahiert werden. Weiterhin ist die Masse eichunabh®angig, zumindest f®ur p2 = 0
+innerhalb der Klasse der R Eichungen. F®ur 0 ist der Gluon-Propagator, wie zu
+erwarten, transversal.
+
+F®ur = 1 bleibt ein masseloser Pol aufgrund des (1 - )pµp/p2 Terms bestehen. Es
+ist zu erwarten, daﬂ der mit diesem Pol assoziierte masselose Zustand von physikalischen
+Matrix-Elementen entkoppelt, wie in der gew®ohnlichen St®orungstheorie.
+
+Der Wert f®ur die Gluon-Masse Mgluon = 480 MeV stimmt mit der von Cornwall ermittelten
+Gluon-Masse von 500±200MeV ®uberein [38] und ist konsistent mit den aus Proton-Proton-
+Streuung extrahierten Werten (370MeV) [39].
+
+Der n®achste Schritt sollte die Berechnung eichinvarianter Korrelations-Funktionen sein,
+wie den Glue-Ball Korrelatoren oder der topologischen Suszeptibilit®at. Hierzu m®ussen
+Produkte bzw. Faltungen von mehreren Propagatoren berechnet werden. Statt des freien
+Propagators, der in der St®orungstheorie verwendet wird, muﬂ auch hier der Propagator im
+ein-Instanton Vakuum (7.24) verwendet werden. Ohne weitere drastische Vereinfachungen
+d®urfte dies ein relativ schwieriges Vorhaben sein.
+
+
+Kapitel 8
+
+Eichinvarianter Quarkpropagator
+
+
+Mit Hilfe des Instanton-Fl®
+ussigkeit-Modells war es m®oglich quantitative Vorhersagen zu
+machen, bzgl. chiraler Symmetriebrechung und bzgl. der leichtesten Mesonen in vielen
+Kan®alen. Trotz groﬂer Anstrengungen, dieses Modell aus ersten Prinzipien abzuleiten, ist
+es immer noch unklar ob Instantonen wohlsepariert sind oder miteinander verschmelzen.
+Somit bleibt das Infrarot-Problem ungel®ost. Dieser Abschnitt ist der Versuch einige Vor-
+hersagen zu machen, ohne sich auf das Instanton-Fl®ussigkeits-Modell zu st®utzen, sondern
+die theoretische ein-Schleifen Instanton-Dichte D() zu verwenden.
+
+In den Abschnitten 8.5 und 8.6, wird das Quark-Kondensat berechnet. Durch Wahl einer
+geeigneten Eichung und durch Aufsummieren der Selbstenergien erhalte ich ein endliches
+Resultat, ohne einen Infrarot-Cutoff in der Instanton-Dichte einzuf®uhren.
+
+Da die Endlichkeit wesentlich von der Wahl der Eichung abh®angt, m®ochte ich vorher in
+Abschnitt 8.1, 8.2 und 8.3 allgemein diskutieren, welche Eichung f®ur die Berechnung eich-
+abh®angiger Gr®oﬂen zu verwenden ist. Der Quark-Propagator in wohlbekannter regul®arer
+und singul®arer Eichung wird mit einem eichinvarianten Propagator verglichen, der in Ab-
+schnitt 8.4 berechnet wird.
+
+
+
+8.1 Allgemeines ®
+uber die Wahl einer geeigneten Ei-
+chung
+
+Die Eichsymmetrie ist eine sehr groﬂe Symmetrie, ein unendliches Produkt von SU(Nc) im
+Falle der QCD. Jeder Physiker ist erfreut ®uber Symmetrien, da mit ihrer Hilfe Vorhersa-
+gen gemacht werden k®onnen, auch ohne die Theorie explizit zu l®osen. Die Eichsymmetrie
+ist notwendig, um ein physikalisches Spektrum der Vektor-Bosonen zu bekommen. So-
+lange keine Approximation gemacht wird, die die Eichinvarianz manifest bricht, kann man
+eine f®ur die Rechnung angenehme Eichung verwenden, da das Ergebnis eichinvariant ist.
+Allerdings ist es schwierig, die Eichinvarianz nicht zu brechen, insbesondere in einer nicht-
+abelschen Eichtheorie. Es ist nicht einfach eine eichinvariante Regularisierung zu finden,
+
+75
+
+
+76 KAPITEL 8. EICHINVARIANTER QUARKPROPAGATOR
+
+
+auch ist der Gluon-Propagator, eine fundamentale Gr®oﬂe in der St®orungstheorie, eich-
+abh®angig. Nat®urlich ist es inzwischen wohlbekannt, wie eichinvariante Berechnungen in
+jeder Ordnung St®orungstheorie durchzuf®uhren sind, indem man Faddeev-Popov-Geister
+einf®uhrt und dimensional regularisiert. Jeder neue, ®uber die St®orungstheorie hinausge-
+hende Ansatz, ist erneut mit dem Problem der Eichinvarianz konfrontiert. In der Gitter-
+Eichtheorie muﬂte die Wilson-Wirkung erfunden werden. In Selbstkonsistenz-Gleichungen
+vom Typ Schwinger-Dyson und Bethe-Salpeter ist Eichinvarianz immer noch ein offenes
+Problem. In der Instanton-Physik ist die Wahl der Eichung ebenfalls wichtig, sobald man
+®
+uber die ein-Instanton-Approximation hinausgeht. Dies wird ausf®uhrlicher in Abschnitt
+8.3 diskutiert. Ein ®ahnliches Problem ergibt sich, wenn man bewuﬂt nicht-eichinvariant
+Objekte, wie den Gluon- und Quark-Propagator, untersucht. Streng genommen sind diese
+nur definiert in Bezug auf eine konkrete Eichung. Im Prinzip sollte man ihnen keinerlei
+physikalische Bedeutung zukommen lassen. Da man oftmals verf®uhrt, ist dies doch zu
+tun, ist es notwendig die Wahl dieser oder jener Eichung physikalisch zu motivieren.
+
+
+
+8.2 Eine nat®
+urliche Eichung
+
+Das Eichfeld Aa beschreibt die Konnektion zwischen benachbarten Vektorb
+µ ®
+undeln ®uber
+der Raumzeit-Mannigfaltigkeit IR4. D.h. die Wahl einer Eichung entspricht der Wahl eines
+Koordinatensystems in der allgemeinen Relativit®atstheorie mit Konnektion µ. W®ahlt
+man ein sehr krummliniges Koordinatensystem, obwohl man ein sehr glattes Universum
+beschreiben m®ochte, entstehen riesige Schein-Beschleunigungen, die die physikalischen
+Beschleunigungen weitgehend verdecken:
+
+®
+xµ = ®
+xµ + µ
+phys f ict
+x x .
+
+F®uhrt man allgemein kovariante Berechnungen durch, dann werden diese fiktiven Be-
+schleunigungen von den -Beitr®agen aufgehoben, und man erh®alt das korrekte kleine
+Resultat. Die kleinste unsystematische Approximation allerdings f®uhrt zu groﬂen Feh-
+lern. Die nat®urliche L®osung dieses Problems ist, ein Koordinationsystem zu benutzen,
+das so glatt wie m®oglich ist, um virtuelle Beschleunigungen zu vermeiden, d.h. µ so
+
+klein wie m®oglich zu w®ahlen. Um diese Aussage etwas zu quantifizieren, k®onnte man z.B.
+versuchen (®
+xµ )2 simultan f
+phys - ®xµfict ®
+ur alle Kurven zu minimieren. Dies wird durch Wahl
+eines Koordinatensystems erreicht, das
+
+
+||||2 := µ d4x
+µ
+
+
+minimiert1. Diese Norm miﬂt offensichtlich die Krummheit des Koordinatensystems.
+
+®
+Ubertragen wir dies nun auf die QCD: Die analoge Norm f®
+ur das Eichpotential ist
+
+
+||A||2 := trcAµAµ d4x
+1Im Euklidischen ist diese Norm positiv definit
+
+
+8.3. ®
+UBER DIE WAHL EINER EICHUNG IN DER INSTANTON-PHYSIK 77
+
+
+Ein station®arer Punkt kann durch Variation von ||A|| bzgl. Eichtransformationen gewon-
+nen werden
+
+Aµ = i[Aµ, ] + µ , ||A||2 = 2i tr(µAµ)d4x = 0 µAµ = 0
+Folglich enth®alt Aa in Lorentz-Eichung so wenig reine Eichung wie m
+µ ®oglich, falls der sta-
+tion®are Punkt ein Minimum ist. Eine Entwicklung in A ist also in Lorentz-Eichung am
+schnellsten konvergent. In Anwendungen, in denen A nicht ®uberall ben®otigt wird, sondern
+in denen z.B. nur ein bestimmter Impulsbereich dominiert, k®onnen andere Normen und
+andere Eichungen optimal im oben diskutierten Sinne sein. Insbesondere sollten Ablei-
+tungen von A in die Norm aufgenommen werden, um ein glattes A zu garantieren, was
+bei groﬂen Energien wichtig wird.
+
+
+8.3 ®
+Uber die Wahl einer Eichung in der Instanton-
+Physik
+
+Bei der Berechnung von eichinvarianten Gr®oﬂen im ein-Instanton-Vakuum in einer ei-
+chinvarianten Weise ist die Wahl der Eichung Geschmackssache. Allerdings treten groﬂe
+Ausl®oschungen zwischen verschiedenen Termen in regul®arer Eichung bei groﬂen Abst®anden
+wegen des langsamen Abfalls und in singul®arer Eichung bei kleinen Abst®anden wegen
+der topologischen Singularit®at in der Mitte des Instantons auf. F®ur nicht-eichinvariante
+Gr®oﬂen, wie dem Gluon- oder Quark-Propagator, oder bei Verwendung unsystemati-
+scher Approximationen lernen wir hieraus singul®are/regul®are Eichung bei niedrigen/hohen
+Energien zu verwenden, um diese Ausl®oschungen zu vermeiden. Diese Regel ist konsistent
+mit der Diskussion des vorigen Paragraphen. Singul®are als auch regul®are Eichung erf®ullen
+die Lorentzbedingung. ||Asing|| ist endlich und minimal. Asing ist daher eine gute Eichung
+bei kleinen Energien. F®
+ur hohe Energien ist es wichtig, daﬂ A m®oglichst glatt ist, was
+offensichtlich nur f®ur die regul®are Eichung zutrifft.
+
+Um Instantonen linear ®uberlagern zu k®onnen, m®ussen sie gen®ugend schnell abfallen. Des-
+halb muﬂ man die singul®are Eichung verwenden. Dieses Argument kann im Prinzip um-
+gangen werden, indem zwei Felder AN and A linear
+N ®
+uberlagert werden, wobei erste-
+res/letzteres eine exakte Multi-Instanton/Multi-Anti-Instanton Konfiguration in regul®arer
+Eichung ist. Abgesehen von dieser mehr theoretischen M®oglichkeit ist f®ur niedrige Ener-
+gien die singul®are Eichung so oder so eine gute Wahl und f®ur hohe Energien liefert bereits
+eine ein-Instanton-Approximation gute Ergebnisse.
+
+
+8.4 Der Quark-Propagator in axialer Eichung *
+
+Der Quark-Propagator ist ein Beispiel, die Eichabh®angigkeit zu testen. Der Beitrag eines
+Instantons mit Radius zu M(p) = ip2 Ø
+SI(p), h®aufig als Konstituenten-Masse interpre-
+tiert, ist in regul®arer, singul®arer und axialer Eichung in Abbildung B.2 graphisch darge-
+stellt. Die regul®are Masse ist gr®oﬂer als die singul®are bei kleinen Impulsen, die singul®are
+
+
+78 KAPITEL 8. EICHINVARIANTER QUARKPROPAGATOR
+
+
+Masse zeigt ein langsames Abfallverhalten (polynomiell in 1/p) f®ur groﬂe Impulse. Die
+wohlbekannten analytischen Ausdr®ucke sind in Anhang A.2 aufgef®uhrt, zusammen mit
+den Ausdr®ucken in axialer Eichung, die im folgenden hergeleitet und diskutiert werden.
+
+Ein Korrelator, der Farb-nicht-Singlett Operatoren enth®alt, kann eichinvariant gemacht
+werden. Dazu werden entfernte Punkte mit einem speziellen pfadgeordneten Exponen-
+tial, welches das Eichfeld enth®alt, verbunden. Das Exponential (Wilson-Linie) garantiert
+Paralleltransport der Farbe von einem Punkt zum anderen. Der eichinvariante Quark-
+Propagator kann symbolisch als
+
+y
+Sax(x, y) = 0|(x)P exp i dz∑A(z) Ø(y)|0 (8.1)
+x
+
+geschrieben werden, wobei P Pfadordnung bedeutet. Dabei haben wir Sax bereits als
+Farb-Singulett definiert, da nur der Singulett-Anteil eichinvariant ist. Sax wird axialer
+Propagator genannt, da in axialer Eichung mit nµ = xµ-yµ das Exponential verschwindet.
+Im ein-Instanton-Vakuum in Nullmoden-Approximation erhalten wir
+
+11 y
+S c
+ax(x, y) = tr dz
+N c P exp i ∑AI(z) (x) Ø(y) ,
+c x
+
+wobei AI das Instanton-Feld und die Nullmode in beliebiger Eichung sind. In einem
+Koordinatensystem, in dem das Instanton am Ursprung sitzt und x - y in Zeitrichtung
+zeigt2 (x = y = z) reduziert sich das pfadgeordnete Exponential auf eine gew®ohnliche
+Exponentialfunktion, da die zu exponenzierende Farb-Matrix konstant, d.h. unabh®angig
+z ist. Alternativ h®atte man auch versuchen k®onnen, eine Eichtransformation zu finden,
+die die regul®are Eichung in die axiale Eichung transformiert. In beiden F®allen erhalten
+wir:
+1
+Sax(x, y) = tr
+N c ax(x) Ø
+ax(y) , ax(x) = R(x)reg(x), (8.2)
+c
+R(x) = e±i(x) ∑x
+| ∑x
+x| = cos (x) ± i sin (x) =:
+|x| ±i±µ~xµ(x) (8.3)
+x
+(x) = |x| arctan 0 (8.4)
+x2 + 2 x2 + 2
+
+Es ist m®oglich (x) kovariant zu schreiben
+
+2(x -1/2 (x2
+(x) = ± 1 + - y)2 arctan - (xy))2 ,
+x2y2 - (xy)2 x2y2 - (xy)2 + 2(x - y)2
+aber nun h®angt (x) ebenso von y ab und der Ausdruck f®ur den Propagator faktorisiert
+nicht l®anger. Der Grund hierf®ur ist, daﬂ die axiale Eichung nicht kovariant ist, aber die
+Definition des Propagators sehr wohl. Setzt man (8.3) und (8.8) in (8.2) ein, so erh®alt
+man
+1 1 1
+S ± 5
+ax(x, y) = (~
+x~
+y) ~
+x
+N - µ~yµ reg(x)reg(y) . (8.5)
+c 2 2
+
+2Obwohl wir im Euklidischen arbeiten, wird die Minkowski-Sprechweise (x0, x) = (Zeit, Ort)
+®
+ubernommen.
+
+
+8.4. DER QUARK-PROPAGATOR IN AXIALER EICHUNG * 79
+
+
+Durch Einsetzen von (8.3), (8.4) und (8.8) in (8.5) kann der Raumzeit-gemittelte Propa-
+gator als Integral elementarer Funktionen ausgedr®uckt werden:
+
+
+Ø r t + t
+S(x - y) = dr dt4r2 cos arctan |x - y|
+0 - R R - arctan R ∑
+
+1 2
+∑ , R2 = r2 + 2
+2Nc 2(R2 + (t + |x - y|)2)3/2(R2 + t2)3/2
+Der Unterschied zwischen dem Propagator in regul®arer und singul®arer Eichung ist der
+Einschub des cos[. . .] Faktors. Folglich ist der axiale Propagtor in Ortsdarstellung ®uberall
+kleiner als der regul®are Propagator, auﬂer f®ur x = y wo sie ®ubereinstimmen, da dort das
+pfadgeordnete Exponential identisch 1 ist. F®ur groﬂe Abst®ande ist er um den Faktor /4
+kleiner. Anstatt die Integrationen im Ortsraum auszuf®uhren, wenden wir uns direkt der
+interessanteren Darstellung im Impulsraum zu:
+
+Ø 1
+SI(p) = µ (p)µ(p) , µ (p) = ~
+xµ(x)
+2N ax ax ax reg(x)eipxdx (8.6)
+c
+
+Obwohl µax nicht wie ein Vektor transformiert, kann man dennoch f®ur p eine zweckm®aﬂige
+Richtung w®ahlen, da ein Lorentz-Skalar ist. F®ur rein raumartiges p verschwinden die
+r®aumlichen -Komponenten, da der Integrand antisymmetrisch bzgl. Zeitreflexion ist.
+Nur die Zeitkomponente ist nichttrivial
+
+r t
+ax(p) := 0 (p) = d3r dt cos arctan eip∑r
+ax R R (R2 + t2)3/2
+
+Folgende Hinweise
+
+1 + ix /2
+cos( arctan x) = Re 1 -ix
+( +
+(R - it)-(R + it)-dt = 2(2R)1-- - 1)
+- ()()
+3 3 ( 1
+( + x) = 4 - x2)
+2 - x)(2 cos x
+2
+d3r eip∑rf (r) = f (r) sin(pr)r dr (8.7)
+p 0
+
+sollten dem Leser erm®oglichen, die t und die Winkelintegration dr durchzuf®uhren
+
+8 r
+ax(p) = cos sin(pr)r dr . (8.8)
+p 0 2R
+
+Die letzte Integration kann nicht analytisch ausgef®uhrt werden, aber f®ur kleine Impulse
+kann man leicht sehen, daﬂ ax(p) wie 2/p w®achst. F®ur groﬂe p f®allt es wie e-p ab,
+mit einem nicht-polynomiellen Koeffizienten aufgrund einer wesentlichen Singularit®at bei
+r = ±i. Vergleicht man reg, sing und ax, geplottet in Abbildung B.2, so kann man
+erkennen, daﬂ das axiale zwischen dem regul®aren und dem singul®aren liegt. Daraus
+kann man schlieﬂen, daﬂ die axiale Eichung ein guter Kompromiﬂ f®ur alle Impulse ist.
+
+
+80 KAPITEL 8. EICHINVARIANTER QUARKPROPAGATOR
+
+
+Die Berechnung des eichinvarianten Propagators scheint eine Diskussion seiner eich-
+abh®angigen Partner ®uberfl®ussig zu machen. Ich werde nun einige Argumente anf®uhren,
+warum dies nicht der Fall ist. Der Grund hierf®ur ist, daﬂ es eine enorme Menge an eichin-
+varianten Definitionen f®ur einen Quark-Propagator gibt und (8.1) ist nur eine m®ogliche
+Wahl. Eine offensichtliche Verallgemeinerung ist, einen komplizierteren Pfad als eine
+gerade Linie von x nach y zu w®ahlen. Als n®achstes k®onnte man sich nicht auf einen
+spezifischen Pfad beschr®anken, sondern ®uber alle Pfade, an denen man interessiert ist, be-
+liebig gewichtet mitteln. Eine weitere M®oglichkeit besteht darin, den Pfad selbst von der
+Eichfeld-Konfiguration abh®angig zu machen, solange die Abh®angigkeit in eichinvarianter
+Weise erfolgt. Zu guter letzt lieﬂen sich beide Verallgemeinerungen noch kombinieren.
+Vermutlich kann jedes gew®unschte Resultat f®ur den Propagator mit Hilfe einer geeigne-
+ten Definition erzeugt werden. Der Vorteil des standard axialen Propagators ist, daﬂ
+die Definition einfach ist und daﬂ der nicht-lokale Operator eine physikalische Interpreta-
+tion besitzt: Er erzeugt ein durch einen d®unnen Gluon-Fluﬂschlauch verbundenes Quark-
+Antiquark-Paar. M®oglicherweise ist dies eine gute Wahl f®
+ur einen nicht-lokalen Meson-
+Erzeugungs-Operator. Allerdings ist es ebenso plausibel, daﬂ eine der oben erw®ahnten
+Verallgemeinerungen noch besser ist. Mit dieser Diskussion wollte ich hervorheben, daﬂ
+die Verwendung des hier eingef®uhrten eichinvarianten Propagators letztlich nur bedeu-
+tet, in axialer Eichung zu arbeiten. Die Wahl einer geeigneten Eichung bleibt weiterhin
+ausgefeilten Argumenten vorbehalten.
+
+
+
+8.5 Effektive Quark-Masse *
+
+Im folgenden wird im Nc Limes gearbeitet. Der einzige Grund, diesen Limes durch-
+zuf®uhren, ist, die Form der Ergebnisse ®ubersichtlich zu halten. F®ur Nc = 3 stimmen die
+Resultate mit den exakten Formeln auf 10% ®uberein. Dies ist die Standardgenauigkeit,
+die h®aufig in der 1/Nc-Entwicklung erreicht wird. In diesem Fall kann die hohe Genau-
+igkeit leicht verstanden werden. Der Expansionsparameter ist n®amlich nicht 1/Nc = 1/3,
+sondern in der Tat 1/b 1/11. Folgende asymptotischen Formeln werden wir ben®otigen
+11
+N ∑ ∑
+c!1/Nc = Nc/e , b ∑
+= N = 2.22b-6/11
+3 c , C1/b
+Nc
+
+242
+5D() (2.22(S0/b)6/11)b , S0/b = (g2N
+11 0 c)-1 . (8.9)
+
+Jede Gleichung, die f®ur Nc exakt wird, ist mit einem Punkt markiert. Beachten
+Sie, daﬂ in diesem Limes Instantonen der Gr®oﬂe < 1 (S
+2.22 0/b)-6/11-1 vollst®
+andig un-
+terdr®uckt sind. Oberhalb dieser Schranke wird die Instantondichte unendlich. S0/b ist
+unabh®angig von Nc, da die Kopplung g0 1/Nc ist. ist die QCD-Skala.
+In Anwesenheit leichter Quarks muﬂ die Instanton-Dichte D() mit der Funktional-
+Determinante des Dirac-Operators multipliziert werden:
+
+Det(iD
+/ + im) 1.34m
+
+
+8.5. EFFEKTIVE QUARK-MASSE * 81
+
+
+Die Dichte ist nun proportional zu m aufgrund einer Nullmode von D
+/. Der Quark-
+Propagator im ein-Instanton Vakuum wird durch diese Nullmode dominiert
+
+(q)
+S I (p)
+I
+I (p, q) = im
+
+Mittelt man diesen Ausdruck ®uber alle kollektiven Koordinaten I, so erh®alt man:
+1.34
+M(p) := dI ip2SI(p) = d p2D()2(p)
+2Nc 0
+
+Man beachte, daﬂ im Gegensatz zu M(p) im Instanton-Fl®ussigkeits-Modell hier ®uber alle
+Instanton-Radien integriert wird. Aufsummation der 0, 1, 2, 3, . . . Instanton-Beitr®age zum
+Propagator in Analogie zur Aufsummation der Selbstenergie in der St®orungstheorie
+
+1 1 M(p) 1 1 M(p) 1 M(p) 1 1
+S(p) = + + + . . . =
+p/ p/ i p/ p/ i p/ i p/ p/ + iM(p)
+
+rechtfertigt es, M(p) 'dynamische Quarkmasse' zu nennen. In Anhang A.2 sind Ausdr®
+ucke
+f®ur in den verschiedenen Eichungen angegeben. Die Graphen von (p) in singul®arer
+und regul®arer Eichung schneiden sich bei
+
+sing(p) = reg(p) 2p 2.5
+Aus diesem Grund sollte man die regul®are Eichung f®ur groﬂe Instanton-Radien und die
+singul®are Eichung f®
+ur kleine w®ahlen. Diese Eichwahl sorgt auch f®
+ur die Konvergenz
+der -Integration f®ur groﬂe . An dieser Stelle haben wir somit kein Infrarot-Problem.
+Benutzt man die regul®are Eichung im ganzen Integrations-Intervall so erh®alt man
+
+
+Mreg(p) = Bp( )b , B = 1.34 b2Nc)(S
+2p ∑ 162(CNc 0/b)6b/11Ib/Nc
+
+
+Ib = dz zb-2e-z = (b - 2)! , z = 2p .
+0
+Das Integral wird stark dominiert f®ur
+
+z ∑
+= b ± b1/2 >> 2.5
+Das Ergebnis ist unabh®angig von der Wahl der Eichung f®ur z < 2.5 und rechtfertigt somit
+die Verwendung der regul®aren Eichung f®ur das ganze Intergrations-Intervall. Verwendung
+der axialen Eichung f®uhrt auf ein ®ahnliches Resultat, wie in Abbildung B.2 zu erkennen ist.
+Verwendung der singul®aren Eichung w®urde zu einem f®ur groﬂe divergierenden Integral
+f®uhren, welches durch beliebig groﬂe Instantonen dominiert wird. Diese Wahl widerspricht
+auch der im vorigem Paragraphen gef®uhrten Diskussion. Das Infrarot-"Problem" macht
+sich im schnell wachsenden M(p) f®ur kleine p bemerkbar, was effektiv die Propagation
+von Quarks kleiner Virtualit®at p2 unterdr®
+uckt. Betrachte einen Prozess, der Quarks bei
+Abst®anden x = 1/pc sondiert. Die effektive Quarkmasse M(1/x) wird durch viel gr®oﬂere
+Instantonen dominiert
+
+b
+= c(1 ± b-1/2) >> x , c = .
+2pc
+
+
+82 KAPITEL 8. EICHINVARIANTER QUARKPROPAGATOR
+
+
+Mit anderen Worten: Ein gegebenes Instanton mit Radius beeinfluﬂt die Physik auf viel
+kleineren L®angenskalen x = 2 << . Daher wird das Innere eines Instantons sondiert
+b
+und man sollte die Singularit®at an seinem Ursprung durch Verwendung der regul®aren
+Eichung vermeiden.
+
+
+
+8.6 Das Quark-Kondensat
+
+Wir wollen nun eine echte physikalische Observable, das Quark-Kondensat, berechnen:
+
+Ø M(p)
+:= lim trCD(S(x)
+x0 - S0(x)) = -4iNc d4pp2 + M2(p)
+
+Einsetzen von M(p) und Ausf®uhren der Winkelintegration ergibt:
+
+N
+| Ø | = c B3/bJ
+162 b3
+
+zb+2
+J ∑
+b = dz = = , p = B1/b z
+0 1 + z2b 2b sin( b+3) 2b 2
+2b
+
+Das Integral ist endlich und scharf dominiert durch z ∑
+= 1 ± b-1. Ohne Aufsummie-
+ren der Selbstenergie h®atte sich das Integral Jb und damit das Kondensat als unendlich
+herausgestellt. Das Kondensat ist dominiert durch Quark-Wellenfunktionen mit Impuls
+
+1 2.22
+p = pc(1 ± b-1) , pc = b , := B1/b ∑
+= (S
+2 b e 0/b)6/11
+
+und h®angt parametrisch von und g0 ab:
+
+| Ø |1/3 = 0.139b .
+Dr®uckt man pc und c durch | Ø | aus, indem man eliminiert, so erhalten wir unser
+Hauptresultat
+
+pc = 3.59| Ø |1/3
+1.96
+c = N | Ø
+|1/3 (8.10)
+c
+2.22Nc = (g2N
+0 c)6/11| Ø
+|1/3
+Ein schwacher Punkt der letzten Gleichung ist die experimentelle Bestimmung von g0. g0
+sollte aus einem geeigneten tree-level Prozeﬂ bei niedrigen Energien, vermutlich von der
+Gr®oﬂenordnung -1, gewonnen werden. In QCD-verbesserten Bag-Modellen ist der we-
+c
+sentlich nicht-perturbative Effekt durch die Bag modelliert und die Hyperfeinaufspaltung
+wird durch einen ein-Gluon Austausch verursacht. Aus der - N-Aufspaltung kann g0
+zu
+gbag
+0 2.6
+
+
+8.7. ZUSAMMENFASSUNG 83
+
+
+bestimmt werden [10]. An dieser Stelle m®ochte ich noch eine theoretische Sch®atzung von
+g0 angeben. Der ®
+Ubergang zu einem zwei-Schleifen Ausdruck f®ur die Instantondichte
+S0/1 ; S1/2 kann auch erreicht werden, indem ausschieﬂlich S0 in der folgenden Weise
+ersetzt wird: 1 15
+(S0/b)6/11 ; (ln ) , =
+121
+Da sehr klein ist, ist (ln 1 ) in einem groﬂen Bereich von ungef®ahr gleich eins. F®ur
+
+
+gguess
+0 = 2.7 3/Nc
+
+stimmt die zwei-Schleifen Dichte mit der ein-Schleifen Dichte ®uberein. Da die zwei-
+Schleifen Dichte vermutlich aber keine Verbesserung darstellt, sollte man gguess
+0 nicht zu
+ernst nehmen. Zumindest steht gguess nicht im Widerspruch zu gbag.
+0 0
+
+Der Wert des Quark-Kondensats ist wohlbekannt | Ø |1/3 = 240MeV. Setzt man Nc = 3
+und nimmt man g0 = 2.6 hin, so erh®alt man
+
+pc ± p = (860 ± 80)MeV
+c ± = (160 ± 50)-1MeV (8.11)
+PV 190MeV
+Am interessantesten ist, daﬂ das Quark-Kondensat scharf durch Quark-Wellenfunktionen
+mit relativ groﬂem Impuls pc dominiert ist. Auf der anderen Seite haben die dominie-
+renden Instantonen einen relativ groﬂen Radius c, vier mal gr®oﬂer als ®ublicherweise in
+Instanton-Fl®ussigkeits-Modellen angenommen wird. Nichtsdestoweniger ist der vorherge-
+sagte Wert f®ur PV in experimenteller ®
+Ubereinstimmung, allerdings ist die Unsicherheit
+durch die grobe Absch®atzung von g0 relativ groﬂ.
+
+
+8.7 Zusammenfassung
+
+Wann immer man eichabh®angige Objekte berechnet oder man eichbrechende Approxi-
+mationen verwendet, wird man mit dem Problem konfrontiert, eine "gute" Eichung zu
+w®ahlen. Durch Spezialisieren der allgemeinen Diskussion in Abschnitt 8.2 auf den Fall
+von Instantonen, kamen wir zu dem Schluﬂ, daﬂ die regul®are Eichung f®ur kleine und
+die singul®are Eichung f®ur groﬂe Abst®ande angemessen ist. Der eichinvariante Propagator
+wurde definiert, berechnet und mit dem Propagator in singul®arer und regul®arer Eichung
+verglichen (Abbildung B.2). Wir zogen die Schluﬂfolgerung, daﬂ der eichinvariante Propa-
+gator nicht a-priori eine gute Wahl ist, sondern zwischen der regul®aren und der singul®aren
+Eichung liegt.
+
+Durch Verwendung einer geeigneten Eichung gelang es, ein endliches Quark-Kondensat
+herzuleiten, wobei weder ein Infrarot-Cutoff f®ur den Instantonradius noch ein spezifisches
+Instantonmodell eingef®uhrt werden muﬂte. Die lineare Relation zwischen | Ø |1/3 und
+der QCD Skala stimmt mit den experimentellen Daten ®uberein. Das Kondensat wird
+durch Quark-Felder hohen Impulses pc = 860MeV formiert, wobei der beitragende Bereich
+p = 80MeV sehr schmal ist. Die dominierenden Instantonen sind sehr groﬂ (c =
+160MeV).
+
+
+Kapitel 9
+
+Schluﬂbetrachtung
+
+
+9.1 Neue Erkenntnisse
+
+In dieser Arbeit wurden einige bereits bekannte und eine Reihe neuer Resultate gewonnen.
+Die Berechnungen legten meist das Instanton-Fl®ussigkeits-Modell zugrunde.
+
+Folgende neue Erkenntnisse wurden gewonnen:
+
+∑ Im Falle des Quark-Propagators k®onnen dynamische Quark-Schleifen in einer re-
+normierten Instanton-Dichte absorbiert werden, welche mit dem Gluon-Kondensat
+identifiziert werden darf (Kapitel 3).
+
+∑ ®Ubersichtliche Bethe-Salpeter-Gleichungen wurden f®ur die Quark-4-Punkt-Funk-
+tionen aufgestellt und gel®ost. Im Flavor-Singulett-Kanal tr®agt eine Kette von Quark-
+Schleifen bei, die f®ur das Fehlen eines U(1) Goldstone-Bosons verantwortlich ist
+(Kapitel 4).
+
+∑ Aus den Meson-Korrelatoren wurden durch spektralen Angleich die Massen und
+Kopplungen der , , , a1 und f1 Mesonen bestimmt (Tabelle 5.3, Abbildungen
+B.3-B.8).
+
+∑ Die Masse wurde erfolgreich vorhergesagt (Gleichung 6.15).
+∑ Die axialen Proton-Formfaktoren des Singulett-Stromes jµ5, des Gluon-Stromes Kµ
+und der Anomalie a wurden berechnet und deren Eich(un)abh®angigkeit diskutiert
+(Tabelle 6.1). Es wurde gezeigt, daﬂ A(0) = -1 unabh®angig von der Zahl der
+Flavors ist.
+
+∑ F®ur kleine Impulse wurden die Geist- und eine eichinvariante Gluon-Masse berechnet
+(Gleichungen 7.30 und 7.32).
+
+∑ Allgemeine Regeln zur Wahl einer Eichung wurden aufgestellt, insbesondere wann
+die regul®are und wann die singul®are Eichung zu verwenden ist (Abschnitte 8.1, 8.2
+und 8.3).
+
+84
+
+
+9.2. AUSBLICK 85
+
+
+∑ Ein eichinvarianter Quark-Propagator wurde im ein-Instanton-Hintergrund berech-
+net (Gleichungen 8.6 und 8.8).
+
+∑ Das Quark-Kondensat wurde mit der QCD-Skala in Beziehung gesetzt, wobei
+weder ein Infrarot-Cutoff noch ein spezifisches Instanton-Modell eingef®uhrt werden
+muﬂte (Gleichung 8.10).
+
+
+
+9.2 Ausblick
+
+Das Instanton-Fl®ussigkeits-Modell hat sich in verschiedensten Sektoren der QCD bew®ahrt,
+wie die Ergebnisse dieser und anderer Arbeiten zeigen. Obwohl dieses Modell nicht streng
+aus ersten Prinzipien abgeleitet werden kann, belegt der Erfolg, daﬂ zumindest ein K®orn-
+chen Wahrheit in ihm stecken muﬂ. Die Grenzen dieses Modells treten auch klar zutage:
+Confinement kann nicht erkl®art werden und der axiale Singulett-Kanal bereitet weiterhin
+Probleme, obwohl Instantonen die U(1)A-Symmetrie explizit brechen.
+
+In Zukunft sollten die nicht-Nullmoden ber®ucksichtigt werden, die im Falle von strange
+Quarks wichtig werden und f®ur die Respektierung der axialen Ward-Identit®aten vermut-
+lich essentiell sind. Baryon Korrelatoren zur Bestimmung der Baryon-Massen k®onnten
+berechnet werden. Numerisch wurden beide Erweiterungen bereits realisiert [28].
+
+Obwohl eine direkte Berechnung des axialen Singulett-Korrelators nicht zum Ziel f®uhrte,
+konnte mit verfeinerten Argumenten die Masse bestimmt werden. Vielleicht l®ost eine
+®ahnliche ®
+Uberlegung das Proton-Spin-Problem.
+
+Eichinvariante Gluon-Ball Korrelatoren sollten berechnet werden.
+
+Das dringendste theoretische Problem bleibt ein "Beweis" f®ur die Korrektheit des
+Instanton-Fl®ussigkeit-Modells. Dies w®urde den G®ultigkeitsbereich des Modells klar ab-
+grenzen und die allgemeine Akzeptanz steigern.
+
+Die QCD ist eine hartn®ackige Theorie. Die Experimental-Physiker vollbringen groﬂe
+Leistungen beim Messen der Hadron-Parameter, wobei die Pr®azision der Experimente
+immer gr®oﬂer wird. Der Theoretiker ist gefordert, mit diesem Fortschritt mitzuhalten.
+
+
+9.3 Danksagung
+
+An erster Stelle m®ochte ich mich herzlich bei Herrn Prof. H. Fritzsch bedanken f®ur die Be-
+reitschaft, einen Quereinsteiger an seinen Lehrstuhl aufzunehmen. Er ®offnete mir die T®ur
+zur faszinierenden Teilchenphysik und erm®oglichte den Kontakt zu bedeutenden Teilchen-
+Physikern, insbesondere Herrn Prof. Karliner in Isreal, Prof. S. Veneziano, S. Forte und
+vielen anderen am CERN. Prof. Dyakonov gilt besonderer Dank f®ur wertvolle Diskus-
+sionen und die prompte Bereitschaft Fragen via E-Mail zu beantworten. Meinem Freund
+Michael Birkel m®ochte ich f®ur den frischen Wind, den er an das Institut gebracht hat, dan-
+ken. Lange und anregende Abende am Institut habe ich Dr. A. Blumhofer zu verdanken.
+
+
+86 KAPITEL 9. SCHLUﬂBETRACHTUNG
+
+
+Die Grenze zwischen Physik und Philosophie wurde dabei oft ®uberschritten. Dank gilt
+auch allen anderen Mitarbeitern am Lehrstuhl f®ur gelegentliche Diskussionen. Meinem
+Vater, M. Matuschek und D. Holtmannsp®otter m®ochte ich f®ur das Korrekturlesen der Dis-
+sertation danken. Der 'Deutschen Forschungs-Gemeinschaft' bin ich f®ur die Finanzierung
+dieser Arbeit sehr zu Dank verpflichtet.
+
+
+Anhang A
+
+
+
+A.1 Notationen
+
+Fast alle auftretenden Faktoren 2 k®onnen durch folgende Definitionen absorbiert werden:
+
+ddp
+-d(∑ ∑ ∑) := (2)d(∑ ∑ ∑) , d-dp := ,
+(2)d
+
+An vielen Stellen wird die Operator-Notation in Dirac-Schreibweise im IR4 verwendet:
+
+x|p = eipx , x|y = 4(x - y) , p|q = -4(p - q)
+
+x| = (x) , p| = ^(p) , p|S|q = S(p,q)
+
+d-4p |p p| = 11 , d4x |x x| = 11 ,
+
+[^
+p, X] = i(µX)
+
+Diese Notation darf nicht verwechselt werden mit dem Vakuum-Zustand |0 und dem
+Proton-Zustand |ps des QCD Hilbert-Raumes und der Mittelung ∑ ∑ ∑ I ®uber Instantonen.
+Nc = Anzahl der Farben
+Nf = Anzahl der Quark-Flavors
+m = Strom-Massen
+M = Dynamische Massen
+trD = Spur im Dirac-Raum
+trC = Spur im Farb-Raum
+Tr = Funktional-Spur
+Det = Funktional-Determinante
+a/2 = Generatoren derSU(Nc), a = 1 . . . N2c - 1
+a/2 = a/2 = Generatoren derSU(2)c, a = 1 . . . 3
+
+
+87
+
+
+88 ANHANG A. ANHANG
+
+
+A.2 Instantonen in singul®
+arer, regul®
+arer und axialer
+Eichung
+
+Instantonen sind L®osungen der klassischen Euklidischen Yang-Mills Bewegungsgleichun-
+gen. Das Instanton am Ursprung in Standard-Orientierung in singul®arer, regul®arer und
+axialer Eichung ist gegben durch:
+
+x 2
+Asing
+µ (x) = ±
+µ , ±
+x2 x2 + 2 µ = µ + i±
+µ
+
+x
+Areg(x) = , ± = (
+µ µ x2 + 2 µ ±i,)
+Aax(x) = R(x)Areg(x)R(x) + iR(x)
+µ µ µR(x) (A.1)
+
+Das obere/untere Vorzeichen steht f®ur ein Instanton/Anti-Instanton (Q = ±1).
+cos (x)
+R(x) = ±i±µ~xµ(x) , ~xµ(x) = x sin(x)
+|x|
+
+x
+(x) = |x| arctan 0
+x2 + 2 x2 + 2
+Die kovariante Ableitung D
+/ besitzt eine Nullmode
+
+iD
+/ = (i/ - A/) = 0
+wobei die Nullmode die folgende Gestalt hat:
+x/
+sing(x) = 2(x)
+|x|
+
+reg(x) = 2(x) , (x) = (A.2)
+(x2 + 2)3/2
+
+ax(x) = 2(x)R(x)
+
+ist ein Farb- & Dirac-Spinor, gegeben durch
+1 1
+± Ø
+± = ± 5
+16 µ 2 µ ±
+.
+
+F®ur leichte Quarks ist der Propagator durch die Nullmode dominiert. Gemittelt ®uber die
+Instanton-Orientierung, -Ort und -Ladung ist der Propagator diagonal im Impulsraum
+und durch 1
+(p)(p) = 2(p)
+2Nc
+gegben, wobei
+p/ d
+sing(p) = 2sing(p) , [I
+|p| sing(p) = 2 dz 1(z)K1(z) - I0(z)K0(z)]z=p/2
+4
+reg(p) = 2(p) , reg(p) = e-p (A.3)
+p
+8 r
+ax(p) = F T {ax}(p) , ax(p) = cos sin(pr)r dr
+p 0 2 r2 + 2
+
+
+A.3. MITTELUNG ®
+UBER DIE INSTANTON-PARAMETER I 89
+
+
+I(z) und K(z) sind modifizierte Besselfunktionen. Das asymptotische Verhalten ist in
+folgender Tabelle zusammengestellt.
+
+
+p(p)/ singul®ar regul®ar axial
+p 1 2 4 2
+p 1 12 4e-p
+(p)3 e-p
+Tabelle A.1: Asymptotik von p(p)/
+
+
+Im Instanton-Fl®ussigkeits-Modell ist die Konstituenten-Masse eines Quarks
+
+M(p) p22(p) .
+M(p) ist in Abbildung B.2 in allen drei Eichungen geplottet.
+
+
+A.3 Mittelung ®
+uber die Instanton-Parameter I
+
+Das Instanton in allgemeiner Lage und Orientierung und die zugeh®orige Dirac-Nullmode
+haben die Form
+
+AIµ(x) = Oab
+I Abµ(x - zI) 1
+I(x) = UI(x - zI) , I := UI , tr(UaUb) = Oab
+2
+I = (zI, OI, I, QI) = (Ort, Orientierung, Radius, toplogische Ladung)
+
+Abµ ist ein Instanton am Ursprung in Standardorientierung mit Radius = I und Ladung
+QI = ±1 und die zugeh®oige Nullmode, gegeben in Anhang A.2. UI SU(Nc) und OI
+Ad[SU(Nc)] sind Orientierungsmatrizen in fundamentaler bzw. adjungierter Darstellung.
+
+An verschiedenen Stellen muﬂ ®uber die kollektiven Koordinaten I gemittelt werden:
+
+1
+. . . I = dI D(I) . . . = d4z
+2 I dOI dI D(I ) . . . (A.4)
+QI =±1
+
+Folgende Modellannahme f®
+ur D definiert das Instanton-Fl®
+ussigkeits-Modell:
+
+D(I) = n(I - ) , n = (200 MeV)4 , = 600 MeV-1 . (A.5)
+Die wichtigsten Formeln f®ur das Haar-Maﬂ dOI und dUI lauten:
+
+1
+dO 1 = 1 , dO OabOcd = acbd (A.6)
+N2c - 1
+1
+dU 1 = 1 , dU UikUj = i
+l N l jk
+c
+
+
+90 ANHANG A. ANHANG
+
+
+Integrale ®uber eine ungerade Anzahl von Matrizen sind Null. Folgende Formeln sind noch
+n®utzlich 1 1
+N ± 5
+C ± Ø
+± Ø
+± = ( ) (A.7)
+I I I = trC ±
+I I 2 2
+wobei die Mittelung ®uber QI noch nicht ausgef®uhrt wurde.
+
+Ø
+= trCD Ø
+= 1 (A.8)
+
+Aufsammeln der Raum-, Farb- und Dirac-Terme ergibt
+
+(p) (p)
+I I (p) = 22(p) , d-4p I I (p) = 1 (A.9)
+
+
+A.4 Numerische Auswertung der Fourier- Transfor-
+mation
+
+Die Integral-Ausdr®ucke der Meson-Korrelatoren m®ussen numerisch berechnet werden.
+Zwei Arten von Operationen werden durchgef®uhrt:
+
+1. Faltung Lorentz-kovarianter Funktionen (F0/5, )
+2. Fourier-Transformation (FT) der Korrelatoren in die Ortsdarstellung
+
+Die d-dimensionale FT ist wie folgt definiert:
+
+^
+fµ (x) = F (p) (A.10)
+1 ...µn d{fµ1...µn}(x) = d-dp e-ipxfµ1...µn
+
+F®ur eine skalare sph®arisch symmetrische Funktion f = f (|p|) reduziert sich die FT auf
+ein ein-dimensionales Integral
+
+m d/2
+Fd{f(|p|)}(x) = f (m)Jd/2-1(m|x|)|x| dm (A.11)
+0 2|x|
+wobei J Bessel-Funktionen sind.
+
+Falls x nicht zu groﬂ ist und F gen®ugend rasch abf®allt, kann die Integration mit Gauﬂschen
+(oder anderen) Integrationsmethoden erfolgen. Falls f zu langsam abf®allt, muﬂ man
+das asymptotische Verhalten subtrahieren, um die Konvergenz von f zu beschleunigen.
+Die FT des asymptotischen Anteils kann analytisch durchgef®uhrt werden und muﬂ zur
+numerischen FT der reduzierten Funktion wieder hinzugef®ugt werden.
+
+Die FT einer allgemeinen Lorentz-kovarianten Funktion kann auch auf (A.11) zur®uck-
+gef®uhrt werden mit einer (formal) gr®oﬂeren Dimension d:
+
+Fd{pµf(|p|)}(x) = 2ixµFd+2{f}(x) (A.12)
+1 x
+F µx
+d{pµpf(|p|)}(x) = ( )F
+d - 1 µ - x2 d{p2f(|p|)}(x) -
+x
+( µx
+µ - d )(4F
+x2 d+2{f}(x) - 42x2Fd+4{f}(x))
+. . .
+
+
+A.5. NUMERISCHE AUSWERTUNG DER FALTUNGEN 91
+
+
+A.5 Numerische Auswertung der Faltungen
+
+Das Faltungsintegral ist definiert durch
+
+
+f g(p) = d-dq f(q)∑g(p - q) (A.13)
+
+Integrale dieses Typs k®onnen auf FT (Anhang A.4) reduziert werden:
+f g(p) = F-1
+d {Fd{f}∑Fd{g}} (A.14)
+Dies ist eine schnelle und einfache Methode, Faltungsintegrale zu berechnen. F®
+ur die
+unverbundenen Teile der Korrelatoren hat sie auﬂerdem den Vorteil, daﬂ die R®ucktrans-
+formation F -1 in Ortsdarstellung nicht ben
+d ®otigt wird. Der Nachteil dieses Verfahrens
+liegt darin, daﬂ die FT eine Integration ®uber oszillierende Integranden bedeutet, was nu-
+merisch problematisch ist. Wird die R®ucktransformation F -1, wie im Falle von F
+d 0/5 und
+ben®otigt, ist es besser die Faltung direkt auszuf®uhren. ®
+Ahnlich wie im Falle der FT
+k®onnen die Faltungsintegrale auf den skalaren Fall reduziert werden. Die Faltung zweier
+skalarer Funktionen kann weiter auf ein zwei-dimensionales Integral reduziert werden:
+
+(d/2
+f g(p) = - 1)! dr d f (r)g( p2
+2d/2+1(d - 2)! - 2|p|r cos + r2)(r sin )d-2r (A.15)
+0 0
+
+Dieses kann wiederum mit Gauﬂschen Integrations-Methoden ausgewertet werden. Der
+zweite Vorteil ist, daﬂ es keine Probleme mit langsam abfallenden Funktionen gibt.
+Manchmal gibt es groﬂe Ausl®oschungen zwischen verschiedenen Termen. In diesem Fall
+ist es wichtig, nicht-adaptive Integrations-Methoden zu verwenden, da diese zu keinem
+Genauigkeitsverlust f®
+uhren.
+
+Die explizite Reduktion der verschiedenen Korrelatoren auf die Standardformen (A.11)
+und (A.15) ist mehr oder weniger trivial. Die Selbstkonsistenz-Gleichung wurde iterativ
+gel®ost. Die Ergebnisse sind in Abbildung B.3 - B.8 dargestellt.
+
+
+Anhang B
+
+Abbildungen
+
+
+
+
+
+92
+
+
+93
+
+
+
+
+
+Abbildung B.1: S ist minimal am Fluﬂ, klein im Tal und groﬂ in den Bergen, Folglich ist
+Z = dx1dx2 e-S[x1,x2] durch das Tal dominiert.
+
+
+94 ANHANG B. ABBILDUNGEN
+
+
+
+
+
+Abbildung B.2: Die Konstituenten-Quarkmasse M(p) p22(p) in singul®arer, regul®arer
+und axialer Eichung f®ur festen Instanton-Radius in willk®urlicher Normierung. F®ur ge-
+gebenen Impuls kann man die jeweils niedrigste Kurve als die "physikalischste" ansehen.
+
+
+95
+
+
+
+
+
+Abbildung B.3: Pseudoskalarer Triplett-Korrelator, normiert auf den freien Korrelator
+masseloser Quarks. Die Pion-Kopplungs-Konstante und die Kontinuum-Schwelle E
+sind angepaﬂt, so daﬂ der spektrale Ansatz mit der theoretischen Summe aus freiem und
+verbundenem Korrelator ®ubereinstimmt.
+
+
+96 ANHANG B. ABBILDUNGEN
+
+
+
+
+
+Abbildung B.4: Pseudoskalarer Singulett-Korrelator, normiert auf den freien Korrelator
+masseloser Quarks. In diesem Kanal gibt es eine starke Abstoﬂung, die keinen Bindungs-
+zustand zul®aﬂt. Die theoretische Kurve ist mit einer Kurve verglichen, die sich aus einem
+reinen Kontinuum-Spektrum oberhalb E ergibt.
+
+
+97
+
+
+
+
+
+Abbildung B.5: Skalarer Triplett-Korrelator, normiert auf den freien Korrelator masselo-
+ser Quarks. In diesem Kanal gibt es eine starke Abstoﬂung, die keinen Bindungszustand
+zul®aﬂt. Die theoretische Kurve ist mit einer Kurve verglichen, die sich aus einem reinen
+Kontinuum-Spektrum oberhalb E ergibt.
+
+
+98 ANHANG B. ABBILDUNGEN
+
+
+
+
+
+Abbildung B.6: Skalarer Singulett-Korrelator, normiert auf den freien Korrelator mas-
+seloser Quarks. Die Masse m und Kopplung und die Kontinuums-Schwelle E
+wurden aus einem spektralen Fit gewonnen.
+
+
+99
+
+
+
+
+
+Abbildung B.7: Axialvektor-Korrelator normiert auf den freien Korrelator masseloser
+Quarks. Triplett- und Singulett-Korrelator sind gleich, da der verbundene Teil ver-
+nachl®assigt wurde. Die a1 und f1 Masse, Kopplung und Kontinuum-Schwelle wurden
+aus einem spektralen Fit gewonnen.
+
+
+100 ANHANG B. ABBILDUNGEN
+
+
+
+
+
+Abbildung B.8: Vektor-Korrelator, normiert auf den freien Korrelator masseloser Quarks.
+Triplett- und Singulett-Korrelator sind gleich, da der verbundene Teil Null ist. Die und
+Masse, Kopplung und Kontinuum-Schwelle wurden aus einem spektralen Fit gewonnen.
+
+
+Literaturverzeichnis
+
+
+[1]
+
+
+Allgemeine Literatur
+[2] J. Glimm, A. Jaffe: Quantum physics; New York, Springer (1981)
+[3] H. Lehman et al.: "LSZ theory"; Nuovo Cim. 1 (1955) 205
+[4] J.C. Ward: Phys.Rev. 78 (1950) 182
+[5] C.G. Callen: Broken scale invariance in scalar field theory; Phys.Rev. D2 (1970) 1541
+[6] K. Symanzik: Small distance behaviour in field theory and power counting;
+Comm.Math.Phys. 18 (1970) 227
+[7] W. Zimmermann: Composite operators, normal products and the short distance ex-
+pansion in the perturbation theory of renormalizable interactions; Ann.of Phys. 77
+(1973) 536,570
+[8] R.P. Feynman: Quantum mechanics and path integrals; Rev.Mod.Phys. 20 (1948)
+367
+[9] M. Creutz: Quarks, gluons and lattices; Cambridge Univ. Press (1983)
+[10] F.E. Close: An introduction to quarks and partons; Academic Press (London) (1979)
+
+
+Instantonen: Einf®
+uhrungen
+[11] R. Rajaraman: Solitons and instantons; North-Holland (1982)
+[12] J. Zinn-Justin: The principles of instanton calculus; Les Houches (1984)
+[13] M.A. Shifman et al.: ABC of instantons; Fortschr.Phys. 32,11 (1984) 585
+[14] G. Callen, R. Dashen, D. Gross: Toward a theory of strong interactions; Phys.Rev.
+D17 (1978) 2717 A theory of hadronic structure; Phys.Rev. D19 (1979) 1826
+
+
+Instantonen: Allgemeine Formeln
+[15] A.A. Belavin et al.: "Instantons in Yang-Mills-Theory"; Phys.Lett. B59 (1975) 85
+[16] A. Actor: Classical solutions of SU(2) Yang-Mills theories; Rev.Mod.Phys. 51 (1979)
+461
+[17] G. 't Hooft: Computation of the quantum effects due to a four-dimensional pseudo-
+particle; Phys.Rev. D14 (1976) 3432
+C. Bernard: Gauge zero modes, instanton determinants, and QCD calculations;
+Phys.Rev. D19 (1979) 3013
+[18] L.S. Brown et al.: Propagation functions in pseudoparticle fields; Phys.Rev. D17
+(1978) 1583; Massive propagators in instanton fields; Phys.Rev. D18 (1978) 2180
+[19] R.D. Carlitz: Bound states from instantons; Phys.Rev. D17 (1978) 3225
+
+101
+
+
+102 LITERATURVERZEICHNIS
+
+
+[20] J.M.M. Verbaarschot: Streamlines and conformal invariance in Yang-Mills theories;
+Nucl.Phys. B362 (1991) 33
+[21] M.A. Shifman et al.: Instanton density in a theory with massless quarks; Nucl.Phys.
+B163 (1980) 46 ; Nucl.Phys. B191 (1981) 301
+[22] B.V. Geshkeinbein, B.L. Ioffe: The role of instantons in generation of mesonic mass
+spectrum; Nucl.Phys. B166 (1980) 340
+[23] M. Hutter Gauge invariant quark propagator in the instanton background; HEP-PH
+9502361, submitted to Nucl. Phys.
+
+
+Instantonen: Das Fl®
+ussigkeits-Modell
+[24] E. Ilgenfritz et al.: Hard-core Model; Nucl.Phys. B184 (1981) 443
+[25] D.I. Dyakonov, V.Yu. Petrov: Instanton-based vacuum from the feynman variational
+principle; Nucl.Phys. B245 (1984) 259; A theory of light quarks in the instanton
+vacuum; B272 (1985B) 457
+[26] M. Hutter Instantons in QCD and meson correlation functions M®unchen preprint
+HEP 95-01, Submitted to Zeitschr.Phys.
+
+
+Instantonen: Numerische Studien
+[27] E.V. Shuryak: The role of instantons in QCD (A1-A4); Nucl.Phys B203 (1982)
+93,116,140; B214 (1982) 237 Toward the quantitative theory of the instanton li-
+quid (B1-B4); Nucl.Phys B302 (1988) 559,574,599,621 Instantons in QCD (C1-C4);
+Nucl.Phys B319 (1989) 521,541; B328 (1989) 85,102
+[28] E.V. Shuryak, J.J.M. Verbaarschot: Quark propagation in the random instanton
+vacuum; Nucl.Phys. B410 (1993) 37 Mesonic correlation functions in the random
+instanton vacuum; Nucl.Phys. B410 (1993) 55 Baryonic correlators in the random
+instanton vacuum; Nucl.Phys. B412 (1994) 143
+[29] T. Schaefer, E.V. Shuryak: Hadronic wave functions in the instanton liquid model;
+Phys.Rev. D50 (1994) 478
+
+
+Gluon-Masse
+[30] L. Scott: Nucl. Phys. B157 (1979) 392
+[31] J.M. Cornwall: Phys.Rev. D10 (1974) 500
+[32] K. Lane: Phys.Rev. D10 (1974) 2605
+[33] H. Pagels: Phys.Rev. D19 (1979) 3080
+[34] N. Bralic: Phys.Rev. D22 (1980) 3090
+[35] P. Fishbane et al.: Phys.Rev. D24 (1981) 2324
+[36] C.G. Callen et al.: Phys.Lett. B66 (1977) 375
+[37] J. Ambjorn et al.: Nucl.Phys. B152 (1979) 75, B170 (1980) 60,265
+[38] J.M. Cornwall: Phys.Rev. D26 (1982) 1453
+[39] F. Halzen: Relating the QCD pomeron to an effective gluon mass; preprint
+MAD/PH/702 (1992)
+[40] M. Hutter: Gluon mass from instantons; preprint LMU-Muenchen HEP 93/18 (1993)
+
+
+Axiale Anomalie, Masse und Proton-Spin
+
+
+LITERATURVERZEICHNIS 103
+
+
+[41] J.S. Bell, R. Jackiw; "Axial anomaly": Nuovo.Cim. A51 (1969) 47
+S.L. Adler, W.A. Bardeen: "Axial anomaly": Phys.Rev. 182 (1969) 1517
+[42] J. Kogut, L. Susskind: How quark confinement solves the 3 problem; Phys.Rev.
+D11 (1975) 3594
+[43] E. Witten: Current algebra theorems for the U(1) "Goldstone boson" Nucl.Phys. B156
+(1979) 269
+[44] B. Ioffe: On the choice of quark currents in QCD sum rules for baryon masses;
+Z.Phys C18 (1983) 67
+[45] S.D. Baas, A.W. Thomas: The EMC spin effect; Cavendish preprint HEP 92/5 (1992)
+[46] E. Reya: Polarized structure functions and the spin of the proton; Dortmund preprint
+DO-TH 93/09
+[47] R.G. Roberts: The structure of the proton; Cambridge (1990)
+[48] E.M. Collaboration: An investigation of the spin structure of the proton in deep
+inelastic scattering of polarised muons on polarised protons; Nucl.Phys. B328 (1989)
+1
+[49] S.M. Collaboration: Measurement of the spin dpendent structure function g1(p) of
+the proton; CERN-PRE 94 (1994)
+[50] L.M. Sehgal: "neutron -decay"; Phys.Rev. D10 (1974) 1663
+[51] M. Bourquin et al.: "octet hyperon -decay"; Z.Phys. C21 (1983) 26
+J. Stern, G. Clement; Phys. Lett. B231 (1989) 471
+[52] J. Ellis, M. Karliner: Phys.Lett. B213 (1988) 73
+[53] S. Forte, E.V. Shuryak: Instanton-induced supression of the singlet axial charge of
+the proton; Nucl.Phys. B357 (1991) 153
+[54] R.L. Jaffe: The g1 problem: Deep inelastic scattering and the spin of the proton;
+Phys.Lett. B193 (1987) 101
+[55] H. Fritzsch: The spin density functions of the nucleon; Phys.Lett. B242 (1990) 451
+QCD anomaly and the spins inside the quarks; Phys.Lett. B256 (1991) 75
+
+
+Operator-Produkt-Entwicklung
+[56] Narison: QCD spectral sum rules; World scientific 1989
+[57] M.A. Shifman et al.: QCD and resonance physics; Nucl.Phys. B147 (1979) 385,
+448,519
+[58] V.A. Novikov et al.: Calculation in external fields in QCD; technical review;
+Fort.Phys. 32 (1984) 585; Wilson's OPE: can it fail ?; Nucl.Phys. B249 (1985) 445
+
+
+Verschiedenes
+[59] S.V. Shabanov: Lectures on quantization of gauge theories by the path intagral me-
+thod; Corfu School Proceedings 1992
+[60] Schrieffer: Theory of superconductivity; Benjamin (1964)
+[61] D.J. Gross, F. Wilczek: "Asymptotic freedom"; Phys.Rev.Lett 30 (1973) 1343
+H.D. Politzer: "Asymptotic freedom"; Phys.Rev.Lett 30 (1973) 1346
+[62] E. Witten: 1/Nc expansion in QCD; Nucl.Phys. B160 (1979) 57
+[63] S. Weinberg: Das U(1) Problem Phys.Rev. D11 (1975) 3583
+[64] M.A. Shifman: Anomalies in gauge theories; Phys.Rep. 209 (1991) 341
+
+
+104 LITERATURVERZEICHNIS
+
+
+[65] A.V. Smilga: Vakuum fields in the schwinger model; Phys.Rev. D46 (1992) 5598
+H. Leutwyler, A.V. Smilga: Spectrum of Dirac operator and role of winding number
+in QCD; Phys.Rev. D46 (1992) 5607
+[66] E.V. Shuryak: Correlation functions in the QCD vacuum Rev.Mod.Phys. 65 (1993)
+1
+[67] K.G. Wilson: Confinement of quarks; Phys.Rev. D10 (1974) 2445
+[68] J. Gasser, H. Leutwyler: Quark masses; Phys.Rep. 87 (1982) 77
+[69] A.E. Dorokhov et al.: Proton spin within nonperturbative QCD; Int.J.Mod.Phys. A8
+(1993) 603
+
+
+LITERATURVERZEICHNIS 105
+
+
+Lebenslauf
+
+
+Personalien
+
+Name: Marcus Hutter
+
+Adresse: Josephsburgstr. 59
+D-81673 M®
+unchen
+
+Geboren: 14.April 1967 in M®unchen
+
+Schulausbildung
+
+Sep.1973 - Jul.1977 Grundschule in M®unchen und USA
+
+Sep.1977 - Mai.1987 Gymnasium in M®unchen und in Markt Schwaben
+Leistunskurse: Mathematik & Physik
+
+20.Mai.1987 Abitur
+
+Studium Informatik
+
+Nov.1987 - Mai.1992 Informatik mit Nebenfach Mathematik an der Technischen Univer-
+sit®at M®unchen, Spezialgebiet: K®unstliche Intelligenz, Neuronale
+Netze, Genetische Algorithmen
+
+Diplomarbeitsthema: Implementierung eines Klassifizierungssystems
+
+26.Mai.1992 Diplom
+
+Studium und Promotion in Physik
+
+Nov.1989 - Jul.1993 Allgemeine Physik an der Technischen Universit®at M®unchen
+
+Nov.1992 - Jan.1996 Dissertation in theoretischer Elementarteilchenphysik bei Prof. H.
+Fritzsch. Thema: Instantonen in der QCD
+
+
+

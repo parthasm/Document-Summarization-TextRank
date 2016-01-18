@@ -1,0 +1,568 @@
+
+
+ 21 Nov 1995
+
+AZPH-TH/95-24 LBL-38001
+
+Domain Structure of a Disoriented Chiral Condensate
+
+From a Wavelet Perspective
+
+Zheng Huanga, Ina Sarcevica, Robert Thewsa and Xin-Nian Wangb
+
+aDepartment of Physics, University of Arizona, Tucson, AZ 85721
+
+bNuclear Science Division, MS 70A-3307
+
+Lawrence Berkeley National Laboratory, Berkeley, CA 94720
+
+(October, 1995)
+
+Abstract We present a novel method for studying the formation of a disoriented chiral condensate (DCC) in high-energy hadronic and heavy-ion collisions utilizing a discrete wavelet transformation. Due to its salient feature of space-scale locality, the discrete wavelet proves to be very effective in probing physics simultaneously at different locations in phase space and at different scales. We show that the probability distributions of the neutral pion fraction for various rapidity-bin sizes have distinctive shapes in the case of a DCC and exhibit a delay in approaching the Gaussian distribution required by the Central Limit Theorem. We find the wavelet power spectrum for a DCC to exhibit a strong dependence on the scale while an equilibrium system and the standard dynamical models such as HIJING have a flat spectrum.
+
+1
+
+I. INTRODUCTION Recently, it has been suggested that in very high energy hadronic and heavy-ion collisions the rapid expansion of the collision debris in the longitudinal (beam) direction leads to supercooling in the interior of the interaction region, and as a result, domains of the "unconventionally" oriented vacuum configurations allowed by the chiral symmetry may be formed [1,2]. Detection of this interesting phenomenon, the so-called Disoriented Chiral Condensate (DCC) [1,2], would provide valuable information on the vacuum structure of the strong interaction and the nature of the chiral phase transition. Preliminary theoretical investigations on nonequilibrium dynamics using the classical linear oe-model have found some evidence for the growth of long wavelength pion modes, which may indeed lead to domain structure or cluster formation [4,5]. Although the precise dimension of a typical domain or cluster is still under debate, it seems likely, especially in heavy-ion collisions, that many domains or clusters could be formed in the interaction volume. If there are many uncorrelated small domains, the integrated probability distribution of the neutral pion fraction f emitted from a disoriented region, predicted to be P (f ) = 1=2pf [1,2], would become Gaussian. This would follow from the Central Limit Theorem [10] in statistics which states that the probability distribution of the sum of N independent identically distributed variables becomes Gaussian with width , 1=N as N increases, independent of the original distribution. This makes the experimental search for the DCC signal a rather difficult task. In order to disentangle the DCC domain structure, we propose a new method which emphasizes not only the behavior of the probability distribution in the full phase space region but also its fluctuation in rapidity j or azimuthal angle OE. In other words, one needs to study the "local" properties of the distribution in phase space if the DCC clusters are "localized" objects in phase space.
+
+Normally DCC domains are localized in coordinate space. If they develop collective motion in the course of their time evolution, they should also appear localized in momentum space. The standard "count in cell" technique is to divide the phase space into segments
+
+2
+
+with a given acceptance size \Delta j\Delta OE and to define f locally in each cell. Since the location of a DCC cluster in phase space will not be fixed event by event, it is not useful to examine the probability distribution of f in a particular cell. Instead, one may look at the probability of finding a particular value of f in all cells of the same size in one event and average over the events. Clearly, the probability distribution will depend on the size of the cell. In addition, the information on the fluctuations with a characteristic correlation scale smaller than the acceptance is entirely suppressed.
+
+In this paper, we propose a novel method to study the DCC domain structure which features both space and scale localities. It is a multiresolution analysis performed by a discrete wavelet transformation (DWT) which has been found effective in systematically detecting structures on various scales in turbulence, astrophysics, and multiparticle productions [11-13]. We demonstrate that the DWT proves to be very useful in identifying and measuring the DCC domain structures simultaneously in terms of their size (in scale) and location (in space). Since it is likely that there are other physical scales accompanying the typical DCC domain scale in a physical process, the multiresolution feature of the DWT is essential for identification of the structures of interest. It acts like a mathematical microscope which can zoom in or out to various scales at each location. Due to the completeness and orthogonality of the DWT basis, there will be no information loss.
+
+To demonstrate the proposed technique, we will use the DWT method to study DCC domains in numerical simulations of a classical linear oe-model in 1+1 dimensions [5], assuming boost invariance of the system. We will analyze the fluctuation of the neutral pion fraction f in the spatial rapidity, j = 12 ln(t + z)=(t \Gamma z). The idea demonstrated here can be directly applied to experimental data in momentum phase space once they become available. We will also apply the DWT analysis to the data of the HIJING [9] Monte Carlo simulations, which can be considered as normal "backgrounds" in heavy-ion collisions without DCC formation.
+
+3
+
+II. BASICS OF DISCRETE WAVELET TRANSFORMATION Since more extensive reviews on wavelets exist [15], we summarize only some very basic concepts of the DWT and the idea of a multiresolution analysis by using the well known tophat function leading to the Haar wavelet. Any one-dimensional sample of a point distribution f (x), such as the rapidity distribution of the neutral pion fraction in the interval [0; 1] with resolution \Delta x, can be represented as a histogram of 2J bins where J = mod(jln\Delta xj=ln2) + 1
+
+f (x) j f (J)(x) =
+
+2J\Gamma 1X
+
+k=0
+
+fJkOEJk(x); (1)
+
+where OEJk(x) are the piecewise constant functions:
+
+OEjk(x) = 8??!??: 1 k2
+
+\Gamma j ^ x ^ (k + 1)2\Gamma j
+
+0 otherwise
+
+: (2)
+
+Clearly, fJk in (1) is the value of f (x) in the k-th bin. The family of functions OEjk(x) can be rewritten as the translation and dilation of a single function OE(x), called the mother function
+
+OEjk(x) = OE(2jx \Gamma k); (3) where OE(x) in this case is the top-hat function: 1 in [0; 1] and 0 otherwise.
+
+In OEjk(x), the index j denotes the resolution scale and k the position at each scale. The idea of multiresolution analysis is to find representations of the sample function f (x) at various scales. Obviously fJk in (1) is such a representation at the finest scale J and the index k takes the place of the coordinate x. In order to find the distribution at the next finest scale J \Gamma 1, one needs to expand f (x) in OEJ\Gamma 1;k(x). However, it cannot be simply done from (1) since OEJ\Gamma 1;k(x) is not orthogonal to the function OEJk(x) at a finer resolution. To solve the problem, consider a stairwell function (x) defined by
+
+(x) =
+
+8??????!
+
+??????:
+
+1 0 ^ x ! 1=2 \Gamma 1 1=2 ^ x ! 1 0 otherwise
+
+: (4)
+
+4
+
+One can construct a wavelet basis jk(x) by the operation of dilation and translation jk(x) = (2jx \Gamma k). The crucial property is that the functions jk(x) are orthogonal to each other with respect to both the scale index j and the position index k. For a given j, jk(x)'s are also orthogonal to OEjk(x)'s. jk(x) and OEjk(x) are usually called the wavelet functions and the scaling functions, or the father functions and the mother functions, respectively [14]. It is easy to derive the following recursion relation
+
+OEj;2k(x) = 12 (OEj\Gamma 1;k(x) + j\Gamma 1;k(x)) ; OEj;2k+1(x) = 12 (OEj\Gamma 1;k(x) \Gamma j\Gamma 1;k(x)); (5) indicating that all mother functions OEjk(x) at scale j can be expressed in terms of the mother and the father functions at scale j \Gamma 1. Using (5), one shows that
+
+f (j)(x) =
+
+2j
+
+\Gamma 1\Gamma 1X
+
+k=0
+
+fj\Gamma 1;kOEj\Gamma 1;k(x) +
+
+2j
+
+\Gamma 1\Gamma 1X
+
+k=0
+
+~fj
+
+\Gamma 1;kj\Gamma 1;k(x); (6)
+
+where the mother function coefficients (MFC) fj\Gamma 1;k and the father function coefficients (FFC) ~fj\Gamma 1;k are given by
+
+fj\Gamma 1;k = 12 (fj;2k + fj;2k+1) ; ~fj\Gamma 1;k = 12 (fj;2k \Gamma fj;2k+1): (7) Thus, for the Haar basis, the MFC's are just the average between two bins of the MFC's at the previous scale, while the FFC's are the half difference between two bins. Since jk(x) and OEjk(x) are orthogonal to each other, the mother function expansion is not mixed with the father function expansion at any scale. Therefore, one can safely define the distribution f (x) in the mother function representation at scale j ^ J by
+
+f (j)(x) =
+
+2j\Gamma 1X
+
+k=0
+
+fjkOEjk(x); (8)
+
+where the MFC's fjk's are calculated from recursion relation (7) starting from the finest scale J . One can also define the father function representation of the distribution f (x) at scale j
+
+~f (j)(x) =
+
+2j\Gamma 1X
+
+k=0
+
+~fjkjk(x): (9)
+
+5
+
+From (6), (8) and (9), it is clear that ~f (j)(x) = f (j+1)(x) \Gamma f (j)(x), i.e. the father representation at one scale is just the difference of the mother function representations between the next finer scale and that scale. The FFC's can be calculated using the orthogonality of jk(x) in j and k
+
+~fjk = 2j Z f (x)jk(x)dx; (10)
+
+and the MFC's at various scales can be found from ~fjk using (6) (note that though (6) and (10) is derived based on the Haar wavelet, they are valid for all discrete wavelets).
+
+The multiresolution analysis is a space-scale decomposition (SSD) where the space corresponds to any physical variable like the rapidity and the scale is the size (Fourier) space. Unlike the Fourier transformation which requires the information in whole physical space, the wavelet SSD requires only the local information in space. Roughly speaking, the multiresolution analysis is a journey down (or up) a hierarchy of scales and to view the "world" in different "eyes" with magnifying or reducing glasses. The mother function representations as the scale becomes coarser can be thought of (roughly) as removing higher frequencies while retaining lower frequencies. The father function representations record the higher frequency fluctuations living on the lower frequency structures at each scale and carry the information on the nature of the fluctuations at each scale.
+
+To analyze a DCC domain structure, we should use a SSD localized in both the physical space and scale space. Although the Haar basis is very intuitive and easy to visualize, the top-hat function is discontinuous and thus not localized in scale (Fourier) space. Important progress was made in the mid 80's to early 90's in finding a continuous discrete wavelet basis that is well localized in Fourier space. Specifically, Daubechies [16] constructed several families of wavelets and scaling functions which are orthogonal, have compact support and are continuous. The father (wavelet) function (x) and the mother (scaling) function OE(x) are defined as
+
+OE(x) = X
+
+m c
+
+mOE(2x \Gamma m) ; (x) = X
+
+m (\Gamma 1)
+
+mc1
+
+\Gamma mOE(2x \Gamma m); (11)
+
+6
+
+where the coefficients cm's specify a particular wavelet. The Haar wavelet is a special case when c0 = c1 = 1=2 and all other cm's are zero. The simplest wavelet which is localized both in space and in scale is given by c0 = (1 + p3)=4, c1 = (3 + p3)=4, c2 = (3 \Gamma p3)=4 and c3 = (1 \Gamma p3)=4. It is often called D4-wavelet.
+
+In our analysis, we shall mainly use the Haar wavelet to obtain the mother function representation owing to its obvious connection to the "count in cell" technique, while use D4-wavelet to investigate the scale dependence of the fluctuations (the father function representation). We also check the reliability of our result by using the D20-wavelet.
+
+III. DYNAMICAL MODEL OF DCC
+
+A. The Model The dynamical process of chiral phase transition is not well understood among many theoretical uncertainties in the description of the transition from the quark-gluon plasma to the hadronic gas. If there is significant supercooling before the plasma hadronizes, the evolution of the chiral order parameter is likely to be out of equilibrium. The linear oe-model is shown [7] to characterize the basic feature of the chiral phase transition since it is in the same universality class as QCD. It also gives a good description of soft pion dynamics such as pion-pion scattering which dominates the late stages of evolution of the system. In the linear oe-model, the dynamical field \Phi consists of four components (oe; ss1; ss2; ss3) denoting the sigma and pion fields. In high multiplicity events where there are a large number of soft pions produced in high energy collisions, one attempts to describe the system by the classical field theory where the quantum effects are generally suppressed due to a nearly complete occupation of quantum states. The dynamical evolution of the interacting pion system is governed by the classical equation of motion derived from the linear oe-model. The initial condition can be chosen to represent the possible configurations before the phase transition.
+
+We simulate an ensemble of random fields distributed in space with a geometry consistent
+
+7
+
+with the boost invariance [8]. The field distributions are generated by general Gaussian random distributions with a mean field h\Phi i and a variance hffi\Phi 2i which determine whether the system is in or out of equilibrium initially. The mean field which characterizes the order parameter evolves according to the equation of motion in a Hartree approximation
+
+@2 @t2 \Gamma \Delta
+
+2! h\Phi i = @Veff(h\Phi i; hffi\Phi 2i)
+
+@h\Phi i ; (12)
+
+where the effective potential for the mean field h\Phi i Veff (h\Phi i; hffi\Phi 2i) depends on the mean field and the fluctuation hffi\Phi 2i
+
+Veff (h\Phi i; hffi\Phi 2i) = *4 (h\Phi i2 + hffi\Phi 2i \Gamma AE2)2 + Hhoei; (13) where * = 20, AE = 87:4 MeV and H = (119MeV)3 [5]. The fluctuation hffi\Phi 2i can be thought of as the "effective temperature" though the temperature is not well defined when the system is out of equilibrium. In the supercooling case, the fluctuation is small (the "effective temperature" is low) so that Veff exhibits the shape of a Mexican hat while the mean field lies on the top of the "hat". As the system evolves, the mean field rolls down from the chirally symmetric false vacuum to the true chirally asymmetric vacuum. For low momentum modes, such a rolling down is not stable. As a result, some domains of correlated pions begin to form due to this instability. This scenario is referred to as the quenching mechanism [3]. An equilibrium evolution is a situation where the initial mean field is given by the equilibrium position of the effective potential at certain "effective temperature". In such a case, there is no initial instability. Whether or not the domain structure can develop in such a case is determined by the subsequent dynamical evolution according to (12).
+
+An important point in the classical simulation is the equal probability of all possible directions in internal isospin space at each space point, i.e., the fields ss1, ss2 and ss3 are distributed with equal probability in the ensemble . We also assume that there is no initial correlation of the pion fields between space locations whose distance is larger than the lattice spacing (which is chosen to be about the pion charge radius , 0:5 fm). The pion fields, are correlated only within a lattice spacing which represents a minimal correlation
+
+8
+
+length present at all times. The existence of such a correlation in a classical description is unavoidable which may reflect the fact that the pion has a finite size. However, it is not clear whether at such small scale the classical treatment is still valid. We emphasize that strictly speaking our results are meaningful only when the scale involved is much larger than the minimal correlation. For more discussions on the dynamical model, we refer readers to Ref. [4,5].
+
+B. Signal and Background We shall compare the probability distribution after some evolution time with the initial random distribution and investigate whether there is an evidence for the significant growth of the correlation. Although our model is far from being realistic in predicting the detailed particle production in high energy collisions, it captures the basic isospin symmetry property of the system. In particular, we shall focus on the ratio of neutral pions to total pions which is defined in the classical model as
+
+f = ss
+
+21
+
+ss21 + ss22 + ss23 ; (14)
+
+and assume that the dynamical details of particle production cancel out. The initial random distribution is generated based on the most general consideration of isospin symmetry and statistical principle. It serves as a "background" as it represents a system without any further dynamical evolution. We also use the HIJING [9] Monte Carlo model to generate events and calculate the corresponding neutral pion fraction in different bins of the momentum space, which we take as a standard background to the DCC signals. The HIJING result is found to be compatible with that of our initial random sample and a system evolved form an equilibrium initial condition, since all of them do not have a DCC production mechanism.
+
+9
+
+IV. WAVELET VIEW OF DCC CLUSTERS The central idea of using the wavelet analysis is to attempt an unbiased separation of the DCC physics from the various "backgrounds" which cannot be otherwise easily eliminated. The usual correlation method is not so effective here because the different scale correlations are mixed together in the same phase space. The discrete wavelet transformation (DWT), on the other hand, has an extra dimension - the scale which can be used to separate these correlations. The main source of the "backgrounds" is the fluctuations at small correlation scale due to pion radiation from the uncorrelated regions in space-time, which can coexist with a DCC domain. The background can also come from the partial thermalization of the system leading to a thermal correlation length. Note that the short correlation in isospin space does not correspond to high frequency fluctuation in space-time or large momentum mode, which may otherwise be removed by a momentum cut-off.
+
+Although a two-dimensional wavelet transformation is available, we shall confine ourselves to the one-dimensional case for the purpose of demonstration. We have simulated the evolution of the pion fields using a classical linear oe-model with an 1 + 1 boost invariance [5]. The initial condition is chosen to model a quenching scenario [3] where the system supercools after the QCD phase transition. After time evolving this nonequilibrium state from o/initial = 1 to o/final = 5 fm/c, we form a one-dimensional data array of
+
+f (j) = ss
+
+21(j)
+
+ss21(j) + ss22(j) + ss23(j) ; (15) for each event as the spatial rapidity (j) distribution of the ss1-fraction f , where ssi (i =
+
+1; 2; 3) are the three Cartesian components of the classical pion field. The lattice spacing in j is chosen to be \Delta j = 0:08. Thus initially the pion fields are automatically correlated within \Delta j but completely random at scales beyond \Delta j. The maximal rapidity interval is chosen to be [\Gamma 5; 5], with a periodic boundary condition. The total number of bins is 2jmax=\Delta j = 27, so J = 7 is the finest scale. The large structure formation from a nonequilibrium evolution is compared to the initial random fluctuations at o/initial = 1 fm/c, and also to data generated by equilibrium evolution to o/final = 5 fm/c.
+
+10
+
+A. Mother Function Representation We display in Figure 1, the mother (scaling) function representation of a typical quenching simulation sample f (j) using a Haar wavelet basis. The mother function coefficients (MFC) at different scales are calculated using the existing codes provided in Numerical Recipes [17].
+
+-6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6
+
+Rapidity h
+
+0.0 0.2 0.4 0.6 0.8 1.0
+
+-6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6
+
+Rapidity h
+
+0.0 0.2 0.4 0.6 0.8 1.0
+
+j=7
+
+j=6 j=5 j=4
+
+j=3
+
+j=2 j=1
+
+j=0 Neutral Pion fraction f
+
+FIG. 1. A mother function representation based on the Haar wavelet multiresolution decomposition. The original sample with a resolution j = 7 is the rapidity distribution of the neutral pion fraction f generated by assuming a quenching initial condition. The distributions of the MFC's at j = 6; 5; :::; 0 are shown.
+
+At the finest scale j = J = 7, the sample contains fluctuations with the correlation sizes ranging from \Delta j to 2jmax. Some clustering is evident, most prominently located around j ' \Gamma 2. High frequency fluctuations superimposed on these cluster domains make it difficult to identify them by eye. At the next finest scale j = 6, there are only fluctuations
+
+11
+
+with scales greater than 2\Delta j present. Any fluctuations with scales smaller than 2\Delta j have been "filtered" out. In general, at scale j, only fluctuations with scales bigger than 2J
+
+\Gamma j \Delta j
+
+survive. The clustering peaks become more and more distinctive as the scale step j goes down until some scale step jd. For j smaller than jd, the cluster structure cannot survive and will start to disappear. One sees that for this data sample jd , 3 to 4. The approximate size of the cluster structure is therefore \Delta jd = 2J
+
+\Gamma jd \Delta j ' 0:6 to 1.2 units in rapidity.
+
+Interestingly, an even larger structure located at [\Gamma 2; 0] may be emerging at scale j = 3 to 4 and disappears at j = 1. At the roughest scale j = 0, no structure can exist by definition and only the average value hf i ' 1=3 is plotted.
+
+B. Delayed Central Limit The cluster identification shown above is done for a single sample event, which may merely be a statistical fluctuation. Since the locations of the clusters will in general vary from event to event, we cannot reduce the fluctuations by combining many different events. However the probability distribution P (f ) should be the same for different events if the DCC domain production mechanism is common to all events. As the second demonstration on the mother function representation, we calculate the probability distribution of the MFC's and average it over 500 simulation events. We study P (j)(f ) at different j's, corresponding to the probability distribution at different physical scales, and compare them with the same quantity for a random distribution at the same scale. The random noise samples are generated by using the initial configurations at o/initial = 1 fm/c in our simulation.
+
+Since our initial fluctuations of ss1, ss2 and ss3 are generated randomly with equal probability for every direction in isospin space, the probability distribution at the finest scale j = J must follow [1,2]
+
+dP (J)
+
+df (f ) =
+
+1 2pf (16)
+
+Note that this distribution corresponds to the classical description of the initial state. It does not necessarily mean that the experimental data at finest rapidity resolution should discover
+
+12
+
+such a behavior even for random fluctuations. Our initial correlation length \Delta j ' 0:08 is merely an assumption. In the ideal limit that the detector resolution can be made arbitrarily sharp, at some scale the behavior in (16) may or may not be found depending on whether the number of pions in each bin is large enough so that classical description is still valid. In any case, what remains to be important, as we shall show below, is to discover a behavior similar to (16) well above the finest resolution scale (say, at \Delta jd , 1 unit).
+
+Assuming that there is no correlation in a noise sample beyond \Delta j, one can analytically calculate the probability distribution at next scale j = J \Gamma 1 by the convolution of two independent identical distributions at the previous scale j = J
+
+dP (J
+
+\Gamma 1)
+
+df (f ) = 2 Z
+
+dP (J)
+
+df (f1)
+
+dP (J)
+
+df (2f \Gamma f1)df1
+
+= 8???!???:
+
+2 R 2f0 12pf
+
+1
+
+1 2p2f\Gamma f1 df1 0 ^ f ^
+
+1 2
+
+2 R 12f\Gamma 1 12pf
+
+1
+
+1 2p2f\Gamma f1 df1
+
+1 2 ^ f ^ 1
+
+= 8??!??:
+
+ss
+
+2 0 ^ f ^
+
+1 2
+
+sin
+
+\Gamma 1 i 1\Gamma f
+
+f j
+
+1 2 ^ f ^ 1
+
+; (17)
+
+where f = (f1 + f2)=2. The convolutions become more complicated at subsequent scale steps and we do not attempt to derive them analytically. Nevertheless, we note that the distributions tend to shrink more and more toward the mean value hf i = 1=3 and their shapes tend to be more and more Gaussian-like as one may expect from the Central Limit Theorem. Indeed, it can be shown [10] that the variance h\Delta f 2i j hf 2i \Gamma hf i2 or roughly the width square of the distribution follows a simple rule
+
+h\Delta f 2ij = h\Delta f 2ij\Gamma 1=2 ; (18) so the distribution tends to be narrower and narrower. We confirm the above picture by calculating the MFC's of the initial random samples and their probability histogram at each scale. The result shown in Figure 2 is averaged over 500 events. The prediction from (17) is also plotted at j = 6. The agreement of the random data sample with the prediction indicates that adjacent bins are indeed independent of each other. We have also done a HIJING Monte Carlo calculation for heavy ion collisions at RHIC energy for the rapidity distribution of the neutral pion fraction. The result is very similar to that in Fig.2 for j ^ 5.
+
+13
+
+The distribution in (16)at j = 7 in Fig.2 results from the minimal correlation of classical fields within the lattice spacing.
+
+0.0 0.2 0.4 0.6 0.8 1.0f=p2
+
+0/|p|
+
+2
+
+0.00
+
+0.01 0.02 0.03 0.040.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.01 0.02 0.030.0 0.2 0.4 0.6 0.8 1.0 0.000
+
+0.005 0.010 0.015 0.020
+
+Probability P (j)(f) Prediction from Eq.(17)
+
+0.0 0.2 0.4 0.6 0.8 1.00.00
+
+0.05 0.10
+
+0.0 0.2 0.4 0.6 0.8 1.0f=p2
+
+0/|p|
+
+2
+
+0.00
+
+0.05 0.10 0.15 0.200.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.05 0.10 0.15 0.200.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.02 0.04 0.06 0.08 0.100.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.02 0.04 0.06Random Sample j=7
+
+j=6 j=5 j=4
+
+j=3 j=2 j=1 j=0
+
+FIG. 2. The probability distribution of the MFC's averaged over 500 random samples at each scale j.
+
+The situation for the samples that contain some typical DCC clusters would be very different. In this case, since there exists a correlation scale beyond \Delta j, the distributions of two adjacent bins are not independent. One expects that the distribution P (j
+
+\Gamma 1)(f ) will not
+
+be so different from the previous one P (j)(f ) until a scale jd. Beyond scale Jd, independent convolution is valid. After this the distributions will become sharp according to the rule in (18) provided there are no other interesting scales. The result for 500 quenching samples at o/final = 5 fm/c is plotted in Figure 3, which shows much broader distributions as compared to the corresponding ones in the random case in Fig. 2.
+
+14
+
+0.0 0.2 0.4 0.6 0.8 1.0f=p2
+
+0/|p|
+
+2
+
+0.00
+
+0.01 0.02 0.03
+
+Quenching Sample j=7
+
+j=6
+
+j=5
+
+j=4
+
+j=3 j=2
+
+j=1 j=0 0.0 0.2 0.4 0.6 0.8 1.00.00
+
+0.01 0.02 0.030.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.01 0.02 0.03
+
+Probability P (j)(f)
+
+0.0 0.2 0.4 0.6 0.8 1.00.00
+
+0.04 0.08 0.12
+
+0.0 0.2 0.4 0.6 0.8 1.0f=p2
+
+0/|p|
+
+2
+
+0.00
+
+0.02 0.04 0.060.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.01 0.02 0.03 0.04 0.050.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.01 0.02 0.030.0 0.2 0.4 0.6 0.8 1.0 0.00
+
+0.01 0.02 0.03
+
+FIG. 3. The probability distribution of the MFC's averaged over 500 DCC samples at each scale j.
+
+The distribution given in (17) at j = 6 is also plotted (the dashed line) in Fig.3 for a comparison. There is no evidence of flat plateau for j = 6 as in Fig.2. This is a good evidence that adjacent bins are very correlated. Only when one reaches j = 2 in the DCC case does it show a similar behavior to that at j = 5 in the random case. Following this the DCC j = 1 is similar to the random j = 4, etc., suggesting a phenomenon which we shall refer to as the Delayed Central Limit. The "delayed" scales in j are about \Delta j = 3 for the probability distribution and are approximately equal to jd ' 3 to 4 as inferred from the MFC analysis for a single event shown in Figure 1. This suggests the cause of the delay is due to the DCC clusters. The delay occurs for j * jd and there is no further delay observed after jd indicating there is no further correlation beyond scale jd. We have also
+
+15
+
+checked simulation samples in the case of an equilibrium evolution where the quenching initial condition is replaced by the annealing initial condition [6] and no significant delay has been found.
+
+C. Father Function Representation So far we have discussed the scaling or the mother function representations in the discrete wavelet transformation. The scaling functions, though being very intuitive in the Haar basis, are not orthogonal with respect to j. The MFC's at scale j contain information of the MFC's at all subsequent scales. However, the father function coefficients wavelets are orthogonal in both j and k as we have discussed in Sec. II. The information loss in the MFC's as the scale step goes down is recorded in the FFC's at that scale since roughly the FFC's at each scale j are just the difference of the MFC's between this scale and the previous finer scale j \Gamma 1. Therefore, the FFC's at a given scale exclusively describe the nature of fluctuations at that scale and there is no contamination of the information from other scales.
+
+16 -2.4 -1.2 0.0 1.2 2.4f
+
+FFC
+
+0.00 0.10 0.20 0.30 0.40
+
+j=6 j=5
+
+j=4
+
+j=3 j=2
+
+j=1 -2.4 -1.2 0.0 1.2 2.40.00
+
+0.10 0.20 0.30 0.40
+
+Probability P (j)(f
+
+FFC)
+
+-2.4 -1.2 0.0 1.2 2.40.00
+
+0.10 0.20 0.30 0.40 DCC Sample
+
+Random Sample
+
+-2.4 -1.2 0.0 1.2 2.4f
+
+FFC
+
+0.00 0.10 0.20 0.30 0.40-2.4 -1.2 0.0 1.2 2.4 0.00
+
+0.10 0.20 0.30 0.40-2.4 -1.2 0.0 1.2 2.4 0.00
+
+0.10 0.20 0.30 0.40
+
+FIG. 4. The probability distributions of the FFC's for both DCC samples and random samples at each scale j.
+
+We have calculated the father function representation of 500 DCC samples and 500 random noise samples using D4-wavelet. Again we concentrate on location independent quantities such as the probability distribution of FFC's. At a given scale, unlike the MFC's, the FFC's are not aware of the existence of the clustering structures at the subsequent scales - they only measure the fluctuations with that "frequency" 1=\Delta j. The distributions should not look very different as j decreases toward jd at which clustering occurs, as the FFC's only record the "noise". They should be quite similar to those of the random noise samples except that the "noise levels" are lower in the DCC samples which implies a smoother rapidity distribution. Thus, they should be more peaked around h ~f i ' 0. As j decreases further the clusters begin to appear, and fluctuations will grow as the FFC's measure the
+
+17
+
+difference between the structure and the structureless regions. Phrased more intuitively, the FFC's at different scales can be thought of as measuring the fluctuations using various sized "rulers". When the size of a ruler matches the size of a structure, the strength of fluctuations grows and thus the probability distribution of FFC's become more spread-out when j ^ jd. The above picture is supported in our demonstration as shown in Figure 4 where the probability distributions of FFC's at each scale for both the DCC samples and the noise samples are plotted. For the noise samples as one may anticipate, the probability histograms look alike at all scales, indicating the nonexistence of any scale structures. We define jd to be the scale for the DCC clustering, beyond which the fluctuations surpass the pure random noise fluctuations. Clearly from Figure 4 this happens at a scale between j = 4 and j = 3.
+
+D. Power Spectrum of Rapidity Distribution A more quantitative way to analyze the fluctuations at each scale is the wavelet power spectrum. Similar to the Fourier analysis, a Parseval Theorem for DWT utilizes the complete and orthonormal properties of the DWT:
+
+1 L Z
+
+L 0 jf (x)j
+
+2dx = 1
+
+L
+
+1X
+
+j=0
+
+1 2j
+
+2j\Gamma 1X
+
+k=0 j
+
+~fjkj2 ; (19)
+
+where ~fjk are the FFC's. Thus, one can define the power spectrum with respect to the wavelet basis at each j as
+
+Pj = 12j
+
+2j\Gamma 1X
+
+k=0 j
+
+~fjkj2 : (20)
+
+Pj is then the power of fluctuations on length scale L=2j . It is also the mean square of the probability distributions of FFC's in Fig. 4. The random noise sample features a flat power spectrum, i.e. the power of fluctuations is the same at any scale. For the DCC sample there should be a flat spectrum when j * jd and some power build-up should show up when j ^ jd. We demonstrate the power spectrum for the rapidity distribution of the FFC's for
+
+18
+
+three different dynamical scenarios in Figure 5. Indeed, a plateau structure is evident in Fig. 5 as j goes down from 6 to 4 in the DCC power spectrum. The power level of that plateau is lower than those in the annealing equilibrium evolution scenario and the random noise sample which indicates a smoother distribution within a DCC domain. The power starts to build up as j goes down below 4 and rises rather quickly, departing distinctively from the annealing and the random noise cases. The crossing point in Fig. 5 is found to be at jd = 3:6 which unambiguously suggests the existence of the DCC clustering with a typical size of \Delta jd = 2jmax=2jd ' 0:8 units in rapidity.
+
+1.0 2.0 3.0 4.0 5.0 6.0
+
+Scale Step j
+
+-0.05
+
+0.05 0.15 0.25 0.35
+
+Power of FFCs P
+
+j
+
+DCC Sample Equilibrium Evolution Random Sample HIJING
+
+FIG. 5. The power spectra of the FFC's for different dynamical scenarios. Also plotted is the power spectrum from HIJING Monte Carlo data which is also flat, consistent with the random noise case.
+
+19
+
+The existence of a plateau structure in the wavelet power spectrum is important in that one may attempt to define an effective "temperature" inside a domain structure where the fluctuations are relatively "stable" against the scale change. The power spectrum can be thought of describing the scale dependence of the "temperature". The annealing scenario (following an equilibrium evolution) or the noise sample features a uniformly flat spectrum and thus possesses a universal (global) temperature; while the rapid rise of the spectrum in the DCC case reflects the highly nonequilibrium nature of the fluctuations and the sensitivity of the temperature on the scale change.
+
+V. CONCLUSIONS We have shown that the discrete wavelet transformation method can be an efficient and reliable tool for identifying and measuring the clustering structures characteristic to the formation of the disoriented chiral condensate in high energy hadronic and heavy-ion collisions. The DWT provides a vehicle for discovering physics at different scales that would otherwise be hard to detect, and opens a window to study the scale-dependence of various features of clustering in the DCC. We have demonstrated that a DCC with a typical cluster size of 1 unit in rapidity can be unambiguously identified using both the mother and the father function representations. The DWT method can be very effective in detecting the nature of the fluctuations at different scales as to whether they follow an equilibrium or a nonequilibrium distribution. Furthermore, one can use the DWT to analyze the real spacetime structure of the classical field evolution. This will be studied further in a separate publication.
+
+20
+
+ACKNOWLEDGMENTS We are in debt to Peter Carruthers, Li-Zhi Fang and Jesus Pando for their introduction of the wavelet concept to us and many discussions on the technical details. Z.H and X.-N.W thank M. Asakawa for useful discussions. This work was supported in part through the U.S. Department of Energy under Contracts Nos. DE-AC03-76SF00098, DE-FG03-93ER40792 and DE-FG02-85ER40213.
+
+21
+
+REFERENCES [1] A. A. Anselm and M. G. Ryskin, Phys. Lett. B 266, 482 (1991); J. -P. Blaizot and
+
+A. Krzywcki, Phys. Rev. D 46, 246 (1992); J. D. Bjorken, K. L. Kowalski, and C. C. Taylor, SLAC preprint SLAC-PUB-6109.
+
+[2] J. D. Bjorken, K. L. Kowalski, and C. C. Taylor, SLAC preprint SLAC-PUB-6109. [3] K. Rajagopal and F. Wilczek, Nucl. Phys. B404, 577 (1993). [4] S. Gavin, A. Gocksch, and R. D. Pisarski, Phys. Rev. Lett. 72, 2143 (1994);M. Asakawa,
+
+Z. Huang, and X.-N. Wang, Phys. Rev. Lett. 74, 3126 (1995);F. Cooper, Y. Kluger, E. Mottola, and J. P. Paz, Phys. Rev.D51, 2377 (1995).
+
+[5] Z. Huang and X.-N. Wang, Phys. Rev. D 49, R4339 (1994). [6] S. Gavin and B. M"uller, Phys. Lett. B329, 486 (1994). [7] K. Rajagopal and F. Wilczek, Nucl. Phys. B399, 395 (1993). [8] J. Bjorken, Phys. Rev. D27, 140 (1983). [9] X.-N. Wang, Phys. Rev. D43, 104 (1991); X.-N. Wang and M. Gyulassy, Phys. Rev.
+
+D44, 3501 (1991).
+
+[10] see, e.g. R.J. Adler, in The Geometry of Random Field, Wiley, New York (1981). [11] M. Farge, Ann. Rev. Fluid. Mech. 24, 395 (1992). [12] J. Pando and L.Z. Fang,  Astrophys. J., (1996) in Press; ; and private conversations.
+
+[13] M. Greiner, P. Lipa and P. Carruthers, Phys. Rev. E51, 1948 (1995); M. Greiner, J.
+
+Giesemann, P. Lipa and P. Carruthers, University of Arizona Preprint, AZPH-TH/95- 03,  (1995).
+
+[14] Y. Meyer, in Wavelets: algorithms and applications, Society for Industrial and Applied
+
+22
+
+Mathematics (SIAM), Philadelphia (1993). [15] G. Kaiser, in A Friendly Guide to Wavelets, Birkh"auser, Boston (1994). [16] I. Daubechies, in Ten Lectures on Wavelets, Society for Industrial and Applied Mathematics (SIAM), Philadelphia (1992).
+
+[17] W.H. Press, S.A. Teukolsky, W.T. Vetterling and B.P. Flannery, in Numerical Recipes,
+
+2nd Edition, (Cambridge University Press, 1992).
+
+23
+

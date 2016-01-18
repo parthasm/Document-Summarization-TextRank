@@ -1,0 +1,276 @@
+
+
+ 8 Aug 1995
+
+STANDARD MODEL PARAMETERS FROM QUARKONIA
+
+USING LATTICE QCD
+
+AIDA X. EL-KHADRA
+
+\Lambda
+
+Physics Department, Ohio State University, 174 W 18th Ave
+
+Columbus, OH 43210 E-mail: aida@pacific.mps.ohio-state.edu
+
+Quarkonia - mesons made of a heavy quark and anti-quark - have been extensively studied experimentally. Theoretical calculations of quarkonia based on lattice QCD are possible with control over the systematic errors. The comparison with experimental measurements of the quarkonia spectra leads to determinations of Standard Model parameters: the strong coupling, ffs, and the heavy quark masses.
+
+1. Introduction and Motivation
+
+By now, we have accumulated a large body of circumstantial evidence that QCD is the correct theory of the strong interactions. What is sorely missing is a first-principles understanding of the non-perturbative effects QCD gives rise to, the most dramatic of them being the observed hadron spectrum. On the practical side, this lack of understanding limits the extraction of Standard Model parameters from experimental measurements. Lattice field theory offers a systematic first principles approach to solving QCD.
+
+Quarkonia are at present the best understood hadronic systems. Both the charm and bottom quark masses are large compared to the typical QCD scale, \Lambda QCD. The b_b and c_c bound states are therefore governed by non-relativistic dynamics. While the QCD potential was not known from first principles, relatively simple guesses for phenomenological potentials have proven quite successful in describing the experimentally measured bound state spectra of quarkonia1. As has been argued by Lepage2, quarkonia are also the easiest systems to study with lattice QCD, with the potential of leading to a complete first-principles understanding of this simple system.
+
+Finite-volume errors are much easier to control for quarkonia than for light hadrons. Lattice-spacing errors, on the other hand, can be larger for quarkonia and need to be considered. An alternative to reducing the lattice spacing in order to control this systematic error is improving the action (and operators). For quarkonia, the size of lattice-spacing errors in a numerical simulation can be anticipated by calculating expectation values of the corresponding operators using potential model wave functions. They are therefore ideal systems to test and establish improvement techniques.
+
+Most of the work of phenomenological relevance is done in what is generally re\Lambda adress after Sept. 1 1995: Physics Department, University of Illinois, 1110 W. Green St., Urbana,
+
+IL 61801
+
+ferred to as the "quenched" (and sometimes as the "valence") approximation. In this approximation gluons are not allowed to split into quark - anti-quark pairs (sea quarks). In the case of quarkonia, potential model phenomenology can be used to estimate this systematic error.
+
+Control over systematic errors in turn allows the extraction of Standard Model parameters from the quarkonia spectra.
+
+The rest of this talk proceeds as follows: Section 2 gives a brief introduction to lattice QCD methods without going into technical details, since a number of pedagogical introductions and reviews already exist in the literature3. The following sections 3-5 discuss quarkonium results and determinations of Standard Model parameters. Section 6 finally concludes with some remarks about future prospects.
+
+2. An Introduction to Lattice QCD
+
+Starting with the Feynman path integral formulation in Euclidean space, the discretization of space-time (with lattice spacing a) regulates the integral at short distances or in the ultraviolet. A finite volume (of length L) is necessary for numerical techniques and also introduces an infrared cut-off or momentum-space discretization. The vacuum expectation of a Greens function, G, which is a product of gauge and fermion fields, is defined as:
+
+hGi = limL
+
+!1 lima!0 hGiL;a ; hGiL;a = Z
+
+\Gamma 1L;a Z DD _DU G e\Gamma S : (1)
+
+ZL;a normalizes the expectation value. I have omitted spin and color indices for compactness. The gauge degrees of freedom are written as (path ordered) exponentials of the gauge field, A_:
+
+U_(x) = ei R
+
+x+a x dx
+
+0A_(x0) ' eiaA
+
+_(x) ; (2)
+
+which makes it easy to maintain gauge invariance. The link fields, U , are SU (3) matrices. The (Euclidean) QCD action,
+
+S = Sg + Sf ; Sg = 14g2 Z d4x F_*F _* ; Sf = Z d4x _(x)(D= + m)(x) : (3) is discretized, such that Eq. (3) is recovered in the the continuum (a ! 0) limit:
+
+Slat = S + O(an) ; n * 1 : (4) I will not go into the explicit formulations of Slat here, but instead refer the reader to pedagogical introductions 3. The most common form for the gauge action is Wilson's4, written in terms of plaquettes - products of U fields around the smallest closed loop on a lattice. Wilson's gauge action has discretization errors of O(a2).
+
+For fermions the situation is more complicated. The discretization of
+
+M j D= + m ; (5) is a sparse, finite dimensional matrix. Two different approaches are in use. In Wilson's formulation5 chiral symmetry is explicitly broken, but restored in the continuum limit. The pay-off is a solution of the so-called fermion doubling problem. Staggered fermions6 keep a U (1) chiral symmetry at the expense of dealing with 4 degenerate flavors of fermions.
+
+Eq. (1) emphasizes that QCD is a limit of lattice QCD. However, in numerical calculations these limits cannot be taken explicitly, only by extrapolation. This is feasible, because theoretical guidance for both limits is available. The zero-latticespacing limit is guided by asymptotic freedom, since the lattice spacing is related to the gauge coupling by the renormalization group. Quantum field theories in large but finite volumes have also been analyzed theoretically7.
+
+In a numerical calculation the limits are taken by considering a series of lattices, as illustrated in Figure 1. While keeping the physical volume (or L) fixed, the lattice spacing is successively reduced; then, keeping the lattice spacing fixed the volume is increased. The calculation is in the continuum (infinite volume) limit once the hadron spectrum or matrix elements of interest become independent of the lattice spacing (volume).
+
+oe 0
+
+a
+
+6
+
+V ! 1
+
+6
+
+-
+
+L (fm)
+
+a (fm) Figure 1: Illustration of the continuum and infinite-volume limits.
+
+In practice, however, limitations in computational resources do not permit the ideal lattice QCD calculation just described. In particular, the computational cost
+
+of reducing the lattice spacing naively scales like (L=a)4. (The computational cost is really higher, because of numerical problems at smaller lattice spacings.) Eq. (4) illustrates an alternative. By improving the discretization errors in the lattice action (and operators), the continuum limit can be reached at coarser lattice spacings than before. Simulations with improved actions can come at only a slightly higher computational price. The ideas underlying improvement were developed some time ago8;9;10, and have since been revitalized11;12;13;14.
+
+If the quark mass is large compared to the typical QCD scale, \Lambda QCD, effective theories are most adequate in describing the physics15. In that case, the lattice spacing cannot be taken to zero. Lattice-spacing errors can, however, be systematically reduced by improvement16.
+
+The problem is now (more or less) set up. I refer the reader again to the literature3 for more details on the organization of typical lattice QCD calculations. I conclude this introduction with a few remarks on perturbation theory in the following subsection.
+
+2.1. Perturbation Theory
+
+Lattice QCD calculations use perturbation theory in several places: ffl It guides the approach to the continuum limit. ffl Short-distance quantities can be calculated non-perturbatively and compared
+
+to their perturbative expansions. It was recently shown17 that, indeed, 1-loop perturbation theory describes most quantities considered to 3 \Gamma 5%, if a renormalized coupling like ffMS (rather than the bare lattice coupling) is used.
+
+ffl Matrix elements calculated with a lattice regulator have to be matched to their
+
+continuum counterpart by perturbation theory.
+
+ffl Because quarks are confined inside hadrons, quark masses are always scheme dependent. Perturbation theory is used to convert non-perturbatively determined lattice quark masses to the perturbative continuum masses such as the pole or MS masses. Similarly, the gauge coupling can be determined non-perturbatively using lattice QCD and converted to the MS scheme at large momenta.
+
+The lattice regulator breaks Lorentz (or Euclidean) invariance, which complicates perturbative calculations relative to those performed with Lorentz (or Euclidean) invariant regulators, such as dimensional regularization. This has prompted the development of computational techniques for higher loop perturbative calculations18. (Numerical) techniques for non-perturbative calculations of renormalization constants have also been developed 19;20;21. Such techniques are very promising, because every time a new action or new operators are considered, not only must the programs be changed but also the perturbation theory has to be redone.
+
+3. Quarkonium Spectroscopy
+
+Two different formulations for fermions have been used in calculations of these spectra. In the non-relativistic limit the QCD action can be written as an expansion in powers of v2 (or 1=m), where v is the velocity of the heavy quark inside the boundstate15; I shall henceforth refer to this approach as NRQCD. Lepage and collaborators16 have adapted this formalism to the lattice regulator. Several groups have performed numerical calculations of quarkonia in this approach. In Refs. [22,23] the NRQCD action is used to calculate the b_b and c_c spectra, including terms up to O(mv4) and O(a2). In addition to calculations in the quenched approximation, this group is also using gauge configurations that include 2 flavors of sea quarks with mass mq , 12 ms to calculate the b_b spectrum24;25. The leading order NRQCD action is used in Ref. [26] for a calculation of the b_b spectrum in the quenched approximation.
+
+The Fermilab group12 developed a generalization of previous approaches, which encompasses the non-relativistic limit for heavy quarks as well as Wilson's relativistic action for light quarks. Lattice-Spacing artifacts are analyzed for quarks with arbitrary mass. Ref. [27] uses this approach to calculate the b_b and c_c spectra in the quenched approximation. We considered the effect of reducing lattice-spacing errors from O(a) to O(a2).
+
+All but one group use gauge configurations generated with the Wilson action leaving O(a2) lattice-spacing errors in the results. The lattice spacings, in this case, are in the range a ' 0:05 \Gamma 0:2 fm. Ref. [14] uses an improved gauge action together with a non-relativistic quark action improved to the same order (but without spindependent terms) on coarse (a ' 0:4 \Gamma 0:24 fm) lattices. The results for the b_b and c_c spectra from all groups are summarized in Figures 2 and 3.
+
+The agreement between the experimentally-observed spectrum and lattice QCD calculations is impressive. As indicated in the preceding paragraphs, the lattice artifacts are different for all groups. Figures 2 and 3 therefore emphasize the level of control over systematic errors.
+
+The first results with 2 flavors of degenerate sea quarks have appeared25;28;29 with lattice-spacing and finite-volume errors similar to the quenched calculations, significantly reducing this systematic error. However, several systematic effects associated with the inclusion of sea quarks still have to be studied. They include the dependence on the quarkonium spectrum of the number of flavors of sea quarks and the sea-quark action (staggered vs. Wilson). The inclusion of sea quarks with realistic light-quark masses is very difficult. However, quarkonia are expected to depend only very mildly on the masses of the light quarks. This systematic error has not been included yet and should be checked numerically.
+
+The comparison of the experimentally measured quarkonia spectra with the theo Figure 2: A comparison of lattice QCD results for the b_b spectrum (statistical errors only). -: Experiment; 2: FNAL [27]; ffi: NRQCD (nf = 0) [22]; ffl: NRQCD (nf = 2) [24]; 3: UK(NR)QCD [26].
+
+retical calculations can be used to extract the associated Standard Model parameters: the strong coupling, ffs, and the heavy quark masses. This is discussed in the following two sections.
+
+4. The Strong Coupling from Quarkonia
+
+At present, the QCD coupling, ffs, is determined from many different experiments, performed at energies ranging from a few to 91 GeV30. In most cases perturbation theory is used to extract ffs from the experimental information. Experimental and theoretical progress over the last few years has made these determinations increasingly precise. However, all determinations, including those based on lattice QCD, rely on phenomenologically-estimated corrections and uncertainties from non-perturbative effects. These effects will eventually (or already do) limit the accuracy of the coupling constant determination. When lattice QCD is used the limiting uncertainty comes from the (total or partial) omission of sea quarks in numerical simulations. The determination of the strong coupling, ffs, proceeds in three steps, outlined in the next three subsections.
+
+4.1. Determination of the Lattice Spacing
+
+The experimental input to the strong coupling determination is a mass or mass splitting, from which by comparison with the corresponding lattice quantity the lattice
+
+Figure 3: A comparison of lattice QCD results for the c_c spectrum (statistical errors only). -: Experiment; 2: FNAL [27]; ffi: NRQCD (nf = 0) [23]; 3: ADHLM [14].
+
+spacing, a, is determined in physical units. For this purpose, one should identify quantities that are insensitive to lattice errors. In quarkonia, spin-averaged splittings are good candidates. The experimentally observed 1P-1S and 2S-1S splittings depend only mildly on the quark mass (for masses between mb and mc). Figure 4 shows the observed mass dependence of the 1P-1S splitting in a lattice QCD calculation. The comparison between results from different lattice actions illustrates that higher-order lattice-spacing errors for these splittings are small25;27. Figure 5 shows, in contrast, the strong dependence of the hyperfine splitting on the mass and the lattice action.
+
+Figure 4: The 1P-1S splitting as a function of the 1S mass (statistical errors only) from Ref. [27]; 2: O(a2) errors; \Theta : O(a) errors.
+
+Figure 5: The hyperfine splitting as a function of the 1S mass (statistical errors only) from Ref. [27]; 2: O(a2) errors; \Theta : O(a) errors.
+
+4.2. Definition of a Renormalized Coupling
+
+Within the framework of lattice QCD the conversion from the bare to a renormalized coupling can, in principle, be made non-perturbatively. In the definition of a renormalized coupling, systematic uncertainties should be controllable, and at short distances, its (perturbative) relation to other conventional definitions calculable. For example, a renormalized coupling can be defined from the non-perturbatively computed heavy-quark potential31 (ffV ). In Ref. [32] a renormalized coupling is defined non-perturbatively through the Schr"odinger functional. The authors compute the evolution of the coupling non-perturbatively using a finite size scaling technique, which allows them to vary the momentum scales by an order of magnitude. The strong coupling can also be computed from the three-gluon vertex, suitably defined on the lattice33.
+
+An alternative is to define a renormalized coupling through short distance lattice quantities, like small Wilson loops or Creutz ratios. For example, the coupling defined from the plaquette, ffP = \Gamma 3 ln hTr UP i=4ss, can be expressed in terms of ffV (or ffMS) by17:
+
+ffP = ffV (q)[1 \Gamma 1:19ffV (q) + O(ff2V )] (6)
+
+at q = 3:41=a, close to the ultraviolet cut-off. ffV is related to the more commonly
+
+used MS coupling by
+
+ffMS(Q) = ffV (e5=6Q)(1 + 2ss ffV + : : :) : (7) The size of higher-order corrections associated with the above defined coupling constants can be tested by comparing perturbative predictions for short-distance lattice quantities with non-perturbative results17. This is consistent with the comparison of the non-perturbative coupling from Ref. [32] to perturbative predictions for this coupling using Eq. (6).
+
+In Ref. [25] the next-to-next-to-leading order corrections to Eq. (6) have been calculated numerically from the observed deviations (from 1-loop perturbation theory) in small Wilson loops and Creutz ratios (up to size 3) at several very small lattice spacings. The dominant perturbative error then comes from the conversion to the MS coupling, which is only known to 1-loop.
+
+The relation of the plaquette coupling in Eq. (6) to the MS coupling has recently been calculated to 2-loops34 in the quenched approximation (no sea quarks, nf = 0). The extension to nf 6= 0 will significantly reduce the uncertainty due to the use of perturbation theory.
+
+4.3. Sea Quark Effects
+
+Calculations that properly include all sea-quark effects do not yet exist. If we want to make contact with the "real world", these effects have to be estimated phenomenologically or extrapolated away.
+
+The phenomenological correction necessary to account for the sea-quark effects omitted in calculations of quarkonia that use the quenched approximation gives rise to the dominant systematic error in this calculation35;36. Similar ideas were used to correct for sea-quark effects in early calculations of quarkonia spectra from the heavy-quark potential calculated in quenched lattice QCD37.
+
+By demanding that, say, the spin-averaged 1P-1S splitting calculated on the lattice reproduce the experimentally observed one (which sets the lattice spacing, a
+
+\Gamma 1, in
+
+physical units), the effective coupling of the quenched potential is in effect matched to the coupling of the effective 3 flavor potential at the typical momentum scale of the quarkonium states in question. The difference in the evolution of the zero flavor and 3,4 flavor couplings from the effective low-energy scale to the ultraviolet cut-off, where ffs is determined, is the perturbative estimate of the correction.
+
+For comparison with other determinations of ffs, the MS coupling can be evolved to the Z mass scale. An average30 of Refs. [35,36] yields for ffs from calculations in the quenched approximation:
+
+ff(5)MS(mZ) = 0:110 \Sigma 0:006 : (8)
+
+The phenomenological correction described in the previous paragraph has been tested from first principles in Ref. [28]. The 2-loop evolution of nf = 0 and nf = 2 MS couplings - extracted from calculations of the c_c spectrum using the Wilson action in the quenched approximation and with 2 flavors of sea quarks respectively - to the low-energy scale gives consistent results. After correcting the 2 flavor result to nf = 3 in the same manner as before and evolving ffMS to the Z mass, Ref. [28] finds
+
+ff(5)MS(mZ) = 0:111 \Sigma 0:005 (9) in good agreement with the previous result in Eq. (8). The total error is now dominated by the rather large statistical errors and the perturbative uncertainty.
+
+Ref. [25] used results for ffs from the b_b spectrum with 0 and 2 flavors of sea quarks to extrapolate the inverse coupling to the physical 3 flavor case directly at the ultraviolet momentum, q = 3:41=a. They obtain a result consistent with the old procedure, but with smaller errors:
+
+ff(3)V (8:2 GeV) = 0:196 \Sigma 0:003 : (10) The error is dominated by the (small) statistical errors, not the extrapolation (in nf ) errors. The conversion to MS and evolution to the Z mass then gives:
+
+ff(5)MS(mZ) = 0:115 \Sigma 0:002 ; (11) with an error now dominated by the unknown higher orders in eq. (7). A similar analysis is performed in Ref. [29] on the same gauge configurations but using the Wilson action for a calculation of the c_c spectrum. The result for the coupling is consistent with Refs. [25,28].
+
+The claimed result in Eq. (10) (or Eq. (11)) is the most accurate determination of the strong coupling constant to date. In order to confirm this result, it is desirable that the b_b and c_c spectra be calculated with heavy-quark actions based on Ref. [12] with the same level of statistical precision, and care with respect to systematic errors, as was done in Ref. [25]. Apart from this, the systematic errors associated with the inclusion of sea quarks into the simulation have to be checked, as outlined in section 3.
+
+Phenomenological corrections are a necessary evil that enter most coupling constant determinations. In contrast, lattice QCD calculations with complete control over systematic errors will yield truly first-principles determinations of ffs from the experimentally observed hadron spectrum.
+
+At present, determinations of ffs from the experimentally measured quarkonia spectra using lattice QCD are comparable in reliability and accuracy to other determinations based on perturbative QCD from high energy experiments. They are therefore part of the 1994 world average for ffs30. The phenomenological corrections for the most important sources of systematic errors in lattice QCD calculations of quarkonia are now being replaced by first principles, which will significantly increase the accuracy of ffs determinations from quarkonia.
+
+In a few years time, the world average for the strong coupling will be dominated by determinations of ffs using lattice QCD.
+
+5. The Heavy Quark Masses
+
+Because of confinement, the quark masses cannot be measured directly, but have to be inferred from experimental measurements of hadron masses, and depend on the calculational scheme employed.
+
+In lattice QCD quark masses are determined non-perturbatively, by tuning the bare lattice quark mass (mlatQ ) so that, for example, the experimentally observed J= (or \Upsilon ) mass is reproduced by the calculation. Phenomenologically useful quark masses are the perturbatively defined pole and MS masses, which the bare lattice mass can be related to by (1-loop) perturbation theory:
+
+mpoleQ = Zpolem mlatQ ; mMSQ (mQ) = ZMSm mlatQ : (12) The heavy-quark pole mass can be determined alternatively from a calculation of the binding energy, Ebind. The ground-state energy need not equal the mass of a non-relativistic system. The binding energy can be obtained by subtracting the perturbatively calculable heavy-quark rest energy from the ground-state energy. The pole mass is then:
+
+mpoleQ = 12 (M expQ _Q \Gamma Ebind) (13)
+
+This method is insensitive to errors in tuning the bare mass, because the binding energy depends only mildly on the quark mass.
+
+Of course, as always, all systematic errors arising from the lattice QCD calculation need to be under control for a phenomenologically interesting result; in particular, the systematic error introduced by the (partial) omission of sea quarks has to be removed. The short-distance corrections that introduced the dominant uncertainty to the ffs determination from quarkonia are absent for the pole mass determination, because this effective mass does not run for momenta below its mass.
+
+Ref. [24] used both methods described above for a determination of the b quark pole mass from a lattice QCD calculation of the b_b spectrum. As expected, a comparison of their results with zero and 2 flavors of sea quarks finds compatible results for the pole mass:
+
+mpoleb = (5:0 \Sigma 0:2) GeV (14)
+
+For the MS mass, Ref. [24] quotes mMSb (mb) = 4:0(1) GeV. The error in both results is dominated by perturbation theory.
+
+A similar analysis is being performed in Ref. [38] for the charm and bottom quark masses from the charmonium and bottomonium spectrum. A preliminary result is mpolec = 1:5(2) GeV.
+
+The MS mass for the charm quark has also been determined from a compilation of D meson calculations in the quenched approximation39, with mMSc (2 GeV) = 1:47(28) GeV. The error includes statistical errors from the original calculations and the perturbative error. However sea-quark effects cannot, in this case, be estimated phenomenologically, leaving this systematic error uncontrolled.
+
+6. Conclusions
+
+Quarkonia were, upon their discovery, called the hydrogen atoms of particle physics. Their non-relativistic nature justified the use of potential models, which gave a nice, phenomenological understanding of these systems. This phenomenology is at present useful to control systematic errors in lattice QCD calculations of b_b and c_c spectra. However, we are quickly moving towards truly first-principles calculations of quarkonia using lattice QCD, thereby testing QCD non-perturbatively. In this sense, quarkonia are still the hydrogen atoms of particle physics. Precise determinations of the Standard Model parameters ffs, mb, mc, are by-products of this work.
+
+Still lacking for a first-principles result is the proper inclusion of sea quarks. The most difficult problem in this context is the inclusion of sea quarks with physical light quark masses. At present, this can only be achieved by extrapolation (from mq ' 0:3 \Gamma 0:5ms to mu;d). If the light quark mass dependence of the quarkonia spectra is mild, as anticipated, the associated systematic error can be controlled. First-principles calculations of quarkonia could then be performed with currently available computational resources.
+
+7. Acknowledgements
+
+I thank the organizers for an enjoyable conference and E. Eichten, A. Kronfeld, P. Lepage, P. Mackenzie, and J. Shigemitsu for discussions while preparing this talk.
+
+8. References
+
+1. W. Kwong, J. Rosner and C. Quigg, Annu. Rev. Nucl. Part. Sci. 37 (1987)
+
+325. 2. P. Lepage, Nucl. Phys. B (Proc. Suppl.) 26 (1992) 45; B. Thacker and P.
+
+Lepage, Phys. Rev. D43 (1991) 196; P. Lepage and B. Thacker, Nucl. Phys. B (Proc. Suppl.) 4 (1988) 199. 3. For pedagogical introductions to Lattice Field Theory, see, for example: M.
+
+Creutz, Quarks, Gluons and Lattices (Cambridge University Press, New York 1985); A. Hasenfratz and P. Hasenfratz, Annu. Rev. Nucl. Part. Sci. 35 (1985) 559; A. Kronfeld, in Perspectives in the Standard Model, R. Ellis, C. Hill and J. Lykken (eds.) (World Scientific, Singapore 1992), p. 421; see also
+
+A. Kronfeld and P. Mackenzie, Annu. Rev. Nucl. Part. Sci. 43 (1993) 793; A. El-Khadra, in Physics in Collision 14, S. Keller and H. Wahl (eds.) (Editions Frontieres, Cedex - France 1995), p. 209; for introductory reviews of lattice QCD. 4. K. Wilson, Phys. Rev. D10 (1974) 2445. 5. K. Wilson, in New Phenomena in Subnuclear Physics, A. Zichichi (ed.)
+
+(Plenum, New York 1977). 6. L. Susskind, Phys. Rev. D16 (1977) 3031; T. Banks, J. Kogut and L. Susskind,
+
+Phys. Rev. D13 (1976) 1043. 7. M. L"uscher, Comm. Math. Phys. 104 (1986) 177; Comm. Math. Phys. 105
+
+(1986) 153. 8. See for example, T. Bell and K. Wilson, Phys. Rev. B11 (1975) 3431; K.
+
+Symanzik, Nucl. Phys. B226 (1983) 187; ibid. 205. 9. P. Weisz, Nucl. Phys. B212 (1983) 1; M. L"uscher and P. Weisz, Nucl. Phys.
+
+B212 (1984) 349; Comm. Math. Phys. 97 (1985) 59; (E) 98 (1985) 433. 10. B. Sheikholeslami and R. Wohlert, Nucl. Phys. B259 (1985) 572. 11. C. Heatlie, et al., Nucl. Phys. B352 (1991) 266. 12. A. El-Khadra, A. Kronfeld and P. Mackenzie, Fermilab PUB-93/195-T. 13. P. Hasenfratz, Nucl. Phys. B (Proc. Suppl.) 34 (1994) 3; P. Hasenfratz and
+
+F. Niedermayer, Nucl. Phys. B414 (1994) 785; U. Wiese, Phys. Lett. B315 (1993) 417; W. Bietenholz and U. Wiese, Nucl. Phys. B (Proc. Suppl.) 34 (1994) 516. 14. P. Lepage, in The Building Blocks of Creation, S. Raby and T. Walker (eds)
+
+(World Scientic, Singapore 1994), ; M. Alford, et al., Nucl. Phys. B (Proc. Suppl.) 42 (1995) 787; . 15. E. Eichten and F. Feinberg, Phys. Rev. D23 (1981) 2724; W. Caswell and
+
+P. Lepage, Phys. Lett. B167 (1986) 437. 16. P. Lepage and B. Thacker, Phys. Rev. D43 (1991) 196; P. Lepage, et al.,
+
+Phys. Rev. D46 (1992) 4052. 17. P. Lepage and P. Mackenzie, Phys. Rev. D48 (1992) 2250. 18. B. All'es, et al., Phys. Lett. B324 (1994) 433; Nucl. Phys. B413 (1994) 553;
+
+Nucl. Phys. B (Proc. Suppl.) 34 (1994) 501. 19. B. All'es, et al., Nucl. Phys. B (Proc. Suppl.) 34 (1994) 504; Phys. Rev.
+
+D48 (1993) 2284; M. Teper, Phys. Lett. B232 (1989) 227. 20. G. Martinelli, et al., Nucl. Phys. B (Proc. Suppl.) 34 (1994) 507; CERNTH.7342/94,  Nucl. Phys. B (Proc. Suppl.) 42 (1995) 428. 21. W. Dimm, P. Mackenzie, P. Lepage, Nucl. Phys. B (Proc. Suppl.) 42 (1995)
+
+403; W. Dimm, Ph.D. Thesis, Cornell University, 1995. 22. C. Davies, et al., Phys. Rev. D50 (1994) 6963. 23. C. Davies, et al., . 24. C. Davies, et al., Phys. Rev. Lett. 73 (1994) 2654.
+
+25. C. Davies, et al., Phys. Lett. B345 (1995) 42. 26. S. Catterall, et al., Phys. Lett. B300 (1993) 393; Phys. Lett. B321 (1994)
+
+246. 27. A. El-Khadra, G. Hockney, A. Kronfeld, P. Mackenzie, T. Onogi and J. Simone, Fermilab PUB-94/091-T. 28. S. Aoki, et al., Phys. Rev. Lett. 74 (1995) 22. 29. M. Wingate, et al., . 30. For reviews on the status of ffs determinations, see, for example: B. Webber,
+
+ICHEP'94; I. Hinchliffe, DPF'94 and Phys. Rev. D50 (1994) 1173, p.1297. 31. For a review of ffs from the heavy-quark potential, see K. Schilling and G.
+
+Bali, Nucl. Phys. B (Proc. Suppl.) 34 (1994) 147. 32. M. L"uscher, R. Sommer, P. Weisz, and U. Wolff, Nucl. Phys. B413 (1994)
+
+481; G. de Divitiis, et al., Nucl. Phys. B433 (1995) 390; Nucl. Phys. B437 (1995) 447. 33. C. Bernard, C. Parrinello and A. Soni, Phys. Rev. D49 (1994) 1585. 34. M. L"uscher and P. Weisz, Phys. Lett. B349 (1995) 165; . 35. A. El-Khadra, G. Hockney, A. Kronfeld and P. Mackenzie, Phys. Rev. Lett.
+
+69 (1992) 729; A. El-Khadra, Nucl. Phys. B (Proc. Suppl.) 34 (1994) 141 36. The NRQCD Collaboration, Nucl. Phys. B (Proc. Suppl.) 34 (1994) 417. 37. D. Barkai, K. Moriarty and C. Rebbi, Phys. Rev. D30 (1984) 2201; M.
+
+Campostrini, Phys. Lett. B147 (1984) 343. 38. A. El-Khadra and B. Mertens, Nucl. Phys. B (Proc. Suppl.) 42 (1995) 406. 39. C. Allton, et al., Nucl. Phys. B431 (1994) 667.
+

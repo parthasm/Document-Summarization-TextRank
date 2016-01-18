@@ -1,0 +1,520 @@
+
+
+ 2 JUN 95
+
+DESY 95-097 ISSN 0418-9833 May 1995
+
+Large Logarithm Behaviour of
+
+e+e
+
+\Gamma Jet Cross Sections and
+
+Event Shape Distributions in O(ff2s)
+
+G. Kramera, H. Spiesbergerb aII. Institut f"ur Theoretische Physik\Lambda ;y
+
+Universit"at Hamburg D - 22761 Hamburg, Germany
+
+bFakult"at f"ur Physiky
+
+Universit"at Bielefeld D - 33615 Bielefeld, Germany
+
+Abstract We have calculated the leading and next-to-leading logarithm coefficients of O(ff2s) e+e\Gamma annihilation jet cross sections, thrust distribution and energy-energy correlation in the two-jet limit when the jet resolution and the event shape variables vanish. We have compared our results with expectations based on leading logarithm approximations used to resum the pertubative cross sections where this is possible. There is good agreement for the leading and next-to-leading coefficients of jet cross sections in the Durham scheme. Also for the thrust distribution and energy-energy correlation we find results which are consistent with the leading logarithm predictions.
+
+\Lambda Supported by Bundesministerium f"ur Forschung und Technologie, Bonn, Germany, Contract 05 6HH93P(5). y Supported by the EEC Program 'Human Capital and Mobility' through Network 'Physics at High Energy
+
+Colliders' under Contract CHRX-CT93-0357 (DG12 COMA).
+
+1
+
+1 Introduction The four LEP experiments have given us very accurate data for multijet cross sections and event shape distributions in e+e
+
+\Gamma annihilation at the Z resonance. These data have been successfully
+
+compared to perturbative QCD and presently constitute one of the best ways to determine the QCD coupling constant ffs. Observables related to the structure of hadronic final states produced in e+e\Gamma annihilation, such as multijet rates, thrust, or energy-energy correlation have been calculated exactly up to second order in QCD perturbation theory [1, 2]. These calculations have been widely used by experimental groups at the PETRA, PEP, TRISTAN, SLC and LEP colliders for determining the strong coupling constant ffs [3, 4].
+
+The experimental accuracy of the data from these experiments, in particular those coming from LEP, is now very high so that the ffs determinations are limited mainly by the theoretical uncertainties connected with using second order (O(ff2s )) perturbation theory.
+
+Under normal circumstances we might expect that the third order term and beyond is ff3s times a number of order unity which would yield a few percent corrections of the leading ffs term at LEP energies. This expectation is only reasonable, however, when the jet resolution parameters or the event shape variables are far from the two-jet limit. It is well known that for a dimensionless jet resolution or event shape variable y vanishing in the two-jet limit, the leading behaviour of the distribution in the n'th order and in the limit y ! 0 is of the following form
+
+1 oe
+
+doe
+
+dy , ff
+
+n s 1y ln 1y !
+
+2n\Gamma 1
+
+(1)
+
+so that the jet rate or the normalized event shape cross section R(y) defined by
+
+R(y) = Z
+
+y
+
+0
+
+1 oe
+
+doe dy0 dy
+
+0 (2)
+
+has the behaviour (considering that at y = 0 real and virtual singularities are cancelled)
+
+R(y) = X
+
+n ff
+
+n s Rn(y); (3)
+
+Rn(y) ' L2n (4) where L = ln y. It is clear that for small y approaching the two-jet limit the perturbative result is not reliable anymore since ffsL2 is not small at high energies even when ffs is already small enough. For such a situation the perturbative series must be summed in order to obtain a more reliable estimate for the considered observable. A general summation is out of reach. However, for a selection of cluster and shape variables and for the logarithmically dominant terms in such cases where these leading logarithmic contributions exponentiate, this seems to be possible [5, 6, 7, 8, 9, 10, 11, 12]. These resummed expressions are valid only in leading and next-to-leading logarithmic accuracy, i.e. only in the limit y ! 0. Their use in the data analysis is doubtful, since y values below 0:002 can not be reached and as far as we know, this value is not small enough to allow neglecting subleading terms.
+
+In order to obtain reliable predictions also for larger values of y, one combines the resummed and fixed-order calculations. This can be done in several ways [8]. The most popular matching
+
+2
+
+schemes start with the requirement that the leading (LL) and next-to-leading logarithmic (NLL) terms in the resummed expressions if expanded in powers of ffs up to O(ff2s ) should agree with the LL and NLL terms of the fixed-order results. It is easy to calculate the O(ffs) LL and NLL coefficients and compare them to the O(ffs) coefficient in the resummed prediction. The O(ff2s ) coefficients, however, can be obtained only from extensive numerical evaluations. In some cases it has been checked explicitly that the LL and NLL coefficients up to O(ff2s ) in the resummed results agree with those obtained by fitting the asymptotic behaviour of the fixed order (up to O(ff2s )) cross sections. Such ascertainments are made for the multijet cross sections defined with the kT clustering algorithm [7], for the distribution of the jet broadening [10] and the heavy jet mass [9], for the thrust distribution [8] and for the back-to-back energy-energy correlation [12]. For those cases where the results of such computations are given explicitly in terms of actual numbers (for thrust, heavy jet mass, jet broadening and energy-energy correlation) one sees that these O(ff2s ) LL and NLL coefficients have appreciable errors (sometimes of the order of 100 % for the LL coefficient). Therefore these results show at best that the O(ff2s) LL and NLL coefficients are consistent within the large errors with the LL and NLL O(ff2s) terms in the resummed predictions. From these checks it is not excluded that even the leading logarithm coefficients in the complete O(ff2s ) calculations differ from the corresponding terms in the 'all-order results'. If this would be true the resummed cross sections and shape variable distributions would be much less useful and the results for ffs obtained with the 'all-order' formulas would be in doubt.
+
+In this work we make a new effort to calculate the LL and NLL coefficients of the complete O(ff2s ) theory for e+e
+
+\Gamma annihilation into 2, 3 and 4 jets. We base our calculations on the work
+
+of B. Lampe and one of us [1]. In this work multijet cross sections and the thrust distribution have been calculated by a combination of analytical and numerical methods using the so-called phase space slicing method. This differs from the so-called subtraction method used in the Monte Carlo integration program EVENT [2] based on the matrix elements [13]. Of course, we do not expect that these two methods lead to different answers. We hope that with our method we shall get numerical results with smaller errors for the LL and NLL coefficients. These coefficients will also be calculated for the multijet cross sections with invariant mass clustering which do not exponentiate but for which analytical predictions for the LL and NLL coefficients in O(ff2s ) have been derived [5] using leading logarithm approximation methods for the evaluation of the tree graph matrix elements.
+
+The plan of the paper is as follows. In sect. 2 we recapitulate the method used to calculate the various multijet cross sections and event shape distributions in the earlier work [1]. Then we explain how these methods can be applied for the phase space slicing method. In sect. 3 we present the results and discuss them in view of the expectations from the resummed calculations.
+
+2 Calculational Methods The calculation of the event shape distributions and the multijet cross sections proceeds on the basis of the approach described in detail in [1]. It starts from known O(ff2s ) matrix elements for e+e\Gamma ! 3 partons [13, 14] and e+e\Gamma ! 4 partons [15]. For obtaining finite results in which all infrared and collinear singularities have been cancelled one introduces a resolution cut to separate the 4-parton phase space into a genuine 4-parton final state region and a region containing states in which two of the partons are combined into one jet. For this recombination
+
+3
+
+we demand for two partons with labels i and j (the 4-momenta of the partons are denoted by pi, i = 1; 2; 3; 4)
+
+yij = (pi + pj )2=q2 ! y (5) where y is the value of the resolution cut and pq2 is the total center-of-mass energy. This invariant mass resolution is most convenient to perform analytical calculations. The integration over the degenerate states inside the 4-parton phase space is performed using a partial fractioning decomposition of the 4-parton matrix elements which allows a separation of the singular and non-singular contributions. Then the calculation of the 3-jet cross section consists of three parts: (i) The first part contains the singular parts of the 4-parton final state (real contribution) integrated over the infrared/collinear singular region inside the resolution cut together with the virtual corrections to the 3-parton final state. (ii) The second part contains the remaining non-singular contributions of the 4-parton final state integrated over the same regions as in (i). (iii) The third part contains all contributions outside the singular region of (i) where two partons are again combined into one jet.
+
+The 4-jet cross section in O(ff2s ) is obtained from the phase space region containing genuine 4-parton final states, i.e. where yij * y for all i, j.
+
+The calculation of the real contributions of (i) proceeds as follows. The cross section for e+e\Gamma ! q _qgg (the q _qq _q final state which is less singular is treated similarly) has the general form
+
+d5oe = ` ffs2ss '
+
+2 f (y
+
+ij)dP S(4): (6)
+
+The right-hand side of (6) contains pole terms proportional to y
+
+\Gamma 1
+
+ij (ij = 13; 14; 23; 24; 34)which are separated from each other by partial fractioning (see [1] for details). For example
+
+the contribution proportional to the colour factor C2F has the structure
+
+f (yij) = A13y
+
+13 + (1 $ 2) + (3 $ 4) + (1 $ 2; 3 $ 4) (7)
+
+where the label of momenta is 1; 2; 3; 4 = q; _q; g; g. The terms proportional to y
+
+\Gamma 113 and y\Gamma 114 ,
+
+respectively y
+
+\Gamma 123 and y\Gamma 124 , contain the singularities where the gluon is infrared and/or collinear
+
+with the quark, respectively the antiquark. They produce the dominant contributions to the O(ff2s ) cross section for e+e\Gamma ! 3 jets and must be integrated over the unresolved regions y13 ! y, y23 ! y etc., where qg, and _qg are recombined into one jet. This integration is performed only for one of the four terms in (7) which are related to each other by a permutation of the momentum labels. The four terms in (7) are separated into so-called singular and non-singular terms. The singular terms are regularized by dimensional regularization. The singularities after integration compensate against the singularities in the O(ff2s ) one-loop corrections to e+e
+
+\Gamma ! q _qg. The integration is done analytically to isolate the remaining finite
+
+terms. The result is the contribution (i) referred to above.
+
+The other two contributions (ii) and (iii) come exclusively from the real diagrams for e+e\Gamma ! q _qgg. The second part (ii) consists just of the non-singular terms in A13=y13 etc.
+
+4
+
+in (7) which are integrated over the unresolved region y13 ! y etc. They can be obtained by numerical integration in four dimensions and do not take part in the cancellation of the infrared/collinear singularities between real and virtual contributions. The third part (iii) is concerned with the resolved qg region y13 ? y (in the first term of (7)). In this region those qg, _qg, gg and q _q recombinations must be done which are not singular, i.e. one has to integrate over the regions y23 ! y; y14 ! y etc. which contain just three jets. For this integration the boundaries of the unresolved qg, _qg etc. regions are very complicated so that Monte Carlo integration methods must be applied.
+
+A complication arises when we want to define 3-jet variables for those contributions where two of the four final state partons have been recombined into one jet. There is no unique way to form 3-jet variables out of the 4-parton variables of the q _qgg final state. In [1] two schemes have been considered: (1) the so-called KL scheme where y134 (yijk = (pi + pj + pk)2=s) and y24 are defined as 3-jet variables in the case where parton 1 and parton 3 are recombined. According to the 4-parton kinematics the third variable is y123 \Gamma y13 (equivalently for the 1 $ 2; 3 $ 4 and 1 $ 2; 3 $ 4 permutations); (2) the so-called KL' scheme where the 3-jet variables are y134 and y123 together with y24 \Gamma y13 according to the 4-parton constraint. Of course these are not the only possibilities. This non-uniqueness of the 3-jet variables in O(ff2s) is unavoidable when one cancels the infrared/collinear divergences between the virtual and real contributions which is only possible when the O(ffs) cross section is factored out in the singular 4-parton contributions. The differences in the 3-jet variables disappear in the limit y13 ! 0 (equivalently for the other permutations). Thus, when the cut parameter y is chosen very small we expect that the difference between the two schemes KL and KL' disappears.
+
+By introducing the invariant mass cut in the partial fractioning decomposition we can use our approach in two ways: (a) By choosing the cut value y extremely small, the cut just serves the purpose to cancel the infrared/collinear divergences and any dependence on it drops out when we add the appropriate '3-jet' and '4-jet' contributions. Then we can calculate any distribution we are interested in. This works even in cases where for the chosen jet variable the infrared/collinear cancellation cannot be obtained through an analytic calculation. In addition, this approach has the advantage that contribution (ii), which is the most difficult to calculate, cannot contribute to the asymptotic logarithmic behaviour. In this case we will use y0 to denote the cut value (slicing parameter), whereas we will still use y for the jet resolution parameter (see Sec. 3 for details). (b) For finite y, i.e. identifying the jet resolution y with the slicing parameter y0, we can calculate the dependence of the multijet rates on y for the special case of invariant mass recombination as defined in the KL' scheme.
+
+When presenting our results we shall distinguish the following contributions for which we shall list the results separately in all the cases where this is possible and appropriate. First we consider the contribution of the singular region (i) which contains the virtual part and those parts of the 4-parton region needed to cancel the infrared/collinear divergences, i.e. just the singular parts. In some cases we separate terms which originate from the virtual corrections and which do not take part in the infrared/collinear cancellation. Second we consider the contribution from the non-singular 4-parton terms which correspond to the region (ii) above. Third we list the contributions from the region (iii) which comes from the region where the invariant in the pole term in (6) is above the y cut. This region includes also the genuine 4-jet contribution for all cases of shape variable distributions.
+
+5
+
+We write every normalized event shape cross section or multijet rate R(y) defined in (2) as an expansion in L in the following form
+
+R(y) = oe0oe "R0 + ffs2ss R1(y) + ` ffs2ss '
+
+2 R
+
+2(y)# (8)
+
+where
+
+Rn(y) =
+
+2nX
+
+m=0 R
+
+nm Lm + Dn(y): (9)
+
+The remainder functions Dn(y) vanish in the limit y ! 0. We are interested only in R2(y), since R1(y) is well known. The total cross section oe is known up to O(ff3s ) and has been factored out. Therefore the coefficient functions Rn are normalized with the zeroth order cross section oe0 instead of the full oe as in (2) which is usually employed. R2(y) is decomposed according to the different colour factors in the following form
+
+R2(y) = C2F RC2 (y) + CF NC RN2 (y) + CF Nf RT2 (y) (10) where Nf is the number of flavours, NC the number of colours and CF = (N 2C \Gamma 1)=2NC as usual.
+
+The formulas for the calculation of the contributions (i), (ii), and (iii) to the differential cross sections for q _qg and q _qgg final states have been implemented into a Monte Carlo integration program allowing us to calculate jet rates and event-shape distributions with almost arbitrary recombination prescriptions and phase-space limits. The implementation takes advantage of the partial fractioning of the cross section into terms exhibiting the leading singular behaviour in the form of factors 1=yij . The simple mapping yij ! ln yij renders the integrand into a flat function of the new integration variable, thus improving the reachable accuracy of the Monte Carlo integration considerably.
+
+Each contribution for each value of the jet resolution parameter y was determined in a separate Monte Carlo run, each time using between 105 and 107 points depending on the behaviour of the integrand. The resulting relative Monte Carlo error was typically of the order of 10\Gamma 3 or smaller. Since the final results for the jet rates are obtained from summing at least three contributions which come with different signs, the jet rates themselves, however, suffer from large cancellations so that their relative errors are only at the per cent level. This is one of the reasons why the coefficients of ln y for separate contributions could be obtained with smaller errors than for the complete jet rates.
+
+To obtain the y-dependence of jet rates, R2(y) has been calculated for y-values chosen below L = ln y = \Gamma 5 (i.e. y ' 7 \Delta 10\Gamma 3). This way large y-values where non-logarithmic contributions (e.g. terms of the type y lnn y) are probably important can be excluded and reasonable fits taking into account only powers of L can be expected. Data points have been chosen with equidistantly distributed L with \Delta L = 0:2. In our first set of results (case (a)) where a fixed value of the slicing parameter y0 = 10
+
+\Gamma 5 was chosen, the data points extended down to L = \Gamma 10;
+
+thus 26 data points are available for the fit in this case. The second set of results with y = y0 (case (b)) comprises data points down to L = \Gamma 14 (i.e. y ' 8 \Delta 10\Gamma 7), thus in this case we have 46 data points for the fit.
+
+6
+
+The Monte Carlo results for R2(y) have been fitted to the functional dependence (9) with Dn(y) = 0 using the program MINUIT [16]. The fitted values for the coefficients Rnm are accepted and displayed in the tables if MINUIT obtained a reasonably small O/2, O/2/d.o.f.'
+
+O(1). Also, the quality of the fit was tested by varying the range of L used in the fit and choosing subsets of the data points for R2(y). Usually a reasonable O/2 could be obtained when fitting the whole range of Monte Carlo data, i.e. for \Gamma 5 * L * \Gamma 10 for complete jet rates and\Gamma
+
+5 * L * \Gamma 14 for their separate contributions.
+
+For the CF NC contributions to the 3-jet rates in the JADE-E and E0 schemes, however, no acceptable fit could be obtained when including the smallest y values. The reason for this is a logarithmic, though integrable, divergence of the integrand for the contribution (ii), rendering the Monte Carlo integration unstable for very small y values. Thus the range of data points used for the fit had to be reduced to results with L ? \Gamma 9. A further reduction of the L range had not much influence on the fitted coefficients; however, due to the reduced number of data points, their errors are quite large.
+
+The event-shape distributions (thrust and energy-energy correlation) have been calculated in bins of the shape variable (Lo/ = ln o/ = ln(1 \Gamma T ) for thrust, Lj = ln(1=j) = ln(2=(1 + cos O/)) for the energy-energy correlation) again with equidistant bins of width \Delta L = 0:2. The range of values for jLj used in the fits was 5 ^ jLj ^ 14. In both cases, the slicing parameter y0 was chosen large, y0 = 0:1, in order to reduce the contribution from region (iii). This contribution comes from q _qgg events and for the calculation of the event shape variables one would have to use the 4-particle kinematics, whereas for contributions (i) and (ii) 3-particle kinematics determines the event-shape variables. By choosing a large value for y0, the contribution from region (iii) is vanishing in the asymptotic region of large (negative) values for the shape variables Lo/ and Lj. Thus this part cannot contribute to the coefficients of the asymptotic expansion (9) and has been neglected in the fits.
+
+As was the case for the CF NC contribution to the 3-jet rates, also the CF NC part of the thrust distribution suffers from numerical instabilities for large negative L. Here again, the range of L values that could be used for the fits had to be reduced to values jLj ! 9 for the contribution of region (ii).
+
+3 Results We start with the multijet rates calculated in different recombination prescriptions. We consider the JADE-E0, -E and the Durham-E0 scheme. First we introduce the slicing parameter y0. The slicing of the phase space is defined with the invariant mass
+
+m2kl = (pk + pl)2 = 2pkpl; (11)
+
+ykl = m2kl=q2: (12) For ykl ! y0 the 4-parton contributions are integrated analytically and combined with the virtual corrections. This is the contribution (i) described in sect. 2. For ykl ? y0 we obtain the contribution of the real diagrams for e+e\Gamma ! q _qgg. In the following we consider only RC2 and RN2 . RT2 which comes from e+e\Gamma ! q _qq _q and the corresponding virtual terms is less singular
+
+7
+
+and will be discussed at the end. We choose y0 = 10\Gamma 5 which is small enough, so that the contribution in region (ii), i.e. the non-singular parts make a negligible contribution. This has been checked explicitly. In the region ykl ? y0 the jet cross sections are calculated from the 4-parton final state q(p1)+ _q(p2)+g(p3)+g(p4) with the well-known JADE [17] algorithm which consists of the following iterative procedure ("jet algorithm"): 1) We define a resolution parameter y. 2) For every pair pk; pl of parton momenta in a 4-parton event we compute the "distance measure" M 2kl (which can, but need not, be identical to the invariant mass m2kl) and define ykl = M 2kl=q2 (q = p1 + p2 + p3 + p4). 3) If yij is the smallest value of all ykl computed in 2) and yij ! y we combine the partons with momenta pi and pj into a single jet with momentum pij according to a recombination procedure. 4) This procedure is repeated until all pairs of objects (i.e. partons and/or jets) have ykl ? y. The remaining objects are identified with jets. Events with 2, 3, or 4 jets contribute to the 2-, 3-, or 4-jet cross sections, respectively. For the recombination we consider only the E0 and E schemes. In the E0 scheme, M 2kl = 2 Ek El (1 \Gamma cos `kl) is the invariant mass squared for massless partons. The recombined 4-momentum pij = (Eij ; ~pij) is defined by
+
+Eij = Ei + Ej; ~pij = Eijj~p
+
+i + ~pj j (~p
+
+i + ~pj): (13)
+
+This definition of ~pij has the effect that the combined jet is again massless so that in the recombination of ~pij with another parton the E0 scheme definition of M 2kl can be applied consistently. In the so-called E-scheme one uses M 2kl = (pk + pl)2 and instead of (13) the recombination prescription pij = pi + pj which is fully Lorentz invariant. We remark that for the slicing of the phase space with y0, the slicing condition ykl ! y0 is used only once to recombine two partons of the 4-parton final state into one jet. This serves to separate singular contributions in the 4-parton final states and isolates 3-jet final states where the resulting 3-jet variables are always defined in the KL' scheme. The slicing parameter y0 is not used in the jet algorithm.
+
+The Durham, or kT -, algorithm [7] is defined in a similar way with the iterative procedure 1) - 4) and the "distance measure" Mkl equal to the transverse momentum as jet resolution variable, i.e. the test variable in step 2) is
+
+ykl = 2 min(E2k; E2l ) (1 \Gamma cos `kl)=q2: (14) For the recombination, i.e. for the calculation of pij, one can use again several schemes (E0, E etc.) as in the JADE algorithm. We shall limit ourselves to the E0 recombination scheme in this case.
+
+Our results are presented in Table 1 for the JADE-E0 algorithm, in Table 2 for the JADE-E algorithm and in Table 3 for the Durham-E0 algorithm. n denotes the number of jets and R2m was defined in (9). We distinguish between the C2F and CF NC contributions on the basis of the decomposition (10). The LL and NLL coefficients of the leading logarithm calculations as reported by Catani [5] to which we compare our results are as follows (for the C2F (CF NC ) coefficients, respectively): a) JADE-E0 and n = 3: R24 = \Gamma 11=3 (\Gamma 1=6) and R23 = \Gamma 12 (\Gamma 95=18), b) JADE-E0 and n = 4: R24 = 3=2 (1=6) and R23 = 6 (29=18), c) JADE-E n = 3 and n = 4: the same coefficients as in JADE-E0 with the only exception that for n = 3 the C2F coefficient R24 is R24 = \Gamma 19=6, d) Durham-E0 and n = 3: R24 = \Gamma 1 (\Gamma 1=12) and R23 = \Gamma 6 (\Gamma 7=3) and
+
+8
+
+e) Durham-E0 and n = 4: R24 = 1=2 (1=12) and R23 = 3 (10=9). For completeness we also give the results of our fit for R22; R21 and R20 for which leading logarithm results are not available. These latter numbers are obtained with the constraint that R24 and R23 are equal to Catani's LL and NLL results. Also R23 is calculated assuming the LL values for R24.
+
+The results for the Durham-E0 scheme presented in Tab. 3 show good agreement with the leading logarithm results. According to [5], they are identical to the results for the recombination schemes E, P and P0. The coefficients R24 and R23 for n = 4 agree perfectly within the given errors with the leading logarithm results [5, 7] R24 = 1=2; R23 = 3 (C2F ) and R24 = 1=12; R23 = 10=9 (CF NC). For n = 3 the coefficients R24 and R23 agree also within errors with R24 = \Gamma 1; R23 = \Gamma 6 (C2F ) and R24 = \Gamma 1=12; R23 = \Gamma 7=3 (CF NC). Here the errors are larger than for n = 4. In total we can conclude that the n = 3 and n = 4 fixed order multijet cross section evaluated on the basis of the procedure of [1] are in very good agreement with the leading logarithm results obtained in [5, 7].
+
+For the other two algorithms, the JADE-E0 and E scheme, the results are less precise and the agreement with the expected values is worse. First there is no difference between the E0 and E recombination schemes in the 4-jet rate since no recombination is necessary in this case. Therefore, for n = 4, the coefficients R2m are equal in the two schemes. The numerical results for R24 and R23 for the n = 4 C2F and CF NC coefficients are consistent with the leading logarithm result of [5]. The C2F coefficient R24 was first calculated by Brown and Stirling [18] using the eikonal approximation. They discovered the characteristic deviation of R24 from the expectation based on the infrared singular behaviour of the cross sections for e+e
+
+\Gamma ! q _qgg
+
+which yields for the C2F coefficient R24 = 2. The reduction of R24 = (2 \Gamma 1=2) by \Delta R24 = \Gamma 1=2 has its origin in the fact that the contribution from the phase space region (p3 + p4)2=q2 ? y, i.e. the region where the invariant mass of the two gluons is above the cut, has an effect on the leading coefficient R24, although no infrared or collinear singularities in y34 are present in the cross section for e+e\Gamma ! q _qgg. This has consequences for the leading double logarithm contributions in n = 2 and 3 and spoils the exponentiation of the multijet cross section even in the abelian limit NC ! 0. Our numerical result for R24 supports this result and shows that it is not an artifact of the eikonal approximation used in [18]. R24 (CF NC ) and also the two R23 coefficients are not affected by this particular y34 contribution. They agree with the leading logarithm result of [5] within the numerical errors.
+
+For the 3-jet rates the E0 and E scheme results differ. In the E0 scheme we get R24(C2F ) =\Gamma 1:63 \Sigma 0:69 which is not in agreement with the LL result R24(C2F ) = (\Gamma 4 + 1=3) [5] (the term +1=3 in parentheses is the contribution from the gg recombination mismatch according to [18]). In the E scheme R24(C2F ) = \Gamma 2:79 \Sigma 0:27 is consistent with R24(C2F ) = (\Gamma 4 + 5=6) within the large error. This is also the case for R24(CF NC) = \Gamma 1:6 \Sigma 2:0 which is consistent with R24 (CF NC ) = \Gamma 1=6. In the E0 scheme R24(CF NC ) = \Gamma 2:6 \Sigma 1:9 is larger in absolute value compared to the leading double logarithmic result of [5] which is again \Gamma 1=6. Since we have already deviations in the leading double logarithmic coefficient we can not expect that the next-to-leading coefficients agree better. Here even the signs of R23 differ from the leading logarithm expectations. Whether these somewhat discouraging results are caused by our method of calculation, as for example the range of the fit intervals in L = ln y, is not clear. Since the slicing parameter is only y0 = 10\Gamma 5 the range of y values which can be used to fit the asymptotic behaviour is limited to y ? y0 which perhaps is not sufficient to suppress non9
+
+logarithmic terms. Results for R22, R21, and R20 are not given for the 3-jet rates in the E and E0 schemes since the errors given by the fit program are very large. The errors could have been reduced if a fit with fixed values for R24 and R23 was performed. Since our results for these LL and NLL coefficients do not agree well with the expected values from the leading logarithmic approximation, we do not attempt such a fit. Fixing R24 and R23 to the expected values would result in unacceptably large O/2. To investigate further the possible source of this disagreement, we have used a different method for calculating the coefficients R2m which will be described now.
+
+We separate the contributions to R24 and R23 for the 3-jet cross section (n = 3) into the contribution from the singular terms, i.e. region (i) (see sect. 2), the non-singular terms, i.e. region (ii) and the contribution from the real 4-parton cross section, i.e. region (iii) which is the region where one yij ? y in the partial fractioning decomposition. The singular contribution (i) contains also the virtual correction terms which are not infrared and/or collinear singular. We have calculated these extra terms separately. In [13, 14] they are contained in the function f (x1; x2) which was obtained there directly without any need for an infrared regularization. It is clear that this separation is not unique. The slicing parameter y0 is identified with y for the case of the JADE-E0 recombination scheme. The results presented in Tab. 4 are calculated in the various regions as a function of y without any extra recombination added. The coefficients R24 and R23 are calculated by fitting the functional dependence on y to (9) and (10). y can be extended now to much lower values than with the pure slicing method done before.
+
+In Tab. 4 we have obtained the following results for the JADE-E0 algorithm. Let us first discuss the C2F part of R24. It receives contributions from region (i) and region (iii). The contribution from (ii) is small and probably consistent with zero. There is also no contribution from the finite virtual term given by f (x1; x2). The result in region (i) is consistent with R24 = \Gamma 4:0, as expected for the singular contributions (see also [5]). The contribution from region (iii) is consistent with R24 = 0:5, so that the sum is R24 = \Gamma 3:5. The obtained number with error is R24 = \Gamma 3:436 \Sigma 0:018. This differs from Catani's LL value R24 = \Gamma 11=3 = (\Gamma 4 + 1=3). The difference comes from region (iii). We think that this difference is real and outside the numerical error. Our results show definitely that R24 is not given by the singular region (i) alone. There is a non-vanishing contribution from region (iii), which presumably is connected with the gg recombination mismatch. We have not investigated this further.
+
+The second column labelled R24 in Tab. 4 gives the expected values in the different regions. The third and fourth column in Tab. 4 present the results of the simultaneous fit of R24 and R23 whereas the last column gives R23 obtained with the hypothesis that R24 is given as in the previous column. If we add the C2F terms in the last column for R23 we obtain R23 = \Gamma 12:098\Sigma 0:041 which is consistent with \Gamma 12:0 expected from the leading logarithm result. From these numbers we can calculate the leading logarithm coefficients for the 2-jet cross section which is R2m(2- jet)= \Gamma (R2m(3-jet)+R2m(4-jet)). Then we obtain for the 2-jet coefficients: R24 = 1:976 \Sigma 0:015 and R23 = 5:76 \Sigma 0:20. This agrees with R24 = 2:0 and R23 = 6:0 derived in an analytical calculation of the 2-jet cross section by B. Lampe and one of us [19].
+
+Now we discuss the results for the CF NC coefficients. The leading double logarithmic term receives contributions from all three regions (i), (ii) and (iii). It is interesting to note that also f (x1; x2) contributes a term consistent with \Gamma 1=2. The total sum for R24 is R24 =\Gamma
+
+1:905 \Sigma 0:011. This is consistent with the value obtained in Tab. 1, but differs from the
+
+10
+
+leading double logarithmic result of [5] which is R24 = \Gamma 1=6. The reason for this difference is the contribution from the finite terms in (ii) which is large in absolute value. Then it is understandable that the next coefficient R23, given in the fourth column, namely R23 = \Gamma 52:2 \Sigma 1:5 (sum over all three regions), does not show any resemblance to the leading logarithm result R23 = \Gamma 95=18. It is interesting to note that the leading logarithm expectations for R24 and R23 are consistent with the contribution from region (i). Therefore the problem might be that we obtain additional large terms from region (ii) and possibly from region (iii). In the case of f (x1; x2) we give, in addition, results for the coefficients R22 in parentheses. These latter results have been obtained assuming R23 = 0.
+
+In an additional calculation we have investigated the separate contributions in the various regions (i), (ii), (iii) and f (x1; x2) for the Durham-E0 scheme. The separation between the regions (i), (ii) on one side and (iii) on the other side is defined with the help of the invariantmass cut. This means that the separation between the 3-jet contribution with one ykl ! y and the genuine 4-parton region, where one ykl ? y, is done with the invariant-mass cut. The dependence on this invariant-mass cut must cancel in the sum of the three regions. Inside every region we have calculated the 3-jet fraction with the Durham-E0 boundaries and tabulated the results in Tab. 5. Since the singular terms, i.e. the integrand of the contribution in (i), is given analytically we achieve a much higher accuracy also in the sum. Note that the boundaries with the Durham variables are always inside the invariant-mass boundaries. We emphasize that the results in the different regions (i), (ii) and (iii) are not genuine 3-jet fractions in the Durham scheme, but their sum is. When we sum the contributions in the various regions we obtain for the C2F coefficients R24 = \Gamma 0:984 \Sigma 0:020; R23 = \Gamma 6:066 \Sigma 0:046 in perfect agreement with the leading logarithm results R24 = \Gamma 1; R23 = \Gamma 6. In the same way we get for the sum of the CF NC terms R24 = \Gamma 0:104 \Sigma 0:014 and R23 = \Gamma 2:250 \Sigma 0:030 which also agrees with the expected values R24 = \Gamma 1=12 and R23 = \Gamma 7=3. With the separation of the total contributions into the various regions where some of the integrations could be done analytically we achieved a much higher accuracy and this way we are able to verify the leading logarithm predictions with a much better accuracy than with our results in Tab. 3. Concerning the contribution of the function f (x1; x2) which originates from the non-singular part of the virtual corrections we obtained R24(CF NC) = \Gamma 0:0832 \Sigma 0:0009 which is consistent with R24(CF NC ) = \Gamma 1=12. This is a remarkable result in view of the fact that the leading logarithm calculations of [5, 7] are based on the summation of real contributions only and it is unclear how such a calculation could recover contributions from loop corrections. If we compare the result in region (i) with the contribution coming from f (x1; x2) it seems that the contribution in (i) comes exclusively from the function f (x1; x2).
+
+Next we present our results for the two event shape distributions which we have investigated, namely the thrust distribution and the energy-energy correlation. Instead of the integrated distributions (2) we shall consider the differential distributions dR=dy = 1=oedoe=dy. For the thrust distribution we have y = o/ = (1 \Gamma T ) and we write
+
+1 oe0
+
+doe
+
+do/ =
+
+ffs 2ss
+
+dR1
+
+do/ + `
+
+ffs 2ss '
+
+2 dR2
+
+do/ : (15) The contribution / ff2s has the following expansion in Lo/ = ln o/ , using (9),
+
+dR2
+
+do/ =
+
+4X
+
+m=1 mR
+
+2m 1o/ Lm
+
+\Gamma 1
+
+o/ + dD
+
+2
+
+do/ : (16)
+
+11
+
+First we have calculated the coefficients (mR2m) for the two colour factors C2F and CF NC . To separate the regions (i) and (ii) from (iii) we have introduced the slicing parameter y0 = 0:1. This has the consequence that the thrust variable T is always the 3-jet thrust since the contribution from region (iii) where we have to use the 4-jet thrust vanishes in the asymptotic region, i.e. for jLo/ j ! 1. The results for mR2m (m = 1; 2; 3; 4) are presented in Tab. 6. We distinguish the contributions from the regions (i) and (ii), and the sum of (i) and (ii) which was fitted separately. Whereas the results for the separate contributions (i) and (ii) have been obtained from a fit without any assumption about the values of the LL coefficients, the coefficients R23, R22, and R21 for the sum result from fits where R24 was fixed at the corresponding leading logarithm expectation. We also give the results of a fit where the leading logarithm results for R24 and R23 are assumed and only R22 and R21 are determined from the fit. In those cases where the assumed values for LL coefficients agree with the results of the free fits, the NLL coefficients can be obtained with much smaller errors.
+
+So far there exist no analytic predictions for the separate regions (i) and (ii). Therefore we can compare only the total contributions with the leading logarithm results of [8]. These are for the C2F coefficients: R24 = 2, R23 = 6 and R22 = (13=2 \Gamma 2ss2) = \Gamma 13:24 and for the CF NC terms: R24 = 0, R23 = 11=3 and R22 = \Gamma (169=36 \Gamma ss2=3) = \Gamma 1:405. As we see from Tab. 6, only the LL coefficients are consistent with our results R24 = 1:985 \Sigma 0:004 for the C2F coefficient, and R24 = 0:140 \Sigma 0:009 for the CF NC coefficient, respectively. The NLL contributions deviate considerably. The CF NC coefficient R23 is determined in region (ii) only with a very large error. This is the reason for the deviation of R23 in the sum. If we interpret the result of R23 in region (ii) as R23 = 0, the NLL coefficient from the singular region is very well determined and agrees with R23 = 11=3 as predicted. The NLL terms in the sum are determined with the leading logarithm hypothesis R24 = 2 and R24 = 0 (for the C2F and CF NC coefficients, respectively). In addition we have calculated the NNLL coefficients R22 and R21 with the leading logarithm constraints for R24 and R23. The results are different now and still with large errors. R22(CF NC ) agrees now better with the leading logarithm result.
+
+If one compares the leading logarithm predictions of R24 and R23 for different event shape distributions, as for example thrust [8] and heavy jet mass [9], one notices that they agree [8]. They differ, however, in R22. All these leading logarithm derivations, including the derivation for the 2-jet cross section in [6], start from the jet mass distribution which was calculated to NLL accuracy in [20]. Therefore the coefficients R24 and R23 must agree in these calculations. The LL and NLL coefficients of the 2-jet cross sections have been calculated earlier in [19] with completely different methods and with the same result. We notice that also R22 for CF NC is universal for the thrust and heavy jet mass distributions and the 2-jet cross section, namely R22 = (ss2=3 \Gamma 169=36).
+
+For calculating the LL and NLL coefficients for the energy-energy correlation d\Sigma =d cos O/ we also use the differential distribution in cos O/ where O/ is the angle between two jets. This has the form (15), i.e.
+
+1 oe0
+
+d\Sigma d cos O/ =
+
+ffs 2ss
+
+dR1 d cos O/ +
+
+ff2s 2ss !
+
+2 dR
+
+2
+
+d cos O/ (17)
+
+12
+
+and the O(ff2s ) term has, similar to (16), the expansion
+
+dR2 d cos O/ =
+
+4X
+
+m=1 mR
+
+2m 1j Lm
+
+\Gamma 1
+
+j + dD
+
+2
+
+dj (18)
+
+where j = (1 + cos O/)=2 and Lj = ln(1=j). Note that in this case we define Lj with a different sign as compared with Lo/ such that Lj is positive. The LL, NLL and NNLL coefficients R24; R23 and R22 for the C2F and CF NC terms have been calculated by many authors in the past [11, 12] using the leading logarithm formalism. In the complete O(ff2s) theory they have been computed by Ellis et al. [12] some time ago and recently again by Ellis and Clay [21] with much higher accuracy. In the older calculation Ellis et al. claimed to have found clear disagreement in the C2F part of R22, whereas all other coefficients agreed with the leading logarithm predictions within their numerical accuracy. In the more recent work [21] the authors found good agreement between leading logarithm predictions and their results for both the C2F and the CF NC part from fitting their numerical results to the expansion (18). In both the recent and the older work the authors used the subtraction method with the matrix elements of [13].
+
+In our work we introduce a slicing parameter y0 = 0:1 as in the calculation of the thrust distribution. With this large value for y0 the contribution which comes from region (iii) is negligible and has no effect on the determination of the coefficients R2m in (18). We calculate the contributions from the two regions (i) and (ii), where (i) and (ii) denote the contributions of the singular and non-singular terms with ykl below the cut y0. All NLL coefficients are obtained with specific assumptions for the values of the corresponding LL coefficients.
+
+The results are collected in Tab. 7. The first and second row give the coefficients R2m; (m = 1; 2; 3; 4) for the singular and non-singular terms. The results for the singular terms are rather stable with small errors for the coefficients. They can be compared with results from a completely analytic calculation of the singular contributions in [22] without the y0 cut, i.e. over the full 4-parton phase space. The results for the C2F terms from [22] were: 4R24 = \Gamma 1=3, 3R23 = 3=2, 2R22 = \Gamma 8:456, R21 = 14:34 and for the CF NC terms: 4R24 = \Gamma 1=12, 3R23 = 11=12, 2R21 = 3:204 and R21 = \Gamma 8:269. Comparing this with our fit results, we see that we achieved good agreement for both the C2F and the CF NC terms including R22. Only for R21 we observe deviations up to 30%. This had to be expected since the coefficients have alternating signs so that a precise determination of the last coefficient is quite difficult. These results can also be considered as a test of our method, in particular with respect to introducing the slicing cut-off which obviously cuts out only an unessential part of the 4-parton phase space.
+
+There are no analytic results for region (ii). So we can compare only the sum of both contributions. The LL coefficients agree very well with 4R24 = \Gamma 1=2 (C2F part) and R24 = 0 (CF NC part) within the error which is 27% for the C2F coefficient. The NLL and NNLL coefficients show no resemblance to the leading logarithm prediction which are 3R23 = 9=4, 2R22 = \Gamma (17=4 + ss2=6) = \Gamma 5:859 and 3R23 = 11=12, 2R22 = (35=72 \Gamma ss2=12) = \Gamma 0:336 for the two colour factors, respectively, although the LL values for R24 were assumed as constraint. Since the NLL and NNLL coefficients have opposite signs they compensate each other and can not be determined accurately enough. We also tried several other hypotheses for the LL coefficients. For example, if we assume R24 = \Gamma 7=12 for the leading C2F coefficient, we obtain: 3R23 = 2:478 \Sigma 0:140, 2R22 = \Gamma 17:44 \Sigma 2:14 and R21 = 37:4 \Sigma 8:6. In this case the NLL and NNLL coefficients change sign as compared to the results in Tab. 7. This shows that the NLL
+
+13
+
+terms can be determined only when the LL coefficient is known exactly. From this exercise we can not exclude that the leading logarithm result 4R24 = \Gamma 1=2 does perhaps not agree with the LL coefficient of a complete calculation. In addition in the last rows we made the LL hypothesis for R24 and R23 and determined R22 and R21. Now at least the sign of R22 comes out correctly for both colour factors.
+
+We have to keep in mind, however, that with our method we calculate the energy-energy correlation on the basis of three particles in the final state, and not four, as it would be appropriate for a 4-parton final state. This reduction to a 3-jet final state is unavoidable in some part of the 4-parton phase space. Otherwise the cancellation of virtual and real soft and collinear divergences is not possible. Therefore the question remains whether our results are sensitive to the choice of the slicing parameter y0. In this respect two situations must be distinguished. If y0 is above the region where the leading terms in Lj have been determined (this is the procedure followed here) there exists no dependence on y0 when the value of this parameter is large enough as compared to the fitting region. We checked explicitly that all coefficients change only by amounts smaller than the quoted errors when y0 is reduced to y0 = 10\Gamma 2. When y0 is chosen small and inside the fitting region for the leading logarithm expansion, then the discontinuity due to switching from 3- to 4-parton final states prevents obtaining reasonable fits without taking account of non-logarithmic terms. Only for the leading coefficients consistent results can be obtained in this case. To choose y0 below and outside the fitting region is impossible for the energy-energy correlation, or, as in the case of the thrust distribution, would result in too large errors.
+
+So far we considered only the C2F and CF NC contributions in the colour decomposition (10). The coefficients of the CF Nf contribution have been determined in the same way. These contributions come from the diagonal part of the q _qq _q final state. They have a simpler singularity structure. Only single-pole terms appear and partial fractioning is not needed. Also the non-singular contributions from region (ii) can be treated analytically and therefore have been combined with the singular contributions from region (i) (see [1] for further details). The less singular behaviour of these terms has the consequence that the LL coefficients R24 vanish for this colour factor. We have calculated the coefficients R23; R22 and R21 for the thrust distribution and the energy-energy correlation and in addition R20 for the jet cross sections.
+
+The results for the coefficients of the thrust distribution are collected also in Tab. 6 together with the results of the other colour factors. They agree reasonably well with the LL prediction R23 = \Gamma 2=3 and R22 = 11=18 [8]. If 3R23 = \Gamma 2 is put in as a constraint we obtain 2R22 = 1:239 \Sigma 0:018 and R21 = 2:90 \Sigma 0:15, which is now in very good agreement with 2R22 = 11=9 and R21 is close to the corresponding coefficient R21 = 5=2 in the two-jet cross section [19].
+
+The coefficients for the energy-energy correlation are presented in Tab. 7. The LL results are R23 = \Gamma 1=18 and R22 = \Gamma 1=72 [12, 22]. The value for R23 is confirmed by our fit. With the constraint 3R23 = \Gamma 1=6 we obtain 2R22 = \Gamma 0:0102 \Sigma 0:0077 which agrees now approximately with the prediction 2R22 = \Gamma 1=36. The prediction for the next coefficient is R21 = (11=24 \Gamma ss2=18) = \Gamma 0:090 [22]. In our fit we obtain at least the same sign and also a small value.
+
+14
+
+The results for the jet rates with the different algorithms are collected separately in Tab. 8. For every jet algorithm and recombination scheme we have two lines. In the first line all coefficients R2i; i = 0; 1; 2; 3 are determined from the same fit. In the second line R23 is constrained by its LL value as given in the table. Let us first look at the results for the 3-jet cross sections. Here in all three cases, JADE-E0, JADE-E and Durham-E0, we find very good agreement with the LL results, which are R23 = 7=9; 7=9; 1=3, respectively. Unfortunately there exist no predictions for the next-to-leading coefficients. For the 4-jet cross section we find similar results, i.e. good agreement with R23 = \Gamma 1=9 for both the JADE and Durham algorithm (for n = 4 the results for the E0 and E schemes must coincide). Also for n = 3 we obtained the same coefficients in the JADE-E0 and E scheme. One further check is possible if we calculate the coefficients of the 2-jet cross section which are equal to the negative sum of the 3- and 4-jet coefficients. In the JADE algorithm they are R23 = \Gamma 0:628 \Sigma 0:007 and R22 = 0:64 \Sigma 0:12 (with R23 constrained). This agrees with results from analytic calculations of the 2-jet cross section in the JADE algorithm [19]: R23 = \Gamma 2=3 and R22 = 11=18. In total we conclude that for the CF Nf coefficients the agreement with the leading logarithm results or pure analytic calculations is quite good.
+
+4 Concluding Remarks In the last section we have seen that our results for the LL and NLL coefficients have different accuracy depending on the kind of jet cross section, event shape distribution or colour factor. Therefore conclusions concerning the verification of leading logarithm predictions have also different quality. The clearest statement can be made for the CF Nf coefficients. Here we found perfect agreement with the leading logarithm predictions for all studied jet cross sections and event shape distributions. For the other colour factors the main interest concerns those jet cross sections and shape distributions which can be summed in the leading logarithm approximation, i.e. the jet cross sections in the Durham scheme, the thrust distribution and the energy-energy correlation.
+
+The LL, NLL and NNLL coefficients of the Durham cross sections were obtained with reasonably small errors. Both the LL and NLL coefficients agreed perfectly with the leading logarithm predictions (see Tabs. 3 and 5). The main contributions came from the singular region (i); but also the other regions contributed. It is known that the Durham algorithm by using the transverse momentum as jet resolution is adapted best to the underlying infrared and collinear singularity structure of the tree diagram contributions.
+
+For the thrust distribution, although the accuracy was similar as for the Durham cross sections, we could confirm only the LL coefficient. The NLL coefficients show appreciable deviations from the leading logarithm predictions. On the basis of our results, however, it would be premature to claim that deviations in the NLL coefficients of the thrust distribution have been established.
+
+For the energy-energy correlation we have compared our results in the singular region with an independent analytic calculation [22]. We found good agreement up to the NNLL coefficients. Concerning the complete coefficients from all regions the situation is similar as for the thrust distribution. Only the LL coefficients agree with the corresponding leading logarithm
+
+15
+
+prediction.
+
+The jet cross sections for the JADE algorithm can not be resummed. This has been confirmed by our results for the C2F LL coefficient of the 3-jet cross section. We found that this coefficient does not agree with the leading logarithm result as reported by Catani [5]. The coefficients for the 4-jet cross section do agree, however.
+
+16
+
+Table Captions Tab. 1: Leading logarithm coefficients for 3- and 4-jet rates in the JADE-E0 scheme. Tab. 2: Leading logarithm coefficients for 3- and 4-jet rates in the JADE-E scheme. Tab. 2: Leading logarithm coefficients for 3- and 4-jet rates in the Durham-E0 scheme. Tab. 4: Contributions to the leading logarithm coefficients for the 3-jet rate in the JADE-E0
+
+scheme.
+
+Tab. 5: Contributions to the leading logarithm coefficients for the 3-jet rate in the Durham-E0
+
+scheme.
+
+Tab. 6: Contributions to the leading logarithm coefficients for the thrust distribution. Tab. 7: Contributions to the leading logarithm coefficients for the energy-energy correlation. Tab. 8: Leading logarithm coefficients for the CF Nf contribution to the 3- and 4-jet rates.
+
+17
+
+References
+
+[1] G. Kramer, B. Lampe, Fortschr. Phys. 37 (1989) 161. [2] Z. Kunszt, P. Nason, G. Marchesini, B. R. Webber in 'Z Physics at Lep 1', CERN 89-08,
+
+Vol. 1, p. 373.
+
+[3] For reviews see: S. L. Wu, Phys. Rep. 107 (1984) 59;
+
+B. Naroska, Phys. Rep. 148 (1987) 67; J. Drees, Nucl. Phys. B (Proc. Suppl.) 19 (1991) 251; T. Hebbeker, Phys. Rep. 217 (1992) 69; S. Bethke, Proceedings of the XXVI Int. Conf. on High Energy Physics, Dallas 1992, ed. J. R. Sanford, Vol. I, p. 81; S. Bethke, J. E. Pilcher, Ann. Rev. Nucl. Part. Sci. 42 (1992) 251.
+
+[4] S. Bethke et al., JADE Collaboration, Phys. Lett. B213 (1988) 235; N. Magnussen et al.,
+
+JADE Collaboration, Z. Phys. C49 (1991) 29; S. Bethke et al., Mark II Collaboration, Z. Phys. C43 (1989) 325; S. Bethke, Z. Phys. C43 (1989) 331; S. Komamiya et al., Mark II Collaboration, Phys. Rev. Lett. 64 (1990) 987; I. Park et al., AMY Collaboration, Phys. Rev. Lett. 62 (1989) 1713; M. Z. Akrawy et al., OPAL Collaboration, Phys. Lett. B235 (1990) 389; G. Kramer, B. Lampe, Z. Phys. A339 (1991) 189; P. Abreu et al., DELPHI Collaboration, Phys. Lett. B247 (1990) 167.
+
+[5] S. Catani, preprint, CERN-TH.6281/91, September 1991. [6] S. Catani, G. Turnock, B. R. Webber, preprint, Cavendish-Hep-90/16, August 1990. [7] S. Catani et al., Phys. Lett. B269 (1991) 432;
+
+N. Brown, W. J. Stirling, Z. Phys. C53 (1992) 629. C. Lovett-Turner, Phys. Lett. B329 (1994) 361.
+
+[8] S. Catani et al., Phys. Lett. B263 (1991) 491;
+
+S. Catani et al., Nucl. Phys. B407 (1993) 3.
+
+[9] S. Catani, G. Turnock, B. R. Webber, Phys. Lett. B272 (1991) 368. [10] S. Catani, G. Turnock, B. R. Webber, preprint, CERN-TH.6570/92, September 1992. [11] S. D. Ellis, W. J. Stirling, Phys. Rev. D23 (1981) 214;
+
+S. D. Ellis, N. Fleishon, W. J. Stirling, Phys. Rev. D24 (1981) 1386; J. C. Collins, D. E. Soper, Nucl. Phys. B193 (1981) 381; ibid. B197 (1982) 446; ibid. B213 (1983) 545; ibid. B284 (1987) 253.
+
+[12] S. D. Ellis, D. G. Richards, W. J. Stirling, Phys. Lett. B136 (1984) 99;
+
+D. G. Richards, W. J. Stirling, S. D. Ellis, Nucl. Phys. B229 (1983) 317; G. Turnock, preprint, Cavendish-Hep-92/3 (1992).
+
+[13] R. K. Ellis, D. A. Ross, A. E. Terrano, Nucl. Phys. B178 (1981) 421. [14] K. Fabricius et al., Z. Phys. C11 (1982) 315.
+
+18
+
+[15] A. Ali et al., Phys. Lett. B82 (1979) 285; Nucl. Phys. B167 (1980) 454. [16] F. James, M. Roos, Comp. Phys. Commun. 10 (1975) 343, CERN library program D506. [17] W. Bartel et al., JADE Collaboration, Phys. Lett. B119 (1982) 239;
+
+W. Bartel et al., JADE Collaboration, Z. Phys. C33 (1986) 23.
+
+[18] N. Brown, W. J. Stirling, Phys. Lett. B252 (1990) 657. [19] G. Kramer, B. Lampe, Prog. Theor. Phys. 76 (1986) 1340;
+
+G. Kramer, B. Lampe, Z. Phys. C34 (1987) 497, Erratum Z. Phys. C42 (1989) 504.
+
+[20] S. Catani, L. Trentadue, Phys. Lett. B217 (1989) 539; Nucl. Phys. B327 (1989) 353; Nucl.
+
+Phys. B353 (1991) 183; S. Catani, G. Marchesini, B. R. Webber, Nucl. Phys. B349 (1991) 635.
+
+[21] K. A. Clay, S. D. Ellis, preprint UW/PT 94-17, . [22] N. K. Falck, G. Kramer, Z. Phys. C42 (1989) 459.
+
+19
+
+Table 1: JADE Algorithm-E0 Scheme n colourf actor R24 R23 R22 R21 R20 3 C2F \Gamma 1:63 \Sigma 0:69 \Gamma 26:95 \Sigma 0:90
+
+CF NC \Gamma 2:6 \Sigma 1:9 16:6 \Sigma 2:5 4 C2F 1:46 \Sigma 0:15 6:17 \Sigma 0:19 \Gamma 3:1 \Sigma 0:25 \Gamma 37:0 \Sigma 3:3 32:0 \Sigma 10:0
+
+CF NC 0:165 \Sigma 0:052 1:57 \Sigma 0:07 7:64 \Sigma 0:09 21:7 \Sigma 1:2 29:4 \Sigma 3:6
+
+Table 2: JADE Algorithm-E Scheme n colourf actor R24 R23 R22 R21 R20 3 C2F \Gamma 2:79 \Sigma 0:27 17:8 \Sigma 2:1
+
+CF NC \Gamma 1:6 \Sigma 2:0 7:3 \Sigma 2:6 4 C2F 1:46 \Sigma 0:15 6:17 \Sigma 0:19 \Gamma 3:1 \Sigma 0:25 \Gamma 37:0 \Sigma 3:3 32:0 \Sigma 10:0
+
+CF NC 0:165 \Sigma 0:052 1:57 \Sigma 0:07 7:64 \Sigma 0:09 21:7 \Sigma 1:2 29:4 \Sigma 3:6
+
+Table 3: DURHAM Algorithm-E0 Scheme n colourf actor R24 R23 R22 R21 R20 3 C2F \Gamma 1:29 \Sigma 0:46 \Gamma 6:34 \Sigma 0:60 \Gamma 9:48 \Sigma 0:78 21:8 \Sigma 11:2 7:9 \Sigma 39:0
+
+CF NC \Gamma 0:32 \Sigma 0:25 \Gamma 3:19 \Sigma 0:33 \Gamma 6:57 \Sigma 0:42 \Gamma 11:3 \Sigma 6:0 8:9 \Sigma 21:0 4 C2F 0:459 \Sigma 0:045 3:108 \Sigma 0:058 3:82 \Sigma 0:08 \Gamma 13:4 \Sigma 0:99 36:7 \Sigma 3:1
+
+CF NC 0:062 \Sigma 0:011 1:097 \Sigma 0:014 7:368 \Sigma 0:019 25:70 \Sigma 0:25 36:12 \Sigma 0:78
+
+Table 4: JADE Algorithm-E0 Scheme region colourf actor R24 R23 R24 R23 (R22) (i) C2F \Gamma 3:974 \Sigma 0:006 \Gamma 11:25 \Sigma 0:18 \Gamma 4:0 \Gamma 12:084 \Sigma 0:013
+
+CF NC \Gamma 0:175 \Sigma 0:002 \Gamma 5:593 \Sigma 0:061 \Gamma 1=6 \Gamma 5:254 \Sigma 0:004 f (x1; x2) C2F 0:0020 \Sigma 0:0002 0:0664 \Sigma 0:0071 0:0 0:0 (\Gamma 3:971 \Sigma 0:001)
+
+CF NC \Gamma 0:499 \Sigma 0:001 0:019 \Sigma 0:042 \Gamma 1=2 0:0 (0:308 \Sigma 0:007) (ii) C2F 0:0234 \Sigma 0:0029 0:638 \Sigma 0:096 0:0 \Gamma 0:1347 \Sigma 0:0066
+
+CF NC \Gamma 1:506 \Sigma 0:055 \Gamma 46:2 \Sigma 1:5 \Gamma 3=2 \Gamma 46:02 \Sigma 0:08 (iii) C2F 0:515 \Sigma 0:017 0:62 \Sigma 0:56 1=2 0:121 \Sigma 0:039
+
+CF NC \Gamma 0:2237 \Sigma 0:0089 \Gamma 0:41 \Sigma 0:29 \Gamma 1=6 1:441 \Sigma 0:021
+
+20
+
+Table 5: DURHAM Algorithm-E0 Scheme region colourf actor R24 R23 R24 R23 (R22) (i) C2F \Gamma 1:997 \Sigma 0:008 \Gamma 9:03 \Sigma 0:26 \Gamma 2:0 \Gamma 9:124 \Sigma 0:019
+
+CF NC \Gamma 0:0816 \Sigma 0:0031 \Gamma 2:78 \Sigma 0:10 \Gamma 1=12 \Gamma 2:838 \Sigma 0:007 f (x1; x2) C2F 0:00075 \Sigma 0:00035 0:0098 \Sigma 0:0012 0:0 0:0 (\Gamma 4:209 \Sigma 0:002)
+
+CF NC \Gamma 0:0832 \Sigma 0:0009 0:012 \Sigma 0:028 \Gamma 1=12 0:0 (1:887 \Sigma 0:005) (ii) C2F 0:008 \Sigma 0:001 0:324 \Sigma 0:042 0:0 0:0464 \Sigma 0:0030
+
+CF NC 0:0110 \Sigma 0:0088 0:396 \Sigma 0:260 0:0 0:070 \Sigma 0:017 (iii) C2F 1:005 \Sigma 0:018 3:17 \Sigma 0:60 1:0 3:012 \Sigma 0:042
+
+CF NC \Gamma 0:033 \Sigma 0:010 \Gamma 0:52 \Sigma 0:32 0:0 0:518 \Sigma 0:024
+
+Table 6: Coefficients for Thrust Distribution region colourf actor 4R24 3R23 2R22 R21 (i) C2F 5:332 \Sigma 0:009 12:21 \Sigma 0:24 18:7 \Sigma 2:3 23:6 \Sigma 6:9
+
+CF NC 1:993 \Sigma 0:006 10:80 \Sigma 0:17 \Gamma 25:6 \Sigma 1:6 \Gamma 25:6 \Sigma 4:9 (ii) C2F 2:610 \Sigma 0:015 \Gamma 0:90 \Sigma 0:43 \Gamma 10:7 \Sigma 1:7 \Gamma 27:0 \Sigma 12:0
+
+CF NC \Gamma 1:73 \Sigma 0:18 1:9 \Sigma 3:7 \Gamma 13:5 \Sigma 23:6 46:0 \Sigma 48:0 sum C2F 7:941 \Sigma 0:018 12:75 \Sigma 0:02 18:93 \Sigma 0:41 36:3 \Sigma 1:8
+
+CF NC 0:560 \Sigma 0:038 3:15 \Sigma 0:37 \Gamma 77:6 \Sigma 3:6 \Gamma 153:7 \Sigma 8:8
+
+CF Nf 0:0 \Gamma 1:9900 \Sigma 0:0051 1:53 \Sigma 0:17 4:02 \Sigma 0:65 sum C2F 8:0 18:0 107:6 \Sigma 6:4 405:0 \Sigma 52:0
+
+CF NC 0:0 11:0 \Gamma 2:2 \Sigma 1:2 28:5 \Sigma 5:9
+
+CF Nf 0:0 \Gamma 2:0 1:239 \Sigma 0:018 2:90 \Sigma 0:15
+
+Table 7: Coefficients for Energy-Energy Correlation region colourf actor 4R24 3R23 2R22 R21 (i) C2F \Gamma 0:3304 \Sigma 0:0042 1:5066 \Sigma 0:0080 \Gamma 8:37 \Sigma 0:15 11:28 \Sigma 0:74
+
+CF NC \Gamma 0:078 \Sigma 0:013 0:946 \Sigma 0:017 2:76 \Sigma 0:30 \Gamma 5:72 \Sigma 1:38 (ii) C2F \Gamma 0:13 \Sigma 0:10 \Gamma 1:634 \Sigma 0:024 16:56 \Sigma 0:30 \Gamma 55:2 \Sigma 1:4
+
+CF NC 0:0312 \Sigma 0:0052 \Gamma 1:042 \Sigma 0:092 9:3 \Sigma 1:6 \Gamma 27:4 \Sigma 7:4 sum C2F \Gamma 0:46 \Sigma 0:13 \Gamma 0:220 \Sigma 0:028 9:60 \Sigma 0:50 \Gamma 49:6 \Sigma 2:4
+
+CF NC 0:0 \Sigma 0:015 \Gamma 0:090 \Sigma 0:018 11:90 \Sigma 0:32 \Gamma 32:6 \Sigma 1:4
+
+CF Nf 0:0 \Gamma 0:169 \Sigma 0:006 0:037 \Sigma 0:022 \Gamma 0:54 \Sigma 0:11 sum C2F \Gamma 1=2 9=4 \Gamma 34:2 \Sigma 3:4 139: \Sigma 26:
+
+CF NC 0:0 11=12 \Gamma 5:2 \Sigma 1:2 38:6 \Sigma 9:2
+
+CF Nf 0:0 \Gamma 1=6 \Gamma 0:0102 \Sigma 0:0077 \Gamma 0:330 \Sigma 0:019
+
+21
+
+Table 8: CF Nf Coefficients for Jet Rates n algorithm R23 R22 R21 R20 3 JADE E0 0:747 \Sigma 0:006 \Gamma 1:11 \Sigma 0:13 \Gamma 12:1 \Sigma 1:3 \Gamma 31:2 \Sigma 4:4
+
+7=9 \Gamma 0:14 \Sigma 0:09 \Gamma 2:50 \Sigma 0:08 \Gamma 0:36 \Sigma 0:40 3 JADE E 0:740 \Sigma 0:006 \Gamma 1:34 \Sigma 0:13 \Gamma 14:4 \Sigma 1:4 \Gamma 38:2 \Sigma 4:4
+
+7=9 \Gamma 0:14 \Sigma 0:12 \Gamma 2:49 \Sigma 0:08 \Gamma 0:37 \Sigma 0:40 3 DURHAM E0 0:36 \Sigma 0:11 2:0 \Sigma 3:7 13:5 \Sigma 42:0 37:0 \Sigma 160:
+
+1=3 1:04 \Sigma 0:21 3:9 \Sigma 4:9 5:8 \Sigma 26:5 4 JADE \Gamma 0:1187 \Sigma 0:0036 \Gamma 0:70 \Sigma 0:12 \Gamma 2:3 \Sigma 1:2 \Gamma 6:3 \Sigma 4:0
+
+\Gamma 1=9 \Gamma 0:5016 \Sigma 0:0031 \Gamma 0:26 \Sigma 0:07 0:70 \Sigma 0:38 4 DURHAM \Gamma 0:1108 \Sigma 0:0019 \Gamma 1:07 \Sigma 0:06 \Gamma 3:6 \Sigma 0:7 \Gamma 3:1 \Sigma 2:1
+
+\Gamma 1=9 \Gamma 1:0878 \Sigma 0:0018 \Gamma 3:667 \Sigma 0:039 \Gamma 3:6 \Sigma 0:20
+
+22
+

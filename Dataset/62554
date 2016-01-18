@@ -1,0 +1,502 @@
+
+
+ 7 Sep 1995
+
+MPI-PhT/95-86
+
+September 1995
+
+Testing the running of the QCD coupling
+
+in particle energy spectra
+
+Sergio Lupia1 and Wolfgang Ochs2 Max-Planck-Institut f"ur Physik, Werner-Heisenberg-Institut
+
+F"ohringer Ring 6, D-80805 M"unchen, Germany
+
+Abstract The spectra of charged particles in the energy variable , = log 1=x ("the hump backed plateau") are analyzed in terms of moments in order to investigate the sensitivity to the running of ffs in particular towards small scales, and to further test thereby the local parton hadron duality picture. The modified leading log approximation (MLLA) of QCD provides a very satisfying description of the e+e\Gamma data in the full range of c.m. energies from about 1 up to 91 GeV. The same calculation but with fixed coupling ffs yields moments which are inconsistent with the data already close to threshold. In particular the soft particles (E ^ 1 GeV) reflect directly the running of ffs.
+
+1E-mail address: lupia@mppmu.mpg.de 2E-mail address: wwo@dmumpiwh
+
+1
+
+1. Introduction The predictions from perturbative QCD on the intrinsic structure of jets based on the idea of a soft confinement mechanism [1, 2] have been remarkably successful. In particular, the prediction of the "hump backed plateau", i.e., an approximately Gaussian distribution in log(Pjet=phadron) with a suppression of low momentum particles from the soft gluon interference [3, 4, 5, 6] has been confirmed experimentally. This demonstrated the close similarity of parton and hadron spectra, provided the parton cascade is evolved down to a cutoff scale of the order of the hadronic masses Q0 ' mh. In this way, an almost quantitative description of the momentum spectra in the PETRA/PEP energy range (see, e.g., [7]) and at LEP[8, 9, 10, 11] has been obtained ("Local Parton Hadron Duality"[12]). The first data from HERA[13, 14] confirm this picture as well.
+
+In this paper we investigate the sensitivity of the energy spectrum of final state particles to the running of the coupling constant ffs. The effect of the running ffs is strongest for soft particles and at low energies and its verification can therefore provide an additional hint on the applicability of perturbative QCD towards small scales. To this end, we use a consistent kinematical scheme to relate partons and hadrons. We analyze the spectra in terms of moments for which explicit analytical expressions can be derived for fixed and running coupling and we extend the analysis down to low energy ps of order 1 GeV.
+
+An appropriate theoretical framework is the evolution equation for parton densities in the modified leading log approximation (MLLA) (for a recent review see [2]). It determines the parton densities and moments in absolute magnitude by the boundary condition at threshold in terms of two parameters, the QCD scale \Lambda and the pt cutoff Q0. This is different from deep inelastic scattering, where an unknown parton distribution has to be provided at a particular scale. The asymptotic predictions at high energies agree with those from the double log approximation (DLA) which neglects the energy-momentum constraints[3, 4]. The Next-to-Leading corrections of relative order pffs for moments are found large[5]. The MLLA results[6] sum all orders of pffs which allows the extrapolation to threshold but not all contributions beyond Next-to-Leading order are taken into account. More details of this study will be published elsewhere, see also [15].
+
+2. The theoretical framework MLLA Evolution Equations. The evolution equation of single parton inclusive energy distribution in the framework of MLLA is given by:
+
+d d log \Theta x _D
+
+BA (x; log P \Theta ) = X
+
+C=q;_q;g Z
+
+1 0 dz
+
+ffs(kt)
+
+2ss \Phi
+
+CA(x) ^ x
+
+z _D
+
+BC ( x
+
+z ; log(zP \Theta ))* (1)
+
+with the boundary condition at threshold P \Theta = Q0:
+
+x _DBA (x; log Q0) = ffi(1 \Gamma x)ffiBA (2) Here P and \Theta denote the primary parton energy and jet opening angle respectively, x is the energy fraction carried by the produced parton, \Phi ji (z) are the parton splitting kernels and i,j, A, B, C label quarks, antiquarks and gluons. The QCD running coupling is given by its one-loop expression ffs(kt) = 2ss=b log(kt=\Lambda ) with b j (11Nc \Gamma 2nf )=3, \Lambda the QCD-scale and Nc and nf the number of colors and of flavors respectively. The scale of
+
+2
+
+the coupling is given by the transverse momentum kt ' z(1 \Gamma z)P \Theta . The shower evolution is cut off by Q0, such that kt * Q0.
+
+The integral equation can be solved by Mellin transform:
+
+D!(Y; *) = Z
+
+1
+
+0
+
+dx
+
+x x
+
+![x _D(x; Y )] = Z Y
+
+0 d,e
+
+\Gamma ,! D(,; Y; *) (3)
+
+with Y = log P \Theta Q
+
+0 ' log
+
+P Q0 , * = log
+
+Q0
+
+\Lambda , , = log
+
+P
+
+k and parton energy k.In flavor space the valence quark and (\Sigma ) mixtures of sea quarks and gluons evolve
+
+independently with different "eigenfrequencies". At high energies, the dominant contribution to the inclusive spectrum comes from the "plus"-term, which we denote by D!(Y; *) j D+! (Y; *). In an approximation where only the leading singularity in !-space plus a constant term is kept, it satisfies the following evolution equation:
+
+! + ddY ! ddY D!(Y; *) \Gamma 4Nc ffs(Y + *)2ss D!(Y; *) (4)
+
+= \Gamma a ! + ddY ! ffs(Y + *)2ss D!(Y; *) where a = 11Nc=3 + 2nf =3N 2c . Taking a = 0 and dropping the r.h.s would yield the DLA evolution equation. The analysis of this paper is based on Eq. (4).
+
+By defining now the anomalous dimension fl! according to:
+
+D!(Y; *) = D!(Y0; *) exp Z
+
+Y
+
+Y0 dyfl![ffs(y + *)]! (5)
+
+the evolution equation for the inclusive spectrum can be written as a differential equation for fl! as follows:
+
+(! + fl!)fl! \Gamma 4Ncffs2ss = \Gamma fi(ffs) ddff
+
+s fl
+
+! \Gamma 2j(! + fl!) (6)
+
+where fi(ffs) = ddY ffs(Y ) ' \Gamma b ff
+
+2 s2ss and j = afl20 =8Nc = affs=4ss. In general this nonlinear
+
+equation has two roots and the solution consists of a superposition of two terms of the type (5).
+
+Moment analysis for running ffs. Explicit expressions with parameters Q0 and \Lambda can be derived for the multiplicity _N and the normalized moments ! ,q(Y; *) ?= R d,,q D(,; Y; *)= _N or the cumulant moments ^q(Y; *)[5, 6]; they are related by ^1 =! , ?= _,, ^2 j oe2 =! (, \Gamma _,)2 ?, ^3 =! (, \Gamma _,)3 ?, ^4 =! (, \Gamma _,)4 ? \Gamma 3oe4, . . . ; also one introduces the reduced cumulants kq j ^q=oeq, in particular the skewness s = k3 and the kurtosis k = k4. The cumulants ^q can be obtained from:
+
+^q(Y; *) = \Gamma @@! !
+
+q
+
+log D!(Y; *)fifififi
+
+!=0 ; (7)
+
+also _NE = D!j!=0. At high energies, one term of the form (5) dominates and one obtains
+
+^q(Y ) = ^q(Y0) + Z
+
+Y
+
+Y0 dy \Gamma
+
+@ @! !
+
+q
+
+fl![ffs(y)]fifififi
+
+!=0 (8)
+
+3
+
+This equation shows the direct dependence of the cumulants on ffs(Y ). For fixed ffs, for example, one obtains directly ^q(Y ) / Y for high energies. In our applications, we take into account the boundary conditions at threshold Y0 = 0, eq. (2), which yields ^q(Y0 = 0) = 0.
+
+The eqs. (5) and (8) are well suited to discuss the dependence on the number of flavors nf . The simplest procedure would consist in taking fl!(y) under the integral as step function with nf as the number of open flavors at energy y. In leading order ofp
+
+Y (, i.e., in the DLA), nf enters only through the running coupling ffs(y; nf ), at non leading level also through the parameter a (from the splitting function \Phi CA). Restricting our discussion to the leading term we note that in the original eq. (1) the scale of ffs is kt ' z(1 \Gamma z)P ! P=4 and the maximal scale P appearing in eqs. (5) and (8) originates from a kinematical approximation. In our comparison with data we choose either nf = 3 throughout as in previous analyses or we include the effect of heavy quarks in eq. (5) and (8) with nf changing for momenta PQ = 4mQ. A more accurate treatment of scales would have to take into account two-loop contributions besides the above kinematical effects and possibly explicit mass dependence of the coupling[16].
+
+The evolution equation for D!(Y; *) can be analytically solved and one obtains[2] a linear superposition of two hypergeometric distributions. Moments of order q can then be obtained through the formula ! ,q ? = [(\Gamma @@! )q D!(Y; *)]j!=0= _N and can be written in general as:
+
+! ,q ?= 1_N
+
+qX
+
+k=0
+
+q k!(N1L
+
+(q) k + N2R
+
+(q) k ) (9)
+
+where N1, N2, L(q)k and R(q)k are known functions of a, b, Y + * and *. So they depend on the two parameters Q0 and \Lambda [6]. We found, as discussed below, the best agreement for the "limiting spectrum", where the two parameters coincide, Q0 = \Lambda , i.e., * = 0. In this case, the formulae simplify and the moments can be expressed[6] in terms of the parameter
+
+B j a=b and the variable z j q16NcY =b as:
+
+! ,q ?
+
+Y q = P
+
+(q) 0 (B + 1; B + 2; z) + 2z I
+
+B+2(z)
+
+IB+1(z) P
+
+(q) 1 (B + 1; B + 2; z) (10)
+
+where P (q)0 and P (q)1 are polynomials of order 2(q \Gamma 1) in z. These moments have an expansion ! ,q ? =Y q = c(q)0 + c(q)1 =pY + : : : 3. The higher orders of this series are still numerically sizeable at LEP energies (10% contribution from NNLO to _, and oe2) and increase towards lower energies. We therefore included the full expression, also for P (q)i ; explicit results for the moments for q ^ 3 can be found in [6] and for q = 4 in [15]. The average multiplicity of partons (zeroth-order moment of the inclusive momentum spectrum) for the Limiting Spectrum is given by:
+
+_NLS = \Gamma (B) ` z2 '
+
+1\Gamma B I
+
+B+1(z) : (11)
+
+This expression does not fulfill the boundary condition _N (0) = 1. Therefore in our fits we added a constant term4.
+
+3We checked that _, and oe2 agree in NLO and s in LO with the result obtained by Fong and Webber[5], i.e., agreement of ! ,q ? in NLO.
+
+4The general solution considered in [6] yields dD!=dY fifi
+
+Y =0= \Gamma B=*; therefore the multiplicity for
+
+4
+
+Moment analysis for fixed ffs. In order to study the sensitivity of the inclusive energy distribution to the running of the coupling, let us build a new model based again upon the
+
+MLLA but with the coupling ffs or, equivalently, the anomalous dimension fl0 = q6ffs=ss, kept fixed as a free parameter replacing \Lambda . In this case, the evolution equation for the Mellin transform, D!(Y; *), eq. (4), becomes:
+
+! + ddY ! ddY D!(Y; *) \Gamma fl20D!(Y; *) = \Gamma j ! + ddY ! D!(Y; *) : (12) One can then perform explicitly the inverse Mellin transform
+
+@2D(,; Y; *)
+
+@,@Y +
+
+@2D(,; Y; *)
+
+dY 2 \Gamma fl
+
+20D(,; Y; *) = \Gamma 2j @D(,; Y; *)
+
+@, \Gamma 2j
+
+@D(,; Y; *)
+
+@Y (13)
+
+Through the simple transformation: D(,; Y; *) = ~D(,; Y; *) exp[\Gamma 2j(Y \Gamma ,)], one gets rid of the linear terms and ~D(,; Y; *) obeys eq. (13) with j = 0, i.e., the DLA equation. Using its known solution[2], we find for the inclusive energy spectrum in MLLA with fixed-ffs
+
+D(,; Y; *) = fl0s Y \Gamma ,, I1`2fl0q,(Y \Gamma ,)'e\Gamma 2j(Y \Gamma ,) (14) The exact form of cumulants can also be obtained in a straightforward way from the evolution equation for the anomalous dimension fl! given in eq. (6). For fixed ffs, the first term on the r.h.s. drops out; we obtain an algebraic equation with two solutions fl!\Sigma and we find:
+
+D!(Y; *) = fl!\Gamma fl
+
+!\Gamma \Gamma fl!+ e
+
+fl!+Y + fl!+
+
+fl!+ \Gamma fl!\Gamma e
+
+fl!
+
+\Gamma Y (15)
+
+fl!\Sigma = 12 ^\Gamma (! + 2j) \Sigma q(! \Gamma 2j)2 + 4fl20 * (16) The results for the moments can be obtained easily from eq. (7); for example, we find for the average multiplicity _Nfix:
+
+_Nfix = "cosh (_fl0Y ) + j_fl
+
+0 sinh (_fl0Y )# exp (\Gamma jY ) (17)
+
+with _fl0 j qfl20 + j2; it reduces for j = 0 to the well-known DLA result cosh(fl0Y ), and for the first moment
+
+_,fix = [A cosh (_fl0Y ) + B sinh (_fl0Y )] exp (\Gamma jY )_N
+
+fix (18)
+
+where A = Y (_fl20 + j2)=2_fl20 and B = (2_fl20 (jY \Gamma 1) \Gamma j2)=2_fl30 . By choosing the + term in eq. (16), one selects the leading high energy contribution which also dominates the "limiting spectrum" for the running ffs model. In this limit, according to eq. (8), one gets:
+
+_Nfix = 12 1 + j_fl
+
+0 ! exp ([_fl0 \Gamma j]Y ) (19)
+
+general * has an unphysical behavior near threshold d _N (Y )=dY fifiY =0! 0 with _N (0) = 1. For * = 0,
+
+_N (0) = 0 and d _N (Y )=dY fifi
+
+Y =0? 0.
+
+5
+
+_,fix = "1 + j_fl
+
+0 #
+
+Y
+
+2 ; oe
+
+2fix = fl20
+
+4_fl30 Y (20)
+
+sfix = \Gamma 3jfl
+
+0
+
+1p _fl0Y ; kfix =
+
+3(4j2 \Gamma fl20 )
+
+fl20 _fl0
+
+1 Y (21)
+
+With j = 0, we obtain back the DLA results.
+
+3. Relating parton and hadron spectra In the theoretical calculations, we take the partons as massless, but introduce a pt cutoff Q0 for regularization; on the other hand, the observable hadrons are massive. One can make the assumption that the cutoff Q0 is related to the masses of hadrons. As a first stage in the discussion of charged particle spectra, one can relate Q0 to an effective hadron mass[12], then for both partons and hadrons E * Q0. Furthermore we relate the spectra
+
+Eh dn(,E)dp
+
+h = E
+
+p dn(,
+
+E)
+
+dpp ; Eh = Ep * Q0 (22)
+
+at the same energy E or ,E = log P=E (not momentum!), where Eh = qp2h + Q20 and Ep = pp. With this choice both spectra vanish linearly at the same E or ,E. To see this, we note that the hadronic data behave approximately like
+
+E dnd3p , e\Gamma E=E
+
+o or E dn
+
+dp ' 8ssQ0(E \Gamma Q0)e
+
+\Gamma E=E0 (23)
+
+for sufficiently small energies (see Figure 3a below). The same linear decrease with energy towards the kinematic limit is also followed by the parton distribution, Edn=dp , log E=Q0 , (E \Gamma Q0)=Q0 (eq. (14)) and corresponds to the limited phase space with pp ? Q0.
+
+4. Results Moments. The moments ! ,q ? are determined from the spectra Edn=dp vs. ,E after appropriate transformation of the measured xp = 2p=ps spectra of charged particles using
+
+E = qp2 + Q20 and therefore depend on Q0. For the unmeasured interval near ,E ' Y (small momenta) a contribution was found by extrapolation. The error for the moments includes the errors on the central values of ,E in each bin, taken as half the bin-size. In the same way we also obtain the multiplicity _NE as integral over ,E of the full spectrum Edn=dp; its difference to the usual particle multiplicity _n depends on the c.m. energy, ranging from a decrease of 30% at ps = 3 GeV to a decrease of 10% at LEP energy5. First we perform a fit of the two parameters Q0 and \Lambda by comparing the moments determined for a selected Q0 with the theoretical predictions from eq. (9) of different \Lambda . The best agreement is obtained for
+
+Q0 ' \Lambda ' 270 MeV (24)
+
+5the MARK I data point at ps = 4.03 GeV shows an anomalous decrease up to 50%, which may be partly related to charm thresholds effects.
+
+6
+
+and we estimate \Delta Q0 ' \Delta \Lambda ' 20 MeV. The cumulants up to order 4 together with the corresponding MLLA predictions are shown in Figure 1. We also analyzed in the same way results from ADONE[17] at ps = 1.6 GeV which however reports only charged pions and therefore cannot necessarily be considered on the same ground as the other data. Nevertheless it is interesting to observe that the results follow smoothly the trend of the higher energy data, in particular _,E = 0:53 \Sigma 0:07 and oe2 = 0:07 \Sigma 0:02. Errors of the cumulants are taken as the sum of statistical and systematic errors. The latter particularly affects the overall normalization and then the average multiplicity; higher order cumulants are on the contrary independent of the overall normalization. The LEP average has been obtained by following the PDG procedure[18] for weighted averages. The MLLA predictions are calculated for the number of flavors nf = 3. Including the heavy flavors at scale P=4 as discussed above would lower the prediction of oe2 at LEP by two std. and by less than one std. at lower energies; likewise the effect on _,E, s, and k is negligible.
+
+The result Q0 ' \Lambda ("limiting spectrum") follows, as an increase of * = log(Q0=\Lambda ) would predict lower values for _,E but larger values for oe2. These changes cannot be cured by a lowering of Q0, which would shift both _,E and oe2 downwards. This can be seen from the first two terms in the expansion of _,E and oe2: _, = Y =2 + ab(pY + * \Gamma p*)=24 and oe2 = ((Y + *)3=2 \Gamma *3=2)=6b \Gamma bY =96. For the multiplicity we write _NE = c1 49 2 _NLS + c2 with arbitrary normalization parameters for _NLS in eq. (11) (the factor 4=9 is for the quark jet and 2 is for the two hemispheres) and the leading particle contribution. Fitting the lowest and highest energy data points we find c1 = 1:43 and c2 = 1:02.
+
+We have not been able to obtain a satisfying description for the fixed-ffs case. We show in Fig. 1 one illustrative example for the same Q0 = 270 MeV and fl0 = 0.64 (with nf = 3). With this choice for fl0 one obtains a good fit for the multiplicity, where we proceed as above and we write _NE = c1 49 2 _Nfix + c2 using eq. (17). In this case c1 = 3:10 and c2 = -1.24. Also the asymptotic slope for _,E is well reproduced. An adjustement of the absolute normalization of the moments _,E at a particular energy Y0 is possible if the PQCD evolution towards lower energies and the normalization at threshold are abandoned.
+
+The predictions from MLLA with running ffs and normalization at threshold are remarkably successful considering the fact that there are only two parameters, actually coinciding, for the four moments. A deviation is visible for _,E at the lower energies; this may indicate the influence of the leading valence quark which is neglected by restricting to the D+ spectrum. Otherwise the predictions are confirmed at an almost quantitative level down to the lowest energy where charged particle spectra are measured. Also the log _NE data show a clear downward bending predicted from the running ffs if the lower energy data points are included. The distinction from the fixed ffs case would however require still higher energies. Excluding the lowest two data points of _,, we find an overall O/2=N DF ' 1:8.
+
+On the other hand, the same model but with fixed coupling only fits the data on _NE and the slope of _,E but fails otherwise. A fixed ffs regime can be excluded already close to threshold. Indeed, if we suppose that the coupling is fixed for a certain energy interval near threshold 0 ^ Y ^ Y1 and only runs for Y ? Y1, then _, would be shifted towards smaller values because of the very different evolution near threshold; for example for Y1 = 0.3 (ps ' 0.7 GeV) the shift would be \Delta _, ' 0:25, considerably away from the data. Also, if we restrict the discussion to higher energies, one cannot fit the higher moments with the same parameter fl0 used for _NE and _,E, as can be better seen from the rescaled
+
+7
+
+cumulants. Rescaled cumulants. In addition to the standard moment analysis performed in the previous subsection, we also consider the rescaled cumulants ^q= _,. These quantities become energy independent in case of fixed coupling (see eq. (8)) at high energies and therefore exhibit more directly the difference to the case of running coupling. In Figure 2 we show the experimental results on these ratios which have a considerable Y -dependence and are well reproduced by MLLA with running ffs in the available energy range. The Figure also shows the effect of including the heavy quarks at scale P=4 as discussed above. It would be interesting to continue this type of studies with data from jets of higher energies, where the MLLA predictions for these ratios continue to show a remarkable dependence on Y .
+
+Low-energy behavior: Boltzmann factor and running-ffs effect. Let us consider the Lorentz-invariant distribution Edn=d3p as a function of the particle energy E for small energies (up to 1 GeV). Experimental data from low energy experiments show an exponential decrease as in eq. (23) with E0 of the order of 150 MeV[19, 17, 20]. This behavior is often related to the Boltzmann factor in the thermodynamical description of multiparticle production as, for example, in Hagedorn's model[21].
+
+Figure 3a shows experimental data on the invariant distribution at three different c.m. energies. All three distributions tend to a common behavior at very low energies E, but deviations from a simple exponential are visible at larger c.m. energies. In Figure 3b, we also show the theoretical predictions for the MLLA with running and fixed ffs at ps = 3 GeV. The running-ffs prediction has been obtained by using the distorted Gaussian parametrization as in [5] with the first four moments computed for the "limiting spectrum" with the same value of Q0. The fixed-ffs curve is obtained from the exact solution for the energy spectrum given in eq. (14) again with fl0 = 0.64. Both theoretical predictions are then normalized to the experimental average multiplicity.
+
+It is remarkable that the MLLA with running ffs is in agreement with experimental data even at such a low energy; the exponential decrease is well reproduced by the runningffs effect, which mimics a thermodynamical behavior. On the contrary, the fixed-ffs model shows a flatter behavior, inconsistent with experimental behavior. As for decreasing particle energy E also the typical particle pT is necessarily decreasing, the coupling ffs(pT =\Lambda ) is rising in the running ffs case. This yields the steeper slope in comparison to the fixed ffs case. Therefore the running of the QCD coupling is visible even in the energy range of few hundreds MeV in the particle spectra.
+
+The behavior near the kinematical limit E ! Q0 can be easily understood analytically in the DLA. The first iteration of the evolution equation of the energy spectra[2] (the Born term) yields a finite contribution for E ! Q0 and does not depend on c.m. energy whereas the second term provides the rise of the spectrum for large E with increasing ps for both fixed and running ffs[15] in qualitative agreement with Figure 3a. For the ratios of invariant cross sections, I(E) j Edn=d3p, we find for small E:
+
+Irun(E)
+
+Ifix(E) =
+
+12 *bfl20 1 \Gamma
+
+1 2
+
+log E=Q0
+
+* + : : :! (25)
+
+There is a large relative enhancement of this ratio from the running of ffs at small E ?, Q0 followed by a steep decrease for typical parameters (12=bfl20 ' 4:3 for fl0 = 0.64, * ! 1), as the pt integral of the Born term is dominated by small values of pt ! E and therefore large coupling ffs(pt).
+
+8
+
+5. Conclusions and final remarks The dependence on c.m. energy of the experimental first four order moments of the inclusive log 1=x distribution is well reproduced by the MLLA of perturbative QCD applied to the full c.m. energy region down to threshold. We found that the best agreement with data is for the limiting spectrum, where Q0 = \Lambda ; the best value of Q0 has been estimated to be around 270 MeV and corresponds to an effective mass of a charged particle. The zero-th order moment, i.e., the average multiplicity, requires two more parameters which fix the overall normalization for particle production and the leading particle contribution. The effect of the running ffs is most pronounced near threshold where the variation of the coupling is strongest; it is also directly seen in the steepness of the slope of the invariant energy spectrum at low particle energies E !, 1 GeV. Predictions of the same model but with fixed coupling are inconsistent with the experimental behavior in the full energy range. We take the evidence for the running ffs effects at low energies E and ps as further support for the local parton hadron duality hypothesis.
+
+The distribution of particles at low energies ps !, 3 GeV is not just according to phase space: the running ffs enhances configurations with collimated partons. At the hadronic level such configurations correspond to hadronic resonances which are known to dominate the final states already at these low energies. It is therefore suggested to consider a duality between partonic and hadronic distributions already at low energies. The running ffs with strong coupling at small pT seems to be related to the production of resonances.
+
+A word of caution is appropriate nevertheless. The MLLA results used here are based on certain high energy approximations which might not be fully justified at low energies (restriction to D+ contribution, neglect of Next-to-Next-to-Leading effects). A deviation in _, at 3 GeV could hint towards a need of further contributions. Also two loop effects, whose importance increases towards lower energies, have been neglected in the calculation. At the price of introducing new parameters one could of course restrict the comparison with data to an energy range Y * Y0 ? 0 above threshold. At any rate, the high energy approximations work well for energies ?, 3 GeV, where data on charged particle distributions have been presented.
+
+The higher moments q * 2 show a remarkable energy dependence in the energy range above the LEP experiments. This suggests that the analysis of hadronic jets along these lines at the TEVATRON at ten times higher energies or at future colliders should be able to test the proper running of ffs towards much higher energies.
+
+6. Acknowledgements Helpful discussions with V. A. Khoze, S. Pokorski and D. V. Shirkov are gratefully acknowledged. One of us (S.L.) would like to thank D.A.A.D. for financial support.
+
+9
+
+References
+
+[1] A. Bassetto, M. Ciafaloni, G. Marchesini, Phys. Rep. 100 (1983) 202
+
+[2] Yu.L. Dokshitzer, V.A. Khoze, A.H. Mueller, S.I. Troyan, Rev. Mod. Phys. 60 (1988)
+
+373; Basics of Perturbative QCD", Editions Fronti`eres, Gif-sur-Yvette CEDEXFrance (1991)
+
+[3] Yu. L. Dokshitzer, V. S. Fadin, V. A. Khoze, Phys. Lett. B115 (1982) 242; Z. Phys.
+
+C15 (1982) 325
+
+[4] A. Bassetto, M. Ciafaloni, G. Marchesini, A. H. Mueller, Nucl. Phys. B207 (1982) 189 [5] C. P. Fong and B. R. Webber, Nucl. Phys. B355 (1991) 54 [6] Yu. L. Dokshitzer, V. A. Khoze and S. I. Troyan, Int. J. Mod. Phys. A7 (1992) 1875 [7] TASSO Coll., W. Braunschweig et al., Z. Phys. C47 (1990) 187 [8] OPAL Coll., M. Z. Akrawy et al., Phys. Lett. B247 (1990) 617 [9] L3 Coll., B. Adeva et al., Phys. Lett. B259 (1991) 199 [10] ALEPH Coll., D. Buskulic et al., Z. Phys. C55 (1992) 209 [11] DELPHI Coll., P. Abreu et al., Phys. Lett. B347 (1995) 447 [12] Ya. I. Azimov, Yu. L. Dokshitzer, V.A. Khoze, S.I. Troyan, Z. Phys. C27 (1985) 65;
+
+Z. Phys. C31 (1986) 213
+
+[13] ZEUS Coll., M. Derrick et al., Z. Phys. C67 (1995) 93; [14] H1 Coll., S. Aid et al., Nucl. Phys. B445 (1995) 3; [15] S. Lupia and W. Ochs, paper eps0803 submitted to Int. Europhysics Conference on
+
+High Energy Physics, Brussels, 27.7-2.8.1995
+
+[16] Yu. L. Dokshitzer, D. V. Shirkov, Z. Phys. C67 (1995) 449 [17] ADONE Coll., B. Esposito et al., Lett. Nuovo Cimento 19 (1977) 21 [18] L. Montanet et al., Phys. Rev. D50 (1994) 1173 [19] DASP Coll., R. Brandelik et al., Phys. Lett. B67 (1977) 358 [20] MARK I Coll., J. L. Siegrist et al., Phys. Rev. D26 (1982) 969 [21] R. Hagedorn, Nuovo Cimento Suppl. 3 (1965) 147
+
+10
+
+Figure Captions Fig. 1: The average multiplicity _NE and the first four cumulants of charged particles' energy spectra Edn=dp vs. ,E, i.e., the average value _,E, the dispersion oe2, the skewness s and the kurtosis k, are shown as a function of Y = log(ps=2Q0) for Q0 = 270 MeV. Data points from MARK I[20] at ps = 3, 4.03, 7.4 GeV, TASSO[7] at ps = 14, 22, 35, 44 GeV and LEP at ps = 91.2 GeV (weighted averages of ALEPH[10], DELPHI[11], L3[9] and OPAL[8]). Predictions of the "limiting spectrum" (i.e. Q0 = \Lambda ) of MLLA with running ffs and of MLLA with fixed ffs are also shown (for nf = 3). Predictions of the average multiplicity refer to the two-parameter formula _NE = c1 492 _N + c2. Fig. 2: Rescaled cumulants ^q= _, as a function of Y = log(ps=2Q0) with the corresponding predictions of the "limiting spectrum" of MLLA with running ffs either without or with heavy flavors included. Data as in Figure 1. For fixed ffs these quantities approach constant values at high energies. Fig. 3: Invariant distribution Edn=d3p as a function of the particle energy E for Q0 = 270 MeV. a): experimental results from MARK I[20], TASSO[7] and OPAL[8]; b): comparison of experimental data from MARK I[20] with predictions from MLLA with running ffs and with fixed ffs at the same energy.
+
+11
+
+Q0 = 270 MeV
+
+running ffs fixed ffs
+
+log _NE
+
+MARK I TASSO LEP
+
+_,E
+
+oe2 s k
+
+0 1 2 3 4
+
+0 1 2 3
+
+0 0.4 0.8 1.2 1.6
+
+-1
+
+0
+
+-1
+
+0
+
+0 1 2 3 4 5 6
+
+Y = log(ps=2Q0)
+
+Figure 1
+
+12
+
+oe2_ ,E
+
+\Gamma ^4_,
+
+E
+
+\Gamma ^3_,
+
+E
+
+Q0 = 270 MeV MLLA running ffs
+
+nf = 3 nf = 3, 4, 5
+
+0 0.1 0.2 0.3 0.4 0.5
+
+0 1 2 3 4 5 6 7 8
+
+Y
+
+Figure 2
+
+13
+
+E dnd3p [GeV
+
+\Gamma 2]
+
+a)
+
+3 MARK I 3 GeV 4 TASSO 14 GeV \Lambda OPAL 91 GeV
+
+0.01
+
+0.1
+
+1 10
+
+0.25 0.5 0.75 1
+
+E [GeV]
+
+E dnd3p [GeV
+
+\Gamma 2]
+
+b)
+
+3 MARK I 3 GeV
+
+running ffs fixed ffs
+
+0.01
+
+0.1
+
+1 10
+
+0.25 0.5 0.75 1
+
+E [GeV]
+
+Figure 3
+
+14
+

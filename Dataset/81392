@@ -1,0 +1,2790 @@
+
+
+ 21 Mar 94
+
+PSU/TH/141 
+
+THE RENORMALIZATION OF COMPOSITE
+
+OPERATORS IN YANG-MILLS THEORIES
+
+USING GENERAL COVARIANT GAUGE
+
+\Lambda
+
+John C. Collins y
+
+and Randall J. Scalise z
+
+Department of Physics
+
+104 Davey Laboratory The Pennsylvania State University
+
+University Park, PA 16802
+
+March 21, 1994
+
+Abstract Essential to QCD applications of the operator product expansion, etc., is a knowledge of those operators that mix with gauge-invariant operators. A standard theorem asserts that the renormalization matrix is triangular: Gauge-invariant operators have `alien' gauge-variant operators among their counterterms, but, with a suitably chosen basis, the necessary alien operators have only themselves as counterterms. Moreover, the alien operators are supposed to vanish in physical matrix elements. A recent calculation by Hamberg and van Neerven apparently contradicts these results. By explicit calculations with the energy-momentum tensor, we show that the problems arise because of subtle infra-red singularities that appear when gluonic matrix elements are taken on-shell at zero momentum transfer.
+
+\Lambda Available by anonymous ftp at ftp.phys.psu.edu:pub/preprint/psuth141.ps.Z.uu
+
+ye-mail: collins@phys.psu.edu ze-mail: scalise@phys.psu.edu
+
+1 Historical Introduction Much phenomenology in QCD requires the use of the operator product expansion [1-3] and many generalizations such as `factorization theorems' [4]. Among the ingredients are matrix elements of particular gauge-invariant operators, which correspond to parton densities (or distribution functions). The properties of these operators under renormalization are vital to all QCD calculations, and one serious complication arises because gauge-invariant operators mix1 with certain gauge-variant (non-gauge-invariant) operators. The renormalization directly determines the phenomenologically important anomalous dimensions of the operators--generally used in the form of Altarelli-Parisi splitting coefficients.
+
+The extra operators that mix with the gauge-invariant operators are unphysical--we will call them `alien' operators. It has been known since the earliest days of QCD that one must demonstrate that these alien operators do not contribute to physics. Three theorems apply to the decoupling: One is that a basis can be chosen such that the alien operators are BRST-exact. Next, physical matrix elements of BRST-exact operators are zero. The last theorem is a trivial consequence of the second: The renormalization mixing matrix is triangular--alien operators do not mix with the physical operators. The theorems to establish this have been proven in their strongest form by Joglekar and Lee [5] and more recently by Henneaux [6].
+
+Unfortunately, recent calculations by Hamberg and van Neerven [7, 8] contradict these general theorems. Their results therefore throw into doubt the basis of all higher order perturbative QCD calculations. Our purpose in this paper is to resolve this contradiction between the theorem and the calculations. We will show that the contradiction is only apparent, and that it arises from certain subtle infra-red (IR) problems that are unluckily intrinsic to the usual algorithms for doing perturbative QCD calculations. However, the problem of efficiently performing practical calculations is left for future work.
+
+The immediate motivation for the calculations by Hamberg and van Neerven was a long-standing 1Multiplicative renormalization is not sufficient to remove the infinities from Green functions of arbitrary composite operators; counterterms corresponding to different operators are needed.
+
+2
+
+discrepancy between calculations of the two-loop anomalous dimensions of the twist-2 covariant gluon operators in Feynman gauge [9-11] and the light-like axial gauge [12]. Since these anomalous dimensions are measurable, calculations performed in different gauges should agree, and this can readily be shown by the methods of [13], provided that one assumes the Joglekar-Lee theorem.
+
+Hamberg and van Neerven repeated the Feynman gauge calculation and discover that the older calculations [9-11] are in error because they assumed the applicability of the theorem that the renormalization matrix is triangular. Hamberg and van Neerven show that the renormalization matrix appears to be non-triangular. Their calculation supports the otherwise dubious light-cone gauge result and is in accord with supersymmetry arguments [8].
+
+The roots of this failure are already present in the one-loop part of the calculation. Although Hamberg and van Neerven do not remark on it, their calculation shows that the finite part of a physical matrix element of their alien operator is nonzero at one-loop order, contradicting the second of the Joglekar-Lee results mentioned previously. They perform their calculation for the whole tower of twist-2 covariant gluon operators, but the problems are present for the simplest of these operators, the energy-momentum tensor `_* , for which the renormalization theory was worked out by Freedman, Muzinich and Weinberg [14, 15]. The alien operators in that analysis are not manifestly the same as those used by Hamberg and van Neerven. The form of `_* given by Freedman et al. is in agreement with the general theorems of Joglekar and Lee and of Henneaux. However, the gauge-variant operators used by Hamberg and van Neerven are obtained from the analysis of Dixon and Taylor; it is not evident that these operators are BRST-exact.
+
+This is where we start: A sufficiently detailed analysis of the energy-momentum tensor at oneloop order is enough to locate the source of the contradiction. We will verify that at one-loop order, the renormalization given by Freedman et al. is in fact correct. However, the one-loop gluonic matrix element of the alien operator fails to vanish at zero momentum transfer.2; 3 We will
+
+2The momentum transfer is defined to be the sum of the momenta flowing into the inserted operator vertex. 3Harris and Smith in a recent preprint [16] calculate a nonzero gauge dependence for the gluonic matrix element
+
+of the gauge-invariant part of `_* at nonzero momentum transfer. This is again in contradiction with the general theorems.
+
+3
+
+find that the source of this incongruity is an infra-red divergence, but the divergence is not in the calculation of the matrix element. Rather, it is a quadratic divergence in the proof that the matrix element vanishes.
+
+The source of the divergence makes it clear that the proof of the theorem on the vanishing of the alien operators should be correct when one applies it to physical states. The problem arises when one considers matrix elements in an off-shell gluon state and then takes the gluon on-shell.
+
+But this clearly threatens the rationale for the usual methods of doing perturbative QCD calculations. Moreover, the renormalization matrix that Hamberg and van Neerven calculated and found to be non-triangular presumably includes some infra-red renormalization, contrary to what should be done.
+
+In Section 2, we state the Joglekar-Lee theorems. In Section 3, we list our conventions for pure-gauge Yang-Mills theory. In Section 4, we give the results of the one-loop calculation of two-point Green functions with the energy-momentum tensor operator inserted at zero momentum transfer and derive the renormalization mixing matrix. The calculation at nonzero momentum transfer is currently underway. The off-shell results, as well as the physical matrix elements, will be reported in the near future. The Appendix contains: a brief discussion of `right derivatives'; the full Lorentz tensor structure of the two-gluon Green functions, which are abbreviated in the text, with a separation into leading- and higher-twist pieces; a list of the Feynman graphs with composite operator insertions used in the calculations; and the Feynman rules for the operator vertices considered in this paper.
+
+2 Renormalization of Gauge-Invariant Operators In this section, we state the three theorems that Joglekar and Lee [5] proved on the renormalization of gauge-invariant operators. In [13], the theorems are stated and all the easy parts are proven.
+
+Let Gi denote a set of gauge-invariant operators that mix under renormalization, and let Ai denote the set of alien operators with which they mix under renormalization. (We define `alien' to
+
+4
+
+mean `not gauge-invariant'.) Finally, let Ei denote the set of operators that vanish by use of the equations of motion4 and with which the previous two sets of operators mix under renormalization.
+
+The first of the Joglekar-Lee results is that the basis of the alien operators Ai that mix with gauge-invariant operators can be chosen so that they are all BRST-exact, i.e., they can be written as5
+
+Ai ss ffiBRSTBi ; (2:1)
+
+where we will call Bi the `ancestor' of Ai.
+
+The second theorem is that physical matrix elements of the BRST-exact alien operators, ffiBRSTBi, are zero.
+
+The last of the theorems is that the renormalization mixing matrix is triangular:0
+
+BBBBBBB BBBB@
+
+R[G]
+
+R[A] R[E]
+
+1CCCC CCCCCCC A
+
+=
+
+0BBBB BBBBBBB @
+
+ZGG ZGA ZGE
+
+0 ZAA ZAE 0 0 ZEE
+
+1CCCC CCCCCCC A
+
+0BBBB BBBBBBB @
+
+G A E
+
+1CCCC CCCCCCC A
+
+: (2:2)
+
+Of these theorems, the hardest to prove is the first. It can easily be shown that all counterterms to BRST-invariant operators are themselves BRST-invariant [13]. Then one must prove that any BRST-invariant operator is a linear combination of gauge-invariant operators and BRST-exact operators. Up to operators that vanish by the equations of motion, this is supposed to be proven by Joglekar and Lee [5], but we find that proof very hard to understand. A simpler proof on the basis of cohomology theory is presented by Henneaux in [6].
+
+A simple proof of the last two theorems is given in [13]. The vanishing of physical matrix elements of the alien operators follows from a simple Ward identity involving the BRST variation
+
+4Matrix elements of Ei must vanish, but Green functions of Ei do not. 5We use the convention of [17], where the wavy equal sign means that the relation is only true after one or more
+
+of the equations of motions have been used.
+
+5
+
+(also called a Slavnov-Taylor identity), once one knows that only BRST-exact operators are needed. This result trivially generalizes to show that Green functions of these alien operators with BRSTinvariant operators are zero. BRST-invariant operators include gauge-invariant operators and the BRST-exact operators that comprise all our alien operators.
+
+The third theorem, on the triangularity of the renormalization matrix, immediately follows [13]. If any on-shell, physical matrix element of an unrenormalized operator in class A is to vanish, then its pole piece must also vanish on shell.6 Since at least some of the physical matrix elements of any gauge-invariant operator are non-vanishing, it follows that the entry ZAG must be zero; no operators in class G can mix with the operator in class A. Similarly, ZEG and ZEA in the bottom row of the mixing matrix must be zero because an unrenormalized operator in class E must vanish by the equations of motion, therefore its pole part must also vanish by the equations of motion.
+
+Note that at the level of pure Feynman graph calculations, a physical matrix element is one with the gluon polarizations being purely transverse and with the states being on-shell quarks or on-shell gluons.
+
+Prior to the work of Joglekar and Lee, it was shown by Freedman, Muzinich, and Weinberg [14, 15] how to construct a finite energy-momentum tensor for gauge theories. Their operator can readily be seen to satisfy the first Joglekar-Lee theorem, as we will explain later.
+
+The problem we now face is that the calculations by Hamberg and van Neerven appear to violate all of the above theorems.
+
+3 Yang-Mills Conventions In this section, we list some common objects in Yang-Mills theory to exhibit our conventions and notation, but also because some, such as the energy-momentum tensor, play a pivotal r^ole throughout this article.
+
+6`Pole' in this context means a singularity as the dimension of space-time is varied. We are assuming the use of minimal subtraction with dimensional regularization to perform the renormalization (see Section 3.5).
+
+6
+
+3.1 Lagrangian Density The effective Lagrangian density of pure-gauge Yang-Mills theory in general covariant gauge is, in terms of unrenormalized (bare) fields and parameters (designated by hats),
+
+L(x) = \Gamma 14 ^F _*a (x) ^F_* a(x) \Gamma 12 ^*[@ \Delta ^Aa(x)][@ \Delta ^Aa(x)] + [@_ ^ja(x)][ ^D_(x)^!(x)]a; (3:1) where the antisymmetric field strength tensor is given by
+
+^F _*a (x) j @_ ^A*a(x) \Gamma @* ^A_a (x) \Gamma ^gcabc ^A_b (x) ^A*c (x) (3:2)
+
+and the covariant derivative acts on fields in the adjoint representation of the group as follows
+
+[ ^D_(x)^!(x)]a j ^D_ ac(x)^!c(x) j [@_ffiac \Gamma ^gcabc ^A_ b(x)]^!c(x) = @_ ^!a(x) \Gamma ^gcabc ^A_ b(x)^!c(x): (3:3) We are defining the Grassmann field ^ja(x) to be the anti-ghost and the Grassmann field ^!a(x) to be the ghost. The parameter ^g is the coupling strength, cabc are the structure constants of the underlying Lie algebra SU (N ), and ^* is the arbitrary gauge-fixing parameter in general covariant gauge. The color indices in the adjoint representation a; b; c; : : : range from 1 to N 2 \Gamma 1.
+
+3.2 Euler-Lagrange Equations of Motion The Euler-Lagrange equations of motion, using right derivatives for the Grassmann variables7 are
+
+@rLeff
+
+@\Phi a \Gamma @_
+
+@rLeff @(@_\Phi a) = 0; (3:4)
+
+where
+
+\Phi a 2 f ^A* a; ^!a; ^jag: (3:5)
+
+7See Section A.1 in the Appendix for a discussion of right derivatives.
+
+7
+
+We have
+
+( ^D_ ^F _* )a + ^*@*@ \Delta ^Aa + ^gcabc(@* ^jb)^!c = 0; (3:6a)
+
+( ^D_@_ ^j)a = 0; (3:6b) @_( ^D_ ^!)a = 0: (3:6c)
+
+3.3 BRST Symmetry The gauge-fixed effective Lagrangian density is not gauge-invariant but is invariant under the following global symmetry [18]
+
+ffiBRST ^A_ a= ( ^D_ ^!)acffi,;
+
+ffiBRST ^!a= \Gamma 12 ^gcabc ^!b ^!ccffi,;
+
+ffiBRST ^ja= ^*@ \Delta ^Aacffi,:
+
+(3:7)
+
+Here, cffi, is a constant parameter with Grassmann parity 1, that is it anticommutes with the (anti)ghost field components (and the fermion field components, if there were any), but commutes with everything else. We introduce the notation
+
+ffirBRSTc
+
+ffi, (3:8)
+
+in analogy with the right derivatives for Grassmann variables to mean that cffi, is commuted or anticommuted to the extreme right and then removed. This variation, called the BRST variation, is a symmetry of the Lagrangian density, Eq. (3.1), since the change in the Lagrangian density is a four-divergence, without invoking the equations of motion
+
+ffirBRSTc
+
+ffi, L = \Gamma
+
+^*@_[( ^D_ ^!)a@ \Delta ^Aa]: (3:9)
+
+8
+
+The important property of nilpotence,
+
+ffi2BRST(Anything) = 0; (3:10) holds only after using one of the equations of motion, Eq. (3.6c), which will be called the `trivial equation of motion' in what follows.8
+
+3.4 Energy-Momentum Tensor The symmetric, conserved energy-momentum stress tensor density can be constructed from the canonical tensor by using Belinfante's procedure [20, 21]. This is also the tensor proven by Freedman, Muzinich, and Weinberg [14, 15] to have finite Green functions with renormalized external fields. It is
+
+`_* =\Gamma g_* L \Gamma ^F_ae a ^F ae* a
+
+\Gamma g_* ^*@ae( ^Aae a@ \Delta ^Aa) + ^*( ^A_ a@* @ \Delta ^Aa) + ^*( ^A* a@_@ \Delta ^Aa) +(@_ ^ja)( ^D* ^!)a + (@* ^ja)( ^D_ ^!)a = `*_:
+
+(3:11)
+
+The gauge-invariant piece is
+
+`(GI)_* = 14 g_* ^F aessa ^Faess a \Gamma ^F_ae a ^F ae* a: (3:12) 8If the Lagrangian formulation with the Nakanishi-Lautrup field is used, as in [18] and [19], no equations of motion are needed to demonstrate the nilpotence of the BRST variation.
+
+9
+
+The gauge-variant piece is everything else,
+
+`(GV )_* =`_* \Gamma `(GI)_*
+
+=\Gamma g_* [^*@ae( ^Aae a@ \Delta ^Aa) \Gamma 12 ^*(@ \Delta ^Aa)(@ \Delta ^Aa) + (@ae ^ja)( ^Dae ^!)a]
+
++^*( ^A_ a@* @ \Delta ^Aa) + ^*( ^A* a@_@ \Delta ^Aa) +(@_ ^ja)( ^D* ^!)a + (@* ^ja)( ^D_ ^!)a:
+
+(3:13)
+
+The gauge-variant piece of the energy-momentum tensor is the BRST variation of an `ancestor' operator
+
+dancestor i`(GV )_* j = (@* ^ja) ^A_ a + (@_ ^ja) ^A* a \Gamma g_* [ 12 ^ja@ \Delta ^Aa + (@ae ^ja) ^Aaea]; (3:14)
+
+since
+
+ffirBRSTc
+
+ffi, dancestor i`
+
+(GV ) _* j = `(
+
+GV ) _* \Gamma 12 g_* ^ja@
+
+ae( ^Dae ^!)a (3:15)
+
+and the last term vanishes by the trivial equation of motion, Eq. (3.6c). The ancestor operator defined above is not finite, that is it does not have finite Green functions with all renormalized fields. In Section 4.4 we present the finite ancestor operator after introducing the `renormalized BRST variation'.
+
+The BRST variation of the GV piece vanishes (up to the trivial equation of motion) because of the nilpotence of the BRST transformation. We say that a gauge-variant operator such as `(GV )_* is BRST-exact if it has an ancestor. The BRST variation of the GI piece vanishes without using the equations of motion because the BRST variation of the gluon field is based on the gauge transformation of that same field, so any gauge-invariant quantity is automatically BRST-invariant.
+
+10
+
+3.5 Renormalization We use multiplicative renormalization
+
+^A_ a= Z
+
+12
+
+A A_ a
+
+^!a= Z
+
+1 2! !a
+
+^ja= Z
+
+12
+
+j ja
+
+^*= Z** (It is known that Z* = Z\Gamma 1A to all orders)
+
+^g= Zgg_ffl
+
+(3:16)
+
+and dimensional regularization in 4 \Gamma 2ffl space-time dimensions with the Modified Minimal Subtraction (MS) scheme.9 See [13] for a thorough treatment of the subject.
+
+The Lagrangian density, Eq. (3.1), can be written in terms of renormalized fields and parameters.
+
+9Hamberg and van Neerven work in 4 + ffl dimensions.
+
+11
+
+This is the same Lagrangian density so the same symbol, L, is used to represent both quantities10
+
+L =\Gamma 14 F _*a F_* a \Gamma 12 *(@ \Delta Aa)(@ \Delta Aa) + (@_ja)(D_!)a
+
+\Gamma 14 ffiZII (@_A* a \Gamma @*A_ a)(@_A*a \Gamma @*A_a) + 12 ffiZIII g_fflcabc(@_A* a \Gamma @* A_ a)A_b A*c \Gamma 14 ffiZIV g2_2fflcabccadeA_ bA* cA_d A*e \Gamma 12 (Z*ZA \Gamma 1)*(@ \Delta Aa)(@ \Delta Aa) +ffiZ0 (@_ja)@_!a \Gamma ffiZI g_fflcabc(@_ja)A_b !c;
+
+(3:17)
+
+where
+
+Z0j Z
+
+12
+
+! Z
+
+12 j
+
+ZI j Z
+
+1 2
+
+A Z
+
+1 2! Z
+
+1 2j Zg
+
+ZII j ZA ZIII j Z
+
+3 2
+
+A Zg
+
+ZIV j Z2AZ2g
+
+(3:18)
+
+Notice that the renormalized coupling g is dimensionless and that we have introduced a parameter _ with the dimensions of mass. The renormalization constants ffiZi j Zi \Gamma 1 have been given Roman subscripts which label the number of gauge fields in the counterterm vertex.
+
+Since the coupling is universal, the three different interaction vertices have associated renor10Some authors use the term `renormalized Lagrangian density,' but it is not always clear what is meant.
+
+12
+
+malization constants related by the following `renormalization constant Ward identities' :
+
+Zg = ZI Z\Gamma
+
+1 2
+
+A Z
+
+\Gamma 10 = Z
+
+IIIZ
+
+\Gamma 32 A = Z
+
+1 2 IV Z\Gamma 1A (3:19)
+
+In the Minimal Subtraction (MS) renormalization scheme, the counterterms are the negative of the pole part only, with no finite component. In the Modified Minimal Subtraction (MS) scheme, the ubiquitous Euler's constant, flE, and the natural logarithms of 4ss are absorbed into a new renormalization mass parameter, __, defined by
+
+__ j _ ` 4ssefl
+
+E '
+
+1 2 : (3:20)
+
+Applied under dimensional regularization, the counterterms in either scheme are proportional to 1ffl .
+
+We list the multiplicative renormalization constants in the MS scheme to the order needed for an O(g2) calculation of the Green functions considered in this paper
+
+Z0= 1 + 1ffl g
+
+2
+
+16ss2 CA ^
+
+1 2 +
+
+1 4 `1 \Gamma
+
+1 * '* + O(g
+
+4)
+
+ZA= 1 + 1ffl g
+
+2
+
+16ss2 CA ^
+
+5 3 +
+
+1 2 `1 \Gamma
+
+1 * '* + O(g
+
+4)
+
+Z*= 1 \Gamma 1ffl g
+
+2
+
+16ss2 CA ^
+
+5 3 +
+
+1 2 `1 \Gamma
+
+1 * '* + O(g
+
+4) = Z\Gamma 1
+
+A
+
+Zg= 1 + O(g2)
+
+(3:21)
+
+where C(A) = N for the gauge group SU (N ). 3.6 (Modified) LSZ Reduction The residue of the propagator pole is used in the LSZ (for Lehmann, Symanzik, and Zimmermann) reduction formula to derive the S-matrix from Green functions. The basic idea is that the S-matrix is obtained from the asymptotic behavior of Green functions for large times (t ! \Sigma 1), and this
+
+13
+
+behavior is governed by the singularities of the external propagators. We use a modified version of this procedure to handle the infra-red divergent logarithms that appear in this massless theory.11
+
+Let \Sigma (p) be the self-energy. Then
+
+\Sigma oeo/gluon(p)ffiab j i 0@ ffffffffff \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Phi \Phi \Phi \Phi \Phi
+
+oe,a
+
+p ) \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff
+
+o/ ,b p )ae ssoe , \Phi \Phi \Phi \Phi
+
+\Phi \Phi \Phi
+
+\Phi \Phi \Phi \Phi
+
+\Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi
+
+\Phi
+
+\Phi \Phi HHH H HHH
+
+H HHH
+
+H H
+
+HHHH H H H H
+
+H H 1A ; (3:22a)
+
+\Sigma ghost(p)ffiab j i 0@ -a
+
+p ) -
+
+b p )ae ssoe , \Phi \Phi \Phi \Phi
+
+\Phi \Phi \Phi
+
+\Phi \Phi \Phi \Phi
+
+\Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi
+
+\Phi
+
+\Phi \Phi HHH H HHH
+
+H HHH
+
+HH
+
+HHHH H H H H
+
+H H 1A ; (3:22b)
+
+where the cross-hatched blob represents all one-particle irreducible amputated graphs, including counterterms so that the blob has no ultra-violet (UV) divergences. We isolate the p2 dependence, defining \Pi (p2) by
+
+\Sigma oeo/gluon(p) = (p2goeo/ \Gamma poepo/ )\Pi (p2); (3:23)
+
+noting that the gluon self-energy is purely transverse due to a Ward identity [13].
+
+In a massless theory, the singularities in propagators, as a function of p2, are not simple poles after higher order corrections are included.
+
+The dressed propagators are then
+
+Doeo/ab (p) j iffiabp2 + iffl ae\Gamma goeo/ 11 + \Pi (p2) + p
+
+oepo/
+
+p2 + iffl "i1 \Gamma
+
+1 *j \Gamma \Pi (
+
+p2)
+
+1 + \Pi (p2) #)
+
+\Gamma !
+
+p2 ! 0 \Gamma iffi
+
+abc2gluongoeo/
+
+p2 + iffl +
+
+iffiab~c2gluonpoepo/
+
+(p2 + iffl)2 ;
+
+(3:24a)
+
+and
+
+Dab(p) j iffiabp2 \Gamma \Sigma
+
+ghost(p) + iffl
+
+\Gamma !
+
+p2 ! 0 iffi
+
+abc2ghost
+
+p2 + iffl ; (3:24b)
+
+where c2 is the residue of the propagator pole (the coefficient of p2 in the denominator). To one-loop
+
+11We do not have a complete justification of our algorithm.
+
+14
+
+order, the gluon self-energy is
+
+\Sigma oeo/gluon(p) = g
+
+2
+
+16ss2 CA ip
+
+2goeo/ \Gamma poepo/ j
+
+8?????????? ??!????? ???????:
+
+\Gamma 14 i1 \Gamma 1* j
+
+2
+
++ i1 \Gamma 1*j "1 + 12 ln \Gamma p
+
+2
+
+__2 !#
+
+\Gamma 319 + 53 ln \Gamma p
+
+2
+
+__2 !
+
+9?????????? ??=????? ???????;
+
++ O(g4); (3:25)
+
+which implies that
+
+\Pi (p2) = g
+
+2
+
+16ss2 CA
+
+8?????????? ??!????? ???????:
+
+\Gamma 14 i1 \Gamma 1*j
+
+2
+
++ i1 \Gamma 1* j "1 + 12 ln \Gamma p
+
+2
+
+__2 !#
+
+\Gamma 319 + 53 ln \Gamma p
+
+2
+
+__2 !
+
+9?????????? ??=????? ???????;
+
++ O(g4); (3:26)
+
+and the ghost self-energy to one-loop order is
+
+\Sigma ghost(p) = g
+
+2
+
+16ss2 CAp
+
+2 "1 \Gamma 1
+
+2 ln
+
+\Gamma p2
+
+__2 ! \Gamma
+
+1 4 `1 \Gamma
+
+1 * ' ln
+
+\Gamma p2
+
+__2 !# + O(g
+
+4): (3:27)
+
+The singularities in the propagators are not simple poles, but the leading power, with logarithmic corrections, is governed by the large-time behavior of the propagator. So to define the residue we use the following formulae, which would be valid when the physical masses are nonzero:
+
+c2gluon= 24 @@p2 fp2[1 + \Pi (p2)]gfifififi
+
+p2=m2physical35
+
+\Gamma 1
+
+= 1 \Gamma g
+
+2
+
+16ss2 CA ae\Gamma 14 i1 \Gamma 1* j
+
+2 + i1 \Gamma 1
+
+*j h32 + 12 ln i
+
+\Gamma p2
+
+__2 ji \Gamma 169 + 53 ln i
+
+\Gamma p2
+
+__2 joefifififip2=0 + O(g4);
+
+(3:28a)
+
+15
+
+and
+
+c2ghost= 241 \Gamma @\Sigma ghost(p)@p2 fifififi
+
+p2=m2physical35
+
+\Gamma 1
+
+= 1 \Gamma g
+
+2
+
+16ss2 CA ni1 \Gamma
+
+1 * j h 14 + 14 ln i
+
+\Gamma p2
+
+__2 ji \Gamma
+
+12 + 12 ln i \Gamma p2
+
+__2 jofififip2=0 + O(g4):
+
+(3:28b)
+
+We do not calculate ~c2gluon because it is not used in this paper. It is important to refrain from taking the on-shell limit (p2 ! 0) until the IR divergent logarithms above have cancelled algebraically with similar logarithms in the amputated Green functions which are being converted to S-matrix elements.
+
+We have generalized the notion of residue to include the IR divergent terms that arise in a massless theory. Notice that we are extracting the residue of the propagator pole by taking the partial derivative of the denominator with respect to p2 at p2 = 0, rather than simply dividing the denominator by p2. The partial derivative extracts that piece of the IR-divergent logarithm which is proportional to p2. This piece is necessary to ensure, for example, that the two-gluon matrix element of the energy-momentum tensor, Eq. (4.2), is IR-finite on shell and equal to its correct value.
+
+3.7 Covariant Gluon Operator In [8], Hamberg and van Neerven calculate the anomalous dimension of the covariant gluon operator to two-loop order, O(ff 2S ), with all free Lorentz indices contracted with a null-vector \Delta . This selects the highest-spin part of the operator and eliminates the need to calculate the trace terms.
+
+The covariant gluon operator is
+
+O_1:::_mg (x) = 12 im\Gamma 2S[ ^F ae_1c1 (x) ^D_2c1c2 (x) ^D_3c2c3 (x) : : : ^D_m\Gamma 1cm\Gamma 1cm (x) ^F _mae cm (x)] + trace terms; (3:29) where S denotes symmetrization of the Lorentz indices _i and the trace terms make the operator traceless under all possible contractions of the free Lorentz indices in pairs. The ci are color indices
+
+16
+
+in the adjoint representation.
+
+Hamberg and van Neerven's gauge-invariant operator is
+
+O(m)g = O_1:::_m \Delta _1 : : : \Delta _m ; (3:30) where \Delta is light-like. In units such that c = 1 = _h, the mass-dimension of this operator grows linearly with m,
+
+[O(m)g ] = m + 2 (3:31)
+
+Selecting the highest-spin piece is equivalent to selecting the lowest twist, since
+
+twist j mass-dimension \Gamma spin: (3:32) All operators of the form above, Eq. (3.30), are twist-2.
+
+The simplest case (m = 2) of the covariant gluon operator, Eq. (3.29), gives, up to a multiplicative factor, the gauge-invariant part of the energy-momentum tensor, Eq. (3.12)
+
+O_*g = 12 ^F _aea ^F *ae a \Gamma 18 g_* ^F aessa ^Faess a = \Gamma 12 `(GI) _* : (3:33) We study this case because of the relative simplicity of the calculation, but also because the gauge-variant operators which mix with it are supposed to be known [14, 15]; they are the gaugevariant operators in the energy-momentum tensor, Eq. (3.13). No other operators are required. The gauge-variant operators for our special case also happen to be those given by the Joglekar-Lee prescription. We calculate the trace terms mentioned in Eq. (3.29) explicitly even though they are higher-twist.
+
+The specific case m = 2 of Hamberg and van Neerven's operator, Eq. (3.30), is
+
+O(2)g = O_*g \Delta _\Delta * = 12 ^F _ae a ^F *aea \Delta _\Delta * : (3:34)
+
+17
+
+Hamberg and van Neerven use a basis of operators given by Dixon and Taylor [22] before the BRST symmetry was fully developed. For the case m = 2, their alien operator does not correspond to our GV operator (Eq 3.13). The basis of operators that they chose to mix with their GI operator, Eq. (3.34), is
+
+O(2)alien = ( ^F ae_a ^Dae ab ^A*b + ^ja@_@* ^!a)\Delta _\Delta * + O(g2); (3:35)
+
+where
+
+O_*alien = 12 [ ^F ae_a ^Dae ab ^A*b + ^F ae*a ^Dae ab ^A_b ] + ^ja@_@* ^!a + terms proportional to g_* + O(^g2)
+
+= 12 [ ^F ae_a ( ^Dae ^A*)a + ^F ae*a ( ^Dae ^A_)a] + ^ja@_@* ^!a + terms proportional to g_* + O(^g2):
+
+(3:36)
+
+This operator is not BRST-exact, in fact its BRST variation does not vanish.
+
+We can give a schematic form for the operators which are BRST ancestors to the alien operators of highest twist that mix with the GI operators for all even moments m simply by counting massdimension and twist, and by requiring an SU (N ) singlet.
+
+dancestor \Gamma O_1:::_malien \Delta =
+
+m
+
+2 \Gamma 1X
+
+i=0
+
+C(m)i S 24(^j \Delta ^A_1)
+
+iY
+
+j=1
+
+( ^A_2j \Delta ^A_2j+1 )
+
+m\Gamma 2i\Gamma 1Y
+
+k=1
+
+(@_m\Gamma k+1)35 + O(g);
+
+(3:37) where S denotes symmetrization of the Lorentz indices and the coefficients C(m)i are arbitrary (they are determined as a result of the renormalization). The derivatives may act on any combination of the fields. The dot products represent contractions over color indices. The alien operators obtained from these ancestors, of course, have vanishing BRST variation (modulo the trivial equation of motion), because of the nilpotence of that variation.
+
+Some examples should clarify the notation. The ancestor of the twist-2 GV part of energymomentum tensor (second moment of the covariant gluon operator) in schematic form is
+
+dancestor \Gamma O_1_2alien\Delta = C(2)0 [^ja ^A_1a @_2 + ^ja ^A_2a @_1] + O(g): (3:38)
+
+18
+
+Compare this with the twist-2 part of Eq. (3.14). The fields upon which the partial derivatives act are not specified in the schematic form. The arbitrary constant C(2)0 can be absorbed into entries of the renormalization mixing matrix. The O(g) terms turn out to be unnecessary.
+
+The dimension-6 GI operator (fourth moment of the covariant gluon operator) is
+
+O_1_2_3_4g = \Gamma 12 S[ ^F ae_1c1 ^D_2c1c2 ^D_3c2c3 ^F _4ae c3 ] + trace terms: (3:39) The BRST ancestor of the GV operators that mix with the twist-2 (highest-twist) part of the GI operator above is
+
+dancestor \Gamma O_1_2_3_4alien \Delta = C(4)0 S[^ja ^A_1a @_2@_3@_4 ] + C(4)1 S[^ja ^A_1a ^A_2b ^A_3b @_4] + O(g): (3:40)
+
+Again, the partial derivatives may act on any combination of the fields. Only one of the two arbitrary constants may be absorbed into the mixing matrix; the ratio C
+
+(4) 0
+
+C(4)1 is determined by the
+
+renormalization of O_1_2_3_4g .
+
+4 Results of the Calculation at Zero Momentum Transfer The results in this section were obtained under the possibly questionable operation12 of first taking the limit of zero momentum transfer, before any of the Feynman diagrams are evaluated. The software package used was the symbolic manipulator, FORM [23], written by J.A.M. Vermaseren. We now evaluate Green functions of various pieces of the energy-momentum tensor first with two gluon fields, then with one ghost field and one anti-ghost field.
+
+The fields in the inserted operators are bare, while the external gluon and ghost legs are renormalized as usual, since it is the renormalized fields that interact and are loop-corrected. This differs from Hamberg and van Neerven's calculation in which the external fields as well as the fields in the
+
+12One might be suspicious of interchanging the order of the limit as the momentum transfer goes to zero with the other limits involved in the renormalization procedure.
+
+19
+
+inserted operator are bare. The two calculations therefore differ by factors of some multiplicative renormalization constants, Eq. (3.21).
+
+4.1 Green Functions of `_* with Two Gluon Fields While we give the pole pieces in their entirety, the finite parts have been simplified for clarity in presentation. The full tensor structure can be found in the Appendix, where we also list the twist-2 (spin-2) piece of the operators.
+
+4.1.1 Entire Energy-Momentum Tensor Consider the amputated gluon two-point Green function with the entire energy-momentum tensor, Eq. (3.11), inserted at zero momentum transfer. The external gluon fields have not been contracted with physical polarization vectors, we have not multiplied by the modified LSZ residue of the gluon propagator pole, and the external momenta have not been put on shell. This is what we will mean by an off-shell gluon Green function in the sections that follow. Explicit calculation gives
+
+h0jT Aoe a`_* Ao/ bj0iAmputated =p_p* goeo/ ffiab
+
+0BBBB BBBBBBB B@
+
+\Gamma 2 + g
+
+2
+
+16ss2 CA
+
+8?????????? ??!????? ???????:
+
+12 i1 \Gamma 1
+
+*j
+
+2
+
+\Gamma i1 \Gamma 1*j "3 + ln \Gamma p
+
+2
+
+__2 !#
+
++ 329 \Gamma 103 ln \Gamma p
+
+2
+
+__2 !
+
+9?????????? ??=????? ???????;
+
+1CCCC CCCCCCC CA
+
++UV-finite terms that vanish on shell + O(g4):
+
+(4:1)
+
+Notice that this object is UV-finite. A glance at Eq. (A.2) in the Appendix will satisfy the reader that the terms not included above are also UV-finite, even off shell. The UV-finiteness supports the results of Freedman et al. [14, 15] on the renormalization of the symmetric energy-momentum tensor. Also, since there is no pole, the contribution to the anomalous dimension is zero.
+
+Taking into account Hamberg and van Neerven's different dimensional regularization prescrip20
+
+tion (dimension 4 + ffl instead of 4 \Gamma 2ffl) and their use of bare fields instead of renormalized fields for the external legs, our result contracted with light-like vectors, Eq. (A.3), agrees with theirs.
+
+We now do what Hamberg and van Neerven argue, quite reasonably, in their paper is impossible. We construct a matrix element between massless gluon states, but to do so we use the modified LSZ prescription described in Section 3.6.
+
+Contracting with physical polarization vectors, using the modified LSZ residue of the gluon propagator pole, c2gluon in Eq. (3.28a), and putting the external momenta on shell, we get the relatively simple S-matrix element
+
+hffl1; p; aj`_*jffl2; p; bi = \Gamma 2p_p* ffiabffl\Lambda 1 \Delta ffl2 + O(g4); (4:2) where we have used the fact that ffli is a physical polarization vector satisfying
+
+p \Delta ffli = 0 i = 1; 2: (4:3) The physical state jffli; p; ai is meant to represent an on-shell gluon of momentum p, polarization vector ffli, and color a.
+
+The modified LSZ procedure eliminates the IR divergent logarithms even before the external momenta are taken on shell. The result Eq. (4.2) is not surprising since `_* is the conserved Noether current and
+
+P* j Z d3x `0*(x) (4:4)
+
+is the Noether charge. It measures the physical (non-IR-divergent) energy-momentum in a state. A correct calculation should show that all the higher-order corrections to the right-hand side of Eq. (4.2) vanish.
+
+In the next two sections, we examine the GI and GV pieces separately.
+
+21
+
+4.1.2 Gauge-Invariant Part Consider now the amputated off-shell gluon two-point Green function with only the gauge-invariant piece of the energy-momentum tensor, Eq. (3.12), inserted at zero momentum transfer. Explicit calculation gives
+
+h0jT Aoe a`(GI)_* Ao/ bj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab
+
+8?????! ?????:
+
+p2(\Gamma 12 goeo/ g_* + goe_go/* + goe* go/_)
+
+\Gamma 12 (po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_* )
+
+9?????= ?????;
+
++p_p* goeo/ ffiab
+
+0BBBB BBBBBBB B@
+
+\Gamma 2 + g
+
+2
+
+16ss2 CA
+
+8?????????? ??!????? ???????:
+
+i
+
+1 \Gamma 1* j
+
+2
+
+\Gamma i1 \Gamma 1* j "6 + ln \Gamma p
+
+2
+
+__2 !#
+
++ 869 \Gamma 103 ln \Gamma p
+
+2
+
+__2 !
+
+9?????????? ??=????? ???????;
+
+1CCCC CCCCCCC CA
+
++UV-finite terms that vanish on shell + O(g4):
+
+(4:5)
+
+There is a UV pole in Eq. (4.5), but this UV divergence vanishes on shell with physical polarizations.
+
+A further clue that we have performed the calculation correctly is the fact that Eq. (A.4) satisfies the following Ward identity
+
+poepo/ h0jT Aoe a`_* Ao/ bj0iAmputated = 0: (4:6) If we now put this result on mass-shell and use the modified LSZ procedure to derive the S-matrix element, we get
+
+hffl1; p; aj`(GI)_* jffl2; p; bi = p_p*ffiabffl\Lambda 1 \Delta ffl2 (\Gamma 2 + g
+
+2
+
+16ss2 CA "
+
+1 2 `1 \Gamma
+
+1 *'
+
+2
+
+\Gamma 3 `1 \Gamma 1* ' + 6#) + O(g4):
+
+(4:7) Notice that this physical matrix element of a gauge-invariant operator depends on the gauge-fixing
+
+22
+
+parameter, *. Also, the GI part is not equal to the total, so we must calculate the GV part. 4.1.3 Gauge-Variant (Alien) Part Consider the amputated off-shell gluon two-point Green function with only the gauge-variant piece of the energy-momentum tensor, Eq. (3.13), inserted at zero momentum transfer. Explicit calculation gives
+
+h0jT Aoe a`(GV )_* Ao/ bj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab
+
+8?????! ?????:
+
+p2( 12goeo/ g_* \Gamma goe_go/* \Gamma goe*go/_)
+
++ 12 (po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*)
+
+9?????= ?????;
+
++p_p*goeo/ ffiab g
+
+2
+
+16ss2 CA ae\Gamma 12 i1 \Gamma 1* j
+
+2 + 3 i1 \Gamma 1
+
+* j \Gamma 6oe
+
++UV-finite terms that vanish on shell + O(g4):
+
+(4:8)
+
+The pole terms cancel between the GI and GV parts off shell. On shell, each pole piece vanishes individually.
+
+Going on-shell and using the modified LSZ procedure, we get the S-matrix element
+
+hffl1; p; aj`(GV )_* jffl2; p; bi = p_p*ffiabffl\Lambda 1 \Delta ffl2 g
+
+2
+
+16ss2 CA "\Gamma
+
+1 2 `1 \Gamma
+
+1 * '
+
+2
+
++ 3 `1 \Gamma 1*' \Gamma 6# + O(g4): (4:9)
+
+Notice that the finite part of the physical matrix element does not vanish. But, `(GV )_* is BRSTexact, as we observed, and there is a general theorem that BRST-exact operators have vanishing physical matrix elements. Thus, we know that we have a contradiction with general theorems.
+
+Hamberg and van Neerven have a similar result implicit in their formulae (they did not remark on it), but since their alien operators are not BRST-exact, physical matrix elements of their alien operators would not be expected to vanish.
+
+23
+
+4.2 Green Functions of `_* with One Ghost Field and One Anti-Ghost Field 4.2.1 Entire Energy-Momentum Tensor We have just seen that the two-gluon matrix element of the gauge-variant part of the energymomentum tensor is nonzero. Since `(GV )_* is BRST-exact, this contradicts a crucial part of the theory on the renormalization of gauge-invariant operators and so we cannot take for granted any of the results of this theory, but must verify the results.
+
+In particular, we need to verify the finiteness at one-loop order of Green functions of the energymomentum tensor. The previous section has established this for the gluon two-point Green function and in this section we verify finiteness for the ghost-anti-ghost Green function.
+
+All the necessary counterterms are determined by the formula for `_* ; they are obtained by expanding `_* in terms of renormalized fields by Eq. (3.16).
+
+Consider the amputated off-shell ghost two-point Green function with the entire energy-momentum tensor, Eq. (3.11), inserted at zero momentum transfer. Explicit calculation gives
+
+h0jT !a`_* jbj0iAmputated =ffiab(2p_p* \Gamma p2g_* )
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8??????! ??????:i
+
+1 \Gamma 1* j ( 12 "1 + ln \Gamma p
+
+2
+
+__2 !# p_p* \Gamma
+
+14 ln \Gamma p2
+
+__2 ! p
+
+2g_*)
+
++ "\Gamma 1 + ln \Gamma p
+
+2
+
+__2 !# p_p* + "1 \Gamma
+
+12 ln \Gamma p2
+
+__2 !# p
+
+2g_*
+
+9??????= ??????;
+
++O(g4):
+
+(4:10)
+
+Using the modified LSZ residue of the ghost propagator pole, c2ghost in Eq. (3.28b), and putting the external momenta on shell, we get the comparatively simple S-matrix element
+
+hp; aj`_*jp; bi = 2p_p*ffiab + O(g4); (4:11) which is correct for the expectation value of `_* in a properly normalized state of momentum p.
+
+24
+
+Here the state vector jp; ai is meant to represent an on-shell ghost of momentum p and color a. Again, although we only performed the one-loop calculation, all higher-order corrections should vanish.
+
+The twist-2 (spin-2) piece of the amputated Green function Eq. (4.10) above in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta , is
+
+h0jT !a\Delta _`_* \Delta * jbj0iAmputated =
+
+(p \Delta \Delta )2ffiab 2 + g
+
+2
+
+16ss2 CA ( 12 i1 \Gamma 1* j "1 + ln
+
+\Gamma p2
+
+__2 !# \Gamma 1 + ln
+
+\Gamma p2
+
+__2 !)! + O(g
+
+4):
+
+(4:12)
+
+4.2.2 Gauge-Invariant Part Consider now the amputated off-shell ghost two-point Green function with only the gauge-invariant piece of the energy-momentum tensor, Eq. (3.12), inserted at zero momentum transfer. Explicit calculation gives
+
+h0jT !a`(GI)_* jbj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab(p_p* \Gamma
+
+14p2g_* )
+
++ g
+
+2
+
+16ss2 CAffiab ("1 \Gamma ln
+
+\Gamma p2
+
+__2 !# p_p* +
+
+14 ln \Gamma p2
+
+__2 ! p
+
+2g_*) + O(g4):
+
+(4:13) The twist-2 (spin-2) piece of this amputated Green function in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta , is
+
+h0jT !a\Delta _`(GI)_* \Delta *jbj0iAmputated = (p \Delta \Delta )2 g
+
+2
+
+16ss2 CAffiab "
+
+1
+
+ffl + 1 \Gamma ln
+
+\Gamma p2
+
+__2 !# + O(g
+
+4): (4:14)
+
+4.2.3 Gauge-Variant (Alien) Part Consider the amputated off-shell ghost two-point Green function with only the gauge-variant piece of the energy-momentum tensor, Eq. (3.13), inserted at zero momentum transfer. Explicit calcula25
+
+tion gives h0jT !a`(GV )_* jbj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab(\Gamma p_p* + 14 p2g_*)
+
++ffiab(2p_p* \Gamma p2g_* )
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8??????! ??????:i
+
+1 \Gamma 1* j ( 12 "1 + ln \Gamma p
+
+2
+
+__2 !# p_p* \Gamma
+
+14 ln \Gamma p2
+
+__2 ! p
+
+2g_*)
+
++2 "\Gamma 1 + ln \Gamma p
+
+2
+
+__2 !# p_p* + "1 \Gamma
+
+34 ln \Gamma p2
+
+__2 !# p
+
+2g_*
+
+9??????= ??????;
+
++O(g4):
+
+(4:15)
+
+Notice that the pole terms cancel between the GI and GV pieces.
+
+The twist-2 (spin-2) piece of this amputated Green function in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta , is
+
+h0jT !a\Delta _`(GV )_* \Delta * jbj0iAmputated =
+
+(p \Delta \Delta )2ffiab 2 + g
+
+2
+
+16ss2 CA (\Gamma 1ffl + 12 i1 \Gamma 1* j "1 + ln
+
+\Gamma p2
+
+__2 !# \Gamma 2 + 2 ln
+
+\Gamma p2
+
+__2 !)! + O(g
+
+4):
+
+(4:16)
+
+4.3 Renormalization Mixing Matrix If we do not require a priori that the matrix be triangular, then the most general form is0
+
+BBBBBBB BBBB@
+
+R h`(GI)_* i R h`(GV )_* i
+
+R [E_* ]
+
+1CCCC CCCCCCC A
+
+=
+
+0BBBB BBBBBBB @
+
+ZGG ZGA ZGE ZAG ZAA ZAE
+
+0 0 ZEE
+
+1CCCC CCCCCCC A
+
+0BBBB BBBBBBB @
+
+`(GI)_* `(GV )_*
+
+E_*
+
+1CCCC CCCCCCC A
+
+; (4:17)
+
+26
+
+where the operator of class E, which vanishes by the equations of motion (Eqs. 3.6) and mixes with the operators in the energy-momentum tensor, is
+
+E_* =ffiab ^A_ c[( ^Dae ^F ae* )c + ^*@*@ \Delta ^Ac + ^gcade(@* ^jd)^!e]
+
++ffiab ^A* c[( ^Dae ^F ae_)c + ^*@_@ \Delta ^Ac + ^gccde(@_ ^jd)^!e] \Gamma 12 ffiabg_* ^Ass c[( ^Dae ^F aess)c + ^*@ss@ \Delta ^Ac + ^gccde(@ss ^jd)^!e] + 12 ffiabg_* [( ^Dae@ae ^j)c]^!c ff + 12 ffiabg_* ^jc[@ae( ^Dae ^!)c] (1 \Gamma ff):
+
+(4:18)
+
+Like the fields in the energy-momentum tensor, the fields in the operator E_* above are bare. The parameter ff in the last two lines above is free to vary between 0 and 1 since the matrix elements considered are not sufficient to distinguish between the equations of motion for the ghost and antighost fields.
+
+We find that the following elements of the mixing matrix are compatible with both the two-gluon and two-ghost projections:
+
+ZGG= 1 + O(g3)
+
+ZGA= \Gamma 12 1ffl g
+
+2
+
+16ss2 CA + O(g3)
+
+ZGE= 12 1ffl g
+
+2
+
+16ss2 CA + O(g3)
+
+ZAG= O(g3)
+
+ZAA= 1 + 12 1ffl g
+
+2
+
+16ss2 CA + O(g3)
+
+ZAE= \Gamma 12 1ffl g
+
+2
+
+16ss2 CA + O(g3)
+
+ZEE= 1 + O(g2):
+
+(4:19)
+
+27
+
+The renormalization mixing matrix is triangular to O(g2). We do not calculate ZEE beyond the tree level.
+
+4.4 BRST Ward Identity (Slavnov-Taylor Identity) We have seen that the gauge-variant part of the energy-momentum tensor is nonzero in an on-shell matrix element. However, the gauge-variant part of the energy-momentum tensor is BRST-exact, in accordance with general theory and a very simple proof states that physical matrix elements of such operators vanish [13].
+
+In this section, we resolve the contradiction. The proof that physical matrix elements of BRSTexact operators vanish proceeds by using a Ward identity based on the BRST variation to relate the matrix element under study to a particular Green function of the ancestor operator of the BRST-exact operator. This Green function has a manifest factor of zero when put on shell, but the zero is compensated by a quadratic infra-red divergence present only when the matrix element of the ancestor operator is evaluated at zero momentum transfer, as we will now see.
+
+Let us assume that the BRST Ward identity holds for unamputated Green functions off shell, calculated at zero momentum transfer.
+
+The BRST variations of the bare fields are given in Eq. (3.7). We need the BRST variation of the renormalized fields in terms of renormalized fields and parameters. This is sometimes referred to as the `renormalized BRST variation' and is related to the canonical BRST variation by factors of the renormalization constants, Eq. (3.21). The goal in defining a renormalized BRST variation is to obtain UV finite Green functions with renormalized fields. The renormalized constant Grassmann parameter which accomplishes this goal [13] is
+
+ffi, j Z\Gamma
+
+1
+
+2A Z\Gamma
+
+1
+
+2j cffi, (4:20)
+
+28
+
+so we have
+
+ffiBRSTA_ a= 0@ Z
+
+12 !
+
+Z
+
+1 2A @
+
+_!a \Gamma ZgZ
+
+12 ! gcabcA_ b!c1A cffi, =) ffi
+
+r BRST
+
+ffi, A_ a= Z0@_!a \Gamma ZgZ0Z
+
+12 A gcabcA_ b!c
+
+ffiBRST!a= \Gamma 12 ZgZ
+
+12
+
+! gcabc!b!ccffi, =) ffi
+
+r BRST
+
+ffi, !a= \Gamma
+
+12 ZgZ0Z 12
+
+Agcabc!b!c
+
+ffiBRSTja= Z*Z
+
+1 2A
+
+Z
+
+12
+
+j
+
+*@ \Delta Aacffi, =) ffi
+
+r BRST
+
+ffi, ja= *@ \Delta Aa
+
+(4:21)
+
+The three operators ffi
+
+rBRST
+
+ffi, A_ a,
+
+ffirBRST
+
+ffi, !a, and
+
+ffirBRST
+
+ffi, ja are all finite.
+
+The finite ancestor operator is
+
+ancestor i`(GV )_* j = (@*ja)A_ a + (@_ja)A* a \Gamma g_* [ 12ja@ \Delta Aa + (@aeja)Aaea] ; (4:22) where
+
+ffirBRST
+
+ffi, ancestor i`
+
+(GV ) _* j = `(
+
+GV ) _* \Gamma 12 g_* ^ja@
+
+ae( ^Dae ^!)a : (4:23)
+
+Remember that the fields in the energy-momentum tensor operator are bare. The bare ancestor and the finite (renormalized) ancestor are related by
+
+dancestor i`(GV )_* j = Z
+
+1 2AZ
+
+1 2j ancestor i`(GV )_* j (4:24)
+
+Now, the BRST variation of any Green function vanishes. Consider the particular case
+
+ffiBRSTh0jT Aoe aancestor i`(GV )_* j Ao/ bj0i = 0: (4:25)
+
+29
+
+This gives
+
+0 = D0 fififiT [ffiBRSTAoe a]ancestor i`(GV )_* j Ao/ bfififi 0E
+
++D0 fififiT Aoe a hffiBRSTancestor i`(GV )_* ji Ao/ bfififi 0E +D0 fififiT Aoe aancestor i`(GV )_* j [ffiBRSTAo/ b]fififi 0E :
+
+(4:26)
+
+The vanishing of Eq. (4.25) and the chain rule for the BRST variation can be proven by defining the variation in terms of (anti)commutators with the Noether charge associated with the BRST symmetry [19].
+
+Equation (4.26) becomes
+
+0 =o/0 fifififiT ^`Z0@oe!a \Gamma ZgZ0Z
+
+1 2A gcadeAoe d!e' ffi,* ancestor i`(GV )_* j Ao/ bfifififi 0AE
+
++ D0 fififiT Aoe a h`(GV )_* ffi,i Ao/ bfififi 0E + D0 fififiT Aoe a h\Gamma 12 g_* ^jc@ae( ^Dae ^!)cffi,i Ao/ bfififi 0E + o/0 fifififiT Aoe aancestor i`(GV )_* j ^(Z0@o/ !b \Gamma ZgZ0Z
+
+12
+
+AgcbdeAo/ d!e)ffi,*fifififi 0AE :
+
+(4:27)
+
+The constant Grassmann parameter, ffi,, can be factored out of Eq. (4.27) above if it is anticommuted through the ancestor operator which has a Grassmann parity of 1 (because each term contains one antighost field). This is responsible for the relative minus sign below.
+
+0 = (\Gamma 1)o/0 fifififiT ^Z0@oe!a \Gamma ZgZ0Z
+
+12
+
+AgcadeAoe d!e* ancestor i`
+
+(GV )_* j A
+
+o/ bfifififi 0AE
+
++D0 fififiT Aoe a`(GV )_* Ao/ bfififi 0E +D0 fififiT Aoe a h\Gamma 12 g_* ^jc@ae( ^Dae ^!)ci Ao/ bfififi 0E +o/0 fifififiT Aoe aancestor i`(GV )_* j ^Z0@o/ !b \Gamma ZgZ0Z
+
+12
+
+A gcbdeAo/ d!e*fifififi 0AE :
+
+(4:28)
+
+30
+
+One must also keep in mind that the order of the Grassmann fields, ^j (in the ancestor operator) and ^!, in the last two lines above is opposite to the canonical ordering and that
+
+h0jT ^j^!(Operator)j0i = \Gamma h0jT ^!^j(Operator)j0i (4:29) It is now obvious that there exists an alternate calculation which will provide the two-gluon physical matrix element of `(GV )_* .D
+
+0 fififiT Aoe a`(GV )_* Ao/ bfififi 0E =o/0 fifififiT ^Z0@oe!a \Gamma ZgZ0Z
+
+1 2A gcadeAoe d!e* ancestor i`(GV )_* j Ao/ bfifififi 0AE
+
+\Gamma D0 fififiT Aoe a h\Gamma 12 g_* ^jc@ae( ^Dae ^!)ci Ao/ bfififi 0E \Gamma o/0 fifififiT Aoe aancestor i`(GV )_* j ^Z0@o/ !b \Gamma ZgZ0Z
+
+1 2AgcbdeAo/ d!e*fifififi 0AE
+
+(4:30)
+
+The usual proof that this matrix element vanishes on shell relies on the assumption that the triangle graph depicted on the bottom of page 46 in the Appendix does not contain a quadratic infra-red singularity. This graph and another like it contain an unusual vertex, one gluon and one ghost at the same space-time point. There is no external line, therefore nothing to amputate, but the amputation procedure for other graphs, which have ghost legs, requires that all diagrams be multiplied by the inverse of a ghost propagator, which of course is proportional to p2. If the diagrams contain at worst logarithmic IR divergences, then the additional factor of p2 will cause them to vanish on shell. The diagrams with an external ghost line have a derivative acting on the ghost field. In momentum space, the derivative becomes a factor of poe which gives zero when contracted with the physical polarization vector, ffloe, associated with the gluon leg.
+
+Explicit calculation of the relevant graph, with the result Eq. (A.9), shows that there is, in fact, a 1p2 divergence which cancels against the inverse of the ghost propagator introduced in the amputation procedure, as we claimed at the beginning of this section. This IR pole occurs only at zero momentum transfer.
+
+31
+
+5 Conclusion We have seen by explicit calculation that one of the central results of Joglekar and Lee, that physical matrix elements of BRST-exact operators must vanish, fails at one loop order. We give a form for the BRST ancestors of the alien operators required in the renormalization of the covariant gluon operator. Our alien operators are then manifestly BRST-exact whereas the basis of alien operators proposed by Dixon and Taylor (those used by Hamberg and van Neerven) are not BRST-exact. The Dixon and Taylor set of alien operators are not guaranteed to vanish in physical matrix elements.
+
+We have verified the predictions of Freedman et al. on the finiteness of the energy-momentum tensor in both gluon and ghost two-point functions to one loop order at zero momentum transfer by evaluating diagrams with a BRST-exact alien operator insertion.
+
+The BRST Ward identity demonstrates where the proof of the Joglekar-Lee theorem breaks down. Taking the momentum transfer to zero too soon introduces spurious infra-red divergences which cancel factors of zero on which the proof relies. Calculations performed using the Dixon and Taylor set of alien operators cannot by analyzed through the BRST Ward identity.
+
+The physical region of interest in almost all calculations involving the renormalization of composite operators, such as the calculations required in the operator product expansion, is the exceptional point of zero momentum transfer. To expedite the computation, one sets the momentum transfer to zero at the very beginning, thereby eliminating one scale from the problem. In some calculations involving final state cuts, it is not clear how one would generalize to nonzero momentum transfer.
+
+The alternative is to keep the momentum transfer arbitrary until after the Feynman graphs have been evaluated, and only then to set the momentum transfer to zero. With this procedure, the Joglekar-Lee theorem should apply, making it unnecessary to compute the graphs containing the alien operator insertion. The price to be paid, of course, is the introduction of another momentum scale into the problem and a corresponding increase in the complexity and volume of the analysis. However, it is not obvious that the limit of zero momentum transfer is the only source of contradiction with theory. A recent calculation by Harris and Smith [16] at nonzero momentum
+
+32
+
+transfer indicates that the discrepancy persists.
+
+There has been a sense of disquiet in the literature about zero momentum transfer for a long time. Joglekar mentions in the concluding section of [24] that, at the exceptional momentum point, Q = 0, matrix elements of gauge-invariant operators lose some of the properties that make them manageable at nonzero momentum transfer. C. Lee [25] works with the twist-2 piece of the energymomentum tensor to show that certain pieces of the calculation at zero momentum transfer can yield useful information, that is the coefficients of certain terms are the same, independent of the momentum transfer. He calculates only the pole terms of the two-gluon Green function at one-loop order at both zero and nonzero momentum transfer. The unease was certainly justified; some results hold while others fail utterly. It is not unreasonable to question all calculations performed when the limit of zero momentum transfer was applied initially, and such calculations are the mainstay of perturbative QCD.
+
+Acknowledgments We would like to thank Jack Smith and Brian Harris of SUNY Stonybrook and Willie van Neerven of the University of Leiden, the Netherlands, for enlightening discussions. In addition, thanks are due Laura Weinkauf of Penn State for technical help with the combinatorics of the diagrams and the FORM code.
+
+Appendix A.1 Right Derivatives Right derivatives [26] are such that
+
+@r(XY )
+
+@Z = X
+
+@rY
+
+@Z + (\Gamma 1)
+
+PY PZ ` @rX
+
+@Z ' Y; (A:1)
+
+33
+
+where PY is the `Grassmann parity' of the quantity Y . The (anti)ghost field components have Grassmann parity 1, while the c-number parameters and boson field components have Grassmann parity 0. Fermion field components would be assigned Grassmann parity 1.
+
+A.2 Complete Off-Shell Calculations for Two-Gluon Amputated Green Functions
+
+In this part of the Appendix, we give the full Lorentz structure for the amputated Green functions of the energy-momentum tensor operators with two gluon fields off mass-shell, at zero momentum transfer, to one loop order. The 1ffl poles are purely UV divergences while all of the IR divergences (as p2 ! 0) are seen as logarithms.
+
+34
+
+A.2.1 Entire Energy-Momentum Tensor
+
+h0jT Aoe a`_* Ao/ bj0iAmputated = ffiab[p2(goeo/ g_* \Gamma goe_go/* \Gamma goe*go/_)
+
+\Gamma 2p_p*goeo/ + po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_* \Gamma *(po/p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*)]
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ????????????? ????????????? ????????????? ???????! ????????????? ????????????? ????????????? ????????????? ????????????? ????:
+
+\Gamma 14 i1 \Gamma 1* j
+
+2
+
+26666 6666666 4
+
+p2(goeo/ g_* \Gamma goe_go/* \Gamma goe* go/_) \Gamma 2p_p*goeo/ + po/ p*goe_ + po/ p_goe* +poep*go/_ + poep_go/* \Gamma poepo/ g_*
+
+37777 7777777 5
+
++ i1 \Gamma 1* j
+
+26666 6666666 6666666 666664
+
+poepo/ p_p*
+
+p2
+
+\Gamma "3 + ln \Gamma p
+
+2
+
+__2 !# p_p*goeo/
+
++ "1 + 12 ln \Gamma p
+
+2
+
+__2 !#
+
+26666 6666666 4
+
+p2(goeo/ g_* \Gamma goe_go/* \Gamma goe*go/_) +po/ p*goe_ + po/ p_goe* + poep* go/_ +poep_go/* \Gamma poepo/ g_*
+
+37777 7777777 5
+
+37777 7777777 7777777 777775
+
++ 103 poepo/ p_p*p2 + " 329 \Gamma 103 ln \Gamma p
+
+2
+
+__2 !# p_p* goeo/
+
++ "\Gamma 319 + 53 ln \Gamma p
+
+2
+
+__2 !#
+
+26666 6666666 4
+
+p2(goeo/ g_* \Gamma goe_go/* \Gamma goe* go/_) +po/ p* goe_ + po/ p_goe* + poep*go/_ +poep_go/* \Gamma poepo/ g_*
+
+37777 7777777 5
+
+9?????????? ????????????? ????????????? ????????????? ????????????? ???????= ????????????? ????????????? ????????????? ????????????? ????????????? ????;
+
++O(g4)
+
+(A:2) 35
+
+To make the comparison with Hamberg and van Neerven more transparent, we present the twist-2 (spin-2) piece of this amputated Green function in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta :
+
+h0jT Aoe a\Delta _`_* \Delta * Ao/ bj0iAmputated = 2ffiab[\Gamma p2\Delta oe\Delta o/ \Gamma (p \Delta \Delta )2goeo/ + (1 \Gamma *)(p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ????????????!
+
+????????????? ????????????? ?????????:
+
+\Gamma 12 i1 \Gamma 1*j
+
+2 [\Gamma p2\Delta
+
+oe\Delta o/ \Gamma (p \Delta \Delta )2goeo/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
++ i1 \Gamma 1* j
+
+26666 6666666 6666664
+
+poepo/ (p \Delta \Delta )2
+
+p2
+
+\Gamma "3 + ln \Gamma p
+
+2
+
+__2 !# (p \Delta \Delta )
+
+2goeo/
+
++ "2 + ln \Gamma p
+
+2
+
+__2 !#
+
+26666 64
+
+\Gamma p2\Delta oe\Delta o/
+
++(p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)
+
+37777 75
+
+37777 7777777 7777775
+
++ 103 poepo/ (p \Delta \Delta )
+
+2
+
+p2 + "
+
+329 \Gamma 103 ln \Gamma p2
+
+__2 !# (p \Delta \Delta )
+
+2goeo/
+
++ "\Gamma 629 + 103 ln \Gamma p
+
+2
+
+__2 !# [\Gamma p
+
+2\Delta oe\Delta o/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
+9?????????? ????????????? ????????????=
+
+????????????? ????????????? ?????????;
+
++O(g4)
+
+(A:3)
+
+36
+
+A.2.2 Gauge-Invariant Part
+
+h0jT Aoe a`(GI)_* Ao/ bj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab[p2(\Gamma 12goeo/ g_* + goe_go/* + goe*go/_)
+
+\Gamma 12 (po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_* )]
+
++ffiab[p2(goeo/ g_* \Gamma goe_go/* \Gamma goe*go/_) \Gamma 2p_p* goeo/ + po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*]
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ????????????? ????????????? ????????????? ???!???? ????????????? ????????????? ????????????? ????????????? ?????????:
+
+\Gamma 12 i1 \Gamma 1* j
+
+2
+
+26666 6666666 4
+
+p2(goeo/ g_* \Gamma goe_go/* \Gamma goe* go/_) \Gamma 2p_p*goeo/ + po/ p*goe_ + po/ p_goe* +poep* go/_ + poep_go/* \Gamma poepo/ g_*
+
+37777 7777777 5
+
++ i1 \Gamma 1*j
+
+26666 6666666 6666666 666664
+
+2 poepo/ p_p*p2 \Gamma "6 + ln \Gamma p
+
+2
+
+__2 !# p_p*goeo/
+
++ " 52 + 12 ln \Gamma p
+
+2
+
+__2 !# (p
+
+2goeo/ g_* \Gamma poepo/ g_* )
+
++ "2 + 12 ln \Gamma p
+
+2
+
+__2 !#
+
+26666 6666666 4
+
+\Gamma p2(goe_go/* + goe*go/_) +po/ p* goe_ + po/ p_goe* +poep* go/_ + poep_go/*
+
+37777 7777777 5
+
+37777 7777777 7777777 777775
+
+\Gamma 23 poepo/ p_p*p2 + " 869 \Gamma 103 ln \Gamma p
+
+2
+
+__2 !# p_p*goeo/
+
++ "\Gamma 589 + 136 ln \Gamma p
+
+2
+
+__2 !# (p
+
+2goeo/ g_* \Gamma poepo/ g_* )
+
++ " 499 \Gamma 83 ln \Gamma p
+
+2
+
+__2 !# p
+
+2(goe_go/* + goe*go/_)
+
++ "\Gamma 8918 + 136 ln \Gamma p
+
+2
+
+__2 !# (po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/*)
+
+9?????????? ????????????? ????????????? ????????????? ????????????? ???=???? ????????????? ????????????? ????????????? ????????????? ?????????;
+
++O(g4)
+
+(A:4) 37
+
+The twist-2 (spin-2) piece of this amputated Green function in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta , is
+
+h0jT Aoe a\Delta _`(GI)_* \Delta *Ao/ bj0iAmputated = 1ffl g
+
+2
+
+16ss2 CAffiab[2p2\Delta oe\Delta o/ \Gamma (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
++2ffiab[\Gamma p2\Delta oe\Delta o/ \Gamma (p \Delta \Delta )2goeo/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ???????! ????????????? ????????????? ????:
+
+\Gamma i1 \Gamma 1* j
+
+2 \Theta \Gamma p2\Delta
+
+oe\Delta o/ \Gamma (p \Delta \Delta )2goeo/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)\Lambda
+
++ i1 \Gamma 1* j
+
+26666 664
+
+2 poepo/ (p \Delta \Delta )
+
+2
+
+p2 \Gamma "6 + ln
+
+\Gamma p2
+
+__2 !# (p \Delta \Delta )
+
+2goeo/
+
++ "4 + ln \Gamma p
+
+2
+
+__2 !# 24\Gamma p2\Delta oe\Delta o/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)35
+
+37777 775
+
+\Gamma 23 poepo/ (p \Delta \Delta )
+
+2
+
+p2 + "
+
+869 \Gamma 103 ln \Gamma p2
+
+__2 !# (p \Delta \Delta )
+
+2goeo/
+
++ " 989 \Gamma 163 ln \Gamma p
+
+2
+
+__2 !# p
+
+2\Delta oe\Delta o/
+
++ "\Gamma 899 + 133 ln \Gamma p
+
+2
+
+__2 !# (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)
+
+9?????????? ????????????? ???????= ????????????? ????????????? ????;
+
++O(g4)
+
+(A:5)
+
+38
+
+A.2.3 Gauge-Variant (Alien) Part
+
+h0jT Aoe a`(GV )_* Ao/ bj0iAmputated = \Gamma 1ffl g
+
+2
+
+16ss2 CAffiab[p2(\Gamma
+
+12goeo/ g_* + goe_go/* + goe* go/_)
+
+\Gamma 12 (po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*)] \Gamma *ffiab(po/ p*goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*)
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ????????????? ????????????? ?????????!
+
+????????????? ????????????? ????????????? ????????????? ??????:
+
+14 i1 \Gamma 1
+
+*j
+
+2
+
+26666 6666666 4
+
+p2(goeo/ g_* \Gamma goe_go/* \Gamma goe* go/_) \Gamma 2p_p* goeo/ + po/ p* goe_ + po/ p_goe* +poep*go/_ + poep_go/* \Gamma poepo/ g_*
+
+37777 7777777 5
+
++ i1 \Gamma 1* j
+
+26666 6666666 6666664
+
+\Gamma poepo/ p_p*p2 +p2(\Gamma 32 goeo/ g_* + goe_go/* + goe*go/_) +3p_p* goeo/ \Gamma po/ p* goe_ \Gamma po/ p_goe* \Gamma poep*go/_ \Gamma poep_go/* + 32poepo/ g_*
+
+37777 7777777 7777775
+
++4 poepo/ p_p*p2 \Gamma 6p_p* goeo/ + "3 \Gamma 12 ln \Gamma p
+
+2
+
+__2 !# (p
+
+2goeo/ g_* \Gamma poepo/ g_* )
+
++ "\Gamma 2 + ln \Gamma p
+
+2
+
+__2 !# p
+
+2(goe_go/* + goe* go/_)
+
++ " 32 \Gamma 12 ln \Gamma p
+
+2
+
+__2 !# (po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/*)
+
+9?????????? ????????????? ????????????? ????????????? ?????????=
+
+????????????? ????????????? ????????????? ????????????? ??????;
+
++O(g4)
+
+(A:6)
+
+39
+
+The twist-2 (spin-2) piece of this amputated Green function in which the free Lorentz indices of the inserted operator, _ and *, are contracted with a null-vector, \Delta , is
+
+h0jT Aoe a\Delta _`(GV )_* \Delta * Ao/ bj0iAmputated = \Gamma 1ffl g
+
+2
+
+16ss2 CAffiab[2p2\Delta oe\Delta o/ \Gamma (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)]
+
+\Gamma 2*ffiab(p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)
+
++ g
+
+2
+
+16ss2 CAffiab
+
+8?????????? ????????????? ??????!? ????????????? ????????????? ??:
+
+12 i1 \Gamma 1
+
+* j
+
+2 \Theta \Gamma p2\Delta
+
+oe\Delta o/ \Gamma (p \Delta \Delta )2goeo/ + (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)\Lambda
+
++ i1 \Gamma 1* j
+
+26666 6666666 4
+
+\Gamma poepo/ (p \Delta \Delta )
+
+2
+
+p2
+
++2p2\Delta oe\Delta o/ + 3(p \Delta \Delta )2goeo/
+
+\Gamma 2(p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)
+
+37777 7777777 5 +4 poepo/ (p \Delta \Delta )
+
+2
+
+p2 \Gamma 6(p \Delta \Delta )
+
+2goeo/ + "\Gamma 4 + 2 ln \Gamma p2
+
+__2 !# p
+
+2\Delta oe\Delta o/
+
++ "3 \Gamma ln \Gamma p
+
+2
+
+__2 !# (p \Delta \Delta )(poe\Delta o/ + po/ \Delta oe)
+
+9?????????? ????????????? ??????=? ????????????? ????????????? ??; +O(g4)
+
+(A:7)
+
+40
+
+A.3 Unamputated Two-Gluon Green Function of Alien Piece of the EnergyMomentum Tensor Off-Shell
+
+In order to use the BRST Ward identity (which is valid off mass-shell), we need the unamputated Green function which we obtain from the amputated Green function, Eq. (A.6), by attaching the dressed external gluon propagators, Eq. (3.24a).13
+
+h0jT Aoe a`(GV )_* Ao/ bj0i = Doeo/
+
+0
+
+ab0 (p)h0jT Aoe0 a0`
+
+(GV )_* A
+
+o/0 b0j0iAmputatedDoe
+
+0o/
+
+a0b (p)
+
+= 1ffl g
+
+2
+
+16ss2 CAffiab 1(p2)2
+
+8????????! ????????:
+
+i
+
+1 \Gamma 1* j ^2 poepo/ p_p*p2 \Gamma 12(po/ p*goe_ + po/ p_goe* + poep*go/_ + poep_go/*)*
+
++p2(\Gamma 12 goeo/ g_* + goe_go/* + goe* go/_) \Gamma 12 (po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*)
+
+9????????= ????????;
+
++ffiab 1(p2)2 26664
+
+\Gamma 4 i1 \Gamma 1*j poepo/ p_p*p2
+
++po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_*
+
+37775
+
++ g
+
+2
+
+16ss2 CAffiab 1(p2)2
+
+8?????????? ????????????? ??????????!
+
+????????????? ????????????? ???????:
+
+i
+
+1 \Gamma 1* j
+
+2 26664\Gamma
+
+poepo/ p_p*
+
+p2 +
+
+14p2(\Gamma goeo/ g_* + goe_go/* + goe* go/_)
+
++ 12 p_p*goeo/ + 14 poepo/ g_*
+
+37775
+
++ i1 \Gamma 1* j
+
+26666 66664
+
+7 poepo/ p_p*p2 \Gamma p2(\Gamma 32 goeo/ g_* + goe_go/* + goe*go/_)
+
+\Gamma 12 (po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/*) \Gamma 3p_p*goeo/ \Gamma 32poepo/ g_*
+
+37777 77775
+
++ "\Gamma 1609 + 203 ln \Gamma p
+
+2
+
+__2 !#
+
+poepo/ p_p*
+
+p2 + "\Gamma 3 +
+
+12 ln \Gamma p2
+
+__2 !# (p
+
+2goeo/ g_* \Gamma poepo/ g_* )
+
++ "2 \Gamma ln \Gamma p
+
+2
+
+__2 !# p
+
+2(goe_go/* + goe* go/_) + 6p_p*goeo/
+
++ " 3518 \Gamma 76 ln \Gamma p
+
+2
+
+__2 !# (po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/*)
+
+9?????????? ????????????? ??????????=
+
+????????????? ????????????? ???????;
+
++O(g4)
+
+(A:8)
+
+13The modified LSZ prescription, rather than the dressed external propagators, would have been used to go on shell.
+
+41
+
+A.4 Feynman Diagrams The following graphs contribute to the matrix elements at one-loop order. The external propagators are amputated; one-loop corrections to the legs are handled by the modified LSZ reduction procedure explained in Section 3.6 to go on shell or by attaching dressed external propagators as in Section A.3 to remain off shell. The inserted composite operator is represented by the symbol \Omega . In this section, \Omega = `_* , `(GI)_* , or `(GV )_* .
+
+A.4.1 Gluon Two-point Function The Born graph:
+
+\Omega jj
+
+jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma ` ` ` ` `\Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+The order g2 graphs:
+
+\Omega jj
+
+jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma ` ` ` ` `\Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma ffff \Theta \Delta \Theta \Delta \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta ff ff ff \Gamma \Delta \Omega ' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi jj\Theta \Lambda \Gamma \Omega \Lambda \Gamma \Psi `` \Lambda \Gamma \Delta \Omega jjj \Theta \Theta \Lambda \Gamma \Lambda \Gamma i i i\Delta \Delta \Lambda \Theta \Lambda \Theta ff \Gamma \Delta \Omega ' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi jj\Theta \Lambda \Gamma \Omega \Lambda \Gamma \Psi `` \Lambda \Gamma \Delta \Omega ''' \Theta \Theta \Gamma \Delta \Gamma \Delta ` ` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+\Omega @@
+
+@@
+
+@@
+
+R \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+`j
+
+jj \Theta \Theta \Lambda \Gamma \Lambda \Gamma
+
+oe ` `
+
+`\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+\Omega @@
+
+@@
+
+@@ I `
+
+` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+jjj \Theta \Theta \Lambda \Gamma \Lambda \Gamma -
+
+jjj \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Omega ` ` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+oe
+
+- jjj \Theta \Theta \Lambda \Gamma \Lambda \Gamma ` ` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+\Omega
+
+oe
+
+42
+
+The following diagram vanishes for zero momentum transfer, Q, but contributes in the nonzero momentum transfer case:
+
+\Omega \Lambda \Gamma \Psi `` \Lambda \Gamma \Delta ff \Gamma \Delta \Omega ' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma
+
+\Omega
+
+* Q 6= 0
+
+jjj \Theta \Theta \Lambda \Gamma \Lambda \Gamma ` ` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma The following diagram always vanishes in dimensional regularization, regardless of the momentum transfer, because the integral contains no momentum scale:
+
+\Omega \Lambda \Gamma \Psi `` \Lambda \Gamma \Delta ff \Gamma \Delta \Omega ' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma \Omega jj
+
+j \Theta \Theta \Lambda \Gamma \Lambda \Gamma ` ` `\Delta \Delta \Lambda \Gamma \Lambda \Gamma
+
+j 0 8Q
+
+43
+
+A.4.2 Ghost Two-point Function The Born graph:
+
+\Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+@@
+
+@@
+
+@@ I
+
+The order g2 graphs:
+
+\Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff ff ff ff
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+@@
+
+@@
+
+@@ I
+
+@@
+
+@@
+
+@@ I
+
+\Omega jjj j \Theta \Theta \Theta
+
+\Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+` ` ` `\Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+@@
+
+@@
+
+@@ I
+
+oe
+
+' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+@@
+
+@@
+
+@@ I
+
+oe ' ' \Gamma \Theta \Delta \Phi \Theta \Delta ff i i\Delta \Lambda \Theta \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+\Omega @@
+
+@@
+
+@@ I
+
+oe
+
+44
+
+A.4.3 The BRST Ward Identity Graphs In this section, the symbol \Omega stands for the renormalized BRST ancestor of `(GV )_* , (Eq. 4.22). The Born graph:
+
+\Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma @
+
+\Psi i i i i\Delta \Delta \Delta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+The order g2 graphs:
+
+\Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff ff ff ff
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma @
+
+\Psi
+
+i i i i
+
+i i i i
+
+i
+
+\Delta \Delta \Delta \Delta
+
+\Delta \Delta \Delta \Delta
+
+\Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda
+
+\Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Lambda \Theta
+
+The two graphs above have a derivative acting on the ghost field at the end of the external line.
+
+\Omega \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma \Gamma ip2
+
+\Psi i i\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma \Omega \Lambda \Gamma \Psi `` \Lambda \Gamma \Delta
+
+i i i i
+
+i i i i
+
+i
+
+\Delta \Delta \Delta \Delta
+
+\Delta \Delta \Delta \Delta
+
+\Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda
+
+\Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Lambda \Theta
+
+The last two graphs contain an unusual vertex (a vertex not contained in the Lagrangian density), one ghost and one gluon field at the same space-time point. Also, they are each multiplied by the inverse of a ghost propagator as part of the amputation procedure. The three graphs above vanish in physical matrix elements: the two graphs with external derivatives will be proportional to the external momentum and this contracted with the physical gluon polarization will give zero;
+
+45
+
+the graph immediately above contains a free Lorentz index in its unusual vertex and must be proportional to the external momentum as well. Only the graph below contributes to on-shell matrix elements.
+
+\Omega \Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff ff ff ffi i i i i i
+
+i i i
+
+\Delta \Delta \Delta \Delta
+
+\Delta \Delta \Delta \Delta
+
+\Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda
+
+\Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Lambda \Theta @@@@ \Gamma
+
+p; o/; b\Gamma \Gamma \Gamma \Gamma p; oe; a
+
+= 1ffl g
+
+2
+
+16ss2 CAffiabi h 112 i1 \Gamma 1*j + 14i (\Gamma 12 goeo/ g_* + goe_go/* + goe* go/_)
+
++ g
+
+2
+
+16ss2 CAffiabi
+
+8?????????? ????????????? ????????????? ???????????!
+
+????????????? ????????????? ????????????? ????????:
+
+14 i1 \Gamma 1
+
+* j
+
+2
+
+26666 6666666 4
+
+poepo/ p_p*
+
+(p2)2 +
+
+12 (\Gamma goeo/ g_* + goe_go/* + goe* go/_)
+
++ p_p*p2 goeo/ \Gamma 12 po/ p*p2 goe_ \Gamma 12 po/ p_p2 goe* \Gamma `poep*p2 go/_ + poep_p2 go/* \Gamma 12 poepo/p2 g_*'
+
+37777 7777777 5
+
++ i1 \Gamma 1* j
+
+26666 6666666 6666664
+
+\Gamma 23 poepo/ p_p*(p2)2 + " 4972 + 124 ln \Gamma p
+
+2
+
+__2 !# goeo/ g_*
+
+\Gamma " 2372 + 112 ln \Gamma p
+
+2
+
+__2 !# (goe_go/* + goe*go/_)
+
+\Gamma 1712 p_p*p2 goeo/ + 13 po/ p*p2 goe_ + 13 po/ p_p2 goe*
+
++ 56 ` poep*p2 go/_ + poep_p2 go/* \Gamma 12 poepo/p2 g_* '
+
+37777 7777777 7777775
+
++ "\Gamma 54 + 18 ln \Gamma p
+
+2
+
+__2 !# goeo/ g_* + "
+
+12 \Gamma 14 ln \Gamma p2
+
+__2 !# (goe_go/* + goe* go/_)
+
++3 p_p*p2 goeo/ \Gamma 32 ` poep*p2 go/_ + poep_p2 go/* \Gamma 12 poepo/p2 g_* '
+
+9?????????? ????????????? ????????????? ???????????=
+
+????????????? ????????????? ????????????? ????????;
+
++O(g4)
+
+(A:9)
+
+This graph plus its mirror image (oe $ o/ , a $ b, p $ \Gamma p) contribute to the two amputated
+
+46
+
+Green functions
+
+\Gamma o/0 fifififiT ^ZgZ0Z
+
+12
+
+A gcadeAoe d!e* ancestor i`
+
+(GV )_* j A
+
+o/ bfifififi 0AE
+
+Amputated
+
++ o/0 fifififiT Aoe aancestor i`(GV )_* j ^ZgZ0Z
+
+1 2AgcbdeAo/ d!e*fifififi 0AE
+
+Amputated
+
+(A:10)
+
+corresponding to the unamputated Green functions found in Eq. 4.30. The terms proportional to
+
+p_p*
+
+p2 goeo/ in the finite part ruin the proof that the physical matrix element of an alien operator must
+
+vanish.14
+
+To isolate the parts that survive on shell, we contract Eq. (A.9) with a physical gluon polarization vector, fflo/ , to obtain
+
+1
+
+ffl
+
+g2 16ss2 CAffiabi h
+
+112 i1 \Gamma 1
+
+*j + 14 i (\Gamma 12 g_*ffloe + goe_ffl* + goe*ffl_)
+
++ g
+
+2
+
+16ss2 CAffiabi
+
+8?????????? ????????????? ????????????!
+
+????????????? ????????????? ?????????:
+
+14 i1 \Gamma 1
+
+* j
+
+2 2666664
+
+12 (\Gamma g_*ffloe + goe_ffl* + goe*ffl_)
+
++ p_p*p2 ffloe \Gamma `poep*p2 ffl_ + poep_p2 ffl* '
+
+37777 75
+
++ i1 \Gamma 1*j
+
+26666 6666666 64
+
+"
+
+4972 + 124 ln \Gamma p2
+
+__2 !# g_* ffloe
+
+\Gamma " 2372 + 112 ln \Gamma p
+
+2
+
+__2 !# (goe_ffl* + goe*ffl_)
+
+\Gamma 1712 p_p*p2 ffloe + 56 ` poep*p2 ffl_ + poep_p2 ffl* '
+
+37777 7777777 75
+
++ "\Gamma 54 + 18 ln \Gamma p
+
+2
+
+__2 !# g_* ffloe + "
+
+12 \Gamma 14 ln \Gamma p2
+
+__2 !# (goe_ffl* + goe* ffl_)
+
++3 p_p*p2 ffloe \Gamma 32 ` poep*p2 ffl_ + poep_p2 ffl* '
+
+9?????????? ????????????? ????????????=
+
+????????????? ????????????? ?????????;
+
++O(g4)
+
+(A:11)
+
+14The pole piece cannot contain a 1
+
+p2 divergence because of locality.
+
+47
+
+A.5 Feynman Rules In this section, we give our conventions for the Feynman rules of common objects in pQCD and the non-standard vertices introduced in this paper.
+
+A.5.1 Propagators
+
+\Phi \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff ff _,a *,b
+
+k )
+
+= i ffiabk2 + iffl ^\Gamma g_* + `1 \Gamma 1* ' k_k*k2 + iffl * (A:12)
+
+a bk ) = i ffiab
+
+k2 + iffl (A:13)
+
+Include a factor of \Gamma 1 for every ghost loop.
+
+A.5.2 Vertices in the Lagrangian Density All momenta are defined to flow into the vertex under consideration.
+
+ffffffff ff
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Omega \Omega \Omega \Omega \Omega i i
+
+i i i\Delta \Delta \Delta \Delta \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta ''''' \Theta \Theta \Theta \Theta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+*1; a1 + p1
+
+*2; a2
+
+p2
+
+@@@@
+
+*3; a3
+
+p3 \Gamma \Gamma \Gamma \Gamma
+
+= \Gamma gca1a2a3[g*1*2(p1 \Gamma p2)*3 + g*2*3(p2 \Gamma p3)*1 + g*3*1(p3 \Gamma p1)*2] (A:14)
+
+ffffffff ff
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+\Omega \Omega \Omega \Omega \Omega
+
+\Sigma \Xi \Upsilon \Pi \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ff ff ff ff ff\Psi \Psi \Psi
+
+\Psi \Psi \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Phi \Phi \Phi \Phi
+
+\Phi \Omega \Omega \Omega \Omega \Omega \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Psi \Psi \Psi \Psi \Psi
+
+*1; a1
+
+*2; a2 *3; a3 *4; a4
+
+= \Gamma i g2[cba1a2cba3a4(g*1*3g*2*4 \Gamma g*1*4 g*2*3 )
+
++cba1a3cba4a2(g*1*4g*3*2 \Gamma g*1*2 g*3*4 ) +cba1a4cba2a3(g*1*2g*4*3 \Gamma g*1*3 g*4*2 )]
+
+(A:15)
+
+48
+
+ffffffff \Gamma \Delta \Gamma \Delta \Gamma \Delta \Omega \Omega \Omega \Omega
+
+_,a
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi \Gamma \Gamma \Gamma \Gamma b
+
+k @@
+
+@@
+
+@@ I
+
+c
+
+= gcabck_ (A:16)
+
+A.5.3 Non-Standard Vertices at Zero Momentum Transfer
+
+`(GI)_*jj jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Gamma \Gamma \Gamma \Gamma p
+
+oe,a
+
+` ` ` `
+
+` \Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+@@@@
+
+-p
+
+o/ ,b
+
+=
+
+ffiab[p2(goeo/ g_* \Gamma goe_go/* \Gamma goe* go/_) \Gamma 2p_p* goeo/
+
++po/ p* goe_ + po/ p_goe* + poep*go/_ + poep_go/* \Gamma poepo/ g_*]
+
+(A:17)
+
+`(GV )_*jj jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Gamma \Gamma \Gamma \Gamma p
+
+oe,a
+
+` ` ` `
+
+` \Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+@@@@
+
+-p
+
+o/ ,b
+
+= \Gamma ffiab*(po/ p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_* ) (A:18)
+
+E_*jj jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Gamma \Gamma \Gamma \Gamma p
+
+oe,a
+
+` ` ` `
+
+` \Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+@@@@
+
+-p
+
+o/ ,b
+
+=
+
+ffiab[\Gamma 2p2(\Gamma 12goeo/ g_*goe_go/* + goe* go/_)
+
++(1 \Gamma *)(po/p*goe_ + po/ p_goe* + poep* go/_ + poep_go/* \Gamma poepo/ g_* )]
+
+(A:19) `(GI)_*
+
+\Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi \Gamma \Gamma \Gamma \Gamma p
+
+a
+
+@@
+
+@@
+
+@@ b I @@@@
+
+-p
+
+= 0 (A:20)
+
+`(GV )_*
+
+\Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+a
+
+\Gamma \Gamma \Gamma \Gamma
+
+p @@
+
+@@
+
+@@ b I @@@@
+
+-p
+
+= ffiab(2p_p* \Gamma p2g_*) (A:21)
+
+49
+
+E_* \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi \Gamma \Gamma \Gamma \Gamma p
+
+a
+
+@@
+
+@@
+
+@@ b I @@@@
+
+-p
+
+= \Gamma 12 ffiabp2g_* (A:22)
+
+ancestor i`(GV )_* j
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Psi \Gamma \Gamma \Gamma \Gamma p
+
+a
+
+i i i i
+
+i\Delta \Delta \Delta \Delta \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta @@@@
+
+-p
+
+o/ ,b
+
+= \Gamma iffiab(p*g_o/ + p_g*o/ \Gamma 12 g_*po/ ) (A:23)
+
+`(GI)_*jj jjj \Theta \Theta \Theta \Theta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Gamma \Gamma \Gamma \Gamma p1
+
+ae,a
+
+` ` ` `
+
+` \Delta \Delta \Delta \Delta \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma
+
+@@@@
+
+p3
+
+o/ ,c \Omega \Omega \Omega \Omega \Omega
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+ffffffff ff oe,b
+
+* p2 = \Gamma igcabc
+
+8?????????? ????????????? ???????????!
+
+????????????? ????????????? ????????:
+
+p1_gaeo/ goe* \Gamma p1o/ gae_goe* + p1*gaeo/ goe_ \Gamma p1o/ gae* goe_ \Gamma p1_gaeoego/* + p1oegae_go/* \Gamma p1*gaeoego/_ + p1oegae* go/_ +p2_goeaego/* \Gamma p2aegoe_go/* + p2*goeaego/_ \Gamma p2aegoe* go/_ \Gamma p2_goeo/ gae* + p2o/ goe_gae* \Gamma p2*goeo/ gae_ + p2o/ goe* gae_ +p3_go/oegae* \Gamma p3oego/_gae* + p3*go/oegae_ \Gamma p3oego/*gae_ \Gamma p3_go/aegoe* + p3aego/_goe* \Gamma p3*go/aegoe_ + p3aego/*goe_ +g_* [gaeoe(p1o/ \Gamma p2o/ ) + goeo/ (p2ae \Gamma p3ae) + go/ae(p3oe \Gamma p1oe)]
+
+9?????????? ????????????? ???????????=
+
+????????????? ????????????? ????????;
+
+(A:24) `(GV )_*
+
+\Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Psi
+
+a
+
+\Gamma \Gamma \Gamma \Gamma
+
+p @@
+
+@@
+
+@@ c I\Omega \Omega \Omega \Omega \Omega \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta ffffffffff
+
+o/ ,b
+
+= igcabc(p_g*o/ + p*g_o/ \Gamma po/ g_*) (A:25)
+
+50
+
+References
+
+[1] K. Wilson, Phys. Rev. 179, 1499 (1969). [2] W. Zimmermann, Ann. Phys. (New York) 77, 536;570 (1973). [3] D. Gross and F. Wilczek, Phys. Rev. D8, 3633 (1973). [4] J. Collins, D. Soper, and G. Sterman, in Perturbative QCD, edited by A. Mueller (World
+
+Scientific, Singapore, 1989).
+
+[5] S. D. Joglekar and B. W. Lee, Ann. Phys. 97, 160 (1976). [6] M. Henneaux, Phys. Lett. B313, 35 (1993). [7] R. Hamberg, Ph.D. thesis, University of Leiden, 1991. [8] R. Hamberg and W. van Neerven, Nucl. Phys. B379, 143 (1992). [9] E. Floratos, D. Ross, and C. Sachrajda, Nucl. Phys. B152, 493 (1979). [10] A. Gonzalez-Arroyo and C. Lopez, Nucl. Phys. B166, 429 (1980). [11] E. Floratos, C. Kounnas, and R. Lacaze, Phys. Lett. 98B, 285 (1981). [12] W. Furmanski and R. Petronzio, Phys. Lett. 97B, 437 (1980). [13] J. C. Collins, Renormalization (Cambridge University Press, Cambridge; New York, 1984). [14] D. Freedman, I. Muzinich, and E. Weinberg, Annals of Physics 87, 95 (1974). [15] D. Freedman and E. Weinberg, Annals of Physics 87, 354 (1974). [16] B. Harris and J. Smith, Gauge Dependence of the Energy-Momentum Tensor in Pure YangMills, Institute for Theoretical Physics, SUNY Stony Brook Preprint ITP-SB-94-04 (unpublished).
+
+[17] M. Henneaux and C. Teitelboim, Quantization of Gauge Systems (Princeton University, Princeton, N.J., 1992).
+
+[18] T. Kugo and I. Ojima, Prog. Theor. Phys. Supplement, 1 (1979). [19] N. Nakanishi and I. Ojima, Covariant Operator Formalism of Gauge Theories and Quantum
+
+Gravity, Vol. 27 of World Scientific Lecture Notes in Physics (World Scientific, Singapore, 1990).
+
+[20] F. Belinfante, Physica VII, 449 (1940). [21] G. Wentzel, Quantum Theory of Fields (Interscience Publishers, New York, 1949). [22] J. Dixon and J. Taylor, Nucl. Phys. B78, 552 (1974). [23] J. Vermaseren, FORM (Version 1.1, 15 August 1991), CAN, Kruislaan 413, 1098-SJ Amsterdam, 1991, available by anonymous ftp at nikhefh.nikhef.nl:pub/form/.
+
+51
+
+[24] S. D. Joglekar, Ann. Phys. 108, 233 (1977). [25] C. Lee, Phys. Rev. D14, 1078 (1976). [26] M. Henneaux, Classical Foundations of BRST Symmetry, Vol. 7 of Monographs and textbooks
+
+in physical science (Bibliopolis, Napoli, 1988).
+
+52
+

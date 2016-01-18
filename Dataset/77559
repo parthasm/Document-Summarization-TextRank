@@ -1,0 +1,294 @@
+
+
+ 17 Mar 95
+
+WUB 95-08 HUNTING FOR THE BEAUTY HEAVY-LIGHT QUARK SYSTEMS ON THE LATTICE\Lambda
+
+STEPHAN G "USKEN Physics Department, University of Wuppertal
+
+D-42097 Wuppertal, Germany
+
+ABSTRACT We present selected topics on heavy-light physics on the lattice in order to illustrate the current status of this field. In particular results concerning fB, semileptonic decays, the decay B ! K\Lambda fl and heavy baryon masses are discussed. Special emphasis is paid to the question of systematic effects which stem from the lattice discretization of QCD.
+
+1. Introduction
+
+The tremendous interest heavy-light quark systems have gained over the recent years is mostly due to the need of a precise determination of those Cabibbo Kobayashi Maskawa matrix elements, which govern the weak transition of heavy into light quarks. In order to extract these fundamental parameters from experimental measurements, an accurate non-perturbative calculation of the QCD matrix elements involved is necessary. The aim of lattice QCD in this context is to compute the required QCD part directly from the very definition of the theory itself, i.e. it's action SQCD.
+
+The non-perturbative "per se" method to deduce QCD properties directly from first principles would be "simply" to solve the QCD path functional. For example the vacuum expectation value of an operator O in terms of this functional is given by
+
+h0jO( _\Psi ; \Psi ; A)j0i = 1Z Z D[A]D[ _\Psi ]D[\Psi ]O( _\Psi ; \Psi ; A)eiSQCD[g
+
+0;A; _\Psi ;\Psi ] : (1)
+
+Here \Psi ( _\Psi ),A and g0 denote the fermion fields, the gluons and the (bare) coupling. As it stands, however, Eq. (1) is mathematically ill defined. In order to give it a definite meaning one needs regularization.
+
+The lattice method regularizes Eq. (1) by replacing the space-time continuum by an euclidian space-time lattice. In this way everything becomes well defined and the path functional can - in principle - be integrated out without any further approximation. In actual applications one mostly uses Monte Carlo techniques for this purpose.
+
+\Lambda Invited talk given at the 138. WE-Heraeus-Seminar on Heavy Quark Physics, 14.12-16.12.1994,Bad
+
+Honnef, Germany
+
+1
+
+Of course the lattice method has it's shortcomings. First of all discretization means introduction of a finite lattice spacing a, which corresponds to a finite energy cutoff a\Gamma 1 . In order to extract continuum properties from lattice calculations, the influence of this cutoff onto the measured quantities must be investigated and finally an extrapolation a ! 0 is necessary. Clearly, on a given lattice, masses and energies have to stay away from the cutoff. Secondly, a finite number of lattice points corresponds to a finite extension of the lattice in space and time. This, eventually, induces finite size effects, which also must be controlled and removed by an appropriate extrapolation. The great advantage of the lattice method is however, that it has in itself the power to control it's systematics: Lattice spacing and lattice size can be varied in order to visualize and finally to remove the corresponding lattice artefacts.
+
+The investigation of heavy-light systems with lattice techniques is a very challenging task. On the one hand one is forced to keep the physical size of the lattice large in order to take care for the light - and thus long ranged - degrees of freedom. On the other hand the heavy degrees of freedom require a high lattice resolution, i.e. a small lattice spacing. Current computer resources enable us to implement lattice resolutions up to a\Gamma 1 ' 2:5 \Gamma 3:5 GeV , keeping finite size effects small. Thus, direct calculations in the D meson region are feasible today. Beauty properties, however, can be accessed only by more elaborate lattice techniques. This " hunting for the beauty" is done with different, but interrelated methods. The most direct attempt is to investigate the heavy quark mass dependence of the required quantities up to approximately two times the charm mass and then to extrapolate the results to the B meson. This extrapolation can be replaced by a, clearly safer, interpolation if one performs in addition the lattice calculation at the heavy quark mass limit mh ! 1, where the heavy quark contribution can be integrated out. A current, very active line of investigation addresses the question of how to reduce lattice artefacts by an improved discretization of the QCD action1;2;3. The general strategy is to include higher order (in a) terms into the discretized action, which weaken the cutoff dependence of the lattice data. Simulations using such an improved action are still "first principle" calculations, as the additional terms vanish in the continuum limit. In a less fundamental approach one tries to reduce the lattice artefacts by a suitable redefinition of the quark field normalization4;5;8. Taking the free case as a guide, one successively employs mean field ideas and non-relativistic strategies in order to correct for the finite a effects. The benefit of such an ansatz is still under debate, but clearly it always can be checked directly on the lattice by variation of a.
+
+This talk is organized as follows. The next section will report on the status of fB on the lattice. Section 3 deals with the semileptonic decays D ! K; K\Lambda (*l) and B ! ss; ae(*l). The decay B ! K\Lambda fl will be discussed in section 4. Section 5 is devoted
+
+2
+
+to heavy baryon spectroscopy. Summary and conclusions will be given in section 6y.
+
+All the lattice results presented here are obtained in the quenched approximation, which - loosely speaking - neglects internal fermion loops. It is used because of limited computer resources and - hopefully - it will be removed within the next years. Although it's impact cannot be quantified exactly at the moment, it has been proven to work accurately at least in the light fermion sector: quenched lattice calculations6 of light fermion masses and decay constants are in agreement with the experimental results within an error margin of 10%.
+
+2. Status of fB
+
+The decay constant fP S of a pseudoscalar particle is defined by the QCD matrix element h
+
+0jA0jP Si j fP SmP S ; (2)
+
+with the 0-th component of the (heavy-light) axial current A0 = _\Psi hfl0fl5\Psi l. It's discretized version h0jA0jBilatt, which can be evaluated on a given lattice, is related to the continuum matrix element byh
+
+0jA0jP Si = ZA(g0; mha; mla)h0jA0jP Silatt : (3) The bare coupling g0 and the quark masses mh and ml are the only free parameters on the lattice. The lattice spacing a is determined in physical units by fixing one lattice quantity to it's experimental value. One frequently uses mae, fss or oe(string tension) to set the scale. The renormalization constant ZA is composed of a short distance part, which depends on the coupling g0 and can be calculated in perturbation theory, and a long distance part, whose impact has to be removed by proper variation of a.
+
+The question about the size of the systematic error introduced by the perturbative calculation of ZA is difficult to answer precisely. It has been shown over the recent years7;8;10 that the replacement of the bare coupling g0 by a suitably chosen effective coupling geff leads to a clear improvement in the comparison of perturbative results and lattice simulations. Non-perturbative studies of ZA - including ma effects - are also in progress11.
+
+In order to extract the matrix element h0jA0jP Silatt one calculates the 2-point correlation function h0jAy0(~x; t)A0(~0; 0)j0i, which can be decomposed into a sum over energy eigenstates n with mass mnX
+
+~x h
+
+0jAy0(~x; t)A0(~0; 0)j0i = X
+
+n jh0jA
+
+0jnij2e\Gamma m
+
+nt : (4)
+
+The required ground state is obtained by analyzing the correlator at "suitably large" euclidian time t jh
+
+0jA0jP Sij2e\Gamma mpst = limt!1 X
+
+n jh0jA
+
+0jnij2e\Gamma m
+
+nt : (5)
+
+yWe do not discuss here the results of non-relativistic lattice QCD. For a review the e.g. J. Sloan 9.
+
+3
+
+As the onset of the region of ground state dominance can be ascertained directly by analysis of the data, there is no basic problem to extract h0jA0jP Silatt.
+
+On a finite lattice and with limited statistical accuracy one meets however serious difficulties in isolating the ground state unambiguously, especially in the case of heavy quarks12;25. The cure to this problem comes with the introduction of quark wave functions. Use of the exact ground state wave function would yield
+
+h0jA0jni = 0 for n 6= groundstate ; (6) and h0jA0jP Si could be determined already at small values of t. An educated guess of the wave function equally leads to significant improvement, reminiscent to the variational approach in quantum mechanics.
+
+2.1. The Static Limit
+
+Considerable progress has been achieved in the determination of fB in the static limit with lattice methods during the last two years. The simulations have been improved with respect to their statistical significance - O(100) gauge configurations is standard already - and by the use of quark wave functions, which allow for a much more reliable ground state isolation. A variety of lattice results over a reasonable range of lattice spacings is available now such that the extrapolation to zero lattice spacing is feasible.
+
+In Fig. 1 we show the collected results of the various groupsz. First of all we observe that the scaling combination ZstatA f lattstatpMP S exhibits a clear dependence on a and an extrapolation to a = 0 is necessary. The PSI-Wuppertal collaboration14 has performed this extrapolation on it's data, with the result fstat = 230 \Sigma 22 \Sigma 26 MeV. This is nicely consistent with C.R. Allton's22 result, fstat = 230 \Sigma 35 MeV, who included all available data in the analysis.
+
+A second look at Fig. 1 however reveals, that the data of the FNAL15 and Kentucky17 groups is significantly lower than the bulk of results at comparable a. This observation finds it's explanation in the fact, that these groups have developed and applied a new method of projecting onto the low energy eigenstates of Eq. 4. This "multistate smearing" method renders a conclusive test of ground state isolation and enables for the extraction of the mass gap between ground state and first excited state. The a ! 0 extrapolation of the FNAL data yields the result
+
+fstat = 188 \Sigma 23 \Sigma 15 \Sigma 26 \Sigma 14MeV ; (7) where the first error is due to statistics, the second gives the scale uncertainty, the third is due to the extrapolation in a and the last one estimates the uncertainty of ZstatA . Although this result is still consistent with the former analysis mentioned above, it's somewhat lower value appears to be the more likely onex.
+
+zThe latest results of C.R. Allton et al.19 are not discussed here , since a final analysis, including
+
+systematic uncertainties, is missing yet. xR. Sommer showed23 that the PSI-WUP data indeed moves down to the FNAL results if the
+
+information about the mass gap is included into the analysis. His re-analysis of the FNAL data, however, reveals a much larger uncertainty due to the extrapolation in a.
+
+4
+
+Figure 1: ZstatA f lattstatpMP S in units of the string tension \Sigma = oea as a function of \Sigma . The continuum is at \Sigma = 0. The data is taken from: ELC13, PSI-WUP14, FNAL15, BLS4, UKQCD16, Kentucky17 and APE18. In order to compare, all data have been uniformly rescaled with the string tension taken from Bali and Schilling20 and with the mean field improved 1-loop21 ZstatA .
+
+2.2. fB with Propagating Quarks
+
+Finite mass heavy-light systems on the lattice potentially bear the danger of being contaminated with large discretization errors, as one is tempted to work near the lattice cutoff, where the condition aMP S o/ 1 is not valid.
+
+In order to avoid this contamination one performs the lattice calculation away from the cutoff and then extrapolates-the results to the heavy mass region.
+
+On top of this one tries to suppress the discretization errors by use of improved actions or redefinition of the quark field normalization, as explained in the introduction. A popular choice16;18 of such an improved action is the Sheikholeslami-Wohlert action1, which reduces the discretization effects from O(a) to O(a=lna), compared to the standard Wilson action24. Unfortunately one has to pay for it's application by larger statistical noise and an increased need of computer time and memory. Concerning the redefinition of quark field normalization4;5;8 the question arises immediately , how it can be checked, that such ideas really do improve the situation. Fortunately the answer to that can also be given immediately: As improvement means to be - at given finite a - closer to the continuum than in the unimproved case, one has to study the a dependence of the observables in question. Weaker dependence on a then signals improvement.
+
+As an example of the feasibility of such test we show in Fig. 2 the results of
+
+-Or interpolates, if the result in the heavy mass limit is available.
+
+5
+
+Figure 2: The pseudoscalar decay constant fP S as a function of a, for various meson masses MP S . The circles(squares) refer to the standard(KroMac) normalization. The solid lines indicate the extrapolation to the continuum. The continuum result is depicted at aoe = 0 .
+
+the PSI-Wuppertal collaboration25. They have studied the decay constant fP S as a function of a and MP S , both in the standard Wilson normalization of quark fields and in the KroMac5 normalization. Obviously the KroMac normalization does not weaken the a dependence!
+
+Finally we present in table 1 the latest lattice resultskconcerning fD and fB. It is encouraging to see that all results agree within errors, although different methods have been used in order to reduce finite a effects. We emphasize that, for the first time, it has been possible really to investigate the finite a and - which could not be discussed here - the finite size effects. A comparison with the results in the static limit (Eq. 7) furthermore reveals, that the large gap between fstat and fB, which had been obtained in previous simulations27, has almost completely disappeared. This is mostly due to (a) the extrapolation in a, (b) the use of proper quark wave functions and (c) the increased statistical accuracy of data.
+
+3. Semileptonic Decays of Pseudoscalar Mesons
+
+The next step is to calculate the QCD matrix elements relevant for the semilepkFor comparison with results from QCD sum rules see e.g. C.A. Dominguez26
+
+6
+
+Table 1: Latest results for fD and fB from various groups. aoe = 1 indicates that an extrapolation to the continuum limit has been performed. All groups have calculated both fstat and fP S with finite mass quarks.
+
+group fD[MeV] fB[MeV] method to reduce a\Gamma 1oe [GeV]
+
+finite a effects UKQCD16 185+4+42\Gamma 3\Gamma 7 160+6+53\Gamma 6\Gamma 19 SW action ' 2:7 BLS4 208(9) \Sigma 35 \Sigma 12 187(10) \Sigma 34 \Sigma 15 changed ' 3:1
+
+normalization PSI-WUP25 170(30) 180(50) cont. extrap. 1 MILC28 181(4)(18) 147(6)(23) cont. extrap. 1
+
+tonic decays of pseudoscalar mesons. Compared to the calculations of fP S this is computationally more advanced, as one has to project onto two hadronic ground states, which asks for two large time separations on the lattice. Moreover, the need of spatial momentum ~p 6= 0 states leads to an enhanced statistical noise of the lattice signals.
+
+After the early pioneering work of C. Bernard et al.33 and V. Lubicz et al.38, much progress concerning the reliability of the results has been achieved over the last two years29;30;31;34;35. High statistics calculations (O(100) configurations), using quark wave functions and fine grained lattices are now available.
+
+The q2 dependence of the form factors, which parametrize the required matrix elements, has been studied in some detail. For D decays all groups find consistency with the pole dominance hypothesis, though within still sizable statistical errors.
+
+Conventionally, one extrapolates the form factors to their values at q2 = 0. We emphasize that the validity of the pole dominance hypothesis in most cases is not crucial for the extrapolation, as the data contains already points near q2 = 0. The corresponding results are collected in table 2\Lambda \Lambda . We obtain, that all estimates are in reasonable agreement with experiment.
+
+One might ask whether the existing lattice data allow already for an extrapolation a ! 0. In Fig. 3 we investigate this question for the case of f +D (0). It is encouraging to see that the data, covering already a sizable range in a, exhibit only a weak (if any) dependence on the lattice spacing. Due to the large errors however, an extrapolation in a appears to be premature.
+
+In order to obtain the form factors for the decays B ! ss and B ! ae, one has to extrapolate in the heavy meson mass. In view of the accuracy of the existing data, this is a difficult task, but ELC30, APE31 and UKQCD32 have tackled it. Their findings are displayed in table 3, together with a comparison to QCD sum rules. Clearly, the
+
+\Lambda \Lambda This is a abbreviated version of the nice compilation given by the UKQCD29 group. A comparison
+
+with QCD sum rules and potential model calculations is also given there.
+
+7
+
+Table 2: Form Factors at q2 = 0 for the semileptonic decays D ! K; K\Lambda . group f +K (0) f 0K(0) V (0) A1(0) A2(0) UKQCD29 0:67+7\Gamma 8 0:65(7) 1:01+30\Gamma 13 0:70+7\Gamma 10 0:66+10\Gamma 15 ELC30 0.60(15)(7) 0.86(24) 0.64(16) 0.40(28)(4) APE31 0.72(9) 1.0(2) 0.64(11) 0.46(34) BKS33 0.90(8)(21) 0.70(8)(24) 1:43+45+48\Gamma 45\Gamma 49 0.83(14)(28) 0:59+14+24\Gamma 14\Gamma 23 BG34 0.73(5) 0.73(4) 1.24(8) 0.66(3) 0.42(17) WUP35 0.76(15) 0.75(6) 1.05(33) 0.59(8) 0.56(40) LMMS38 0.63(8) 0.86(10) 0.53(3) 0.19(21) Experiment(a)36 0.77(4) 1.16(16) 0.61(5) 0.45(9) Experiment(b)37 0.70(3)
+
+Table 3: Form Factors at q2 = 0 for the semileptonic decays B ! ss; ae. The subscripts "naive", "HQET" refer to the way in which the extrapolation in mP S was done.
+
+group f +(0) V (0) A1(0) A2(0)
+
+APEHQET 31 0.29(6) 0.45(22) 0.29(16) 0.24(56) APEnaive31 0.35(8) 0.53(31) 0.24(12) 0.27(80) ELCHQET 30 0.26(12)(4) 0.34(10) 0.25(6) 0.38(18)(4) ELCnaive30 0.30(14)(5) 0.37(11) 0.22(5) 0.49(21)(5) UKQCD32 0:24+0:04\Gamma 0:03 Ball39 0.26(2) 0.6(2) 0.5(1) 0.4(2)
+
+quality of data has to be increased in order to make accurate predictions. 4. The Decay B ! K\Lambda fl
+
+To leading order perturbation theory in the weak coupling, the matrix element for the decay B ! K\Lambda fl is given by40
+
+M = eGF mb2p2ss2 C7(mb)VtbV \Lambda tshK\Lambda jJ_jBi ; (8) where J_ = _soe_*q*(1 + fl5)b, and j and q are the polarization and momentum of the emitted photon. The non perturbative QCD matrix element hK\Lambda jJ_jBi can be parametrized by three form factors41 Ti(q2); i = 1; 2; 3, which need to be evaluated at q2 = 0, since the emitted photon is on-shell. In this limit the form factors obey the relations
+
+T2(q2 = 0) = \Gamma iT1(q2 = 0) T3(q2 = 0) = 0 : (9)
+
+8
+
+Figure 3: f +D (0) as a function of a. The experimental results are shown at a = 0. References are found in Tab. 2. For clearness the data at aoe ' 0:53 GeV\Gamma 1 have been shifted slightly .
+
+Clearly, the task of lattice QCD is to determine T1(q2 = 0) and - for consistency - T2(q2 = 0). With current lattice capabilities this requires extrapolation to MB as well as to q2 = 0.
+
+As the functional dependence of T1(q2; MP S ) and T2(q2; MP S) is not a priori known, one has work with ans"atze, motivated by pole dominance models and heavy quark symmetry. This is not a problem in principle, because the reliability of these assumptions can be tested directly on the lattice. Of course the final evidence may then depend crucially on the accuracy of data. Three groups42;43;44 have recently studied the decay B ! K\Lambda fl. The most detailed analysis has been performed by the UKQCD collaboration44. They find
+
+T1(q2 = 0) =
+
+8?!
+
+?:
+
+0:159+34\Gamma 33 \Sigma 0:067 (a)
+
+0:124+20\Gamma 18 \Sigma 0:022 (b)
+
+; (10)
+
+using the assumption of (a) single pole dominance and (b) double pole dominance for the q2 dependence of this form factor. The corresponding value of T2(q2 = 0) is consistent with these results if single pole dominance is assumed for T2. Unfortunately the data is not accurate enough to proof the assumptions.
+
+The results of Bernard et al.42 and Abada et al.43 are consistent (within large errors) with the values quoted above. However, the latter ascertain a crucial influence of the assumptions made for the q2 dependence. Thus, much higher accuracy of data is needed in order to extract the functional dependence directly from lattice simulations.
+
+5. Heavy Baryon Spectroscopy
+
+The determination of baryon masses with lattice methods is a much easier and clearer task than the evaluation of form factors. They are extracted from the time decay of 2-point correlation functions, which exhibit a comfortably high signal to
+
+9
+
+noise ratio, at spatial momentum ~p = ~0. Moreover one does not have to struggle with perturbative renormalization constants, because baryon masses are renormalization group invariants. Correspondingly, reliable extrapolations to the b quark mass and
+
+Figure 4: M\Lambda \Gamma MP S as a function of 1=MP S and a. The solid line corresponds to a global fit assuming no a effects. It gives the value shown with the inverted triangle at the B meson mass. The value obtained after extrapolation to the continuum is indicated by the open circle.fi = 5:74; 6:00; 6:26 corresponds to a\Gamma 1oe '1:12; 1:88; 2:78GeV:
+
+to a = 0 are feasible with today's capacities. In Fig. 4 we display the mass difference M\Lambda \Gamma MP S as a function of 1=MP S at several lattice spacings aoe, as found by the PSI-Wuppertal45 collaboration. We observe that it behaves nicely linear 1=MP S . The finite a effects turn out to be small, which allows for a smooth extrapolation in a. They finally get
+
+M\Lambda b = 5:728 \Sigma 0:144 \Sigma 0:018 GeV ; (11)
+
+which is consistent with the result of the UKQCD collaboration 46yy
+
+M\Lambda b = 5:900+0:170\Gamma 0:150 GeV ; (12) obtained on a single lattice with aoe ' 2:7GeV. 6. Summary and Conclusions
+
+In this talk we described the systematic improvements achieved recently on computing heavy-light physics on the lattice, and presented the latest results from such simulations. We have seen that - although the large mass of the beauty quark still impedes a direct evaluation - high precision calculations in the range up to two times the D mass allow already in some cases for a safe extrapolation to the B meson. Due to the advent of fast parallel computers the cutoff dependence of lattice results
+
+yyA comprehensive list of UKQCD results concerning beautiful Baryon masses is given also in that
+
+reference.
+
+10
+
+can be studied now in detail, which makes the extrapolation to the continuum feasible. Given this necessary condition, the door is open to all kinds of improvement ideas, whose benefit can be tested with the "lattice lab". Current lattice capabilities have enabled us to consolidate the value fB = 180(50)MeV and to give reliable estimates for the form factors of semileptonic D decays. First high statistics results concerning the decays B ! ss; ae, B ! K\Lambda fl and the masses of beautiful baryons are also available now. One might wonder, whether the "hunting for the beauty" will end up in a "rendezvous". In the worst scenario, the hunter will have to wait three years, to the advent of 60 Gflops machines, which are powerful enough to increase lattice resolution from a\Gamma 1 ' 3GeV to a\Gamma 1 ' 6GeV. But there are many good ideas to reach the goal in a shorter time.
+
+7. Acknowledgements
+
+I thank Hugh P. Shanahan for providing me with the latest UKQCD results concerning the decay B ! K\Lambda fl.
+
+8. References
+
+1. B. Sheikholeslami and R. Wohlert, Nucl. Phys. B259 (1985)572. 2. G.P. Lepage,  Lectures presented at TASI 93, Boulder, 1993;
+
+M. Alford et al.,  CLNS 94/1308 to be published in Nucl. Phys. B (Proc. Suppl.); W. Dimm et al., . 3. T. DeGrand et al.,  to be published in Nucl. Phys. B (Proc.
+
+Suppl.). 4. C.W. Bernard, J.N. Labrenz and A. Soni, Phys. Rev. D49 (1994)2536. 5. A. Kronfeld, Nucl. Phys. B (Proc. Suppl.) 30 (1993)445; P.B. Mackenzie
+
+Nucl. Phys. B (Proc. Suppl.) 30 (1993)35. 6. D. Weingarten, Nucl. Phys. B (Proc. Suppl.) 34 (1994)29. 7. G. Parisi, in High-energy physics - 1980, XX. Int. Conf., Madison (1980), ed.
+
+L. Durant and L.G. Pondrom (American Institute of Physics, New York, 1981. 8. G.P. Lepage and P.B. Mackenzie, Phys. Rev. D48 (1993)2250. 9. J. Sloan,  to be published in Nucl. Phys. B (Proc. Suppl.). 10. M. L"uscher et al., Nucl.Phys. B389 (1993)247. 11. G. Martinelli et al., CERN-TH 7342/94, . 12. E. Eichten, G. Hockney and H.B. Thacker, Nucl. Phys. B (Proc. Suppl.) 17
+
+(1990)529. 13. C.R. Allton et al., Nucl. Phys. B349 (1991)598. 14. C. Alexandrou et al., Nucl. Phys. B414 (1994)815. 15. A. Duncan et al., Nucl Phys. B34 (Proc. Suppl.) (1994)444; A. Duncan et
+
+al.,  FERMILAB-PUB-94/164-T. 16. R.M. Baxter et al., UKQCD collaboration, Phys. Rev. D49 (1994)1594. 17. T. Draper and C. McNeile, Nucl. Phys. B34 (Proc. Suppl.) (1994)453. 18. C.R. Allton et al., APE collaboration, Nucl. Phys B413 (1994)461; C.R. Allton
+
+et al., APE collaboration, Phys. Lett. B326 (1994)295.
+
+11
+
+19. C.R. Allton et al.,  to be pulished in Nucl. Phys. B (Proc.
+
+Suppl.). 20. G.S. Bali and K. Schilling, Phys. Rev. D46 (1992)2636; G.S. Bali and K.
+
+Schilling, Phys. Rev. D47 (1993)661. 21. O.F. Hernandez and B.R. Hill, Phys. Rev. D50(1994)495. 22. C.R. Allton,  ROME-1041-1994. 23. R. Sommer,  CERN-TH.7498/94, to be published in Nucl.
+
+Phys. B(Proc. Suppl.). 24. K.G. Wilson, in New Phenomena in Subnuclear Physics, edited by A. Zichichi,
+
+Plenum, New York, 1977. 25. C. Alexandrou et al., Z. Phys. C62 (1994)659. 26. C.A. Dominguez,  SISSA Ref. 139/93/EP. 27. C. Alexandrou et al., Phys. Lett. B256 (1991)60. 28. C. Bernard et. al., MILC collab.,  to be published in Nucl.
+
+Phys. B(Proc. Suppl.). 29. K.C. Bowler et al, UKQCD collab.,  Edinburgh Prep.
+
+94/546, SHEP 93/94-32. 30. A. Abada et al., Nucl. Phys. B416 (1994)675. 31. C.R. Allton et al., APE Collaboration,  BU-HEP 94-29,
+
+CERN-TH 7484/94. 32. D.R. Burford et al., UKQCD Collaboration, SHEP 95-09, . 33. C. Bernard, A. El-Khadra and A. Soni, Phys. Rev D43 (1991)2140 and Phys.
+
+Rev. D45 (1992)869. 34. T. Bhattacharya and R. Gupta,  Los Alamos Preprint LAUR94-3079 and  LAUR-95-72, to be published in Nucl. Phys. B (Proc. Suppl.). 35. S. G"usken, K.Schilling and G. Siegert, HLRZ 94-74, WUB
+
+94-40, to be published in Nucl. Phys. B (Proc. Suppl). 36. M.S. Witherell, Proceedings of the "International Symposium on Lepton and
+
+Photon Interactions", Ithaca, NY 1993, edited by P. Drell and D. Rubin. 37. G. Bellini, talk given at "Les Rencontres de Physique de la Vallee d'Aoste",
+
+La Thuile, Aosta Valley (1994). 38. V. Lubicz, G. Martinelli and C.T. Sachrajda, Nucl. Phys. B356 (1991)301. 39. P. Ball, Phys. Rev. D48 (1993)3190. 40. B. Grinstein, R. Springer and M.B. Wise, Nucl. Phys. B339 (1990)269; H.
+
+Simma, DESY-93-083; M. Ciuchini et al., Phys. Lett. B316 (1993)127; P. Cho and B. Grinstein, Nucl. Phys. B365, (1991)279. 41. C.W. Bernard, P.F. Hsieh and A. Soni, Nucl. Phys. (Proc. Suppl.) B26
+
+(1992)347. 42. C. Bernard, P. Hsieh and A. Soni  Phys. Rev. Lett. 72
+
+(1994)1402. 43. A. Abada et al.,  LPTHE Orsay-94/109, to be published in
+
+Nucl. Phys. B(Proc. Suppl.). 44. K.C. Bowler et al., UKQCD collab.,  Edinburgh preprint
+
+12
+
+94/544, SHEP 93/94-29, accepted for publication in Phys. Rev. D. 45. C. Alexandrou et al. ,  Phys. Lett. B 337 (1994)340, and
+
+UCY-PHY-94-16,  to be published in Nucl. Phys. B (Proc. Suppl.). 46. N. Stella, UKQCD collab.,  SHEP 94/95-12, to be published
+
+in Nucl. Phys. B(Proc. Suppl.).
+
+13
+

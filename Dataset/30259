@@ -1,0 +1,206 @@
+
+Development of an X-band Photoinjector at SLAC*
+
+A. E. Vlieks, G. Caryotakis, R. Loewen, D. Martin, A. Menegat
+SLAC, 2575 Sand Hill Rd, Menlo Park, CA 94025, USA
+E. Landahl, C. DeStefano, B. Pelletier, and N.C. Luhmann, Jr.
+3001 Engineering III, Dept. of Applied-Science
+Davis, CA 95616, USA
+
+Abstract
+As part of a National Cancer Institute contract to develop Solenoid
+a compact source of monoenergetic X-rays via Compton Laser Mirror
+backscattering, we have completed the design and Chamber
+construction of a 5.5 cell Photoinjector operating at
+11.424 GHz. Successful completion of this project will Interaction Chamber
+result in the capability of generating a monoenergetic X- Quadrupoles
+ray beam, continuously tunable from 20 - 85 KeV. The
+immediate goal is the development of a Photoinjector
+producing 7 MeV, 0.5nC, sub-picosecond electron
+bunches with normalized RMS emittances of >.1 pi-mm-
+mR at repetition rates up to 60 Hz.. This beam will then RF Gun
+be further accelerated to 60 MeV using a 1.05 m
+accelerating structure. This Photoinjector is somewhat
+different than the traditional 1.5 cell design both because Accelerator
+of the number of cells and the symmetrically fed input
+Figure 1. Photoinjector Layout
+coupler cell. Its operating frequency is also unique. Since
+the cathode is non-removable, cold -test tuning was This RF gun is unique in its design because of the
+somewhat more difficult than in other designs. We will number of cells used and its high operating surface
+present results of "bead-drop" measurements used in field gradients. The basic gun parameters are listed in
+tuning this structure. table 1. The RF power for the RF gun and accelerator
+Initial beam measurements are currently in progress and will be derived from two 60 MW X-band Klystrons
+results will be presented as well as results of RF driven by a common frequency generator. This will
+conditioning to high gradients at X-band. Details of the permit independent phase and amplitude control of
+RF system, emittance-compensating solenoid, and both the accelerator and Gun RF.
+cathode laser system as well as PARMELA simulations
+will also be presented. Number of Cells 5.5
+Peak Surface Gradient/Power 200 MV/m @ 16 MW
+1. Introduction RF Filling Time 65 ns
+We have recently completed the design and construction Cathode Material Copper
+of the main components of an X-band photoinjector and RF Pulse length 200 ns
+are currently in the initial stage of testing. In this paper we
+will describe the design and initial testing of the RF gun. Table 1. RF Gun Parameters
+The essential components of the Photoinjector are shown
+in Figure 1. The 0.6 T Emittance compensation Solenoid 2. Simulations
+consists of a pair of identical coils positioned axially with
+respect to each other. The coils are oppositely wound so The initial gun design was obtained using
+that the field is zero in the center of the solenoid. The RF SUPERFISH[1]. It was used to identify the 6 modes
+gun is positioned in the Solenoid with the cathode at this and establish the pi-mode at the correct frequency.
+field null. A Laser Mirror chamber permits a UV laser (11.424 GHz.) It was also used to determine the Q-
+beam to strike the cathode along a nearly axial path. The value, the R/Q and the frequency separation of the pi-
+generated electron beam is further accelerated by a 1.05 m mode from its nearest neighbor. HFSS[2] and
+accelerating structure. At the exit of the accelerator three MAFIA[3] were used to design the symmetrically fed
+quadrupoles are positioned to focus the electrons to a coupler cell and establish the desired external Q of
+narrow spot size in the Interaction chamber. A the gun. PARMELA[4] was used to optimize the
+Spectrometer, not shown, is used to divert the beam away beam focusing and emittance as well as establish the
+from its axial path into a beam dump. approximate location of the accelerator, quadrupoles
+
+*Work supported by Department of Energy contract DE-A C-76SF00515
+and National Cancer Institute Contract Number N01-CO-97113
+
+
+and interaction chamber. The required design strength of Tuning posts were incorporated into each cell (4 for
+the solenoid and quadrupoles were also determined using the first 5 cells and 2 for the coupler cell).
+PARMELA. Figure 2 shows the electron beam profile as The individual cell frequencies were measured but no
+it is accelerated through the gun and a .75 m accelerator attempt was made to tune the individual cells since
+structure and finally focused at the interaction point. This they were already within 2 MHz. of their design
+particular simulation was performed assuming a well values. The cells were diffusion bonded and the
+formed "beer barrel" shaped laser spot at the cathode. The coupler cell irises were machined to its design value.
+resulting beam spot size at the interaction point was The peak field flatness was measured using a "bead
+approximately 30 microns with a normalized emittance of drop" scheme. In this method a small metal cylinder
+0.75 pi-mm-mrad. was lowered into the gun using a precision stepper
+motor. The frequency shift was measured by a
+HP8510 network analyzer. Operation of the stepper
+motor and sampling of the Network Analyzer was
+performed using a LabVIEW program. The effect of
+the mass of the bead and the diameter of the
+supporting string were investigated to find a
+combination, which gave reasonable and repeatable
+results. The final choice of string was .02mm nylon
+suture thread. A comparison of "bead-pull" and "bead-
+drop" measurements was made on the cold-test
+prototype (which had an axial hole in the cathode).
+This verified that the two measurement techniques
+gave the same results. Figure 3 shows the final field
+profile after tuning and Figure 4 shows the total
+measured frequency spectrum
+
+0.6
+
+
+
+
+0.5
+
+
+
+
+0.4
+
+0.3
+Figure 2. Beam profile along Injector axis.
+
+For a Gaussian-shaped laser spot, the electron beam 0.2
+diameter and emittance increases to 40 microns and 1.1
+pi-mm-mrad. For both cases, the laser spot at the cathode 0.1
+had transverse dimensions of 1 mm and a temporal
+(longitudinal) dimension of 800 fs. 0
+0 100 200 300 400 500 600 700
+Position (arb. units) aev-3/29/02
+3. Cell Tuning Figure 3. Final post-braze Field profile, measured
+The tuning of the final RF gun proceeded through several
+using "bead-drop" technique
+steps. Initially a prototype was built using the dimensions
+from the simulations. The 2b dimension was deliberately 4. Gun Preparation
+undersized to permit frequency tuning by removing Since the operating peak surface gradient of the RF
+material. This was done on a cell-to-cell basis using Gun is rather high, 200MV/m, careful attention to
+pretuned end caps. The prototype was then assembled and surface cleanliness is necessary. After cold test
+the coupler cell (cell 6) was retuned to obtain the design measurements were completed, the gun was vacuum
+external Q value and frequency. The changes required in fired at 750 C. for 8 hours to remove hydrogen and
+the final 2b dimension were small enough that an etching surface contamination. An RF window assembly was
+procedure was used. A bead-pull measurement was then then connected to the input waveguide, a vac-ion
+used to verify that the peak fields in each cell were near pump was installed at one port of a Tee at the Gun
+identical. The cells were then diffusion bonded and output beamline and a Gate valve was connected to
+remeasured. The only change due to bonding was to the other port. See Figure 1. The total assembly was
+lower the pi mode frequency by 2 MHz. The resulting
+cavity dimensions were used for the actual RF gun cells.
+
+
+1 that the initial and final spikes are actually double
+peaked. This is due to the shock excitation of the
+1 1 . 2 8 6 5
+neighboring resonance of the pi mode. This was
+0 . 8
+verified by performing a Fourier transformation to
+the frequency spectrum of Figure 4 with a realistic
+0 . 6 input pulse shape. The resulting time domain pulse
+1 1 . 4 1 5 0
+shape is virtually identical to Figure 6. (in the
+1 1 . 3 8 4 2
+0 . 4 absence of the forward power excursion at the 200 ns
+1 1 . 3 4 6 8 1 1 . 4 2 4 4 region).
+
+0 . 2
+
+1 1 . 3 0 9 5 0 . 1 2
+
+
+
+0 0.1
+1 1 . 2 8 1 1 . 3 2 1 1 . 3 6 1 1 . 4 1 1 . 4 4
+
+F r e q u e n c y ( G H z )
+a e v - 3 / 2 8 / 0 2
+0 . 0 8
+Figure 4. Frequency profile of RF Gun
+0 . 0 6
+then baked out in a vacuum oven at 130 degrees for 24
+hours to remove water vapor. While under vacuum, the 0 . 0 4
+valve was closed so that the assembly could be installed
+in the Solenoid magnet while remaining under vacuum. 0 . 0 2
+In this way, the gun was high power conditioned without
+breaking vacuum. 0
+- 4 0 0 - 2 0 0 0 2 0 0 4 0 0 6 0 0 8 0 0
+t i m e ( n s )
+5. High Power Conditioning
+Figure 5. Gun incident RF Power
+After briefly running at 5 MW with a wide, 400ns, RF
+pulse to study the pulse shapes, the gun was run up to 24
+0.006
+MW with a 75-80 ns pulse. At this power level it was run
+for 46 minutes without breakdown events. The peak
+surface gradient at this power level was 168 MV/m. The 0.005
+power was then lowered and the pulse width widened to
+100 ns. The power was then increased to 20 MW or 175 0.004
+MV/m. Again lowering the power, the pulse width was
+widened to 150 ns. The power was gradually raised to 16- 0.003
+16.5 MW or 180 MV/m. Finally the pulse width was
+widened to its design value of 200 ns and run up to 15 0.002
+MW. This corresponds to 185MV/m. Little faulting was
+observed Final processing will continue at a later date. 0.001
+Typical pulse shapes of the incident and reflected RF
+signals are shown in Figures 5 and 6. As can be seen 0
+- 4 0 0 -200 0 200 400 600 800
+from Figure 5, the pulse is flat for the first 200 ns and Time (ns) aev-6/602
+then suffers from significant amplitude variations. This is
+
+caused by the reflected signal returning to the Klystron, Figure 6. Reflected RF Power from Gun
+
+and disturbing the subsequent Klystron output power. The 6. References
+round trip distance to the Klystron is almost exactly 200 [1] James Billen and Lloyd M. Young, POISSON,
+ns. For our purposes this will not present a problem since SUPERFISH reference manual, LA-UR-96-1834.
+we require only a 200 ns pulse. For added flexibility [2] Agilent, High-Frequency Structure Simulator v5.6
+however, additional waveguide length will be added in [3] R.Klatt, F.Krawczyk, W.R.Novender, C.Palm,
+the near future. T.Weiland, "MAFIA- A 3-D Electromagnetic CAD system
+In Figure 6, the typical general form of a reflected RF for Magnet, RF Structures and Transient Wake-Field
+signal from a standing wave cavity can be seen. The Calculations", Reports at the 1986 Linear Accelerator
+initial and final spikes are due to the filling and emptying Conf, Stanford, USA 6/2-6/1986
+of the cavity while the intermediate region shows the [4] Lloyd Young, PARMELA reference manual, LA-
+UR96-1835, January 8, 2000,. The version of PARMELA
+approach to equilibrium of an over-coupled cavity. used in this work is a modified version due to E. Colby, at
+The spike in the middle is due to the perturbation caused SLAC
+by the forward power pulse shape. It is interesting to note
+
+
+

@@ -1,0 +1,630 @@
+
+
+ 19 Apr 1994
+
+DESY 94-062 ISSN 0418-9833 April 1994
+
+Leptonic Signals from off-shell Z Boson Pairs
+
+at Hadron Colliders
+
+C: Zecher a\Lambda ; T: Matsuura by; J:J: van der Bij c a Deutsches Elektronen Synchrotron DESY, Notkestrasse 85,
+
+D-22603 Hamburg b II. Institut f"ur Theoretische Physik, Universit"at Hamburg,
+
+Luruper Chaussee 149, D-22761 Hamburg c Fakult"at f"ur Physik, Hermann-Herder-Strasse 3, D-79104 Freiburg i.Br.
+
+Abstract We study the gluon fusion into pairs of off-shell Z bosons and their subsequent decay into charged lepton pairs at hadron colliders : gg ! ZZ ! 4`\Sigma (`\Sigma : charged lepton) . Throughout this paper we do not restrict the intermediate state Z bosons to the narrow width approximation but allow for arbitrary invariant masses. We compare the strength of this process with the known leading order results for q _q ! ZZ ! 4`\Sigma and for gg ! H ! ZZ ! 4`\Sigma . At LHC energies (ps = 14 TeV) the contribution from the gluon fusion background is around 20 % of the contribution from quark-antiquark annihilation. These two processes do not form a severe irreducible background to the Higgs signal. At Higgs masses below 120 GeV the final state interference for the decay channel H ! ZZ ! 4_\Sigma is increasingly constructive. This has no effect on the Higgs search as in this mass region the signal remains too small. One can extend the intermediate mass Higgs search via off-shell Z boson pairs at the LHC down to about 130 GeV Higgs mass. However a careful study of the reducible background is needed for definitive conclusions.
+
+\Lambda email address: zecher@ips103.desy.de
+
+yNow at Shell Research, Rijswijk, The Netherlands
+
+1
+
+1. Introduction One of the main tasks of current and future colliders is to reveal the origin of the electroweak symmetry breaking. This includes first of all the search for a standard model Higgs boson. A light Higgs boson (mH ! mZ; mH Higgs mass, mZ Z mass ) can be found at LEP200 assuming a sufficiently high integrated luminosity of order 0:5:::10 fb\Gamma 1 [1, 2, 3]. Here the discovery limit is not dominated by a vanishing Higgs production rate but by the problem to distinguish a via H ! b_b decaying Higgs boson with mH around mZ from a hadronically decaying Z boson. For an intermediate mass Higgs boson ( mZ ! mH ! 2mZ ) an e+e\Gamma linear collider withp
+
+s = 300:::500 GeV is ideally suited [4, 5, 6, 7]. Its realization is still uncertain, so it is of major interest whether an intermediate mass Higgs boson can also be found - or excluded - at a future hadron collider like the LHC.
+
+Hadron colliders provide large production rates for the standard model Higgs boson over a wide range of Higgs masses [8, 9, 10, 11] . Because of the large background at hadron colliders much work has already been devoted to the development of special search strategies for different Higgs mass regions [12, 13]. A heavy Higgs boson ( mH ? 2mZ ) can be found at the LHC quite straightforwardly via the rare decay channel H ! ZZ ! 4_\Sigma up to a Higgs mass of 800 GeV for an integrated luminosity of 105 pb\Gamma 1 [14, 15]. With the help of other processes this range might be extended to 1 TeV [16]. For the mass range mZ ! mH ! 140 GeV it is not yet clear whether a standard model Higgs boson can be found at the LHC. The production cross section is large ( oe ? 40 pb ) so that with an integrated luminosity of 105 pb\Gamma 1 per year of running more than 4\Delta 106 Higgs particles will be produced [9, 17]. In this mass region the Higgs will mainly decay via H ! b_b and H ! o/ +o/ \Gamma which are both accompanied by an overwhelming QCD background that makes Higgs searches for these decay channels impossible [18, 19, 20]. The situation is better for the rare decay channel H ! flfl. It may be successful for the mass range 110 GeV ! mH ! 140 GeV [21]. Even for mH = 100 GeV the Higgs boson might be found assuming a dedicated detector. Its precision electromagnetic calorimeter would have to provide a very good energy resolution, a fine granularity and a small time constant [22]. The vertex uncertainty due to the longitudinal extension of the proton bunches would be reduced by using additional information from other parts of the detector besides the calorimeter [23]. However there is a severe jet-jet background where the jets contain single ss0's which carry a large fraction of the jet transverse energy. The decay photon pairs of the ss0's will give a single electromagnetic energy deposit and will thus fake a photon event [21]. The associated production of H and Z or H and W improves this situation somewhat: e.g. the process q _q ! H W ! fl fl * ` allows tagging for one isolated lepton and two isolated photons [24, 25, 26, 27]. Another possibility is the associated production of H and t_t which also leads to the inclusive production of one isolated lepton and two isolated photons gg (q _q) ! H t_t ! H W + X ! fl fl * ` + X [28, 29]. Finding or excluding a standard model Higgs boson at the LHC with one of these reactions may be achievable for the mass range mZ ! mH ! 140 GeV [17, 21, 30, 31] even if the mass resolution requirements demanded for the detector are severe [32]. For the mass range 140 GeV ! mH ! 2mZ a Higgs boson can be found via the process H ! ZZ ! 4`\Sigma with one or both Z bosons being off-shell [12, 19, 33]. The branching ratio for this decay channel is small [9] but it results in an extremely clear signal at a hadron collider. So it is important to decide on how far a Higgs search via this decay mode can be extended to smaller Higgs masses. The problem is that the branching ratio for H ! ZZ ! 4`\Sigma falls
+
+2
+
+steeply for Higgs masses smaller than around 125 GeV because then both Z bosons become off-shell [30]. So one has to know the size of the background. Still missing was so far the irreducible background coming from gluon fusion via a Z boson pair into two charged lepton pairs gg ! ZZ ! 4`\Sigma . We calculate this process and compare it with the irreducible background from quark-antiquark annihilation q _q ! ZZ ! 4`\Sigma and with the Higgs signal gg ! H ! ZZ ! 4`\Sigma in leading order.
+
+The Feynman diagrams for the background from gluon fusion via off-shell Z boson pairs are shown in figure 1. Figure 2 gives the diagrams for the Higgs signal. The gluon fusion background is suppressed in comparison to the quark-antiquark background by a factor ff2s. However this is at least partially compensated by the large gluon luminosity at the low values of Bjorken x involved and by the constructive interference from the different quarks inside the loop. In order to compare, the quark-antiquark background is estimated as in [34]. Not included are contributions containing fl Z intermediate states, which were shown to be small [35]. The outline of our paper is as follows. In the next section we investigate the ggZZ polarization tensor. In the third section we give some relations between the corresponding helicity amplitudes. First results from our Monte Carlo phase space calculation are discussed in the fourth section. In section five we give our conclusion.
+
+2. The ggZZ polarization tensor The gluon fusion into two on-shell Z bosons without successive decay into a charged lepton pair has been calculated in [36, 37, 38]. The leptonic decay of the Z bosons was included in [39] using the narrow width approximation where both Z bosons are restricted to the mass shell . We remove that restriction and allow for arbitrary invariant masses. Twelve Feynman diagrams contribute to the background process gg ! ZZ ! 4`\Sigma . The six generic Feynman diagrams for the case that all final state leptons are muons, which are easiest to detect at a hadron collider, are given in figure 1. We keep close to the notation of [38, 39] in order to allow for easy comparison of our results with the on-shell case. In this section we investigate the gluon fusion via a quark box into two Z bosons with invariant masses m3 and m4. The decay of the two intermediate state Z bosons is included afterwards. We take all four momenta to be outgoing. The two gluons are described by the four momenta p_1 , p*2 and the two Z bosons by pae3 , poe4 . The gluons are taken on-shell. Therefore
+
+p21 = 0 ; p22 = 0 ; p23 =: m23 ; p24 =: m24 : (2.1) We use Mandelstam variables
+
+s := (p1 + p2)2; u := (p1 + p3)2; t := (p2 + p3)2 (2.2) and
+
+u3 := u \Gamma m23 u4 := u \Gamma m24
+
+t3 := t \Gamma m23 t4 := t \Gamma m24 s3 := s \Gamma m23 s4 := s \Gamma m24
+
+v := ut \Gamma m23m24 v2 := ut \Gamma 2m23m24 * := (u + t)2 \Gamma 4m23m24 : (2.3)
+
+3
+
+The calculation of the ggZZ polarization tensor is straightforward. We use the PassarinoVeltman scheme [40] for the reduction of the tensor integrals and the 't Hooft-Veltman scheme [41] for the scalar integrals. In intermediate steps we get of the order of 105 terms. So the use of an algebraic manipulation program is mandatory. Throughout our analytical investigations we use FORM by J.A.M. Vermaseren [42]. The reduction of the scalar integrals was checked numerically [43]. As in the on-shell case [38] the ggZZ polarization tensor can be written as
+
+P _*aeoe = \Gamma g
+
+2 s g
+
+2 Z
+
+(2ss)4
+
+ffifffi
+
+2 nv
+
+2 q P
+
+_*aeoe v + a
+
+2 qP
+
+_*aeoe a o : (2.4)
+
+Here vq and aq denote the coefficients of the vector and of the axial part of the Z boson coupling to a quark line, \Gamma igZ(vq + aqfl5)fl_. gs and gZ are the strong and the weak coupling constants. The minus sign in eq. (2.4) comes from the closed fermion loop. ff; fi are the colour indices of the two gluons and ffifffi=2 comes from the trace over the two colour matrices. Because of charge conjugation invariance no terms proportional to vqaq arise. The tensor P _*aeoev is well known; it is the QED result for photon photon scattering flfl ! flfl with the two outgoing photons being off-shell. It has been calculated in [44] by using double dispersion relations. We compared the algebraic part of our result for P _*aeoev with [44] and got complete agreement. P _*aeoea is new for the case that the two Z bosons have different invariant masses. It is quite a long expression but as P _*aeoev is well known in the literature, it is sufficient to give the difference P _*aeoev \Gamma P _*aeoea which is - as in the on-shell case [38] - much shorter. The difference can be written as
+
+P _*aeoev \Gamma P _*aeoea = iss2m2 fT _*aeoe + P12(T *_aeoe) + T *aeoe1 p_1 + T _aeoe2 p*2g (2.5) where m is the mass of the quark in the loop. By P12 we denote the permutation that exchanges p1 and p2. Note that this includes the interchange of
+
+P12 :
+
+p1 $ p2 C0(\Gamma p1; \Gamma p3) $ C0(\Gamma p2; \Gamma p3)
+
+u $ t C0(\Gamma p2; \Gamma p4) $ C0(\Gamma p1; \Gamma p2 \Gamma p3) u3 $ t3 D0(\Gamma p1; \Gamma p2; \Gamma p3) $ D0(\Gamma p1; \Gamma p2; \Gamma p4) u4 $ t4 invariant stay :
+
+s; m3; m4; s3; s4; C0(\Gamma p1; \Gamma p2); C0(\Gamma p3; \Gamma p1 \Gamma p2); D0(\Gamma p1; \Gamma p3; \Gamma p2) : (2.6)
+
+When calculating the helicity amplitudes in section 3 all terms in eq. (2.5) containing p_1 or p*2 vanish after contraction with the helicity four vectors. So T *aeoe1 and T _aeoe2 are not needed for the calculation of the helicity amplitudes. It is sufficient to give T _*aeoe
+
+T _*aeoe =
+
+16 `(ffi_oepae1p*3 \Gamma ffi_aepoe1 p*3) + t3s (ffi_aep*1poe1 \Gamma ffi_oep*1pae1)' ae 1v ( \Gamma 2sC0(\Gamma p1; \Gamma p2) \Gamma 2t3C0(\Gamma p2; \Gamma p3)
+
+\Gamma 2u4C0(\Gamma p2; \Gamma p4) + stD0(\Gamma p1; \Gamma p2; \Gamma p3) + suD0(\Gamma p1; \Gamma p2; \Gamma p4)) + D0(\Gamma p1; \Gamma p3; \Gamma p2) oe + 16 (ffi_oep*1 pae2 + ffi*aepoe1 p_2 \Gamma ffi_*poe1 pae2) fD0(\Gamma p1; \Gamma p2; \Gamma p3) \Gamma D0(\Gamma p1; \Gamma p2; \Gamma p4)
+
+\Gamma D0(\Gamma p1; \Gamma p3; \Gamma p2)g \Gamma 8 2 \Gamma *v ! `ffi_* + 2sv p_3 p*3' ffiaeoeC0(\Gamma p3; \Gamma p1 \Gamma p2)
+
+4
+
++ 16v `2 + u3u4 + t3t4v ' isp_3 p*3 + m23p*1p_2 j ffiaeoeC0(\Gamma p1; \Gamma p2) + 8s u + tv 2 u3p
+
+_ 2 p*3 + t3p*1p
+
+_ 3
+
+v \Gamma ffi
+
+_*! ffiaeoeC0(\Gamma p1; \Gamma p2)
+
++ 8s (ffi_aeffi*oe \Gamma ffi_oeffi*ae) D0(\Gamma p1; \Gamma p2; \Gamma p3) + 4s (ffi_aeffi*oe + ffi_oeffi*ae) D0(\Gamma p1; \Gamma p3; \Gamma p2) + 4ffi_* ffiaeoe ae4 u3u4sv (u3C0(\Gamma p1; \Gamma p3) + u4C0(\Gamma p2; \Gamma p4))
+
++ 2 2 u
+
+2s
+
+v + 8m
+
+2 \Gamma s! D0(\Gamma p1; \Gamma p2; \Gamma p4) + ` 2v
+
+s + 8m
+
+2 \Gamma s' D0(\Gamma p1; \Gamma p3; \Gamma p2) oe
+
++ 32v ffiaeoep_3 p*3 ae`1 + u3u4v ' (u3C0(\Gamma p1; \Gamma p3) + u4C0(\Gamma p2; \Gamma p4)) + ` \Gamma v + 2 ism2 \Gamma m23m24j
+
++ 1v iu2 it2 + s2j \Gamma m43m44j' D0(\Gamma p1; \Gamma p2; \Gamma p4) + sm2D0(\Gamma p1; \Gamma p3; \Gamma p2)oe + 8ffiaeoep*1p_2 (4 \Gamma m
+
+2 3u
+
+v2 +
+
+1 s2 ! (u3C0(\Gamma p1; \Gamma p3) + u4C0(\Gamma p2; \Gamma p4))
+
++ 2v 2m24 \Gamma s + * + 2m
+
+2 3m
+
+2 4 \Gamma m
+
+4 3 \Gamma m
+
+4 4
+
+s +
+
+m23*
+
+v ! C0(\Gamma p3; \Gamma p1 \Gamma p2)
+
++ 2 1 + 2m
+
+2 3u
+
+2s
+
+v2 + 4m
+
+2 m
+
+2 3
+
+v \Gamma
+
+1
+
+s !! D0(\Gamma p1; \Gamma p2; \Gamma p4)
+
++ 1 \Gamma 4m
+
+2
+
+s \Gamma
+
+2v
+
+s2 ! D0(\Gamma p1; \Gamma p3; \Gamma p2) +
+
+4m2m23
+
+v D0(\Gamma p1; \Gamma p3; \Gamma p2))
+
++ 16v ffiaeoe (u3p_2 p*3 + t3p*1p_3 ) ae 2uv (u3C0(\Gamma p1; \Gamma p3) + u4C0(\Gamma p2; \Gamma p4))
+
++ 2 \Gamma *v ! C0(\Gamma p3; \Gamma p1 \Gamma p2) \Gamma 2 2m2 + su
+
+2
+
+v ! D0(\Gamma p1; \Gamma p2; \Gamma p4)
+
+\Gamma 2m2D0(\Gamma p1; \Gamma p3; \Gamma p2) oe (2.7)
+
+where C0; D0 are the scalar three- and four-point functions
+
+C0(p1; p2) :=
+
+1 iss2 Z d
+
+4q 1
+
+[(q2 \Gamma m2 + iffl][(q + p1)2 \Gamma m2 + iffl][(q + p1 + p2)2 \Gamma m2 + iffl] (2.8)
+
+D0(p1; p2; p3) := 1iss2 Z d4q
+
+1 [q2 \Gamma m2 + iffl][(q + p1)2 \Gamma m2 + iffl][(q + p1 + p2)2 \Gamma m2 + iffl][(q + p1 + p2 + p3)2 \Gamma m2 + iffl] :
+
+(2.9)
+
+This result agrees for m23 = m24 = m2Z with the on-shell result in [38]. In addition we checked the gauge invariance of the full polarization tensor P _*aeoe. Gauge invariance leads to
+
+p1_P _*aeoe = p2* P _*aeoe = 0
+
+5
+
+p3aeP _*aeoev = p4oeP _*aeoev = 0 f or m = 0 : p3aeP _*aeoea = p4oeP _*aeoea = 0 (2.10)
+
+where m is again the mass of the quark in the loop.
+
+3. The ggZZ helicity amplitudes In order to get the helicity amplitudes from the full ggZZ polarization tensor in eq. (2.4) we specify explicitly a set of four momenta p_1 ; p*2; pae3; poe4 for the two gluons and the two Z bosons as well as a corresponding set of helicity four vectors. We use in the parton center of momentum frame
+
+p_1 := (\Gamma p; 0; 0; \Gamma p) p*2 := (\Gamma p; 0; 0; +p) pae3 := (P3; q sin `; 0; q cos `) poe4 := (P4; \Gamma q sin `; 0; \Gamma q cos `) (3.1)
+
+with
+
+P3 = 12ps (s + m23 \Gamma m24)
+
+P4 = 12ps (s + m24 \Gamma m23)
+
+sin ` = 2 qut \Gamma m
+
+23m24p
+
+*
+
+p = ps2 ; q = p*2ps : (3.2) For the helicity four vectors we choose
+
+e+_1 = \Gamma e\Gamma _2 = 1p2 (0; \Gamma i; 1; 0)
+
+e\Gamma _1 = \Gamma e+_2 = 1p2 (0; +i; 1; 0) e+\Lambda _3 = \Gamma e\Gamma \Lambda _4 = 1p2 (0; +i cos `; 1; \Gamma i sin `) e\Gamma \Lambda _3 = \Gamma e+\Lambda _4 = 1p2 (0; \Gamma i cos `; 1; +i sin `)
+
+e0\Lambda _3 = 1m
+
+3 (q; +P
+
+3 sin `; 0; +P3 cos `)
+
+e0\Lambda _4 = 1m
+
+4 (q; \Gamma P
+
+4 sin `; 0; \Gamma P4 cos `) (3.3)
+
+where +; \Gamma ; 0 refer to positive, negative and longitudinal polarization respectively. We get 22 \Lambda 32 = 36 helicity amplitudes. They are related by parity
+
+M*1*2*3*4 = (\Gamma 1)*
+
+3+*4 M
+
+\Gamma *1\Gamma *2\Gamma *3\Gamma *4 : (3.4)
+
+6
+
+Moreover we find the relations
+
+M++\Gamma \Gamma (p*) = M++++(\Gamma p*)M
+
++++\Gamma (p*) = M++\Gamma +(\Gamma p*)M +\Gamma \Gamma \Gamma (p*) = M+\Gamma ++(\Gamma p*)M +\Gamma \Gamma +(p*) = M+\Gamma +\Gamma (\Gamma p*)M
+
+++0+(p*) = \Gamma M++0\Gamma (\Gamma p*)M +++0(p*) = \Gamma M++\Gamma 0(\Gamma p*)M +\Gamma +0(p*) = \Gamma M+\Gamma \Gamma 0(\Gamma p*)M +\Gamma 0\Gamma (p*) = \Gamma M+\Gamma 0+(\Gamma p*) : (3.5)
+
+So only ten helicity amplitudes are independent. We choose the following set of independent amplitudes
+
+M++++ M+++0 M+++\Gamma M++0+ M++00M
+
++\Gamma ++ M+\Gamma +0 M+\Gamma +\Gamma M+\Gamma 0+ M+\Gamma 00 : (3.6)
+
+We checked that all our helicity amplitudes are ultraviolet finite. Moreover they agree for m23 = m24 = m2Z with the results from [38] . We were able to bring our analytical result for eq. (3.6) into a relatively compact form so that all ten helicity amplitudes together contain only some 4700 terms. This eases the numerical evaluation considerably.
+
+4. Numerical results In order to numerically evaluate our analytical result for eq. (3.6) we let each intermediate state Z boson decay into a charged muon pair and integrate the partonic cross section ^oe over the gluon structure functions of the two incoming protons
+
+oe(pp ! gg ! ZZ ! 4_\Sigma ) = Z dx1dx2fg(x1; Q2)fg(x2; Q2)^oe(^s) : (4.1) Here ^s = x1x2s with s being the C.M. energy squared of the hadrons. x1; x2 are the Bjorken x variables of the two gluons, fg is the gluon structure function of the proton and Q2 determines the scale to which the structure functions are evolved. We use the updated set D\Gamma by Martin, Roberts and Stirling which includes the NMC deep inelastic scattering data [45, 46, 47]. For the QCD scale we take \Lambda 4flavours = 215 MeV and for Q2 we choose Q2 = ^s=4. The energy range under consideration lies between the bottom quark and the top quark threshold. So we use for the strong coupling constant ffs = 12ss=23 log(Q2=\Lambda 2) with \Lambda = \Lambda 5flavours = 143 MeV [48]. We get the partonic cross section ^oe by integrating over the four particle final state. All final state muons are taken to be massless. In accordance with eq. (2.1) and with figure 1 we denote the three momenta by
+
+~pa; ~pc for the two final state _\Gamma ~p3; ~p4 for the two intermediate state Z bosons : (4.2)
+
+7
+
+Then we get for the partonic cross section [49]
+
+^oe(^s) = 12^s \Delta 83^s \Delta (2ss)8 Z dm23dm24d\Omega 3d\Omega ad\Omega cq*(^s; m23; m24) j M j2 (4.3) with *(^s; m23; m24) = * from eq. (2.3). R d\Omega stands for the integration over the solid angle of the corresponding three vector. M is the sum over all interfering invariant subamplitudes that contribute to the given overall process. So it contains our analytical result eq. (3.6) for the ggZZ part of a Feynman diagram, both Z propagators and the lepton currents that describe the decay of the two Z bosons. From eqs. (4.1) and (4.3) it is clear that we end up with a ten dimensional integral where only the integration over the azimuthal angle around the beam axis is trivial. The remaining nine integrations are done numerically with a selfadaptive Monte Carlo integration routine [50]. We include three processes into our numerical investigation
+
+the signal pp ! gg ! H ! ZZ ! 4_\Sigma (4.4)
+
+the two irreducible pp ! gg ! quarkbox ! ZZ ! 4_\Sigma (4.5)
+
+backgrounds pp ! q _q ! ZZ ! 4_\Sigma : (4.6)
+
+For all these processes we restrict ourselves to the leading order contributions. In our analysis we use the LHC design values for the energy in the proton rest frame (ps = 14 TeV) and for the integrated luminosity per year of running (L = 102 fb\Gamma 1). We assume mtop = 140 GeV. For the other quarks in the loop we take the massless limit. In order to avoid numerical problems we make a cut on the transverse momentum of each Z boson j ~pT Z j ? 2 GeV. The contribution from the hereby neglected part of the phase space is small. For a crude simulation of detector properties we use cuts on the transverse momentum and on the rapidity along the beam axis for each final state lepton : j ~pT `epton j ? 10 GeV and j yz `epton j ! 2:5 [51, 52]. The total width of the Higgs boson we take from [53] using a running b quark mass
+
+mb(4:89 GeV) = 4:89 GeV [54].
+
+We checked our numerical program thoroughly. When restricting the intermediate state Z bosons to the mass shell we got perfect agreement with the numerical results from [39] for all three reactions (4.4), (4.5) and (4.6). Comparison with [38] also gave good agreement when using two on-shell Z bosons as the final state. The background (4.6) from quark-antiquark annihilation with two on-shell Z bosons as a final state is also in complete numerical agreement with the leading order results from [55] . As an off-shell test we checked that the cross section for the signal (4.4) gives in the limit of a very heavy top quark the correct value. In figure 3 we show the invariant mass (mZZ) distribution of the Z Z intermediate state for the signal (4.4) and for the two irreducible background processes (4.5) and (4.6). mZZ is identical to the invariant mass of the four lepton final state. In figure 3 all final state leptons are muons. The differential cross sections for the two background reactions fall rapidly for invariant masses below the Z Z threshold. The contribution from gluon fusion is always smaller than the contribution from quark-antiquark annihilation. The relative size of these two differential cross sections is given in figure 4. Here each value is averaged over a 10 GeV invariant mass bin width in order to account for the finite energy resolution of the detector. The gluon fusion contribution is around 20 % of the contribution from quark-antiquark annihilation. The bars in figure 3 denote the cross section per GeV for the signal (4.4) averaged over a 10 GeV invariant mass bin width. The Higgs mass lies at the center of each bin. The numbers on top of each
+
+8
+
+bar give the number of signal events per 10 GeV bin width and per year of running. The signal falls rapidly for small invariant masses due to the vanishing branching ratio for H ! Z Z with one and finally both Z bosons being off-shell. The signal shows around 170 GeV the well known characteristic dip. It results from the opening of the decay channel H ! W+ W\Gamma with both W's being on-shell. Figure 3 shows clearly that in the lower half of the intermediate mass region (mZ ! mH ! 2 mZ) the irreducible background from gluon fusion and quark-antiquark annihilation via off-shell Z boson pairs is negligible.
+
+Instead of four muons in the final state one can also search for a muon pair accompanied by an electron pair. For this process only half of the Feynman diagrams in figures 1 and 2 contribute. Moreover the statistical factor 1=2! \Delta 2! accounting for two pairs of identical particles does not appear. So one would naively expect the cross section for the 2e\Sigma 2_\Sigma final state to be bigger by roughly a factor 2 than the cross section for the 4_\Sigma final state if the interference between the permuted and the non permuted 4_\Sigma diagrams is small. This is clearly fullfilled when both Z bosons are on-shell because then the permutation of two identical muons in the final state would lead in most cases to an event with one or even both intermediate state Z bosons being off-shell. So the permuted event would then be suppressed by the Z propagator. Figure 5 confirms this expectation. It shows the ratio of the cross sections for the signal for the 4_\Sigma and for the 2e\Sigma 2_\Sigma final state. Each plotted value is averaged over a 10 GeV invariant mass bin width. Above the Z Z threshold the ratio is within the statistical Monte Carlo errors indeed equal to two. At smaller values of the invariant mass the 4_\Sigma final state shows a clear constructive interference. This enhances the signal (4.4) for Higgs masses below 120 GeV increasingly. However the event rates for the signal are already too small to be seen due to the vanishing branching ratio for H ! ZZ . Looking at the number of signal events given in figure 3 one expects that the intermediate mass Higgs search via off-shell Z boson pairs at the LHC will be successful down to Higgs masses of about 130 GeV.
+
+5. Conclusion We investigated the size of the irreducible background to the intermediate mass Higgs search via off-shell Z boson pairs at hadron colliders. We restricted to those contributions that contain a Z Z intermediate state. We found that in the lower half of the intermediate mass region the background from gluon fusion and the background from quark-antiquark annihilation is not severe. The Higgs signal in the region below 120 GeV Higgs mass is increasingly enhanced for the 4_\Sigma final state due to constructive interference between diagrams that differ by the permutation of identical muons in the final state. For the Higgs search this has no relevance because signal rates are already too small in that mass region. We conclude that the search for an intermediate mass standard model Higgs boson via the decay channel H ! ZZ ! 4`\Sigma at the LHC will be successful down to Higgs masses of about 130 GeV. More problematic seems to be the reducible background [33]. Its main sources are the non-resonant background from t_t production and the semi-resonant background from Zb_b production. Here further work is needed for definitive conclusions.
+
+9
+
+Acknowledgements We thank G.Kramer for carefully reading the manuscript. C.Z. would like to thank A.Ali, G.Jikia, B.A.Kniehl, T.Ohl, H.Simma, M.Spira, J.A.M.Vermaseren and P.M.Zerwas for useful discussions. The use of the DESY HP workstation cluster is gratefully acknowledged.
+
+10 References
+
+[1] Z.Kunszt and W.J.Stirling, Phys.Lett. B242 (1990) 507 [2] S.L.Wu et al., in Proc. ECFA Workshop on LEP 200, Volume II (1987), Aachen, Germany,
+
+CERN report CERN 87-08, edited by A.B"ohm and W.Hoogland
+
+[3] see e.g. M.Felcini, preprint CERN-PPE/92-208 (1992), or P.Giacomelli, preprint CERNPPE/93-18 (1993)
+
+[4] Proceedings Workshop on e+e\Gamma at 500 GeV: the Physics Potential, DESY Hamburg, Germany, Sept. 1991, edited by P.M.Zerwas, DESY 92-123 A+B+C, and references therein
+
+[5] Proceedings Workshop on Physics and Experiments with Linear Colliders, Saariselk"a, Finland, Sept. 1991, to appear, edited by R.Orava, and references therein
+
+[6] Proceedings Second KEK Topical Conference on e+e\Gamma Collision Physics, KEK, Tsukuba,
+
+Japan, November 1991, to appear, and references therein
+
+[7] F.Harris et al. (eds.), Physics and Experiments with Linear e+e\Gamma Colliders, Proceedings,
+
+workshop, Waikoloa, Hawaii, April 26-30, 1993, World Scientific, Signapore, 1993, Vols. 1,2 and references therein
+
+[8] S.Dawson,J.F.Gunion, H.E.Haber and G.L.Kane, The Higgs Hunter's guide, AddisonWesley (1990), and references therein
+
+[9] Z.Kunszt and W.J.Stirling, Proceedings of the Large Hadron Collider Workshop, Aachen,
+
+edited by G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[10] A.Djouadi, M.Spira, P.M.Zerwas, Phys.Lett. B264 (1991) 440 [11] M.Spira, preprint DESY-93-138, October 1993 and D.Graudenz, M.Spira, P.M.Zerwas,
+
+Phys. Rev. Lett. 70 (1993) 1372
+
+[12] J.F.Gunion, P.Kalyniak, M.Soldate, P.Galison, Phys.Rev. D34 (1986) 101 [13] see e.g. D.Froidevaux, Proceedings of the Large Hadron Collider Workshop, Aachen, edited
+
+by G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990, and references therein
+
+[14] U.Baur, E.W.N.Glover, Phys.Rev. D44 (1991) 99 [15] A.Nisati, Proceedings of the Large Hadron Collider Workshop, Aachen, edited by
+
+G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[16] M.H.Seymour, Proceedings of the Large Hadron Collider Workshop, Aachen, edited by
+
+G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[17] Z.Kunszt, Z.Tr'ocs'anyi and W.J.Stirling, Phys.Lett. B271 (1991) 247 [18] R.K.Ellis, I.Hinchcliffe, M.Soldate and J.J.van der Bij, Nucl.Phys. B297 (1988) 221 [19] J.F.Gunion, G.L.Kane and J.Wudka, Nucl.Phys. B299 (1988) 231
+
+11
+
+[20] L.DiLella, Proceedings of the Large Hadron Collider Workshop, Aachen, edited by
+
+G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[21] C.Seez, T.Virdee, L. DiLella, R.Kleiss, Z.Kunszt and W.J.Stirling, Proceedings of the
+
+Large Hadron Collider Workshop, Aachen, edited by G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[22] K.L"ubelsmeyer et al., preprint RWTH Aachen 1993, PITHA 93/26 [23] Y.Zeng et al., preprint RWTH Aachen 1993, PITHA 93/9 [24] S.L.Glashow, D.V.Nanopoulos, A.Yildiz, Phys.Rev. D18 (1978) 1724 [25] B.A.Kniehl, Phys.Rev. D42 (1990) 2253 [26] T.Han, S.Willenbrock, Phys.Lett. B273 (1991) 167 [27] J.Kalinowski, Phys.Lett. B241 (1990) 593 [28] Z.Kunszt, Nucl.Phys. B247 (1984) 339 [29] D.A.Dicus, S.Willenbrock, Phys.Rev. D39 (1989) 751 [30] R.Kleiss, Z.Kunszt and W.J.Stirling, Phys.Lett. B253 (1991) 269 [31] J.F.Gunion, Phys.Lett. B261 (1991) 510 [32] M.Schneegans, preprint Lapp/Annecy, LAPP-EXP-91.04, published in Moriond 1991 :
+
+Electroweak : 473-482
+
+[33] M.Della Negra et al., Proceedings of the Large Hadron Collider Workshop, Aachen, edited
+
+by G.Jarlskog and D.Rein, CERN 90-10 Vol.II, 1990
+
+[34] A.Grau, G.Pancheri and Y.N.Srivastava, Phys.Lett. B247 (1990) 611 [35] A.Grau, G.Pancheri and Y.N.Srivastava, Phys.Rev. D45 (1992) 3102 [36] D.A.Dicus, C.Kao and W.W.Repko, Phys.Rev. D36 (1987) 1570 [37] E.W.N.Glover and J.J.van der Bij, Phys.Lett. B219 (1989) 488 [38] E.W.N.Glover and J.J.van der Bij, Nucl.Phys. B321 (1989) 561 [39] T.Matsuura, J.J.van der Bij, Z.Phys. C51 (1991) 259 [40] G.Passarino and M.Veltman, Nucl. Phys. B160 (1979) 151 [41] G.'t Hooft and M.Veltman, Nucl.Phys. B153 (1979) 365 [42] J.A.M.Vermaseren, Symbolic Manipulation with FORM, published by CAN (Computer
+
+Algebra Nederland), Kruislaan 413, 1098 SJ Amsterdam, the Netherlands, 1991, ISBN 90-74116-01-9
+
+[43] G.J.van Oldenborgh, Computer Physics Communications 66 (1991) 1 and G.J.van Oldenborgh, preprint NIKHEF-H-90-15
+
+12
+
+[44] V.Costantini, B.de Tollis and G.Pistoni, Nuovo Cim. 2A (1971) 733 [45] A.Martin, R.Roberts and J.Stirling, Phys.Rev. D47 (1993) 867 [46] P.Amaudruz et al., Phys. Lett. B295 (1992) 159 [47] K.Charchula, Computer Physics Communications 69 (1992) 360 [48] W.J.Marciano, Phys.Rev. D29 (1984) 580 [49] E.Byckling and K.Kajantie, Particle Kinematics, John Wiley & Sons, London, 1973 [50] G.P.Lepage, preprint, VEGAS - An Adaptive Multidimensional Integration Program,
+
+CLNS-80/447 March 1980
+
+[51] CMS Letter of Intent, CERN/LHCC 92-3, 1 October 1992 [52] see e.g. J.Varela, CMS Collaboration, preprint Lisbon Lab. Instrum. Exp. Part. Phys.
+
+LIP-PHYS/93-01
+
+[53] V. Barger et al., Phys.Rev. D49 (1994) 79 [54] H. Arason et al., Phys.Rev. D46 (1992) 3945 [55] B.Mele in: L.Cifarelli and Y.Dokshitzer (eds.), QCD at 200 TeV, Plenum Press, New
+
+York, 1992, and B.Mele, preprint Rome-832-1991, I.N.F.N. - Sezione di Roma, and B.Mele, P.Nason, G.Ridolfi, Nucl.Phys. B357 (1991) 409
+
+13
+
+Figure Captions Fig.1 Feynman diagrams for the background process gg ! ZZ ! 4_\Sigma . Both intermediate
+
+state Z bosons are allowed to be off-shell.
+
+Fig.2 Feynman diagrams for the signal process gg ! H ! ZZ ! 4_\Sigma . Again both
+
+intermediate state Z bosons are allowed to be off-shell.
+
+Fig.3 The invariant mass (mZZ) distributions for the two irreducible background processes
+
+pp ! q _q ! ZZ ! 4_\Sigma and pp ! gg ! ZZ ! 4_\Sigma (continous q _q and gg lines). The bars denote the cross section per GeV for the signal pp ! gg ! H ! ZZ ! 4_\Sigma averaged over a 10 GeV invariant mass bin width. The Higgs mass lies at the center of each bin. The numbers on top of each bar give the number of events per 10 GeV bin width and per year of running. ( Integrated luminosity : 102f b\Gamma 1, mtop = 140 GeV, MRS D\Gamma structure functions, cuts as given in the text.)
+
+Fig.4 Ratio of the cross sections for the two irreducible background contributions pp !
+
+gg ! ZZ ! 4_\Sigma and pp ! q _q ! ZZ ! 4_\Sigma . Each plotted value is the average
+
+over a 10 GeV bin width of the invariant mass mZZ . ( mtop = 140 GeV, MRS D\Gamma structure functions, cuts as given in the text.)
+
+Fig.5 Ratio of the cross sections for the signal pp ! gg ! H ! ZZ ! 2`\Sigma 2`0\Sigma for
+
+the 4_\Sigma and for the 2e\Sigma 2_\Sigma final state. Each plotted value is the average over a
+
+10 GeV bin width of the invariant mass mZZ . ( mtop = 140 GeV, MRS D\Gamma structure functions, cuts as given in the text.)
+
+14
+
+\Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:1
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q . .^. .^Z \Gamma \Gamma ` _
+
+\Gamma a
+
+@@ _+ b
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma c
+
+@@ _+ d \Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:2
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q . .^. .^Z \Gamma \Gamma ` _
+
+\Gamma c
+
+@@ _+ d
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma a
+
+@@ _+ b
+
+\Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:3
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q
+
+\Gamma \Gamma
+
+\Gamma \Gamma @@@ @ . .^. .^
+
+Z \Gamma \Gamma ` _\Gamma a
+
+@@ _+ b
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma c
+
+@@ _+ d
+
+\Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:4
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q . .^. .^Z \Gamma \Gamma ` _
+
+\Gamma a
+
+@@ _+ d
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma c
+
+@@ _+ b \Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:5
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q . .^. .^Z \Gamma \Gamma ` _
+
+\Gamma c
+
+@@ _+ b
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma a
+
+@@ _+ d
+
+\Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+1:6
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg q
+
+\Gamma \Gamma
+
+\Gamma \Gamma @@@ @ . .^. .^
+
+Z \Gamma \Gamma ` _\Gamma a
+
+@@ _+ d
+
+^ ^.^ ^.Z \Gamma \Gamma `
+
+_\Gamma c
+
+@@ _+ b
+
+Fig.1
+
+\Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+2:1
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg
+
+@@q
+
+\Gamma \Gamma
+
+H \Psi ffffZ \Gamma
+
+\Gamma ` _
+
+\Gamma a
+
+@@ _+ b \Omega \Omega \Phi
+
+Z \Gamma \Gamma ` _
+
+\Gamma c
+
+@@ _+ d \Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega g
+
+2:2
+
+\Phi \Phi \Phi \Theta \Delta \Theta \Delta ffffffg
+
+@@q
+
+\Gamma \Gamma
+
+H \Psi ffffZ \Gamma
+
+\Gamma ` _
+
+\Gamma a
+
+@@ _+ d \Omega \Omega \Phi
+
+Z \Gamma \Gamma ` _
+
+\Gamma c
+
+@@ _+ b
+
+Fig.2 15
+
+O"
+
+s = 14 TeV2.7
+
+1.2
+
+9.2
+
+30
+
+59
+
+74 34 20
+
+50
+
+157 175
+
+173
+
+gg qq
+
+100 120 140 160 180 200 220 240
+
+mZ Z ( GeV )
+
+10
+
+-7 10-6 10-5 10-4 10-3 10-2 10-1 100 101
+
+ds/dmZZ ( fb/GeV )
+
+Fig.3
+
+16
+
+O"s = 14 TeV 100
+
+120 140 160 180 200 220 240
+
+mZ Z ( GeV )
+
+0 10 20 30 40
+
+dsgg/dmZZ / dsqq/dmZZ ( % )
+
+Fig.4
+
+17
+
+s = 14 TeVO" 100 120 140 160 180 200
+
+mZ Z ( GeV )
+
+0.4 0.5 0.6 0.7 0.8ds4mu/dmZZ / ds2e2mu/dmZZ
+
+Fig.5
+
+18
+

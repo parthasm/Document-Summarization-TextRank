@@ -1,0 +1,200 @@
+
+
+1 Four fermion production in e+ e\Gamma annihilation \Lambda y z F. A. Berendsa and R. Pittaub Instituut-Lorentz, Leiden, The Netherlands R. Kleissc NIKHEF-H, Amsterdam, The Netherlands
+
+ae-mail: berends@rulgm0.leidenuniv.nl
+
+be-mail: pittau@rulgm0.leidenuniv.nl ce-mail: t30@nikhefh.nikhef.nl
+
+Four fermion processes at e+ e\Gamma colliders in a range of energy from 100 GeV to 1 TeV are discussed and examples of results obtained with an event generator presented. We also investigate the effects of the inclusion of initial state QED corrections and QCD contributions.
+
+1. Introduction
+
+Heavy vector boson production will be investigated at e+e\Gamma colliders in a wide range of energies. At LEP II, the mass and the width of the charged boson will be measured [1] and searches for its anomalous couplings performed [2]. The relevant process is, in this case, the production of two W 0s above threshold
+
+e+ e\Gamma ! W + W \Gamma : (1) At somewhat higher energies other processes like e+e\Gamma ! Z Z ; (2) e+e\Gamma ! W e *e ; (3) e+e\Gamma ! Z e+ e\Gamma ; (4) e+e\Gamma ! Z *e _*e ; (5)
+
+become important [3].
+
+Since the produced heavy bosons immediately decay, for all above processes the detected experimental signal is a four fermion final state, which has important consequences. First of all, the number of possible final states grows. Secondly, the number of Feynman diagrams contributing to
+
+\Lambda Talk presented by R. Pittau at Zeuthen meeting in April 1994. yResearch supported in part by the EU under contract n.
+
+CHRX-CT-0004. zPreprint INLO-PUB-7/94.
+
+a given final state can be very large. Finally, the same four fermion final state can originate from several signals. For example, all 5 signals (1)-(5) can end up with a e+e\Gamma *e_*e final state.
+
+Of course, at some energies, a particular set of diagrams dominates, and all the others can be considered as a background. At LEP II, three diagrams with 2 decaying W 0s dominate, while, at next linear colliders in the TeV regime, diagrams for single W or Z production, are responsible for the leading effects and the former diagrams give small contributions. For an exhaustive treatment of all questions concerning signal and background see ref. [4]. Here, we only stress that it is not always possible to use kinematical cuts to remove the background effects. For instance, if two neutrinos are present in the final state, no invariant mass cuts can be performed and only quantities summed over all possible neutrino flavours are suitable for comparisons with experiment.
+
+Thus, an explicit calculation of all four fermion processes is unavoidable, in order to check the effectiveness of cuts to reduce the background and to extract physical information whenever these cuts are not applicable.
+
+This rather ambitious program has been carried out in five papers [4]-[8]. The main result is a very fast Monte Carlo program, EXCALIBUR [5,6], that, in the limit of vanishing fermion masses,
+
+2 takes into account all possible Feynman diagrams contributing to any given four fermion final state.
+
+Note that neglecting fermion masses implies the absence of diagrams where a Higgs boson couples to the fermions: but, although we cannot compute the Higgs signal in our approach, we can at least reliably estimate the background. For one diagram in the background one then has to introduce a special treatment, i.e. the diagram where two W 0s fuse to b_b with top quark exchange, which has to be taken massive.
+
+The QCD tree level effects in 4 jets final states [7] and the initial state QED radiation [8] are also implemented, so we feel confident that our program is complete and accurate enough to describe, in the framework of the Standard Model, the four fermion physics relevant at e+e\Gamma colliders.
+
+The outline of this paper is as follows. In section 2 we sketch the method used in computing the matrix element and in building the
+
+Monte Carlo. In section 3, 4 and 5 results obtained with the described generator are presented. Finally, we summarize our conclusions.
+
+2. The method
+
+Since one wants to deal with all possible final states, first of all an efficient way to compute the matrix elements is needed. There are Abelian and non Abelian graphs with two distinct topologies [4]. All Feynman diagrams can be obtained from those two topologies by permuting the fermion momenta. The number of diagrams can be very large (up to 144), so the evaluation has to be performed at the level of helicity amplitudes. Using spinorial techniques, one single basic function can be found that describes the spinorial structure of both Abelian and non Abelian graphs. Thus, for massless fermions, each helicity amplitude consists of a sum of very systematic and relatively compact expressions. This is important for the computational speed.
+
+As for the Monte Carlo integration over the final fermion momenta, we have used a multichannel approach. The basic idea is to generate the integration variables according to distributions that approximately reproduce the peaking
+
+behaviour of the matrix element squared. This reduces the variance of the integrand, and therefore the Monte Carlo error.
+
+Since the peaking structure of the matrix element squared can be very rich, one set of integration variables can only describe a limited number of peaks, so that, in general, one has to generate each peak with different mappings of random numbers, that is different channels. In EXCALIBUR those channels are automatically chosen by the program, looking at the Feynman diagrams contributing to the selected process. Also the optimization of the predetermined probabilities used to choose the various channels is automatic, leading to an effective increase in the program speed by almost an order of magnitude [6].
+
+QED corrections are implemented using the structure-function formalism [9]. Each of the incoming fermions is assumed to have its energy degraded by the emission of photons parallel to the beam. For the energy distribution of the fermion after radiation we take a structure function \Phi that incorporates the leading log O (ff) and O \Gamma ff2\Delta initial state radiation with exponentiation of the remaining soft-photon effects [8]. Our model for the total radiative cross section is then
+
+oe(s) =
+
+1Z
+
+0
+
+1Z 0
+
+dx1 dx2 \Phi (x1) \Phi (x2) oe0(x1x2s) (6)
+
+where oe0 is the nonradiative cross section and x1; x2 represent the energy content of the incoming fermions after radiative emission. This provides an adequate description of the leading QED effects.
+
+When four quarks are present in the final state, one has to add the concomitant QCD production channels, and also the production of a quark pair and two gluons, since both types of final states will appear as jets. In our Monte Carlo the former contribution is easily implemented without additional CPU time by adding gluons wherever photons connect quark lines [7] (of course the correct QCD coupling and colour structure should be taken into account). Finally, the latter process can be efficiently computed using the recursion relations of ref. [10].
+
+3 Table 1 Cross section in pb for e+e\Gamma ! e+e\Gamma *e;_;o/ _*e;_;o/ . Cuts applied: m (e+e\Gamma ) ? 10 GeV , j cos `e\Sigma j ! 0:9, Ee\Sigma ? 20 GeV .p
+
+s (GeV) 150 175 200 WW diagrams only :3600 \Sigma :0011 10\Gamma 2 :1181 \Sigma :0002 :1304 \Sigma :0003 WW + background :4625 \Sigma :0011 10\Gamma 2 :1246 \Sigma :0002 :1591 \Sigma :0003 Relative difference (%) 22 5 18
+
+Table 2 Cross section in pb for e+e\Gamma ! e\Gamma _*e + 2 jets. Cuts applied: Ee\Gamma ; q; _q0 ? 20 GeV , j cos `e\Gamma ; q; _q0j ! 0:9,j
+
+cos (q; _q0)j ! 0:9, m (q_q0) ? 10 GeV .p
+
+s (GeV) 150 175 200 WW diagrams only :1921 \Sigma :0060 10\Gamma 1 :6684 \Sigma :0014 :7202 \Sigma :0016 WW + background :1513 \Sigma :0042 10\Gamma 1 :6690 \Sigma :0014 :7490 \Sigma :0018 Relative difference (%) -27 0.1 4
+
+3. Results without initial state radiation
+
+In this section we shall present examples of numbers obtained with EXCALIBUR. We start showing results without QED radiation and QCD effects [4]. The actual values for the input parameters are ff = 1=129, sin2 `W = 0:23, MW = 80:5, \Gamma W = 2:3, MZ = 91:19 and \Gamma Z = 2:5 (all GeV).
+
+In the first row of table 1 only the three WW signal diagrams are considered, while in the second entry all diagrams leading to a final state with e+ e\Gamma and two neutrinos are taken into account. All neutrino flavours are summed over, because, as already discussed in the introduction, it is not possible to distinguish them experimentally. As a consequence, the background for this process consists of both an interfering and a noninterfering part. The last entry shows the whole effect. Usually, one tries to get rid of the background contributions by imposing invariant mass cuts on the particles that can come from decaying W 0s. Note that this is not possible here because two neutrinos are produced. Therefore, any study on, say, lepton universality made at LEP II on the basis of purely leptonic events like those shown in table 1, should take care of the background. A last remark is in order. While a large background below threshold (22%) is somewhat understandable, the large contribution at 200 GeV (18%) may appear surprising. This is due to two combined effects. On one hand diagrams for single W
+
+production become important at higher energies. On the other hand, at 200 GeV, background Z0s are produced above threshold.
+
+In table 2 the semileptonic process e+e\Gamma ! e\Gamma _*e + 2 jets is considered (taking the CKM matrix unity it is the sum of cross sections with u _d and c_s in the final state). Here, only interfering background is possible. Then, since no resonant Z0s are produced, at 200 GeV, the effect of the background is not as large as in the previous case. For the process e+e\Gamma ! _\Gamma _*_ + 2 jets, where also diagrams with single W production are absent, the contribution of the background is even smaller (0.3%), again at 200 GeV. With semileptonic final states invariant mass cuts are possible. A cut 70 ! m (e\Gamma _*e); m (q_q0) ! 90 GeV reduces the background from 4 % to 1% for the process in table 2 at 200 GeV, and only 10% of the events are lost.
+
+Finally, in table 3, the influence of the interfering electroweak background on a specific four quark final state is investigated.
+
+This concludes our discussion on signal and background at LEP II. At higher energies single boson production processes become important and the problem is to find a way to disentangle, for any given final state, the signals (1)-(5). In ref. [4] we showed that this can be achieved by cutting the invariant masses of the events around the vector boson masses. For example, at 1 TeV and with the cuts Ee\Gamma ; u; _d ? 20 GeV ,
+
+4 Table 3 Cross section in pb for e+e\Gamma ! u _dd_u. E (all particles) ? 20 GeV , j cos ` (all particles)j ! 0:9. Moreover m (ij) ? 10 GeV and j cos (i; j)j ! 0:9 between all possible final state pairs.p
+
+s (GeV) 150 175 200 WW diagrams only :2141 \Sigma :0019 10\Gamma 1 :7699 \Sigma :0018 :8726 \Sigma :0023 WW + background :2317 \Sigma :0010 10\Gamma 1 :7745 \Sigma :0018 :8987 \Sigma :0023 Relative difference (%) 8 0.6 3
+
+Table 4 Results on radiatively corrected cross sections and average energy losses, under various calculational strategies, for the process e+e\Gamma ! e\Gamma _*eu _d. The cross sections are given in picobarns, _ffl and ffl in GeV.p
+
+s =176 GeV strategy oe0 oe _ffl ffl WW,f,1 .60111 \Sigma .00032 .50490 \Sigma .00032 1.162 \Sigma 0.002 - WW,s,1,a " .50484 \Sigma .00033 1.172 \Sigma 0.002 1.175 \Sigma 0.002 WW,s,1,b " .50175 \Sigma 00098 1.167 \Sigma 0.006 1.170 \Sigma 0.006 WW,s,2 " .50258 \Sigma .00097 1.178 \Sigma 0.006 1.181 \Sigma 0.006 WW,cuts .44651 \Sigma .00092 .37737 \Sigma .00091 1.192 \Sigma 0.007 1.195 \Sigma 0.007 all,cuts .45011 \Sigma .00097 .37926 \Sigma .00095 1.149 \Sigma 0.007 1.152 \Sigma 0.007
+
+j cos `e\Gamma ; u; _dj ! 0:9, m (u _d) ? 30 GeV , the cross section for the process e+e\Gamma ! e\Gamma _*eu _d including all diagrams is 0.0452 pb, while the result with only WW diagrams is 0.0143 pb. That is a difference of a factor 3. An additional cut MW \Gamma 2\Gamma W ! m (e\Gamma _*e); m (u _d) ! MW + 2\Gamma W reduces both numbers to 0.0079 pb. However, even if such a procedure removes all the other signals, it should be noted that almost half of the W W signal has been cut. Therefore, in order to avoid this huge loss in statistics, any study about tiny effects (for instance searches for anomalous couplings) has to be performed directly at the level of a complete e+e\Gamma ! 4 fermions generator.
+
+4. Results with initial state radiation
+
+In order to present some salient results we have chosen the specific process
+
+e+e\Gamma ! e\Gamma _*eu _d ; (7) which contains the W W pair production signal, as well as a non-negligible background [8].
+
+Table 4 contains numbers from our Monte Carlo obtained under different strategies. The quoted values are the nonradiative cross section oe0, the total cross section with initial state radiation oe, the average `energy loss' _ffl defined asp
+
+s 2 (1 \Gamma x1x2) (see ref. [11]) and the real energy
+
+loss ps2 (2 \Gamma x1 \Gamma x2), denoted by ffl. The strategies used areffl
+
+WW,f,1: the W W signal diagrams only, with the flux-function approach to O (ff) as given in ref. [11]; no cuts;
+
+ffl WW,s,1,a: the W W signal diagrams only,
+
+with structure functions that are simply the flux function of ref. [11] to O (ff), in which 2ff is replaced by ff; no cuts;
+
+ffl WW,s,1,b: the W W signal diagrams only,
+
+with O (ff) structure functions of ref. [8]; no cuts;
+
+ffl WW,s,2: the W W signal diagrams only,
+
+with O \Gamma ff2\Delta structure functions as given in ref. [8]; no cuts;
+
+ffl WW,cuts: like the previous case, except
+
+that now we also impose the following cuts: Ee\Gamma ; u; _d ? 20 GeV , j cos `e\Gamma ; u; _dj ! 0:9,j
+
+cos (u _d)j ! 0:9, m (u _d) ? 10 GeV ;
+
+ffl all,cuts: like the previous case, except that
+
+now also all the background Feynman diagrams are taken into account.
+
+5 Table 5 Cross section in pb for e+e\Gamma ! 4 jets. Cuts as in table 3.p
+
+s (GeV) 175 190 WW signal 3.0674 \Sigma 0.0074 3.5136 \Sigma 0.0090 WW signal + ISR 2.5622 \Sigma 0.0071 3.1416 \Sigma 0.0089 All EW diagrams + ISR 2.5922 \Sigma 0.0075 3.3553 \Sigma 0.0097 All EW diagrams + interfering QCD + ISR 2.6202 \Sigma 0.0079 3.3789 \Sigma 0.0100 All EW diagrams + all QCD + ISR 3.1155 \Sigma 0.0123 3.8688 \Sigma 0.0146
+
+For this analysis we have adopted the values given in ref. [11], namely
+
+ff = (127:29)\Gamma 1 ; sin2 `w = 0:2325 ; ffstr.f., flux = (137:036)\Gamma 1 ; MZ = 91:173 GeV ; \Gamma Z = 2:4971 GeV ; MW = 80:220 GeV ; \Gamma W = 2:033 GeV :
+
+Referring to eq. 6, ff is contained in oe0, while ffstr.f., flux is used in \Phi (x). The structure function method differs slightly from the flux function method as comparisons between the first and second row of table 4 show. The inclusion of cuts or more diagrams affect both cross sections and energy losses.
+
+Since the proposed direct reconstruction method for the W mass suffers from a shift in MW due to the radiated energy [1], a precise knowledge of _ffl and ffl is warranted. Our results show that the precise treatment of ISR, the choice of cuts and the neglect of diagrams all affect the energy losses. The first effect was also found in ref. [11], where also the influence of the Coulomb singularity is discussed. The two other effects show that a Monte Carlo treatment allowing for cuts and being able to include all diagrams is indispensable.
+
+5. Results with initial state radiation and
+
+QCD contributions
+
+With four-quark final states also the QCD contributions must be taken into account [7]. Table 5 shows results for the process e+e\Gamma ! 4 jets (neglecting fragmentation effects) under inclusion of several QED and QCD contributions at LEP II energies. The input parameters are as in section 3 and ffs = 0.103. The cross section is lowered by the initial state QED radiation (ISR), while all
+
+the other contributions tend to raise it back to its Born value. The electroweak (EW) background is at the per cent level as well as the interfering QCD background (four quark production via gluons). In the last row also the non-interfering QCD cross section e+e\Gamma ! 2 gluons + 2 quarks is included; it increases the cross section by 16% at ps= 175 GeV.
+
+In figure 1 the distribution of the invariant
+
+pb 10GeV WWAll + QCD
+
++ ISR ggq _q
+
+0 100 200 1 2 3 4 5
+
+m (i;j) (GeV) Figure 1 Distribution of the invariant masses for e+e\Gamma ! 4 jets at ps = 175 GeV.
+
+6 masses for the WW signal, the fully corrected cross section and the non-interfering QCD contribution are shown at ps= 175 GeV. The curves have been obtained by fitting histograms from EXCALIBUR. The combinatory background is included too, by taking into account any possible invariant mass m (i;j), so that the area under each curve is 6 times the value of the corresponding cross section. ISR lowers the distributions and ggq _q gives a rougly constant positive contribution between 30 and 100 GeV. Below the peak the latter effect is dominant, while at the peak the situation is reversed. A more detailed analysis can be found elsewhere [7]. Here, we only report that the maximum and the width are not affected by QED initial state radiation. On the other hand, the QCD and combinatory background increase the width.
+
+6. Conclusions
+
+Four fermion production in e+e\Gamma annihilation will allow important tests of the Standard Model and measures at LEP II and beyond.
+
+There are processes and experimental setups for which taking into account only subclasses of Feynman diagrams is a good approximation, but this is not always the case. As a consequence, programs including all diagrams and being able to compute any possible four fermion final state are indispensable. Also initial state QED radiation and QCD contributions turn out to be important, and must be taken into account. EXCALIBUR is a Monte Carlo program satisfying all these requirements. A Monte Carlo approach is unavoidable, since important effects (e.g. the average energy loss) are very sensitive to the imposed experimental cuts.
+
+REFERENCES 1. S. Katsanevas et al., internal report DELPHI
+
+92-166 PHYS (1992) 250. 2. M. Bilenky, J. L. Kneur, F. M. Renard and
+
+D. Schildknecht, Nucl. Phys. B409 (1993) 22, and references therein. 3. K. Hagiwara, in: Physics and Experiments
+
+with Linear Colliders, R. Orava, P. Eerola,
+
+and M. Nordberg, eds. (World Scientific, Singapore, 1992) p.387. 4. F.A. Berends, R. Kleiss and R. Pittau,
+
+All electroweak four fermion processes in electron-positron collisions, INLO-PUB-1/94 and NIKHEF-H/94-08, to be published in Nucl. Phys. B. 5. F.A. Berends, R. Kleiss and R. Pittau,
+
+EXCALIBUR - A Monte Carlo program to evaluate all four fermion processes at LEP 200 and beyond, to be submitted to Comp. Phys. Comm. 6. R. Kleiss and R. Pittau, Weight optimization
+
+in multichannel Monte Carlo, NIKHEF-H 94- 17 and INLO-PUB-4/94, submitted to Comp. Phys. Comm. 7. R. Pittau, Four quark processes at LEP 200,
+
+to be submitted to Phys. Lett. B. 8. F.A. Berends, R. Kleiss and R. Pittau, Initialstate QED corrections to four-fermion production in e+e\Gamma collisions at LEP 200 and beyond, INLO-PUB-6/94 and NIKHEF-H/94- 20, submitted to Nucl. Phys. B. 9. E.A. Kuraev and V.S. Fadin, Sov. J. Nucl.
+
+Phys. 41 (1985) 466; G. Altarelli and G. Martinelli, Physics at LEP, CERN report 86-02, eds. J. Ellis and R. Peccei (Geneva, 1986); F.A. Berends at al, Z Physics at LEP1, eds. G. Altarelli, R. Kleiss and C. Verzegnassi, CERN 89-08, Vol 1 (1989) 89. 10. F.A. Berends, W.T. Giele and H. Kuijf, Nucl.
+
+Phys. B321 (1989) 39. 11. D. Bardin, M. Bilenky, A. Olchevski and
+
+T. Riemann, Phys. Lett. B308 (1993) 403.
+

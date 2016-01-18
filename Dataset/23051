@@ -1,0 +1,2772 @@
+
+
+UNITU-THEP-9/1995
+
+June 1995 
+
+Monopole Excitations of Baryons in the
+
+Nambu-Jona-Lasinio Soliton Model
+
+y
+
+Abdellatif Abada, Reinhard Alkofer, Hugo Reinhardt, and Herbert Weigel
+
+z
+
+Institute for Theoretical Physics
+
+T"ubingen University Auf der Morgenstelle 14 D-72076 T"ubingen, Germany
+
+ABSTRACT We investigate the monopole excitations of the soliton in the Nambu-Jona-Lasinio model. By studying the solutions to the corresponding Bethe-Salpeter equation in the background of the soliton we exclude the existence of real large amplitude fluctuations. This allows us to treat the collective coordinate for the monopole excitations, which parametrizes the extension of the soliton, in the harmonic approximation. The canonical quantization of this coordinate yields a spectrum which agrees reasonably well with the empirical data for the Roper resonance, N(1440), and the corresponding one for the Delta, \Delta (1600). We also comment on going beyond the harmonic approximation.
+
+-------- y
+
+Supported by the Deutsche Forschungsgemeinschaft (DFG) under contract Re 856/2-2.
+
+z
+
+Supported by a Habilitanden-scholarship of the DFG.
+
+1
+
+1. Introduction
+
+Bosonization of the Nambu-Jona-Lasinio (NJL) model [1] provides an effective meson theory which predicts the properties of the pseudoscalar and vector mesons reasonably well [2]. This result has motivated its consideration as a microscopic model for the quark flavor dynamics of QCD. Over the past few years it has in addition become evident that the soliton approach to the bosonized NJL model suitably describes the properties of the low-lying
+
+1
+
+2
+
++
+
+and
+
+3
+
+2
+
++
+
+baryons [3]. In the present article we will address the question in how far this model
+
+also permits the description of excited baryons. The natural extension is to consider monopole, i.e., radial excitations of the ground states. Such analyses provide descriptions of the Roper (1440) and \Delta (1600) resonances, which are excited nucleon and \Delta states, respectively.
+
+Three different methods have been used to investigate the monopole channel within the related (although much simpler) Skyrme model [4, 5]: the scaling approach [6], ss-N phase shifts analysis [7], and the linear response theory [8]. In the phase shifts analysis [7] the Roper resonance cannot be observed because there is a almost complete cancellation between the monopole and rotational channels in the geometrical coupling scheme of ref. [10]. In the linear response theory a resonance is observed for the breathing mode at approximately 400MeV [9]. Unfortunately this resonance cannot immediately be identified with the Roper resonance because the coupling to the rotational channel was omitted in that calculation. These two approaches appear to suffer from the rotational channel not being treated as a large amplitude fluctuation, i.e., like a zero mode. On the other hand the Roper resonance is clearly identified in the scaling method, which allows for a dynamical coupling between the monopole and rotational degrees of freedom. In this approach the excitation energy of this mode comes out at the order of 300MeV [6] which is somewhat too small as compared to the experimental value of 500 MeV but nevertheless considerably closer to that value than the prediction of the non-relativistic quark model [11].
+
+In this paper we will therefore study the scaling method in the framework of the NJL model as a first approach to describe excited (non-strange) baryons. We should remark that treatments like the phase shift analysis, which involve meson excitations at arbitrary frequen- cies, would be plagued by the non-confining character of the NJL model. Once the frequency exceeds the binding energy of the valence quarks this quark gets scattered into the contin- uum. For commonly adopted parameters of the NJL model the Roper resonance lies above this threshold. In the scaling method a collective coordinate is introduced which parametrizes the extension of the soliton in addition to those which describe the large amplitude motion of the rotational zero mode. The spectrum is then obtained by canonical quantization of these coordinates. From the solution to the Bethe-Salpeter equation for monopole excitations of the soliton we will argue that an harmonic approximation for the scaling variable is indeed justified. In this approximation the feature is circumvented that the NJL soliton is non- topological, i.e., by shrinking to zero size the winding number zero sector can continuously be reached while the baryon number is carried by three non-interacting valence quarks.
+
+The present paper is organized as follows. In section 2 we recall the main issues of the bosonized NJL model and its soliton solution. In section 3 the solutions to the Bethe-Salpeter equation for monopole fluctuations off the soliton are discussed. In section 4 the scaling
+
+2
+
+collective Hamiltonian is determined and quantized. As indicated above the excitation energy for the scaling mode is obtained within the harmonic approximation. The numerical results as well as related discussions are given in section 5. In section 6 we conclude and comment on going beyond the harmonic approximation. The explicit expressions for the kernel of the Bethe-Salpeter equation as well as the inertia parameter for the scaling mode are given in appendices.
+
+2. The bosonized NJL model
+
+The Lagrangian for the NJL model with scalar and pseudoscalar degrees of freedom is given as the sum of the free Dirac Lagrangian and a chirally invariant four quark interaction [1]
+
+L = _q(i@= \Gamma ^m
+
+0
+
+)q + 2G
+
+N
+
+2
+
+f
+
+\Gamma 1
+
+X
+
+a=0
+
+
+
+(_q
+
+*
+
+a
+
+2
+
+q)
+
+2
+
++ (_q
+
+*
+
+a
+
+2
+
+ifl
+
+5
+
+q)
+
+2
+
+!
+
+(2.1)
+
+where q denotes the quark spinor and G is a dimensionful effective coupling constant. ^m
+
+0
+
+is
+
+the current quark mass matrix while the matrices *
+
+a
+
+=2 represent the generators of the flavor
+
+group U (N
+
+f
+
+). In this paper, we will consider the case of two flavors, N
+
+f
+
+= 2, and assume the
+
+isospin limit m
+
+0
+
+u
+
+= m
+
+0
+
+d
+
+j m
+
+0
+
+. Using path integral techniques the model (2.1) can be bosonized
+
+and expressed in terms of composite meson fields [2]. In Euclidean space with the Euclidean time o/ = it treated as a real number, the resulting effective action is given by
+
+A = A
+
+m
+
++ A
+
+f
+
+: (2:2)
+
+Here A
+
+m
+
+and A
+
+f
+
+are the mesonic mass and fermionic loop contributions, respectively,
+
+A
+
+m
+
+= \Gamma
+
+1
+
+4G
+
+Z
+
+d
+
+4
+
+x tr (M
+
++
+
+M \Gamma ^m
+
+0
+
+(M + M
+
+y
+
+) + ^m
+
+2
+
+0
+
+);
+
+A
+
+f
+
+= Tr log(iD=
+
+E
+
+) = Tr log(i@=
+
+E
+
+\Gamma (P
+
+R
+
+M + P
+
+L
+
+M
+
++
+
+)):
+
+(2:3)
+
+In eq. (2.3) P
+
+L
+
+= (1 \Gamma fl
+
+5
+
+)=2 and P
+
+R
+
+= (1 + fl
+
+5
+
+)=2 are the usual helicity projectors, while
+
+"Tr" denotes the functional trace including the traces over color, flavor and Dirac indices. Furthermore, M is a complex matrix which contains the scalar and pseudoscalar meson fields, M = S +iP . In this work we will neglect fluctuations of the scalar meson field and keep it fixed at its vacuum expectation value. In order to determine the minimum of the classical energy we will furthermore assume the hedgehog ansatz for the chiral field U . Hence the complex field M is given by
+
+M (r) = mU
+
+H
+
+(r) = m exp (io/ \Delta ^r\Theta (r)) ; (2:4)
+
+where m = hSi is the constituent quark mass. Demanding the pion decay constant f
+
+ss
+
+=
+
+93MeV and mass m
+
+ss
+
+= 135MeV yields the parameters of the NJL model as functions of the
+
+constituent quark mass [3]. This is a consequence of the gap equation, which determines the vacuum expectation value of the scalar fields hSi in the baryon number zero sector of the NJL model. We may thus consider m as the only free parameter of the model.
+
+3
+
+Substituting the hedgehog ansatz (2.4) into the expression for the mesonic part A
+
+m
+
+(2.3)
+
+of the effective action yields a contribution to the classical energy (subtraction of the reference case U = 1 is understood)
+
+E
+
+m
+
+= m
+
+2
+
+ss
+
+f
+
+2
+
+ss
+
+Z
+
+d
+
+3
+
+r (1 \Gamma cos \Theta (r)) : (2:5)
+
+Here we have made use of the relation G = m
+
+0
+
+m=m
+
+2
+
+ss
+
+f
+
+2
+
+ss
+
+obtained from the Bethe-Salpeter
+
+equation of the bosonized NJL model [2]. In the two flavor model only the real part of
+
+the fermion determinant (2.3) A
+
+R
+
+=
+
+1
+
+2
+
+Tr log(D=
+
+y
+
+E
+
+D=
+
+E
+
+) differs from zero. As A
+
+R
+
+is ultraviolet
+
+divergent it must be regularized. We will use Schwinger's proper time regularization [12] which introduces an O(4)-invariant cutoff \Lambda
+
+A
+
+R
+
+= \Gamma
+
+1
+
+2
+
+Z
+
+1
+
+1=\Lambda
+
+2
+
+ds
+
+s
+
+Tr exp(\Gamma sD=
+
+y
+
+E
+
+D=
+
+E
+
+): (2:6)
+
+For the static meson configurations the energy associated with (2.6) splits into valence quark and vacuum contributions [13]. Namely,
+
+E
+
+val
+
+= j
+
+val
+
+jffl
+
+val
+
+j (2.7)
+
+E
+
+vac
+
+= \Gamma
+
+1
+
+2
+
+X
+
+_
+
+Z
+
+1
+
+1=\Lambda
+
+2
+
+ds p
+
+4sss
+
+3
+
+e
+
+\Gamma sffl
+
+2
+
+_
+
+: (2.8)
+
+Here the ffl
+
+_
+
+refer to the eigenstates of the Dirac Hamiltonian
+
+h = ff \Delta p + mfi (cos \Theta (r) + ifl
+
+5
+
+o/ \Delta
+
+^ r sin \Theta (r)) ; (2:9)
+
+which commutes with the grand spin operator j + o/ =2. Furthermore, j
+
+val
+
+= 0; 1 denotes the
+
+occupation number of the valence quark, which is the state with the lowest eigenenergy (in absolute value). This occupation number has to be adjusted to guarantee unit baryon number, i.e., 1 = j
+
+val
+
+\Gamma (1=2)
+
+P
+
+_
+
+sgn(ffl
+
+_
+
+).
+
+The self-consistent chiral angle \Theta
+
+s:c:
+
+(r) is determined by extremizing the total energy
+
+functional
+
+1
+
+[14]
+
+E[\Theta ] = E
+
+val
+
++ E
+
+vac
+
++ E
+
+m
+
+: (2.10)
+
+In the NJL model it turns out that E[\Theta ] depends only moderately on the extension of the meson configuration
+
+2
+
+. Whether this gives rise to a large amplitude fluctuation will be subject
+
+of the next section.
+
+3. Monopole fluctuations
+
+In this section we will study the question whether or not the insensitivity of the classical energy functional (2.10) with respect to scaling variations of the self-consistent soliton causes
+
+1
+
+For details of the numerical procedure see ref. [15].
+
+2
+
+From figure 6.1 one observes e.g. that E changes by less than 5% when the extension is altered by 30%.
+
+4
+
+the existence of a zero-mode type state in the monopole channel. Such a state would give rise to large amplitude fluctuations like e.g. isospin rotations.
+
+As all our computations are subject to grand spin symmetry the corresponding time de- pendent meson fluctuation in the monopole channel is parametrized by [7, 16]
+
+j(r; t) = o/ \Delta
+
+^ rj(r; t): (3.1)
+
+Obviously this ansatz describes a pseudoscalar P-wave pion. The expression for the chiral field, which contains both the soliton and the monopole fluctuation, reads
+
+U (r; t) = exp fio/ \Delta ^r (\Theta
+
+s:c:
+
+(r) + j(r; t))g : (3.2)
+
+The NJL-model action is next expanded up to quadratic order in the fluctuation j(r; t). No linear term appears because the chiral angle \Theta
+
+s:c:
+
+(r) minimizes the static energy functional.
+
+As shown in ref. [17] the quadratic term A
+
+(2)
+
+introduces local (K
+
+1
+
+(r)) and bilocal (K
+
+2
+
+(!; r; r
+
+0
+
+))
+
+kernels in Fourier space
+
+A
+
+(2)
+
+=
+
+Z
+
+d!
+
+2ss
+
+n
+
+Z
+
+drr
+
+2
+
+Z
+
+dr
+
+0
+
+r
+
+02
+
+~j(r; !)K
+
+2
+
+(!; r; r
+
+0
+
+)~j(r
+
+0
+
+; \Gamma !)
+
++
+
+Z
+
+drr
+
+2
+
+K
+
+1
+
+(r)~j(r; !)~j(r; \Gamma !)
+
+o
+
+: (3.3)
+
+Here ~j(r; !) denotes the Fourier transform of j(r; t), i.e., j(r; t) =
+
+R
+
+d!
+
+2ss
+
+~j(r; !)e
+
+\Gamma i!t
+
+. The
+
+explicit expressions for the kernels of the monopole fluctuation in terms of the eigenvalues and -functions of the static Dirac Hamiltonian (2.9) are displayed in appendix A. Here we only wish to make a few remarks on the boundary problem. The eigenstates of (2.9) are discretized by demanding the upper component of the Dirac spinors \Psi
+
+_
+
+to vanish at the boundary (r = D)
+
+of a spherical box
+
+1
+
+[18]. Eventually we consider D ! 1, in practical computations this means
+
+that D is significantly larger than the extension of the soliton profile \Theta (r). The boundary condition for \Psi
+
+_
+
+transfers to the kernels. As can be observed from the explicit expressions
+
+given in appendix A the bilocal kernel K
+
+2
+
+(!; r; r
+
+0
+
+) vanishes whenever either r or r
+
+0
+
+equals D
+
+while K
+
+1
+
+(r = D) 6= 0. Hence the solutions to the Bethe-Salpeter equation
+
+2
+
+r
+
+2
+
+ae
+
+Z
+
+dr
+
+0
+
+r
+
+02
+
+K
+
+2
+
+(!; r; r
+
+0
+
+)~j(r
+
+0
+
+; !) + K
+
+1
+
+(r)~j(r; !)
+
+oe
+
+= 0 (3.4)
+
+obey the boundary condition ~j(D; !) = 0. A well defined chiral field U also requires ~j(0; !) = 0.
+
+In Fig. 3.1 typical solutions to the Bethe-Salpeter equation (3.4) are shown. In case there is no soliton present our solutions are (except of a small vicinity of r = D) identical to spherical Bessel functions associated with unit orbital angular momentum
+
+3
+
+. Of course, this is just what
+
+we expect from a free P-wave fluctuation.
+
+1
+
+An alternative set of boundary conditions is given in ref. [19].
+
+2
+
+In the two flavor case K
+
+2
+
+(!; r; r
+
+0
+
+) is invariant under ! $ \Gamma !.
+
+3
+
+This deviation can easily be understood because in the region r ss D the completeness relation
+
+P
+
+_
+
+\Psi (r)\Psi
+
+y
+
+(r
+
+0
+
+) , ffi(r \Gamma r
+
+0
+
+) can only approximately be fulfilled in a finite model space.
+
+5
+
+Figure 3.1: The profiles of solutions to the Bethe-Salpeter equation (3.4) for the constituent mass m = 450MeV. These solutions are computed using D = 6fm. The normalization is chosen arbitrarily.
+
+6
+
+Two important remarks are in order for the solutions to the Bethe-Salpeter equation (3.4) in the background of the self-consistent soliton. First we recognize that the corresponding solution to (3.4) deviates from the free P-wave only in the region where the soliton profile is non-trivial (r ^ 1fm). Secondly, and more importantly, the resulting energies of the eigen- modes in the presence of the soliton agree with those of free P-wave solutions at the order of 1%. Usually the existence of large amplitude fluctuations causes a strong reduction of the eigenenergy, it may even vanish in the case that the fluctuation corresponds to an exact symmetry. We therefore conclude that no large amplitude fluctuation exists in the monopole channel despite of the insensitivity of the classical energy with respect to scaling variations. Moreover, the spectrum resulting from the quantization of the collective scaling variable will be dominated by the properties of the corresponding Hamiltonian in the vicinity of the value which minimizes the potential. These considerations justify the harmonic approximation for this collective mode which will be discussed in the proceeding section.
+
+4. The scaling collective Hamiltonian
+
+The collective breathing mode of the soliton is described by the time-dependent coordi- nate O/(t) which parametrizes the extension of the meson configuration, \Theta
+
+O/
+
+(r; t) = \Theta
+
+s:c:
+
+(O/(t)r).
+
+States with good spin and isospin quantum numbers are generated within the cranking pro- cedure which requires collective coordinates R(t) 2SU(2) for the (iso) rotations. We therefore consider the meson configuration
+
+M (r; t) = mR
+
+y
+
+(t)U
+
+H
+
+(O/(t)r)R(t) (4:1)
+
+where U
+
+H
+
+is the hedgehog soliton (2.4). This configuration is substituted into the regularized
+
+NJL model action and an expansion up to second order in the time derivative is performed. From this the collective Lagrangian [6]
+
+L(O/; .O/) = \Gamma E(O/) +
+
+1
+
+2
+
+a(O/) .O/
+
+2
+
++
+
+1
+
+2
+
+ff
+
+2
+
+(O/)\Omega
+
+2
+
+(4:2)
+
+is extracted. E(O/) = E[\Theta
+
+O/
+
+] is the energy functional defined in section 2, however, evaluated
+
+using \Theta
+
+s:c:
+
+(O/(t)r) at a fixed time. I.e., we have substituted the eigenvalues of
+
+h
+
+O/
+
+= ff \Delta p + mfi (cos \Theta
+
+O/
+
++ ifl
+
+5
+
+o/ \Delta
+
+^ r sin \Theta
+
+O/
+
+) (4:3)
+
+into eqs. (2.7) and (2.8). The mesonic part of the action (2.3) only contributes to E(O/). The inertia parameter a(O/) for the scaling mode may be interpreted as a position dependent mass for the collective coordinate O/. Its explicit form in terms of the eigenvalues and -functions of h
+
+O/
+
+is displayed in appendix B. Furthermore \Omega is the time derivative of the collective rotations
+
+R
+
+y
+
+.
+
+R = (i=2)o/ \Delta \Omega . The position dependent moment of inertia ff
+
+2
+
+(O/) is obtained from the
+
+expression given in the literature [13, 3] by again substituting the eigenvalues and -functions of h
+
+O/
+
+(cf. appendix B).
+
+In order to avoid ordering ambiguities in the process of quantization we perform a variable transformation O/ = O/(,) such that a(O/(,))[dO/=d,]
+
+2
+
+= 1. This transformation is allowed as long
+
+7
+
+as a(O/) ? 0 which actually is found to hold in our numerical studies. It is then straightforward to obtain the collective Hamiltonian in terms of the coordinate , and its conjugate momentum
+
+^ P = \Gamma id=d,
+
+H
+
+J
+
+=
+
+1
+
+2
+
+^ P
+
+2
+
++
+
+~ V
+
+J
+
+(,) (4.4)
+
+where
+
+~ V
+
+J
+
+(,) = V
+
+J
+
+(O/(,)) with V
+
+J
+
+(O/) = E(O/) +
+
+J (J + 1)
+
+2ff
+
+2
+
+(O/)
+
+: (4.5)
+
+We have already inserted the eigenvalue J of the spin operator, which represents the mo- mentum conjugate to R. This procedure is justified because the generators for rotations and scalings commute.
+
+The above motivated harmonic expansion is carried out separately in each spin channel. For this purpose the minimum of the potential
+
+~ V
+
+J
+
+(,) is determined. We denote its position
+
+by ,
+
+min
+
+J
+
+. Then the spectrum of the collective Hamiltonian (4.4) is approximated by
+
+E
+
+J;n
+
+=
+
+~ V
+
+J
+
+(,
+
+min
+
+J
+
+) + !
+
+J
+
+`
+
+n +
+
+1
+
+2
+
+'
+
+; !
+
+J
+
+=
+
+v u u u t
+
+@
+
+2 ~
+
+V
+
+J
+
+(,)
+
+@,
+
+2
+
+fi fi fi fi fi
+
+,
+
+min
+
+J
+
+=
+
+v u u t
+
+V
+
+00
+
+J
+
+(O/
+
+min
+
+J
+
+)
+
+a(O/
+
+min
+
+J
+
+)
+
+(4.6)
+
+with O/
+
+min
+
+J
+
+= O/(,
+
+min
+
+J
+
+) and the prime indicating a derivative with respect to O/. It should
+
+be remarked that O/
+
+min
+
+J
+
+minimizes V
+
+J
+
+(O/). The harmonic approximation has obviously the
+
+advantage that we do not have to explicitly carry out the change of variables O/ ! ,. A further justification of this approximation is provided by the fact that our computation of ff
+
+2
+
+(O/) cannot be generalized to arbitrary large O/, cf. the discussion at the end of appendix B.
+
+The nucleon corresponds to the quantum numbers J = 1=2 and n = 0 while the Roper resonance is associated with J = 1=2 and n = 1. As an illustrative example we also list the expression for the \Delta -nucleon mass difference
+
+M
+
+\Delta
+
+\Gamma M
+
+N
+
+= V
+
+3=2
+
+(O/
+
+min
+
+3=2
+
+) \Gamma V
+
+1=2
+
+(O/
+
+min
+
+1=2
+
+) +
+
+1
+
+2
+
+i
+
+!
+
+3=2
+
+\Gamma !
+
+1=2
+
+j
+
+: (4:7)
+
+Obviously this mass difference acquires an additional contribution, which is due the treatment of the scaling mode as a quantum variable.
+
+5. Numerical results
+
+In this section we present our predictions obtained in the NJL soliton model for the masses of excited baryons in the monopole channel using the harmonic approximation to the breath- ing mode. It is known that the absolute masses of solitons acquire substantial reductions associated with meson loop corrections [20]. Although the absolute mass of the soliton in the NJL model is not as large as in the Skyrme model (for parameters fitted to the meson sector) these reductions are relevant in the NJL model as well [21]. As they effect all baryon states approximately equally we will concentrate on mass differences only.
+
+8
+
+As already mentioned above the constituent quark mass m is the only undetermined pa- rameter. Although for a unit baryon number soliton solutions exist for m * 325MeV [14] these solutions only represent local minima of the energy E (2.10). Unless m * 420MeV the configuration consisting of three non-interacting valence quarks is energetically favored against the soliton configuration. As the NJL soliton is of non-topological character it can continuously be deformed from the local to the global minimum by shrinking it to zero size (O/ ! 1) without encountering an infinite energy barrier. We therefore consider only the region in parameter space where the soliton represents the global minimum of the energy functional i.e., m * 450MeV. A value of m that large is also mandatory to find a pronounced minimum of V
+
+J
+
+(4.5) in the \Delta channel (J = 3=2).
+
+In table 5.1 the numerical results for quantities appearing in the mass formula (4.6) are shown for various values of m. We have first computed the position O/
+
+min
+
+J
+
+of the minimum of
+
+V
+
+J
+
+(O/) (4.5). As the moment of inertia cancels from eq. (4.6) for J = 0 the result O/
+
+min
+
+0
+
+= 1
+
+confirms that \Theta
+
+s:c:
+
+(r) indeed minimizes the classical energy. We observe that the deviation of
+
+O/
+
+min
+
+J
+
+from unity is significantly smaller in the NJL model than the Skyrme model calculations
+
+[6] which yield O/
+
+min
+
+3=2
+
+as small as 0.4. Although the breathing mode potential is shallow it is at
+
+least steeper than in the Skyrme model. Subsequently O/
+
+min
+
+J
+
+has been employed to evaluate the
+
+classical mass E, the moment of inertia ff
+
+2
+
+and the breathing frequency !
+
+J
+
+defined in eq. (4.6).
+
+Obviously !
+
+1=2
+
+represents our prediction for the mass difference between the Roper resonance
+
+and the nucleon. From table 5.1 we also deduce that the classical energy E is indeed quite insensitive to variations in the scaling variable. Glancing e.g. at the case m=500MeV shows that E changes by only about 5% when O/ is reduced by 20%. On the other hand the moment of inertia ff
+
+2
+
+and the breathing frequency !
+
+J
+
+crucially depend on O/.
+
+Now we come to the central issue of this paper, the spectrum of the scaling mode. If this mode were not treated quantum mechanically the \Delta nucleon mass difference would be equal 3=2ff
+
+2
+
+. The experimental value of this mass difference (293MeV) corresponds to ff
+
+2
+
+ss
+
+5:12GeV
+
+\Gamma 1
+
+which is obtained for m ss 420MeV. However, as already indicated at the end
+
+of section 4 the treatment of the scaling mode as a quantum variable drastically alters this result. From table 5.2 we observe that this mass difference is best reproduced for values of the constituent quark mass as large as m ss 550MeV. This result also gives an a posteriori justification for the harmonic approximation which requires a pronounced minimum of V
+
+J
+
+(4.5). This is not the case for small constituent quark masses.
+
+We also find that the parameter m ss 550MeV not only correctly reproduces the \Delta - nucleon splitting but also leads to a reasonable prediction for the mass difference between the Roper resonance and the nucleon. As a matter of fact the Roper nucleon splitting is almost independent of the constituent quark mass. It appears to be a common feature of the scaling approach to soliton models that the Roper comes out on the low side [6]. For m = 550MeV the agreement for the first excitation above the \Delta is equally good although its position is more dependent on m. In table 5.2 we have also displayed our predictions for second excited states in the J = 1=2 and J = 3=2 channels. Also in these cases our results compare reasonably well with the experimental data although these are not exactly identified
+
+1
+
+.
+
+1
+
+In ref. [22] these states are listed as three star resonances.
+
+9
+
+Table 5.1: The parameters of mass formula (4.6) at O/
+
+min
+
+J
+
+which minimizes the potential V
+
+J
+
+(O/)
+
+(4.5).
+
+m=450MeV J O/
+
+min
+
+J
+
+E(GeV) ff
+
+2
+
+(1/GeV) !
+
+J
+
+(GeV)
+
+0 1.00 1.232 4.79 0.450 1/2 0.99 1.233 4.80 0.400 3/2 0.83 1.269 5.47 0.266
+
+m=500MeV J O/
+
+min
+
+J
+
+E(GeV) ff
+
+2
+
+(1/GeV) !
+
+J
+
+(GeV)
+
+0 1.00 1.221 4.17 0.456 1/2 0.97 1.222 4.24 0.403 3/2 0.79 1.287 5.46 0.303
+
+m=550MeV J O/
+
+min
+
+J
+
+E(GeV) ff
+
+2
+
+(1/GeV) !
+
+J
+
+(GeV)
+
+0 1.00 1.208 3.75 0.461 1/2 0.96 1.210 3.89 0.405 3/2 0.77 1.294 5.46 0.324
+
+m=600MeV J O/
+
+min
+
+J
+
+E(GeV) ff
+
+2
+
+(1/GeV) !
+
+J
+
+(GeV)
+
+0 1.00 1.193 3.46 0.465 1/2 0.95 1.196 3.65 0.404 3/2 0.75 1.294 5.45 0.354
+
+Table 5.2: The predictions of the masses of the low-lying baryons according to the mass formula (4.6). Given are the mass differences to the nucleon J = 1=2; n = 0. The energy dimension is MeV.
+
+m J n 450 500 550 600 Expt. [22] 3=2 0 \Delta (1232) 234 270 292 315 293 1=2 1 N (1440) 400 403 405 404 501 3=2 1 \Delta (1600) 500 573 616 669 661 1=2 2 N (1710) 800 806 810 808 742 \Gamma 802 3=2 2 \Delta (1920) 766 876 940 1023 962 \Gamma 1032
+
+10
+
+6. Conclusions
+
+We have investigated the monopole excitations of baryons within the NJL chiral soliton model. Although the surface of the classical energy is quite flat in the direction of scaling variations of the static soliton it has turned out that no large amplitude fluctuation exists for the scaling mode. In account of this result we have argued that the spectrum in the monopole channel is characterized by the properties which the potential exhibits at its minimum. When elevating the scaling mode to a quantum variable we have therefore treated this potential in the harmonic approximation. Adopting the constituent quark mass m = 550MeV within this approach we have obtained a reasonable agreement with the available data for the mass differences of the exited non-strange baryons in the J = 1=2 and J = 3=2 channels. Although this value for the constituent quark mass appears to be somewhat high there is nothing special about, it just represents the only free parameter of the model. On the contrary, such a large value is appreciated since it makes the harmonic approximation more reliable since the minimum of the potential is more pronounced thereby providing an a posteriori justification of the method. Let us nevertheless comment on treating the Hamiltonian (4.5) beyond the harmonic approximation. For this purpose we have displayed the complete dependence of the potential V
+
+J
+
+(O/) on the scaling variable O/ in figure 6.1. Obviously the potential stays finite
+
+as O/ ! 1, rather E[\Theta ] ! 3m. This limit just corresponds to the absence of the soliton (shrunk to a point) and the baryon number carried by three non-interacting valence quarks. Of course, in a confining model such a minimum would not exist. Stated otherwise, our harmonic approximation represents a (crude) way to imitate confinement. For our preferred value m = 550MeV of the constituent quark mass we find that decays of the first excited states (n = 1) into three free quarks are on the border of being energetically forbidden. The higher excited states may, after passing through a finite energy barrier, decay. As the full potential is more shallow than the one approximated harmonically the predictions for the masses of the excited states will be reduced. It should also be mentioned that any treatment which goes beyond the harmonic approximation suffers from ordering ambiguities when quantizing the breathing coordinate especially because a(O/) may contain large derivatives.
+
+There is an additional feature we can read off from figure 6.1. Although we observe quite a pronounced minimum of the potential for the soliton, it becomes the more shallow the larger the spin quantum number is. For J ? 3=2 a minimum ceases to exist. This fact may be considered as an indication that the NJL soliton model does not contain baryons with spin larger than J = 3=2 when the rotational degrees of freedom are treated beyond the cranking approximation. Of course, this is expected [23] within a model of baryons which is formulated in terms of quark degrees of freedom when N
+
+C
+
+= 3 is adopted for the number of colors.
+
+Appendix A: Kernels for monopole fluctuations
+
+In this appendix we will present the explicit expressions for the kernels which enter the quadratic form for the monopole fluctuation (3.3). The expressions quoted in this appendix refer to Minkowski space.
+
+It is suitable to introduce the chiral rotation
+
+T (r) = cos
+
+\Theta (r)
+
+2
+
+\Gamma ifl
+
+5
+
+o/ \Delta
+
+^ rsin
+
+\Theta (r)
+
+2
+
+(A.1)
+
+11 0.5 1.0 1.5
+
+c
+
+1.2
+
+1.3 1.4 1.5 1.6 1.7 1.8
+
+VJ (GeV)
+
+J=0 J=1/2 J=3/2
+
+0.5 1.0 1.5
+
+c
+
+1.2
+
+1.3 1.4 1.5 1.6 1.7 1.8
+
+VJ (GeV)
+
+J=0 J=1/2 J=3/2
+
+Figure 6.1: The potential of the collective Hamiltonian (4.5) for the spin quantum numbers J = 0; 1=2 and 3=2 as function of the scaling coordinate O/. The constituent masses adopted here are m = 450MeV (left panel) and m = 550MeV (right panel).
+
+12
+
+since it permits a compact notation for the Dirac operator in the presence of the monopole fluctuations (3.1)
+
+ifiD= = i@
+
+t
+
+\Gamma ff \Delta p \Gamma mT (r)fi
+
+ae
+
+1 + ifl
+
+5
+
+o/ \Delta ^rj(r; t) \Gamma
+
+1
+
+2
+
+j(r; t)
+
+2
+
++ : : :
+
+oe
+
+T
+
+y
+
+(r): (A.2)
+
+When computing the functional trace the chiral rotation can straightforwardly be imposed onto the eigenfunctions of the static Dirac Hamiltonian (2.9). This procedure simplifies the expressions for the direct coupling between the soliton and the meson fluctuation. Since the eigenfunctions of the static Dirac Hamiltonian depend on the soliton profile functionally there is also an indirect coupling.
+
+Substitution of the expansion (A.2) into the general expressions for A
+
+(2)
+
+given in ref. [17]
+
+yields the local kernel which also gains a contribution form the mesonic part of the action (2.3)
+
+K
+
+1
+
+(r) = \Gamma 2ssm
+
+2
+
+ss
+
+f
+
+2
+
+ss
+
+cos\Theta (r) \Gamma mN
+
+C
+
+j
+
+val
+
+Z
+
+d\Omega
+
+4ss
+
+
+
+y
+
+val
+
+(r)T (r)fiT
+
+y
+
+(r)
+
+val
+
+(r)
+
++
+
+1
+
+2
+
+mN
+
+C
+
+j
+
+val
+
+X
+
+_
+
+sgn (ffl
+
+_
+
+) erfc
+
+`
+
+fi
+
+fi fi fi
+
+ffl
+
+_
+
+\Lambda
+
+fi fi fi fi
+
+'
+
+Z
+
+d\Omega
+
+4ss
+
+
+
+y
+
+_
+
+(r)T (r)fiT
+
+y
+
+(r)
+
+_
+
+(r); (A.3)
+
+where we have indicated the average over the angular degrees of freedom. Similarly the bilocal kernel is obtained as
+
+K
+
+2
+
+(!; r; r
+
+0
+
+) = m
+
+2
+
+N
+
+C
+
+j
+
+val
+
+X
+
+*6=val
+
+ffl
+
+*
+
+\Gamma ffl
+
+val
+
+(ffl
+
+*
+
+\Gamma ffl
+
+val
+
+)
+
+2
+
+\Gamma !
+
+2
+
+Z
+
+d\Omega
+
+4ss
+
+Z
+
+d\Omega
+
+0
+
+4ss
+
+\Theta
+
+y
+
+val
+
+(r)T (r)fifl
+
+5
+
+o/ \Delta
+
+^ rT
+
+y
+
+(r)
+
+*
+
+(r)
+
+y
+
+*
+
+(r
+
+0
+
+)T (r
+
+0
+
+)fifl
+
+5
+
+o/ \Delta
+
+^ r
+
+0
+
+T
+
+y
+
+(r
+
+0
+
+)
+
+val
+
+(r
+
+0
+
+)
+
++
+
+1
+
+4
+
+m
+
+2
+
+N
+
+C
+
+X
+
+_*
+
+R(ffl
+
+_
+
+; ffl
+
+*
+
+; !
+
+2
+
+)
+
+Z
+
+d\Omega
+
+4ss
+
+Z
+
+d\Omega
+
+0
+
+4ss
+
+(A.4)
+
+\Theta
+
+y
+
+_
+
+(r)T (r)fifl
+
+5
+
+o/ \Delta
+
+^ rT
+
+y
+
+(r)
+
+*
+
+(r)
+
+y
+
+*
+
+(r
+
+0
+
+)T (r
+
+0
+
+)fifl
+
+5
+
+o/ \Delta
+
+^ r
+
+0
+
+T
+
+y
+
+(r
+
+0
+
+)
+
+_
+
+(r
+
+0
+
+):
+
+Both, the local as well as the bilocal kernels, are decomposed into valence (, j
+
+val
+
+) and vacuum
+
+contributions according to eqs. (2.7,2.8). As at large jrj the chiral rotation T equals unity upper and lower components get connected. This causes K
+
+2
+
+(!; r; r
+
+0
+
+) to vanish when either r
+
+or r
+
+0
+
+lies on the boundary. The regulator function in (A.4) is given by a Feynman parameter
+
+integral
+
+R(ffl
+
+_
+
+; ffl
+
+*
+
+; !
+
+2
+
+) =
+
+Z
+
+1
+
+1=\Lambda
+
+2
+
+ds
+
+r
+
+s
+
+4ss
+
+(
+
+e
+
+\Gamma sffl
+
+_
+
+\Gamma e
+
+\Gamma sffl
+
+*
+
+s
+
+(A.5)
+
++
+
+h
+
+!
+
+2
+
+\Gamma (ffl
+
+_
+
++ ffl
+
+*
+
+)
+
+2
+
+i
+
+Z
+
+1
+
+0
+
+dx exp
+
+h
+
+\Gamma s
+
+i
+
+xffl
+
+2
+
+_
+
++ (1 \Gamma x)ffl
+
+2
+
+*
+
+\Gamma x(1 \Gamma x)!
+
+2
+
+ji
+
+)
+
+which describes the quark loop in the background of the static soliton.
+
+13
+
+Although we have left the number of colors N
+
+C
+
+as a free parameter, it is always implied
+
+that it assumes its physical value N
+
+C
+
+= 3.
+
+Appendix B: Inertia parameters
+
+In order to extract the collective mass a(O/) for the scaling variable O/(t) within the NJL model we parametrize the time dependence of O/(t) as
+
+O/(t) = O/
+
+0
+
++ ffi(t) (B.1)
+
+and expand the action up to quadratic order in ffi(t) while keeping all orders in O/
+
+0
+
+, which
+
+is assumed to be time independent. There are various ways to perform this computation. One might e.g. straightforwardly adopt the treatment of ref. [17] where time dependent fluctuations off the chiral soliton have been considered. In the present case a more elegant way is to define the translation operator
+
+^ T = exp (ffi(t)@
+
+O/
+
+0
+
+) : (B.2)
+
+Then the meson configuration (4.1) may be written as
+
+M (r; t) = mR
+
+y
+
+(t)
+
+^ T
+
+\Gamma 1
+
+U
+
+H
+
+(O/
+
+0
+
+r)
+
+^ T R(t): (B.3)
+
+This parametrization may be transferred to the Dirac operator (2.3) defining the Dirac Hamil- tonian
+
+ifiD= =
+
+^ T
+
+\Gamma 1
+
+R
+
+y
+
+(i@
+
+t
+
+\Gamma h
+
+O/
+
+) R
+
+^ T with h
+
+O/
+
+= h
+
+O/
+
+0
+
++
+
+1
+
+2
+
+o/ \Delta \Omega + i
+
+. ffi@
+
+O/
+
+0
+
+: (B.4)
+
+In addition to the Coriolis term an expression involving the time derivative of the scaling coordinate has been induced,
+
+. ffi = .O/. Since the eigenstates of h
+
+O/
+
+0
+
+are properly normalized the
+
+translation operator
+
+^ T is actually unitary. This allows us to absorb both operators
+
+^ T and R
+
+by redefining the quark fields q
+
+0
+
+=
+
+^ T Rq. The collective mass a(O/
+
+0
+
+) is then extracted from
+
+the term, which is proportional to
+
+. ffi
+
+2
+
+= .O/
+
+2
+
+, of the NJL model action. This computation is
+
+completely analogous to standard determination of the moment of inertia ff
+
+2
+
+(O/
+
+0
+
+) [13] resulting
+
+in
+
+a(O/
+
+0
+
+) = a
+
+val
+
+(O/
+
+0
+
+) + a
+
+vac
+
+(O/
+
+0
+
+) (B.5)
+
+with
+
+a
+
+val
+
+(O/
+
+0
+
+) = 2j
+
+val
+
+N
+
+C
+
+X
+
+_6=val
+
+jh_j@
+
+O/
+
+0
+
+jvalij
+
+2
+
+ffl
+
+_
+
+\Gamma ffl
+
+val
+
+a
+
+vac
+
+(O/
+
+0
+
+) = N
+
+C
+
+X
+
+_*
+
+jh_j@
+
+O/
+
+0
+
+j*ij
+
+2
+
+f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+*
+
+; \Lambda ) (B.6)
+
+14
+
+with the cut-off function
+
+f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+*
+
+; \Lambda ) =
+
+\Lambda p
+
+ss
+
+e
+
+\Gamma (ffl
+
+_
+
+=\Lambda )
+
+2
+
+\Gamma e
+
+\Gamma (ffl
+
+*
+
+=\Lambda )
+
+2
+
+ffl
+
+2
+
+*
+
+\Gamma ffl
+
+2
+
+_
+
+\Gamma
+
+sgn(ffl
+
+*
+
+)erfc
+
+i
+
+fi
+
+fi fi
+
+ffl
+
+*
+
+\Lambda
+
+fi fi fi
+
+j
+
+\Gamma sgn(ffl
+
+_
+
+)erfc
+
+i
+
+fi
+
+fi fi
+
+ffl
+
+_
+
+\Lambda
+
+fi fi fi
+
+j
+
+2(ffl
+
+_
+
+\Gamma ffl
+
+*
+
+)
+
+: (B.7)
+
+Actually f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+*
+
+; \Lambda ) is proportional to @R(ffl
+
+_
+
+; ffl
+
+*
+
+; !
+
+2
+
+)=@!
+
+2
+
+j
+
+!=0
+
+. This just reflects the fact
+
+that we have treated .O/ as a small fluctuation and expanded up quadratic order in the time derivative. It is important to note that in eq. (B.6) the eigenstates and -values of h
+
+O/
+
+0
+
+have
+
+to be substituted. In practice it is convenient to employ the identity
+
+h_j@
+
+O/
+
+0
+
+j*i =
+
+1
+
+ffl
+
+_
+
+\Gamma ffl
+
+*
+
+h_j [h
+
+O/
+
+0
+
+; @
+
+O/
+
+0
+
+] j*i (B.8)
+
+=
+
+m
+
+ffl
+
+_
+
+\Gamma ffl
+
+*
+
+h_jfir\Theta
+
+0
+
+s:c:
+
+(O/
+
+0
+
+r) [sin \Theta
+
+s:c:
+
+(O/
+
+0
+
+r) \Gamma ifl
+
+5
+
+o/ \Delta ^r cos \Theta
+
+s:c:
+
+(O/
+
+0
+
+r)] j*i
+
+where the prime indicates a derivative with respect to the argument. The regulator function (B.7) vanishes for identical energies. Therefore the limit
+
+lim ffl
+
+_
+
+!ffl
+
+*
+
+1
+
+(ffl
+
+_
+
+\Gamma ffl
+
+*
+
+)
+
+2
+
+f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+*
+
+; \Lambda )
+
+is finite.
+
+For completeness we also give the explicit expression for the moment of inertia [13]
+
+ff
+
+2
+
+(O/
+
+0
+
+) = ff
+
+2
+
+val
+
+(O/
+
+0
+
+) + ff
+
+2
+
+vac
+
+(O/
+
+0
+
+) (B.9)
+
+with
+
+ff
+
+2
+
+val
+
+(O/
+
+0
+
+) =
+
+1
+
+2
+
+j
+
+val
+
+N
+
+C
+
+X
+
+_6=val
+
+jh_jo/
+
+3
+
+jvalij
+
+2
+
+ffl
+
+_
+
+\Gamma ffl
+
+val
+
+ff
+
+2
+
+vac
+
+(O/
+
+0
+
+) =
+
+1
+
+4
+
+N
+
+C
+
+X
+
+_*
+
+jh_jo/
+
+3
+
+j*ij
+
+2
+
+f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+*
+
+; \Lambda ) (B.10)
+
+where o/
+
+3
+
+denotes a Pauli matrix. Again, j_i and ffl
+
+_
+
+refer to the eigenstates and eigenvalues of
+
+h
+
+O/
+
+0
+
+, respectively. One word of caution is necessary when considering the limit O/
+
+0
+
+! 1. Then
+
+the soliton actually is absent and the eigenstates of h
+
+O/
+
+0
+
+are also eigenstates of the isospin oper-
+
+ator o/
+
+3
+
+. Since the diagonal elements of the regulator function vanish [13] f
+
+\Theta
+
+(ffl
+
+_
+
+; ffl
+
+_
+
+; \Lambda ) = 0 the
+
+moment of inertia vanishes in the limit O/
+
+0
+
+! 1. Our numerical calculation does not exhibit
+
+this feature. The reason being that states employed to diagonalize h
+
+O/
+
+0
+
+are no eigenstates of
+
+o/
+
+3
+
+rather they are eigenstates of the so-called grand spin operator, which is the sum of the
+
+total spin and isospin. The perturbation expansion of h
+
+O/
+
+(B.4) cannot straightforwardly be
+
+generalized to O/
+
+0
+
+! 1 in the grand spin basis because states with different grand spin eigen-
+
+value (but identical spin and isopin) become degenerate. Since our techniques are unable to remove this degeneracy the small energy denominators in eq. (B.10) cause ff
+
+2
+
+to increase for
+
+15
+
+large O/
+
+0
+
+rather than to decrease. Similar arguments hold for O/
+
+0
+
+! 0 since h
+
+O/
+
+0
+
+=0
+
+is also isospin
+
+invariant. These deficiences are fortunately circumvented by the harmonic approximation (4.6).
+
+References
+
+[1] Y. Nambu and G. Jona-Lasinio, Phys. Rev. 122, 345 (1961); 124, 246 (1961). [2] D. Ebert and H. Reinhardt, Nucl. Phys. B 271, 188 (1986).
+
+for recent reviews see: T. Hatsuda and T. Kunihiro, Phys. Rep. 247 (1994) 221; D. Ebert, H. Reinhardt, and M. K. Volkov, in A. Faessler (ed.): Progress in particle and nuclear physics 33 (1994) 1.
+
+[3] For recent reviews see: R. Alkofer, H. Reinhardt, and H. Weigel, "Baryons as Chiral Solitons in
+
+the Nambu-Jona-Lasinio Model",  Phys. Rep. in press.
+
+[4] T. H. R. Skyrme, Proc. Roy. Soc. A260, 127 (1961); Nucl. Phys. 31, 556 (1962). [5] G. S. Adkins, C. R. Nappi, and E. Witten, Nucl. Phys. B 228, 433 (1983). [6] C. Hajduk and B. Schwesinger, Phys. Lett. 140B, 172 (1984);
+
+B. Schwesinger and C. Hajduk, Baryon deformations and excitations in the Skyrme model, Proceedings of the Lewes Workshop on Solitons in nuclear and elementary particle physics, page 129, June 1984.
+
+[7] H. Walliser and G. Eckart, Nucl. Phys. A429 514 (1984);
+
+B. Schwesinger, H. Weigel, G. Holzwarth, and A. Hayashi, Phys. Rep. 173 (1989) 173; and references therein.
+
+[8] P. Ring and P. Schuck, The nuclear many body problem, chapter 8, Springer-Verlag, Berlin -
+
+Heidelberg - New York, 1980.
+
+[9] A. Abada and D. Vautherin, Phys. Rev. D46 3180 (1992);
+
+A. Abada, Phys. Lett. B322 103 (1994).
+
+[10] A. Hayashi, G. Eckart, G. Holzwarth, and H. Walliser, Phys. Lett. 147 (1984) 5. [11] N. Isgur and G. Karl, Phys. Rev. D19 (1979) 2653. [12] J. Schwinger, Phys. Rev. 82, 664 (1951). [13] H. Reinhardt, Nucl. Phys. A503, 825 (1989). [14] H. Reinhardt and R. W"unsch, Phys. Lett. B 215, 577 (1988); Phys. Lett. B 230, 93 (1989);
+
+T. Meissner, F. Gr"ummer, and K. Goeke, Phys. Lett. B 227, 296 (1989); R. Alkofer, Phys. Lett. B 236, 310 (1990).
+
+[15] R. Alkofer and H. Weigel, Comp. Phys. Comm. 82, 30 (1994).
+
+16
+
+[16] J. D. Breit and C. R. Nappi, Phys. Rev. Lett. 53, 889 (1984). [17] H. Weigel, H. Reinhardt, and R. Alkofer, Phys. Lett. B313 (1993) 377. [18] H. Weigel, R. Alkofer, and H. Reinhardt, Nucl. Phys. B387, 638 (1992). [19] S. Kahana and G. Ripka, Nucl. Phys. A429 (1984) 462. [20] B. Moussallam, Ann. Phys. (NY) 225 (1993) 264;
+
+G. Holzwarth, Nucl. Phys. A572 (1994) 69; G. Holzwarth and H. Walliser, Nucl. Phys. A587 (1995) 721.
+
+[21] H. Weigel, R. Alkofer, and H. Reinhardt, Nucl. Phys. A582 484 (1995). [22] L. Montanet et al. (Particle Data Group), Phys. Rev. D50 (1994) 1171. [23] J. P Blaizot and G. Ripka, Phys. Rev. D38 (1988) 1556;
+
+U. Post and U. Mosel, Nucl. Phys. A499 (1989) 789.
+
+17
+

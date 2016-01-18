@@ -1,0 +1,674 @@
+
+
+ 8 Apr 1994
+
+DESY 94-057 ISSN 0418-9833 March 1994 
+
+Top-Down Approach to Unified Supergravity Models
+
+Ralf Hempfling Deutsches Elektronen-Synchrotron, Notkestrasse 85, D-22603 Hamburg, Germany
+
+ABSTRACT We introduce a new approach for studying unified supergravity models. In this approach all the parameters of the grand unified theory (GUT) are fixed by imposing the corresponding number of low energy observables. This determines the remaining particle spectrum whose dependence on the low energy observables can now be investigated. We also include some SUSY threshold corrections that have previously been neglected. In particular the SUSY threshold corrections to the fermion masses can have a significant impact on the Yukawa coupling unification.
+
+1. Introduction It has been shown recently that in the minimal supersymmetric model (MSSM) [1] the SU(3)c \Theta SU(2)L \Theta U(1)Y gauge couplings unify at a scale MGUT = O(1016 GeV) [2]. Additionally, the unification of o/ and bottom Yukawa couplings at MGUT can be achieved within the MSSM if the top-Yukawa coupling is close to the Landau-pole [3;4].
+
+The evolution of the coupling constants from the electroweak scale, given by mz, to the GUT scale, MGUT, including SUSY threshold corrections is non-trivial without any a priori knowledge of the SUSY particle spectrum. This particle spectrum results from mass parameters that are subject to a renormalization group (RG) evolution from MGUT to mz and are in general scattered over several orders of magnitude. Several different approaches have been proposed, all of which make some simplified assumptions about the SUSY threshold effects. Also, it is in general not possible to impose all the experimental observables. For example, in the so-called bottom-up approach [5] which is suited to investigate a large number of models ffs is an output rather than an experimental input. Any experimental information on ffs is thus lost.
+
+In general, the goal of all these approaches was to obtain low energy predictions by imposing GUT constraints. In this paper we introduce a complementary approach that enables us to constrain the GUT parameter space by imposing all present and future experimental results. Furthermore, we present a more complete treatment of the SUSY threshold corrections that does not require any assumptions about the SUSY particle spectrum. Our approach is characterized by fixing all the low energy observables including the strong coupling constant, ffs and the bottom mass, mb, precisely. By varying these parameters over the range that is experimentally viable we still obtain the full range of viable SUSY parameters. This way we can explore the possibilities and limitations of probing the GUT parameter space by high-precision measurements. In turn, we can impose GUT constraints in order to study SUSY phenomenology in terms of only a few input parameters.
+
+Our strategy is as follows. We start out with a general N = 1 unified supergravity model. In the minimal SU(5) version there are nine input parameters at the GUT scale: the universal gauge coupling, ffg, the up and down Yukawa couplings, ffU and ffD, the Higgs mass parameter of the superpotential, _, the GUT scale, MGUT, the universal mass parameter of the spin 0 and spin 1=2 particles, m0 and m1=2, and the soft SUSY breaking parameters multiplying the trilinear and the quadratic part of the superpotential, A and B. (Actually, the Yukawa
+
+2
+
+couplings are 3 \Theta 3 matrices, but we can neglect the couplings of the first two generation, which are small and whose origin is unclear. We will also not impose any constraints on the SUSY parameters coming from the non-observation of proton-decay since they are model-dependent.) In order to obtain the low energy parameters we will solve the RG equations (RGEs) twice. At the first run we will determine all the mass parameters and thus all the thresholds at which the RGEs have to be modified. At the second run we will evolve only the coupling constants under consideration of all the SUSY threshold corrections. This way we obtain all the low energy observables including those that are already determined by experiment. By imposing these experimental results we obtain a strongly constrained SUSY particle spectrum whose dependence on the few remaining parameters can now be studied.
+
+Our paper is organized as follows: in Section 2 we describe our approach with all the relevant corrections. In Section 3 we present our numerical results and in Section 4 we summarize our conclusions. The one-loop corrections to the fermion masses are given in the appendix.
+
+2. Derivation of the SUSY particle spectrum The derivation of the SUSY particle spectrum is straightforward. First we evolve all the parameters from MGUT to mz using the SUSY fi functions (two-loop for the couplings [6] and one-loop for the mass parameters [7]) where we impose universality on the mass parameters and unification of the gauge and Yukawa coupling constants. In order to assure that heavy particles with mass m decouple from the set of RGEs at a scale ps ! m we multiply the corresponding mass parameter in the fi function by a step function, ` [`(x) = 0; 1 for x ! 0; x * 0, respectively]. Thus we set for the squark, slepton and Higgs mass parameters
+
+M 2i ! M 2i `(s \Gamma M 2i ) ; (1) where i = eQn; eUn; eDn; eLn; eEn; Hm; (n = 1; 2; 3; m = 1; 2), and we decouple the A-parameters at scales below the average squark or slepton masses
+
+AUn ! AUn`(2s \Gamma M 2eQ
+
+n \Gamma M
+
+2 eUn ) ;
+
+ADn ! ADn`(2s \Gamma M 2eQ
+
+n \Gamma M
+
+2
+
+eDn ) ;
+
+AEn ! AEn`(2s \Gamma M 2eL
+
+n \Gamma M
+
+2
+
+eEn ) :
+
+(2)
+
+3
+
+For the Higgsino and gaugino mass parameters we have
+
+M ! M `(s \Gamma M 2) ; (3) where M = _; M eB; MfW ; M~g. With these mass parameters known, we can now compute the full SUSY mass spectrum.
+
+However, the coupling constants we have obtained sofar do not include any threshold corrections. These can be included by evolving the coupling constants a second time while changing the RGEs at every threshold. We start by running the gauge and Yukawa coupling constants, ffi (i = 1; 2; 3; o/; b; t), from MGUT to the scale at which all strongly interacting SUSY particles decouple, MQCD, using two-loop SUSY fi functions. We define M 2QCD j M~t
+
+1 M~t2 because the
+
+decoupling of the top-squark has the strongest effect on the evolution of the Yukawa couplings
+
+and the quartic Higgs couplings which below MQCD are allowed to evolve differently than the gauge coupling. The effects of the different squark and gluino thresholds on the gauge couplings, as well as the conversion from DR to MS scheme [8] can be easily incorporated at the one-loop level by writing \Gamma
+
+ff\Gamma 1i \Delta \Gamma = \Gamma ff\Gamma 1i \Delta + \Gamma \Delta i ; (4)
+
+where the subscript + (\Gamma ) denotes the value above (below) threshold, and we have
+
+\Delta 1 = 1120ss X
+
+i=1;2;3 24
+
+ln 0@
+
+M 2eQ
+
+i
+
+M 2QCD 1A + 8 ln
+
+M 2eU
+
+i
+
+M 2QCD ! + 2 ln
+
+M 2eD
+
+i
+
+M 2QCD !35 ;
+
+\Delta 2 = 18ss X
+
+i=1;2;3
+
+ln 0@
+
+M 2eQ
+
+i
+
+M 2QCD 1A \Gamma
+
+1 6ss ;
+
+\Delta 3 = 124ss X
+
+i=1;2;3 24
+
+ln
+
+M 2eD
+
+i
+
+M 2QCD ! + ln
+
+M 2eU
+
+i
+
+M 2QCD ! + 2 ln 0@
+
+M 2eQ
+
+i
+
+M 2QCD 1A35
+
++ 12ss ln M
+
+2~g
+
+M 2QCD ! \Gamma
+
+1 4ss : (5)
+
+In the MSSM the Higgs potential is given in general by
+
+V = m211\Phi y1\Phi 1 + m222\Phi y2\Phi 2 \Gamma [m212\Phi y1\Phi 2 + h:c:]
+
+4
+
++ 12 *1(\Phi y1\Phi 1)2 + 12 *2(\Phi y2\Phi 2)2 + *3(\Phi y1\Phi 1)(\Phi y2\Phi 2) + *4(\Phi y1\Phi 2)(\Phi y2\Phi 1) + n 12 *5(\Phi y1\Phi 2)2 + \Theta *6(\Phi y1\Phi 1) + *7(\Phi y2\Phi 2)\Lambda \Phi y1\Phi 2 + h:c:o ; (6)
+
+where the mass parameters are given at MGUT by m211 = m222 = m20 + _2 and m212 = \Gamma _B and have been evolved down to MQCD. The coupling constants are given at MQCD by
+
+*1 = 14 (g22 + g21 ) + \Delta *1 ; *5 = \Delta *5 ; *2 = 14 (g22 + g21 ) + \Delta *2 ; *6 = \Delta *6 ; *3 = 14 (g22 \Gamma g21) + \Delta *3 ; *7 = \Delta *7 ; *4 = \Gamma 12g22 + \Delta *4 :
+
+(7)
+
+Here, the \Delta *i (i = 1; ::; 7) are finite one-loop threshold corrections presented in ref. 9. At scales below MQCD the quartic couplings of the Higgs potential will evolve according to the fi function of a general two-Higgs-Doublet model (plus sleptons, charginos and neutralinos) [9;10]. With these fi functions the couplings evolve down to the scale M 2weak j M~e1M~e2 where all the electroweakly interacting superpartners decouple (M~e1 and M~e2 denote the selectron mass eigenvalues). We also assume the mA0 = O(Mweak) so that only the standard model (SM) particle content remains at scales below Mweak. Thus, for the evolution from Mweak down to mz we use the SM fi functions. The SM coupling constants are obtained by imposing the boundary conditions
+
+*SM j cos4 fi*1 + sin4 fi*2 + 2 cos2 fi sin2 fie*3
+
++ 4 cos3 fi sin fi*6 + 4 cos fi sin3 fi*7 ; ffSMt = sin2 fifft ; ffSMb = cos2 fiffb ; ffSMo/ = cos2 fiffo/ : (8)
+
+where e*3 = *3 + *4 + *5. In order to decouple the top Yukawa coupling from the set of RGEs for s ! mt we write
+
+fft ! fft`(s \Gamma m2t ) : (9)
+
+Again we use eq. (4) to account for different thresholds, with
+
+\Delta 1 = 140ss (ln ` m
+
+2A
+
+0
+
+M 2weak ' + 4 ln
+
+M 2eH M 2weak !
+
+5
+
++ X
+
+i=1;2;3 "
+
+ln
+
+M 2eL
+
+i
+
+M 2weak ! + 2 ln
+
+M 2eE
+
+i
+
+M 2weak !#9=; ;
+
+\Delta 2 = 124ss (4 ln M
+
+2
+
+eH
+
+M 2weak ! + 8 ln
+
+M 2fW M 2weak !
+
++ ln ` m
+
+2A
+
+0
+
+M 2weak ' + Xi=1;2;3 ln
+
+M 2eL
+
+i
+
+M 2weak !9=; ;
+
+\Delta 3 = 0 : (10)
+
+where at this point we approximate the CP-odd Higgs mass by m2A0 = m211 + m222 and the Higgsino mass by M eH = _. It is understood that all the masses lighter than mz should be replaced by mz. At the scale mz we impose the minimum conditions for the Higgs potential of eq. (6)
+
+1 2 v
+
+2 cos2 fi i*1 + 3*6 tan fi + e*3 tan2 fi + *7 tan3 fij \Gamma tan fim2
+
+12 = 0 ;
+
+1 2 v
+
+2 sin2 fi i*2 + 3*7 cot fi + e*3 cot2 fi + *6 cot3 fij + m222 \Gamma cot fim212 = 0 : (11)
+
+where the low energy effective couplings are given by
+
+*1 = *1(Mweak) + cos4 fi\Delta *SM ; *2 = *2(Mweak) + sin4 fi\Delta *SM ; *3 = *3(Mweak) + cos2 fi sin2 fi\Delta *SM ; *4 = *4(Mweak) + cos2 fi sin2 fi\Delta *SM ; *5 = *5(Mweak) + cos2 fi sin2 fi\Delta *SM ; *6 = *6(Mweak) + cos3 fi sin fi\Delta *SM ; *7 = *7(Mweak) + sin3 fi cos fi\Delta *SM ; (12)
+
+with \Delta *SM j *SM (mz) \Gamma *SM (Mweak). This way we have achieved that only the SM Higgs self coupling evolves at scales below mA0. By using running parameters in the Higgs sector we have included all leading log terms summed to all orders in perturbation theory. This formalism yields a better approximation for large SUSY masses [say O(1 TeV)] than e.g. the one-loop
+
+6
+
+effective potential. The top quark threshold corrections to ffs are included via eq. (4) with
+
+\Delta 3 = 16ss ln `m
+
+2t
+
+m2z ' : (13)
+
+Instead of solving eq. (11) for tan fi and v we keep tan fi fixed and solve for m212 and v. This is possible because until now we have not used the value of B which does not enter the fi function of any other parameter at one-loop. It can thus be chosen independently of all the other parameters. We now obtain the experimental observables
+
+tan2 `w = 3ff15ff
+
+2 ;
+
+ffem = sin2 `wff2 ;
+
+ffs = ff3 ; mz = pssffemvsin `
+
+w cos `w ;
+
+mtt = p2ssfftvsin fi ;
+
+mzb = p2ssffbvcos fi + \Delta mb ; mzo/ = p2ssffo/ vcos fi + \Delta mo/ ; (14) where the superscripts t and z indicate that these are the running masses evaluated at mt and mz, respectively. Included are also all the tan fi enhanced one-loop SUSY threshold corrections, \Delta mb and \Delta mo/ , listed in the appendix [11;12]. The top Yukawa coupling is evaluated at mt and all other couplings at mz. The physical (pole) masses are [13]
+
+mt = mtt ^1 + 4ffs3ss + 11 i ffsss j
+
+2* ;
+
+mb = mbb ^1 + 4ffs3ss + 12:4 i ffsss j
+
+2* ;
+
+mo/ = mo/o/ ; (15) We now have to compare out theoretical predictions with experimental data. Our set of experimental quantities is [14]
+
+sin2 `w = 0:2324 \Gamma 1:96 \Theta 10\Gamma 3 ^i mt138 GeV j
+
+2 \Gamma 1* ;
+
+7
+
+ff\Gamma 1em = 127:9 ; mz = 91:187 GeV ; mo/ = 1:7841 GeV : (16)
+
+The experimental errors of these quantities are so small that they can be ignored. On the other hand, the QCD gauge coupling carries a significant error. We typically choose ffs = 0:13, which is somewhat larger than the result from deep inelastic scattering, ffs = 0:112 [15], or even from LEP experiments, ffs = 0:122 [16]. This is necessary in order to obtain a SUSY particle spectrum at or below 1 TeV. This discrepancy which is still within the experimental bounds might also be an indication for non-negligible GUT threshold corrections [17]. The bottom mass has been calculated to be mb = (4:72 \Sigma 0:05) GeV [18]. We are more conservative and accept mb = 5:0 GeV as the upper limit still compatible with the experimental data. In order to avoid that the discrepancy in ffs propagates into our prediction of mb (which for ffs = 0:13 and mt= sin fi ! 200 GeV is unacceptably large) we fix in our plots the running bottom mass at mz, mzb = 3:3 GeV, which corresponds to a physical mass of mb = 5:0 for ffs = 0:115. Furthermore, we typically choose tan fi = 35 and mt = 185 GeV (this corresponds to a running mass of about 172 GeV which is significantly below the IR fixed point [19]).
+
+Now we proceed to fix the GUT input parameters, denoted generically by Ii, by imposing the set of experimental observables described above and denoted by Oj. Sofar we have described how to obtain these experimental observables as functions of the GUT inputs, Oj = Fj(Ii). However, in practice we need to find Ii as a function of Oj. Thus, we have to invert Fj(Ii) numerically. Clearly, this requires the number of inputs to be equal to the number of outputs and can be achieved by defining Ii as the limit of an infinite series
+
+Ii = F \Gamma 1i (Oj) = limn!1 Ini ; (17) where we choose a set of initial GUT parameters, I0i , by default. All the other elements of the series are obtained by iteration
+
+In+1i = Ini + X
+
+j
+
+(J n)\Gamma 1ij [Oj \Gamma Fj(Ini )] ; (18)
+
+(n = 0; 1; :::) where we have computed the Jacobian matrices
+
+J nij j @Fj(Ii)@I
+
+i fifififiIi=In
+
+i
+
+; (19)
+
+8
+
+Fig. 1 The low energy SUSY mass parameters as a function of the A-parameter at MGUT. The low energy value of At is negative unless its initial value at MGUT is very large (? 1:2m0 in this plot)
+
+and their inverses, (J n)\Gamma 1ij , numerically. Operationally, we truncate the series when the relative error, [Fj(Ini )=Oj \Gamma 1]2, is below the desired accuracy. Whether the series defined in eq. (18) converges or not depends strongly on the choice of the initial GUT parameters, I0i . Thus, the procedure might have to be repeated several times before a set of GUT parameters can be found that yields the desired low energy observables.
+
+3. Numerical Results In the last section we have seen how to obtain the GUT parameters and thus also the full SUSY particle spectrum by imposing low energy observables. We will now present the numerical results of our approach.
+
+3.1. Without GUT threshold corrections
+
+Let us assume for now, that the heavy GUT particle spectrum is roughly degenerated and hence that the GUT threshold corrections are negligible. We present our results as functions of mb and ffs due to their large experimental errors and of mt and tan fi, which are still unknown.
+
+A few clarifications are required before presenting the numerical results. In the absence of large SUSY threshold corrections the value of mb is predicted once we fix mo/ and mt. Let
+
+9
+
+Fig. 2 The SUSY mass parameters as a function of the top mass. At is positive (negative) for mt ? (!)193 GeV
+
+us now look at the one-loop contributions to mb [eq. (14)] given in Appendix A. In the limit M~b
+
+1 ss M~b2 AE mw we obtain for the dominant gluino and chargino contributions
+
+(\Delta mb)~g ss ffs3ss _M~gm2 mb tan fi ; (\Delta mb)O/\Sigma ss ffem16ss m
+
+2t
+
+m2ws2w
+
+_At
+
+m2 mb tan fi :
+
+(20)
+
+where m = maxfM~b
+
+1 ; M~b2 ; M~gg. Thus, in the large tan fi regime (which is under study here)
+
+the corrections are strongly enhanced and as a result the bottom mass prediction depends
+
+on various other SUSY parameters. Therefore, we can treat mo/ , mb and mt as independent parameters.
+
+It has been shown, that the prediction of mb from unification without threshold corrections tends to be too large unless the top mass is close to its IR fixed point [3;4]. Thus, we will only obtain acceptable values of mb for _M~g ! 0 [in our plot we will choose M~g ? 0]. By looking at the RGEs we see that M~g tends to drive At to negative values. As a result, there is a partial cancellation of the terms in eq. (20) over a large portion of the parameter space. Nonetheless, the corrections can be significant.
+
+In fig. 1 we present the SUSY parameters as a function of the A-parameter at MGUT. We see that the SUSY particle spectrum changes only slowly as long as jAj ,! m0. The reason it
+
+10
+
+Fig. 3 The SUSY mass parameters as a function of the running bottom mass, mzb . The parameter At is positive (negative) for mzb ? (!)3:45 GeV.
+
+that the evolution of the A parameters is dominated by M~g and thus the low energy value is rather independent of the input at MGUT which we will choose to be A = m0. In fig. 2-5 we present various low energy SUSY parameters as a function of mt, mb, tan fi and ffs, respectively. Shown is the region in parameter space where we can find a set of GUT parameters that yields the desired values of the experimental observables. We display the dependence of MGUT, which is important for proton decay, the gaugino and Higgsino mass parameters, M2 and _, that determine the chargino and neutralino sector, the mass parameter of the left handed top and bottom squark, M eQ
+
+3 , which characterizes the scale of the squark masses and determines the
+
+radiative corrections [20] to the lightest Higgs boson mass, mh0, and the mass of the CP-odd
+
+scalar
+
+m2A0 = 2m
+
+212
+
+sin 2fi \Gamma
+
+1 2 v
+
+2 (2*5 + *6 cot fi + *7 tan fi) : (21)
+
+We also present the B-parameter, which turns out to be an important measure for the amount of fine-tuning required to yield large values of tan fi, and At j AU3 for completeness. If one neglects the SUSY threshold corrections [eq. (20)] only a very narrow range of mt close to the IR fixed point is compatible with o/ -bottom Yukawa unification [3;4]. However, in fig. 2 we see that by including these corrections we can find a solution for a much larger range of top masses that is clearly below the IR-fixed point mt ss 200 GeV [19]. It has been pointed out in ref. 11 that the corrections in eq. (20) are constrained by requiring the absence of severe
+
+11
+
+Fig. 4 The SUSY mass parameters as a function of tan fi fine-tuning. The reason is that the minimum conditions of the Higgs potential require that B_=m20 = O(1= tan fi) o/ 1. Such small values for B_ are instable under radiative corrections and, therefore, unnatural unless they are protected by an approximate symmetry. Such a symmetry would also require At and m1=2 to be suppressed which in turn would imply a cancellation of the tan fi enhancement of eq. (20). However, our main priority is to look for solutions for a particular set of experimental inputs. Thus, we consider the amount of finetuning required for a particular solution as an output which is roughly characterized by the ratio r j maxfA2t ; M 22 g=B2. The absence of fine-tuning is an important argument in order to find the theoretically favored range in parameter space. For example, the requirement that r ,! 100 implies that mt ,? 180 GeV. If we ignore the problem of fine-tuning we find a lower limit of mt ,? 150 GeV by requiring that mA0 ? 0. It is interesting to note that the SUSY particle mass spectrum becomes heavier with mt as a result of the mt dependence of sin2 `w [eq. (16)] and of ffs [eq. (13)].
+
+In fig. 3 we present the bottom mass range for which a solution can be found. It illustrates the significance of the radiative corrections to the o/ and b quark mass [Appendix A]. It is interesting that the mb dependence shown in fig. 3 exhibits very similar qualitative features to the mt dependence in fig. 2.
+
+In fig. 4 we show the tan fi dependence of the SUSY particle spectrum which is very similar to the mt and mb dependence in fig. 2 and 3. The main difference is that the condition mA0 ? 0
+
+12
+
+Fig. 5 The SUSY mass parameters as a function of the strong coupling constant, ffrms puts an upper limit on tan fi ,! ht=hb [21] as a result of radiative symmetry breaking [22] .
+
+In fig. 5 we display the range of the strong coupling constants for which gauge and o/ -bottom Yukawa unification can be achieved. We find that MGUT grows with ffs while the SUSY mass spectrum decreases with increasing ffs [2]. However, the actual SUSY particle masses turn out to be much larger than the effective SUSY scale [4]. As a result, the predicted values of ffs from unification are significantly larger than the experimental value as long as the SUSY particle spectrum is not much heavier than 1 TeV. This might be a first indication that the GUT threshold corrections [17] may be significant.
+
+3.2. With GUT threshold corrections
+
+We now consider the possibility of non-negligible GUT threshold corrections to the gauge couplings. We parameterize these corrections by \Delta such that
+
+ff\Gamma 11 = ff\Gamma 12 = ff\Gamma 13 \Gamma \Delta = ff\Gamma 1g : (22) Here, MGUT is defined as the point at which ff1 and ff2 intersect. It does in general not correspond to the masses of any heavy particles which are now assumed to be non-degenerate.
+
+13
+
+Fig. 6 The SUSY mass parameters as a function of the top mass. At is positive (negative) for mt ? (!)178 GeV. Included are finite GUT threshold corrections to the gauge couplings parameterized by 4ss\Delta . Instead, we fix the lightest top squark mass, M~t
+
+1 = 1 TeV
+
+In general, we can write
+
+4ss\Delta = X
+
+OE
+
+aOE ln m
+
+2OE
+
+M 2GUT ! ; (23)
+
+where the sum is over all heavy GUT particles, OE, and the coefficients aOE = O(1). For simplicity we set ffb = ffo/ at MGUT. In fig. 6 we present various low energy SUSY parameters as a function of mt. The difference to fig. 2 is that we now fix the lightest top squark mass, M~t
+
+1 = 1 TeV,
+
+and instead we allow non-zero values of \Delta . This allows us to fix the strong coupling constant at
+
+a lower value ffs = 0:115 and to fix the physical (pole) bottom mass mb = 5:0 GeV. The solid curve shows the predicted GUT threshold effect defined in eq. (23). We see that the full range of mt from the experimental lower bound to the IR fixed point is compatible with o/ -bottom Yukawa unification within the frame-work of the minimal unified SU(5) SUGRA model.
+
+3.3. SUSY loop-effects
+
+One of the main advantages of our top-down approach is that it allows us to greatly reduce the number of free SUSY parameters. Consider, e.g. the mass of the lightest Higgs boson, mh0 . In the MSSM there exists a well defined tree-level upper limit mh0 ^ mz which implies that the Higgs sector will be a good testing ground for the MSSM even if all SUSY partners are
+
+14
+
+Fig. 7 The two-loop radiatively corrected lightest Higgs mass (a) and some relevant SUSY particle tree-level masses (b) as a function of mt. We fix M~t
+
+1 = 1 TeV
+
+heavy. Through radiative corrections mh0 depends on all SUSY parameters [20] even though not all of them are significant. By imposing GUT relations, universality and the experimental constraints from eq. (16) the number of free parameters can be reduced to five. Furthermore, without great loss of generality we can set A = m0, since the low energy value of At is primarily determined by m~g. In fig. 7 (a) we present the two-loop radiatively corrected prediction of mh0 [20;23] as a function of mt. Here we set tan fi = 35, M~t
+
+1 = 1 TeV and we have imposed the
+
+constraint _ = \Gamma m0=2. This constraint is chosen for convenience since it allows for radiative
+
+symmetry breaking over a large range of mt. In fig. 7 (b) we present some physical SUSY particle masses (at tree-level). We see that the constraints M~o/1; m ~O/0
+
+1; m ~O/
+
+\Sigma
+
+1 ,? mz=2 imply
+
+120 GeV ,! mt ,! 170 GeV. Of course, this range of mt for which a solution can be found
+
+depends on our initial values of A and _. However, the value of mh0 as a function will not be affected significantly. Here the QCD coupling and the bottom mass are treaded as outputs and lie in the range 0:122 ! ffs ! 0:133 and 5:4 GeV ! mb ! 6:6 GeV where the lower (upper) limits correspond to mt = 120 GeV (170 GeV).
+
+15
+
+4. Conclusions We have introduced a top-down approach for studying the GUT parameter space in SUSYGUT models. With this approach we can analyze explicitly the dependence of the SUSY particle spectrum on various experimental observables. We find that the SUSY particle spectrum becomes heavier with increasing mt and decreasing ffs. Neglecting GUT threshold corrections and assuming all SUSY particles are lighter than 1 TeV we find that ffs ,? 0:13. In addition, we have included in our analysis the potentially large SUSY threshold corrections to the quark and lepton masses previously neglected. We focus our attention on the large tan fi limit where we have shown that these corrections can in some cases lower the value of mt for which o/ -bottom Yukawa unification is achieved below the present experimental lower limit.
+
+Furthermore, our approach enables us to fix the entire SUSY particle spectrum in terms of a few experimental inputs. This allows the computation of virtual SUSY effects in terms of only a few parameters.
+
+Acknowledgements: I am very grateful to M. Carena and C.E.M. Wagner for sharing their FORTRAN subroutines for the computation of all the fi-functions and for many stimulating conversations. I would also like to thank S. Pokorski and P. Zerwas for many useful discussions.
+
+APPENDIX one-loop SUSY threshold corrections to mb and mo/ In this appendix we present results for the one-loop radiatively generated down-type fermion masses. The calculation was done in n dimensions using dimensional regularization. We consider the limit of large tan fi while keeping the Yukawa couplings hu / mu= sin fi and hd / md= cos fi constant (here the index d stands for all down type fermions, in particular b and o/ ). These types of corrections are finite and scheme-independent. The result for the up sfermion-chargino loops is
+
+\Delta md = \Gamma 116ss2 X
+
+n;i
+
+M ~O/\Sigma
+
+i V
+
+L\Sigma ni V R\Sigma ni B0(0; M 2~u
+
+n ; M
+
+2 ~O/\Sigma i ) ; (A:1)
+
+where n; i = 1; 2. The vertices in the basis of electroweak eigenstates are given by [24]
+
+VL\Sigma mi =
+
+gmdUi2p 2mw cos fi0 !
+
+m
+
+;
+
+16
+
+VR\Sigma mi = \Gamma gV
+
+\Lambda i1 gmuVi2p 2mw sin fi !m
+
+: (A:2)
+
+The chargino mass eigenvalues, M ~O/\Sigma
+
+i , and rotation matrices, U and V , are defined via
+
+diag(M ~O/\Sigma
+
+1 ; M ~O/
+
+\Sigma 2 ) = U XV
+
+\Gamma 1 ; X = M mwp2
+
+0 \Gamma _ ! ; (A:3)
+
+From here we obtain the vertices for the mass eigenstates by rotating
+
+V P \Sigma ni = U (`~u)nmVP \Sigma mi ; (A:4) where P = L; R and the mixing angle and the unitary matrix are defined by
+
+sin 2`~u j 2(Au \Gamma _ cot fi)mum2
+
+~u1 \Gamma m2~u2
+
+;
+
+U (`) = cos ` sin `\Gamma sin ` cos ` ! :
+
+(A:5)
+
+Within the framework of a large tan fi approximation we set md = 0 for consistency and finiteness. In this case, the conventionally defined scalar two-point function becomes
+
+B0(0; m21; m22) = \Delta \Gamma m
+
+21 ln m21 \Gamma m22 ln m22
+
+m21 \Gamma m22 + 1 ; (A:6)
+
+where \Delta = 2=(4 \Gamma n) \Gamma flE + ln(4ss) and flE is the Euler constant. The result for the down sfermion-neutralino loops is
+
+\Delta md = \Gamma 116ss2 X
+
+i;n
+
+mO/0
+
+i V
+
+L0ni V R0ni B0(0; M 2~
+
+dn ; M
+
+2 ~O/0i ) ; (A:7)
+
+where i = 1; 2; 3; 4 and n = 1; 2. The vertices for the mass eigenstates are obtained by rotation
+
+V P 0ni = O(` ~d)nmVP 0mi ;
+
+sin 2` ~d j 2(Ad \Gamma _ tan fi)mdm2
+
+~d1 \Gamma m
+
+2
+
+~d2
+
+; (A:8)
+
+17
+
+where we have defined
+
+VL0mi = 1p2
+
+2eedZ0i1 \Gamma gc
+
+w \Gamma 1 + 2eds
+
+2w\Delta Z0i2
+
+gmd mw cos fi Zi3 !m
+
+;
+
+VR0mi = 1p2
+
+gmd mw cos fi Zi3\Gamma 2eedZ0i1 + 2 gc
+
+w eds
+
+2 wZ
+
+0i
+
+2 !m
+
+: (A:9)
+
+Here the neutralino mass eigenvalues, M ~O/0
+
+i , and rotation matrix, Z, are defined via
+
+diag(M ~O/0
+
+1 ; M ~O/
+
+0 2; M ~O/
+
+0 3; M ~O/
+
+0 4 ) = ZY Z
+
+\Gamma 1 ;
+
+Y = 0BBBB@
+
+M 0 0 0 mzsw
+
+0 M 0 \Gamma mzcw 0 0 0 \Gamma _ mzsw \Gamma mzcw \Gamma _ 0
+
+1CCCC A ;
+
+(A:10)
+
+The result for the down squark-gluino loop is (these type of corrections are absent for the leptons)
+
+\Delta md = ffs3ss M~g sin 2` ~d
+
+\Theta hB0(0; M 2~d
+
+1 ; M
+
+2~g ) \Gamma B0(0; M 2~
+
+d2 ; M
+
+2~g )i : (A:11)
+
+REFERENCES 1: H.P. Nilles: Phys. Rep. 110, (1984) 1; H.E. Haber and G.L. Kane, Phys. Rep. 117,
+
+(1985) 75; R. Barbieri, Riv. Nuovo Cimento 11 , 1 (1988).
+
+2: U. Amaldi, W. de Boer and H. F"urstenau: Phys. Lett. B260, (1991) 443; J. Ellis, S.
+
+Kelley and D.V. Nanopoulos, Phys. Lett. B260, (1991) 131; P. Langacker and M.X. Lou, Phys. Rev. D44, (1992) 817.
+
+3: S. Dimopoulos, L.J. Hall and S. Raby: Phys. Rev. Lett. 68, (1992) 1984; Phys. Rev.
+
+D45, (1992) 4192; V. Barger, M.S. Berger and P. Ohmann: Phys. Rev. D47, (1993) 1093.
+
+4: M. Carena, S. Pokorski and C.E.M. Wagner: Nucl. Phys. B406, (1993) 59. 5: S. Bertolini et al: Nucl. Phys. B353, (1991) 591; M. Olechowski and S. Pokorski:
+
+Nucl. Phys. B404, (1993) 590.
+
+18
+
+6: M.B. Einhorn and D.R.T. Jones: Nucl. Phys. B196, (1982) 196; M.E. Machacek and
+
+M.T. Vaughn: Nucl. Phys. B222, (1983) 83; Nucl. Phys. B236, (221) 1984; Nucl. Phys. B249, (1985) 70.
+
+7: N.K. Falck: Z. Phys. C30, (1986) 247. 8: W. Siegel: Phys. Lett. B84, (1979) 193; D.M. Capper, D.R.T. Jones and P. van Nieuwenhuizen: Nucl. Phys. B167, (1980) 497.
+
+9: H.E. Haber and R. Hempfling: Phys. Rev. D48, (1993) 4280. 10: P. Chankowski: Phys. Rev. D41, (1990) 2877. 11: L.J. Hall, R. Rattazzi and U. Sarid: LBL preprint LBL-33997 (1993). 12: R. Hempfling: DESY preprint DESY 93-092, to be published in Phys. Rev. D. 13: H. Arason et al: Phys. Rev. D46, (1992) 3945; N. Gray, D.J. Broadhurst, W. Grafe and
+
+K. Schilcher, Z. Phys. C48, (1990) 673.
+
+14: P. Langacker and N. Polonsky: Phys. Rev. D47, (1993) 4029; U. of Pennsylvania preprint
+
+UPR-0556T; K. Hisaka et al [Particle Data Group]: Phys. Rev. D45, (1992) S1.
+
+15: S. Bethke and S. Catani: CERN report No. TH.6484/92 (1992). 16: P. Abreu et al: Z. Phys. C54, (1992) 55. 17: R. Barbieri and L.J. Hall: Phys. Rev. Lett. 68, (1992) 752. 18: C.A. Dominguez and N. Paver: Phys. Lett. B293, (1992) 197. 19: B. Pendleton and G.G. Ross: Phys. Lett. B98, (1981) 291; C.T. Hill, Phys. Rev. D24,
+
+(1981) 691.
+
+20: H.E. Haber and R. Hempfling: Phys. Rev. Lett. 66, (1991) 1815; Y. Okada, M. Yamaguchi and T. Yanagida: Prog. Theor. Phys. 85, 1 (1991); J. Ellis, G. Ridolfi and F. Zwirner: Phys. Lett. B257, (1991) 83.
+
+21: G.F. Giudice and G. Ridolfi: Z. Phys. C41, (1988) 447. 22: J. Ellis, J.S. Hagelin, D.V. Nanopoulos and K. Tamvakis: Phys. Lett. B125, (1983) 275. 23: R. Hempfling and A.H. Hoang: DESY preprint DESY 93-162 (1993). 24: J.F. Gunion and H.E. Haber: Nucl. Phys. B272, (1986) 1; [E: U. of California, Davis,
+
+preprint UCD-92-31 (1992)].
+
+19
+

@@ -1,0 +1,562 @@
+D.Yu.Grigoriev and F.V.Tkachov,  [corrected 2001-08-15] Implementation of optimal jet definition 1
+
+
+
+
+
+AN EFFICIENT IMPLEMENTATION
+OF THE OPTIMAL JET DEFINITION
+
+Contribution to the XIII Int. Workshop on Quantum Field Theory and High Energy Physics
+(QFTHEP'99, 27 May ­ 2 June 1999, Moscow)
+
+
+D. Yu. Grigorieva and F. V. Tkachovb
+
+Institute for Nuclear Research of Russian Academy of Sciences
+60th October Ave. 7a, Moscow 117312, Russia
+
+a dgr@ms2.inr.ac.ru, b ftkachov@ms2.inr.ac.ru
+
+
+
+We describe an efficient implementation of the optimal jet definition derived in 
+(revision of January, 2000) and implemented in Fortran 77. The algorithm handles both c.m.s. and
+hadron collision kinematics.
+
+
+
+
+
+Introduction 1 numbers typical for LHC) and N = 1÷
+jets 6 , one deals with a
+
+huge dimensionality (up to 2000 and more), which makes the
+Jet finding algorithms are a central data-processing tool in resulting optimization problem non-trivial.
+high-energy physics. However, the definition of jets suffered Fortunately, the analytical regularity of the criterion of [5]
+from misinterpreted ambiguities, which resulted in several means there is a lot of information about the problem --
+existing jet finding schemes (cone, recombination, ...), each in enough to allow a quite efficient implementation of the corres-
+several variations (for a review see e.g. [1]). This resulted in ponding jet-finding algorithm, apparently on a par with con-
+practical difficulties since each experiment tends to use its own ventional algorithms.
+jet definition, making it difficult to compare physical results.
+The purpose of the present Letter is to describe such an
+A systematic theoretical analysis of jet-related measure- algorithm with emphasis on analytical, programming-language-
+ments from first principles was performed in [2], [3] where the independent aspects. The currently available version is written
+central importance of the following two general requirements in Fortran 77 (adapted from a code developed in Component
+was pointed out: Pascal [7]), has been compiled on a number of platforms, and
+(a) stability of data processing algorithms with respect to works for both c.m.s. (spherically symmetric) kinematics, and
+small effects such as errors in experimental data, etc.; for hadron-hadron collisions (cylindrical kinematics). The
+(b) compatibility with quantum field theory (the connection algorithm reliably solves the minimization problem of [5] (i.e.
+of generalized shape observables with the fundamental energy- finds the optimal configuration of jets) for a typical event in a
+momentum tensor was established in [4]). small fraction of a second on a modest workstation.
+arXiv: v3 16 Aug 2001 The theory of [2], [3] criticized the conventional view on The source together with a practical description of interfa-
+jet-finding algorithms as inversion of hadronization and, ces and examples is available on the Web. We aimed at de-
+instead, offered to regard jets as a tool of approximate descrip- signing a generic robust algorithm and well-structured code
+tion of hadronic events -- in full compliance with the first with a sufficient number of interface hooks to allow one to
+principles of physical measurements [2], [3]. This opened way perform further modifications in case of need. Here we just
+for deriving a jet finding criterion entirely from first principles mention that the central subroutine is Q_minimize; it de-
+[5]. The criterion is derived from studying how physical infor- scends into a (local) minimum from a given initial configura-
+mation (represented by the mentioned fundamental shape tion, and it can be used in different ways, depending on a spec-
+observables) is distorted in the transition from particles to jets, ific application, such as finding all local minima, etc.; cf. the
+and requiring that such a distortion is minimal. discussion of construction of jet-based observables in [5].
+The criterion of [5] can be regarded as a cone algorithm
+rewritten in terms of thrust-like shape observables, which
+makes it potentially very attractive.
+
+In the practical aspect, however, the algorithmic usefulness
+of the definition [5] has remained somewhat problematic
+because it involved a minimization of a function within a
+bounded domain in the space of N × N
+jets particles dimensions
+with an additional restriction. With N = 100 ÷
+particles 400 (the
+
+
+D.Yu.Grigoriev and F.V.Tkachov,  [corrected 2001-08-15] Implementation of optimal jet definition 2
+
+
+
+
+
+The criterion 2 For each jet one also defines a light-like Lorentz 4-vector
+~ , ~
+q q 2 = 0 called the jet's 4-direction, as follows:
+j j
+In the summary description given below we do not attempt
+to explain the meaning of, and motivations behind all the Spherical kinematics:
+details of the definition; the reader is referred to [5]. ~
+q = ( ,
+1 q ) ,
+j j 2.7
+The event P is represented as a collection of its "particles",
+
+
+
+
+
+
+where q = p | p | is a unit 3-vector and p is the space-
+¡ ¢
+j j j j
+P = E , p
+a a , 2.1
+a like component of p .
+j
+each particle described by its energy E and direction p , the
+a £ a Cylindrical kinematics:
+interpretation of which two quantities depends on the ~
+kinematics: q = (cosh , sinh , q ) ,
+j j j j 2.8
+
+For spherical ( e+e- ) kinematics, E is the energy of the
+a
+where q p | p
+= | is a unit 2-vector with p being the
+j j j j
+particle, and p is the corresponding unit 3-vector (which can
+£ a transverse component of p , and determined from the
+be represented e.g. by the two standard angles
+, ). j j
+a a
+relation
+For cylindrical (hadron collisions) kinematics, E is the
+a
+E = z E . 2.9
+transverse energy (also denoted as E E j j a aj a a
+= true sin ),
+a a a
+
+whereas p is represented by the (pseudo) rapidity Further, one defines two functions:
+£ a
+= lncot
+( / 2), - < < + (the polar angle is ¦
+a a a a [
+P,Q] = 2 p
+q , P,Q = z E
+
+soft [ ] .
+j j a a 2.10
+j a
+measured from the beam axis), and the transverse direction
+p (unit 2-vector which is normal to the beam axis; it can be The latter is interpreted as the "soft energy" which does not
+£ a
+take part in jet formation.
+represented by ).
+a The criterion is as follows. One chooses R > 0 and defines
+In either case, the energies E are normalized so that
+a [ ,
+P Q] = R-2[ ,
+P Q] + [P,Q] .
+R soft 2.11
+E
+= 1 . 2.2
+a a Then one chooses a (small; say, 0.01) number >
+cut 0 and
+
+With each pair E , p , one associates a unique light-like finds z
+a £ a a j which minimizes and satisfies the restriction
+Lorentz 4-vector p , p2 = 0 . [P,Q] < 2.12
+a a R cut
+
+A configuration of jets Q is described in a similar fashion as with a minimal number of jets.
+a collection of jets' energies and directions: It turns out that this jet finding criterion is similar to
+conventional cone algorithms although the expression 2.11 is a
+¤ ¥ N
+Q = jets
+E , q . 2.3
+j £ j shape observable that generalizes the thrust to any number of
+j=1
+thrust (semi-) axes (see [5] for a detailed discussion).
+In the conventional algorithms, particles and jets are linked Correspondingly, the parameter R is similar to the cone radius
+by indicating which particle belongs to which jet. The scheme of the conventional cone algorithm (the standard value 0.7
+of [5] allows more flexibility: one introduces the so-called often adopted in the conventional algorithms roughly corres-
+recombination matrix z which describes the fraction of a -th ponds to R = 1 in our case). However, jet shapes in our case
+aj
+are determined dynamically taking into account the global
+particle which went into formation of the j -th jet. z can be
+aj shape of energy flow of the event.
+any real number 0 z 1 such that
+aj The physical meaning of R is the maximal jet radius as
+measured by infinitesimally soft particles (i.e. such a particle is
+N jets z 1 for any a
+. 2.4 relegated to soft energy if it is farther than R from any jet's
+j aj
+=1
+axis).
+The inequality corresponds to the fact that part of the particle's The parameter
+energy is allowed to not participate in jet formation. So it is cut is analogous to the jet resolution
+parameter of conventional recombination algorithms -- and,
+convenient to introduce the quantity simultaneously, to the so-called f-cuts in conventional
+algorithms [8] because Eq. 2.12 imposes an upper bound on
+z =
+def 1- z for an a
+y
+a . 2.5
+j aj soft energy.
+
+See [5] for a detailed discussion of all this.
+Note that the conventional scheme corresponds to restricting
+z to the value 1 if the a -th particle belongs to the j -th jet,
+aj
+
+and to 0 in the opposite case.
+
+The recombination matrix z is the fundamental unknown
+aj
+
+in our scheme. In particular, the quantities interpreted as jets'
+physical momenta p are expressed as follows:
+j
+
+
+p = z p .
+j a aj a 2.6
+
+
+D.Yu.Grigoriev and F.V.Tkachov,  [corrected 2001-08-15] Implementation of optimal jet definition 3
+
+
+
+
+
+The algorithm 3 direction, and this involves an arbitrariness. For example, one
+could use euclidean distance and then the direction of fastest
+It is convenient to treat the "soft energy" formally as a increase corresponds to a uniquely defined point of the unit
+special 0-th jet and denote z = z sphere -- but the choice of the euclidean metrics itself is not
+0 . Then
+j a
+unique (cf. the figure). In general, any vector satisfying
+N jets z 1 for any a
+= . 3.1 ( f d ) > 0 can be made the direction of fastest increase for
+j aj
+=0
+some euclidean metrics. The only general heuristic is to choose
+The N -dimensional region described by the restriction 3.1 is d in some simple way which is natural in the context of a
+jets
+the standard N -dimensional simplex. Thus the configuration specific problem. If the only information available is Eq. 3.5
+jets
+z a j one has to find is a point in a N × N -dimensional then the usual choice is
+jets part
+
+region which is a direct product of N N -dimensional d = f . 3.7
+part jets
+standard simplices.
+We adopt this choice for internal points of D , whereas the
+The algorithm we found to work well is a hybrid of the mentioned arbitrariness is made use of in determining d in the
+gradient method and a coordinate-by-coordinate optimization case when z is on the boundary of D .
+as well as a heuristic based on the experimental finding
+(a posteriori supported by some theoretical arguments) that the Next suppose z is a point of the boundary of D for which
+minimum tends to be located on configurations with the matrix ¡ ¡
+z = 0, j B ; z > 0 j B ; z < 1 , 3.8
+elements z j j j j
+a j taking the values of either zero or one, which
+corresponds to vertices of the simplices 3.1. The algorithm ¡
+where B is a subset of { ,
+1 n . Then d must obey the
+, }
+consists in iteratively performing minimization with respect to following restrictions:
+z a j within the simplex 3.1 for each particle a .
+¡
+
+
+
+
+
+d 0, j B
+j . 3.9
+Gradient minimization within the standard simplex 3.2
+A simple choice for such d is this:
+For simplicity denote n = N
+jets and let z z . The
+j aj ¡
+¢¤£ ¥§¦©¨§ § ¨©§¨ ¨¤
+j B d := ( ,
+0 f ) d := f
+j j j j . 3.10
+corresponding n -dimensional vector is denoted as z. It is
+convenient to work in terms of finding a maximum rather than Consider the case when z sits on the front face of the
+minimum. So we are going to find a maximum of the function simplex 3.3, i.e.
+F ( z) - ( z) for z within a domain D described by simple
+R z > 0, z = 1
+j j j . 3.11
+linear inequalities ("the standard n -dimensional simplex"):
+Then instead of 3.9 one has
+z 0, z
+1
+j . 3.3
+j j
+d
+0. 3.12
+Sums over j such as in 3.3 run over j j
+j = 1, unless
+, n
+explicitly restricted. Choose 1 J n and change coordinates by replacing dJ
+The simplest algorithm of maximum search is to start from with the new independent coordinate d0 :
+a candidate point z and to find the next candidate point in the d = - d , d
+= - d
+- d . 3.13
+form 0 j j J j J j 0
+
+z z + d 3.4 Note the useful symmetry between all the components
+d , j = ,
+0 which is best seen from the relation
+, n
+where > 0 is a number and d describes a direction in which j
+F increases. We are not interested here in (see however n d
+= 0 . 3.14
+j j
+=0
+Sec. 4) and focus on finding d up to an overall scalar factor
+from the local properties of F (its first derivatives at z) taking In terms of 3.13, the restriction 3.12 takes the standard form
+into account that z +d must remain within the boundaries of d
+0 0 . Re-express ( f d ) in terms of the new independent
+
+! "
+
+
+
+
+
+the domain D . coordinates d d :
+j ,
+J 0
+First suppose z is an internal point of D . The function is = f d = f d f d
+j j j +
+locally represented as ( f d ) j J j j 0 0 , 3.15
+
+F(z + d
+) = F(z) + ( f d ) + O(d2) 3.5 where
+
+where f = F
+(z) / z
+and f f f , f f . 3.16
+j j j = - 0 = -
+J j J J
+
+
+! "
+
+
+
+
+
+( f d ) = f d . 3.6 In terms of the coordinates d d , a valid direction of
+j ,
+J 0
+j j j
+increase for ( f d ) is given by the following analog of 3.10:
+A natural desire is to find the
+direction d in which the linear #¤$ %¤&'¤( )01
+j = 0 d d := (0, f )
+j 0 0
+function ( f d ) increases fastest. f
+( f d ) = const '2©34#$ %¤&'¤( '¤(5
+However, in order to quantify such j J d := f .
+j j 3.17
+a desire, one has to define the d 2 = 1
+notion of distance along each Lastly, d is found from 3.13.
+J
+
+
+D.Yu.Grigoriev and F.V.Tkachov,  [corrected 2001-08-15] Implementation of optimal jet definition 4
+
+
+
+
+
+We can now consider the points of the boundary of D which Implementation 4
+satisfy the most general set of restrictions:
+We limit our discussion here to language-independent
+
+z = 0, j B ; z > 0, j B ; z < 1
+j j j j . 3.18 aspects. Specific interfaces and code examples are provided
+This can be represented in a symmetric fashion by introducing separately [6]. We only note that the design of algorithm
+(which required experimentation with data structures and
+z = - z
+
+0 1 . 3.19
+j j interactive experimentation with the control parameters of the
+algorithm) was performed using the freely available RAD tool
+¡
+
+
+
+
+
+Then let B = B { }
+0 { ,
+0 , } , and Eq. 3.18 becomes
+¢ n BlackBox Component Builder [7] based on an extremely
+simple, type-safe, object-oriented and efficient compiled
+z = 0, j B; z > 0, j B .
+j j 3.20 language Component Pascal (of the distinguished
+Note that B { ,
+0 (no point on the boundary of the Pascal/Modula-2/Oberon-2 pedigree [9]). The final algorithm
+£ , n}
+simplex can belong to all its faces simultaneously). Therefore, turned out to be simple enough to allow a port to Fortran with
+one can always choose J B and consider d , j J as some improvements resulting from experimentation with
+j realistic test samples of events. It should be emphasized that
+independent variables (here j can take the value 0). Then from the design of the algorithm would have been much harder
+3.15 one deduces the following prescription for choosing d: without all the safety features and the stunning combination of
+power and simplicity of Component Pascal, and without the
+¤¦¥ §©¨©
+j B d := ( ,
+0 f )
+j j simplicity, high interactivity and GUI features of the BBCB.
+
+! "¤"¥ §©¨© ¦$#&%
+j J d := f Concerning our test samples of events, we used the total of
+j j 3.21
+500 events generated using Jetset [10] for typical processes
+Lastly, d is found from 3.13.
+J studied at CERN and FNAL. It was not our aim to arrive at any
+physical conclusions, and in fact the specific nature of events
+The above choices of d are not unique as seen from the played practically no role because our algorithm is fairly
+arbitrariness in the choice of J . generic, and its overall behavior is essentially insensitive to
+Formulas for derivatives 3.22 details of structure of events. The tests were performed only for
+numerical debugging, not any studies of physics. A final
+Here are the relevant formulas for derivatives of with adjustment of some numerical parameters was made possible
+respect to z a j: by a large-scale test run on a realistic event sample performed
+by Pablo Achard [11].
+' '
+({ }
+z ) = 2 p q + 2 p q
+j j j j
+z
+z
+z
+No comparison with conventional algorithms has been
+aj aj aj attempted yet (the situation has changed by 2001 -- FT).
+' '
+= 2 p q + 2 p q . The minimization scheme described above is easily and
+a j j j 3.23
+z
+
+aj straightforwardly implemented using only static data structures
+(easily mapped to Fortran arrays), among which the central are
+Only one term in the sum over j survives because the terms the 2-dimensional array z and the 1-dimensional array
+which correspond to j' j depend only on z aj
+a j ' .
+corresponding to the direction d. The total data size is
+To evaluate the second term one has to use specific determined by the size of z
+expressions for each of the two standard kinematics. For a j . The number of particles cannot
+exceed a few thousands, and the number of jets, a dozen or so.
+spherical kinematics we obtain So the size of z × ×
+a j is O(100 )
+0 O( )
+10 (8 Byte )
+s ~ O(100K) .
+(
+p q = - p ^
+q
+j j j j
+If each subarray z
+z z a j for fixed a is contained in a contiguous
+aj aj memory block then the internal loop (which corresponds to
+-1
+= - p p p - p q q p 3.24 minimization with respect to one particle's parameters) always
+j (
+j a ) ( ^
+j j )( ^ j a ) 0 .
+deals with O (1K ) of contiguous data, which ensures a very
+For cylindrical kinematics we obtain: good localization of the algorithm and therefore a fast
+performance.
+' ' '
+0 0 z z '
+p q = p q - p q
+- p q
+j j j j j j j j
+z
+z
+z
+z
+Concerning the ambiguity in the choice of d according to
+aj aj aj aj the formulas given in Sec. 3.2, we found it advantageous to
+
+
+j 0
+= perform maximization of the length of d (measured according
+p sinh z
+- p cosh ,
+j j j j 3.25
+z
+aj to the simple norm d = max d which is natural in
+j = ,
+0 ) n j
+
+where the context of simplicial geometry) with respect to J (which is
+
+a free parameter in the above formulas). Such an optimization
+j 1
+= E- E -
+involves a small amount of well-localized data and code
+j a ( a j ) .
+z
+3.26
+aj involving only very simple operations, resulting in a fast
+execution, whereas the resulting overall speedup proved to be
+The resulting formulas are sufficiently simple not to present significant.
+calculational difficulties in either case.
+The choice of step length (cf. 3.4) is determined by the
+experimental finding that the minimum tends to be located at
+the boundary of the simplex. So we find from the require-
+ment that the new candidate minimum z + d for given z and
+
+
+D.Yu.Grigoriev and F.V.Tkachov,  [corrected 2001-08-15] Implementation of optimal jet definition 5
+
+
+
+
+
+d should be located at the boundary of the simplex, and if this several local minima may occur) but we felt that in view of a
+results in an increase in the value of , then is iteratively good speed of the minimum search the additional complexity is
+divided by a constant factor ~3 until a minimum is found. not warranted at this stage. So we limited the design to a
+An important technical implementation detail (the so-called generic algorithm while providing the modularity to allow one
+"snapping") concerns how one deals with the boundaries of the to build such improved algorithms in case of real need.
+simplex: if some z a j is small enough (i.e. z is close enough to a To summarize, the described implementation proves practi-
+boundary of the simplex) then it is set to zero ("snapped" to cal feasibility of the jet definition of [5], and the developed
+the boundary). A similar snapping is used for the direction d. software allows easy modifications to accommodate further
+Such snappings are necessary because one needs to detect the data processing options described in [5]. Such options, while
+situations when z is at the boundary and the direction runs potentially important in specific applications from physical
+parallel to the boundary. viewpoint, are not expected to require major changes of the
+There are no difficulties with the termination condition: described minimization algorithm.
+since the resulting minimum is located at the boundary of the A c k n o wl ed g m en t s . We are indebted to A.K.Skasyrskaya
+region (we have not seen exceptions so far, and some analytical for generating test samples of events using Jetset and Pythia
+arguments seem to indicate that such exceptions can never [10]. We thank P. Achard [11] for running useful large-scale
+occur), the minimum tends to "snap" to the boundary quite tests and pointing out a misprint in this text. This work was
+fast. Also, most particles find their jet pretty fast, and later supported in part by the Russian Foundation for Basic
+iterations involve decreasingly smaller numbers of particles. Research under grant 99-02-18365. FT thanks Oberon
+The fact that the trajectory of the search tends to travel microsystems, Inc. [7] for providing their fabulous BlackBox
+along the boundary of the region makes the algorithm similar Component Builder without which the finding of the described
+to the well-known simplex algorithm of combinatorial algorithm would have not been feasible.
+optimization but in our case the algorithm is sped up by
+reliance on explicit analytical formulas to determine the References
+direction of the next candidate minimum.
+Typically, the algorithm arrives at a (local) minimum from a [1] R. Barlow, Rep. Prog. Phys. 56 (1993) 1067.
+randomly generated starting point in O(10 )
+0 iterations, in a [2] F.V. Tkachov, Phys. Rev. Lett. 73 (1994) 2405; Errata ibid.
+fraction of a second on a Pentium II. 74 (1995) 2618. .
+In general, for a given event the criterion may have more [3] F.V. Tkachov, Int. J. Mod. Phys. A12 (1997) 5411 [hep-
+than one local minimum. This is discussed in detail in [5]. .
+To find the global minimum it proved sufficient to repeat the [4] N.A. Sveshnikov and F.V. Tkachov, Phys. Lett. B382
+search a few times starting from new randomly generated con- (1996) 403 .
+figurations z a j. "A few times" depends on the character of [5] F.V. Tkachov, "A theory of jet definition" 
+one's events: 2 (or even 1) may be enough for most situations revised January 2000; see also [6]].
+with hard jets, and 10 seemed to be sufficient for events corres- [6] http://www.inr.ac.ru/~ftkachov/projects/jets/
+ponding to the LEP2 process e+e- W+W- 4 jets. The [7] Oberon microsystems, Inc., http://www.oberon.ch.
+number of repeated searches anticorrelates with the fraction of
+events for which the algorithm fails to correctly identify global [8] R.Hirosky, talk at the Run II QCD Workshop, FNAL, 4
+minimum. This number is therefore tied to the overall preci- March 1999 (http://www-
+sion of the physical problem. The implementation also d0.fnal.gov/~hirosky/talks/qcd_workshop_jets.pdf).
+provides for an explicit specification of the initial configuration [9] H. Mössenböck, N. Wirth, Oberon-2 report, Institut für
+to allow e.g. output from a conventional algorithm to be used Computersysteme, ETH Zürich, October 1993.
+for that purpose. [10] T. Sjöstrand, Comp. Phys. Comm. 28 (1983) 229.
+
+Further optimizations are possible by way of adding more [11] Pablo.Achard@cern.ch.
+intellect/memory to the algorithm (e.g. giving priority in
+minimization to some particles, or using special heuristics to
+reduce the number of repeated searches in situations where
+
+
+

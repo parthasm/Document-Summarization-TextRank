@@ -1,0 +1,1136 @@
+
+
+ 23 Feb 1996
+
+PSI-PR-96-08 Electromagnetic form factors of nucleons
+
+in a relativistic three-quark model
+
+M.A. Ivanov\Lambda , M.P. Locher, V.E. Lyubovitskijy
+
+Paul Scherrer Institute
+
+CH-5232 Villigen PSI
+
+February 22, 1996
+
+Abstract We report the calculation of electromagnetic form factors of nucleons within a relativistic three-quark model with Gaussian shape for the nucleon-quark vertex. The allowed region for two adjustable parameters, the range parameter \Lambda N in the Gaussian and the constituent quark mass mq, is obtained from fitting the data for magnetic moments and electromagnetic radii of nucleons. The shapes of electric and magnetic nucleon form factors calculated in this approach with the central parameters mq=420 MeV and \Lambda N =1.25 GeV are close to the data for momentum transfers 0 ^ Q2 ^ 1 GeV2.
+
+PACS: 12.35.Ht, 13.60.Fz \Lambda Permanent address: Bogoliubov Laboratory of Theoretical Physics, Joint Institute for Nuclear Research, 141980 Dubna (Moscow region), Russia
+
+yOn leave of absence from: Bogoliubov Laboratory of Theoretical Physics, Joint Institute for Nuclear Research,
+
+141980 Dubna (Moscow region), Russia. Permanent address: Department of Physics, Tomsk State University, 634050 Tomsk, Russia
+
+0
+
+1 Introduction Electromagnetic properties of nucleons are an important source of information on the internal structure of baryons. The success of the nonrelativistic quark model for the description of static characteristics (masses, magnetic moments, etc.) and the results from deeply inelastic lepton scattering are a clear indication for the three-quark structure of nucleons.
+
+In view of the difficulties of describing the nucleon as a relativistic three quark system rigorously, on the basis of QCD, many methods and models have been developed which implement important aspects of QCD at least partially. We mention a few. Some approaches [1],[2] are formulated using classical hadronic degrees of freedom (color singlets) without explicit reference to quarks and gluons. This holds in particular for chiral perturbation theory which addresses low energy scattering of hadrons [3]. In the Skyrmion model the baryon is considered to be a solitonic excitation of classical meson fields which are described by an effective chiral Lagrangian, see [4], e.g. The electromagnetic radii and magnetic moments of nucleons as well as the behavior of electromagnetic form factors up to 1 GeV2 are described in this way.
+
+In the context of quark models the nonrelativistic approximation is problematic even for the constituent-quark picture at low energies since the effective masses and the intrinsic momenta have the same order of magnitude. An attempt to implement relativistic invariance for the description of the electromagnetic properties of the nucleon is the covariant constituent quark model by Chung and Coester [5] which uses light front dynamics for the constituent quarks. In this framework the available data for 0 ^ Q2 ^ 6 GeV2 has been well described with two adjustable parameters (constituent quark mass and confinement scale).
+
+For large momentum transfers, Q2 ?? m2N , perturbative QCD predicts that the magnetic formfactor behaves as GM , 1=Q4 [6]. The use of QCD sum rules allows to extrapolate the electromagnetic form factors to low and moderate Q2 by incorporating local quark-hadron duality [7]. Recall that the calculation of hadronic form factors by sum rules in their original version [8] is restricted to intermediate momentum transfers and does not work in the infrared region due to power corrections 1=Q2n. Therefore, in order to calculate magnetic moments of nucleons QCD sum rules in the external field approach have been introduced [9]. For a general method of calculating the nucleon magnetic form factors at small Q2 see [10].
+
+For applications at high energies the diquark model [11] has been proposed. In this model the proton is built from quarks and diquarks and the diquark is treated as a quasi-elementary
+
+1
+
+particle. Fits to the data for Q2 ? 3 GeV2 [12] with few parameters have been obtained.
+
+A different line of attack uses both quark and hadronic degrees of freedom. Chiral potential models (see, for example, [13] and references therein) fall into this class. They use an effective confining potential for the quarks and a quark pion interaction which preserves chiral symmetry. Incorporating the lowest-order pionic correction, the magnetic moments of the nucleon octet have been calculated [13]. Alternative approaches [14]-[17] start from effective Lagrangians which describe the transition of hadrons to their constituent quarks, combined with some assumptions on the behavior of quarks at low energies and on the shape of the hadron-quark form factor. This approach is connected fairly directly to the difficult issues of hadronization and quark confinement in QCD.
+
+In the present paper we extend the line of thought developed in [18] and [19] which use local hadron-quark or local hadron-quark-diquark vertices together with a confined quark propagator (no poles). It has been shown for these models that the electromagnetic form factors of nucleons tend to be somewhat above the data for Q2 ! 1 GeV2. This might be a hint that the assumption of a local coupling of baryons with their constituents is not quite adequate. Introducing a nonlocal hadron-quark vertex may be a good way of effectively introducing other degreees of freedom (mesonic cloud, soft gluons, etc.). The Nambu-Jona-Lasinio models, NJL, with separable interactions are candidates for this purpose. Many successful applications of such models for low-energy pion physics exist (see, e.g., [14, 15] and references therein).
+
+In [20, 21] the Lagrangian formulation of the NJL model with separable interaction has been given both for mesons and (for the first time) for baryons. The gauging of nonlocal interactions has been done by using the time-ordering P-exponent. The pion weak decay constant, the twophoton decay width, as well as the form factor of the fl\Lambda ss0 ! fl transition, the pion charge form factor, and the strong ssN N form factor have been calculated and good agreement with the data has been achieved with three parameters, the range parameters characterizing the size of mesons \Lambda M and baryons \Lambda B, and the constituent quark mass mq. In this paper we shall use the approach developed in [20, 21] in order to calculate the electromagnetic form factors of nucleons. First, we slightly modify the gauging of the nonlocal quark-hadron vertex by using a path-independent definition for the derivative of the time-ordering P-exponent [22, 23]. Second, we derive Feynman rules for the diagrams which describe the electromagnetic nucleon form factors. For simplicity, we use a Gaussian shape for the nucleon-quark vertex. The permissible range for the two adjustable
+
+2
+
+parameters, the Gaussian range \Lambda of the separable interaction and the constituent quark mass mq, is obtained by fitting the experimental values of the magnetic moments and the electromagnetic radii. The momentum dependence of the electromagnetic form factors is then calculated and their shape is found to be close to the data, for the parameters obtained from fitting the static properties.
+
+2 Model We start with a brief review of our approach. We consider the hadron as being a bound state of relativistic constituent quarks with masses mq [20, 21]. The transition of hadrons into constituent quarks and vice versa is described by the corresponding interaction Lagrangian, and the momentum distribution of the constituents by an effective relativistic vertex function. Its shape is chosen to guarantee ultraviolet convergence. At the same time the vertex function is a phenomenological description of the long distance QCD interactions between quarks and gluons.
+
+The interaction Lagrangian of nucleons with quarks is written as
+
+LintN (x) = _N (x) Z dy1 Z dy2 Z dy3 ffi `x \Gamma y1 + y2 + y33 ' F 0@ 118 X
+
+i!j (
+
+yi \Gamma yj)21A
+
+\Theta ngVN J VN (y1; y2; y3) + gTN J TN (y1; y2; y3)o + h:c: = _N (x) Z d,1 Z d,2F (,21 + ,22) \Theta ngVN J VN (x \Gamma 2,1; x + ,1 \Gamma p3,2; x + ,1 + p3,2) + gTN J TN (x \Gamma 2,1; x + ,1 \Gamma p3,2; x + ,1 + p3,2)o + h:c: (1)
+
+with J VN and J TN being the vector and tensor currents, respectively. The currents are symmetric under permutation of any two quarks
+
+J VN (y1; y2; y3) = ~o/ fl_fl5qa1(y1)qa2(y2)o/2~o/ Cfl_qa3(y3)"a1a2a3; (2)
+
+J TN (y1; y2; y3) = ~o/ oe_* fl5qa1(y1)qa2(y2)o/2~o/ Coe_*qa3(y3)"a1a2a3 (3) The notation is as follows: fag stands for the color indices, oe_* = i2[fl_; fl* ], and C = fl0fl2 is the charge conjugation matrix, respectively.
+
+The notation for the spin-flavour structure of the nucleon currents is the same as in [9, 24]. In particular, the proton quark currents in terms of isotopic u and d fields have the form
+
+3
+
+J Vp = fl_fl5daubCfl_uc"abc; (4)
+
+J Tp = oe_*fl5daubCoe_*uc"abc: (5) Both forms have been used separately in [18, 19] for studying the electromagnetic and strong properties of baryons. It was shown that the tensor current (5) is more suitable for the description of the data. For this reason we will use the tensor current (5) in the approach developed in this paper.
+
+The vertex form factor F (,21 + ,22) characterizes the distribution of u and d quarks inside the nucleon. The choice of variables in the vertex function F (,21 + ,22) implies the use of the center of mass frame in which the coordinates of quarks are expressed as
+
+y1 = x \Gamma 2,1 y2 = x + ,1 \Gamma p3,2 y3 = x + ,1 + p3,2;
+
+,1 = y2 + y3 \Gamma 2y16 ,2 = y3 \Gamma y22p3 (6) with ,1 and ,2 being the Jacobi coordinates of the quarks.
+
+The Fourier-transform of the vertex form factor is defined as
+
+F (,21 + ,22) = Z d
+
+4k1
+
+(2ss)4 Z
+
+d4k2 (2ss)4 exp(\Gamma ik1,1 \Gamma ik2,2)F (k
+
+21 + k22):
+
+To introduce the electromagnetic field into the nonlocal nucleon-quark Lagrangian (1), we will use the time-ordering P-exponential [20, 21]. The interaction of quarks with the electromagnetic field is introduced by the standard minimal substitution.
+
+Thus, we have the gauge invariant interaction Lagrangian
+
+Lint;GIN (x) = gN _N (x) Z dy1 Z dy2 Z dy3ffi `x \Gamma y1 + y2 + y33 ' F 0@ 118 X
+
+i!j (y
+
+i \Gamma yj)21A
+
+\Theta \Gamma 1 ~o/ exp`ieQ
+
+y1Z
+
+x
+
+dz_A_'qa1(y1) exp`ieQ
+
+y2Z
+
+x
+
+dz_A_'qa2(y2) (7)
+
+\Theta C\Gamma 2 o/2~o/ exp`ieQ
+
+y3Z
+
+x
+
+dz_A_'qa
+
+3(y3)"a1a2a3 + h:c:
+
+where \Gamma 1 and \Gamma 2 are spin matrices, and Q=diag(2/3,-1/3,-1/3) is the charge matrix of quarks.
+
+4
+
+This interaction Lagrangian generates nonlocal vertices which couple nucleons, photons and quarks. In general several diagrams contribute. For example, the electromagnetic form factors of nucleons are described by the standard triangle diagram (Fig.1a) and, additionally, by the bubble or contact diagrams (Fig.1b and Fig.1c).
+
+fflffi fiflu u^^
+
+^^
+
+^
+
+TT TT Tq
+
+q=p-p0 fl
+
+N Npp
+
+0\Phi \Phi HH \Phi \Phi HH
+
+,,XX
+
+,,XX
+
+\Phi \Phi HH
+
+fl_
+
+(a)
+
+fflffi fiflu u fl
+
+q=p-p0
+
+N Npp
+
+0\Phi \Phi HH \Phi \Phi HH' $
+
+,,XX,, XX
+
+,,XX
+
+(b)
+
+fflffi fiflu u
+
+fl
+
+q=p-p0
+
+N Npp
+
+0\Phi \Phi HH \Phi \Phi HH' $
+
+,,XX,, XX
+
+,,XX
+
+(c)
+
+Fig.1 Nucleon Form Factor. Triangle diagram (a), bubble diagrams (b) and (c).
+
+At this stage the physical matrix elements describing the electromagnetic processes depend on the path which connects the lower and upper limits in the integral of the P-exponential. In the papers [20, 21] we used a straight line in our calculations. Here, we shall use a path-independent formalism which is based on the path-independent definition [22] of the derivative of the line integral. This formalism has been used in [23] for gauging nonlocal Lagrangians. We recall that the derivative of the line integral
+
+I(x; y; P ) j
+
+xZ
+
+y
+
+dz_A_(z);
+
+where P is the path taken from y to x, may be defined as [22]
+
+lim dx_!0 dx_
+
+@ @x_ I(x; y; P ) = limdx_!0[I(x + dx; y; P
+
+0) \Gamma I(x; y; P )]: (8)
+
+Here P 0 is obtained from the path P by adding the extension dx to the x end.
+
+Using the definition Eq.(8) leads to
+
+@ @x_ I(x; y; p) = A_(x): (9)
+
+This means that the derivative of the I(x; y; p) does not depend on the path used in the definition.
+
+5
+
+The method for deriving Feynman rules in the nonlocal chiral quark model with the electromagnetic P-exponential has been developed in [23]. The crucial point is to calculate the expression
+
+F (\Gamma @2x)e\Gamma ipxI(x; y; p)
+
+using Eq.(9).
+
+It is readily seen that
+
+F (\Gamma @2x)e\Gamma ipxI(x; y; P ) = e\Gamma ipxF (\Gamma D2x)I(x; y; P ) where D2x j (@x \Gamma ip)2. Thus we need to calculate
+
+F (\Gamma D2x)I(x; y; P ) =
+
+1X
+
+n=0(\Gamma )
+
+n F (
+
+n)(0)
+
+n! D
+
+2n x I(x; y; P ):
+
+One finds that
+
+D2xI(x; y; P ) = (@xA(x)) \Gamma 2i(pA(x)) \Gamma p2I(x; y; P ) j L(A) \Gamma p2I(x; y; P ) where L(A) j (@xA(x)) \Gamma 2i(pA(x)).
+
+Then
+
+(D2x)2I(x; y; P ) = (D2x \Gamma p2)L(A) + (\Gamma p2)2I(x; y; P ) (D2x)3I(x; y; P ) = ((D2x)2 \Gamma D2xp2 + p4)L(A) + (\Gamma p2)3I(x; y; P )
+
+::: (D2x)nI(x; y; P ) =
+
+n\Gamma 1X
+
+k=0
+
+(D2x)n\Gamma 1\Gamma k(\Gamma p2)kL(A) + (\Gamma p2)nI(x; y; P )
+
+= n
+
+1Z
+
+0
+
+dt[D2xt \Gamma p2(1 \Gamma t)]n\Gamma 1L(A) + (\Gamma p2)nI(x; y; P )
+
+Finally, this leads to
+
+F (\Gamma D2x)I(x; y; P ) =
+
+1Z
+
+0
+
+dtF 0[\Gamma D2xt + p2(1 \Gamma t)]L(A) + F (p2)I(x; y; P )
+
+= Z dqA_(q)ae`q_ + 2p_'e\Gamma iqx
+
+1Z
+
+0
+
+dtF 0[(p + q)2t + p2(1 \Gamma t)] + F (p2)
+
+xZ
+
+y
+
+dz_e\Gamma iqzoe:
+
+We observe that the last term vanishes due to the delta function ffi(x \Gamma y) in the Lagrangian.
+
+6
+
+For baryons, one has to calculate
+
+F (\Gamma @21 \Gamma @22)e\Gamma ip1,1\Gamma ip2,2
+
+x+a1,1+a2,2Z
+
+y
+
+dz_A_(z):
+
+By analogy we getZ
+
+dqA_(q)e\Gamma ip
+
+1,1\Gamma ip2,2aee\Gamma iq(x+a1,1+a2,2)^(\Gamma ia1)(a1q_ + 2p_1 )F1 + (\Gamma ia2)(a2q_ + 2p_2 )F2*
+
++F (p21 + p22)
+
+x+a1,1+a2,2Z
+
+y
+
+dz_e\Gamma iqzoe:
+
+with F1 and F2 being defined as
+
+F1 =
+
+1Z
+
+0
+
+dtF 0^(p2 + a2q)2 + t(p1 + a1q)2 + (1 \Gamma t)p21*
+
+F2 =
+
+1Z
+
+0
+
+dtF 0^p21 + t(p2 + a2q)2 + (1 \Gamma t)p22*: (10)
+
+With this preparation the Feynman rules for the flN N vertex function may be derived. The details are given in Appendix A for the evaluation of the vertex in Fig.2 which connects a nucleon, a photon and three quarks, while appendix B gives the connection to the nucleon mass operator of Fig.3.
+
+vN p
+
+k q
+
+1
+
+q2
+
+q3
+
+fl \Phi \Phi HH ""
+
+""
+
+bb
+
+bb
+
+\Lambda \Lambda
+
+CC \Phi \Phi HH '` ijv vN Npp\Phi \Phi HH \Phi \Phi HH' $
+
+,,XX ,,XX
+
+,,XX
+
+Fig.2. Nucleon photon three quark vertex. Fig.3. Nucleon mass operator. Now we turn to a discussion of the model aspects of our approach and the parameters involved. First, there is the vertex function in the Lagrangian (1). This is a free function except that it should make the Feynman diagrams ultraviolet finite, as we have mentioned before. In the papers
+
+7
+
+[20, 21] we have found that the basic physical observables of pion low-energy physics depend only weakly on the choice of the vertex functions considered. Therefore, we choose in this paper a Gaussian vertex function for simplicity. In Minkowski space we write
+
+F (k21 + k22) = exp`k
+
+21 + k22
+
+\Lambda 2N '
+
+where \Lambda N is the Gaussian range parameter which is related to the size of the nucleon.
+
+The second input is the quark propagator. In the present paper we shall use the standard form, corresponding to a free fermionic field with mass mq
+
+! 0jT(q(x)_q(y))j0 ?= Z d
+
+4k
+
+(2ss)4i e
+
+\Gamma ik(x\Gamma y)Sq(k); Sq(k) = 1
+
+mq\Gamma 6 k (11)
+
+Of course, the deficiency of such a choice is lack of confinement. This could be corrected by changing the analytic properties of the propagator. We leave that to a future study. For the time being we shall avoid the appearance of unphysical imaginary parts in the Feynman diagrams by restricting the calculations to mN ! 3mq.
+
+Thus, there are two adjustable parameters in our model: the constituent quark mass mq and the range parameter \Lambda N . We shall determine them by fitting the electromagnetic properties of nucleons.
+
+3 Nucleon Mass Operator and the flN N Vertex Function Within the relativistic quark model described above we shall evaluate the magnetic moments, the charge radii and the behavior of the electric and magnetic form factors for 0 ^ Q2 ^ 1 GeV2.
+
+It is convenient to separate the contributions from the triangle diagram (Fig.1a) and the bubble diagrams (Fig.1b and 1c) as follows
+
+\Lambda _(p; p0) = q_q2 [\Sigma N (p) \Gamma \Sigma N (p0)] + \Lambda ?_;\Delta (p; p0) + \Lambda ?_;bubble(p; p0) (12) The functions \Lambda ?_;\Delta (p; p0) and \Lambda ?_;bubble(p; p0) are the modified triangle and bubble vertex functions which are orthogonal to the photon momentum q_\Lambda ?_ (p; p0) = 0. Thus the Ward-Takahashi identity following from (12) reads
+
+q_\Lambda _(p; p0) = \Sigma N (p) \Gamma \Sigma N (p0): (13)
+
+8
+
+In particular, if q = 0 and both nucleons are on the mass shell, one finds
+
+\Lambda _(p; p) = @@p
+
+_ \Sigma
+
+N (p): (14)
+
+The expressions for the orthogonal parts of the vertex functions are
+
+\Lambda ?_;\Delta (p; p0) = 216(gTN )2 Z d
+
+4k
+
+(2ss)4i Z
+
+d4k0 (2ss)4i
+
+\Theta F (12[k2 + k02 + kk0]) F (12[k2 + k02 + kk0] + 4q2 \Gamma 12kq)
+
+\Theta ^36QZ?_ (k; p; p0)\Pi P P (k; k0; p) + 36Qfl5Z?_ (k; p; p0)fl5\Pi SS (k; k0; p)
+
++ ~o/ Q~o/ oefffifl5Z?_ (k; p; p0)oeaeoefl5\Pi fffi;aeoeT T (k; k0; p)* \Lambda ?_;bubble(p; p0) = 216(gTN )2 Z d
+
+4k
+
+(2ss)4i Z
+
+d4k0 (2ss)4i F (12[k
+
+2 + kk0 + k02])k?
+
+_
+
+\Theta F (12[k
+
+2 + k02 + kk0] + 4q2 \Gamma 12kq) \Gamma F (12[k2 + k02 + kk0])
+
+q2 \Gamma 3kq
+
+\Theta ^36QSq`k + p3 '\Pi P P (k; k0; p) + 36Qfl5Sq`k + p3 'fl5\Pi SS(k; k0; p)
+
++ ~o/ Q~o/ oefffifl5Sq`k + p3 'oeaeoe\Pi fffi;aeoeT T (k; k0; p)* + (p $ p0)
+
+where Z?_ = Sq`k + p0 \Gamma 2p3 'fl?_ Sq`k + p3 ', Q =diag(2/3,-1/3), ~o/ Q~o/ =diag(0,1),
+
+fl?_ = fl_ \Gamma q_ 6 q=q2; k?_ = k_ \Gamma q_k \Delta q=q2 (fl? \Delta q = 0 and k? \Delta q = 0).
+
+\Pi P P (k; k0; p) = tr^fl5Sq`k0 + p3 'fl5Sq`k + k0 \Gamma p3 '*; \Pi SS(k; k0; p) = tr^Sq`k0 + p3 'Sq`k + k0 \Gamma p3 '*; \Pi fffi;aeoeT T (k; k0; p) = tr^oefffiSq`k0 + p3 'oeaeoeSq`k + k0 \Gamma p3 '*
+
+9
+
+The nucleon-three-quark coupling gTN is calculated from the compositeness condition (see [16]) which means that the renormalization constant of the nucleon wave function is equal to zero, ZN = 1 \Gamma \Sigma 0N (mN ) = 0, with \Sigma N being the nucleon mass operator
+
+\Sigma N (p) = 216(gTN )2 Z d
+
+4k
+
+(2ss)4i Z
+
+d4k0 (2ss)4i F
+
+2`12[k2 + k02 + kk0]' (15)
+
+\Theta ^12Sq`k + p3 '\Pi P P (k; k0; p) + 12fl5Sq`k + p3 'fl5\Pi SS (k; k0; p) + oefffifl5Sq`k + p3 'oeaeoefifl5\Pi fffi;aeoeT T (k; k0; p)* The calculation of the electromagnetic vertex functions and of the nucleon mass operators is given in Appendix B.
+
+4 Numerical Results and Discussion We start with a summary of well-known definitions for the electromagnetic properties of the nucleon. The vertex functions in terms of Dirac F (p;n)D and Pauli F (p;n)P form factors are
+
+M_ = _N i(p0)\Lambda ij_ (p; p0)N j(p); (16) \Lambda ij_ (p; p0) = fl_F ijD (q2) \Gamma i2m
+
+N oe
+
+_* q*F
+
+ij
+
+P (q2)
+
+where N (p) and N (p0) are the spinors corresponding to initial and final nucleon states with momentum p and p0, respectively, and
+
+_N = (_p _n); N = pn ! (17)
+
+FD = F
+
+p D 00 F
+
+n D ! ; F
+
+P = F
+
+p P 00 F
+
+n P !
+
+The electric and magnetic (Sachs) form factors are obtained from
+
+ffl Electric Form Factors G(p;n)E (q2) = F (p;n)P (q2) + q
+
+2
+
+4m2N F
+
+(p;n) D (q2)
+
+ffl Magnetic Form Factors G(p;n)M (q2) = F (p;n)P (q2) + F (p;n)D (q2)
+
+10
+
+At zero recoil, q2 = 0, these form factors satisfy the following normalization conditions
+
+GpE(0) = 1; GnE (0) = 0 GpM (0) = _p; GnM (0) = _n
+
+where _p and _n are the magnetic moments of the proton and the neutron, respectively.
+
+The charge radii of the nucleons are given by
+
+! r2 ?pE= 6Gp
+
+E(0)
+
+dGpE (q2)
+
+dq2 fififififiq2=0 = ^F
+
+p0 D (0) + _
+
+p \Gamma 1
+
+4m2N * (18)
+
+! r2 ?nE= 6 dG
+
+n E (q2)
+
+dq2 fififififiq2=0 = 6^F
+
+n0 D (0) + _
+
+n
+
+4m2N * (19)
+
+! r2 ?NM = 6GN
+
+M (0)
+
+dGNM (q2)
+
+dq2 fififififiq2=0 =
+
+6 _N ^F
+
+N0 D (0) + F
+
+N0 P (0)* (20)
+
+We shall work in the limit of isospin invariance where the masses of u and d quarks are equal, mu = md = mq. In a first step we set the parameters of our model mq and \Lambda N to the well measured static properties of the nucleons, to the magnetic moments and to the charge radii [25, 26]. In a second step we shall explore the constraints from the shape of the nucleon electromagnetic form factors for the range Q2 ^1 GeV2.
+
+In Table 1 the results for the static properties are given for various sets of parameters mq and \Lambda N . As was mentioned above, the constituent mass mq is chosen to be more than one-third of the nucleon mass (mq ? mN =3) to avoid an imaginary part in the Feynman diagrams. Its value is varied in the region from 315 MeV to 500 MeV. One of the important constraints is the ratio of magnetic moments of proton and neutron R = j_p=_nj which is measured with high accuracy and equal to R = 1:46. Historically, the first success in describing this value has been achieved in a naive nonrelativistic SU (6) quark model. The value RSU(6) = 1:5 [27] is already close to experiment. It is seen from Table 1 that in our approach this value varies in the range R=1.50- 1.57 when the quark mass is smaller than 400 MeV, and starts to be less than 1.5 for mq ?400 MeV. The electric neutron radius squared, ! r2 ?nE, is also sensitive to the choice of the quark mass. In this case as well the best agreement with experiment is achieved for mq ?400 MeV. As can be seen from (19) the neutron charge radius is a combination of the neutron Dirac form
+
+11
+
+Table 1. Static Nucleon Properties mq, \Lambda N _p _n j _p_n j rpE ! r2 ?nE rpM rnM
+
+in GeV (fm) (fm2) (fm) (fm)
+
+0.315, 2.40 2.78 -1.77 1.57 0.91 -0.171 0.84 0.85 0.320, 2.25 2.79 -1.79 1.56 0.88 -0.169 0.80 0.81 0.325, 2.12 2.81 -1.81 1.55 0.88 -0.166 0.79 0.80 0.330, 2.00 2.82 -1.82 1.55 0.88 -0.162 0.79 0.80 0.335, 1.90 2.82 -1.84 1.53 0.88 -0.159 0.79 0.80 0.340, 1.80 2.82 -1.85 1.52 0.89 -0.155 0.80 0.80 0.350, 1.70 2.82 -1.85 1.52 0.89 -0.152 0.80 0.80 0.360, 1.60 2.83 -1.86 1.52 0.89 -0.148 0.81 0.81 0.370, 1.50 2.82 -1.87 1.51 0.90 -0.144 0.82 0.82 0.380, 1.40 2.82 -1.87 1.51 0.91 -0.139 0.83 0.83 0.390, 1.35 2.81 -1.87 1.50 0.92 -0.137 0.84 0.84 0.400, 1.30 2.81 -1.87 1.50 0.92 -0.135 0.84 0.84 0.410, 1.30 2.79 -1.86 1.50 0.91 -0.134 0.83 0.83 0.420, 1.25 2.79 -1.86 1.50 0.92 -0.132 0.84 0.84 0.430, 1.25 2.77 -1.86 1.49 0.91 -0.132 0.83 0.83 0.440, 1.25 2.76 -1.85 1.49 0.90 -0.131 0.82 0.82 0.450, 1.25 2.76 -1.85 1.49 0.89 -0.131 0.81 0.81 0.460, 1.20 2.75 -1.85 1.49 0.90 -0.129 0.82 0.82 0.470, 1.20 2.74 -1.84 1.49 0.89 -0.129 0.82 0.81 0.480, 1.15 2.74 -1.84 1.49 0.90 -0.127 0.83 0.82 0.490, 1.15 2.73 -1.84 1.48 0.90 -0.127 0.82 0.82 0.500, 1.15 2.73 -1.84 1.48 0.89 -0.127 0.82 0.81
+
+Exp. 2.79 -1.91 1.46 0.86\Sigma 0.01 -0.119\Sigma 0.004 0.86\Sigma 0.06 0.88\Sigma 0.07
+
+12
+
+factor F n0D (0) and the ratio 3_n=2m2N . Using the experimental value for the neutron magnetic moment the last term almost reproduces the experimental value for ! r2 ?nE. This means that the contribution coming from F n0D (0) should be negligibly small (F n0D (0) ' 0:008). One can see from Table 2 that this value, disregarding its sign, is indeed small for mq ?400 MeV which confirms a consistent trend for the value of mq. Therefore we consider mq =400 MeV to be a lower bound for the constituent quark mass in our model. Our results for magnetic moments get worse for mq ? 500 MeV (see, Table 1). The value of 500 MeV may therefore be considered an approximate upper bound for mq.
+
+Table 2. Contribution of Dirac Form Factor to Nucleon Radii
+
+comp. Eqs. (19)-(21)
+
+mq, \Lambda N in GeV F p
+
+0
+
+D (0) in GeV
+
+\Gamma 2 F n0
+
+D (0) in GeV
+
+\Gamma 2
+
+0.315, 2.40 3.04 -0.229 0.320, 2.25 2.80 -0.215 0.330, 2.00 2.80 -0.176 0.340, 1.80 2.89 -0.138 0.350, 1.70 2.87 -0.125 0.360, 1.60 2.87 -0.115 0.370, 1.50 2.95 -0.085 0.380, 1.40 3.02 -0.073 0.390, 1.35 3.10 -0.055 0.400, 1.30 3.10 -0.047 0.410, 1.30 3.04 -0.045 0.420, 1.25 3.11 -0.037
+
+Exp. (in GeV\Gamma 2) 2.66 0.008
+
+The electric radius of the proton and the magnetic radii of protons and neutrons depend fairly weekly on the parameters mq and \Lambda N . The theoretical values for the neutron electric radius squared show the right trend as well, despite of the small size of this quantity. In Table 3 the best fit of the nucleon static properties for mq =420 MeV and \Lambda N =1.25 GeV is compared to other theoretical approaches such as QCD sum rules [9, 28], the nonlinear chiral model of [4], the relativistic invariant quark model in the light-front formalism of [29], the nonrelativistic quark
+
+13
+
+model of [30], the relativistic quark model with chiral symmetry of [13]), the nonrelativistic quark model with QCD vacuum induced quark interactions of [31] and the MIT bag model [32].
+
+Table 3. Static Properties Compared to Theoretical Approaches Approach _p _n rpE, fm ! r2 ?nE, fm2 rpM , fm rnM , fm
+
+Our 2.79 -1.86 0.92 -0.132 0.84 0.84 Ioffe [9] 2.96 -1.93 Balitsky [28] 2.80 -1.95
+
+Meissner [4] 2.77 -1.84 0.97 -0.25 0.94 0.94 Aznauryan [29] 2.811 -1.848 0.811 -0.094 0.825 0.781
+
+Isgur [30] 2.79 -1.86 Baric [13] 2.73 -1.975 0.85 Dorokhov [31] 2.20 -1.47 0.831 0 De Grand [32] 1.90 -1.27 0.728 0
+
+Exp. 2.79 -1.91 0.86\Sigma 0.01 -0.119\Sigma 0.004 0.86\Sigma 0.06 0.88\Sigma 0.07
+
+The shape of the electromagnetic nucleon form factors in the region 0 ^ Q2 ^ 1 GeV2 for the same optimal values of the parameters, mq=420 MeV and \Lambda N =1.25 GeV, is shown in Figs.4-7. The normalized magnetic form factors of nucleons GNM (Q2)=GNM (0) are plotted in Fig.4 and Fig.5.
+
+The short dashed line corresponds to the contribution of the triangle vertex function \Lambda ?_;\Delta (p; p0) whereas the medium-long dashed line gives the contribution of the bubble or contact term \Lambda ?_;bubble(p; p0). This contribution is roughly constant and not large. It matters however for the details of the fitting procedure. The total contribution is marked by the solid line. The long-dashed line is the dipole approximation D(Q2) = [1 + Q2=0:71GeV2]\Gamma 2. It can be taken as a representation of the data which it fits quite well. One can see that our results are close to the dipole fit and hence to the data.
+
+The electric form factors of the proton and the neutron are shown in Fig.6 and 7, respectively. The data in Fig.7 characterize the experimental situation for the neutron electric form factor. We remark that the behavior of the nucleon electromagnetic form factors is sensitive to the choice of the constituent quark mass, as we have checked. Increasing the constituent quark mass above 500 MeV and reducing the parameter \Lambda N below 1.15 GeV improves agreement with the static
+
+14
+
+Fig.4. Magnetic form factor of proton. Fig.5. Magnetic form factor of neutron.
+
+Fig.6. Electric form factor of proton. Fig.7. Electric form factor of neutron.
+
+15
+
+nucleon properties. However, the form factors at Q2=1 GeV2 are then definitely getting too low. Thus the value mq=500 MeV is an upper limit in our model also from the point of view of the form factors.
+
+5 Conclusion The electromagnetic form factors of nucleons have been calculated within a relativistic three quark model with Gaussian shape for the nucleon-quark vertex, and standard (non-confined) quark propagators. Gauge invariance of the nonlocal hadron-quark interaction has been implemented by the path-independent definition for the derivative of the time-ordering P-exponent. The allowed region for the two adjustable parameters, the range parameter \Lambda N appearing in the Gaussian and the constituent quark mass mq, has been obtained by fitting the data for the magnetic moments and the electromagnetic radii of the nucleons. The corresponding shapes of the electric and magnetic nucleon form factors for mq=420 MeV and \Lambda N =1.25 GeV are close to experiment for 0 ^ Q2 ^ 1 GeV2. A large body of data is therefore described by only two free parameters. It remains to be seen whether a further improvement is possible by introducing confined propagators into the model.
+
+6 Acknowledgements We would like to thank P. Kroll, R. Rosenfelder, J. Bolz, H. Kamada and H.-Q. Zheng for useful discussions. This work was supported in part by the INTAS Grant 94-739 and by the Russian Fund of Fundamental Research 94-02-03463-a.
+
+16
+
+7 Appendix A. Feynman Rules for Nonlocal Electromagnetic Vertices
+
+We illustrate how to obtain a nonlocal vertex which couples a nucleon, a photon and three quarks, see Fig.2. The analogous nonlocal vertices with mesons were introduced in [23]. Let p denote the momentum of the outgoing baryon, k the momentum of the outgoing photon, and q1; q2; q3 the momenta of incoming quarks, respectively. We start from the gauge invariant Lagrangian describing the interaction of nucleons with quarks, Eq.(7). The vertex function \Gamma _(q1q2q3pk) corresponding to Fig.2 is
+
+i(2ss)4ffi(4)(p \Gamma k \Gamma
+
+3X
+
+i=1 q
+
+i)\Gamma _a1a2a3(q1q2q3pk) = Z dx1::: Z dx5e
+
+i(
+
+3P
+
+i=1
+
+qixi\Gamma px4\Gamma kx5)R_
+
+a1a2a3(x1:::x5)(A.1)
+
+where the function R_a
+
+1a2a3(x1:::x5) is given by
+
+R_a
+
+1a2a3(x1:::x5) =
+
+ffi5[R dxLint;GIN (x)]
+
+ffiA_(x5)ffi _N (x4)ffiqa1(x1):::ffiqa3(x3) fififififiA_=0 (A.2)
+
+= egN "a1a2a3(\Gamma 1) \Theta (C\Gamma 2)F ^ 118
+
+3X
+
+i!j (x
+
+i \Gamma xj)2*ffi`x4 \Gamma 13
+
+3X
+
+i=1 x
+
+i'
+
+\Theta ^(~o/ Q) \Theta (o/2~o/ )
+
+x1Z
+
+x4
+
+dz_ + ~o/ \Theta (Qo/2~o/ )
+
+x2Z
+
+x4
+
+dz_ + ~o/ \Theta (o/2~o/ Q)
+
+x3Z
+
+x4
+
+dz_*ffi(x5 \Gamma z)
+
+We define a typical integral as I_typ = Z dx1::: Z dx5e
+
+i(
+
+3P
+
+i=1
+
+qixi\Gamma px4\Gamma kx5)F ^ 1
+
+18
+
+3X
+
+i!j (x
+
+i \Gamma xj)2*ffi`x4 \Gamma 13
+
+3X
+
+i=1 x
+
+i'
+
+x1Z
+
+x4
+
+dz_ffi(x5 \Gamma z)
+
+which may be written as
+
+I_typ = 6p3 Z dx Z d,1 Z d,2F (,21 + ,22) exp^ix(
+
+3X
+
+i=1
+
+qi \Gamma p)* (A.3)
+
+\Theta exp^,1(\Gamma 2q1 + q2 + q3) + i,2p3(q3 \Gamma q2)*
+
+x\Gamma 2,1Z
+
+x
+
+dz_ exp[\Gamma ikz]
+
+17
+
+Using the identityZ
+
+d,1 Z d,2f (,1; ,2)F (,21 + ,22 ) = Z d,1 Z d,2f (,1; ,2)F (\Gamma @2,
+
+1 \Gamma @
+
+2 ,2)ffi(,1)ffi(,2)
+
+= Z d,1 Z d,2ffi(,1)ffi(,2)F (\Gamma @2,
+
+1 \Gamma @
+
+2 ,2)f (,1; ,2)
+
+one finds
+
+I_typ = 6p3 Z dx Z d,1 Z d,2 ffi(,1)ffi(,2) exp^ix(
+
+3X
+
+i=1
+
+qi \Gamma p)*F (\Gamma @2,
+
+1 \Gamma @
+
+2 ,2)
+
+\Theta aeexp[i,1(\Gamma 2q1 + q2 + q3) + i,2p3(q3 \Gamma q2)]
+
+x\Gamma 2,1Z
+
+x
+
+dz_ exp[\Gamma ikz]oe:
+
+Finally, using the transformations described in Sec. 2 we obtain
+
+I_typ = i(2ss)4ffi(4)(p \Gamma k \Gamma
+
+3X
+
+i=1
+
+qi)24p3(q2 + q3 \Gamma 2q1 + k)_M (q1; q2; q3; k) (A.4)
+
+M (q1; q2; q3; k) = F [\Delta (q1; q2; q3; k)] \Gamma F [\Delta (q1; q2; q3; 0)]\Delta (q
+
+1; q2; q3; k) \Gamma \Delta (q1; q2; q3; 0)
+
+\Delta (q1; q2; q3; k) = 4[
+
+3X
+
+i=1
+
+q2i + k2 \Gamma
+
+3X
+
+i!j
+
+qiqj + k(q2 + q3 \Gamma 2q1)]:
+
+Using the result for the typical integral (A.4) in Eq.(A.1) we can write the vertex function \Gamma _a
+
+1a2a3 (q1q2q3pk) as
+
+\Gamma _a
+
+1a2a3(q1q2q3pk) = 24p3egN "
+
+a1a2a3(\Gamma 1) \Theta (C\Gamma 2) (A.5)
+
+\Theta ^~o/ Q \Theta (o/2~o/ )(q2 + q3 \Gamma 2q1 + k)_M (q1; q2; q3; k) + ~o/ \Theta (Qo/2~o/ )(q3 + q1 \Gamma 2q2 + k)_M (q2; q3; q1; k) + ~o/ \Theta (o/2~o/ Q)(q1 + q2 \Gamma 2q3 + k)_M (q3; q1; q2; k)*
+
+18
+
+B. The nucleon mass operator and the flN N vertex To demonstrate the calculation of an electromagnetic vertex and nucleon mass operator we consider the two generic integrals
+
+I1(p2E; p02E; Q2) = Z d
+
+4kE
+
+ss2 Z
+
+d4k0E
+
+ss2
+
+4Y
+
+i=1
+
+1 m2q + P 2iE (B.1)
+
+\Theta F (\Gamma 12[k2E + k02E + kE k0E])F (\Gamma 12[k2E + k02E + kEk0E ] \Gamma 4Q2 + 12kE Q)
+
+I2(p2E; p02E ; Q2) = Z d
+
+4kE
+
+ss2 Z
+
+d4k0E
+
+ss2
+
+1Z
+
+0
+
+dt
+
+3Y
+
+i=1
+
+1 m2q + P 2iE F (\Gamma 12[k
+
+2 E + k
+
+02 E + kEk
+
+0 E ])
+
+\Theta F 0(\Gamma 12[k2E + k02E + kEk0E ] \Gamma t[4Q2 \Gamma 12kE Q]) with the Euclidean momenta PiE being related to nucleon momenta pE; p0E by
+
+P1E = kE + pE=3; P2E = k0E + pE =3; P3E = kE + k0E \Gamma pE =3; P4E = kE + p0E \Gamma 2pE =3; Q = pE \Gamma p0E:
+
+The first integral arises in the calculation of the triangle vertex function or the derivative of the nucleon mass operator (in this case pE = p0E ) The second integral arises in the calculation of the bubble vertex functions.
+
+Using the Feynman parametrization 1A =
+
+1R
+
+0 dff exp(\Gamma ffA) and integrating over k
+
+E and k
+
+0
+
+E one
+
+finds for on mass-shell nucleons
+
+I1(\Gamma m2N ; \Gamma m2N; Q2) =
+
+1Z
+
+0
+
+:::
+
+1Z
+
+0
+
+dff1:::dff4
+
+\Delta 21 exp^\Gamma
+
+3Q2
+
+\Delta 1 (2 + ff12)(1 + 2ff34)*
+
+\Theta exp^\Gamma 4m
+
+2 N
+
+3\Delta 1 ((1 + ff34)(ff1 \Gamma ff2)
+
+2 + (1 + ff1)(ff34 \Gamma ff2)2 + (1 + ff2)(ff34 \Gamma ff1)2)*
+
+\Theta exp^\Gamma 12`m2q \Gamma m
+
+2 N
+
+9 '
+
+4X
+
+i=1
+
+ffi*
+
+I2(\Gamma m2N ; \Gamma m2N ; Q2) = 12
+
+1Z
+
+0
+
+dt
+
+1Z
+
+0
+
+:::
+
+1Z
+
+0
+
+dff1:::dff3
+
+\Delta 22 exp^\Gamma
+
+3Q2t
+
+\Delta 2 (2 + ff12)(2 + 2ff3 \Gamma t)*
+
+19
+
+\Theta exp^\Gamma 4m
+
+2 N
+
+3\Delta 2 ((1 + ff3)(ff1 \Gamma ff2)
+
+2 + (1 + ff1)(ff3 \Gamma ff2)2 + (1 + ff2)(ff3 \Gamma ff1)2)*
+
+\Theta exp^\Gamma 12`m2q \Gamma m
+
+2 N
+
+9 '
+
+3X
+
+i=1 ff
+
+i*
+
+Introducing the notation ffij = ffi + ffj we have
+
+\Delta 1 = 3 + 2
+
+4X
+
+i=1
+
+ffi + ff12ff34 + ff1ff2; \Delta 2 = 3 + 2
+
+3X
+
+i=1
+
+ffi +
+
+3X
+
+i!j
+
+ffiffj:
+
+Making a change of variables
+
+ff1 = xs; ff2 = x(1 \Gamma s); ff3 = yt; ff4 = y(1 \Gamma t) in integral I1(\Gamma m2N ; \Gamma m2N; Q2)
+
+ff1 = xs; ff2 = x(1 \Gamma s); ff3 = y; in integral I2(\Gamma m2N ; \Gamma m2N ; Q2) one finds
+
+I1(\Gamma m2N ; \Gamma m2N ; Q2) =
+
+1Z
+
+0
+
+dx
+
+1Z
+
+0
+
+dy
+
+1Z
+
+0
+
+ds xy\Delta 2 exp^\Gamma 3Q
+
+2
+
+\Delta (2 + x)(1 + 2y)* (B.2)
+
+\Theta exp^\Gamma 4m
+
+2 N
+
+3\Delta ((1 + y)(1 \Gamma 2s)
+
+2x2 + (1 + xs)(y \Gamma x(1 \Gamma s))2 + (1 + x(1 \Gamma s))(y \Gamma xs)2)*
+
+\Theta exp^\Gamma 12(x + y)`m2q \Gamma m
+
+2 N
+
+9 '*
+
+I2(\Gamma m2N ; \Gamma m2N ; Q2) = 12
+
+1Z
+
+0
+
+dx
+
+1Z
+
+0
+
+dy
+
+1Z
+
+0
+
+ds
+
+1Z
+
+0
+
+dt x\Delta 2 exp^\Gamma 3Q
+
+2t
+
+\Delta (2 + x)(2 + 2y \Gamma t)* (B.3)
+
+\Theta exp^\Gamma 4m
+
+2 N
+
+3\Delta ((1 + y)(1 \Gamma 2s)
+
+2x2 + (1 + xs)(y \Gamma x(1 \Gamma s))2 + (1 + x(1 \Gamma s))(y \Gamma xs)2)*
+
+\Theta exp^\Gamma 12(x + y)`m2q \Gamma m
+
+2 N
+
+9 '*
+
+where \Delta = 3 + 2(x + y) + x2s(1 \Gamma s) + xy.
+
+20
+
+References
+
+[1] R.T. Cahill and C.D. Roberts, Phys.Rev. D32, 2419 (1985). [2] A.A. Andrianov, V.A. Andrianov, V.Yu. Novozhilov, Yu.V. Novozhilov,
+
+Lett. Math. Phys. 11, 217 (1986); Phys. Lett. B186, 401 (1987).
+
+[3] J. Gasser and H. Leutwyler, Ann. of Phys. 158, 142 (1984). [4] U.-G. Meissner, et al., Phys. Rev. D39, 1956 (1989). [5] P.L. Chung and F. Coester, Phys. Rev. D44, 229 (1991). [6] G.P. Lepage and S.J. Brodsky, Phys. Rev. D22, 2157 (1980). [7] A.V. Radyushkin, Acta Phys. Pol. B15, 403 (1984); V.A. Nesterenko and A.V. Radyushkin,
+
+Phys. Lett. 128, 439 (1984).
+
+[8] M.A. Shifman, A.I. Vainshtein and V.I. Zakharov, Nucl. Phys. B147, 385 (1979). [9] B.L. Ioffe, A.V. Smilga, Nucl. Phys. B232, 109 (1984). [10] V.M. Belyaev and Ya.I. Kogan, Preprint ITEP-29, 1984; Int. J. Mod. Phys. A8, 153 (1993). [11] P. Kroll, M. Sch"urmann, W. Schweiger, Z. Phys. 338, 339 (1991). [12] L. Andivahis, et al., Preprint SLAC-PUB-5867, 1992. [13] N. Baric and B.K. Dash, Phys. Rev. D34, 2803 (1986); R. Tegen, R. Brockmann, W. Weise,
+
+Z. Phys. A307, 339 (1982).
+
+[14] T. Goldman and R.W. Haymaker, Phys.Rev. D24, 724 (1981). [15] H. Ito, W.W. Buck and F. Gross, Phys.Rev. C45, 1918 (1992); R.D.Bowler and M.C.Birse,
+
+Nucl. Phys. A582, 655 (1995).
+
+[16] G.V. Efimov and M.A. Ivanov, The Quark Confinement Model of Hadrons, IOP Publishing,
+
+Bristol & Philadelphia, 1993.
+
+[17] G.V. Efimov and S.N. Nedelko, Phys.Rev. D51, 176 (1995). [18] G.V. Efimov, M.A. Ivanov and V.E. Lyubovitskij, Few-Body Systems 6, 17 (1989). [19] G.V. Efimov, M.A. Ivanov and V.E. Lyubovitskij, Z.Phys. C47, 583 (1990). [20] I.V. Anikin et al., Physics of Atomic Nuclei 57, 1082 (1994).
+
+21
+
+[21] I.V. Anikin et al., Z. Phys. C65, 681 (1995). [22] S. Mandelstam, Ann. Phys. 19, 1 (1962). [23] J. Terning, Phys. Rev. D44, 887 (1991). [24] Y. Chung, Nucl. Phys. B197, 55 (1982). [25] Review of Particle Properties, Phys.Rev. D50, 1173 (1994). [26] O. Dumbrajs et al., Nucl. Phys. B216, 216 (1983). [27] O.W. Greenberg, Ann. Rev. Nuc. Part. Sci. 28, 327 (1978). [28] I.I. Balitsky, A.V. Yung, Phys. Lett. B129, 328 (1983). [29] I.G.Aznauryan, A.S.Bagdasryan and N.L.Ter-Isaakyan, Phys.Lett. B112, 393 (1982). [30] N. Isgur and G. Karl, Phys. Rev. D18, 4187 (1978); D19, 2653 (1979); D20, 1191 (1979);
+
+C. Hayne and N. Isgur, ibid. D25, 1944 (1982); S. Capstick and N. Isgur, ibid. D34, 2809 (1986).
+
+[31] A.E. Dorokhov, N.I. Kochelev and Yu.A. Zubov, Sov. J. Nucl. Phys. D23, 522 (1992). [32] T. de Grand, R.L. Jaffe, K. Johnson and J. Kiskis, Phys. Rev. D12, 2060 (1975).
+
+22
+

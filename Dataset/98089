@@ -1,0 +1,321 @@
+
+
+ 12 Oct 1994
+
+Cavendish-HEP-94/15
+
+September 1994
+
+QCD and Jet Physics\Lambda
+
+B.R. Webber Cavendish Laboratory, University of Cambridge
+
+Madingley Road, Cambridge CB3 0HE, U.K.
+
+Abstract The current status of the QCD coupling constant ffS and experimental and theoretical studies of hadronic jets are reviewed.
+
+1. Introduction The dynamics of strong interactions at high momentum scales, corresponding to short distances, remains a highly active field of investigation. This is the domain in which perturbative quantum chromodynamics is expected to give its most reliable predictions. At the same time, non-perturbative phenomena can never be entirely forgotten; after all, we observe jets of hadrons in our detectors instead of the quarks and gluons (partons) with which perturbative QCD is concerned.
+
+The connection between jets and partons has been clarified considerably over recent years: this will be one of the the main topics of the present review. There has been remarkable progress on the experimental side, due to several factors: the high statistics obtained by the LEP and Tevatron experiments; the improvements in detectors, especially in secondary vertex detection (important for heavy quark jet tagging) and particle identification; new tools for data analysis, especially new jet algorithms and improved QCD Monte Carlo programs; and of course the advent of HERA, which promises to be a powerful instrument for studies of QCD and jet physics.
+
+On the theoretical side, progress has been slower. The calculation of higher order corrections to the e+e\Gamma hadronic cross section and to the Z0 boson and o/ lepton hadronic widths [1] continues. At this meeting, quartic mass corrections up to second
+
+\Lambda Plenary talk at XXVII International Conference on High Energy Physics, Glasgow, Scotland, 20 - 27 July 1994.
+
+order were reported [2, 3] and methods for estimating uncalculated higher-order corrections were presented [4]. Calculations of loop contributions to multi-jet production amplitudes have been performed using powerful new techniques based on string theory [5] and the helicity method [6]. General programs for the computation of higher-order jet cross sections in hadron-hadron collisions have been developed and used for detailed comparisons with experiment [7]. Work on the next-to-leading corrections to the cross section for e+e\Gamma ! 4 jets is under way but not yet completed. Resummation of logarithmically enhanced terms to all orders has been carried out for e+e\Gamma jet rates [8] and for several event shape variables to next-to-leading logarithmic accuracy [9]. This has allowed ffS determinations beyond the range of applicability of fixed-order predictions [10].
+
+Much interesting work on QCD, both theoretical and experimental, has also been done recently in areas other than jet physics, notably on structure functions, heavy quark systems and lattice gauge theory. Because there were separate sessions devoted to these topics, they are dealt with here only in so far as they have been used to determine the strong coupling constant ffS. The reader is referred to the relevant plenary talks [11, 12, 13] and parallel sessions for further coverage.
+
+After a review of the status and recent measurements of ffS in sect. 2, the present report will focus in sect. 3 on the dynamics of jet fragmentation, concentrating in sect. 4 on comparative studies of jets from different sources. Other topics, discussed in sect. 5, include tests of the fundamental colour
+
+2 structure of the theory, direct photon production in hadron collisions, and the new subject of jet production in diffractive processes. Some conclusions are presented in sect. 6.
+
+2. The strong coupling constant A wide range of methods are available for measuring the strong coupling ffS, and many new measurements have been reported at this meeting or recently in other places. Before reviewing them, we should recall briefly the rather peculiar properties of this "fundamental constant".
+
+2.1. Aspects of ffS First of all, ffS is not a constant but a running quantity, whose value depends on the energy scale Q according to the equation
+
+Q @ffS@Q = \Gamma fi(ffS) = \Gamma fi02ss ff2S \Gamma fi18ss2 ff3S \Gamma \Delta \Delta \Delta (1) where fi0 = 11 \Gamma 23 Nf and fi1 = 102 \Gamma 383 Nf for Nf quark flavours. To this two-loop accuracy, the solution isy
+
+ffS(Q) = 4ssfi
+
+0L ^1 \Gamma
+
+fi1 ln L
+
+fi20L + \Delta \Delta \Delta * (2)
+
+where L = ln(Q2=\Lambda 2), \Lambda being a fundamental scale. All measurements of ffS(Q) at different values of Q should correspond to a common value of \Lambda , or equivalently to a common value at some particular scale, usually taken nowadays to be the Z0 boson mass MZ.
+
+In fact, ffS is not itself directly observable but is an auxiliary quantity in terms of which we may represent the perturbative prediction of any dimensionless quantity in the form
+
+A(Q) = A0 + A1ffS(_) + A2(Q=_)ff2S(_) + \Delta \Delta \Delta : (3) If we could compute to all orders, the dependence on the arbitrary renormalization scale _ would cancel completely between ffS and the coefficients Ai. But if we choose _ very different from the natural scale Q then large logarithms of Q=_ remain uncancelled in any finite order, making the prediction unreliable. In that sense we may say that an experiment at scale Q is really measuring ffS(Q).
+
+Another point to remember is that ffS, not being directly observable, depends in higher order not only on the scale but also on the renormalization scheme. The customary reference scheme is nowadays the modified minimal subtraction (MS) scheme [15], so
+
+that the quoted scale \Lambda is usually \Lambda (5)MS, the MS
+
+y In fact ffS is known to three-loop accuracy [14].
+
+scale with 5 active quark flavours, as appropriate at Q = MZ. Note however that this scale (whose value is about 200 MeV) is not a very physical quantity: it is the scale at which the 5-flavour formula (2) would diverge if extrapolated far outside its domain of validity. Consequently it has become more usual to interpret all measurements in terms of a corresponding value of ffS(MZ), using the threeloop version of eq.(2), with appropriate matching of different numbers of active flavours [16], to evolve from scale Q to MZ, which is what we shall do here.
+
+Finally, before discussing particular measurements of ffS, I should comment on the phenomenon of the "incredible shrinking error". Since ffS(Q) is a function of Q=\Lambda , eq. (1) tells us that the error in \Lambda is related to that in ffS at any scale by
+
+ffi\Lambda
+
+\Lambda =
+
+ffiffS fi(ffS) : (4)
+
+Since the fi-function decreases with increasing scale like ff2S, this means that the best relative precision is obtained at the lowest possible scale, where ffS is largest. In terms of ffS(MZ), we have
+
+ffiffS(MZ)
+
+ffS(MZ) ,
+
+ffS(MZ)
+
+ffS(Q)
+
+ffiffS(Q)
+
+ffS(Q) : (5)
+
+Thus the relative error in ffS is shrunk by the ratio of ffS(MZ) to ffS(Q). However, we must bear in mind that perturbative and non-perturbative corrections that may be negligible at high scales can become important at Q o/ MZ, so the net gain from measuring at a low scale is not so clear. In particular we need to look very carefully at possible sources of power-suppressed corrections (1=Qp), which form a topic I shall return to repeatedly in later sections.
+
+2.2. Status of ffS before this meeting Figure 1 shows a summary of ffS values, averaged over various classes of measurement methods, prepared earlier by S. Bethke [17]. The values of ffS are given at the typical energy scales Q at which the measurements were performed.
+
+At the lowest scale comes the measurement based on the Gross-Llewellyn Smith (GLS) sum rule for deep inelastic neutrino-nucleon scattering. The perturbative corrections to the GLS sum rule are known up to O(ff3S) (i.e. next-to-next-to-leading order, NLLO) and the power ("higher twist") corrections to deep inelastic scattering are relatively well understood, making this an attractive method for determining ffS in spite of the low scale. The same comments apply to the other low-scale measurement shown, which uses the hadronic decays of the o/ lepton. I discuss this method in detail below in connection with the new data presented at this conference.
+
+3 QCD
+
+350 MeV
+
+150 MeVi^i' 250 MeV100 MeV
+
+\Lambda MS(5) a (M )s Z
+
+0.1280.121
+
+0.1120.106
+
+0.1 0.2 0.3 0.4 0.5 as (Q)
+
+1 10 100Q [GeV]
+
+Heavy QuarkoniaHadron Collisions
+
+e+e- Annihilation Deep Inelastic Scattering
+
+NL O NNLOTheory
+
+i` Data Latt
+
+ice
+
+Figure 1. Summary of ffS measurements at various scales before this conference.
+
+Moving up to intermediate scales, around Q = 5 GeV, the measurements based on the violation of Bjorken scaling in deep inelastic leptonnucleon scattering have provided the most reliable information on ffS. Here the calculations have been performed only to next-to-leading order (NLO), but again the higher-twist power corrections appear well under control.
+
+A quite different method of measurement now coming into use involves the comparison of heavy quarkonium spectra with the non-perturbative predictions of lattice simulations of QCD. Here the relevant energy scale, set by the lattice spacing, is around 5 GeV for the current simulations. Again, this method is reviewed in more detail below in the context of new results.
+
+At 10 GeV, the results shown are deduced from comparisons between data on \Upsilon decays and perturbative predictions, some aspects of which we also discuss below.
+
+Determinations of ffS at hadron-hadron (pp and p_p) colliders, have been performed by comparing heavy quark, direct photon and W-boson plus jet cross sections with next-to-leading order predictions. Measurements based on pure jet production are not yet possible because the NLO corrections to multijet production have not been computed. So far, the precision achieved in hadron-hadron determinations has been less than that in e+e\Gamma and lepton-hadron processes, owing to the larger experimental and theoretical uncertainties associated with incoming hadrons.
+
+At high scales, in the range 30 \Gamma 100 GeV, the majority of ffS determinations have come from e+e\Gamma
+
+colliders, using either the total hadronic cross section (computed to NNLO) or NLO analyses of jet rates and event shapes. Latest results using these methods are also discussed below.
+
+The results summarized in figure 1 are consistent with a 5-flavour MS scale value of [17]
+
+\Lambda (5)MS = 195+80\Gamma 60 MeV (6) corresponding to
+
+ffS(MZ) = 0:117 \Sigma 0:006 : (7) One may, however, discern some possible systematic deviations from this value at intermediate scales in figure 1, which we shall discuss later in the light of the new data.
+
+2.3. New results on ffS While the compilation summarized above comprises essentially all the published information on ffS, many new results have been presented at this conference or elsewhere in the last few months. Although most of them are preliminary and may therefore be subject to revision before publication, they form a valuable body of information which it seems appropriate to review critically at this time, always bearing in mind its provisional nature. This I do below, roughly in order of increasing energy scale. I then present a provisional update of averages for the various measurement methods, concluding with a global "preferred value" based on all information available at present.
+
+2.3.1. Bjorken sum rule. Starting at the very lowest scales (Q2 , 2 \Gamma 3 GeV2), mention should be made of a recent theoretical study [18] in which the CERN EMC/NMC [19, 20] and SLAC E142/143 [21, 22] data on polarized lepton-nucleon scattering are used to extract a value of ffS from the higherorder corrections to the Bjorken sum rule for gp1 \Gamma gn1 . The advantage of this method is that the ffS dependence has been calculated up to O(ff3S) and there are estimates to O(ff4S). Non-perturbative corrections are expected to be O(1=Q2) and there are arguments suggesting that the coefficient is small. The result obtained without such correctionsz
+
+ffS(Q2 = 2:5 GeV2) = 0:375+0:062\Gamma 0:081)
+
+ffS(MZ) = 0:122+0:005\Gamma 0:009 (8)
+
+is certainly encouraging: one gets the full benefit of the "incredible shrinking error". What is needed to put this method on a firm footing is experimental evidence on the Q2 dependence, to show convincingly that power corrections are indeed negligible even at these very low scales.
+
+z The symbol `)' indicates a value obtained by evolving ffS from a lower scale.
+
+4 2.3.2. Hadronic o/ decay. One of the most carefully studied methods for measuring ffS is based on the hadronic decays of the o/ lepton. Here not only the total hadronic width but also spectral moments of the hadron mass distribution have been calculated to O(ff3S) [23] and measured with high precision [24].
+
+At the very low scale of these measurements, Q , mo/ , one has to be sure that not only perturbative but also non-perturbative, power-suppressed corrections are well under control. Fortunately, a great deal can be inferred about power corrections from the operator product expansion (OPE) [23]. There should be terms of the form ciD hO(D)i =mDo/ where D = 4; 6; : : :, ciD is a computable coefficient for the i-th spectral moment, and the parameters hO(D)i describe vacuum condensates of the corresponding dimension [25]. There should be no D = 2 terms apart from those induced by the (current) quark masses, which are negligible except for decays to s_u. The D = 4 terms should correspond to the gluon condensate \Omega ffSG2ff measured in other processes. All these predictions are well confirmed by the data [24, 26], and in particular there is no evidence of power corrections outside the framework of the OPE.
+
+At this meeting a new preliminary result, based on a high-statistics analysis of the total width and a range of moments, was presented by the CLEO collaboration [27]:
+
+ffS(mo/ ) = 0:309 \Sigma 0:024 (CLEO)) ffS(MZ) = 0:114 \Sigma 0:003 : (9)
+
+This new result agrees with the published ALEPH measurement [24] of ffS(mo/ ) = 0:330 \Sigma 0:046. However, at the recent QCD94 meeting in Montpellier, the ALEPH collaboration presented a preliminary update of their result [28], based on increased statistics,
+
+ffS(mo/ ) = 0:387 \Sigma 0:025 (ALEPH)) ffS(MZ) = 0:124 \Sigma 0:003 : (10)
+
+Thus there is currently some disagreement between the two experiments.
+
+Looking at the data, one finds that the normalized spectral moments are in good agreement; the discrepancy lies entirely in the normalization. This is set by the leptonic branching fraction Bl via the relation
+
+Ro/ j \Gamma (o/ ! *o/ hadrons)\Gamma (o/ ! *
+
+o/ e _*e)
+
+= 1 \Gamma Be \Gamma B_B
+
+l =
+
+1 Bl \Gamma 1 \Gamma f_ (11)
+
+where f_ = 0:9726 is a phase space correction. Bl can be measured in three independent ways: from the e and _ leptonic branching ratios, Be = Bl and B_ = f_Bl, and from the lifetime o/o/ =
+
+Blo/_(m_=mo/ )5. ALEPH find somewhat lower values for Be and B_, enhancing the hadronic rate, while their lifetime is consistent with that measured by CLEO, which is in turn consistent with the somewhat higher CLEO leptonic branching ratios.
+
+Thus the current disagreement between the new high-precision results of the two experiments does not indicate any problem with the QCD analyses but turns entirely on the measured values of the leptonic branching ratios. We can expect that this issue will be resolved soon. For the moment, however, we take the mean of the two results (9) and (10), with an appropriately rescaled error, as a preliminary new measurement of ffS(MZ) from o/ decays:
+
+) ffS(MZ) = 0:119 \Sigma 0:005 : (12)
+
+2.3.3. Lattice QCD: ffS from Q _Q spectra. The lattice formulation of QCD remains the most promising approach that is independent of perturbation theory. So far, the most reliable ffS measurements using this method have come from comparing the computed spin-averaged quarkonium spectrum with data on the c_c and b_b systems. The treatment of heavy fermions has been handled either by the conventional Wilson formulation [29] or by the more recent technique of expansion around the non-relativistic limit (NRQCD) [30]. Generally the NRQCD approach has smaller quoted errors and leads to somewhat higher values of ffS.
+
+The previous results summarized in figure 1 were obtained in the quenched approximation, that is, neglecting the contributions of light quark loops, and the errors are dominated by the uncertainty in the corrections to this approximation. The error estimates are conservative in as much as they correspond roughly to the whole of the correction applied at the lattice scale.
+
+Very recently, the first results of unquenched calculations including two flavours of dynamical quarks have been reported [31, 32]. The most precise is that using the NRQCD method and comparing with the b_b spectrum [32], which gives
+
+ffS(5 GeV) = 0:203 \Sigma 0:007 (13))
+
+ffS(MZ) = 0:115 \Sigma 0:002 : (14)
+
+Here the scale set by the lattice spacing is in fact 8:2 GeV; the scale of 5 GeV quoted above is the closest at which a value is given after extrapolation to the physical number of flavours and conversion to the MS scheme. Since results are now available for Nf = 0 and 2, the estimated error in the extrapolation is small (0:2% in ffS(MZ)). The dominant source of systematic error is now stated to be the conversion from the static-quark potential (V) renormalization scheme to MS (1:7%), which could be reduced by a third-order perturbative calculation.
+
+5 The unquenched calculation using Wilson heavy fermions compared with charmonium data [31] obtains consistent, although somewhat lower, results with larger errors.
+
+2.3.4. \Upsilon decays. A new determination of ffS from the ratio of radiative and non-radiative widths of the \Upsilon were reported by the CLEO collaboration at the QCD94 meeting [33]. The idea is to use the ratio
+
+\Gamma (\Upsilon ! fl + had.)
+
+\Gamma (\Upsilon ! hadrons) ,
+
+\Gamma (\Upsilon ! flgg)
+
+\Gamma (\Upsilon ! ggg), 4 ffem
+
+5ffS(mb) h1 \Gamma 2:6
+
+ffS
+
+ss i ; (15)
+
+for which the quarkonium wavefunction cancels and relativistic corrections are likely to be minimized. The preliminary result is
+
+ffS(M\Upsilon ) = 0:164 \Sigma 0:003 \Sigma 0:008 \Sigma 0:013)
+
+ffS(MZ) = 0:111 \Sigma 0:006 (16)
+
+where the first error is statistical, the second experimental systematic, and the third theoretical.
+
+It has only been appreciated quite recently that the process \Upsilon ! fl + hadrons has an additional leading-order QCD correction due to the fragmentation of gluons into photons [34]. This is essentially because the specification of the final state is not fully inclusive: a real photon must be present. In higher order, quark fragmentation also contributes. The relevant fragmentation functions have to be determined experimentally. They probably have only a small effect, but this has yet to be checked in detail. Meanwhile, a somewhat larger estimate of the theoretical uncertainty (say \Delta ffS(MZ) = 0:01) may be advisable.
+
+2.3.5. e+e\Gamma jet rates and event shapes. The CLEO collaboration have also reported preliminary results [35] on e+e\Gamma jet rates in the four-flavour continuum at c.m. energy ps = 10:53 GeV. In an analysis very similar to those at higher energies, they study the dependence of the two-jet rate (defined using the Durham or k? clustering algorithm [36]) on the resolution parameter ycut, to obtain
+
+ffS(10:53 GeV) = 0:164 \Sigma 0:004 \Sigma 0:014)
+
+ffS(MZ) = 0:113 \Sigma 0:007 ; (17)
+
+where the first error is experimental and the second is theoretical. The latter is assessed to be dominated by the renormalization scale dependence of the O(ff2S) prediction.
+
+At these relatively low energies there are substantial hadronization corrections to jet rates, which are estimated using the QCD Monte Carlo programs JETSET [37] and HERWIG [38]. After tuning both programs to the CLEO data at the
+
+hadron level, the difference between their predictions at the parton level is used to estimate the error due to hadronization. In this case the two programs agree well at the parton level and so the estimated hadronization error is small, \Delta ffS(MZ) = 0:003.
+
+The widely-adopted prescription of assessing hadronization errors by comparing JETSET and HERWIG could be misleading, especially when the hadronization correction itself is large. The term `parton level' in these programs means something different from that used in purely perturbative calculations, since the programs use different variables, cutoffs and approximation schemes for the parton shower phase of final-state development. Thus one is comparing inequivalent quantities. Furthermore, the fact that the programs have to be re-tuned at this energy, relative to higher energies, indicates that they do not reproduce fully the energy dependence of the corrections. This is an indication that the physics of hadronization is not handled perfectly by the programs, even if the re-tuned fits at this energy are very good.
+
+A safer way to assess the hadronization error might be to base it on an agreed fraction (say\Sigma
+
+50%) of the total hadronization correction or the discrepancy between the JETSET and HERWIG corrections, whichever is the greater. This would favour observables for which the predicted corrections are small. Of course, this suggestion applies not only to the CLEO measurement but also to those at higher energies. However the assessed error is likely to be enlarged more at lower energies, owing to the general 1=Q energy dependence of hadronization effects (see below).
+
+It should be emphasised at this point that it would be very worthwhile for CLEO to measure not only the jet rates but also, if possible, the total hadronic rate R in the four-flavour continuum. This quantity would be less subject to hadronization uncertainties, and the calculations of higher-order and quark-mass corrections [2] are now of such precision that a very good ffS determination should be possible, especially taking into account the benefit to be obtained at these energies from the `incredible shrinking error'.
+
+Moving to higher energies, new measurements based on the 2-jet rate, this time with logarithms of ycut resummed to all orders, were presented by the TPC/2fl [39] and TOPAZ [40] collaborations at 29 and 58 GeV respectively. Their results are
+
+ffS(29 GeV) = 0:160 \Sigma 0:012 ffS(58 GeV) = 0:139 \Sigma 0:008 : (18)
+
+The interesting feature of these measurements is not so much their precision as the fact that the analysis in each case follows very closely that performed earlier at ps = MZ by the ALEPH collaboration [41]. Thus
+
+6 Figure 2. Running of ffS as seen from identical analyses of e+e
+
+\Gamma jet rates at different energies.
+
+one has three essentially identical measurements at different scales, which show the running of ffS convincingly (figure 2).
+
+New studies of hadronic final states in Z0 decays reported at this meeting include an analysis of event shapes and jet rates by the SLD collaboration [42] , who find
+
+ffS(MZ) = 0:120 \Sigma 0:003 \Sigma 0:009 (19) from comparisons with resummed predictions. A novel analysis by the OPAL collaboration [43], using a cone jet algorithm in contrast to the jet clustering approach usually adopted in e+e\Gamma studies, gives
+
+ffS(MZ) = 0:119 \Sigma 0:008 (20) from the dependence of jet rates on the minimum jet energy, and
+
+ffS(MZ) = 0:116 \Sigma 0:008 (21) from the dependence on the angular size of the cone, comparing in each case with O(ff2S) predictions.
+
+A disadvantage of the cone jet algorithm is that predictions with resummation of large terms beyondO
+
+(ff2S) are not available. This is related to the fact that the treatment of multijet final states is more complicated, and more ambiguous, than for a clustering algorithm. One big advantage, however, is that results can be compared directly with those already obtained using a cone algorithm in hadronhadron collisions. This will be discussed in sect. 4.2.
+
+2.3.6. Scaling violation in e+e\Gamma ! hX. The violation of scaling in jet fragmentation seems a
+
+natural phenomenon to use for measuring ffS, since it is closely analogous to scaling violation in deep inelastic structure functions, which has been used for many years for that purpose. As we shall discuss in sect. 3.1, there are many additional complications in the fragmentation measurement, and so it is only recently that results of this approach have become available.
+
+The first analysis, by the DELPHI collaboration [44], relied heavily on the JETSET Monte Carlo to obtain a result without direct experimental input on the fragmentation of different quark flavours and gluons. The result was
+
+ffS(MZ) = 0:118 \Sigma 0:005 : (22) One could assign an additional theoretical uncertainty to this result, with a magnitude depending on the level of commitment to JETSET. In addition, the DELPHI analysis used only the O(ff2S) matrix elements instead of the full machinery of the nextto-leading evolution equations for the fragmentation functions.
+
+A new analysis of scaling violation by the ALEPH collaboration [45] avoids model dependence as far as possible and obtains the result
+
+ffS(MZ) = 0:127 \Sigma 0:011 (23) from a comparison with full next-to-leading evolution. The relatively large error reflects primarily the independence from model assumptions. This analysis and related issues will be discussed in some detail in sect. 3.
+
+2.3.7. ep! 2 + 1 jet rate. The advent of HERA raises the exciting prospect of measuring ffS in a variety of ways, over a wide range of Q2, in a single experiment. At this meeting, preliminary results were reported [46] from a study by the H1 collaboration [47] of the 2 + 1 jet rate, that is, the fraction of deep inelastic events in which one can resolve two final-state "current" jets in addition to the "beam" jet which carries the remnants of the incoming proton. The 2 + 1 jet cross section is at least first order in ffS and O(ff2S) calculations, using a modified JADE jet clustering algorithm [48], are now available [49, 50]. The results on the rate and the extracted values of ffS in the range Q2 = 10 \Gamma 4000 GeV2 are shown in figure 3.
+
+The jet rate for a given value of ffS depends on the parton distributions in the proton, and so one has to assume a set of distributions in order to deduce a value of ffS. Results for two different MRS [51] sets of parametrizations are shown. Of these, the D0 set is now definitely ruled out by the HERA low-x structure function data; the D- set is now reckoned to be a little too high at small x but not so bad. A
+
+7 Figure 3. H1 results on the 2 + 1-jet rate and ffS as functions of Q2: (a,b) using MRSD0 parton distributions to extract ffS; (c,d) using MRSD- parton distributions.
+
+fuller discussion may be found in the relevant plenary talk [11]. For the present we may take the ffS values extracted using the D- set (figure 3d) as sufficiently reliable. They show clearly the power of the HERA experiments to observe the running of ffS.
+
+One can reduce the sensitivity to the choice of parton distributions by cutting out the region of low momentum fractions of the struck parton (called xp, which is larger than the Bjorken variable x for 2 + 1 jet production). For xp ? 0:01 the difference between MRS D0 and D- is negligible. This cut eliminates the two lowest Q2 points (Q2 ! 30 GeV2) and extrapolation to Q = MZ yields the preliminary result )
+
+ffS(MZ) = 0:121 \Sigma 0:015 : (24)
+
+We may expect the result (24), and corresponding results from the ZEUS experiment, to be refined considerably as statistics accumulate. For example, one will be able to fit the joint dependence on Q2 and the jet resolution ycut, instead of fixing ycut = 0:02 as in figure 3. Figure 4 shows the ZEUS data [53] on the ycut dependence of jet rates integrated over the region 160 ! Q2 ! 1280 GeV2, 0:01 ! x ! 0:1.
+
+Figure 4. Results from ZEUS on the resolution scale dependence of ep jet rates.
+
+The curves do not represent a fit but simply correspond to the O(ff2S) predictions for ffS(MZ) = 0:124. Clearly the fitted value would not be far from this.
+
+As the HERA measurements are refined, one will need to pay close attention to the consistency between the output value of ffS and the value of \Lambda MS that is fed into the evolution of the assumed parton distributions, which is normally quite low (corresponding to ffS(MZ) ' 0:113 for MRS [51]). For strict consistency, one would need to re-evolve the distributions over the relevant region of Q2 using the corresponding value of \Lambda MS. A simpler alternative would be to rescale the values of Q at which the distributions are evaluated, changing Q to Q\Lambda 0=\Lambda when replacing \Lambda by \Lambda 0 in the parametrizations [52]. Since the QCD evolution depends only on the ratio Q=\Lambda , the scaling violation in the parton distributions would then be consistent with the new value \Lambda MS = \Lambda 0.
+
+2.3.8. Z0 hadronic width. Finally I should report the latest ffS value from the combined fits of the LEP Electroweak Working Group [54],
+
+ffS(MZ) = 0:125 \Sigma 0:005 \Sigma 0:002 : (25) This number, determined primarily by the LEP data on the hadronic width of the Z0, now represents one of the highest measured values, whilst remaining the most firmly-based from the theoretical point of view.
+
+2.4. Summary of results on ffS The new results discussed at this meeting are summarized in figure 5. It is impressive that these measurements alone cover the whole accessible energy range and show the running of ffS convincingly.
+
+8 Figure 5. Summary of preliminary ffS measurements discussed here.
+
+Combining the new (albeit preliminary) results with the earlier ones and evolving all of them to Q = MZ, we obtain figure 6. The indicated errors usually have large systematic and theoretical components, so it is difficult to quantify the level of agreement between the different methods of measurement. Naively computing chi-squared gives a good fit (O/2=d.o.f. = 11=18) with a mean of ffS(MZ) = 0:1165 \Sigma 0:0012. A more cautious approach to the error would be to assign an uncertainty equal to that of a typical measurement by a reliable method. This leads to my "global preferred value"
+
+) ffS(MZ) = 0:117 \Sigma 0:005 : (26) Notice that the mean value does not shift significantly from the current world average (7) based on published data. The slight reduction in the error reflects not so much the precision of the new measurements as my own caution in the assessment of possible systematic errors.
+
+The results in figure 6, which are presented roughly in increasing order of energy scale, tend to lie slightly below the mean value (26) at low scales (say, below Q = 30 GeV) and above it at higher scales. This tendency is not strong enough to take very seriously at present. Nevertheless it is worthwhile to consider possible causes of such an effect.
+
+One obvious possibility is that the running of ffS is not as expected.x This would be the case if new types of coloured particles were contributing to the QCD fi-function. One candidate would be a light
+
+x It is for this reason that I have tried to distinguish between evolved and direct measurements of ffS(MZ).Error: /rangecheck in --repeat--
+Operand stack:
+-1 --nostringval--
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:122/250(L)-- --dict:37/200(L)--
+Current allocation mode is local
+

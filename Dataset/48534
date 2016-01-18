@@ -1,0 +1,203 @@
+ in: QFTHEP'97 (XII Int. Workshop, Samara, Russia, 4-10 September 1997) 1
+
+
+
+
+Algebraic algorithm for next-to-leading order calculations
+in the large-s/small-x regime
+
+
+A.V. Stepanovaa and F.V. Tkachovb
+
+aPhysics Department, Moscow State University, Moscow 119899
+bInstitute for Nuclear Research of Russian Academy of Sciences, Moscow 117312
+
+
+
+An algebraic algorithm is presented for analytical calculation of arbitrary dimensionally regulated massless
+two-loop forward-scattering diagrams that constitute the most cumbersome part of next-to-leading order calcu-
+lations in the large-s /small-x regime.
+
+
+
+
+
+Introduction 1 point for us here is that those counterterms always
+¦
+
+
+
+
+
+contain -functions instead of some propagators of
+There is much interest in studying processes that the original diagram, so they are easier to take into
+can be described as almost-forward scattering: e.g. account than the formally expanded part, although
+the small-x problem in the context of deep-inelastic from theoretical point of view it is the obtaining of
+scattering in QCD [1] (via the optical theorem), the counterterms that is the most interesting part of the
+small-angle Bhabha scattering in QED [2], etc. In problem. From calculational point of view, however,
+such problems one deals with a kinematical situation the most cumbersome part is always the calculation of
+when the scattering of two particles k k ¡ k k
+1 2 3 4 the formally expanded diagrams of the original proc-
+(e.g. virtual photon and proton in the case of DIS; ess (this is also the case with the NNLO calculations
+electron and positron in the case of Bhabha scatter- of coefficient functions of OPE -- e.g. [5] -- accord-
+ing) occurs at the values of the Mandelstam variable ing to the prescriptions of the Euclidean theory of
+s 2
+¢ k £
+( k ) (corresponding to
+1 2 W 2 in the DIS case) asymptotic operation [6], [7]). It is this problem that
+much larger than any other Lorentz-invariant dimen- we are going to address in this work.
+sional parameter in the problem (masses and virtuali-
+ties of participating and virtual particles as well as the Topologies and algorithm 2
+Mandelstam variables t and u ). A systematic way to The loop integrals we are going to consider have
+treat such processes in perturbative Quantum Field the following kinematics:
+Theory is via an asymptotic expansion corresponding
+to the asymptotic regime s 2
+¤ ¤ t ,u, k k k
+i . This asymptotic 1 1
+
+regime belongs to the so-called class of non-
+ v2 7 Nov 1998 Euclidean asymptotic regimes for which, unlike the k2 k2 2.1
+Euclidean class, systematic prescriptions for obtain-
+ing asymptotic expansions to all orders of the small One-loop diagrams of this type are elementarily
+expansion parameter (in our case, s 1 ) did not exist integrated in terms of Euler's -functions. So we are
+§
+
+
+
+
+
+¥
+
+
+
+
+
+(see e.g. [3]). The first systematic theory of non- going to consider two-loop diagrams. The method we
+Euclidean asymptotic regimes based on the distribu- will use is an extension to this kinematics of the well-
+tion-theoretic method of asymptotic operation [3] has known algebraic (integration-by-parts) algorithm of
+been reported in another talk at this workshop [4]. [8] that was originally developed for 3-loop massless
+According to the theory of [3], [4], systematic as- self-energy diagrams.
+ymptotic expansions are obtained by first formally There are eighteen non-equivalent two-loop to-
+Taylor-expanding the corresponding diagrams in the pologies. (For instance, topologies that differ e.g. by
+¡ ¨
+small parameter, and then adding certain coun- k k are equivalent.) Here is the list:
+1 2
+terterms whose structure is dictated by the prescrip-
+tions of the theory of asymptotic operation. The key
+
+
+ in: QFTHEP'97 (XII Int. Workshop, Samara, Russia, 4-10 September 1997) 2
+
+
+
+
+
+k1 k1
+
+
+k2 k2
+
+
+
+
+
+2.2
+
+
+Four of them (enclosed in the dashed box) can be whenever a k 2
+i occurs in the identity, the corre-
+calculated in -functions by direct integration.
+sponding contribution vanishes whereas in the origi-
+Twelve topologies can be treated using integration- nal algorithm it caused a line to shrink to a point. In
+by-parts recurrencies. The remaining two (in solid particular, the term that corresponded to shrunk top
+boxes) are irreducible in the sense that they contain right line in 2.4 is nullified in the case of 2.3.
+some integrals that can neither be reduced to other The resulting recurrence relation has a standard
+topologies via integration by parts nor easily ex- form, and we only point out that the integrals result-
+pressed in terms of -functions.
+ing from repeated application of the rule of triangle
+The integration-by-parts method [8] is well known according to 2.3 all belong to the same topology:
+and we do not explain it in details. We just present
+one example of a recursion relation for one of the
+topologies: 2.5
+
+
+2.3 Irreducible topologies 3
+
+This in fact is similar to one of the topologies en- One class of irreducible diagrams corresponds to
+countered in the original integration-by-parts algo- the following topology:
+rithm for three-loop self energies:
+
+
+3.1
+
+2.4 Note that for this topology, there is an irreducible
+It is sufficient to apply the rule of triangle [8] to the scalar product which can be chosen as the scalar
+triangle indicated on Fig. 2.3. But now we have product of the momenta flowing through the lines
+massless external momenta ( shown with hollow arrows. In the original integra-
+k 2 ¡ k 2 ¡ ). Therefore
+1 2 0
+tion-by-parts algorithm it was possible to get rid of
+
+
+ in: QFTHEP'97 (XII Int. Workshop, Samara, Russia, 4-10 September 1997) 3
+
+
+
+the powers of the irreducible scalar product by differ- Acknowledgments
+entiations with respect to the external momentum. In We thank N.I. Ussyukina for discussion of irre-
+the present case the two external momenta are re- ducible diagrams, the organizing committee and
+stricted to mass shell, so the differentiation does not sponsors of the QFTHEP'97 workshop for financial
+work. Using symmetry with respect to reflections, one support, and the participants of the workshop for
+can get rid of odd powers of the irreducible invariant. comments. This work was supported in part by the
+In practice we expect only zeroth and second powers Russian Foundation for Basic Research under grant
+to occur. 95-02-05794.
+The other irreducible topology contains only one
+irreducible diagram: References
+
+
+[1] A. Ali and J. Bartels (ed.), Small-x Behaviour of
+3.2 Deep Inelastic Structure Functions in QCD. DESY
+Topical Meeting. Hamburg, Germany. 14-16 May
+with all powers of propagators equal to one. 1990, vol. 18C, Nucl.Phys. B (Proc. Suppl.), 1991.
+Detailed discussion of calculation of the irreducible [2] A. Arbuzov and et al., Phys. Lett. B383 (1996) 238
+topologies goes beyond the scope of the present paper. .
+We only note the following. The diagram 3.2 can be [3] F.V. Tkachov, Sov. J. Part. Nucl. 25 (1994) 649 [hep-
+extracted as a special case from the double box result .
+of N.I.Ussyukina reported at this workshop [9], and [4] F.V. Tkachov, Phys. Lett. B412 (1997) 350 [hep-
+the topologies 3.1 can be done analytically using .
+similar methods. Alternatively, all irreducible dia- [5] S.A. Larin, F.V. Tkachov, and J.A.M. Vermaseren,
+Phys. Rev. Lett.
+grams can be connected with convergent diagrams 66 (1991) 862.
+[6] F.V. Tkachov, Phys. Lett. 124B (1983) 212.
+which can be computed numerically. [7] S.G. Gorishny, S.A. Larin, and F.V. Tkachov, Phys.
+Lett. 124B (1983) 217.
+Conclusions 4 [8] F.V. Tkachov, Phys. Lett. 100B (1981) 65.
+In conclusion we compare our algorithm with the [9] N.I. Ussyukina, in QFTHEP'97, Samara, September
+original algorithm for massless 3-loop self-energies. 4-10, 1997 (to be published).
+[10] S.G. Gorishny, S.A. Larin, L.R. Surguladze, and F.V.
+First, in the case of 2-loop forward scattering we have Tkachov, Comp. Phys. Comm. 55 (1989) 381.
+more topologies than in the case of 3-loop self- [11] S.A. Larin, F.V. Tkachov, and J.A.M. Vermaseren,
+energies. Second, now there are more types of dia- preprint NIKHEF-H/91-18 (1991).
+grams to be computed using special formulas. Third, [12] M. Veltman, in New Computing Techniques in Phys-
+there are more irreducible diagrams. Forth, there are ics Research III (AIHENP'93). Oberammergau, Ger-
+more poles here -- fourth order poles (two poles per many. Oct. 4-8, 1993. World Scientific (1993).
+loop as is typical for Minkowski-space integrals) in-
+stead of third order poles in the case of the original
+algorithm. So, on the whole the algorithm is more
+cumbersome. However, this is not expected to be a
+problem because we are going to use a specialized
+software package BEARa which is designed to be
+much faster and much more economical with disk
+space than analogous software currently available
+such as the well-known MINCER program [10], [11]
+for systems such as Veltman's SCHOONSCHIP [12].
+
+
+
+
+
+
+a http://www.inr.ac.ru/~ftkachov/projects/bear/index.htm
+
+
+

@@ -1,0 +1,389 @@
+
+
+
+JETP Letters, Vol. 71, No. 6, 2000, pp. 217­221. Translated from Pis'ma v Zhurnal Éksperimental'nooe i Teoreticheskooe Fiziki, Vol. 71, No. 6, 2000, pp. 315­321.
+Original Russian Text Copyright © 2000 by Suslov.
+
+
+FIELDS, PARTICLES,
+NUCLEI
+
+
+Gell-Mann­Low Function in the j4 Theory
+I. M. Suslov
+Kapitza Institute for Physical Problems, Russian Academy of Sciences, ul. Kosygina 2, Moscow, 117973 Russia
+e-mail: suslov@kapitza.ras.ru
+Received November 1, 1999; in final form, February 2, 2000
+
+
+An algorithm is proposed for the determination of the asymptotics of a sum of a perturbation series from the
+given values of its coefficients in the strong-coupling limit. When applied to the 4 theory, the algorithm yields
+the (g) g behavior with 1 at large g for the Gell-Mann­Low function. © 2000 MAIK "Nauka/Interpe-
+riodica".
+
+PACS numbers: 11.10.-z
+
+
+Many problems in theoretical physics require and arrived at the conclusion that the Gell-Mann­Low
+advance in the strong-coupling region. The best known function in the 4 theory with the action functional
+of them concern the dependence of the effective cou-
+pling constant g on the distance scale L; the problems
+{ } 1
+= ( )2 162
+of electrodynamics at ultrashort distances and confine- S d4x --- -----------g4
++ (4)
+2 4!
+
+ment are among them. The dependence of g on L in the
+renormalizable theories is determined by the equation behaves at large g as 0.9g2, which differs only in the
+coefficient from the one-loop result 1.5g2 valid at g
+­dg/d ln L = (g) (1) 0; similar behavior was obtained for (g) by Kubyshin
+[5]. If this result is valid,1 then the 4 theory is self-con-
+and generally requires information on the Gell-Mann­ tradictory. This conclusion seems to be strange from
+Low function (g) for arbitrary g [1]. Over many years, the viewpoint of solid-state applications: a reasonable
+the problem of reconstruction of the -function seemed model of a disordered system [7, 8], well-defined in the
+to be absolutely hopeless because the information on continuous limit, is mathematically reduced to the 4
+this function was provided solely by perturbation the- model. Moreover, it was recently proved [9] that there
+ory, which allowed the calculation of the first several are no renormalization singularities in the 4 theory;
+terms of the expansion and this can be treated as evidence for the self-consis-
+tency of the theory.
+This paper is aimed at revising the results obtained
+(g) = (­g)N
+N in [4, 5]. We start with the same premises as in [5], i.e.,
+with the known first four coefficients of the -function
+N = 0 (2) expansion [6, 10]
+= g2 g3
+­ + ... + (­g)N + ...,
+2 3 N
+154.14
+= = 0. (g) 3
+= ---g2 17
+------g3
+­ + ----------------g4 2338
+------------g5
+­ + ..., (5)
+0 1 2 6 8 16
+
+Lipatov [2] proposed a method allowing the calculation and the Lipatov asymptotics with the first-order correc-
+of the tion term calculated in [11]:
+N asymptotics at large N, which was found to be
+factorial for most problems:
+1.096 4.7
+= ------------- + ...
+N7/2 N! 1 ­ ------- . (6)
+as N
+= caN( N + b) caN Nb ­ 1N! (3) N
+N 162
+
+Matching the Lipatov asymptotics (3) with the first The method is different from [4, 5] in that a direct rela-
+N
+coefficients provides information on all terms of the tion between the (g) asymptotics and the expansion
+series and makes it possible to approximately recon- coefficients is used and the interpolation is carried out
+in an explicit form.
+struct the -function, but this requires a special proce-
+dure for the summation of divergent series [3]. Kaza- 1 The authors of [4] do not insist on their statement and emphasize
+kov et al. [4] attempted to implement this procedure that it has a tentative character (see also [6]).
+
+
+0021-3640/00/7106-0217$20.00 © 2000 MAIK "Nauka/Interperiodica"
+
+
+
+
+
+218 SUSLOV
+
+1. Let us formulate the problem of reconstruction of ance made for the singularity B(u) ~ (1 ­ u)­ at the
+the -function asymptotics point u = 1. The reexpansion of series (9) gives the fol-
+( lowing relation between UN and BN:
+g) = , g (7)
+g U = B ,
+0 0
+from the coefficients N of series (2) that grow accord- N
+ing to factorial law (3) and are assumed to be numeri- (12)
+1
+K K ­ 1
+cally specified. As in the case of the introduction of crit- U = B ­--- C ( N 1).
+
+N K a N ­ 1
+ical indices in phase-transition theory, the slow (loga- K = 1
+rithmic) corrections to law (7) are considered to be As a result, we arrive at the following simple algorithm:
+beyond accuracy. the coefficients BN are calculated from given N [cf.
+Treating the sum of series (2) in the Borel sense, we Eq. (8)] and recalculated to UN according to Eq. (12);
+use a modified definition of the Borel transform (g): then the UN coefficients at large N are fitted to the power
+law UN = UN ­ 1, whose parameters determine and
+( b ­ 1
+g) = dxe­xx 0 B(gx), B(g)
+= B ­
+( g)N,
+according to Eq. (10). The value is convenient to
+N calculate by treating U as a function of b0 and deter-
+0 N = 0 (8) mining the slope of linear dependence U
+(b0 + ) at
+B N
+= ------------------------, small b0 + ; this provides an independent estimate for
+N (N + b )
+0 the index from the root of the U(b0) function.
+where b 2. The authors of the majority of works formulated
+0 is an arbitrary parameter that is conveniently
+used for optimizing the summation procedure [3]. As the algorithm in such a way as to avoid mention of the
+was assumed in [3] and proved recently in [9], the Borel coefficients N for intermediate N values. Such an
+transform is analytical in the complex g plane with a cut approach is conceptually inconsistent, because a finite
+from ­1/a to ­. To analytically continue B(g) from the number of coefficients and their asymptotics can ensure
+convergence circle |g| < 1/a to arbitrary complex g val- the construction of a function with any prescribed
+ues, a conformal transformation g = f(u) mapping the behavior at infinity.2 The problem can be reasonably
+plane with the cut onto the unit circle is used; in this formulated if all N are approximately defined; in this
+case, the reexpansion of B(g) in u powers case, the function (g) can be reconstructed within a
+certain accuracy. For this reason, the interpolation and
+estimation of its accuracy is the necessary step in solv-
+B(g) = B (­g)N
+N g = f (u) ing the problem. Of course, this is possible only on the
+N = 0 assumption that
+(9) N is a smooth function of N.
+The interpolation is convenient to carry out for the
+B(u) = U uN
+reduced coefficient function
+N
+N = 0 A A
+F N
+= ------- = 1 1
++ ------ 2
++ ------ + ... AK
++ ------- + ..., (13)
+gives a series convergent at arbitrary g values. We N as N N2 NK
+restrict ourselves to the analytic continuation of B(g) to N
+the positive semiaxis [which is sufficient for the inte- which varies within the finite limits and has a regular
+gration in Eq. (8)] and use a modified conformal trans- expansion in 1/N. Retaining in the series a finite num-
+formation g = (u/a)/(1 ­ u) mapping the plane with cut ber of terms and adjusting the coefficients AK to the
+(-1/a, ­) onto the plane with cut (1, ). This removes known FN values, one obtains the desired interpolation
+the g = ­1/a singularity to infinity, while the g = sin- formula. Its accuracy is
+gularity becomes the nearest to the origin and deter-
+mines the following asymptotics for the U A (N ­ L )(N ­ L ­ 1)...(N ­ L)
+N coeffi- m + m + 1
+F 0
+--------------------- 0 0
+----------------------------------------------------------------------------, (14)
+cients: N m + m + 1 ( )...
+N 0 L L ­ 1 L0
+
+U = ------------------------------------------- N ­ 1, N . (10) if the interpolation is performed using m known values
+N
+a ()(b + )
+0 F , F , ..., F
+L L + 1 L (m = L ­ L0 + 1) for m0 known coef-
+0 0
+
+This result can easily be obtained by representing the ficients A1, A2, ..., A . Estimate (14) is based on the
+m0
+expansion coefficients as fact that series (13) is asymptotic [12], so that the error
+of its approximation by trincation is of the order of the
+du B(u) first omitted term, while the error of interpolating the
+U = -------- ------------ (11)
+N 2
+° iuN+1 2
+C A function of a factorial series has the same asymptotics for coef-
+ficients (3), but with different c value [8]; the statement formu-
+and deforming the contour C enveloping the point u = 0 lated in the text can easily be proved by choosing an appropriate
+in such a way that it passes around the cut with allow- linear combination of several functions.
+
+
+JETP LETTERS Vol. 71 No. 6 2000
+
+
+GELL-MANN­LOW FUNCTION 219
+
+~
+UN
+(a) b0 = b0 = 10.0 (b) b0 =
+5.0
+
+20 40 5.0
+
+1.0
+30
+1.0
+0
+10 0.5 20 ­0.5
+0 ­0.8
+­0.5 10 ­1.0
+­0.9 ­1.2
+0 0
+­1.1
+10 20 30 N 10 20 30 N
+­1.3 ­1.4
+U ­1.5 10 U
+
+­1.7 5 ­1.6
+10 2 ­1.8 20
+0
+0 1.7
+­1.9 30
+­2 ­5
+20 40 ­1.8
+­1.0 ­1.5 b
+­1.0 ­1.5 b 0
+0
+
+
+as
+Fig. 1. Plots of U
+~ = U
+N
+N (b0 + 2) vs. N at different b0 values for the parametrization of the asymptotics in the form (a) =
+N
+
+as
+caNNb ­ 1N! and (b) = caN(N + b). The inserts show U
+N as a function of b0.
+
+
+
+(m + m0 + 1)-order polynomial by the (m + m0)-order ing from the slope at b0 = ­, one obtains for the
+polynomial can be calculated exactly. In the case under asymptotics of the -function
+consideration, L0 = 2, L = 5, and m0 = 1, so that FN is (g) 8g g . (15)
+determined by the coefficient A6, which can be esti-
+mated by factorial-law extrapolation of the found A situation occurring at the alternative ways of
+A interpolation is shown in Fig. 1b, where the parametri-
+1,
+..., A5 values [12].
+as
+The ambiguity of the interpolation procedure is zation = caN
+N (N +b) is used. There is also seen
+manifested, in particular, in the possibility to differ- curve flattening, but it is not as distinct as in the preced-
+ently parametrize the asymptotics [4, 13], e.g., as ing case. The processing of the curves under the
+caN(N + b), caNNb ­ 1N! etc. The asymptotics in the assumption that = 1 yields the b0 dependence of U
+(see insert in Fig. 1b) going through zero at b0 = ­1.3,
+instanton calculations [2] has the form c~a~N Nb~ NN, which corresponds to = 1.3. Hence, the results show
+which is very close to the Lipatov parametrization a substantial inconsistency. Curve processing with the
+caNNb ­ 1N! obtained from the former by applying the power-law dependence yields an value slightly
+Stirling formula, whose accuracy is better than 10% exceeding unity (different for different b0), but in this
+even at N = 1. With this respect, the parametrization case U turns to zero at b0 = ­0.8 (at this value, the
+caNNb - 1N! is "natural," whereas its representation in increase in the curves in Fig. 1b changes to a decrease),
+alternative functional forms requires additional leading to the same inconsistency. Correspondingly, the
+assumptions [e.g., N b for caN(N + b)]. result for the (g) asymptotics becomes less defined,
+(g) 24g and = 0.8­1.3.
+Figure 1a shows the coefficients U
+~ N = U
+N (b0 + 2) as
+(normalized so that they have a finite limit at b Parametrizing the asymptotics as =
+N
+0 )
+for the natural parametrization caNNb ­ 1N!. At large N, ­
+these coefficients distinctly tend to the constant values caN Nb b~
+­ 1 (N + b~ + 1) and expanding FN in inverse
+(excepting the curves for b0 1 and b0 ­2, for which powers of (N ­ N0), one obtains a two-parameter (b~ and
+the large parameters retard the attainment of asymptot- N0) set of the interpolation formulas. The table presents
+ics), which corresponds to the value = 1. The U vs. the results for several such interpolations, for which the
+b0 curve goes through zero at b0 = ­1.03 (see insert in distinctions in the interpolation curves approximately
+Fig. 1a), which gives another estimate = 1.03 demon- fit the error range estimated by Eq. (14) for the natural
+strating excellent consistency of the results. Determin- interpolation. With allowance made for the uncertain-
+
+
+JETP LETTERS Vol. 71 No. 6 2000
+
+
+220 SUSLOV
+
+FN portion U
+~ N 1.1(N ­ 1) (dashed line) corresponding to
+1.0
+(g) a (g) 1.1g2 dependence close to the results obtained
+in [4, 5]. This portion is insensitive to changes in b0 and
+0.5 0.9 g2 to the interpolation procedure and can pretend to the
+1.06 g1.9 role of the true asymptotics, provided that the results
+2 for N > 10 are treated as being due to the interpolation
+0 50 100 1
+200 2.99 g3/2 errors. But such is actually not the case, because the sta-
+N 3 bility of this portion is caused by the presence of a char-
+8 g acteristic dip in the reduced coefficient function FN at
+N 10 (see insert in Fig. 2). If one models this dip by
+100 4 setting F3 = F4 = ... = F10 = 0, then the result U
+~ N
+1.5(N ­ 1) determined by the first nonvanishing coeffi-
+cient F2 (see curve for b0 = ) is obtained at N 10 for
+1.5 g2 all b0; this is close to the actual situation.3 Such model-
+0 5 10 15 g ing of the dip demonstrates that the one-loop law 1.5g2
+for the -function extends up to g ~ 10. More precisely
+Fig. 2. Qualitative behavior of the Gell-Mann­Low function (see footnote 3), the result valid in the interval 1 g
+in the 4 theory. Curves 1, 2, 3, and 4 are obtained in [4], [5], 10 is given by the function derived in [4, 5] and yielding
+[14], and this work, respectively. The insert shows the coef- the value (g) 90 for g = 10 (see Fig. 2), in accordance
+as as with [14]. Asymptotics Eq. (15) matches well with the
+ficient function F
+N = N/ with the = caN(N + b)
+N N indicated value, providing indirect support to the opti-
+parametrization convenient for an analysis of Eq. (12); the mistic estimation for the accuracy.
+dependence on the interpolation procedure is immaterial on
+this scale. Although the available information allows only a
+rough estimation for the Gell-Mann­Low function, one
+ties, the index is virtually independent of the particu- can state with assurance that it is nonzero at finite g val-
+lar interpolation; systematic deviations occur only for ues and its behavior at g is compatible with the
+some "extreme" cases for which the interpolation curve assumption that the 4 theory is self-consistent. The
+is partially beyond the error range. The interpolation substitution of Eq. (15) in Eq. (1) yields the g(L) L­
+dependence with 8 at small L, which is slightly
+with b~ = 0 and N0 = 0, which we treated as "natural" modified if the index is other than unity or if logarith-
+from computational considerations, stands out as the mic branching is present.
+most self-consistent algorithm. Therefore, the corre-
+sponding result (15) should be considered as the most The results obtained allow an understanding of why
+reliable. For a fixed interpolation, its error is less than the numerical simulations on a lattice indicate that the
+0.05 for the index and 10% for 4
+, which is an opti- theory is "trivial" (see [15] and references therein):
+mistic estimate for the accuracy. The error caused by because of the absence of zeros of the -function, the
+the interpolation ambiguity is seen from the table: it can g(L) interaction always decreases with distance; and,
+be as great as several tenths for the index, whereas the owing to the extended one-loop law, the behavior is
+value can differ from Eq. (15) by a factor of 2­3. indistinguishable from the trivial in a wide range of
+parameters [at g 300, for the most popular charge
+3. Let us consider the behavior of the -function at definition when the term with interaction in Eq. (4) has
+finite g values. For N < 10, Fig. 1 demonstrates a linear the form g4/4].
+
+This work was supported by the INTAS (grant
+Table no. 96-0580) and the Russian Foundation for Basic
+Research (project no. 00-02-17129).
+Interpola- Interpola-
+tion with tion with
+N0 = 0 b~ = 0 REFERENCES
+
+1. N. N. Bogoliubov and D. V. Shirkov, Introduction to the
+b~ = 3.5 24 0.8­1.3 N0 = 0.5 5.4 1.1­1.6
+Theory of Quantized Fields, 3rd ed. (Nauka, Moscow,
+1984, 4th ed.; Wiley, New York, 1980, 3rd ed.).
+b~ = 1.5 14 1.0­1.1 N0 = 0.3 16 0.8­1.2
+
+3
+b~ = 0 8.1 1.0 If one sets F3 = F4 = ... = F10 = , then Eq. (12) yields a linear
+dependence with the slope 1.5(1 ­ /F2) for b0 = b ­ p with inte-
+b~ = ­1.5 10 1.0­1.1 N0 = ­0.3 4.3 0.9­1.0 ger p in the interval p + 2 N 10. For = 0.2 (see Fig. 2); the
+correct slope 1.1 and a weak dependence on b0 occur in the inter-
+b~ = ­2.5 2.7 1.5­1.7 N0 = ­0.5 2.3 0.9­1.0 val ­1 < b0 < 10.
+
+
+JETP LETTERS Vol. 71 No. 6 2000
+
+
+GELL-MANN­LOW FUNCTION 221
+
+2. L. N. Lipatov, Zh. Éksp. Teor. Fiz. 72, 411 (1977) [Sov. 10. F. M. Dittes, Yu. A. Kubyshin, and O. V. Tarasov, Teor.
+Phys. JETP 45, 216 (1977)]. Mat. Fiz. 37, 66 (1978).
+3. J. C. Le Guillou and J. Zinn-Justin, Phys. Rev. Lett. 39, 11. Yu. A. Kubyshin, Teor. Mat. Fiz. 57, 363 (1983).
+95 (1977); Phys. Rev. B 21, 3976 (1980).
+12. I. M. Suslov, Zh. Éksp. Teor. Fiz. 117 (2000) (in press).
+4. D. I. Kazakov, O. V. Tarasov, and D. V. Shirkov, Teor.
+Mat. Fiz. 38, 15 (1979). 13. V. S. Popov, V. L. Eletskioe, and A. V. Turbiner, Zh. Éksp.
+5. Yu. A. Kubyshin, Teor. Mat. Fiz. 58, 137 (1984). Teor. Fiz. 74, 445 (1978) [Sov. Phys. JETP 47, 232
+6. A. A. Vladimirov and D. V. Shirkov, Usp. Fiz. Nauk (1978)].
+129,
+407 (1979) [Sov. Phys. Usp. 22, 860 (1979)]. 14. A. N. Sissakian, I. L. Solovtsov, and O. P. Solovtsova,
+7. M. V. Sadovskioe, Usp. Fiz. Nauk 133, 223 (1981) [Sov. Phys. Lett. B 321, 381 (1994).
+Phys. Usp. 24, 96 (1981)]. 15. A. Agodi, G. Andronico, P. Cea, et al., Mod. Phys. Lett.
+8. I. M. Suslov, Usp. Fiz. Nauk 168, 503 (1998) [Phys. Usp. A 12, 1011 (1997); .
+41, 441 (1998)].
+9. I. M. Suslov, Zh. Éksp. Teor. Fiz. 116, 369 (1999) [JETP
+89, 197 (1999)]. Translated by R. Tyapaev
+
+
+
+
+
+JETP LETTERS Vol. 71 No. 6 2000
+
+
+

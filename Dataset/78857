@@ -1,0 +1,888 @@
+
+
+ 28 Nov 1994
+
+SLAC-PUB-6710 November 1994 (T/E)
+
+Reevaluation of the Hadronic Contribution to ff(M 2Z ) (revised)
+
+?
+
+Morris L. Swartz Stanford Linear Accelerator Center Stanford University, Stanford, California, 94309
+
+ABSTRACT We reevaluate the hadronic part of the electromagnetic vacuum expectation value using the standard dispersion integral approach that utilizes the hadronic cross section measured in e+e\Gamma experiments as input. Previous analyses are based upon point-by-point trapezoidal integration which has the effect of weighting all inputs equally. We use a technique that weights the experimental inputs by their stated uncertainties, includes correlations, and incorporates some refinements. We find the hadronic contribution to the fractional change in the electromagnetic coupling constant at q2 = M 2Z , \Delta ff(M 2Z ), to be 0:02666 \Sigma 0:00075, which leads to a value of the electromagnetic coupling constant, ff\Gamma 1(M 2Z ) = 129:08 \Sigma 0:10. This value significantly shifts the Standard Model predictions for the effective weak mixing angle measured at the Z pole and moderately shifts the predicted Z width.
+
+Submitted to Physical Review D ? Work supported by the Department of Energy, contract DE-AC03-76SF00515.
+
+1. Introduction At the current time, a large program of precise electroweak measurements is being conducted throughout the world. The object of this program is to test the electroweak Standard Model by comparing the measured values of a large set of electroweak observables with the predictions of the Minimal Standard Model (MSM). The Standard Model calculations have been performed to full one-loop accuracy and partial two-loop precision by a large community of researchers. In all of these calculations, it is necessary to evaluate the one-particle-irreducible contributions to the photon self-energy \Pi flfl (q2) or the related quantity \Pi 0flfl(q2) j (\Pi flfl (q2) \Gamma \Pi flfl(0))=q2 at the Z mass scale q2 = M 2Z . These quantities are usually absorbed into the definition of the running electromagnetic coupling ff(q2),
+
+ff(q2) j ff01 \Gamma \Pi 0
+
+flfl (q2) ; (1)
+
+where ff0 = 1=137:0359895(61) is the electromagnetic fine structure constant. This quantity is also represented as the fractional change in the electromagnetic coupling constant \Delta ff,
+
+\Delta ff(q2) = ff(q
+
+2) \Gamma ff0
+
+ff(q2) = \Pi
+
+0flfl (q2): (2)
+
+Using analytic techniques and the optical theorem applied to the amplitude for s-channel Bhabha scattering, the quantity \Delta ff has been related to the cross section for the process e+e\Gamma ! fl\Lambda ! all (oetot) as follows,
+
+[1]
+
+\Delta ff(q2) = ff03ss P
+
+1Z
+
+4m2ss
+
+ds q
+
+2
+
+s(q2 \Gamma s) Rtot(s); (3)
+
+where Rtot(s) j oetot(s)=oe__(s) is the ratio of the total cross section to the (massless) muon pair cross section at the center-of-mass energy ps. It should be noted in passing that equation (3) is correct to all orders in ff0 and relies only upon
+
+2
+
+the assumption that the real part of \Pi flfl is much larger than its imaginary part (the next-order correction is proportional to Im2\Pi flfl =j\Pi flfl j2 which is approximately 3\Theta 10\Gamma 4 at q2 = M 2Z ). It is straightforward to evaluate equation (3) for the continuum leptonic cross sections.
+
+[2] In the limit that the scale q2 is much larger than
+
+the square of the lepton mass m2` , the contribution of the continuum leptonic cross sections is given by the following expression,
+
+\Delta ff`(q2) = ff03ss X
+
+` ^\Gamma
+
+5 3 + ln
+
+q2 m2` * : (4)
+
+The remaining contributions to Rtot consist of the continuum hadronic cross section and the J P = 1\Gamma resonances and are labelled Rhad. Since the cross sections for these final states are not accurately calculable from first principles, experimental inputs are used to evaluate the remaining portion of equation (3),
+
+\Delta ffhad(q2) = ff03ss P
+
+1Z
+
+4m2ss
+
+ds q
+
+2
+
+s(q2 \Gamma s) Rhad(s): (5)
+
+Equation (5) has been evaluated at the Z boson mass scale several times.
+
+[3;4;5]
+
+A complete description was given by Burkhardt, Jegerlehner, Penso, and Verzegnassi
+
+[4] in 1989. The result was updated by Jegerlehner [5] in 1991 (to include
+
+measurements from the Crystal Ball Collaboration),
+
+\Delta ffhad(M 2Z ) = ae 0:0288 \Sigma 0:0009; Reference 40:0282 \Sigma 0:0009; Reference 5. (6) The authors of Reference 4 perform the integration in three parts: the hadronic continuum above ps = 1 GeV, the ss+ss\Gamma final states above threshold; and the !, OE, , and \Upsilon resonances. The continuum integration is performed by linearly interpolating between the data points. The resonance contributions were calculated from an analytic expression which results from integrating a Breit-Wigner lineshape
+
+3
+
+and depends upon the masses, widths, and leptonic widths of each resonance. The uncertainties on each contribution were estimated by techniques which appear to be very conservative. The work reported in this paper was undertaken initially to estimate a more accurate error. We have indeed performed what we believe to be a more accurate analysis, however, it is our conclusion that the uncertainty estimated by the authors of Reference 4 is not overestimated.
+
+2. The Analysis Any attempt to combine the results of many experiments is a perilous undertaking. Many different techniques and approaches have been used. Not all researchers have addressed all possible problems nor are systematic error estimates performed in uniform ways or to uniform standards. We therefore adopt some the techniques of the Particle Data Group.
+
+[6] Older measurements which are contradicted by newer, more precise work are excluded from the analysis. Parameter uncertainties that are extracted from fits with O/2 per degree of freedom (dof) larger than one are rescaled by the factor pO/2=dof .
+
+2.1 The Data
+
+The approach to the evaluation of equation (5) is driven by the form of the data themselves. The total hadronic cross section can be decomposed into four pieces: the hadronic continuum above W j ps = 1 GeV, the charged two-body final states ss+ss\Gamma and K+K\Gamma from their respective thresholds to 2.6 GeV, and hadronic resonances (excluding charged two-body final states). Since equation (5) is linear in the hadronic cross section, we decompose \Delta ffhad as follows,
+
+\Delta ffhad(q2) = \Delta ffconthad (q2) + \Delta ffss
+
++ss\Gamma
+
+had (q2) + \Delta ffK
+
++K\Gamma had (q2) + \Delta ffreshad(q2); (7)
+
+where the four terms on the right-hand side correspond to the four pieces of the hadronic cross section.
+
+4
+
+The rationale for this decomposition is as follows. The region below W = 1 GeV is dominated by the ae, !, and OE resonances. The electromagnetic form factors for the processes e+e\Gamma ! ss+ss\Gamma
+
+[7\Gamma 14] and e+e\Gamma ! K+K\Gamma [14\Gamma 18] are measured well from threshold to W ' 2 GeV. Resonances do not account for all of the ss+ss\Gamma and K+K\Gamma cross section in this region. On the other hand, essentially all other two-body and three-body final states are associated with the resonances. Measurements of three-pion final states near W = 1 GeV
+
+[19] show the non-resonant
+
+portion to be consistent with zero. Similarly, measurements of various two-body final states such as K0LK0S show small non-resonant cross sections.
+
+[16] The cross sections for four-pion final states become significant above 1 GeV but are small below that energy.
+
+[20] The flfl2 experiment [21] at the ADONE storage ring at Frascati has
+
+measured the hadronic cross section ratio for three or more hadron final states, R*3had from W = 1:42 GeV to W = 3:09 GeV. They have also presented several points from 1 GeV to 1.4 GeV that are composed of various multipion cross sections from Novosibirsk and Orsay
+
+[20;19;22] and are claimed to approximate R*3
+
+had. Measurements
+
+beginning at W = 2:6 GeV by the MARK I,
+
+[23] DASP, [24] and PLUTO[25] Collaborations claim to measure the entire cross section. We therefore conclude that Rhad is well approximated below W1 = 2:6 GeV by a sum of the ss+ss\Gamma and K+K\Gamma contributions from threshold to W1 (where they are much smaller than R*3had); the R*3had measurements from 1 GeV to W1; and the ae, ! and OE resonances where the hadronic widths are adjusted to remove the ss+ss\Gamma and K+K\Gamma final states that are already included explicitly. Note that the several broad e+e\Gamma resonances between the OE(1020) and W = 2 GeV are implicitly contained in the two-body or R*3had categories. Since the ss+ss\Gamma and K+K\Gamma cross sections are very small at W1, the R*3had and total continuum Rhad measurements should be continuous at this point.
+
+At center-of-mass energies larger than W1, many measurements of the hadronic continuum and resonances exist. The region of the charm threshold from W = 3:6 GeV to W = 5:0 GeV is complicated and not well measured. The MARK I, DASP, and PLUTO Collaborations all observe an enhancement beyond the expected threshold shape. The DASP data show three resolved resonances. The
+
+5
+
+MARK I and PLUTO data are consistent with the DASP data but do not cleanly resolve the resonances. We choose to follow the Particle Data Group and recognize the DASP resonances: (4040), (4160), and (4415). The family therefore consists of six states.
+
+Between 5 GeV and 10.4 GeV, the MARK I, DASP, PLUTO, Crystal Ball,
+
+[26]
+
+LENA,
+
+[27] CLEO, [28] CUSB,[29] and DESY-Heidelberg [30] Collaborations have published Rhad measurements which are are plotted in Figure 1. The error bars include only point-to-point uncertainties. The recently published Crystal Ball measurements have a systematic normalization uncertainty of 5.2%. The other measurements have normalization uncertainties in the range 6.8-10%. The data are also compared with the recent QCD prediction of Chetyrkin and Kuhn
+
+[31] which includes quark mass effects. At W = 5 GeV, the MARK I data are consistent with other measurements. As W increases, they show a systematic increase in Rhad and suggest the presence of a structure near 6.6 GeV. Including the quoted 10% normalization uncertainty, the MARK I data are larger than the more precise measurements by approximately two standard deviations. The reader is reminded that first generation detectors like MARK I, DASP, and PLUTO were small acceptance devices that necessarily involved large acceptance corrections without the benefit of good event structure modelling. After acceptance corrections and a o/ -lepton subtraction, the MARK I group observed that two-charged-prong events constituted nearly 20% of the hadronic cross section of R at W = 7 GeV. This is about 1.5 times the two-prong rate due to o/ +o/ \Gamma final states and three times the rate that is predicted
+
+[32] by the JETSET 7.3 Monte Carlo program.[33] While this may not
+
+be wrong, we choose to exclude data from the first generation experiments when more modern results are available. Such data are available above charm threshold. Unfortunately, we are constrained to use very old continuum measurements below charm threshold.
+
+The Particle Data Group lists six \Upsilon family resonances between 9.4 GeV and 11 GeV. All are included in the resonance contribution.
+
+6
+
+Figure 1. The Rhad measurements of the MARK I
+
+[23] (circles), PLUTO[25]
+
+(horizontal marks), Crystal Ball
+
+[26] (diamonds), LENA[27] (squares), CLEO[28]
+
+(stars), CUSB
+
+[29] (X's), and DESY-Heidelberg[30] (vertical crosses) Collaborations
+
+in the region between W = 5 GeV and W = 9:4 GeV. The error bars include pointto-point uncertainties only. A recent QCD calculation
+
+[31] which includes quark mass
+
+effects is shown as a solid line for ffs(M 2Z) = 0:125.
+
+Above b-quark threshold, a number of Rhad measurements have been carried out by the PEP and PETRA experiments.
+
+[34\Gamma 39] However at energies above
+
+W = 34 GeV, Z-fl interference becomes significant. We therefore use only those
+
+7
+
+measurements in the region W ^ 34 GeV where the correction for electroweak interference is less than 1%.
+
+We expect that Rhad is well described by perturbative QCD in the region above b-quark threshold. This implies that the measurement of the strong coupling constant, ffs(M 2Z ), extracted from a fit to the lineshape parameters of the Z boson by the LEP Collaborations,
+
+[40]
+
+ffs(M 2Z ) = 0:125 \Sigma 0:005; (8) provides a precise measurement of Rhad at W = MZ . We have verified that the value of ffs(M 2Z ) given in equation (8) is insensitive to the value of the electromagnetic coupling constant ff(M 2Z ) used in the fitting procedure (ff(M 2Z ) can be left as a free parameter with essentially no effect on the extracted value of ffs). To convert ffs(M 2Z ) into a determination of Rhad(MZ ), we use the third-order MS QCD expression,
+
+[41]
+
+RQCD(s) = 3 X
+
+f
+
+Q2f fif (3 \Gamma fi
+
+2f )
+
+2
+
+\Delta (1 + ^ ffs(s)ss * + r1 ^ ffs(s)ss *
+
+2
+
++ r2 ^ ffs(s)ss *
+
+3)
+
+;
+
+(9)
+
+where: Qf is the final state fermion charge, fif = q1 \Gamma 4m2f =s is the fermion velocity in the e+e\Gamma center-of-mass frame (mf is the fermion mass), and the coefficients are functions of the number of active flavors Nf ,
+
+r1 = 1:9857 \Gamma 0:1153Nf
+
+r2 = \Gamma 6:6368 \Gamma 1:2002Nf \Gamma 0:0052N 2f \Gamma 1:2395 \Gamma P Qf \Delta
+
+2
+
+3 P Q2f :
+
+(10)
+
+The resulting value of Rhad(MZ) is,
+
+Rhad(MZ ) = 3:818 \Sigma 0:006: (11)
+
+The following three sections of this chapter describe the evaluation of: the
+
+8
+
+continuum contribution \Delta ffconthad , the contributions of the charged two-body final states \Delta ffss
+
++ss\Gamma
+
+had and \Delta ffK
+
++K\Gamma had , and the resonance contribution \Delta ffreshad.
+
+2.2 The Hadronic Continuum
+
+The authors of Ref. 4 evaluated equation (5) for the continuum contribution by performing a trapezoidal integration with measured values of Rhad. Their approach has two advantages: it is unbiased by human prejudice about the functional form of Rhad(s), and it would automatically account for undiscovered resonances which are broad as compared with the spacing of measurements. Unfortunately, this technique also has a serious shortcoming: it does not take experimental errors into account properly. All data points receive equal weight irrespective of their experimental precision. An experiment which publishes a large number of imprecise data points receives more weight than an experiment which publishes fewer precisely measured ones.
+
+We avoid this problem by fitting the data to an appropriate functional form Rfit(s; ak) where ak are the parameters of the function. In the absence of undiscovered resonances, Rhad can be described by a continuous function. A O/2 fit has the virtue that measurements are weighted by their experimental errors. To do this, we make the conservative assumption that all normalization uncertainties within an appropriate grouping of measurements are 100% correlated. The O/2 function therefore has the form,
+
+O/2 = X
+
+i;j h
+
+Rihad \Gamma Rfit(si; ak)iWijhRjhad \Gamma Rfit(sj; ak)i; (12)
+
+where Rihad is the value of Rhad measured at energy si and the inverse elements of the weight matrix Wij are given by the following expression,
+
+[W\Gamma 1]ij = 8?!?:
+
+oe2i (ptp) + oe2i (norm); i = j oei(norm)oej(norm); i 6= j, same grouping 0; i 6= j, different grouping
+
+(13)
+
+where oei(ptp) and oei(norm) are the point-to-point (statistical and systematic) and
+
+9
+
+normalization uncertainties associated with the ith measurement.
+
+Equation (5) is evaluated by performing a Simpson's Rule integration using the function Rfit and the best estimate of the parameters. The parameter uncertainties ffiak reflect the point-to-point and normalization uncertainties to some extent. Unfortunately, the process of fitting a large number of measurements with a function of a smaller number of parameters necessarily involves some loss of information. If we add a priori information to the problem by choosing a physically motivated fitting function, the information contained in the parameter error matrix may be entirely appropriate. To understand this problem better, we evaluate the uncertainty on \Delta ffhad(M 2Z ) by two techniques. In the first, the parameter uncertainties are propagated to the calculated value of \Delta ffhad(M 2Z ) using the following expression which is valid for any function of the parameters,
+
+ffi2(\Delta ffhad)exp = X
+
+k;l
+
+@(\Delta ffhad)
+
+@ak Ekl
+
+@(\Delta ffhad)
+
+@al ; (14)
+
+where the derivatives are calculated numerically and Ekl = hffiakffiali is the parameter error matrix that is extracted from the fitting procedure. The second error estimate is performed by constructing a large ensemble of data sets by shifting the measured data points Rihad(meas) as follows,
+
+Rihad(set j) = Rihad(meas) + f ptpij oei(ptp) + f normij oei(norm); (15) where the factors fij are Gaussian-distributed random numbers of unit variance. The entire fitting and integration procedure is then applied to each member of the ensemble. The uncertainty on \Delta ffhad(M 2Z ) is determined from the central 68.3% of the ensemble distribution.
+
+The use of a fitting function has the problem that one may introduce bias through the choice of parameterization. We attempt to evaluate this effect by varying the parameterizations as much as ingenuity and computer time allow. The quoted contributions to \Delta ffhad(M 2Z ) are those corresponding to the best fits. Each
+
+10
+
+contribution is assigned a parameterization uncertainty ffi(\Delta ffhad)param based upon the spread of results corresponding to reasonable fits.
+
+The first step in the evaluation of equation (5) for the hadronic continuum is to formulate a suitable (piecewise-continuous) parameterization Rfit(s; ak). We choose to use the perturbative QCD expression given in equation (9) in the region W * 15 GeV and an empirical parameterization in the region 1 GeV^ W ! 15 GeV. In the high energy region, the only free parameter is ffs(M 2Z ) which is evolved to other scales using the prescription given by Marciano.
+
+[42]
+
+In the portions of the low energy region that are measured well, polynomials are used to parameterize Rhad(W ). To ensure that the function is continuous across several points Wa, the polynomials are constructed in xa j W \Gamma Wa and the zeroth order terms are excluded,
+
+P an (x) j
+
+nX
+
+i=1
+
+dai xi; (16)
+
+where a is a label to distinguish different regions. Separate polynomials are used to describe the following regions: 1 GeV^ W ^ 1:9 GeV (labelled region s), 1.9 GeV! W ^ 3:6 GeV (labelled region c), and 5.0 GeV! W ^ 10:4 GeV (labelled region b). Although a single, large-order polynomial is adequate to describe the data between W = 1 GeV and charm threshold at 3.6 GeV, the data show a distinct shape change near W = 1:9 GeV (where the four-pion cross section is becoming small). It was possible to obtain better fits by introducing an additional polynomial to describe the region from 1 GeV to 1.9 GeV. A comparison of the two possible forms is used to assess the parameterization sensitivity of the final result.
+
+Since there are no measurements of the continuum Rhad in the b-quark and c-quark threshold regions, it is necessary to extrapolate the form of Rhad from 3.6 GeV to 5.0 GeV and from 10.4 GeV to 15 GeV with functions that are physically motivated. In the case of the charm threshold region, the DASP Collaboration has published (in graphical form) the shape of the continuum that was preferred by their resonance fits. The function which characterizes the shape of the thresh11
+
+old, fDASP (W ), does not increase as sharply as the free-quark threshold factor fi(3 \Gamma fi2)=2 but increases more rapidly than the fi3 threshold factor for pointlike scalar particles. To construct the function Rfit, all three possibilities are used for the c-quark threshold and the two extreme possibilities are used for the b-quark threshold,
+
+fc(W ) = 8?!?:
+
+fi(3 \Gamma fi2)=2 fDASP (W ) fi3
+
+fb(W ) = ( fi(3 \Gamma fi
+
+2)=2
+
+fi3; (17)
+
+where the c- and b-quark masses are taken to be the D and B meson masses, respectively. The actual size of the charm-associated step in Rhad, \Delta Rc is left as a free parameter. The size of the bottom-associated step in Rhad is constrained to be the difference between the value of the fit function at W = 10:4 GeV and the value of the QCD portion at W = 15 GeV, \Delta Rb j RQCD(15) \Gamma Rfit(10:4).
+
+The actual form of the fitting function is given by the following expression,
+
+Rfit(W ) =
+
+8?????????!
+
+?????????:
+
+R0 + P sNs (W \Gamma 1:0); 1 ^ W ^ 1:9 Rfit(1:9) + P cNc(W \Gamma 1:9); 1:9 ! W ^ 3:6 Rfit(3:6) + \Delta Rcfc(W ); 3:6 ! W ^ 5:0 Rfit(5:0) + P bNb(W \Gamma 5:0); 5:0 ! W ^ 10:4 Rfit(10:4) + \Delta Rbfb(W ); 10:4 ! W ! 15:0 RQCD(W ); 15 ^ W
+
+(18)
+
+where R0, the value of Rhad at W = 1 GeV, was a free parameter and the order of the polynomials varied from 1 to 7. The number of free parameters varied from 7 to 30. The fit quality did not improve substantially when the number of parameters exceeded 10. The weight matrix was constructed from equation (13) assuming that normalization uncertainties were completely correlated in four groups: the 20% uncertainties of the lowest energy measurements
+
+[21\Gamma 22] (1.0 GeV! W ! 3:09 GeV),
+
+the 15-20% uncertainties of the MARK I, DASP, and PLUTO measurements
+
+[23\Gamma 25]
+
+(2.6 GeV! W ! 4:9 GeV), the 5-10% uncertainties of the measurements
+
+[26\Gamma 30]
+
+between charm and bottom thresholds, and the 1.7-7.0% uncertainties of the PEP
+
+12
+
+and PETRA experiments
+
+[34\Gamma 39] above bottom threshold. The data are corrected
+
+for electroweak interference before the fitting procedure is applied. The data and the result of a typical fit are shown in Fig. 2. The error bars include the point-topoint and the normalization uncertainties. The fit quality was excellent (O/2=dof = 104:7=105).
+
+Figure 2. The continuum Rhad measurements including normalization uncertainties. A typical fit to equation (18) is shown as the solid curve. The dashed curve corresponds to the equal-weighting test described in the text.
+
+The various hypotheses for Rfit are used to evaluate the integral in equation (5) from s0 = 1 GeV2 to 1 = 106 GeV2. Although the singularity in the integrand is formally well controlled, digital computers are famous for their inability to under13
+
+stand formalities. We have therefore recast equation (5) into a form which is more suitable for electronic evaluation,
+
+\Delta ffhad(q2) = ff0q
+
+2
+
+3ss (
+
+Rfit(q2)
+
+q2 ln ^
+
+q2 \Gamma s0
+
+s0 * \Gamma
+
+q2\Gamma \Delta Z
+
+s0
+
+ds Rfit(s) \Gamma Rfit(q
+
+2)
+
+s(s \Gamma q2)
+
+\Gamma @Rfit@s fififiq2ln^ q
+
+2 + \Delta
+
+q2 \Gamma \Delta * \Gamma
+
+1Z
+
+q2+\Delta
+
+ds Rfit(s) \Gamma Rfit(q
+
+2)
+
+s(s \Gamma q2) );
+
+(19)
+
+where we have assumed that Rfit is well approximated by a linear expansion over the interval q2\Gamma \Delta ! s ! q2+\Delta (in practice, we use \Delta = 0:5 GeV2). The evaluation of equation (19) requires that RQCD(s) be extrapolated through t-quark threshold. For this purpose, the top quark mass is assumed to be 175 GeV.
+
+[43]
+
+The contribution of the hadronic continuum to \Delta ffhad(M 2Z ) is found to be fairly insensitive to the form of Rfit. The central value of \Delta ffhad(M 2Z) corresponds to the best estimate of the parameters of the function which uses: the DASP shape for the c-quark-threshold, the free-quark shape for the b-quark-threshold, and the values (2,3,3) for (Nb,Nc,Ns). The maximum deviation from this value occurs when the fi3 function is used for the c-quark-threshold and a sixth-order polynomial is used to parameterize the entire region W ^ 3:6 GeV. The size of the maximum deviation is taken as an estimate of the parameterization uncertainty. The experimental uncertainty given by equation (14) is found to be a smaller by a factor of three than the estimate derived from the ensemble of fluctuated data sets. Since our fitting function has no physical motivation whatsoever in the low W region, we choose the larger estimate as the more accurate. The resulting contribution to \Delta ffhad(M 2Z ) is
+
+\Delta ffconthad (M 2Z) = 0:021428 \Sigma 0:000724(exp) \Sigma 0:000150(param): (20)
+
+The experimental uncertainty given in equation (20) dominates the uncertainty on \Delta ffhad(M 2Z ). We note that this uncertainty is itself dominated by the 0.000655
+
+14
+
+contribution of the normalization uncertainties of the Rhad measurements below charm threshold (particularly in the region 2.6-3.6 GeV). Any further improvement in the uncertainty on \Delta ffhad(M 2Z ) requires that improved measurements be performed in this region.
+
+The central value of this result is somewhat smaller than the one given in Ref. 4 for four reasons. The first is that we've defined the continuum contribution to exclude the charm-related enhancement near 4 GeV. The charm-threshold related enhancement is incorporated by the inclusion of the (4040), (4160), and (4415) resonances in the resonance contribution. The second difference is that our technique weights input data by their uncertainties and accounts for the large correlated uncertainties between the measurements within a measurement group. The third difference is that we have replaced the 44 MARK I measurements of the continuum between W = 4:9 GeV and W = 7:6 GeV with the more recent Crystal Ball data. The fourth difference is that we use the LEP measurement of ffs(M 2Z ) to constrain Rhad in the high energy region to a somewhat smaller value than the one preferred by the PEP/PETRA experiments alone. To verify that these differences are indeed source of the discrepancy, we have repeated the analysis with all points weighted equally (all points have constant fractional uncertainties and are assumed to be uncorrelated). To ensure that the sample is a good approximation of the one used in Ref. 4, all of the MARK I data including those measurements of the charm-threshold region are included and the Crystal Ball data and LEP measurement of ffs(M 2Z ) are excluded. The resulting value of \Delta ffconthad , 0.0231, is close to the value given in Ref. 4 of 0.0233\Sigma 0.0009.
+
+The updated result given in Ref. 5 was derived by excluding the high energy MARK I data and including the Crystal Ball measurements. We simulate this result by substituting the Crystal Ball data for the 44 high energy MARK I measurements in the equally-weighted analysis (the charm threshold data are still included and the LEP measurement of ffs(M 2Z ) is still excluded). The resulting value of \Delta ffconthad , 0.0226, is close to the value given in the second publication of Ref. 5 of 0.0228\Sigma 0.0009. The best estimate of Rfit resulting from the equally-weighted fit
+
+15
+
+is shown as the dashed curve in Fig. 2. In addition to the difference in the charm threshold region, the equally-weighted fit prefers larger Rhad values in the region W = 1-3.6 GeV and in the region W ? 10 GeV. In the W = 2:6-3.6 GeV region, the 15% normalization uncertainties of the DASP and PLUTO measurements pull the correctly-weighted fit to smaller Rhad values than those preferred by the 20% MARK I and flfl2 measurements. Since the flfl2 data extend to 1.42 GeV and are correlated by the large normalization uncertainty, the correctly-weighted fit is pulled to smaller Rhad values in the 1-2.6 GeV region. The use of the precise determination of Rhad at W = MZ is responsible for the Rfit difference in the high energy region. The Rfit differences in the W regions 1-3.6 GeV, 3.6-6.0 GeV, and 8.0 GeV-1 lead to \Delta ffhad differences of 0.0003, 0.0004, and 0.0005, respectively. The contribution of the three resonances in the charm threshold region is discussed in Section 2.4 and is found to be 0.0002, approximately one half of the discrepancy in the 3.6-6.0 GeV region. We conclude that we have identified the largest part of the discrepancy and have validated our technique.
+
+The experimental uncertainty given in equation (20) is also smaller than the corresponding one given in Ref. 4. The authors of Ref. 4 evaluated their uncertainty by assigning normalization uncertainties in several W regions and adding them in quadrature. They assessed the following uncertainties: 20% in the region 1 GeV! W ! 2:3 GeV, 10% in the region 2.3 GeV! W ! 12 GeV, and 3% in the region W ? 12 GeV. Note that the normalization uncertainty changes discontinuously at the boundaries of each region. The large uncertainties at small W are moderated by the fact that most of the integral accrues in the high energy region. Our use of Rhad(MZ ) essentially eliminates the experimental uncertainty in the region W ? 15 GeV. The Crystal Ball data constrain the uncertainty in the region between c-quark threshold and b-quark threshold to be approximately one half of that assumed in Ref. 4. Below charm threshold, the normalization uncertainty increases from 15% near 3 GeV to 20% below 2 GeV. Since we require that Rfit be a continuous (and reasonably smooth) function, the normalization uncertainty is required to vary smoothly as W decreases. The better measured larger W regions
+
+16
+
+constrain the uncertainty at the smaller W regions. 2.3 The ss+ss\Gamma and K+K\Gamma Final States
+
+The processes e+e\Gamma ! ss+ss\Gamma and e+e\Gamma ! K+K\Gamma are described by the electromagnetic form factors, Fss(s) and FK (s), which are related to the hadronic cross section ratio Rhad for each process as follows,
+
+Rss
+
++ss\Gamma
+
+had (s) = 14 jFss(s)j2fi3ss; RK
+
++K\Gamma had (s) = 14 jFK (s)j2fi3K ; (21)
+
+where fiss and fiK are the velocities of the final state particles in the e+e\Gamma centerof-mass frame. It is clear that measurements of the form factors are equivalent to measurements of Rhad.
+
+Measurements of the square of the pion form factor jFssj2 have been performed by the OLYA,
+
+[7] CMD, [7] TOF, [9] NA7,[8] _ss,[12] MEA, [14] M2N, [10], DM1,[11]
+
+and DM2
+
+[13] Collaborations and are shown in Fig. 3. The error bars include the
+
+normalization uncertainties which range from about 2% in the region around the (dominant) ae resonance to about 12% at W ' 2 GeV.
+
+The data are fit to a function which is a sum of the Gounaris-Sakurai form
+
+[44]
+
+used by Kinoshita, Nizic, and Okamoto
+
+[45] and three resonances,
+
+Fss(s) = A1 \Gamma m
+
+2ssA2
+
+A1 + A2q2 + f (s) +
+
+3X
+
+n=1
+
+BneiCnm2n s \Gamma m2n + imn\Gamma n ; (22)
+
+where: A1 and A2 are free parameters; mss is the pion mass; q and f (s) are defined as follows,
+
+q j qs=4 \Gamma m2ss
+
+f (s) j 1ss hm2ss \Gamma s3 i + 2q
+
+3
+
+ssps ln ^
+
+ps + 2q
+
+2mss * \Gamma i
+
+q3p
+
+s ;
+
+(23)
+
+and where mn, \Gamma n, Bn, and Cn are the mass, width, amplitude, and phase of each resonance. The mass and width of the first resonance were set to those of
+
+17
+
+the !(782). All other parameters (12 in total) were allowed to vary. The weight matrix of the fit was constructed by assuming that all normalization uncertainties are 100% correlated (see equation (13)). The result of the fit is shown as a solid line in Fig. 3. The fit preferred a resonance of width 0.36 GeV at mass 1.2 GeV and a second resonance of width 0.16 GeV at mass 1.7 GeV. The fit quality is found to be excellent (O/2=dof = 116:7=128).
+
+Figure 3. Measurements of jFss(W )j2 are compared with the best fit which is shown as a solid line. The error bars include normalization uncertainties.
+
+To evaluate the sensitivity of the result to the parameterization, the complete function used by the authors of Ref. 45 was also fit to the data. This function did not fit the newest data from DM2 (at large W ) as well as our chosen form. Both functions were used to evaluate equation (5) from s = 4m2ss to s = 4 GeV2 (wherej
+
+Fssj2 is measured to be very small). We find the ss+ss\Gamma contribution to \Delta ffhad(M 2Z )
+
+18
+
+to be
+
+\Delta ffss
+
++ss\Gamma
+
+had (M 2Z ) = 0:003087 \Sigma 0:000051(exp) \Sigma 0:000121(param): (24)
+
+The two techniques for the estimation of the experimental uncertainty (discussed in Section 2.2) yielded consistent results in this case.
+
+The result given in equation (24) differs from the corresponding result given in Ref. 4 mostly because of the inclusion of the large-W DM2 data which decrease more sharply with energy than the extrapolated tail of the function that was fit to the lower-energy data. The uncertainty quoted by the authors of Ref. 4 corresponds to the fractional uncertainty on the leptonic width of the ae.
+
+Measurements of the square of the kaon form factor jFK j2 have been performed by the OLYA,
+
+[15] CMD, [16] MEA,[14] DM1,[17] and DM2 [18] Collaborations
+
+and are shown in Fig. 4. The data span the OE(1020) resonance and continue to W = 1:8 GeV where RK
+
++K\Gamma
+
+had is less than 0.01. The normalization uncertainty
+
+on the CMD measurements is 6%. The other groups do not report normalization
+
+uncertainties. Early jFssj2 measurements suffered from the same problem of unreported normalization uncertainties. A bit of historical research shows that the normalization uncertainties were usually not included in the point-to-point errors. We therefore arbitrarily assign a 20% systematic normalization uncertainty to all unreported cases. The data and total uncertainties are shown in Fig. 4.
+
+The data are fit to a function which is a sum of a Breit-Wigner resonance with an energy-dependent width for the OE and four resonances,
+
+FK (s) = A1s \Gamma m
+
+OE + imOE\Gamma OE(s) +
+
+4X
+
+n=1
+
+BneiCn s \Gamma m2n + imn\Gamma n ; (25)
+
+where: A1 is the amplitude of the OE; mOE is the mass of the OE(1020); mn, \Gamma n, Bn, and Cn are the mass, width, amplitude, and phase of the resonances. The energydependent width \Gamma OE(s) is assumed to consist of contributions from the K+K\Gamma ,
+
+19
+
+KLKS , and 3ss final states,
+
+\Gamma OE(s) = \Gamma 0OE ( psm
+
+OE "0:497
+
+fi3+(s) fi3+(m2OE) + 0:347
+
+fi30(s) fi30(m2OE) # + 0:156G
+
+OE 3ss(s)) ; (26)
+
+where: \Gamma 0OE is the nominal value
+
+[6] of the OE width, fi+(s) = q1 \Gamma 4m2
+
+K+=s is the
+
+velocity of the charged kaon, fi0(s) = q1 \Gamma 4m2K0=s is the velocity of the neutral kaon, and GOE3ss(s) is a function which is normalized to unity at s = m2OE and is proportional to the decay rate for OE ! 3ss assuming aess dominance.
+
+[46]
+
+Figure 4. Measurements of jFK(W )j2 are compared with the best fit which is shown as a solid line. The error bars include normalization uncertainties.
+
+The masses and widths of the first two resonances were set to those of the ae(770) and !(782). Following the procedure of Ref. 18, the amplitude ratios B1=A1 and B2=A1 were constrained to the measured values and the phases were set to
+
+20
+
+zero. The mass, width, and amplitude of the OE were allowed to vary. The masses, widths, amplitudes, and phases of two larger mass resonances were free parameters. The weight matrix of the fit was constructed by assuming that all normalization uncertainties are 100% correlated (see equation (13)). The result of the fit is shown as a solid line in Fig. 4. The fit preferred a resonance of width 0.15 GeV at mass 1.39 GeV and a second resonance of width 0.22 GeV at mass 1.65 GeV. The fit quality is found to be adequate (O/2=dof = 74:1=49).
+
+To evaluate the sensitivity of the result to the parameterization, a second fit was performed with the amplitudes and phases of the ae and ! allowed to vary as free parameters. The fit quality improved marginally (O/2=dof = 69:6=45). Both functions were used to evaluate equation (5) from s = 4m2K+ to s = 3:24 GeV2. We find the K+K\Gamma contribution to \Delta ffhad(M 2Z ) to be
+
+\Delta ffK
+
++K\Gamma
+
+had (M 2Z ) = 0:000311 \Sigma 0:000030(exp) \Sigma 0:000009(param): (27)
+
+The two techniques for the estimation of the experimental uncertainty (discussed in Section 2.2) also yielded consistent results in this case. To account for the poor fit quality, the experimental uncertainty has been scaled by the factor 1.23.
+
+2.4 The Resonances
+
+The resonances comprise the remaining portion of the total e+e\Gamma cross section. The total cross section for each resonance can be represented by a relativistic BreitWigner form with energy-dependent widths,
+
+oeres(s) = 12ssm2 s\Gamma ee(s)\Gamma tot(s)(s \Gamma m2)2 + s\Gamma 2
+
+tot(s) ; (28)
+
+where: m, \Gamma ee, and \Gamma tot are the mass, electronic width, and total width of the resonance. In order to incorporate the Breit-Wigner cross sections described by equation (28) into equation (5), it must be scaled to the electromagnetic point
+
+21
+
+cross section, oe__(s) = 4ssff2(s)=3s, yielding the following expression,
+
+\Delta ffreshad(q2) = ff0q
+
+2
+
+4ss2 P
+
+1Z
+
+4m2ss
+
+ds oeres(s)ff2(s)[q2 \Gamma s] ; (29)
+
+which has the slightly unpleasant feature that it incorporates ff(s), the quantity that we are attempting to evaluate, into the integrand. Equation (29) is often written in the approximation, ff(s) ' ff0. Unfortunately, this overestimates \Delta ffhad(M 2Z ) by: 3% at the !(783), 5% at the J=(1S), and 7% at the \Upsilon (1S). To avoid this problem, we use the \Delta ffhad(s) parameterization given in Ref. 4 to generate a first-order estimate of ff(s) for use in equation (29).
+
+Equation (29) is evaluated for the !(782), OE(1020), -family, and \Upsilon -family resonances by performing a Simpson's rule integration over the interval m \Gamma 60\Gamma tot to m + 60\Gamma tot (the lower limit of the ! integration is the threshold for 3ss decay). The correction for electromagnetic decays is performed using the best estimate of the function Rfit(s) determined in Section 2.3. The energy-dependent electronic widths and the hadronic widths of the and \Upsilon resonances are assumed to scale as ps,
+
+\Gamma (s) = psm \Gamma 0; (30) where m is the mass of the resonance and \Gamma 0 is the nominal value of the width. The energy-dependent total hadronic width of the OE(1020) is given by equation (26). The width \Gamma 0had for the OE is adjusted to exclude the K+K\Gamma final state (discussed in Section 2.4). The energy-dependent total hadronic width of the !(782) is given by the following expression which assumes that all final states are ss+ss\Gamma , ss0fl, or ss+ss\Gamma ss0,
+
+\Gamma !(s) = \Gamma 0! ae psm
+
+! ^0:022
+
+fi3ss(s) fi3ss(m2!) + 0:085
+
+(1 \Gamma m2ss=s)3 (1 \Gamma m2ss=m2!)3 * + 0:893G
+
+!3ss(s)oe ; (31)
+
+where: m! is the mass of the !, \Gamma 0! is the nominal value
+
+[6] of the ! width, fi
+
+ss(s) =p
+
+1 \Gamma 4m2ss=s is the velocity of the charged pion, and G!3ss(s) is a function which is
+
+22
+
+normalized to unity at s = m2! and is proportional to the decay rate for ! ! 3ss assuming a constant matrix element (phase space weighting).
+
+The masses and widths used to evaluate equation (29) are taken from the 1994 Review of Particle Properties
+
+[6]. The results are listed in Table 1 along with those
+
+derived in Sections 2.3 and 2.4. The experimental uncertainties are evaluated by assuming that the uncertainties on the masses, total widths, electronic widths, and relevant branching ratios are uncorrelated. The parameterization uncertainties are evaluated by repeating the calculation with a constant-width, constant-mass BreitWigner cross section.
+
+Table 1: Summary of the various contributions to \Delta ffhad. Contribution W Region (GeV) \Delta ffhad(M 2Z ) ffi(\Delta ffhad)exp ffi(\Delta ffhad)param
+
+Continuum 1.0-1 0.021428 0.000724 0.000150
+
+ss+ss\Gamma 0.280-2.0 0.003087 0.000051 0.000121 K+K\Gamma 0.987-1.8 0.000307 0.000025 0.000009 Resonances !(a) 0.000305 0.000010 0.000003
+
+" OE(b) 0.000304 0.000011 0.000004 " (6 states) 0.001106 0.000059 0.000023 " \Upsilon (6 states) 0.000118 0.000005 0.000003
+
+Total 0.02666 0.00072 0.00019
+
+(a)Doesn't include ss+ss\Gamma final states. (b)Doesn't include K+K\Gamma final states.
+
+The only resonance entry in Table 1 that is directly comparable to a corresponding result in Ref. 4 is \Upsilon -family result which agrees well despite the use of ff2(s) in equation (29). The sum of our K+K\Gamma and OE entries is larger than the corresponding OE result of Ref. 4 by 16%. Taking the correction for ff(s) into account, this implies that continuum K+K\Gamma final states contribute about 20% of the OE contribution to \Delta ffhad(M 2Z ). Our -family result is larger than the result given in Ref. 4 by 2% even though it includes three additional states. As a cross check,
+
+23
+
+a repetition of the calculation with \Gamma 0had = \Gamma tot, ff(s) = ff0, the constant-width and mass Breit-Wigner function, and 1988 values of the resonance parameters did agree very well with the numbers given in Ref. 4.
+
+2.5 Final Result
+
+The various contributions to \Delta ffhad(M 2Z) are summarized and summed in Table 1. The resulting value,
+
+\Delta ffhad(M 2Z ) = 0:02666 \Sigma 0:00075; (32) differs by 2.6 (Ref. 4) standard deviations from the result given in Ref. 4 and by 1.9 standard deviations from the updated result given in Ref. 5. Including the leptonic contribution, we find ff\Gamma 1(M 2Z ) to be,
+
+ff\Gamma 1(M 2Z ) = 129:08 \Sigma 0:10; (33) where the uncertainties on the lepton masses contribute negligibly to the total uncertainty.
+
+3. Interpretation Since most electroweak calculations are based upon input parameters (ff0, MZ , and the Fermi coupling constant, GF ) that are measured at very different scales, the quantity ff(M 2Z ) enters into the calculation of most electroweak observables. To understand the effect of our result upon the Standard Model predictions for various electroweak observables, we have used the value of ff(M 2Z ) given in equation (33) with the ZFITTER 4.8 program of Bardin, et al.
+
+[47] to calculate: the mass of
+
+the W boson (MW ), the width of the Z boson (\Gamma Z), the ratio of the hadronic decay width of the Z to the (single species) leptonic decay width (R`), the treelevel total hadronic cross section at the Z pole (oe0had), the effective weak mixing
+
+24
+
+angle at the Z pole (sin2 `effW ), the ratio of the b_b decay width of the Z to the hadronic width (Rb), the ratio of the neutral and charged current cross sections in neutrino nucleon scattering (R* ), and the weak charge of the Cesium nucleus as measured in atomic parity violation experiments (QW (Cs)). The default value for \Delta ffhad(M 2Z ) in ZFITTER is the result of Ref. 4 with the result of Ref. 5 available as an option. The shifts in the observables at a top quark mass (mt) of 175 GeV and a Higgs boson mass (mH ) of 300 GeV from those calculated with the default value of \Delta ffhad(M 2Z ) are listed in Table 2. The shifts are also normalized to the current world-average experimental uncertainties on each quantity. It is clear that the interpretation of the current measurements of sin2 `effW is most affected and that the interpretation of the \Gamma Z and R` measurements is moderately affected.
+
+Table 2: Shifts in the predicted values of various electroweak observables using the value of \Delta ffhad(M 2Z ) given in equation (33) with the
+
+ZFITTER 4.8 program of Bardin et al.
+
+[47] The shifts are calculated at
+
+mt = 175 GeV and mH = 300 GeV.
+
+Observable Shift wrt Ref. 4 [Ref. 5] Shift/Exptl Error
+
+MW +40 [+30] MeV +0.22 [+0.17]
+
+\Gamma Z +1.9 [+1.4] MeV +0.50 [+0.37]
+
+R` +0.013 [+0.010] +0.33 [+0.25] oe0had(Z) \Gamma 0.004 [\Gamma 0.003] nb \Gamma 0.04 [\Gamma 0.03]
+
+sin2 `effW \Gamma 0.00074 [\Gamma 0.00055] \Gamma 1.8 [\Gamma 1.4]
+
+Rb \Gamma 0.00003 [\Gamma 0.00002] \Gamma 0.015 [\Gamma 0.010] R*(nc/cc) +0.0005 [+0.0004] +0.18
+
+QW (Cs) +0.163 [+0.122] +0.09 [+0.07]
+
+The effect on the interpretation of sin2 `effW can be made more clear by calculating the allowed range for the currently favored value
+
+[43] of the top quark mass,
+
+mt = 174 GeV, as the Higgs boson mass varies from 60 GeV to 1 TeV,
+
+sin2 `effW = 8?!?:
+
+0:2306; mH = 60 GeV 0:2315; mH = 300 GeV 0:2322; mH = 1 TeV.
+
+(34)
+
+25
+
+The current determination of sin2 `effW by the LEP Collaborations,
+
+[40] 0.2321\Sigma 0.0004,
+
+is consistent with the CDF top mass value and a heavy Higgs boson. The value of sin2 `effW extracted from the left-right cross section asymmetry in Z production by the SLD Collaboration,
+
+[48] 0.2294\Sigma 0.0010, is smaller than the light Higgs value by
+
+1.2 standard deviations.
+
+Table 3: The results of global MSM and S-T -U fits to the electroweak observables listed in Table 2.
+
+Parameter ff\Gamma 1(M 2Z )
+
+128:80 \Sigma 0:12 128:87 \Sigma 0:012 129:08 \Sigma 0:10
+
+Standard Model Fit mt (GeV) 172.6+10:2+16:3\Gamma 10:8\Gamma 18:1 169.7+10:3+16:4\Gamma 10:9\Gamma 18:3 161.4+10:4+17:0\Gamma 11:0\Gamma 19:4
+
+ffs 0.125\Sigma 0.005 0.125\Sigma 0.005 0.125\Sigma 0.005 O/2=dof 22.3/12 21.6/12 20.0/12
+
+S-T -U Fit S \Gamma 0.37\Sigma 0.23 \Gamma 0.31\Sigma 0.23 \Gamma 0.16\Sigma 0.22 T +0.27\Sigma 0.23 +0.27\Sigma 0.23 +0.28\Sigma 0.23 U \Gamma 0.20\Sigma 0.56 \Gamma 0.18\Sigma 0.56 \Gamma 0.14\Sigma 0.56 ffs 0.124\Sigma 0.005 0.124\Sigma 0.005 0.123\Sigma 0.005 O/2=dof 11.4/9 11.5/9 11.6/9
+
+We have performed a fit of the ZFITTER model to the current best measurements
+
+[40] of all of the quantities listed in Table 2 (the seven different observables that
+
+determine sin2 `effW are entered separately). The fit was performed with the parameter ff\Gamma 1(M 2Z ) constrained to 128.80\Sigma 0.12 (corresponds to the value of \Delta ffhad(M 2Z ) given in Ref. 4), 128.87\Sigma 0.12 (corresponds to the value of \Delta ffhad(M 2Z ) given in Ref. 5), and 129.08\Sigma 0.10. The full correlation matrix for the LEP measurements is included in the fit. The top quark mass and the strong coupling constant were allowed to vary as free parameters in a series of three fits with the Higgs boson mass set to: 60 GeV, 300 GeV, and 1 TeV. The results are listed in Table 3 for the mH = 300 GeV case. The extracted value of mt is sensitive to the choice of
+
+26
+
+Higgs mass. The range of sensitivity is indicated by the second set of errors as mH is varied from 60 GeV (lower value) to 1 TeV (upper value). Note that the use of our new value of ff(M 2Z ) decreases the extracted value of mt by 11 GeV [8 GeV] as compared with the result of Ref. 4 [Ref. 5] and slightly improves the quality of the fit.
+
+We have also performed a fit of the Peskin-Takeuchi S-T -U parameterization
+
+[49]
+
+to the best current measurements
+
+[40] of the quantities listed in Table 2. The parameters S, T , U , and ffs(M 2Z ) were allowed to vary as free parameters with ff\Gamma 1(M 2Z ) constrained to 128.80\Sigma 0.12, 128.87\Sigma 0.12, and 129.08\Sigma 0.10. The results are listed in Table 3 for the reference values of mt and mH taken to be 150 GeV and 1 TeV, respectively. The use of the new value of ff(M 2Z ) shifts the extracted value of S by +0.21 [+0.16] as compared with the result of Ref. 4 [Ref. 5].
+
+4. Conclusions We have reevaluated the hadronic part of the electromagnetic vacuum expectation value using the standard dispersion integral approach that utilizes the hadronic cross section measured in e+e\Gamma experiments as input. Previous analyses are based upon point-by-point trapezoidal integration which has the effect of weighting all inputs equally. We use a technique that weights the experimental inputs by their stated uncertainties, includes correlations, and incorporates some refinements. We find the hadronic contribution to \Delta ff(M 2Z ) to be,
+
+\Delta ffhad(M 2Z ) = 0:02666 \Sigma 0:00075; which leads to a value of the electromagnetic coupling constant at s = M 2Z ,
+
+ff\Gamma 1(M 2Z ) = 129:08 \Sigma 0:10:
+
+Our value of ff(M 2Z ) shifts the predicted values of a number of electroweak observables. The most affected is the effective weak mixing angle at the Z pole
+
+27
+
+which shifts by \Gamma 0.0007 [\Gamma 0.0006] from that predicted using the \Delta ffhad(M 2Z ) value of Ref. 4 [Ref. 5]. The best estimate of the top quark mass extracted from a global fit shifts by \Gamma 11 GeV [\Gamma 8 GeV] and the best estimate of the Peskin-Takeuchi S parameter shifts by +0.21 [+0.16].
+
+We note that the current generation of sin2 `effW measurements are likely to saturate the \Sigma 0.00026 uncertainty due to the \Sigma 0.10 uncertainty on ff\Gamma 1(M 2Z ). The best hope for improvement is for the BES Collaboration to make improved measurements of Rhad in the region W = 2 \Gamma 3:6 GeV. A modest set of measurements in this region with a normalization uncertainty ffiRhad=Rhad !, 5% would reduce the current uncertainty by a factor of two and would eliminate it as a limitation.
+
+Acknowledgements:
+
+This work was originally motivated by the Long Term Planning Study organized by the Division of Particles and Fields of the American Physical Society. As part of his attempt to penetrate the popular myths pertaining to the uncertainty on ff(M 2Z ), the author approached Michael Peskin who correctly pointed out that the only way to really understand the issues was to repeat the analysis. The author would like to thank Michael for his initial suggestion, his useful discussions and technical advice, and his comments on this manuscript. This work was supported by Department of Energy Contract No. DE-AC03-76SF00515.
+
+28
+
+REFERENCES 1. N. Cabibbo and R. Gatto, Phys. Rev. 124, 1577 (1961). 2. See G. Burgers and W. Hollik, CERN-TH-5131/88, August 1988, and CERN
+
+88-06, September 1988.
+
+3. F.A. Berends and G.J. Komen, Phys. Lett. 63B, 432 (1976); F. Jegerlehner,
+
+Z. Phys. C32, 195 and 425 (1986); B.W. Lynn, G. Penso, and C. Verzegnassi, Phys. Rev. D35, 42 (1987).
+
+4. H. Burkhardt, F. Jegerlehner, G. Penso, and C. Verzegnassi, Z. Phys. C43,
+
+497 (1989).
+
+5. F. Jegerlehner, Progress in Particle and Nuclear Physics, Vol 27, ed.
+
+A. Faessler, Pergamon Press, Oxford 1991, p. 32; F. Jegerlehner, Proceedings of the Theoretical Advanced Study Institute in Elementary Particle Physics, Boulder, 1990, ed. M. Cvetic and P. Langacker, World Scientific, Teaneck N.J. 1991, p. 476.
+
+6. Review of Particle Properties: L. Montanet, et al., Phys. Rev. D50, 1173
+
+(1994).
+
+7. CMD and OLYA Collaborations: L.M. Barkov, et al., Nucl. Phys. B256,
+
+365 (1985).
+
+8. NA7 Collaboration: S. Amendolia, et al., Phys. Lett. B138, 454 (1984). 9. TOF Collaboration: I.B. Vasserman, et al., Sov. J. Nucl. Phys. 33, 709
+
+(1981).
+
+10. M2N Collaboration: G. Cosme, et al., Phys. Rev. Lett. 48, 906 (1982). 11. DM1 Collaboration: A. Quenzer, et al., Phys. Lett. 76B, 512 (1978). 12. _ss Collaboration: G. Barbiellini, et al., Nuovo Cim. Lett. 6, 557 (1973). 13. DM2 Collaboration: D. Bisello, et al., Phys. Lett. 220B, 321 (1989).
+
+29
+
+14. MEA Collaboration: B. Esposito, et al., Phys. Lett. 67B, 239 (1977);
+
+B.Esposito, et al., Nuovo Cim. Lett. 28, 337 (1980).
+
+15. OLYA Collaboration: P.M.. Ivanov, et al., Phys. Lett. 107B, 297 (1981). 16. CMD Collaboration: G.V. Anikin, et al., IYF-83-85, August 1983. 17. DM1 Collaboration: B. Delcourt, et al., Phys. Lett. 99B, 257 (1981);
+
+G. Grosdidier, et al., LAL 80-35.
+
+18. DM2 Collaboration: D. Bisello, et al., Z. Phys. C39, 13 (1988). 19. G. Parrour, et al., Phys. Lett. 63B, 357 (1976). 20. G. Cosme, et al., Phys. Lett. 63B, 349 (1976); L.M. Kurdadze, et al., JETP
+
+Lett. 43, 643 (1986); L.M. Kurdadze, et al., JETP Lett. 47, 512 (1988).
+
+21. flfl2 Collaboration: C. Bacci, et al., Phys. Lett. 86B, 234 (1979). 22. V.A. Sidorov, Proceedings of the XVIIIth Conference on High Energy Physics,
+
+ed. N.N. Bogolubov, Tbilisi, 1976.
+
+23. MARK I collaboration: J.L. Siegrist, et al., Phys. Rev. D26, 969 (1982);
+
+J.L. Siegrist, SLAC-Report No. 225, October 1979.
+
+24. DASP Collaboration: R. Brandelik, et al., Phys. Lett. 76B, 361 (1978);
+
+H. Albrecht, et al., Phys. Lett. 116B, 383 (1982).
+
+25. PLUTO Collaboration: J. Burmeister, et al., Phys. Lett. 66B, 395 (1977);
+
+Ch. Berger, et al., Phys. Lett. 81B, 410 (1979).
+
+26. Crystal Ball Collaboration: Z. Jakubowski, et al., Z. Phys. C40, 49 (1988);
+
+C. Edwards, et al., SLAC-PUB-5160, January 1990.
+
+27. LENA Collaboration: B. Niczyporuk, et al., Z. Phys. C15, 299 (1982). 28. CLEO Collaboration: R. Giles, et al., Phys. Rev. D29, 1285 (1984). 29. CUSB Collaboration: E. Rice, et al., Phys. Rev. Lett. 48, 906 (1982). 30. DESY-Heidelberg Collaboration: P. Bock, et al., Z. Phys. C6, 125 (1980).
+
+30
+
+31. K.G. Chetyrkin and J.H. Kuhn, TTP-94-12, September 1994. 32. P. Burrows and Y. Ohnishi, private communication. 33. T. Sj"ostrand, CERN-TH-6488-92, May 1992. 34. HRS Collaboration: D. Bender, et al., Phys. Rev. D31, 1 (1985). 35. MAC Collaboration: E. Fernandez, et al., Phys. Rev. D31, 1537 (1985). 36. CELLO Collaboration: H.-J. Behrend, et al., Phys. Lett. B183, 407 (1987). 37. JADE Collaboration: W. Bartel, et al., Phys. Lett. 129B, 145 (1983); Phys.
+
+Lett. B160, 337 (1985); B. Naroska, et al., Phys. Rept. 148, 67 (1987).
+
+38. MARK J Collaboration: B. Adeva, et al., Phys. Rev. D34, 681 (1986). 39. TASSO Collaboration: R. Brandelik, et al., Phys. Lett. 113B, 499 (1982);
+
+M. Althoff, et al., Phys. Lett. B138, 441 (1984).
+
+40. D. Schaile, presentation at the 27th International Conference on High Energy
+
+Physics, Glasgow, Scotland 1994; A. Blondel, CERN-PPE/94-133, August 1994.
+
+41. S.G. Gorishny, A.L. Kataev, and S.A. Larin, Phys. Lett. B259, 144 (1991);
+
+L.R. Surgladze, M.A. Samuel, Phys. Rev. Lett. 66, 560 (1991); Erratum: ibid, 2416.
+
+42. W.J. Marciano, Phys. Rev. D29, 580 (1984). 43. F. Abe, et al., Phys. Rev. D50, 2966 (1994). 44. G.J. Gounaris and J.J. Sakurai, Phys. Rev. Lett. 21, 244 (1968). 45. T. Kinoshita, B. Nizic and Y. Okamoto, Phys. Rev. D31, 2108 (1985). 46. The form of the interaction Lagrangian for two vector fields (field tensors
+
+F _*1 and F _*2 ) and a pseudoscalar field OE is assumed to be L , F _*1 eF2_*OE=m1 where m1 is the mass of the parent particle.
+
+47. D. Bardin, et al., CERN-TH. 6443/92, May 1992.
+
+31
+
+48. K. Abe, et al., Phys. Rev. Lett. 73, 25 (1994). 49. M.E. Peskin and T. Takeuchi, Phys. Rev. Lett. 65, 964 (1990), and Phys.
+
+Rev. D46, 381 (1992).
+
+32
+

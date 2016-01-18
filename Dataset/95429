@@ -1,0 +1,154 @@
+
+
+ 12 Jun 1995
+
+Cavendish-HEP-95/04
+
+May 1995
+
+Resummed Predictions for the Structure Function F2 at Small x
+
+\Lambda
+
+F. Hautmann Cavendish Laboratory Department of Physics, University of Cambridge
+
+Cambridge CB3 0HE, UK
+
+Abstract We report the results of including resummed splitting functions in the QCD evolution equations at small x, and discuss the predictions that follow for the deep inelastic structure functions.
+
+\Lambda Talk given at the XXX Rencontres de Moriond, Les Arcs, March 1995.
+
+-1- 1. Introduction
+
+Present experiments at the HERA ep collider and fixed target accelerators probe deep inelastic lepton-hadron scattering in the region of low values of the Bjorken variable x [1-3]. As x decreases, the scattering process approaches the high-energy regime, in which the perturbative QCD dynamics is dominated by multiple gluon exchange, and described in leading order by the BFKL equation [4]. The question then arises of estimating quantitatively, in the kinematical region of the present machines, the size of the contributions embodied in the BFKL equation (and, possibly, in sub-leading corrections to it).
+
+The systematic use of high-energy factorization [5,6] has shown that these contributions can be recast in the form of an infinite resummation to all orders in ffS of classes of perturbative corrections to the anomalous dimensions and coefficient functions which enter in the renormalization group analysis. It is therefore possible to address phenomenological questions at small x by incorporating enhanced higher-order corrections in the QCD evolution equations. On this basis, an attempt to implement QCD evolution at small x beyond fixed perturbative order is in progress, and some results have already been published [7].
+
+In this paper we recall the main theoretical inputs to this calculational programme, and discuss the impact of small-x resummation on the predictions for the deep inelastic structure function F2.
+
+2. Scaling violation at small x
+
+Let us start by recalling the implications of the BFKL analysis for the scaling violation in deep inelastic scattering. In QCD perturbation theory the amount of scaling violation is controlled by the anomalous dimensions flab (a; b = qi; _qi; g; i = 1; : : : ; Nf ; Nf being the number of active flavours) as functions of the QCD coupling ffS and the moment variable ! conjugate to x in the Mellin-Fourier transform. It is known that in the limit ! ! 0, which probes the small-x region, the gluon anomalous dimensions flgb behave like ffS =! at one-loop level. In higher loops, multiple gluon exchange actually gives rise to whole towers of poles, as follows
+
+flab(!; ffS ) =
+
+1X
+
+k=1 `
+
+ffS
+
+! '
+
+k A(k)
+
+ab +
+
+1X
+
+k=0
+
+ffS `ffS! '
+
+k B(k)
+
+ab + O ff2S ` ff
+
+S
+
+! '
+
+k! (1)
+
+where the terms A(k) are referred to as the leading (L(x)) series, the terms B(k) as the nextto-leading series (NL(x)), and so on. The observation of Lipatov and collaborators [4] was that in fact, to the leading logarithmic accuracy L(x), gluon radiation satisfies factorization properties in terms of real and virtual vertex operators in the colour space, which allow one to write an integral equation for the gluonic off-shell amplitudes, and ultimately to obtain the resummation of the L(x) contributions to Eq. (1). The outcome is shown in Fig. 1, where different perturbative approximations to the leading anomalous dimension flL are compared with the resummed result. The summation of the perturbative !-poles builds up a branch-point singularity at a value !L = 4 ln 2 ffS Nc=ss, Nc being the number of colours (in Fig. 1 the moment variable has been rescaled in such a way that the branch point falls at 1=2). As ! decreases through !L, the real part of flL rises quickly until it saturates at the value 1=2. The study of the phenomenological consequences of this singularity structure
+
+-2- Figure 1: The BFKL anomalous dimension flL (real part), as a function of the rescaled moment variable _! j !=(8 ln 2 ffS Nc=ss).
+
+has been the object of much effort in recent years, and is also the first question we would like to address in the next Section.
+
+So much for the leading-order behaviour. However, as in any leading logarithmic approximation, one needs to control corrections in sub-leading orders to estimate the accuracy of the theoretical predictions and carry out quantitative comparisons of the theory with experiment. The issue of the sub-leading corrections at small x is particularly relevant if one wishes to describe the structure function F2 at resummed level, because F2 couples directly to quarks, and quarks start to contribute to the small-x logarithmic expansion (1)
+
+only in next-to-leading order (NL(x)). The calculation of the O iffS (ffS=!)kj contributions to the quark anomalous dimensions has been performed in Ref.[6], using a property of factorization of quark loops at fixed transverse momentum. The comparison of the resummed anomalous dimension and various perturbative truncations is shown in Fig. 2 for the case of the DIS factorization scheme. Note that next-to-leading resummation in the quark sector does not change the position of the singularity with respect to the leading-order case, but rather has the role of accelerating the approach to it, giving rise to positive definite corrections to the scaling violation. The second phenomenological question we want to address is therefore to what extent quark evolution affects the predictions for the structure functions at small x.
+
+3. Numerical results for the structure function F2
+
+The discussion above can be summarized looking at the QCD evolution equations in
+
+-3- Figure 2: The quark anomalous dimension flNL (real part) in the DIS factorization scheme, as a function of the rescaled moment variable _! j !=(8 ln 2ffSNc=ss).
+
+the flavour-singlet sector (flavour non-singlet components never get enhanced at ! ! 0)
+
+.fS
+
+.fg ! =
+
+flSS flSg
+
+flgS flgg !
+
+fS
+
+fg ! ; (2)
+
+where fg and fS are the gluon and the quark singlet density respectively. At small x, up to NL(x) accuracy, the gluon entries of the matrix kernel are given by flgg = flL + flj, flgq = (N 2c \Gamma 1)flL=(2N 2c ) + flffi, and the quark entries are flSg = flNL, flSS = (N 2c \Gamma 1) (flNL \Gamma ffS Nf =(3ss)) =(2N 2c ). By flj, flffi we denote gluonic next-to-leading contributions, which are only known up to two loops at present.
+
+The procedure we follow to study quantitatively the effect of enhanced higher-order contributions to QCD evolution at small x consists of matching the resummed kernels flL, flNL with fixed-order perturbation theory at one-loop [8] and two-loop [9] level, and solving the resulting evolution equations. Given a set of input distributions at a starting scale Q20, this procedure allows one to determine predictions for the parton densities at another scale Q2 which incorporate small-x dynamics effects as well as renormalization group effects. In particular, the running of the QCD coupling is included in a straightforward manner up to two-loop level, much in the same way as in standard perturbative calculations. We stress that it is essential to set up a procedure in which both kinds of effects are taken into account consistently, especially to analyze the HERA region, where one may expect them to give contributions of comparable order of magnitude.
+
+This matching procedure is obviously ambiguous by terms beyond two-loop order which
+
+-4- are sub-leading at small x. In particular, this applies to corrections around ! = 1, which control momentum conservation in higher loops. We choose to define the matching in such a way that the momentum sum rule is enforced to all loops. To this end, we consider two different prescriptions: one in which resummed higher-order expressions get multiplied by sub-leading factors of (1 \Gamma !), and another one in which their values at ! = 1 are subtracted off. One may interpret the band between the results obtained from these two different models as an estimate of the theoretical uncertainty on the resummed predictions due to unknown sub-dominant terms.
+
+The results for the parton densities can then be combined with appropriate coefficient functions, also resummed to the corresponding level of accuracy [6], to obtain predictions for the deep inelastic structure functions. In Fig. 3 we show the results for the structure function F2 [7] corresponding to the case of flat input parton distributions. We assume the
+
+Figure 3: Resummed predictions for the structure function F2. set MRSD00 [10] as starting distributions at Q20 = 4 GeV2, and compare fixed-order and resummed evolution. The curves labelled L(x) contain, in addition to the two-loop terms, the resummation of the BFKL contributions. For the curves containing also the next-toleading resummation we use the label NLQ(x), in order to remind the reader that only the quark sector is treated with next-to-leading accuracy, and therefore these predictions do not
+
+-5- represent the full next-to-leading result. We show results corresponding to the two models for momentum conservation described earlier, the subtractive model being identified by the label (H). For reference purposes we also report the 1993 ZEUS data [1].
+
+The overall observation is that the impact of small-x dynamics on the evolution of flat input distributions is large already in the HERA region. The resummed predictions (solid curves) are well above the two-loop ones (dashed curves). In particular, comparison of the L(x) and NLQ(x) curves shows that the largest contribution comes from the corrections to the quark anomalous dimensions. The structure function F2 in the HERA region is only moderately affected by the BFKL terms, and on the other hand gets large contributions from quark evolution at small x.
+
+Note that resummation effects set in over a relatively short evolution span in Q2. Fig. 3 illustrates the fact that, starting with flat input distributions at Q20 = 4 GeV2, one can observe a growth in the structure function already around Q2 = 8:5 GeV2 as a consequence of perturbative resummation. The rise is just about as steep as the behaviour which is being observed in the HERA data. However, a word of caution is needed in interpreting these results. Observe that the resummed results are rather sensitive to the matching prescription. This can be regarded as an indication that the logarithmic expansion at small x may still be subject to large corrections in the HERA region. One may then take a conservative attitude and interpret the difference between the two NLQ(x) curves, obtained with the two extreme matching prescriptions, as an estimate of the theoretical uncertainty associated with the present resummed predictions.
+
+As far as the L(x) accuracy is concerned, it is worth recalling that results qualitatively similar to the ones presented here were obtained earlier in the literature using an approach based on the numerical solution of the BFKL equation supplemented with phenomenological models to include renormalization group effects (such as running coupling). For instance, one of the first studies on gluon evolution at small x was performed by Kwiecinski in 1985 [11]. As to the effect of quark evolution, note that the onset of the behaviour discussed in this paper can already be seen numerically at fixed order in the study of Ref.[12]. In that case no resummation is involved, but one may note from the fixed-order predictions for F2 that the O(ff3S=!2) term in the quark anomalous dimension gives the dominant contribution to the rise at small x.
+
+The presence of large higher-order corrections raises the question of the stability of the logarithmic expansion at small x. One way to estimate this is to compare the relative contributions to the structure function from different orders of approximation. To this end, we take the difference between the L(x) result and the one-loop result, divided by the total, and then the difference between the NLQ(x) result and the L(x) result, again divided by the total. These ratios are plotted in Fig. 4 for a typical value of Q2 (Q2 = 50 GeV2). We observe that in the HERA region both ratios stay below the value 1=2, which corresponds, in each case, to the correction becoming as large as the lower-order result to which it is added, and are roughly of the same size. That is, resumming the next-to-leading logarithms at small x does not give a much larger effect than that due to lower-order (two-loop terms, leading logarithms at small x) contributions. One may take these facts as indications that, despite corrections tending to be large in this regime, the series can still be controlled perturbatively. It is also worth mentioning that, as Q2 increases, for any given value of x,
+
+-6- Figure 4: Relative contributions to the structure function F2 at small x. the dashed curve takes over at high enough Q2, that is, the normal perturbative behaviour is restored.
+
+We have so far referred to the case of flat input distributions. The evolution of steep input distributions, on the other hand, is not so strongly affected by small-x resummation of the kernels. We illustrate this in Fig. 5 for Q2 = 8:5 GeV2, where we assume the set MRSD\Gamma 0 [10] as starting distributions. We see that the difference between the resummed predictions and the fixed-order ones is less marked in this case. Observe also that, if the input is steeper, the sensitivity to different prescriptions for momentum conservation is reduced, and the associated uncertainty may be taken to be smaller. However, note that the 1993 HERA data [1,2] rather clearly disfavour an input as steep as MRSD\Gamma 0 (see Ref.[13] for an up-to-date review of parton distributions, and Ref.[14] for detailed fits, partially taking into account higher-order effects).
+
+4. Conclusions
+
+We have reported on a study of QCD evolution at small x beyond two-loop order. Our approach is based on the high-energy factorization analysis, which allows one to recast the BFKL terms and corrections to them in the form of an infinite resummation of perturbative contributions to the QCD anomalous dimensions, and to match them with conventional renormalization group effects in a consistent way to all orders in the strong coupling ffS .
+
+The quantitative impact of small-x resummation depends on the form of the input
+
+-7- Figure 5: The case of steep input distributions. The different curves are as in Fig. 3. parton distributions. We find that there are sizeable effects in the case of flat input, and that, in particular, small-x resummation can account for the rise of F2 being observed at HERA. The effects are reduced if the input is steep.
+
+The quality of the resummed predictions is at present affected by rather large uncertainties. On one hand, the calculation of the next-to-leading O iffS (ffS=!)kj corrections is not complete. On the other hand, models for momentum conservation in higher loops suggest that sub-dominant contributions may still be important in the HERA region.
+
+Acknowledgments. The work reported in this paper has been carried out in collaboration with R. K. Ellis and B. R. Webber. This research is supported in part by the UK Particle Physics and Astronomy Research Council and the EC Programme "Human Capital and Mobility", Network "Physics at High Energy Colliders", contract CHRX-CT93-0357 (DG 12 COMA).
+
+References 1. ZEUS Collaboration, preprint DESY-94-143. 2. H1 Collaboration, preprint DESY-95-006. 3. A.V. Kotwal, these Proceedings.
+
+-8- 4. L.N. Lipatov, Sov. J. Nucl. Phys. 23 (1976) 338;
+
+E.A. Kuraev, L.N. Lipatov and V.S. Fadin, Sov. Phys. JETP 45 (1977) 199; Ya. Balitskii and L.N. Lipatov, Sov. J. Nucl. Phys. 28 (1978) 822.
+
+5. S. Catani, M. Ciafaloni and F. Hautmann, Phys. Lett. 242B (1990) 97, Nucl. Phys.
+
+B366 (1991) 135, Phys. Lett. 307B (1993) 147.
+
+6. S. Catani and F. Hautmann, Phys. Lett. 315B (1993) 157, Nucl. Phys. B427 (1994)
+
+475.
+
+7. R.K. Ellis, F. Hautmann and B.R. Webber, Phys. Lett. 348B (1995) 582. 8. V.N. Gribov and L.N. Lipatov, Sov. J. Nucl. Phys. 15 (1972) 438, 675;
+
+G. Altarelli and G. Parisi, Nucl. Phys. B126 (1977) 298; Yu.L. Dokshitzer, Sov. Phys. JETP 46 (1977) 641.
+
+9. E.G. Floratos, D.A. Ross and C.T. Sachrajda, Nucl. Phys. B152 (1979) 493;
+
+G. Curci, W. Furmanski and R. Petronzio, Nucl. Phys. B175 (1980) 27; W. Furmanski and R. Petronzio, Phys. Lett. 97B (1980) 437; E.G. Floratos, C. Kounnas and R. Lacaze, Nucl. Phys. B192 (1981) 417.
+
+10. A.D. Martin, R.G. Roberts and W.J. Stirling, Phys. Lett. 306B (1993) 145. 11. J. Kwiecinski, Zeit. Phys. C29 (1985) 561. 12. R.K. Ellis, Z. Kunszt and E.M. Levin, Nucl. Phys. B420 (1994) 517. 13. R.G. Roberts, these Proceedings. 14. R.D. Ball, these Proceedings.
+

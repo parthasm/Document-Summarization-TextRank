@@ -1,0 +1,4361 @@
+1. Introduction
+
+
+The search for the top quark and the Higgs boson, the only as yet unobserved ingre-
+
+dients of the Standard Model (SM), is expected to dominate the area of particle physics
+
+in the coming years. While the Higgs boson has always been naturally associated to the
+
+breaking of the electro-weak symmetry, the recent experimental discovery that the top
+
+quark is heavier than the W and Z has led physicists to speculate that it also may be sen-
+
+sitive to physics on the electro-weak scale. For this reason, the theoretical determination
+
+of its physical properties in the context of the SM and their systematic comparison with
+
+experiment may reveal an underlying, more fundamental theory.
+
+One of the most efficient ways to study top quarks will be to pair-produce them in
+
+future very energetic e+e- colliders [1], through the reaction e+e- t¯t. In general,
+the leptonic nature of the target allows for clean signals. In addition, due to their large
+
+masses, the produced top quarks are expected to decay weakly (t¯
+t bW+¯bW-, with
+subsequent leptonic decays of the W ), before hadronization takes place; therefore electro-
+
+weak properties of the top can be studied in detail and QCD corrections can be reliably
+
+evaluated in the context of perturbation theory, when the energy of the collider is well
+
+above the threshold for t¯
+t production.
+
+Motivated by this type of experiments, Atwood and Soni presented in a recent paper
+arXiv: v1 12 Nov 93 [2] a phenomenological analysis for determining the magnetic and electric dipole moment
+
+form factors of the top quark. Such form factors are defined through the following Lorentz
+
+decomposition of the V t¯
+t vertex, where V represents a boson (a or Z in our case) coupled
+
+to the conserved leptonic current:
+
+i i
+V µ q µ q
+µ (q2) = µF V
+1 (q2) + F V
+2m 2 (q2) + µ5F V
+3 (q2) + 5F V
+4 (q2) (1.1)
+t 2mt
+
+where µ i [
+2 µ, ] and q2 = s, i.e. the Mandelstam variable associated to the squared
+
+energy of the center of mass. In the above decomposition, F V
+2 is the magnetic dipole
+
+moment (MDM) and F V
+4 is the electric dipole moment (EDM) form factor. In particular,
+
+1
+
+
+F
+2 defined at q2 = 0 is the usual definition of the anomalous magnetic moment. In the case
+
+of the top quark production, clearly q2 4m2. Within the SM the tree-level value for both
+t
+
+F V
+2 and F V
+4 is zero. F V
+2 becomes non-zero through one-loop quantum corrections, whereas
+
+F V
+4 , which violates CP , receives its first non-vanishing contributions at three loops [3].
+
+The upshot of the analysis of [2] was that the dependence of the differential cross section
+
+for the reaction e+e- t¯t on the real and imaginary (absorptive) parts of the MDM and
+EDM form factors, for an incoming photon or Z, can be singled out individually, through
+
+a set of optimally chosen physical observables. Clearly, the possibility of such a detailed
+
+experimental study of the top dynamics is attractive, and could provide valuable probes
+
+for new physics.
+
+The theoretical aspects of the situation are however not entirely clear. As it was
+
+pointed out already in the classic paper by Fujikawa, Lee, and Sanda [4], off-shell form
+
+factors of fermions are in general gauge dependent quantities. In the context of the R
+
+gauges, for example, a residual dependence on the gauge-fixing parameter survives in
+
+the final expressions of form factors, when q2 = 0 [5]. Obviously, in the case of e+e-
+
+annihilation into heavy fermions, the value of q2 must be above the heavy fermion threshold
+
+(q2 4m2, in our case). Consequently, the intermediate photon and Z are far off-shell,
+t
+
+and therefore, MDM and EDM form factors may in general be gauge-dependent and not
+
+suitable for comparison with experiment.
+
+A way out of this problem is to define gauge independent off-shell vertices using the
+
+pinch technique (PT). The PT was invented by Cornwall over a decade ago [6] and has
+
+since been applied to a variety of physical problems. The main idea of this method is to
+
+resum via a well-defined algorithm the Feynman diagrams contributing to an ostensibly
+
+gauge-invariant process (like an S-matrix element), in such a way as to form new gauge-
+
+independent proper vertices, and new propagators with gauge-independent self-energies
+
+and only a trivial gauge dependence - that of their tree level parts. In the context of
+
+QCD a gauge invariant gluon self-energy was derived, and its Schwinger-Dyson equation
+
+2
+
+
+constructed and solved for T = 0 [7], as well as finite T [8]. The plasmon decay rate was
+
+also calculated at finite T using the same method [9]. Later the QCD gauge invariant
+
+three-gluon vertex was calculated at one loop level and was shown to satisfy a simple QED-
+
+like Ward identity [10]. The subleading corrections to the self-energy were calculated by
+
+Lavelle [11]. Finally, the gauge-invariant four-gluon QCD vertex was constructed and
+
+its Ward identity derived [12]. The PT was first extended to the case of non-Abelian
+
+gauge theories with spontaneously broken gauge symmetry (with elementary Higgs) in the
+
+context of a toy field theory based on SU (2), and a gauge independent electro-magnetic
+
+form factor for the neutrino was constructed [13]. The complicated task of applying
+
+the P.T. in the electro-weak sector of the Standard Model was accomplished by Degrassi
+
+and Sirlin [14]. These last authors, in addition to deriving explicit expressions for the
+
+one loop gauge-invariant W W and ZZ self-energies, introduced an alternative description
+
+of the PT in terms of equal time commutators of currents. More recently [15], gauge
+
+independent W +W - and ZW +W - vertices were constructed in the context of the SM;
+
+they are related to the gauge-independent W-propagators introduced in [14] by a very
+
+simple Ward identity, and give rise to expressions for the W magnetic dipole and electric
+
+quadrupole moments, which, unlike previous treatments [16], are independent of the
+
+gauge-fixing parameter and infrared finite.
+
+In this paper we focus on the MDM form factor of the top quark. In particular:
+
+a. In the context of the SM we show that the conventionally defined form factor for the
+
+top quark is gauge dependent in the class of R gauges. The gauge dependence is formally
+
+expressed as a double integral over the usual Feynman parameters, and is proportional to
+
+q2m2
+t .
+M 4
+w
+
+
+b. We show how one can define a gauge independent MDM form factor using the PT.
+
+c. The gauge dependence found in (a) is computed and turns out to be numerically
+
+very strong; its presence distorts not only the quantitative but also the qualitative behavior
+
+of the answer obtained in (b). More specifically, unphysical thresholds are introduced,
+
+3
+
+
+the asymptotic behavior of the form factors as q2 is altered, and the numerical
+dominance of perturbative QCD, which is present in the gauge independent expressions
+
+of (b), is totally washed out. Of particular interest is the fact that the popular "unitary"
+
+gauge ( the limit of the R gauges as ) gives a completely wrong answer. This
+analysis indicates in retrospect that the gauge dependence established in (a) is a serious
+
+pathology and may lead to erroneous conclusions.
+
+d. We extract the real and imaginary parts of the gauge independent MDM form
+
+factors for incoming photon and Z (F
+2 and F Z
+2 , respectively), and evaluate them numeri-
+
+cally. We perform our computations for values of q2 comfortably above the threshold for
+
+top production, and we ignore therefore non-perturbative effects due to threshold dynamics
+
+[17]. It turns out that even though perturbative QCD provides in general the dominant
+
+contribution, the MDM form factor displays a high sensitivity to the Higgs mass. It is
+
+important to emphasize that the Higgs dependence of the MDM is actually stronger than
+
+that displayed by the e+e- t¯t cross section as a whole [18].
+The paper is organized as follows. In section 2 we review the S-matrix PT and discuss
+
+some of the more important results for our purposes. In addition, we briefly present
+
+Degrassi's and Sirlin's alternative formulation of the PT. In section 3 we perform an explicit
+
+calculation and determine the naive, gauge dependent expression for the MDM form factor.
+
+In section 4 we show how to use the pinch technique to define gauge independent t¯
+t and
+
+Zt¯
+t vertices, which give rise to gauge independent expressions for the MDM form factors.
+
+In section 5 we present a simple QED Ward identity relating the gauge independent t¯
+t
+
+vertex with the inverse top quark propagators, calculated in the Feynman gauge ( = 1).
+
+Section 6 contains the results of our gauge invariant MDM computations, and a discussion
+
+of their significance. We present our conclusions in section 7. Finally, in an Appendix, we
+
+list in detail the contributions of individual Feynman diagrams to the MDM form factors.
+
+
+
+
+
+4
+
+
+2. The Pinch Technique
+
+
+In this section we briefly review the S-matrix pinch technique. In particular, we
+
+outline the method of derivation of the gauge-independent proper self-energy of a gauge
+
+boson and comment on the technical differences that arise when PT is applied to a theory
+
+with symmetry breaking, like the electro-weak theory, as opposed to a theory like QCD.
+
+In addition, we present the main idea of Degrassi's and Sirlin's formulation of the pinch,
+
+and establish some of the notation we will use in the sequel.
+
+The PT is an algorithm that allows the construction of modified gauge independent n-
+
+point functions, through the order by order resummation of Feynman graphs contributing
+
+to a certain physical and therefore ostensibly gauge independent process (an S-matrix
+
+in our case). The simplest example that demonstrates how the P.T. works is the gauge
+
+boson two point function (propagator). Consider the S-matrix element T for the elastic
+
+scattering of two fermions of masses M1 and M2. To any order in perturbation theory T
+
+is independent of the gauge fixing parameter , defined by the free gluon propagator
+
+-gµ + (1 - )qµq
+q2
+µ (q) = (2.1)
+q2
+
+
+On the other hand, as an explicit calculation shows, the conventionally defined proper
+
+self-energy (collectively depicted in graph 1a) depends on . At the one loop level this
+
+dependence is cancelled by contributions from other graphs, like 1b and 1c, which do not
+
+seem to be of propagator type at first glance. That this must be so is evident from the
+
+form of T :
+
+T (s, t, M1, M2) = T1(t) + T2(t, M1, M2) + T3(s, t, M1, M2) (2.2)
+
+
+where the function T1(t) depends only on the Mandelstam variable t = -(^p1 -p1)2 = -q2,
+and not on s = (p1 + p2)2 or on the external masses. The propagator-like parts of graphs
+
+like 1e and 1f, which enforce the gauge independence of T1(t), are called "pinch parts".
+
+The pinch parts emerge every time a gluon propagator or an elementary three-gluon vertex
+
+5
+
+
+contribute a longitudinal kµ to the graph's numerator. The action of such a term is to
+
+trigger an elementary Ward identity of the form
+
+kµµ /k = (/p + /k - m) - (/p - m) (2.3)
+=S-1(p + k) - S-1(p)
+once it gets contracted with a matrix. The first term on the right-hand side of Eq. (2.3)
+
+will remove the internal fermion propagator - that is a "pinch" - whereas S-1(p) vanishes
+
+on shell. This last property characterizes the S-matrix PT we will use throughout this
+
+paper. Returning to the decomposition of Eq. (2.2), the function T1(t) is gauge invariant
+
+and unique, and represents the contribution of the new propagator. We can construct the
+
+new propagator, or equivalently T1(t), directly from the Feynman rules. In doing so it is
+
+evident that any value for the gauge parameter may be chosen, since T1, T2, and T3 are
+
+all independent of . The simplest of all covariant gauges is certainly the Feynman gauge
+
+( = 1), which gets rid of the longitudinal part of the gluon propagator. Therefore, the only
+
+possibility for pinching in this gauge arises from the four-momentum of the three-gluon
+
+vertices, and the only propagator-like contributions come from graph 1b.
+
+To explicitly calculate the pinching contribution of a graph such as 1b it is convenient
+
+to decompose the vertex in the following way, first proposed by 't Hooft. Group theory
+
+factors aside,
+
+µ = Pµ + Fµ (2.4)
+
+
+with
+
+P
+µ (q + k)gµ + kµg (2.5)
+
+and
+
+F
+µ 2qµg - 2qgµ - (2k + q)gµ (2.6)
+
+F satisfies a Feynman-gauge Ward identity:
+µ
+
+
+
+qF = [k2
+µ - (k + q)2]gµ (2.7)
+
+6
+
+
+where the RHS is the difference of two inverse propagators in the Feynman gauge. As for
+
+P (P for "pinch"), it gives rise to pinch parts when contracted with matrices
+µ
+
+
+gµ(q/ + /
+k) =gµ[(/p + q/ - m) - (/p - /k - m)] (2.8)
+=gµ[S-1(p + q) - S-1(p - k)]
+and
+g/
+k =g[(/p - m) - (/p - /k - m)] (2.9)
+=g[S-1(p) - S-1(p - k)]
+Now both S-1(p + q) and S-1(p) vanish on shell, whereas the two terms proportional to
+
+S-1(p - k) pinch out the internal fermion propagator in graph 1b, and so we are left with
+two "pinch" (propagator-like) parts and one "regular" (purely vertex-like) part:
+
+1 ig2 d4k
+pinch part = 2 × (- c ] (gµ
+2 A)[ (2)4 k2(k + q)2 ) (2.10)
+
+1 ig2 d4kS(p
+regular part = ( c ] - k)Fµ (2.11)
+2 A)[ (2)4 k2(k + q)2
+
+with cA the Casimir operator for the adjoint representation [ cA = N in SU (N ) ] and one
+
+factor of 2 for the two pinching terms from Eq. (2.8) and Eq. (2.9). When we add to the
+
+usual propagator graphs (in the Feynman gauge) the pinch contributions of Eq. (2.10),
+
+together with an equal contribution coming from the mirror-image graph of 1.b, we find
+
+the new gauge invariant self-energy ^
+µ(q), given by
+
+
+^
+µ(q) = (q2gµ - qµq)^(q) (2.12)
+
+where
+
+^
+(q) = -bg2 ln(-q2) (2.13)
+µ2
+
+and b = 11N is the coefficient in front of
+482 -g3 in the usual one loop -function. We see
+that the modified propagator has a gauge independent self-energy and only a trivial gauge
+
+dependence originating from the tree part given by Eq. (2.1). After all pinch contributions
+
+from graph 1.b have been allotted to the new gluon self-energy, the rest of graph 1.b,
+
+7
+
+
+namely the expression in Eq. (2.11), is genuinely vertex-like and must be added to the
+
+usual QED-like graphs (Fig.2a). The final gauge-invariant vertex ^
+a is given by
+
+
+d4kS(p
+^ i c c N d d4kS(p + q
+a = g2 [( A ) - k)Fµ+( A+ f ) - k)µS(p - k)]
+µ (2)4 2 k2(k + q)2 2 c f k2
+(2.14)
+
+where is the fermion representation matrix, df its dimension, and Cf its Dynkin index.
+
+If we now act on the ^
+a given in Eq. (2.14) with q and use Eq. (2.7) it immediately
+
+follows that ^
+a satisfies the following QED-like Ward identity:
+
+qµ ^
+aµ = a[(p) - (^p)] (2.15)
+
+with the usual quark self-energy in the Feynman gauge and ^
+p = p + q. [19] The
+
+application of the P.T. in a theory with spontaneous symmetry breaking like the Standard
+
+Model is significantly more involved [13,14]. The main reason is that the massive charged
+
+vector mesons couple to fermions with different masses, and therefore the elementary Ward
+
+identity of Eq. (2.3) gets modified to:
+
+/
+k = (/
+p + /
+k - m1) - (/p - m2) + (m1 - m2) (2.16)
+=S-1(p + k) - S-1(p) + (m1 - m2)
+The first two terms of Eq. (2.16) will pinch and vanish on shell, respectively, as they did
+
+before. But in addition a term proportional to m1 - m2 is left over. However, as it was
+shown in [13], any additional gauge-dependent contributions coming from Eq. (2.16) cancel
+
+exactly against contributions coming from graphs involving charged Goldstone bosons,
+
+whose couplings to fermions are also proportional to m1 - m2.
+Finally, we conclude this section with a brief presentation of an alternative formula-
+
+tion of the PT introduced in [14] in the context of the Standard Model. In this approach
+
+the interaction of gauge bosons with external fermions is described in terms of current
+
+correlation functions, i.e. matrix elements of Fourier transforms of time-ordered products
+
+of current operators [20]. This is particularly economical because these amplitudes au-
+
+tomatically include several closely related Feynman diagrams. When one of the current
+
+8
+
+
+operators is contracted with the appropriate four-momentum, a Ward identity is triggered.
+
+The pinch part is then identified with the contributions involving the equal-time commu-
+
+tators in the Ward identities, and therefore involve amplitudes in which the number of
+
+current operators has been decreased by one or more. A basic ingredient in this formula-
+
+tion are the following equal-time commutators, some of which we will also employ later in
+
+section 3:
+
+
+
+(x0 - y0)[J0 (x), Jµ(y)] = c2Jµ (x)4(x
+W Z W - y) (2.17)
+
+
+
+(x0 - y0)[J0 (x), Jµ(y)] =
+W W -Jµ3(x)4(x - y) (2.18)
+
+
+
+(x0 - y0)[J0W(x), Jµ(y)] = Jµ (x)4(x
+W - y) (2.19)
+
+with Jµ
+3 2(Jµ + s2Jµ
+Z ). On the other hand
+
+
+
+(x0 - y0)[J0 (x), Jµ (y)] = 0 (2.20)
+Vi Vj
+
+
+
+where Vi, Vj {, Z} To demonstrate the method with an example, consider the vertex
+µ shown in Fig.1b, where now the gauge particles in the loop are W s instead of gluons
+
+and the incoming and outgoing fermions are massless. It can be written as follows (with
+
+= 1):
+
+d4k
+µ = µ(q, k, (x)J (0)]
+24 -k - q) d4xeikx < f|T[J
+W W |i > (2.21)
+
+When an appropriate momentum, say k, from the vertex is pushed into the integral
+
+over dx, it gets transformed into a covariant derivative d acting on the time ordered
+dx
+
+product < f |T[J(x)J (0)]
+W W |i >. After using current conservation and differentiating
+with respect to the -function terms, implicit in the definition of the T product, we
+
+end up with the left-hand side of Eq. (2.18). So, the contribution of each such term is
+
+9
+
+
+proportional to the matrix element of a single current operator, namely < f |Jµ3|i >; this is
+precisely the pinch part. Calling P the total pinch contribution from the
+µ µ of Eq. (2.21),
+
+we find that
+
+P =
+µ -g3cIWW(Q2) < f|Jµ3|i > (2.22)
+
+where
+d4k 1
+Iij(q) = i ( ) (2.23)
+24 (k2 - M2)[(k + q)2 ]
+i - M2j
+Obviously, the integral in Eq. (2.23) is the generalization of the QCD expression Eq. (2.8)
+
+to the case of massive gauge bosons.
+
+
+
+
+
+3. Gauge dependence of the conventional MDM form factor.
+
+
+In this section we explicitly show that the MDM form factor extracted from the
+
+conventional vertex graphs, calculated in a general renormalizable (R) gauge, depends on
+
+the gauge-fixing parameter , and is therefore not suitable for comparison with experiment.
+
+We then isolate the gauge dependent contribution to the MDM originating from the vertex-
+
+like pinch parts of box graphs, calculated in the same class of gauges. It turns out that
+
+the latter gauge-dependent contributions to the MDM cancel exactly against the gauge-
+
+dependent parts of the conventional vertex graphs, thus giving rise to a gauge independent
+
+expression for the top MDM. It is important to emphasize that even though it has been
+
+proved [14] that the inclusion of the vertex-like pinch parts is necessary in order to define
+
+a gauge independent t¯
+t vertex, it has not been shown explicitly that the conventionally
+
+defined expression for the MDM is indeed gauge dependent. The obvious alternative (which
+
+we will show not to be true) is that, even though the usually defined vertex has an overall
+
+gauge dependence, its part proportional to µq could be fortuitously gauge independent.
+
+In addition, the explicit computation of the gauge dependence of the conventionally defined
+
+10
+
+
+MDM enables one to appreciate quantitatively the significance of the issue at hand. The
+
+tree-level vector-meson propagator µ(k)i in a general covariant gauge is given by
+
+k 1
+i µk
+µ (k) = [gµ - (1 - i) ] (3.1)
+k2 - iM2 k2
+i - M2i
+with i = w, z, , and M = 0. The propagator Dc(k) of the two charged Goldstone bosons
+
+is given by
+1
+Dc(k) = (3.2)
+k2 - wM2w
+and the propagator Dn(k) of the neutral Goldstone boson is
+
+1
+Dn(k) = (3.3)
+k2 - zM2z
+The propagator DH (k) of the physical Higgs particle is gauge-independent at tree-level
+
+1
+DH (k) = (3.4)
+k2 - m2H
+and therefore the graph of Fig.3.16 has no gauge-dependent contribution. Finally, we
+
+denote the quark propagators by
+
+
+1
+Sj(k) = (3.5)
+/
+k - mj
+with j = t, b, for top and bottom quarks. We further define c = cosW and s = sinW ,
+
+where W is the Weinberg mixing angle, = |Utb|2 for the modulus of the C.K.M. mixing
+between top and bottom [21], and CZ = 1 - 8s2
+3 - 5. Finally, the left-right projectors
+are given by PL,R = 1 5
+
+We denote by V (i)
+µ the -dependent parts of the graphs (i)
+µ , shown in Fig.3, with
+
+
+i = 1, 2, .., 16
+
+We use the identity
+
+
+( - 1) 1 1 1
+= [ ] (3.6)
+(k2 - M2)(k2 - M2) M2 k2 - M2 - k2 - M2
+11
+
+
+in order to isolate the -dependent parts of the graphs. Gauge-dependent terms propor-
+
+tional to qµ are set to zero, when considered "sandwiched" between the on-shell target
+
+electrons. In what follows we omit the loop momentum integration symbol ( e )2 d4k ,
+2s2 24
+
+and we use dimensional regularization whenever necessary. We define the scalar quantities
+
+D1(i), D2(i), and D3(i) as follows
+
+1
+D1(i) = k2 -iM2i 1
+D2(i) = (3.7)
+[(k + q)2 - M2](k2 )
+i - iM2i
+1
+D3(i) = [(k + q)2 -iM2](k2 )
+i - iM2i
+Clearly, D2(i = 1) = D3(i = 1).
+
+The most involved graph is (1)
+µ of Fig.3, given by
+
+
+(1) =
+µ µ (k + q) (k)PLSb(k + p2) PL (3.8)
+
+
+Its w-dependent part V P (
+µ w) is given by
+
+
+
+V P
+µ (w) = q2[V 1P
+µ + V 2P
+µ + V 3P
+µ ] (3.9)
+
+
+with
+
+
+V 1P µPLSb(k + p2)[mtPR - mbPL]
+µ = (1 - w)[(k + q)2 -M2][(k +q)2 ](k2 )
+w - wM2w - M2w
+[m
+V 2P = (1 bPR - mtPL]Sb(k + p2)µPL (3.10)
+µ - w)[(k + q)2 -M2](k2 )(k2 )
+w - M2w - wM2w
+V 3P = (1
+µ - w)2 kµ[mbPR - mtPL]Sb(k + p2)[mtPR - mbPL]
+[(k + q)2 - M2w][(k + q)2 - wM2w](k2 - M2w)(k2 - wM2w)
+The superscript P in the formulas above stands for "pinch"; it hints to the fact that these
+
+contributions will eventually cancel against pinch parts coming from box graphs (see next
+
+section). It is important to notice the presence of the factor q2 in the r.h.s. of Eq. (3.9).
+
+Clearly, V P (
+µ w = 1) = 0.
+
+
+12
+
+
+The -dependent contributions V (i)
+µ from each individual graph (i)
+µ are:
+
+
+V (1) = V P ( .
+µ µ w) - V (2)
+µ - V (3)
+µ
+
+1
+V (2) = V (4)
+µ M µPLSb(k + p2)[mtPR - mbPL]D2(w) - µ
+w 2
+1
+V (3)
+µ = [m V (4)
+M bPR - mtPL]Sb(k + p2)µPLD2(w) - µ
+w 2
+2
+V (4) = k
+µ M 2 µ[mbPR - mtPL]Sb(k + p2)[mtPR - mbPL]D3(w)
+w
+
+
+
+
+V (5)
+µ =
+3M 2 µPLSb(k + p1)[mtPR - mbPL] - [mbPR - mtPL]Sb(k + p2)µPL
+w (3.11)
+
++ 2µPLD1(w) - V (8)
+µ
+
+
+
+1
+V (6) = [
+µ 3M 2 µC 2
+Z - 2mtµCZSt(k + p1)5 + 2mt5St(k + p2)µCZ]D1(z) - V (9)
+µ
+w
+
+V (7) =
+µ -U(3)
+µ
+
+1
+V (8)
+µ = ( )[m
+3 M 2 bPR - mtPL]St(k + p2)µSt(k + p1)[mtPR - mbPL]D1(w)
+w
+4 m2
+V (9) = ( t )
+µ 3 M 2 5St(k + p2)µSt(k + p1)5D1(z)
+w
+
+V (10)
+µ = 0
+
+The analogous -dependent contributions from the self-energy graphs (i)
+t of the external
+
+top quarks (Fig.(3)) are:
+
+
+
+
+
+V (11) =
+µ - 3M2 µPLSb(k + p1)[mtPR - mbPL] - [mbPR - mtPL]Sb(k + p2)µPL
+w
+
+
++ 2µPLD1(w) - V (14)
+µ
+
+
+
+
+1
+V (12)
+µ = - [
+3M 2 µC 2
+Z - 2mtµCZSt(k + p1)5 + 2mt5St(k + p2)µCZ]D1(z) - V (15)
+µ
+w
+
+4 3 1
+V (13)
+µ = -(1 - )( )
+3 µ k4
+
+13
+
+
+1
+V (14) = ( )
+µ 3 M 2 µSt(p1)[mbPR - mtPL]St(k + p1)[mtPR - mbPL]+
+w
+(3.12)
+
++[mbPR - mtPL]St(k + p2)[mtPR - mbPL]St(p2)µ D1(w)
+
+4 m2
+V (15) = ( t )[
+µ 3 M 2 µSt(p1)5St(k + p1)5 + 5St(k + p2)5St(p2)µ]D1(z )
+w
+
+V (16)
+µ = 0
+
+Adding the above equations together we see that 16 V (i) , so that
+i=1 µ = V P
+µ
+
+
+
+(w)
+µ = R
+µ |(w=1) + V P
+µ (w) (3.13)
+
+
+In the equation above R
+µ |(w=1) represents the "regular"(hence the superscript R), purely
+vertex-like contributions in the Feynman gauge (w = 1). The term "regular" or "purely
+
+vertex-like" refers to what is left from the vertex graphs, after the propagator-like pieces
+
+have been removed through pinching. (see Eq. (2.11) and Eq. (2.14))
+
+The calculation of the gauge dependence of the Zt¯
+t vertex µ proceeds in an analogous
+
+way. The final answer is exactly the same as in Eq. (3.13), except that one must replace
+
+V P
+µ by V PZ
+µ defined as
+
+
+V PZ = (q2 )[V 1P + V 2P + V 3P ], (3.14)
+µ - M2z µ µ µ
+
+
+e.g.
+
+(w) = R (
+µ µ |(w=1) + V PZ
+µ w) (3.15)
+
+
+It is important to notice the particular form of the gauge-dependent terms V P (
+µ w) and
+
+V PZ
+µ , namely that they are explicitly multiplied by q2 and q2 -M2z, respectively. As we will
+see in the next section, this is precisely the characteristic structure of vertex-like contri-
+
+butions originating from box graphs, after pinching. Moreover, the gauge-dependent parts
+
+vanish, when the incoming gauge bosons are on-shell (q2 = 0 and q2 = M 2, respectively),
+z
+
+as they should.
+
+14
+
+
+We next proceed to extract from Eq. (3.13) the form factor F (q2) proportional to
+
+µq. We use the Gordon decomposition
+
+1 i
+¯
+u(p µ q
+2)µu(p1) = ¯
+u(p + ]u(p
+2m 2)[(p1 + p2)µ 1) (3.16)
+t 2mt
+
+to convert terms proportional to (p1 + p2) into linear combinations proportional to
+µ µ
+
+and µq. The final answer is:
+
+
+F2(q2) = F2(q2)|(w=1) + f2(w, q2) (3.17)
+
+
+where F2(q2)|(w=1) originates from the first term in the r.h.s. of Eq. (3.13), whereas
+f2(w, q2) originates from the second one, and has the following closed form:
+
+2q2m2 1 1-x
+f t
+2(w, q2) = dx dy xR(1,
+M 2 w) + yR(w, 1) - (x + y)R(1, 1)+
+w 0 0
+
+m2 m2
+[ b (x + y) t + m2
+b (x + y)2][R(1, 1) + R(
+M 2 - w, w) - R(1, w) - R(w, 1)]
+w 2M 2
+w
+(3.18)
+
+with
+
+
+R(1, 2) = [(x + y)2m2t - q2xy - (x + y)(m2t + m2b) + x1M2w + y2M2w + m2b]-1 (3.19)
+
+Clearly, F2(q2) of Eq. (3.17) is w-dependent, through the explicit dependence of f2(w, q2)
+
+on w. This concludes the proof that the conventionally defined MDM form factor is
+
+gauge-dependent, for both an incoming photon or Z, and therefore unsuitable in general
+
+for comparison with experiment.
+
+It is interesting to mention that there is no contribution from either parts of Eq. (3.13)
+
+proportional to the CP violating term µq5. Therefore, the usual statement that there
+
+is no one-loop contribution to the EDM is indeed a gauge-independent one.
+
+
+
+
+
+15
+
+
+4. Gauge-independent MDM form factors via the PT
+
+
+
+In this section we show how the use of the PT can give rise to gauge-independent
+
+expressions for the MDM form factors, for both an incoming photon and Z. The important
+
+point is to recognize that the box-like graphs, like the one shown in Fig.2b, contain gauge-
+
+dependent contributions which are kinematically equivalent to a t¯
+t or a Zt¯
+t vertex. When
+
+all these contributions are added to the conventional vertex graphs, the gauge dependence
+
+cancels exactly.
+
+The only kinematically relevant box graph is the one with an intermediate W +W -
+
+pair, shown in Fig.2b . [22]. Its w-dependent contributions B are given by [23]
+
+
+
+B(w) = g2e-PLe+gµ[V 1P
+µ + V 2P
+µ + V 3P
+µ ] + ... (4.1)
+
+
+
+The dots in Eq. (4.1) indicate terms that belong to one of the following categories:
+
+a. Propagator-like, to be allotted to the , Z Z, and ZZ self-energies.
+
+b. Vertex-like of the form g2[V 1P
++ V 2P
++ V 3P
+]gµ¯
+tµPLt; the V 1P
+, V 2P
+and V 3P
+are
+
+given in Eq. (3.10) after replacing t e and b . These contribution can be combined
+with the conventional e+e- and Ze+e- vertex graphs to construct gauge-independent
+
+e+e- and Ze+e- vertices.
+
+c. Purely box-like, to be combined with the rest of the box graphs.
+
+Clearly, none of the categories listed above contributes kinematically to the MDM
+
+form factors.
+
+We now write the expression given in Eq. (4.1) as a linear combination of a e+e-
+
+and a Ze+e- bare vertex, using the simple identity
+
+
+g2 g2
+e+ e+
+4 µPLe- = g2s2e+µe- + 4 µ[PL - 4s2]e- (4.2)
+
+16
+
+
+so that B becomes (we omit the external e+ and e- spinors)
+
+
+g2s2µ ( g2 )µ[PL
+B = - [q2(V 1P 4 - 4s2][(q2
+q2 µ + V 2P
+µ + V 3P
+µ )] - q2 - M2 - M2z)(V 1P
+µ + V 2P
+µ + V 3P
+µ )]
+z
+
+g2s2µ ( g2 )µ[PL
+= - V P 4 - 4s2]V PZ
+q2 µ - q2 - M2 µ
+z
+(4.3)
+
+If we now add the first term on the r.h.s. of Eq. (4.3) to Eq. (3.13), and the second term
+
+to Eq. (3.15), we find the gauge-independent t¯
+t and Zt¯
+t vertices, ^
+µ and ^
+µ, respectively.
+
+They are simply
+
+^
+µ = R
+µ |(w=1) (4.4)
+
+and
+
+^
+µ = R
+µ |(w=1) (4.5)
+
+thus, the gauge-independent MDM form factor ^
+F (q2) is given by:
+
+
+^
+F (q2) = F (q2)|w=1 (4.6)
+
+
+for both incoming photon and Z.
+
+The gauge-independent t¯
+t and Zt¯
+t vertices given in Eq. (4.4) and Eq. (4.5) coincide
+
+with the the conventional vertex graphs of Fig.3, calculated in the w = 1 gauge, but with
+
+the propagator-like pieces of graph 3.1 removed through pinching. In particular, the gauge-
+
+independent MDM form factors can be obtained if one just calculates the conventional
+
+MDM form factors in that same gauge. This results may come as no surprise to the
+
+reader familiar with the PT. Indeed, as we explained in section 2, in calculating gauge-
+
+independent Green's functions (a vertex in our case) any gauge choice is as good as any
+
+other, as long as one identifies and judiciously allots the pinch contributions. If one decides
+
+to calculate the gauge-independent vertex in the w = 1 gauge, the only possibility for
+
+pinching comes from the three-boson vertex of graph 3.1, which gives rise to a propagator-
+
+like piece proportional to µPL. In particular, there are no pinch contributions (propagator
+
+17
+
+
+or vertex-like) coming from box graphs, since there are no longitudinal terms in the bare
+
+gauge boson propagators appearing in the boxes. Since the only term removed from the
+
+vertex has no part proportional to µq, and hence no contribution to the MDM, the
+
+answer for the gauge-independent MDM is obviously the one recorded in Eq. (4.6). The
+
+fact that the gauge-independent answer in the MDM case coincides with the result in the
+
+Feynman gauge is in a sense fortuitous, and is certainly not true in general. Indeed, several
+
+other gauge-independent modified Green's functions, constructed via the PT, turned out
+
+to be different from the corresponding result in the Feynman gauge, or any other popular
+
+gauge for that matter.
+
+Finally, we conclude this section with a comparison of the gauge-independent (w = 1)
+
+answer for the MDM, to the answers computed for different values of w, as given in
+
+Eq. (3.17) and Eq. (3.18). We chose mt = 130 GeV and MH = 150 GeV . The results
+
+shown in Fig.4 are rather impressive and convincingly demonstrate the importance of the
+
+issue at hand. Indeed, the residual gauge dependence is not just a theoretical nuisance,
+
+but has a huge impact on the predictions of the theory, affecting them both quantitatively
+
+and qualitatively. In Fig.3 the real part of the MDM form factor for an incoming photon
+
+is plotted as a function of s. The curve marked (a) is the gauge-independent answer,
+
+(b) corresponds to the gauge choice w = 10, (c) to w = 100, (d) to w = 1000, and
+
+(e) to the unitary gauge (w ) [24]. We see how the curves start approaching the
+unitary limit (e), as w becomes large. The gauge-dependent answers are typically at least
+
+one order of magnitude larger than the gauge-independent answer of (a). The reason for
+
+this artificial enhancement is the presence of the factor q2 in front of the expressions in
+M 2
+w
+
+Eq. (3.18), which is huge due to the massiveness of the top quark. Indeed, already at the
+
+threshold of top pair production, for mt = 130 GeV , we have that q2 = 4 m2t
+M 2 M 2 10.5. If
+w w
+
+instead of t¯
+t we considered b¯b production the corresponding factor would be of the order of
+
+10-2. The phenomenological implications of such an enhancement are clear. For example,
+
+any dependence of the final answer on the mass of the Higgs boson gets totally altered.
+
+18
+
+
+Because of the same reason, the asymptotic behavior of the MDM form factor in a generic
+
+R gauge is totally different than that of the gauge independent case; as we see from Fig.4,
+
+the MDM curves increase monotonically as s , whereas, on the contrary, the gauge-
+independent curve approaches zero. It is interesting to notice that within the entire class of
+
+R gauges, only the gauge-independent answer decreases asymptotically [25]. In addition,
+
+as we can see in curves (b) and (c), extra -dependent thresholds are introduced, which are
+
+artifacts and do not correspond to anything physical. Even though it is very unlikely that
+
+anyone would calculate in any of the finite gauges ( = 10, 100, 1000) considered above, it
+
+is important to realize that the popular unitary gauge (e) yields a totally wrong answer.
+
+The same is true for another popular gauge, the Landau gauge, with w = 0 (not shown).
+
+There, in addition to the usual artifacts, one has extra infrared divergences, due to the
+
+presence of massless poles.
+
+
+
+
+5. The Ward identity for the gauge-independent t¯
+t vertex
+
+
+In this section we prove a QED-like Ward identity, which relates the gauge-independent
+
+t¯
+t vertex ^
+µ to the top quark self-energy t in the Feynman gauge. The Ward identity is
+
+2
+qµ ^
+µ(p1, p2) = [
+3 t(p2) - t(p1)] (5.1)
+
+
+which is the one-loop generalization of the trivial tree-level result Qtqµµ = Qt[( /
+p2 -mt)-
+( /
+p1 - mt)], with Qt = 2 the electric charge of the top quark. It is important to emphasize
+3
+
+that it is only after the propagator-like contributions of graph (3.1) have been removed
+
+that the validity of Eq. (5.1) becomes possible. To see that, let us recall the decomposition
+
+of the tree-level W +W - vertex, given by Eq. (2.5) and Eq. (2.6). The graph (1)
+µ , in the
+
+Feynman gauge, is (we again omit the ( e )2 d4k factor in front):
+2s2 24
+
+
+1 1
+(1)
+µ = (P
+µ + F
+µ) PL P ] (5.2)
+/
+k - m L[
+b (k2 - M2)[(k + q)2 ]
+w - M2w
+19
+
+
+The part of Eq. (5.2) proportional to P
+µ , after pinching out the internal quark propa-
+
+gator, gives rise to propagator-like contributions, which, as explained in section 2, will be
+
+allotted to the self-energies of the incoming neutral gauge bosons (, ZZ, Z, Z). How-
+
+ever, unlike the QCD case, a residual contribution R survives, because the internal (b)
+µ
+
+and external (t) quarks have different masses. This extra contribution is
+
+R
+µ = {[mtPR - mbPL]Sb(k)µPL + µPLSb(k)[mbPR - mtPL]}
+(k2 - M2)[(k + q)2 ]
+w - M2w (5.3)
+= -((2) + (3))
+µ µ
+
+and cancels entirely against the contributions of graphs (2)
+µ and (3)
+µ . The above obser-
+
+
+vation is crucial for deriving Eq. (5.1). So, the purely vertex-like contribution (V L)
+µ from
+
+(1)
+µ is given by
+
+F
+(V L) µ PLSb(k)PL
+µ = (k2 -M2)[(k +q)2 ] - ((2)
+µ + (3)
+µ ) (5.4)
+w - M2w
+After these considerations, proving the Ward identity is rather straightforward. In
+
+that vein, it is far more convenient to act with qµ on each graph individually, instead of
+
+first calculating them, and then acting with qµ on the final answer.Using Eq. (2.7) we have:
+
+qµ[(V L) + (2) + (3)] = (1)
+µ µ µ t (p2) - (1)
+t (p1)
+
+qµ(4)
+µ = (4)
+t (p2) - (4)
+t (p1)
+1
+qµ(5) = [(1)(p (p
+µ -3 t 2) - (1)
+t 1)]
+
+2
+qµ(6) = [(2)(p (p
+µ 3 t 2) - (2)
+t 1)]
+2 (5.5)
+qµ(7)
+µ = [(3)
+3 t (p2) - (3)
+t (p1)]
+
+1
+qµ(8)
+µ = - [(4)
+3 t (p2) - (4)
+t (p1)]
+
+2
+qµ(9) = [(5)(p (p
+µ 3 t 2) - (5)
+t 1)]
+
+2
+qµ(10) = [(6)(p (p
+µ 3 t 2) - (6)
+t 1)]
+
+Adding the left and right hand sides of Eq. (5.5) we arrive at the advertised result. Clearly,
+
+pinching is instrumental for the validity of Eq. (5.1).
+
+
+
+
+20
+
+
+6. Calculations and results
+
+
+
+In this section we report the results of the numerical evaluation of the integrals listed
+
+in the Appendix. These integrals correspond to the vertex graphs of Fig.3, calculated in
+
+the = 1 gauge, which as we explained in section 4, coincides with the gauge-independent
+
+answer in the PT framework. In arriving at these expressions we used the on-shell con-
+
+ditions /
+p1 = /
+p2 = mt (or equivallently p21 = p22 = m2t), and the Gordon decomposition of
+
+Eq. (3.16).
+
+We have used very accurate integration routines contained in the Mathematica pack-
+
+age. Such routines can handle the singularities on the integration path which appear in the
+
+formulas. The stability of the numerical results has been tested against different choices
+
+of the parameters of the algorithm.
+
+In an attempt to stay close to the notation of [2], we denote by Re(C ) and Im(C)
+
+the real and imaginary parts of the MDM form factor for an incoming photon. Similarly,
+
+Re(CZ ) and Im(CZ ) denote the respective quantities for an incoming Z. The results are
+
+shown in Fig.5, Fig.6, and Fig.7. In what follows we always assume that the aforementioned
+
+quantities can be individually extracted from e+e- experiments, through the methods
+
+discussed in detail in [2]. In all our calculations mt 130 GeV , so the top is expected
+to decay before it can form a bound state [26], and therefore non-perturbative QCD
+
+effects should be numerically not very important. Even so, the one-loop QCD vertex
+
+corrections (graph 7 in Fig.3 with gluon) dominate in general the contribution of all
+other graphs. This dominance is due to the fact that the strong coupling s, although it
+
+is small enough for perturbation theory to be trusted, it is still significantly larger than
+
+both the electro-magnetic and the weak couplings, which multiply all other graphs. We
+
+used s = 0.1, = 1 , cos
+128 w = 0.885, Mw = 80.6 GeV , Mz = 91.1 GeV and
+
+mb = 4.5 GeV . In addition, in the computations we report, we always place ourselves
+
+sufficiently above the respective t¯
+t threshold, so that non-perturbative threshold effects
+
+21
+
+
+may also be omitted [27]. Of course, since the mass of the top is a free parameter which
+
+we vary in our computations, the location of the threshold (sthr = 4m2) is also variable.
+t
+
+
+In Fig.5, Re(C ), Im(C), Re(CZ ), and Im(CZ) are plotted as function of s for
+
+mt = 130 GeV and two different values for the mass of the Higgs: a light one (mH =
+
+150GeV ) and a heavy one (mH = 500GeV ). In Fig.6, Re(C), Im(C), Re(CZ ), and
+
+Im(CZ) are plotted as function of s with a heavier choice for the top mass, namely mt =
+
+200 GeV , and the same values for the Higgs masses as in Fig.5. Finally, in Fig.7 Re(C ),
+
+Im(C), Re(CZ ), and Im(CZ) are plotted as a function of mH , for two different values of
+
+the top mass, mt = 130 GeV and mt = 200 GeV . We fixed the value of s at 0.5 T eV ,
+
+exactly as in the analysis of [2]. It is important to notice that in all cases shown in Fig.5
+
+and Fig.6 the form factors approach zero, as s increases, at least for the range of the
+
+parameters that we have explored.
+
+As we see in Fig.5, both Re(C) and Im(C) are smooth functions of s slightly
+
+above s = 300 GeV for both values of mH . On the other hand both Re(CZ ) and Im(CZ)
+
+display a spike (peak) at around s = 600 GeV when mH = 500 GeV , whereas they are
+
+smooth and have no spikes when mH = 150 GeV . Exactly the same qualitative behavior
+
+is also displayed by the graphs of Fig.6; the only difference is an overall enhancement in
+
+the values of all quantities shown, since the top is now heavier. Finally, in Fig.7 both
+
+Re(C ) and Im(C) are smooth functions of mH ; on the contrary, Re(CZ ) and Im(CZ)
+
+are rather sensitive to the values of mH , especially if the mass of the top is large.
+
+The Feynman graph responsible for the behavior described above is the non-Abelian
+
+graph denoted by "special" in Fig.3 (and its mirror graph, not shown), which exists only
+
+if the incoming gauge boson is a Z. On the other hand, the Abelian graph in Fig 3.10,
+
+common to both incoming and Z, is of no particular importance. The importance of the
+
+"special" graph is due to the appearance of a threshold effect, as soon as the momentum
+s, carried by the incoming Z, reaches the critical value sc, given by sc = Mz + mH,
+
+namely the threshold for Z + H production (e+e- Z Z + H) [28]. It is now easy
+22
+
+
+to understand the behavior of Re(CZ ) and Im(CZ) in Fig.5(c,d) and Fig.6(c,d): in the
+
+first case (mt = 130 GeV ), for mH = 150 GeV we have sc = 241 GeV , which is below
+
+the t¯
+t production threshold sthr = 260 GeV . So, the threshold effect of the "special"
+
+graph does not show up in the plots. On the contrary, for mH = 500 GeV , we have
+
+that sc = 591 GeV , which gives the effect we observe in our plots, for both Re(CZ ) and
+
+Im(CZ). Exactly the same happens in the second case (mt = 200 GeV ), since the value
+
+of sc = 591 GeV is still larger than sthr = 400 GeV . Of course, the value of sc does
+
+not depend on the choices of mt; what depends on the value of mt is whether or not the
+
+HZ-threshold effect at sc appears in the plots.
+
+The threshold effect seen in both Fig.7c and Fig.7d is also due to the "special" graph.
+
+For a given value of s we expect a threshold effect as soon as mH = mH |thr = s - Mz,
+thus, for incoming s = 500 GeV one expects an effect at mH |thr = 500 GeV - Mz
+409 GeV ; this is indeed what we observe in Fig.7c and Fig.7d. In particular, the position
+
+of mthr remains unchanged as it should, for both values of m
+H t we examined. We emphasize
+
+that due to such threshold effect, some of our gauge-invariant form factors are much more
+
+sensitive to the value of the Higgs mass than the cross section as a whole [18]. For example,
+
+Re(CZ) of Fig.7c, for mt = 200 GeV (dark curve), changes from Re(CZ ) = -1.4 × 10-3
+at mH = 200 GeV to Re(CZ ) = -3.9 × 10-3 at mH = 400 GeV , a change of 280%.
+
+Based on what we said above about the ZH-threshold effect of the "special" graph,
+
+the following possibilities may come up, if one measured Re(CZ ) and Im(CZ) in the
+
+future (smax is the maximum energy of the collider):
+
+a) If 2mt - Mz < mH < smax, a threshold effect should appear in both Re(CZ)
+and Im(CZ) when plotted as a function of s, at a position sc = mH + Mz.
+
+b) If mH < 2mt - Mz or mH > smax, then no threshold effect should appear in
+either Re(CZ ) or Im(CZ , in the context of the SM. The second case is particularly interest-
+
+ing, especially in view of the current theoretical bias toward a relatively "light" Higgs. For
+
+23
+
+
+example if mH < 150 GeV , as favored by the Minimal Supersymmetric Standard Model,
+
+one should not see any HZ threshold effects, unless it turns out that mt < 120 GeV [29].
+
+c) If a threshold effect appears in one of Re(CZ ) or Im(CZ ) but not in the other, or if
+
+more than one threshold effect appears in either or both of them, this should be interpreted
+
+as a signal of physics outside the SM.
+
+It is important to keep in mind that if one calculates the form factors in a gauge-
+
+dependent way, i.e. without pinching, in some cases one gets wrong predictions of threshold
+
+effects, related to unphysical, gauge-dependent thresholds. In these cases, the difference
+
+between the gauge-independent and the gauge-dependent prediction becomes, of course,
+
+dramatic.
+
+
+
+
+
+7. Conclusions
+
+
+In this paper we addressed some of the theoretical issues involved in the computation
+
+of off-shell form factors in the context of the Standard Model. Such form factors can
+
+be extracted, at least in principle, from cross-sections in future e+e- experiments. In
+
+particular, we explicitly demonstrated that the conventionally defined MDM form factors
+
+of the top quark are gauge-dependent in the class of R gauges. Due to the massiveness of
+
+the top quark, this gauge dependence turned out to be numerically very strong. We used
+
+the S-matrix pinch technique to eliminate the gauge dependence, and defined a gauge-
+
+independent MDM form factor, suitable for comparison with experiment. We proved a
+
+simple QED-like Ward identity, satisfied by the gauge-invariant t¯
+t vertex costructed via
+
+the PT. Finally, we computed the gauge-independent MDM form factors and presented
+
+the results for both real and imaginary (absorptive) parts. A very interesting feature of
+
+such form factors is their high sensitivity to the value of the Higgs mass, which enters the
+
+formulas as a parameter. For this reason, assuming that the top quark will be discovered
+
+24
+
+
+and detected before the Higgs particle, the form factor we have analyzed in the present
+
+paper contains interesting information about the Higgs boson.
+
+Of particular interest for the study of CP violation will be the experimental measure-
+
+ment of EDM form factors in the future. As we mentioned in the introduction, there are no
+
+EDM contributions within the SM up to three loops, but several models predict non-zero
+
+EDM already at one-loop. We are currently investigating issues of gauge invariance in the
+
+context of some of those models, with focus on the EDM form factors, and will present
+
+our results elsewhere.
+
+
+
+
+8. Acknowledgements
+
+
+The authors thank Professor A. Sirlin for useful discussions. One of us (C.P.) thanks
+
+the Physics Department of the New York University for its hospitality during the early
+
+stages of this work. This work was supported in part by the National Science Foundation
+
+under Grant No..
+
+
+
+
+9. Appendix
+
+
+In this Appendix we list all the contributions to the magnetic form factor F (q2) of
+
+the top quark. Using the standard Feynman parametrization formula
+
+1 1 1-x 1
+= dx dy (9.1)
+ABC 0 0 [Ax + By + C(1 - x - y)]3
+and subsequently the convenient change of variables t = x + y, tz = x - y, we can cast
+the MDM contributions of the graphs in Fig.3 (except the one denoted "special") in the
+
+following form
+
+1 1
+F (q2) = m2 N V dt t AV dz L
+2 t (i) (i) + BV
+(i)t + CV
+(i)t2 (i)(t, z) (9.2)
+i 0 0
+
+
+25
+
+
+where L(i)(t, z) = L(t, z; m1, m2, q2).
+
+In what follows we will use the short-hand notation L(m1, m2). In order to identify
+
+the contributions to the magnetic form factor F (q2) and F Z(q2), which arise from the t¯
+t
+
+and the Zt¯
+t vertices respectively, the coefficients in Eq. (9.2) carry a vertex label V = , Z.
+
+Obviously the integrand functions L(i)(z) do not have such a label, as they do not depend
+
+on which gauge boson enters the vertex. In the following list, the contributions are listed
+
+in the same order as in Fig.3 and we use again the abbreviations s = sinW , c = cosW
+
+and = |Utb|2. In addition, we define L = (1 - 8s2).
+3
+
+
+
+
+
+3
+N = A = 0 B = 1 C = 1
+(1+2+3) 4s2 (1+2+3) (1+2+3) (1+2+3)
+
+L(1+2+3) = L(M 2 , m2) (9.3)
+w b
+
+
+
+
+
+3
+N = A = 2m2 = = m2
+(4) 8 M 2 (4) b B(4) -3m2b - m2t C(4) b + m2
+t
+ws2
+
+3 c 1
+N Z
+(4) = AZ BZ CZ + m2
+8 M 2 (4) = 2m2
+b (4) = -3m2b - m2t (4) = m2
+b t
+ws2 s - 2s c
+
+L(4) = L(M 2 , m2) (9.4)
+w b
+
+
+
+
+
+
+N = A = 2 B = = 1
+(5) 4 s2 (5) (5) -3 C(5)
+3 4 2
+N Z
+(5) = - AZ s2 BZ s2
+8 s3c (5) = -2 + 3 (5) = 3 - 2s2 CZ
+(5) = -1 + 3
+
+L(5) = L(m2, M 2 ) (9.5)
+b w
+
+
+
+
+
+1 32 8 32
+N = A = 2 B = s4 + s2 C = s4
+(6) -4 s2c2 (6) (6) -3 - 9 3 (6) L + 9
+
+26
+
+
+3
+N Z
+(6) = - AZ
+64 s3c3 (6) = 8 L BZ
+(6) = -L(L2 + 11) CZ
+(6) = L(L2 + 3)
+
+L(6) = L(m2, M 2) (9.6)
+t z
+
+
+
+
+
+8
+N = A = 0 B = = 1
+(7) -9 (7) (7) -1 C(7)
+1
+N Z
+(7) = -3 sc L AZ
+(7) = 0 BZ
+(7) = -1 CZ
+(7) = 1
+
+
+L(7) = L(m2, 0) (9.7)
+t
+
+
+
+
+
+
+N = A = 0 B = m2 C = m2 + m2
+(8) 8 M 2 s2 (8) (8) b - m2t (8) b t
+w
+
+3 2 2 8
+N Z = AZ = 0BZ = 4(1 s2)(m2 ) CZ = (1 s2)+ m2s2
+(8) -64 M2 (8) (8) - t -m2b (8) -4m2t - b
+ws3c 3 3 3
+
+L(8) = L(m2, M 2 ) (9.8)
+b w
+
+
+
+
+
+m2
+N = t A) = 0 B = 0 C = 1
+(9) -4M2 (9) (9) (9)
+ws2
+
+3 m2
+N Z t
+(9) = -32 M2 s3cL AZ
+(9) = 0 BZ
+(9) = 0 CZ
+(9) = 1
+w
+
+L(9) = L(m2, M 2) (9.9)
+t z
+
+
+
+
+
+m2
+N = t A = 0 B = 2 C =
+(10) 4 M 2 s2 (10) (10) (10) -1
+W
+
+3 m2
+N Z t
+(10) = 32 M2 s3cL AZ
+(10) = 0 BZ
+(10) = 2 CZ
+(10) = -1
+W
+
+3 m2
+N Z t
+(10) = 32 M2 s3cL AZ
+(10) = 0 BZ
+(10) = 2 CZ
+(10) = -1
+W
+
+L(10) = L(m2, M 2 ) (9.10)
+t H
+
+
+27
+
+
+For the "special" graph (last one in Fig.3) and its mirror graph (not shown) the original
+
+Feynman parametrization given in Eq 9.1 was maintained, since the change of variables
+
+(x, y) (t, z), used for all other graphs, is not convenient.
+Finally, the one-loop QCD contribution is obtained from Eq. 9.6, by multiplying by
+
+the factor s , where
+2 s is the QCD coupling at µ = Mz , namely
+
+
+N = [ s ]N
+QCD 2 (7)
+(9.11)
+N Z = [ s ]N Z
+QCD 2 (7)
+
+
+
+
+
+10. References.
+
+
+1. See for example, Burton Richter, in Proceedings of the 24th International Conference
+
+on High Energy Physics, Munich, Germany, 1988, edited by R Kotthaus and J. Kuhn
+
+(Springer, Berlin 1988). For a more recent review, see also P.M. Zerwas, preprint
+
+DESY 93-112, and references therein..
+
+2. D. Atwood and A. Soni Phys. Rev. D 45, 2405 (1992).
+
+3. For a review on extensions of the SM where EDM couplings appear already at the
+
+one-loop level see W. J. Marciano, in Proceedings of the Summer Study on CP Vio-
+
+lation, Upton, New York, 1990, edited by S. Dawson and A. Soni (World Scientific,
+
+Singapore, 1990), and references therein.
+
+4. K. Fujikawa, B. W. Lee, and A. I. Sanda Phys. Rev. D 6, 2923 (1972).
+
+5. A well known manifestation of this problem is the gauge dependence of the neutrino
+
+electromagnetic form factor and the mean square radius derived from it; see for
+
+example G. Degrassi, A. Sirlin, and W. J Marciano Phys. Rev. D 39, 287 (1989).
+
+6. J. M. Cornwall, in Deeper Pathways in High Energy Physics, edited by B. Kursunoglu,
+
+A. Perlmutter, and L. Scott (Plenum, NewYork, 1977), p.683.
+
+28
+
+
+7. J. M. Cornwall, Phys. Rev. D 26, 1453 (1982).
+
+8. J. M. Cornwall, W. S. Hou, and J. E. King, Phys. Lett. B 153, 173 (1988).
+
+9. S. Nadkarni, Phys. Rev. Lett 61, 396 (1988).
+
+10. J. M. Cornwall and J. Papavassiliou, Phys. Rev. D 40, 3474 (1989).
+
+11. M. Lavelle, Phys. Rev. D 44, 26 (1991).
+
+12. J. Papavassiliou, Phys. Rev. D 47, 4728 (1993).
+
+13. J. Papavassiliou, Phys. Rev. D 41, 3179 (1990).
+
+14. G. Degrassi and A. Sirlin, Phys. Rev. D 46, 3104 (1992).
+
+15. J. Papavassiliou and K. Philippides, to appear in Phys.Rev.D, November 1993.
+
+16. E. N. Argyres et al, Nucl. Phys. B 391, 23 (1993).
+
+17. M. J. Strassler and M. E. Peskin, Phys. Rev. D 43, 1500 (1991).
+
+18. W. Beenakker, S .C. van der Marck, and W. Hollik Nucl. Phys. B 365, 24 (1992).
+
+19. It is important to emphasize at this point that the gauge-invariant self-energies and
+
+vertices obtained by the application of the S-matrix pinch technique do not depend
+
+on the particular process employed (fermion + fermion fermion + fermion, fermion
++ fermion gluon + gluon, gluon + gluon gluon + gluon, etc.) and are in that
+sense universal. This fact can be seen in an explicit calculation, where one can be
+
+convinced that the only quantities entering in the definition of the gauge-independent
+
+self-energies and vertices are just the gauge group structure constants so that the only
+
+difference from process to process is in the external group matrices associated with
+
+external leg wave functions -due to the different particle assignments- which are, of
+
+course, immaterial to the definition of the things inside. A very instructive example
+
+of an explicit calculation, where two different processes give rise to exactly the same
+
+self-energy for the W gauge boson, is given in [14].
+
+20. A. Sirlin, Rev. Mod. Phys. 50, 573 (1978).
+
+29
+
+
+21. In what follows we set Uts and Utd equal to zero.
+
+22. All other box graphs either give zero pinch contributions (boxes with intermediate
+
+or Z [15]), or are proportional to the electron mass me (boxes with intermediate
+
+W +-, +W -, and +-); the latter should not be included in the definition of the
+
+MDM form factor, since they explicitly depend on the kinematic details of the target,
+
+namely the mass of the target fermions.
+
+
+23. See also [14].
+
+
+24. We have computed the result in the unitary gauge in two ways. First, we take
+
+the limit of the expression given in Eq. (3.18). Second, we perform the
+calculation for the MDM starting from the beginning with propagators of the form
+
+iµ(k) = [gµ - kµk ] 1 and no unphysical Goldstone bosons. The two results
+M 2 k2
+i -M2i
+turn out to be identical.
+
+
+25. The fact that all gauge-dependent MDM form factors are increasing functions of s
+
+does not mean of course that the unitarity of the S-matrix is violated. Indeed, when
+
+forming S-matrix elements and cross sections, the gauge-dependent MDM expressions
+
+of Eq. (3.17) and Eq. (3.18) mix with the MDM-like terms concealed in the box
+
+graphs, and conspire in such a way as to preserve unitarity. For this reason, the
+
+result obtained by the PT respects unitarity by itself, since all contributions that are
+
+kinematically akin to MDM have been extracted from the box graphs and already
+
+included in the calculation.
+
+
+26. I. Bigi, Y. Dokshitzer, V. Khoze, J. K¨
+uhn and P. M. Zerwas Phys. Lett. 181B, 157
+
+(1986).
+
+
+27. B. A. Kniehl and A. Sirlin Phys. Rev. D 47, 883 (1993);
+
+S. Fanchiotti, B. A. Kniehl and A. Sirlin Phys. Rev. D 48, 307 (1993).
+
+
+28. All other thresholds (W +W -, b¯b, etc) are well below the t¯t production threshold.
+
+30
+
+
+29. Of course in such a case the usual arguments about the non-hadronization of the
+
+produced tops will be invalidated, and non-perturbative QCD effects may become
+
+important.
+
+
+
+
+
+11. Figure Captions
+
+
+1) Graphs (a)-(c) are some of the contributions to the S-matrix T . Graphs (e) and
+
+(f) are pinch parts, which, when added to the usual self-energy graphs (d), give rise to a
+
+gauge-independent effective self-energy.
+
+2a) The two graphs defining the gauge-invariant vertex . The circle in the first
+µ
+
+graph indicates the F part of the three-gluon vertex.
+µ
+
+2b) Vertex-like pinch contributions from a box graph, in a general R gauge, with
+
+= 1.
+
+3) All the graphs contributing to the t¯
+t and Zt¯
+t vertices.
+
+4) The top quark MDM as a function of s, computed for several different values
+
+of the gauge-fixing parameter w (b,c,d,e), to be contrasted to the gauge-invariant answer
+
+shown in (a). The correspondance is as follows: w = 10 (b), w = 100 (c), w = 1000 (d),
+
+w (e).
+5) The case of a "light" top (mt = 130 GeV ), for two different choices of the Higgs
+
+boson mass: mH = 150 GeV , and mH = 500 GeV (darker curve). In particular:
+
+5a) Real part of MDM for an incoming ,
+
+5b) Imaginary part of MDM for an incoming ,
+
+5c) Real part of MDM for an incoming Z,
+
+5d) Imaginary part of MDM for an incoming Z.
+
+
+6) The case of a "heavy" top (mt = 200 GeV ), for the same two choices of the Higgs
+
+boson mass as in Fig.5 :
+
+31
+
+
+6a) Real part of MDM for an incoming ,
+
+6b) Imaginary part of MDM for an incoming ,
+
+6c) Real part of MDM for an incoming Z,
+
+6d) Imaginary part of MDM for an incoming Z.
+
+
+7) The dependence of MDM on the mass mH of the Higgs boson, for a "light" and a
+
+"heavy" top, at s = 500 GeV :
+
+7a) Real part of MDM for an incoming ,
+
+7b) Imaginary part of MDM for an incoming ,
+
+7c) Real part of MDM for an incoming Z,
+
+7d) Imaginary part of MDM for an incoming Z.
+
+
+
+
+
+32
+
+
+arXiv: v1 12 Nov 93
+arXiv: v1 12 Nov 93
+
+
+
+
+¤ ¤
+
+
+
+
+
+¦ ¦
+
+
+
+
+
+§
+
+¥
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+¨
+
+
+
+
+
+¢
+
+
+
+¢
+
+
+
+
+
+¤ ¤
+
+
+
+
+
+§
+
+¥
+
+
+
+
+
+£ £
+
+
+
+
+
+
+
+
+
+
+
+©
+
+
+
+
+
+¢
+
+
+
+
+
+¢
+
+
+
+
+
+£ £
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¢
+
+
+¢
+
+
+
+
+
+£ £
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arXiv: v1 12 Nov 93
+arXiv: v1 12 Nov 93
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+
+£ ¢
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¨
+
+¨
+
+
+
+
+
+!
+
+
+
+
+
+©
+
+©
+
+"
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+#
+
+
+
+
+
+$
+
+
+
+
+
+¥
+
+
+
+
+
+¦
+
+
+
+
+
+§
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¥
+
+
+
+
+
+¦
+
+
+
+
+
+§
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¦ § ¨ ¦ § ¨ ¦ § ¨
+
+
+
+
+
+¢ ¡
+
+
+
+
+
+¡ ¢ ¡ © © ¢
+
+
+
+
+
+£ ¤ ¥ £ ¥ £ ¥
+
+
+
+
+
+¦ § ¨ ¦ § ¨ ¦ § ¨
+
+
+
+
+
+¡ ¢
+
+
+
+
+
+© ©
+
+
+
+
+
+§ ¨ § ¦ § §
+
+
+
+
+
+
+
+
+
+
+
+© ©
+
+
+
+
+
+£ ¥ £ ¥ £ ¤ ! ¥
+
+
+
+
+
+§ § § §
+
+
+
+
+
+arXiv: v1 12 Nov 93arXiv: v1 12 Nov 93
+
+¦ § ¨ ¦ § ¨
+
+
+
+
+
+¨
+
+
+
+
+
+§ ¨ § ¦ § §
+
+
+
+
+
+
+
+
+
+
+
+
+© ©
+
+
+
+
+
+¨
+
+
+
+
+
+£ ¤ ¤ ¤ ¤ ¥ £ ¤ ¤ ¤ ¥ £ " # $ % & ' ( ¥
+
+
+
+
+
+§ § § §
+
+
+arXiv: v1 12 Nov 93
+arXiv: v1 12 Nov 93
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+¢ ¢
+
+¢
+
+
+
+
+
+£
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¥
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+
+
+
+
+
+(
+
+
+
+
+
+¥
+
+
+
+
+
+¦
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+§
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¨
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!
+
+
+
+
+
+%
+
+
+
+
+©
+
+
+
+
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+! !
+
+
+
+
+!
+
+
+
+!
+
+
+
+
+
+$
+
+&
+
+
+
+
+"
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # #
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¢
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥ ¤
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+¡ ¢ ¡ ¡ £ ¤
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¡ ¡ ¤
+
+
+
+
+
+¡
+
+
+
+
+
+£ ¦ ¡ ' £ ¤ ¡
+
+
+
+¡ ¢ ¡ ¡ ¡ ¤
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+
+
+
+
+
+
+£ ¦ ¡ ' ¤ ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+
+
+
+
+
+
+¥ ¡ ¡ ¦ ¡ ¡ § ¡ ¡ ¤ ¡ ¡ ¨ ¡ ¡ © ¡ ¡ ¡ ¡ ¡ ¡ £ ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+arXiv: v1 12 Nov 93arXiv: v1 12 Nov 93
+
+
+0 1 1 2
+
+
+
+
+
+) ¤
+
+
+¡ ¢ ¡ ¦ ¤
+
+
+
+
+
+¡ ¢ ¡ ¦
+
+
+
+
+
+¡ ¢ ¡ ¥ ¤
+
+
+
+
+
+¡
+
+
+
+
+
+¡ ¢ ¡ ¥
+
+
+
+
+
+£ ¦ ¡ ' £ ¤ ¡
+
+
+
+
+
+¡ ¢ ¡ £ ¤
+
+
+
+
+
+$ & $ &
+% (
+
+
+
+
+
+£ ¦ ¡ ' ¤ ¡ ¡
+
+
+
+
+
+$ & $ &
+% (
+
+
+
+
+
+¡ ¢ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+¡
+
+
+
+
+
+¥ ¡ ¡ ¦ ¡ ¡ § ¡ ¡ ¤ ¡ ¡ ¨ ¡ ¡ © ¡ ¡ ¡ ¡ ¡ ¡ £ ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1 ¢
+
+
+
+
+
+) ¤
+
+
+¡
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ¦
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ §
+
+
+
+
+
+
+
+
+
+
+
+£ ¦ ¡ ' £ ¤ ¡
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+
+
+
+
+
+
+£ ¦ ¡ ' ¤ ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¡ ¨
+
+
+
+
+
+
+
+
+
+
+
+¥ ¡ ¡ ¦ ¡ ¡ § ¡ ¡ ¤ ¡ ¡ ¨ ¡ ¡ © ¡ ¡ ¡ ¡ ¡ ¡ £ ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1 ¡
+
+
+
+
+
+) ¤
+
+
+¡ ¢ ¡ £ ¥
+
+
+
+
+
+¡ ¢ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¡
+
+
+
+
+
+¡
+
+
+
+
+
+£ ¦ ¡ ' £ ¤ ¡
+
+
+
+
+
+¡ ¢ ¡ ¡ ¨
+
+
+
+
+
+$ & $ &
+% (
+
+
+
+
+
+£ ¦ ¡ ' ¤ ¡ ¡
+
+
+
+
+
+$ & $ &
+% (
+
+
+
+
+
+¡ ¢ ¡ ¡ §
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+¡
+
+
+
+
+
+¥ ¡ ¡ ¦ ¡ ¡ § ¡ ¡ ¤ ¡ ¡ ¨ ¡ ¡ © ¡ ¡ ¡ ¡ ¡ ¡ £ ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1
+
+
+
+
+
+) ¤
+
+
+¡ ¢ ¡ §
+
+
+
+
+
+¡ ¢ ¡ ¡ ¦
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+¡
+
+
+
+
+
+¤ ¡ ¡ ' § © ¡
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+
+
+
+
+
+
+¤ ¡ ¡ ' © ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+
+
+
+
+
+
+¤ ¡ ¡ ¨ ¡ ¡ £ ¡ ¡ © ¡ ¡ ¥ ¡ ¡ ¡ ¡ ¦ ¡ ¡ ¡ ¡ § ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+arXiv: v1 12 Nov 93arXiv: v1 12 Nov 93
+
+
+0 1 1 2
+
+
+
+
+
+) ¥
+
+
+¡ ¢ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¨ ©
+
+
+
+
+
+¡ ¢ ¡ ¨
+
+
+
+
+
+¡
+
+
+
+
+
+¤ ¡ ¡ ' § © ¡
+
+
+
+
+
+¡ ¢ ¡ ¤ ©
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¤ ¡ ¡ ' © ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¤
+
+
+
+
+
+¡ ¢ ¡ § ©
+
+
+
+
+
+¡ ¢ ¡ §
+
+
+
+
+
+¡ ¢ ¡ ¡ ©
+
+
+
+
+
+¡
+
+
+
+
+
+¤ ¡ ¡ ¨ ¡ ¡ £ ¡ ¡ © ¡ ¡ ¥ ¡ ¡ ¡ ¡ ¦ ¡ ¡ ¡ ¡ § ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1 ¢
+
+
+
+
+
+) ¥
+
+
+¡
+
+
+
+
+
+¡ ¢ ¡ ¡ §
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ¨
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¡ ¡ ©
+
+
+
+
+
+
+
+
+
+
+
+¤ ¡ ¡ ' § © ¡
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+
+
+
+
+
+
+¤ ¡ ¡ ' © ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+¤ ¡ ¡ ¨ ¡ ¡ £ ¡ ¡ © ¡ ¡ ¥ ¡ ¡ ¡ ¡ ¦ ¡ ¡ ¡ ¡ § ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1 ¡
+
+
+
+
+
+) ¥
+
+
+¡ ¢ ¡ ¡
+
+
+
+
+
+¤ ¡ ¡ ' § © ¡
+
+
+
+
+
+¡ ¢ ¡ ¡ ¦
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¤ ¡ ¡ ' © ¡ ¡
+
+
+
+
+
+$ % & $ ( &
+
+
+
+
+
+¡ ¢ ¡ ¡
+
+
+
+
+
+¡ ¢ ¡ ¡ ¥
+
+
+
+
+
+¡
+
+
+
+
+
+¡ ¢ ¡ ¡ ©
+
+
+
+
+
+¡ ¢ ¡ ¡ £
+
+
+
+
+
+¡ ¢ ¡ ¡ ¨
+
+
+
+
+
+¡ ¢ ¡ ¡ ¤
+
+
+
+
+
+¡ ¢ ¡ ¡ §
+
+
+
+
+
+¡
+
+
+
+
+
+¤ ¡ ¡ ¨ ¡ ¡ £ ¡ ¡ © ¡ ¡ ¥ ¡ ¡ ¡ ¡ ¦ ¡ ¡ ¡ ¡ § ¡ ¡ ¡
+
+
+
+
+
+! "
+
+
+
+
+
+#
+
+
+
+
+
+0 1 1
+
+
+
+
+
+) ¥
+
+
+¡ ¨
+
+
+
+
+
+¡ §
+
+
+
+
+
+¡ ¦
+
+
+
+
+
+
+
+
+
+
+
+¡ ¥
+
+
+
+
+
+¢ ¤
+
+
+
+
+¡ ¤
+
+
+
+
+
+" #
+
+
+
+
+
+£
+
+
+
+
+
+" #
+
+
+
+
+
+¡ £
+
+
+
+
+
+¡ ¢
+
+
+
+
+
+
+
+
+
+
+
+£ ¥ § © ¢
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+arXiv: v1 12 Nov 93arXiv: v1 12 Nov 93
+
+
+$ ¨
+
+
+
+
+
+% & & '
+
+
+¡ £ ¦
+
+
+
+
+
+¢ ¤
+
+
+
+
+
+¡ £
+
+
+
+
+
+#
+"
+
+
+
+
+
+£
+
+
+
+
+
+#
+"
+
+
+
+
+
+¡
+
+
+
+
+
+¡ ¢ ¦
+
+
+
+
+
+¡ ¢
+
+
+
+
+
+¡ ¦
+
+
+
+
+
+
+
+
+
+
+
+£ ¥ § © ¢
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+$ ¨
+
+
+
+
+
+% & & ¢
+
+
+¡ ¢
+
+
+
+
+
+
+
+
+
+
+
+¡ ¢ ¦
+
+
+
+
+
+
+
+
+
+
+
+¡ £
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+
+¡ £ ¦
+
+
+
+
+
+
+
+
+
+
+
+¡ ¤
+
+
+
+
+
+
+
+
+
+
+
+¢ ¤
+
+¡ ¤ ¦
+
+
+
+
+
+#
+"
+
+
+
+
+
+
+
+
+
+
+
+£
+
+
+
+
+
+#
+"
+
+
+
+
+
+¡ ¥
+
+
+
+
+
+
+
+
+
+
+
+£ ¥ § © ¢
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+$ ¨
+
+
+
+
+
+% & & ¢
+
+
+¡ ©
+
+
+
+
+
+¡ ¨
+
+
+
+
+
+¢ ¤
+
+
+
+
+
+¡ §
+
+
+
+
+
+#
+"
+
+
+
+
+
+£
+
+
+
+
+
+#
+"
+
+
+
+
+
+¡
+
+
+
+
+
+¡
+
+
+
+
+
+¡ ¦
+
+
+
+
+
+¡ ¥
+
+
+
+
+
+¡ ¤
+
+
+
+
+
+¡ £
+
+
+
+
+
+¡ ¢
+
+
+
+
+
+£ ¥ § © ¢
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+$ ¨
+
+
+
+
+
+% & &
+
+
+Edinburgh U. 93/530
+NYU­TH­93/05/02
+
+November 1993
+
+
+
+
+
+¡ ¢ £ ¤ ¥ ¦ § ¡ ¨ ¥ ¡ ¦ © © ¢ ¡ ¨ ¨ ¡ © ¨
+
+
+
+
+
+¨ +- ¤ ¤¨¥ ¤¦©
+
+
+
+J. Papavassiliou1 and C. Parrinello2.
+
+
+
+
+1 Department of Physics, New York University, 4 Washington Place,
+New York, NY 10003, USA.
+
+2 Department of Physics, University of Edinburgh, Mayfield Road
+Edinburgh EH9 3JZ, Scotland, UK
+
+
+
+
+arXiv: v1 12 Nov 93
+
+
+ABSTRACT
+
+
+Motivated by the possibility of experimental determination of top quark form
+factors in upcoming e+e- experiments, as recently discussed by Atwood and
+Soni, we show at the one loop level that the conventionally defined magnetic
+dipole moment (MDM) form factor of the top quark is gauge dependent, in
+the class of renormalizable (R) gauges. We explicitly calculate its gauge
+dependence, which, due to the massiveness of the top quark, turns out to be
+numerically very sizable. We show how to use the S-matrix pinch technique
+in order to define gauge independent form factors. The real and imaginary
+parts of the gauge independent MDM form factor are calculated and their
+dependence on the top quark and Higgs boson masses is discussed. Most
+noticeably, the dependence on the Higgs mass turns out to be stronger than
+that of the cross section as a whole.
+
+
+

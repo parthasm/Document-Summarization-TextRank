@@ -1,0 +1,494 @@
+
+
+ 13 DEC 94
+
+BI-TP.94/60 December 1994
+
+QED RADIATIVE CORRECTIONS FOR
+
+PARTON DISTRIBUTIONS
+
+H. Spiesberger Theoretische Physik, Universit"at Bielefeld Universit"atsstrasse, D-33501 Bielefeld, Germany
+
+Abstract I discuss radiative corrections due to the emission of photons from quarks which contribute to deep inelastic lepton-nucleon scattering as well as to pp collisions at high energies. These corrections are dominated by quarkmass singularities which have to be absorbed into the parton distribution functions. Observable effects appear as a modification of the Q2 dependence of the distribution functions. Numerical results indicate, however, that these QED corrections are negligible except at extremely large Q2 and large x. Therefore it is safe to neglect the single and multiple photon effects in pp scattering at LHC energies.
+
+1
+
+1 Introduction High-energy scattering experiments with charged particles require the inclusion of electromagnetic radiative corrections due to the virtual and real emission of photons. These QED corrections are known to a high precision as far as they are related to radiation from leptons, as e.g. in the case of initial state radiation in e+e\Gamma annihilation (see, e.g. [1]) or in the case of leptonic corrections in deep inelastic lepton-nucleon scattering [2]. In processes involving charged hadrons in the initial or final state there are QED corrections related to photon emission from hadrons or their constituents. Photons originating from hadron decays or emerging during hadronization are usually modeled in Monte Carlo programs simulating the hadronic final state and are not considered in this paper. In the following I want to discuss the effect of photon radiation from quarks entering or leaving the underlying hard scattering process. I will show that the corresponding corrections are negligible, even at very high energies.
+
+In e+e\Gamma annihilation into hadrons, QED corrections of the type considered here appear as photon radiation from the final state quarks. Final state radiation does not pose a severe problem since as a consequence of the KLN theorem the corresponding corrections are small. The situation is different in deep inelastic scattering or in hadron collisions. In this case there are QED corrections related to the emission of photons from quarks in the initial state. These corrections contain mass singularities related to the initial state partons. Using dimensional regularization--as usual in QCD calculations--these mass singularities appear as poles in 1=(D \Gamma 4). If one regulates the mass singularities with the help of finite quark masses--as wide-spread in QED calculations--one finds terms proportional to ln m2q.
+
+In an early calculation of radiative corrections to charged current neutrino scattering by Kiskis [3], the author was worried by this fact, since it makes a large difference whether one uses mq = 350 MeV (a typical constituent quark mass) leading to ln _2=m2q ' 10:9 for _2 = M 2W , or mq = 5 MeV (a typical value for the current quark mass) leading to ln M 2W =m2q ' 19:4. Later, De R'ujula, Petronzio and Savoy-Navarro [4] have argued that the unphysical dependence on quark masses can be absorbed by a redefinition of parton distribution functions. This redefinition, or renormalization of parton distribution functions, is well-known in the calculation of QCD radiative corrections where in complete analogy to photon radiation the emission of gluons leads to mass singularities as well.
+
+The essential property of mass singularities is that they factorize [5], i.e. they can be written as a convolution of the parton-level Born cross-section oepartonBorn with a kernel K(,; _2) describing the effect of radiation and containing the mass-singular terms. Explicitly, for first-order corrections and omitting summation over parton types, the mass-singular part has the form
+
+ff 2ss Z
+
+1 x
+
+d,
+
+, f (,)K(,; _
+
+2)oepartonBorn (,p): (1)
+
+Here f (,) is a parton distribution function, p the momentum of the incoming hadron and , a dimensionless variable characterizing the amount of energy available for the
+
+2
+
+hard scattering process after radiation. The minimum of ,, ,min = x, is determined by the kinematics of the process. The energy scale _ (factorization scale) remains arbitrary unless the non-singular contributions are specified. Choosing _ to be a typical mass scale of the process, it is usually possible to avoid the appearance of large non-singular corrections. The lowest-order cross section is itself a convolution of parton cross sections with parton distribution functions,Z
+
+1 x
+
+d,
+
+, ffi(, \Gamma x)f (,)oe
+
+parton Born (,p): (2)
+
+Adding these contributions, one can absorb the mass-singular terms by a redefinition of the parton distribution functions:Z
+
+1 x
+
+d,
+
+, ffi(, \Gamma x) Z
+
+1 ,
+
+du
+
+u ^ffi(1 \Gamma u) +
+
+ff 2ss K(,=u; _
+
+2)* f (,=u)oepartonBorn (,p)
+
+= Z
+
+1
+
+x
+
+d,
+
+, ffi(, \Gamma x)f
+
+ren(,; _2)oepartonBorn (,p) (3)
+
+with renormalized distribution functions
+
+f ren(,; _2) = Z
+
+1
+
+,
+
+du
+
+u ^ffi(1 \Gamma u) +
+
+ff 2ss K(,=u; _
+
+2)* f (,=u): (4)
+
+The bare parton distribution functions f (,) are, in fact, not measurable. It is rather the renormalized distributions f ren that have to be identified with measured (i.e. finite) quantities. The appearance of mass singularities in unphysical quantities is an artifact of the perturbative treatment. By the redefinition Eq. (4), the mass singularities disappear from the observable cross section and the renormalized distribution functions become dependent on the factorization scale _2. The _2 dependence is controlled by the well-known Gribov-Lipatov-Altarelli-Parisi (GLAP) equations [6]. In deep inelastic scattering they are equivalent to the renormalization group equations for the Wilson coefficients and express the fact that observable effects are independent of the energy scale at which the distribution functions are renormalized. The solution of the GLAP equations corresponds to the resummation of all powers n of the leading logarithms ffns (ln _2)n.
+
+Since mass singularities are universal, i.e. independent of the process under consideration, the definition of renormalized parton distributions is also universal. Therefore it is possible to discuss the bulk of radiative corrections in terms of parton distribution functions. This will be true if there is only one large scale in the process (e.g. in inclusive deep inelastic scattering ep ! eX with x not small). Then radiative corrections which are not mass-singular cannot contain large logarithms.
+
+The above prescription for the treatment of mass singularities applies to both QCD and QED corrections. Taking into account QED corrections, the renormalization of parton distributions has to include terms due to the emission of photons from quarks, in addition to those due to the emission of gluons. Then, also the GLAP equations are modified by an additional term of the order of the electromagnetic fine-structure constant, ffe. Apart from small non-singular contributions,
+
+3
+
+the resulting modified scale dependence of parton distribution functions is the only observable effect of QED corrections in high-energy scattering of hadrons.
+
+The modification of the GLAP evolution equations by QED corrections has also been discussed in [7]. In this work, I will present and discuss numerical results for their solutions including terms of order O(ffe(ffs ln _2)n) for arbitrary n relevant for present and future experiments like at HERA or at LHC. Moreover, I will give a simple prescription to approximately take into account the QED corrections of valence parton distributions.
+
+The prescription to be described below applies to completely inclusive measurements of any process h1h2 ! X, i.e. where emitted photons are not restricted by energy or angle cuts to a specific phase-space region. Experimentally this means that no attempt is made to observe emitted photons. It is a more complicated task to derive cross sections for the production of isolated hard photons (see for example [8] and references therein). In this case, mass-singular contributions can be avoided by imposing isolation cuts. For a measurement of direct photon production without isolation cuts one has to absorb part of the mass-singular contributions into photon fragmentation functions describing the non-perturbative emission of collinear photons from partons.
+
+2 Formalism After having absorbed mass-singular terms into the parton distribution functions, qf (x; _2) for quarks with flavor f and G(x; _2) for gluons, the resulting dependence on the energy scale _2 at which the process probes the parton content of the hadrons is described by the GLAP evolution equations [6]. Using the scale variable
+
+t = ln _2=\Lambda 2; (5) they read
+
+d dt qf (x; t) =
+
+ffs(t)
+
+2ss Z
+
+1 x
+
+dz
+
+z hPq=q(z; t)qf(x=z; t) + Pq=G(z; t)G(x=z; t)i ; (6)
+
+d dt G(x; t) =
+
+ffs(t)
+
+2ss Z
+
+1 x
+
+dz
+
+z 24Xf PG=q(z; t)qf(x=z; t) + PG=G(z; t)G(x=z; t)35 : (7)
+
+To leading logarithmic accuracy (LLA), the splitting kernels Pi=j are scale independent and given by (see e.g. [10])
+
+4
+
+Pq=q(z) = CF " 1 + z
+
+2
+
+(1 \Gamma z)+ +
+
+3 2 ffi(1 \Gamma z)# ;
+
+PG=q(z) = CF 1 + (1 \Gamma z)
+
+2
+
+z ;
+
+PG=G(z) = 2NC " 1(1 \Gamma z)
+
++ +
+
+1 z + z(1 \Gamma z) \Gamma 2# + `
+
+11
+
+6 NC \Gamma
+
+1 3 Nf ' ffi(1 \Gamma z);
+
+Pq=G(z) = 12 hz2 + (1 \Gamma z)2i :
+
+(8)
+
+In the following, I restrict myself to the LLA and omit the argument t in Pi=j . The running strong fine-structure constant is given by
+
+ffs(t) = 1b
+
+0t ; b0 =
+
+33 \Gamma 2Nf
+
+12ss : (9)
+
+Note that the "+" distribution appearing in Eq. (8) is defined for the interval from 0 to 1: Z 1
+
+0 dzD+(z)f (z) = Z
+
+1 0 dzD(z) (f (z) \Gamma f (1)) ; (10) thus, if the integral is restricted to the range x ^ z ^ 1, an additional term f (1) ln(1 \Gamma x) has to be taken into account.
+
+The inclusion of QED corrections modifies the evolution equation for the charged parton distributions by an additional term:
+
+d dt qf (x; t) =
+
+ffs(t)
+
+2ss Z
+
+1 x
+
+dz
+
+z hPq=q(z; t)qf (x=z; t) + Pq=G(z; t)G(x=z; t)i
+
++ ffe(t)2ss Z
+
+1
+
+x
+
+dz
+
+z P
+
+fl q=q(z; t)qf (x=z; t)
+
+(11)
+
+where
+
+P flq=q(z) = e2f " 1 + z
+
+2
+
+(1 \Gamma z)+ +
+
+3 2 ffi(1 \Gamma z)# =
+
+e2f CF Pq=q: (12) Here the running electromagnetic fine-structure constant appears, which is given by
+
+ffe(t) = ff(0)1 \Gamma ff
+
+3ss Pf e2f (t \Gamma tmf )`(t \Gamma tmf )
+
+; (13)
+
+with tmf = ln(m2f =\Lambda 2) and ff(0) = 1=137:036 : : :. ef are the fermion charges in units of the positron charge and the fermion-mass thresholds have been approximated by the step function `(t \Gamma tmf ).
+
+It convenient to use the following combinations of parton distribution functions:
+
+U (x) = X
+
+gen (u(x) + _u(x)) ;
+
+D(x) = X
+
+gen id(x) +
+
+_d(x)j ;
+
+\Sigma (x) = U (x) + D(x); \Delta (x) = U (x) \Gamma D(x);
+
+(14)
+
+5
+
+where Pgen means summation over the generations. Then, denoting the convolution of splitting kernels with distribution functions by the symbol \Omega and the derivative with respect to the scale variable t by a dot, the evolution equations can be written as:
+
+.\Sigma = ffs2ss Pq=q \Omega \Sigma + 2Nf ffs2ss Pq=G \Omega G + ffe2ss P flq=q \Omega ` 518 \Sigma + 16 \Delta ' ;
+
+.\Delta = ffs2ss Pq=q \Omega \Delta + ffe2ss P flq=q \Omega `16 \Sigma + 518 \Delta ' ;
+
+.G = ffs2ss PG=q \Omega \Sigma + ffs2ss PG=G \Omega G:
+
+(15)
+
+In contrast to the pure QCD evolution, the non-singlet combination of parton distributions, \Delta (x), does not decouple from the singlet sector due to the different charges of up- and down-type quarks. For our purpose it is convenient to separate the solution of the equations without the QED term, i.e. to write
+
+\Sigma = \Sigma 0 + oe; \Delta = \Delta 0 + ffi; G = G0 + g (16) where \Sigma 0, \Delta 0, and G0 obey the evolution equations Eq. (15) with ffe = 0. oe, ffi, and g are corrections of relative order O(ffe). Neglecting terms of order O(ff2e), one obtains equations for the QED contributions to the parton distributions:
+
+.oe = ffs2ss Pq=q \Omega oe + 2Nf ffs2ss Pq=G \Omega g + ffe2ss P flq=q \Omega ` 518 \Sigma + 16 \Delta ' ; .ffi = ffs2ss Pq=q \Omega ffi + ffe2ss P flq=q \Omega `16 \Sigma + 518 \Delta ' ;
+
+.g = ffs2ss PG=q \Omega oe + ffs2ss PG=G \Omega g:
+
+(17)
+
+Note that although the gluons do not couple directly to photons, their distribution function is modified through higher-order contributions induced by their coupling to the quarks. The correction g is formally of order O(ffeffs). In Eqs. (17) the full ffs evolution of the QED contributions is kept.
+
+3 Numerical Results The equations Eqs. (17) lend themselves directly to an iterative numerical solution, given the QCD evolved solutions \Sigma 0(x; t) and \Delta 0(x; t). The use of Eqs. (15) would require initial conditions for qf (x; t0) and G(x; t0) at some reference scale t0 = ln(Q20=\Lambda 2). High precision and a stable numerical algorithm is needed if the small corrections of O(ffe) were to be determined directly from Eqs. (15) instead of Eqs. (17). Therefore it is preferable to use Eqs. (17). I checked my algorithm by comparing the solutions from these two equations. As an additional check, the algorithm was used to solve Eqs. (15) with ffe = 0 and initial conditions qf (x; t0) taken from one of the commonly used parametrizations of parton distribution functions, as provided for example by the program library PAKPDF [11]. The resulting
+
+6
+
+Q2 dependence of the pure QCD evolution was then compared with the Q2 dependence of the corresponding parametrization. In view of the fact that the available parametrizations are only approximate solutions of the GLAP equations having their own limited precision, the agreement between these different methods was remarkably good.
+
+The solution of the differential equations Eqs. (15) or (17) requires initial conditions, i.e. the knowledge of parton distribution functions at a reference scale _2 = Q20. The input distribution functions qf (x; Q20), G(x; Q20) have to be taken from experimental data which (with only a few exceptions) have not been corrected for radiative corrections due to photon emission from quarks. Consequently, the QED corrections oe, ffi, and g in Eqs. (17) have to vanish at the reference scale.
+
+In Figs. 1, 2, and 3, I show results for the corrections to the distribution functions U (x; Q2), D(x; Q2), G(x; Q2) and the structure function
+
+F p2 (x; Q2) = x ^ 518 \Sigma (x; Q2) + 16 \Delta (x; Q2)* (18) measured in deep inelastic electron-proton scattering at HERA. The figures show the QED corrections in per cent relative to the distribution functions obtained from the GLAP equations without the QED term. The input distributions were taken from [12] (set 1.1) since those parametrizations are fairly simple and the numerical solution of Eqs. (17) requires less computer time than for other parton distributions. The figures show small, negative corrections at the per-mille level for all values of x and Q2 relevant in forthcoming experiments. Only at large x ?, 0:5 and large Q2 ?, 103 GeV2 the corrections reach the magnitude of one per cent.
+
+The increase of corrections for x ! 1 is due to the ln(1 \Gamma x) terms appearing in the evaluation of the "+" distributions. Although large relative corrections are reached in this limit, they are of no practical relevance, since parton distributions and cross sections decrease as x ! 1 and to reach an experimental accuracy of a few per cent at large x will be very unlikely.
+
+The largest corrections are obtained for up-type quarks due to the larger charge factor 4=9 as compared to 1=9 for down-type quarks. Therefore the correction to F p2 is close to that for U (x). The gluon distribution, being of order O(ffeffs), is corrected by less than 0:1% up to values of x of about 0.2.
+
+Vice versa, the effect of g being non-zero on the quark distributions is of the same size. Fixing g at g(x) j 0 would lead to different results, particularly at small x, though at the same level of a few per mille and with the same cross features. At the level of the observed QED corrections oe; ffi; and g, their QCD evolution is non-negligible.
+
+The corrections vanish for Q2 ! Q20 since I assumed that the input distributions qf (x; t0) and G(x; t0) have been extracted from experiment at the reference scale Q20 without subtracting quarkonic QED corrections.
+
+The asymptotic behavior for x ! 0 can be checked analytically. It is well-known that a singular behavior of distributions / x\Gamma ff for x ! 0 remains unchanged by the GLAP equations if ff ? 1. Thus the O(ffe) corrected distributions have the same power behavior as the uncorrected ones, the ratio consequently reaching a constant
+
+7
+
+value for x ! 0. The value of this constant depends on the power ff and other details of the distribution functions. The valence parts of U (x) and D(x), however, which vanish at x = 0, receive positive corrections at small x, thus producing the wellknown physical picture: radiation of gluons as well as of photons leads to a depletion at large x and an enhancement at small x, i.e. partons are shifted to smaller x.
+
+The corrections strongly depend on the input distribution functions; differences at the per-mille level are found. But still these differences are irrelevant when compared with the expected experimental precision of structure-function measurements.
+
+For valence distributions there is a simple prescription to include the effect of QED radiation. Using as variable the evolution length (in leading order)
+
+,s(t) = Z
+
+t
+
+t0 dt
+
+0 ffs(t
+
+0)
+
+2ss =
+
+1 2ssb0 ln
+
+t t0 ; (19)
+
+the GLAP equation for valence quark distributions has the simple form
+
+d d,s qval(x; ,s) = Z
+
+1 x
+
+dz
+
+z Pq=q(z; ,s)qval(x=z; ,s): (20)
+
+Then, the substitution
+
+,s(t) ! ,s+e(t) = Z
+
+t
+
+t0 dt
+
+0 ffs(t
+
+0)
+
+2ss +
+
+e2f CF
+
+ffe(t0)
+
+2ss !
+
+= ,s(t) + 3e
+
+2f
+
+2CF Pf e2f ln
+
+ffe(t) ffe(t0) ;
+
+(21)
+
+automatically takes account of QED radiative effects. This means, the evolution length is increased by QED radiation. Given the solution qval(x; t) of Eq. (20), one obtains the solution of the GLAP equation including QED effects by
+
+qval(x; t) ! qval(x; _t) (22) with
+
+_t = t ffe(t)ff
+
+e(t0) !
+
+3sse2f b0=(CF Pf e2f )
+
+: (23)
+
+This simple prescription is sufficient for including quarkonic QED corrections into the structure functions at large x where valence contributions dominate.
+
+4 Concluding Remarks I have shown that radiation of photons from quarks leads to negligible corrections of cross sections for high-energy scattering processes involving hadrons. The leading effect is a modification of the scale dependence of parton distribution functions described by a modification of the GLAP evolution equations. These equations include the effect of multiple photon emission as far as it is enhanced by a logarithm of the energy scale of the process. Non-leading corrections have not been calculated, but they are of the order of O(ffe=ss) ' 0:2% and therefore also negligible.
+
+8
+
+A calculation of QED corrections using definite values for quark masses [13] and not factorizing the corresponding mass-singular contributions is misleading and usually leads to a gross overestimation of the effect.
+
+I did not discuss the question of how to model the production of soft or collinear photons in the final state of a hard scattering process. This should be viewed as a part of the non-perturbative hadronization process. Commonly used Monte Carlo programs apply a two-step procedure where in a first step a parton cascade is developed. This cascade obeys the GLAP evolution and may allow for photon emission in addition to gluon radiation. The termination of the parton cascade requires a cut-off which could be implemented in a reasonable way by using effective quark masses. Usually those quark masses are identified with the constituent quark masses. It is important to understand, however, that this prescription does not correct the hard scattering cross section. The purpose of these Monte Carlo programs is to provide a model for the distribution of energy and momentum among final state hadrons.
+
+References
+
+[1] F. A. Berends et al. in 'Z physics at LEP1', G. Altarelli, R. Kleiss and C.
+
+Verzegnassi, Eds., CERN 89-08, Vol. 1, p. 89.
+
+[2] H. Spiesberger et al., Report of the working group on "Radiative Corrections",
+
+in Proc. of the workshop on HERA physics, Eds. W. Buchm"uller and G. Ingelman, Hamburg 1992, Vol. III, p. 789, and references therein.
+
+[3] J. Kiskis, Phys. Rev. D 8 (1973) 2129. [4] A. de R'ujula, R. Petronzio and A. Savoy-Navarro, Nucl. Phys. B 154 (1979)
+
+394.
+
+[5] D. Amati, R. Petronzio and G. Veneziano, Nucl. Phys. B 140 (1978) 54; Nucl.
+
+Phys. B 146 (1978) 29; R. K. Ellis, H. Georgi, M. Macharek, H. D. Politzer and G. C. Ross, Nucl. Phys. B 152 (1979) 285; B. Humpert and W. L. van Neerven, Nucl. Phys. B 178 (1981) 498; Nucl. Phys. B 184 (1981) 225.
+
+[6] V. N. Gribov and L. N. Lipatov, Sov. J. Nucl. Phys. 15 (1972) 438, and 675;
+
+G. Altarelli and G. Parisi, Nucl. Phys. B 126 (1977) 298.
+
+[7] J. Kripfganz and H. Perlt, Z. Phys. C 41 (1988) 319. [8] J. F. Owens, Rev. Mod. Phys. 59 (1987) 465;
+
+P. Aurenche, R. Baier and M. Fontannaz, Phys. Rev. D 42 (1990) 1440; E. L. Berger and J. Qiu, Phys. Rev. D 44 (1991) 2002.
+
+[9] G. Altarelli, R. K. Ellis, G. Martinelli and S. Y. Pi, Nucl. Phys. B 160 (1979)
+
+301.
+
+9
+
+[10] P. B. Arnold and M. H. Reno, Nucl. Phys. B 319 (1989) 37; Err.: Nucl. Phys.
+
+B 330 (1990) 284.
+
+[11] K. Charchula, Comp. Phys. Commun. 69 (1992) 360. [12] D. Duke and J. Owens, Phys. Rev. D 30 (1984) 49;
+
+J. Owens, Phys. Lett. B 266 (1991) 126.
+
+[13] D. B. DeLaney, S. Jadach, C. Shio, G. Siopsis and B. F. L. Ward, Phys. Rev.
+
+D47 (1993) 853; Phys. Lett. B292 (1992) 413, Err. Phys. Lett. B302 (1993) 540; G. Siopsis, D. B. DeLaney, S. Jadach, C. Shio and B. F. L. Ward, Acta Phys. Polon. B23 (1992) 1133.
+
+10 %
+
+x = 0:1
+
+U (x; Q2)
+
+F p2 (x; Q2) D(x; Q2) g(x; Q2)
+
+Q2=GeV 2 10
+
+510410310210
+
+0 -0.05
+
+-0.1 -0.15
+
+-0.2 -0.25
+
+-0.3 -0.35
+
+-0.4
+
+Figure 1: Q2 dependence of the QED corrections (in per cent, see text) to parton distributions and the structure function F p2 for deep inelastic lepton-proton scattering at x = 0:1. Input parton distributions were taken from [12].
+
+11
+
+%
+
+Q2 = 6000 GeV2
+
+U (x)
+
+F p2 (x) D(x)
+
+g(x)
+
+x 110 \Gamma 110\Gamma 210\Gamma 3
+
+0 -0.2 -0.4 -0.6 -0.8
+
+-1 -1.2 -1.4 -1.6 -1.8
+
+-2
+
+Figure 2: x dependence of the QED corrections (in per cent, see text) to parton distributions and the structure function F p2 for deep inelastic lepton-proton scattering at Q2 = 6 \Theta 103 GeV2. Input parton distributions were taken from [12].
+
+12
+
+%
+
+F p2 (x; Q2)
+
+x = 0:505
+
+x = 0:1 x = 0:001
+
+Q2=GeV 2 10
+
+510410310210
+
+0 -0.2 -0.4 -0.6 -0.8
+
+-1 -1.2 -1.4
+
+Figure 3: Q2 dependence of the QED corrections (in per cent, see text) to the structure function F p2 for deep inelastic lepton-proton scattering at x = 0:001, x = 0:1 and x = 0:505. Input parton distributions were taken from [12].
+
+13
+

@@ -1,0 +1,660 @@
+
+
+
+
+SLAC-PUB-6729 December T/E
+
+THE IMPACT OF QCD AND LIGHT-CONE QUANTUM MECHANICS ON NUCLEAR PHYSICS ?
+
+Stanley J. Brodsky Stanford Linear Accelerator Center Stanford University, Stanford, California 94309
+
+and
+
+Felix Schlumpf Department of Physics University of Maryland, College Park, Maryland 20742
+
+ABSTRACT We discuss a number of novel applications of Quantum Chromodynamics to nuclear structure and dynamics, such as the reduced amplitude formalism for exclusive nuclear amplitudes. We particularly emphasize the importance of light-cone Hamiltonian and Fock State methods as a tool for describing the wavefunctions of composite relativistic many-body systems and their interactions. We also show that the use of covariant kinematics leads to nontrivial corrections to the standard formulae for the axial, magnetic, and quadrupole moments of nucleons and nuclei.
+
+Review talk given at the International School of Nuclear Physics Electromagnetic Probes and the Structure of Hadrons and Nuclei
+
+Erice, Sicily, September 15-23, 1994
+
+? Work supported by the Department of Energy, contract DE-AC03-76SF00515.
+
+INTRODUCTION
+
+In principle, quantum chromodynamics can provide a fundamental description of hadron and nuclei structure and dynamics in terms of elementary quark and gluon degrees of freedom. In practice, the direct application of QCD to nuclear phenomena is extremely complex because of the interplay of nonperturbative effects such as color confinement and multi-quark coherence. Despite these challenging theoretical difficulties, there has been substantial progress in identifying specific QCD effects in nuclear physics. A crucial tool in these analyses is the use of relativistic light-cone quantum mechanics and Fock state methods in order to provide a tractable and consistent treatment of relativistic many-body effects. In some applications, such as exclusive nuclear processes at large momentum transfer, one can make first-principle predictions using factorization theorems which separate hard perturbative dynamics from the nonperturbative physics associated with hadron or nuclear binding. In other applications, such as the passage of hadrons through nuclear matter and the calculation of the axial, magnetic, and quadrupole moments of light nuclei, the QCD description provides new insights which go well beyond the usual assumptions of traditional nuclear physics.
+
+In these lectures, we will outline a number of novel applications of QCD and light-cone quantum mechanics to nuclear structure and dynamics. We will particularly emphasize the importance of light-cone Hamiltonian and Fock State methods as a tool to consistently describe composite relativistic many-body systems and their electromagnetic interactions. Further discussions and references may be found in the review (Brodsky and Lepage, 1989).
+
+LIGHT-CONE METHODS IN QCD
+
+In recent years quantization of quantum chromodynamics at fixed light-cone time o/ = t \Gamma z=c has emerged as a promising method for solving relativistic boundstate problems in the strong coupling regime including nuclear systems (Brodsky et al., 1993). Light-cone quantization has a number of unique features that make it appealing, most notably, the ground state of the free theory is also a ground state of the full theory, and the Fock expansion constructed on this vacuum state provides a complete relativistic many-particle basis for diagonalizing the full theory. The light-cone wavefunctions n(xi; k?i; *i), which describe the hadrons and nuclei in terms of their fundamental quark and gluon degrees of freedom, are frame2
+
+independent. The essential variables are the boost-invariant light-cone momentum fractions xi = p+i =P +, where P _ and p_i are the hadron and quark or gluon momenta, respectively, with P \Sigma = P 0 \Sigma P z. The internal transverse momentum variables ~k?i are given by ~k?i = ~p?i \Gamma xi ~P? with the constraints P ~k?i = 0 andP
+
+xi = 1. i.e., the light-cone momentum fractions xi and ~k?i are relative coordinates, and they describe the hadronic system independent of its total four momentum p_: The entire spectrum of hadrons and nuclei and their scattering states is given by the set of eigenstates of the light-cone Hamiltonian HLC of QCD. The Heisenberg problem takes the form:
+
+HLC j\Psi i = M 2j\Psi i: For example, each hadron has the eigenfunction j\Psi H i of HQCDLC with eigenvalue M 2 = M 2H : If we could solve the light-cone Heisenberg problem for the proton in QCD, we could then expand its eigenstate on the complete set of quark and gluon eigensolutions jni = juudi; juudgi \Delta \Delta \Delta of the free Hamiltonian H0LC with the same global quantum numbers:
+
+j\Psi pi = X
+
+n j
+
+nin(xi; k?i; *i):
+
+The n n = 3; 4; ::: are first-quantized amplitudes analogous to the Schr"odinger wavefunction, but it is Lorentz-frame independent. Particle number is generally not conserved in a relativistic quantum field theory. Thus each eigenstate is represented as a sum over Fock states of arbitrary particle number. Thus in QCD each hadron is expanded as second-quantized sums over fluctuations of color-singlet quark and gluon states of different momenta and number. The coefficients of these fluctuations are the light-cone wavefunctions n(xi; k?i; *i): The invariant mass M of the partons in a given Fock state can be written in the elegant formM
+
+2 = P3i=1 ~k
+
+2 ?i+m
+
+2
+
+xi . The dominant configurations in the wavefunction are generally those with minimum values of M2: Note that except for the case mi = 0 and ~k?i = ~0, the limit xi ! 0 is an ultraviolet limit; i.e. it corresponds to particles
+
+moving with infinite momentum in the negative z direction: kzi ! \Gamma k0i ! \Gamma 1:
+
+In the case of QCD in one space and one time dimensions, the application of discretized light-cone quantization (DLCQ) (Brodsky and Pauli, 1991) provides complete solutions of the theory, including the entire spectrum of mesons, baryons, and nuclei, and their wavefunctions (Hornbostel, Brodsky, and Pauli, 1990). In the
+
+3
+
+DLCQ method, one simply diagonalizes the light-cone Hamiltonian for QCD on a discretized Fock state basis. The DLCQ solutions can be obtained for arbitrary parameters including the number of flavors and colors and quark masses. More recently, DLCQ has been applied to new variants of QCD(1+1) with quarks in the adjoint representation, thus obtaining color-singlet eigenstates analogous to gluonium states (Demeterfi, Klebanov, and Bhanot, 1994).
+
+The DLCQ method becomes much more numerically intense when applied to physical theories in 3 + 1 dimensions; however, progress is being made. An analysis of the spectrum and light-cone wavefunctions of positronium in QED(3+1) is given in (Krautgartner, Pauli, and Wolz, 1992). Currently, Hiller, Okamoto, and Brodsky (Hiller et al., 1994) are pursuing a nonperturbative calculation of the lepton anomalous moment in QED using this method. Burkardt has recently solved scalar theories with transverse dimensions by combining a Monte Carlo lattice method with DLCQ (Burkardt, 1994).
+
+Given the light-cone wavefunctions fn(xi; k?i; *i)g, one can compute the electromagnetic and weak form factors from a simple overlap of light-cone wavefunctions, summed over all Fock states (Drell and Yan, 1970, Brodsky and Drell, 1980). In the case of matrix elements of the current j+ in a frame with q+ = 0, only diagonal matrix elements in particle number n 0 = n are needed. In the nonrelativistic limit one can make contact with the usual formulae for form factors in Schr"odinger many-body theory. In the case of inclusive reactions, the hadron and nuclear structure functions are the probability distributions constructed from integrals over the absolute squares jnj2 summed over n: In the far off-shell domain of large parton virtuality, one can use perturbative QCD to derive the asymptotic fall-off of the Fock amplitudes, which then in turn leads to the QCD evolution equations for distribution amplitudes and structure functions. More generally, one can prove factorization theorems for exclusive and inclusive reactions which separate the hard and soft momentum transfer regimes, thus obtaining rigorous predictions for the leading power behavior contributions to large momentum transfer cross sections. One can also compute the far off-shell amplitudes within the light-cone wavefunctions where heavy quark pairs appear in the Fock states. Such states persist over time o/ ' P +=M2 until they are materialized in the hadron collisions. This leads to a number of novel effects in the hadroproduction of heavy quark hadronic states. See (Brodsky, et al., 1992) for further details. A review of the application of light-cone quantized QCD to exclusive processes is given in (Brodsky and Lepage, 1989).
+
+4
+
+The light-cone approach to QCD has immediate application to nuclear systems: 1. The formalism provides a covariant many-body description of nuclear systems
+
+formally similar to nonrelativistic many-body theory.
+
+2. One can derive rigorous predictions for the leading power-law fall-off of
+
+nuclear amplitudes, including the nucleon-nucleon potential, the deuteron form factor, and the distributions of nucleons within nuclei at large momentum fraction. For example, the leading electromagnetic form factor of the deuteron falls as Fd(Q2) = f (ffs(Q2))=(Q2)5, where, asymptotically, f (ffs(Q2)) / ffs(Q2)5+fl : The leading anomalous dimension fl is computed in (Brodsky, Ji, and Lepage, 1983).
+
+3. In general the six-quark Fock state of the deuteron is a mixture of five different color-singlet states. The dominant color configuration of the six quarks corresponds to the usual proton-neutron bound state. However, as Q2 increases, the deuteron form factor becomes sensitive to deuteron wavefunction configurations where all six quarks overlap within an impact separation b?i ! O(1=Q): In the asymptotic domain, all five Fock color-singlet components acquire equal weight; i.e., the deuteron wavefunction becomes 80% "hidden color" at short distances. The derivation of the evolution equation for the deuteron distribution amplitude is given in (Brodsky, Ji, and Lepage, 1983) and (Ji and Brodsky, 1986).
+
+4. QCD predicts that Fock components of a hadron with a small color dipole
+
+moment can pass through nuclear matter without interactions (Bertsch, et al., 1981, Brodsky and Mueller, 1988). Thus in the case of large momentum transfer reactions where only small-size valence Fock state configurations enter the hard scattering amplitude, both the initial and final state interactions of the hadron states become negligible. There is now evidence for QCD "color transparency" in exclusive virtual photon ae production for both nuclear coherent and incoherent reactions in the E665 experiment at Fermilab (Fang, 1993), as well as the original measurement at BNL in quasielastic pp scattering in nuclei (Heppelmann, 1990). The recent NE18 measurement of quasielastic electron-proton scattering at SLAC finds results which do not clearly distinguish between conventional Glauber theory predictions and PQCD color transparency (Makins, 1994).
+
+5. In contrast to color transparency, Fock states with large-scale color configurations strongly interact with high particle number production (Blaettel, et al. 1993).
+
+5
+
+6. The traditional nuclear physics assumption that the nuclear form factor factorizes in the form FA(Q2) = PN FN (Q2)F bodyN=A (Q2), where FN (Q2) is the on-shell nucleon form factor is in general incorrect. The struck nucleon is necessarily off-shell, since it must transmit momentum to align the spectator nucleons along the direction of the recoiling nucleus.
+
+7. Nuclear form factors and scattering amplitudes can be factored in the form
+
+given by the reduced amplitude formalism (Brodsky and Chertok, 1976), which follows from the cluster decomposition of the nucleus in the limit of zero nuclear binding. The reduced form factor formalism takes into account the fact that each nucleon in an exclusive nuclear transition typically absorbs momentum QN ' Q=N: Tests of this formalism are discussed in a later section.
+
+8. The use of covariant kinematics leads to a number of striking conclusions for
+
+the electromagnetic and weak moments of nucleons and nuclei. For example, magnetic moments cannot be written as the naive sum _ = P _i of the magnetic moments of the constituents, except in the nonrelativistic limit where the radius of the bound state is much larger than its Compton scale: RAMA AE 1. The deuteron quadrupole moment is in general nonzero even if the nucleon-nucleon bound state has no D-wave component (Brodsky and Hiller, 1983). Such effects are due to the fact that even "static" moments have to be computed as transitions between states of different momentum p_ and p_ + q_ with q_ ! 0. Thus one must construct current matrix elements between boosted states. The Wigner boost generates nontrivial corrections to the current interactions of bound systems (Brodsky and Primack, 1969).
+
+9. One can also use light-cone methods to show that the proton's magnetic
+
+moment _p and its axial-vector coupling gA have a relationship independent of the assumed form of the light-cone wavefunction (Brodsky and Schlumpf, 1994). At the physical value of the proton radius computed from the slope of the Dirac form factor, R1 = 0:76 fm, one obtains the experimental values for both _p and gA; the helicity carried by the valence u and d quarks are each reduced by a factor ' 0:75 relative to their nonrelativistic values. At infinitely small radius RpMp ! 0, _p becomes equal to the Dirac moment, as demanded by the Drell-Hearn-Gerasimov sum rule (Gerasimov, 1965; Drell and Hearn, 1966). Another surprising fact is that as R1 ! 0; the constituent quark helicities become completely disoriented and gA ! 0. We discuss these features in more detail in the following section.
+
+6
+
+10. In the case of the deuteron, both the quadrupole and magnetic moments
+
+become equal to that of an elementary vector boson in the the Standard Model in the limit MdRd ! 0: The three form factors of the deuteron have the same ratio as that of the W boson in the Standard Model (Brodsky and Hiller, 1983).
+
+11. The basic amplitude controlling the nuclear force, the nucleon-nucleon scattering amplitude can be systematically analyzed in QCD in terms of basic quark and gluon scattering subprocesses. The high momentum transfer behavior of the amplitude from dimensional counting is Mpp!pp ' fpp!pp(t=s)=t4 at fixed center of mass angle. A review is given in (Brodsky and Lepage, 1989). The fundamental subprocesses, including pinch contributions (Landshoff, 1974), can be classified as arising from both quark interchange and gluon exchange contributions. In the case of meson-nucleon scattering, the quark exchange graphs (Blankenbecler et al., 1973) can explain virtually all of the observed features of large momentum transfer fixed CM angle scattering distributions and ratios (Carroll, 1992). The connection between Regge behavior and fixed angle scattering in perturbative QCD for quark exchange reactions is discussed in (Brodsky, Tang, and Thorn, 1993). (Sotiropoulos and Sterman, 1994) have shown how one can consistently interpolate from fixed angle scaling behavior to the 1=t8 scaling behavior of the elastic cross section in the s AE \Gamma t, large \Gamma t regime.
+
+12. One of the most striking anomalies in elastic proton-proton scattering is the
+
+large spin correlation ANN observed at large angles (Krisch, 1992). At ps ' 5 GeV, the rate for scattering with incident proton spins parallel and normal to the scattering plane is four times larger than scattering with antiparallel polarization. This phenomena in elastic pp scattering can be explained as the effect due to the onset of charm production in the intermediate state at this energy (Brodsky and de Teramond, 1988). The intermediate statej
+
+uuduudcci has odd intrinsic parity and couples to the J = S = 1 initial state, thus strongly enhancing scattering when the incident projectile and target protons have their spins parallel and normal to the scattering plane.
+
+13. The simplest form of the nuclear force is the interaction between two heavy
+
+quarkonium states, such as the \Upsilon (bb) and the J=(cc). Since there are no valence quarks in common, the dominant color-singlet interaction arises simply from the exchange of two or more gluons, the analog of the van der Waals molecular force in QED. In principle, one could measure the interactions of
+
+7
+
+such systems by producing pairs of quarkonia in high energy hadron collisions. The same fundamental QCD van der Waals potential also dominates the interactions of heavy quarkonia with ordinary hadrons and nuclei. As shown in (Luke, Manohar, and Savage, 1992), the small size of the QQ bound state relative to the much larger hadron sizes allows a systematic expansion of the gluonic potential using the operator product potential. The matrix elements of multigluon exchange in the quarkonium state can be computed from nonrelativistic heavy quark theory. The coupling of the scalar part of the interaction to large-size hadrons is rigorously normalized to the mass of the state via the trace anomaly. This attractive potential dominates the interactions at low relative velocity. In this way one establishes that the nuclear force between heavy quarkonia and ordinary nuclei is attractive and sufficiently strong to produce nuclear-bound quarkonium (Brodsky, de Teramond, and Schmidt, 1990).
+
+MOMENTS OF NUCLEONS AND NUCLEI IN THE LIGHT-CONE FORMALISM
+
+Let us consider an effective three-quark light-cone Fock description of the nucleon in which additional degrees of freedom (including zero modes) are parameterized in an effective potential (Lepage and Brodsky, 1980). After truncation, one could in principle obtain the mass M and light-cone wavefunction of the threequark bound-states by solving the Hamiltonian eigenvalue problem. It is reasonable to assume that adding more quark and gluonic excitations will only refine this initial approximation (Perry, Harindranath, and Wilson, 1990). In such a theory the constituent quarks will also acquire effective masses and form factors. However, even without explicit solutions, one knows that the helicity and flavor structure of the baryon eigenfunctions will reflect the assumed global SU(6) symmetry and Lorentz invariance of the theory. Since we do not have an explicit representation for the effective potential in the light-cone Hamiltonian HeffectiveLC for three-quarks, we shall proceed by making an ansatz for the momentum space structure of the wavefunction \Psi : As we will show below, for a given size of the proton, the predictions and interrelations between observables at Q2 = 0; such as the proton magnetic moment _p and its axial coupling gA; turn out to be essentially independent of the shape of the wavefunction (Brodsky and Schlumpf, 1994).
+
+The light-cone model given in (Schlumpf, 1993) provides a framework for
+
+8
+
+representing the general structure of the effective three-quark wavefunctions for baryons. The wavefunction \Psi is constructed as the product of a momentum wavefunction, which is spherically symmetric and invariant under permutations, and a spin-isospin wave function, which is uniquely determined by SU(6)-symmetry requirements. A Wigner-Melosh (Wigner, 1939; Melosh, 1974) rotation is applied to the spinors, so that the wavefunction of the proton is an eigenfunction of J and Jz in its rest frame (Coester and Polyzou, 1982; Leutwyler and Stern, 1978). To represent the range of uncertainty in the possible form of the momentum wavefunction, we shall choose two simple functions of the invariant mass M of the quarks:
+
+H:O:(M2) = NH:O: exp(\Gamma M2=2fi2); Power(M2) = NPower(1 + M2=fi2)\Gamma p
+
+where fi sets the characteristic internal momentum scale. Perturbative QCD predicts a nominal power-law fall off at large k? corresponding to p = 3:5 (Lepage and Brodsky, 1980). The Melosh rotation insures that the nucleon has j = 12 in its rest system. It has the matrix representation (Melosh, 1974)
+
+RM (xi; k?i; m) = m + xiM \Gamma i~oe \Delta (~n \Theta ~ki)q
+
+(m + xiM)2 + ~k2?i
+
+with ~n = (0; 0; 1), and it becomes the unit matrix if the quarks are collinear RM (xi; 0; m) = 1: Thus the internal transverse momentum dependence of the light-cone wavefunctions also affects its helicity structure (Brodsky and Primack, 1969).
+
+The Dirac and Pauli form factors F1(Q2) and F2(Q2) of the nucleons are given by the spin-conserving and the spin-flip vector current J +V matrix elements (Q2 =\Gamma
+
+q2) (Brodsky and Drell, 1980)
+
+F1(Q2) = hp + q; " jJ +V jp; "i; (Q1 \Gamma iQ2)F2(Q2) = \Gamma 2M hp + q; " jJ +V jp; #i :
+
+We then can calculate the anomalous magnetic moment a = limQ2!0 F2(Q2). [The total proton magnetic moment is _p = e2M (1 + ap):] The same parameters as in
+
+9
+
+(Schlumpf, 1993) are chosen; namely m = 0:263 GeV (0.26 GeV) for the up- and down-quark masses, and fi = 0:607 GeV (0.55 GeV) for Power (H:O:) and p = 3:5. The quark currents are taken as elementary currents with Dirac moments eq2mq : All of the baryon moments are well-fit if one takes the strange quark mass as 0.38 GeV. With the above values, the proton magnetic moment is 2.81 nuclear magnetons, the neutron magnetic moment is \Gamma 1:66 nuclear magnetons. (The neutron value can be improved by relaxing the assumption of isospin symmetry.) The radius of the proton is 0.76 fm; i.e., MpR1 = 3:63.
+
+00 2 1
+
+aproton
+
+2 4 11-94 7842A5MR1
+
+6
+
+Figure 1. The anomalous magnetic moment a = F2(0) of the proton as a function of MpR1: broken line, pole type wavefunction; continuous line, gaussian wavefunction. The experimental value is given by the dotted lines. The prediction of the model is independent of the wavefunction for Q2 = 0.
+
+In Fig. 1 we show the functional relationship between the anomalous moment ap and its Dirac radius predicted by the three-quark light-cone model. The value of R21 = \Gamma 6dF1(Q2)=dQ2jQ2=0 is varied by changing fi in the light-cone wavefunction while keeping the quark mass m fixed. The prediction for the power-law wavefunction Power is given by the broken line; the continuous line represents H:O:. Figure 1 shows that when one plots the dimensionless observable ap against the dimensionless observable M R1 the prediction is essentially independent of the
+
+10
+
+assumed power-law or Gaussian form of the three-quark light-cone wavefunction. Different values of p ? 2 also do not affect the functional dependence of ap(MpR1) shown in Fig. 1. In this sense the predictions of the three-quark light-cone model relating the Q2 ! 0 observables are essentially model-independent. The only parameter controlling the relation between the dimensionless observables in the light-cone three-quark model is m=Mp which is set to 0.28. For the physical proton radius MpR1 = 3:63 one obtains the empirical value for ap = 1:79 (indicated by the dotted lines in Fig. 1).
+
+The prediction for the anomalous moment a can be written analytically as a = hflV iaNR, where aNR = 2Mp=3m is the nonrelativistic (R ! 1) value and flV is given as (Chung and Coester, 1991)
+
+flV (xi; k?i; m) = 3mM " (1 \Gamma x3)M(m + x3M) \Gamma ~k
+
+2 ?3=2
+
+(m + x3M)2 + ~k2?3 # :
+
+The expectation value hflV i is evaluated as?
+
+hflV i = R [d
+
+3k]flV jj2R
+
+[d3k]jj2 :
+
+Let us take a closer look at the two limits R ! 1 and R ! 0. In the nonrelativistic limit we let fi ! 0 and keep the quark mass m and the proton mass Mp fixed. In this limit the proton radius R1 ! 1 and ap ! 2Mp=3m = 2:38 sinceh
+
+flV i ! 1y. Thus the physical value of the anomalous magnetic moment at the empirical proton radius MpR1 = 3:63 is reduced by 25% from its nonrelativistic
+
+value due to relativistic recoil and nonzero k? z.
+
+To obtain the ultra-relativistic limit, we let fi ! 1 while keeping m fixed. In this limit the proton becomes pointlike (MpR1 ! 0) and the internal transverse
+
+? [d3k] = d~k1d~k2d~k3ffi(~k1 + ~k2 + ~k3). The third component of ~k is defined as k3i = 12(xiM \Gamma
+
+m
+
+2+~k2
+
+?i
+
+xiM ). This measure differs from the usual one used in (Lepage and Brodsky, 1980) by
+
+the Jacobian Q dk3idxi which can be absorbed into the wavefunction.
+
+y This differs slightly from the usual nonrelativistic formula 1 + a = Pq eqe Mpmq due to the
+
+nonvanishing binding energy which results in Mp 6= 3mq. z The nonrelativistic value of the neutron magnetic moment is reduced by 31%.
+
+11
+
+momenta k? ! 1. The anomalous magnetic momentum of the proton goes linearly to zero as a = 0:43MpR1 since hflV i ! 0. Indeed, the Drell-Hearn-Gerasimov sum rule (Gerasimov, 1965; Drell and Hearn, 1966) demands that the proton magnetic moment becomes equal to the Dirac moment at small radius. For a spin- 12 system
+
+a2 = M
+
+2
+
+2ss2ff
+
+1Z
+
+sth
+
+ds
+
+s [oeP (s) \Gamma oeA(s)] ;
+
+where oeP (A) is the total photoabsorption cross section with parallel (antiparallel) photon and target spins. If we take the point-like limit, such that the threshold for inelastic excitation becomes infinite while the mass of the system is kept finite, the integral over the photoabsorption cross section vanishes and a = 0 (Brodsky and Drell, 1980). In contrast, the anomalous magnetic moment of the proton does not vanish in the nonrelativistic quark model as R ! 0. The nonrelativistic quark model does not take into account the fact that the magnetic moment of a baryon is derived from lepton scattering at nonzero momentum transfer; i.e., the calculation of a magnetic moment requires knowledge of the boosted wavefunction. The Melosh transformation is also essential for deriving the DHG sum rule and low energy theorems of composite systems (Brodsky and Primack, 1969).
+
+00 1.0 (b)(a) 0.5
+
+0.5 11-94 7842A6
+
+1.0
+
+gA/gANR
+
+ap/apNR 00
+
+gA=\Delta up-\Delta dp 2
+
+1
+
+2 4
+
+MR1
+
+6
+
+Figure 2. (a) The axial vector coupling gA of the neutron to proton decay as a function of MpR1. The experimental value is given by the dotted lines. (b) The ratio gA=gA(R1 ! 1) versus ap=ap(R1 ! 1) as a function of the proton radius R1:. The line code is as in Fig. 1.
+
+12
+
+A similar analysis can be performed for the axial-vector coupling measured in neutron decay. The coupling gA is given by the spin-conserving axial current J +A matrix element gA(0) = hp; " jJ +A jp; "i: The value for gA can be written as gA = hflAigNRA with gNRA being the nonrelativistic value of gA and with flA as (Chung and Coester, 1991; Ma, 1991)
+
+flA(xi; k?i; m) = (m + x3M)
+
+2 \Gamma ~k2
+
+?3
+
+(m + x3M)2 + ~k2?3 :
+
+In Fig. 2(a) the axial-vector coupling is plotted against the proton radius MpR1. The same parameters and the same line representation as in Fig. 1 are used. The functional dependence of gA(MpR1) is also found to be independent of the assumed wavefunction. At the physical proton radius MpR1 = 3:63 one predicts the value gA = 1:25 (indicated by the dotted lines in Fig. 2(a)) since hflAi = 0:75. The measured value is gA = 1:2573 \Sigma 0:0028 (Particle Data Group, 1992). This is a 25% reduction compared to the nonrelativistic SU(6) value gA = 5=3; which is only valid for a proton with large radius R1 AE 1=Mp: As shown in (Ma, 1991), the Melosh rotation generated by the internal transverse momentum spoils the usual identification of the fl+fl5 quark current matrix element with the total rest-frame spin projection sz, thus resulting in a reduction of gA.
+
+Thus, given the empirical values for the proton's anomalous moment ap and radius MpR1; its axial-vector coupling is automatically fixed at the value gA = 1:25: This prediction is an essentially model-independent prediction of the three-quark structure of the proton in QCD. The Melosh rotation of the light-cone wavefunction is crucial for reducing the value of the axial coupling from its nonrelativistic value 5/3 to its empirical value. In Fig. 2(b) we plot gA=gA(R1 ! 1) versus ap=ap(R1 !1
+
+) by varying the proton radius R1: The near equality of these ratios reflects the relativistic spinor structure of the nucleon bound state, which is essentially independent of the detailed shape of the momentum-space dependence of the lightcone wavefunction. We emphasize that at small proton radius the light-cone model predicts not only a vanishing anomalous moment but also limR1!0 gA(MpR1) = 0: One can understand this physically: in the zero radius limit the internal transverse momenta become infinite and the quark helicities become completely disoriented. This is in contradiction with chiral models which suggest that for a zero radius composite baryon one should obtain the chiral symmetry result gA = 1.
+
+The helicity measures \Delta u and \Delta d of the nucleon each experience the same reduction as gA due to the Melosh effect. Indeed, the quantity \Delta q is defined by
+
+13
+
+the axial current matrix element
+
+\Delta q = hp; " jqfl+fl5qjp; "i; and the value for \Delta q can be written analytically as \Delta q = hflAi\Delta qNR with \Delta qNR being the nonrelativistic or naive value of \Delta q and with flA.
+
+The light-cone model also predicts that the quark helicity sum \Delta \Sigma = \Delta u + \Delta d vanishes as a function of the proton radius R1. Since the helicity sum \Delta \Sigma depends on the proton size, and thus it cannot be identified as the vector sum of the restframe constituent spins. As emphasized in (Ma, 1991), the rest-frame spin sum is not a Lorentz invariant for a composite system. Empirically, one measures \Delta q from the first moment of the leading twist polarized structure function g1(x; Q): In the light-cone and parton model descriptions, \Delta q = R 10 dx[q"(x) \Gamma q#(x)], where q"(x) and q#(x) can be interpreted as the probability for finding a quark or antiquark with longitudinal momentum fraction x and polarization parallel or antiparallel to the proton helicity in the proton's infinite momentum frame (Lepage and Brodsky, 1980). [In the infinite momentum there is no distinction between the quark helicity and its spin-projection sz:] Thus \Delta q refers to the difference of helicities at fixed light-cone time or at infinite momentum; it cannot be identified with q(sz = + 12 ) \Gamma q(sz = \Gamma 12 ); the spin carried by each quark flavor in the proton rest frame in the equal time formalism.
+
+Thus the usual SU(6) values \Delta uNR = 4=3 and \Delta dNR = \Gamma 1=3 are only valid predictions for the proton at large M R1: At the physical radius the quark helicities are reduced by the same ratio 0.75 as gA=gNRA due to the Melosh rotation. Qualitative arguments for such a reduction have been given in (Karl, 1992) and (Fritzsch, 1990). For MpR1 = 3:63; the three-quark model predicts \Delta u = 1; \Delta d = \Gamma 1=4; and \Delta \Sigma = \Delta u + \Delta d = 0:75. Although the gluon contribution \Delta G = 0 in our model, the general sum rule (Jaffe and Manohar, 1990)
+
+1 2 \Delta \Sigma + \Delta G + Lz =
+
+1 2
+
+is still satisfied, since the Melosh transformation effectively contributes to Lz.
+
+Suppose one adds polarized gluons to the three-quark light-cone model. Then the flavor-singlet quark-loop radiative corrections to the gluon propagator will give an anomalous contribution ffi(\Delta q) = \Gamma ffs2ss \Delta G to each light quark helicity (Efremov
+
+14
+
+and Teryaev, 1988). The predicted value of gA = \Delta u \Gamma \Delta d is of course unchanged. For illustration we shall choose ffs2ss \Delta G = 0:15. The gluon-enhanced quark model then gives the values in Table 1, which agree well with the present experimental values. Note that the gluon anomaly contribution to \Delta s has probably been overestimated here due to the large strange quark mass. One could also envision other sources for this shift of \Delta q such as intrinsic flavor (Fritzsch, 1990). A specific model for the gluon helicity distribution in the nucleon bound state is given in (Brodsky, Burkardt, and Schmidt, 1994).
+
+In summary, we have shown that relativistic effects are crucial for understanding the spin structure of the nucleons. By plotting dimensionless observables against dimensionless observables we obtain model-independent relations independent of the momentum-space form of the three-quark light-cone wavefunctions. For example, the value of gA ' 1:25 is correctly predicted from the empirical value of the proton's anomalous moment. For the physical proton radius MpR1 = 3:63 the inclusion of the Wigner (Melosh) rotation due to the finite relative transverse momenta of the three quarks results in a ' 25% reduction of the nonrelativistic predictions for the anomalous magnetic moment, the axial vector coupling, and the quark helicity content of the proton. At zero radius, the quark helicities become completely disoriented because of the large internal momenta, resulting in the vanishing of gA and the total quark helicity \Delta \Sigma :
+
+Table I Comparison of the quark content of the proton in the nonrelativistic quark model (NR), in our three-quark model (3q), in a gluon-enhanced three-quark model (3q+g), and with experiment (Ellis and Karliner, 1994).
+
+Quantity NR 3q 3q+g Experiment
+
+\Delta u 43 1 0.85 0:83 \Sigma 0:03
+
+\Delta d \Gamma 13 \Gamma 14 -0.40 \Gamma 0:43 \Sigma 0:03
+
+\Delta s 0 0 -0.15 \Gamma 0:10 \Sigma 0:03 \Delta \Sigma 1 34 0.30 0:31 \Sigma 0:07
+
+15
+
+APPLICATIONS TO NUCLEAR SYSTEMS
+
+We can analyze a nuclear system in the same way as we did the nucleon in the preceding chapter. The triton, for instance, is modeled as a bound state of a proton and two neutrons. The same formulae as in the preceding chapter are valid (for spin- 12 nuclei); we only have to use the appropriate parameters for the constituents.
+
+The light-cone analysis yields nontrivial corrections to the moments of nuclei. For example, consider the anomalous magnetic moment ad and anomalous quadrupole moment Qad = Qd + e=M 2d of the deuteron. As shown in (Tung, 1968), these moments satisfy the sum rule
+
+a2d + 2tM 2
+
+d
+
+(ad + Md2 Qad)2 = 14ss
+
+1Z
+
+*2th
+
+d*2 (* \Gamma t=4)3 (ImfP (*; t) \Gamma ImfA(*; t)):
+
+Here fP (A)(*; t) is the non-forward Compton amplitude for incident parallel (antiparallel) photon-deuteron helicities. Thus, in the pointlike limit where the threshold for particle excitation *th ! 1; the deuteron acquires the same electromagnetic moments Qad ! 0; ad ! 0 as that of the W in the Standard Model (Brodsky and Hiller, 1983). The approach to zero anomalous magnetic and quadrupole moments for Rd ! 0 is shown in Figs. 3 and 4. Thus, even if the deuteron has no D-wave component, a nonzero quadrupole moment arises from the relativistic recoil correction. This correction, which is mandated by relativity, could cure a long-standing discrepancy between experiment and the traditional nuclear physics predictions for the deuteron quadrupole. Conventional nuclear theory predicts a quadrupole moment of 7.233 GeV\Gamma 2 which is smaller than the experimental value (7:369 \Sigma 0:039) GeV\Gamma 2. The light-cone calculation for a pure S-wave gives a positive contribution of 0.08 GeV\Gamma 2 which accounts for most of the previous discrepancy.
+
+In the case of the tritium nucleus, the value of the Gamow-Teller matrix element can be calculated in the same way as we calculated the axial vector coupling gA of the nucleon in the previous section. The correction to the nonrelativistic limit for the S-wave contribution is gA = hflAigNRA . For the physical quantities of the triton we get hflAi = 0:99. This means that even at the physical radius, we find a nontrivial nonzero correction of order \Gamma 0:01 to gtritonA =gnucleonA due to the relativistic recoil correction implicit in the light-cone formalism. The Gamow-Teller matrix element is measured to be 0:961 \Sigma 0:003. The wave function of the tritium (3H)
+
+16
+
+Sum Rule
+
+(a)
+
+10 2 ad
+
+0
+
+-0.4 -0.2
+
+-0.6 11-94
+
+(b)
+
+ad
+
+8
+
+7842A8R (GeV-1) 10 12
+
+RadiusflDeuteron
+
+R (GeV-1) Figure 3. The anomalous moment ad of the deuteron as a function of the deuteron radius Rd. In the limit of zero radius, the anomalous moment vanishes.
+
+11-94
+
+(b)
+
+8
+
+7842A9Rd (GeV -1)Rd (GeV-1) 10
+
+RadiusflDeuteron
+
+12
+
+(a) 0.1
+
+0 -0.1 Qd (G
+
+eV -2)
+
+-0.2 -0.3 1
+
+2
+
+0 2
+
+- M
+
+d
+
+1 (sum rule)
+
+Figure 4. The quadrupole moment Qd of the deuteron as a function of the deuteron radius Rd. In the limit of zero radius, the quadrupole moment approaches its canonical value Qd = \Gamma e=M 2d .
+
+is a superposition of a dominant S-state and small D- and S'-state components OE = OES + OES0 + OED. The Gamow-Teller matrix element in the nonrelativistic theory is then given by gtritonA =gnucleonA = (jOES j2 \Gamma 13 jOES0j2 + 13 jOEDj2)(1 + 0:0589) = 0:974, where the last term is a correction due to meson exchange currents. Figure 5 shows that the Gamow-Teller matrix element of tritium must approach zero in the limit of small nuclear radius, just as in the case of the nucleon as a bound state of three
+
+17
+
+00 0.4 0.8 1.2
+
+1 11-94 7842A10Rt (GeV-1)
+
+2 3
+
+gA
+
+/
+
+gA
+
+Trit on
+
+nuc leo n
+
+Figure 5. The reduced Gamow-Teller matrix element for tritium decay as a function of the tritium radius.
+
+quarks. This phenomenon is confirmed in the light-cone analysis.
+
+EXCLUSIVE NUCLEAR PROCESSES
+
+One of the most elegant areas of application of QCD to nuclear physics is the domain of large momentum transfer exclusive nuclear processes. Rigorous results for the asymptotic properties of the deuteron form factor at large momentum transfer are given in (Brodsky, Ji, and Lepage, 1983). In the asymptotic limit Q2 ! 1 the deuteron distribution amplitude, which controls large momentum transfer deuteron reactions, becomes fully symmetric among the five possible colorsinglet combinations of the six quarks. One can also study the evolution of the "hidden color" components (orthogonal to the np and \Delta \Delta degrees of freedom) from intermediate to large momentum transfer scales; the results also give constraints on the nature of the nuclear force at short distances in QCD. The existence of hidden color degrees of freedom further illustrates the complexity of nuclear systems in QCD. It is conceivable that six-quark d\Lambda resonances corresponding to these new degrees of freedom may be found by careful searches of the fl\Lambda d ! fld and fl\Lambda d ! ssd channels.
+
+18
+
+The basic scaling law for the helicity-conserving deuteron form factor is Fd(Q2) , 1=Q10 which comes from simple quark counting rules, as well as perturbative QCD. One cannot expect this asymptotic prediction to become accurate until very large Q2 since the momentum transfer has to be shared by at least six constituents. However, one can identify the QCD physics due to the compositeness of the nucleus, with respect to its nucleon degrees of freedom by using the reduced amplitude formalism (Brodsky and Chertok, 1976). For example, consider the deuteron form factor in QCD. By definition this quantity is the probability amplitude for the deuteron to scatter from p to p + q but remain intact.
+
+d
+
+ng p
+
+d
+
+ng p =
+
+7842A2(b)(a)
+
+e ee' e'
+
+@
+
+d d'
+
+p p+q=p'
+
+1fl2 p
+
+1fl2 p
+
+1fl2 p' 1fl2 p'
+
+12-94
+
+1 pd +
+
+
+
+2
+
+1 pd
+
+-
+
+2
+
+Figure 6. (a) Application of the reduced amplitude formalism to the deuteron form factor at large momentum transfer. (b) Construction of the reduced nuclear amplitude for two-body inelastic deuteron reactions.
+
+Note that for vanishing nuclear binding energy ffld ! 0, the deuteron can be regarded as two nucleons sharing the deuteron four-momentum (see Fig. 6(a)). In the zero-binding limit one can show that the nuclear light-cone wavefunction properly decomposes into a product of uncorrelated nucleon wavefunctions (Ji and Brodsky, 1986). The momentum ` is limited by the binding and can thus be neglected, and to first approximation, the proton and neutron share the deuteron's momentum equally. Since the deuteron form factor contains the probability amplitudes for the proton and neutron to scatter from p=2 to p=2 + q=2, it is natural to define the reduced deuteron form factor (Brodsky and Chertok, 1976; Brodsky, Ji, and Lepage, 1983; Ji and Brodsky, 1986):
+
+fd(Q2) j Fd(Q
+
+2)
+
+F1N i Q
+
+2
+
+4 j F1N i
+
+Q2
+
+4 j
+
+:
+
+19
+
+The effect of nucleon compositeness is removed from the reduced form factor. QCD then predicts the scaling
+
+fd(Q2) , 1Q2
+
+i.e. the same scaling law as a meson form factor. Diagrammatically, the extra power of 1=Q2 comes from the propagator of the struck quark line, the one propagator not contained in the nucleon form factors. Because of hadron helicity conservation, the prediction is for the leading helicity-conserving deuteron form factor (* = *0 = 0:) As shown in Fig. 7, this scaling is consistent with experiment for Q = pT ?, 1 GeV.
+
+0 2 4 60 0.1 0.2
+
+0 \Lambda = 100 MeV
+
+10 MeV (b)
+
+\Lambda = 100 MeV
+
+10 MeV
+
+(a)
+
+2 4 6
+
+1 GeV fd(Q 2)
+
+(x1
+
+0-3 )
+
+Q2 (GeV2) 4475A27-94 1+ Q 2
+
+fd( Q2)
+
+
+
+m2
+
+0
+
+Figure 7. Scaling of the deuteron reduced form factor. The data are summarized in (Brodsky and Hiller, 1983).
+
+The distinction between the QCD and other treatments of nuclear amplitudes is particularly clear in the reaction fld ! np; i.e. photo-disintegration of the deuteron at fixed center of mass angle. Using dimensional counting (Brodsky and Farrar, 1975), the leading power-law prediction from QCD is simply
+
+20
+
+doedt (fld ! np) , F (`cm)=s11. A comparison of the QCD prediction with the recent experiment of (Belz et al., 1994) is shown in Fig. 8, confirming the validity of the QCD scaling prediction up to Efl ' 3 GeV. One can take into account much of the finite-mass, higher-twist corrections by using the reduced amplitude formalism (Brodsky and Hiller, 1983). The photo-disintegration amplitude contains the probability amplitude (i.e. nucleon form factors) for the proton and neutron to each remain intact after absorbing momentum transfers pp \Gamma 1=2pd and pn \Gamma 1=2pd; respectively (see Fig. 6(b)). After the form factors are removed, the remaining "reduced" amplitude should scale as F (`cm)=pT . The single inverse power of transverse momentum pT is the slowest conceivable in any theory, but it is the unique power predicted by PQCD.
+
+00 0.5
+
+1 11-94 7842A1Eg (MeV)
+
+2 3
+
+1.0 1.5
+
+qc.m.= 84o - 90o
+
+s11 ds/ dt (G eV 20 k
+
+b)
+
+Present WorkflExperiment NE8
+
+Figure 8. Comparison of deuteron photodisintegration data with the scaling prediction which requires s11doe=dt(s; `cm) to be at most logarithmically dependent on energy at large momentum transfer. The data and predictions from conventional nuclear theory in are summarized in (Belz et al., 1994).
+
+There are a number of related tests of QCD and reduced amplitudes which
+
+21
+
+require p beams (Ji and Brodsky, 1986), such as pd ! fln and pd ! ssp in the fixed `cm region. These reactions are particularly interesting tests of QCD in nuclei. Dimensional counting rules predict the asymptotic behavior doedt (pd ! ssp) , 1(p2
+
+T )
+
+12 f (`cm) since there are 14 initial and final quanta involved. Again one
+
+notes that the pd ! ssp amplitude contains a factor representing the probability amplitude (i.e. form factor) for the proton to remain intact after absorbing momentum transfer squared bt = (p \Gamma 1=2pd)2 and the N N time-like form factor atb s = (p + 1=2pd)2. Thus Mpd!ssp , F1N (bt) F1N (bs) Mr; where Mr has the same QCD scaling properties as quark meson scattering. One thus predicts
+
+doed\Omega (pd ! ssp) F 21N (bt) F 21N (bs) ,
+
+f (\Omega )
+
+p2T :
+
+Conclusions
+
+As we have emphasized in these lectures, QCD and relativistic Fock methods provide a new perspective on nuclear dynamics and properties. In many some cases the covariant approach fundamentally contradicts standard nuclear assumptions. More generally, the synthesis of QCD with the standard nonrelativistic approach can be used to constrain the analytic form and unknown parameters in the conventional theory, as in Bohr's correspondence principle. For example, the reduced amplitude formalism and PQCD scaling laws provide analytic constraints on the nuclear amplitudes and potentials at short distances and large momentum transfers.
+
+Acknowledgments This work was supported by the Department of Energy, contract DE-AC03- 76SF00515. SJB is grateful to Professor Amand Faessler for his kind hospitality at Erice.
+
+22
+
+References Belz, E. (1994) ANL preprint. Freedman, S. J. et al. (1993), Phys. Rev. C48
+
+1864.
+
+Bertsch, G., S. J. Brodsky, A. S. Goldhaber, and J.F. Gunion, (1981), Phys. Rev.
+
+Lett. 47 297.
+
+Blaettel, B., G. Baym, L.L. Frankfurt, H. Heiselberg, M. Strikman (1993), Phys.
+
+Rev. D47 2761.
+
+Blankenbecler, R., S. J. Brodsky, J. F. Gunion, and R. Savit (1973), Phys. Rev.
+
+D8 4117.
+
+Brodsky, S. J. and J. R. Primack (1969), Annals Phys. 52 315; Phys. Rev. 174
+
+(1968) 2071.
+
+Brodsky, S. J. and G. R. Farrar (1975), Phys. Rev. D11 1309. Brodsky, S. J. and B. T. Chertok (1976), Phys. Rev. D14 3003. Brodsky, S. J. and S. D. Drell (1980), Phys. Rev. D22 2236. Brodsky, S. J., C.-R. Ji, and G. P. Lepage (1983), Phys. Rev. Lett. 51 83. Brodsky, S. J. and J. R. Hiller (1983), Phys. Rev. C28 475. Brodsky, S. J. and G. F. de Teramond (1988), Phys. Rev. Lett. 60 1924. Brodsky, S. J. and A. H. Mueller (1988), Phys. Lett. 206B 685. Brodsky, S. J. and G. P. Lepage (1989), Perturbative Quantum Chromodynamics,
+
+edited by A. Mueller (World Scientific, Singapore).
+
+Brodsky, S. J., G. F. de Teramond, and I. A. Schmidt (1990), Phys. Rev. Lett.
+
+64 1011.
+
+Brodsky, S. J. and H. C. Pauli (1991), Recent Aspects of Quantum Fields, H. Mitter
+
+and H. Gausterer, Eds.; Lecture Notes in Physics, Vol. 396, Springer-Verlag, Berlin, Heidelberg, and references therein.
+
+Brodsky, S. J., P. Hoyer, A. H. Mueller, W-K. Tang (1992), Nucl. Phys. B369
+
+519.
+
+Brodsky, S. J., G. McCartor, H. C. Pauli and S. S. Pinsky (1993), Particle World
+
+3 109, and references therein.
+
+23
+
+Brodsky, S. J., W-K. Tang, and C. B. Thorn (1993), Phys. Lett. B318 203. R.
+
+Kirshner and L. N. Lipatov, Sov. Phys. JETP 56 (1982) 266; Nucl. Phys. B213 (1983) 122.
+
+Brodsky, S. J., M. Burkardt, and I. Schmidt (1994), SLAC-PUB-6087. Brodsky, S. J. and F. Schlumpf (1994), Phys. Lett. B329 111. Burkardt, M. (1994), Phys. Rev. D49 5446. Carroll, A. (1993). Presented at the Workshop on Exclusive Processes at High
+
+Momentum Transfer, Elba, Italy; C. White et al., (1994), Phys. Rev. D49 58. B. R. Baller et al., Phys. Rev. Lett. 60 (1988) 1118.
+
+Chung, P. L. and F. Coester (1991), Phys. Rev. D44 229. Coester, F. and W. N. Polyzou (1982), Phys. Rev. D26 1349; Chung, P. L. (1988)
+
+F. Coester, B. D. Keister and W. N. Polyzou, Phys. Rev. C37 2000.
+
+Demeterfi, K., I. R. Klebanov, and G. Bhanot (1994), Nucl. Phys. B418 15. Drell, S. D. and A. C. Hearn (1966), Phys. Rev. Lett. 16 908. Drell, S. D. and T. M. Yan (1970), Phys. Rev. Lett. 24 181. Efremov, A. V. and O. V. Teryaev (1988), Proceedings of the International Symposium on Hadron Interactions (Bechyne), eds. J. Fischer, P. Kolar and V. Kundrat (Prague), 302; G. Altarelli and G. G. Ross, Phys. Lett. B212 (1988) 391; R. D. Carlitz, J. C. Collins and A. H. Mueller, Phys. Lett. B214 (1988) 229.
+
+Ellis, J. and M. Karliner (1994), CERN-TH-7324-94. Fang, G. et al., (1993), presented at the INT - Fermilab Workshop on Perspectives of High Energy Strong Interaction Physics at Hadron Facilities. M.R. Adams, et al., FERMILAB-PUB-94-233-E (1994).
+
+Fritzsch, H. (1990), Mod. Phys. Lett. A5 625. Gerasimov, S. B. (1965), Yad. Fiz. 2 598 [Sov. J. Nucl. Phys. 2 (1966) 430]. Heppelmann, S. (1990), Nucl. Phys. B, Proc. Suppl. 12 159, and references
+
+therein.
+
+Hiller, J. R., S. J. Brodsky, and Y. Okamoto (1994) (in progress). Hornbostel, K., S. J. Brodsky, H. C. Pauli (1990), Phys. Rev. D41 3814. Jaffe, R. L. and A. Manohar (1990), Nucl. Phys. B337 509.
+
+24
+
+Ji, C. R. and S. J. Brodsky (1986), Phys. Rev. D34 1460; D33 (1986) 1951, 1406,
+
+2653; S. J. Brodsky, C.-R. Ji, SLAC-PUB-3747, (1985).
+
+Karl, G. (1992), Phys. Rev. D45 247. Krautgartner, M., H.C. Pauli, and F. Wolz (1992), Phys. Rev. D45 3755. M.
+
+Kaluza and H. C. Pauli Phys. Rev. D45 2968 (1992),
+
+Krisch, A. D. (1992), Nucl. Phys. B (Proc. Suppl.) 25B 285. Landshoff, P. V. (1974), Phys. Rev. D10 1024. Lepage, G. P. and S. J. Brodsky (1980), Phys. Rev. D22 2157. Leutwyler, H. and J. Stern (1978), Annals Phys. 112 94. Luke, M., A. V. Manohar, M. J. Savage, (1992), Phys. Lett. B288 355. Ma, B. Q. (1991), J. Phys. G17 L53; Bo-Qiang Ma and Qi-Ren Zhang, Z. Phys.
+
+C 58 (1993) 479.
+
+Makins, N. et al., (1994), NE-18 Collaboration. MIT preprint. Melosh, H. J. (1974), Phys. Rev. D91095; Kondratyuk, L. A. (1980) and M. V. Terent'ev, Yad. Fiz. 31 1087 [Sov. J. Nucl. Phys. 31 (1980) 561]; Ahluwalia, D. V. (1993) and M. Sawicki, Phys. Rev. D47 (1993) 5161.
+
+Particle Data Group (1992), Phys. Rev. D 45 Part 2, 1. Perry, R. J., A. Harindranath and K. G. Wilson (1990), Phys. Rev. Lett. 65 2959;
+
+Krautgartner, M. (1992).
+
+Schlumpf, F. (1993), Phys. Rev. D47 4114; Mod. Phys. Lett. A8 (1993) 2135;
+
+Phys. Rev. D48 (1993) 4478; J. Phys. G 20 (1994) 237.
+
+Sotiropoulos, M. G. and G. Sterman (1994), Nucl. Phys. B425 489. Tung, W.-K. (1968), Phys. Rev. 176 2127. Wigner, E. (1939), Ann. Math. 40 149.
+
+25
+

@@ -1,0 +1,914 @@
+DFTT 52/93
+October 1, 1993
+
+
+
+
+
+THE GENERALIZED SIMPLIFIED
+
+PARTON SHOWER MODEL
+
+
+
+R. UGOCCIONI, A. GIOVANNINI, S. LUPIA
+
+Dipartimento di Fisica Teorica, Universit`a di Torino and
+INFN, Sezione di Torino, via Giuria 1, 10125 Torino, Italy
+
+ABSTRACT
+We explore the consequences of considering clans real physical objects in
+the framework of a generalized version of the Simplified Parton Shower
+model for a single jet. We predict that the average number of clans at
+fixed energy grows linearly in rapidity and slowly decreases with energy
+in a fixed rapidity interval.
+
+
+Talk presented by R. Ugoccioni at the
+XXIII International Symposium on Multiparticle Dynamics
+Aspen, Colorado, USA, 12­17 September 1993.
+To be published in the Proceedings.
+
+
+
+ 2 Nov 1993
+
+
+
+
+
+Work supported in part by M.U.R.S.T. (Italy) under Grant 1992.
+
+
+THE GENERALIZED SIMPLIFIED
+PARTON SHOWER MODEL
+
+
+
+
+
+R. UGOCCIONI*, A. GIOVANNINI and S. LUPIA
+Dipartimento di Fisica Teorica, Universit`a di Torino and
+INFN, Sezione di Torino, via Giuria 1, 10125 Torino, Italy
+
+
+
+
+ABSTRACT
+
+
+
+We explore the consequences of considering clans real physical objects in the framework of
+a generalized version of the Simplified Parton Shower model for a single jet. We predict that
+the average number of clans at fixed energy grows linearly in rapidity and slowly decreases
+with energy in a fixed rapidity interval.
+
+
+
+
+1. The Generalized SPS model
+
+
+Clan analysis has been a very useful tool for interpreting experimental data in high
+energy collisions; through its use, two regularities were discovered: first, the average
+number of clans is approximately constant with energy in a fixed rapidity interval, and
+second, the average number of clans grows linearly with the rapidity interval at fixed energy.
+These results have not been explained so far by any theoretical calculation, although they are
+well reproduced by Monte Carlo simulations. In an attempt to remedy this lack of analytical
+understanding of experimental facts, we propose to generalize an existing model 1, based on
+essentials of QCD, by assuming clans as real objects. This assumption should be contrasted
+with the statistical clan concept used in the original model.
+In the original Simplified Parton Shower (SPS) model 1, we consider an initial parton
+
+of maximum allowed virtuality which splits at virtuality into two partons of virtuality
+¡
+
+
+
+
+
+0 and 1. We require 0 + 1 and min = 1 GeV. We define the probability for
+¡ ¡ ¡ ¢ ¡ ¡ ¡
+
+
+
+
+
+
+a parton of virtuality to split at , ( ), which is normalized by a Sudakov form
+¡ £ ¡ ¤
+
+
+
+
+
+factor. The joint probability density ( 0 1 ) for a parton of virtuality to split into two
+¥ ¡ ¡ ¤ ¡ ¡
+
+
+
+
+
+partons of virtuality 0 and 1 is defined by ( 0 1 ) = ( 0 ) ( 1 ) ( ), where
+¡ ¡ ¥ ¡ ¡ ¤ ¡ £ ¡ ¤ ¡ £ ¡ ¤ ¡ ¦ ¡
+
+
+
+
+
+( ) is a normalization factor. This general scheme is valid for any splitting function
+¦ ¡
+
+
+
+
+
+
+( ) which is factorizable in terms of its variables and . However, for numerical
+£ ¡ ¤ ¡
+
+
+
+
+
+simulations we choose:
+
+
+
+
+
+
+
+
+¨
+(log ) 1 log ©
+¡ © ¡
+( ) = = (1)
+
+£ ¡ ¤ § ¡ (log ) § ¡ § log
+¡
+
+
+
+
+©
+
+
+
+
+
+Work supported in part by M.U.R.S.T. (Italy) under Grant 1992
+* Talk presented by R. Ugoccioni
+
+
+1
+
+
+¨
+
+
+being the only free parameter of the model. This form of ( ) was motivated in 1
+£ ¡ ¤
+
+
+
+
+
+by our request of simplicity in the structure of the model. Notice that eq. (1) is exactly the
+virtuality dependence of the standard QCD kernel controlling gluon emission by a parton.
+For describing the rapidity structure of the model, we use the singular part of the QCD
+kernel controlling gluon branching:
+
+
+
+
+
+
+
+1 1
+
+( ) + (2)
+¡ ¢ § ¡ ¢ £ § ¡ ¢ ¥
+1
+¡ ¢ ¤ ¡ ¢
+
+
+
+
+
+
+
+
+
+
+
+Here is the energy fraction of the produced parton ( = 0 1).
+¡ ¢ ¦ § ¨ ¦
+
+
+
+
+
+We propose now to incorporate in the original SPS model which we have just
+sketched the concept of clan as follows: we decide to pay attention for each event to the
+ancestor which, splitting times, gives rise to subprocesses (one at each splitting) and
+© ©
+
+
+
+
+
+we identify them with clans. Therefore in this model for a single event the concept of
+clan is no more as it has been in 2, i.e., only a statistical one. In the present picture the
+number of clans in each event coincides with the number of splittings of the ancestor, i.e.,
+with the number of steps in the cascade. It will be shown that this simple consideration is
+enough to predict that the distribution of clans in full phase space is Poissonian; we stress
+that this result can be obtained a priori in the generalized version of the model, differently
+from what has been done in 2 where the independent production of clans was an "ansatz"
+introduced a posteriori in order to explain the occurrence of NB regularity.
+The generalization of SPS to a genuine Markov process proceeds by assuming
+that the splitting function of the first step is the same at any step. This fact implies
+that our kinematical limits are extended from a triangle ( 0 + 1 ) to a square
+¡ ¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+( 0 1 ), so that subsequent steps are not correlated. We call this new version
+¡ ¡ ¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+of the SPS model Generalized Simplified Parton Shower (GSPS) model. It follows that the
+generating function of the number of clans in full phase space (fps) is given by:
+
+fps
+(fps )( 1)
+( ) = (3)
+clan
+¡ ¡
+
+
+
+
+
+i.e., a shifted Poisson distribution. Accordingly, the average number of clans can easily be
+calculated by using eq. (1):
+
+
+
+
+
+
+
+"
+
+
+
+
+
+
+¯ log
+
+
+
+
+
+
+¨
+
+
+(fps ) = (fps ) + 1 ( ) + 1 = log + 1 (4)
+
+! £ ¡ ¤ ¡ § ¡ ¥
+2 log 2
+
+In order to explain the clan scaling in rapidity, we extend our study to clan distri-
+
+
+
+
+
+
+butions in symmetric rapidity intervals = [ cut cut ]. We can relate the probability to
+# ¤ # #
+
+
+
+
+
+
+
+
+
+
+
+$ % &
+have clans in the symmetric rapidity interval , ( cut ), to the corresponding
+# #
+
+
+
+
+
+
+
+
+
+
+
+%
+probability defined in full phase space, (fps ), by the relation
+
+
+(
+
+
+
+
+
+
+
+
+
+
+
+$
+
+
+
+% & %
+(
+cut ) = ( cut fps) (fps ) (5)
+# ' # ¤
+
+
+
+
+
+&
+
+% %
+
+
+
+
+
+=
+
+
+2
+
+
+
+
+
+
+
+
+$ $
+where ( cut fps) is the conditional probability to have clans in when one
+# ¤ #
+
+
+
+
+
+
+has clans in full phase space. This new function contains all dynamical information
+on the rapidity structure of the production process. Since clans are not correlated in full
+phase space and the only allowed correlations are among particles within the same clan,
+
+
+
+
+
+
+$
+
+the probability ( cut fps) results to be a positive binomial distribution
+# ¤
+
+
+
+
+
+
+
+
+
+
+
+& &
+
+
+
+
+
+% % %
+
+
+
+
+
+
+$
+
+
+
+
+
+
+( cut fps) = (1 ) (6)
+
+
+
+
+
+
+# ¤ ¤
+
+
+
+
+$
+
+
+
+
+
+
+
+
+
+
+
+
+where ( cut ) is the probability to produce a single clan in the rapidity interval from
+# #
+
+
+
+
+
+
+the maximum virtuality . Accordingly, it can be shown that the probability generating
+function for clans in symmetric rapidity intervals turns out to be
+
+y
+( )( 1)
+( ) = [ ( ) + 1 ( )] cut
+¡ (7)
+clan cut cut
+
+¡ # ¡ ¤ #
+
+
+
+
+
+
+
+
+
+
+
+
+with the average number given by ( cut ) = ( cut ) (fps ).
+
+# #
+
+
+
+
+
+Equation (7), being the sum of two Poissonian distributions (the first a shifted one),
+has a nice physical meaning: the two terms correspond to the probability of having the
+ancestor within or outside the given rapidity interval. In addition, it should be noticed that
+
+
+
+
+
+
+
+the void probability 3 in a given rapidity interval, 0( cut ), is different from zero and is
+#
+
+
+
+
+
+given by
+
+
+
+
+
+
+¢
+( cut ) (fps )
+¡
+0( cut ) = [1 ( cut )] (8)
+
+
+
+
+
+
+# ¤ # ¥
+
+
+
+
+
+This fact is far rich in consequences, which we propose to explore in a forthcoming paper.
+
+
+
+
+
+
+
+We also notice that, when cut is very small and therefore ( cut ) tends to zero, the
+
+# #
+
+
+
+
+
+unshifted Poissonian dominates. Thus, it can be stated that in the smallest rapidity intervals
+the clan multiplicity is Poissonian to a good approximation. When cut tends to full
+#
+
+
+
+
+
+
+
+
+
+
+
+
+phase space and therefore ( cut ) tends to 1, we approach the exact, full phase space,
+#
+
+
+
+
+
+
+
+
+
+
+
+
+shifted Poisson distribution. We find also that, when ( cut ) is sufficiently large, the
+#
+
+
+
+
+
+
+shifted Poissonian dominates at large (the tail of the distribution) while the unshifted one
+
+dominates at small (the head of the distribution). This fact might have some consequences
+
+in interpreting the anomalies found in NB behavior for small . Furthermore, the average
+number of clans in a symmetric rapidity interval, cut , can be calculated from eq. (7)
+¤ # ¤ #
+
+
+
+
+
+
+
+
+
+
+
+and is given by the following formula:
+
+
+
+
+
+
+
+¯
+( cut ) = ( cut ) ¯ (fps ) (9)
+
+# # ¥
+
+
+
+
+
+
+
+
+
+
+
+
+The next step is to calculate the explicit form of ( cut ), i.e.,
+#
+
+
+
+
+
+"
+
+
+cut
+¡
+
+
+
+
+
+
+
+
+
+
+
+
+( cut ) = ~( clan ) clan (10)
+# £ # § #
+
+
+
+
+
+cut
+¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+where ~( clan ) is the probability to find a clan of rapidity clan generated at any step of
+£ # #
+
+
+
+
+
+
+the cascade initiated by an ancestor of maximum allowed virtuality . The just mentioned
+
+
+3
+
+
+
+Figure 1. Average number of clans ¯ ( cut ) Figure 2. Average number of clans ¯ ( cut ) at
+¡ ¡
+
+
+
+
+
+¢ £ ¢ £
+
+
+
+
+
+as a function of rapidity interval cut at different partonic level as a function of rapidity interval cut
+¡ ¡
+
+
+
+
+
+ancestor parton energies in the GSPS model. at different jet energies for lowest energy jets
+¤ ¥
+
+
+
+
+
+£
+
+
+
+
+
+from a sample of 100000 3-jet events generated
+with JETSET 7.2 Parton Shower at = 1000
+¦ §
+
+
+
+
+
+GeV. Jet selection has been performed using the
+LUCLUS algorithm; partonic level has been ob-
+tained via GLPHD.
+
+
+probability can be expressed, within the GSPS, in terms of probability distributions calcu-
+
+
+
+
+
+
+
+lable from eq. (1) and (2). It results that the explicit form of ( cut ), valid in the central
+#
+
+
+
+
+
+rapidity region, is given by
+
+¨
+
+
+
+
+
+cut
+#
+( cut ) = ¨
+
+# 1 log
+¤
+
+
+
+
+
+(11)
+¨
+
+
+
+
+
+
+(log 2 cut ) (log 2 +
+© cut )© ©
+¤ # ¤ #
+
+
+
+
+
++ ;
+¨
+
+
+2 ( 1)(log )
+¤
+
+
+
+
+
+© ©
+
+
+
+
+
+
+0 cut log log 2
+# ¤
+
+
+
+
+
+By inserting eq. (11) and (4) into eq. (9), we determine the behavior of the average
+number of clans as a function of the rapidity interval and of the energy of the ancestor
+¨
+
+parton, which is shown for = 2 in Fig. 1. A similar behavior occurs for other values of
+¨ ¨
+
+0 and our choice of = 2 should be considered only indicative. As can be seen by
+inspection, the average number of clans grows linearly with rapidity at fixed energy and is
+a smoothly decreasing function of energy in a fixed rapidity interval. We point out that no
+one model to our knowledge has a so sharp analytical prediction on clan behavior in single
+jets. It is clear that our approximation consists in treating produced partons in a jet as pure
+gluons: our parton shower therefore should be considered a gluon shower. We notice that a
+similar behavior was seen by us 5 at hadronic level in single lowest energy jets disentangled
+by using the algorithm from a sample of 3-jet events generated with 7.2
+
+
+
+
+
+
+Parton Shower 6. We remind that the lowest energy jets in 3-jet events are usually identified
+with gluon jets. In order to test our predictions in a region where data are not available, we
+
+
+4
+
+
+propose to reconstruct the parton level from the above mentioned sample of lowest energy
+jets in spite of the intrinsic limitations of Monte Carlo models and jet-finding algorithms.
+In view of NB regularity occurring in this sample 5, we proceed by applying Generalized
+Local Parton Hadron Duality (GLPHD) prescription 7. Results at the same jet energies
+seen in Fig. 1 are shown in Fig. 2: the predicted trend of the GSPS model is confirmed.
+The above predictions can be tested in the real world at LEP I and LEP II once a definite
+jet finding algorithm is universally accepted. Were our analytical predictions confirmed
+in experimental data, this fact would raise the question of the real existence of clans, i.e.,
+groups of particles of common ancestor, in the production process and of their intimate
+physical nature.
+
+
+
+2. Acknowledgements
+
+One of us (R.U.) would like to thank prof. M. Block and prof. A. White, and the
+Local Organizing Committee, for the fruitful and stimulating atmosphere that was created
+at this symposium.
+
+
+
+3. References
+
+1. R. Ugoccioni and A. Giovannini, Z. Phys. C53 (1992) 239;
+A. Giovannini and R. Ugoccioni, invited talk, in: Fluctuations and Fractal Struc-
+ture, Proc. of the Ringberg Workshop on Multiparticle Production (Ringberg Castle,
+Germany, 1991), eds. R.C. Hwa, W. Ochs and N. Schmitz, World Scientific, Singa-
+pore, 1992, p. 264.
+2. L. Van Hove and A. Giovannini, in Proc. of XVII International Symposium on Mul-
+tiparticle Dynamics, (Seewinkel, 1985), eds. M. Markitan et al., World Scientific,
+Singapore 1987, p. 561;
+A. Giovannini and L. Van Hove, Z. Phys. C30 (1986) 391.
+3. S. Lupia, A. Giovannini and R. Ugoccioni, Z. Phys. C59 (1993) 427;
+R. Ugoccioni, A. Giovannini and S. Lupia, "Void Analysis and Hierarchical Struc-
+ture for Single Jets", DFTT 41/93, to be published in the Proceedings of the Work-
+shop "Soft Physics and Fluctuations", Cracow, Poland, 2­7 May 1993.
+4. S. Lupia, A. Giovannini and R. Ugoccioni, in preparation.
+5. F. Bianchi, A. Giovannini, S. Lupia and R. Ugoccioni, Z. Phys. C58 (1993) 71;
+F. Bianchi, A. Giovannini, S. Lupia and R. Ugoccioni, "Single Jet Multiplicity
+Distributions in + Annihilation at High Energies", DFTT 49/92, to be published
+
+
+
+
+
+
+
+in the Proceedings of the XXII International Symposium on Multiparticle Dynamics,
+Santiago de Compostela, Spain, 13­17 July 1992.
+6. M. Bengstsson and T. Sj¨ostrand, Nucl. Phys. B289 (1987) 810;
+T. Sj¨ostrand and M. Bengstsson, Computer Physics Commun. 43 (1987) 367.
+7. L. Van Hove and A. Giovannini, Acta Phys. Pol. B19 (1988) 917.
+
+
+
+5
+
+
+

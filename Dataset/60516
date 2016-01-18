@@ -1,0 +1,3197 @@
+¡ ¢ £ ¡ ¤ ¥ ¦ ¤ ¡ § ¨ © ¢ ¡ ¢ £ ¡ § © § ¨ © ¥ ¡ § ¨ © ¢
+
+
+
+
+
+! " # $ % & ' (
+
+
+
+
+
+) 0 1 2 3 2 4 2 5 6 7 8 9 4 @ A 5 B 8 C 5 1 5 B 8 @ D 7 6 2 D 5 C 4 1 1 3 B 0 E @ B F 5 G H 7 6 I @ 3 5 0 @ 5 1 P
+
+
+
+
+
+Q 7 1 @ 7 R S S T U S V P C W I I ) E
+
+
+
+
+
+Abstract The pinched/nonpinched classification of intersections of causal singularities of
+propagators in Minkowski space is reconsidered in the context of the theory of asymptotic
+operation as a first step towards extension of the latter to non-Euclidean asymptotic re-
+gimes. A highly visual distribution-theoretic technique of singular wave fronts is taylored
+to the needs of the theory of Feynman diagrams. Besides a simple derivation of the usual
+Landau equations in the case of the conventional singularities, the technique naturally ex-
+tends to other types of singularities e.g. due to linear denominators in non-covariant
+gauges etc. As another application, the results of Euclidean asymptotic operation are ex-
+tended to a class of quasi-Euclidean asymptotic regimes in Minkowski space.
+
+
+
+
+
+X Y ` a b c d e ` f b Y g proofs within the method of As-operation and established the
+latter as a superior alternative to the traditional (BPHZ-type)
+The problem of constructing asymptotic expansions of mul- methods in the theory of Feynman diagrams (for a systematic
+tiloop Feynman diagrams in masses and momenta for various dicussion of the differences between the two paradigms see
+asymptotic regimes in a phenomenologically meaningful and [1]).
+calculationally useful form is the key analytical problem of ap- It became clear quite early that the method of asymptotic
+plied Quantum Field Theory. This is because some sort of as- operation easily extends to the most general Euclidean asymp-
+ymptotic expansion seems to always be involved in an impor- totic regimes [4] and that simplicity of the resulting formulas
+ 26 Mar 1997 tant way -- explicitly or implicitly -- whenever one deals with remains its characteristic feature [5]. Moreover, the general
+Feynman diagrams in applications (see [1] for a systematic dis- philosophy of the method of As-operation [4], [1] is by no
+cussion). means specific to Euclidean problems (first examples of non-
+The method of asymptotic operation (As-operation for trivial application of the method in essentially non-Euclidean
+short; for a review see [1]) has proved to be the most powerful situations can be found in [14], [15]).
+one for solving the asymptotic expansion problem within ap- The purpose of the present paper is to begin a systematic
+plied QFT. It originated [2]­[5] in the context of studies of extension of the theory of asymptotic operation to non-
+analytical calculational methods for the coefficient functions of Euclidean asymptotic regimes.
+short-distance operator product expansion. The resulting algo- h i p q r s t s u v t r w x y s u t y v y i y i u y x u s u w i
+
+
+
+
+
+rithms [3], [6] (extended to arbitrary Euclidean expansions in
+[5]) allow one to obtain contributions to coefficient functions A necessary preliminary step is to reinterprete the well-
+from individual diagrams in a maximally simple form, which known pinch/non-pinch classification of intersections of light-
+comes about as a natural consequence of a property of perfect cone and mass-shell singularities of causal propagators in
+factorization of the expansions obtained with As-operation [3], purely distribution-theoretic terms as is necessary within the
+[4]. Due to the perfect factorization, calculations of coefficient framework of As-operation. Indeed, the first question one is
+functions are much simplified and are directly reduced to inte- confronted with is as follows.
+grals for which there exist powerful algebraic algorithms [7]. The formulas of As-operation for Euclidean asymptotic re-
+As a result, a class of next-next-to-leading order calculations gimes were derived (cf. [4]) using the Wick rotation so that one
+had been reduced to feeding the corresponding diagrams into a dealt with Euclidean momenta throughout the analytical part of
+computer (e.g. [8]­[11]). A regularization-independent analysis the derivation. However, the final formulas are valid irrespec-
+[12], [13] demonstrated a remarkable compactness of formal tive of the Wick rotation used at intermediate steps. But then it
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+should be possible to derive the Euclidean As-operation di- of a point which one studies. This, however, cannot be
+rectly in Minkowski space. achieved with analytic functions, so that analytic continuation
+The technical problem one encounters here is due to the is no longer allowed.
+more involved structure of singularities of Feynman propaga- Lastly, as was stressed e.g. in [17] (Chapter 2 and refs.
+tors in Minkowski space as compared with the Euclidean therein), an accurate derivation of the Landau equations via
+situation. Indeed, the Euclidean scalar propagator has the form contour deformations in a general case requires a use of the
+( p2 m2)! 1 where p2 " 0 for all p 0 . When formally ex- notoriously cumbersome methods of algebraic topology. This is
+#
+
+
+
+
+
+unsatisfactory because a calculationist would always prefer a
+panded in powers of m , this results in singularities at the iso- direct analytical argument at a "microlocal" level -- and argu-
+$ %
+
+
+
+
+
+lated point p 0 . If there are other integration momenta, ment that could be directly connected with how one calculates,
+then the singularity of a single propagator is localized on a lin- say, asymptotic expansions -- to an indirect one such as the
+ear manifold. On the other hand, in a Minkowskian situation one based on contour deformations.
+the standard scalar propagator becomes ( !
+2 2 1
+& &
+p m i )
+0
+) 0 1 2 3 4 5 6 7 8 0 6 9 @ 2 A 6 B 0 6 9 C 0 D 4 0 B 8 E F G
+
+
+
+
+
+where p2 can be both positive and negative so that there is a
+singularity localized on the non-linear manifold described by An alternative technique that would allow a direct study of
+overlapping causal singularities is based on the notion of sin-
+%
+
+
+
+
+
+the second-order algebraic equation p2 m2 . If m is one of gular wave front of a distribution (or simply wave front) intro-
+%
+
+
+
+
+
+the expansion parameters ( m O(' ) ), then the expanded ex- duced by Hörmander [18] and Sato [19] in the context of stud-
+%
+pression has singularities on the light cone p2 0 . Moreover, ies of propagation of singularities of generalized solutions of
+%
+the point p 0 is a singular point of the light cone manifold partial differential equationsiii. Whereas Hörmander worked
+with distributions proper [20], Sato considered a related notion
+in the sense of differential geometry and should be treated of hyperfunctions [21]. From a practical point of view, how-
+%
+
+
+
+
+
+separately. The singularity at p 0 is traditionally referred to ever, the two definitions are equivalent (cf. the review [22]).
+as soft singularityi. Other singular points have the property that The wave front describes singularities of a given function
+the propagator near each such point becomes a well-known So- (their positions and "orientation", cf. Sec. 4.23 below; for a
+hotsky distribution, namely, (x !
+& i )
+0 1 where x is a properly general definition see [22], [23]). The key technical result of
+chosen one-dimensional local coordinate. To emphasize their interest to us here is a criterion of existence of products of dis-
+analytical nature, such singularities can be referred to as So- tributions in terms of their wave fronts (described e.g. in [23],
+hotsky-type singularities. To emphasize their physical origin, Theorem IX.45 essentially due Hörmander). However, we will
+the term causal singularities can be empoyed. While the causal not need the criterion in full generality, and in Sec. 4 its sim-
+plified version will be taylored to the needs of the theory of
+( i0 prescription ensures that the propagator itself is a well-
+Feynman diagrams.
+defined distribution everywhere in the space of p , this is not Sato et al. [24] were first to apply the wave-front-related
+necessarily true for products of such distributions. The causal techniques to Feynman diagrams. They did so from the point of
+Sohotsky-type singularities may overlap and make the product view of the theory of hyperfunctions [21], which was rather
+non-integrable by power counting. natural because hyperfunctions can be roughly thought of as
+In general, singularities that are non-integrable by power boundary values of analytic functions.iv The main result of [24]
+counting result in non-trivial contributions to asymptotic ex- is a description of non-analyticities of Feynman diagrams in
+pansions. Therefore, to obtain a Minkowski-space derivation of terms of certain closed formulas (to be compared with the im-
+the Euclidean As-operation one has to understand why the in- plicit description via the Landau equations). Despite being in a
+tersections of causal singularities do not contribute in the case formal sense explicit, such formulas nevertheless seem to be
+of Euclidean asymptotic regimes. less useful in physical applications than, say, the transparent
+The usual explanation of non-contribution of causal singu- interpretation of pinched singularities due to Coleman and
+larities in Euclidean case is, because the energy integration Norton [26].v, vi, vii Yet the notion of wave front -- if used prop-
+contours are not pinched and one can deform them away from erly, i.e. without excessive generality -- is a handy tool in the
+such singularities (cf. the derivation of the Landau equations theory of Feynman diagrams due to its visual simplicity.
+that give a criterion of occurence of pinches [16], [17]). But
+this is the same as to say that the Wick rotation can be per-
+formed, and cannot satisfy us. Indeed, eventually one will have
+to answer the question of what happens near the points that
+iii
+separate pinched and non-pinched singularities.ii Then one Cf. the light cone singularities of causal propagators that are special so-
+lutions of the wave equation in coordinate representation.
+would have to cope with the fact that the latter are disposed of iv The relevant physically significant results include e.g. the edge of the
+via contour deformations while no such trick is allowed for the wedge theorem in the context of studies of dispersion relations (see e.g.
+former. To avoid such a situation one has to reinterprete the [25]).
+mechanism of non-contribution of non-pinched singularities in v I than J. Collins for a discussion of the Coleman and Norton interpreta-
+a manner that avoids contour deformations. tion.
+vi
+Moreover, the technique of As-operation is, strictly speak- The work of Sato et al. should not be judged too narrowly: they studied a
+new "mechanism of proofs" in an applications-motivated problem in ex-
+ing, not naturally compatible with contour deformations. In- actly the same way as physicists would design an experiment to test, say, a
+deed, whenever distributions are involved one has to deal with particle production mechanism -- irrespective of its immediate usefulness.
+test functions which in the theory of As-operation should be lo- vii The results of [24] were later reproduced in a series of publications by
+calizable -- i.e. zero everywhere except a small neighbourhood Smirnov (see his compilation [27] and refs. therein) who claimed to have
+used a "different" technique of "singular wave front" of Hörmander rather
+than the "analytical wave front" of Sato et al. Such claims cannot be sus-
+i By association with soft (zero-momentum) photons in QED; analytically, tained in view of the exact equivalence of the two versions of the definition
+this is the hardest singularity generated by a propagator. of wave front in the context of Feynman diagrams, as was emphasized in
+ii I first heard this question explicitly stated from G. Sterman. connection with Smirnov's "results" in [28].
+
+
+
+
+
+2
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+! " # $ % & ' ( )
+
+
+
+
+
+Because the method of As-operation iteratively reduces
+studying any however complex geometrical patterns of singu-
+It was already emphasized elsewhere [1] that the mathe- larities to the case of singularities localized at isolated points,
+matical apparatus of asymptotic operation includes a collection Sec. 3 contains an exhaustive treatment of one-dimensional So-
+of techniques that cannot be found in any single source on dis- hotsky distributions, the one-dimensional prototypes of causal
+tribution theory.i This is why it would be useful to present an singularities. We consider in detail the issue of when products
+account of the corresponding techniques in a form taylored to of such singularities exist despite divergence by power count-
+the specific needs of theorists that have to deal with Feynman ing. Then this fact is reinterpreted in terms of Fourier trans-
+diagrams in applied problems. The goal of the present paper form thus preparing ground for an extension to many dimen-
+from a technical point of view is to do that with respect to the sions. Finally, a simple extension to asymptotic expansions of
+technique of wave fronts. products of Sohotsky distributions is presented.
+In this respect note, first, that applications to Feynman dia- Sec. 4 treats the multidimensional case. First, general inter-
+grams do not require the use of wave fronts in full generality. sections of Sohotsky-type singularities are considered, and a
+Second, whereas the usual treatments consider "static" prod- special version of the highly visual notion of singular wave
+ucts of singular functions, we wish to study asymptotic expan- front is deduced in a few easy steps, along with the necessary
+sions so that not only existence of products has to be estab- heuristic motivations. A criterion of local existence of such
+lished but also the fact that they possess the required asymp- products (a special case of the more abstract one due to Hör-
+totic approximation properties. All the necessary mathematical mander) is derived as an obvious generalization of the one-
+apparatus will be explained in detail. dimensional results, both in an analytical and geometrical
+From the point of view of the theory of multiloop diagrams, form. Then it is shown that the same criterion holds for the
+we are going to: rederive the Landau equations [16], [17] in a case of osculating singularities; at this point the heuristic
+purely distribution-theoretic fashion, i.e. avoiding the use of power of the notion of wave front becomes apparent.
+contour deformations as is appropriate within the theory of As- Finally, in Sec. 5 we turn to multiloop diagrams and present
+operation; demonstrate how the technique can be applied to a one-step derivation of the Landau equations. Then we briefly
+analysis of singular functions of a more general form than the discuss how the developed formalism helps to understand the
+standard causal propagators (cf. the problem of singularities in structure of singularities in the theory of non-covariant gauges,
+non-covariant gauges [31]); extend the Euclidean theory of as- and how the results of Euclidean theory of asymptotic opera-
+ymptotic operation [4], [5] to the simplest class of non- tion are extended to the class of quasi-Euclidean asymptotic
+Euclidean asymptotic regimes (the so-called quasi-Euclidean regimes.
+ones).
+It should be emphasized that the motivations of this work go
+4 5 6 7 5 8 7 9 @ A 6 8 5 B 9 C 9 D 7 5 @ E 5 7 F G H C I C 9 P
+
+
+somewhat beyond providing a "better derivation" of the Lan-
+dau equations. The problem of asymptotic expansions of mul- I H D B 5 C 9 I @ Q
+
+
+
+
+
+tiloop diagrams in non-Euclidean regimes is a notoriously
+complex one, and complex problems are solved by building an R $ S 1 S T $ 2 % U $ " T 2 S & V " 1 2 W % X ( '
+
+
+
+
+
+adequate intuition based on -- and together with -- and ade-
+quate formalism. So our aim is to present a more flexible tech- Our notations will generally agree with [4]. Let us briefly
+nique than the one based on contour deformations and to re- summarize them together with whatever extensions are needed
+consider the classification of singularities in a manner suitable in the non-Euclidean case. This will also introduce one into the
+for a subsequent construction of non-Euclidean infrared R- and context of the problem.
+As-operations. The fact that the Landau equations reemerge as The object one deals with is G( p) , the integrand of a mul-
+a result is in principle of little consequence. tiloop diagram G , whereas p Y ( p , pl )
+1 is the collection of
+`
+
+
+
+
+
+0 1 2 ' ( 3
+
+
+
+
+
+all its integration (loop) momenta: dp a dDp dDp
+1 2 . The
+b
+
+
+
+
+
+The plan of the paper is as follows. In the descriptive Sec. 2 space of p is denoted as P. The concrete value of D (the num-
+we establish the context in which to study non-Euclidean As- ber of scalar components of each pi ) is not important. It is of-
+operation. First the systematic notations are summarized to de- ten convenient to ignore the structure of P altogether and to
+scribe the products of singular functions we wish to deal with. consider it as an abstract vector space of finite dimensionality.
+Then a summary of As-operation is presented emphasizing the The diagrammatic interpretation of G will not be important
+point that its structure is independent of whether one works in either and we will treat G( p) simply as a product of singular
+Euclidean or Minkowski space. Further, we identify the non- factors. Its structure is described below.
+linear causal singularities and briefly discuss the distinctively A general scheme is that one starts with G( p) and con-
+non-Euclidean geometrical phenomenon of osculating singu-
+larities. The conventional treatments avoid discussing osculat- structs a distribution from it. The conditions governing such a
+ing singularities at a microlocal level altogether, but the issue construction are always local. This means one should first per-
+cannot be circumvented if one aims (as we do in the theory of form such a construction for all sufficiently small c
+As-operation) at a complete solution of the asymptotic expan- (neighbourhoods of singular points). After that the transition to
+sion problem. a distribution defined on the entire P is achieved via the stan-
+dard trick of the decomposition of unit [29], [30]. For this rea-
+son, we focus attention only on what happens in a small open
+region .
+c
+
+i The original source on the theory of distributions is [20]. Good textbooks Furthermore, we will ignore the polynomial factors in the
+are [29] (with many examples to different physical problems) and [30]
+(with proofs of the general results of the theory of distributions that avoid numerator of G( p) that are due to interaction vertices or non-
+the abstract theory of topological spaces). Wave fronts are briefly dis- scalar particles. This is because the As-operation, by definition,
+cussed in [23].
+
+
+
+
+
+3
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+$ % `
+
+
+
+
+
+U A E A 8 H V I 7 8 9 @ 7 9 8 A B C 7 W A H I X F Y 7 B 7 G @ B Y A 8 H 7 G B E
+
+
+
+
+constructs a complete asymptotic expansion in powers and
+logarithms of the expansion parameter. Such expansions are
+unique and, therefore, commute with multiplications by poly- It is important to understand that the general structure of the
+nomials [4]. This is a general property that remains valid in the As-operation is the same irrespective of whether one deals with
+non-Euclidean case. Therefore, the presence of polynomial Euclidean or non-Euclidean problems. This is because neither
+factors is of no significance as far as the analytical mechanism the motivations for the distribution-theoretic point of view pre-
+of As-operation is concerned. They play no role in the study of sented in Sec. 4 of [4], nor the extension principle of Sec. 6 of
+the geometry of causal singularities and will be ignored. [4], nor even the general structure of the arguments of Sec. 11
+So, the products of singular factors that we consider in this of [4] which established the structure of As-operation, depend
+paper have the following form on that assumption. Let us summarize the prescriptions of As-
+operation emphasizing this fact.
+" # $ % $
+
+
+
+
+
+G( p) ! g( p) The asymptotic operation (with respect to a concrete
+g G a b c
+
+
+
+
+
+small parameter T which implies a concrete choice of the as-
+where
+ymptotic regime) is meant to be applied to a product of singu-
+% $ % 2
+
+
+
+0 1
+) n
+T
+& & ' ( g
+g( p) ( p) D ( p) i lar factors G( p, ) regarded as a distribution in the integration
+g g 0
+momenta p . It is then supposed to yield an asymptotic expan-
+D p T
+g ( ) is whatever expression happens to occur in the de- sion of G( p, ) in powers and logarithmsi of T in the sense of
+nominator of the g -th factor. Eq. 2.3 fixes the relative sign of distributions. At an operational level, the construction involves
+D p the following steps:
+g ( ) with respect to the infinitesimal imaginary part. In this
+
+work we consider only such regions P that the change of (i) Applying the formal Taylor expansion in powers of T to
+d c
+
+
+
+
+
+3 4
+
+
+
+
+
+)
+sign does not occur within in all factors in the product. each factor T
+g ( p, ) in the product,
+5
+
+
+
+
+
+$ % P
+
+
+
+
+
+f
+
+
+
+
+
+6 7 8 9 @ 7 9 8 A B C D A E B F G E H 7 B 8 I
+
+
+
+
+
+G( p, &
+!
+T ) g( p,T )
+g G
+In the case of the standard scalar propagator, # $ % i
+f f
+
+
+
+
+
+g g
+
+
+
+
+
+&
+
+e
+
+
+
+!
+h g( p,T ) !
+h g( p,T
+c c )
+# $ % R g G g G
+D ( p) 2 2
+' Q
+l ( p) m
+g g g which results in a formal series in powers of T , identification of
+where mg may or may not be zero. The quantity l p
+g ( ) is the potentially non-integrable singularities in the resulting expres-
+sion and their geometrical classification. Here one determines
+momentum flowing through the g -th line of G ; it is a linear the number and geometric structure of the manifolds in P on
+combination of pi and the external momenta. The concrete which those singularities are localized. One here deals with an
+form of lg is determined by the topology of the diagram and hierarchy of intersecting manifolds of various dimensionalities.
+the pattern of its external momenta. When studying the general Note that all such manifolds occur as intersections of singular
+T
+analytical mechanisms, we make assumptions neither about the manifolds for individual factors g( p, ) .
+topology, nor about the pattern of external momenta (i.e. (ii) Determining which factors from the product contribute at
+whether they are put on mass shell, taken at zero values etc.). each singular point. Here one establishes a correspondence
+The construction of As-operation requires to perform vari- between the singular manifolds , the subproducts G
+ous expansions of the factors [1], [4]. This explains why we p q r s
+
+
+
+
+
+allow the powers n consisting of factors that are singular there, and the diagram-
+g to differ from 1. Moreover, in the non-
+matic interpretation of such subproducts as some kind of sub-
+Euclidean case, such expansions may change the form of de- graphs of the initial Feynman graph.ii
+nominators. In particular, there can emerge denominators with
+a linear dependence on the momentum, (iii) Studying the analytical structure of the singularities (some
+# $ % S form of power counting etc.) and constructing a subtraction
+D ( p) 2
+Q
+n p m
+g g g procedure that transforms the singular and, in general, non-
+integrable formal expansion into a correctly defined distribu-
+where ng is a parameter vector, etc. The examples where such ~
+t
+
+tion on the entire P.iii As in [13], we denote it as :
+factors occur are: the string operators in the context of the Su-
+dakov problem etc. [32]; the propagator of the heavy quark in
+i The powers need not be integer, e.g. square roots are allowed etc. We are
+the effective heavy quark theory (cf. e.g. the effective QCD La- talking about "powers and logarithms" although the analytical fact that the
+grangian in [33]). The non-covariant gauges [34] also involve expansions we deal with run in powers and logarithms of the expansion pa-
+factors with denominators similar to 2.6 but with the sign of rameter and do not contain, say, log log terms, cannot be decided a
+u
+
+
+
+
+
+the imaginary part different in different regions of P. priori. However, such an assumption is not used in the actual construction
+In view of the variety of possible denominators, it makes of As-operation and its correctness is established along the way. Note also
+sense to keep irrelevant details out of the way and simply re- that proving the power-and-log structure of expansions is a much simpler
+gard D p
+g ( ) as a smooth function of p . problem than establishing their precise diagrammatic form. References to
+some such studies can be found e.g. in [4].
+The expansion parameter is denoted as T . The dependence ii Note that the resulting diagrammatic images are determined by the un-
+on T of various quantities is indicated, as usual [4], with an ad- derlying analytical structures (in particular, the asymptotic regime) and
+ditional argument, e.g. G( p, need not fit exactly into the standard categories of the theory of graphs. In
+T ) , D p T
+g ( , ) etc. Its particular fact, a graph-theoretic characterization, even if possible, may be too cum-
+form is determined by the specific problem and the asymptotic bersome to be useful, or simply irrelevant (except in a very special context,
+regime chosen. e.g. when rewriting known results in a "rigorous" form; cf. [27]).
+iii In certain cases one may do without such a subtraction procedure if a
+convenient regularization is available (the dimensional regularization is
+
+
+
+
+
+4
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+! !
+
+
+The singularities of the g -th factor are localized on the mani-
+& ~
+# $ #
+
+
+
+
+
+"
+
+
+
+& ' ( ' )
+
+% % %
+( , ) ( , )
+g p
+g p
+g G g G fold V described by the equation D p 0 :
+3 g P g ( ) W
+~
+0
+
+The subtraction procedure should be minimal in that it { | ( ) }
+0 ' ( ' @ (
+W p D p
+should not modify the leading power behaviour near singular 3 g g W
+
+
+
+
+
+points. It is analytically somewhat similar to the Bogoliubov R- The singularity corresponding to the g -th factor is referred to
+operation in coordinate representation. as elementary singularity.
+(iv) Constructing the counterterms Note that
+&
+( p, ) localized at the 3 g may be a smooth manifold everywhere in P
+1 2
+
+
+
+
+
+singular manifolds (thus fixing the finite arbitrariness in (e.g. the cases 2.5 with mg 0 and 2.6). On the other hand,
+3 2
+
+X
+
+
+
+
+
+~ the points where l p 0 for 2.5 with m 0 (the so-called
+0
+the definition of ): g ( ) W g W
+~ 6 soft singularity) correspond to the apex of the light cone where
+$ #
+
+
+
+
+
+&
+
+% %
+
+
+
+
+
+9
+g( p, )
+g G the light cone is not a smooth manifold. More generally, such
+special singularities occur whenever the gradient nullifies, i.e.
+" ~ 6 6
+$ #
+
+
+
+
+
+7 8
+
+
+
+& & & ( ' @ A
+
+% %
+
+
+
+
+
+Y
+9 g( p, ) %
+9
+2 p g p
+1 ( , ) 4 5 ( , ) . D p W
+g ( ) 0 , where the gradient operator is
+g G \2 g G
+
+The inclusion of
+&
+( ,
+p ) is necessary in order to transform b c
+Y
+
+
+
+
+
+8 8 `
+1 2 , , ' ( ' @ h
+g
+
+
+
+
+f f
+
+
+
+
+a d e
+
+the expression into a correct expansion in the sense of distri- p p p
+1 2
+
+butions. &
+( ,
+p ) contain all the non-analytic (logarithmic, Y
+2
+1 If D p
+g ( )
+0 but D p
+W 0 g ( )
+0 0 , then there is a small neigh-
+X
+
+
+
+
+
+square root etc.) dependence on & . They are localized on the
+bourhood of p
+singular manifolds and, therefore, are linear combinations i 0 in which the local coordinates
+3 2
+
+
+
+
+
+p ( , , may be chosen so that D p x y .
+p
+W x
+p )
+W p x y
+B B
+of -functions. The number of derivatives of the -functions is g ( ( , , ))
+determined by the power counting at the previous step, Then the factor becomes
+whereas the non-trivial coefficients are found using the con- u v n
+q
+
+
+p x y 0 ' ( ' @ w
+r s x t i g
+( ( , , ))
+sistency conditions [4]. The coefficients of the counterterms of g
+the As-operation are detemined uniquely [4]. We call the distributions that can be locally reduced to such
+Note that one needs some form of explicit parametrization form Sohotsky-type distributions. Their integrals with test
+B
+
+
+
+of to write down the structure of -functions (their argu-
+3 2 functions are well-defined despite the fact that they are diver-
+ments etc.). gent by power counting (see also Sec. 3).
+In this paper we consider only intersections of causal sin-
+C D E F G H I P Q I E D R S H T U
+
+
+
+
+
+( ' @ @ gularities. Formally, this means that all 3 g are smooth mani-
+
+Strictly speaking, in the context of asymptotic expansions folds within . A sufficient condition to ensure that is to re-
+i
+
+
+
+
+
+one deals with the singularities of the formal expansions of the quire that
+product G( p,& ) in & . Note, however, that the structure of Y
+D p 0 p ' ( ' @
+g
+g ( ) , ,
+X x y x
+
+
+
+
+
+those singularities is the same (up to the strength of singulari-
+ties) for all terms of the formal expansion. This is because the This means that we exclude from consideration the soft singu-
+singularities are due to denominators, and the terms resulting larities -- their study requires additional techniques that would
+from expansion of a factor have the same expression raised to lead us outside the scope of the present paper. The restriction
+different powers in the denominator. Therefore, it is conven- will remain valid throughout this paper.
+ient first to ignore the "dynamic" aspect of the problem (i.e.
+S E E D S E U R S P F P I T D E
+the fact that one deals with expansions) and consider the p ( ' @
+s
+
+
+
+
+
+problem as "static" (i.e. existence of products only). After that
+Geometric representation of the gradient vector D( p) in
+we will see what modifications are needed to take into account
+approximation properties etc. the space P of independent variable p depends on how one
+The singularities of the product G( p) are due to the fact chooses the scalar product in P. This is because the gradient is,
+that each of the denominators may have zeros, and the singula- strictly speaking, a vector from the co-space P whose embed-
+
+
+
+
+
+
+rities of individual factors in the space P may overlap in a non- ding into P is a matter of convention. However, the properties
+trivial fashion. One wishes to study such overlapping singula- we are going to consider are expressed via relations that are
+
+
+Y
+rities based on the information about the individual factors. linear in (e.g. D( p) 0 ) and are, therefore, unaffected by
+the conventions adopted. This allows some flexibility of nota-
+tion depending on specific purposes: To build insight into the
+nature of intersections of Sohotski-type distributions, we will
+the preferred choice). Then the task of recasting the final answers into an consider simple examples, in which it is convenient to regard
+explicitly convergent form is postponed till the end of the construction --
+P is a Euclidean space. Then the gradient vector D( p )
+0 is
+cf. [4], [5] where such an approach was motivated by calculational con-
+venience of final formulas in a situation where the subtraction procedure is normal to the singular manifold D( p) 0 . But after the gen-
+W
+
+
+
+
+
+understood well enough from analogy with the UV renormalization in co- eral theorems are understood and we turn to concrete examples
+ordinate representation (cf. [36], [12]). Such an approach, however, may in the context of Feynman diagrams and Minkowski space, it is
+not be always desirable, especially in the non-Euclidean problems where convenient to proceed in a formal algebraic manner. In par-
+the multi-level recursion structure of the problem with secondary expan-
+sions obscures the connection between various types of divergences that ticular, p is then an array of Minkowskian vectors (the collec-
+occur at intermediate steps. Moreover, the dimensional regularization may tion of loop momenta) and is of a mixed Euclidean/Minkowski
+not always work in non-Euclidean situations [14].
+
+
+
+
+
+5
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+s t 4 6 B 3 g u @ g 3 7 v g 0 g 5 1 w D E D F
+
+
+
+
+
+$
+
+
+
+
+
+type, e.g. p p! " # p p !
+i i i . Then the gradient D( p )
+$
+% 0 may
+Consider the integrand of a one-loop scalar self-energy in-
+happen to be tangential to the corresponding manifold sertion:
+D( p) 0 (for instance, if p is a Minkowskian 4-vector and
+&
+
+
+
+
+
+1 1
+$ D E D D
+D( p) 2 then D( p ) 2 p ). But that is a purely formal
+& p ' &
+0 0 x 2 y 2 x
+x x 2 y 2 x
+
+p 1
+m i ( p q) 2
+m i
+fact of no analytical consequence.
+where m a
+i 0 , p is a 4-dimensional integration momentum
+( ) 0 1 2 3 4 5 6 4 0 ) 7 8 3 9 @ 4 0 9 @ ) 0 1 2 3 4 5 @ 2 A 1 5 4 B C @ D E F G
+
+
+
+
+
+while q is the external momentum. The integral of 2.22 over p
+Consider an arbitrary subset of lines, G , and define:
+H I (after appropriate UV renormalization) is a function of q2 and
+
+U
+E D E F V the masses. The interesting asymptotic regimes are as follows:
+R S T
+
+
+
+P P
+
+
+
+
+
+Q g
+Q
+g G (i) q2 x (the Euclidean regime),
+
+In other words, is the collection of points through which
+Q
+
+W (ii) q2 y (the quasi-Euclidean regime; cf. Sec. 5.9);
+pass the singularities of each factor g . It is called singular
+X H
+
+
+
+
+
+(iii) q2 m y
+( m 2
+) (the threshold regime).
+manifold corresponding to the subproduct . 1 2
+H
+
+
+
+
+
+As in the Euclidean case, one may have even To study (i), one chooses q to be purely space-like and then
+Q Q
+
+
+
+
+
+W & W Y
+
+
+
+
+
+Wick-rotates p into the Euclidean region. Then the formalism
+when a
+! . However, the analytical nature of the singularity
+` ` of [4] becomes applicable.
+of the entire product G( p) on is determined by all the
+Q
+W The case (ii) is more interesting because from the point of
+elementary singularities and by all factors g( p) that view of momentum space, the picture here is much different
+Q
+
+
+
+
+W W
+g b from the Euclidean case. Indeed, choose q to be purely time-
+are singular on the entire , i.e. . So, whenever one
+Q Q
+
+
+
+
+
+W W W
+g b
+like, q 2
+"
+q
+
+0
+, 0
+, 0
+, . An immediate Wick rotation is prohib-
+deals with a singular manifold , the corresponding G
+Q
+
+
+
+
+
+W H I
+
+
+
+
+
+2 1 2
+contains all g such that . The subproduct ited. Rescale the dimensional parameters, p p(q ) / and
+Q
+
+
+
+
+
+W W
+g b
+2 p
+2 2
+T
+U m m q , so that the regime (ii) is replaced by m 0 for
+D E F c
+( p) i i i
+" g( p)
+`
+
+
+
+
+
+Q
+g q fixed, with both masses going to zero at the same asymptotic
+that contains all the factors from G( p) that are singular on rate. Within the framework of the theory of As-operation, one
+constructs the corresponding expansion of 2.22 in the sense of
+is described as complete. The singular manifold to-
+Q Q
+
+
+
+
+W W distributions. The first step of the construction is to identify the
+gether with the associated complete subproduct will be called singularities of the formal Taylor expansion, whose terms have
+singular subgraph although at this stage we do not associate the following general form:
+any graphical image with it. 1 1 E D E D
+The collection of all singular subgraphs of G is denoted as N N
+
+x 2 x
+x x 2
+1 x 2
+S[G] . ( p i ) ( ( p q) i )
+
+The singularities are localized on two light cones, one shifted
+d @ e 2 3 4 f ) 0 1 @ ) 0 1 2 3 4 5 ) f ) g @ D E D h
+
+
+
+
+
+with respect to the other by q as shown in 2.24:
+
+In the Euclidean case, there were two basic geometric pat- ( p - q)2 = 0
+terns of intersections of elementary singularities: factorizable
+and non-factorizable. Because now singular manifolds are non- p = q
+
+
+
+
+
+
+linear, an additional pattern has to be dealt with, namely, os- A
+culatingi singularities.
+Let g( p) be an intersection point of several non-linear p = 0
+p2 = 0
+manifolds , , and let be its small neighbourhood.
+X
+W H
+g g i
+D E D
+
+
+
+
+
+One can always find a smooth deformation of coordinates
+p p p! within that transforms any one of the singular mani- Two counterterms will be needed for the singularities at the
+i
+
+
+
+
+
+folds apices of the light cones. Recall that in the Euclidean regime
+W g into a linear manifold so that the corresponding fac-
+(i) one would have to deal with these two points only. In the
+n
+tor in the product takes the form (v p! q i )r g
+g 0 where vg is a present case, however, there are also singularities localized on
+the light cones away from their apices. Thus, in a small neigh-
+constant vector. There are two cases possible:
+· bourhood of a general point A of any of the light cones the
+i
+
+
+
+
+
+A general case is when all the factors g( p) that are
+X H local coordinates can be chosen so that the corresponding factor
+singular at p0 can be simultaneously linearized. becomes (x x i ) N
+0 , which is non-integrable by power
+r i
+
+· When a simultaneous linearization is not possible, one deals counting for Ni large enough. The prescriptions of As-
+with osculating singularities. operation would require counterterms to be introduced for such
+singularities. However, it turns out that such light-cone singu-
+larities do not contribute to the final answer. The usual argu-
+ments explaining this rely on deformations of the contour of
+integration over p0 into the complex plane. But for reasons
+i i.e. "kissing" (from Latin).
+
+
+
+
+6
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+discussed in the Introduction we would like to find an expla- But according to the known analyticity properties, the expan-
+nation for the absence of the counterterms in such cases di- sion in near 2.25 should not contain non-anaytic terms. This
+rectly in real Minkowskian momentum space. means that, unlike the preceding case, the osculation point of
+The threshold regime (iii) is the most difficult one. Indeed, the two hyperboloids does not require a non-trivial coun-
+the small expansion parameter can be introduced by repre- terterm.
+senting q as follows:
+& % G f
+
+
+
+
+
+I P Q R S T U V W X T T Y ` U Q a b Y ` c d T Q a Y e Y U b
+
+
+
+
+
+# $ % & % & '
+
+
+
+
+
+q ! m " m "
+1 2 , 0 0
+, 0
+,
+Another rather typical geometrical pattern of intersection of
+Then the expansion in ( 0 is equivalent to the expansion in causal singularities occurs in the following product of two
+q2 massless propagators:
+( m "
+( m 2
+1 2 ) .
+A typical term of the formal expansion of 2.22 in has the 1 1 & % G &
+
+
+
+
+
+following structure of denominators that determine the struc- N N
+C 2 C 0 g C C 2
+1 C
+p i p q i0 2
+[ ] [ ( ) ] 3
+
+
+
+
+
+ture of singularities:
+where q2 ! 0 (both p and q are 4-dimensional Minkowskian
+1
+vectors). Such a product may have resulted from a formal ex-
+[) 2 0 ) 0 2 0 2 )
+1
+
+
+
+
+
+1
+m r (r ) r i ] pansion in one of the high-energy regimes (cf. [35]). The sin-
+& % & 4 gularities of the two factors are localized on the two light cones
+2 1
+
+[ as shown in 2.33.
+0 2 0 ) 0 2 0 2 )
+1
+m r r r i N
+2 ( ) ] 3
+
+
+
+
+
+p - q 2 =
+where we have introduced the variable r : ( ) 0
+A A
+% & % & 6
+p 0 0
+5 p !
+p m "
+( , ) ( r , r)
+1 p = q
+The singularities of the two factors are localized on two hyper-
+boloids which touch (osculate) at the point r p2 = 0 p = 0
+! 0
+& % G G
+
+
+
+
+
+( p 5 7
+! q q ).
+8 0
+
+!
+p = q The first factor is singular on the light cone p2 0 while the
+p2 = m2 , p0 > 0
+1 second, on a similar light cone whose apex is shifted to the
+point p ! q . The two light cones intersect over the line
+9 @ 2
+p - q = m22
+& % G p
+
+
+
+
+p = 0 h i
+! !
+p2 = 0 L p| p zq
+
+p2 = m2 , p0 < 0 & % & A
+1 (i.e. p should be collinear to the light-like momentum q which
+is the reason why this is called collinear singularity). Note
+By analogy with the preceding example one has to conclude that, in general, an intersection of two 3-dimensional manifolds
+that the general points of the hyperboloids need not be supplied is 2-dimensional, while in the present example it is 1-
+with counterterms when the expansion in the sense of distribu- dimensional. To see what happens here, consider a cross sec-
+tions is constructed. But the argument does not work for the tion of the space of q with a hyperplane p0 ! const > q0
+point r B p B
+0 ( q ) . On the other hand, it is well-known from
+(represented by the line AA in 2.33) as in 2.35.
+studies of analyticity properties of Feynman diagrams that the
+asymptotic regime under consideration corresponds to the point p2 = 0
+of non-analyticity; therefore, the expansion must contain a non-
+analytic term. In view of the fact that non-analytic dependences
+are contained in the coefficients of counterterms of the As-
+E F 2
+operation (cf. [4]), one concludes that it is exactly the coun- p - q = 0 & % G '
+
+
+
+
+
+terterm for the singularity at r B p B
+0 ( q ) that should contain
+the non-analytic threshold behaviour. The intersections of the two light cones with this hyperplane
+Consider, however, the expansion in are spheres that osculate at a point. When the cross section
+defined as follows:
+shifts along p0 , the spheres inflate/deflate and shift, but there
+# $ % & % & D
+
+
+
+
+
+q ! m C m "
+1 2 , 0 0
+, 0
+,
+is always one osculation point. If 0 q 0 q 0
+p q then the two
+Then there will also be a point where the two hyperboloids spheres are side-by-side, otherwise one is inside the other; the
+touch (cf. 2.30; only the osculating upper hyperboloids are two cases correspond to pinched and non-pinched singularity.
+shown; the dotted line shows the position of the unshifted hy-
+perboloid ).
+
+E F 2
+p - q = m22
+p = q
+
+p2 = m2 , p0 > 0
+1
+
+
+
+
+& % G H
+
+
+
+
+
+7
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+! " # $ % & " ! ' % ( ! ) 0 1 ) ' " 2 that are singular at p 0 is determined by the behaviour of
+y
+
+
+
+
+
+Fourier transforms at infinity. Such a behaviour may be differ-
+Within the formalism of asymptotic operation, all problems ent in different directions, and under certain conditions this
+are recursively reduced to investigation of one-dimensional may result in a well-defined product even if the factors are sin-
+singularities. Therefore, it is convenient to review the proper- gular.
+ties of the relevant one-dimensional distributions and remind First recall that Fourier transforms of test functions are
+ourselves of some basic properties of Fourier transforms that smooth functions that exhibit rapid decrease in any direction
+will be needed in the discussion of the multidimensional case. (i.e. decrease faster than any inverse power of their argument).
+3 4 5 6 7 4 7 8 9 @ A B C 9 8 D C E F 8 C 7 G H I P
+
+
+
+
+
+However, Fourier transforms of distributions need not be de-
+creasing. On the other hand, they may behave badly in some
+Let p be a one-dimensional integration variable running directions, and exhibit a rapid decrease in others. For instance,
+from and . Recall the familiar one-dimensional So-
+Q R S T by straightforward integration one sees that
+hotsky distribution e
+d
+
+
+
+
+
+1 I H I
+c ikx c 0x
+1 1d ( )
+y i x e e x 0
+H I a
+W 1
+lim p Q i0
+p c d
+X V Y `
+U i0 0 p U i
+
+which is well-defined despite the fact that the singularity is The Fourier transform ( x 0 remains constant as x ,
+)
+R
+
+
+
+
+
+logarithmically divergent by power counting. As usual, the but decreases rapidly as x .
+Q R
+
+
+
+
+
+limit should be understood in the sense of the distribution the- For the complex-conjugate distribution the pattern of dan-
+ory, i.e. the above expression is not expected to be interpreted gerous and non-dangerous directions is mirrored.
+otherwise than in integrals with test functions ( )
+p (that are Note that raising the l.h.s. of 3.9 to an arbitrary power
+b
+
+
+
+
+
+smooth everywhere and non-zero only in a compact region): n 0 results in a power of x on the r.h.s.:
+
+
+
+
+
+
+e e
+
+
+
+e
+
+
+
+
+
+
+d d n d
+1 1 c
+d
+1
+I H I H
+
+I H I P e
+c ipx n 1
+g 1
+dp ( ) lim ( ) c 0
+1d ( )
+
+y i x e Q ix e x
+x 0
+b p
+X 1dp b p f
+p 0 0 p Q i0
+Q i V p Q i
+c d c d
+
+c d
+
+
+
+
+
+Note that both the integral and the limit on the r.h.s. exist for The important point is that the growth of the integrand corres-
+any such ( )
+p .
+b ponding to a power singularity is no more than polynomial.
+The well-known Sohotsky formula reads: Further, consider the integral of 3.7 against a test function
+1 1 ( )
+p . Using 3.9, we find:
+H I q
+
+
+
+PV ( ) b
+S ii p p
+p `
+U i0 h p
+e
+
+
+
+
+
+d
+
+
+
+
+
+where the first term is defined with the usual principal value 1 1 1
+dp g ( p)
+prescription. p U i U
+v
+0 p i0
+c d
+
+
+
+
+
+e e
+
+
+
+
+
+d d
+
+
+
+
+
+r D 7 B F s 8 9 7 t 6 7 4 7 8 9 @ A B C 9 8 D C E F 8 C 7 G 9 H I u
+
+
+
+
+
+I H I P P
+
+
+
+
+
+g
+const ( ) ( ) ~( )
+0 0 S
+
+h 1dx 1dx x x x x
+f f f
+
+
+
+The next point is existence and non-existence of products of c d c d
+
+
+
+
+
+Sohotsky distributions. For instance, the product of the Sohot- Thus, the convergence of the integral on the l.h.s. around
+sky distribution and its complex conjugate, p 0 has transformed into convergence of the integral on the
+1 1 y
+H I w
+
+
+
+
+
+r.h.s. at infinity in various directions. (Since the Fourier trans-
+p `
+U i0 v p S i0 form ~
+g ( x) is a smooth function, integration over finite regions
+does not exist as a distribution defined on all test functions is not dangerous.) One sees that the -functions ensure conver-
+
+
+
+
+
+unlike the square gence in all directions other than those in the positive quadrant
+1 1 x 0, 0 . However, convergence in those directions is en-
+x
+H I x
+
+
+
+
+
+
+
+
+
+
+
+f
+
+
+
+
+
+p v `
+U i0 p U i0 sured by the properties of ~
+g ( x) , as explained above.
+
+which does. One concludes that the integral 3.11 exists for any test
+In the context of analytical properties of Feynman diagrams function, therefore, the product 3.7 is a well-defined distribu-
+(cf. e.g. [17]), this phenomenon is well-known and described in tion.
+terms of pinched (Eq. 3.6) vs non-pinched (Eq. 3.7) integration On the other hand, a similar calculation for the product 3.6
+contours. Indeed, if one integrates Eq. 3.7 with a function that gives:
+is analytical in a neighbourhood of p 0 , then the Cauchy e
+d
+
+
+
+
+
+y
+
+
+
+1 1
+theorem allows one to simply deform the contour of integration 1dp g ( p)
+U v
+into the upper complex halfplane near p 0 because the poles p i0 p 0
+S i
+c d
+
+
+
+
+
+y
+
+
+
+
+
+e e
+of the two factors are on the same side of the contour; then the d d
+
+
+
+
+
+I H I P a
+integrand will have no singularities at all on the integration h 1dx 1dx g
+( ) ( ) ~( )
+x 0 0 S
+x x x
+f f i f
+
+
+
+
+
+contour. In the case of 3.6 this is not possible -- the contour is c d c d
+
+
+
+
+
+"pinched" by the two poles. One can see that there are directions in the plane ( x, x ) --
+f
+
+
+
+
+
+j j
+G 8 5 D D 5 8 8 C 7 G C G 8 5 D 9 7 t 7 F D C 5 D 8 D G 9 t 7 D 9 H I e.g. x U
+x x -functions
+S x0 , S 0 -- in which the
+h h
+
+f f
+
+
+
+
+
+are both equal to 1 while ~
+g ( x x ) ~
+g
+U U x x
+S ( S )
+0 0 const as
+Following, essentially, Hörmander (see [23] and refs. there- h h
+f f
+
+
+
+
+
+k
+
+. The integral on the r.h.s., therefore, cannot be con-
+in), consider the products 3.6 and 3.7 from the point of view of R
+
+
+
+
+
+Fourier transformation. Then existence of products of functions
+
+
+
+
+8
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+vergent for all test functions, and the product 3.6 is not a well- e n
+1 1 ( m) 9 8 9 @
+defined distribution. 0 0 ` a
+b c nd 2
+p i p m i m 0 ( p i0)
+As a further excercise, replace the second factor by, say, a a n 0
+a
+
+
+
+
+
+
+
+
+
+( p) . Then the second -function on the r.h.s. of 3.11 is re-
+! It can be proved in a way similar to the preceding example by
+placed by a constant, and again, the integral does not exist for using the procedure described in sec. 7 of [4]. Another way is
+some test functions: the product of a -function and a Sohot- to use partial fractioning,
+"
+
+
+
+
+
+sky-type distribution is ill-defined.
+1 1 1
+8 9
+1 V 1
+On the other hand, if one of the distributions is a function
+p V i0 p U m V i0 V U V
+# m p i0 p m i0 W
+that has any number of derivatives in a small neighbourhood
+around p 0 , then there are no dangerous directions associ- and reduce this example to the case of one factor already con-
+#
+
+
+
+
+
+sidered.
+ated with it at that point, so that its product with any distribu- Note that if one changes the sign of the imaginary parts of
+tion exists around p 0 .
+# one of the factors, then non-trivial m -dependent counterterms
+$ % & ' ( ) & 0 1 2 3 4 5 ' 2 6 7 2 8 9 @ 8 appear in the expansion. For example:
+
+It is important to realize that any definition of an integral in e n
+1 1 ( m) 2 i 9 8 9 8
+( )
+` a p
+infinite bounds contains -- explicitly or implicitly -- some sort 0 0 b c nd 2
+p i p m i m 0 ( p i0 a m
+)
+a n 0
+D D
+of a cutoff, say, | x | . Such a cutoff plays the role of a
+A , B C
+
+
+
+
+
+a natural regularization. Then the absolute convergence of the The simplest way to obtain this result is via a trick -- switch-
+integral 3.11 (established e.g. by power counting) implies that ing the sign of imaginary part of the first factor using the So-
+whatever (correct) regularization method one uses to give hotsky formula 3.4. However, one can also derive it in a sys-
+meaning to the product of the two Sohotsky distributions on the tematic way as in the preceding examples.
+l.h.s. of 3.11, the limiting value for the integral on the l.h.s. The conclusion is that the expansion 3.21 looks as if obtain-
+will exist for any test function and it will be the same for all ed by simply taking a product of the first factor (whose expan-
+regularizations. This gives a precise meaning to the phrase that sion in m is trivial) and the expansion of the second factor,
+the product in such a case is "naturally defined" in the sense of Eq. 3.17. Each term of such a product is a well-defined distri-
+distributions. bution. However, strictly speaking, existence of such a product
+does not guarantee that it will possess the necessary approxi-
+E 5 F G H ' I ' 4 7 2 3 H & 6 5 4 I 6 5 8 9 @ P
+
+
+
+
+
+mation properties to be the asymptotic expansion of the initial
+m -dependent product (the l.h.s. of 3.21). But it turns out that it
+E 5 4 6 Q 0 2 R 4 5 ' ) 4 S ( ' 4 I 6 8 9 @ T
+
+
+
+
+
+does. Let us understand why this is so using the techniques of
+As a warm-up excercise, consider the distribution Sec. 3.8: in a general multidimensional situation, explicit cal-
+1 culations similar to those above may not be possible.
+8 9 @ X
+
+
+
+
+
+p U m V i0 W
+6 ' 2 ) H ) 2 ' & ' 4 I 6 4 6 ' 2 ) G 5 I I ( ) 4 2 ) ' ) & 6 5 I ) G 5 8 9 P
+
+
+
+
+
+where m is a real parameter. Its expansion in the sense of dis-
+tributions as m 0 is: Similarly to 3.11, one has:
+Y
+
+
+
+
+
+n
+e ( m) u
+9 8 9 @ f
+
+
+Eq. 3.16 d
+` a n 1 1 1
+
+
+
+
+
+
+b c d
+m 0 ( p i0) 1 dp (p)
+n 0 p i0 p m i0
+a
+
+
+
+
+
+t u
+
+
+
+
+
+
+
+a a
+
+
+
+
+
+P R O O F . It is sufficient to consider only the case n 0 . As u u
+#
+
+
+
+d d
+
+
+
+
+
+usual, the expansion is sought in the form 9 8 9 T
+d d
+
+
+t
+imx
+1 dx 1
+dx ( x )
+0 [ ( x 0)e
+] ~( x x )
+
+
+
+
+
+
+1 1 t u t u
+8 9 @ g
+
+
+
+
+
+U U
+( ) " ( ) ( )
+U V # V c m p o 1
+p m i0 p i0 W
+If one performs the Taylor expansion in m on the r.h.s., the
+
+
+and the coefficient c(m) is determined from a consistency factor exp( imx ) (which is bounded by 1 everywhere) trans-
+a
+
+
+
+
+
+condition (in a manner similar to the Euclidean case; see forms into a polynomial of x . The remainder term is then
+e
+
+
+
+
+
+sec. 7.4 of [4]): bounded by something like O mN x N
+( which exhibits a poly-
+e )
+
+w f
+
+
+
+
+
+u
+h nomial growth as x -- but not faster than polynomial.
+d
+
+
+
+
+
+e Y
+
+
+
+
+
+c 9 8 9 @ v
+(m) 1
+V U U
+
+
+
+
+
+p q
+1 d 1 1 0 1 Therefore, the pattern of behaviour at infinity (polynomial
+i r s
+# p #
+U V V o( ) o( )
+p m i0 p i0
+t u growth vs rapid decrease) is the same both for non-expanded
+The integration can be performed using the explicit represen- factors, the expanded factors, and the remainder term. This al-
+D
+tation 3.4 and symmetric cutoffs, | p | . lows termwise integration of the product of expansions with
+A
+
+
+
+
+
+preservation of approximation properties.
+The expansion 3.17 can be regarded as the Taylor expan- One sees that the "natural" existence (in the sense of
+sion of a translation along the p -axis. This explains the ab- Sec. 3.13) of the product of expansions of individual factors
+sence of non-trivial counterterms with logarithmic dependence implies that such a product is indeed a correct asymptotic ex-
+on m : an infinitesimal translation involves differentiation, and pansion for the initial non-expanded product; in other words,
+differentiations in p of the distribution ( p t
+w i ) n
+0 are per- taking product and performing expansion are two commuting
+formed in a straightforward manner. operations in such a case.
+
+x y I & 7 ' I ) 5 8 9 The above examples provide enough motivation for analog-
+Consider a product of two factors like 3.16 with their sin- ous multidimensional constructions to which we now turn.
+gularities separated by a distance o(m) . Then one has the fol-
+
+lowing expansion:
+
+
+
+
+
+9
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+! " # $ % & ' " ( ) " 0 " & ' 1 2 # 3 ' & ! 3 4 $ & 3 " 5 '
+
+
+
+
+
+t u u
++
+1 v w w
+F G y
+c 0
+3 5 i 1 d e i A
+D 1 x
+A W i0
+6 7
+
+
+
+
+
+0
+
+We are going to generalize the notion of dangerous direc- one can rewrite 4.5 as follows:
+tions to the multidimensional case. We first consider the case
+t t t
+
+
+
+
+
+v v v v v v
+
+
+
+
+
+F G
+of linear denominators (Sec. 4.1) and derive a simple geometric Eq. 4.5 ~
+c i3 1 d d d ( )
+1 1 2 1 x
+U Y Y
+3 1 1 2 2 3 3
+criterion of existence of products of Sohotsky-type dis- 0 0 0
+tributions. We then consider smooth deformations of coordi- where ~
+( x) is the Fourier transform of ( )
+p :
+nates (Sec. 4.14) and see what form the criterion takes. The U
+u
+
+
+
+
+
+notion of singular wave front emerges naturally (Sec. 4.23) and ~ G F G H
+ipx
+( )
+x 1dpe ( p)
+allows one to easily obtain a criterion (essentially due to Hör-
+mander; cf. Theorem IX.45 in [23]) for the general non-linear One can see that th
+v e rapid decrease of ~
+makes the integral
+case including the so-called osculating singularities (Sec. 4.34). convergent at large
+Finally, the extension of the criterion to the case of asymptotic g in any directions if the following con-
+expansions of Sohotsky-type distributions becomes straight- dition is satisfied
+v v v v
+
+
+
+
+
+forward (Sec. 4.41). G F G H H
+v , for all
+Y v Y v
+1 1 2 2 3 3 0 g 0
+
+8 9 @ A B C D B E A F G H
+
+
+
+
+
+Then the product in the integrand of 4.5 exists in the sense of
+distributions.
+I P Q R B D S Q C E F G T
+
+
+
+
+
+Note that for, say, , the first inequality in 4.11 de-
+3 0
+Consider a product of two Sohotsky-type distributions inte- generates into the condition of existence of the product of the
+grated against a test function ( )
+p localized in the region : first two factors. Therefore, instead of making the assumption
+U V
+
+
+
+
+
+of existence of subproducts ovne can simp
+v ly require that the
+1 1 G F G X
+dp ( ) inequality in 4.11 hold for all
+0, 0 .
+U p g g g
+W W
+(v p i )(
+0 v p i )
+0
+1 2
+
+A Q A S C 9 D D C 9 S A C 9 Q @ F G H T
+
+
+
+For simplicity of notation, we do not consider general powers
+explicitly. The distributions with i0 can be taken into ac-
+Y Consider the set of
+v all possible linear combinations
+count by changing signs of (some of) vi . v with 0 . We call it proper cone if it
+v v
+1 1 2 2 3 3 g
+One can see that the product is a well-defined distribution
+unless the two vectors v lies strictly within one half of the linear space of vi :
+1 and v2 look in opposite directions.
+
+Indeed, if they are linearly dependent then the problem effec-
+tively degenerates into a 1-dimensional one: if they look in the v1 v2
+same direction then the product is a well-defined distribution; v3
+if they look in opposite directions then the product is non-
+integrable. If the two vectors are linearly independent then one
+deals with a direct product of two distributions that are well- F G H X
+
+
+
+
+
+defined separately, and such a product is a well-defined distri-
+bution too. In such a case the integral 4.9 and the product 4.5 are well-
+defined.
+I ` C A A R B D S Q C E F G F
+
+
+
+
+
+The generalization to more than three factors is straightfor-
+ward.
+Under the same assumptions, consider the product of three Note that the property of a set of vectors to span a proper
+Sohotsky-type distributions: cone is invariant under arbitrary linear transformations.
+1 1 G F G a
+dp ( ) Q @ q 9 @ A B C h A R Q C B S 9 Q @ E Q R D Q Q C h 9 @ B S A E F G H F
+U p
+W W W
+(v p i )(
+0 v p i )(
+0 v p i )
+0
+1 2 3
+
+The singularities of the g-th factor are localized on the linear As a next step towards the general case, notice that exis-
+manifold tence of a distribution is a fact that survives any non-linear
+G F G d smooth mapping of coordinates. To rewrite the above criterion
+b
+
+c c
+g { p | vg p }
+0
+in a form that is "covariant" under such transformations, con-
+First, without loss of generality one assumes that the origin is sider a neighbourhood of the origin and perform a smooth
+V
+
+
+
+
+
+the only point of intersection of the three manifolds. Second, t
+( C ) deformation of the coordinates so that
+one has to assume that the product of each pair of the three 2 G F G H a
+
+factors is well-defined as a distribution everywhere. A standard v p v p ( ) ( )
+Y O p D p
+g g g
+reasoning [4] shows that the product 4.5 is then integrable with
+any test function that is equal to zero in any small neighbour- Fig. 4.13 is modified as follows:
+hood of the origin of coordinates. It remains to study the be-
+haviour of the product near that isolated point. v1 v2
+v3
+e f 9 E S A @ D A Q R S ` A g C Q h i D S p B @ B q r S 9 D B q D C 9 S A C 9 Q @ F G s
+
+
+
+
+
+Using the representation
+
+F G H d
+
+
+
+
+
+10
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+Then Eq. 4.5 becomes: singular in the sense of differential geometry) within , which
+2
+
+
+
+
+
+1 means that
+!
+1 dp ( p) % & % ' (
+# # #
+D p i0 D p i0 D p i0
+$ D( p) 0 p
+" 1 2 3 % & % T &
+( ( ) )( ( ) )( ( ) )
+supp c
+d x
+
+
+
+
+
+y
+D( p) 0
+
+The singularities of the three factors are now localized on non- Construct the wave front of the distribution (D( )
+p e i )f n
+0 by
+linear manifolds described by non-linear equations: attaching the vector D( p )
+d 0 (describing the "dangerous" di-
+)
+
+0 0
+g { p| g
+D ( p) }
+0 % & % ' 1 rection; cf.also Sec. 4.27 below) to each singular point p v
+0 :
+
+
+
+
+
+
+The integration measure is transformed with a Jacobian that is D( p )
+0
+smooth within and it is absorbed into the redefined test
+2
+
+
+
+
+
+function. The region is deformed accordingly.
+2
+
+
+
+
+
+Moreover, the choice of the origin of coordinates cannot af- p0
+fect existence of the product, so the origin can be shifted arbi- & % T
+
+
+
+
+
+trarily. Denote the point of intersection of the three manifolds Now the criterion 4.22 can be reformulated in geometric terms:
+4.18 as p 0 3
+0 . Since v D ( p
+g g )
+0 , the criterion 4.11 is rewrit- C D P C B @ A R F D @ P D F B p C R @ A B C @ A D E
+
+
+
+
+
+& % T
+
+
+
+
+
+ten as follows:
+For each point p
+4 4 4 4 0 where some of the factors of the product
+3 5 3 5 3 6 7
+
+
+
+
+
+1 1
+D ( 0
+p ) 2 2
+D ( 0
+p ) 3 3
+D ( 0
+p ) 0 for all 0
+g % & % ' 8
+4.21 are singular, select all those and only those factors that
+9 @ A B C @ A D E F D @ G E H E I P Q C @ D F F G R B D @ S are singular at that point. If the corresponding dangerous di-
+& % T U
+
+
+
+
+
+rections 3 D p
+Consider now a product containing an arbitrary number of g ( )
+0 span a proper cone -- and if this holds true
+
+Sohotsky-type factors: for any such point p0 -- then the product is integrable with
+W 1 arbitrary test functions localized within .
+2
+
+
+
+
+
+n % & % T '
+#
+g V ( ( ) 0) g p H A S G t G E C @ D I S t A @ C R B A D E
+X g
+D p i g
+D( p ) & % T (
+d 0
+
+Without loss of generality one can assume that there is only
+one point p The above analysis was based on a deformation of coordi-
+0 (not a higher-dimensional manifold) where the nates that made all singular manifolds flat simultaneously.
+singular manifolds ) g intersect all at once; otherwise by a This is not always possible (recall osculating singularities,
+smooth change of coordinates one can deform the intersection Sec. 2.20). Therefore, it is useful to consider the microlocal
+`
+
+
+
+
+
+Y
+) ) ), and then mechanism that ensures existence of the products in terms of
+V
+
+
+
+
+
+X X
+g g into a linear subspace (within 2
+Fourier transforms without invoking global deformations. It is
+only the coordinates that are transverse to ) will matter.
+X at this point that the notion of wave front becomes genuinely
+By analogy with the preceding examples, one writes down non-trivial.
+the following criterion of existence of the product 4.21 at p
+f
+0 a
+0 : Consider again the distribution ( )
+p D( )
+p e i near
+
+
+
+
+
+
+a a
+
+
+
+
+
+w
+4 4 4 a point p ( ) but D( p )
+3 6 7 0 where D p0 0 d x
+0 0 . It turns out
+g g
+D ( p )
+0 0 for all g 0 0 % & % T T
+c g
+b
+
+
+
+
+
+g V V
+X g X that any direction n other than the one described by D( p )
+d 0
+
+If all subproducts are exist, then it is sufficient to consider only is not dangerous at p0 in the following sense: one can find a
+4
+7 test function ( p) that is localized sufficiently closely around
+g 0 .
+
+
+
+
+
+The heuristic meaning of 4.22 is the same as in the example p0 and such that the Fourier transform
+above: as is discussed in 4.27 the vector D( p ) ~
+
+w ixp
+1
+d 0 describes the x dp e p p decreases rapidly (i.e. faster than
+( ) ( ) ( )
+
+dangerous direction for the distribution (D( )
+p ~
+e i )f n
+0 at its 4
+any power) in the direction of n , i.e. n 0 faster than
+
+
+
+
+
+
+
+( )
+singular point p0 , i.e. the only direction in which its Fourier
+4
+any power N 5
+f as .
+transform does not decrease rapidly, thus jeopardizing conver-
+The proposition is quite intuitive: behaviour at infinity of
+gence in that direction of Fourier-transformed integrals with Fourier transforms is determined by the behaviour of the origi-
+test functions. nal in an arbitrarily small neighbourhood of the origin. The de-
+Recall that the above reasoning allows one to prove the cri- nominators of the distributions we deal with are linear func-
+terion only in situations where all the non-linear singularities 2
+can be "flattened" simultaneously by a smooth transformation tions up to O( p ) terms which are -- as the preceding exam-
+to the form of 4.13. Nevertheless, it is useful to summarize the ples suggest -- negligible if one focuses on a sufficiently small
+experience gained in a intuitive geometrical form. neighbourhood, so that the distributions resemble the standard
+Sohotsky distribution that depends on the coordinate directed
+g G h C F @ D E B D F G i D p D B S q H r B H s C t A S B @ A Q I B A D E
+
+
+
+
+
+& % T u along D( p )
+d 0 . One may also note that multiplication by a
+
+Consider a distribution (D( )
+p smooth function does not change this property.
+e i )f n
+0 defined within a re-
+The formal proof which is a straightforward technical im-
+gion . Its singularities are localized at the points where
+2 plementation of the above heuristic idea is given in Sec. 4.28
+D( p) 0 0 . Such points constitute a manifold, below.
+v w w
+{ p | D( p) 0} . Assume that ) is well-behaved (i.e. is non- A somewhat stronger version of the above property will be
+~ 4 4
+useful: the rapid decrease n 0 in is uniform with re-
+
+
+
+
+
+
+
+( )
+
+
+
+
+
+11
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+spect to all directions n outside some (arbitrarily narrow) cone Similarly to case A, change the coordinates in 4.29 as fol-
+Y h
+
+
+
+
+C containing D( p ) lows: X G X G G
+H H
+L p p . Denote N n
+! 0 . This is established as follows. First, || ( ) , || 0 . Then using
+the proof of the above proposition allows one to obtain bounds 4.8 (with the integration variable changed to ), rewrite the
+i
+
+
+
+
+
+that are, in fact, uniform with respect to all directions from a integral as:
+sufficiently narrow cone Cn around n. Then one notices that c p
+
+
+
+
+
+directions can be represented as points of the unit sphere which U Y U
+6 5 a 7
+
+
+
+
+
+X X X X q X X
+
+H
+d ( ) exp ( ) r
+i d d i i N nH H
+1 1 D
+@
+|| ||
+
+
+
+
+
+is compact; it follows that for any cone C one can select a fi- E
+N
+nite number of directions ni whose cones Cn contain all di-
+i Y
+where q (X ) G p (X ) X . If the neighbourhood was chosen
+A
+|| ||
+rections outside C . Choosing the largest bound among those
+s t
+
+
+corresponding to C small enough, one can ensure that q (X ) u 1 . This allows
+n , one obtains the required uniform one.
+i
+one to integrate by parts:
+
+" # $ $ % $ % & ' ( ) # $ ) $ 0 1 & 1 $ 2 $ % 3 ( 4 5 6 5 7 8 6 5 7 9
+
+
+
+
+
+e E e
+
+
+
+
+
+
+
+c
+1 i N ( )
+d ||
+e { }
+Let the test functions ( p) be localized within a small ||
+@
+
+
+
+
+
+v
+
+
+
+
+
+neighbourhood of the point p e E e
+
+
+
+
+
+
+c
+i N ( ) 1 6 5 a a
+A 0 . By a shift of coordinates x y
+||
+B 1 B
+d e { }
+etc.
+w
+
+
+
+
+
+one ensures that p W
+B N ( )
+0 0 . Consider the integral
+
+1 E 1 5 6 5 7 F
+dp e i np ( ) The new factor does not cause problems because it is smooth
+@ p a
+C D
+( L( p) i )
+0 and the denominator does not turn to zero. In this way one ob-
+tains bounds for the integral over X which, after integration
+Split p G pH
+( , p )
+|| where the first component is orthogonal to over , make manifest the rapid decrease of the integral. This
+i
+
+
+
+
+
+the manifold L( p) G 0 while the second, tangential to it at 0. completes the proof.
+
+The Taylor theorem guarantees that L( p) 2
+D
+G p I P L( )
+0 O( p ) 0 4 & 1 2 0 1 2 # 1 & 1 ( 0 6 5 a 6
+
+
+
+
+
+for p 0 . Therefore, choosing small enough allows one to
+Q A
+
+
+
+
+This is the situation when the singular manifolds
+find a smooth interpolating function ( p) such that
+R D p
+g ( ) G 0 touch rather than intersect in a general fashion. We
+( p) B p S 0 for all p sufficiently large, and such that
+! L( )
+R
+
+
+
+
+
+are going to show that the criterion obtained above works here
+( p) B L( p) within . Without loss of generality, the fol-
+R A too.
+lowing reasoning assumes L( p) T .
+R ( p) It is sufficient to consider the simplest case of 2-
+There are two cases to be considered: dimensional Euclidean p B ( p , p )
+1 2 and the product of two
+A. n is directed at an angle to L(0) ;
+! factors:
+B. The directions of n and L(0) are exactly opposite.
+!
+
+
+
+
+
+Y
+
+
+
+G 1
+( )
+p ( )
+p , ( p) (D ( )
+p i0) ,
+C A S E A . Let us exhibit the fact that the oscillations of 1 2 g g C
+
+
+
+
+
+the exponential along the singular manifold L( p) Y Y Y
+6 5 a
+G 0 for G G 2
+1
+D ( p) 1
+p i0, 2
+D ( )
+p 1
+p 2
+p i0.
+U
+
+
+
+D V suppress the integral as in the case of a smooth func-
+Q
+
+
+The dangerous directions are shown in 4.36:
+tion -- irrespective of the singular behaviour in the transverse
+directions. To this end, split pH B pW pWW
+( , ) where p is directed p1
+2
+along the projection of n onto the subspace of p =
+H , so that WW
+p p p
+1 2 p2
+is orthogonal to both n and L(0) . In the coordinates
+!
+
+
+
+
+
+
+
+( p , p , p ) G =
+|| , one has n (n , ,
+0 n )
+|| . Finally, choose new coordi- p 0
+1 p = p = 0
+1 2 6 5 a
+
+
+
+
+
+
+nates (X , X ,X )
+|| so that:
+It is natural to suppose that since the quadratic terms played no
+Y
+
+
+
+5 6 5 a b
+
+`
+
+
+
+
+
+X G X G X X G
+|| ( p), n n p n|| || , p role in Secs. 4.14­4.20 they should not be important here, too.
+Because the singular manifolds do not intersect away from
+
+
+
+
+
+One can see that the closer n to L(0) , the smaller n , and
+! p G 0 , it is sufficient to consider an arbitrarily small neigh-
+the closer ( p) should be to p S ( )
+0 , which requires a
+! L
+@ bourhood of that point.
+smaller . The dangerous direction at p G 0 , the same for both fac-
+A
+
+
+
+
+
+In the new coordinates, the integral becomes tors, is
+
+5 6 5 a 8
+
+
+
+
+E e e
+
+
+
+
+
+c d d T
+1 i (n n ) 1 B B
+D (0) D (0) 1
+( 0
+, ) V
+5 6 5 a f
+
+
+d ! !
+X X
+e || || ( ) 1 2
+@
+C a
+D
+
+
+
+X
+( i
+|| )
+0 Take a cone Csing of directions around V. Choose it narrow
+The Jacobian of the coordinate transformation was absorbed enough so that C D C
+sing sing -- which is the cone spanned by
+
+
+
+
+into the test function X
+( ) . The integrand is smooth in X so
+@
+
+
+all possible pairs of vectors from C
+that one can perform the standard integration-by-parts trick sing -- is a proper cone.
+(Sec. 3.8) to establish the rapid decrease of the entire integral. Furthermore, according to the last paragraph of Sec. 4.27,
+C A S E B . Here one makes use of the fact that one deals given Csing , one can find a pair of test functions p and
+1( )
+with a "slightly deformed" Sohotsky distribution whose Fourier p localized around k G 0 such that Fourier transforms
+
+transform is a "slightly deformed" -function with essentially 2 ( )
+g ~
+
+
+
+
+
+
+
+similar nullification properties. ( )
+g x of the distributions ( p) ( p) are rapidly and
+@ g g
+
+
+
+
+
+12
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+uniformly decreasing in all directions except those in the cone i p p q r s t u r v w x y
+
+
+
+
+
+Csing .
+P F P E P D H I F G U
+
+
+
+
+
+Because the functions ( ) are smooth and non-zero in a
+g p $
+
+
+
+
+
+small neighbourhood of p 0 , it is sufficient to prove exis-
+! The original Landau equations [16], [17] provided an an-
+tence of the product swer to this question: at what values of external parameters --
+masses and momenta -- does a given multiloop diagram cease
+( p) ( p)
+
+1 2 % & '
+to be an analytic function? The problem we are considering
+D p " i # D p " i $ $
+1( ) 0 2 ( ) 0 now is phrased differently: given an integrand of a multiloop
+Consider the integral diagram for some fixed values of external momenta and
+masses, where in the space of integration momenta does the
+( ) ( )
+p p
+1 ( % & )
+dp dp 1 2 ( p integrand (the product of propagators) cease to be a well-
+1 2 )
+D ( p "
+) i0 # D ( p "
+) i # $
+1 2 0 defined distribution? The close relation of the two questions is
+clearly seen from the point of view of the theory of asymptotic
+(
+
+
+for an arbitrary test function ( )
+p (whose localization proper- operation which establishes a connection between the follow-
+ties are not important because the distributions themselves are ing two effects:
+localized as needed). Its representation in terms of Fourier (i) non-analyticity of the integrated diagram as a function of
+transforms is as follows: external parameters at some values of the latter (i.e. a presence
+1 ~ of, say, logarithmic terms in the corresponding asymptotic ex-
+% % 3
+1 ~
+1 2
+
+d2x d2 y ( x) ( y) ~( x y
+1 2 )
+0 pansion near those values) and
+$ $
+
+
+
+
+
+One sees that the only directions in the 4-dimensional space of (ii) non-integrability of the Taylor-expanded integrand (for
+the aggregate integration variable (x, y) where the product a discussion see [1], [4]).
+~
+4 ~
+4
+(x) ( y) E H P D H I F
+1 2 does not exhibit a rapid decrease are the ones
+$
+
+
+
+
+
+that lie within the direct product C C
+sing , i.e. the direc- Consider a product of propagators of the form 2.2. It need
+# sing
+tions of the form ( x, y) not be a complete integrand -- just a subproduct whose fac-
+5 6 (V ,V )
+1 2 with V C
+i sing . However, d
+7 tors's causal singularities pass over a region P . Consider
+the construction of Csing ensures that the integrand in such di- the points where the causal singularities of all the factors from
+rections is suppressed by the rapid decrease of the test func- G overlap. Such points are solutions of the system of equations
+tion. This proves absolute convergence of the integral 4.40 and,
+
+
+
+
+
+
+&
+
+therefore, existence of the products 4.38 and 4.35. L ( p
+g ) 0
+!
+
+
+
+
+
+g G $ $
+The proof immediately generalizes to the case of any num-
+ber of factors. However, at some of those points the product exists, and at
+others, it does not -- as described by the criterion of Sec. 4.20.
+To summarize, the criterion of Sec. 4.20 is valid irrespective Recalling that p is the collection of all loop momenta,
+of the pattern of intersection of the singular manifolds 8 g -- p 5 ( p , p , pl )
+1 2 , and that the gradient operator is then repre-
+
+
+
+
+
+
+whether they intersect in a transverse fashion or osculate -- as sented as 2.13, one rewrites 4.22 as follows:
+long as the other conditions are satisfied (most notably,
+
+
+
+
+
+smoothness of all manifolds D p ). 2( )
+l p d
+8 g , or 9 @
+g ( ) 0 within A g
+
+h
+
+
+
+
+
+d
+
+j 1
+p
+
+
+d
+
+
+B C D E F G H I F D I P G Q R S D I D H T E C S P F G H I F G % % U
+
+
+
+
+
+i i i
+
+%
+
+
+
+
+
+e f
+g 0 for all 0, 0
+d g g f
+$
+
+
+
+
+
+$ $
+
+
+
+
+
+
+2
+g
+g g
+lg ( p d
+) g
+One can immediately extend the above results to obtain a d
+h
+
+
+
+
+
+
+criterion of existence of asymptotic expansions (cf. Sec. 3.14). p
+l
+It will be sufficient to consider the case of two factors.
+5
+Let The points p ( p , p , p ) that satisfy 5.3 and 5.4 are the
+V be a parameter that goes to zero, 0 . Consider a 1 2 l
+W X
+
+
+
+
+
+0
+
+
+
+
+
+n points where the product exists in a natural sense (as explained
+product of Sohotsky-type distributions ( D ( p, 0 . As-
+W ) Y i ) g
+g ` in Sec. 3.13) -- such singularities are traditionally called non-
+d
+sume that for all ( p, b c 0 ), pinched, while p satisfying 5.3 but not 5.4 constitute a mani-
+W ) (Y a , W )
+0 (with some e f
+D p fold in the integration space where the product does not exist
+V V V
+g ( , ) are smooth in ( p, ) and D p 0 . Then if
+9 @
+g ( , ) -- the manifold of pinched singularities.
+the product of (D ( p, )
+0 " i ) N
+g 0 exists for arbitrarily large N The system of Landau equations is obtained if one replaces
+`
+
+
+
+
+
+inequalities by equalities in 5.4, and reinterpretes it as a de-
+in the "natural" sense (i.e. in virtue of the Hörmander crite- scription of pinched singularities rather than conditions for ex-
+rion)i, then the asymptotic expansion in V g 0 in the sense of istence of the product.
+distributions of the original product is equal to the product of
+the asymptotic expansions of factors (recall that the latter ex- k I F l T I P H P F D m P m E G
+
+
+
+
+
+pansions are simply the Taylor expansions). $
+
+
+
+
+
+The proof is a straightforward modification of the reasoning In the theory of non-covariant light-cone gauges ( n A 5 0
+in Sec.4.28 in the spirit of Sec. 3.14.
+with n2 5 0 ) one encounters propagators of the following
+form:
+
+i which means that the product of Taylor expansions of factors is well-
+defined to all orders in .
+h
+
+
+
+
+
+13
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+#
+
+
+
+
+
+
+1 n theless result in the same formulas as in the Euclidean case. A
+) p0 n0 p) 1 2 3 4
+
+
+% &
+
+
+
+
+!
+
+) 0 simple example of such a regime was given in Sec. 2.21.
+$ g "
+2 ' (
+p i0 n p It is not difficult to understand (cf. Fig. 2.24) that no modi-
+fications (no new counterterms) to the formulas of Euclidean
+where n2 5 n0
+0 6
+, 0 . An important technical problem (cf. asymptotic operation are necessary as long as the following
+e.g. [31]) is the singular structure of Feynman diagrams in- holds true in the asymptotic limit corresponding to a particular
+volving such propagators in view of the additional singularity regime: Apices of light cones corresponding to various propa-
+in 5.6. The so-called Mandelstam-Leibbrandt prescription (for gators should either merge in the asymptotic limit, or stay away
+a review see [34]) consists in using from each other at a non-light-like separation; they are also not
+3 2 3 @
+n p 0 allowed to approach mass shell surfaces in the asymptotic
+7 n p 8 i 9
+0 sign p
+limit. More precisely, if, as in [4], m , q and M , Q are small
+Using the formalism developed above, it is not difficult to see and large masses and external momenta of the problem, re-
+why this prescription works: spectively (for definiteness, all the momenta enter the dia-
+Indeed, the singular manifolds corresponding to the two grams), and if one formulates the asymptotic regime in terms
+
+7
+factors in the denominator of 5.6 are described by p2 5 0 and of m,q 0 with M ,Q fixed, then q should vanish compo-
+n p 0 , and intersect over the line p B n . Consider any point nentwise whereas Q are allowed to be arbitrary non-lightlike
+A
+
+
+
+
+
+p on that line and evaluate the gradients: provided the asymptotic configuration does not correspond to
+any of the thresholds. More precisely, in the context of a con-
+3 2 3 F
+
+
+D E
+
+
+
+
+
+C C
+2 0 0
+! !
+p 2 p , sign p n p sign p n crete 1PI diagram G , let C be a cut of the diagram with Q
+) ) ) )
+
+
+
+
+A A g g
+
+
+
+
+
+being the momentum entering any one of the two resulting
+(The overall sign is switched so as to make the imaginary in- components of G , and let M be the sum of masses of the
+finitesimal parts the same sign, as required by the formalism of g
+
+
+
+
+the preceding sections.) lines cut by C ; further suppose that Q2 h 2 for any cut i
+g M
+g g
+
+
+
+
+
+One sees that the two gradients are the same up to a posi- in the asymptotic limit ( m 5 q 5 0 ). Then the asymptotic ex-
+tive coefficient -- irrespective of whether p is on the upper or pansion is given by the same formulas as in the case of purely
+lower half-cone. The criterion 4.26 then tells us that the prod- Euclidean asymptotic regimes [4], [5].
+uct 5.6 with the prescription 5.7 is a well-defined distribution.
+This also means that the wave front of the propagator 5.6 on Finally, it should be emphasized that, strictly speaking, the
+the light cone is not different from that of the simple scalar pinch/non-pinched classification of the singularities can be in-
+propagator. From the point of view of studying intersections of terpreted in the context of asymptotic operation as equality to
+causal singularities of several such propagators, this means that zero of counterterms at the corresponding points of singular
+there will be no new pinches etc. as compared with the covari- manifolds. Therefore, one might proceed with the construction
+ant case. Of course, the propagator 5.6 has an additional sin- of non-Euclidean asymptotic operation ignoring such issues,
+gularity n p 0 outside the light cone. But since such addi- and then rediscover nullification of counterterms for non-
+A
+
+
+
+
+
+tional singularities are localized on a linear manifold, studying pinched singularities by an inspection of the resulting integrals.
+their intersections presents no difficulty. As a matter of fact, analytical study of the most complex types
+A reasoning of this sort allows one to largely avoid explicit of non-Euclidean singularities (boundary points of pinched
+calculations when studying the singular structure of diagrams manifolds) may be psychologically easier if one ignores the
+(cf. examples of such calculations in [31]). pinch problem altogether. But the existing treatments start
+with the pinch/non-pinched classification (cf. [35]), so it would
+2 3 f
+
+
+
+
+
+G H I P Q R S H T U Q V W I X I P Y ` a b c b Q T d W e Q ` W P have been inconvenient to postpone establishing a connection
+with what is already known until the new theory is completely
+As a last application, we consider the class of asymptotic developed.
+regimes which, although not allowing Wick rotation, never-
+
+
+
+
+
+p T q X c r U W V e ` W X b P
+
+
+
+
+
+I thank A. V. Radyushkin and G. Sterman for discussions of the problem of non-Euclidean asymptotic expansions.
+Parts of this work were done during two visits to the Physics Department of Penn State University.
+At different stages, this work was supported in parts by the CTEQ collaboration, the Russian Fund for Fundamental Research
+95-02-05794, the International Science Foundation under grants MP9000/9300, and the U.S. Department of Energy under grant
+DE-FG02-90ER-40577.
+I am indebted to P. Cherzor for pointing out several misprints.
+
+
+
+
+
+14
+
+
+¡ ¢ ¡ £ ¤ ¥ ¦ § ¨ © ¥ ¥ ¥ ¨ ¡ ¡ ¡
+
+
+
+
+
+! " ! # ! $ % ! &
+
+
+
+
+
+[1] F.V.Tkachov: Advanced methods for studying radiative [17] R. J. Eden, P.V. Landshoff, D. I. Olive, and
+corrections. Theory of asymptotic operation, in "New J. C. Polkinghorne: The Analytic S-Matrix. Cambridge:
+Techniques for Calculating Higher Order QCD Correc- Cambridge University Press, 1966.
+tions" (1992, 16-18 December 1992, ETH, Zürich). ETH: [18] L. Hörmander: Acta Math. 121 (1971) 79.
+Zürich, 1992; Sov. J. Nucl. Phys. 56 (1993) 180; Sov. J. [19] M. Sato: in Actes Congr. Intern. Math., Nice, 1970.
+Part. Nuclei 25 (1994) 649. [20] L. Schwartz: Théorie des Distributions. Paris: Hermann,
+[2] F.V.Tkachov: in "Quarks-82" (1982, May 5-7, Sukhumi, 1966.
+USSR). INR, USSR Acad. Sci.: Moscow, 1983. [21] M. Sato, T. Kawai, and M. Kashiwara: Lect. Notes in
+[3] F.V.Tkachov: Phys. Lett. B124 (1983) 212. Math. 287 (1973) 265.
+[4] F.V.Tkachov: preprints INR, Russ. Acad. Sci. P-332, P- [22] Y.V. Egorov and M. A. Shubin: Linear differential equa-
+358, Moscow, 1984; tions with partial derivatives. Elements of the modern
+Int. J. Mod. Phys. A8 (1993) 2047. theory. (Modern problems of mathematics. Fundamental
+[5] G.B.Pivovarov and F.V.Tkachov: preprints INR, Russ. directions, Vol. 31.) Moscow: VINITI, 1988.
+Acad. Sci. P-370, Moscow, 1984, P-459, 1986; Int. J. [23] M. Reed and B. Simon: Methods of Modern Mathematical
+Mod. Phys. A8 (1993) 2241. Physics. II: Fourier Analysis, Self-Adjointness. New
+[6] S. G. Gorishny, S.A.Larin, and F.V.Tkachov: Phys. Lett. York: Academic Press, 1975.
+B124 (1983) 217. [24] M. Sato, T. Miwa, M. Jimbo, and T. Oshima: Publ. RIMS
+[7] F.V. Tkachov: Phys. Lett. B100 (1981) 65; Teor. Mat. 12, Suppl. (1977) 387.
+Fiz. 56 (1983) 350; Theses INR, USSR Acad. Sci., Mos- [25] N. N. Bogoliubov, A. A. Logunov, A. I. Oksak, and
+cow 1984. I. T. Todorov: General Principles of Quantum Field The-
+[8] G. T. Loladze, L. R. Surguladze, and F.V.Tkachov: Phys. ory. Dordrecht: Kluwer, 1990.
+Lett. B162 (1985) 363. [26] S. Coleman and R. E. Norton: Nuovo Cim. 38 (1965) 438.
+[9] L. R. Surguladze and F.V.Tkachov: Nucl. Phys. B331 [27] V. A. Smirnov: Renormalization and asymptotic expan-
+(1990) 35. sions. Progress in Physics, Vol. 14. Basel: Birkhauser,
+[10] S. A. Larin, F.V.Tkachov, and J. A. M. Vermaseren: Phys. 1991.
+Rev. Lett. 66 (1991) 862. [28] A. I. Zaslavsky: Theor. Math. Phys. 80 (1989) 372.
+[11] S. A. Larin, F.V.Tkachov, and J. A. M. Vermaseren: Phys. [29] L. Schwartz: Méthodes mathématique pour les sciences
+Lett. B272 (1991) 121. physiques. Paris: Hermann, 1961.
+[12] A. N. Kuznetsov, F.V.Tkachov, and V.V.Vlasov: Tech- [30] V. S.Vladimirov: Generalized Functions in Mathematical
+niques of distributions in applied quantum field theory Physics. Moscow: Mir Publishers, 1979.
+(I) Euclidean As-operation for products of singular [31] A. Bassetto: Renormalization of Yang-Mills theories in
+functions. Preprint Penn State Univ. PSU-92/108-T, light-cone gauge: recent results. (Invited talk at the
+1992. Workshop on Light-Cone Quantization, 1992, Dallas,
+[13] A. N. Kuznetsov and F.V.Tkachov: Techniques of distri- Texas). Preprint DFDP 92/TH/32, Padova.
+butions in perturbative quantum field theory. (II) Appli- [32] G. P. Korchemsky and A.V. Radyushkin: Phys. Lett. B279
+cations to theory of Feynman diagrams. Preprint INR, (1992) 359.
+Russ. Acad. Sci. INR-809/93, Moscow, 1992. [33] E. Eichten and B. Hill: Phys. Lett B234 (1990) 511.
+[14] J. C. Collins and F.V.Tkachov: Phys. Lett. B294 (1992) [34] G. Leibbrandt: Rev. Mod. Phys. 59 (1987) 1067.
+403. [35] S. B. Libby and G. Sterman: Phys. Rev. D18 (1978) 4737.
+[15] J. C. Collins and F.V.Tkachov: The dimensional regulari- [36] H. Epstein and V. Glaser: Ann. Inst. H. Poincare A XIX
+zation in the Sudakov problem (in preparation). (1973) 211.
+[16] L. D. Landau: Nucl. Phys. 13 (1959) 181.
+
+
+
+
+
+15
+
+
+

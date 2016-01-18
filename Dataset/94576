@@ -1,0 +1,940 @@
+
+
+LA-UR-94-1566 Non-equilibrium evolution of
+
+the disoriented chiral condensate
+
+in heavy-ion collisions
+
+Yuval Kluger Theoretical Division, Los Alamos National Laboratory
+
+Los Alamos, New Mexico 87545 USA
+
+ABSTRACT We study the dynamics of the chiral phase transition expected during the expansion of the quark-gluon plasma produced in a high energy hadron or heavy ion collision in the O(4) linear sigma model to leading order in a large N expansion for strong coupling constants. Starting from an approximate equilibrium configuration at an initial proper time o/ in the disordered phase, we study the transition to the ordered broken symmetry phase as the system expands and cools. We give results for the proper time evolution of the effective pion mass, the order parameter ! oe ? as well as for the pion two point correlation function expressed in terms of a time dependent phase space number density and pair correlation density. We investigate the possibility of disoriented chiral condensate being formed during the expansion. In order to create large domains of disoriented chiral condensates low-momentum instabilities have to last for long enough periods of time. Our simulations show that instabilities that are formed during the initial stages of the expansion survive for proper times that are at most 3 f m=c.
+
+1. Introduction
+
+The possibility of producing large correlated regions of quark condensate ! _qiqj ? pointing along the wrong direction in isospin space was proposed 1 to explain rare events where there is a deficit or excess of neutral pions observed in cosmic ray experiments 4. The idea that such disoriented chiral condensates (DCC's) can be formed has been the source of several experimental proposals 2;5 in high energy collisions and a number of theoretical papers 3;6\Gamma 12. Theoretically, it has been recognized that the possibility of forming large regions of DCC relies on the existence of a substantially large regime in which the hot plasma formed after the collision evolves out of equilibrium 3. In fact, if thermal equilibrium is approximately preserved by the dynamics, the typical correlation length would be determined by the pion mass and therefore would be too small to matter. For this reason, a number of authors made several attempts to analyze the nonequilibrium aspects of the dynamics of the chiral phase transition. These approaches vary in form and content: some authors performed numerical simulations on classical models 3;9;10, others used phenomenological terms -
+
+inspired by the classical kinetic theory - to model the interaction between the condensate and the quasiparticles 11 while some attempted to incorporate quantum and thermal fluctuations 6;12 into the picture.
+
+There are clearly two important questions that the theoretical models should aim to answer. The first one is to determine whether during the evolution that follows the collision there are instabilities affecting the fluctuations, in which case there is a chance of the correlations growing. If this occurs, structure may tend to form through a process like spinodal decomposition.
+
+The second question is, assuming the instability exists, can the correlated domains grow large enough so that many pions can be emitted from each domain making the detection of DCC's possible. The time scale for the instabilities to exist is strongly influenced by the strength of the interactions. In the strong coupling regime instabilities exist only for a short period of proper time. This makes it difficult to obtain large sizes for the correlated domains. On the other hand in a weakly coupled system the domains can grow for long periods of time, and a different picture emerges.
+
+In our approach we do not put in instabilities by hand but look at typical fluctuations of initial conditions starting in a region of stability. Previous researchers have assumed the existence of an initial instability and focused their calculations on studying the growth of correlations. The typical and quite drastic way in which the instability had been previously introduced in the problem was by using the so called quench approximation. In a quench, the system (the hot plasma created after the collision) is subject to a sudden external action (the expansion into the vacuum) that has the following net effect: it does not change the state of the system but, instantaneously modifies the effective potential turning it "upside down". This is clearly an idealization that may be entirely inappropriate. In this paper we will present an approach that does not require this approximation and that enables us to study (in a simplified model) the existence of instabilities in a rather straightforward way.
+
+Thus, our aim is to study the evolution of DCC's without imposing the quench approximation or any other ad hoc way of modeling the appearance of an instability. We start at an initial value of the proper time o/0 in the symmetric phase, where the particle masses are positive, by choosing a thermal distribution of particles above the critical temperature T 2c = 12f 2ss =N 20. The system then cools by expanding into the vacuum. The expansion can be described by the Bjorken boost invariant picture for cooling 13 that has been applied in various hydrodynamic models to hadronic as well as heavy ion collisions.
+
+The natural expansion and subsequent cooling of the plasma into the ordered vacuum is studied numerically by solving the update equations for the quantum modes as well as for the expectation values evolving in proper time. In this way, we are able to study the evolution of the plasma in a self consistent way, without imposing any instability by hand. We analyze various reasonable initial conditions on the fields, and determine whether they lead to instabilities. When the effective pion mass becomes negative instabilities ensue. We also determine the time evolving order parameter ! oe ? and the spatial correlation function for the pion field.
+
+In the investigations done so far, simple phenomenological models have been used
+
+hoping that they describe the fundamental physics involved in the dynamics of the phase transition. We will employ the linear sigma model, the most popular one in this context, which seems to have the essential attributes of being simple but realistic enough: it has the correct chiral symmetry properties and also appropriately describes the low energy phenomenology of pions. We will choose the parameters of the model to give reasonable values for three experimentally determined quantities : the mass of the pion mss, the pion decay constant fss and the s wave ss \Gamma ss phase shifts above threshold.
+
+We remark that the theory only makes sense at cutoffs below the Landau pole. This limits the size of the renormalized coupling constant
+
+*maxr (q2 = 0) = lim*
+
+!1
+
+* 1 + N *\Pi (\Lambda ; q2 = 0) =
+
+2ss2 ln( 2\Lambda m
+
+ss )
+
+; (1)
+
+where * is the bare coupling and \Pi is the polarization defined below. Since the mass difference between the oe and ss is directly proportional to *r(q2 = moe2), this leads to an upper bound for the the mass of the oe resonance as a function of \Lambda . Therefore, unlike at tree level, the mass of the oe in the quantized theory is constrained in this model. \Lambda is also constrained from the physical considerations that we want the mass of the oe to be less than the cutoff. However, the mass of the oe resonance increases as we decrease the cutoff since the renormalized coupling increases. This pins down the cutoff to lie between 0:7GeV and 1GeV . For a cutoff of 1GeV we find that *maxr (q2 = 0) ss 11:5 (taking into account finite cutoff effects). In our numerical simulations we use slightly smaller *r in order to avoid numerical problems that occur in the vicinity of the Landau pole.
+
+2. The linear oe-model in the large N approximation
+
+We will use the O(4) linear sigma model to describe the evolution of the pions. We are well aware of the limitations of this approach, that provides a reasonable phenomenological model only for a limited range of energies (typically smaller than 1 GeV ). In spite of its shortcomings, this model captures some of the essential physics involved in the dynamics of the phase transition that may produce disoriented chiral condensates. In particular, the chiral phase transition takes place at a reasonable temperature (Tc = p3fss ), and the low energy ss - ss scattering amplitudes are reasonable in this model. The mesons are organized in an O(4) vector \Phi = (oe; ~ss) and the action is (in natural units _h = c = 1)
+
+S = Z d4xf 12 @\Phi \Delta @\Phi \Gamma 14 *(\Phi \Delta \Phi \Gamma v2)2 + Hoeg: (2) where we have use the Bjorken and Drell metric: (1; \Gamma 1; \Gamma 1; \Gamma 1). We will describe the evolution of the mean value _\Phi j! \Phi ? and the two point correlation functions including the effects of quantum and thermal fluctuations. The complexity of the problem forces us to adopt some approximations. Perturbation theory is useless for
+
+our purpose 14;15, and a scheme which is non-perturbative in * must be adopted. In this context, the most popular approaches which allow for a real time analysis are the the Hartree (or Gaussian) ansatz 16 and the large N expansion of the O(N ) sigma model 17. We will adopt the latter since it presents several advantages. On the one hand, the expansion is systematic and allows us to study higher order corrections (work is in progress in this direction and results will be presented elsewhere 18), and on the other hand, when using the Hartree ansatz in the context of the study of DCC's, one is forced to take the large N limit as well(see Ref. 12). This is due to the well known fact that the Gaussian approximation violates the Goldstone theorem giving an unphysical (and not necessarily small) mass to the pions in the H = 0 limit. Of course, the approximation we adopt here is not expected to capture all the features of the phase transition (as is well known, mean field theory fails to predict the correct critical exponents, but allows us to explore the strong coupling regime).
+
+The large N effective equations can be obtained in a variety of ways, which are extensively discussed in the literature 17. A very convenient method is to use an alternative equivalent action, which is a functional of the original fields \Phi and of the auxiliary constrained field O/ = *(\Phi 2=2N \Gamma v2) 19.
+
+~S[\Phi ; O/] = Z d4xf\Gamma 12 OEi(2 + O/)OEi + O/
+
+2
+
+4* +
+
+1 2 O/v
+
+2 + Hoeg: (3)
+
+As this action is now quadratic in \Phi we can perform the functional integral over those fields, and are left with a functional integration over O/ which, to leading order in 1=N can be calculated by the stationary phase method. The effective action, which is a functional of the mean fields of \Phi and O/, is obtained by Legandre transformation of the generating functional of the connected Green's functions. To the lowest order (in large N expansion) the effective action is given by
+
+\Gamma [\Phi ; O/] = Z d4xf\Gamma 12 OEi(2 + O/)OEi + O/
+
+2
+
+4* +
+
+1 2 O/v
+
+2 + Hoe + i
+
+2 N tr lnG
+
+\Gamma 10 g; (4)
+
+where
+
+G\Gamma 10 (x; y) = i[2 + O/(x)] ffi4(x \Gamma y); (5) and where for notational convenience we drop the overbars and denote the expectation values as \Phi and O/.
+
+From this effective action we derive the equations of motion for the fields \Phi and the equation of constraint (gap equation) for the composite field O/ which plays the role of the effective mass for the mean values \Phi i:
+
+(2x + O/(x))\Phi i(x) = Hffii1 (6) O/(x) = *(\Gamma v2 + \Phi 2(x) + N G0(x; x)): (7)
+
+The function G0(x; x) that appears in (7) is the coincidence limit of the propagator G0(x; y) that inverts the operator G\Gamma 10 defined in (5). We can use an auxiliary quantum field OE(x) where ! OE(x) ?= 0 and
+
+(2x + O/(x))OE(x) = 0 (8) to construct this propagator as G0(x; y) =! T OE(x)OE(y) ?.
+
+The initial value problem associated with equations (5)-(7) will be solved in the next section. Here, we would like to address the issue of how to use this model to make contact with the phenomenology we want to describe. Thus, we must fix the values of the parameters appearing in the above equations so that they describe low energy pion physics. The measurable quantities we want to reproduce are the pion mass mss = 135 M eV , the pion decay constant fss = 92:5 M eV as well as the s wave, I = 0 phase shifts in the energy range 300 \Gamma 420M eV . To fit these physical quantities we analyze our equations in the "true vacuum" state (i.e., in equilibrium at zero temperature). In this state the derivatives of the expectation values vanish, and we have \Phi = (oev; ~o), O/ = O/v where oev and O/v are some constants whose values will be determined below. The physical masses can be related to the parameters of the theory by computing the inverse propagators of the pion and sigma fields. The s-wave phase shifts are determined from the ss \Gamma ss scattering amplitudes obtained in this approximation which are controlled by the exchange of the composite field O/ propagator. In the vacuum sector (where O/ = m2ss, ssi = 0 and oe = fss) the ss, oe, and O/ propagators are obtained by inverting the matrix inverse propagator
+
+^G\Gamma 1 = ffi
+
+2\Gamma
+
+ffi\Psi ffi\Psi ; (9) with the 5 dimensional vector \Psi j (\Phi ; O/), and are given by
+
+^Gssss (p2)ij = hffiij(p2 \Gamma O/) \Gamma ssi ^G0 O/O/(p2)ssji\Gamma 1 ; (10)
+
+^Goeoe(p2) = hp2 \Gamma m2 \Gamma oe2 ^G0 O/O/(p2)i\Gamma 1 ; (11)
+
+^GO/O/(p2) = "G\Gamma 10 O/O/(p2) + oe
+
+2
+
+O/ \Gamma p2 #
+
+\Gamma 1
+
+; (12)
+
+where
+
+^G\Gamma 10 O/O/(p2) = 12* + N2 \Pi (p2);
+
+\Pi (p2) = iG20 = \Gamma i Z [d4q] (O/ \Gamma q2)\Gamma 1(O/ \Gamma (p + q)2)\Gamma 1: (13) We use the notation that [dnq] = dnq=(2ss)n. (Notice that in the initial value problem one can have ssi 6= 0. Examining Eq. (10) we realize that ffiijG0(x; y) is the pion propagator only when ! ssi(x) ?= 0.)
+
+The pion-pion scattering invariant T-matrix is given by:
+
+T = ffiijffiklA(s) + ffiikffijlA(t) + ffiilffijkA(u); (14) where the isospin indices i; j; k; l are coupled to the four momenta p1; p2; p3; p4 such that s = (p1 + p2)2, t = (p1 \Gamma p3)2 u = (p1 \Gamma p4)2. In leading order in large N the amplitudes A(s), A(t) and A(u) are exactly the O/ propagator, namely
+
+A(s) = \Gamma ^GO/O/(p2 = s): (15) The large N expansion preserves the current algebra so that the usual low energy theorem is exact. That is, for small s; m2 one easily shows that
+
+A(s) ! (s \Gamma m
+
+2)
+
+f 2ss :
+
+This amplitude is independent of the coupling constant *. We thus need to go above threshold to determine the coupling constant. The I = 0 scattering amplitude is
+
+A0 = 3A(s) + A(t) + A(u): (16) The s-wave scattering amplitude is obtained by integrating the the I=0 scattering amplitude over angles.
+
+fl=0 = eiffi(s)sin ffi(s) = 116ss s1 \Gamma 4m
+
+2
+
+s
+
+1 2 Z
+
+1 \Gamma 1 dz A
+
+0; (17)
+
+where z = cos ` and ` is the scattering angle in the s channel center of mass system.
+
+The vacuum expectation value of oe is determined by fss
+
+oev = fss: (18) On the other hand, in the vacuum we have ~ss = 0, and the pion inverse propagator is G\Gamma 1ij ss;ss(x; y) = G\Gamma 10 (x; y)ffiij. Therefore, the vacuum expectation value of O/ is
+
+O/v = m2ss j m2: (19) The sigma mass can be approximately determined in terms of the inverse sigma propagator as the zero in the real part of the inverse propagator (a more precise determination which gives a slightly different result is from the peak in the I = 0, l = 0 scattering amplitude). This leads to the equation:
+
+m2oe = m2 + oe2Re[G0 O/O/(m2oe)]: (20) We do not expect the theory to be valid for energies above 1 GeV since in that regime the correct dynamics is described by QCD. In fact if we raise \Lambda above 1 GeV, the maximum value of the renormalized coupling goes down, and the oe mass becomes
+
+unacceptably low. Reasonable values for the mass of the oe constrain \Lambda to be in the range 0:7GeV ! \Lambda ^ 1GeV . In that range the best value of the renormalized coupling *r is between 7-10. For this range of values for *r this model agrees qualitatively with low energy scattering data as was mentioned before. With this choice of parameters, it is difficult to obtain values of the oe mass higher than 450M eV .
+
+3. Cooling by expansion
+
+To analyze the possibility of forming DCC's we should take into account the specific features characterizing the situation after a highly energetic heavy ion collision. Experimentally, a flat plateau in the distribution of produced particles per unit rapidity is observed in the central rapidity region (these results are obtained in p-_p and other collisions). This suggests the existence of an approximate Lorentz boost invariance. Thus, the simplest picture of a collision, due to Landau 25, is one in which the excited nuclei are highly contracted pancakes receding away from the collision point at approximately the speed of light. The boost invariance implies that the evolution of the "hot plasma" that is left in between the nuclei looks the same when viewed from different inertial frames. Of course, this is an approximate picture that is not valid for large values of the spatial rapidity and for transverse distances of the order of the nucleus size. The existence of this approximate symmetry can be used to make a very simple hydrodynamical model 13 that, in some cases, may describe the evolution of the plasma. It is worth reviewing these ideas very briefly. Firstly, one should recognize that the natural coordinates to make a boost invariant model are the proper time o/ and the spatial rapidity j, defined as
+
+o/ j (t2 \Gamma x2)1=2; j j 12 log( t \Gamma xt + x ): (21) The observed symmetry will be respected by the model if one imposes initial values on a o/ =constant hypersurface (and not at constant laboratory time t).
+
+According to this simple model of a collision, the plasma evolves in a highly inhomogeneous way when viewed from the laboratory frame. In fact, by analyzing a constant t surface we realize that the field configurations strongly depend on the spatial coordinate x. Near the light cone jxj = t the system is "hot" (corresponding to small values of the proper time o/ ). On the other hand, for small values of x (that correspond to larger values of o/ ) the system is "colder". This type of configuration, hot in the outside and cold in the inside, is schematically known as "Baked Alaska".
+
+In this paper we want to study the formation of DCC's using some of the ideas presented above. We will not assume a quasi equilibrium situation or use a phenomenological hydrodynamical (or kinetic) model to describe the evolution of our system. On the contrary, we will study the nonequilibrium evolution in its full glory and solve equations (5)-(7), which include thermal and quantum effects. Using the coordinates (21) and fixing boost invariant initial conditions at an initial proper time o/0 we introduce the expansion and "cooling" of the plasma in a natural way. Therefore,
+
+we do not need to introduce any ad hoc cooling mechanisms by hand. The cooling, if any, will appear as a result of the evolution, which is fully out of equilibrium (a similar approach in different kind of expansion has been investigated independently by Gavin and Mueller11). In this way, we can really test the validity of the "quenching" approximation that has been almost universally used when analyzing the evolution of DCC's.
+
+3.1. The equations
+
+In the coordinates (21) Minkowsky's arc element is
+
+ds2 = do/ 2 \Gamma o/ 2dj2 \Gamma dx2?: (22) To study the evolution of the mean fields and correlations in these coordinates, our first task is to rewrite equations (5)-(7) using the new variables. Assuming that the mean values \Phi and O/ are functions of o/ only (homogeneity in the constant o/ hypersurface) we have
+
+o/ \Gamma 1@o/ o/ @o/ \Phi i(o/ ) + O/(o/ ) \Phi i(o/ ) = Hffii1 (23)
+
+O/(o/ ) = *(\Gamma v2 + \Phi 2i (o/ ) + N ! OE2(x; o/ ) ?); (24) where the quantum field OE(x; o/ ) satisfies the Klein Gordon equationi
+
+o/ \Gamma 1@o/ o/ @o/ \Gamma o/ \Gamma 2@2j \Gamma @2? + O/(x)jOE(x; o/ ) = 0: (25) The quantum field OE(x; o/ ) defined here is an auxiliary field which allows us to calculate the Wightman function G0(x; y) by taking the expectation value:
+
+G0(x; y; o/ ) j! OE(x; o/ ) OE(y; o/ ) ? : (26) When the expectation value of the pion field is zero, then this field corresponds to one component of the pion field.
+
+We expand this field in an orthonormal basis
+
+OE(j; x?; o/ ) j 1o/ 1=2 Z [d3k](exp(ik \Delta x)fk(o/ ) ak + h:c:); (27) where k \Delta x j kjj +~k?~x?, [d3k] j dkjd2k?=(2ss)3 and the mode functions fk(o/ ) evolve according to:
+
+"fk + ( k
+
+2j
+
+o/ 2 + ~k
+
+2 ? + O/(o/ ) + 14o/ 2 )fk = 0: (28)
+
+A dot here denotes the derivative with respect to the proper time o/ . The expectation value ! OE2(x; o/ ) ? can be expressed in terms of the mode functions fk and of the distribution functions
+
+nk j! aykak ?; gk j! akak ?; (29) which entirely characterize the initial state of the quantum field. For simplicity, we will assume that the initial state is described by a density matrix which is diagonal in the number basis (like a thermal state). In such a case, the only nonvanishing distribution is nk. Thus, replacing the above expressions in (24) we have:
+
+O/(o/ ) = *i\Gamma v2 + \Phi 2i (o/ ) + 1o/ N Z [d3k]jfk(o/ )j2 (1 + 2 nk)j: (30) We assume that the initial density matrix at o/0 is one of local thermal equilibrium in the comoving frame
+
+nk(o/0) j nk = 1efi
+
+0E0k \Gamma 1 ; (31)
+
+where fi0 = 1=T0, E0k = qk2j=o/ 2 + k2? + O/(o/0).
+
+To renormalize the theory we absorb the quadratic divergences in the bare mass *v2 and the logarithmic ones in the coupling constant *. After a few simple manipulations (that involve adding and subtracting the appropriate terms in (30)) we can write the equation for O/ as
+
+O/(o/ ) = O/(o/0) + *rZ (\Phi 2i (o/ ) \Gamma \Phi 2i (o/0)) + N *ro/ Z Z [d3k]njfk(o/ )j2(1 + 2 nk) \Gamma
+
+\Gamma 12~!
+
+k(o/ )o \Gamma
+
+N *r
+
+o/0Z Z [d
+
+3k] 1
+
+!k(o/0) nk; (32)
+
+where ~!k(o/ ) j (k2j=o/ 2 + ~k2? + O/(o/0))1=2 and the renormalized coupling *r and Z are defined as
+
+* = *r=Z; Z = 1 \Gamma *rffi*; ffi* j N4o/ Z
+
+\Lambda [d3k] 1
+
+~!3k(o/ ) : (33)
+
+The initial value O/(o/0) comes from solving the gap equation (30) at the initial time using the fact that in the initial equilibrium state at o/0, \Phi eq(T0) = Hffii1=O/eq(T0). Notice that the set of coupled equations, (23), (28), (32), are entirely written in terms of the renormalized quantities *r and O/0. Changing the value of the cutoff will change both the value of the integrals and the value of Z in Eq. (32) leaving O/ cutoff independent.
+
+3.2. The correlation function
+
+Expanding the field OE in terms of the first order adiabatic mode functions,
+
+f 0k = e
+
+\Gamma i R
+
+o/
+
+o/0 do/
+
+0!k(o/0)q
+
+2!k(o/ ) ; (34) where !k(o/ ) j ( k
+
+2 j+1=4
+
+o/2 + ~k
+
+2 ? + O/(o/ ))1=2, we have
+
+OE(j; x?; o/ ) j 1o/ 1=2 Z [d3k](exp(ik \Delta x)f 0k (o/ ) ak(o/ ) + h:c:): (35) The two sets of creation and annihilation operators are connected by a Bogoliubov transformation:
+
+ak(o/ ) = ff(k; o/ )ak + fi(k; o/ )ay\Gamma k; (36) where the Bogoliubov coeeficients are given by
+
+ff(k; o/ ) = i(f 0\Lambda k @fk@o/ \Gamma @f
+
+0\Lambda k
+
+@o/ fk) (37)
+
+fi(k; o/ ) = i(f 0k @fk@o/ \Gamma @f
+
+0k
+
+@o/ fk): (38) The time dependent creation and annihilation operators satisfy
+
+.akf 0k + .ayk f \Lambda 0k = 0 (39) in order for the usual canonical commutation relations to hold. Then we can write the Green function G0 as follows:
+
+G0(x; y; o/ ) = 1o/ Z [d3k]eik\Delta (x\Gamma y)jfk(o/ )j2 (1 + 2 nk(o/0))
+
+= 1o/ Z [d3k]eik\Delta (x\Gamma y) (1 + 2 nk(o/ ) + 2Re[gk(o/ )e
+
+\Gamma 2i R
+
+o/
+
+o/0 do/
+
+0!
+
+k(o/
+
+0)])
+
+2!k(o/ ) ; (40) where
+
+! ayk (o/ )aq(o/ ) ? = (2ss)3ffi3(k \Gamma q)nk(o/ ) ! a\Gamma k(o/ )aq(o/ ) ? = (2ss)3ffi3(k \Gamma q)gk(o/ ): (41)
+
+In terms of the initial distribution of particles nk(o/0) and the Bogoliubov coefficients ff and fi we have:
+
+nk(o/ ) = nk(o/0) + jfi(k; o/ )j2(1 + 2nk(o/0)) (42)
+
+gk(o/ ) = ff(k; o/ )fi(k; o/ )(1 + 2nk(o/0)): (43) The variables n(o/ ) and g(o/ ) now have the physical interpretation as the interpolating phase space number and pair density for the case where ! ssi ?= 0. These operators coincide with the time independent number and pair densities defined by (29) at o/0, and in the out regime become the physically measurable number and pair densities. For ! ssi ?6= 0 the actual pion two point function is more complicated than G0 and this is only one piece of that Green's function. Of course in the vacuum Isospin conservation requires ! ssi ?= 0, so that once we are approaching the final true vacuum state during the cooling process, one can use these interpolating number and pair operators to describe the physics of the problem. Also note that during the evolution, !2k can become negative (the instability phase) and for those modes the adiabatic basis does not exist.
+
+4. Initial conditions and results
+
+In order to solve equations (23), (28) and (30) as an initial value problem, we need to give Cauchy data (the function and its derivatives) for the mean values \Phi i(o/ ) and for the mode functions fk(o/ ). It is possible to choose the initial data fk(o/0) and. fk(o/0) so that the vacuum state coincides with the ordinary Minkowsky vacuum, at least for high momentum. It can be shown that this is accomplished by taking the "zero order adiabatic" vacuum 26 where
+
+fk(o/0) = 12!
+
+k(o/0) ;
+
+.fk(o/0) = (i !k(o/0) \Gamma .!k(o/0)2!
+
+k(o/0) )fk(o/0); (44)
+
+where !k(o/ ) j (k2j=o/ 2 + ~k2? + O/(o/ ))1=2.
+
+We should point out that the initial value of O/ will always be restricted to being positive. As we said, O/(o/ ) is the effective mass of the quasiparticles. Therefore, taking a negative initial value for O/ implies that we are "turning the effective potential upside down." In our view, this cannot be the consequence of forming a "peculiar" initial state but must rather be the consequence of the cooling mechanism, which is entirely produced by the expansion. In fact, starting with a negative O/0 is what is done when studying this problem by using the quench approximation: one starts with a hot initial state and lets it evolve in the low temperature effective potential. It should be clear by now that this is drastically different from our approach. We will study the selfconsistent evolution of O/ starting from a "hot" initial value and follow its evolution.
+
+We want to start in the quark - gluon plasma phase above the chiral phase transition which places constraints on the initial energy density present at o/0. We then assume that slightly above this transition it is reasonable to model the chiral transition with the effective Lagrangian of the sigma model. Not knowing exactly what this proper time is, we will consider here reasonable initial proper times (1f m=c ! o/0 ! 4f m=c) and study the effect of the initial proper time o/ on the
+
+production of instabilities. Taking larger proper times as the starting point for our calculation reduces even further the possibility of instability growth.
+
+The first issue we will examine here is the existence of instabilities. Notice that there are unstable modes fk whenever (k2j + 1=4)=o/ 2 + k2? + O/ is negative so that only the long wave length modes can become unstable. O/ can classically become negative only when
+
+O/(o/0) + *\Phi 2i (o/ ) \Gamma *\Phi 2i (o/0) ! 0; (45) so that the most unstable case has \Phi (o/ ) = 0. Therefore, at the classical level the bare coupling must satisfy
+
+* ? O/(o/0)\Phi 2
+
+i (o/0) (46)
+
+for there to be any instabilities. Once instabilities grow, they cause exponential growth of the modes in the mode sum which contributes a positive quantity to the equation for O/. Thus, the stronger the coupling the quicker O/ returns to a positive value.
+
+In previous works the presence of unstable modes was assumed by imposing the quench approximation. In our numerical studies we find that, due to the strong coupling, in a wide class of initial conditions consistent with reasonable fluctuations found in a thermal distribution no instabilities develop. In our simulations the one thing we did not change was the value of the composite field O/ which was fixed to be the solution of the gap equation in the initial thermal state. We also maintained the constraint that the initial values of the expectation values of the field, namely ss(o/0) and oe(o/0) satisfied the relationship:
+
+~ss2(o/0) + oe2(o/0) = oe2T ; where oeT is the equilibrium value of \Phi at the initial temperature T . This last constraint is reasonable since it doe not cause much energy to make a rotation in the direction of ssi. Thus we chose different initial oe and ssi consistent with the above constraints and then probed the effect of different initial values for .oe and .ssi. Since the results for .ssi 6= 0 were similar to those when .oe 6= 0 we mainly present here the results for the latter case. We have also surveyed other possibilities that violate the above constraints such as choosing initial oe = 0. In this case we found that instabilities (even with .oe 6= 0) have shorter life times than those with the above constraint.
+
+We have performed numerical simulations on the connection machine CM-5 using a grid that has 100 modes in the transverse direction and 100(o/ =o/0) modes in the j direction with dkj=f m = \Lambda =100, dk? = \Lambda =100.
+
+First, let us consider the case where the initial value oe(o/0) is the thermal equilibrium one corresponding to a temperature of 200M eV . We varied the value of the initial proper time derivative of the sigma field expectation value and found that there is a narrow range of initial values that lead to the growth of instabilities, namely
+
+0:25f m\Gamma 2 ! j .oej ! 1:3f m\Gamma 2:
+
+Surprisingly when j .oej ? 1:3f m\Gamma 2 instabilities no longer occur.
+
+Figures 1-2 summarize the results of the numerical simulation for the evolution of the system (23),(28) and (32). We display the auxiliary field O/ in units of f m\Gamma 2 , the classical fields \Phi in units of f m\Gamma 1 and the proper time in units of f m\Gamma 1. In Fig. 1 and Fig. 2 the proper time evolutions of the auxiliary field O/ field are presented for two different values of fss, where the initial conditions were fixed at o/ = 1. In the case of fss = 92:5M eV we see that the instability lasts for less than 3f m. As discussed earlier, the regime of exponential growth of the unstable modes occurs whenever O/ ! 0. We notice that when we rotate the expectation value from the oe to the ss1 direction initially, the typical time that instability exists is of the same magnitude. We also notice that if we choose the time derivative to be zero and start from an equilibrium configuration, then the expansion alone is insufficient to generate instabilities. We find that in order to generate instabilities we require fluctuations in the classical kinetic terms such as .oe or .ssi, and as discussed earlier, these initial conditions must be in a very narrow range to produce instabilities. Thus the rapid quench conditions assumed by other authors comprises only a small region of the phase space of initial fluctuations expected in an initial thermal distribution. As expected, at late proper times, the auxiliary field approaches its equilibrium value of m2ss. For the case where fss = 125M eV , a value favored by fitting the low energy scattering, we see a very similar pattern, showing that our main results concerning the small range of initial conditions that lead to instabilities are not affected by a 30% change in the value of this parameter.
+
+A crude estimate for the size of a disoriented chiral condensate is to multiply a typical life time of the instabilities by the speed of light. With this estimate the size of these regions are of the order of a few fermi. Of course one needs to study the growth of inhomogeneous instabilities to make any definite statements about this size. We were hoping that the correlation functions we have calculated could be interpreted easily in terms of a length parameter associated with the size of these regions. However, as we will see below, this didn't occur. In Fig. 3 we plot the proper time evolution of the classical fields oe and ss for the same two choices for fss as in Fig. 1 and Fig. 2. We see that the sigma field asymptotes to its vacuum value fss and the ss field gradually converges to its equilibrium value of zero. In Fig. 4 we show the effect of starting the initial value problem at later times, namely o/0 = 2:5; 4 f m, and compare them to the case previously studied with o/0 = 1f m, which had a modest region of instability growth. We see that as we increase o/0 we decrease the possibility of instability growth, and with these late initial times it is not possible to produce instabilities even with kinetic energy fluctuations. In Fig. 5 we study the effect of the initial temperature on our time evolution problem. For fss = 92:5 the critical temperature is 160M eV (in the absence of explicit symmetry breaking term). We see that in the vicinity of the critical temperature the effects of varying the initial temperature is minor. In Fig. 6 we study the proper time evolution of the effective number density for various initial conditions. In thermal equilibrium one expects for an isentropic expansion in boost invariant coordinates that so/ = constant. Since the number density is proportional to the entropy density one expects that once particle
+
+s(1)=0.3 u""s/u""t(1)=1
+
+0 5 10 15 20 25 -1
+
+0 1 2 3
+
+c
+
+s(1)=0.3 u""s/u""t(1)=0
+
+0 5 10 15 20 25 0.3
+
+0.4 0.5 0.6 0.7 0.8
+
+s(1)=0.3 u""s/u""t(1)=-1
+
+0 5 10 15 20 25 -0.5
+
+0 0.5
+
+1 1.5
+
+t c
+
+p1(1)=0.3 u""s/u""t(1)=-1
+
+0 5 10 15 20 25 -0.5
+
+0 0.5
+
+1 1.5
+
+2
+
+t Figure 1: Proper time evolution of the O/ field for four different initial conditions with fss = 92:5M eV .
+
+production stops that n(o/ )o/ ! constant. We see this trend in this figure, showing that we are reaching the out regime as the system expands. The breaks in some of these curves at early values of o/ are a result of the fact that the interpolating number density cannot be defined when O/ is negative. Next, we are interested in seeing how our results differ from the case where the system evolves in local thermal equilibrium. This is described by two correlation lengths, the inverse of the effective pion mass associated with O/(o/ ) , and the inverse of the proper time evolving effective temperature T (o/ ) = T (o/0)(o/0=o/ )3 corresponding to a boost invariant hydrodynamical models. We see from Fig. 7 that in the case of oe(1) = oeT , ssi(1) = 0 and .oe(1) = \Gamma 1, where maximum instability exists, complex structures are formed as contrasted to the local thermal equilibrium evolution. The interpolating phase space distribution n(kj; k?; o/ ) obtained numerically, clearly exhibits a larger correlation length in the transverse direction than the nT (kj; k?; o/ ) equilibrium one, and has correlation in rapidity of the order of 1-2 units of rapidity. We notice that in both directions there are structures that does not lend themselves to a simple interpretation. On the other hand, the local thermal equilibrium evolution is quite regular apart from the normalization of the distributions that are changing with time due to oscillation in the quantity O/(o/ ) which is damped to its equilibrium value once the system expands sufficiently. In Fig. 8 we look at the time evolution of the interpolating number
+
+s(1)=0.5 u""s/u""t(1)=1
+
+0 5 10 15 20 25 -1
+
+0 1 2 3
+
+c
+
+s(1)=0.5 u""s/u""t(1)=0
+
+0 5 10 15 20 25 0.3
+
+0.4 0.5 0.6 0.7 0.8
+
+s(1)=0.5 u""s/u""t(1)=-1
+
+0 5 10 15 20 25 -0.5
+
+0 0.5
+
+1 1.5
+
+t c
+
+p1(1)=0.5 u""s/u""t(1)=-1
+
+0 5 10 15 20 25 -1
+
+0 1 2
+
+t Figure 2: Same as Fig. 1, but for fss = 125M eV .
+
+operator for the case in which we did not have any fluctuations in the kinetic energy. Here we are still far from equilibrium, and we see that unlike the equilibrium case the correlation length in rapidity space is not decreasing with proper time. In this case where there are no instabilities we do not see complicated structures. The transverse distribution is similar to the equilibrium case. The pair density function g(kj; k?; o/ ) is even more elusive to parametrize than the single particle distribution function. In the case where there are no instabilities ( .oe(1) = 0) we see in Fig. 9 that although the transverse distribution is relatively simple, the distribution in the j direction (whose fourier transform gives the rapidity distribution) has many length scales. When we have instabilities ( .oe(1) = \Gamma 1) then both distributions are complicated and possess several length scales, as seen in the lower part of Fig. 9. We also directly computed the fourier transform of the pion correlator (the first line of Eq.(40) for the case of ssi = 0, and as expected, it has even more complex structure than the distributions n and g. In the case of non zero ssi fields we expect that the correlator will have similar structure to the case described above, and it will involve at least 3 time evolving length scales related to the inverse mass of the pion, the inverse of the effective temperature and possible length scales describing domain growth.
+
+fp=92.5 MeV 10 20 30 -0.5
+
+0 0.5
+
+1
+
+s
+
+fp=125 MeV
+
+10 20 30 -0.5
+
+0 0.5
+
+1
+
+fp=92.5 MeV 10 20 30 -0.4
+
+-0.2
+
+0 0.2 0.4
+
+t p1
+
+fp=125 MeV
+
+10 20 30 -0.4
+
+-0.2
+
+0 0.2 0.4
+
+t Figure 3: Proper time evolution of the oe and ss fields for the following initial conditions: Solid line is for oe(1) = oeT , ssi(1) = 0 and .oe(1) = 1. Dotted line is for oe(1) = oeT , ssi(1) = 0 and .oe(1) = 0. Dashed- dotted line is for oe(1) = oeT , ssi(1) = 0 and
+
+.oe(1) = \Gamma 1. Dashed line is for oe(1) = 0, ssi(1) = oeT and .oe(1) = \Gamma 1. At T = 200M eV , oeT = 0:3f m\Gamma 1 for fss = 92:5M eV and oeT = 0:5f m\Gamma 1 for fss = 92:5M eV .
+
+fp=92.5 MeV
+
+tin= 1 tin= 2.5 tin= 4
+
+10 20 30 40 50 0
+
+1 2 3
+
+t c
+
+Figure 4: Proper time evolution of the O/ field for three different initial proper times o/0 = 1; 2:5; 4 with fss = 92:5M eV , oe(o/in) = oeT , ssi(o/in) = 0 and .oe(o/in) = \Gamma 1.
+
+fp=92.5 MeV T= 200 MeV T= 164 MeV T= 150 MeV
+
+10 20 30 0
+
+1 2
+
+t c
+
+Figure 5: Proper time evolution of the O/ field for three different initial thermal distributions with T = 200; 164; 150M eV for the case of oe(1) = oeT , ssi(1) = 0 and
+
+.oe(1) = \Gamma 1.
+
+fp=92.5 MeV s(1)=.3 s'= 1 s(1)=.3 s'= 0 s(1)=.3 s'=-1
+
+p1(1)=.3 s'=-1
+
+10 20 30 0
+
+0.1 0.2 0.3
+
+t nt
+
+Figure 6: Proper time evolution of the produced particle density no/ j dN=djdx? for the same evolution shown in Fig. 1.
+
+fp=92.5 MeV
+
+t=1.0 t=1.66 t=2.83 t=7.92 t=12.96 t=19.29
+
+j j j j j j j
+
+j j j j j j j j j j j j j j j 0 0.5 1 1.5 0
+
+10 20 30
+
+p n(k
+
+h=0,p;
+
+t)
+
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
+jjjjjjjj
+
+0 1 2 3 4 0
+
+10 20 30 40
+
+kh n(k
+
+h,p=0;
+
+t)
+
+j j j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j j
+
+j j
+
+0 0.5 1 1.5 0
+
+0.5
+
+1 1.5
+
+2
+
+p nT(k
+
+h=0,p;
+
+t)
+
+jjj
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+jj
+
+jj
+
+jj
+
+jjj
+
+jjjj
+
+jjjjjj
+
+jjjjjjjjjjjjjjjjj
+
+jjj
+
+0 1 2 3 4 5 0
+
+0.5
+
+1 1.5
+
+2
+
+kh nT(k
+
+h,p=0;
+
+t)
+
+Figure 7: Slices of kj = 0 and p j jk?j = 0 of the proper time evolution of the interpolating phase space particle number density n(kj; k?; o/ ) for oe(1) = oeT , ssi(1) = 0 and .oe(1) = \Gamma 1 compared with the corresponding local thermal equilibrium densities nT (kj; k?; o/ ).
+
+fp=92.5 MeV
+
+t=1 t=1.66 t=2.86 t=4.86 t=8.11 t=12.96
+
+j j j j j jj
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+jj
+
+jj
+
+jj
+
+jjj
+
+jjj
+
+jjjjj
+
+jjjjjjjjj
+
+jjjjjjjjj
+
+0 1 2 3 4 5 0
+
+0.5
+
+1
+
+p n(k
+
+h=0,p;
+
+t)
+
+jj
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+jj
+
+jj
+
+jj
+
+jjj
+
+jjj
+
+jjjjj
+
+jjjjjjjjj
+
+jjjjjjjjj
+
+0 1 2 3 4 5 0
+
+0.5
+
+1
+
+kh n(k
+
+h,p=0;
+
+t)
+
+jj
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+jj
+
+jj
+
+jj
+
+jjj
+
+jjjj
+
+jjjjj
+
+jjjjjjjjjjjj
+
+jjj
+
+0 1 2 3 4 5 0
+
+0.2 0.4 0.6 0.8
+
+1
+
+p nT(k
+
+h=0,p;
+
+t)
+
+jj
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+j
+
+jj
+
+jj
+
+jj
+
+jjj
+
+jjjj
+
+jjjjj
+
+jjjjjjjjjjjj
+
+jjj
+
+0 1 2 3 4 5 0
+
+0.2 0.4 0.6 0.8
+
+1
+
+kh nT(k
+
+h,p=0;
+
+t)
+
+Figure 8: As in Fig. 7, but for oe(1) = oeT , ssi(1) = 0 and .oe(1) = 0.
+
+fp=92.5 MeV u""s/u""t(1)=0
+
+t=1.66 t=2.83 t=4.86 t=7.92 t=12.96 t=19.29
+
+0 0.5 1 1.5 -0.5
+
+0 0.5
+
+1
+
+p Re g(k
+
+h=0,p; t) u""s/u""t(1)=0
+
+0 1 2 3 4 5 -0.5
+
+0 0.5
+
+1
+
+kh Re g(k
+
+h,p=0; t)
+
+u""s/u""t(1)=-1 0 0.5 1 1.5 -10
+
+0 10 20 30
+
+p Re g(k
+
+h=0,p; t) u""s/u""t(1)=-1
+
+0 1 2 3 4 -40
+
+-20
+
+0 20
+
+kh Re g(k
+
+h,p=0; t)
+
+Figure 9: Slices of kj = 0 and p j jk?j = 0 of the proper time evolution of the real part of the phase space pair density g(kj; k?; o/ ) for oe(1) = oeT , ssi(1) = 0 and
+
+.oe(1) = 0; \Gamma 1.
+
+5. Conclusions
+
+In this paper we have performed numerical simulations in the regime of the chiral phase transition in the linear sigma model for a wide variety of initial conditions starting above the critical temperature for an expanding plasma of pions and sigmas. Assuming that this model gives a reasonable description in this temperature range, we found initial conditions where instabilities grew in the scenario required for the formation of disoriented chiral condensates. The constraints on our model which are imposed in order to approximate the low energy physics of pion interactions require a large renormalized coupling constant. This had the effect of rapidly damping the instabilities, and we found no evidence in this model for large domains of disoriented chiral condensates. We did, however, see rather large departures in the phase space number density from one which would result from an evolution in local thermal equilibrium. These departures show a narrowing of the momentum space distribution which could be interpreted as a larger spatial correlation length. However we did not find a simple way of extracting correlation lengths from our results. In our simulations we assumed a reasonable mechanism for cooling- namely the expansion of the plasma following its production in a collision. In the future we hope to include scattering effects which will introduce another time scale, namely the equilibration time scale, into the problem, as well as study the nonlinear sigma model to see if the results differ significantly from those found here.
+
+6. Acknowledgements
+
+This work was done in collaboration with Juan Pablo Paz, Fred Cooper and Emil Mottola. I would like to thank Alex Kovner for the many enlightening discussions we had, which were very valuable and Salman Habib for stimulating criticisms and discussions. This research was performed in part using the resources located at the Advanced Computing Laboratory of Los Alamos National Laboratory, Los Alamos, NM 87545.
+
+1. A. Anselm, Phys. Lett. B217, 169 (1989); A. Anselm and M. Ryskin, Phys.
+
+Lett. B226, 482 (1991). 2. J.D. Bjorken, Int. Jour. of Mod. Phys.A7, 4189 (1992); Acta Phys. Pol. B23
+
+561 (1992). 3. K. Rajagopal and F. Wilczek, Nucl. Phys. B379, 395 (1993). 4. C.M.G. Lattes, Y. Fujimoto and S. Hasegawa, Phys. Rep. 65, 151 (1980). 5. J.D. Bjorken, K. Kowalsky and C.C. Taylor, "How to observe disoriented chiral
+
+condensates", (1993). 6. P. Bedaque and A. Das, Mod. Phys. Lett. A8, 3151 (1993). 7. S. Yu. Khlebnikov, Mod. Phys. Lett. A 8, 1901 (1993). 8. I. Kogan, Phys. ReV. D 48, 3971 (1993); I. Kogan, JETP Lett. 59, 312
+
+(1994). 9. S. Gavin, A. Gocksch and R.D. Pisarski, Brookhaven Preprint BNL-GGP-1
+
+(1993) 10. Z. Huang and X.N. Wang, LBL Preprint LBL-34931 (1993). 11. S. Gavin and B. Mueller, Brookhaven Preprint BNL-GM-1 (1993). 12. D. Boyanovsky, H.J. De Vega and R. Holman, Pittsburgh Univ. Preprint
+
+PITT-94-01 (1994). 13. E. V. Shuryak, Phys. Lett. 34B, 509 (1971); F. Cooper, G. Frye and E.
+
+Schonberg, Phys. Rev. D11 192 (1975); J.D. Bjorken, Phys. Rev. D27, 140 (1983). 14. D. Boyanovsky, D.S. Lee and A. Singh, Phys. Rev. D48, 800 (1993). 15. D. Boyanovsky, PITT-93-01 (1993). 16. R. Jackiw and A. Kerman, Phys. Lett. A71 158 (1979); F. Cooper, S.Y.
+
+Pi and P. Stancioff Phys. Rev. D34,3831 (1986); S.Y. Pi and M. Samiullah, Phys. Rev. D36 3128 (1987); F. Cooper and E. Mottola, Phys. Rev. D36, 3114 (1987). 17. H. E. Stanley, Phys. Rev. 176 718 (1968); K. Wilson, Phys. Rev. D7 2911
+
+(1973); S. Coleman, R. Jackiw and H. D. Politzer, Phys. Rev. D10 2491 (1974). 18. F. Cooper, Y. Kluger, E. Mottola, J.P. Paz (in preparation). 19. R. Root, Phys. Rev. D11 831 (1975); C. M. Bender, F. Cooper and G. S.
+
+Guralnik, Ann. Phys. 109 165 (1977); C. M. Bender and F. Cooper, Ann. Phys. 160 323 (1985). 20. W. Bardeen and Moshe Moshe Phys. Rev.D28 1372 (1983) 21. J.P. Nunes, H.J. Schnitzer,  (1993). 22. J. L. Basdevant and B. W. Lee Phys. Rev. D21680 (1970) 23. G.Baker and Kincaid Phys. Rev. Lett. 42 1431 (1979); see also: K.G. Wilson
+
+and J. Kogut, Phys. Rep. 12C, 75 (1974). 24. C. Bender , F. Cooper and G. Guralnik, Phys. Rev. Lett. 45, 501 (1980);
+
+G. A.Baker Jr., F. Cooper,L. P. Benofy and D. Preston, Nucl. Phys. B 210 [FS6], 273 (1982). 25. L. D. Landau, Izv. Akad. Nauk SSSR 17 51 (1953); L. D. Landau and S.
+
+Z. Belenkij, Usp. Phys. Nauk. 56, 309 (1955) (Nuovo Cimento Suppl. 3, 15 (1956)). 26. N.D. Birrell and P.C.W. Davies Quantum Fields in Curved Space (Cambridge
+
+University Press, 1982). 27. N. Goldenfeld, Lectures on Phase Transitions and the Renormalization Group
+
+(Addison-Wesley, NY, 1992). 28. F. Cooper,J. Eisenberg, Y. Kluger, E. Mottola and B. Svetitsky, Phys. Rev.
+
+D48 ,190 (1993).
+

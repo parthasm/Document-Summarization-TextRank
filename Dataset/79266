@@ -1,0 +1,404 @@
+
+
+ 27 Jun 95
+
+FERMILAB-CONF-95/173-T
+
+June 1995
+
+Presented at the International Symposium on Vector Boson Self-Interactions UCLA, California, Feb. 1-3, 1995 Proceedings to be published by World Scientific
+
+The Status of the Electroweak Sector
+
+of the Standard Model
+
+Tatsu Takeuchi1 Fermi National Accelerator Laboratory
+
+P. O. Box 500, Batavia, IL 60510
+
+I will discuss the current status of the determination of ff(mZ) and ffs(mZ).
+
+INTRODUCTION I have been asked by the organizers of this conference to present a talk on the status of the electroweak sector of the Standard Model (SM). But frankly, if by the word `status' one means `how well theory and experiment agree with each other', there is not much that I can tell you at the moment but that the SM works extremely well. Though the experiments at LEP/SLD and elsewhere have pushed the experimental accuracy of many observables to a mere fraction of a percent, no significant deviation from the SM is yet to be detected. (I will discuss whether the 2:4oe deviation in Rb seen at LEP is `significant' or not later in this talk.) A detailed comparison between the SM and current precision electroweak measurements can be found in the talk by Dr. Dorothee Schaile in this proceedings (1).
+
+I will therefore focus on the status of the determination of the values of ff(mZ) and ffs(mZ ) instead. These quantities are used as inputs to calculate the SM predictions for the electroweak observables at LEP/SLD and any uncertainty in them limits the accuracy of the theoretical predictions even when the top and Higgs masses are fixed to given values. Consequently, any conclusion we may reach about the `status' of the electroweak sector of the SM is actually contingent upon how well known these quantities are.
+
+Currently, LEP uses the following values for ff(mZ) and ffs(mZ ):
+
+ff(mZ) = 1=(128:87 \Sigma 0:12); 1Work supported by the U.S. Department of Energy under contract No. DE-AC02- 76CH03000.
+
+cfl 1993 American Institute of Physics 1
+
+2
+
+ffs(mZ) = 0:123 \Sigma 0:006: (1)
+
+The value of ff(mZ) is that determined from the oe(e+e\Gamma ! hadrons) data from various experiments in Ref. (7), and the value of ffs(mZ ) is that determined from the hadronic event shapes, jet rates, and energy-energy correlation at LEP in Ref. (2). They are therefore independent of the Z line shape and asymmetry measurements at LEP and SLD.
+
+Note that the uncertainty in ff(mZ) arises from the incalculability of the hadronic contribution to the photon vacuum polarization which forces us to rely on the oe(e+e\Gamma ! hadrons) data, and the uncertainty in ffs(mZ) arises mainly from our limited understanding of parton hadronization and our ignorance of higher order QCD corrections. They are both manifestations of our limited ability to handle QCD.
+
+As mentioned above, these uncertainties in ff(mZ) and ffs(mZ ) propagate into the SM predictions that are derived from them. For instance, for the SM with mt = 180GeV, mH = 300GeV, and Eq. 1 as input, the program ZFITTER 4.9 (3) gives the following predictions:
+
+sin2 `lepteff = 0:2319 \Sigma 0:0003 \Sigma 0:0000;
+
+R` = 20:766 \Sigma 0:006 \Sigma 0:040; (2)
+
+where R` j \Gamma (Z ! hadrons)=\Gamma (Z ! `+`\Gamma ). The first error is that due to the uncertainty in ff(mZ) and the second error is that due to the uncertainty in
+
+ffs(mZ ). The error in sin2 `lepteff due to the uncertainty in ffs(mZ) is negligible because QCD corrections only enter at O(ffffs).
+
+On the other hand, the latest measurements of these quantities at LEP/SLD are given by (1)
+
+sin2 `lepteff = 0:2315 \Sigma 0:0004
+
+R` = 20:800 \Sigma 0:035: (3)
+
+Comparison with the theoretical predictions Eq. 2 shows not only that the SM works very well, but also just how `precise' the precision electroweak measurements at LEP/SLD have become. The experimental error is already comparable to or even smaller than the theoretical error 2. With the experimental precision improving incrementally every year, clearly an improvement on the theoretical error is called for if one wishes to test the SM at an even higher level of accuracy.
+
+In the following sections, I will review the current status of the determination of ff(mZ) and ffs(mZ ) and discuss how the values quoted in Eq. 1 can be expected to improve or change.
+
+3 FIG. 1. Evaluations of ff(mZ) by different authors. All values have been rescaled to mZ = 91:1887 GeV and the top quark contribution have been removed.
+
+THE VALUE OF ff(mZ)
+
+Current status Quite recently, several authors have independently made attempts to reevaluate the value of ff(mZ) through a careful reanalysis of existing oe(e+e\Gamma ! hadrons) data (8-11). In comparison to the previous determination in Ref. (7), the hope was that the uncertainty in ff(mZ) could be reduced since some new data on oe(e+e\Gamma ! hadrons) have been released (12-14), and the O(ff3s) QCD correction to the cross section (15) together with a better determination of ffs(mZ) (16) was now available. The resulting new values of ff(mZ) are shown in Fig. 1 together with a couple of older values.
+
+As you can see from Fig. 1, instead of finding a significant decrease in the uncertainty of ff(mZ), different authors found central values of ff(mZ) which differed from each other by as much as 2oe. Please note that all these values were obtained by applying different analyses on essentially the same set of data so the statistical errors are almost completely correlated. Therefore, large differences in the central values must be manifestations of systematic errors which have been underestimated.
+
+At the time of this conference, the two latest evaluations by Eidelman and Jegelehner (10) and Swartz (11) were not yet available so the disagreement among authors was rather pronounced. With the two latest numbers, the value of ff(mZ) shows signs of converging to a common value.
+
+In the following subsections, I will discuss how the analyses of different authors differ from each other so that we may get an idea of where the disagreements shown in Fig. 1 are coming from.
+
+2Ref. (4) argues that the experimental error on R
+
+` may be greatly underestimated.I will assume that that is not the case in the following.
+
+4
+
+The Definition of ff(mZ) The quantity whose value is usually quoted as that of the "effective QED coupling constant at the Z mass scale" is defined as
+
+ff
+
+\Gamma 1(mZ ) = ff\Gamma 1 [1 \Gamma \Delta ff(mZ)] (4)
+
+with
+
+\Delta ff(s) = 4ssffRe \Theta \Pi
+
+0
+
+QQ(s) \Gamma \Pi
+
+0 QQ(0)\Lambda ; (5)
+
+where \Pi 0QQ(s) is the photon vacuum polarization function with only the light fermion contributions included. It has been customary to exclude the top and W contributions from \Delta ff(mZ) since the top mass was unknown until quite recently (17) (though care is needed when comparing results since recent authors include it) and the W contribution is also excluded to keep the definition of ff(mZ) gauge independent. These contributions are also numerically small compared to the light fermion contribution since the W +W \Gamma and t_t thresholds are above the Z mass so that they do not contribute logarithms to the running of ff(s) between s = 0 and s = m2Z.
+
+Contribution of the light fermions The contribution of the leptons to \Delta ff can be calculated accurately in perturbation theory and one finds
+
+\Delta ffleptons(m2Z) = X
+
+`=e;_;o/
+
+ff 3ss ^\Gamma
+
+8 3 + fi
+
+2 ` \Gamma 12 fi`(3 \Gamma fi2` ) ln ` 1 \Gamma fi
+
+`
+
+1 + fi` '*
+
+= X
+
+`=e;_;o/
+
+ff 3ss ^ln `
+
+m2Z
+
+m2` ' \Gamma
+
+5 3 + O `
+
+m2` m2Z '*
+
+= 0:03142; (6)
+
+where fi` = p1 \Gamma 4m2` =m2Z.
+
+On the other hand, the contribution of the five light quarks (u; d; s; c; b) to \Delta ff cannot be calculated perturbatively. Instead, unitarity and the analyticity of \Pi 0QQ(s) is used to write
+
+\Delta ff(5)hadrons(s) = ffs3ss P Z
+
+1
+
+4m2ss ds
+
+0 R(s
+
+0)
+
+s0(s \Gamma s0) ; (7)
+
+where 3
+
+R(s) j oe(e
+
++e\Gamma ! fl\Lambda ! hadrons)
+
+oe(e+e\Gamma ! fl\Lambda ! _+_\Gamma ) : = \Gamma 12ssIm\Pi
+
+0 QQ(s) (8)
+
+3Note that the cross section in the denominator of the definition of R(s) is the cross section of electron pairs annihilating into massless muon pairs.
+
+5 and the functional form of R(s) is extracted from experiment. It is this reliance on the experimental values of R(s), which are always accompanied by experimental errors, that we end up with a relatively large error on ff(mZ) even though the find structure constant ff is known to extreme accuracy.
+
+The major problem associated with using the experimental values of R(s) is that the data points are only available for discrete, scattered values of s while
+
+one needs R(s) for all values of s to calculate \Delta ff(5)hadrons(s). Two methods have been used in the literature to deal with this problem. The first is to connect the data points directly with straight lines and perform trapezoidal integration (5,7,10), and the second is to guess the functional form of R(s) and fit it to the data (5,8,9,11).
+
+Both methods have their pros and cons. Trapezoidal integration is free of human prejudice about the functional form of R(s) but it does not take into account the experimental errors properly: sparsely distributed precise data points may not get the appropriate weight relative to the densely spaced data points with larger errors. Connecting two data points that are far apart with a straight line will also introduce errors.
+
+On the other hand, fitting a guessed functional form to the data has the advantage that experimental errors are easier to take into account. (Though care is needed in treating normalization errors (18).) However, the result will depend on the choice of the fit function and its parameterization, and systematic errors and biases will be introduced that are difficult to estimate.
+
+The two methods are often combined (e.g. fitting Breit-Wigner forms to the narrow resonances and using trapezoidal integration for the continuum) and are supplemented by the use of perturbative QCD for the high energy tail of R(s).
+
+The analysis of Burkhardt et al. At the time when LEP started running in 1989, the most accurate determination of \Delta ff(5)hadrons(m2Z ) was that given by Burkhardt et al. in Ref. (5):
+
+\Delta ff(5)hadrons(m2Z ) = 0:0286 \Sigma 0:0009: (9) (Actually, Ref. (5) reports the value of \Delta ff(5)hadrons(s) at ps = 92GeV. Rescaling to ps = mZ = 91:1887GeV gives the above value (6).) This value was calculated using the following three methods of integration and all three were found to agree with each other:
+
+1. Trapezoidal integration for the continuum and the ae.
+
+Breit-Wigner forms for the narrow resonances.
+
+2. Trapezoidal integration for the continuum after a partial smoothing out
+
+of the R(s) data. (Details are not given in Ref. (5).) Breit-Wigner forms for the narrow resonances.
+
+6
+
+6 W (GeV)42 3 4 5 6
+
+Rh
+
+ad
+
+8 12-94 7854A110
+
+FIG. 2. Comparison of MARK I (black circles) and Crystal Ball (while diamonds) data. The solid line shows the perturbative QCD result.
+
+3. Breit-Wigner forms for the ae and narrow resonances.
+
+Linear interpolation in ps for every few points in the continuum.
+
+In all three cases, perturbative QCD (at O(ff2s)) was used for R(s) above 40GeV. Eq. 9 corresponds to
+
+ff
+
+\Gamma 1(mZ) = ff\Gamma 1 h1 \Gamma \Delta ffleptons(m2
+
+Z) \Gamma \Delta ff
+
+(5) hadrons(m2Z)i
+
+= 128:81 \Sigma 0:12 (10)
+
+and results in an error of about 0.1% in ff(mZ). The region below the bottom threshold contributed about 1=3 of \Delta ff(5)hadrons(s), and 80% of the error.
+
+The analysis of Jegerlehner The result of Ref. (5) was subsequently updated in 1991 by Jegerlehner (7), who was one of the original authors, in which the data from the MARK I collaboration (21) in the energy region 5-7 GeV were replaced by the more accurate data from the Crystal Ball collaboration (22). Fig. 2 shows the data of both collaborations in the energy range in question, together with the perturbative QCD result. The method of integration was the same as method No. 1 of Ref. (5) and the result was
+
+\Delta ff(5)hadrons(m2Z) = 0:0282 \Sigma 0:0009; (11) with no change in the size of the error. This corresponds to
+
+ff
+
+\Gamma 1(mZ) = 128:87 \Sigma 0:12 (12)
+
+which has been the standard value for the past few years.
+
+7 W (GeV) 2
+
+4 6 0
+
+2 4
+
+Rh
+
+ad
+
+Rh
+
+ad
+
+12-94 7854A2
+
+5 10
+
+1 2
+
+x
+
+5
+
+50 10020
+
+xxxx x FIG. 3. Fit to the continuum part of R(s) with (solid line) and without (broken line) correlations from normalization errors. The difference between the two in the 3.6-5 GeV region is due to a different treatment of the higher \Psi resonances.
+
+The analysis of Swartz The recent analysis by Swartz in Ref. (8) fits a smooth function described by polynomials in W = ps to the continuum part of R(s). Resonances were described with breit-Wigner forms as usual, and perturbative QCD (at O(ff3s)) was used above 15 GeV.
+
+The major difference from method No. 3 of Ref. (5), or any other analysis that had used fitting functions, was that the correlations between data points within the same experiment due to the overall normalization error had been taken into account. The effect of this was that the fit produced a curve which was somewhat lower than when the correlations were neglected. See Fig. 3 for a comparison.
+
+With a lower curve for R(s), the value of \Delta ff(5)hadrons(m2Z) turned out to be smaller, and ff\Gamma 1(mZ) larger than previous analyses. Subtracting out the top quark contribution from the value quoted in Ref. (8), we obtain
+
+\Delta ff(5)hadrons(m2Z ) = 0:02672 \Sigma 0:00075; (13) and
+
+ff
+
+\Gamma 1(mZ) = 129:07 \Sigma 0:10; (14)
+
+which differs from Eq. 12 by 0:20 ss 2oe.
+
+However, this analysis has been criticized (10) on the grounds that including normalization errors in the correlation matrix will introduce a bias when the normalization error and the number of data points are large (18). Swartz has subsequently updated his analysis to correct for this problem and also to
+
+8
+
+W (GeV) 2
+
+4
+
+6 0
+
+2 4
+
+Rh
+
+ad
+
+Rh
+
+ad
+
+5-95 7854A2
+
+5 10
+
+1 2
+
+x
+
+5
+
+50 10020
+
+xxxx x FIG. 4. The new fit by Swartz. include some new data which was missing from his first analysis (11). The new fit to the continuum part of R(s) is shown in Fig. 4, and results in
+
+\Delta ff(5)hadrons(m2Z ) = 0:02752 \Sigma 0:00046; (15) and
+
+ff
+
+\Gamma 1(mZ) = 128:96 \Sigma 0:06: (16)
+
+The difference with Eq. 12 has been reduced by 1/2, and the uncertainty has also decreased due to the inclusion of new precise data.
+
+The analysis of Martin and Zeppenfeld The analysis of Martin and Zeppenfeld in Ref. (9) distinguishes itself from all the other analyses in its extensive use of perturbative QCD. In table 1 I list the energy ranges in which different authors have applied perturbative QCD. (Though I also list the values of ffs(mZ ) that were used, at the current level of accuracy, the difference is insignificant. Changing the value of ffs(mZ) has little effect on the resulting value of ff(mZ).)
+
+In the two energy regions 3-3.9 GeV and 6.5-1 GeV, Martin and Zeppenfeld express R(s) as the perturbative QCD value plus the J=\Psi , \Psi , and \Upsilon resonances. The DASP (19), PLUTO (20), MARK I (21), and Crystal Ball (22) data are all rescaled to fit the perturbative QCD result in these energy ranges, and the rescaled data is used to resolve a couple of resonances in the energy region between 3.9 and 6.5 GeV. See Fig. 5.
+
+Due to this heavy reliance on perturbative QCD, and consequently the relatively light reliance on experimental data, the uncertainty in \Delta ff(5)hadrons(m2Z ) is reduced. The value quoted in Ref. (9) is
+
+9 \Delta ff(5)hadrons(m2Z ) = 0:02739 \Sigma 0:00042; (17) which corresponds to
+
+ff
+
+\Gamma 1(mZ) = 128:98 \Sigma 0:06: (18)
+
+This disagrees with both Eq. 12 and 14 by about 0.10, but agrees with Eq. 16.
+
+The analysis of Eidelman and Jegerlehner The last analysis I will discuss is by Eidelman and Jegerlehner in Ref. (10). This work is another update of Ref. (7), and again trapezoidal integration is used.
+
+However, in order to take experimental errors into account properly, the data on R(s) was first processed in the following way: First, for all values of s with data points, a value of R(s) and its error was assigned to all the experiments in the region by linear interpolation between the closest data points belonging to that experiment. Then, the average of all the assigned values of R(s) was taken weighted with the experimental errors. The resulting weighted average was used in the integration.
+
+This analysis also used a more comprehensive set of data than any of the other analyses.
+
+After subtracting out the top quark contribution from the value reported in Ref. (10), we obtain
+
+\Delta ff(5)hadrons(m2Z ) = 0:02804 \Sigma 0:00065; (19) and
+
+ff
+
+\Gamma 1(mZ) = 128:89 \Sigma 0:09; (20)
+
+which agrees very well with the previous estimate (7).
+
+Discussion While the large disagreement in ff\Gamma 1(mZ) of about 0.20 between Refs. (7) and (8) was disturbing, the new analyses by both authors (10,11) have decreased the disagreement to less than 0.10. With the estimate of Ref. (9) falling in the same ballpark, around 0.10 would be a good estimate of the actual uncertainty in ff\Gamma 1(mZ). The smaller errors quoted in Refs. (9) and (11) are most probably underestimates due to the stronger assumptions they make on the functional form of R(s).
+
+A conservative conclusion would be that the current experimental data on R(s) does not allow for a substantially better determination of ff(mZ) than that already given in Ref. (7). Any further improvement on the uncertainty in ff(mZ) requires better measurements of R(s) in the low energy region below 10 GeV.
+
+10 TABLE 1. Comparison of the reliance on perturbative QCD in the evaluation of ff(mZ) between different authors.
+
+Author Ref. Energy Range (GeV) Order in ffs ffs(mZ) Burkhardt et al. (5,6) 40 \Gamma 1 2 0:12 \Sigma 0:02 Jegerlehner (7) 40 \Gamma 1 2 0:117 \Sigma 0:010 Swartz (8,11) 15 \Gamma 1 3 0:125 \Sigma 0:005 Martin & Zeppenfeld (9) 3 \Gamma 3:9, 6:5 \Gamma 1 3 0:118 \Sigma 0:007 Eidelman & Jegerlehner (10) 40 \Gamma 1 3 0:126 \Sigma 0:005
+
+FIG. 5. The rescaling of data in Ref. (9).
+
+11 TABLE 2. Current status of the determination of ffs(mZ). Method of Measurement Reference ffs(mZ) DIS (23) 0:113 \Sigma 0:005 \Upsilon decay (24) 0:108 \Sigma 0:010 Lattice charmonium spectrum (26) 0:108 \Sigma 0:006 \Upsilon spectrum (27) 0:115 \Sigma 0:002 LEP Z lineshape data (1) 0:125 \Sigma 0:004 R` only (1) 0:128 \Sigma 0:005 event shapes and jet rates (2) 0:123 \Sigma 0:006 SLD event shapes and jet rates (28) 0:120 \Sigma 0:008
+
+THE VALUE OF ffs(mZ) Due to the limited number of pages I have been allocated, I will go through this section briefly.
+
+Current status In the case of ffs(mZ), there exist more than one way to determine it's value. Ref. (16) gives a comprehensive overview of the many ways to measure ffs(mZ ). In table 2, I list some of the most recent determinations of ffs(mZ ) using various techniques.
+
+Since the experimental error on R` is smaller than the theoretical error on the prediction based on Eq. 1, we can assume the SM and use the value of R` to determine ffs(mZ) to a better accuracy than Eq. 1. This gives the value ffs(mZ ) = 0:128 \Sigma 0:005 listed in table 2. A global fit to all the Z line shape data, including R`, gives ffs(mZ) = 0:125 \Sigma 0:004, also listed in table 2.
+
+In this approach where one assumes the SM and fits the value of ffs(mZ ) to the data, any new physics beyond the SM will manifest itself not as a disagreement between the experimental measurement and theoretical prediction of some observable, but as disagreements between different determinations of ffs(mZ ).
+
+Such a disagreement may already have been seen. As you can see from table 2, the `low-energy' measurements such as Deep Inelastic Scattering (DIS) and \Upsilon decay favor a value of ffs(mZ) close to 0:11 while the `high energy' measurements at LEP favor a value around 0:125. While this discrepancy may not seem too significant, considering the fact that unlike the ff(mZ) case these are all independent determinations based on different experiments, it is nevertheless puzzling that the LEP values of ffs(mZ) are systematically higher than the low energy values.
+
+Shifman argues in Ref. (30) that a value of ffs(mZ ) as high as 0:125 would
+
+12 correspond to a QCD scale of about 500MeV which is disfavored from the success of QCD sum rules and that the value 0:11 corresponding to a QCD scale of about 200MeV is more likely.
+
+An additional support for the lower value of ffs(mZ) is the recent measurement of the ratio Rb = \Gamma (Z ! b_b)=\Gamma (Z ! hadrons) at LEP which was found to be 2:4oe larger than the prediction for the SM (1). If this is a signal that \Gamma (Z ! b_b) is larger than its SM value, then one should also see a disagreement between theory and experiment in R` = \Gamma (Z ! hadrons)=\Gamma (Z ! `+`\Gamma ). But since one does not see a noticeable difference when comparing Eqs. 2 and 3, a larger value of \Gamma (Z ! b_b) is not favored by R` and one is led to conclude that the deviation in Rb is just a statistical fluctuation.
+
+However, if the value of ffs(mZ) were as small as 0.11, then the story would be different. For ffs(mZ ) = 0:110, the SM prediction of R` will be lowered to 20:679 and the difference from Eq. 3 will be just right to accommodate an excess in \Gamma (Z ! b_b) implied by Rb. In this case, the disagreement between the SM and experiment will be at the 4oe level (29-32).
+
+SUMMARY Though several authors have attempted to determination ff(mZ) to a better accuracy than Eq. 1, any substantial improvement requires better R(s) data at low energies.
+
+For the ffs(mZ) case, the disagreement between the low and high energy determination could be a signal for new physics which also causes Rb to deviate from the SM.
+
+ACKNOWLEDGEMENTS I would like to thank Dr. M. L. Swartz for providing me with the results of his latest analysis, and the postscript files for Figs. 2, 3, and 4. I would also like to thank Dr. D. Zeppenfeld for providing me with the postscript files for Fig. 5. This work is supported by the United States Department of Energy under Contract Number DE-AC02-76CH030000.
+
+REFERENCES 1. D. Schaile, in this proceedings. 2. S. Bethke, in the Proceedings of the Workshop on Physics and Experiments
+
+with Linear e+e
+
+\Gamma Colliders, Waikoloa, Hawaii, April 16-30, 1993, edited by
+
+F. A. Harris, S. L. Olsen, S. Pakvasa, and X. Tata (World Scientific, Singapore, 1993) p.687. 3. D. Bardin et al, CERN-TH.6443/92 (May 1992). 4. M. Consoli and F. Ferroni, Phys. Lett. B349, 375 (1995). 5. H. Burkhardt, F. Jegerlehner, G. Penzo, and C. Verzegnassi, in `Polarization at LEP', edited by G. Alexander, G. Altarelli, A. Blondel, G. Coignet,
+
+13 E. Keil, D. E. Plane and D. Treille, CERN 88-06, Volume 1 (September 1988); Z. Phys. C43, 497 (1989). 6. G. Burgers and F. Jegerlehner, in `Z Physics at LEP 1, edited by G. Altarelli,
+
+R. Kleiss, and C. Verzegnassi, CERN 89-08, Volume 1 (September 1989). 7. F. Jegerlehner, Prog. in Particle and Nucl. Phys. 27, 1 (1991). 8. M. L. Swartz, SLAC-PUB-6710,  (November 1994). 9. A. D. Martin and D. Zeppenfeld, Phys. Lett. B345, 558 (1995). 10. S. Eidelman and F. Jegerlehner, PSI-PR-95-1, BUDKERINP 95-5, hep-
+
+ (January 1995). 11. M. L. Swartz, private communication. 12. S. I. Dolinsky, et al. (ND), Phys. Rep. C202, 99 (1991). 13. A. E. Blinov et al. (MD-1), Z. Phys. C49, 239 (1991); BUDKERINP 93-54
+
+(1993). 14. DM2 collaboration: D. Bisello et al., Z. Phys. C48, 23 (1990); LAL 90-35
+
+(June 1990); LAL 90-71 (November 1990); A. Antonelli, et al., Z. Phys. C56, 15 (1992). 15. S. G. Gorshiny, A. L. Kataev, and S. A. Larin, Phys. Lett. B259, 144 (1991),
+
+L. R. Surguladze and M. A. Samuel, Phys. Rev. Lett. 66, 560 (1991); ERRATUM Phys. Rev. Lett. 66, 2416 (1991). 16. I. Hinchliffe, in the Review of Particle Properties, Phys. Rev. D50 1297 (1994);
+
+LBL-36374,  (January 1995). 17. CDF collaboration: F. Abe et al., Phys. Rev. D50, 2966 (1995);
+
+Phys. Rev. Lett. 73, 225 (1994); FERMILAB-PUB-95/022-E,  (March 1995), D0 collaboration: S. Abachi et al., FERMILAB-PUB-95/028-E,  (March 1995). 18. G. D'Agostini, Nucl. Instr. and Meth. in Phys. Res. A346, 306 (1994). 19. DASP collaboration: R. Brandelik et al., Phys. Lett. B76, 361 (1978); H. Albrecht et al., Phys. Lett. B116, 383 (1982). 20. PLUTO collaboration: J. Burmeister et al., Phys. Lett. B66, 395 (1977);
+
+Ch. Berger et al., Phys. Lett. B81, 410 (1979). 21. Mark I collaboration: J. L. Siegrist et al., Phys. Rev. D26, 969 (1982). 22. Crystal Ball collaboration: C. Edwards et al., SLAC-PUB-5160, (January
+
+1990). 23. M. Virchaux and A. Milsztajn, Phys. Lett. B274, 221 (1992). 24. M. Kobel, DESY-F31-91-03 (1991). 25. M. B. Voloshin, TPI-MINN-95/1-T, UMN-TH-1326-95, 
+
+(February 1995). 26. A. X. El-Khadra, G. Hockney, A. S. Kronfeld, P. B. Mackenzie,
+
+Phys. Rev. Lett. 69 729 (1992). 27. C. T. H. Davies, K. Hornbostel, G. P. Lepage, A. Lidsey, J. Shigemitsu, and
+
+J. Sloan, Phys. Lett. B345, 42 (1995). 28. SLD Collaboration: K. Abe et al., Phys. Rev. D51, 962 (1995). 29. A. Blondel and C. Verzegnassi, Phys. Lett. B311, 346 (1993). 30. M. Shifman, Mod. Phys. Lett. A10, 605 (1995). 31. B. Holdom, UTPT-95-01,  (February 1995). 32. P. Bamert, C. P. Burgess, and I. Maksymyk, MCGILL-95-18, 
+
+(May 1995).
+

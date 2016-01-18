@@ -1,0 +1,855 @@
+HUTP-94/A030
+
+
+Mesons with a light quark-antiquark pair and the
+Bethe-Salpeter equation
+
+Dean Lee1
+
+Physics Department, Harvard University, Cambridge MA 02138
+
+
+
+Abstract
+
+The light quark-antiquark scattering Green's function is considered near a meson resonance peak.
+The Bethe-Salpeter equation is used to write formal expressions for the resonance width/mass ratio.
+Arguments are made concerning to what extent this ratio can be calculated perturbatively, and an
+upper bound is placed on the growth of this ratio as a function of radial excitation. Certain mesons
+and their radial excitations are considered, as well as the more general issue of classifying mesons in
+the quark model.
+
+
+
+
+
+1. Introduction
+
+One interesting feature of QCD is the existence of a large number of meson and baryon resonances.
+Unfortunately confinement, an essential characteristic of bound states in QCD, is not completely
+understood and most quantitative information about these bound state resonances is deduced from
+symmetry arguments such as SU(3) flavor symmetry, chiral symmetry, and heavy quark
+symmetry, or from empirical models such as quark-antiquark potential models or flux-tube
+models.
+
+ 24 Sep 1994 The following analysis is an attempt to deduce some consequences of perturbative QCD for light
+quark-antiquark meson resonances. The Bethe-Salpeter equation, written to lowest order in the
+perturbative expansion, is used to extract information about quark-antiquark scattering near
+resonance peaks. Perturbative approximations to the full Bethe-Salpeter equation miss important
+confinement effects, and a straightforward perturbative approximation is avoided. Instead,
+perturbation theory is employed on the expectation values of operators interposed between exact
+wavefunctions. The assumption is made, and motivated later, that the expectation values of non-
+perturbative operators associated with confinement can be neglected.
+
+
+2. Quark-Antiquark Scattering and the Bethe-Salpeter Equation
+
+The Green's function of interest is
+q -
+p + q p + q
+G,µ ( p; - q, q) 4( p -
+p ) = 0 T -
+p - i µ p - q j
+{ } 0 (2.1)
+2 1 1i 2 2 2 2j 2 1 2
+connected
+
+
+
+
+
+1Supported by the Hertz Foundation and the National Science Foundation under Grant #
+
+
+2
+
+
+where the Greek superscripts are Dirac indices, the contracted Latin indices show the color
+singlets, and the subscripts 1, 2 refer to quark flavor. Only connected diagrams contributing to
+this process will be considered, as they should be sufficient to describe properties of the meson
+resonance peak.
+
+As this Green's function is gauge dependent, many of the quantities derived from it will also be
+gauge dependent, including the Bethe-Salpeter wavefunctions. However, physical quantities such
+as masses and widths will, as usual, be gauge independent. Unfortunately, the rather useful
+process of checking the gauge invariance of physical quantities explicitly will not be possible,
+because wavefunctions are not calculated.
+
+Two particle irreducible (2PI) diagrams are defined as those that do not contain a purely quark-
+antiquark intermediate state. By convention, the external quark and antiquark lines of 2PI
+diagrams are removed. Below is a diagrammatic recurrence relation, known as the Bethe-Salpeter
+equation, for the full connected Green's function written in terms of 2PI diagrams and full quark
+and antiquark propagators [1].
+
+
+
+
+Full Full
+
+
+Full = Full Full + 2PI (I)
+
+
+Full
+
+
+
+
+By using a matrix shorthand in which matrix multiplication signifies contracting Dirac indices and
+integrating over momenta, the recurrence relation can be written succinctly and solved.
+
+G = K + KIG (2.2)
+
+G = (K-1 - I)-1 (2.3)
+
+G full connected Green' s function
+K full quark and antiquark propagators
+I two particle irreducible Green' s function
+
+Let be the eigenfunctions of G , and be the respective eigenvalues.
+i i
+
+
+
+
+G = (2.4)
+i i i
+
+
+
+It should be noted that the matrix G will, in general, not be hermitian. Let ~
+, represented as a row
+i
+vector, be the eigenfunctions of GT , and ~
+be the respective eigenvalues.
+i
+
+
+
+~
+G = ~ ~ (2.5)
+i i i
+
+
+
+As any matrix and its transpose share the same characteristic equation, they share identical
+eigenvalues. Let M be the subspace spanned by the nondegenerate eigenfunctions of G. In this
+subspace, the indexing of both sets of eigenfunctions can thus be aligned by matching eigenvalues.
+
+
+3
+
+
+index i: G = , ~
+G = ~ (2.6)
+i i i i i i
+
+Since ~
+= ~ G = ~ ~ = c . (2.7)
+i i k i k k i k i k i ik
+
+
+
+Let S( ~S ) be the subspace of M spanned by ( ~ ) for c nonzero. Using orthogonality relations, the
+i i i
+eigenfunctions can be used to write a bilinear form,
+G , equivalent to G on these restricted
+subspaces.
+
+G ~
+()-1 ~ (2.8)
+i i i i i
+
+i
+
+~fGg = ~f
+G g ~f ~S, g S (2.9)
+
+By the Bethe-Salpeter relation derived above,
+
+-1 = ~
+()-1 ~G-1 = ~()-1 ~(K-1-I) = ~()-1 ~(K-1 - ~I) (2.10)
+i i i i i i i i i i i i i i i
+
+
+
+G ~
+(K-1 - ~I)-1 ~ (2.11)
+i i i i i i
+
+i
+
+
+
+
+
+3. The Resonance Peak
+
+By momentum conservation, the eigenfunctions described above can be chosen to be states of
+definite total momentum. To avoid confusion, this total momentum will be written as a subscript
+to make explicit its role as an index and to distinguish it from the relative momentum in whose
+Hilbert space the eigenfunctions reside.
+
+( ) ~ ( )
+-
+q q
+G ( p; -
+q , q) = i,-p i, p
+(3.1)
+f p2
+( )
+i
+i
+
+
+where f ( p2) d4q d4
+q ~
+( ( q)K-1(p;- q,q) (-q)- ~ ( q)I(p;- q,q) (-q)) (3.2)
+i i, p i,- p i, p i,- p
+
+
+
+
+Assuming that f p2
+( ) is well-defined and that f p2
+( ) has a unique minimum, the location of that
+i i
+minimum will be denoted
+
+
+p2 : f p2
+( ) = min f p2
+{ ( )} (3.3)
+i, min i i, min i
+p2
+
+
+
+
+If f p2
+( ) is small then G(p;- q,q) near p = p2 is dominated by
+i i, min i, min
+
+
+
+
+
+f p2
+[ ( )]-1 (-q)~ (q) (3.4)
+i i,- p i, p
+
+
+
+
+By adjusting the eigenfunction's phase, the behavior of f p2
+( ) near p2 can be written as
+i i, min
+
+
+
+
+f p2
+( ) a p2 - p2
+( )+ib p2 a,b real (3.5)
+i i, min i, min
+
+
+
+
+The interpretation of these results is that the square of the mass of the resonance is p2 . The
+i, min
+width/mass ratio of the resonance is b / a .
+
+
+4
+
+
+4. Perturbative Calculations
+
+This section applies the formalism of the preceding sections to meson resonances. Several
+assumptions and approximations are made. These assumptions and approximations are motivated
+by qualitative physical arguments, but the actual size of the errors incurred are not known.
+
+Even for highly excited meson resonances, where energies are sufficient to suggest that the quark-
+antiquark interaction is predominantly in the asymptotically free regime, confinement must still
+modify the behavior of the wavefunction in the region where the quark and antiquark are widely
+separated. The present analysis adopts the view that for such highly excited meson resonances,
+confinement can be effectively modeled as a large distance boundary condition on the
+wavefunction.
+
+If this confinement boundary condition is sufficiently abrupt and severe, a high wall for instance,
+the wavefunction will not penetrate substantially into regions in which confinement is important. A
+simple analogy can be made using non-relativistic quantum mechanics in one dimension. If one
+starts with a smooth potential V and adds to it a pair of infinite walls at locations a and -a, the
+0
+eigenstates of the new potential, V, will vanish at a and -a. For the purposes of calculating the
+expectation value of V, the walls can be neglected, as, in some sense, information about the walls
+are contained in the wavefunctions themselves. It will be assumed that something similar happens
+in the case of highly excited mesons, and the expectation values of non-perturbative, confinement-
+producing operators are neglected.
+
+All perturbative calculations are done in Landau gauge and dimensionally regulated in the MS
+prescription. Light quark masses are neglected although, to some extent, they make a reprise in
+phase space corrections described later. The running strong coupling constant, renormalized at the
+mass of the resonance under consideration, m , is used to minimize higher loop corrections. In
+i
+general, diagrams are kept to lowest possible order. Free quark and antiquark propagators are
+used in the matrix K. A freely propagating t-channel gluon is the lowest order contribution to the
+dispersive part of the matrix I. The absorptive part of the matrix I, however, is a more subtle
+matter and gets its lowest order contribution from a higher order diagram.
+
+The absorptive part of any process is associated with intermediate states situated on their physical
+mass shells. As the physical states of the underlying free theory are quite different from the
+physical states of fully-interacting QCD, naive lowest order perturbative calculations of the
+absorptive part of a process can be misleading. For instance, in calculating the propagator for
+meson resonances, the lowest lying possible physical intermediate states in the fully-interacting
+theory are two meson states. In order for the intermediate two meson state to be produced, an
+extra quark-antiquark pair must first be produced since a two meson state has two valence quark-
+antiquark pairs. The simplest approach then, and the one followed here, is that the lowest order
+contribution to the absorptive part of a strongly interacting process is given by the lowest order
+diagram(s) with the correct valence particle structure. This will be referred to as valence
+correspondence. In general, three body or higher body decays occur less frequently, and only
+decays into two mesons are treated in this analysis. . Below are the lowest order diagrams and
+calculations for the expectation values of equation (3.2).
+
+
+5
+
+
+
+
+
+Full Full (II)
+Lowest Order
+
+
+
+
+
+2PI 2PI (III)
+Lowest Order Lowest Order
+(dispersive) (absorptive)
+
+
+
+
+
+Evaluating these diagrams,
+
+
+( p2) ~ K-1 1 d4q -tr ~
+( ( (q)[/p- /q] (-q)[/p+ /q])) (phase chosen to be real) (4.1)
+i i, p i,- p 4 i, p i,- p
+
+-(q - q)2 - i
+I p2
+( ) ~ I 4 d4q d4 qRe g2 m2
+[ ( )M(q, q)]+ i nf g4 m2
+( )Im ln (q, q) (4.2)
+i i, p i,- p i p 242 i m2
+
+i Mp
+
+( )µ(
+q -
+q )
+where M (q,
+q ) i gµ
+[ ( q) (-q) ] (4.3)
+p (q - q)2 + i - q - q µ
+(( i,- p
+q -
+q )2 + i )2 tr ~i,p
+
+At this point, it is convenient to define some auxiliary functions,
+
+p2
+( ) Re ~ I
+{ }= + p2()+- p2() (4.4)
+i i, p i,- p i i
+
+
+2
+( )
+p2
+( ) Im ~ I
+{ }=in g2 mi +i(p2) (4.5)
+i i, p i,- p f 24
+( )2
+where ± 2
+( ) ± q -
+q ( )
+i( p2 ) 4 Re d4q d4
+q g2 m q,
+q
+(4.6)
+i m2
+Mp
+i
+
+
+Equation (3.2) can now be written as
+
+
+2
+( )
+f p2
+( ) = p2
+( )-[ p2
+( ) = + p2
+( )+ - p2
+( )]+ (p2) = in g2 mi +(p2)
+i i i i i i f 24 i (4.7)
+
+
+
+6
+
+
+n refers to the number of possible flavors of light quark loops in the absorptive diagram shown in
+f
+figure (III). The simplest approach is to set nf = 3. It may be useful, however, to be more careful.
+Although the masses of light quarks have been neglected in the above calculations, the mass of the
+light quark does become important near a kinematic threshold. One example is the (770) , which
+can decay into two pions but is kinematically forbidden to decay into two kaons. To satisfy
+valence correspondence (VC), the s-quark loop should not be included in counting n for the
+f
+(770), since there are no kinematically allowed two meson states with the correct valence
+properties. In order to handle such kinematic effects systematically, the following formula,
+motivated by the phase space factors for two body decays, will be used to evaluate n .
+f
+
+
+
+
+m2 - (m + m )2
+( ) m2-(m -m)2
+( )
+i 1 2 i 1 2
+n max (4.8)
+f m2
+two meson states
+flavor of qq
+i
+(masses m , m ) obeying VC
+1 2
+
+It is useful to further analyze ( p2 ). By charge conjugation and SU(3) flavor symmetry, terms
+i
+linear in q in equation (4.1) do not contribute.
+
+( p2) P p2
+( )+ Q p2
+( ) (4.9)
+i i i
+
+
+where P p2
+( ) 1 d4q tr - ~ (q) /p (-q) /p
+[ ] (4.10)
+i 4 i, p i,- p
+
+
+
+and Q p2
+( ) 1 d4q tr - ~ (q) /q (-q) /q
+[ ] (4.11)
+i 4 i, p i,- p
+
+
+
+
+The total spin of quark-antiquark mesons arise from the intrinsic spin of the quark and antiquark as
+well as their orbital angular momentum. It is known that the intrinsic spin of the quark-antiquark
+pair is either spin one or zero. This fact is used to simplify equation (4.10).
+
+= P + Vµ + S 1+ Aµ (4.12)
+i,- p i,- p 5 i,- p µ i,- p i,- p µ 5
+
+~
+= ~ P + ~Vµ - ~ S 1+ ~ Aµ (4.13)
+i, p i,- p 5 i,- p µ i,- p i,- p µ 5
+
+
+
+P p2
+( ) p2 d p2
+( ) (4.14)
+i i
+
+
+where d p2
+( ) d4q ~
+[P(q)P(-q)+ ~S(q)S(-q)+ ~Vµ(q)V (-q)+ ~Aµ(q)A (-q)] (4.15)
+i i i i i i i µ i i µ
+
+
+
+
+The next step is to write down an expression for f p2
+( ) near p2 = m2 Using the orthogonality
+i i
+condition derived in equation (2.7) and assuming completeness of the Bethe-Salpeter
+eigenfunctions at p2 = m2 , f p2
+( ) can be expanded in terms of eigenfunctions at p2 = m2 . The result,
+i i i
+to first order in p2 - m2 , is simply
+i
+
+
+
+
+f ( p2) d4q d4
+q ~
+(( q)K-1(p;- q,q)(-q)- ~( q)I(p;- q,q)(-q)) (4.16)
+i i i i i
+
+
+where and ~
+~ (4.17)
+i i, p2=m2 i i, p2=m2
+i i
+
+
+
+
+
+This can be rewritten in terms of the various auxiliary functions defined above,
+
+
+f p2
+( ) p2 P m 2
+( )+ Q m 2
+( )- + m 2
+( )- - m 2
+( )+ m 2
+( ) (4.18)
+i m 2 i i i i i i i i i
+i
+P m2
+( )+ Q m2
+( )- + m2
+( )- - m2
+( ) 0 (4.19)
+i i i i i i i i
+
+
+7
+
+
+The resonance mass/width ratio, r , is given by
+i
+
+
+
+
+1 m2
+( )
+r = i i i
+i P m2
+( ) (4.20)
+i i
+
+
+
+Using equations (4.8), (4.14), and (4.19),
+
+
+g2 m2
+( )
+2 2
+i +(m2) m - (m + m )2
+( ) m -(m -m)2
+( )
+i 1 2 i 1 2
+r 24 i i max (4.21)
+i -Q m2
+( )+ + m2
+( )+ - m2
+( ) m2
+two meson states
+flavor of qq
+i i i i i i i
+(masses m , m ) obeying VC
+1 2
+P m 2
+( ) -Q m 2
+( )+ + m 2
+( )+ - m 2
+( )
+m 2 = i i i i i i i i
+i d m 2
+( ) = d m 2
+( ) (4.22)
+i i i i
+
+
+
+
+
+5. Radial Excitations
+
+It is convenient to define the normalized quantities,
+
+Q m 2
+( )
+^
+Q m 2
+( ) i i
+i i d m 2
+( ) (5.1)
+i i
+
+± m 2
+( )
+^
+± m 2
+( ) i i
+i i d m 2
+( ) (5.2)
+i i
+
+
+
+The remainder of this analysis will be concerned with the behavior of these three quantities as a
+function of radial excitation number, n, with all other parameters fixed. It is assumed that the mass
+of any sequence of radial excitations of resonances is, for sufficiently large n, well approximated
+by a smooth, monotonically increasing function of n. Since - ^
+Q m2
+( )+ ^+ m2
+( )+ ^- m2
+( ) = m2, it is
+i i i i i i i
+also assumed that each of - ^
+Q m2
+( ), ^+ m2
+( ), and ^- m2
+( ) can be approximated by smooth functions
+i i i i i i
+of n. Furthermore, it is naively assumed that for large n these functions are well-behaved and do
+not oscillate rapidly nor with wide amplitudes (e.g., power law or logarithmic).
+
+The following definition will be useful,
+
+k ri (5.3)
+i
+2 ( )2
+( ) 2 ( )2
+( )
+g2 m2
+( ) m - m + m m - m - m
+i 1 2 i 1 2
+i
+
+24 max m2
+two meson states
+flavor of qq
+i
+(masses m , m ) obeying VC
+1 2
++ 2
+(m )
+i i
+-Q m2
+( )+ + m2
+( )+ - m2
+( ) (5.4)
+i i i i i i
+
+
+
+
+
+As n becomes large, one possibility is that ^
++ m2
+( ) dominates - ^Q m2
+( ) and ^- m2
+( ). Sequences of
+i i i i i i
+radial excitations of meson resonances with this property, if there are any, will be denoted as type
+1. Type 1 sequences have the property that for sufficiently large n, k 1.
+i
+
+
+
+A second possibility is that ^
++ m2
+( ) is dominated by either - ^Q m2
+( ) or ^- m2
+( ). These resonance
+i i i i i i
+sequences will be denoted type 2 and have the property that for sufficiently large n, k 0.
+i
+
+
+8
+
+
+The third possibility is that ^
++ m2
+( ) shares dominance with one or more of the other two terms, i.e.,
+i i
+has the same large n behavior. Resonance sequences with this property will be denoted type 3.
+For large n, type 3 sequences will have k k , not necessarily 0 or 1.
+i
+
+
+
+For all three types of sequences, k is bounded above. This is simply the statement that the
+i
+denominator in equation (5.4) is not fine-tuned to be arbitrarily smaller than the numerator. The
+bound on k gives a bound on the growth of r .
+i i
+
+
+
+
+2 2
+2
+( ) m - (m + m )2
+( ) m -(m -m)2
+( )
+i 1 2 i 1 2
+k > 0 s.t. r k g2 mi max (5.5)
+i 24 m2
+two meson states
+flavor of qq
+i
+(masses m , m ) obeying VC
+1 2
+
+
+6. Experimental Data
+
+There are a number of mesons for which a reasonable quark model interpretation exists, and the
+initial entries of some radial excitation sequences can be examined. The data for these is presented
+below [2]. In the calculation of k , is taken to be 250 MeV.
+i MS
+
+
+Meson I(G)( JP(C)) n 2S+1L (quark model) r k
+J i i
+
+(770) 1+(1--) 1 3S .197 ±.0016 1.02 ±.01
+1
+(1450) 1+(1--) 2 3S .212 ±.041 1.19 ±.23
+1
+
+
+*(892) 1
+2 (1- ) 1 3S .0558 ±.0009 .471 ±.008
+1
+*(1410) 1
+2 (1- ) 2 3S .161 ±.016 .996 ±.099
+1
+
+
+(1020) 0-(1--) 1 3S .00434 ±.00006 .103 ±.001
+1
+(1680) 0-(1--) 2 3S .0893 ±.0298 .616 ±.206
+1
+
+
+(782) 0-(1--) 1 3S .0108 ±.0001 (?) no 2-body decays
+1
+(1390) 0-(1--) 2 3S .123 ±.042 .880 ±.304
+1
+
+
+
+f (1270) 0+(2++) 1 3P .146 ±.016 .793 ±.087
+2 2
+f (1810) 0+(2++) 2 3P .214 ±.010 1.30 ±.06
+2 2
+
+
+
+f (1525) 0+(2++) 1 3P .0498 ±.0066 .350 ±.046
+2 2
+f (2010) 0+(2++) 2 3P .100 ±.032 .697 ±.32
+2 2
+
+
+
+K*(1430) 1 .0688 ±.0016 .427 ±.010
+2 2 (2+ ) 1 3P2
+K*(1980) 1 .197 ±.020 1.29 ±.13
+2 2 (2+ ) 2 3P2
+
+1-(0-+) 1 1S stable in chiral limit
+0
+(1300) 1-(0-+) 2 1S .338 ±.062 3.81 ±.70
+0
+(1770) 1-(0-+) 3 1S .175 ±.028 1.34 ±.21
+0
+
+
+
+K 1
+2 (0- ) 1 1S stable in chiral limit
+0
+K(1460) 1
+2 (0- ) 2 1S ~.178 ~1.96
+0
+K(1830) 1
+2 (0- ) 3 1S ~.137 ~1.11
+0
+
+
+
+The chiral limit divergence of k for and K is obtained by noticing that the denominator in
+i
+equation (5.8) vanishes as m2 or m2 , whereas the numerator, in general, need not vanish. It may
+K
+
+
+9
+
+
+be argued, qualitatively, that the large values of k for the 2 1S pseudoscalars is a consequence of
+i 0
+the relative smoothness of k as a function of radial excitation.
+i
+
+
+
+Higher excitations of mesons will have to be examined in order to check if k does actually appear
+i
+to converge and, if so, what k converges to in order to classify the excitation sequence as type 1,
+i
+2, or 3.
+
+
+7. Remarks
+
+The main theoretical result of this analysis is that the width of mesons in a radial excitation
+sequence does not grow arbitrarily large with respect to meson mass, and the upper bound on the
+growth of the width is given in equation (5.5). It is worth noting that this result should be valid,
+with slight changes of parameters, for confining QCD-like theories such as technicolor.
+
+If in the future a radial excitation sequence of reasonable length is identified, classifying this
+sequence as type 1, 2, or 3 may be useful in providing some information about the distribution of
+the wavefunction in momentum space. For immediate purposes, however, it may prove useful to
+employ the converse and assume that k is convergent in order to check whether a given meson is a
+i
+good candidate for the next radial excitation of a given sequence. In this regard, one might have a
+potentially useful tool to help classify mesons in the quark model. Unlike SU(3) flavor or nonet
+symmetry which allows "horizontal" comparisons of mesons within an approximately degenerate
+multiplet, this technique would be a "vertical" comparison of radial excitations of mesons with
+sequentially increasing mass.
+
+
+Acknowledgment
+
+I am grateful to my advisor, Howard Georgi, for his generous guidance, patience, and
+encouragement.
+
+
+
+References
+
+1. Salpeter, E. E. and Bethe, H. A., Phys. Rev. 84 (1951), 1232.
+2. Particle Data Group, Review of Particle Properties, Phys. Rev. D 50 (1994).
+
+
+

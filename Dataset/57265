@@ -1,0 +1,483 @@
+
+
+
+
+
+
+Gell-Mann­Low Function in QCD
+
+I. M. Suslov
+Kapitza Institute for Physical Problems, Russian Academy of Sciences, ul. Kosygina 2, Moscow, 117973 Russia
+e-mail: suslov@kapitza.ras.ru
+
+
+
+2
+The Gell-Mann­Low function in QCD (g) (g = g /162, where g is the coupling constant in the Lagrangian)
+is shown to behave in the strong-coupling region as g, where ­13 and ~ 105.
+
+
+
+
+Recently, using an algorithm proposed in [1, 2] for 1 a a 1 a
+summing divergent series of perturbation theory, we L = ­ --- F F ( )2
+­
+4 µ µ 2
+------ µAµ
+determined the Gell-Mann­Low function of 4 theory
+[1, 2] and QED [3]. Here, this algorithm is applied to + D^
++ c
+( ­ ),
+QCD, for which previous attempts provided ambiguous f f µa µa g f abcb Aµ (3)
+results [4]. f
+Fa = a a
+­ + g f abc Ab Ac ,
+1. Information about all terms of the perturbation µ µ A Aµ µ
+series can be obtained by interpolating its first terms with D
+^ = i a
+µ(µ ig AµTa
+­ ),
+the Lipatov asymptotic behavior [5]. The first four
+terms in the expansion of the Gell-Mann­Low function where ,
+Aa a
+f, and are gluon, quark, and ghost fields,
+for QCD are known in the MS scheme [6]: respectively; Ta and f abc are the generators of the fun-
+damental representation and structure constants of the
+Lee algebra, respectively; is the gauge parameter and
+g
+( )
+= gN
+= g2
++ g3
++ g4
++ ...,
+N 2 3 4 (1) subscript f specifies the type of quarks.
+N
+= 0 2. The asymptotic behavior in perturbation theory
+2
+g = g /162, was discussed for Yang­Mills fields [7­9] and QCD
+[10, 11], but the results are not sufficiently general.
+1
+where Below, this deficiency will be partially compensated.
+The pre-exponential factor of the most general func-
+2 38 tional integral for QCD involves M gluon, 2L ghost, and
+­ = 11 ­ --- N , ­ = 102 ­ ------ N ,
+2 3 f 3 3 f 2K quark fields, i.e.,
+
+Z = DADDD D A(x )... A(x )
+
+2857 5033 325 MLK 1 M
+­ = ------------ ­ ------------ N + --------- N2,
+4 2 18 f 54 f (4)
+× (y )(y )...(y )(y ) z
+( )
+1 1 L L 1
+× z
+( )... z
+( ) z
+( ) exp (­S{ A, , , , }),
+149753 1 K K
+­ = ------------------ + 3564 3
+( ) (2)
+5 6 where vector indices immaterial for the further consid-
+eration are omitted. The substitution A B/ g
+reduces the Euclidean action to the form
+1078361 6508
+­ --------------------- + ------------ 3
+( ) N
+162 27 f S{ A, , , , }
+
+(5)
+S{B} 4
+50065 6472 + d
+2 1093 3 ------------- x Q
+^ + D^
+
++ --------------- + ------------ 3
+( ) N + ------------ N . f f
+162 81 f 729 f g2 f
+
+
+1 Our view on the renormalon contributions was formulated in [3].
+Here, Nf is the number of types of quarks and
+g is the The existence of renormalon singularities in QCD was neither
+coupling constant in the QCD Lagrangian proven nor disproven, and we shall assume that they are absent.
+
+
+0327
+
+
+328
+
++
+and the integration over the fermion fields yields expansion term NFNg2N 2 or FNg2N when determin-
+ing it from any vertex. The expansion of the function
+Z = (1/g)M DAB(x )...B(x )
+MLK 1 M
+has the same form [5]. Since g = g2 /162, the coeffi-
+× G(y , y )...G(y , y ( , z ( , z (6)
+)G z )...G
+~ z ) cients of series (1) have the asymptotic behavior
+1 1 L L 1 1 K K
+
+× N f ( )
+detQ
+^ detD^
+( ) exp { S{B}/g2
+­ } + ..., 11 N ­ N
+
+= const N + 4N c f
++ ------------------------------ . (8)
+N c
+6
+where G and
+G
+~ are the Green's functions of the opera-
+This result for N
+tors
+Q
+^ and
+D
+^ , and ellipsis means terms with other pair- c = 2 and Nf =0 agrees with the result
+obtained in [7].
+ings. It is important that S{B}, G, and
+G
+~ are indepen-
+3. Series (1) is nonalternating, and there exists the
+dent of
+g . Functional integral (6) is determined by the well-known problem of correct interpretation of the
+Yang­Mills action, and the asymptotic behavior of its poorly defined Borel integral. In particular, the principal-
+expansion coefficients in
+g are calculated by the Lipa- value prescription for it is not necessarily valid [16]. The
+tov method [5]. For the saddle-point configuration,
+g ~ definition of the gamma function can be rewritten as
+N­1/2, where N is the order of perturbation theory.
+Therefore, each field A(xi) in the pre-exponential factor z
+( ) = ­
+d xz ­ 1, = 1, (9)
+xe x
+
+in Eq. (4) provides the factor N1/2, whereas other fields i i
+do not give N-dependent factors. The dependence of the i i
+Ci
+expansion coefficients on N is determined according to
+[10]; it differs from the result for the quark correlation where C1, C2, ... are arbitrary contours beginning at the
+function only by the factor NM/2. The Nth-order contri- origin and tending to infinity in the right half-plane.
+bution to Z The Borel transformation of series (1) yields
+MLK has the form
+
+[ ­
+ZMLK ] g2N = const 162
+( ) N
+N b ­ 1
+g
+( ) = dxe­xx 0 B g
+( x),
+
+(7)
+( ) i
+× M 11 N ­ N
+
+N + ----- + 4 N c f
++ ------------------------------ i
+g2N Ci (10)
+2 c 6
+
+for even M (N B z
+( ) = B zN, B
+N
+=
+c is the number of colors), and this N N (N + b )
+------------------------,
+expression should be multiplied by the additional factor 0
+N = 0
+
+g N1/2 for odd M. 2 where b0 is an arbitrary parameter. If the Borel trans-
+Using the result for the functional integral and form B(z) has singularities in the right half-plane, con-
+applying the algebra of factorial series [15], one can tours Ci are no longer equivalent and cannot be reduced
+easily obtain the result for any quantity. Let F to the positive semiaxis, as was possible in Eq. (9). For
+N g2 N
+be
+the Nth-order contribution to the vacuum integral (M = this reason, the summation result depends on the choice
+L = K = 0). Then, the general term of asymptotic beha- of i and Ci.3 We bypass this problem as follows. For the
+power behavior of the Borel transform at infinity, i.e.,
+vior (apart from a coefficient) has the form NFNg2N
+for when B(z) ~ z, we have
+the gluon propagator , FNg2N
+for the ghost propagator
+g
+( ) = , g
+G and quark propagator G + g
+f, NFN g2 N 1
+for the gluon­ (11)
+
+ghost vertex f + and g
+( ) = g , g ­,
+3 and gluon­quark vertex , N2F g2 N 1
+3 N
+
+for the three-gluon vertex +
+3, and N3FN g2 N 2
+for the where the exact relation between and depends on
+four-gluon vertex 4. In view of the generalized Ward the chosen
+2 i and Ci, but ~ in general case. There-
+identities
+3 ~ 3G and 4 ~ , the leading contribu-
+3 fore, index can be determined and can be esti-
+tions to the asymptotic behaviors of 3 and 4 are mated by summing series (1) for negative values of g.
+cancelled, and the invariant charge has the general 4. According to the algorithm developed in [1, 2],
+2 The term M/2 in the argument of gamma function in Eq. (7) is the resummation of the alternating series with the coef-
+related to the number of external fields, 4Nc is half the number of
+zero modes, and the term 11(N 3
+c ­ Nf)/6 arises because certain Results for different i and Ci differ by terms proportional to exp(­a/g),
+zero modes are soft, under more rigorous consideration, and must and such nonperturbative contributions must generally be added
+be nontrivially integrated. For the quark correlation function, to the Borel integral. For correctly chosen i and Ci, these contri-
+Eq. (6) involves divergences, which were removed in [10, 11] by butions are absorbed by the Borel integral and should not be explic-
+the doubtful method [14]. These divergences are absent for M 1. itly taken into account.
+
+
+329
+
+ficients behaving asymptotically as caN(N + b) pro-
+vides the convergent series with the coefficients
+
+N
+K
+U = B a­K ­
+( 1) CK ­ 1, (12)
+
+N K N ­ 1
+
+K = 1
+
+whose behavior for large N
+
+
+U = U ­ 1 , U = ---------------------------------------- (13)
+N N
+a () b
+( + )
+0
+
+determines the parameters of asymptotic form (11).
+The coefficient function is interpolated via the formula
+
+= caNNb~(N + b b~
+­ )
+N
+
+(14)
+× A A
+1 1
++ -------------- 2
++ --------------------- + ...
+N N
+~
+­ (N N~
+­ )2
+
+by breaking the series and choosing the coefficients AK
+from agreement with Eq. (2). The optimal parameter-
+
+ization of the Lipatov asymptotics with
+b~ = b ­ 1/2 is
+
+taken [2], and parameter N
+~ is used to control the stabil- Fig. 1. Quantities 2, eff, and U~ = U
+(b0 + 2) vs. b0 for
+ity of results and to optimize the procedure. the optimal interpolation with N
+~ = 1.58 and averaging
+Similar to QED, the parameter c of the Lipatov
+asymptotics is unknown. In the previous paper [3] it was interval 23 N 35. Function U
+~ (b
+0) for | U
+~ | < 10 is
+determined in the course of interpolation. In the case under shown schematically. The minima at b0 = 15.4 and 15.9 are
+consideration, such procedure gives large uncertainty in the treated as the satellites of the principal minimum at b0 =
+results, which is not reduced by optimization. So, interpo- 15.5, because they, together with the latter minimum,
+are shifted with varying parameters.
+lation was carried out for some predermined c value,
+which then varied from 10­5 to 1.4 Under this variation, the
+results change only slightly compared to other un-
+certainties. Below we present results obtained for N value in the first (from large b
+c = 0) minimum of 2 is clos-
+3, N est to the exact index ­15, because the leading cor-
+f = 0, and c = 10­5. rection to asymptotic form (13) vanishes at b
+Fitting U 0 = ­'.
+N by the power law and consid- Different estimations of index
+ering the dependence of 2 on
+N
+~ , we separate the inter- are close to each other when
+N
+~ is close to the
+val 0.5 N
+~ 2.0, where the 2 values are minimal. optimal value
+N
+~ = 1.58 (Fig. 1) and become inconsistent when
+This procedure determines the set of interpolations
+consistent with the power behavior of U N
+~ go away from its optimal value.
+N. The typical
+behavior of 2 and effective values U and as func- The result for index cannot immediately be taken
+tions of b0 (Fig. 1) indicates that ­15. Indeed, U as final. First, the large negative index can imitate an exponen-
+determined by Eqs. (13) changes sign at b0 = ­ 15.5. tial. Second, for = 0, ­1, ­2, ..., the leading contribu-
+For this b0 value, 2 has a minimum, because the lead- tion to the asymptotic behavior of UN vanishes due to
+ing contribution UN ­ 1 vanishes due to the pole the pole of () [see Eq. (13)], and the observed result
+of gamma function in Eq. (13), and we have power can correspond, e.g., to ' rather than
+behavior U [2]. In view of these circumstances, we sum a series for
+N ~ N' ­ 1 corresponding to the first correc-
+tion to the asymptotic behavior of (g) [we assume that n
+the function W(g) = g s g
+( ) and increase integer
+(g) = g +
+g' + ... for large g ]. The
+
+' eff parameter ns until the observed index W = + ns
+becomes positive. The results (Fig. 2a) conclusively demon-
+4 Parameter c is equal to the product of the square of the t'Hooft con- strate that we observe a large negative index rather than an ex-
+stant cH in the expression for one-instanton contribution [12, 13] ponential. This index is noninteger because in the case = ­n
+2
+( c ~ 10­5 and 10­4 for N we would observe the behavior shown in the insert.
+H f = 0 and 3, respectively) and the Each point in Fig. 2a is obtained by independent opti-
+dimensionless integral of the instanton configuration. The latter
+factor can be rather large (characteristic scale is 82). mization in N
+~ . The optimal N~ value decreases mono-
+
+
+330
+
+tonically with increasing ns. Uncertainty in the results
+is primarily attributed to the dependence at the lower
+bound of averaging interval Nmin N Nmax. The upper
+points in Fig. 2a correspond to small Nmin and to 2 ~
+106 in the minima. As Nmin increases, decreases mono-
+tonically until 2 reaches a value of ~103 (lower points).
+With a further increase in Nmin, the pattern of 2 minima
+becomes indistinct, and the uncertainty of the results
+increases considerably. We admit some further
+decrease in until the required values 2 ~ 10 are
+reached, and take this into account in the course of error es-
+
+timation. Uncertainty in parameter
+is of several
+order of magnitude (Fig. 2b), but the most probable
+value is ~105, which is consistent with the basic array
+of data. Thus, we have
+
+= ­ 13 ± 2,
+105
+(15)
+
+for Nf = 0. One has = ­12 ± 3 and the same most prob-
+able value
+for N
+f =3 (while the total scatter is
+=
+1­107). The stability in the results against a change in
+the summation procedure testifies that their uncertainty
+is adequately estimated. Some underestimation of the
+error is possible due to the nonlinear effects [3] and
+Fig. 2. (a) Index in the case when the asymptotics is reached slowly.
+W obtained by summing the series for
+n
+function W(g) = g s (g) vs. n Large uncertainty in _\infty corresponds to comparatively
+s for various averaging inter-
+vals N small uncertainty in the function itself. The characteristic
+min N Nmax: ( ) for Nmin = 22 + ns and Nmax = 35
++ ns and ( , , , , , , ) for sequentially increasing scale where one-loop law
+
+2g2 is matched with asymptotic be-
+N
+min by one unit; (b) parameter s as a function of ns. havior (11) appears to be g* ~ 2, and
+changes by
+four orders of magnitude as g* changes by a factor of
+
+two. The sign of
+is indeterminate in negative W
+region, because error in is large and the factor () in
+Eq. (13) is alternating, but this sign is definitely nega-
+tive in positive W region (large ns values). Figure 3
+shows (solid line) the behavior of function for g < 0
+and (dashed line) the analytic continuation to positive g
+values, where the behavior is qualitatively the same, but
+the sign of asymptotic function (11) can change.5 Nev-
+ertheless, the behavior of the effective coupling con-
+Fig. 3. stant as a function of the length scale L is rather
+definite (Fig. 4). In the one-loop approximation, g(L)
+has a pole at L = L 0 = 1/QCD (dashed line in
+Fig. 4). For the obtained function (Fig. 3), g(L)
+increases near L0 up to ~g* and then either (for > 0)
+becomes constant or (for < 0) increases as (lnL)0.07,
+which is practically indistinguishable from a constant.
+
+In the weak-coupling region, interaction V(L)
+between quarks is described by he modified Coulomb
+
+law /
+g2(L) L, and the sharp increase in g(L) near L = L0
+testifies to the tendency to confinement. In the strong-
+coupling region, the relation between V(L) and g(L) is
+
+5 In particular,
+
+
+
+= c
+
+os
+for the principal-value interpreta-
+Fig. 4. tion of the Borel integral.
+
+
+331
+
+unknown, but the close in spirit result was obtained by Wil- 2. I. M. Suslov, Zh. Éksp. Teor. Fiz. 120, 5 (2001) [JETP
+son [17] for the lattice version of QCD: 93, 1 (2001)].
+3. I. M. Suslov, Pis'ma Zh. Éksp. Teor. Fiz. 74, 211 (2001)
+ln 3g2 a
+( ) [JETP Lett. 74, 191 (2001)].
+V(L) = --------------------- L, g a
+( ) 1 (16)
+2 4. D. I. Kazakov, in Proceedings of the Conference
+a QUARKS-80, Sukhumi, 1980 (INR, Moscow, 1981),
+where a is the lattice constant. From the condition that p. 52.
+the result is independent of a, the function in the 5. L. N. Lipatov, Zh. Éksp. Teor. Fiz. 72, 411 (1977) [Sov.
+strong-coupling region is estimated as (g) ~ glng [18], Phys. JETP 45, 216 (1977)].
+which is, however, incorrect. The cross size of the 6. T. van Ritbergen, J. A. M. Vermaseren, and S. A. Larin,
+string in the region a 1/ Phys. Lett. B 400, 379 (1997).
+QCD is equal to ~a, which is
+considerably higher than its actual physical size 7. E. B. Bogomolny and V. A. Fateyev, Phys. Lett. B 71, 93
+~1/ (1977).
+QCD. Therefore, the lattice introduces strong distor-
+tions, and there is no reason to expect that the result is 8. L. N. Lipatov, A. P. Bukhvostov, and E. I. Malkov, Phys.
+independent of a. These reasons exist in the region a Rev. D 19, 2974 (1979).
+1/ 9. E. B. Bogomolny, V. A. Fateyev, and L. N. Lipatov, Sov.
+QCD, where, however, the coupling constant g a
+( ) Sci. Rev., Sect. A 2, 247 (1980).
+becomes small, and Eq. (16) does not apply. Thus,
+Eq. (16) is meaningful only for a ~ 1/ 10. I. I. Balitsky, Phys. Lett. B 273, 282 (1991).
+QCD. In the satu- 11. S. V. Faleev and P. G. Silvestrov, Nucl. Phys. B 463, 489
+ration region,
+g(L) 2 162
+× ~ 20, and, because of (1996).
+a sharp increase in g(L) near L = L 12. G. t'Hooft, Phys. Rev. D 14, 3433 (1976).
+0 (Fig. 4), the condi-
+tions a ~ 1/ 13. C. Bernard, Phys. Rev. D 19, 3013 (1979).
+QCD and
+g a
+( ) 1 are compatible, which,
+likely, justifies the applicability of Eq. (16) to actual 14. I. M. Suslov, Zh. Éksp. Teor. Fiz. 116, 369 (1999) [JETP
+QCD. 89, 197 (1999)].
+15. I. M. Suslov, Usp. Fiz. Nauk 168, 503 (1998) [Phys. Usp.
+This work was supported by INTAS (grant no. 99- 41, 441 (1998)].
+1070), Russian Foundation for Basic Research (project 16. R. Seznec and J. Zinn-Justin, J. Math. Phys. 20, 398
+no. 00-02-17128), and Russian Foundation for Support (1979).
+of Science. 17. K. Wilson, Phys. Rev. D 10, 2445 (1974).
+18. C. Callan, R. Dashen, and D. Gross, Phys. Rev. D 20,
+REFERENCES 3279 (1979).
+
+1. I. M. Suslov, Pis'ma Zh. Éksp. Teor. Fiz. 71, 315 (2000)
+[JETP Lett. 71, 217 (2000)]. Translated by R. Tyapaev
+
+
+

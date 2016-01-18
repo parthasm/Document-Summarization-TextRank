@@ -1,0 +1,3824 @@
+Broad Sub-Continuum Resonances and the Case for Finite-Energy Sum-Rules
+
+
+
+A. S. Deakin, V. Elias, A. H. Fariborz, and Ying Xue
+
+Department of Applied Mathematics
+
+University of Western Ontario
+
+London, Ontario N6A 5B7
+
+Canada
+
+
+
+and
+
+
+
+Fang Shi and T. G. Steele
+
+Department of Physics and Engineering Physics
+
+University of Saskatchewan
+
+Saskatoon, Saskatchewan S7N 5C6
+
+Canada
+
+
+
+Abstract
+
+There is a need to go beyond the narrow resonance approximation for QCD sum-rule
+
+channels which are likely to exhibit sensitivity to broad resonance structures. We first discuss
+
+how the first two Laplace sum rules are altered when one goes beyond the narrow resonance
+
+approximation to include possible subcontinuum resonances with nonzero widths. We then show
+
+that the corresponding first two finite energy sum rules are insensitive to the widths of such
+
+resonances, provided their peaks are symmetric and entirely below the continuum threshold. We
+
+also discuss the reduced sensitivity of the first two finite energy sum rules to higher dimensional
+
+condensates, and show these sum rules to be insensitive to dimension > 6 condensates containing
+
+at least one q q pair. We extract the direct single-instanton contribution to the F sum rule for the
+1
+
+longitudinal component of the axial-vector correlation function from the known single-instanton
+
+contribution to the lowest Laplace sum rule for the pseudoscalar channel. Finally, we demonstrate
+
+how inclusion of this instanton contribution to the finite-energy sum rule leads to both a lighter
+
+quark mass and to more phenomenologically reasonable higher-mass-resonance contributions
+
+within the pseudoscalar channel.
+
+
+I. Introduction: Nonzero Resonance Widths and QCD Laplace Sum-Rules
+
+
+
+Laplace Sum-Rule Methodology in the Narrow Resonance Approximation
+
+
+
+Hadron properties can be extracted by relating phenomenological and field-theoretical
+
+expressions for integrals over appropriately chosen current-correlation functions, integrals which
+
+we denote as QCD sum rules [1]. The phenomenological expressions are generally extracted
+
+via the narrow resonance approximation. In the narrow resonance approximation, hadronic
+
+contributions to the imaginary part of current-current correlation functions are proportional to -
+
+functions at the resonance mass,
+
+
+
+
+Im[h(s)] = g (s - m2) + (s - s ) Im[p(s)], (1)
+r r 0
+r
+
+
+
+
+
+The summation in (1) is over all resonances r in the channel under consideration [i.e., whose
+
+quantum numbers are consistent with the choice of currents in the current correlation function]
+
+such that m2 is less than s . Above this hadron-continuum threshold, the hadronic contribution
+r 0
+h(s) to the correlation function is assumed to be the same as the contribution p(s) from
+
+perturbative QCD, as is evident from (1).
+
+
+
+The hadronic sub-continuum (h) contribution to the kth Laplace sum rule, corresponding
+
+to the transform of the appropriate portions of (1), is defined to be
+
+
+
+
+Rh() ds (1/) Im[h(s) - p(s) (s - s )] sk e-s (2)
+k 0
+0
+
+
+
+
+In the narrow resonance approximation ( 0), we see from (1) that
+
+
+
+
+
+2
+
+
+Lim Rh() = g m2k exp[-m2], (3)
+k r r r
+r
+0
+
+
+an expression in which contributions from more-massive resonances are exponentially suppressed.
+
+Note from (3) that Rh() m2 Rh(), where m denotes the mass of the lowest-lying resonance
+1 0
+
+in the channel. Consequently, Rh()/Rh() is bounded from below by m2. Standard QCD sum-
+1 0
+
+rule methodology involves minimizing this ratio [or its field-theoretical analogue] with respect
+
+to in order to determine a value of m2 [2]. The sum rule Rh() corresponds to the following
+k
+
+field-theoretical contribution from perturbative-QCD and nonperturbative (np) QCD-vacuum
+
+effects:
+
+s0
+RQCD() = ds (1/) Im[p(s)] sk e-s
+k
+0
+
+
+
++ (-/)k{(1/) -1
+[-dnp(s)/dQ²]}. (4)
+
+
+
+In equation (4), Q² -s, and np(s) represents all correlation-function contributions from QCD-
+
+vacuum condensates as well as additional finite-correlation length contributions from the
+
+instanton background, i.e. "direct instanton contributions." The inverse Laplace transform in (4),
+
+corresponding to the Laplace-transform definition
+
+
+[f()] d f() e-Q², (5)
+Q²
+0
+
+
+is utilized to take advantage of the operator-product expansion of np in inverse powers of Q²,
+
+and is easily understood via dispersion-relation methodology. Noting first that the singularities
+
+of h(s) [hadron poles and kinematic production-threshold branch cuts] must lie on the positive
+
+real s-axis, one finds that
+
+
+
+(1/) -1
+[-dnp(s)/dQ²]
+
+= (1/) -1
+[(1/) ds Im[np(s)]/(s+Q²)²]
+0 (6)
+
+
+
+
+3
+
+
+As is evident from (5), -1
+[1/(s+Q²)²] = e-s, which, upon substitution into (6) and (4), leads
+
+to a result consistent with duality between QCD [p(s) + np(s)] and phenomenological hadronic
+
+physics [h(s)]:
+
+
+
+RQCD() + ds (1/) Im[p(s)] sk e-s
+k
+s0
+
+
+= ds (1/) Im[p(s) + np(s)] sk e-s
+0 (7)
+
+
+
+Duality between RQCD() and Rh() then follows via comparison of equations (7) and (2). We
+k k
+
+then find that the lowest lying resonance can be determined via the relationship:
+
+
+
+Min[RQCD()/RQCD()] m2 (8)
+1 0
+
+
+
+
+
+over an appropriate range of [s½ > -½ >> ].
+0 QCD
+
+
+
+
+
+Laplace Sum-Rule Width Corrections to the Lowest-Lying Resonance Mass
+
+
+
+There is a need to go beyond the narrow resonance approximation if QCD sum rules
+
+exhibit sensitivity to resonance structures with non-zero widths. Such structures can not always
+
+be absorbed in the sum-rule continuum--even the lowest hadronic resonances may have
+
+substantial widths. For example, theoretical arguments exist [3,4] for the first pion-excitation
+
+to have a mass below 1 GeV, a floor for any reasonable estimate of the continuum threshold
+
+above which perturbative and hadronic QCD should coincide. Even if the first pion excitation
+
+state is identified with the (1300) resonance, whose mass pole is still likely to be below the
+
+continuum threshold, the width of this resonance may be as large as 600 MeV [5]. Moreover,
+
+the lowest isoscalar 0+ meson, if it exists at all [6], may have a width even larger than its
+
+
+
+4
+
+
+mass [7], though arguments for a (550)-resonance with a somewhat more moderate width
+
+have also been recently advanced [8].
+
+
+
+To gain qualitative insight into how nonzero resonance widths can effect QCD sum rule
+
+calculations, we can replace the -function of a resonance contribution to (1) with a rectangular
+
+pulse of unit area:
+
+
+(s - m²) (s,) [(s-m
+m ²+m) - (s-m²-m)]/2m. (9)
+
+
+
+Equation (9) defines a rectangular pulse centred at s = m² with full-width s = 2m and height
+
+1/(2m).
+
+
+
+Let us consider how such an approximation to a lowest-lying resonance alters a QCD
+
+Laplace sum-rule determination of that resonance's mass. We assume in the spirit of the original
+
+formulation of QCD sum rules [1] that all but the lowest-lying ( ) resonance is absorbed in the
+
+continuum. If we replace the delta function for the lowest-lying resonance with the pulse
+
+(s,), we find from (2) that
+m
+
+
+
+s0
+Rh() = g ds (s,) e-s = g e-m² (m,,), (10)
+0 m 0
+0
+
+
+
+s0
+Rh() = g ds (s,) s e-s = g m (m,,), (11)
+1 m ² e-m² 1
+0
+
+
+
+
+with the functions found from explicit evaluation of the integrals in (10) and (11):
+0,1
+
+
+
+(m,,) = sinh(m)/(m) (12)
+0
+
+
+
+(m,,) = (m,,)[1 + 1/(m
+1 0 ²)] - cosh(m)/(m²). (13)
+
+
+
+5
+
+
+The results (10-13) assume that m, s m
+0 ² + m, so that the integration includes the entire
+
+resonance peak. Note also that
+
+Lim (m,,) = 1,
+0,1
+0
+
+
+consistent with the -function limit of a square pulse of infinitesimal width.
+
+
+
+We see immediately from (10) and (11) that
+
+
+Rh() (m,,)
+1 0
+m² = .
+Rh() (m,,) (14)
+0 1
+
+
+
+Since Rh()/Rh() corresponds to RQCD/RQCD by duality, and since this latter ratio corresponds
+1 0 1 0
+
+to m² in the narrow resonance approximation (=0), one can show from (12) and (13) that finite
+
+width effects will increase the masses of lowest-lying resonances extracted via Laplace sum
+
+rules:
+
+
+
+m² = [m²] [ (m,,)/ (m,,)]
+=0 0 1
+
+
+= [m²] [1 +
+=0 ²/3 + O(4)]. (15)
+
+
+
+This result should properly be regarded as a lower-bound on the magnitude of width
+
+contributions to R /R . The width appearing in (15) is, at present, defined via the rectangular
+1 0
+
+pulse (9); it cannot be understood to correspond to a Breit-Wigner resonance width. Indeed, the
+
+narrow resonance approximation follows from the narrow-width limit of the Breit-Wigner
+
+resonance shape:
+
+
+Im[h(s)] = Im[-g /(s-m²+im)]
+
+= g m/[(s-m²)²+ m²²] g (s-m²). (16)
+0
+
+If a resonance has a Breit-Wigner shape, then half of the total area of the resonance-peak
+
+
+
+6
+
+
+(considered as a function of s) is included in the range m²- m < s < m²+ m. Since the unit-
+
+area rectangular pulse (9) has all of its area included in the range m²- m < s < m²+ m, the
+
+result (15) is based upon a narrower pulse than the Breit-Wigner pulse of equivalent , and is
+
+therefore likely to be an underestimate of the contribution of a Breit-Wigner resonance-width
+
+to the Laplace sum-rule determination of m².
+
+
+For Laplace sum rules, a more quantitative estimate of resonance-width effects could be
+
+obtained by replacing the delta-functions in (1) with the Breit-Wigner peaks (16), and then
+
+substituting into the Laplace sum-rule definition (2). However, such an approach is subject to
+
+ambiguity. The Breit-Wigner shape has an infinite tail, and significant portions of that tail may
+
+extend above the continuum threshold s or below the s=0 boundary into Euclidean momenta.
+0
+
+Truncating such contributions would artificially exclude some of the integrated resonance peak.
+
+On the other hand, including such contributions leads to methodological contradictions with
+
+hadron physics. The Breit-Wigner shape, which itself stems from a linear approximation, can be
+
+modified for broad widths so as to vanish at s = 0 [9]. Even with such a modification, post-
+
+continuum contributions from the Breit-Wigner tail, whether included or truncated away, can be
+
+genuinely substantial for resonances with widths in excess of 100 MeV, and can be a source of
+
+theoretical uncertainty in Laplace sum-rule analyses of broad sub-continuum resonances.
+
+
+
+Such uncertainty may be understood as a limitation on Laplace sum-rule methodology
+
+itself, particularly for channels in which more than one resonance lies below the continuum
+
+threshold. Non-lowest-lying resonances are expected to be less stable, and consequently, to be
+
+substantially broader than lowest-lying resonances. The I = 1 pseudoscalar channel has already
+
+been mentioned as an example of such a channel, and is discussed in the final two sections of
+
+this paper.1
+
+
+
+
+
+1 A QCD sum-rule treatment of the I = 0 scalar channel is even more likely to be
+problematical, in that this channel may be sensitive to not only the controversial sigma
+[f (400-1200)], but also as many as three other subcontinuum resonances [f (980),
+0 0
+f (1370), and f (1500)], with f (1370) being a broad resonance.
+0 0 0
+
+
+7
+
+
+In the section that follows, we first discuss how finite-energy sum rules can alleviate the
+
+resonance-width ambiguities described above. Unlike the case for Laplace sum rules, we
+
+demonstrate that the contribution of a non-narrow resonance to the first two finite-energy sum
+
+rules (F and F ) is independent of that resonance's width, provided the resonance peak is both
+0 1
+
+symmetric and entirely below the continuum threshold.
+
+
+
+These same two sum rules are also less sensitive to higher dimensional condensates than
+
+corresponding Laplace sum rules, thereby lowering the number of nonperturbative QCD-vacuum
+
+parameters required to enter a sum-rule analysis. In Section III, we demonstrate that F and F
+0 1
+
+are essentially decoupled (to leading order in ) from dimension > 6 QCD-vacuum condensates
+s
+
+containing one or more q q pairs. For the specific channel pertinent to pseudoscalar resonances,
+
+this suppression is shown to occur even for dimension > 4; the dimension-6 condensate ( q q)
+s ²
+
+is seen (by virtue of a third order pole at Q² = 0) not to enter F , even though it is known to
+0,1
+
+enter the corresponding Laplace sum rules R . Insensitivity of the first two finite-energy sum
+0,1
+
+rules to multiple gluon condensates [condensates which do not have any q q pairs] of dimension
+
+6 is discussed at length in Section IV, including the operator-mixing that serves to suppress
+
+the dimension-6 gluon condensate.
+
+
+
+We then focus on QCD sum rules for the I = 1 pseudoscalar mesons, as noted earlier, as
+
+an example of a "problem" channel with broad subcontinuum resonance contributions. This
+
+channel has long been understood to be subject to instanton contributions. In Section V, we
+
+extract the direct single-instanton contribution to the finite-energy sum rule F for this channel.
+1
+
+In Section VI, we relate F to the phenomenology of this channel, which has been used by others
+1
+
+[10,11,12] to obtain a fairly large lower bound on the light quark mass (m + m 20 ±
+u d
+
+5 MeV). We demonstrate how direct single-instanton contributions to F not only lower the
+1
+
+bound for the estimated quark mass, but also lower the estimated contribution of higher-mass
+
+resonances to the sum rule to values of r [ (F M2/f 2)
+i i i m ²] more consistent with present
+
+phenomenological expectations.
+
+
+
+
+
+8
+
+
+Our manuscript also possesses four detailed appendices pertinent to a full methodological
+
+understanding of finite energy sum rules. In Appendix A an exact expression for the imaginary
+
+part of a function that arises in closed fermion loop contributions to correlation functions [i.e. in
+
+purely perturbative and multiple-gluon condensate contributions] is extracted. In Appendices B
+
+and C, the two-gluon condensate contributions to F and F are respectively calculated from that
+0 1
+
+condensate's exact (as opposed to leading-order in m ) one-loop contribution to the longitudinal
+q
+
+component of the axial vector correlation function. This contribution is shown to arise entirely
+
+from a net branch singularity for s 4m². The absence of net pole contributions at s = 0, as
+
+well as the cancellation of infrared singularities arising from integration of the exact expression
+
+along the branch cut against those arising from integration around the branch-cut terminus at s
+
+= 4m², are also demonstrated explicitly. All of these results (including the singularity structure
+
+described above) are applicable to the two-gluon condensate contributions to the finite energy
+
+sum rules associated with the scalar, vector and the transverse component of the axial vector
+
+correlation functions. These sum rule contributions are itemized in Appendix D. The explicit
+
+cancellation of quark-mass singularities via operator mixing is also demonstrated for channels in
+
+which they naively occur.
+
+
+
+II. Nonzero Resonance Widths and Finite-Energy Sum-Rules
+
+
+
+Finite Energy Sum Rules and Higher-Mass Resonances
+
+
+For a given current-correlation function (s), the finite-energy sum-rules (FESR's) F (s )
+k 0
+
+are defined here to be the integrals [13]
+
+
+F (s ) (1/2i) ds sk (s),
+k 0
+C(s ) (17)
+0
+
+
+where the contour C(s ) is an open circle of radius s in the complex s-plane that does not cross
+0 0
+
+the real s-axis [Fig. 1a]. The parameter s is understood to be the continuum threshold discussed
+0
+
+in the previous section. For the hadronic contribution to the FESR's Fh(s ), the contour C(s ) can
+k 0 0
+
+be distorted into a line running below and above the physical singularities on the positive real
+
+s-axis [Fig. 1b]:
+
+
+9
+
+
+s0
+Fh(s ) = (1/) ds sk Im[h(s)]. (18)
+k 0
+0
+
+
+
+In the narrow resonance approximation (1), one finds that
+
+
+Fh(s ) = g m2k [Fh(s )] (19)
+k 0 r r k 0 r
+r r
+
+
+
+
+an expression that differs from (3) only in that higher-mass sub-continuum resonances are no
+
+longer exponentially suppressed. This is a positive feature of the FESR approach, if one is
+
+seeking to use sum rules to obtain information about such resonances.
+
+
+
+Insensitivity of F to Symmetric-Peak Resonance Widths
+0,1
+
+
+
+
+To examine finite width effects, let us first replace the delta-functions of (1) with the
+
+finite-width rectangular pulses (9). As long as s m2 + 2m , the contribution of such a pulse
+0 r r r
+
+to F is clearly the same as that of a delta-function, since F is sensitive only to peak-area:
+0 0
+
+s0
+[Fh(s )] ds g (s, ) = g (20)
+0 0 r r mr r r
+0
+
+
+
+
+Remarkably, the F sum-rule is also insensitive to the width of the rectangular pulse:
+1
+
+
+
+s 2
+0 m +m
+r r r
+[Fh(s )] ds s g (s, ) = [g /(2m )] ds s = g m2 (21)
+1 0 r r mr r r r r r r
+0 m2-m
+r r r
+
+
+
+
+
+The final result of (21) is identical to the contribution to [Fh(s )] obtained from the narrow
+1 0 r
+
+resonance approximation, with (s, ) replaced by (s-m2). The results (20) and (21) are to be
+mr r r
+
+contrasted with the width-dependence exhibited in (10) and (11) for corresponding Laplace sum
+
+rules.
+
+
+
+
+
+10
+
+
+Moreover, the width-independence of the first two FESR's obtained above is not an
+
+artifact of the rectangular pulse approximation for non-zero width resonances. Any symmetric
+
+resonance peak (s) centred at m
+m ² can be represented as a sum over variable-width unit-area
+
+rectangular pulses (s,) centred at s = m
+m ²:
+
+
+max
+(s) = d f() (s,) (22)
+m m
+0
+
+
+
+In (22), f() is just the weighting assigned to the unit-area rectangular pulse with width . For
+
+example, the Breit-Wigner shape (16) can be expressed in the form of (22) by converting a
+
+Riemann sum of infinitesimally thin pulses into an integral [Fig. 2]:
+
+
+
+m/[(s-m²)²+m²²]
+
+n
+= Lim {(2/n) (n/j)-1 (s,
+(n/j)-1 )}
+m
+n j=1
+
+
+
+
+
+1
+= 2 dy
+(1-y)/y (s,
+(1-y)/y )
+m
+0
+
+
+d ()²
+= 4 (s,) (23)
+m
+(²+²)²
+0
+
+
+
+
+Assuming the peak (s) has an area normalized to , consistent with (s) (s-m
+m m ²) in the
+
+narrow resonance limit [e.g. eq. (16)], one finds that
+
+
+
+s
+0 max
+= ds (s) = d f() (24)
+m
+0 0
+
+
+
+
+
+11
+
+
+provided s > m .2 Consequently, one can use (21) and (24) to demonstrate that
+0 ² + mmax
+
+replacing factors of (s-m²) in (1) with (s) will not alter narrow-resonance approximation
+m
+
+predictions (19) for F and F :
+0 1
+
+
+
+
+s0
+[Fh(s )] ds (1/) g [ (s)] = g (25)
+0 0 r r m r r
+0
+
+
+
+s0
+[Fh(s )] ds s (1/)g [ (s)]
+1 0 r r m r
+0
+
+
+s
+max 0
+= (1/) d f() ds s g (s,) = g m2. (26)
+r mr r r
+0 0
+
+
+
+
+
+Thus we see that the finite-energy sum-rules F and F are impervious to resonance-width
+0 1
+
+effects, provided the resonance in question is a symmetric peak that is entirely below the
+
+continuum threshold s . Consequently, we observe that these sum rules are particularly well-
+0
+
+suited for an analysis of non-lowest-lying subcontinuum resonances. As remarked earlier, the
+
+contributions (19) of such resonances to F and F are not exponentially suppressed, as is the case
+0 1
+
+with Laplace sum-rules (3). Since such resonances are unstable, and therefore broad, it is
+
+phenomenologically useful that their contributions to F and F are unaffected by their decay
+0 1
+
+widths. It should be noted this property does not apply to higher finite energy sum rules; sum
+
+rules F do exhibit width dependence if k 2. Consequently, we will restrict our discussion
+k
+
+henceforth to the properties of F sum rules.
+0,1
+
+
+
+
+
+2 For the theoretical Breit-Wigner shape, problems associated with the infinite tail of the
+resonance extending past the continuum threshold s have already been mentioned. One
+0
+approximation which truncates the Breit-Wigner shape symmetrically is to choose max
+= 2m. This approximation makes sense, however, only if << 2m s .
+0
+
+
+12
+
+
+III. FESR Suppression of Higher-Dimensional Condensates with One or More qq-Pairs
+
+
+
+The General Case
+
+
+
+The operator-product expansion (OPE) for a dimension-2 two-current correlation function
+
+(s) can be expressed at Euclidean momenta Q² -s > 0 in terms of QCD-vacuum condensates
+
+as follows:
+
+(-Q²) = C (Q (Q q q + C G (Q
+p ²) + Cqq ²)mq G2(Q²)s ² + CM ²) q G q
+
++ C G3 + C (Q ( q q)
+G3(Q²)s ( q q)² ²)s ² + ... (27)
+To leading order in , the OPE coefficients C (Q are of
+s n ²) of an n-dimensional condensate On
+
+the general form
+
+
+
+C (Q + B ln(Q j /Qj+n-2 (28)
+n ²) = [Aj j ²/µ²)] mq
+j
+
+
+
+To avoid mass singularities, the index j is restricted to zero and even positive integers if n is
+
+even, and to odd positive integers if n is odd. To leading order in , contributions to (27) from
+s
+
+condensates containing at least one fermion-antifermion pair necessarily correspond to diagrams
+
+with broken loops [Fig. 3], and for such diagrams B = 0; logarithms from integrations over
+p
+
+closed-loop momenta do not occur. For example, to leading order in , the m q q contribution
+s q
+
+[Fig. 3a] to the longitudinal component L(s) of the axial-vector current correlation function,
+
+
+
+(gµ- pµp/p²)T(p²) + (pµp/p²)L(p²) i d4x eip x 0 T jµ (x) j (0) 0, (29)
+5 5
+
+
+
+[jµ u d] is given by [14]
+5 µ5
+
+
+C L(Q 2)[1 - (1 + 4m2/Q 2/Q4 - 8m4/Q6 + ... (30)
+q q ²) = (2/mq q ²)½] = -4/Q² + 4mq q
+
+
+
+
+If in (28) B = 0 for all j, the definition (17) implies that the FESR's F and F are (respectively)
+j 0 1
+
+sensitive only to first and second order poles at Q² = 0:
+
+
+13
+
+
+[FL(s )] = (1/2i) ds C L(-s)m q q = -4 m q q (31)
+0 0 q q q q q q
+C(s )
+0
+
+
+
+[FL(s )] = (1/2i) ds s C L(-s)m q q = -4m2 m q q (32)
+1 0 q q q q q q q
+C(s )
+0
+
+
+
+Thus, if C (Q , is restricted to inverse powers of Q
+n ²), the OPE coefficient of a condensate On ²,
+
+then n must be less than or equal to 6 for that condensate to contribute to F or F . If n > 6,
+0 1
+
+then n+j-2 6 and the leading OPE contribution to (28) is at least a third order pole at Q² = 0,
+
+which cannot contribute to F or F .
+0 1
+
+
+
+
+Higher-Dimensional Fermionic Condensates in the Pseudoscalar Channel
+
+
+
+For the particular case of the longitudinal component (L) of the axial-vector correlation
+
+function, which is coupled to pion-resonance states, there is an additional chiral symmetry
+
+constraint that CL(Q 0, in which case j 1 for all coefficients of condensates
+n ²) 0 as mq
+
+that fail to vanish in the chiral limit. As a consequence, one can show to leading order in that
+s
+
+the n = 6 condensate ( q q) or F , as its leading contribution is
+s ² cannot contribute to F0 1
+
+necessarily a third-order pole at Q² = 0 [1,10]:
+
+
+C L(Q 2 /27Q6 + O(m4/Q8). (33)
+( q q)² ²) = -448 mq s q
+
+
+
+
+Similarly, F and F are found to be insensitive to the (n = 5) mixed condensate q G q. The
+0 1
+
+relevant contribution to the longitudinal component of the axial-vector correlator is also seen to
+
+involve only third-and-higher order poles at Q² = 0 [15]:
+
+
+C L (Q 3v = 4m3/Q6 - 20m5/Q8 +..., (34)
+M ²) = -(1-v)3/2mq q q
+
+
+
+
+v (1 + 4m2/Q
+q ²)½. (35)
+
+
+
+
+
+14
+
+
+Thus the leading contributions to F and F sum rules in this channel do not involve any
+0 1
+
+condensates with quark-antiquark pairs except m q q. The F and F sum rules in other channels
+q 0 1
+
+can also involve the n=5 mixed condensate q G q and the n=6 condensate ( q q)
+s ² [we are
+
+assuming vacuum-saturation], but no other condensates containing quark-antiquark pairs, as all
+
+other such condensates are of dimension greater than 6.
+
+
+
+
+
+IV. Purely Gluonic Contributions to F and F
+0 1
+
+
+
+
+Purely Perturbative Gluon-Loop Contributions
+
+
+
+For two-current correlation functions, the suppression of leading-order contributions from
+
+n > 6 condensates applies only to those operators whose leading contribution in does not
+s
+
+involve a closed perturbative loop. However, all condensates involving gluons necessarily are
+
+generated from the closed-loop vacuum polarization diagram [Fig. 4], and such diagrams are
+
+characterized by nonzero coefficients B in the OPE expansion (28). The contribution of such
+j
+
+logarithmic terms in (28) to the FESRs F and F can be obtained from the general relation [Q
+0 1 ²
+-s; D is an integer]
+
+ds ln(Q²)/(Q²)D = -2i(-1)D s1-D/(1-D); D 2 (36)
+0
+C(s )
+0
+
+
+
+However, a more precise evaluation of the contributions of closed-loop OPE coefficients
+
+necessarily involves the one-loop momentum integral3
+
+
+1
+X(v) (1/v²) dx ln[1 - s x(1-x)/m2 - i ] + 2/v
+q ², (37)
+0
+
+
+
+
+v (1 - 4m2/s)½. (38)
+q
+
+
+
+
+
+3 In eqs. (37-9) we are utilizing the notation of ref. [15].
+
+15
+
+
+For Euclidean momenta (s < 0), one finds X(v) to be the real function
+
+
+
+X(v) = (1/v) ln[(1+v)/(v-1)]. (39)
+
+
+
+For Minkowskian momenta (s > 0), X(v) develops an imaginary part above the quark-antiquark
+
+kinematic production threshold, as discussed in Appendix A:
+
+
+X(v) = (1/v) {ln[(1+v)/(1-v)] - i}, s > 4m2. (40)
+q
+
+
+
+
+The result (40) facilitates the sum-rule determination of closed loop contributions to F . For
+0,1
+
+example, the one-loop purely perturbative contribution [Fig. 4a] to the longitudinal component
+
+of the axial-vector current correlator (29) is given by [15]
+
+
+CL[v] = (-3m2/2
+p q ²)[v²X(v) + divergent constant]. (41)
+
+
+
+The contribution of (41) to F is easily obtained via a distortion of the contour C(s ) to that in
+0,1 0
+
+Fig. 1b:
+
+
+
+s0
+[FL(s )] = (1/) ds Im{CL[v]}
+0 0 p p
+0
+
+
+
+
+s0
+= (3m2/2 2/s)½
+q ²) ds (1 - 4mq
+4m2q
+
+
+
+
+= (3m2/2 (1-4m2/s )½ + 2m 2/s )½]/[1+(1-4m2/s )½] }
+q ²){s0 q 0 ² ln [1-(1-4mq 0 q 0
+(42)
+
+
+
+
+
+16
+
+
+s0
+[FL(s )] = (1/) ds s Im{CL[v]}
+1 0 p p
+0
+
+
+
+
+s0
+= (3m2/2 2/s)½
+q ²) ds s (1 - 4mq
+4m2q
+
+
+
+
+= (3m2/4 2-2m )(1-4m2/s )½
+q ²)(s0 ²s0 q 0
+
+
+
++ (3m6/ 2/s )½]/[1+(1-4m2/s )½] }. (43)
+q ²) ln [1-(1-4mq 0 q 0
+
+
+
+
+
+We note that the results (42) and (43) are exact expressions obtained from the one-loop
+
+expression (41). To leading order in the quark mass m , one finds from (42) and (43) that
+q
+
+
+
+[FL(s )] = (3m2s /2 4), (44)
+0 0 p q 0 ²) + O(mq
+
+
+[FL(s )] = (3m2s2/4 4). (45)
+1 0 p q 0 ²) + O(mq
+
+
+
+
+Two-Gluon Condensate Contributions to F0,1
+
+
+The OPE coefficient CG2(Q²) is extracted from the OPE coefficient EG2(Q²) in the
+
+"normal-ordered basis" [i.e., the "heavy quark" coefficients listed in Appendix B of ref. 15] as
+
+follows :
+
+
+
+C (Q /2) ln(m2/µ (Q
+G2(Q²) = EG2(Q²) + (1/12)Cqq ²) - (mq q ²) CM ²). (46)
+
+
+
+The linear combination (46) represents the coefficient in the "minimally-subtracted basis," which
+
+is chosen so as to avoid mass-singularities [16]. For example, in the normal-ordered basis
+
+
+17
+
+
+the coefficient of G
+s ² for the longitudinal component of the axial-vector correlator is [15]
+
+
+EL 4(3+9v
+G2(Q²) = (-1/96Q²)[16mq ²)X(v)/(v4Q4)] + [1/(48v4Q²)][9v4+ 4v²+ 3]
+
+(47)
+
+which generates an expansion
+
+
+
+EL 2/6Q4 + (m4/Q6)[13/3 + 2 ln(m2/Q 6/Q8).
+G2(Q²) = 1/3Q² - 5mq q q ²)] + O(mq
+
+(48)
+
+The leading term on the right hand side of (48) does not vanish as m 0, despite the chiral
+q
+
+invariance of G
+s ². Moreover, the right hand side has the quark mass appear in the logarithm,
+
+which could (in principle) lead to a large logarithm after subtractions. The change of basis (46)
+
+eliminates both problems, as is evident from direct substitution of (48), (34) and (30) into (46):
+
+
+
+C 2/2Q4 + (m4/Q6)[11/3 - 2 ln(Q 6/Q8). (49)
+G2(Q²) = - mq q ²/µ²)] + O(mq
+
+
+The result (49) is consistent with the general form (28), although the recipe (46) requires
+
+further modification if O[m6ln(m2/Q
+q q ²)/Q8] terms are to be eliminated. It is worth noting that the
+
+change of basis (46) differs from an operator redefinition proposed on chiral symmetry grounds
+
+in ref. [15] only by the presence of the final C (Q
+M ²) term, which has already been shown not
+
+to affect the contour integrals leading to F and F . In Appendices B and C, the full contribution
+0 1
+
+of CL sum rules for the longitudinal component of the axial-vector correlator is
+G2(Q²) to the F0,1
+
+determined to all orders in m by careful consideration of the C(s ) contour. However,
+q 0
+
+contributions to F and F from the G 4) from
+0 1 s ² condensate can be evaluated to O(mq
+
+application of (36) and the Cauchy residue theorem to (49):
+
+
+[FL(s )] = (1/2i) G L 4/s2) G
+0 0 s ² ds CG2(-s) = (mq 0 s ² (50)
+G )
+s ² C(s0
+
+
+[FL(s )] = (1/2i) G L 2/2 + 2m4/s ] G
+1 0 s ² ds s CG2(-s) = [mq q 0 s ². (51)
+G )
+s ² C(s0
+
+
+
+
+18
+
+
+Higher-Dimensional Gluon Condensate Contributions to F0,1
+
+
+As in (46), the OPE coefficient CG3(Q²) in the minimally-subtracted basis can be
+
+extracted from the coefficient EG3(Q²) in the normal-ordered "heavy quark" basis [15,17]:
+
+
+C 2)] C (Q )] C (Q
+G3(Q²) = EG3(Q²) + [1/(360mq q q ²) + [1/(12mq M ²). (52)
+
+
+
+This change of basis once again eliminates leading-order mass-singularities. To see this,
+
+we demonstrate application of (52) to FESR's by once again considering the relevant
+
+contributions to the longitudinal component of the axial-vector current correlation function. The
+
+OPE coefficient EL
+G3(Q²) is given by [15]
+
+
+
+L -m4q
+EG3(Q²) = X(v)[7 + 23v² + 13v4 + 5v6]
+24Q8v8
+
+
+1
++ [105 + 65v² - 494v4 + 266v6 + 5v8 - 75v10],
+2880Q4v8(1-v²) (53)
+
+
+
+which generates the following expansion in inverse powers of Q²:
+
+
+L 1 1 1 14m2q
+E 4) (54)
+G3(Q²) = - - + O(mq
+Q² 90m2 90Q
+q ² 45Q4
+
+
+The leading term of (54) diverges as m 0, an explicit mass singularity. The next-to-leading
+q
+
+term fails to vanish in the chiral limit. However, both of these terms, as well as the explicit
+
+O(m2) term in (54) cancel in (52) against corresponding terms from C L (30) and C L (34).
+q q q M
+
+Consequently, the OPE coefficient CL 4), and is therefore suppressed relative
+G3 is explicitly O(mq
+
+to CL
+G2.
+
+
+
+
+
+19
+
+
+The suppression of CG3 relative to CG2 in the operator product expansion appears to be
+
+a general property [17,18]. Corresponding factors of CG2 and CG3 for the scalar and vector
+
+current correlation functions, as well as for the transverse component of the axial-vector
+
+correlation function, as extracted via (46) and (52) from the "heavy quark" expressions in [15],
+
+are also seen to exhibit suppression by m2:
+q
+
+
+
+
+By contrast, the dimension-8 contributions to scalar, pseudoscalar and vector correlation
+
+functions (which in our conventions are defined to have dimensions of mass squared) are shown
+
+in ref.[19] to be of the form [A + B ln(Q and B are numerical:
+0 0 ²/µ²)]G4/Q6, where A0 0
+
+suppression by m2 does not seem to occur. For the longitudinal component of the axial-vector
+q
+
+correlator, which picks up a factor of m2/Q
+q ² relative to the pseudoscalar correlator, a dimension-
+
+8 contribution to FL will then be proportional [via (36)] to m2B G4/s2. Such a contribution will
+1 q 0 0
+
+be small compared to that of the dimension-4 condensate G2 [eq. (51)] provided B G4 is
+0
+
+small compared to G2s2, suggesting, in the absence of m2-suppression factors, that any further
+0 q
+
+suppression of 2d-dimensional gluon condensates to FESR's is contingent upon the ratio G2d/sd0
+
+being small. Such a small ratio can be anticipated via dimensional and factorization arguments
+
+[e.g. G2 < s ].
+0
+
+
+
+
+
+V. Direct Single-Instanton Contributions to FL1
+
+
+In the instanton liquid model, the direct single-instanton contribution to the R Laplace
+0
+
+sum rule (2) for the pseudoscalar (P) correlation function has been found to be [20]
+
+
+
+RP() (1/) Im{[P(s)] } e-s ds
+0 inst
+0
+
+
+
+
+3²
+= e-²/2 [K ( (
+0 ²/2) + K1 ²/2)], (55)
+8²3
+
+
+
+
+20
+
+
+where [= 1/(600 MeV)] is the instanton-size parameter. Since the pseudoscalar correlator is
+
+related to the longitudinal component (L) of the axial-vector correlator by
+
+
+L(s) = 4m2P(s)/s, (56)
+q
+
+
+
+
+we see that the instanton contribution to the corresponding FESR FL is4
+1 1
+
+
+
+
+s0
+(s ) = (1/) Im{[L(s)] } s ds
+1 0 inst
+0
+
+
+
+
+s0
+= (4m2/) Im{[P(s)] } ds, (57)
+q inst
+0
+
+
+
+which is related via Laplace transformation to the function (55) for RP(s) as follows:
+0
+
+
+
+(t) = (4m2/) Im{[P(t)] }, (58)
+1 q inst
+
+
+[ (t)] (t) e-st dt = 4m2 RP(s) = s [ (t)] - (0). (59)
+1 1 q 0 1 1
+0
+
+
+
+We see from (57) that (0) = 0, and find that
+1
+
+
+
+(t) = -1[4m2 RP(s)/s]
+1 q 0
+
+
+3
+-1 ²m2q
+= e-²/2s [K ( (
+0 ²/2s) + K1 ²/2s)] (60)
+2²s4 .
+
+
+
+
+
+4 From (56), the direct single-instanton contributions to FL and FL are both O(m2). This
+0 1 q
+implies that the instanton contribution to FL is small in comparison to (31), the leading
+0
+(quark-condensate) contribution to FL, which is why we are only concerned here with
+0
+instanton contributions to FL.
+1
+
+
+21
+
+
+Our use of the variables s and t is to retain consistency with standard Laplace transform
+
+conventions; the variable t will ultimately be identified with the continuum threshold s , and the
+0
+
+variable s corresponds to the Borel parameter in (55) [as defined in (2)]. The inverse transform
+
+of (60) may be obtained from the asymptotic expansions of K and K [21]:
+0 1
+
+
+K (z) + K (z) = (/2z)½ e-z [2 + 1/(4z) - 3/(64z
+0 1 ²) + 15/(512z3) ... ] (61)
+
+2
+3m 1 3
+(t) q 1 (s 7/2e 2/s) 1(s 5/2 e 2/s) 1(s 3/2e 2/s)
+1
+3/2 42 324 (62)
+
+15 1
+(s 1/2e 2/s)
+...
+1286
+Using (62) and replacing t with s , we find that
+0
+3m2q
+(s ) = G(2s½), (63)
+1 0 0
+24
+
+where the function G(2s½) is defined via
+0
+
+G(w) {[-w²/4 + 25/32 + O(1/w²)] sin(w) + [-7w/8 + 15/(64w) + O(1/w3)] cos(w)}.
+
+(64)
+
+The results (62-64) are not useful unless w 2s½ > 1. Since s½ is generally expected to be
+0 0
+
+at least 1 GeV, the expansion in large w is appropriate and useful [-1 0.6 GeV]. In the large
+
+s limit, the leading perturbative contribution to FL [eq.(45)] dominates the instanton contribution,
+0 1
+
+which is at most linear in s (63-4). However, for values of s near 1 GeV
+0 0 ², the instanton
+
+contribution is shown in the next section to be larger than the perturbative contribution, with
+
+phenomenological implications for the light quark mass.
+
+
+
+VI. Discussion: FESR's in the Pseudoscalar Channel and the Light-Quark Mass
+
+
+
+An old [22] and ongoing [23] controversy in sum rule applications concerns the
+
+failure of the field-theoretical content of the QCD sum rules to saturate the pseudoscalar channel.
+
+The essence of this problem is evident from a qualitative examination of the R and R Laplace
+0 1
+
+sum rules for the longitudinal component of the axial-vector current correlation function, as
+
+defined in (2) and (4). For suitable values of the Borel parameter (M -½ >> m), one finds
+
+
+22
+
+
+that
+
+
+
+R = f2m2 + F2M2 exp(-M2) = -4m q q + O(m2), (65)
+0 i i i q q
+M2< s
+i 0
+
+
+
+
+
+a result consistent with the current-algebra GMOR relationship f2 2
+m = -4m q q [24] as long
+q
+
+as the subsequent subcontinuum resonances in the summation on the hadronic side of (65) are
+
+either sufficiently heavy (M2 >> 1/ >> m2), or their decay constants F2 are sufficiently small
+i i
+
+(F2 << f2m2/M2). The leading field-theoretical contribution to the R sum rule, however, is
+i i 1
+
+quadratic in the quark mass [1,10]:
+
+
+
+R = f2m4 + F2M4 exp(-M2) = m2[-4m q q + 3/(2 G
+1 i i i q q ²²) + s ²/2
+M2< s
+i 0
+
++ 448 ( q q)
+s ²/27 + ...]. (66)
+
+
+
+Naively, the field-theoretical content of (66) is of order m2 times the field-theoretical content of
+q
+
+(65), whereas the hadronic content of (66) is at least of order m2 times the hadronic content of
+(65), suggesting that m and m
+q are comparable. A thorough treatment of QCD contributions to
+
+(66) still yields substantially larger values of the light quark mass [10-12] than are anticipated
+
+from other phenomenology [5], as already noted in the Introduction to this paper.
+
+
+
+This mismatch in scale [i.e., Rh/Rh m2; RQCD/RQCD m2] superficially characterizes the
+1 0 1 0 q
+
+FESR's FL and FL as well. However, these FESR's provide a much cleaner framework for
+0 1
+
+extracting limits on m , enabling one to avoid the large-width modifications to the hadronic-
+q
+
+resonance content of (66), as discussed in Sections II and III, as well as higher-dimensional
+
+condensate contributions (including that of ( q q)
+s ²) to the field-theoretical content of (66), as
+
+is also discussed in Sections IV and V.
+
+
+
+Direct single-instanton contributions (55) to the Laplace sum rule have been argued in a
+
+number of places [1,20,23] to be necessary for the saturation of the pseudoscalar channel. If we
+
+incorporate such contributions (63,64) into the FESR FL, in conjunction with the (width-
+1
+
+
+
+23
+
+
+independent) hadronic contributions (19) as well as the leading [O(m2)] field theoretical
+q
+
+contributions (32,45,51), we find that
+
+
+
+FL = f2m4 + F2M4 = m2[-4m q q + G 2/4
+1 i i q q s ²/2 + 3s0 ²
+M2< s
+i 0
+
++ (3/24) G(2s½) + O(m )]. (67)
+0 q
+
+
+
+
+For each subcontinuum pion-excitation state, we define the parameter
+
+
+
+r (F2M4)/(f2m4). (68)
+i i i
+
+
+
+We can then rearrange (67) to obtain the following relationship for the light-quark mass:
+
+
+2 f2 4
+m (1 + r )
+i
+m = , (69)
+q
+A + [G(w) + w4/64]B
+
+where...
+
+1) ... the summation is understood to be over only those resonance peaks below the
+
+continuum threshold (M2 < s );
+i 0
+
+2) ... the dependence on the continuum-threshold s enters through the variable
+0
+
+
+
+
+w 2s½; (70)
+0
+
+
+
+
+3) ... the function G(w) is given by (64); and
+
+4) ... the constants A and B are given by
+
+
+
+A -4m q q + G
+q s ²/2, (71)
+
+
+
+B 3/(24). (72)
+
+
+
+The relationship (69) should retain approximate validity as s increases to include (in full, as
+0
+
+noted in Section III) the resonance peaks of additional pion-excitation states. In particular, one
+
+
+24
+
+
+would expect the contribution from (1300), the first pion-excitation (M = 1300 ± 100 MeV,
+
+= 200 - 600 MeV [5]) to be fully subcontinuum if s > 4 GeV
+0 ². Possible additional
+
+contributions may accrue in full from (1770) and X(1830) at even larger values of s .
+0
+
+
+
+
+Using standard parameter values [m q q = -f2m2/4, G
+q s ² = 0.045 GeV4, -1 = 600
+
+MeV], one can then estimate the following numerical lower bound on the quark mass from (69):
+
+
+
+m = µ(w)
+1+ r > µ(w) 1+r(s-4GeV
+q i 1 0 ²
+), (73)
+
+
+
+2.6 MeV
+µ(w) = , (74)
+{0.0075 + 0.039[G(w) + w4/64]}½
+
+
+
+where r is just the value of (68) appropriate for the first pion-excitation state. Although chiral
+1
+
+Lagrangian arguments have been recently advanced suggesting that r is substantially less than
+1
+
+unity [4], sum-rule estimates for r of order unity and larger [13] have received further support
+1
+
+[25] from recent Laplace sum-rule fits.
+
+
+
+We reiterate that the FESR-based inequality (73) [and the relation (69) from which it is
+
+derived] avoids any need for a narrow-resonance approximation, which would certainly be
+
+unphysical for dealing with broad subcontinuum pion-resonance states. The QCD-vacuum
+
+condensates that contribute are all lumped into the constant A (71); condensates such as
+
+qG q, (qq) G3 do not generate any O(m2) contributions to FL, as has already
+s ², and s q 1
+
+been discussed in Sections III and IV. Even dimension-8 gluonic condensate contributions can
+
+be expected to be suppressed relative to those of G
+s ² by the dimensional arguments presented
+
+at the end of Section IV.
+
+
+
+In Table I, we tabulate the quark-mass lower bound µ(w) for values of s ranging from
+0
+
+1 GeV² to 4 GeV². We also tabulate the same function in the absence of instanton
+
+contributions [i.e., with G(w) = 0] in order to demonstrate the key role instantons play in
+
+
+
+25
+
+
+obtaining a lighter and phenomenologically consistent quark mass over the entire range of s0
+
+considered. When the contribution of instantons is absent (Column 4 of Table I), we find that
+
+µ(w) decreases from 9.1 MeV by a factor of four as s increases from 1 GeV
+0 ² to 4 GeV². This
+
+behaviour, if taken seriously, would not only suggest via (73) a rather large quark mass ( 9
+
+MeV), but also a very large aggregate contribution
+
+
+
+r 15 (75)
+i
+
+
+
+
+from subcontinuum resonance-peaks as s increases to 4 GeV
+0 ².
+
+
+The instanton term G(w) in the denominator of (74) greatly ameliorates these effects.
+
+When the instanton term is included (Column 3 of Table I), we find that µ(w) decreases from
+
+5.7 MeV by only a factor of two as s goes from 1 GeV
+0 ² to 4 GeV², suggesting via (73) a
+
+lighter ( 6 MeV) quark mass in conjunction with a phenomenologically reasonable aggregate
+
+contribution
+
+
+
+r 3 (76)
+i
+
+
+
+
+from subcontinuum resonance-peaks as s increases to 4 GeV
+0 ². In view of the sparseness of
+
+such pion-resonance states [which suggests replacing r with r ], it is noteworthy that the
+i 1
+
+estimate (76) is quite compatible with past and present sum rule estimates for r [13,25].
+1
+
+
+
+
+It is best to regard the results presented in this section as essentially qualitative. We have
+
+utilized only the one-loop-order purely-perturbative contribution to the correlation function L
+
+- higher-order terms can be expected to alter the coefficient of the w4-dependence in the
+
+
+
+
+
+26
+
+
+denominator of (74).5 The key point here, however, is that the function G(w) arising from
+
+instantons is oscillatory (64), going from positive to negative values as s increases from 1 GeV
+0 ²
+
+to 4 GeV². Moreover, G(w) is not only positive, but is also larger over the range 1 GeV²
+
+s 1.6 GeV
+0 ² than the factor w4/64 arising from perturbation theory, thereby lowering and
+
+stabilizing the quark mass (73) in a region for which there is at most only a partial contribution
+
+from the lowest subcontinuum resonance.
+
+
+
+Acknowledgments:
+
+
+
+ASD, VE and TGS are grateful for support from the Natural Sciences and Engineering
+
+Research Council of Canada. VE is also grateful for several useful discussions with V. A.
+
+Miransky. AHF and YX wish to acknowledge research funding from the Faculty of Graduate
+
+Studies of the University of Western Ontario.
+
+
+
+
+
+5 Inclusion of the renormalization group (RG) dependence of the running quark mass also
+lowers somewhat the size of the aggregate resonance contribution r as s 4 GeV
+i 0 ².
+Assuming = 0.2 GeV, we find near-constancy of the RG-invariant quark mass m
+^ {m
+QCD q
+m (s ) = m
+^ /[ln(s / )]4/9} over the 1 GeV 4 GeV
+q 0 0 QCD ² s0 ² range of Table I provided ri
+2 if instantons are included, with r 10 if instantons are not included.
+i
+
+
+27
+
+
+Appendix A: Imaginary Parts of Correlation Functions for s > 4m2
+
+
+
+The purely perturbative contribution to the longitudinal component of the axial vector
+L
+
+correlation function, defined via
+
+
+
+i
+d 4x e ip x<0 Tjµ (x)j (0) 0>
+5 5
+
+[ g (p 2) [ p (p 2) (A.1)
+µ pµp / p 2 ] T µp/p 2 ] L
+
+
+
+
+with j (x) u(x) d(x) can be obtained from Fig 4a:
+µ5 µ5
+
+
+[ (p 2)] C (p 2)
+L pert pert
+
+
+3m 2 2 4µ2
+ln I(p 2) ,
+E (A.2)
+
+22 n 4 m 2
+
+
+1
+p 2 (A.3)
+I(p 2) dx ln1 x(1 x) i .
+0 m 2
+
+
+
+If p 2 < 4m 2 , the argument of the logarithm is positive definite, and the i factor is irrelevant
+
+to the evaluation of the integral. It is straightforward to find that C is real provided
+pert
+
+
+p 2 < 4m 2 , and that
+
+
+
+
+
+28
+
+
+
+4m 2
+1 1
+4m 2 p 2 (A.4)
+I(p 2) 2 1 ln , p 2 < 0
+p 2
+4m 2
+1 1
+p 2
+
+
+
+1/2
+4m 2 4m 2 (A.5)
+I(p 2) 2 2 1 tan 1
+1 , 0 < p 2 < 4m 2
+p 2 p 2
+
+One easily finds from either expression that Lim I(p 2) 0 , and from the latter expression that
+p 20
+
+
+Lim I(p 2) 2 . The results (A.2) and (A.4) are consistent with C as calculated in ref.
+pert
+p 2(4m 2)
+
+
+[15]. Utilizing the notation of that reference, one sees that
+
+
+v 1 I(p 2) 2
+X(v) 1 ln (A.6)
+v v 1 v 2
+
+with
+
+
+
+4m 2
+v 1 . (A.7)
+p 2
+
+
+
+The relationship (A.6) between X(v) and I(p 2) , the latter quantity defined via the integral (A.3),
+
+
+can be utilized to determine the imaginary part of X(v) when p 2 > 4m 2 , as shown below.
+
+
+If p 2 > 4m 2 , the argument of the logarithm in the integrand of (A.3) can be factorized
+
+and integrated by parts as follows:
+
+
+
+
+
+29
+
+
+1
+p 2
+I(p 2) ln
+dx ln(x i )
+m 2
+0
+
+1
+
+dx ln(x i )
+0
+
+
+1
+dx
+2 ( i )
+0 x i
+
+1
+dx
+( i ) (A.8)
+0 x i
+
+
+with
+
+
+
+4m 2
+1 ± 1
+p 2 , (A.9)
+± 2
+
+
+and with
+
+
+p 2 . (A.10)
+m 2( )
+
+
+
+Note that if p 2 > 4m 2 , then 0 < < < 1 , and, hence, that > 0 . Consequently, the
+
+
+pole in (A.8) at i is above the real x axis, and the pole at i is below the real
+
+
+x axis, permitting the equivalent contours of Fig. 5 to run below and above . Using the
+
+contours of Fig 5, with C and C assumed to be semicircles of radius about x and ,
++ _
+
+
+i
+respectively, one finds that [C ±
+±: z ± e ; range of : 2; range of : 0]
+
+30
+
+
+1
+1
+dx
+dx dx dz
+Lim
+x x z
+0
+0 x i 0 C
+
+ln i , (A.11)
+
+
+
+
+
+1
+dx (A.12)
+ln i .
+
+0 x i
+
+
+
+
+Substituting (A.11) and (A.12) into (A.8), one finds for p 2 > 4m 2 that
+
+
+1 v (A.13)
+I(p 2) 2 v ln i .
+1 v
+
+Using the relationship X (I 2)/v 2 , we then see that X develops a negative imaginary
+
+part:
+
+
+Im X , p 2 > 4m 2 . (A.14)
+v
+
+
+
+
+L
+Appendix B: Evaluation of the Gluon Condensate Contribution to F0
+
+
+
+The "heavy-quark" (h.q.) gluon condensate contribution to , as defined in (A.1), is
+L
+
+
+obtained from Appendix B.3 of ref [15] as the sum of coefficients C and C for
+1G 2 h.q. 2G 2 h.q.
+
+
+
+the axial-vector current correlation function s p 2, v 1 4m 2/s :
+
+
+
+
+31
+
+
+(B.1)
+(p 2) C < G 2 > ,
+L G 2 1G 2 C2G 2 h.q.
+
+
+
+C 3(1 v 2)2X(v) 6(1 v 2) , (B.2)
+1G 2 h.q. 48sv 2
+
+
+
+
+
+C 3(1 v 2)2 (1 v 2) X(v) 2(3 2v 2 3v 4) , (B.3)
+2G 2 h.q. 96sv 4
+
+
+
+
+C E E C X(v) , (B.4)
+1G 2 C2G 2 h.q. G 2 pole x
+
+
+
+
+
+
+18 14 24m 2 (B.5)
+E ,
+pole
+96 s s 4m 2 (s 4m 2)2
+
+
+
+
+1 3 (B.6)
+C m 4 .
+x
+2 s 3v 4 s 3v 2
+
+
+
+We have extracted a factor of so that E as defined in (B.4) is consistent with as defined
+G 2 EG 2
+
+in Sec. 3.
+
+
+
+The gluon condensate contribution to the finite energy sum rules
+
+
+L 1
+F (s) ds ,
+0 (B.7)
+2i L
+C(s )
+0
+
+
+
+
+
+32
+
+
+L 1
+F (s) s ds ,
+1 (B.8)
+2i L
+C(s )
+0
+
+
+
+
+
+can be obtained via (46) and (50) from direct evaluation of the integrals
+
+
+G E
+0 G 2 ds , (B.9)
+
+C(s )
+0
+
+
+
+
+
+G E
+1 G 2 s ds , (B.10)
+
+C(s )
+0
+
+
+
+
+with the contour C(s ) distorted as in Fig. 6 to encompass any pole singularities of E at
+0 GG
+
+
+s 0 or 4m 2 as well as the branch singularity for s > 4m 2 . Using Eq. (A.14), one finds that
+
+
+s0 C
+G 2i x ds
+0 v
+4m 2
+
+
+E ds E ds
+pole pole
+C C
+0 2
+4m
+
+(B.11)
+
+C X(v) ds C X(v) ds ,
+x x
+C C
+0 2
+4m
+
+
+
+
+where the contours C and C are clockwise circles of radius about s 0 and s 4m 2 ,
+0 4m 2
+
+
+respectively. We see from (B.5) that
+
+
+
+
+
+33
+
+
+3i
+E ds , (B.12)
+pole 8
+C0
+
+
+7i
+E ds .
+pole (B.13)
+24
+C 2
+4m
+
+
+
+
+
+The remaining three integrals in (B.11) are evaluated as follows. Using the expression
+
+for C in (B.6), we find that
+x
+
+
+
+s0
+Cx (B.14)
+2i ds i m 4 I 3I ,
+v 1 2
+4m 2
+
+
+where
+
+
+s s
+0 0
+1 (B.15)
+I ds s 1/2(s 4m 2) 5/2 ds ,
+1
+s 3v 5
+4m 2 4m 2
+
+
+
+s s
+0 0
+1 (B.16)
+I ds s 3/2(s 4m 2) 3/2 ds .
+2
+s 3v 3
+4m 2 4m 2
+
+
+
+
+
+Both integrals can be evaluated via the trigonometric substitution s 4m 2 sec2 . One then finds
+
+that
+
+
+u
+1 cos3 1 u
+I d 1
+1
+8m 4
+sin4 24m 4 sin3
+L L
+
+
+1 1 u (B.17)
+,
+8m 4 sin L
+
+
+
+
+34
+
+
+u
+1 cos3
+I d
+2 8m 4
+sin2
+L
+
+
+1 1 u (B.18)
+sin ,
+8m 4 sin L
+
+where, using the parameterization of (A.7), we find that
+
+
+
+1/2
+s0 (B.19)
+sec 1 ; sin 1 4m 2/s v ,
+u
+2m u 0 0
+
+
+
+
+
+and that
+
+1/2
+
+(4m 2 )1/2 (B.20)
+sec 1 ; sin .
+L
+
+2m L 4m 2
+
+
+Substituting (B.19) and (B.20) into (B.17) and (B.18), we find from (B.14) that
+
+
+s0 C i 1 2
+2i x
+ds 3v
+v 8 3 v
+0
+4m 2 3v0 0
+im 3 5im (B.21)
+O (1/2) .
+33/2 81/2
+
+
+The integral around the origin is straightforward to obtain from (B.6) and (A.6). The
+
+integrand
+
+
+
+
+
+35
+
+
+
+1 3/2 6m 2 8m 4 3
+C X(v) 2 I(s)
+x (B.22)
+
+16 s 4m 2 (s 4m 2)2 (s 4m 2)3 2s
+
+has a simple pole at s 0 because I(0) 0 [as noted below (A.5)]:
+
+
+3i
+C X(v) ds . (B.23)
+x 8
+C0
+
+Note that (B.23) exactly cancels (B.12), indicating that the origin can be excised from the contour
+
+of Fig. 6.
+
+
+
+This cancellation is not peculiar to the channel we are in. We have verified (Appendix
+
+D) that an identical cancellation occurs in the scalar, vector, and transverse-axial channels
+
+between the contributions of explicit s = 0 poles in E [as in (B.12)] and the integrals of
+G 2
+
+
+C X(v) portions of E around [as in (B.23)]. Thus the quantum-field-theoretical
+x G 2 C0
+
+singularities in G and G all occur for s 4m 2 on the real s-axis for all of the above-
+0 1
+
+
+mentioned channels.
+
+
+
+The divergence as 0 in (B.21) is cancelled exactly by the integration of C X(v) ,
+x
+
+
+as a given in (B.22) over the contour C around , a cancellation which also occurs
+4m 2 s 4m 2
+
+in the other three channels mentioned above. This cancellation is most easily seen by continuing
+
+the expression (A.5) to complex values of s in the vicinity of s 4m 2 :
+
+
+
+
+
+36
+
+
+1/2
+1/2 s
+I(s) 2 2 (4m 2 s)/s tan 1
+4m 2 s
+1/2 2
+4m 2 s 4m 2 s 2 4m 2 s
+2 ... (B.24)
+s s 3 s
+
+
+On the contour C , with a clockwise rotation of from to . When
+4m 2 s 4m 2 e i 2 0
+
+
+s > 4m 2 , the correct (negative) sign of the imaginary part 2i Im I(s) I(s i ) I(s i )
+
+is obtained by requiring that
+
+
+(B.25)
+(4m 2 s)1/2 i1/2 e i/2 ,
+
+
+as
+
+
+1/2 1/2
+4m 2 s 4m 2 s
+2i Im I(s) Lim Lim (B.26)
+0 s 2 s
+
+with s s() 4m 2 e i. Upon substitution of (B.24) into (B.22) one finds that
+
+7i
+C X(v) ds
+x 24
+C 2
+4m
+
+
+
+1 3 s 1/2 (4m 2 s) 1/2 ds
+16 2
+C 2
+4m
+
+
+
+6m 2
+s 1/2 (4m 2 s) 3/2 ds
+C 2
+4m
+
+
+
+8m 4
+s 1/2 (4m 2 s) 5/2 ds
+C 2
+4m
+
+
+3
+s 3/2 (4m 2 s)1/2 ds . (B.27)
+
+2
+C 2
+4m
+
+
+37
+
+
+The factor 7i/24 is just 2i times the aggregate residue at s 4m 2 obtained from
+
+multiplication of (B.24)'s integer powers of (4m 2 s) into (B.22). This pole contribution
+
+explicitly cancels the pole contribution (B.13). The remaining integrals in (B.27) result from
+
+1/2
+multiplying the leading (4m 2 s)/s term of (B.24) into (B.22). These integrals are easily
+
+evaluated around the clockwise contour C via (B.25):
+4m 2
+
+
+(4m 2 s) 1/2 s 1/2 ds O(1/2) , (B.28)
+
+C 2
+4m
+
+
+
+
+
+2i
+(4m 2 s) 3/2 s 1/2 ds O(1/2) , (B.29)
+
+C m1/2
+2
+4m
+
+
+
+
+
+2i i
+(4m 2 s) 5/2 s 1/2 ds O(1/2 ) , (B.30)
+
+C 3m3/2 4m 31/2
+2
+4m
+
+
+
+
+
+(4m 2 s)1/2 s 3/2 ds O(3/2) . (B.31)
+
+C 2
+4m
+
+
+
+
+
+Substituting (B.28 - B.31) into (B.27) we find that
+
+
+7i 5im im 3
+C X(v) ds O(1/2 ) , (B.32)
+x 24
+C 81/2 33/2
+2
+4m
+
+
+
+
+
+explicitly cancelling the divergencies in (B.21). Since all the s 0 and s 4m 2 pole terms
+
+contributing to G have also been shown to cancel, we find that G is equal to the upper-bound
+0 0
+
+contribution of the first integral on the right-hand side of (B.11):
+
+
+
+
+
+38
+
+
+s0 C i 1 2
+G 2i x ds 3v ;
+0 v 8 3 v
+0
+3v0 0
+
+
+(B.33)
+v 1 4m 2/s .
+0 0
+
+
+
+
+
+To obtain the full contribution of < G 2 > to the F sum rule, we substitute Eq. (46) from the
+s 0
+
+
+text into (50), utilizing the results (B.33) in conjunction with Eqs. (30) and (34) from the text:
+
+
+1 1 2 1
+L
+F (s ) < G 2> 3v
+0 0 < G 2 > s 3 0
+s 16 v 3
+3v0 0
+m 4 14m 6
+< G 2> ... . (B.34)
+
+s 2 3
+s 3s
+0 0
+
+
+
+L
+Appendix C: The Gluon Condensate Contribution to F1
+
+
+
+Consider first the integral G (B.10), which can be evaluated via the following integrals
+1
+
+
+arising from the distortion of C(s ) indicated in Fig 6:
+0
+
+
+
+s0 C
+G 2i x s ds E s ds
+1 v pole
+4m 2 C0
+
+
+E s ds C X(v) s ds
+pole x
+C 2 C
+4m 0
+
+(C.1)
+
+C X(v) s ds .
+x
+C 2
+4m
+
+
+
+One sees from (B.5) that
+
+
+39
+
+
+E s ds 0 ,
+pole (C.2)
+
+C0
+
+
+
+5im 2
+E s ds . (C.3)
+pole 3
+C 2
+4m
+
+
+
+
+
+Using the expression for C in (B.6), we find that
+x
+
+
+
+s0
+Cx (C.4)
+2i s ds im 4 I 3I ,
+v 3 4
+4m 2
+
+
+
+
+
+where the integrals I and I are evaluated using (B.19-20), as in the previous section:
+3 4
+
+
+
+s0 u
+1 1 1
+I ds
+3 s 2v 5 6m 2
+sin3
+4m 2 L
+
+1 4m 1 (C.5)
+O (1/2) ,
+3
+6m 2v 33/2 2m1/2
+0
+
+
+
+
+
+s0
+1 1 1 u
+I ds
+4
+s 2v 3 2m 2 sin
+4m 2 L
+
+1 1 (C.6)
+O (1/2) .
+2m 2v m1/2
+0
+
+
+
+
+
+Substituting (C.5) and (C.6) into (C.4) we find that
+
+
+
+
+40
+
+
+s0
+C 1 3
+x 4im 5 7im 3 (C.7)
+2i s ds im 2 .
+v 3 2v 33/2 21/2
+4m 2 6v0 0
+
+Using (B.22), we find that C X(v) s has no poles at s 0 [note that 2 I(0) 2 ], in
+x
+
+which case
+
+C X(v) s ds 0 .
+x (C.8)
+
+C0
+
+
+Once again, we note that the origin can be excised entirely from the contour of Fig 6. We have
+
+verified explicitly that integrals (C.2) and (C.8) are zero in the scalar, vector and transverse axial
+
+channels as well (see Appendix D).
+
+As in the previous section, the divergence in (C.7) as 0 is exactly cancelled by
+
+integration of C X(v) s around the contour C . From (B.22) we find that
+x 4m 2
+
+
+
+2 m 4 m 6 (C.9)
+C X(v) s 2 I(s) .
+x
+(s 4m 2)2 (s 4m 2)3
+
+
+
+If we substitute (B.24) into (C.9) and integrate around C , we easily separate a pure-pole
+4m 2
+
+
+contribution from an dependent contribution involving half-integral powers of (4m 2 s) :
+
+
+5im 2
+C X(v) s ds 2m 4 (4m 2 s) 3/2 s 1/2 ds
+x 3
+C 2 C 2
+4m 4m
+
+
+
+2m 6
+(4m 2 s) 5/2 s 1/2 ds
+C 2
+4m
+
+
+
+5im 2 7im 3 4im 5 (C.10)
+O(1/2 ) .
+3 21/2 33/2
+
+
+The final line of (C.10) is obtained through use of (B.29) and (B.30). Not only are the -
+
+
+
+41
+
+
+dependent terms in (C.7) cancelled by the final line of (C.10), but the pure-pole contribution
+
+(C.3) also cancels against the pole term in (C.10). Thus we find, as in Appendix B, that G is
+1
+
+equal to the upper-bound contribution of the first integral on the right-hand side of (C.1):
+
+
+s0
+C s 1 3
+x (C.11)
+G 2i ds im 2 .
+1 v 3 2v
+6v0 0
+
+To obtain the full contribution of < G 2> to the F sum rule, we again substitute Eq. (46) of
+s 1
+
+
+the text into (51), utilizing the results (C.11) in conjunction with Eqs. (30) and (34) from the text:
+
+
+1 3 2
+L m 2
+F (s ) < G 2>
+1 0 < G 2> s 3
+s 2 2v 3
+6v0 0
+
+m 2 4m 2 14m 4 160m 6 (C.12)
+< G 2> 1 ... .
+2 s s 2 3
+0 s 3s
+0 0
+
+
+
+
+Appendix D: Gluon Condensate Contributions to F in Other Channels
+0, 1
+
+
+
+
+Utilizing the notation and conventions of Appendices B and C, we list the following
+
+results obtained from scalar, vector and the transverse component of the axial-vector correlation
+
+functions:
+
+
+
+Scalar Channel
+
+
+
+From Appendix B.1 of ref 15, we have
+
+
+
+
+
+42
+
+
+C E E C X(v) , (D.1)
+G 2 h.q. G 2 pole x
+
+
+
+
+(3 v 2)
+E , (D.2)
+pole 16sv 2
+
+
+(1 v 2)(3 v 2)
+C . (D.3)
+x 32sv 2
+
+
+We find that
+
+
+i
+E ds , (D.4)
+pole 8
+C0
+
+
+
+
+3i
+E ds ,
+pole (D.5)
+8
+C 2
+4m
+
+
+
+
+
+s0
+Cx i 3 6m
+v (D.6)
+2i ds ,
+v 8 v 0
+
+4m 2 0
+
+
+i
+C X(v) ds , (D.7)
+x 8
+C0
+
+
+
+3i 2m
+C X(v) ds 1 . (D.8)
+x 8
+C
+2
+4m
+
+
+
+
+
+Summing (D.3-8) we obtain
+
+
+43
+
+
+
+i 3 (D.9)
+G E v .
+0 G 2 ds 8 0
+v
+C(s ) 0
+0
+
+
+
+
+
+We also find from Appendix B.1 of ref. 15 that
+
+C ds 6i ,
+qq (D.10)
+
+C(s )
+0
+
+
+
+
+C ds 0 ,
+M (D.11)
+
+C(s )
+0
+
+
+
+which implies via (46) and (60) that
+
+
+1 3 (D.12)
+F (s ) v 4 < G 2> .
+0 0 < G 2> 0 s
+s 16 v0
+
+Unlike the case of F , the FESR F requires the use of (46) to eliminate a logarithmic mass
+0 1
+
+
+singularity in G , obtained by summing the following five integrals:
+1
+
+
+E s ds 0 ,
+pole (D.13)
+
+C0
+
+
+
+3im 2
+E s ds (D.14)
+pole 2
+C 2
+4m
+
+
+
+
+
+s0
+Cx im 2 3 2 6m
+2 n(1 v ) (D.15)
+2i s ds ,
+v 2 v 0
+
+4m 2 0
+
+
+
+
+44
+
+
+C X(v) s ds 0 ,
+x (D.16)
+
+C0
+
+
+
+3im 2 3m 3
+C X(v) s ds . (D.17)
+x 2
+C
+2
+4m
+
+
+
+
+
+We then find that
+
+
+im 2 3 4m 2 (D.18)
+G E 2 n ,
+1 G 2 s ds 2
+v s
+C(s ) 0 0
+0
+
+
+
+
+which is not analytic in m at m 0 . However the results
+
+
+C s ds 4im 2 ,
+qq (D.19)
+
+C(s )
+0
+
+
+
+
+
+C s ds 2im ,
+M (D.20)
+
+C(s )
+0
+
+
+
+
+
+used in conjunction with (46) and (51) eliminates the quark-mass from the logarithm:
+
+
+
+m 2 3 1 s (D.21)
+0
+F (s )
+n < G 2> .
+1 0
+< G 2> s
+s 2 2v 3
+0 4µ2
+
+
+Transverse Axial Channel
+
+
+
+From Appendix B.3 of ref. 15, we have
+
+
+
+
+
+45
+
+
+C E E C X(v) , (D.22)
+1G 2 h.q. G 2 pole x
+
+
+
+
+
+(1 v 2)
+E , (D.23)
+pole 8sv 2
+
+
+
+
+(1 v 2)2
+C . (D.24)
+x 16sv 2
+
+
+
+We then find that
+
+
+i
+E ds , (D.25)
+pole 4
+C0
+
+
+i
+E ds ,
+pole (D.26)
+4
+C 2
+4m
+
+
+
+
+
+s0
+Cx i 1 2m
+v (D.27)
+2i ds ,
+v 4 v 0
+
+4m 2 0
+
+
+i
+C X(v) ds , (D.28)
+x 4
+C0
+
+
+
+
+i im
+C X(v) ds .
+x (D.29)
+4
+C 2
+2
+4m
+
+
+
+
+
+46
+
+
+As before, the contour-radius singularity as 0 cancels between (D.27) and (D.29):
+
+
+i 1 (D.30)
+G E v .
+0 G 2 ds 4 0
+v
+C(s ) 0
+0
+
+
+
+
+Since in this channel, one finds that [15]
+
+C ds 4i ,
+qq (D.31)
+
+C(s )
+0
+
+
+
+
+
+C ds 0 ,
+M (D.32)
+
+C(s )
+0
+
+
+
+we find via (46) and (60) that
+
+
+1 1 4 (D.33)
+F (s ) v < G 2> .
+0 0 < G 2> 0 s
+s 8 v 3
+0
+
+Corresponding results for F are listed below:
+1
+
+
+E s ds 0 ,
+pole (D.34)
+
+C0
+
+
+
+
+E s ds im 2 ,
+pole (D.35)
+
+C 2
+4m
+
+
+
+
+
+47
+
+
+s0
+Cx 1 2m (D.36)
+2i s ds im 2 ,
+v v
+
+4m 2 0
+
+C X(v) s ds 0 ,
+x (D.37)
+
+C0
+
+
+
+C X(v) s ds im 2 2im 3 , (D.38)
+x
+C
+2
+4m
+
+
+
+
+
+8im 2
+C s ds , (D.39)
+qq 3
+C(s )
+0
+
+
+
+
+
+C s ds 0 ,
+M (D.40)
+
+C(s )
+0
+
+
+
+
+
+
+m 2 m 2 (D.41)
+F (s ) < G 2> .
+1 0 < G 2> s
+s 2v 9
+0
+
+
+
+
+Vector Channel
+
+
+
+
+48
+
+
+From eq. (II.19) of ref. 15, we find that
+
+
+(3 2v 2 3v 4)
+E , (D.42)
+pole 48sv 4
+
+
+
+
+(1 v 2)2(1 v 2)
+C . (D.43)
+x 32sv 4
+
+
+
+We then find F (D.51) from G , the sum of (D.44-48), in conjunction with (46) and (D.49-50):
+0 0
+
+
+
+i
+E ds , (D.44)
+pole 8
+C0
+
+
+i
+E ds ,
+pole (D.45)
+24
+C 2
+4m
+
+
+
+
+
+s0
+C 1 8m 3 m
+x i (D.46)
+2i ds v ,
+v 8 0 3 33/2 1/2
+4m 2 3v0
+
+i
+C X(v) ds , (D.47)
+x 8
+C0
+
+
+
+i im 3 im
+C X(v) ds , (D.48)
+x 24
+C 33/2 81/2
+2
+4m
+
+
+
+
+
+C ds 4i ,
+qq (D.49)
+
+C(s )
+0
+
+
+
+
+
+49
+
+
+C ds 0 ,
+M (D.50)
+
+C(s )
+0
+
+
+
+
+
+1 1 8
+F (s ) v < G 2> . (D.51)
+0 0 < G 2> 0 3 s
+s 16 3
+3v0
+
+
+
+Corresponding results for F are listed below:
+1
+
+
+E s ds 0 ,
+pole (D.52)
+
+C0
+
+
+
+2im 2
+E s ds , (D.53)
+pole 3
+C 2
+4m
+
+
+
+
+
+s0
+C 1 1 8m 3 3m
+x im 2 (D.54)
+2i s ds ,
+v 2 v 3 33/2 1/2
+4m 2 0 3v0
+
+C X(v) s ds 0 ,
+x (D.55)
+
+C0
+
+
+
+
+
+50
+
+
+2im 2 4im 5 3im 3
+C X(v) s ds , (D.56)
+x 3
+C 33/2 21/2
+2
+4m
+
+
+
+
+16
+C s ds im 2 , (D.57)
+qq 3
+C(s )
+0
+
+
+
+
+
+C s ds 0 ,
+M (D.58)
+
+C(s )
+0
+
+
+
+
+
+m 2 1 1 8
+F (s ) < G 2> . (D.59)
+1 0 < G 2> 3 s
+s 4 v 9
+0 3v0
+
+
+
+
+
+51
+
+
+Figure Captions:
+
+
+
+Figure 1: a) The contour C(s ).
+0
+
+b) Distortion of C(s ) to enclose the positive real s-axis.
+0
+
+
+
+
+Figure 2: The Breit-Wigner resonance shape y(s) = m/[(s-m²)²+m²²] expressed as a
+
+sum of symmetric square pulses. For an infinitesimally thin pulse at a given value
+
+of y, the pulse will extend from s = m² - [m/y - m²²]½ to s = m² + [m/y -
+
+m²²]½. If there are n such pulses, the jth pulse is at y = j/(nm).
+
+
+Figure 3: a) Leading q q contribution to current correlation functions.
+
+b) Typical leading q G q contribution to current correlation functions.
+
+c) Typical leading ( q q)
+s ² contribution to current correlation functions.
+
+
+Figure 4: a) Leading purely-perturbative contribution to current correlation functions.
+
+b) Typical leading G
+s ² contributions to current correlation functions.
+
+c) Typical leading G3 contributions to current correlation functions.
+
+
+
+Figure 5: Distortion of the integration contour along the real s-axis consistent with the
+
+location of the ± singularities in the complex s-plane.
+
+
+Figure 6: Distortion of the C(s ) contour [Fig. (1a)] for G sum
+0 s ² contributions to F0,1
+
+rules.
+
+
+
+
+
+52
+
+
+s in GeV
+0 ² µ(w) in MeV µ(w) in MeV
+w [Eq.(70)] [Eq.(74), with G(w) given by (64)] [Eq.(74), with G(w)=0]
+
+
+
+3.3 0.98 5.7 9.1
+
+3.5 1.10 5.2 8.2
+
+3.7 1.23 4.8 7.4
+
+3.9 1.37 4.5 6.7
+
+4.1 1.51 4.2 6.1
+
+4.3 1.66 4.0 5.5
+
+4.5 1.82 3.8 5.1
+
+4.7 1.99 3.7 4.7
+
+4.9 2.16 3.5 4.3
+
+5.1 2.34 3.4 4.0
+
+5.3 2.53 3.4 3.7
+
+5.5 2.72 3.3 3.4
+
+5.7 2.92 3.2 3.2
+
+5.9 3.13 3.1 3.0
+
+6.1 3.34 3.05 2.8
+
+6.3 3.57 3.0 2.6
+
+6.5 3.80 2.9 2.5
+
+6.7 4.04 2.8 2.3
+
+
+
+Table I: Behaviour of µ(w) with increasing s in the presence (Column 3) and in the absence
+0
+
+(Column 4) of direct single instanton contributions to the FL finite energy sum rule.
+1
+
+
+References:
+
+
+
+
+1. M. A. Shifman, A. I. Vainshtein, and V. I. Zakharov, Nucl Phys B147 (1979) 385 and
+448.
+
+2. P. Pascual and R. Tarrach, QCD: Renormalization for the Practitioner (Springer-Verlag,
+Berlin, 1984) pp. 168 - 191.
+
+3. A. A. Andrianov and V. A. Andrianov, Nucl Phys B (Proc Supp 39 B,C (1995) 257.
+
+4. M. K. Volkov and C. Weiss, Phys. Rev. D56 (1997) 221.
+
+5. R. M. Barnett et al [Particle Data Group], Phys Rev D 54 (1996) 1.
+
+6. N. Isgur and J. Speth, Phys. Rev. Lett. 77 (1996) 2332; M. Harada, F. Sannino, and J.
+Schechter, Phys. Rev. Lett. 78 (1997) 1603; N. Törnqvist and M. Roos, Phys. Rev. Lett.
+78 (1997) 1604.
+
+7. N. A. Törnqvist and M. Roos, Phys Rev Lett 76 (1996) 1575.
+
+8. M. Svec, Phys. Rev. D53 (1996) 2343; M. Harada, F. Sannino, and J. Schechter, Phys.
+Rev. D54 (1996) 1991; S. Ishida, M. Ishida, H. Takahashi, T. Ishida, K. Takamatsu, and
+T. Tsuru, Prog. Theor. Phys. 95 (1996) 745.
+
+9. D. H. Perkins, Introduction to High Energy Physics (Addison-Wesley, Reading, Mass,
+1987) p. 144 and p. 424 [problem 4.15].
+
+10. C. Becchi, S. Narison, E. de Rafael, F. J. Yndurain, Z. Phys. C8 (1981) 335.
+
+11. S. Narison and E. de Rafael, Phys. Lett. B103 (1981) 57.
+
+12. C. A. Dominguez and E. de Rafael, Ann. Phys. 174 (1987) 372;S. Narison, Phys. Lett.
+B216 (1989) 191.
+
+13. W. Hubschmid and S. Mallik, Nucl Phys B193 (1981) 368.
+
+14. V. Elias, J. L. Murison, M. D. Scadron, and T. G. Steele, Zeit Phys C60 (1993) 235.
+
+15. E. Bagán, J. I. LaTorre, and P. Pascual, Z Phys C32 (1986) 43.
+
+16. M. Jamin and M. Münz, Zeit Phys C60 (1993) 569.
+
+17. S. C. Generalis and D. J. Broadhurst, Phys Lett B139 (1984) 85.
+
+
+18. M. S. Dubovikov and A. V. Smilga, Nucl Phys B 185 (1981) 109: W. Hubschmid and
+S. Mallik, Nucl Phys B 207 (1982) 29;D. J. Broadhurst and S. C. Generalis, Phys Lett B
+142 (1984) 75.
+
+19. D. J. Broadhurst and S. C. Generalis, Phys Lett B165 (1985) 175.
+
+20. E. V. Shuryak, Nucl Phys B214 (1983) 237; A. E. Dorokhov, S. V. Esaibegian, N. I.
+Kochelev, and N. G. Stefanis, J. Phys. G23 (1997) 643.
+
+21. I. S. Gradshteyn and I. M. Ryzhik, Table of Integrals, Series, and Products (Academic
+Press, Orlando, 1980) p. 963 [eq. 8.451 6.].
+
+22. V. A. Novikov, M. A. Shifman, A. I. Vainshtein, and V. I. Zakharov, Nucl. Phys. B191
+(1981) 301.
+
+23. E. V. Shuryak, Rev. Mod. Phys. 65 (1993) 1; K. Yamawaki and V. I. Zakharov, hep-
+.
+
+24. M. Gell-Mann, R. J. Oakes, and B. Renner, Phys. Rev. 175 (1968) 2195.
+
+25. V. Elias, A. H. Fariborz, M. A. Samuel, F. Shi and T. G. Steele, Phys. Lett. B (to
+appear); T. G. Steele, J. C. Breckenridge, M. Benmerrouche, V. Elias, and A. H. Fariborz,
+in MRST '96: Current Ideas in Theoretical Physics, P. J. O'Donnell and B. H. Smith, eds.
+(World Scientific, Singapore, 1996) p. 93.
+
+
+Im(s)
+
+
+
+
+
+Re(s)
+
+s0
+
+C(s0)
+
+
+
+
+Fig. 1a
+
+
+Im(s)
+
+
+
+
+
+Re(s)
+
+
+
+
+
+Fig. 1b
+
+
+0.00.0
+
+
+Fig. 3a
+
+
+Fig. 3b
+
+
+Fig. 3c
+
+
+Fig. 4a
+
+
+Fig. 4b
+
+
+Fig. 4c
+
+
+
+
+4m2 s0 + i| |
+s0 - i| |
+
+C0 C4m2
+
+
+
+
+
+Fig. 6
+
+
+

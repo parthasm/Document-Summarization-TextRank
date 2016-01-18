@@ -1,0 +1,360 @@
+
+
+ 12 Apr 1995
+
+April 10, 1995 SCIPP 95/16 WIS 95/16/Apr-PH
+
+The Role of CP violation in D0D0 Mixing
+
+G. Blaylock, A. Seiden Santa Cruz Institute for Particle Physics
+
+University of California at Santa Cruz
+
+Santa Cruz, CA 95064
+
+and
+
+Y. Nir Dept. of Particle Physics Weizmann Institute of Science
+
+Rehovot 76100, Israel
+
+ABSTRACT In current searches for D0D0 mixing, the time evolution of "wrong-sign" decays is used to distinguish between a potential mixing signal and the dominant background from doubly-Cabibbo-suppressed decays. A term proportional to \Delta M t in the expression for the time evolution is often neglected in theoretical discussions and experimental analyses of these processes. We emphasize that, in general, this term does not vanish even in the case of CP invariance. Furthermore, CP invariance is likely to be violated if the rate of D0D0 mixing is close to the experimental bound. The consequence of either of these two facts is that the strongest existing measured bound is not applicable for constraining New Physics.
+
+Submitted to Physics Letters
+
+1. Introduction The Standard Model predicts D0D0 mixing that is orders of magnitude below the reach of present experiments. Consequently, a discovery of D0D0 mixing would provide a clear signal of New Physics. Indeed, various extensions of the Standard Model allow the mixing rate to be close to the current experimental bound. Examples of such extensions are Supersymmetry with quark-squark alignment; additional sequential (namely, fourth generation) or nonsequential (e.g., left-handed singlet) up-type quarks; multiscalar models with or without natural flavor conservation; and leptoquarks. Upper bounds on D0D0 mixing constrain the parameter space of these models.
+
+In order to identify mixing experimentally, it is necessary to determine the charm flavor of neutral D mesons at both their production and decay points. One common method is to use the decay D\Lambda + ! ss+D0 (or D\Lambda \Gamma ! ss\Gamma D0), where the charge of the pion determines whether a D0 or a D0 was produced. A subsequent decay of the D into a final state with the "wrong-sign" kaon (such as D0 ! K+ss\Gamma or D0 ! K\Gamma ss+) provides a possible indication of mixing. However, for hadronic final states, wrong-sign decays can also come from direct decays via doubly-Cabibbo-suppressed (DCS) amplitudes. Although DCS rates are expected to be small (less than 1% of the Cabibbo-favored rates) they provide a substantial background for the rare process of mixing.
+
+Traditionally, these two mechanisms for wrong-sign decays are distinguished by their different evolutions in time. However, there has been some confusion in the literature over the exact form of the time evolution of wrong-sign decays. An interference term that can potentially weaken the sensitivity to mixing is often neglected, with the justification that it vanishes in the case of CP invariance. This claim is incorrect. We will review the relevant formalism with an explanation of the confusion and will demonstrate, in addition, that the assumption of CP invariance is not likely to be valid in the charm system if the rate of D0D0 mixing is close to the current experimental bound.
+
+2
+
+2. Time Evolution Formalism We begin by reviewing the formalism of D0D0 mixing, following the notation of reference 1. We define p and q as the charm eigenstate components in the mass eigenstates jD1;2i:
+
+jD1i = p jD0i + q jD0i; jD2i = p jD0i \Gamma q jD0i;
+
+(2:1)
+
+with the normalization
+
+jpj2 + jqj2 = 1: (2:2)
+
+The two physical states evolve according to
+
+jDi(t)i = e\Gamma iMit\Gamma
+
+1 2 \Gamma it jDi(t = 0)i; (2:3)
+
+with the physical masses and widths given by Mi and \Gamma i.
+
+For the observation of mixing, we are interested in the evolution of the statej D0(t)i that starts out as a pure jD0i at t = 0 and of the state jD0(t)i that is initially pure jD0i. Using Eqs. (2.1) and (2.3), we arrive at
+
+jD0(t)i = f+(t) jD0i + qp f\Gamma (t) jD0i; jD0(t)i = pq f\Gamma (t) jD0i + f+(t) jD0i;
+
+(2:4)
+
+where
+
+f+(t) j e\Gamma iMt\Gamma
+
+1 2 \Gamma t cos( 12 \Delta Mt\Gamma i4 \Delta \Gamma t);
+
+f\Gamma (t) j e\Gamma iMt\Gamma
+
+1 2 \Gamma t i sin( 12 \Delta Mt\Gamma i4 \Delta \Gamma t); (2:5)
+
+and
+
+M j 12 (M1 + M2) ; \Delta M j M2 \Gamma M1 ;
+
+\Gamma j 12 (\Gamma 1 + \Gamma 2) ; \Delta \Gamma j \Gamma 2 \Gamma \Gamma 1 :
+
+(2:6)
+
+We are primarily interested in the decay of these states into wrong-sign final
+
+3
+
+states. Accordingly, we define four decay amplitudes:
+
+A j hf jHjD0i; B j hf jHjD0i; A j hf jHjD0i; B j hf jHjD0i;
+
+(2:7)
+
+which we intend to represent doubly-Cabibbo-suppressed amplitudes (A and A) and Cabibbo-favored amplitudes (B and B), with hf j and hf j describing CP conjugate states. The decay amplitudes into wrong-sign final states are then
+
+hf jHjD0(t)i = B qp [*f+(t) + f\Gamma (t)] ; hf jHjD0(t)i = B pq \Theta f\Gamma (t) + *f+(t)\Lambda ;
+
+(2:8)
+
+where
+
+* j pq AB ; * j qp AB : (2:9)
+
+One may note in passing that * and * are independent of phase conventions even though pq and AB separately depend on those conventions.
+
+[2]
+
+Under the assumption that \Delta M o/ \Gamma , \Delta \Gamma o/ \Gamma and j*j o/ 1 (as confirmed experimentally), but not necessarily that \Delta \Gamma o/ \Delta M (though we will suggest later that this may also be a reasonable assumption if \Delta M is close to the current experimental bound), the decay rates are given by
+
+\Gamma [D0(t) ! f ] = e
+
+\Gamma \Gamma t
+
+4 jBj
+
+2 fifififi q
+
+p fifififi
+
+2 \Theta
+
+^
+
+4j*j2 + `\Delta M 2 + \Delta \Gamma
+
+2
+
+4 ' t
+
+2 + 2!(*)\Delta \Gamma t + 4=(*)\Delta M t*
+
+(2:10)
+
+and
+
+\Gamma [D0(t) ! f ] = e
+
+\Gamma \Gamma t
+
+4 jBj
+
+2 fifififip
+
+q fifififi
+
+2 \Theta
+
+^
+
+4j*j2 + `\Delta M 2 + \Delta \Gamma
+
+2
+
+4 ' t
+
+2 + 2!(*)\Delta \Gamma t + 4=(*)\Delta M t* :
+
+(2:11)
+
+In these expressions for the wrong-sign rates, the terms proportional to j*j2 andj
+
+*j2 describe the contributions from DCS amplitudes, the terms proportional to t2
+
+4
+
+describe the lowest order contributions from mixing, and the terms proportional to t represent interference between mixing and DCS amplitudes.
+
+3. Effects of CP Invariance It is often stated
+
+[3] that the term in (2.10) that is proportional to \Delta M t changes
+
+sign under CP, which implies that =(*) = 0 if CP is conserved. This statement led the E691 experiment
+
+[4] to assume that this term could be neglected if CP violation
+
+is small, and moreover that it would average to zero when analysing a data set with equal numbers of D0 and D0. As we will mention later, other arguments suggest that the interference term proportional to \Delta \Gamma t is also small. Consequently, E691 quoted a primary result ignoring both terms and assuming no interference between mixing and DCS amplitudes. This assumption substantially improved the quoted sensitivity of the experiment.
+
+In truth, CP invariance implies that \Gamma [D0(t) ! f ] = \Gamma [D0(t) ! f ] which leads to the following three conditions:
+
+jAjj
+
+Aj = j
+
+Bjj Bj = 1 ;fififi
+
+fi
+
+p
+
+q fifififi = 1 ;
+
+* = * :
+
+(3:1)
+
+However, CP does not relate A to B. Therefore the relative strong phase of A and B, and hence =(*), is not constrained. Dunietz
+
+[1] has previously emphasized
+
+this feature in the context of CP violation in the B meson system. In fact, many authors
+
+[5] have considered a possible relative phase between A and B for D decays
+
+into Kss final states.
+
+A few general remarks can be made about the phase of A=B that do not depend on specific models. The spectator diagrams that contribute to D decay are shown in Figure 1. For the case where jf i is a multibody final state (e.g., K+ss\Gamma ss0),
+
+5
+
+these diagrams do not necessarily provide similar mixtures of resonant intermediate states (e.g., K\Lambda +ss\Gamma and K+ae\Gamma ). These intermediate states will provide nontrivial phases from Breit-Wigner propagators, which, in turn, lead to a phase in the ratio A=B.
+
+Figure 1: Cabibbo-favored (left) and DCS (right) decay diagrams. The same observation applies even in two-body final states such as D0 ! Kss. In this case, all real intermediate states with the same strong quantum numbers (such as K3ss) can contribute to Kss due to strong final state interactions. These can contribute differently to the two amplitudes A and B, yielding non-zero phases in A=B. This is different from the case of K decay to 2ss, where the only available channel of given isospin is the 2ss channel, resulting in a uniquely determined strong phase.
+
+The mistaken claim that the \Delta M t term of (2.10) is odd under CP is partly a result of applying the fact that CP invariance is equivalent to T invariance, and noting that this term is odd in t. However, T reversal is more than just t ! \Gamma t. It also exchanges initial and final states, which can introduce new phases. The special case where the phase of * can be constrained is when the final state hf j is a CP eigenstate. This is the main point of some B physics studies. In this case
+
+6
+
+A and B refer to CP conjugate processes, and their phases are related by a CP transformation.
+
+By itself, neglecting the \Delta M t term in equation (2.10) will not have an important effect on fits to experimental data since another unknown term proportional to \Delta \Gamma t remains. However, as we will discuss in the next section, there are arguments which suggest that \Delta \Gamma may be small compared to \Delta M in any New Physics models. This observation may have been what led the E691 experiment to neglect both interference terms when calculating their primary result. Because of the large correlations between terms in fits to experimental data, neglecting both interference terms leads to a much better apparent sensitivity to the remaining terms for mixing and DCS decays. Figure 2 indicates how these correlations come about in a hypothetical case where the interference contribution approximately cancels the contribution from pure mixing. This plot demonstrates that even when the time evolution deviates only slightly from the pure exponential form of DCS decays, a large contribution from mixing can be tolerated if it is offset by a destructive interference contribution. This implies that the fitted values for the interference contribution and the mixing contribution are strongly anti-correlated.
+
+In addition to their primary result, E691 explored several specific interference terms which increased their quoted limits on mixing by up to a factor of 3.8. Preliminary studies from the E791 experiment
+
+[6] indicate sensitivities to mixing
+
+which are degraded by a factor of 3 to 5 when an arbitrary interference term is allowed.
+
+7
+
+Figure 2: A hypothetical plot of the time dependence of wrong-sign decays. The dashed line represents the DCS contribution. The dotted line shows the contribution due to mixing. The dash-dot line shows the contribution from DCS-mixing interference when the interference is 30% of its maximum possible amplitude and destructive. The solid line is the sum of all three contributions.
+
+4. Specific Models
+
+The assumption made in various theoretical and experimental studies of D0D0 mixing is that CP invariance is a good approximation for the relevant processes. In this section we will demonstrate that this assumption is, in general, unjustified; all reasonable models that allow a rate of D0D0 mixing close to the experimental bound have new CP violating phases that affect the mixing. Consequently, if \Delta M is close to the experimental bound, then the parameter * in Eq. (2.9) depends on both unknown strong phase shifts and unknown CP violating phases. On the other hand, direct CP violation is still likely to be negligible, which implies jA=Aj = jB=Bj = 1.
+
+Another assumption, that \Delta \Gamma o/ \Delta M , is very likely to be a good approximation if \Delta M is close to the experimental bound. The Standard Model contribution
+
+8
+
+to \Delta M is highly suppressed by small CKM angles; by the GIM mechanism, which is very significant for the intermediate down sector quarks; and by being fourth order in the weak coupling constant. New Physics, even at a scale much higher than the electroweak scale, could therefore easily dominate \Delta M . However, the Standard Model contribution to \Delta \Gamma comes dominantly from tree level W -mediated decays. There is no current New Physics model that could enhance such decays by orders of magnitude.
+
+The approximation \Delta \Gamma o/ \Delta M leads, in turn, to the approximation jq=pj ss 1, which simplifies the rate equations (2.10) and (2.11). It also makes clear that, contrary to previous suggestions
+
+[7], the interference term cannot be constrained using
+
+arguments about the sign of \Delta \Gamma . The approximation \Delta \Gamma o/ \Delta M does not affect the experimental analysis, as the \Delta \Gamma t and \Delta M t terms cannot be distinguished.
+
+We now consider various extensions of the Standard Model which allow large \Delta M for the D0 system
+
+[8]. For each of these models we consider the following
+
+questions:
+
+(a) Is CP a good symmetry in the relevant processes?
+
+(b) If \Delta M is significantly enhanced, is \Delta \Gamma similarly enhanced?
+
+1. Quark-Squark Alignment In supersymmetric models with quark-squark alignment
+
+[9], there are new contributions to \Delta M from box diagrams with gluinos and squarks. The gluino-quarksquark coupling can be estimated, g~g ~uc , gs sin `c, leading to the conclusion that the new contribution is of the order of the experimental bounds. (This model is unique in that it can be excluded by improved bounds on D0D0 mixing.) There are arbitrary new CP violating phases in the gluino mixing matrix contributing to arg(*). On the other hand, there are practically no new contributions to \Delta \Gamma , so that \Delta \Gamma o/ \Delta M .
+
+2. Fourth Quark Generation In models of four generations
+
+[10], \Delta M gets new contributions from box diagrams
+
+9
+
+with intermediate W and b0. For large jVub0 Vcb0 j and large mb0 , the new contribution could be of the order of the experimental bounds. There are three CP violating phases in the 4\Theta 4 quark mixing matrix contributing to arg(*). On the other hand, there are practically no new contributions to \Delta \Gamma , so that \Delta \Gamma o/ \Delta M .
+
+3. Singlet Left-handed Up Quark In models with an SU (2)-singlet u0L
+
+[11] (or, similarly, SU (2)-doublet u0
+
+R), there
+
+are new contributions to \Delta M from tree diagrams with an intermediate Z0. For
+
+large jUucj (U is here the neutral current mixing matrix) the new contribution could be of the order of the experimental bounds. There are three CP violating phases in the 4 \Theta 3 quark mixing matrix contributing to arg(*). There are new contributions to \Delta \Gamma from Z-mediated decays, but the change in \Delta \Gamma is a factor of order one and not orders of magnitude. Consequently, \Delta \Gamma o/ \Delta M .
+
+4. Multiscalar Models with Natural Flavor Conservation In multiscalar models with natural flavor conservation
+
+[12], \Delta M gets new contributions from box diagrams with intermediate H\Sigma and quarks. For very large tan fi j vuv
+
+d and light charged Higgs, the new contribution could be of the order of
+
+the experimental bounds. Diagrams with intermediate H\Sigma and b quark could be
+
+important; they depend on (VcbV \Lambda ub)2 and therefore could contribute (proportionally to the Kobayashi Maskawa phase) to arg(*). The D decays mediated by H\Sigma cannot compete with W -mediated decays, so that \Delta \Gamma practically does not change. Consequently, \Delta \Gamma o/ \Delta M .
+
+5. Multi-doublet Models (with Approximate Flavor Symmetries) In multiscalar models where flavor-changing scalar couplings are present
+
+[13],
+
+\Delta M gets new contributions from tree diagrams with intermediate H0. For a flavor changing coupling of order pmcmu=mW and light neutral scalar, the new contribution could be of the order of the experimental bounds. In principle there could be arbitrary new phases in the relevant couplings, though the ffl constraint may imply that the phases are small. In this case the contribution to arg(*) is small.
+
+10
+
+The H0-mediated decays cannot compete with W -mediated D decays, so that \Delta \Gamma practically does not change. Consequently, \Delta \Gamma o/ \Delta M .
+
+6. Leptoquarks In models of light scalar leptoquarks
+
+[14], \Delta M gets new contributions from box
+
+diagrams with intermediate leptoquarks and leptons. For leptoquark couplings F`cF`u * 10\Gamma 3 and leptoquark masses MLQ ^ 2 TeV, the new contribution could be of the order of the experimental bounds. There are arbitrary new phases in the F`q couplings contributing to arg(*). The leptoquark-mediated decays practically do not affect \Delta \Gamma . Consequently, \Delta \Gamma o/ \Delta M .
+
+The conclusions of this brief survey are twofold: (a) Models of New Physics that contribute significantly to D0D0 mixing can
+
+involve new sources of CP violation that are likely to take part in the new mixing amplitudes. One should not assume CP invariance (* = *) when considering these models. However, direct CP invariance (jA=Aj = jB=Bj = 1) is likely to hold independent of model.
+
+(b) In all reasonable models, the order of magnitude of \Delta \Gamma is similar to the Standard Model. Therefore, the approximation \Delta \Gamma o/ \Delta M (and, consequently,j
+
+p=qj = 1) is very reasonable.
+
+5. Conclusions We have reviewed the formalism for wrong-sign decays in the limit of \Delta M o/ \Gamma , \Delta \Gamma o/ \Gamma and j*j o/ 1, leading to the rate equations (2.10) and (2.11). We have shown, contrary to other claims, that the interference terms proportional to \Delta M t cannot necessarily be ignored, even in the case of CP invariance. Furthermore, an examination of relevant New Physics models indicates that CP invariance is likely to be violated if any of these models provides a source of measureable D0D0 mixing. We conclude that an arbitrary interference term should be used in the fits to experimental data. The previous best limit on mixing
+
+[4], which came from a
+
+11
+
+time evolution study that neglected interference, is significantly weakened by this argument. Other limits on D0D0 mixing that use methods not dependent on the time evolution are, of course, unaffected by this argument.
+
+Acknowledgements One of us (YN) thanks Isi Dunietz and Yuval Grossman for useful discussions. YN is supported in part by the United States - Israel Binational Science Foundation (BSF), by the Israel Commission for Basic Research and by the Minerva Foundation.
+
+12
+
+REFERENCES 1. I. Dunietz, Ann. Phys. 184, 350 (1988). 2. For a review of phase conventions in CP violation see, for example,
+
+Y. Nir, Proceedings from the 20th Annual SLAC Summer Institute on Particle Physics: The Third Family and the Physics of Flavor, Stanford, CA, 1992, p. 81.
+
+3. I.I. Bigi, Proceedings of the XXIII International Conference on High Energy
+
+Physics, ed. S.C. Loken, Singapore, World Scientific, 1986, p. 857.
+
+4. J.C. Anjos et al., Phys. Rev. Lett. 60, 1239 (1988). 5. See, for example,
+
+I. Hinchliffe and T.A. Kaeding, preprint LBL-35892, 1995; Ling-Lie Chau and Hai-Yang Cheng, preprint ITP-SB-93-49, UCD-93-31; F. Buccella, et al., preprint ROMA-1070-1994, DSF-T-56/94.
+
+6. Private communication. 7. I.I. Bigi, Charm Physics, ed. Ming-hau Ye and Tao Huang, N.Y., Gordon
+
+and Breach, 1987, p. 339.
+
+8. For a review, see J.L. Hewett, SLAC-PUB-6674 (1994), . 9. Y. Nir and N. Seiberg, Phys. Lett. B309, 337 (1993);
+
+M. Leurer, Y. Nir and N. Seiberg, Nucl. Phys. B420, 468 (1994).
+
+10. K.S. Babu, X-G. He, Xue-Qian Li and Sandip Pakvasa, Phys. Lett. B205,
+
+540 (1988).
+
+11. G.C. Branco, P.A. Parada and M.N. Revelo, preprint UWThPh-1994-51,
+
+CFIF-IST-4/94.
+
+12. L.F. Abbott, P. Sikivie and M.B. Wise, Phys. Rev. D21, 1393 (1980);
+
+V. Barger, J.L. Hewett and R.J.N. Phillips, Phys. Rev. D41, 3421 (1990); Y. Grossman, Nucl. Phys. B426, 355 (1994).
+
+13
+
+13. S. Pakvasa and H. Sugawara, Phys. Lett. B73, 61 (1978);
+
+T.P. Cheng and M. Sher, Phys. Rev. D35, 3484 (1987); L. Hall and S. Weinberg, Phys. Rev. D48, R979 (1993).
+
+14. S. Davidson, D. Bailey and B. A. Campbell, Z. Phys. C61, 613 (1994);
+
+M. Leurer, Phys. Rev. Lett. 71, 1324 (1993); Phys. Rev. D48, 333 (1994).
+
+14
+

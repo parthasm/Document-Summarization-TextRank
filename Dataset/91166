@@ -1,0 +1,490 @@
+
+
+ 28 Jul 1995
+
+Photon Emission from a Parton Gas at Chemical
+
+Non-Equilibrium
+
+\Lambda
+
+Christoph T. Traxler and Markus H. Thoma Institut f"ur Theoretische Physik, Universit"at Giessen,
+
+35392 Giessen, Germanyy
+
+Abstract We compute the hard photon production rate of a chemically non-equilibrated quark-gluon plasma. We assume that the plasma is already thermally equilibrated, i. e. describable by a temperature, but with a phase-space distribution that deviates from the Fermi/Bose distribution by a time dependent factor (fugacity). The photon spectrum is obtained by integrating the photon rate over the space-time evolution of the quark-gluon plasma. Some consequences for ultrarelativistic heavy ion collisions are discussed.
+
+I. INTRODUCTION Hard photons are a promising probe for the fireball created in ultrarelativistic heavy ion collisions [1]. As they leave the fireball without further interaction [2] they are probing the various stages of the collision directly. Concerning the quark-gluon plasma (QGP) phase, photon emission has been considered so far mostly at thermal and chemical equilibrium [3-5]. Here we will investigate the photon production from a chemically non-equilibrated QGP, starting from a simple model for the chemical equilibration of a parton gas in ultrarelativistic
+
+\Lambda supported by BMFT and GSI Darmstadt ye-mail: chris.traxler@uni-giessen.de, thoma@theorie.physik.uni-giessen.de
+
+1
+
+heavy collisions [6]. This model predicts that the QGP, possibly formed at RHIC and LHC, is always far from chemical equilibrium, showing a strong undersaturation of the phase space in particular for quarks, which are the source of photon emission. In the next section we present a short review of the parton chemistry model, before we calculate the hard photon production rate from a chemically non-equilibrated parton gas in section 3. In section 4 we show photon spectra, obtained by integrating the photon rate over the space-time evolution of the fireball, and discuss some consequences for RHIC and LHC. Similar investigations have been performed in ref. [7-9], to which we compare our results.
+
+II. PARTON CHEMISTRY The chemical equilibration of quarks and gluons has been described by means of rate equations for the quark and gluon phase space density after thermal equilibrium set in [6]. Here we speak of thermal equilibrium as soon as the momentum distribution of the partons becomes exponential and isotropic. According to the event generator HIJING [10] the primary hard parton collisions result already in an exponential p?-distribution [11]. Subsequent longitudinal expansion leads to an isotropic momentum distribution in the central slice (\Delta z = 0:5 fm) at a time o/iso = 0:3 fm/c at RHIC and o/iso = 0:2 fm/c at LHC after the primary collisions [6] corresponding to o/0 = 0:5 \Gamma 0:7 fm/c after the maximum overlap of the nuclei [11,12].
+
+For times o/ ? o/iso we assume that the distribution functions can be approximated by
+
+nF;B(E) = *q;g(o/ ) 1eE=T (o/) \Sigma 1 ; (1) i.e. by equilibrium Fermi/Bose distribution functions with a time dependent temperature multiplied by a time dependent factor *q;g which describes the deviation from chemical equilibrium. This factor, called fugacity, takes account of the undersaturation of the parton phase space density, i.e. 0 ^ *q;g ^ 1.
+
+To lowest order perturbative QCD the phase space will be populated by the reactions
+
+2
+
+gg $ ggg; gg $ q _q: (2) The time evolution of the quark and gluon densities, which are proportional to the fugacities, can de determined by rate equations, where the equilibration rates entering these equations follow from the cross section of the above reactions. The cross sections are calculated from the lowest order matrix elements, where the thermal gluon and quark mass, also depending on the fugacities, serve as infrared cut-offs:
+
+m2g = *g `1 + Nf6 ' g
+
+2T 2
+
+3 ; (3)
+
+m2q = *g + *q2 ! g
+
+2T 2
+
+9 ; (4)
+
+where Nf denotes the number of active flavors in the parton gas, for which Nf = 2:5 was chosen. (In chemical equilibrium the thermal masses follow from the zero momentum limit of the gluon and quark self energies in the high temperature approximation [13] leading to
+
+m2g = 2g
+
+2
+
+ss2 `1 +
+
+Nf
+
+6 ' Z
+
+1 0 dk k n
+
+eq B (k);
+
+m2q = 2g
+
+2
+
+3ss2 Z
+
+1 0 dk k [n
+
+eq B (k) + n
+
+eq F (k)] :
+
+In the chemically non-equilibrated parton gas the equilibrium distribution functions are replaced by (1) leading to (3) and (4).) In addition, gluon radiation in the first reaction is assumed to be suppressed if the mean free path of the gluons in the parton gas is smaller than the formation length of the emitted gluon. In this way the so called Landau-Pomeranchuk effect is taken into account phenomenologically. The results for the equilibration rates can be found in ref. [6].
+
+Together with the equation describing energy conservation in the case of a purely longitudinal expansion [6] the rate equations determine the evolution of the quark and gluon fugacities *q;g(o/ ) and of the temperature T (o/ ). These equations are solved numerically together with the following initial conditions at o/iso resulting from HIJING: *0g = 0:09, *0q = 0:02, and T0 = 570 MeV for RHIC and *0g = 0:14, *0q = 0:03, and T0 = 830 MeV for LHC, respectively. The results are shown in fig. 1. (Recent investigations [12] with slightly
+
+3
+
+changed initial conditions and a somewhat larger rate for the gluon production gave similar results). The temperature drops faster than in the Bjorken scenario [14] (T 3o/ =const), since energy is consumed by parton production. The main result of these investigations is a clear deviation from chemical equilibrium (undersaturation) at RHIC as well as LHC, especially for quarks.
+
+The following problems and criticisms associated with this model and its results should be mentioned:
+
+1. The initial fugacities from HIJING are very small in contrast to the one following from the Parton Cascade Model [15], which gives *0g ' 1 and *0q ' 0:7. The reason for this essential difference is not clear yet.
+
+2. The introduction of time dependent distribution functions such as (1) for describing a non-equilibrium situation contradicts a perturbative expansion in the real time formalism by leading to singularities in loop diagrams [16]. However, here we only want to employ the distributions (1) as a phenomenological ansatz, and we do not consider loop diagrams.
+
+3. Uncertainties in the equilibration rates have a significant influence on the evolution of the fugacities. In particular, a larger gluon production rate could be obtained if the Landau-Pomeranchuk effect in the gluon bremsstrahlung is treated by taking into account the rescattering of the radiated gluon. Then gluons with larger formation times can also be emitted [17]. Furthermore, the process gg $ n g, n ? 3, can be included leading to gluon production rates about twice as large [18].
+
+Despite all these uncertainties, we think it worthwhile to study the consequences of this parton chemistry scenario, as it has been done in the case of charm production [12]. The other way round, by comparing the particle production (photons, dileptons, charm), predicted by this scenario, with experimental data, one might be able to extract information on the equilibration in ultrarelativistic heavy ion collisions.
+
+4
+
+III. PHOTON PRODUCTION RATE In thermal and chemical equilibrium, the production rate of hard photons with energy E AE T can be computed using the Braaten-Yuan prescription [19]. This results in a decomposition of the rate into a soft part, which is treated using a resummed quark propagator according to the Braaten-Pisarski method [20], and a hard part containing only bare propagators and vertices. In the soft part the resummed quark propagator takes care of medium effects in the QGP; e.g., it contains the thermal quark mass m2q = g2T 2=6, which serves as an infrared cut-off in the case of a vanishing bare quark mass. The hard part follows from the momentum integration over the matrix elements that lead to photon emission in lowest order (quark pair annihilation, Compton scattering with an initial gluon) multiplied by the distribution functions of the incoming and outgoing partons [3]. A separation parameter kc is introduced, which allows to distinguish between soft and hard momenta of the intermediate quark. Assuming the weak coupling limit and gT o/ kc o/ T , the final result is independent of the separation scale kc. This procedure has been demonstrated in refs. [3,4] using Boltzmann distribution functions for the incoming particles, and in ref. [5] using full Fermi/Bose distribution functions with a nonzero quark chemical potential _. Unfortunately, the Braaten-Pisarski method is based on the principle of detailed balance, which holds only in full equilibrium, and thus is not applicable for the chemical non-equilibrium stage.
+
+Since there exists so far no consistent method for treating medium effects at nonequilibrium, we propose the following procedure. We only consider the hard part of the photon rate and replace the cut-off k2c by 2m2q as suggested by the equilibrium result [3]. For the thermal quark mass we adopt the formula (4) containing the fugacities, thus taking into account non-equilibrium effects. This approximation is in line with the estimates of the equilibration rates calculated in ref. [6]. In addition, we assume _ = 0 since the photon rate is not sensitive to a non-zero quark chemical potential [5]. Furthermore, the fugacities show up in the distribution functions of the incoming and outgoing partons, for which we adopt
+
+5
+
+the non-equilibrium distributions (1), under the momentum integral defining the photon rate.
+
+We now compute the hard photon production rate, starting from the following equation for each contribution (annihilation, Compton) of the photon rate [5] (summed over the photon polarisations):
+
+2E dnd3pd4x = 18(2ss)7E
+
+1Z
+
+2k2c
+
+ds
+
+\Gamma k2cZ
+
+\Gamma s+k2c
+
+dt X jMj2 Z
+
+IR2
+
+dE1 dE2 \Theta (P (E1; E2))n1n2(1 \Sigma n3)qP (E
+
+1; E2)
+
+; (5)
+
+where P jMj2 denotes the square of the matrix element for the annihilation or Compton process summed over the initial and final parton states and ni the parton distributions, where the plus sign in front of n3 corresponds to the annihilation process and the minus sign to Compton scattering. The polynomial P is given by P (E1; E2) = \Gamma (tE1 + (s + t)E2)2 + 2Es((s + t)E2 \Gamma tE1) \Gamma s2E2 + s2t + st2 with the Mandelstam variables s; t, and \Theta is the step function. E and p are the outgoing photon energy and momentum, related by E = p j jpj, since the photon is on-shell. Finally, dn is the number of photons that will come out of the plasma cell d3x during dt with a momentum in d3p around p. Equation (5) is already written in a Lorentz invariant fashion (for boosts along the beam direction) and can be related to the rapidity via E=d3p = dpxdpy dy = d2pT dy.
+
+Let us now introduce the fugacity factors in (5) by the replacement
+
+n1n2(1 \Sigma n3) 7! *1n1*2n2(1 \Sigma *3n3) : We decompose this product as follows:
+
+*1n1*2n2(1 \Sigma *3n3) = *1*2*3n1n2(1 \Sigma n3) + *1*2(1 \Gamma *3)n1n2 : (6) Here, the first term leads to the equilibrium photon rate as computed in ref. [3] multiplied by *2q *g:
+
+2E dnd3pd4x !
+
+1
+
+= 5ffffs*
+
+2q*g
+
+9ss2 T
+
+2e\Gamma E=T "ln 4ET
+
+k2c ! \Gamma 1:42# : (7)
+
+Here k2c is the infrared cut-off of the hard contribution for which we will use 2m2q as discussed above. In order to find (7), one has to use Boltzmann distribution functions instead
+
+6
+
+of the full quantum-mechanical distribution functions on the incoming legs. This underestimates the contribution coming from the Compton scattering process and overestimates the contribution of the quark-antiquark-annihilation process, but the two errors cancel up to a maximum error of about 10% in the end, as is shown by numerical analysis in ref. [5].
+
+The second term of (6) results in the rate
+
+2E dnd3pd4x !
+
+2
+
+= X
+
+ann comp
+
+*1*2(1 \Gamma *3)
+
+8(2ss)7E
+
+\Theta
+
+1Z
+
+2k2c
+
+ds
+
+\Gamma k2cZ
+
+\Gamma s+k2c
+
+dt X jMj2
+
+1Z
+
+E+s=4E
+
+dE+ Z
+
+IR
+
+dE2 \Theta (P (E+; E2))n1n2qP (E
+
++; E2)
+
+: (8)
+
+We treat this term again in the Boltzmann approximation, using n1n2 = e\Gamma E+=T . The distribution functions are constant in the innermost integral, and can be drawn out in front. Now all the integrals are elementary, and (8) reduces in a few steps to
+
+2E dnd3pd4x !
+
+2
+
+= 10ffffs9ss4 T 2e\Gamma E=T
+
+\Theta 8!:*q*g(1 \Gamma *q) "1 + 2e\Gamma k
+
+2c =4ET E
+
+1 k
+
+2c
+
+4ET !#
+
++*q*q(1 \Gamma *g) "\Gamma 2 + 2e\Gamma k
+
+2c =4ET E
+
+1 k
+
+2c
+
+4ET !# 9=; : (9)
+
+For a consistent computation to order O(ffs), we approximate
+
+2e\Gamma k
+
+2c =4ET E
+
+1 k
+
+2c
+
+4ET ! ss \Gamma 2fl + 2 ln
+
+4ET
+
+k2c ! + O(
+
+k2c 4ET )
+
+and obtain
+
+2E dnd3pd4x!
+
+2
+
+= 10ffffs9ss4 T 2e\Gamma E=T 8!:*q*g(1 \Gamma *q) "1 \Gamma 2fl + 2 ln 4ETk2
+
+c !#
+
++*q*q(1 \Gamma *g) "\Gamma 2 \Gamma 2fl + 2 ln 4ETk2
+
+c !#
+
+9=;
+
+: (10)
+
+The photon rate is the sum of (7) and (10) after insertion of k2c = 2m2q = 0:22g2T 2(*g + *q=2).
+
+Our result for the non-equilibrium photon rate differs from the one found in refs. [7,8], where the equilibrium rate was simply multiplied by the fugacities of the incoming partons
+
+7
+
+and the equilibrium quark mass was used as infrared cut-off. Our formula also differs from the one of ref. [9], where more elaborate non-equilibrium distributions (J"uttner distributions) were assumed, which are, however, not in line with the parton chemistry model presented in ref. [6].
+
+IV. PHOTON SPECTRUM In the simplest of all models of a central ultrarelativistic heavy ion collision, one imagines two flat nuclei which penetrate each other and fly apart afterwards, creating a longitudinally expanding, cylindrical quark-gluon plasma tube between them. A Minkowski diagram of this event is shown in fig.2.
+
+For the total photon yield, we take the rate as given in the last section and the fugacities shown in fig.1, and integrate over the plasma space-time volume, usingZ
+
+plasma d
+
+4x = Q
+
+o/1Z
+
+o/0
+
+do/ o/
+
+ynucZ
+
+\Gamma ynuc
+
+dy ;
+
+where the times after the maximum overlap of the nuclei are o/0 = 0:7 fm/c and o/1 = 4 fm/c and the rapidity of the nuclei is ynuc = 6 at RHIC and o/0 = 0:5 fm/c, o/1 = 6:25 fm/c, and ynuc = 8:8 at LHC, respectively. Q is the transverse cross section of the nuclei; for gold, Q ss 180f m2. We obtain for the photon spectra
+
+2dn d2p?dy !
+
+y;p?
+
+= Q
+
+o/1Z
+
+o/0
+
+do/ o/
+
+ynucZ
+
+\Gamma ynuc
+
+dy0 2E dn
+
+loc:rest
+
+d3pd4x !
+
+Eloc:rest = p? cosh(y \Gamma y0),
+
+T = T (o/), * = *(o/)
+
+: (11)
+
+(The two expressions in large round brackets are Lorentz scalars; we can Lorentz transform them by simply transforming their argument, i.e., the photon energy. The photon energy in the laboratory frame equals p? cosh(y); the photon energy in the comoving frame of the plasma is then p? cosh(y \Gamma y0). The superscript loc:rest serves to remind us of this transformation.) Here we assumed that we can use the fugacities for times o/ ? o/0 not only for the central region and neglected the transverse expansion of the fireball, which can be treated in a hydrodynamical model [21].
+
+8
+
+Fig.3 shows the individual contributions of different time intervals between o/0 and o/1 to the photon spectrum. Summing up these contributions gives rise to the concave shape of the photon spectrum in fig.3. Clearly the spectrum is dominated by early times corresponding to high temperatures [8], especially for large photon energies. Hence it is rather insensitive to the uncertainties of the equilibration rates. Compared to chemical equilibrium *g = *q = 1 at an initial temperature of T0 = 300 MeV, as it was considered for SPS energies [21], the photon yield from the QGP is suppressed by about a factor of 10\Gamma 2 (RHIC) to 10\Gamma 1 (LHC). This would imply that photons from the QGP cannot be observed. Although the photon rate is enhanced by the high initial temperature T0 = 500 - 800 MeV, this increase is overcompensated by the small fugacities of our model. Using the fugacities as plotted in ref. [12], the photon yield is the same as in fig.3 within a factor of 2.
+
+Spectra for different rapidity regions are plotted in fig. 4. Within the limits given by the nuclear rapidities, the transverse momentum spectra do not depend on the photon rapidity. In other words, the photon rapidity distribution closely resembles the underlying quark rapidity distribution [22]. This is easily understood, as the rapidity distribution of massless isotropic radiation is always a bell-shaped curve with a width at half maximum (FWHM) \Delta y ss 1:6. This is small compared with the nuclear rapidities (ynuc = 6 \Gamma 8:8) at high energies. Therefore, if we Lorentz transform (shift) the rapidity distribution of the photons according to the velocity of the plasma cell they originate from, we get essentially the plateau-shaped distribution of the quarks, smeared out a little bit. This is schematically shown in fig. 5.
+
+V. CONCLUSIONS We have studied the photon production from a chemically non-equilibrated parton gas presumably produced at RHIC and LHC. We have neglected the pre-thermal stage as well as the mixed and hadronic phase of the fireball. Using the undersaturated parton densities, following from rate equations of the parton chemistry based on initial conditions predicted
+
+9
+
+by HIJING, the photon yield is suppressed by a factor 10\Gamma 2 (RHIC) to 10\Gamma 1 (LHC) compared to a fully equilibrated QGP at an initial temperature of T0 = 300 MeV. This large difference relies on the fact that the HIJING model predicts a very small quark density (only 2 - 3% of the equilibrium value) at the time o/0, from which on the parton distributions look thermal, and that the photon emission is dominated by early times. This result suggests that the photon emission from the plasma phase is not observable. In contrast, the Parton Cascade Model predicts almost complete saturation of the parton phase space densities at the onset of thermal equilibrium with similar initial temperatures (T0 = 500 - 800 MeV). Hence the photon yield from the plasma is enhanced by about a factor of 102 (RHIC) to 103 (LHC) compared with our estimate and might be visible, in particular for photon energies between 2 - 3 GeV [1]. Consequently, photon data at RHIC and LHC might allow a distinction between the initial condition predicted from HIJING and the one from the Parton Cascade Model.
+
+10
+
+REFERENCES [1] P. V. Ruuskanen, Nucl. Phys. A 544, 169c (1992). [2] M. H. Thoma, Phys. Rev. D 51, 862 (1995). [3] J. Kapusta, P. Lichard, and D. Seibert, Phys. Rev. D 44, 1298 (1991). [4] R. Baier, H. Nakkagawa, A. Ni'egawa, and K. Redlich, Z. Phys. C 53, 433 (1992). [5] C. T. Traxler, H. Vija, and M. H. Thoma, Phys. Lett. B 346, 329 (1995). [6] T. S. Bir'o, E. van Doorn, B. M"uller, M. H. Thoma, and X.-N. Wang, Phys. Rev. C 48,
+
+1275 (1993).
+
+[7] E. Shuryak and L. Xiong, Phys. Rev. Lett. 70, 2241 (1993). [8] B. K"ampfer and O. P. Pavlenko, Z. Phys. C 62, 491 (1994). [9] M. Strickland, Phys. Lett. B 331, 245 (1994). [10] X. N. Wang and M. Gyulassy, Phys. Rev. D 44, 3501 (1991). [11] K. J. Eskola and X. N. Wang, Phys. Rev. D 49, 1284 (1994). [12] P. L'evai, B. M"uller, and X. N. Wang, LBL-preprint LBL-36594, 1994. [13] V. V. Klimov, Zh. Eksp. Teor. Fiz. 82, 336 (1982) [Sov. Phys. JETP 55, 199 (1982)];
+
+H. A. Weldon, Phys. Rev. D 26, 1394 (1982); 26, 2789 (1982).
+
+[14] J. D. Bjorken, Phys. Rev. D 27, 140 (1983). [15] K. Geiger, CERN-preprint CERN-TH.7313/94, 1994 (submitted to Phys. Rep.). [16] T. Altherr and D. Seibert, Phys. Lett. B 333, 149 (1994). [17] R. Baier, Yu. L. Dokshitzer, S. Peign'e, and D. Schiff, Phys. Lett. B 345, 277 (1995). [18] L. Xiong and E. Shuryak, Phys. Rev. C 49, 2203 (1994).
+
+11
+
+[19] E. Braaten and T. C. Yuan, Phys. Rev. Lett. 66, 2183 (1991). [20] E. Braaten and R. D. Pisarski, Nucl. Phys. B337, 569 (1990). [21] N. Arbex, U. Ornik, M. Pl"umer, A. Timmermann, and R. M. Weiner, Phys. Lett. B
+
+345, 307 (1995).
+
+[22] A. Dumitru, U. Katscher, J. A. Maruhn, H. St"ocker, W. Greiner, and D. H. Rischke,
+
+Frankfurt preprint UFTP-381/1995, 1995.
+
+12
+
+FIGURES 0 1 2 30.0 0.2 0.4 0.6
+
+Au + Au sqrt(s) = 200 AGeV
+
+lq lg
+
+T RHIC
+
+t [fm/c] T [GeV], l g, l q
+
+t [fm/c] 0 2 4 6
+
+0.0
+
+0.2 0.4 0.6 0.8
+
+Au + Au sqrt(s) = 6000 AGeV
+
+lq lg
+
+T LHC
+
+FIG. 1. Temperature, quark fugacity, and gluon fugacity for an Au + Au-collision in RHIC (s1=2 = 200 A \Delta GeV ) and LHC (s1=2 = 6000 A \Delta GeV ). The data was taken from [6].
+
+13
+
+z t
+
+t = 0t = t0
+
+t = t1
+
+mixed phase
+
+thermalized but chemical non-equilibriumnon-thermalizedearly stage
+
+Au Au
+
+expanding hadron gas light cone
+
+FIG. 2. Minkowski diagram of a relativistic heavy ion collision (RHIC) creating a quark-gluon plasma. We compute the photon yield of the plasma between times o/0 and o/1.
+
+14
+
+1.0 1.5 2.0 2.5 3.010 -7
+
+10-6 10-5 10-4 10-3 total yield 0.7-1.36 fm/c
+
+1.36-2.02 fm/c 2.02-2.68 fm/c 2.68-3.34 fm/c 3.34-4 fm/c
+
+Au + Au sqrt(s)=200 AGeV
+
+dn/d 2 p
+
+T dy
+
+[GeV
+
+-2 ] (y=0)
+
+pT [GeV]pT [GeV]
+
+RHIC
+
+1.0 1.5 2.0 2.5 3.010 -6
+
+10-5 10-4 10-3 10-2 total yield 0.5-1.65 fm/c
+
+1.65-2.8 fm/c 2.8-3.95 fm/c 3.95-5.1 fm/c 5.1-6.25 fm/c
+
+Au + Au sqrt(s)=6000 AGeV
+
+LHC
+
+FIG. 3. Midrapidity (y=0) photon yield from various stages (proper time slices) of the plasma evolution. The top curve is identical to the y=0 curve in the next figure.
+
+15
+
+1.0 1.5 2.0 2.5 3.010 -6
+
+10-5 10-4 10-3 10-2
+
+dn/d 2 p
+
+T dy
+
+, dn/d
+
+2 p
+
+T [GeV
+
+-2 ]
+
+sqrt(s) = 200 AGeV
+
+(ynuc=6)
+
+integr. y=0..4 y=5 y=6 y=7
+
+pT [GeV]pT [GeV]
+
+RHIC
+
+1.0 1.5 2.0 2.5 3.010 -5
+
+10-4 10-3 10-2 10-1
+
+integr. y=0..7 y=8 y=9
+
+sqrt(s) = 6000 AGeV
+
+(ynuc=8.8)
+
+LHC
+
+FIG. 4. Photon spectra for various fixed rapidities.
+
+16
+
+-ynuc ynuc
+
+gpart
+
+gtotal dN/dy
+
+y q, q, g{
+
+\Delta ypart FIG. 5. Rapidity distributions of photons, partons, and those photons originating from a parton cell within the rapidity interval \Delta ypart.
+
+17
+

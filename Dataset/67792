@@ -1,0 +1,576 @@
+
+
+ 23 Jan 1996
+
+MPI-PhT/96-6
+
+Januar 1996
+
+LEP1 - Quick
+
+Bodo Lampe Max Planck Institut f"ur Physik D-80805 M"unchen, P.O. Box 401212, Germany
+
+Abstract The theoretical background of the electroweak precision measurements at LEP1 is reviewed. The presentation is compact but specific enough to understand all details.
+
+1. The True Weinberg Angle In the electroweak theory there are two gauge coupling constants, usually called g1 and g2, one for the SU (2)L gauge bosons W +, W \Gamma and W3 and the other one for the U (1)Y gauge boson B. W3 and B mix to yield the Z boson and the photon :
+
+Z = W3 cos ` + B sin ` (1) The mixing angle ` is called the Weinberg angle and can be related to the couplings g1 and g2 via
+
+cos ` = g2q
+
+g21 + g12 (2)
+
+The same is true for the electromagnetic coupling constant e :
+
+e = g1g2q
+
+g21 + g22 (3)
+
+The latter equation follows from the requirement that the photon coupling should be as in QED. Before the advent of the LEP1 results it was common to use the quantities e and sin2 ` instead of g1 and g2 to fix the couplings of the electroweak theory. After LEP1 there is the Z mass, measured at a very high precision, to substitute sin2 ` as a fundamental parameter of the standard model. Still, I will show in the following that sin2 ` can serve as a guideline to understand the implications of the higher order corrections on the LEP1 results [1].
+
+At first sight, eq. 1 is only a leading order relation. In order to maintain it at higher orders [2] [3], one should reinterpret all the quantities introduced so far as renormalized quantities. For example, the fields in eq. 1 should be the renormalized gauge fields. Eq. 1 defines in a sense the "true" Weinberg angle, with the proviso that this definition depends on the renormalization scheme chosen. The most common scheme is the on-shell scheme, in which particle masses are defined as propagator poles and the electromagnetic coupling is fixed to be iefl_ at zero momentum transfer, true to all orders. If not stated otherwise, the on-shell scheme will always be the basis of our discussion. Other schemes and correspondingly other definitions of sin2 ` are however possible. In fact one can define sin2 ` in an infinite number of ways. Some of the possible definitions will be presented in the following, because they will help to understand the qualitative features of the higher order corrections.
+
+2. Definition of sin2 ` in terms of the vector boson masses In leading order the vector boson masses are given by
+
+mW = 12 g2v mZ = 12 qg21 + g12v (4) where v is the vacuum expectation value of the Higgs field \Phi . Eq. 4 can be derived by inserting v into the kinetic term (D_\Phi )+(D_\Phi ) of the Higgs field Lagrangian, because this produces mass terms ss Z_Z_ and ss W +_ W \Gamma _ for Z and W. Comparing eqs. 2 and 4 one finds that the cosine of the Weinberg angle is given by the ratio
+
+mW
+
+mZ . To maintain this relation at higher orders one may define a quantity
+
+s2W = 1 \Gamma m
+
+2 W
+
+m2Z (5)
+
+In this equation, the vector boson masses are the on-schell masses. A definition in terms of M S masses would be possible as well, but will not be pursued here. Clearly, in lowest order sin2 ` and s2W are identical, but they get different higher order corrections.The difference is described by the "ae-parameter" ae defined by
+
+sin2 ` = 1 \Gamma m
+
+2 W
+
+aem2Z = s
+
+2 W + c2W \Delta ae (6)
+
+In eq. 6 I have introduced a quantity \Delta ae defined by ae = 1 + \Delta ae which is understood to be small (of oneloop order). All the discussions presented here are restricted to oneloop order in the electroweak coupling constants, so that terms of order (\Delta ae)2 etc are neglected.
+
+\Delta ae has a representation in terms of the renormalized W and Z selfenergies [4]:
+
+\Delta ae = \Sigma ZZ (p
+
+2)
+
+m2Z \Gamma
+
+\Sigma W W (p2)
+
+m2W
+
+fififififi fip
+
+2=0
+
+(7)
+
+The selfenergies can be calculated from the vector boson propagators fig. 1. I will not derive this relation here, but I think it is intuitively clear, because s2W is defined in terms of the vector boson masses and these in turn are related to the self energies. The fact that this happens at zero momentum is because through the mixing the photon enters the game. Since one wants to fix the photon selfenergy at zero momentum, one has to do the same for all other selfenergies.
+
+The calculation of the selfenergies leads to expressions which are dominated by the large masses of the Standard Model, the Higgs mass and the top quark mass, coming
+
+Figure 1: the crossed circle in this diagram denotes all insertions to the Z resp. W propagator
+
+from the diagrams with a Higgs boson or a top quark in the loop. An approximate formula for \Delta ae is
+
+\Delta ae = 3GF m
+
+2 t
+
+8p2ss2 \Gamma
+
+11GF m2W
+
+24p2ss2 tan
+
+2 ` ln( m2H
+
+m2W ) + ::: (8)
+
+GF = 12p2v2 is the Fermi constant as measured in muon decay and mH is the Higgs mass. Since eq. 8 is a oneloop expression it does not matter, which of the possible beyond the lo definitions of GF one chooses (see later). GF and mH are the parameters to fix the standard model Higgs Lagrangian completely. One of them (GF ) is known very precisely (to six digits), the other one essentially unknown. It is one of the main aims of electroweak precision studies to be able to make indirect statements about the value of mH.
+
+The dots in eq. 8 stand for (known) contributions which are smaller than the leading m2t and ln(mH) contributions, such as constants, vector boson and light fermion mass terms and small logarithms. [5] [6] . Eq. 8 can be viewed as the leading order of an expansion of \Delta ae in powers of
+
+m2W;Z
+
+m2t and
+
+m2W;Z
+
+m2H . It can be shown that the neglected
+
+terms give a small contribution numerically. As far as I understand the literature,
+
+it is believed quite in general that the approximation mW;Z o/ mt;H is reasonable for the higher order analysis of the LEP1 data. Still I do not recommend to trust this statement blindly, but to try to calculate the nonleading terms in mW;Zm
+
+t;H in each
+
+specific case, for safety reasons. There is another approximation which is sometimes
+
+used in electroweak higher order calculations by researchers who believe that the Higgs mass might be of the order of the W and Z mass. This would suggest the approximation mt AE mH , 0. This approximation works in certain circumstances, but fails in others. There is an explicit example, in which this is not a reasonable approximation, even in case mH ss mW . This example is a twoloop effect and will be given within the next formula (eq. 9).
+
+Since it is a oneloop higher order effect, in eq. 8 it does not really matter which definition of ` is choosen. This is in general not true anymore if one starts to include
+
+twoloop contributions, some of which are nowadays known. In the leading mt limit \Delta ae gets an overall correction factor [7] [5] [6].
+
+\Delta ae = 3GF m
+
+2 t
+
+8p2ss2 ae1 +
+
+GF m2t 8p2ss2 c2 \Gamma
+
+2ffs
+
+3ss (
+
+ss2
+
+3 + 1)oe (9)
+
+from twoloop contributions. The term involving ffs is the mixed electroweak/QCD correction. The leading twoloop electroweak correction c2 has a complicated analytical form, even if mW and mZ are neglected. It becomes very simple if in addition mH o/ mt is assumed, namely c2 = 19 \Gamma 2ss2. However, except for very small Higgs masses, the full result deviates significantly from the approximation mH ss 0.
+
+Another problem of the twoloop result is that it is not complete. Although some slight progress has recently been made, no estimate whatsoever of terms of the form ffGF m2t ln(mt) etc exists.
+
+Let us now study \Delta ae numerically. One finds
+
+\Delta ae =
+
+8?!
+
+?:
+
+0:0100 \Sigma 0:002 mH = 60GeV
+
+0:0059 \Sigma 0:002 mH = 1000GeV
+
+(10)
+
+This value has been obtained using mt = 175 \Sigma 20 GeV from the Fermilab top quark analysis and a variation of mH from 60 to 1000 GeV. For an electroweak correction, this is a rather large effect coming mainly from the term of order GF m2t . Alternatively, one can try to determine \Delta ae from the combined LEP1 data. this yields
+
+\Delta ae = 0:0084 \Sigma 0:0041 (\Delta ae)SM = 0:0066 \Sigma 0:0010 (11) The value (\Delta ae)SM has been obtained under the assumption that the Standard Model is correct. This induces correlations which makes the error smaller.
+
+The genuine electroweak oneloop corrections can and have been organized in such a way that among them the ae-paramter contribution is the most dominant one. In that framework \Delta ae is sometimes called ffl1. (There are also ffl2, ffl3 and fflb to be defined later).
+
+What do I mean by "genuine" electroweak corrections? They are the corrections which are present beyond the "improved" Born approximation (IBA). In this work IBA is defined to contain, besides the Born term, the ordinary QED corrections (including the running of ff between 0 and mZ) and oneloop QCD corrections (in
+
+case the final state particles are quarks). Sometimes in the literature IBA is defined excluding the running of ff and/or including the leading contribution to \Delta ae. I shall mostly stick to the former definition, because it nicely isolates the pure electroweak stuff.
+
+An important qualitative property of ffl1 is that it is a measure of the violation of "custodial" SU (2)R. Custodial SU (2)R is the righthanded global symmetry, which is broken, if weak isospin partners have different masses. For example, the Dirac mass term mt(_tRtL + _tLtR) + mb(_bRbL + _bLbR) breaks custodial SU (2)R, because mt 6= mb. In fact, the term m2t in \Delta ae eq. 8 originates from an expression
+
+m2b + m2t \Gamma 2m
+
+2 b m2t
+
+m2t \Gamma m2b ln
+
+m2t m2b = O(m
+
+2 t \Gamma m2b) (12)
+
+in the limit mb = 0. Similarly, the term ln(mH) arises in eq. 8, because custodial SU (2)R is broken by the difference mW \Gamma mZ. It originates from an expression
+
+m2Zm2H m2Z \Gamma m2H ln
+
+m2H
+
+m2Z \Gamma
+
+m2W m2H m2W \Gamma m2H ln
+
+m2H m2W (13)
+
+in the limit mH AE mW;Z. Note that this expression vanishes in the limit mW = mZ $ s2W = 0. The Higgs boson part of the standard model Lagrangian alone is invariant under custodial SU (2)R. That is the reason, why there are no terms of order O(m2H ) in \Delta ae.
+
+3. Definition of sin2 ` in terms of the muon decay constant The most precisely known quantity in weak interaction physics today is still the Fermi constant as measured in muon decays. For that reason it should be used as one of the basic parameters of the theory. In the low energy limit the Standard Model description of the weak interaction by W and Z boson exchange should agree with the Fermi theory, which describes muon decay by an effective Lagrangian of the form
+
+GFp
+
+2 (_*
+
+_fl*(1 \Gamma fl5)_)(_efl*(1 \Gamma fl5)*e) + h:c: (14)
+
+From that condition, in lowest order a relation GF = 12p2v2 = e
+
+2
+
+4p2 sin2 `m2W between
+
+the Standard Model parameters and the Fermi constant can be derived. A possible
+
+definition of sin2 ` is such that this relation is maintained to all orders [8], i.e.
+
+s20(1 \Gamma s20) = ssffp2G
+
+F m2Z = (1 \Gamma \Delta r)(1 \Gamma
+
+m2W
+
+m2Z )
+
+m2W
+
+m2Z (15)
+
+This definition of sin2 ` by s20 is perhaps the one which will persist in the future because it makes use of quantities which are known very precisely (ff, GF and mZ). ff is known to twelve, GF to six and mZ to five digits of accuracy. I have included in eq. 15 a second equality which gives the relation between s20 and s2W = m
+
+2 W
+
+m2Z . This
+
+relation is the defining equation for the oneloop quantity \Delta r [8]. Just as \Delta ae, \Delta r is
+
+sensitive to mt and mH. Due to the appearance of GF in eq. 15 the main ingredient to the calculation of \Delta r are the higher order corrections to muon decay. These corrections involve W vacuum polarization effects, loop effects at the _-*_-W and at the e-*e-W vertex and boxdiagrams. It can be shown that - besides the running of ff - the dominant contribution to \Delta r comes from vacuum polarization effects, i.e. from terms which can be related to \Delta ae in the leading mt limit. In fact one can write
+
+\Delta r = \Delta ff \Gamma c
+
+2 W
+
+s2W \Delta ae + (\Delta r)small (16)
+
+where (\Delta r)small ^ O(0:01) is small as compared to \Delta ff = 0:0595\Sigma 0:0009 and c
+
+2 W
+
+s2W \Delta ae.
+
+The effect \Delta ff from the running of ff will be discussed in detail later. In the true
+
+spirit of the IBA it would be more convenient to remove \Delta ff from the definition of \Delta r by defining
+
+^s20(1 \Gamma ^s20) = ssff(m
+
+2 Z)p
+
+2GF m2Z = (1 \Gamma \Delta ^r)(1 \Gamma
+
+m2W
+
+m2Z )
+
+m2W
+
+m2Z (17)
+
+where \Delta ^r is the same as \Delta r (eq. 16) except that the \Delta ff piece is removed.
+
+The full expression for (\Delta r)small is very complicated and will not be given here. Instead, I want to make explicit the connection to the calculation of the muon lifetime. To oneloop order the muon lifetime is given by
+
+1 o/_ =
+
+G2F m5_
+
+192ss3 (1 \Gamma
+
+8m2e
+
+m2_ )n1 +
+
+ff(m2_)
+
+2ss (
+
+25
+
+4 \Gamma ss
+
+2)o (18)
+
+where
+
+GFp
+
+2 =
+
+e2
+
+8m2W (1 \Gamma m
+
+2 W
+
+m2Z )
+
+(1 + \Sigma W W (0)m2
+
+W \Gamma ffi
+
+V B) (19)
+
+accounts for the genuine electroweak corrections. \Sigma W W (0) is the renormalized contribution from the W selfenergy diagrams (vacuum polarization) and ffiV B are the (small) contributions from vertex corrections and box diagrams. The combination
+
+\Sigma WW (0)
+
+m2W \Gamma ffiV B can be identified as \Delta r.
+
+To better account for twoloop effects, eq. 16 is sometimes rewritten as
+
+1 \Gamma \Delta r = (1 \Gamma \Delta ff)(1 + c
+
+2 W
+
+s2W \Delta ae) \Gamma (\Delta r)small (20)
+
+Figure 2: the standard model prediction for \Delta r as a function of the top quark mass
+
+Figure 3: standard model correlations between mt, mH and mW
+
+The complete dependence of \Delta r on mt and mH is shown in fig. 2. With the result of the oneloop calculation one can go back into the defining equation for \Delta r to obtain a curve in the mt-mW plane (for fixed values of mH). Such curves are shown in fig. 3 for mH =100, 250, 500 and 1000 GeV. They depend much stronger on the precise value of mW than on mt and mH, because the latter enter through higher order effects. The dependence on mH is so weak that it is not possible at the moment to deduct mH from the measured values of mt and mW . A reduction in the experimental errors for mt and mW by a factor of ten would be helpful, but even this would not allow much more than an estimate of mH. The reason for that is an uncertainty induced on \Delta r by the hadronic uncertainty in \Delta ff. This uncertainty is reflected in the vertical extensions/shaded regions of the curves in fig. 3. To understand it, one should remember that the running of ff is given by the real part of the renormalized vacuum polarization of the photon,
+
+ff(0) \Gamma ff(q2) = ff\Pi flfl(q2) (21) The contribution of virtual lepton loops to the vacuum polarization is given by
+
+\Pi leptonsflfl (q2) = X
+
+l
+
+ff 3ss ae
+
+5 3 \Gamma ln(
+
+q2 m2l )oe (22)
+
+A similar formula would hold for light quarks, with ml replaced by mq, if there would be no confinement of quarks. One cannot calculate \Pi quarksflfl but has to cut the vacuum polarization diagram. This allows, via the optical theorem, to relate \Pi quarksflfl to the measured values of oetotal(e+e\Gamma ! hadrons).
+
+The main contribution to oetotal(e+e\Gamma ! hadrons) comes from the low energy region.The low energy resonances are also the main source of error of \Pi quarksflfl (m2Z) =\Gamma
+
+0:0282 \Sigma 0:0009 [9]. Using e+e\Gamma data up to 40 GeV, this number includes effects of all quarks except for the top quark. The contribution from the top quark loop, and in general from heavy particles, to \Pi flfl(m2Z) is small, of order O( ffm
+
+2 Z
+
+m2t ), and can be
+
+exactly determined, because the top quark is in some sense a free quark and with
+
+the few hundred events from Fermilab the top quark mass is already known more precisely than the masses of u,d and s.
+
+In summary one obtains
+
+\Delta ff = \Gamma \Pi flfl(m2Z) = 0:0595 \Sigma 0:0009 (23) The error in \Delta ff dominates the theoretical error in the curves fig. 3.
+
+Experimentally, there are two ways to determine \Delta r. One can either determine it from the W-mass measurement at Tevatron. This yields \Delta rT evatron = 0:040 \Sigma 0:005. Or one can try to determine it from the combined LEP1 data. This yields
+
+\Delta r = 0:043 \Sigma 0:0111 (\Delta r)SM = 0:0396 \Sigma 0:0035 (24) The value (\Delta r)SM has been obtained from LEP1 data under the assumption that the Standard Model is correct. Via eq. 15 this corresponds to mW = 80:32 \Sigma 0:06 GeV.
+
+4. Definition of sin2 ` in terms of A_F B The definitions of sin2 ` given above were in fact not so closely related to the LEP1 observables, but rely more on the W mass measurement at Tevatron and to muon decay. A "LEP1 definition" of sin2 ` can be given [10] in terms of the neutral current couplings
+
+gfV = If3 \Gamma 2Qf sin2 ` gfA = If3 (25) whose ratio is measured in forward backward asymmetries. If3 and Qf are the weak isospin and electric charge of fermion flavour f. The forward backward asymmetry in the process e+e\Gamma ! Z ! f _f is defined as the difference of events where f goes to the right resp. to the left of the e+e\Gamma beam, normalized to the total number of f-events. To leading order in the standard model it is given by
+
+AfF B = 34 AeAf + O( mfm
+
+Z ) + O(
+
+\Gamma Z mZ ) (26)
+
+where
+
+Af =
+
+2 g
+
+f V
+
+gfA
+
+1 + ( g
+
+f V
+
+gfA )
+
+2 (27)
+
+and is thus a measure of the ratio g
+
+f V
+
+gfA = 1 \Gamma
+
+2Qf
+
+If3 sin
+
+2 ` which arises in the neutral
+
+current
+
+jNC;f_ = e2 sin ` cos ` _f (gfV fl_ + gfAfl5fl_)f (28) The fermion mass term as well as the finite Z width corrections to eq. 26 are explicitly known and can be corrected for. O( \Gamma Zm
+
+Z ) corrections at the Z pole arise,
+
+for instance, from fl-Z interference.
+
+One can use the accurate LEP1 measurements of AF B for muons together with the assumption of lepton universality to define a quantity s2l via
+
+( gVg
+
+A )
+
+l = 1 \Gamma 2Q
+
+l
+
+Il3 s
+
+2 l (29)
+
+where ( gVg
+
+A )l is meant to be the ratio as extracted from the measurement of A
+
+_ F B.
+
+Using polarized electrons the SLC experiment was in fact able to determine Ae separately, and to a precision comparable to the LEP1 result. The two measurements can be combined to give s2l with an error of \Sigma 0:0003. With this error s2l is a factor of ten more accurate than s2W although not as accurately given as s20.
+
+In the literature s2l is sometimes used to define the ae-parameter, i.e. s2l = 1 \Gamma m
+
+2 W
+
+aelm2Z .
+
+This is something like a "generalized" definition of the ae-parameter, but it should
+
+be clear that ael is different from the definition of ae given in eq. 6. It turns out that the leading terms eq. 8 of ae and of ael agree so that the difference is numerically not so large, but from a principle point of view it is important. Also, one may define a relation between s2l and s20 by
+
+s2l = (1 + \Delta k0)s20 (30) just as a relation between s2W and s20 was defined in eq. 15. In combination, the three quantities \Delta k0, \Delta ae and \Delta r comprise the complete information hidden in the genuine electroweak oneloop corrections to the process e+e\Gamma ! Z ! f _f . This statement is true for all f 6= b. b quark production involves additional ingredients to be discussed in the next section.
+
+An alternative set of three quantities containing the same information is given by [11]
+
+ffl1 = \Delta ae (31)
+
+ffl2 = c2\Delta ae + s
+
+2
+
+c2 \Gamma s2 \Delta r \Gamma 2s
+
+2\Delta k0 (32)
+
+ffl3 = c2\Delta ae + (c2 \Gamma s2)\Delta k0 (33) These linear combinations have the advantage that the terms of order GF m2t are concentrated in ffl1 and drop out in the combinations ffl2 and ffl3. Therefore, ffl2 and ffl3 are dominated by conributions from heavy particles without custodial SU (2)R
+
+breaking. Furthermore, the terms of the form ln(mH ) appear only in ffl1 and ffl3, so that ffl2 is dominated by terms of the form ln(mt). Sometimes in the literature the genuine electroweak oneloop corrections are discussed in terms of an equivalent set of quantities, S,T and U, defined via [12]
+
+ffl1 = ffT ffl2 = \Gamma ffU4s2
+
+W ffl
+
+3 = \Gamma ffS4s2
+
+W (34)
+
+In the origninal paper [12] a truncation to the leading terms in 1m2
+
+Z was used todefine S,T and U which is not really necessary.
+
+All genuine electroweak oneloop corrections to LEP1 observables can be given in terms of ffl1,ffl2 and ffl3. For example,
+
+AlF B = AlF Bfifififi
+
+IBA(1 + 34:72ffl1 \Gamma 45:15ffl3) (35)
+
+One can do a combined fit [13] of all the measurements to determine ffl1,ffl2 and ffl3. I am not going to present the results of this fit here because the particular numbers change from month to month and depend on whether one uses other input than LEP1 or not (like mW from the Tevatron). Instead I want to finish this section with a qualitative statement on the errors of ffl1,ffl2 and ffl3. The main error on ffl1,ffl2 and ffl3 is induced by the errors on ffs(M 2Z), \Delta ff, mW and mt. The first two lead to an ambiguity in the IBA prediction for AlF B, whereas the latter two enter through the uncertainty in \Delta ae. The uncertainty in ffs(M 2Z ) is reflected most strongly in an uncertainty in ffl3.
+
+5. b Production at LEP1 b production at LEP1 involves a very interesting feature not present in the production of all the other light fermions, namely the presence of vertex diagrams with virtual top quarks in the loops (c.f. fig. 4 and ref. [14] ). It turns out that these corrections affect the integrated width \Gamma b = \Gamma (Z ! b_b) but not the forward backward asymmetry AbF B. Therefore I shall first take the opportunity to present the formula \Gamma f = \Gamma (Z ! f _f ) for all light flavours f and afterwards discuss the modifications necessary to get \Gamma b. One has
+
+\Gamma f = \Gamma 0(gf2V + gf2A (1 \Gamma 6 m
+
+2 f
+
+m2Z ))(1 + Q
+
+2 f 3ff4ss ) + QCD (36)
+
+where \Gamma 0 = 112p2ss N fc GF m3Z and "QCD" stand for the QCD corrections, now known including all terms O(ff2s). We note that in eq. 36 the two quantities gfV and gfA
+
+Figure 4: some of the nonuniversal vertex diagrams specific to b-quark production at LEP1
+
+appear separately, and not just their ratio. Beyond the leading order we write
+
+gfV = aef (If3 \Gamma 2Qf s2f ) gfA = aef If3 (37) In addition to s2f , introduced in section 4, a quantity aef appears. For all f except b, one has
+
+aef = 1 + 3GF m
+
+2 t
+
+8p2ss2 + :::: (38)
+
+For f=b one has instead
+
+aeb = 1 \Gamma GF m
+
+2 t
+
+8p2ss2 + :::: (39)
+
+where the dots stand for nonleading terms. These nonleading terms are known and they are different for aef and aeb, too. Even twoloop effects (electroweak/QCD interference) are known [15]. In addition, there is a tiny effect from top quark dependent twoloop QCD diagrams specific to b-production [16]. Corrections of the form ffsGF m2t are also known [17]. Note that the diagrams fig. 4 hardly modify the shape of the angular distribution resp. AbF B, but - via eq. 39 - only the integrated width \Gamma b.
+
+Comparing eqs. 38 and 39 we see that these diagrams induce terms of order GF m2t with a tendency to compensate the corresponding contributions from the ae-parameter. This is removed, if one considers the ratio Rb = \Gamma b\Gamma
+
+had of \Gamma b to the total
+
+hadronic Z width, because in the ratio the "universal", i.e. flavour independent
+
+contributions from the ae-parameter drop out. In fact one has
+
+Rb = Rbfifififi
+
+IBA(1 \Gamma 0:06ffl1 + 0:07ffl3 + 1:79ffl
+
+b) (40)
+
+with small coefficients of ffl1 and ffl2. fflb comprises the effect of fig. 4. At the moment the experimental analysis of b quark production gives values for Rb which are larger
+
+than the theoretical prediction (given mt=175 GeV from Fermilab). In terms of top quark mass values they would point more to 120 than to 175 GeV. If this result would persist, this could point to a new physics effect. However, for this analysis an identification of b quarks to per mille accuracy is necessary. Experimentally this seems to be extremely difficult. It is well possible that the explanation of the present discrepancy lies in the misidentification of b and c quarks.
+
+6. Conclusions In this article I have discussed the theoretical implications of the LEP1 electroweak data. I have not discussed possible effects from beyond the Standard Model because my point of view is that one should first analyze the Standard Model predictions very carefully, then compare to the experiments and study other models only in case a deviation from the Standard Model is seen.
+
+At the time of writing the LEP1 measurements are not precise enough to give information on mH and it is doubtful whether they ever will be.
+
+Certainly, Tevatron and LHC will improve on mW and mt and part of the LEP1 precision analysis may become obsolete.It might be just the precise value of mZ = 91:1887 \Sigma 0:0022, which remains as its most important contribution. Of course, history may evolve differently: There may be something behind the enhanced b production rate. But even in that case, within a few years more precise studies of top quark properties at the Tevatron upgrade could show these effects more prominent.
+
+This is perhaps too pessimistic a picture of an experiment which has fascinated the whole high energy community over many years with its great physics potential and successful data taking. The LEP1 experiment has certainly contributed a lot to our understanding of the particle world and to establish the validity of the electroweak standard model up to energies of order 100 GeV (not to mention the determination of ffs and the number of light neutrino species).
+
+References [1] definitions of sin2 ` discussed in original papers are, for example
+
+D.C. Kennedy et al., Nucl. Phys. B322 (1989) 1 and B321 (1989) 83 W.J. Marciano and A. Sirlin, Phys.Rev.Lett. 46 (1981) 163 J. Sarantakos et al., Nucl. Phys. B217 (1983) 84 W. Hollik, Fortschr.Phys. 38 (1990) 165
+
+[2] M. Consoli et al., "Electroweak radiative corrections for Z physics" in "Z physics
+
+at LEP1", CERN report 89-08 (1989)
+
+[3] G. Altarelli, "Theoretical implications of precision electroweak data", in Proc.
+
+of the 4th International Symposion of Heavy Flavour Physics, Orsay 1991
+
+[4] M. Veltman, Nucl. Phys. B123 (1977) 89 [5] A. Djouadi, Nuovo Cim. A100 (1988) 357
+
+D. Djouadi and P. Gambino, Phys. Rev. D49 (1994) 3499
+
+[6] R. Barbieri et al., Nucl. Phys. B409 (1993) 105 [7] J.J van der Bij and F. Hoogeveen, Nucl. Phys. B283 (1987) 477 [8] A. Sirlin, Phys. Rev. 22 (1980) 971
+
+W.J. Marciano and A. Sirlin, Phys. Rev. 22 (1980) 2695 G. Burgers and F. Jegerlehner, "The relation between the electroweak couplings and the weak vector boson masses" in "Z physics at LEP1", CERN report 89-08 (1989)
+
+[9] S. Eidelman and F. Jegerlehner, Z.Phys.C67 (1995) 585 [10] for a review see W. Hollik, "Predictions for e+e\Gamma processes", in: Precision tests
+
+of the standard model, World Scientific 1993
+
+[11] G. Altarelli et al., Nucl.Phys.B405 (1993) 3 [12] E. Peskin and T. Takeuchi, Phys.Rev.D46 (1992) 381 [13] G. Altarelli et al., Phys.Lett.B349 (1995) 145 [14] A.A. Akundov et al., Nucl.Phys. B276 (1988) 1
+
+J. Bernabeu et al., Phys. Lett. B200 (1988) 569 W. Beenacker and W. Hollik, Z. Phys. C40 (1988) 141
+
+[15] J. Fleischer et al., Phys. Lett. B293 (1992) 437
+
+G. Buchalla and A.J. Buras, Nucl. Phys. B398 (1993) 285 G. Degrassi, Nucl. Phys. B407 (1993) 271 K.G. Chetyrkin, Phys. Lett. A8 (1993) 2785 K.G. Chetyrkin and A. Kwiatkowski, Phys.Lett.B305 (1993) 285
+
+[16] J.H. K"uhn and B.A. Kniehl, Nucl. Phys. B329 (1990) 547 [17] J. Fleischer et al., Phys. Lett. B319 (1993)249 [18] K. G. Chetyrkin et al., Phys. Lett. B351 (1995) 331;
+
+L. Avdeev et al., Phys.Lett.B336 (1994) 560, ERRATUM-ibid.B349 (1995) 597
+

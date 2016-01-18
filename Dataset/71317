@@ -1,0 +1,721 @@
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 1
+
+
+
+
+From novel mathematics to efficient algorithms.
+Do we have proper SD foundation to build future?
+Alberta Thy 03-02
+
+Fyodor V. Tkachov
+
+INR RAS, Moscow 117312 Russia; University of Alberta, Edmonton, T6J 2J1 Canada
+
+Computer implementation of sophisticated algorithms for physics applications is greatly facilitated by the new
+generation of component-oriented SD technologies pioneered by Wirth's Oberon and embraced by the software
+industry (Sun's Java and Microsoft's C#). In a stark contrast with the deeply flawed C++, the Oberon technolo-
+gies (specifically, the Component Pascal and the BlackBox development environment) offer an unparalleled SD
+platform for building scientific applications from sophisticated data processing to demanding symbolic calcula-
+tions. Specific examples are discussed.
+
+
+This workshop is taking place against the backdrop of a · the state of the art in SD is not the amateurish and
+theoretical crisis with calculations for the existing and fu- deeply flawed C++ [10] but Oberon-2 [11] (the best sup-
+ture colliders; theorists are behind experimentalists preci- ported implementation known as Component Pascal [12]);
+sion-wise, and it is not clear when (and if) the gap will be ·
+significantly narrowed. The theory for LEP1 [1] was im- the Oberoni technologies have ushered in what may be
+plemented within the framework of the calculational para- called the modern standard SD paradigm; the paradigm en-
+digm based on the use of Schoonschip and derivatives [2] compasses the two dominant mega-projects of the software
+for vector and spinor algebra; dilogarithms for (one loop) industry: Sun's Java and Microsoft's .NET;
+integrals [3]; and FORTRAN for numerical calculations; · but Oberon-2/Component Pascal, while capable of
+with the different pieces connected [4] by a tremendous peaceful coexistence with both Java and C#, remains the
+amount of hand work. But already the one-loop calculations best foundation for complex scientific applications.
+for LEP2 are far from being complete. What about 2 loop Three causes of the calculational crisis
+calculations in the Standard Model that are needed for
+theoretical numbers to match data precision-wise? First, there is the problem of politics around research
+The purpose of this workshop as explicitly set forth by fund allocation, and the research community has not done
+the organizers in the first bulletin was supposed to be enough to minimize its adverse effects on the efficiency of
+research. Politics means desinformation (which spans the
+"to set up the bases for a more coherent and entire range from omissions to plagiarism), and so "stifles
+professional approach of our activities both communication, breeding distrust and inefficiency ..." -- in
+at the theoretical as well as the technical the final respect, causing a crippling misallocation of re-
+level." search fundsii. At a technical level, the resource allocation
+To appreciate what more coherent means here, consider politics obstructs component softwareiii: why should one
+the fact that this workshop has seen presentations from the bother to make public a software component for, say, fast
+GRACE [5], CompHEP [6], OMEGA [7], and GiNaC [8] Dirac trace calculations if there is no credit to be gotten for
+projects -- all featuring different and incompatible sym- it?
+bolic algebra engines, without any way to share application- Second, the theoretical community's command of mathe-
+specific algorithms except by rewriting source code. Clearly matical methods seems to be below what's required by
+coherence between all these projects is lacking to a worry- perturbative quantum field theory -- not in regard of com-
+arXiv: v2 11 Feb 2002 ing degree. binatorial complexity but in regard of the conceptual
+Professional is, in essence, about efficiency: it is the ef- framework. It is profoundly misleading to regard Feynman
+diagrams as ordinary integrals; they are generalized objects
+arXiv: v2 11 Feb 2002 ficiency in performing a task that differentiates profession-
+als from amateurs. Most importantly, a professional is seen and should be treated as such, with full understanding of
+by the tools s/he uses. the concepts and methods of distribution theory (I discussed
+It is perfectly obvious that many of the problems theo- this in [13]). Generalized solutions, regularization (in the
+rists are encountering result from a lack of a proper com- sense of numerical methods), etc. are key concepts here.
+mon SD foundation for the algorithm design work. Yet sur-
+prisingly little has been said about this at this workshop: i For simplicity, I will not explicitly distinguish Oberon (1986) and
+D. Perret-Gallix mentioned the problem of standards in his Oberon-2 (1991), and will always have in view the latter.
+introduction, and A.Kryukov discussed a technology that ii One can invent calculational methods on which a whole calcula-
+could help eliminate redundant effort in field theory model tional industry would thrive, with the results receiving thousands of
+building [9]. And that was it. citations -- and then be told that one "is not doing any physics" and be
+denied an essential support.
+The present talk argues that: iii Component software implies that one can replace a module encap-
+· physicists as a community are actually well behind the sulating, say, an algorithm for doing Dirac traces and conforming to
+state of the art in software engineering; the circumstance pre-defined interface specifications, in one's system bypassing unnec-
+essary encumbrances like the linking step and maintenance of header
+results in a huge and continuing waste of resources, bound files, and immediately start using the module without rewriting/recom-
+to continue into the future; piling/relinking one's application program written to the same specifi-
+cations. This concept is implemented in Oberon, Java and C# -- but is
+impossible with FORTRAN, C and C++.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 2
+
+
+
+
+Examples of constructive solutions of this kind from my Yet the complexity of TeX tends to be (unconsciously) re-
+own experience are: the asymptotic operation [14]; the garded as a source of pride by TeXnicians. (A similar sen-
+gauge-invariant perturbation theory with unstable fields timent seems to prevail in regard of C++.) I personally do
+[15]; algebraic (a.k.a. integration-by-parts) algorithms for not feel I have enough brain power to waste with TeX. On
+multiloop calculations [16]; quasi-optimal observables [17]. the technical side, TeX is a one way street: it was designed
+But how to implement all that wonderful mathematics as with, essentially, the sole goal in view (eliminating the
+working algorithms? Quite often, this requires much more typesetter by placing the burden on the author), and it is too
+experimentation and safe flexibility of data structures than complex to be a standard for exchange of convertible
+what's offered by the dominant SD platforms (FORTRAN, mathematical information. Even for exchange of papers
+C/C++). In other words, the dominating SD platform im- postscript proves to be a preferred solution. (Most people
+poses severe penalties on the algorithmic design. seem to prefer to download postscript from the arXive to
+One might say that this is what division of labor is for. avoid the hassles of TeX. On the other hand, the emerging
+However, there is an objective and a subjective objection to MathML standard addresses the need of mathematical in-
+this. Subjectively, as experience proves, whoever controls formation exchange with not just form but also meaning
+the software tends to dictate the rules of collaboration, preserved [18].)
+which was seen to be disastrous in the long run. Objec- · Then there is this problem of monolithic software inca-
+tively, experimenting with sophisticated algorithms may pable of genuine extension (see [8] for similar arguments):
+require a much more rapid cycle and broader-band feedback try to implement a fast bit-manipulating algorithm in Maple
+than what's usually possible within a team of specialists; in or Schoonschip (an example is the algorithm for evaluation
+other words, the best results are achieved when formulae of Dirac traces, see below).
+and their algorithmic implementation co-evolve in the same At this point I note that the variety of efficient algo-
+head. Due to these reasons I had been for a lo-o-ong time rithmic solutions needed for advanced pQFT calculations
+seeking simple yet powerful SD tools that would allow me spans the entire spectrum from old-fashioned numerical
+to stay in control of my algorithms, intellectually and oth- calculations to dynamical Lisp-like data structures to bit-
+erwise. wise manipulation usually considered to be a feature of
+The third cause of the calculational crisis is a grossly in- system-level programming. One needs genuine procedures
+adequate SD foundation. Briefly put, physicists' SD, on the with various parameter-passing mechanisms, etc. In short:
+whole, is in the stone age.
+· One needs the full power of a general-purpose sys-
+The computer revolution evolves too fast, affecting too
+much. This by itself creates myths. Physicists are more sus- tem programming language.
+ceptible to such myths because they have physics to worry One also needs to be able to mix software components re-
+about, full time. sponsible for different aspects of the calculation in an arbi-
+· The speed of computer revolution exacerbates the phe- trary fashion, in as easy and error-safe fashion as possible.
+nomenon of effective incompetence of scientific elite. I won't discuss the dying FORTRAN monster. So:
+(It is hard to stay on the cutting edge even in one's field of
+specialization. A step or two up in the hierarchy, and it be- W hat's wrong with C/C++?
+comes impossible to have one's own expertly opinion on Two things are wrong with these popular languages:
+the range of subjects one is supposed to supervise. Another (i) Programmers' productivity is unnecessarily low.
+step up, and one no longer really needs to be an expert in
+anything but public relations.) (ii) The resulting software's quality is unnecessarily low.
+· Economic principles do not work as elsewhere because (We are talking here about a BIG factor, not just a few %,
+it is hard to match the "product's" value against invest- and about larger projects where these effects are manifest.)
+ment. There are mountains of evidence for this. The problem
+· So there is platform fragmentation: historically, physi- is, however, that physicists on the whole are ill-informed
+cists have been able to justify expensive hardware which about these things. Here are some easily available studies:
+carries higher profit margins for manufacturers thus weak- [19], [10]. The quotes below are from those publications.
+ening competition in this segment and resulting in larger C
+array of incompatible hardware in use. ·
+· "... the C enthusiasts seem to be largely in ignorance of
+But collaborations are essential, so physicists are essen- the advances which have been made in language design in
+tially reduced to a crippling common SD denominator the last 20 years ..."
+(FORTRAN, UNIX, C/C++, TeX, ROOT ...), providing · C offers no safety to the programmer: it is far, far too
+ground for commercial -- but still inadequate -- projects easy to create hard-to-find bugs (recall how Form crashes
+such as Form-2. unless its author participates in the project). Remember
+Consider TeX as an example of the irrational mythology that the main source of errors is not the initial coding (it is
+that justifies the situation. 30% of the human brain is in- this initial stage that many programming gurus refer to
+volved in the processing of visual information. Using a non- when proclaiming that it does not really matter which lan-
+visual equation editor is like lobotomizing oneself by 1/3.i guage they write in), but the code's modification (e.g. to
+
+i At this point a member of the audience objected citing the difficulties precision of manual specification: in my obsolete version of "Word",
+he experienced fixing a picture on a page in "Word". Well, first, I bet
+the person involved did not spend on the "Word"'s documentation a Format Frame brings up a dialog with several options for manual
+fraction of the time he was forced to do with TeX. Second, there is ab- specification of the picture's position (Relative To: Page, Margin,
+solutely no contradiction between the ease of visual design and the Column, Paragraph).
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 3
+
+
+
+
+experiment with an algorithm, or to adapt code to evolving Won't it happen that by mid-LHC C++ will be a dying spe-
+problems, etc.). cies like FORTRAN is now?i
+· Emphasis on explicit pointer arithmetic with no auto- In short, adopting C++ for SD in physics now appears to
+matic memory management places too hard a burden on be nothing short of a major disaster. "Physicists would have
+programmers and is the single most serious source of ex- been better off with FORTRAN."
+tremely hard-to-find bugs in medium- and large-scale pro- W hat would proper SD foundation be like?
+grams with dynamic data structures. Here is a laundry list of desirable features in no par-
+· There are no genuine modules, which prevents a true ticular order:
+encapsulation of code and thus preventing true component · Suitability for standard numerical applications; this
+software. implies efficient compiled code.
+The above three points also imply that production of · Symbolic algebra. As I said already, the variety of sym-
+medium- and large-scale software is greatly (and unneces- bolic algebra problems is huge and spans anything from dy-
+sarily) impaired by the use of C. namic Lisp-like data structures to database-like features to
+· Poor readability -- cf. the Obfuscated C Code Contest bit-wise combinatorial manipulation.
+[20]. Poor readability translates into a support nightmare · Everything in between: there must be no hard and fast
+(or guaranteed salaries for the authors of the code). boundary between numerical and symbolic calculations.
+· Features like FORTRAN output of symbolic algebra sys-
+Then there is this Law of saturation of programming tems are props, not real solutions. In fact, design of ad-
+language's degrees of freedom: in a large project partici- vanced numeric algorithms is greatly facilitated if dynamic
+pants will tend to use -- deliberately or as a result of natu- data structures are well supported, blurring the boundary
+ral code evolution through patches etc. -- all the features of between the two classes of applications.
+the language, which inevitably leads to obscure errors when · Support of graphics is necessary. Interactive graphics
+code modifications are attempted. (not just dialogs) is a whole new dimension in scientific
+The law comes into a full effect: (1) with novice pro- computing.
+grammers wanting to show off their expertise (I thank · Connection with legacy software (e.g. FORTRAN li-
+T.Ohl for sharing a story); (2) whenever the project is to in- braries).
+corporate substantial independently-written pieces of code. · A proper SD platform must support extensibility: for
+· The poor readability of C and the Law of saturation ... instance, no closed SA systems can possibly provide all one
+make communication extremely difficult -- thus impairing needs, whence a tendency to build SA systems using gen-
+collaborations. eral purpose languages with full access to the underlying
+Also consider the following example: You are a physi- data structures [6], [7], [8]; see also on the BEAR project
+cist who doesn't do programming day in, day out. Suppose below.
+you wrote some code last year, then did some theory for · Support of collaborations -- i.e. allow independent de-
+several months to improve your formulae, and now want to velopment of plug-and-play components. This implies at
+modify that code. How much time would you need to regain least two things:
+the ability to read your C code fluently? · Modularity (not the fake modularity of C/C++ but the
+"... Anyone who has practiced C will know how many true modularity allowing true information hiding as in
+traps there are to fall into ..." [19]. Modula-2, Oberon, etc.).
+C++ · Full safety -- i.e. a minimal dimensionality of the space
+in which the Law of saturation etc. plays out; or, equiva-
+· No genuine programming language design expertise be- lently, a maximal robustness of the language with respect to
+hind it: ".. much of the C++ literature has few references to human errors, esp. those induced by modifications etc.
+external work or research.." [10] (This requirement was understood and implemented by
+· A false promise of compatibility with C: it is simply im- Wirth in Oberon but not by Stroustrup in C++.) A full
+possible to have a sound object/component model with ex- safety implies:
+plicit unchecked pointer manipulation (an independently strict static type safety;
+written piece of code dropped into your project can ruin strict control of interfaces;
+everything). centralized memory management (this implies that no
+full compatibility with C, Pascal and similar languages
+· The language is far too complex, unnecessarily complex which allow a direct manipulation of pointers is possible).
+poor portability, bad compilers. · To support collaborations, it may also prove necessary to
+· C++'s features such as operator overloading sharply in- find a mechanism for properly crediting authors of soft-
+crease dimensionality of the space in which the above Law ware components used in a project (a similar problem ex-
+of saturation plays out. "C is not applicable for large scale ists with commercial components and web services).
+production ... C++, however, has not solved C's flaws,.. but · Simplicity.
+painfully magnified them." [10]. If we want to remain physicists then the core language
+· C++ was an unproved, untested technology when in -- and on top of -- which all the above is to be pro-
+adopted as a standard for large projects such as LHC. vided, must be simple enough in order to coexist in our
+
+Software industry scurries away form C++: according to
+the industry analysts, in 5 years Java and C# would domi- i During the workshop, anecdotal evidence was offered about a serious
+nate in the software industry at the expense of C/C++ [21]. conflict in a large experimental collaboration in regard of the use of
+C++.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 4
+
+
+
+
+heads with physics, calculus ... memory management, which implied a ban on accidental
+Physicists and programmers within the physics com- use of explicit pointer arithmetic and unchecked type casts,
+munity must understand each other well. thus making it impossible to retain a full compatibility with
+either Pascal or Modula-2 (something that was completely
+It must be possible to immediately resume program- missed in the design of C++). Surely low-level facilities are
+ming after months of analytical work. provided for exceptional situations (drivers etc.), as was the
+
+
+
+In short: programming should be considered as basic a case in Modula-2.
+tool in our profession as calculus, and it ought to be possi- The result, I repeat, was nothing short of a miracle:
+ble to do programming in as casual a manner as we dif- · a simplei, highly readable language (see code example in
+ferentiate and integrate. Appendix A); its formal definition fits on one page (see
+· Portability. This problem becomes somewhat less pro- Appendix B), and Language Report is under 30 pages [12];
+nounced with the growing popularity among physicists of · a lightning fast single-pass compiler;
+Intel-compatible dual-boot Linux/Windows workstations, · no linking step (compiled modules are loaded dynami-
+but it still exists. cally on demand, with the necessary interfaces and versions
+Some history checks) and no separate header files (these are automati-
+cally maintained by the system);
+A brief reminder will help to appreciate where the solu-
+tion I am going to advocate comes from. · the preceding two features result in an extremely flexi-
+Algol-60 introduced the concept of a general-purpose ble, quick development cycle, making one feel like working
+programming language with a strictly defined syntax. In the with an interpreted system;
+70's, the techniques of structured programming were · all genuine the benefits of OOP (inheritance, polymor-
+widely adopted. In the 80's, object technologies became phism) are provided without pain with only single inheri-
+popular (object technologies are a natural extension of the tance, and with efficiency of compiled code in no way com-
+concept of user-defined records and a natural tool to sup- promised;
+port dynamical data structures). The 90's saw the pattern · the language is extremely easy to learn and easy to use
+movement and intensive discussions of component soft- thanks to a strict orthogonality of its features, which leaves
+ware. Now all the rage in the industry are web services no room for pitfalls such as those encountered in Java (see
+(objects/software components interacting over Internet). below);
+Around `70 N.Wirth at ETH [22] created Pascal as a · the built-in automatic garbage collection proves to be a
+successor to Algol-60 (and subsequently received the Tur- pure joy to live with (see also about BlackBox/Gr below)
+ing Award for this achievement in 1984). In `72-74, to fa- -- even in situations where static memory management
+cilitate ports of Pascal to various platforms, the pseudo- FORTRAN-style would be sufficient.
+machine P-code was developed at ETHZ (cf. the resurgence
+of this idea in the Java bytecode and Microsoft Intermediate There is every reason to regard Wirth's Oberon as
+Language, the latter designed for efficient compilation; a computer age analogue of Euclidis Elementa.ii
+MSIL is an essential element of the .NET project, ensuring
+both portability and multi-language programming within Implementations of Oberon
+.NET). In '79 Modula-2 was created as a successor to Pas-
+cal; it was aimed at full-scale general purpose system pro- Oberon is both a language and a run-time environment
+gramming; it remains fully competitive with C as far as insofar as the prevailing OSes do not support automatic
+compiled code efficiency and low-level features are con- garbage collection. There are both standalone implementa-
+cerned, while far exceeding the latter in reliability of re- tions of Oberon as well as Oberons running under other
+sulting systems due to strong typing and other safety fea- OSes [27]. Of the latter breed, the most stable by far and
+tures. In `83-85 Wirth built a fast and compact Modula-2 best supported is the commercial version (free for teachers
+compiler, thus demonstrating advantages of both his key and ill-funded researchers) provided by the company
+programming methodology of stepwise-refinement [23] and Oberon microsystems, Inc., [28]. For marketing reasons, the
+programming languages with carefully designed, compact language was renamed to Component Pascal, and the de-
+formal definitions. velopment environment was called BlackBox Component
+Of major importance was Wirth's Project Oberon [11]. Builder.
+In it, Wirth attempted, based on his experience with Pascal Ominc was founded in 1993 by Wirth's students with
+and Modula-2, to give a concrete, practical answer to the the purpose to port Oberon technologies to popular plat-
+questions, What are the essential elements of a general pur-
+pose procedural programming? and, Is it possible to distill
+i
+such elements into a compact, simple and comprehensible Simplicity in this context does not imply that, say, more than 2-
+dimensional arrays, or arrays of records, are not allowed; on the con-
+language, yet retaining all the power of Modula-2? trary, each such restriction is regarded as a complication of the lan-
+The result proved to be nothing short of a miracle: a guage.
+smooth blend of the conventional structured procedural ii At least in regard of procedural programming. However, one of the
+programming language features (loops, arrays ...) with a first code examples in the functional language Objective-Caml [25]
+rational subset of object technologies. In the process, the that I was shown contained a FOR loop. Moreover, the compiler of
+notion of component software received a practical imple- O'Caml is an order of magnitude bulkier (and, presumably, slower)
+mentation. To ensure that independently developed soft- than that of Component Pascal. As to the formal program verification,
+(1) this can be done very well with structured procedural languages
+ware components and objects do not break the whole, Wirth [26]; (2) for larger software projects formal verification is probably
+realized the absolute need for a centralized automated impossible no matter what language one uses.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 5
+
+
+
+
+forms. (NB One of the cofounders, C.Szyperski, is now at Sun's Java introduced in 1995 is clearly seen (and
+Microsoft Research.). BlackBox is currently available for known) to have been influenced by Oberon, the most obvi-
+both Microsoft and Apple platforms, nicely adapting to the ous difference being the adherence to a C-style syntax.
+native GUI in each case. The company's revenue is derived Java's intermediate bytecode also makes one recall Wirth's
+from consulting and custom architecture and software de- P-code project which ensured portability of Pascal to vari-
+sign with an impressive list of references. The top-level ex- ous hardware platforms.
+pertise of the team and the quality of BlackBox is demon- Unfortunately, Java has never been designed for run-
+strated by the fact that Borland, the reputable maker of ex- time efficiency or numerical applications. In the interpreted
+cellent programming tools (TurboPascal, Delphi), commis- version, the best Java JIT compilers produce code whose
+sioned Ominc to write a JIT compiler for their Java VM. efficiency does not exceed 60% of C++, and the programs
+The language Component Pascal is an Oberon-2 fine- written in C++ can be significantly slower than C.i Even if
+tuned to provide an improved support for large systems and directly compiled into native machine code, Java does not
+compatibility with with Java at the level of base types. allow object allocation on stack, and Java's parameter
+BlackBox Component Builder is an industrial-strength passing mechanism may cause inefficiencies (in a simple
+RAD IDE, featuring a unique combination of properties not test, a model of the Java parameter passing was slower by a
+found in any other similar tool on the market: factor of 2 than a semantically equivalent Component Pas-
+· it is fast (runs well on a i486) and compact (distribution cal program with three OUT parameters). The floating
+comes in a 6 MB file); point support in Java may also be less than adequate [29].
+But probably the biggest concern with Java is its unneces-
+· its stability and quality of compiler are legendary; sary complexity resulting from un-expertly language design:
+· the software development under BlackBox is definitely "... with Java, one is always having to revise one's
+easier than in Delphi (confirmed by some of my initially "knowledge" of it as more is learnt .. incredible but hidden
+skeptical students); complexity -- such as the obscure rules for inheritance ...
+· the resulting compiled code is perfectly clean, noticeably Java ... looks simple yet is complicated enough to conceal
+better than code produced by Gnu compilers (reported by obvious deficiencies." [30]
+my inquisitive students); The programming language C# (2000) is a central part
+· the construction of dialogs is as easy as with Visual Ba- of the mega-project Microsoft.NET; the language is similar
+sic and Delphi; to Java in many respects including C-style syntax, other-
+wise the influence of Wirth's school of thought is even
+· (interactive, real-time) graphics: nothing short of amaz- more pronounced:
+ing in regard of both programming ease and power; · Microsoft Research, responsible for the design of .NET,
+· full access to the native OS interfaces (also to MS Office hired C.Szyperski, a cofounder of Oberon microsystems and
+under MS Windows); a leading world expert in component software, as well as
+· a direct access to hardware (registers, RAM, etc.); the creator of Turbo Pascal A.Hejlsberg.
+· full access to legacy code (the legacy code has to be re- · Oberon-2 and Component Pascal were both among the
+compiled into dll's); 12 languages presented in the 2000 announcement of .NET.
+· it is inexpensive and even free for teachers and ill- · The intermediate code (MSIL) is designed for efficient
+funded researchers. compilation and thus directly compares with the Pascal P-
+The only weak point in regard of the wish list given code. There is evidence that code compiled from Compo-
+above is platform support: here I can only quote the Black- nent Pascal via MSIL compares with C compiled natively
+Box documentation where it discusses possible values of [31].
+the variable Dialog.platform ("... indicates that BlackBox Unlike Java, C# has been standardized by ECMA. Also
+is running on ..."): deserves a mention the Mono Project by Ximian [32]; the
+aim of the project is to bring the core of .NET to Linux.
+windows32s, macOS "not supported anymore" However, with C# there are also efficiency concerns,
+windows 95, NT4, 2000, 98 although to a lesser degree than with Java: all objects in C#
+macOSX, linux, tru64 "currently not supported" are allocated on heap which may in certain circumstances
+cause unnecessary overhead. The complexity of C# may
+The new standard SD paradigm and also be an issue: although the language is very much sim-
+component-oriented programming pler than C++, its designers failed to refrain from language
+The SD paradigm ushered in by the Project Oberon [11] design experiments ([un]boxing, etc.) [33] as well as stuff-
+can be described as one based on the use of a safe, strictly ing language with features which ought to be relegated to
+typed, structured, modular programming language which libraries.
+incorporates a rational subset of object technologies Of the triad, Oberon/Component Pascal obviously stands
+(without multiple inheritance), with the run-time system out for its simplicity, uncompromised suitability for nu-
+supporting dynamic loader with version control and strict
+interface control as well as automatic memory management i C++ gurus argue that this is solely due to a poor programming. How-
+(the garbage collection well-known e.g. in Lisp and the ever, the evidence at my disposal (reported by my collaborators on the
+functional programming technologies). MILX project [40], now at Qwest Communications) concerns fairly
+The Oberon paradigm has by now become the "standard mundane tasks. I don't see, for instance, how a straightforward pro-
+SD paradigm" -- thanks to the adoption of its key concepts gram could be ported from C, say, to Component Pascal under Black-
+Box and become appreciably slower (if at all).
+by the Sun's Java and Microsoft's C#/.NET project: Of course these observations do not constitute an accurate statistics.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 6
+
+
+
+
+merical applications (in which regard it is as good as FOR- -- in days. Production of the final FORTRAN code again
+TRAN or C) as well as a clean and expertly language de- required an inordinate amount of time -- of the order of a
+sign, making it much easier to have a complete intellectual month. The times include all the usual real-life distractions
+control over -- which is a prerequisite for high-quality which put the longer projects at a disadvantage due to time
+software development, especially by non-professional de- losses for restoring context after interrupts, etc.
+velopers. The first remark is that the ease of development is abso-
+Examples lutely incomparable between old-style FORTRAN and the
+new-style Component Pascal. There is just no comparison.
+In the examples below I try to demonstrate the advan- The second remark is that such an algorithm could be a
+tages of the Oberon paradigm in general, and the BlackBox software component -- a piece of code with an agreed-upon
+IDE in particular, from many different angles.i A more interface that could be simply dropped by other people into
+technical feature-by-feature comparison is found in [34]; their systems and used -- without all the headaches of re-
+some of the propositions of [34] are somewhat subjective, linking, variables' names conflicts, maintenance of header
+some are too narrow (like the notion that object program- files, etc.
+ming features fall outside the scope of scientific program- The third remark is that, once one gets the hang of how
+ming, which I completely disagree with), and some are ob- languages of the Oberon paradigm are to be used and learns
+solete (e.g. experience has confirmed that negative effects the corresponding idiomatics, one realizes that there is a
+of operator overloading in large projects outweigh its syn- vast and usually disregarded class of numerical algorithms
+tactic convenience); however, the core argumentation and which make a casual use of dynamical data structures (OJF
+conclusions of [34] are in agreement with mine. barely escaped ending up as an algorithm of that kind).
+As a warm-up, recall that the CompHEP project [6] was Such algorithms bridge the chasm between the usual static
+originally created in the late 80's with the Turbo Pascal. numerical number crunching and symbolic manipulation,
+Creating such a system from scratch was no mean feat, and and offer vast new opportunities not yet fully appreciated
+CompHEP remains unique in some respects to this day. (e.g. for sophisticated adaptive integration algorithms [40]).
+However, to enable its use by physicists on more The development of such algorithms can be very difficult
+"powerful" platforms, it was ported to, and rewritten in the without automatic memory management as I learned from
+spirit of C. Since then, its core has not seen serious en- the MILX project [40].
+hancements despite its known and undesirable limitations.
+The next example is a widely quoted testimony by a Mi- Dirac traces in D dimensions
+crosoft manager [35]: "By writing in Java, Microsoft pro- This example concerns the standard problem of evalua-
+grammers are between 30% and 200% more productive tion of Dirac traces in D dimensions -- a problem that oc-
+than when they write in C++." This must concern the tasks curs in a vast number of theoretical high energy physics
+of business-oriented programming. I add from experience calculations. The example demonstrates the power of bit-
+that in the design and implementation of sophisticated manipulation facilities in Component Pascal as well as the
+mathematical algorithms, the automatic garbage collection power of flexible approach to algorithm construction of-
+in Oberon/Java/C# (as opposed to C++) seems to offer even fered by the Oberon paradigm. The algorithm I am going to
+greater benefits: discuss was announced on my web site in 1998 [41].
+Optimal Jet Finder It is a funny algorithm: it involves no fancy mathematics,
+essentially, only optimizations of various kinds -- formu-
+My next example demonstrates the advantages offered laic and software. Start with simplest formula, quoted pro
+by Component Pascal and the BlackBox in regard of devel- forma in any quantum field theory textbook:
+opment of numerical algorithms of the less standard nature.
+This is an implementation of the so-called optimal jet defi- trace = product of pairings.
+nition [36], [37]. What's interesting is that a precursor of
+the definition was discussed 20 years ago [38] and as re- This is usually considered as completely unfit for algo-
+cently as [39] it was claimed that computer implementation rithmic implementation due to a huge amount of calcula-
+of such mathematical definitions is computationally pro- tions involved with the sum. However, take this formula
+hibitive; indeed, here one has to find a global minimum in a seriously, optimize the combinatorics involved in a straight-
+O(1000)-dimensional domain. forward fashion (order of summations, etc.), implement it
+Yet the ease of experimentation with algorithms using the systematic bit-manipulation facilities of Compo-
+(resulting from simplicity and transparency of SD with the nent Pascal, optimize algorithms (I am talking here about
+BlackBox) allowed to build the first version in Component fairly trivial optimizations such as replacing often occurring
+Pascal in just 4 weeks. I emphasize that it was not a priori procedure calls with special parameters with in-line code,
+clear what kind of algorithm would do the trick, and in all etc.). The result of this exercise turned out to be surprising
+the experimentation that had to be done, the safety features indeed. Consider the trace of a string of -matrices of the
+of the language helped enormously. Next, a port to FOR- form a1b2c3d4e5A1B2C3D4E5 where letters and numbers
+TRAN 77 with subsequent attempts of fine-tuning (together represent vectors and summation indices, respectively.
+with a modification of the code required by a modification Here is a part of the resulting output produced by Form-2
+of the mathematical definition) took months. Only revert- (Personal Version Tkachov):
+ing to Component Pascal allowed to fix the problem there Bytes used = 75566966
+...
+Time = 1249.89 sec
+i The examples have not been selectively compiled as a C++ fan in the Generated terms = 5490390
+audience claimed to be the case.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 7
+
+
+
+
+By contrast, the new algorithm took, on the same machine, (iii) Combinatorics module provides (supposedly efficient)
+only 117.2 sec to do the same job (i.e. 10 times faster) in support for multinomial coefficients, permutations, etc.
+only 20K (i.e. in 3000 times less memory): the new algo- (iv) Problem-area specific modules (Dirac traces etc.).
+rithm produces the result term by term within statically al- On top of that, the user is supposed to provide problem-
+located memory. The use of a 32-bit version of Form-2 class specific modules (e.g. manipulation of D-dimensional
+speeds the calculation up only by a factor of 2. vectors in the original 1981 integration-by-parts algorithm
+Admittedly, the considered trace is not the simplest one [16]) and problem-specific code for concrete applications.
+by far, but, say, in realistic 4-loop calculations with two 5- In fact, it is hard to draw a line between BEAR and the
+matrices treated as antisymmetrized products of 4 - specific solutions it supports -- similarly to how there is no
+matrices each, things get much worse [41]. hard and fast line between the core BlackBox system and
+Again, such an algorithm could be a component -- and the various supporting subsystems.
+it is easy to imagine, say, a componentized Schoonschip Some architectural principles in the design of BEAR are
+into which the code implementing the algorithm, written to as follows:
+adhere to a pre-defined interface specification, could be · The framework must be recursively architectured around
+dropped to replace a less efficient version -- without re- very few simple but universal interface and design patterns.
+linking and other chores. Finding patterns that fit the bill is critical because other-
+Basic Extensible Algebra Resource wise the development of problem-specific algorithms is
+bogged down by the amount of coding involved in custom
+This is a toolbox to support my experimentation with design of data structures.
+various algorithms related to Feynman diagrams, primarily · The use of the standard OOP techniques (separation of
+including -- but not limited to -- the algebraic algorithms interface from implementation, etc.) allows one to replace,
+for loop calculations [16]. This is in fact a compact compo- say, sort routines without affecting the problem-specific
+nent framework for symbolic manipulation of the kind I code, thus allowing to experiment with different algo-
+outlined in a wish list in [42] as a post mortem for the de- rithms.
+velopment effort that had lead to the famous Mincer [43]. · The emphasis on a maximal localization of algorithms
+The general approach in regard of handling very large ex- and data structures to increase efficiency of handling very
+pressions follows that of M.Veltman's legendary Schoon- large amounts of data on hardware with a hierarchical
+schip but allows rather more flexibility. multi-level memory architecture.
+Note that projects to create custom general-purpose ·
+symbolic algebra systems continue to emerge (e.g. [7], [8]). Allowing a maximal use of compiled code in user algo-
+These are manifestations of the fundamental fact that rithms; interpretation of the pervasive arithmetic with inte-
+the variety of symbolic manipulation problems is much ger counters and indices and the corresponding logical ex-
+larger than any closed proprietary system can ever provide pressions must not weigh down on the overall efficiency.
+This was the idea behind Schoonschip's provision for a
+for; that custom-designed data structures are key to huge compiled FORTRAN subroutine, here carried to the ex-
+gains in efficiency; and that a full access to the power and treme. (When coupled with appropriate mathematical solu-
+flexibility of a compiled general purpose programming tions [44], it proved to be a crucial element for making the
+language is a prerequisite for building efficient solutions of original Mincer work; also, this is another example of the
+really complex problems.i It is convenient to call them welcome blurring of boundaries between conventional
+open-guts computer algebra systems. static-memory number crunching and highly dynamic algo-
+BEAR differs from a typical open-guts system in one rithms of symbolic algebra.)
+significant respect. An emphasis on solutions with custom BEAR is currently being played with in the author's
+representations of expressions makes superfluous design of group. There are no specific plans for its distribution be-
+a full array of symbolic entities like scalars, vectors, etc. cause this would require a support and documentation ef-
+BEAR only abstracts and implements algorithmic support fort which I have little incentive to undertake (especially in
+for special complicated tasks such as sorts. (Of course, view of my past experiences with Mincer; for the same rea-
+whenever a more or less universally useful definition emer- sons, the project planning does not provide for availability
+ges, it can be easily incorporated into the framework by way for hire of knowledgeable students for another 5-8 years).
+of the standard Oberon/BlackBox extension mechanisms.) The accumulated experience with BEAR indicates that
+BEAR is being designed to support specific solutions to the raw efficiency gains of resulting problem-specific algo-
+the specific problems my group focuses on, without univer- rithms compared with similar algorithms running on Form-
+sal ambitions. Its general structure (although not the im- 2 can be orders of magnitude. The coding of algorithms is,
+plementation) is pretty obvious: of course, a problem for less experienced users -- but then
+(i) Arithmetic subsystem designed for maximum effi- I remember my first encounter with Schoonschip very well:
+ciency in arbitrary-precision integer number crunching. efficient large-scale symbolic algebra manipulation has
+(ii) Sort subsystem offers algebraic modifications of some never been easy, whereas the programming techniques
+standard sort algorithms (different problems require differ- needed with BEAR do not go beyond a fairly standard
+ent algorithms for maximal efficiency), including sorts of toolkit of general purpose programming, with a rather less
+arbitrarily large expressions stored on disk. The modular, than overwhelming dose of objects and patterns.
+abstracted nature of the system lends itself to a verification Once the basic framework is in place, the coding of, say,
+[26], whereas safety features of Component Pascal ensure a the widely used 1981-style integration-by-parts algorithms
+superb reliability of the resulting algorithms. is much easier -- and I'd say very much more enjoyable --
+than was the case in [43]. More important, however, is the
+i An example which demonstrated these points was reported in [24]. new range of options in regard of what kind of algorithms
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 8
+
+
+
+
+may be efficiently implemented. Not to mention a full con- rybody knows how to use?"
+trol over the resulting software and its applications. ... my answer is as follows: I spent hundreds of hours
+A.Vladimirov's usability experiment developing Gr, and BlackBox has not crashed on me even
+once.
+An interesting experiment was conducted a while ago by Gr is not entirely trivial, and potential for programming
+Aleksey Vladimirovi, who possesses a good enough under- errors is huge. And indeed, I have made many program-
+standing of computer programming -- yet cannot afford to ming mistakes. I dereferenced NIL pointers and I jumped
+be a full-time expert in, say, C++. He needed to verify out of array bounds. I unloaded a running code from mem-
+some algebraic identities via "multiplication of orthogonal ory, while the corresponding display was still on screen. I
+projectors in the Hecke algebra with 5 generators". Never abused the environment in many different ways. It never
+mind what this means; enough to say that conventional crashed. I never had to worry about leaking memory. I
+computer algebra systems choked with intermediate ex- never saw the words "segmentation violation" or "core
+pressions -- a classical example of the intermediate com-
+dump". If you can say the same about your compiler
+binatorial blowup. So Aleksey figured out an algorithm
+which involved a simple representation of individual terms <name>, then please tell me its name ...
+and a tree-like data structure to do the sort -- something a ... The reader probably does not fully appreciate the
+general-purpose language allows easily, but not the limited great simplification that this approach is bringing. Full
+languages of the conventional computer algebra systems. appreciation comes only after the BlackBox environment
+To cater for future needs, Aleksey decided to use this has been used for some time ..."
+problem as a benchmark to see how well different SD envi- To this testimony I add that after a short time spent de-
+ronments would behave out of the box (remember, we don't veloping in the never-crashing BlackBox with its lightning
+want to become full-time experts in any particular com- fast compiler and dynamically (re)loaded modules, ROOT
+piler). Here are his results: [47] -- a buggy piece of software which the smart, Win-
+doze-bashing physicists developed, have widely deployed
+Language/compiler CPU time memory used and now rely upon -- looks like a cruel joke.
+Oberon Summary
+Component Pascal/BBox 25 sec 6 MB Software industry is scurrying away from the patheti-
+V4 failed heap size low cally inadequate C++ (funny that industry support must
+XDS failed whole overflow have been cited when C++ was chosen to be a standard for
+LHC software) and converging towards the new standard
+Pascal paradigm of component-oriented programming pioneered
+FPK (32 bit) 20 sec < 50 MB by Wirth's Oberon [11] -- a type safe, structured, modular,
+Delphi 4 20 sec > 50 MB efficiently compiled, general-purpose programming lan-
+GNU (UNIX) ~ 1 min ~ 30 MB guage which incorporates a rational subset of OOP features
+without duplication of concepts, and supports architecture
+C++ design of large systems. The language (its latest iteration
+GNU g++ (UNIX) 75 sec ~ 20 MB being known as Component Pascal [12]) is small, transpar-
+Borland 5.02 failed heap size low ent, and highly readable (allowing a complete intellectual
+MS Visual 4.2 failed heap size low control over one's programs), and -- through a meticulous
+design -- highly robust in regard of programmer's errors.
+All calculations were done on equivalent hardware. The A continuing use of C++ is a continuing waste of valu-
+timing was done by hand, so the error margin is on the or- able resources now, and an even greater waste in future due
+der of seconds. Similarly crude are memory estimates to support costs. Is there a mechanism to stop that? For my
+(except for Component Pascal where precise information on part, I decided not to produce a C++ version of the Optimal
+memory useage is available). Jet Finder [37].
+The table mostly speaks for itself. Note that the GNU Oberon compiler is freely available.
+BlackBox's overall ease of use was specifically noted. It is slower than the BlackBox compiler, and does not allow
+one to enjoy the benefits of an excellent IDE that the
+BlackBox/Gr [46]
+BlackBox is, but would do as a starting point due to port-
+The last example is the BlackBox/Gr toolbox written by ability. If a C++ programmer cannot master Oberon/Com-
+W.Skulski from University of Rochester. This is a sophisti- ponent Pascal in a week, they should be fired. A week-long
+cated interactive experimental data acquisition and moni- transition to Oberon/Component Pascal would free consid-
+toring toolbox with real-time graphical histogramming, etc. erable resources that could be much better spent than sup-
+For the purposes of this talk the following quote from its porting throngs of programmers currently involved in the
+documentation should suffice (emphasis by F.T.): agony of debugging C++ codes.
+"... Someone will ask the following question "why did Fortunately, this cannot happen -- cerialinly not soon.
+you choose the BlackBox compiler to develop the Toolbox, So my group, along with a few savvy experts like Aleksey
+while there is a well-known compiler <name>, which eve- Vladimirov and Wojtek Skulski, will be having fun for a
+while:
+i Seeing one's algorithmic ideas smoothly materialize
+Incidentally, Aleksey's trick of IR rearrangement [45] sparked what
+can be called the Russian multi-loop revolution, its two other key in an efficient code without hitting the multitude of un-
+mathematical technologies being the algebraic algorithms [16] and the necessary and avoidable impediments, is tremendously
+asymptotic operation [14]. satisfying.
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 9
+
+
+
+
+Acknowledgments. I thank D.Perret-Gallix and the Japa- VAR {VarDecl ";"}}
+nese hosts for their hospitality during the workshop; {ProcDecl ";" | ForwardDecl ";"}.
+the Oberon microsystems crew and Niklaus Wirth for sev- ConstDecl = IdentDef "=" ConstExpr.
+eral discussions; M.Veltman for a discussion of scientific TypeDecl = IdentDef "=" Type.
+programming (in 1998; after 1999 the views expressed VarDecl = IdentList ":" Type.
+might have been somewhat different); A.Vladimirov for ProcDecl = PROCEDURE [Receiver] IdentDef
+providing results of his usability experiment; G. Jikia and [FormalPars] ["," NEW] [","
+V. Borodulin for running the Dirac trace test on a 32-bit (ABSTRACT | EMPTY | EXTENSIBLE)]
+version of Form-2; T.Ohl for insightful discussions of func- [";" DeclSeq [BEGIN StatementSeq]
+tional programming; A. Czarnecki for the hospitality at the END ident].
+University of Alberta where this text was written up. The ForwardDecl = PROCEDURE "^" [Receiver]
+support came in parts from Maison Franco-Japonais; Rus- IdentDef [FormalPars].
+sian Foundation for Basic Research grant 99-02-18365; FormalPars = "(" [FPSection {";" FPSection}] ")"
+NATO grant PST.CLG.977751; the Natural Sciences and [":" Type].
+Engineering Research Council of Canada. FPSection = [VAR | IN | OUT] ident {"," ident} ":" Type.
+Receiver = "(" [VAR | IN] ident ":" ident ")".
+Appendix A. Example of Component Pascal code [37] Type = Qualident
+| ARRAY [ConstExpr {"," ConstExpr}]
+MODULE OjfinderKinematics; (** verification version **) OF Type
+IMPORT Log := StdLog, Math; | [ABSTRACT | EXTENSIBLE | LIMITED]
+CONST eps_round = 1.0E-10; eps_norm = 1.0E-10; RECORD ["("Qualident")"] FieldList
+eps_Et = 1.0E-10; {";" FieldList} END
+TYPE | POINTER TO Type
+Vector* = RECORD E-, x-, y-, z-: REAL END;
+| PROCEDURE [FormalPars].
+Kinematics* = POINTER TO ABSTRACT RECORD END; FieldList = [IdentList ":" Type].
+Particle* = POINTER TO ABSTRACT RECORD
+p-: Vector; (* 4-momentum *) StatementSeq = Statement {";" Statement}.
+theta-, phi-: REAL Statement = [ Designator ":=" Expr
+END; | Designator ["(" [ExprList] ")"]
+Jet* = POINTER TO ABSTRACT RECORD | IF Expr THEN StatementSeq
+qphys-, qtilde-: Vector (* 4-momentum [normalized] *) {ELSIF Expr THEN StatementSeq}
+END;
+... [ELSE StatementSeq] END
+VAR pi180-: REAL; cylinder-, sphere-: Kinematics; | CASE Expr OF Case {"|" Case}
+PROCEDURE PosProduct* ( v, w: Vector ): REAL; [ELSE StatementSeq] END
+VAR res: REAL; | WHILE Expr DO StatementSeq END
+BEGIN | REPEAT StatementSeq UNTIL Expr
+res := v.E * w.E - v.x * w.x - v.y * w.y - v.z * w.z; | FOR ident ":=" Expr TO Expr
+ASSERT( res >= - eps_round, 60 );
+RETURN MAX( 0, res ); [BY ConstExpr] DO StatementSeq END
+END PosProduct; | LOOP StatementSeq END
+... | WITH [ Guard DO StatementSeq ]
+END OjfinderKinematics.
+{"|" [ Guard DO StatementSeq ] }
+Comments. An asterisk after an identifier in a declara- [ELSE StatementSeq] END
+tion signifies full export (public fields); a minus in that po- | EXIT | RETURN [Expr] ].
+sition signifies a limited (read-only) export. By default, all Case = [CaseLabels {"," CaseLabels} ":"
+other variables or other objects defined within a module are StatementSeq].
+private to that module. The ASSERT statement causes the CaseLabels = ConstExpr [".." ConstExpr].
+program to abort if the logical expression in the argument Guard = Qualident ":" Qualident.
+evaluates to FALSE. REALs are always 8 bytes (double ConstExpr = Expr.
+precision). The module is loaded at the first invocation of Expr = SimpleExpr [Relation SimpleExpr].
+any procedure defined in it and stays loaded in memory; the SimpleExpr = ["+" | "-"] Term {AddOp Term}.
+module's variables retain their values until the module is Term = Factor {MulOp Factor}.
+unloaded from memory, manually or using meta-program- Factor = Designator | number | character | string \
+ming features of BlackBox. For further details see the Lan- | NIL | Set | "(" Expr ")" | " ~ " Factor.
+guage Report [12]. Set = "{" [Element {"," Element}] "}".
+Appendix B. Syntax of Component Pascal [12] Element = Expr [".." Expr].
+Relation = "=" | "#" | "<" | "<=" | ">" | ">=" | IN | IS.
+Presented below is the entire list of syntax rules of AddOp = "+" | "-" | OR.
+Component Pascal in the extended Backus-Naur notation. MulOp = " * " | "/" | DIV | MOD | "&".
+Module = MODULE ident ";" [ImportList] DeclSeq Designator = Qualident {"." ident | "[" ExprList "]" | " ^ "
+[BEGIN StatementSeq] | "(" Qualident ")" |"(" [ExprList] ")"}[ "$" ].
+[CLOSE StatementSeq] END ident ".". ExprList = Expr {"," Expr}.
+ImportList = IMPORT [ident ":="] ident IdentList = IdentDef {"," IdentDef}.
+{"," [ident ":="] ident} ";". Qualident = [ident "."] ident.
+DeclSeq = { CONST {ConstDecl ";" } IdentDef = ident [" * " | "-"].
+| TYPE {TypeDecl ";"} |
+
+
+F.V.Tkachov Talk at Computer Particle Physics (CPP 2001), 28-30 November 2001, Tokyo 10
+
+
+
+
+References
+
+[1] D.Bardin, G.Passarino: The Standard Model in the [26] E. Dijkstra: The discipline of programming, Pren-
+Making, Clarendon Press, Oxford, 1999. tice, 1976;
+[2] M. Veltman, Schoonschip, 1967; J. Vermaseren, D.Gries: The science of programming¸ Springer,
+Form-2, 1991. 1981.
+[3] see e.g. G.`t Hooft and M. Veltman, Nucl.Phys. B153 [27] www.oberon.ethz.ch/;
+(1995) 365. http://www.math.tau.ac.il/~guy/Oberon/
+[4] D.Bardin et al.: ZFITTER v.6.21, ; [28] www.oberon.ch/
+G. Montagna et al.: TOPAZ0 4.0, . [29] W.Kahan: How JAVA's Floating-Point Hurts Every-
+[5] F. Yuasa et al.: GRACE, . one Everwhere,
+[6] A. Pukhov et al.: CompHEP, . www.cs.berkeley.edu/~wkahan/JAVAhurt.pdf
+[7] T.Ohl: talk at this workshop; [30] H.Thimbleby: A critique of Java,
+ftp://heplix.ikp.physik.tu- www.cs.mdx.ac.uk/harold/papers/javaspae.html
+-darmstadt.de/pub/ohl/omega/ [31]
+[8] R.Kreckel: talk at this workshop; www.ginac.de/ www2.fit.qut.edu.au/CompSci/PLAS//ComponentPa
+[9] A. Kryukov: talk at this workshop. scal/
+[10] I.Joyner, C++?? A critique of C++, [32] www.go-mono.com/; www.ximian.com/
+modulaware.com/mdlt28.htm [33] http://windows.oreilly.com/news/hejlsberg_0800.html
+[11] N. Wirth and J. Gutknecht: Project Oberon: The De- [34] B. Mösli: A Comparison of C++, FORTRAN 90 and
+sign of an Operating System and Compiler, Addison- Oberon-2 for Scientific Programming, 1995,
+Wesley, 1992; www.arithmetica.ch/Oberon/CFORTRANOberon.nhtml
+H. Mössenböck, N. Wirth: The Programming Lan- [35] www.jisa99.com/restricted/Tenney.pdf
+guage Oberon-2, Structured Programming, 12, 4 [36] D.Grigoriev and F.Tkachov: An efficient implementa-
+(1991) 179. tion of the optimal jet definition, .
+[12] Oberon microsystems, Inc.: Component Pascal Lan- [37] F.V. Tkachov: A verification of the Optimal Jet
+guage Report, Finder, .
+www.oberon.ch/docu/language_report.html. [38] J.B. Babcock and R.E. Cutkosky: Identification of jets,
+[13] F.V.Tkachov: Distribution theoretic methods in Nucl. Phys. B176 (1980) 113.
+quantum field theory, talk at Int. Bogoliubov Conf., [39] S.Moretti, L.Lönnblad, T.Sjöstrand: New and old jet
+1999, . clustering algorithms, .
+[14] F.V. Tkachov: On the operator product expansion in [40] G.I.Manankova, A.F.Tatarchenko, and F.V.Tkachov:
+the MS scheme, Phys. Lett. 124B (1983) 212; MILXy way: How much better than VEGAS can one
+for a review see Advanced methods for studying ra- integrate in many dimensions?
+diative corrections. Theory of asymptotic operation, fnalpubs.fnal.gov/archive/1995/conf/Conf-95-213-
+; T.pdf;
+the ultimate Minkowski space extension was S. Jadach: FOAM: multidimensional general purpose
+achieved in Towards systematic near-threshold ex- monte carlo generator with selfadapting symplectic
+pansions in perturbative QFT, . grid, ;
+[15] F.V. Tkachov: Systematic perturbation theory with E. de Doncker: talk at this workshop.
+unstable fundamental fields, . [41] www.inr.ac.ru/~ftkachov/projects/bear/dirac.htm
+[16] F.V. Tkachov: A theorem on analytical calculability [42] F.V. Tkachov: talk at The IV Int. Conf. on Computer
+of 4-loop renormalization group functions. Phys. Lett. Algebra in Phys. Research. JINR, Dubna. 22-26 May
+100B (1981) 65; 1990.
+Algebraic algorithms for multiloop calculations. The [43] S.G. Gorishny, S.A. Larin, L.R. Surguladze, and
+first 15 years. What's next? . F.V. Tkachov, MINCER: program for multiloop cal-
+[17] F.V. Tkachov: Approaching the parameter estimation culations in quantum field theory for the SCHOON-
+quality of maximum likelihood via generalized mo- SCHIP system, Comp. Phys. Comm. 55 (1989) 381;
+ments, . S.A. Larin, F.V. Tkachov and J.A.M. Vermaseren:
+[18] www.w3.org/TR/REC-MathML/, The FORM version of MINCER, NIKHEF-H/91-18.
+www.dessci.com/webmath/tech/mathml.stm. [44] F.V. Tkachov: On an algorithm of calculation of
+[19] P.J. Moylan, The case against C, multiloop diagrams, Theor. Math. Phys. 56 (1983)
+modulaware.com/mdlt35.htm. 350.
+[20] www.ioccc.org/ [45] A.A. Vladimirov: Methods of calculating multiloop
+[21] gartner.com/ diagrams and renormalization group analysis of 4-
+[22] http://www.cs.inf.ethz.ch/~wirth/ theory, Theor. Math. Phys. 36 (1978) 271.
+[23] N.Wirth: Program Development by Stepwise Refine- [46] home.t-online.de/~a.h.zinn/GrUserGuide.pdf.
+ment, www.acm.org/classics/dec95/ [47] root.cern.ch/
+[24] V.V.Kornyak: talk at AIHENP'96, Lausanne.
+[25] www.ocaml.org/
+
+
+

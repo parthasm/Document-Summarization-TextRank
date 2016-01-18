@@ -1,0 +1,3377 @@
+AN EXTENSION OF THE STATISTICAL BOOTSTRAP MODEL
+
+TO INCLUDE STRANGENESS
+
+
+A. S. Kapoyannis*+, C. N. Ktorides* and A. D. Panagiotou*
+
+
+
+*Division of Nuclear and Particle Physics, University of Athens,
+
+GR-15771 Athens, Hellas
+
+
++Institute of Nuclear Physics, NCSR Demokritos,
+
+GR-15310 Agia Paraskevi Attikis, Hellas
+
+
+
+
+
+Abstract
+
+We extend the Statistical Bootstrap Model (SBM) in order to describe hadronic systems which
+
+carry strangeness. We establish that the hadronic phase can exist only in a region of the phase
+
+space (T, µ µ
+q , s ) , which is bounded by a "critical" surface. The SBM leads to a mass spectrum
+
+
+with the asymptotic form : ( )
+m = -
+m e [
+xp T T*], where the exponent can take different
+
+values. We first employ the usual version of the SBM ( =2) and impose strangeness neutrality in
+
+order to obtain the relation between the temperature and the chemical potentials µ , µ . We find
+q s
+
+
+an unphysical behaviour of µ near the critical surface. Subsequently, we study another version
+s
+
+of SBM where =4 and we are led to a realistic as well as acceptable behaviour. In this case we
+
+are also able to relate the parameter of the model, T0 , (the critical temperature at zero µ ) with
+q
+
+
+the MIT bag constant B . The relation between (T, µ µ
+q , s ) can be used to predict the particle
+
+ratios on the critical surface at the limit of the Hadron Gas phase.
+
+
+
+
+
+1
+
+
+1. Introduction
+
+
+The Statistical Bootstrap Model (SBM) [1,2,3] constitutes an effort for a self
+
+
+consistent thermodynamical description of relativistic, multiparticle systems. The
+
+
+basic idea is to bypass the employment of interaction at a distance between
+
+
+particles, in favour of successive levels of organisation of matter into particle-like
+
+
+entities of increasing complexity known as fireballs. In the context of strong
+
+
+interaction physics the original set of input particles corresponds to all known
+
+
+hadrons.
+
+
+The agent which carries dynamical information in the bootstrap scheme is the
+
+
+mass spectrum ( )
+m of the fireballs. It satisfies an integral equation with the
+
+
+generic form [4]:
+
+n n
+1
+( )
+m = (m - m (1)
+0 ) + m- m
+i (mi )dmi
+=2 ! =1
+n n i i =1
+
+
+where m0 represents the mass of an input particle and mi , i=1,2,...,, stands for
+
+the fireball masses in ascending order of complexity.
+
+
+It was within the framework of the SBM that the idea of the existence of a
+
+
+critical temperature, beyond which the hadron phase of matter gives way to a
+
+
+different one, was first introduced [5]. Nowadays such a scenario receives concrete
+
+
+support from QCD, through lattice computations [6]. The emerging picture calls
+
+
+for a quark-gluon plasma (QGP) phase. Given the potential significance of
+
+
+strangeness as far as the identification of the QGP phase is concerned, we have
+
+
+undertaken the extension of the SBM so as to include the quantum number of
+
+
+strangeness.
+
+
+
+
+
+2
+
+
+2. Incorporation of Strangeness into the Bootstrap scheme
+
+
+The generic form of the bootstrap equation in the presence of strangeness is
+
+
+the following:
+
+
+B(
+~ p2 ) (~ 2 ~
+p , ,
+b )
+s = g B 2 2 2
+- +
+bs
+(p ) 0¡(p mbs )
+¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ £
+
+
+
+
+
+input term
+
+n n n
+1
+4
++ p- p b- b s- s
+= = = =
+n 2 n! i K i K i
+i 1 {b 1 1
+i } i {si } i
+
+n
+
+B(
+~ p 2 2 4
+,
+i ) (~p ,b ,s
+i i i )d pi (2)
+i =1
+
+
+where (
+b )
+s stands for baryon (strangeness) number and the g represent the
+bs
+
+
+
+degeneracy factors.
+
+
+Let us provide the main ingredients which have been employed in order to
+
+
+¤
+reach the above result. We use a system of units in which = c = k = 1 and
+
+introduce Touscheck's integration measure [7], according to which
+
+µ
+V V
+2 p µ
+d 3 p 2 2 4 2 2
+, , - , , , (3)
+3 (m b s)dm 3 0 ( p m )d p (m b s)dm
+h (2 )
+
+where V µ is a boosted four-volume, which is parallel to the four-momentum of a
+
+
+given particle:
+
+
+V
+V µ p µ
+= (4)
+m
+
+
+This relation underlies the specification that each fireball carries its own volume
+
+
+[8].Note that the expression on the left side of the arrow in (3) counts the number
+
+
+of available particle states in the rest frame of volume V, which are characterised
+
+
+by the mass spectrum ( )
+m .
+
+
+We have further converted ( )
+m to the spectrum function (m2 ) according
+
+to
+
+
+
+
+
+3
+
+
+( )
+m dm = (m2 )dm2
+
+and have set
+
+
+V
+2 µ pµ V
+2 m
+(
+B p2 ) = ( = . (5)
+2 )3 (2 )3
+
+We have also introduced a rearrangement of the form
+
+~
+(
+B p2 ) ( p2 ,b, s) B( p2 ) (
+~ p2
+, b, )
+s . (6)
+
+
+The specific choice one makes in using the above relation is of crucial
+
+
+significance as far as the dynamical description of the SBM is concerned. Next we
+
+
+carry out three Laplace transformations, one continuous and two discrete, which
+
+
+lead to the replacements:
+
+
+( P ,b, s , ,
+µ ) ( µ .
+B S )
+
+
+The new set of variables will be vested with a thermodynamical content in
+
+
+terms of the inverse (four) temperature and the fugacities for baryon and
+
+
+strangeness quantum number, respectively.
+
+
+In the centre of mass frame and with the transformation
+
+= 1 3 1 3 1
+, , which introduces the quark fugacities (q up-down,
+B = -
+q s B S
+
+s strange), we arrive at the following form for the bootstrap equation
+
+
+( , , ) = 2 (
+G , , ) - e [
+xp (G , , +1 , (7)
+q s q s q s)]
+
+where ( , , is the known input term:
+q s)
+
+
+( b s - p
+= e g B p2 p2 2 4
+0 - m d p
+B S ) B µ µ ~
+, , S bs ( ) ( bs )
+b=- s=-
+
+
+
+
+2 ~
+= b s g B m m K m (8)
+B S bs ( 2bs) bs
+1 ( bs )
+b=- s=-
+
+
+
+
+4
+
+
+and (
+G , , is the mass-spectrum containing term:
+q s )
+
+
+- µ ~
+(
+G ) b s
+= e pµ
+, , B 2 ~ 2 , , 4
+S ( p ) ( p b )sd p
+B S B
+b=- s=-
+
+
+
+2 ~
+= mB( 2
+m ) (
+~ 2
+m , , ) 2
+K m dm , (9)
+B S 1( )
+0
+
+which involves the unknown function ~
+. In eqs. (8) and (9) K denotes the
+
+modified Bessel function of the second kind.
+
+
+The bootstrap equation (7) displays, in the - G plane, Fig. 1, a square root
+
+branch point at
+
+
+(T , , = ln 4 - 1 , (10a)
+cr µq cr µs cr )
+
+(
+G T , µ , = 2 . (10b)
+µ ln
+cr q cr s cr )
+
+
+Eq. (10a) defines a critical surface in the 3-d space (T, µ , µ which sets the
+q s )
+
+
+limits of the hadronic phase. Points radially outside the critical surface belong to
+
+
+unphysical solutions of the bootstrap equation and are thereby assigned to a region
+
+
+where a new phase of matter, presumably the QGP phase, makes its appearance.
+
+
+Let us also introduce the temperature T0 according to
+
+
+(T , = 1, = 1 = ln 4 - 1 , (11)
+0 q s )
+
+which constitutes the highest temperature beyond which the Hadron Gas phase
+
+
+does not exist.
+
+
+We finally turn our attention to the thermodynamical description of the
+
+
+system. To this end we take into account the fact that according to the bootstrap
+
+
+scheme the number of available states in a volume d 3 p around p, baryon number
+
+
+
+
+
+
+B and strangeness number S is given, in covariant form, by
+
+
+
+
+
+5
+
+
+2V ext p µ
+µ
+2 4
+~ p ,b, s d p , (12)
+3 ( )
+(2 )
+
+where V ext
+µ is the total external (four) volume available to the system. It is a
+
+
+constant as far as the integration over d 4 p is concerned. Accordingly, the grand
+
+
+canonical partition function for the system reads, in covariant form,
+
+
+V p µ
+µ 2 µ
+ln Z( ,V , , ) b s p
+2
+4 .
+3 µ
+= -
+S (~p , ,b )
+=- =-
+b s (2 ) s e d p
+B S B
+
+
+
+
+Switching to quark fugacities, choosing the four-vectors V µ and µ to be parallel
+
+
+and going to the frame for which µ = ( , ,
+0 ,
+0 )
+0 [8] we write
+
+V
+ln Z( ,V , , ) = m2 (
+~ m2 , , )K 2 . (13)
+2 ( )
+m dm
+q s q s
+
+2 2 0
+
+Our problem now is to express the above partition function in terms of the function
+
+(G , , which contains the bootstrap mass spectrum. Once this is done we
+q s )
+
+
+shall be in position to extract specific results from the extended SBM, via the
+
+
+inclusion of strangeness.
+
+
+
+
+3. Connection with Phenomenology and Results
+
+
+Let us return to equation (4). The (fireball) volume to mass constant
+
+
+provides a quantity that can be related to the MIT bag model [9]. We set
+
+
+V V
+i
+= = 1 , (14)
+m m 4B
+i
+
+
+
+where B is the MIT bag constant and where V (m denotes the volume (mass) of
+i i )
+
+
+the fireball. The first equality in (14) comes from the assumption that the volume
+
+
+(mass) of a given fireball is the sum of the volumes (masses) of the constituent
+
+
+
+
+
+6
+
+
+fireballs.
+
+
+Let us assess the splitting between the (
+B p2 ) and ( p2 ,b, )
+s in the bootstrap
+
+
+equation. We start with the "natural" definition of (
+B p2 ) as given by (6). Here, we
+
+have a purely kinematical assignment to this quantity so all dynamics of the
+
+
+bootstrap model are carried by ( p2 ,b, )
+s [10]. Setting (
+B m2 ) H m2
+we find in
+0
+
+
+
+this case
+
+
+2
+H = . (15)
+0 (2 )34B
+
+~
+A rearrangement of the factors B and ~
+would imply a behaviour of the
+
+~
+form B(m2 ) = const md . Any choice for which d 2 entails an absorption of part
+
+~
+of the dynamics into B . Traditionally, SBM applications have centered around the
+
+~
+choice B(m2 ) ~ m4. Setting (
+B m2 ) H m4
+we are now obliged to introduce a
+2
+
+
+
+reference mass scale ~
+m in order to relate ~
+with :
+
+m2
+(
+~ m2 ,b, s) 2
+= . (16)
+2
+~ (m ,b, )s
+m
+
+
+We also determine, for this case,
+
+
+2m2
+~
+H = . (17)
+2 (2 )34B
+
+We stress that for any choice other than the one given by (6), one is forced to enter
+
+
+a reference mass scale into SBM descriptions.
+
+
+Given the above remarks, relevant to the phenomenological connection with
+
+
+QCD, let us turn our attention to the asymptotic behaviour of the mass spectrum
+
+
+function ( )
+m , as m . It can be shown [11,12] that
+
+~
+( 2 ) (
+~ 2 ,{ }) -
+
+
+({ }) 3
+e [
+xp *
+B m m C m m T , (18)
+m ({ })]
+
+
+
+7
+
+
+where T *({ }
+) satisfies the criticality equation, c.f. Eq. (10a). In the above relation
+
+{ }
+is a collective index for fugacities, while (
+C { }
+) is a quantity independent of
+
+mass.
+
+~
+For a given choice B(m2 ) = const md we have
+
+
+
+
+
+
+
+
+( -
+¨ © ¨ ¨
+¢¤£¦¥ §
+
+, (19)
+
+¡ { }) ({ })
+[ ({ })]
+
+where c=3+d.
+
+
+In the literature it is more common to refer to the index = c - 1, which
+
+
+gives the exponent entering the asymptotic behaviour of (
+~ ,
+m { }
+). Thus the
+
+choices, entailed by relations (15) and (17), correspond to = 4 and = 2,
+
+respectively. These, in fact, happen to be the two cases which facilitate analytic
+
+
+procedures linking the canonical partition function to the term G , which contains
+
+
+the mass spectrum, and eventually, through the bootstrap equation, to the input
+
+
+term . We find, for = 2 [13,14],
+
+V
+ln Z(V , , , ) = - 2
+G
+3
+q s ( , ,q s)
+(
+2 ) H
+2
+
+
+
+V 1 ( , ,
+q s )
+= - (20)
+3
+4 H G( , ,
+q s )
+2 2 - e
+
+and for = 4 [14],
+
+V
+1
+ln Z( ,V , , ) = 3 . (21)
+3 3 x (Gx, ,
+q s )dx
+q s
+4 H0
+
+Now, hadronic interactions pertain to physical situation where the total
+
+
+strangeness number is zero. In the thermodynamic context of the SBM the relevant
+
+
+condition is
+
+
+
+
+
+8
+
+
+ln Z(V , , ,
+q s )
+S = = 0 . (22)
+s s (V, ,q)
+
+The above relation determines a surface in the (T, µ , µ space. For = 2,
+q s )
+
+
+we determine
+
+
+G( , , 2
+q s )
+e ( , , , , , ,
+q s ) ( q s) ( q s)
++ = 0 (23)
+2
+G( , ,
+q s )
+2 - e s s
+
+
+and for = 4,
+
+T 1 1 ( y, ,
+q s )
+dy = 0
+5
+y . (24)
+0 2 - e [xpG(y s
+, ,
+q s )]
+
+The derivations of the above equations along with numerical approaches to
+
+
+their solutions will be given elsewhere [14].
+
+
+Before we present results from our studies of the critical and the S = 0
+
+surfaces for the cases = 2 and = 4 we should comment on the following
+
+potential disparity between them. According to the analysis conducted in [8] these
+
+
+two values for lie below and above the threshold value of = 7 2 , respectively.
+
+This separates the regime where the energy density of the hadronic system goes to
+
+
+infinity, as T T < 7 2 and where it stays finite ( 7 2) . On this basis, the
+cr ( )
+
+= 4 value appears to be the most desirable one, as far as the existence and
+
+observability of a QGP phase is concerned. On the other hand Hagedorn and
+
+
+Rafelski [13] have shown that the infinity problem for < 7 2 can be bypassed
+
+
+through finite volume corrections. In fact, it was on this basis that the = 2 choice
+
+has dominated the theoritical scene as far as the SBM is concerned.
+
+
+In Fig. 2a we depict the profile of the critical surface for = 2 and = 4 by
+
+
+
+
+9
+
+
+displaying two characteristic cuts of this surface perpendicular to the µ axis. Fig.
+s
+
+
+
+2b depicts a similar setup with the cuts now occuring perpendicularly to the µq
+
+
+axis. It is observed that the results depicted in the above figures seem to advocate
+
+
+similar qualitative behaviour between the two choices of = 2 and = 4.
+
+A radical departure between the two values of appears as soon as one
+
+compares the way by which the S = 0 surface meets the critical one. Leaving the
+
+discussion of the numerical methodology which produces the corresponding curves
+
+
+to our forthcoming paper [14], let us explain the way we have chosen to display
+
+
+the relevant results. In Fig. 3 we show how, for different values of T0, the S = 0
+
+surface joins the critical surface along the direction µ T = 0 4
+. in the µ - T
+q s
+
+
+
+plane. The almost vertical lines represent the profile of the critical surface near the
+
+µ - T plane (the µ axis is not shown) which is, in fact, cylindrical. For = 2
+q q
+
+
+
+(Fig. 3a) we have the unphysical behaviour of a rising chemical potencial µ as we
+s
+
+
+
+approach the end of the hadronic phase. By juxtaposition the meshing between the
+
+
+two surfaces for = 4 (Fig. 3b) has a desirable, as well as reasonable behaviour. It
+
+is on this basis that we consider the = 4 version as the most realistic one, as far
+
+as the approach to the QGP phase from the hadronic side is concerned and it is for
+
+
+this case that we intend to focus our SBM-based analysis on particle ratios.
+
+
+For comparison we have added to the same diagram the intersection of the
+
+
+plane µ T = 0 4
+. with the surface S = 0, which comes from solving the equation
+q
+
+
+
+F (T) -1 - -1 + 2 - -1 -2 +
+K ( s q s q) F (T)
+Hyp ( s q s q )
+(25)
+F (T)( 2 - -2 -1 + 3 - -3
+2 3 = 0 .
+s q s q ) F (T)( s s )
+
+The above equation is derived for an ideal hadron gas (see for example [15,16]).
+
+
+
+
+
+10
+
+
+Fig. 4a(b) depicts the projection of the intersection of the surface S = 0
+
+with the critical surface for different values of T -
+0 on the µ plane, when
+s µq
+
+= 2 ( = 4).
+
+Fig. 5 gives a 3-d picture of how S = 0 curves along different directions in
+
+the µ - T plane and intersects with the critical surface for a specific value of T
+q 0,
+
+
+
+when = 4.
+
+Finally in the framework = 4 model one can directly relate T0 and the bag
+
+model parameter B . In table 1 we show how the corresponding values pair up. On
+
+
+a phenomenological basis one has the option of using as input either a value for T0
+
+
+or a value for B , an occurrence which further underlines the advantages of the
+
+= 4 model.
+
+
+
+
+
+T0 (MeV) B1/4 (MeV)
+
+
+150 154.690
+
+
+160 177.120
+
+
+170 201.170
+
+
+180 226.704
+
+
+190 253.578
+
+
+200 281.655
+
+
+Table 1. Connection between T0 and B.
+
+
+
+
+
+11
+
+
+4. Summary and Conclusions.
+
+
+In this paper, we presented an enlargement of the SBM scheme which
+
+
+includes the strangeness quantum number. Our efforts were directed towards the
+
+
+determination, in the 3-dimensional (T, µ , µ space, of : 1) the critical surface
+q s )
+
+
+which sets the limits of the hadronic phase and which is determined by the
+
+
+bootstrap equation and 2) the S = 0 surface, relevant to hadronic processes,
+
+which is determined from the partition function. Finally we compared two specific
+
+
+SBM versions corresponding to the values = 2 and = 4 of the exponent,
+
+which enters the asymptotic expression for the mass spectrum ( )
+m . We found
+
+
+desicive advantages of the second ( = 4), as opposed to the first version which
+
+has dominated SBM studies in the past. Note that the = 4 version admits, as
+
+direct phenomenological input from QCD, the value of the MIT bag constant and
+
+
+relates it uniquely to T0 .
+
+
+
+Acknowledgement. We wish to thank Prof. R. Hagedorn for useful and interesting discussions.
+
+
+
+
+
+12
+
+
+References
+
+
+[1] R. Hagedorn, Suppl. Nuovo Cimento 3, 147 (1965); R. Hagedorn and
+
+
+J.Ranft, Suppl. Nuovo Cimento 6, 311 (1968); ibid 6, 311 (1968)
+
+
+[2] R. Hagedorn, 1985 "Springer Lecture Notes in Physics", 221 ed. K. Kajantie
+
+
+(Berlin, Heidelberg, New York) p.53
+
+
+[3] R. Hagedorn, 1995 "Hot Hadronic Matter" NATO-ASI-Series B346 eds.
+
+
+J. Letessier et. al., p.13
+
+
+[4] S. Frautschi, Phys. Rev. D3, 2821 (1971)
+
+
+[5] N. Cabbibo and G. Parisi, Phys. Lett. 59B, 67 (1975)
+
+
+[6] L. D. McLerran and B. Svetitsky, Phys. Lett. 98B, 195 (1981); J. Kuti,
+
+
+J. Polonyi and K. Szlachanyi, Phys. Lett. 98B, 199 (1981); J. Engels,
+
+
+F. Karsch, I. Montvay and H.Satz, Nucl. Phys. B205 [FS5], 545 (1982); ibid
+
+
+Phys. Lett. 101B, 89 (1981)
+
+
+[7] B. Touschek, Nuovo Cimento 28B, 295 (1968)
+
+
+[8] R. Hagedorn, I. Montvay and J. Rafelski, "Hadronic Matter at Extreme
+
+
+Energy Density", eds. N. Cabbibo and L. Sertorio, Plenum Press, New York,
+
+
+49 (1980)
+
+
+[9] A. Chodos, R. L. Jaffe, K. Johnson, C. B. Thorn, V. F. Weisskopf, Phys. Rev.
+
+
+D9, 3471 (1974)
+
+
+[10] R. Fiore, R. Hagedorn and F. d' Isep, Nuovo Cimento 88A, 301 (1985)
+
+
+[11] W. Nahm, Nucl. Phys. B45, 525 (1972)
+
+
+[12] J. Letessier and A. Tounsi, Nuovo Cimento 99A, 521 (1988)
+
+
+[13] R. Hagedorn and J. Rafelski, Phys. Lett. 97B, 136 (1980)
+
+
+[14] A. S. Kapoyannis, C. N. Ktorides and A. D. Panagiotou, paper in preparation
+
+
+
+
+
+13
+
+
+[15] J. Cleymans, K. Redlich, H. Satz, E. Suhonen, Z. Phys. C58, 347 (1993)
+
+
+[16] M. N. Asprouli and A. D. Panagiotou, Phys. Rev. D51 1086 (1995);
+
+
+A. D. Panagiotou, G. Mavromanolakis and J. Tzoulis, Phys. Rev. C53 1353
+
+
+(1996)
+
+
+
+Figures
+
+
+Fig. 1. G as a function of .
+
+Fig. 2. (a) Comparison of the intersections of planes of constant s-quark chemical
+
+
+potential µ with the critical surface (T, µ , = ln4 - 1 for the values
+q µs)
+s
+
+
+
+of = 2 and = 4 and for T0=180 MeV. (b) Comparison of the
+
+intersections of planes of constant q-quark chemical potential µ with the
+q
+
+
+
+critical surface (T, µ , = ln4 - 1 for the values of = 2 and = 4
+q µs)
+
+and for T0=180 MeV.
+
+
+Fig. 3. (a) Projection on the plane (T, µ of intersections of planes of constant
+s ) q
+
+
+
+( µ T = 0 4
+. ) with the surface S = 0 for different values of T
+q 0 , when
+
+
+
+= 2. (b) Projection on the plane (T, µ of intersections of planes of
+s )
+
+
+constant ( µ T = 0 4
+. ) with the surface S = 0 for different values of
+q q
+
+
+
+T0 , when = 4.
+
+
+Fig. 4. (a) Projection on the plane ( µ , of the intersection of the critical
+q µs )
+
+surface and the surface S = 0, when = 2. (b) Projection on the plane
+
+(µ , of the intersection of the critical surface and the surface S = 0,
+q µs )
+
+when = 4.
+
+Fig. 5. Intersections of planes of constant with the surface S = 0 and the
+q
+
+
+
+
+
+14
+
+
+intersection of this surface with the critical one, for T0=185.655 MeV,
+
+
+when = 4.
+
+
+
+
+
+15
+
+
+¦
+
+
+
+
+
+p h y sic a l
+b ra n c h
+
+
+¡ ¢
+
+
+
+
+
+¨
+
+
+
+
+
+¡ £ ¤ ¥
+
+§
+
+
+
+
+
+Fig.1
+
+
+p S S
+
+
+
+
+
+¢
+
+
+
+
+
+q S S
+
+
+
+
+
+D P
+
+E G
+
+
+
+
+
+I
+
+AB F
+
+
+
+C C
+
+
+
+
+
+H
+
+
+
+
+
+r S S
+
+
+
+
+
+
+
+
+
+
+
+D Q
+
+E G
+
+
+
+
+
+
+
+
+
+
+
+I
+
+B A F
+
+
+
+C C
+
+
+
+
+
+H
+
+
+
+
+
+s S S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+
+
+
+9
+
+
+
+
+
+u
+
+
+
+
+
+t S S
+
+
+
+
+
+
+
+
+
+
+
+(
+
+
+
+
+
+8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y
+
+
+
+
+
+7
+
+
+
+
+
+
+
+
+
+
+
+T S S
+
+
+
+R D D P
+
+E G
+
+
+
+
+
+I
+
+AB F
+
+6
+
+C C
+
+
+
+
+
+
+
+
+
+
+
+H
+
+
+
+
+
+
+
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+(
+
+
+
+
+
+
+
+
+
+
+
+¡
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+S
+
+
+
+
+
+4
+
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+2
+
+
+
+
+
+y
+
+
+
+
+
+S T S S
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+(
+
+
+
+
+
+
+
+
+
+
+
+T S S
+
+
+
+
+
+0
+
+
+
+
+
+i
+
+
+
+
+
+)
+
+
+
+
+R D D Q
+
+E G
+
+
+
+
+
+
+
+
+
+
+
+I
+
+B A F
+
+
+
+C C
+
+
+
+
+
+H
+
+
+
+
+
+
+
+
+
+
+
+(
+
+
+
+
+
+
+
+
+
+
+
+'
+
+
+
+
+
+t S S
+
+
+
+
+
+i
+
+
+
+
+
+
+
+
+
+
+
+n f f m
+
+g i
+
+
+
+
+
+k
+
+d h
+
+
+e e
+
+
+
+
+
+
+j
+
+
+
+
+
+y
+
+
+
+
+
+x
+
+
+
+
+
+s S S
+
+
+
+
+
+w
+
+
+
+
+
+i
+
+
+
+
+
+v
+
+
+
+
+
+u
+
+
+
+
+n f f l
+
+g i
+
+
+
+
+
+k
+
+d h
+
+
+e e
+
+
+
+
+
+j
+
+
+
+
+
+r S S
+
+
+
+
+
+i
+
+
+
+
+
+q S S
+
+
+
+
+
+f l
+
+g i
+
+
+
+
+
+i k
+
+d h
+
+
+e e
+
+
+
+
+
+
+
+
+
+
+
+j
+
+
+
+
+
+¡ ¢ £
+
+
+
+
+
+f m
+
+g i
+
+
+
+
+
+p S S
+
+
+
+k
+
+d h
+
+
+e e
+
+
+
+
+
+i
+
+
+
+
+
+j
+
+
+
+
+
+
+
+© # &
+
+$ %
+
+
+e
+
+U d f gh
+
+
+
+
+
+
+a
+
+
+
+
+
+¨ "
+
+¤ ¤¦ § § § ¤
+
+Y Y
+
+V WX V ` b V V
+
+
+
+
+
+¥
+
+
+
+
+
+!
+
+
+
+c
+
+
+
+
+
+Fig. 2a Fig. 2b
+
+
+s u v x
+R T U W
+
+E
+
+m
+
+¢ ¡
+
+
+o o o
+G G G
+
+
+
+
+
+p
+F HIP HQ S F S HV X F H
+
+n i q ir t n t iw y n i
+
+
+
+
+
+¢ ¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a d f R U U R R W
+
+b | g s v v s s x
+
+~
+
+
+
+
+
+G G G
+
+o o o
+
+
+
+
+
+Y` g H Q I Q X
+
+p
+
+c z{ i r r y
+
+d
+
+
+
+
+
+
+
+e
+
+
+
+}
+
+
+
+
+
+T W f u T
+
+pq s q u x u
+
+~ e
+
+
+
+
+
+
+
+i v
+
+P I h X Q H Y` P Y F S I w
+
+p p
+
+c q yr i z { z q n t
+
+d
+
+
+
+
+t
+
+
+
+
+
+
+
+
+
+r r
+
+
+
+
+
+
+
+
+
+u d uy d u d g l g f g
+x
+
+e e e
+
+k h j
+
+
+
+
+
+X F H
+
+
+y n i
+
+
+
+
+
+¡
+
+
+
+
+
+¡
+
+
+
+
+
+u d
+
+b
+
+
+
+
+
+v
+
+H
+
+
+c
+
+
+
+
+
+D
+
+
+
+
+
+D
+
+
+
+C
+
+
+
+
+
+C
+
+
+
+
+
+0
+
+
+
+
+
+0
+
+
+
+
+
+B
+
+
+
+
+
+B
+
+
+
+
+
+A
+
+
+
+
+
+u d
+
+q x
+
+
+
+
+
+¡
+
+
+
+
+
+v
+A
+
+H
+
+
+c
+
+
+
+
+
+¡
+
+
+
+
+
+!
+
+
+
+
+
+!
+
+
+
+
+
+@
+
+
+
+
+
+@
+
+
+
+
+
+u y d
+
+q
+
+
+
+
+
+v
+
+H
+
+
+c 9
+
+
+
+
+
+4
+
+
+
+
+
+9
+
+
+
+
+
+4
+
+
+
+
+%
+
+
+
+
+
+%
+
+
+
+
+
+2
+
+
+
+
+
+2
+
+
+
+
+7
+
+
+
+
+
+u d
+
+q
+
+7
+
+
+
+
+
+v 8
+
+H
+
+
+c
+
+
+
+
+
+8 £ ¡
+
+
+
+
+
+£ ¡
+
+
+
+
+
+0
+
+
+
+
+
+0
+
+
+
+
+
+7
+
+
+
+
+
+7
+
+
+
+
+
+6
+
+
+
+
+
+6
+
+
+
+
+
+5
+
+
+
+
+
+5
+
+
+
+
+
+g
+
+e
+
+k h j
+
+
+
+
+
+4
+
+
+
+
+
+
+i
+
+d
+
+
+
+
+
+4
+
+
+
+
+
+%
+
+
+
+
+
+%
+
+
+
+
+
+3
+
+
+
+
+
+¡
+
+3
+
+
+
+
+
+¡
+
+
+
+
+
+2
+
+
+
+
+
+2
+
+
+
+
+
+1
+
+
+
+
+
+1
+
+
+
+
+
+l g
+
+e
+
+h j
+
+
+
+
+
+
+
+i
+
+d
+
+
+
+
+
+0
+
+
+
+
+
+0
+
+
+
+
+
+)
+
+
+
+
+
+)
+
+
+
+
+
+d
+
+b
+
+
+
+
+
+v
+
+H
+
+
+c (
+
+
+
+
+
+(
+
+
+
+
+
+fg
+
+e
+
+h j
+
+
+
+
+
+
+
+i
+
+d
+
+
+
+
+
+'
+
+
+
+
+
+¡
+
+
+
+
+
+'
+
+
+
+
+
+¡
+
+
+
+
+
+&
+
+
+
+
+
+&
+
+
+
+
+
+%
+
+
+
+
+
+%
+
+
+
+
+
+$
+
+
+
+
+
+¡ ¡ ¢ ¡ £ ¡ ¡
+
+
+
+
+
+$
+
+
+
+
+
+¡ ¡ ¢ ¡ £ ¡ ¡
+
+
+
+
+
+#
+
+
+
+
+
+#
+
+
+
+
+
+"
+
+
+
+
+
+"
+
+
+
+
+
+!
+
+
+
+
+
+!
+
+
+
+
+
+¡
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+£ ¡
+
+
+
+
+
+£ ¡
+
+
+
+
+
+
+
+¤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¨ ¨
+
+¥ ¦§ ¥ © ¥ ¥
+
+
+
+
+
+
+
+
+
+¤ ¤
+
+
+
+
+
+
+
+
+
+
+
+¨ ¨
+
+¥ ¦§ ¥ © ¥ ¥
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3b
+Fig. 3a
+
+
+¡ ( ¡ (
+
+
+
+
+
+T p T
+
+
+
+
+
+h
+
+
+
+
+s
+
+S S
+
+
+
+
+i
+
+
+
+
+
+h
+
+
+
+
+
+i
+
+
+
+
+
+D D
+
+
+
+
+
+R R
+
+
+
+
+
+¡ ¢ ¡ ¢
+
+
+
+
+
+Q Q
+
+
+
+
+
+6 6
+
+
+
+
+
+A A
+
+
+
+
+
+1 1
+
+
+
+
+
+P P
+
+
+
+
+
+¡ ¡
+
+
+
+
+
+I I
+
+
+
+
+
+B B
+
+
+
+
+
+5 5
+
+
+
+
+
+9 9
+
+
+
+
+
+@ @
+
+
+
+
+
+H H
+
+
+
+
+
+0 0
+
+
+
+
+D D
+
+
+
+
+
+@ @
+
+
+
+
+
+G G
+
+
+
+
+
+F F
+
+
+
+
+
+eg`
+
+U a c
+
+
+
+
+
+V b
+
+
+
+W
+
+
+
+
+
+B B
+
+
+
+
+
+5 5
+
+
+
+
+
+) )
+
+
+
+
+
+A A
+
+
+
+
+
+9 9
+
+
+
+
+
+E E
+
+
+
+
+
+D D
+
+
+
+
+
+C C
+
+
+
+
+
+( (
+
+
+8 8
+
+
+
+
+
+ef `
+
+U a c
+
+
+
+
+
+V b
+
+
+
+W
+
+
+
+
+
+B B
+
+
+
+
+
+5 5
+
+
+
+
+
+A A
+
+
+
+
+
+` eq
+
+U a c
+
+
+
+
+
+V b
+
+
+
+W
+9 9
+
+
+
+
+
+@ @
+
+
+
+
+
+¢ ¢
+
+
+
+
+
+9 9
+
+
+
+
+
+6 6
+
+
+
+
+
+8 8
+
+
+
+
+
+Xd X
+
+U a c
+
+
+
+
+
+V b
+
+
+
+W
+
+
+
+
+
+XY`
+
+U a c
+
+
+
+7 7
+
+
+
+
+
+V b
+
+
+
+W
+
+
+
+
+
+` X e
+
+U a c
+
+
+eq Y g Y Y
+
+U a c
+
+
+
+
+
+6 6
+
+
+
+
+
+V b
+
+
+
+W
+
+V b
+
+
+
+W
+
+
+
+
+
+r
+
+5 5
+
+
+
+
+
+
+
+
+
+
+
+4 4
+
+
+
+
+
+3 3
+
+
+
+
+
+¡ ¢ £ ¡ ¢ £
+
+
+
+
+
+2 2
+
+
+
+
+
+1 1
+
+
+
+
+
+¢ ¢
+
+
+
+
+
+' '
+
+
+
+
+
+© ©
+
+# & # &
+
+$ % $ %
+
+
+
+
+
+
+
+
+
+
+
+¨ ¨ ¨ ¨ ¨ ¨
+
+¤ ¤¦ § § § § " ¤ ¤ ¤ ¦ § § § § " ¤
+
+
+
+
+
+¥ ¥
+
+
+
+
+
+! !
+
+
+
+
+
+Fig. 4a Fig. 4b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+150
+150
+150
+"" $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+100
+100
+
+
+!!
+
+
+
+
+
+
+0
+0
+0
+
+"" ##
+
+
+
+
+
+
+
+
+
+
+50
+50
+50
+50
+50
+50 100
+100
+100
+¢¢
+
+§§
+
+£¥¤£¥¤ ¦¦
+
+
+
+
+¨ ¨ 150
+150
+150
+¢¢
+
+§§
+
+£¥¤£¥¤ ¦¦
+
+
+
+
+
+¡ ¡
+
+
+
+
+
+0
+0
+0 200
+200
+200
+0
+0
+0 250
+250
+250
+50
+50
+50
+100
+100 300
+300
+¢
+
+§
+© £¥¤ ¦ 100 300
+¢
+
+§
+
+© £¥¤ ¦
+
+
+
+
+
+150
+150
+150 350
+350
+350
+200
+200
+200
+
+
+
+
+Fig. 5
+
+
+

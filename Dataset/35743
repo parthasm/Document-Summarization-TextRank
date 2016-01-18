@@ -1,0 +1,88 @@
+
+
+ 23 Dec 94
+
+. NONPERTURBATIVE EVALUATION OF THE SHPALERON TRANSITION RATE Talk given at NATO Advanced Research Workshop on Electroweak Physics and the Early Universe, Sintra, Portugal, 23-25 March 1994
+
+A. Bochkarev Department of Physics, University of Pittsburgh, Pittsburgh, PA 15260
+
+"You haven't measured it, you've only calculated it..."
+
+Jan Smit.
+
+We review nonperturbative calculations of the rate of sphaleron transitions on the lattice in 1 + 1- dimensional field theories and introduce a way to perform gauge-invariant Gibbs averages in classical non-Abelian Higgs theories.
+
+Effective potential of the Chern-Simons variable N in the Standard Model (SM) is bounded at infinity. For this reason in hot electroweak plasma one expects Brownian motion of the system between topologically distinct vacua labelled by integer vallues of N :
+
+\Delta (t) = o/ (N (t) \Gamma N (0))
+
+2 AE ! \Gamma t ; as t ! 1; (1)
+
+where o/ \Delta AE stands for the Gibbs average. Diffusion rate \Gamma is the rate of sphaleron transitions. The parameter \Delta (t) at large times receives contributions only from the relevant fluctuations interpolating between different classical vacua, which makes it possible in practice to calculate \Gamma numerically on the lattice. \Gamma is a nonperturbative definition of the rate of anomalous baryon number nonconservation at high temperatures in the SM [1], which can be used in the semiclassical temperature domain and beyond it. At high temperatures one neglects quantum corrections and solves classical equations of motion to generate static solutions like kinks [2] or sphalerons [3].
+
+The correlator (1) was first evaluated in 1+1-dimensional Abelian Higgs model in [4] and the Brownian behaviour of the Chern-Simons number was found. Two methods to evalute \Delta (t) are known so far. The first one is based on the microscopical classical real-time Langevin equation, derived in [4] in such a way that the white noise would respect gauge invariance. The Lagrangian of the model is:
+
+L = \Gamma 14, F 2_* + jD_OEj2 + (jOEj2 \Gamma 1=2)2 ; (2) with D_ = @ \Gamma iA_. In this Abelian gauge theory one can resolve constraints in the Coulomb (@1A1 = 0) gauge using polar coordinates OE = aeeiff. The only (gauge-invariant!) degree of freedom left of the gauge field after the constraints have been resolved is the Chern-Simons variable N = 1=2ss R dxA1. The momentum pff canonically conjugated to the gauge-depenent
+
+1
+
+degree of freedom ff is the the density of electric charge. The white noise cannot be introduced in the equation for .pff, because it would violate the conservation of the electric charge. Therefore the noise term must be introduced only to the gauge-invariant variables like ae. The solution N (o/ ) of the resulting first-order Lagevin equation is obtained numerically and the diffusion parameter (1) is evaluated as
+
+\Delta (t) = 1o/
+
+o Z
+
+o/o o do/ (N (t + o/ ) \Gamma N (o/ ))
+
+2 ; as o/o ! 1; (3)
+
+In this way the diffusion (1) was observed [4] with the expected thermal activation behaviour of the diffusion rate \Gamma , exp(\Gamma Esp=T ) at T ! Esp, where Esp ' 1 is the sphaleron mass.
+
+Figure 1: ln(\Gamma ) vs fi for lattice spacings a = (0:16; 0:32) in the Abelian Higgs model [5].
+
+The second method is to calculate the Gibbs average (1) directly according to the definition of the classical Green function:
+
+\Delta (t) = Z\Gamma 1 Z Dp DOE exp [\Gamma H(p; OE)=T ] \Delta pOE (t) (4)
+
+where \Delta pOE(t) is evaluated on the microcanonical trajectories p(t); OE(t) - solutions of the Hamiltonian equations of motion with the initial conditions p(t) = p; OE(t) = OE. The Metropolis algorithm generating initial configurations must respect the Gauss law. For this purpose the gauge-invariant Langevin equation of [4] was used in [5] to generate the initial fOE; pg. The temperature dependence \Gamma (T ) of these canonical measurements of the diffusion rate [5] is shown on Fig.1. At semiclassical temperatures fi j T \Gamma 1 ? 7 the data agree well with the analytical predictions of [6], while at high temperatures fi ! 3 the rate exhibits the expected T 2-law. In [7] it was found numerically advantageous to use Ao = 0 - gauge in Cartezian coordinates during the Hamiltonian evolution.
+
+The gauge-invariant Langevin equation of [4] was introduced in the Abelian theory, where one can resolve the gauge constraints explicitly. To generalize it to the non-Abelian case we suggest to use the unitary gauge. In SU(2)-gauge theory with a scalar doublet ' the unitary gauge implies ' = p'y' j ae, and the Hamiltonian
+
+H = 12, E2 + 12, H2 + 14p2 + (rae)2 + ae2A2i + V (ae) + 14,2ae2 (DiEi)2 (5) can be expressed entirely in terms of canonically conjugated variables (ae; p) and (Aai ; Eai ). The last term (Coulomb energy ae2A2o) takes into account the Gauss law DiEi = \Gamma 2ae2Ao to get rid of Ao. The Gauss law is automatically satisfied in, say, Metropolis samplings with the Hamiltonian (5). In this way the gauge-invariant Gibbs distribution in classical non-Abelian gauge theories can be performed by Monte-Carlo lattice simulations. Field configurations generated in the unitary gauge do not contain sphalerons. The latter appear during the canonical evolution according to the equations of motion, which are gauge-invariant.
+
+2
+
+Langevin and canonical times are two alternative definitions of physical time in the processes at T 6= 0. To find a relation between them the sine-Gordon model was studied [8]:
+
+H = Z dx ae 12 ( .OE)2 + 12 (4OE)2 + 1 \Gamma cos(OE)oe (6) The diffusing variable now is the zero mode _OE = 12ssL R dx OE(x). The model has many degenerate classical vacua and stable kink solutions interpolating between them. At T 6= 0 the Brownian motion of _OE has been observed. At semiclassical temperatures it is due to creation of kink-antikink pairs, so the thermal activation-type of the temperature dependence \Gamma , exp[\Gamma EK=T ] has been seen in both Langevin and direct Gibbs measurements.
+
+The complete second-order Langevin equation has friction coefficient fl as an input parameter:
+
+"OEx + @H@OE
+
+x = \Gamma fl
+
+.OEx + jx(t); (7)
+
+with the white noise normalized as ! jx(t) jx(0) ? = 2T flffi(x)ffi(t). Eq. (7) interpolates between the Hamiltonian equation of motion for fl ! 0 and the first-order Langevin equation (no "OEx-term in (7)), valid at large fl or t. The absolute value of the rate (the preexponential factor) depends on fl. For moderate to large friction the simulations of (7) show (Fig.2): \Gamma (fl) , fl\Gamma 1 ; which would be a prediction of the first-order Langevin equation. That is because \Gamma is extracted from the correlator at large times t, for which the first-order Langevin equation is usually derived.
+
+Figure 2: \Gamma \Gamma 1 vs friction coefficient fl at T = 2 in the sine-Gordon model [8]. In the limit fl ! 0 the rate remains nonzero and has been found [8] to coincide exactly with the corresponding independent direct Gibbs measurement according to (4). These data demonstrate a fundamental conclusion that canonical measurements can be obtained as the fl ! 0-limit of the second-order Langevin simulations.
+
+In the high-temperature domain T ? EK at moderate to large friction the secondorder Langevin simulations [8] show: \Gamma = 2T =fl, which is obviously the prediction of the free first-order Langevin equation. These simulations are insensitive to the dynamics of the system, because at high temperatures the noise-term jx(t) entirely dominates over the regular Hamiltonian force.
+
+The high-temperature domain of canonical measurements was studied in [9]. It corresponds to the second-order Langevin simulations with asymptotically small fl, so that the noise-term does not dominate over the regular force at any fixed T . This set up represents a large isolated system like the early Universe with no external dumping. In addition to the expected temperature behaviour \Gamma = T 2 a strong lattice spacing dependence of the diffusion rate was discovered (Fig.3): \Gamma , a\Gamma 2. This is in contrast with the moderate to large friction simulations which do not exhibit any lattice-spacing dependence for a ^ 1 [8]. The rate, however, remains remarkably constant for the fixed ratio T =a even as one goes into the
+
+3
+
+Figure 3: \Gamma (T ) for a = (1; 0:5; 0:25) at high T in the sine-Gordon model [9]. semiclassical temperature domain [9]. Presumably, damping with the friction fl screens the high-frequency ultraviolet modes ! , a\Gamma 1 * fl, which are essential beyond the semiclassical domain of temperatures. The lattice spacing dependence of the diffusion rate may be different between the sine-Gordon and Abelian Higgs models, because the dimensionality of the rate is different. The latter is fixed by the requirement that the diffusing variable is dimensionless, since it has integer dimensionless values in the classical vacua. Study of the lattice spacing dependence of the diffusion rate requires rather long simulations. As a decreases, the number of degrees of freedom grows, and it takes more and more time for the system to thermalize itself in the course of the canonical evolution, which always takes place before the Brownian motion sets in. This study is, however, important particularily in higher space-time dimensions, since it is a connection between the simulated classical system and the underlying quantum field theory at finite temperature [2], [10].
+
+This work was supported by the U.S. NSF grant PHY90-24764 and the grant of the Pittsburgh Supercomputer Center.
+
+References
+
+[1] V. Kuzmin, V. Rubakov, E. Shaposhnikov, Phys. Lett. B155:36(1985). [2] D. Grigoriev, V. Rubakov, Nucl. Phys. B299:67(1988). [3] D. Grigoriev, V. Rubakov, M. Shaposhnikov, Nucl. Phys. B326:737(1989). [4] A. Bochkarev, Ph. de Forcrand, Phys. Rev. D44:519(1991). [5] J. Smit, W.H. Tang, Nucl. Phys. (Proc. Suppl.) B34:616(1994). [6] A. Bochkarev, G. Tsitsishvili, Phys. Rev. D40:R1378(1989). [7] A. Krasnitz, R. Potting, Phys. Lett. B318:492(1993). [8] A. Bochkarev, Ph. de Forcrand, Phys. Rev. D47:3476(1993). [9] A. Bochkarev, Nucl. Phys. (Proc. Suppl.) B34:619(1994). [10] A. Bochkarev, Classical Limit of the Quantum Field Theory at Finite Temperature,
+
+Preprint PITT-93-10 (1993).
+
+4
+

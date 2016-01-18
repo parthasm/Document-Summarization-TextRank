@@ -1,0 +1,680 @@
+
+
+ 9 Nov 1994
+
+DMR-THEP-94-10/W
+
+
+
+October 1994 Submitted to Physics Letters B.
+
+Quantum Field Theory of Bose-Einstein
+
+Correlations
+
+Leonid V. Razumov\Lambda , R.M. Weiner x Physics Department, University of Marburg, Marburg, F.R. Germany
+
+Abstract A Quantum Field Theory formulation of Bose-Einstein Correlations is given. It contains as a special case the classical current approach. It is shown that the particle-antiparticle correlations are a general feature of Bose-Einstein Correlations and not an artifact of a certain approximation. Relations are provided through which the quantum corrections to the classical current approach can be determined experimentally.
+
+\Lambda E.Mail: razumov@convex.hrz.Uni-Marburg.de
+
+xE. Mail: weiner@vax.hrz.Uni-Marburg.de
+
+Bose-Einstein correlations (BEC) are an important theoretical and experimental tool in particle and nuclear physics in a wide range of energies because one can obtain from BEC information about the space-time structure of the source as well as about the dynamics of the reaction mechanism. There have been two main theoretical approaches to BEC:
+
+1. The wave function approach [1]. This approach being based on first quantisation
+
+has serious drawbacks some of which are listed below:
+
+(a) The treatment of inclusive reactions which constitute the bulk of experimentally accessible reactions is quite cumbersome, if not practically impossible for high multiplicities.
+
+(b) Higher order correlations can hardly be calculated with this method.
+
+(c) A correct treatment of quantum statistical coherence is not possible. (d) Quantum statistical particle-antiparticle correlations are absent.
+
+2. The classical current formalism [1, 2], which has none of the drawbacks mentioned
+
+above but still uses the approximation that the currents (but not the fields) are classical. The Wigner function approach [3] and the method of local equilibrium statistical operator [4] are particular cases of this current ensemble approach.
+
+Recently using a particular model [5] for heavy-ion reactions it has been conjectured that measurements of a classical radius through BEC are strongly affected by non-classical off-shell effects.
+
+In this paper we develop a quantum-field approach to BEC in the real time formulation (Keldysh technique) [6]. Among the results obtained here we mention an estimate accessible to experimental measurements of the quantum corrections to the classical current formalism and the proof that quantum-statistical particle-antiparticle correlations are not an artifact of the classical current formalism but a quite general property of particle physics.
+
+We start with the inclusive spectra which are usually defined in terms of the density matrix aef of the final state
+
+P1(k) j k0 doe
+
+in
+
+d3k = Traef aya = Xf wf nf (k) =! nf (k) ? (1)
+
+P2(k1; k2) j k01k02 d
+
+2oein
+
+d3k1d3k2 = T rfaef ay(k2)ay(k1)a(k1)a(k2)g = (2)
+
+=8!:(k1 6= k2) ; Pf wf nf (k1)nf (k2) =! n(k1)n(k2) ?(
+
+k1 = k2 = k) ; Pf wf nf (k) \Delta (nf (k) \Gamma 1) =! n(k) \Delta (n(k) \Gamma 1) ?
+
+1
+
+(where wf denotes the probability to obtain the final state jf ? from the initial state and n is the multiplicity) and express them in terms of the initial state density matrix aei and the S-matrix using the identity aef = SaeiSy
+
+P1(k) = T raeiSyay(k)a(k)S (3)
+
+P2(k1; k2)jk01k02 d
+
+2oein
+
+d3k1d3k2 = T rfaeiSyay(k2)ay(k1)a(k1)a(k2)Sg (4) To proceed further we assume [7] that in our interferometry experiment we registrate particles with quantum numbers not contained in the initial state
+
+aaei = aeiay = 0 (5) This condition is in general satisfied if one omits in the final state particles with zero transverse momentum. We can transpose the annihilation operators a on the r.h.s. and the creation operators ay on the l.h.s. side of T r expression commuting repeatedly a with S, ay with Sy and using (5). This results in the following expressions for the single
+
+P1(k) = T r 8!:aei ffiSyffia(k) ffiSffiay(
+
+k)
+
+9=;
+
+(6)
+
+and the double inclusive cross-section
+
+P2(k1; k2) = T r 8!:aei ffi
+
+2Sy
+
+ffia(k1)ffia(k2) \Delta
+
+ffi2S
+
+ffiay(k1)ffiay(k2)
+
+9=;
+
+(7)
+
+In (6) and (7) we used the property [a(k); S] = ffiS=ffiay(k), where the variational derivative is taken with respect to the corresponding symbol of the operator ay (cf. [8]).
+
+To be specific we consider in the following the direct production of pions ss(+); ss(\Gamma ); ss0 (the method can be easily generalized for pions coming from resonances). We assume that the particle production is governed by the interaction lagrangian:
+
+Lint(x) j J (+)(x)ss(\Gamma )(x) + J (\Gamma )(x)ss(+)(x) + J 0(x)ss0(x) (8) which is the simplest ansatz for an isospin triplet. The currents J (+); J (\Gamma ); J 0 are operators not depending on the ss(\Sigma ) and ss0 fields ([J; ss] = 0). For example J can be due to quark-fields (J (\Gamma )(x) = _ufl5d ; J 0 = (_ufl5u \Gamma _dfl5d)=p2) or any other fields different from the pion fields. In this way we generalise the classical current formalism. Let a (ay) ; b (by) ; c (cy) stand for annihilation (creation) operators of ss(\Gamma ) ; ss(+) ; ss(0) respectively. The same procedure that was used to derive (6), (7) leads now to following expressions for inclusive spectra:
+
+P (\Gamma )1 (k) j k0 doe
+
+in(
+
+\Gamma )
+
+d3k = T r 8!:aei
+
+ffiSy ffia(k)
+
+ffiS
+
+ffiay(k)
+
+9=;
+
+(9)
+
+2
+
+P (+)1 (k) j k0 doe
+
+in(+)
+
+d3k = T r 8!:aei
+
+ffiSy ffib(k)
+
+ffiS
+
+ffiby(k)
+
+9=;
+
+(10)
+
+P (0)1 (k) j k0 doe
+
+in(0)
+
+d3k = T r 8!:aei
+
+ffiSy ffic(k)
+
+ffiS
+
+fficy(k)
+
+9=;
+
+(11)
+
+P (\Gamma \Gamma )2 (k1; k2) j k01k02 d
+
+2oein(
+
+\Gamma \Gamma )
+
+d3k1d3k2 = T r 8!:aei
+
+ffi2Sy ffia(k1)ffia(k2) \Delta
+
+ffi2S
+
+ffiay(k1)ffiay(k2)
+
+9=;
+
+(12)
+
+P (00)2 (k1; k2) j k01k02 d
+
+2oein(00)
+
+d3k1d3k2 = T r 8!:aei
+
+ffi2Sy ffic(k1)ffic(k2) \Delta
+
+ffi2S
+
+fficy(k1)fficy(k2)
+
+9=;
+
+(13)
+
+P (\Gamma +)2 (k1; k2) j k01k02 d
+
+2oein(
+
+\Gamma +)
+
+d3k1d3k2 = T r 8!:aei
+
+ffi2Sy ffia(k1)ffib(k2) \Delta
+
+ffi2S
+
+ffiay(k1)ffiby(k2)
+
+9=;
+
+(14)
+
+Formulae (9)-(11) represent single inclusive cross-sections of ss(\Gamma ) ; ss(+) and ss0. Double inclusive spectra for ss\Gamma ss\Gamma = ss(+) ss(+) and ss(0) ss(0) pairs are described by (12) and (13) respectively. Formula (14) stands for the ss(\Gamma ) ss(+) double inclusive cross-section, which reflects Bose-Einstein Correlations between a particle and its antiparticle [2]. Next we eliminate the field operators in favour of the current operators J by means of the S-matrix represented through the interaction lagrangian
+
+S = T exp aei Z d4xLint(x)oe (15) and calculate the derivatives:
+
+ffiS ffiay(k) = T f
+
+J (\Gamma )(k)Sgp
+
+2k0V ;
+
+ffiSy ffia(k) =
+
+~T fSyJ (+)(\Gamma k)gp
+
+2k0V ;
+
+ffiS ffiby(k) = T f
+
+J (+)(k)Sgp
+
+2k0V ;
+
+ffiSy ffib(k) =
+
+~T fSyJ (\Gamma )(\Gamma k)gp
+
+2k0V ; (16)
+
+ffiS fficy(k) = T f
+
+J (0)(k)Sgp
+
+2k0V ;
+
+ffiSy ffic(k) =
+
+~T fSyJ (0)(\Gamma k)gp
+
+2k0V ;
+
+Here T and ~T are the chronological and antichronological time ordering operators respectively. No difficulties arise for the second and higher order derivatives because the currents J do not depend on a; ay; b ; by; c ; cy. The single and double inclusive spectra read now:
+
+P (\Gamma )1 (k) = T r aeaei ~T hSyJ (+)(\Gamma k)iT hJ (\Gamma )(k)Sioe (17)
+
+3
+
+P (+)1 (k) = T r aeaei ~T hSyJ (\Gamma )(\Gamma k)iT hJ (+)(k)Sioe (18)
+
+P (0)1 (k) = T r aeaei ~T hSyJ (0)(\Gamma k)iT hJ (0)(k)Sioe (19) P (\Gamma \Gamma )2 (k1 ; k2) = T r aeaei ~T hSyJ (+)(\Gamma k1)J (+)(\Gamma k2)iT hJ (\Gamma )(k1)J (\Gamma )(k2)Sioe (20)
+
+P (00)2 (k1 ; k2) = T r aeaei ~T hSyJ (0)(\Gamma k1)J (0)(\Gamma k2)iT hJ (0)(k1)J (0)(k2)Sioe (21) P (\Gamma +)2 (k1 ; k2) = T r aeaei ~T hSyJ (+)(\Gamma k1)J (\Gamma )(\Gamma k2)iT hJ (\Gamma )(k1)J (+)(k2)Sioe (22) We have thus obtained the expressions for the physical quantities only in terms of the currents and S-matrix. To eliminate the S-matrix we rewrite (17) - (22) in terms of Heisenberg operators. To do so we insert the identity 1 = SSy between the antichronological ~T and chronological T parts of expressions (17) - (22) and use the well known relation between Heisenberg and Interaction representation operators:
+
+T [AH BHCH : : :] = SyT [AintBintCint : : : S]
+
+and (23)
+
+~T [AH BHCH : : :] = T ^SyAintBintCint : : :* S This procedure results in the following formulae:
+
+P (\Gamma )1 (k) = T r naeiJ (+)H (\Gamma k)J (\Gamma )H (k)o (24)
+
+P (+)1 (k) = T r naeiJ (\Gamma )H (\Gamma k)J (+)H (k)o (25)
+
+P (0)1 (k) = T r naeiJ (0)H (\Gamma k)J (0)H (k)o (26) P (\Gamma \Gamma )2 (k1 ; k2) = T r naei ~T hJ (+)H (\Gamma k1)J (+)H (\Gamma k2)i T hJ (\Gamma )H (k1)J (\Gamma )H (k2)io (27)
+
+P (00)2 (k1 ; k2) = T r naei ~T hJ (0)H (\Gamma k1)J (0)H (\Gamma k2)i T hJ (0)H (k1)J (0)H (k2)io (28) P (\Gamma +)2 (k1 ; k2) = T r naei ~T hJ (+)H (\Gamma k1)J (\Gamma )H (\Gamma k2)i T hJ (\Gamma )H (k1)J (+)H (k2)io (29) Similar expressions can be derived of course for higher order inclusive cross-sections. From now on we shall omit the index H assuming that all operators are in the Heisenberg representation. Eqs. (24)-(29) constitute the Quantum Field theoretical formulation of the inclusive spectra in terms of quantum currents and the density matrix of the initial state.
+
+4
+
+For the particular case of recoilless emission the quantum currents J can be replaced by classical currents [9] which simplifies to a great extent the expressions above. Thus e.g. for ss(+) ss(\Gamma ) spectra one obtains as in [2]
+
+P (\Gamma +)2cl (k1; k2) =Z DJ (\Gamma )DJ (+)P(J (\Gamma ); J (+)) \Theta (30)
+
+\Theta !J (+)(\Gamma k1)J (\Gamma )(\Gamma k2)J (\Gamma )(k1)J (+)(k2)? where the trace over the density matrix aei has been replaced by an integral over the classical current configurations.
+
+In Quantum Field Theory there is a very elegant formalism to deal with antichronologically ordered operator products on the same footing as with chronological ones, namely the Keldysh technique [6] well known also under the name Real Time Formalism (RTF) The essence of this formalism consists in the following: Every dynamical operator A is mapped formally in two operators denoted here as A\Phi ; A\Psi . These additional degrees of freedom reflect what kind of ordering is used (Ex.: Tc[A\Psi B\Psi ] =T
+
+[AB] ; Tc[A\Phi B\Phi ] = ~T [AB] ; Tc[A\Phi B\Psi ] = AB ; Tc[A\Psi B\Phi ] = BA): In RTF the doubleinclusive spectra (27)-(29) are just "contour-time" (Tc) ordered Green-function of the corresponding operators:
+
+P (\Gamma \Gamma )2 (k1; k2) = !Tc nJ (+)\Phi (\Gamma k1)J (+)\Phi (\Gamma k2)J (\Gamma )\Psi (k1)J (\Gamma )\Psi (k2)o? (31)
+
+P (00)2 (k1; k2) = !Tc nJ (0)\Phi (\Gamma k1)J (0)\Phi (\Gamma k2)J (0)\Psi (k1)J (0)\Psi (k2)o? (32) P (\Gamma +)2 (k1; k2) = !Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Phi (\Gamma k2)J (\Gamma )\Psi (k1)J (+)\Psi (k2)o? (33) Above we have introduced the notation ! : : : ? j T rfaei : : :g. Formally these equations are quite similar to those obtained in the classical current formalism (compare e.g. Eq. (33) with Eq. (30)); the difference resides, of course, in the fact that in the quantum-field formulation the currents are operators and they appear in a particular order.
+
+It is useful to rewrite the full Green-functions (denoted by ! : : : ?) in terms of their connected parts (denoted here as o/ : : : AE). For simplicity we assume from now on that the system is completely chaotic (! J ?= 0). Then, the double-inclusive spectra (31)-(33) written in terms of connected Green-functions take the following form (for their graphic representation (cf. Fig.1):
+
+P (\Gamma \Gamma )2 (k1; k2) = o/Tc nJ (+)\Phi (\Gamma k1)J (+)\Phi (\Gamma k2)J (\Gamma )\Psi (k1)J (\Gamma )\Psi (k2)oAE +
+
++ o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Psi (k1)oAEo/Tc nJ (+)\Phi (\Gamma k2)J (\Gamma )\Psi (k2)oAE + o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Psi (k2)oAEo/Tc nJ (+)\Phi (\Gamma k2)J (\Gamma )\Psi (k1)oAE (34)
+
+5
+
+P (00)2 (k1; k2) = o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Phi (\Gamma k2)J (0)\Psi (k1)J (0)\Psi (k2)oAE
+
++ o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Psi (k1)oAEo/Tc nJ (0)\Phi (\Gamma k2)J (0)\Psi (k2)oAE + o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Psi (k2)oAEo/Tc nJ (0)\Phi (\Gamma k2)J (0)\Psi (k1)oAE + o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Phi (\Gamma k2)oAEo/Tc nJ (0)\Psi (k2)J (0)\Psi (k1)oAE (35) P (\Gamma +)2 (k1; k2) = o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Phi (\Gamma k2)J (\Gamma )\Psi (k1)J (+)\Psi (k2)oAE
+
++ o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Psi (k1)oAEo/Tc nJ (\Gamma )\Phi (\Gamma k2)J (+)\Psi (k2)oAE + o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Phi (\Gamma k2)oAEo/Tc nJ (\Gamma )\Psi (k1)J (+)\Psi (k2)oAE (36) The expressions (34)-(36) are exact but quite complicated.
+
+An important simplification can be achieved by assuming a Gaussian form for the density matrix [10]. This form follows from the Central Limit Theorem which is applicable when the number of independent sources becomes large. The assumption that the number of sources is large is quite natural for high energy heavy-ion reactions and it is an accepted ingredient in many phenomenological approaches like e.g. the string model [11, 12], hydrodynamical [13] and thermodynamical models, etc. For a gaussian density matrix the 4-point connected correlator vanishes. Then eqs. (24) - (26), (34)-(36) become
+
+P (0)1 (k) = F n(k; k) (37) P (\Gamma )1 (k) = P (+)1 (k) = F ch(k; k) (38) P (\Gamma \Gamma )2 (k1; k2) = P (\Gamma )1 (k1)P (\Gamma )1 (k2) + jF ch(k1; k2)j2 (39)
+
+P (00)2 (k1; k2) = P (0)1 (k1)P (0)1 (k2) + jF n(k1; k2)j2 + j ~F n(k1; k2)j2 (40) P (\Gamma +)2 (k1; k2) = P (\Gamma )1 (k1)P (+)1 (k2) + j ~F ch(\Gamma k1; k2)j2 (41) where the functions F are defined for charged particles (upper index ch) and for neutral ones (upper index n) as follows:
+
+F ch(k1; k2) j o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Psi (k2)oAE = o/J (+)(\Gamma k1)J (\Gamma )(k2)AE (42)
+
+~F ch(k1; k2) j o/Tc nJ (+)\Phi (\Gamma k1)J (\Gamma )\Phi (k2)oAE = o/ ~T nJ (+)(\Gamma k1)J (\Gamma )(k2)oAE (43)
+
+F n(k1; k2) j o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Psi (k2)oAE = o/J (0)(\Gamma k1)J (0)(k2)AE (44)
+
+6
+
+~F n(k1; k2) j o/Tc nJ (0)\Phi (\Gamma k1)J (0)\Phi (k2)oAE = o/ ~T nJ (0)(\Gamma k1)J (0)(k2)oAE (45) In contrast to the classical current approach [2] which deals with only one type of twocurrent correlator we have here two different kinds of two-current correlators depending on their ordering prescriptions. The two-particle correlations are given by
+
+C(\Gamma +)2 (k1; k2)j P
+
+(\Gamma +) 2 (k1; k2)
+
+P (\Gamma )1 (k1)P (+)1 (k2) = 1 + j
+
+~dch(k1; k2)j2 (46)
+
+C(\Gamma \Gamma )2 (k1; k2)j P
+
+(\Gamma \Gamma ) 2 (k1; k2)
+
+P (\Gamma )1 (k1)P (\Gamma )1 (k2) = 1 + jd
+
+ch(k1; k2)j2 (47)
+
+C(00)2 (k1; k2)j P
+
+(00) 2 (k1; k2)
+
+P 01 (k1)P 01 (k2) = 1 + jd
+
+n(k1; k2)j2 + j ~dn(k1; k2)j2 (48)
+
+where the functions d are defined as follows:
+
+dch(k1; k2) j F
+
+ch(k1; k2)q
+
+F ch(k1; k1)F ch(k2; k2) ;
+
+~dch(k1; k2) j ~F
+
+ch(k1; k2)q
+
+F ch(k1; k1)F ch(k2; k2) (49)
+
+dn(k1; k2) j F
+
+n(k1; k2)q
+
+F n(k1; k1)F n(k2; k2) ;
+
+~dn(k1; k2) j ~F
+
+n(k1; k2)q
+
+F n(k1; k1)F n(k2; k2) (50) The "surprising" effects found in [2] i.e. the
+
+ffl presence of particle-antiparticle Bose-Einstein type correlations and ffl a new term in Bose-Einstein correlation function for neutral particles are reobtained, but under a more general form which contains also the quantum corrections. These equations also prove that the effects derived in [2] are not an artifact of the classical current formalism but have general validity.
+
+To study the deviations of the above equations from the classical current approach we compare the two types of two-current correlators (42) and (43). This can be done more easily in coordinate representation (F ch(x1; x2) = o/J (+)\Phi (x1)J (\Gamma )\Psi (x2)AE ; ~F ch(x1; x2) =o/
+
+~T fJ (+)\Phi (x1)J (\Gamma )\Phi (x2)gAE) :
+
+Rch(x1; x2) j ~F ch(x1; x2) \Gamma F ch(x1; x2) = \Theta (x01 \Gamma x02) o/[J (+)(x1)J (\Gamma )(x2)]AE (51) The Rch-function is just the retarded current commutator and can in principle be calculated once the currents and fields entering (8) are given (cf. the end of the paper). In principle, one can determine Rch experimentally by comparing ss(\Gamma )ss(\Gamma ) and ss(\Gamma )ss(+) data and using Eqs. (38), (46), (47), (49), (51). In this way one can test to what extent the system can be treated quasi-classically. On the other hand the R-function can be
+
+7
+
+calculated for a particular model. For any classical current theory R = 0 and therefore
+
+~d(k1; k2) = d(k1; \Gamma k2) [14].
+
+Similarly for the neutral particles one has
+
+Rn(x1; x2) j ~F n(x1; x2) \Gamma F n(x1; x2) = \Theta (x01 \Gamma x02) o/[J (0)(x1); J (0)(x2)]AE (52) which is the retarded commutator of the current J (0). The structure of formula (48) is typical for the correlation function of any neutral boson. For instance, if one measures photon-pairs with a given polarisation, formula (48) is applicable if one defines J (0)(k) j ffl_(k)J _(k). In general polarisation effects for particles with non-zero integer spin can play an important role in (40) [15]. But apart of polarisation effects the kinematical and dynamical information about the collision is contained in the two functions F n and ~F n. Since jdn(k; k)j = 1 and j ~dn(k1; k2)j * 0 the intercept of the correlation function C(00)2 (k; k) * 2 (we refer here to a completely chaotic source, without coherence). The exact value of the intercept is model dependent. As mentioned above, in the classical current formalism R j 0, ~dn(k1; k2) = dn(\Gamma k1; k2) and the correlation function simplifies to
+
+C(00)2cl (k1; k2) = 1 + jdn(k1; k2)j2 + jdn(\Gamma k1; k2)j2 (53) which depends only on the function dn. For this case the bounds for the correlation function have been established [16]1.
+
+To exemplify the above made considerations we present here a simple model where massless pions are produced from a static source consisting of other scalar particles in thermal equilibrium (ae = e\Gamma H=T where H is the Hamiltonian of the system and T is the temperature, cf. e.g. [18]). The interaction is given by the Lagrangian
+
+Lint = gj(x)ss(x) ; with j(x) = _'(x)'(x) (54) The calculations are performed in the one-loop approximation using the Keldysh technique [6].
+
+The relevant current correlators can be expressed in a very simple form if one takes 1In [17] the results of the classical current formalism were misquoted. Contrary to what was stated in [17] the intercept of the ss0ss0 correlation function in the classical current formalism strongly depends on both the mass m of the particle and the time-duration of freezeout o/ . The value 3 for the intercept can be obtained either in the limit of instantaneous freezeout or for massless particles at zero momentum. For the "static" source with exponential parametrisation one has Cmax2 = 2 + exp(\Gamma o/ m) .
+
+8
+
+into account the contour time ordering by placing (+\Gamma ) labels at the vertices:
+
+' &
+
+$ %uu ! j(x2)j(x1) ? = (\Gamma )x
+
+1
+
+(+) x2
+
+' &
+
+$ %uu ! j(x1)j(x2) ? = (+)x
+
+1
+
+(\Gamma ) x2
+
+-
+
+-
+
+oe
+
+oe
+
+= (! '(x1) _'(x2) ?)2 = (! '(x2) _'(x1) ?)2 where ! '(x
+
+1) _'(x2) ?= 1_h Z d
+
+4p
+
+(2ss)4 e
+
+\Gamma ip(x1\Gamma x2)2ssffi(p2)[\Theta (p0) + n(jp0j)] (55)
+
+The R-function which is the retarded current commutator (52) can be calculated even easier than the correlators
+
+[j(x1); j(x2)]=[ _'(x1)'(x1) ; _'(x2)'(x2)] (56)
+
+= _'(x1)['(x1) ; _'(x2)]'(x2) + _'(x2)[ _'(x1) ; '(x2)]'(x1) because the field commutator ['(x1) ; _'(x2)] does not depend on temperature:
+
+['(x1) ; _'(x2)] = 1_h Z d
+
+4p
+
+(2ss)4 e
+
+\Gamma ip(x1\Gamma x2)2sssgn(p0)ffi(p2) (57)
+
+We omit the algebraic details and present just the results:
+
+R(x1; x2) = \Gamma i2ss2 g2_hT f (x1)\Theta (x01 \Gamma x02) ffi(x
+
+2)
+
+juxj f (x2) ^
+
+1 e2ssa \Gamma 1 \Gamma
+
+1 2ssa +
+
+1 2 * (58)
+
+! j(x1)j(x2) ?= f (x1)g2 ( \Gamma i2ss2 _hx2 \Gamma ifflsgn(x
+
+0) + (59)
+
+T 2ss
+
++1Z
+
+\Gamma 1
+
+dff sgn(ff \Gamma (ux))ffi i(ffu_ \Gamma x_)2j " 1e2ssffT=_h \Gamma 1 \Gamma 12ssffT =_h + 12 #9=;
+
+2
+
+f (x2)
+
+where x j x1 \Gamma x2 and we define a j 2T juxj=_h using the 4-velocity u_ ( in rest frame u_ = (1; 0)). The function f (x) is introduced phenomenologically and plays the role of an effective vertex function containing the finite size effects of the source. It is the subject of Bose-Einstein correlations studies.
+
+9
+
+It is easy to see from (58) and (59) that this model manifests quasi-classical behaviour (that is jR(x1; x2)=! j(x1)j(x2) ?j o/ 1) at least in two limiting cases: T ! 1 or _h ! 0 as it should be from general principles. Although this model can not be considered as realistic it illustrates how quantum effects do influence BEC.
+
+Finally one should stress a new feature of particle-antiparticle BEC which emerges from this paper. Besides the fact that like ordinary particle-particle BEC they can serve as tools in the determination of radii and lifetimes, and besides the fact that they reflect the existence of squeezed states, they play a particularly important role in the detection of quantum corrections to BEC. Their experimental measurement is a highly rewarding task.
+
+We would like to acknowledge fruitful comments by I.V.Andreev, C.Jeffries, H.Paul, M.Pl"umer. This work was supported in part by the Gesellschaft f"ur Schwerionenforschung, Darmstadt.
+
+10
+
+= + +
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+Fig. 1 Decomposition of the ss(\Gamma ) ss(\Gamma ) 4-point full Green-function.
+
+in terms of the connected parts. This diagram corresponds to P (\Gamma \Gamma )2 (k1; k2).
+
+= + + +
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+Fig. 2 Decomposition of the ss(0) ss(0) 4-point full Green-function
+
+in terms of the connected parts. This diagram corresponds to P (00)2 (k1; k2).
+
+= + +
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+\Gamma k1
+
++
+
+\Gamma k2
+
++
+
+k1 \Gamma
+
+k2 \Gamma
+
+Fig. 3 Decomposition of the ss(\Gamma ) ss(+) 4-point full Green-function
+
+in terms of the connected parts. This diagram corresponds to P (\Gamma +)2 (k1; k2).
+
+11
+
+References
+
+[1] D. H. Boal, C. Gelbke, and B. K. Jennings, Rev. Mod. Phys. 62 (1990) 553. [2] I. V. Andreev, M. Pl"umer, and R. M. Weiner, Int. J. Mod. Phys. A8 (1993) 4577. [3] S. Pratt, Phys. Rev. Lett. 53 (1984) 1219. [4] Yu. M. Sinyukov, Kiev Preprint ITP-93-8E (1993). [5] G. Bertsch, P. Danielewicz, and M. Herrmann, Preprint DOE-ER-40561-112,
+
+Sep.1993, 30pp., nucl-th@xxx.lanl. .
+
+[6] L. V. Keldysh, Sov. Phys. JETP 20 (1965) 1018. [7] A. Makhlin, Sov.J.Nucl.Phys. 49 (1989) 238. [8] F. A. Berezin, The Method of Second Quantization, Academic Press, 1966. [9] J. D. Bjorken and S. D. Drell, Relativistic Quantum Fields, page 202, McGraw-Hill,
+
+1965.
+
+[10] R. J. Glauber, Phys. Rev. 131 (1963) 2766. [11] M. Bowler, Z. Phys. C29 (1985) 617. [12] B. Andersson and W. Hofmann, Phys. Lett. B169 (1986) 364. [13] J. Bolz, U. Ornik, M. Pl"umer, and R. M. Weiner, Phys. Rev. D47 (1993) 3860. [14] I. V. Andreev, M. Pl"umer, and R. M. Weiner, Phys. Rev. Lett. 67 (1991) 3475. [15] L. V. Razumov and R. M. Weiner, Phys. Lett. B319 (1993) 431. [16] M. Pl"umer, L. V. Razumov, and R. M. Weiner, Phys. Rev. D49 (1994) 4434. [17] Yu. M. Sinyukov and B. L"orstad, Z. Phys. C 61 (1994) 587. [18] J. I. Kapusta, Finite temperature Field Theory, Cambridge University Press, 1989.
+
+12
+

@@ -1,0 +1,323 @@
+%Paper: 
+%From: FORDEN@uazhe0.physics.Arizona.EDU
+%Date: Fri, 11 Jun 1993 09:00 MST
+%auto-ignore
+
+Introduction.
+	Quantum Chromodynamics (QCD) has successfully explained the properties of jets
+observed during proton proton and proton anti-proton collisions over a large
+range of
+center of mass energies as well as jet transverse momentum(1).  The gross
+features of the
+observed hard interactions can be explained by tree level graphs with small
+modifications
+by next to leading order (NLO) corrections.  The DZERO detector(2) at the
+Fermilab
+TEVATRON has searched for events which indicate that there was a net zero
+exchange of
+color between the colliding proton and anti-proton.  Such processes, if QCD in
+origain, can
+only come about during the exchange of at least two gluons and are inherently
+higher order
+processes.
+	This search was originally motivated by suggestions from Dokshitzer et al.(3)
+and
+Bjorken(4) in searches for W+ W- boson scattering in the production of heavy
+Higgs
+bosons at the SSC and LHC.  In this process a quark from each proton in the
+collision
+radiates a real W boson which then annihilates to form a Higgs.  The unique
+feature that
+was pointed out by Bjorken and others is that since there is no color exchange
+between the
+two hadrons (the W bosons being color neutral) the "underlying event" should be
+separated
+into two distinct halves with a "void" between the two tagging jets.
+	This can be understood, at least qualitatively, by considering the Lund
+picture of
+hadron-hadron collisions(5).  The two hadrons after the low Pt interaction
+which dominates
+minimum bias events observed at the TEVATRON and the SPPbarS are viewed as
+consisting of a quark (anti-quark) and diquark (anti-diquark).  However, there
+has,
+presumably, been an exchange of color between the two hadrons and the color
+singlets
+now consist of the quark (anti-quark) from the proton (anti-proton) and the
+anti-diquark
+(diquark) from the anti-proton (proton.)  These color singlets are connected by
+two strings
+which stretch across the event.  This is illustrated in Figure 1a. When the
+strings fragment
+they produce the particles for the underlying event.  As the scale of the
+interaction increases
+this picture makes a natural transition to larger Pt jets, with the added
+complication that the
+drawing of the color lines involving gluons become somewhat ambiguous.  There
+is
+always, however, at least one color line "crossing the event".  If the
+interaction involved
+zero net color exchange, as the WW scattering example does, then there would
+not be any
+color connection between the two "halves" of the event and we would expect to
+find a void
+between them.
+	At the Fermilab TEVATRON, with a center of mass energy of  s**1/2=1800
+GeV/c2, the dominant high Pt processes with zero net color exchange would
+either be
+photon exchange between quarks (and anti-quarks) in the two colliding hadrons
+or multiple
+gluon exchange, illustrated in Figures 1b and 1c respectively.  It is still an
+experimental
+question which of these two processes dominates.
+Selection of Events.
+	Jet events were selected using three different criteria in order to
+continuously cover
+a wide range of pseudo-rapidity separations of jets.  All three triggers used
+the standard
+DZERO Level 1 trigger towers.  These consist of calorimeter cells forming
+pseudo-
+projective towers which are 0.2 x 0.2 wide in Delta eta x Delta phi.  The two
+single jet
+triggers each required a single such tower with transverse momentum greater
+than 7 GeV/c
+at Level 1 and then at least 1 reconstructed jet in Level 2 (an on-line
+software trigger which
+fully unpacks the calorimeter cells) with greater than 30 GeV/c transverse
+momentum.  One
+of these trigger chains, which will be referred to here as the single forward
+jet trigger,
+required that both the Level 1 tower and the reconstructed Level 2 jet have
+absolute pseudo-
+rapidities greater than or equal to 2.0.  There were no other requirements at
+the trigger level
+that there be other jets or other particles present for either of these two
+triggers.  In fact,
+most of the events recorded with these triggers were either two or three jet
+events. The
+kinematics of the parton scattering lead to most of the events for both these
+triggers to have
+relatively small separations between jets.  The single forward jet trigger had
+the "other jet"
+being produced predominately on the same side of the event as the trigger jet
+(thus the event
+center of mass was boosted in one direction or the other) as illustrated in
+Figure 2 which
+shows  the pseudo-rapidity distribution of the other jet.  The other single jet
+trigger did not
+make any requirements on the pseudo-rapidities of the jets.  Again the parton
+distributions
+made events with central jets predominate and hence most of the events obtained
+from this
+trigger had relatively small separations in pseudo-rapidity (eta.)  However,
+both these
+classes of events had significant numbers of events with large (>4.5)
+separations of jets in
+eta.
+	The third jet trigger used was aimed at selecting events with large
+separations
+between jets and will be referred to as the gap trigger.  The gap trigger
+required events to
+have at least two Level 1 trigger towers, each with 7 GeV/c or more transverse
+momentum.
+Furthermore, the event was required to have two such trigger towers to have
+absolute h's
+greater than 2.0 and a difference in eta between them of greater than or equal
+to 4.0 (i.e. on
+opposite sides of the event.)  The Level 2 trigger then required two jets with
+reconstructed
+transverse momentum greater than 25 GeV/c, absolute h's greater than 2.0 and,
+again, a
+separation in eta greater than 4.0.  No requirement was made on the presence or
+absence of
+jets or particles anywhere else in the event for this trigger.  Thus an event
+with the two
+triggering forward jets and a central jet would have the same probability of
+triggering the
+detector as an event with the same forward jet kinematics but not the central
+jet.
+	The events accepted with these triggers cover the complete range of
+pseudo-rapidity
+separations of jets from zero to more than 6.4.  The single forward jet trigger
+provides a
+continuous transition to the gap trigger.  None of the triggers are biased
+toward events
+without an underlying event.
+
+Calorimeter Response to Single Particles and the Definition of a Void
+	The calorimeter provides a very uniform hermetic detector for single particles
+as
+well as jets and is used instead of the tracking system for the detection of
+the presence of
+single particles.  This insures an excellent efficiency for the detection of
+electromagnetic
+showers.  The tracker was used, however, to help determine the response of the
+calorimeter to the low energy charged hadrons expected to comprise the majority
+of the
+underlying event.  Figure 3 shows the Monte Carlo determined efficiency for
+reconstructing single tracks superimposed on the Monte Carlo expectation for
+the single
+charged  particle
+spectrum for minimum bias events.  The actual spectrum can not be determined by
+DZERO
+since it lacks a central magnetic field.  However, the spectrum is a steeply
+falling function
+of energy and the tracking efficiency is a very steeply rising function with a
+sharp turn on at
+approximately 200 MeV/c2.  Hence  most of the particles seen in the tracker are
+approximately 200 MeV/c2 in energy.  The showers associated with tracks in
+minimum
+bias events were examined to determine the efficiency for particle detection
+(as opposed to
+making energy measurements.)  Figure 4 shows the single electromagnetic
+calorimeter
+tower response to good central tracks.  It is clear that a calorimeter
+requirement of greater
+than or equal to 200 MeV/c2 in a single tower would detect a significant
+fraction of charged
+particles with energies greater than 200 MeV/c2 as well as most electromagnetic
+showers
+with energies greater than 200 MeV/c2.  This single tower cut is currently
+forced on this
+analysis since the standard DZERO data reduction chain does not retain full
+calorimeter
+information in a readily accessible manner for large numbers of events.  It is
+expected that
+this situation will change this summer when the data production scheme is tuned
+for this
+analysis.
+	The rapidity gap between jets is defined as the distance in pseudo-rapidity
+from the
+inner edge of a jet to the inner edge of the next, closest, jet.  This is
+illustrated in Figure 5.
+A gap is called a void if there are less than or equal to one electromagnetic
+tower with
+transverse energy greater than 200 MeV/c2 in this gap.  The effect of varying
+this definition
+of a void is discussed in the next section on results.
+Results
+	Figure 6a shows the probability of finding a void, as defined above, as a
+function
+of the gap between jets.  The events selected with the single forward jet
+trigger are used
+here for gap widths less than or equal to 2.6 in pseudo-rapidity (hence jet
+separations less
+than or equal to 4.0) and the gap trigger there after.  There is unit
+probability of finding
+such a void when there is zero separation between jets
+independent of the production mechanism.  As the gap width increases the
+probability of
+finding a void decreases, being dominated, presumably, by fluctuations in the
+fragmentation of the underlying event.  At a gap width of approximately 2.1
+there is a
+transition from the exponential fall off to a constant fraction of events with
+a void.  Figure
+6b shows the same plot but with the unrestricted single jet trigger used for
+gap widths less
+than 2.6.  The effect of the definition of the gap is illustrated in Figure 6c.
+ The definition
+of a void has been loosened to include events with fewer than five
+electromagnetic module
+towers with transverse momentum less than 200 MeV/c2 .  A plateau with constant
+probability has appeared out past gap widths of 2.8.  This can be interpreted
+as the region
+over which the underlying event can fragment to a maximum of four particles
+between the
+jets without a significant effect on the probability of such fragmentation.
+However, there is
+still a region of large gap widths which have approximately the same
+probability of being
+voids as with the tighter definition of a void.  Finally, Figure 6d shows the
+void probability
+of finding a void as a function of gap width for events with a lower jet Pt
+requirement (30
+GeV/c), single forward jet trigger, as opposed to the 40 GeV/c requirement used
+above.
+The presence of the region of constant probability of a void indicates that
+this is not being
+caused by some trigger bias which is Pt dependent.  It is still possible,
+however, that an as
+yet undetected systematic effect could be causing this plateaue.  One
+possibility is that the
+efficiency for detecting single particles in the electromagnetic calorimeter is
+(detector) eta
+dependent.  We are continuing to search for such detector effects.
+Discussion
+	The presence of a transition from an exponentially falling to a constant
+probability
+of producing events with voids seems to indicate that there is a new production
+mechanism
+becoming dominate for large voids.  If this process is the exchange of a
+photon, as has
+been suggested as a possible source, then the participating partons must be
+charged quarks.
+The two jet subsample, shown in Figure 2, may be used to
+indicate the relative population of initial partons in the interaction.  Simple
+kinematics
+relates the incident partonUs fractional momentum to the final state jets
+rapidities and
+transverse momentum.  This relationship is illustrated in Figure 7a which shows
+the
+Bjorken x of the partons as a function of the "other" jetUs eta.  These can
+then be used to
+estimate the parton densities as a function of the "other" jetUs eta, as shown
+in Figures 7b
+and 7c where Morfin Tung(6) lowest order parton density set has been used(7).
+	The probability of a reaction in p pbar collisions is determined by the
+product of the
+parton densities and the subproccess cross section.  Figure 7b and 7c  show
+that, even
+before weighting by the parton coupling constants, the vast majority of events
+in this
+kinematic range are caused by either gluon-gluon or gluon-quark scattering.
+When the
+strong and electromagnetic couplings are included it appears very unlikely that
+photon
+exchange could account for even the largest void events (where quark-quark
+scattering is
+suppressed by at least a factor of four to five in the parton densities.)  In
+summary, with
+our experimental definition of a gap, we observe that about 1% of events with
+%%jets
+separated by a large rapidity distance are consistent with zero particles
+produced between
+the jets.
+
+References
+1.	R. K. Ellis, in 7th Meeting of the Divison of  Particles and Fields of the
+APS,
+            10-14 Nov.  1992 Batavia IL, 1992),
+2.	R. J. Madaras, in Proceedings of the
+	Division of Particles and Fields Batavia IL, 	1992),
+3.	Y. L. Dokshitzer, V. A. Khoze, T. Sjostrand, Phys. Lett. B274, 116-121
+(1992).
+4.	J. D. Bjorken, Phys. Rev. D47, 4077-4087 (1992).
+5.	M. Bengtsson, T. Sjostrand, Compt. Phys. Commun. 46, 43 (1987).
+6.	J. Morfin, W.-K. Tung, Z. Phys. C52, 13-30 (1991).
+7.	H. Plothow-Besch, in 3rd Workshop on Detector and Event Simulation in High
+		Energy Physics K. Bos,  B. v. Eijk, Eds. (NIKHEF-H, Amsterdam, The
+                       Netherlands, 1991), pp. 148-163.
+
+* The DZERO Collaboration consists of: Universidad de los Andes (Colombia),
+University
+of Arizona, Brookhaven National Laboratory, Brown University, University of
+California,
+Riverside,Centro Brasiliero de Pesquisas Fisicas (Brazil), CINVESTAV
+(Mexico),Columbia University, Delhi University (India), Fermilab, Florida State
+University, University of Hawaii, University of Illinois, Chicago,Indiana
+University, Iowa
+State University, Korea University (Korea),Lawrence Berkeley Laboratory,
+University of
+Maryland, University of Michigan,Michigan State University, Moscow State
+University
+(Russia), New York University, Northeastern University, Northern Illinois
+University,
+Northwestern University, University of Notre Dame, Panjab University
+(India),Institute
+for High Energy Physics (Russia), Purdue University, Rice University,University
+of
+Rochester, CEN Saclay (France), State University of New York, Stony Brook, SSC
+Laboratory, Tata Institute of Fundamental Research (India),University of Texas,
+Arlington,
+Texas A&M University
+
+

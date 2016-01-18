@@ -1,0 +1,494 @@
+
+
+BNL-62842 QCD STRUCTURE OF LEPTONS
+
+\Lambda
+
+Wojciech SLOMI 'NSKI and Jerzy SZWEDy Physics Department, Brookhaven National Laboratory, Upton, NY 11973, USA
+
+and Institute of Computer Science, Jagellonian University,
+
+Reymonta 4, 30-059 Krak'ow, Polandz
+
+The QCD structure of the electron is defined and calculated. The leading order splitting functions are extracted, showing an important contribution from fl-Z interference. Leading logarithmic QCD evolution equations are constructed and solved in the asymptotic region where log2 behaviour of the parton densities is observed. Corrections to the naive evolution procedure are demonstrated. Possible applications with clear manifestation of 'resolved' photon and weak bosons are discussed.
+
+\Lambda Work supported by the Polish State Committee for Scientific Research (grant No. 2 P03B 081 09) and the Volkswagen Foundation.
+
+yJ. William Fulbright Scholar.
+
+zPermanent address.
+
+The QCD component of the photon ('resolved' photon) calculated some time ago [1] is now clearly visible in high energy experiments [2]. Theoretical analysis of the quark-gluon component has been recently extended to weak bosons [3] demonstrating new features of the parton densities of 'resolved' W and Z -- the calculated densities show strong spin and flavour dependence. In the experiment however one has rarely real weak bosons at one's disposal and in most experiments even the high energy photons are 'nearly on-shell' only. In physical processes, where the structure of electroweak bosons may contribute significantly, it is the lepton, initiating the process which is the source of the intermediate bosons. The standard procedure applied in such cases is to use the equivalent photon approximation [4] (extended also to the case of weak bosons [5]) and, as a next step, to convolute the obtained boson distributions with parton densities inside the bosons. For example, the parton k density inside the electron F e
+
+\Gamma
+
+k would read:
+
+F e
+
+\Gamma
+
+k (z; ^Q2; P 2) = X
+
+B
+
+F e
+
+\Gamma
+
+B ( ^Q2) \Omega F
+
+B k (P 2) (1)
+
+where (F \Omega G)(z) j R dx dy ffi(z \Gamma xy)F (y)G(x), P 2 is the hard process scale, ^Q2 is the maximum allowed virtuality of the boson (usually taken to be proportional to P 2) and z - the momentum fraction of the parton k with respect to the electron (detailed definitions follow).
+
+In such an approximation several questions arise: how far off-shell can the intermediate bosons be, how large are their interference effects, what are the energy scales governing the consecutive steps. It can be easier and more precise to answer the direct question: what is the quark and gluon content of the incoming lepton or, in other words, what is the lepton structure function? In this letter we address the above problem finding several corrections to the standard procedure.
+
+Let us consider inclusive scattering of a virtual gluon off an electron. In the lowest order in the electromagnetic and strong coupling constants (ff and ffs) the electron couples to q-_q pair as shown in Figure 1. The incoming electron e carries 4-momentum l and the off-shell gluon G\Lambda of 4-momentum p with large P 2 j \Gamma p2, serves here as a probe of the electron. In the final state we have a massless quark q and antiquark _q of 4-momenta k and k0 and lepton `0 (electron or neutrino) of 4-momentum l0. The exchanged boson B = ffl; Z; W g carries 4-momentum q (Q2 j \Gamma q2).
+
+The current matrix element squared for an unpolarized electron reads:
+
+J (e\Gamma G\Lambda ! `0 qj _q\Gamma j) = J j_*(l; p) =
+
+1 4ss Z d\Gamma l
+
+0 d\Gamma kd\Gamma k0 (2ss)4ffi4(k + k0 + l0 \Gamma p \Gamma l)
+
+\Theta he\Gamma jJ y_(0)j`0qj _q\Gamma jih`0qj _q\Gamma jjJ*(0)je\Gamma i ; (2) where
+
+d\Gamma k = d
+
+4k
+
+(2ss)4 2ssffi(k
+
+2) : (3)
+
+For massless quarks we can decompose the current in the helicity basis:
+
+J joe (l; p) = ffl_\Lambda (oe)(p) J j_* (l; p) ffl*(oe)(p) ; (4) where ffl_(oe)(p) are polarization vectors of a spin-1 boson with momentum p_ = (p0; 0; 0; pz ):
+
+ffl_\Sigma = 1p2 (0; 1; \Sigma i; 0) ; (5) ffl_0 (q) = s 1jp2j (pz ; 0; 0; p0) : (6)
+
+1
+
+In a frame where ~q is antiparallel to ~p contributions from different helicities of exchanged bosons do not mix and the current reads:
+
+J joe (p; l)= ffsff
+
+2
+
+2ss XA;B;ae g
+
+Aq j g
+
+Bq j Z dyy P
+
+e\Gamma AaeBae(y)
+
+\Theta Z
+
+Q2max
+
+Q2min
+
+Q2dQ2 (Q2 + M 2A)(Q2 + M 2B) H
+
+j aeoe(x; Q2) ; (7)
+
+where P e
+
+\Gamma
+
+AaeBae(y) describes weak boson emission from the electron and H
+
+j aeoe(x; Q2) -- q-_q pair production by virtual gluon and electroweak boson. gAqj is the boson A to quark qj coupling in the units of proton charge e. The sum runs over the electroweak bosons (A; B = fl; W \Gamma ; Z) and their polarizations ae = \Sigma 1; 0. Note that although the sum is diagonal in the polarization index ae it is not in the boson type A; B. The off-diagonal terms in the sum arisefrom the fl-Z interference. As demonstrated below their contribution is substantial.
+
+To answer our main problem of 'an electron splitting into a quark' we take the limit Q2 o/ P 2 and keep the leading terms only. Within this approximation the kinematic variables x; y; z read
+
+y = pqpl ; z = xy = \Gamma p
+
+2
+
+2pl ; (8) aquiring the parton model interpretation of the quark momentum fraction (z) and of boson momentum fraction (y), both with respect to the parent electron. The leading term of the hadronic part does not depend on quark helicity j:
+
+H\Sigma \Upsilon (x; Q2) = x2 log P
+
+2
+
+Q2 ; (9)
+
+H\Sigma \Sigma (x; Q2) = (1 \Gamma x)2 log P
+
+2
+
+Q2 ; (10) with other components finite for P 2=Q2 ! 0.
+
+We also recognize P e
+
+\Gamma
+
+AaeBae(y) as a generalization of the splitting functions of an electron into bosons
+
+[3]:
+
+P e
+
+\Gamma
+
+AaeBae(y) = 12 (g
+
+Ae\Gamma \Gamma g
+
+Be\Gamma \Gamma yY\Gamma ae + g
+
+Ae\Gamma + gBe\Gamma + yYae) (11)
+
+with
+
+Y+(y) = 1y2 ; (12)
+
+Y\Gamma (y) = (1 \Gamma y)
+
+2
+
+y2 ; (13) Y0(y) = 2(1 \Gamma y)y2 ; (14)
+
+where gAe
+
+\Gamma
+
+\Sigma is the electron to boson Aae coupling in the units of proton charge e.From kinematics y 2 [z; 1 \Gamma O(m2
+
+e=P 2)] and the integration limits for Q2 read
+
+Q2min = m2e y
+
+2
+
+1 \Gamma y ; Q
+
+2max = P 2 z + y \Gamma zy
+
+z ; (15)
+
+2
+
+with me being the electron mass. Although smaller than the already neglected quark masses, it is the electron mass which must be kept finite in order to regularize colinear divergencies. The upper limit of integration requires particular attention. In general it is a function of P 2, however integration up to the maximum kinematically allowed value Q2max would violate the condition Q2=P 2 o/ 1. For
+
+our approximation to work we integrate over Q2 up to ^Q2max = fflP 2 where ffl o/ 1 and generally depends on y and z. A similar condition is in fact used in phenomenological applications of the equivalent photon approximation [6]. Integrating Eq.(7) over Q2 within such limits and keeping only leading-logarithmic terms leads to
+
+J joe (p; l) = ffsff6 X
+
+A;B;ae
+
+gAqj gBqj F e
+
+\Gamma
+
+AaeBae(P 2)
+
+\Omega [P aeqj ffij;\Gamma oe + P ae_q\Gamma j ffij;oe] log P 2 ; (16) where (F \Omega P )(z) j R dx dy ffi(z \Gamma xy)F (y)P (x).
+
+P aeqj (x) and P ae_qj (x) are boson-quark (-antiquark) splitting functions [1,3]
+
+P \Sigma q\Sigma (x) = P \Sigma _q\Sigma (x) = 3x2; P \Upsilon q\Sigma (x) = P \Upsilon _q\Sigma (x) = 3(1 \Gamma x)2 (17) and F e
+
+\Gamma
+
+AaeBae(y; P 2) is the density matrix of polarized bosons inside electron. Its transverse componentsread
+
+F e
+
+\Gamma
+
+fl\Sigma fl\Sigma (y) = ff2ss (1 \Gamma y)
+
+2 + 1
+
+2y log _0 ; (18a)
+
+F e
+
+\Gamma
+
+Z+Z+(y) = ff2ss tan2 `W ae
+
+2W(1 \Gamma y)2 + 1
+
+2y log _Z ; (18b)
+
+F e
+
+\Gamma
+
+Z\Gamma Z\Gamma (y) = ff2ss tan2 `W ae
+
+2W + (1 \Gamma y)2
+
+2y log _Z ; (18c)
+
+F e
+
+\Gamma
+
+fl+Z+(y) = ff2ss tan `W ae
+
+W(1 \Gamma y)2 \Gamma 1
+
+2y log _Z ; (18d)
+
+F e
+
+\Gamma
+
+fl\Gamma Z\Gamma (y) = ff2ss tan `W ae
+
+W \Gamma (1 \Gamma y)2
+
+2y log _Z ; (18e)
+
+F e
+
+\Gamma
+
+W+W+ (y) = ff2ss 14 sin2 `W (1 \Gamma y)
+
+2
+
+y log _W ; (18f) F e
+
+\Gamma
+
+W\Gamma W\Gamma (y) = ff2ss 14 sin2 `W 1y log _W ; (18g)
+
+where
+
+aeW = 12 sin2 `
+
+W \Gamma 1 ; (19)
+
+`W is the Weinberg angle and
+
+log _0 = log fflP
+
+2
+
+m2e ; log _B = log
+
+fflP 2 + M 2B
+
+M 2B : (20)
+
+All other density matrix elements (containing at least one longitudinal boson) do not develop logarithmic behaviour.
+
+It is natural to introduce at this point the splitting functions of an electron into a quark at the momentum scale P 2 as
+
+3
+
+Pe
+
+\Gamma
+
+qj (P 2) = X
+
+AB
+
+gAqj gBqj X
+
+ae F
+
+e\Gamma AaeBae(P 2) \Omega P
+
+ae qj : (21)
+
+The expicit expressions for quarks read
+
+Pe
+
+\Gamma
+
+q+ (z; P 2)= 3ff4ss fe2q [\Phi +(z) + \Phi \Gamma (z)] log _0
+
++e2qtan4 `W h\Phi +(z) + ae2W\Phi \Gamma (z)i log _Z\Gamma
+
+2e2qtan2 `W [\Gamma \Phi +(z) + aeW\Phi \Gamma (z)] log _Zg ; (22a)
+
+Pe
+
+\Gamma
+
+q\Gamma (z; P 2)= 3ff4ss fe2q [\Phi +(z) + \Phi \Gamma (z)] log _0
+
++z2q tan4 `W h\Phi \Gamma (z) + ae2W\Phi +(z)i log _Z +2eqzqtan2 `W [\Gamma \Phi \Gamma (z) + aeW\Phi +(z)] log _Z
+
++(1 + aeW)2\Phi +(z)ffiqd log _Wg ; (22b)
+
+where
+
+\Phi +(z) = 1 \Gamma z3z (2 + 11z + 2z2) + 2(1 + z) log z ; (23)
+
+\Phi \Gamma (z) = 2(1 \Gamma z)
+
+3
+
+3z ; (24) and
+
+zq = T
+
+q 3
+
+sin2 `W \Gamma eq ; (25)
+
+with eq and T q3 being the quark charge and 3-rd weak isospin component, respectively. The splitting functions for antiquark of opposite helicity can be obtained from Eq.(22) by interchanging \Phi + with \Phi \Gamma .
+
+The splitting functions introduced above show two new features. The first one, already mentioned before, is the contribution from the interference of electroweak bosons (fl and Z only). The second is their P 2 dependence, which arises from the upper integration limit ^Q2max.
+
+The above splitting functions, when cast into the evolution equations, produce nontrivial effects in the P 2-dependence. We consider the evolution equations in first order in electroweak couplings and leading logarithmic in QCD. Introducing t = log(P 2=\Lambda 2QCD) one can write the standard evolution equations for the density of polarized QCD partons ij (quarks, antiquarks and gluons):
+
+dF e
+
+\Gamma
+
+ij (t)
+
+dt =
+
+ff 2ss XB; ae P
+
+Bae ij \Omega F
+
+e\Gamma Bae (t)
+
++ ffs(t)2ss X
+
+k; ae
+
+P kaeij \Omega F e
+
+\Gamma
+
+kae (t) ; (26)
+
+where P k
+
+ae
+
+ij are the standard QCD parton splitting functions [8]. The first sum runs over electroweakbosons while the second one -- over QCD partons. We immediately recognize Eq.(21) to be the
+
+generalization of the first term in the above equation. Remembering that there is no direct coupling of the electroweak sector to gluons we arrive at the master equations for the parton densities inside the electron:
+
+4
+
+dF e
+
+\Gamma
+
+qj (t)
+
+dt =
+
+ff 2ss P
+
+e\Gamma qj (t) + ff
+
+s(t)
+
+2ss Xk; ae P
+
+kae qj \Omega F
+
+e\Gamma kae (t) (27a)
+
+dF e\Gamma G* (t)
+
+dt =
+
+ffs(t)
+
+2ss Xk; ae P
+
+kae G* \Omega F
+
+e\Gamma kae (t): (27b)
+
+We stress that the convolution of the equivalent boson distributions and boson-quark splitting functions, Eq.(21), occurs at the level of splitting functions. It is not equivalent to the usually performed convolution of the distribution functions Eq.(1) because of the P 2 dependence of the boson distribution functions Eq.(18). Only in the case when the upper limit of integration ^Q2max is kept fixed (P 2-independent), e.g. by special experimental cuts, are the convolutions equivalent at both levels.
+
+The equations Eq.(27) can be solved in the asymptotic t region where we approximate the strong coupling constant
+
+ffs(t) ' 2ssbt ; (28) with b = 11=2 \Gamma nf =3 for nf flavours. The asymptotic (large t) solution to Eqs.(27) for the parton k of polarization ae can be now parametrized as
+
+F e
+
+\Gamma
+
+kae (z; t) ' 12 ` ff2ss '
+
+2 f as
+
+kae (z) t2 (29)
+
+resulting in purely integral equations
+
+f asiae = ^Pe
+
+\Gamma
+
+iae + 12b X
+
+k;*
+
+P k*iae \Omega f ask* ; (30)
+
+where ^Pe
+
+\Gamma
+
+iae (z) are given by Eqs.(22) with all log _A j 1.Numerical solutions to the above equations, with the use of method described in Ref. [3], are
+
+presented in Figure 2 for the unpolarized quark and gluon distributions. One notices significant contribution from the W intermediate state in the d-type quark density (this would be even more pronounced if we looked at the left-handed d quarks). The most surprising however is the fl-Z interference contribution which cannot be neglected, as it is comparable to the Z term. It violates the standard probabilistic approach where only diagonal terms are taken into account. This also stresses the necessity of introducing the concept of electron structure function in which all contributions from intermediate bosons are properly summed up. The asymptotic solutions to the polarized parton densities \Delta q = q+ \Gamma q\Gamma and \Delta G = G+ \Gamma G\Gamma are given in Ref. [7]. Due to the nature of weak couplings they turn out to be nonzero, even in the case of gluon distributions. Again the fl-Z interference term is important and the W contribution dominates in the asymptotic region.
+
+One should keep in mind that at finite t the logarithms multiplying the photon contribution differ from the remaining ones (Eq.(20)). Being scaled by me, they lead to the photon domination at presently available P 2. The importance of the interference term remains constant relative to the Z contribution, as they are both governed by the same logarithm. But even at presently available momenta, where the `resolved' photon dominates, one can see how the correct treatment of the scales changes the evolution. In Fig. 3 we present the asymptotic solutions of the evolution equations following from our procedure (ESF) compared to those following from naive application of the convolution Eq.(1) (FF). It is possible that the difference can be traced in the analysis of presently available data. This question is currently under study.
+
+5
+
+To summarize we have presented a construction of the electron structure functions within leading logarihtmic approximation to QCD and leading order in electroweak interactions. The fl-Z interference, contrary to naive expectations, turns out to be important. Direct calculation of the splitting functions of an electron into quarks allows for precise control of the momentum scales entering the evolution. It also shows that the convolution of leptons, electroweak bosons and quarks should be made at the level of splitting functions rather than distribution functions. Unless forced otherwise by the experimental cuts, the electron splitting functions depend on the external scale P 2 and influence significantly the parton evolution. Phenomenological applications of the above analysis require very high momentum scales in order to see the weak boson and interference contributions. Possible processes where these effects could show up include heavy flavour, large p? jet and Higgs boson production in lepton induced processes. At lower momenta, where the photons dominate, the use of the electron structure function allows to treat correctly the parton evolution.
+
+Acknowledgements. The authors would like to thank the Theory Groups of Brookhaven National Laboratory and DESY for their hospitality.
+
+References. [1] E. Witten, Nucl. Phys. B120, 189 (1977);
+
+C.H. Llewellyn-Smith, Phys. Lett. 79B, 83 (1978); R.J. DeWitt et al., Phys. Rev. D19, 2046 (1979); T.F. Walsh and P. Zerwas, Phys.Lett. 36B, 195 (1973); R.L. Kingsley, Nucl. Phys. B 60, 45 (1973). [2] M. Derrick et al., ZEUS Collaboration, Phys. Lett. B297, 404 (1992); ibid. B322, 287 (1994);
+
+ibid. B445, 417 (1995); T. Ahmed et al., H1 Collaboration, Phys. Lett. B297, 205 (1992); Nucl. Phys. B445, 195 (1995); I. Abt et al., H1 Collaboration, Phys. Lett. B314, 436 (1993); [3] W. Slomi'nski and J. Szwed, Phys. Lett. B323, 427 (1994); Phys. Rev. D52, 1650 (1995); The
+
+QCD Structure of W and Z Bosons at Very High Energies, Proc. of X Int. Symp. on high Energy Spin Physics, Nagoya 1992; [4] C. Weizs"acker and E.J. Williams, Z. Phys. 88, 612 (1934). [5] G.L. Kane, W.W. Repko and W.B. Rolnick, Phys. Lett., 148B, 367 (1984);
+
+S. Dawson, Nucl. Phys. B249, 42 (1985). [6] see e.g. T. Sj"ostrand, PYTHIA at HERA , in Proc. of the Workshop on Physics at HERA,
+
+Hamburg, October 1991, ed. W Buchm"uller and G. Ingelman. [7] W. Slomi'nski and J. Szwed, On the QCD Structure of Electron, BNL preprint, to be published
+
+in Acta Physica Polonica B. [8] G. Altarelli and G. Parisi, Nucl. Phys. B126, 298 (1977).
+
+6
+
+l
+
+l' q
+
+k
+
+k'
+
+p l
+
+l' q
+
+k'
+
+k
+
+p
+
+FIG. 1. Lowest order graphs contributing to the process: e + G\Lambda ! `0 + q + _q.
+

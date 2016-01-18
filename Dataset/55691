@@ -1,0 +1,408 @@
+F.V.Tkachov, talk at QFTHEP'99 on PT with unstable fields 1
+
+
+
+
+
+On the structure of systematic perturbation
+theory with unstable fields1
+
+Contribution to the XIII Int. Workshop on Quantum Field Theory and High Energy Physics
+(QFTHEP'99, 27 May ­ 2 June 1999, Moscow)
+
+
+F. V. Tkachov a
+
+Institute for Nuclear Research of Russian Academy of Sciences
+60th October Ave. 7a, Moscow 117312, Russia
+
+a ftkachov@ms2.inr.ac.ru
+
+
+Abstract. Discussed is the structure of non-trivial counterterms that occur in the systematic gauge-
+invariant perturbation theory with unstable fields introduced in .
+
+
+
+I would like to discuss the structure of the systematic develop highly efficient calculational algorithms geared
+perturbation theory for models with unstable fundamental towards automated large-scale calculations5.
+fields (sysPT) proposed in [1]. The discussion below is The sysPT implements the same logic: it is based on the
+intended to complement [1] to which I will freely refer. same powerful method of AO6, and it yields the expansions
+Some general warnings are in order. (now the expansion parameter is the coupling) in a maximally
+The industry of PT calculations for LEP etc. has been simple form. The form is somewhat unconventional (VP-
+dealing with unstable particles in a more or less successful distributions are involved) but is otherwise rather simple. This,
+fashion for some time [2] (see also refs. in [1]) -- but it has one may hope, provides a starting point for developing more
+also been encountering difficulties (most notably, a lack of efficient calculational procedures than the currently employed.
+gauge invariance; see e.g. [3]). It is clear that to avoid groping Now on to the sysPT.
+in the dark one should have a clear formulaic understanding of The key difficulty in the construction of PT with unstable
+the nature of the difficulties being encountered. fields is that the formal expansion of amplitudes in powers of
+the coupling yields singular expressions which, when squared
+The purpose of sysPT is to clarify in a system atic m anner to form probabilities, result in expressions that are non-
+the m athem atical nature of the weak-coupling lim it in integrable at the zero-coupling mass shell of unstable particles.
+situations with unstable fields. But integrability is a key physical requirement (taking into
+account, say, initial state radiation amounts to a convolution
+Just how, exactly, such an understanding may lead to with suitably chosen kernels [2]).
+improved calculations for LEP2 etc., I don't care at this point;
+I'm just happy to have obtained the understanding.1 All conventional approaches to resolution of this difficulty
+abandon the idea of a complete expansion in powers of the
+Some physicists may be uncomfortable with the adjective coupling: self-energies are left in the denominators, and then
+"mathematical" above. But we are dealing here with the one performs a more or less sophisticated massaging of the
+structures encountered in higher-order corrections and relevant
+arXiv: 21 Jan 2000 resulting expressions aimed at obtaining manageable gauge-
+for precision calculations, and the second and higher decimal invariant theoretical predictions.
+digits in theoretical predictions cannot be accounted for by
+simple visualizations. So the kind of intuition needed to The drawback of such an approach is that it involves huge
+understand the sysPT concerns the structure of the formalism amounts of hand work, and there is an opinion rather
+and therefore requires a (non-standard) mathematical unambiguously expressed by some experts involved in the
+expression. LEP1 calculations [2] that it is impossible with the old
+techniques to accomplish anything similar to the complete one-
+Also recall the industry of multiloop calculations that loop level LEP1 calculations for LEP2 (at LEP2 one deals with
+emerged thanks to the clarification of the short-distance and O
+mass expansions2 within the framework of the method of (104) one-loop diagrams [9]). It is clear that what one needs
+asymptotic operation3. The calculational efficiency is due to the
+fact that the method of AO yields expansions in a maximally are essentially unique [4].
+simple form, i.e. the resulting expansions run in pure powers 5
+and logarithms of the expansion parameter4. This allows to With short-distance and mass expansions, it is the celebrated integration-
+by-parts algorithms [7].
+6
+1 The required extension of the Euclidean AO to arbitrary asymptotic
+Some related materials can be found at regimes in Minkowski space was achieved in [8], thus yielding a much
+http://www.inr.ac.ru/~ftkachov/projects/unstable/index.htm. sought solution of the general asymptotic expansion problem in
+2 For a review see [4], [5]. perturbative QFT. The recipes of [8] are valid for both loop and phase-
+3 For a review and references to the Euclidean variant of the theory of AO space integrals because the distribution-theoretic nature of AO makes it
+see [4]. insensitive to whether the individual factors are ordinary propagators or
+4 The so-called property of perfectness [6]; also note that such expansions phase-space -functions.
+
+
+F.V.Tkachov, talk at QFTHEP'99 on PT with unstable fields 2
+
+
+
+
+
+here is a very systematic, "mechanical" approach that would book-keeping has been lacking.
+allow a high level of automation. (iv) Finally, there is nothing mysterious about the anomalous
+The sysPT offers a new route to this goal. One observes that -functional terms: the simplest one has a clear physical
+the difficulties of the conventional approaches reduce, from meaning, and the higher ones are simply corrections that form
+mathematical viewpoint, to a non-commutativity of the a more or less regular pattern.
+perturbative expansion in powers of the coupling and the For the squared propagator (the l.h.s. of 0.2) the expansion
+operation of squaring of amplitudes to obtain observed problem reduces to a one-dimensional expansion problem
+probabilities. Once this is realized, it is natural to attempt to which generalizes 0.1, and many felt that corrections to Eq. 0.2
+obtain an expansion directly for probabilities. are bound to contain derivatives of the -function. The method
+First one recalls the elementary formula (x is a real of AO (in particular, the secondary so-called "homogenization"
+argument and is small): expansion [8]) make obtaining such expansions a mechanical
+1 1 procedure.
+= (x) + O 1
+( ) . 0.1
+2 2
+x + The expansion 0.2 can be pushed to all orders in g : see [1]
+0
+for explicit expressions. For the purposes of illustration I show
+This is easily verified e.g. by explicit integrations in infinite here only the O(1) term:
+limits with rational functions that do not have zeros near x = 0 -
+2 2 2 2 2 2 2
+n VP c M - Q h + Z c M - Q h - Z 'cM - Q h , 0.4
+such as bc + -
+i xg . 1 2
+
+From Eq. 0.1 one obtains where Z i can be explicitly expressed in terms of the
+2 2
+1 2 coefficients of the Taylor expansion of (Q2 ) at Q = M .
+2 2 2 2
+M - Q - g (Q ) Eq. 0.4 is to be compared with the naïve expression
+obtained by squaring the tree-level unstable particle's
+1
+2
+- 2 2
+= g M
+e - Q j + O 1
+( ) . 0.2 propagator:
+g0 2
+Im ( M )
+M 2 Q2 2
+- -
+c h . 0.5
+Here M is the Lagrangian mass of the unstable particle (call it
+2 2
+X ), is its one-loop self-energy (Dyson-resummed into This has a non-integrable singularity at Q = M .
+denominators), and g is the coupling responsible for the We see that the correct expression (Eq. 0.4) differs from the
+instability. naïve one (Eq. 0.5) in two respects:
+Eq. 0.2 is nothing but a well-known relation in disguise: (i) In the correct expansion, the non-integrable singularity of
+(q q X l l ) × 0.5 regulated by the VP prescription (see [1] for a definition).
+1 2 1 2 (q q X ) Br( X l l )
+1 2 1 2 . 0.3
+This only affects the naïve expression 0.5 exactly at Q2 M 2
+= .
+Indeed, the -function on the r.h.s. of 0.2 describes free This may seem unusual but such things are common in the
+propagation of X in the final state. So Eqs. 0.2 and 0.3 only theory of distributions: an integrable distribution can be
+describe the fact that the unstable particle becomes stable in obtained from a non-integrable singular function by modifying
+the zero-coupling limit. This is a fundamental boundary the latter only exactly at the point of singularity.
+condition for any systematic expansion of probabilities in
+powers of the coupling. We see: (ii) On top of the VP prescription, there are -functional
+counterterms. The presence of the first derivative of the -
+(i) The exact expansion is bound to contain anomalous - function correlates with the fact that the singularity of 0.5 is
+functional terms. The simplest such term (the one shown on linear by power counting.
+the r.h.s. of 0.2) has a fundamental physical meaning. The described pattern (an intermediate regularization plus a
+(ii) The -functional terms spoil the naïve counting of powers fine-tuning by -functional "counterterms") is very general and
+of the coupling. Indeed, the l.h.s. of 0.2 corresponds to tree + occurs systematically in the theory of AO. The first time this
+one-loop approximation and one would normally expect the pattern occurred in the theory of UV renormalization by
+r.h.s. to contain O (1) and O (g 2) terms. However, the Bogolyubov [10], and it is instructive to compare the structure
+coefficient of -function contains an O(g -2) contribution from of 0.4 with the R-operation.
+the one-loop of self-energy. Because only the imaginary part The logical structure of the reasoning that led to sysPT
+are involved, this is equivalent to the total width of the decay essentially follows Bogolyubov's theory of UV renormalization
+of X in the lowest order (the decay vertex is taken in the tree [10]. In both cases:
+approximation, and the cut loop comes from phase space).
+(i) The difficulty is traced back to an incorrect formal
+(iii) It is clear that if one includes two-loop O (g 4) terms into manipulation which ignores the generalized nature of the
+the self-energy ( g2 g2 loop + g4
+1- 2-loop ) then it is safe mathematical objects involved. In the case of UV divergences,
+to Taylor-expand in all occurrences of g except the one it is the formal multiplication of singular functions
+corresponding to the one-loop self-energy. The two-loop (propagators in chronological products). In the case of unstable
+contributions to self-energy contribute at the level O (1) in the particles, it is an unjustified expansion of amplitudes into a
+r.h.s. Since only imaginary parts will contribute, this series in powers of the coupling prior to squaring.
+corresponds to one-loop total width (one-loop decay vertices (ii) The final result is required to be a locally integrable
+and another loop from phase space of decay products). This distribution (in the space of coordinates in the case of R-
+anomaly of power counting for the coupling has long been felt operation, and in the aggregate space of loop and phase space
+to occur (cf. the discussion in [3]) but a systematic method of momenta in the case of sysPT) and it is observed that to fix its
+
+
+F.V.Tkachov, talk at QFTHEP'99 on PT with unstable fields 3
+
+
+
+
+
+structure at the point of singularity, one needs a special The fat lines correspond to unstable propagators (forming
+procedure. chains in the sense of [1]), there is a "photon" line, and the
+(iii) The final answer has a characteristic form "naïve blobs correspond to subgraphs which do not belong to the
+expression + regularization + counterterms". The counterterms singular configuration. Note that the singular subgraphs need
+are proportional to -functions (and their derivatives) localized not be connected subgraphs in the usual graph-theoretic sense.
+exactly at the points of singularity, and the number of At this point to avoid confusion I would like to emphasize
+derivatives of -functions is determined by a power counting. that the diagrammatic images that emerge here are entirely
+There are also differences: determined by the underlying analytical structures, so there
+need not be any direct correspondence with, say, singular
+· UV singularities are localized on flat manifolds (linear subgraphs and any standard graph-theoretic notions invented a
+subspaces) in the space of coordinates whereas the priori.
+singularities due to unstable particles are localized on non- The following figure represents some more families of
+linear manifolds (the mass shell Q2 M 2
+= in the simplest case singular configurations; each diagram depicts only one member
+of 0.5). of a family, with the total number of the diagrams shown as a
+· The finite parts of the UV counterterms of the R-operation factor:
+are arbitrary whereas the coefficients of the -functional × 4 × 4
+counterterms of sysPT are uniquely fixed: they are explicitly
+expressed in terms of special integrals obtained via the so-
+called consistency conditions of AO supplemented by the
+homogenization procedure (a special secondary expansion
+designed to yield an expansion of a purely power-and-log type). × 4 × 2 (final+initial)
+
+Now the expansion of the squared propagator 0.2 is far from
+the whole story. The point is, the singularities due to
+instabilities (i.e. the singularities of the expressions 0.5 and
+0.4) may interact with the singularities of other factors in the ×8 × 4
+diagram such as photon, gluon, etc. propagators. This leads to
+more complex singular configurations that also require addition
+of the corresponding counterterms. The method of AO [4], [8]
+offers a systematic way to determine such counterterms. ×8
+In the remaining part of this talk I would like to discuss the
+structure of such counterterms.
+0.7
+The simplest example (a configuration with one photon line
+attached by both ends to the unstable propagator) was
+discussed in [1]. The observed features: the coefficient of the The thin solid lines correspond to stable "fermions" (the
+corresponding -functional counterterm contains a logarithm of particle's spine is irrelevant because AO commutes with
+the coupling; such logarithms cancel out in the sum over the multiplication by polynomials so the numerators may be
+corresponding gauge-invariant subset of diagrams; this ignored).
+cancellation was traced to a mechanism completely similar to Now I would like to present and discuss an explicit
+that behind the well-known cancellations of IR singularities in expression for the counterterm for one of the configurations.
+QED. The configuration is as follows:
+In more complex cases the singular configurations of Q Q - k Q -k
+propagators that require introduction of non-trivial counter- 1 1 1
+
+terms are grouped into families, with the diagrams within a
+family differing by the points on the chains of (unstable) k
+propagators to which massless propagators are attached (cf.
+gauge-invariant subsets of diagrams in QED). An example of Q Q + 0.8
+2 Q k
+such a family is as follows: 2 2
+
+This corresponds to two chains of unstable propagators with
+one massless exchange (imagine a W+W- pair exchanging a
+photon; configurations with two massless exchanges may
+correspond to gluons). For simplicity we consider the case
+when the masses of the two unstable chains are equal.
+
+The explicit expression for the product of propagators prior
+to expansion in self-energies is as follows:
+
+( ~ ~ 2
+W W k
+1
+; ) (1
+; ) (
+- 2
+; )
+(
++ 2
+; ) ( )
++ . 0.9
+
+The notations are fixed by the correspondence with Fig. 0.8.
+0.6 For instance, 2 2
+= M - Q
+1 1 , etc. Following [1], we denote
+= g2 , and for the unstable propagator we write
+
+
+F.V.Tkachov, talk at QFTHEP'99 on PT with unstable fields 4
+
+
+
+
+
+
+b
+; g =1 - h
+( ) - i f
+( ) , where h and f are the real where
+5
+and imaginary parts of the one-loop self-energy. We will also 1
+A+ = -
+be using the following notations: 2E 2 2 , 0.21
+f M 2
+0
+
+h h(n)
+b g f f (n
+= = )
+,
+b g . 0.10 i L 4
+NLO F 1 O
+n n
+= ~
+0 =0 A M
+f c
+- = - - + 2 . 0.22
+2 0 0 2 P
+2Q M 2 f M HG I
+KJ
+N 0 QP
+~
+= + lnb
+4 g + 2ln
+c f Mh
+0 . 0.11
+The conclusions are as follows.
+
+E = (Q + Q )2 , Q = E 2 - M 2
+2 . (i) The number of non-trivial counterterms required for
+1 2 0.12
+writing out explicit expressions for probabilities within the
+The expansion corresponding to the product 0.9 is as framework of sysPT is fairly large although finite -- O (10)
+follows: rather than O (100) for a typical process with a single massless
+b exchange.
+Taylor, VPg + c
+( )
+( ) (k
+0 1 2 )
+(ii) Calculation of the coefficients of counterterms is quite
+-
+c 1 2
+
+( )
+( ) ( )
+( )
+( ) cumbersome but entirely straightforward and presents no
+1 k
+1 2 - c1 1 (k
+2 )
+difficulties.
+- µ
+c
+( )
+( )
+1 1 2 (k ) + O 1
+µ ( ). 0.13 (iii) There occur significant cancellations of logarithmic and
+dilogarithmic contributions (closely related to cancellations of
+The first term is the formal Taylor expansion with the products soft singularities in QED) -- and these can be observed prior
+of unstable propagators regulated by VP prescriptions. to the cumbersome explicit evaluation of the integrals.
+The explicit expressions for the coefficients c are as
+follows. The most cumbersome expression is for the coefficient It may be useful to have a direct all-order verification of the
+of the -function without derivatives: cancellations which ensure gauge invariance without relying on
+the indirect arguments of [1] but this is not really needed in
+c = cNLO + cNNLO
+0 0 0 , 0.14 practical calculations.
+
+4
+LF 1 O A c k n o wl ed g m en t s . The presented explicit results are
+cNLO = - ~ A B
+0 , 0.15
+2
+f 2
+4 E NMHG I
+KJ + QP based on the calculations performed in collaboration with
+0 M.Nekrasov [11]. This work was supported in part by the
+L h + i f O Russian Foundation for Basic Research (grant 99-02-18365).
+cNNLO 2 2
+M h h f f 1- 0 0 P cNLO
+= - +
+0 1 0 1 0
+M E 2 0
+4
+N QP References
+4
+Lh + if F 1 h f
+~ + h f O
+0 0 1 0 0 1
++ M - AP , 0.16 [1] F.V. Tkachov, Perturbation theory with unstable
+2 f 2 E M E
+2 M 2 HG I
+KJ - f P
+0 N 0 Q fundamental fields, in: Proc. XXIII PNPI Winter School
+(8­12 February, 1999, Gatchina), eds.: Ya.I. Azimov et
+where al., PNPI, Gatchina, 1999 .
+1 E Q 1 L F 2Q I F 2Q IO [2] D. Bardin and G. Passarino, Precision calculations in the
+A = +
+ln , B = MLi Li P . 0.17 Standard Model, Oxford Univ. Press, 1999;
+Q E - Q Q M HG E + QKJ - -
+HG E - QKJ
+N QP G. Montagna, O. Nicrosini, and F. Piccinini, Riv. Nuovo
+Both A and B are expressed via simple 1-dimensional Cim. (1998) .
+integrals, and in fact the efforts invested into the obtaining of [3] S.Dittmaier, preprint CERN-TH/97-302 (1997) [hep-
+expressions such as 0.17 are usually wasted because such .
+logarithmic and dilogarithmic contributions tend to cancel in [4] F.V. Tkachov, Phys. Part. Nucl. 25 (1994) 649 [hep-
+sums over entire families of singular configurations, and such .
+cancellations can be observed already at the stage of 1- [5] M. Samuel and L. Surguladze, Rev. Mod. Phys. 68 (1996)
+dimensional integrals. The reasons behind the cancellations are 259; J.H. Kühn, in: Cracow Int. Symp. on Radiative
+the same as discussed in [1]. Corrections, Cracow, Poland, 1996 .
+[6] F.V.Tkachov, Phys. Lett. 124B (1983) 212.
+The poles in are a result of the use of dimensional [7] F.V.Tkachov, Phys. Lett. 100B (1981) 65;
+regularization (VP prescriptions alone are insufficient), and the F.V.Tkachov, Nucl. Instr. Meth. Phys. Res. A389 (1996)
+cancellation of (di)logarithms follows the pattern of 309 .
+cancellation of such poles. [8] F.V. Tkachov, Phys. Lett. B412 (1997) 350 [hep-
+For the coefficients of -functions with derivatives one has: .
+
+4
+[9] G. Altarelli, T. Sjöstrand and F. Zwirner (Eds.), Physics
+NLO L F 1 ~ IO
+c 1 =
+ch + if hc + - i - +
+1 0 0 0 2 ,
+0.18 at LEP2, CERN, 1996.
+f M 2 H
+NM KQP
+0 [10] N.N. Bogoliubov, Doklady USSR Acad. Sci. 82 (1952)
+
+c 2 = ch + i f h cNLO 217; N.N. Bogoliubov and D.V. Shirkov, Introduction to
+1 0 0 0 , 0.19
+the Theory of Quantized Fields. 4th ed., NAUKA, 1984
+µ µ µ µ µ
+c = Q
+e + Q A
+j + Q
+e - Q A
+j (in Russian).
+1 1 2 + 1 2 - , 0.20
+[11] M.L. Nekrasov and F.V. Tkachov, in preparation.
+
+
+

@@ -1,0 +1,102 @@
+
+
+ 19 Jan 1995
+
+HD-THEP-94-33 
+
+The Worldline Path Integral Approach
+
+to Feynman Graphs
+
+Michael G. Schmidt \Lambda Institut f"ur Theoretische Physik
+
+Universit"at Heidelberg
+
+Philosophenweg 16
+
+69120 Heidelberg
+
+Christian Schubert y Institut f"ur Hochenergiephysik Zeuthen DESY Deutsches Elektronen-Synchrotron
+
+Platanenallee 6
+
+15738 Zeuthen
+
+Abstract The worldline path integral approach to the Bern-Kosower formalism is reviewed, which offers an alternative to Feynman diagram calculations in quantum field theory. Recent progress in constructing a multiloop generalization of this formalism is reported.
+
+Talk presented by M. G. Schmidt at the 29th International Symposium on the Theory of
+
+Elementary Particles, Wendisch-Rietz, August 30 - Sept. 3, 1994
+
+\Lambda e-mail address k22@vm.urz.uni-heidelberg.de
+
+ye-mail address schubert@hades.ifh.de
+
+1 Introduction Local Quantum Field Theory (QFTH) is traditionally presented in the formalism of second quantized fields in space time OEi(x_). A set of Feynman rules allows to calculate n-point amplitudes in some order in the couplings inspecting a set of Feynman graphs up to a certain loop order. These rules can be conveniently derived from the Feynman path integral formalism summing over the fields OEi(x_).
+
+String theory (STH) in contrast is usually formulated in first quantization. The basic objects in the most naive version are the space-time coordinates x_(oe; o/ ) now living on a 2-dimensional worldsheet with one time and one string parameter. STH should lead to QFTH in the limit of infinite string tension 1ff0 . This was always clear since the Veneziano model got its string interpretation, but it was worked out in detail only recently for the case of tree and one-string-loop amplitudes by Bern and Kosower [1]. They obtained a new set of rules for calculating QCD amplitudes very effectively, in particular if combined with the spinor helicity formalism, unitarity and with the use of space time supersymmetry [2]. These rules being derived from first quantized string theory look completely different from Feynman rules but indeed can be shown to be equivalent [3]. STH can be also seen as a generalized oe-model QFTH in two dimensions, in the path integral formulation one then sums over X_(oe; o/ ). String loops also imply summation over different metrics and topologies of the 2-dimensional world sheet. In the limit 1ff0 ! 1 the oe-model QFTH loops are suppressed, and we expect a reduction to relativistic point quantum mechanics, the string loops now being reduced to sets of Feynman diagram loops. The UV divergencies of QFTH absent from STH (except for their relations to IR singularities) reappear (as moduli singularities) in the worldline limit because they are not balanced anymore by worldsheet oe-model divergencies, the physical analogue of counterterms in ordinary QFTH. A clean discussion of the 1ff0 ! 1 limit in the oe-model approach seems to be still lacking. It is amusing to observe that indeed in writing down heuristically the oe-model on the worldsheet the founding fathers started from the relativistic quantum mechanics for x_(o/ ) as a oe-model on a worldline [4] and remarked that one can in principle also talk about QFTH in these terms. In practice this was rarely used [5] besides writing QM path integral expressions for propagators and fluctuation determinants.
+
+Recently Strassler [6] proposed to do one-loop calculations using the well-known worldline (quantum mechanical) Langrangian of (spinning) particles and the bosonic and fermionic Green functions on the circle. In this way he reobtained the one-loop rules of Bern and Kosower. Since due to the superior organisation of string theory these rules are very effective in handling combinatorics and indices in particular in gauge theories, it would be highly desirable to have an extension of the rules to higher loops. However, the discussion of the 1ff0 ! 1 limit of n loop (super)string theory [7] is complicated and has not yet led to practical results. Recently we made progress in extending the "oe-model on the worldline" approach to higher loops [8]. It already has some nice applications in QED calculations and looks very promising. After some remarks about 1-loop effective action calculations this will be the main topic of this talk.
+
+Thus we have some hope that an alternative formulation of QFTH in terms of worldline QM will break the monopoly of the textbook approach with second quantization. Remarkably the corresponding formulation of the latter for STH - string field theory - requires the construction of a tremendous machinery [9] (and as far as perturbative calculations are concerned, one might even get along without it!). Of course the worldline approach cannot substitute string theory as a theoretical background: The choice of fields and the structure of the worldline Lagrangian needs a theoretical fundament.
+
+2
+
+LOCAL QFT STRING THEORY '
+
+&
+
+$ % SECOND QUANTIZED
+
+\Phi i(x_) '& $%
+
+STRING FIELD
+
+THEORY
+
+X FEYNMAN GRAPHS XZ TOPOLOGIES
+
+METRICS
+
+' &
+
+$ % RELATIVISTIC QM ON WORLDLINE x_(o/ ) '& $%
+
+oe-MODEL x_(oe; o/ ) ON WORLDSHEET
+
+' &
+
+$ % NEW SET OF RULES
+
+EQUIVALENT TO FEYNMAN RULES (TREE / ONE LOOP)
+
+' &
+
+$ % FIRST QUANTIZED
+
+x_(oe; o/ )
+
+? heuristic
+
+?
+
+1 ff 0
+
+! 1
+
+Bern, KosowerDunbar (1992) Roland
+
+Strassler (1992, one loop)
+
+Feynman FradkinTseytlin
+
+PolyakovError: /rangecheck in --repeat--
+Operand stack:
+-1 --nostringval--
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:120/250(L)-- --dict:38/200(L)-- --dict:110/250(L)-- --dict:42/200(L)--
+Current allocation mode is local
+Last OS error: 2
+

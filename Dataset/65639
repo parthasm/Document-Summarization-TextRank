@@ -1,0 +1,990 @@
+
+
+
+
+On equations for neutrino propagation in matter
+
+Paul M. Fishbane*
+Physics Dept. and Institute for Nuclear and Particle Physics,
+Univ. of Virginia, Charlottesville, VA 22903
+
+Stephen G. Gasiorowicz**
+Physics Dept. and Institute of Theoretical Physics,
+University of Minnesota. Minneapolis, MN 55455
+
+
+
+
+We study the dynamical equations for two-family neutrino
+oscillations in a medium of continuously-varying density.
+We can find explicit solutions to these equations in terms of
+series of nested integrals. These solutions can serve as a
+basis for numerical calculation of these processes or for
+further study of their analytical properties.
+
+
+
+
+
+
+
+
+arXiv: v2 29 Dec 2000
+
+
+
+
+
+
+* email address pmf2r@virginia.edu
+** email address gasior@umn.edu
+
+
+1
+
+
+I. Introduction
+
+The presence of neutrino oscillations [1-2] has renewed interest in the question of
+oscillations within matter [3-5]. The early work ("MSW") of Refs. 3 and 4 solved the
+problem of propagation within a medium of constant density, and it is possible to treat
+nonconstant density by numerical means. It is nevertheless always useful to think about
+an analytic approach [6] in order to develop insight and understanding. Since the case we
+study here is that of a two-channel problem, some aspects of the methods we describe are
+also applicable to spins in varying magnetic fields and other two-channel order-
+dependent problems.
+For convenience we recall here the MSW results [3, 4], constant density We
+assume a two-channel approximation to neutrino mixing and give the amplitude T(t) for a
+neutrino beam of energy E passing through a medium of constant electron density Ne
+given some initial neutrino flavor mixture (0), namely
+(t) = T(t)(0). (1.1)
+(The time t can be interchangably viewed as the thickness x of the medium.) Here the
+
+
+two-vector weak state (i.e., flavor basis) is ( ) e
+t = . The transition amplitude T is
+µ
+T = cos + i sin cos (2 ) - i sinsin (2 (1.2)
+z ) x
+
+where the primed variables contain the effect of the matter:
+
+2
+2EA
+2 2 2 2
+m m = m cos 2 - + sin 2
+
+2
+m
+2
+m
+= t (1.3)
+4E
+2
+sin 2
+2
+sin 2 = 2
+2EA 2
+cos 2
+- + sin 2
+2
+m
+with
+
+A = 2G N . (1.4)
+F e
+The mass parameter m2 = m 2 2 2
+2 - m1 , where mi is the ith mass eigenvalue, is positive. We
+recover the vacuum result, Cabibbo angle , for A = 0.
+This introduction sets some notation and recalls well-known results. Below we
+shall be concerned with variable density.
+
+II. Passage through a medium of variable density
+
+The Schrödinger equation for a two-family weak state (t) propagating through a
+medium of electron density Ne is
+d
+i = (H +W , (2.1)
+F )
+dt
+
+
+
+
+2
+
+
+where, using the approximation mi << E and after pieces in the hamiltonian proportional
+to the unit matrix are removedthey lead only to overall phases, as we describe further
+belowwe have
+
+2
+m -cos 2 sin 2
+H = (2.2)
+F
+4E sin 2
+cos 2
+and
+2G N 0 A 0
+F e
+W = (2.3)
+0 0 0 0
+
+cos sin
+Here H =
+F is related to the mass eigenstates by the Cabibbo matrix V ,
+-sin cos
+2
+1 m 0
+
+1
+H = V V
+VH V . (2.4)
+F 2
+2 D
+E
+0 m
+
+2
+A solution to Eq. (2.1) will give us the amplitude T(t), through Eq. (1.1).
+It is convenient to approach the dynamical equation (2.1) by starting in the mass
+basis, using the transformed states
+V . We do so by multiplying Eq. (2.1) by
+V ,
+giving
+d
+i = (
+H +V WV . (2.5)
+D )
+dt
+Next we remove the factor HD by defining a new function by
+-iHDt
+e .
+Starting from Eq. (2.5) it is easy to see that this function obeys the equation
+d
+iH t -
+D iHDt
+i = e V WVe . (2.6)
+dt
+In this expression, only the mass difference enters into the exponentials. To see this,
+define
+2 2 2
+m + m m
+1 2
+E E + and
+- . (2.7)
+4E 4E
+In terms of these quantities, HD reads
+H = E +
+D 3
+
+The portion of HD proportional to the unit matrix commutes through the quantities in Eq.
+(2.6) and cancels, leaving
+d
+i
+-
+
+3t i 3t
+i = e V WVe . (2.8)
+dt
+We next write out in 2 × 2 form the quantity multiplying on the right side of Eq.
+(2.8), using in particular the identity
+ia
+e 0
+
+ia 3
+e = cos a + i sin a = . (2.9)
+3
+0 -ia
+e
+
+We find
+
+
+
+
+
+3
+
+
+2
++ e
+i
+t -i
+
+t 1 1 cos 2 i t sin 2
+3 3
+e V WVe = A
+2
+2 - it
+e sin 2
+1- cos 2
+(2.10)
+2
+1 cos 2 i t
+e sin 2
+A -
+2
+2 it
+e sin 2
+- cos 2
+In the last step we have taken out the piece proportional to the unit matrix; again, it
+contributes only an overall phase to . (This can be seen in a variety of ways. For
+t
+i
+example, one can define a new function exp + A
+(t)dt and show that the
+2
+0
+equation for is identical to that for but with the last form in Eq. (2.10) on the right
+multiplying .) We can finally transform away the term in Eq. (2.10) proportional to 3.
+We define the new function by
+i
+exp I
+(t)cos2 0
+
+i 2
+exp + I t cos 2 =
+,(2.11)
+3 ( )
+2 i
+0 exp
+- I
+(t)cos2
+2
+where
+t
+
+I (t) A
+(t)dt. (2.12)
+0
+
+The function obeys the simpler equation
+1
+2
+0 i t
+
+i Ae sin 2 i
+d -
+3 I cos 2 3 I cos 2
+2
+2 2
+i = e e
+dt 1
+-2i t
+Ae sin 2 0
+2
+1
+i(2t+ I cos 2 )
+0 Ae sin 2
+
+2
+= (2.13)
+1 -i
+(2 t
++I cos2 )
+Ae sin 2 0
+2
+P(t) .
+The last line defines the matrix P(t), in terms of which we can write our formal solution
+to this equation. We remark in particular, for later use, that the 21 element P21 equals the
+complex conjugate of the 12 element P12. We will below express the solution to Eq.
+(2.13) in terms of P12 and P12*.
+The form that P(t) takes is easy to understand. The central matrix in the first line
+i
+± I cos2
+3
+of Eq. (2.13) is a linear combination of 2
+1 and 2, while the external factors e
+take the form of a rotation about the 3-axis. Their effect is then to rotate the combination
+of 1 and 2 to give a different combination that lies at a different anglethat takes the
+form of the original combination but with the phase shifted. This is indeed what happens,
+as the explicit calculations that give us P(t) show.
+
+
+
+
+4
+
+
+Solution of the equation for
+. It is clear from the matrix structure of Eq. (2.13) that the
+commutator [P(t), P(t)] 0, so that the solution to Eq. (2.13) involves an ordering.
+Formally, the solution is
+t
+
+(t ) = exp i
+- P
+(s)ds (0) M (t) (0), (2.14a)
+
+0
+where the time ordering operator
+ensures that the matrices P in the expression are
+ordered so that P with a later argument stands to the left of P with an earlier argument.
+We may write
+n t t t
+i
+-
+M (t) ( )
+= ds ds ds
+P s P s P s
+,
+1 2 n ( 1) ( 2 ) ( n )
+= n
+n 0 ! 0 0 0
+
+and it is a standard exercise to show that this is equivalent to
+t
+1
+s n
+s 1
+-
+n
+M (t) = (-i) P
+(s ds P s ds P s ds
+(2.14b)
+1 ) 1 ( 2) 2 ( n ) n
+n=0 0 o 0
+
+Finally we can separate out the explicit matrix elements of M by using the matrix
+structure of P, namely P(t) = Px(t)1 + Py(t)2. This leads immediately to
+t t
+
+M =1- P
+(t) *P t
+dt dt
++ (2.15a)
+11 12 12 ( )
+0 0
+t t t t
+
+M = -i P
+(t)dt+i P
+(t) *
+P t
+P t dt
+dt dt -
+12 12 12 12 ( ) 12 ( )
+(2.15b)
+0 0 0
+0
+M = M (2.15c)
+*
+21 12
+1
+P 2 1
+P 2
+
+*
+M = M (2.15d)
+22 11
+
+Alternatively, direct differentiation of the group of Eqs. (2.15) shows that it satisfies the
+dM
+necessary condition = -iPM .
+dt
+The solution given by Eqs. (2.15) is essentially a power series in A. The order
+dependence of the result is contained in the fact that the integrals in M are nested. We can
+write the transition amplitude T in terms of M by undoing our series of transformations,
+leaving
+1
+-i t
++ I (t)cos2
+2
+e 0
+T (t ) = V M
+(t)
+V (2.16)
+1
+i t
++ I (t)cos2
+2
+0 e
+
+Generally speaking the nested integrals in M are complicated, even for the case of
+constant density. (Of course numerical integration is always possible.)
+
+III. Second order equation
+
+Equation (2.13) represents two coupled first order differential equations. These equations
+can be rewritten as a single uncoupled second order equation, and the second order
+
+
+
+
+
+5
+
+
+equation lends itself to a variety of treatments beyond the formal solution we have
+already expressed. In terms of the explicit components of , Eq. (2.13) reads
+0
+
+1 1 2
+= = , (3.1)
+
+
+0
+
+2 2 1
+
+where
+-iP12 and -iP21 = -iP12*. (3.2)
+
+One more derivative of, say, the upper component gives = + =
++ , or
+1 2 2 1 1
+
+
+- - = 0 (3.3)
+1 1 1
+
+Using the explicit expressions for and , we find that
+2
+A
+
+1
+= + i(2 + Acos2 ) and
+= - Asin 2
+.
+A 2
+Thus we have finally the second order equation
+2
+A
+1
+- + i 2 + Acos 2 + Asin 2 = 0 (3.4)
+1 1 ( ) 1 1
+A 2
+It is worthwhile noting that the quantity I, Eq. (2.12), does not appear in this equation.
+We may take the required two boundary conditions to be
+1(0) and 2(0) = (0) / (0) .
+1
+
+1 d t
+1 ( )
+Once we find the solution for =
+1(t), we have t . We also remark here
+2 ( ) (t) dt
+that we have verified that our formal solution to the equations for , Eq. (2.15), satisfies
+Eq. (3.4).
+
+Recovery of constant density case. For the MSW case (constant A A0), reviewed in
+Section I, Eq. (3.4) takes the form
+2
+-ib + c = 0 (3.5)
+1 0 1 0 1
+
+where
+1
+b = 2 + A cos 2 and c = A sin 2 . (3.6)
+o 0 0 0
+2
+If in addition we define
+
+2 2
+b + 4c , (3.7)
+0 0
+
+then the solution to this equation is
+it it
+t = B exp
++ b +C exp
+- + b (3.8a)
+1 ( ) 1 [ 0 ] 1 [ 0 ]
+2 2
+it it
+t = B exp
+- b +C exp
+- - b , (3.8b)
+2 ( ) 2 [ 0 ] 2 [ 0 ]
+2 2
+where
+
+
+
+
+
+6
+
+
+1 1
+B = 0 - b - c 0
+1 1 ( )[ 0 ] 0 2 ( )
+
+2
+1 1
+C = 0 + b + c 0
+1 1 ( )[ 0 ] 0 2 ( )
+
+2
+
+1 1
+B = 0 + b - c 0
+2 2 ( )[ 0 ] 0 1 ( )
+
+2
+1 1
+C = 0 - b + c 0
+2 2 ( )[ 0 ] 0 1 ( )
+
+2
+This solution allows us to identify M(t) through Eq. (2.14) and hence the
+transition amplitude T through Eq. (2.16) adapted to constant A, namely
+it
+- ( it
+2+ -
+0
+A cos 2 ) 0
+b
+2 2
+e 0 e 0
+
+T (t )
+= V MV = V MV
+(3.9)
+it ( it
+2+ A cos 2
+0 ) 0
+b
+2 2
+0 e 0 e
+
+The result of the exercise is
+( -b ) it/2
+e + ( + b ) -it/2
+e 2 it -it
+- -
+1 c ( / 2 / 2
+e e
+0 0 0 )
+
+T = V V (3.10)
+2 -2c
+( it/2 -it/2
+e - e ) ( +b ) it/2
+e + ( -b ) -it/2
+e
+0 0 0
+Then specific calculation shows, for example,
+2i
+T = T = sin 2 sin t / 2 . (3.11)
+12 ( eµ ) ( )
+
+This can be put into the canonical form of Ref. [4], -i(sinm)(sin2m), where the subscript
+2
+m
+m indicates the propagation is in material, and where eff
+= t , if we identify
+m 4E
+2 sin 2 sin 2 sin 2
+sin 2 = = = (3.12a)
+m 2 2
+4EA 2EA 2EA 2
+1- cos 2 + cos 2
+- + sin 2
+2 2 2
+m m m
+and
+
+2 2
+4EA 2EA 2EA
+2 2 2 2
+m = 2E = m 1- cos 2 + = m cos 2 - + sin 2 .(3.12b)
+eff
+2 2 2
+m m m
+Indeed, in terms of these new variables the full transition amplitude is
+T = cos + (i sin cos 2 ) - (i sin sin 2 . (3.13)
+m m m z m m ) x
+
+This is the full canonical form described in Section I for propagation in a medium of
+constant density.
+
+Adiabatic Expansion. If the factor in Eq. (3.4) that contains the derivative of A is small
+compared to the other factors, one can make a systematic adiabatic expansion [6zz] in
+terms of it about the 0th order (MSW) answer. To do so, it is useful to recast the solution
+technique somewhat. We shall first take the starting point of the neutrino beam, at t = 0,
+to specify the constant background level of the material density factor, i.e., A(0) = A0. We
+
+
+
+7
+
+
+leave the boundary conditions 1(0) and 2(0) unspecified for the moment but remark that
+using Eq. (2.13) the boundary condition for 2(0) gives us alternatively a condition for the
+d i
+derivative of 1 = - = -
+1 at t = 0: (0) iP 0 0 A sin 2 0 .
+12 ( ) 2 ( ) 0 ( ) 2 ( )
+dt 2
+We see from our earlier solution of the constant density case (Eq. 3.8) that the t-
+dependence is contained in a pair of phases. An alternative way to derive these phases in
+the constant density case is through a solution ansatz of the schematic form
+1 = R0 exp(iS0(t)), (3.14)
+where R0 is constant and where S0(t = 0) = 0. The real and imaginary parts of Eq. (3.5)
+lead to the following equations for S0(t):
+2
+dS dS
+0 0 2
+- b - c = 0
+0 0
+dt dt
+(3.15)
+2
+d S0 = 0.
+2
+dt
+Together with the vanishing of S0 at t = 0, these imply that
+S0(t) = t (3.16)
+where
+2 2
+- b - c = 0 (3.17)
+0 0
+
+The solution of the quadratic equation gives
+1
+= ± +
+± (b ) 2 2
+, where
+b 4c . (3.18)
+0 0 0
+2
+Thus, as indeed Eq. (3.8) shows, a better ansatz for the solution is
+i t i
++ t
+t = R e + R e - (3.19)
+1 ( ) + -
+
+The boundary conditions for 1(t) give us immediately R+ + R- = 1(0) and
+1
+R + = -
++ R
++ - A
+- 0 sin 2 ; in turn these last two relations determine
+0 2 ( )
+2
+0 b 0 + A 0 sin 2
+1 ( ) 0 1 ( ) 0 2 ( )
+R =
+± * . (3.20)
+2 2
+Having reviewed the 0th order (constant density) problem, we go on to include
+time (distance) dependence in the material density. We accordingly write the input
+density as
+A(t) = A0(1 + f1(t)), (3.21)
+where f1(t) << 1 for all t in the problem and f1(t 0) = 0. We extend our ansatz for the
+solution to the form
+(t) = R +
++ (t ) iS (t )
+e + R
++ - (t ) iS (t )
+e - , (3.22a)
+1 -
+where R = +
+± (t ) R± (1 ± t (3.22b)
+1 ( ))
+S = +
+± (t ) t± ± t (3.22c)
+1 ( )
+± ±
+The quantities with subscript "1" are all small; moreover, 1 (0) = 1 (0) = 0. We also set
+b(t) = b0 + b1(t), where b1(t) = A0 f1(t) cos2 (3.23a)
+c(t) = c0 + c1(t), where c1(t) = (A0 f1(t) sin2)/2. (3.23b)
+
+
+
+
+8
+
+
+We now insert our ansatz into Eq. (3.5). The spirit of the adiabatic expansion is to keep
+only first order terms in quantities with the subscript "1." In addition, we insist that the
+coefficients of exp(iS±(t)) vanish separately.
+The real and imaginary parts of the coefficients of exp(iS±) give respectively
+2
+d ± d ±
+1 1
+* + K f = 0 (3.24a)
+2 ± 1
+dt dt
+2
+d ± d ± df
+1 1 1
+± - = 0, (3.24b)
+2 ±
+dt dt dt
+where
+K± A0(±cos2 + c0sin2) = 2±(-2 ± )/2. (3.25)
+
+Equations (3.24) contain only derivatives of the functions we seek, so they are in
+fact two coupled first order equations for the functions
+
+± d ± ± d ±
+1 1
+v and
+u . (3.26)
+1 1
+dt dt
+± ±
+To the equations for v1 and u1 we add boundary conditions that follow from d1/dt = 0,
+± ±
+namely v1 (0) = 0 = u1 (0). As we shall see, these boundary conditions guarantee that 1
+and 1 remain small (i.e., O(f1)). ± ±
+We decouple the two equations for v1 and u1 by taking one more derivative of,
+±
+say, Eq. (3.24a), giving a single second order equation for u1 :
+2
+d u± ± df
+1 2 1
++ u = 2
+, (3.27)
+2 1 ±
+dt dt
+where for the coefficient of df1/dt we have used ±± - K± = 2. This equation is solved
+by a standard Green's function G(t - t) that satisfies
+2
+d G (t - t)
+2
++ G t - t = t - t
+2 ( ) ( )
+dt
+with, as causality suggests, G(x) = 0 for x < 0. The Green's function required is
+1
+G (x) = (t )sint
+. (3.28)
+In terms of this function we have
+df t
+u± t = a± sint + a± cost + 2 dt G
+t - t
+
+1 ( ) s c ± ( ) 1( )
+dt
+-
+(3.29)
+
+± ± 1 t df t
+1 ( )
+= a sint + a cost + 2 dt sin -
+± t t
+
+s c ( ( ))
+dt
+0
+
+(The lower limit reflects the fact that f1 is identically zero for negative argument.) Once
+± ±
+we have u1 we can get v1 from Eq. (3.24a):
+1 du±
+± 1
+v = ± + K f
+1 ± 1
+
+dt
+
+(3.30)
+K
+= ± a± cost - a± sint ±
++ f t
+s c 1 ( )
+
+
+
+
+
+9
+
+
+± ± ± ±
+At this point we can get as and ac from the boundary conditions for v1 (0) and u1 (0),
+± ±
+which determine as = ac = 0. (It is worth noting that since these quantities are not
+proportional to f1, the only way for them to be small is to be zero.) In turn, we have
+finally
+
+
+± 2 t t
+df t
+t ±
+= sin t - t dtd
+t
+(3.31)
+1 ( ) ( ( )) 1( )
+dt
+0 0
+
+± 1 t
+= ± K f t dt
+(3.32)
+1 ± 1 ( )
+0
+
+The phase function S±(t) takes on a suggetive form if we use the identity K± = ±± -
+(b0 ± ), in which case we can write
+t 2 t
+
+S = + *
+± (t ) ± (1 f t dt ± f t dt
+. (3.33)
+1 ( )) 1 ( )
+
+0 0
+
+The first term integrates the material density.
+
+An example: We take a linear variation, f1 = qt, together with the condition that
+the beam is pure µ at t = 0 (which translates into 1(0) = -sin and 2(0) = cos). Then
+we have immediately
+1 2 1
+S = +
+± (t ) 2 ± 2
+t qt * qt
+± (3.34a)
+2 2
+and
+2 1
+R = + -
+± (t ) R 1 q ± t sin
+± t
+. (3.34b)
+2
+
+
+In Figs. 1 and 2 we plot some probabilities associated with the resulting amplitude for
+some representative values of the parameters.
+
+Acknowledgements
+We would like to thank the Aspen Center for Physics, where much of this work was
+done. PMF would also like to thank Dominique Schiff and the members of the LPTHE at
+Université de Paris-Sud for their generous hospitality. This work is supported in part by
+the U.S. Department of Energy under grant number DE-FG02 -97ER41027.
+
+References
+
+1. Super-Kamiokande Collaboration, Y. Fukuda et al., Phys. Lett. B, 433 (1998) 9; ibid.,
+436 (1998) 33; Phys. Rev. Lett. 81 (1998) 1562; ibid., 82 (1999) 1810; ibid., 82 (1999)
+2430; E. Kearns, TAUP97, The 5th International Workshop on Topics in Astroparticle
+and Underground Physics, Nucl. Phys. Proc. Suppl. 70 (1999) 315; A. Habig for the
+Super-Kamiokande Collaboration, ; K. Scholberg for the Super-
+Kamiokande Collaboration,  to appear in the Proceedings of the 8th
+International Workshop on Neutrino Telescopes (Venice, Italy, 1999); G. L. Fogli, E.
+Lisi, A. Marrone, and G. Scioscia,  to appear in the Proceedings of WIN
+'99, 17th Annual Workshop on Weak Interactions and Neutrinos (Cape Town, South
+Africa, 1999); Kamiokande Collaboration, K. S. Hirata et al., Phys. Lett. B280, 146
+
+
+
+10
+
+
+(1992); Y. Fukuda et al., Phys. Lett. B335 (1994) 237; IMB collaboration, R. Becker-
+Szendy et al., Nucl. Phys. B (Proc. Suppl.) 38 (1995) 331; Soudan-2 collaboration, W.
+W. M. Allison et al., Phys. Lett. B391 (1997) 491; Kamiokande Collaboration, S.
+Hatekeyama et al., Phys. Rev. Lett. 81 (1998) 2016; MACRO Collaboration, M.
+Ambrosio et al., Phys. Lett. B 434 (1998) 451; CHOOZ Collaboration, M. Apollonio et
+al., Phys. Lett. B420 (1998) 397.
+
+2. J. N. Bahcall and M. H. Pinsonneault, Rev. Mod. Phys. 67 (1995) 781; J. N. Bahcall, S.
+Basu, and M. H. Pinsonneault, Phys. Lett. B 433 (1998) 1; J. N. Bahcall, P. I. Krastev,
+and A. Yu. Smirnov, Phys. Rev. D58 (1998) 096016; B. T. Cleveland et al., Nucl. Phys.
+B (Proc. Suppl.) 38 (1995) 47; Kamiokande Collaboration, Y. Fukuda et al., Phys. Rev.
+Lett. 77 (1996) 1683; GALLEX Collaboration, W. Hampel et al., Phys. Lett. B388
+(1996) 384; SAGE Collaboration, J. N. Abdurashitov et al., Phys. Rev. Lett. 77 (1996)
+4708; Liquid Scintillator Neutrino Detector (LSND) Collaboration, C. Athanassopoulos
+et al., Phys. Rev. Lett. 75 (1996) 2650; ibid., 77 (1996) 3082; Phys. Rev. C58 (1998)
+2489; Phys. Rev. Lett. 81 (1998)1774; G. L. Fogli, E. Lisi, A. Marrone, and G. Scioscia,
+Phys. Rev. D59 (1999) 033001. See also G. L. Fogli, E. Lisi, and A. Marrone, Phys. Rev.
+D57 (1998) 5893 and references therein.
+
+3. S. P. Mikheyev and A. Yu. Smirnov, Sov. J. Nucl. Phys. 42, 913 (1985).
+
+4. L. Wolfenstein, Phys. Rev. D17, 2369 (1978).
+
+5. The first paper to point out that a two-layer case is relevant to passage and conversion
+of neutrinos within the Earth is S. T. Petcov, Phys. Lett. B 434 (1998) 321. There is much
+subsequent work, including (and not necessarily in chronological order) M.V. Chizhov
+and S. T. Petcov, Phys. Rev. Lett. 83 (1999) 1096; M.V. Chizhov and S. T. Petcov, hep-
+; M.V. Chizhov, ; E. Kh. Akhmedov, Nucl. Phys. B538, 25
+(1999); E. Kh. Akhmedov, A. Dighe, P. Lipari, and A. Yu. Smirnov, Nucl Phys. B542, 3
+(1999); M. V. Chizhov, M. Maris, and S. T. Petcov, ; E. Kh. Akhmedov,
+; E. Kh. Akhmedov, Pramana 54, 47 (2000); E. Kh. Akhmedov and A.
+Yu. Smirnov, ; M. V. Chizhov and S. T. Petcov, ; I.
+Mocioiu and R. Shrock, Phys. Rev. D62 (2000) 053017; P. M. Fishbane, Phys. Rev. D62
+(2000) 093009; M. Freund and T. Ohlsson, Mod. Phys. Lett. A 15 (2000) 867; T. Ohlsson
+and H. Snellman, Phys. Lett. B 474 (2000) 153 and 480 (2000) 419(E).
+
+6. This is of course an approach that we are not the first to take. Among many possible
+citations, and beyond those of references 3 and 4, we single out S. T. Petcov, Phys. Lett.
+B 191 (1987) 299; T. Ohlsson and H. Snellman, J. Math. Phys. 41 (2000) 2768; P. Osland
+and T. T. Wu, Phys. Rev, D62 (2000) 013008; H. Lehmann, P. Osland, and T. T. Wu,
+
+
+7. For other work on the "adiabatic" treatment of neutrino oscillation amplitudes, see ref.
+3; S. Toshov, Phys. Lett. B 185 (1987) 177; S. T. Petcov and S. Toshov, Phys. Lett. B
+187 (1987) 120; P. Langacker et al., Nucl Phys. B282 (1987) 589. The approximation in
+
+
+
+
+
+11
+
+
+these citations is not, we believe, the one we have developed here. We shall discuss this
+matter elsewhere.
+
+Acknowledgements
+
+We would like to thank the Aspen Center for Physics, where much of this work was
+done. PMF would also like to thank Dominique Schiff and the members of the LPTHE at
+Université de Paris-Sud for their hospitality. This work is supported in part by the U.S.
+Department of Energy under grant number DE-FG02-97ER41027.
+
+
+Figure Captions
+
+Figure 1. Probability, as calculated in the adiabatic approximation described in the text,
+of e as a function of time from production as a pure µ at t = 0, in a medium with density
+- -
+factor A 1 13
+0(1 + qt), where A0 = 6 × 109 cm = 10 eV corresponds to Earth-like density.
+We assume the primary mixing angle is = 0.7 and that the difference of the square of
+- -
+the neutrino masses is 5 × 10 6 eV2. The factor = -7.9 × 10 14 eV, a value for which the
+neutrino energy lies around the MSW resonance value, an energy of roughly 20 MeV.
+- -
+The horizontal exis is in units of 1014 eV 1; note that for q = -2 × 10 15 eV, qt = -0.2 at t
+-
+= 1014 eV 1.
+
+-
+Figure 2. Same as Fig. 1, but with the factor = -7.5 × 10 15 eV, a value for which the
+neutrino energy lies roughly ten times higher than that corresponding to the MSW
+resonance value.
+
+
+
+
+
+12
+
+
+
+Figure 1
+
+
+
+
+
+
+
+Figure 2
+
+
+
+
+
+13
+
+
+

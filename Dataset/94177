@@ -1,0 +1,5120 @@
+
+
+SU-4240-606 UCI-TR-95-10 UNITU-THEP-6/1995
+
+March, 1995
+
+Heavy Quark Solitons: Towards Realistic Masses
+
+J. Schechter
+
+a
+
+, A. Subbaraman
+
+b
+
+, S. Vaidya
+
+a
+
+and H. Weigel
+
+c
+
+a
+
+Department of Physics, Syracuse University
+
+Syracuse, NY 13244-1130, USA
+
+b
+
+Department of Physics, University of California
+
+Irvine, CA 92717, USA
+
+c
+
+Institute for Theoretical Physics, T"ubingen University
+
+D-72076 T"ubingen, Germany
+
+ABSTRACT A generalization of the effective meson Lagrangian possessing the heavy quark symmetry to finite meson masses is employed to study the meson mass dependence of the spectrum of S- and P wave baryons containing one heavy quark or anti-quark. These baryons are described as respectively heavy mesons or anti-mesons bound in the background of a soliton, which is constructed from light mesons. No further approximation is made to solve the bound state equation. For special cases it is shown that the boundary conditions, which have to be satisfied by the bound state wave-functions and stem from the interaction with the light mesons, may impose additional constraints on the existence of bound states when finite masses are assumed. Two types of models supporting soliton solutions for the light mesons are considered: the Skyrme model of pseudoscalars only as well as an extension containing also light vector mesons. It is shown that only the Skyrme model with vector mesons provides a reasonable description of both light and heavy baryons. Kinematical corrections to the bound state equations are included in the discussion.
+
+1
+
+1. Introduction
+
+There has been a good deal of recent interest in the study of the heavy baryons in the bound state picture [1, 2] with the assumption of heavy quark spin symmetry [3]. Many aspects of this interesting but technically involved problem have been treated by various groups [4]-[8]
+
+The baryons under study have the schematic quark structure qqQ, where q stands for a light quark and Q for a heavy quark. In the given approach they are realized as heavy mesons (_qQ) bound to light baryons (qqq). The light baryons are treated as soliton excitations of a light meson Lagrangian. Then a piece is added to the chiral Lagrangian in order to describe the heavy mesons and their interactions with the light ones. The bound state equation is the equation of motion of the heavy meson field in the background field of the light soliton. This turns out to involve several coupled differential equations but, in the infinite meson mass, M ! 1 limit it simplifies enormously [9] to the evaluation of the matrix elements of an operator of the form a1I + boe
+
+i
+
+o/
+
+i
+
+in a suitable space. This simple result requires not only
+
+M ! 1 but also that the light baryon mass be formally infinite.
+
+The interest of this simple result attaches to the fact that it holds for a very large class of models in the combined large N
+
+c
+
+and large M limit. However it is very desirable for the sake
+
+of comparison with experiment to understand the corrections due to using finite heavy meson mass and finite light baryon mass. For example, the orbitally excited heavy baryon states turn out unrealistically to be degenerate with the ground state in the simple limit. Of course once one goes away from the symmetry limit there are many options. In the present paper we shall deal with the simplest generalization of the heavy meson Lagrangian to finite heavy meson masses and shall solve the coupled differential equations exactly (numerically) for the states of interest. It turns out that the resulting equations are exactly of the same structure as the homogeneous part of those which arose in the "K-cranking" treatment [11, 12] of the SU (3) Skyrme model with (light) vector mesons so that existing technology may be used.
+
+Previously [9] it was shown how the coupled differential equations could be approximated by a single Schr"odinger like equation. This suggested that the effect of finite light baryon mass could be estimated by replacing the heavy meson mass in this equation by the reduced mass. The conclusions of that approximate analysis were first that each of the finite heavy meson mass and finite light baryon mass corrections were very important and second that it was just about impossible to understand the existing experimental data with a light meson Lagrangian containing only pseudoscalar fields. It seemed that the latter problem could be solved if the Lagrangian also contained light vector mesons. Earlier [7] the coupled equations had been solved for the ground state using the light pseudoscalar only Lagrangian and approximating the time component of the heavy vector field by its leading order in 1=M piece. Later this approximation has been shown to be justified in that model [10]. The present analysis uses a different method in which it is unnecessary to make that approximation.
+
+We confirm here that the light vector mesons seem to be very important to understand the existing experimental data. After fitting an unknown light vector-heavy meson coupling parameter to the binding energy of the \Lambda
+
+b
+
+(5641) baryon we are able to successfully predict
+
+the binding energy of the \Lambda
+
+c
+
+(2285) baryon as well as that of a recently observed [13] candidate
+
+for its first orbital excitation [14]. Furthermore we find that the approximate Schr"odinger like equation mentioned above is accurate for the ground state but not reliable for the excited
+
+2
+
+heavy baryon state in the charm sector. It seems useful to understand the accuracy of this equation when one recognizes that the parameters of the light -heavy meson interactions are still not conclusively established and that the light soliton models themselves may require important corrections [15]. An initial understanding of the results of changes or of extensions of the model may be more simply obtained with the Schr"odinger like equation.
+
+Amusingly, we find that the present model, including light vector mesons, appears to give quite a reasonable account of the "ordinary" hyperon binding energies.
+
+We also investigate the so-called pentaquark states [8] in the present model. These are postulated states of the form qqqq
+
+_ Q. In the present approach they arise as negative energy
+
+bound states of the heavy meson (_qQ) in the background soliton field. We note that in the simple limit it is easier to work with their anti-particles which correspond to positive energy bound states of the heavy meson in the anti-soliton field. In any event it turns out that these states, which are slightly bound in the simple limit, become unbound in the model with light vectors both in the charm and bottom sectors.
+
+In connection with our investigation of the penta states we found the interesting feature that a certain state which was bound in the infinite M limit did not satisfy the appropriate boundary conditions near r = 0 for any finite value, no matter how large, of M . Thus it appears that the large M limit and the r ! 0 limit (which is needed for obtaining the standard heavy limit results) do not necessarily commute with each other.
+
+This paper is organized as follows. Section 2 contains a brief summary of the underlying chiral Lagrangian including light vector mesons. It also gives the ansatz for the light soliton and for the bound heavy mesons in the P-wave and S-wave orbital states. The latter are suitable for describing, respectively, the ground state baryon and its first orbitally excited state as well as the low lying penta quark states. In section 3 we obtain, from symmetry considerations, the wave-functions and binding energies of the above mentioned states in the heavy spin symmetry limit. In section 4 we discuss the boundary conditions at large and small r of the coupled differential equations (using, for simplicity, the model in which the light vector mesons are not present). The fact that the M ! 1 and the r ! 0 do not necessarily commute is illustrated. In section 5 the detailed behavior of the wave-functions and binding energies of the low lying states is discussed for the model without light vectors. This is generalized to the model including light vectors in section 6. The behavior of the model as a function of an important parameter describing the heavy meson-omega meson coupling constant is treated. In section 7 the kinematical effects of finite light baryon mass are estimated and our final numerical predictions are presented. It should be noted that the differential equations themselves, their large M limits and the method of solution are explicitly given in Appendix A. Section 8 contains a summary and discusses directions for further work.
+
+2. Description of the Model
+
+Following the bound state picture we regard the heavy baryon as a bound state of a heavy meson in the background field of a Skyrmion. In turn, the Skyrmion corresponds to a light baryon which arises as a soliton excitation of an effective Lagrangian constructed from the light pseudoscalar and light vector meson fields. For the sector of the model describing the light pseudoscalar and vector mesons we adopt the chirally invariant Lagrangian discussed
+
+3
+
+in detail in the literature [16, 17]. This Lagrangian can be decomposed into a normal parity part
+
+L
+
+S
+
+= f
+
+2
+
+ss
+
+tr [p
+
+_
+
+p
+
+_
+
+] +
+
+m
+
+2
+
+ss
+
+f
+
+2
+
+ss
+
+2
+
+tr
+
+^
+
+U + U
+
+y
+
+\Gamma 2
+
+*
+
+\Gamma
+
+1
+
+2
+
+tr [F
+
+_*
+
+(ae) F
+
+_*
+
+(ae)] + m
+
+2
+
+V
+
+tr [R
+
+_
+
+R
+
+_
+
+] (2.1)
+
+and a part which contains the Levi-Cevita tensor, ffl
+
+_*fffi
+
+. The action for the latter is most
+
+conveniently displayed using differential forms p = p
+
+_
+
+dx
+
+_
+
+, etc.
+
+\Gamma
+
+an
+
+=
+
+2N
+
+c
+
+15ss
+
+2
+
+Z
+
+T r(p
+
+5
+
+)
+
++
+
+Z
+
+T r
+
+^
+
+4i
+
+3
+
+(fl
+
+1
+
++
+
+3
+
+2
+
+fl
+
+2
+
+)Rp
+
+3
+
+\Gamma
+
+g
+
+2
+
+fl
+
+2
+
+F (ae)(pR \Gamma Rp) \Gamma 2ig
+
+2
+
+(fl
+
+2
+
++ 2fl
+
+3
+
+)R
+
+3
+
+p
+
+*
+
+: (2.2)
+
+In eqs (2.1) and (2.2) we have introduced the abbreviations
+
+p
+
+_
+
+=
+
+i
+
+2
+
+`
+
+,@
+
+_
+
+,
+
+y
+
+\Gamma ,
+
+y
+
+@
+
+_
+
+,
+
+'
+
+and v
+
+_
+
+=
+
+i
+
+2
+
+`
+
+,@
+
+_
+
+,
+
+y
+
++ ,
+
+y
+
+@
+
+_
+
+,
+
+'
+
+(2.3)
+
+for the pseudovector and vector currents of the light pseudoscalar fields. Furthermore , refers to a square root of the chiral field, i.e. U = ,
+
+2
+
+. Finally F
+
+_*
+
+(ae) = @
+
+_
+
+ae
+
+*
+
+\Gamma @
+
+*
+
+ae
+
+_
+
+\Gamma ig [ae
+
+_
+
+; ae
+
+*
+
+]
+
+denotes the field tensor associated with the vector mesons ae and !, which are incorporated
+
+via ae
+
+_
+
+=
+
+i
+
+!
+
+_
+
+1I + ae
+
+a
+
+_
+
+o/
+
+a
+
+j
+
+=2 in the two flavor reduction. R
+
+_
+
+= ae
+
+_
+
+\Gamma v
+
+_
+
+=g transforms simply
+
+under chiral transformations. The parameters g; fl
+
+1
+
+; etc. can be determined (or at least
+
+constrained) from the study of decays of the light vector mesons such as ae ! 2ss or ! ! 3ss. For details we refer to ref. [17]. The action for the light degrees of freedom (
+
+R
+
+L
+
+S
+
++ \Gamma
+
+an
+
+)
+
+contains static soliton solutions. The appropriate ans"atze are
+
+,(r) = exp
+
+`
+
+i
+
+2
+
+^r \Delta o/ F (r)
+
+'
+
+; !
+
+0
+
+(r) =
+
+!(r)
+
+g
+
+ae
+
+i;a
+
+(r) =
+
+G(r)
+
+gr
+
+ffl
+
+ija
+
+^r
+
+j
+
+(2.4)
+
+while all other field components vanish. These solutions have widely been employed to investigate static properties of the light baryons; see [18] for reviews.
+
+We next require the part of the action which describes the chirally invariant coupling of the light pseudoscalar and vector mesons to their counterparts containing one heavy quark. In a suitable infinite heavy mass limit this part of the action has the additional heavy spin symmetry and the leading term in a 1=M expansion is unique - see for example eq.(3.24) of ref. [19]. A minimal extension to finite M of this action is given in eq.(3.25) of ref. [19] which we write out as:
+
+L
+
+H
+
+= D
+
+_
+
+P (D
+
+_
+
+P )
+
+y
+
+\Gamma
+
+1
+
+2
+
+Q
+
+_*
+
+(Q
+
+_*
+
+)
+
+y
+
+\Gamma M
+
+2
+
+P P
+
+y
+
++ M
+
+\Lambda 2
+
+Q
+
+_
+
+Q
+
+_y
+
++2iM d
+
+`
+
+P p
+
+_
+
+Q
+
+_y
+
+\Gamma Q
+
+_
+
+p
+
+_
+
+P
+
+y
+
+'
+
+\Gamma
+
+d
+
+2
+
+ffl
+
+fffi_*
+
+^
+
+Q
+
+*ff
+
+p
+
+_
+
+Q
+
+y
+
+fi
+
++ Q
+
+fi
+
+p
+
+_
+
+(Q
+
+*ff
+
+)
+
+y
+
+*
+
+(2.5)
+
+\Gamma
+
+2
+
+p
+
+2icM
+
+m
+
+V
+
+ae
+
+2Q
+
+_
+
+F
+
+_*
+
+(ae) Q
+
+y
+
+*
+
++
+
+i
+
+M
+
+ffl
+
+fffi_*
+
+^
+
+D
+
+fi
+
+P F
+
+_*
+
+(ae) Q
+
+y
+
+ff
+
++ Q
+
+ff
+
+F
+
+_*
+
+(ae) (D
+
+fi
+
+P )
+
+y
+
+*oe
+
+:
+
+Here we have allowed the mass M of the heavy pseudoscalar meson P to differ from the mass M
+
+\Lambda
+
+of the heavy vector meson Q
+
+_
+
+. Note that the heavy mesons are conventionally
+
+4
+
+defined as row vectors in isospin space. The covariant derivative introduces the additional parameter ff:
+
+D
+
+_
+
+P
+
+y
+
+= (@
+
+_
+
+\Gamma iffgae
+
+_
+
+\Gamma i (1 \Gamma ff) v
+
+_
+
+) P
+
+y
+
+= (@
+
+_
+
+\Gamma iv
+
+_
+
+\Gamma igffR
+
+_
+
+) P
+
+y
+
+(2.6)
+
+for example, while the covariant field tensor of the heavy vector meson is defined as
+
+(Q
+
+_*
+
+)
+
+y
+
+= D
+
+_
+
+Q
+
+y
+
+*
+
+\Gamma D
+
+*
+
+Q
+
+y
+
+_
+
+: (2.7)
+
+It should be stressed that the assumption of infinitely large masses for the heavy mesons has not been made in (2.5). The coupling constants d; c and ff which appear have still not been very accurately determined. In particular there is no direct experimental evidence for the value of ff, which would be unity if a possible definition of light vector meson dominance for the electromagnetic form factors of the heavy mesons were to be adopted (see ref.[20]). We shall consider ff as a parameter here. The other parameters in (2.5) will be taken to be:
+
+d = 0:53 c = 1:60 M = 1865MeV M
+
+\Lambda
+
+= 2007 MeV D \Gamma meson
+
+M = 5279MeV M
+
+\Lambda
+
+= 5325 MeV B \Gamma meson: (2.8)
+
+?From studies [1] in the bound state approach to the SU(3) Skyrme model we expect the ground state heavy baryon when the heavy meson is bound in an orbital P-wave while the first excited state is expected when the heavy meson is bound in an orbital S-wave. The apparent reversal from the usual expectation is due to the spin-isospin mixing in the Skyrme approach. In the context of the heavy quark symmetry it is, of course, necessary to also include the heavy vector meson fields. The corresponding ansatz for the P-wave
+
+P
+
+y
+
+=
+
+\Phi (r)
+
+p
+
+4ss
+
+^ r \Delta o/ O/e
+
+ifflt
+
+; Q
+
+y
+
+0
+
+=
+
+\Psi
+
+0
+
+(r)
+
+p
+
+4ss
+
+O/e
+
+ifflt
+
+;
+
+Q
+
+y
+
+i
+
+=
+
+1 p
+
+4ss
+
+^
+
+i\Psi
+
+1
+
+(r)^r
+
+i
+
++
+
+1
+
+2
+
+\Psi
+
+2
+
+(r)ffl
+
+ijk
+
+^r
+
+j
+
+o/
+
+k
+
+*
+
+O/e
+
+ifflt
+
+(2.9)
+
+defines four radial functions. O/ represents a constant (iso) spinor. Hence P
+
+y
+
+and Q
+
+y
+
+_
+
+represent
+
+isospinors. As a matter of fact these ans"atze are identical to those used to compute induced strange fields in the framework of the collective approach to the Skyrme model with vector mesons [11, 12]. In that case O/ parametrizes the angular velocities for rotations into strange directions. It should be noted that apart from O/ the ans"atze (2.9) carry zero grand spin and negative parity. The former is defined as the vector sum of total spin and isospin. As O/ has to be interpreted as an isospinor, the total grand spin of the ansatz (2.9) is 1=2. Since the heavy mesons carry negative parity the resulting heavy baryon will have positive parity. For the ans"atze in the S-wave channel
+
+P
+
+y
+
+=
+
+\Phi (r)
+
+p
+
+4ss
+
+O/e
+
+ifflt
+
+; Q
+
+y
+
+0
+
+=
+
+\Psi
+
+0
+
+(r)
+
+p
+
+4ss
+
+^ r \Delta o/ O/e
+
+ifflt
+
+;
+
+Q
+
+y
+
+i
+
+=
+
+i p
+
+4ss
+
+[\Psi
+
+1
+
+(r)^r \Delta o/ ^r
+
+i
+
++ \Psi
+
+2
+
+(r)ro/ \Delta @
+
+i
+
+^r] O/e
+
+ifflt
+
+(2.10)
+
+5
+
+the grand spin is still 1=2 while the parity is positive. Thus the resulting excited heavy baryon has negative parity. The phase conventions in (2.9, 2.10) guarantee real radial functions. It should be remarked that we actually are considering conjugate heavy meson fields. Hence the exponential reads e
+
+ifflt
+
+rather than e
+
+\Gamma ifflt
+
+. In earlier treatments, the time component of the
+
+heavy vector field Q
+
+0
+
+had been eliminated using the heavy quark approximation
+
+Q
+
+0
+
+ss
+
+1
+
+M
+
+\Lambda 2
+
+D
+
+i
+
+.
+
+Q
+
+i
+
+= O
+
+`
+
+1
+
+M
+
+\Lambda
+
+'
+
+: (2.11)
+
+For the current investigation we will not need to make this approximation. The bound state equations may be obtained by substituting these ansatze in (2.5). After some computation this yields effective Lagrange densities for the radial functions \Phi ; \Psi
+
+0
+
+; \Psi
+
+1
+
+and \Psi
+
+2
+
+.These are
+
+displayed in appendix A for both the S- and P wave channels. The leading pieces in the limit M = M
+
+\Lambda
+
+! 1 are also presented in this appendix. Furthermore the method used to
+
+solve the bound state equations for finite masses is described.
+
+3. Bound States in the Heavy Mass Limit
+
+Before discussing the exact solutions to the bound state equations emerging from (2.5) for the S- and P wave heavy mesons it is illuminating to review the results associated with the heavy mass limit, i.e. M ! 1 and M
+
+\Lambda
+
+! 1. In that limit the wave-functions receive
+
+their only support at the origin r = 0. Hence the binding energy is given by the negative of the potential for the heavy mesons at the origin. Since this potential is generated by the static soliton the binding energy is extracted from the light meson profiles F; G and ! at r = 0. For this purpose one substitutes the expansions
+
+F (r) ss \Gamma ss + F
+
+0
+
+(0)r + : : : ; G(r) ss \Gamma 2 +
+
+G
+
+00
+
+(0)
+
+2
+
+r
+
+2
+
++ : : : and !(r) ss !(0) + : : : (3.1)
+
+of the profile functions for the light mesons into eqs (A.4) and (A.2). Note that G and ! have been redefined compared to [9] ; see Appendix B. The binding energy is defined by ffl
+
+B
+
+= M \Gamma jfflj, i.e. M
+
+2
+
+\Gamma ffl
+
+2
+
+ss 2M ffl
+
+B
+
+. Here ffl represents the value of the energy which leads to
+
+a regular solution of the bound state equations corresponding to (A.2) and (A.4). In what follows we will refer to this value of ffl as the bound state energy. For the P wave the binding energy in the large M limit results in [9]
+
+ffl
+
+B
+
+=
+
+3
+
+2
+
+dF
+
+0
+
+(0) \Gamma
+
+3
+
+p
+
+2c
+
+gm
+
+V
+
+G
+
+00
+
+(0) +
+
+ff
+
+2
+
+!(0): (3.2)
+
+Simultaneously the radial functions in (2.9) are related via
+
+\Psi
+
+1
+
+= \Gamma \Phi ; \Psi
+
+2
+
+= \Gamma 2\Phi (P \Gamma wave): (3.3)
+
+For the S wave the same binding energy (3.2) is obtained in the large M limit, however, in this case the radial functions in (2.10) are related via
+
+\Psi
+
+1
+
+= \Gamma \Phi ; \Psi
+
+2
+
+= \Phi (S \Gamma wave): (3.4)
+
+6
+
+The reason the binding energies are identical in the two channels is that the modifications arising in the differential equations when going from the P - to the S wave are subleading in the limit M; M
+
+\Lambda
+
+! 1. Nevertheless, there may be significant differences in the binding
+
+energies of the S and P wave mesons when the masses are kept finite. The reason is that, due to the centrifugal barrier, the corresponding wave-functions are substantially different at r ss 0. We will see later that the P wave state is the ground state of the heavy baryon that results from the binding, while the S wave state is interpreted as the first radially excited state. We have already argued above that the vicinity of r ss 0 determines the binding energy. It will, of course, be of great interest to see how well the relations (3.2)-(3.4) are satisfied when finite masses are assumed. Technically speaking, the question is whether or not the limits M = M
+
+\Lambda
+
+! 1 and r ! 0 commute.
+
+In the limit M = M
+
+\Lambda
+
+! 1 the structure of the wave-functions based on their symmetries
+
+has been worked out in ref. [9]. ?From that scheme one may extract relations like (3.3) and (3.4) for other channels as well. The starting point is the heavy meson field H, which combines the heavy pseudoscalar and vector meson fields moving with a fixed four-velocity V
+
+_
+
+H
+
+a
+
+=
+
+1
+
+2
+
+(1 + fl
+
+_
+
+V
+
+_
+
+) (ifl
+
+5
+
+P
+
+0a
+
++ fl
+
+*
+
+Q
+
+0a
+
+*
+
+) ;
+
+_ H = fl
+
+0
+
+H
+
+y
+
+fl
+
+0
+
+: (3.5)
+
+This parametrization makes the SU(2) spin symmetry transparent. The superscript a labels the light flavor content. In the rest frame H may be decomposed as
+
+_ H
+
+a
+
+=
+
+`
+
+0 0
+
+_ H
+
+a
+
+lh
+
+0
+
+'
+
+; (l; h = 1; 2): (3.6)
+
+The spatial representation of the heavy meson wave-function
+
+_ H
+
+a
+
+lh
+
+has been discussed in ref.
+
+[9] and reads
+
+a
+
+_ H
+
+a
+
+lh
+
+=
+
+u(r) p
+
+2M
+
+(^r \Delta o/ )
+
+ad
+
+_ \Psi
+
+dl
+
+(g; g
+
+3
+
+) O/
+
+0
+
+h
+
+: (3.7)
+
+The radial part, u(r), needs no specification other than that it be strongly peaked
+
+b
+
+in the
+
+vicinity of r = 0. Here g denotes the eigenvalue of the light grand spin g = I + L + S
+
+0
+
+and
+
+g
+
+3
+
+its projection. In this definition I; L and S
+
+0
+
+label the isospin, orbital angular momentum
+
+and spin of the light quark inside the heavy meson. The wave-functions
+
+_ \Psi
+
+dl
+
+are most
+
+conveniently constructed by introducing the intermediate vector sum K = I + S
+
+0
+
+possessing
+
+the eigenfunctions ,
+
+dl
+
+(k; k
+
+3
+
+), which represent the product representation of spin and isospin
+
+1=2 objects [9]. Then the eigenfunctions of g are decomposed as
+
+_ \Psi
+
+dl
+
+(g; g
+
+3
+
+; ^r; k) =
+
+X
+
+r
+
+3
+
+k
+
+3
+
+C
+
+gg
+
+3
+
+rr
+
+3
+
+;kk
+
+3
+
+Y
+
+rr
+
+3
+
+(^r) ,
+
+dl
+
+(k; k
+
+3
+
+): (3.8)
+
+Here C
+
+gg
+
+3
+
+rr
+
+3
+
+;kk
+
+3
+
+is the Clebsch-Gordon coefficient associated with the coupling of r and k to g.
+
+Furthermore Y
+
+rr
+
+3
+
+(^r) denotes a spherical harmonic function, i.e. an eigenfunction of L
+
+2
+
+and
+
+a
+
+Repeated indices are summed over.
+
+b
+
+In the heavy limit u
+
+2
+
+(r) may be considered as a ffi(r)-type function or derivatives thereof.
+
+7
+
+L
+
+3
+
+with eigenvalues r(r + 1) and r
+
+3
+
+, respectively. The spinors are related to those in (2.9)
+
+and (2.10) by ffl
+
+lh
+
+O/
+
+0
+
+h
+
+= O/
+
+l
+
+.
+
+In the rest frame the pseudoscalar and vector parts are finally extracted via
+
+P
+
+0ay
+
+= e
+
+\Gamma ifflt
+
+P
+
+ay
+
+=
+
+i
+
+2
+
+_ H
+
+a
+
+ll
+
+and Q
+
+0ay
+
+i
+
+= e
+
+\Gamma ifflt
+
+Q
+
+ay
+
+i
+
+= \Gamma
+
+1
+
+2
+
+(oe
+
+i
+
+)
+
+hl
+
+_ H
+
+a
+
+lh
+
+: (3.9)
+
+Remember that in the heavy limit Q
+
+a
+
+0
+
+= 0, cf. eq (2.11). In order to obtain states with good
+
+grand spin eigenvalues (as the ans"atze (2.9) and (2.10)) one furthermore has to couple the spin S
+
+00
+
+of the heavy quark according to G = g + S
+
+00
+
+.
+
+It is then straightforward to verify that the relation (3.3), which was obtained by solving the bound state equation in the heavy mass limit, corresponds to the state with the quantum numbers g = r = k = 0 while (3.4) is associated to the state
+
+c
+
+with g = r = 1 and k = 0.
+
+3.1. Pentaquark States
+
+In addition to these bound states in the k = 0 channel, which carry positive energy eigenvalues, solutions with G = 1=2 exist in the k = 1 channel possessing, however, negative energy eigenvalues, the so-called pentaquark states [8]. These solutions describe an anti- heavy meson bound to the Skyrmion and correspond to (qqqq
+
+_ Q) states in the quark model.
+
+In the limit M = M
+
+\Lambda
+
+! 1 their binding energy is given by
+
+ffl
+
+(p)
+
+B
+
+=
+
+1
+
+2
+
+dF
+
+0
+
+(0) +
+
+p
+
+2c
+
+gm
+
+V
+
+G
+
+00
+
+(0) +
+
+ff
+
+2
+
+!(0): (3.10)
+
+In the heavy limit there are four degenerate negative energy eigenstates with G = 1=2. We list the quantum numbers of these states as well as the resulting relations between the radial functions \Phi ; \Psi
+
+1
+
+and \Psi
+
+2
+
+.
+
+1: g = 0; r = 1 : \Phi = \Psi
+
+1
+
+= \Psi
+
+2
+
+(S \Gamma wave);
+
+2: g = 1; r = 1 : \Phi = \Gamma \Psi
+
+1
+
+; \Psi
+
+2
+
+= 0 (S \Gamma wave);
+
+3: g = 1; r = 0 : \Phi = \Gamma 3\Psi
+
+1
+
+= \Gamma 3\Psi
+
+2
+
+=2 (P \Gamma wave);
+
+4: g = 1; r = 2 : \Phi = 0; \Psi
+
+1
+
+= \Gamma \Psi
+
+2
+
+(P \Gamma wave): (3.11)
+
+According to the above described scheme these four states may couple to k = 1 states because K = g + (\Gamma L). It should be noted that the relations (3.11) for the heavy limit have to be supplemented by \Psi
+
+0
+
+= 0.
+
+Actually there is another way to look at the penta quark states. One may consider these states as the particle conjugated system of heavy mesons being bound to light anti-solitons. This anti-soliton is related to the soliton by [21]
+
+F (r) ! \Gamma F (r); G(r) ! G(r) and !(r) ! \Gamma !(r): (3.12) c
+
+Using (3.7)-(3.9) for the g = r = 1; k = 0 state yields P
+
+0y
+
+= B^r(^r \Delta o/)O/ and Q
+
+0y
+
+i
+
+= \Gamma iB^r(^r
+
+i
+
+\Gamma iffl
+
+ijk
+
+^r
+
+j
+
+o/
+
+k
+
+)O/
+
+where B is a constant. We note that the overall factor ^r corresponds to the fact that g = 1. We couple
+
+these fields to G = 1=2 by replacing O/ ! o/ O/ and dotting it into the overall
+
+^ r.This gives P
+
+0y
+
+= BO/; Q
+
+0y
+
+i
+
+=
+
+\Gamma iB(2^r
+
+i
+
+^ r \Delta o/ \Gamma o/
+
+i
+
+)O/ which may be compared with (2.10).
+
+8
+
+For the heavy meson fields the effect of G-conjugation on the radial fields is
+
+\Phi (r) ! \Gamma \Phi (r); \Psi
+
+0
+
+(r) ! \Gamma \Psi
+
+0
+
+(r) and \Psi
+
+i
+
+(r) ! \Psi
+
+i
+
+(r) (3.13)
+
+up to an overall sign. It can easily be verified that the Lagrangians (A.1) and (A.3) are invariant under the combined transformations (3.12,3.13) when in addition the sign of the bound state energy (ffl) is reversed. This, however, just represents the transformation from a bound meson to a bound anti-meson and vice versa. The consideration of the particle conjugation on the penta quarks is useful since it allows one to apply the expression
+
+M \Gamma ffl =
+
+h
+
+3 \Gamma 2k
+
+2
+
+i
+
+(
+
+d
+
+2
+
+F
+
+0
+
+(0) \Gamma
+
+p
+
+2c
+
+gm
+
+V
+
+G
+
+00
+
+(0)
+
+)
+
++
+
+ff
+
+2
+
+!(0) (3.14)
+
+found in ref. [9] for the bound state energy of the meson (ffl ? 0) to that of anti-mesons as well. Here k refers to the eigenvalue of K. Clearly the application of the particle conjugation prescription to (3.14) (that is, setting ffl ! \Gamma ffl; F ! \Gamma F; G ! G; ! ! \Gamma !) results in (3.10) for k = 1. Due to its isoscalar character the ! field contributes in the same way to the binding energies of both k = 0 and k = 1 states. Note that (3.13) shows there is a reversal of the sign of \Phi with respect to the \Psi
+
+i
+
+when conjugating the heavy limit wave functions
+
+obtained from (3.7)-(3.9).
+
+4. Boundary conditions
+
+In this section we will examine the compatibility of the heavy quark relations found in the preceding section with the boundary conditions resulting from the bound state equa- tions. This is interesting because the heavy quark relations are determined from the small r-behavior without respect to the associated boundary conditions. As the heavy quark rela- tions originate from purely geometrical considerations the boundary conditions may impose additional conditions on the wave-functions related to the dynamics of the system. For sim- plicity we will omit the light vector mesons ae and ! (Their effects will be included in section 6.). We then get the Skyrme model [22] as the one which supports the soliton for the light pseudoscalars:
+
+L
+
+Sk
+
+= f
+
+2
+
+ss
+
+tr (p
+
+_
+
+p
+
+_
+
+) +
+
+m
+
+2
+
+ss
+
+f
+
+2
+
+ss
+
+2
+
+tr
+
+^
+
+U + U
+
+y
+
+\Gamma 2
+
+*
+
++
+
+1
+
+2g
+
+2
+
+tr ([p
+
+_
+
+; p
+
+*
+
+] [p
+
+_
+
+; p
+
+*
+
+]) ; (4.1)
+
+where, for simplicity, we have adopted the static limit for the ae meson, which determines the coefficient of the fourth order stabilizing term. In this model the heavy limit bound state energies are obtained from eqs (3.2) and (3.10) by taking c = ff = 0.
+
+In order to construct the bound state solutions it is useful to study the differential equations stemming from (A.1) and (A.3) for the boundaries r ! 1 and r ss 0. In the former case the soliton disappears and the differential equations reduce to Klein-Gordan (for P ) and Proca (for Q
+
+_
+
+) equations in the S- and P wave channels, respectively. This
+
+implies that at large r the heavy meson profiles decay like
+
+\Phi , exp
+
+i
+
+\Gamma
+
+p
+
+M
+
+2
+
+\Gamma ffl
+
+2
+
+r
+
+j
+
+; \Psi
+
+_
+
+, exp
+
+i
+
+\Gamma
+
+p
+
+M
+
+\Lambda 2
+
+\Gamma ffl
+
+2
+
+r
+
+j
+
+: (4.2)
+
+9
+
+For r ss 0 the situation is more complicated since, due to the presence of the soliton, R
+
+ff
+
+ss \Gamma 2 \Gamma (F
+
+0
+
+(0)r)
+
+2
+
+=2 and the roles of S- and P waves are exchanged. Furthermore one
+
+should note that for large but finite M and M
+
+\Lambda
+
+there is always a vicinity of the origin
+
+with 1=r AE M; M
+
+\Lambda
+
+. It is especially illuminating to explore the constraint for \Psi
+
+1
+
+, the
+
+radial component of the heavy vector meson, in this region because it provides access to the relations between \Phi ; \Psi
+
+1
+
+and \Psi
+
+2
+
+without solving a complicated differential equation. For the
+
+S wave we obtain for the dominant piece in the vicinity of the origin (again we ignore the time component of the vector field)
+
+0 = 2
+
+i
+
+M
+
+\Lambda 2
+
+\Gamma ffl
+
+2
+
+j
+
+\Psi
+
+1
+
++
+
+1
+
+r
+
+2
+
+(R
+
+ff
+
++ 2)
+
+2
+
+\Psi
+
+1
+
+\Gamma
+
+2
+
+r
+
+2
+
+(R
+
+ff
+
++ 2) \Psi
+
+2
+
+\Gamma
+
+4d
+
+r
+
+ffl sinF \Psi
+
+2
+
++ 2M dF
+
+0
+
+\Phi + : : :
+
+ss 2
+
+i
+
+M
+
+\Lambda 2
+
+\Gamma ffl
+
+2
+
+j
+
+\Psi
+
+1
+
++ F
+
+02
+
+(0)\Psi
+
+2
+
++ 4dfflF
+
+0
+
+(0)\Psi
+
+2
+
++ 2M dF
+
+0
+
+(0)\Phi : (4.3)
+
+Two observations can be made from this constraint. First we notice that the additional term F
+
+02
+
+(0)\Psi
+
+2
+
+may be ignored in the large M limit. Second the remainder is compatible with the
+
+relations (3.2, 3.4) for the bound heavy mesons as well as the relations (3.10, 3.11) for the penta quark states. Note that in the latter case ffl ss \Gamma M . Thus we conclude that in the S wave channel the small r behavior is in agreement with the large M limit. In particular one cannot deduce additional conditions on the wave-functions from the study of the vicinity of the origin. The situation is different in the P wave channel. Here the leading contribution to the constraint for \Psi
+
+1
+
+at r ss 0 is found to be
+
+0 =
+
+R
+
+ff
+
+r
+
+2
+
+[R
+
+ff
+
+\Psi
+
+1
+
++ \Psi
+
+2
+
++ r\Psi
+
+0
+
+2
+
+] + 2
+
+i
+
+M
+
+\Lambda 2
+
+\Gamma ffl
+
+2
+
+j
+
+\Psi
+
+1
+
++ 2M dF
+
+0
+
+\Phi +
+
+2d
+
+r
+
+ffl sinF \Psi
+
+2
+
++ : : :
+
+ss
+
+2
+
+r
+
+2
+
+[2\Psi
+
+1
+
+\Gamma \Psi
+
+2
+
+\Gamma r\Psi
+
+0
+
+2
+
+] +
+
+F
+
+02
+
+(0)
+
+2
+
+[8\Psi
+
+1
+
+\Gamma \Psi
+
+2
+
+\Gamma r\Psi
+
+0
+
+2
+
+]
+
++2
+
+i
+
+M
+
+\Lambda 2
+
+\Gamma ffl
+
+2
+
+j
+
+\Psi
+
+1
+
++ 2dF
+
+0
+
+(0) (M \Phi \Gamma ffl\Psi
+
+2
+
+) : (4.4)
+
+Evidently the heavy quark limit results discussed in the previous chapter agree with (4.4) only when the wave-functions behave such that
+
+2\Psi
+
+1
+
+\Gamma \Psi
+
+2
+
+\Gamma r\Psi
+
+0
+
+2
+
+= O
+
+i
+
+r
+
+2
+
+\Theta \Psi
+
+i
+
+j
+
+for r ss 0 (4.5)
+
+i.e. the small r behavior imposes an additional condition which in general may not be compatible with the heavy quark limit. Stated otherwise: The limits M ! 1 and r ! 0 do not necessarily commute. The question arises whether this additional constraint can be accommodated by the wave-functions obtained from the "geometrical" considerations studied above in the heavy quark limit. One possible solution to (4.5) is represented by the small r behavior
+
+\Phi (r) = \Phi (0) + O
+
+i
+
+r
+
+2
+
+j
+
+; \Psi
+
+1
+
+(r) = \Gamma \Phi (0) + O
+
+i
+
+r
+
+2
+
+j
+
+and \Psi
+
+2
+
+(r) = \Gamma 2\Phi (0) + O
+
+i
+
+r
+
+2
+
+j
+
+: (4.6)
+
+Of course, \Phi (0) 6= 0 just originates from the above mentioned fact that due to the presence of the soliton the P wave ansatz exhibits an S wave behavior at the origin. Obviously the
+
+10
+
+Table 5.1: The bound state energies of the states explored in the previous chapters. Displayed are the lowest radial excitations in each channel only. The data in parentheses in the k =0 channel refer to the results obtained using the approximate bound state equation (A.9).
+
+k = 0 ffl
+
+B
+
+(MeV) k = 1 ffl
+
+(p)
+
+B
+
+(MeV)
+
+heavy limit 1016 339 M (GeV) M
+
+\Lambda
+
+(GeV) g = 0; r = 0 g = 1; r = 1 g = 0; r = 1 g = 1; r = 1 g = 1; r = 0
+
+50.0 50.0 869 (866) 769 (782) 169 231 260 40.0 40.0 853 (850) 743 (758) 153 220 252 30.0 30.0 831 (828) 706 (725) 130 206 241 20.0 20.0 796 (790) 646 (674) 96 183 222 10.0 10.0 721 (709) 519 (570) 35 136 182 5.279 5.325 595 (608) 338 (457) -- 71 118 1.865 2.007 314 (353) 29 (239) -- -- --
+
+solution (4.6) is compatible with the heavy quark results (3.3) and the g = 1; r = 0 state in (3.11). The relation (4.5) can also be satisfied by the g = 1; r = 2 state in (3.11) when
+
+\Psi
+
+1
+
+(r) =
+
+const:
+
+r
+
+3
+
++ : : : and \Psi
+
+2
+
+(r) = \Gamma
+
+const:
+
+r
+
+3
+
++ : : : ; (4.7)
+
+while \Phi vanishes. On the other hand this solution is highly singular at the origin and should be discarded because it is apparently not normalizable
+
+a
+
+. We therefore conclude that the
+
+bound penta quark state with g = 1; r = 2 and coupled
+
+b
+
+to G = 1=2 is forbidden by the
+
+dynamics of the system, although the geometry of the heavy quark limit indicates that this state may exist. However, as we are interested in finite (but large) masses, the solutions to the bound state equations always have to satisfy the appropriate boundary conditions at r = 0.
+
+5. Numerical Results for Finite Heavy Meson Masses
+
+In this section we will investigate the behavior of the bound heavy mesons when going from the large M limit to the realistic values M =5.279GeV (1.865GeV) and M
+
+\Lambda
+
+=5.325GeV
+
+(2.007GeV) in the B(D) meson system. It will be of special interest whether or not the bound penta quark states discussed in the previous sections persist in the realistic cases. Again we will restrict ourselves to the Skyrme model for the light sector. In this case we arbitrarily choose the Skyrme coupling constant so that the P wave binding energy (3.2) in the heavy limit coincides with the value obtained in the model including light vector mesons as well (cf. Sect. 6). This procedure yields g = 6:45. We will consider the pion decay constant, f
+
+ss
+
+to have its experimental value. Kinematic corrections due to the finite nucleon mass will
+
+not yet be included.
+
+a
+
+To make this argument more precise we would have to furnish a suitable metric.
+
+b
+
+Further investigation is required for the case when the g = 1; r = 2 state is coupled to G = 3=2.
+
+11
+
+In the case M 6= M
+
+\Lambda
+
+we define the binding energy with respect to M . Our main numerical
+
+results are summarized in table 5.1. We observe that the heavy limit results for the binding energies are only slowly approached as the masses increase. Even for M = 50 GeV the infinite M approximation is not good in this respect. For realistic masses we find that the g = 0; r = 1 penta quark state becomes unbound in the B-meson system while the two other allowed penta quark states remain bound. Turning to the D-meson system all these penta states get shifted into the continuum.
+
+In ref. [9] an approximate bound state equation was derived by substituting the relations (3.4) and (3.3) into the associated equations of motion for \Phi . In the appendix this approach is repeated for the case when the light vector mesons are also present, yielding the approximate bound state equation (A.9). Clearly this approximation provides excellent agreement with the exact result in the case of the P wave. Even for masses as small as in the D-meson system it represents a useful guideline. For the S wave the solution to (A.9) can be considered as an estimate for the upper bound for the binding energy but for masses as small as in the D-meson sector this approximation fails.
+
+Next let us examine the radial wave-functions for the states under study. We observe from figure 5.1 that at M = 50 GeV, in contrast to the binding energy predictions, the heavy limit relations (3.3) and (3.4) for the wave-functions are remarkably well satisfied. Also the time component of the vector meson field is significantly reduced as compared to the other radial functions. Figure 5.2 shows that the heavy limit relation for the g = 1; r = 1 penta quark state is also well reproduced. This is in contrast to the situation for the g = 0; r = 1 state ( see the first relation in eq (3.11)). There, at the maximum \Phi is almost twice as large as \Psi
+
+2
+
+. Furthermore \Psi develops a node at larger distances while neither \Psi
+
+1
+
+nor \Psi
+
+2
+
+do.
+
+As can be seen from figure 5.3 the P wave penta quark state with the quantum numbers g = 1; r = 0 satisfies the associated relation in eq (3.11) only in the vicinity of the origin. Turning now to realistic values for the masses of the heavy mesons figure 5.4 shows that this pattern persists and that the bound mesons reasonably well satisfy the heavy limit relations (3.3) and (3.4), although at least for the S wave the time component of the vector meson becomes quite pronounced. Again the heavy limit relations for the bound penta quark states are only approximately satisfied, cf. figure 5.5.
+
+We should also mention that for realistic masses the relation (2.11) is satisfied at the 5% level for the S wave. For the P wave the discrepancy is larger; however, in the physically relevant region both sides of that equation turn out to be about three orders of magnitude smaller than the amplitudes of the other radial functions. Hence we conclude that (2.11) represents a justifiable approximation.
+
+In the above computations we have fixed the Skyrme coupling constant by requiring the same heavy limit binding energy ffl
+
+B
+
+= 1016 MeV as we get for the vector mesons (see Sect.
+
+6). This yields g = 6:45. Then the binding energies in the realistic cases are predicted to be too small. Alternatively one may demand the experimental value (780 MeV) for the binding of \Lambda
+
+b
+
+. Then we obtain a value as large as g = 9:50. For this value the binding energy of
+
+the \Lambda
+
+c
+
+is found to be 370 MeV which underestimates the experimental value (630 MeV)
+
+by almost a factor of two. In any event the pseudoscalar soliton with g = 9:50 has to be abandoned because it describes the properties of the light baryons very badly. For example, the mass difference between the \Delta resonance and the nucleon is obtained to be 2.67 GeV!
+
+12
+
+Figure 5.1: The profiles for the lowest radial excitations of the bound heavy P (left panel) and S (right panel) wave mesons in the case M = M
+
+\Lambda
+
+= 50GeV. The normalization of the
+
+wave-functions is chosen arbitrarily.
+
+13
+
+Figure 5.2: The profiles for the lowest bound heavy S wave anti-mesons in the case M = M
+
+\Lambda
+
+= 50GeV. Left panel: g = 1; r = 1, right panel: g = 0; r = 1. The normalization is
+
+chosen arbitrarily.
+
+14
+
+Figure 5.3: The profiles for the lowest radial excitation of the bound heavy P wave anti- meson in the case M = M
+
+\Lambda
+
+= 50GeV. The normalization is chosen arbitrarily.
+
+15 Figure 5.4: The profiles for the lowest radial excitations of the bound heavy P (left panel) and S (right panel) wave mesons in the case M = 5:279GeV and M
+
+\Lambda
+
+= 5:325GeV. The
+
+normalization of the wave-functions is chosen arbitrarily.
+
+16
+
+Figure 5.5: Same as figure 5.4 for the bound heavy anti-mesons.
+
+17
+
+As a reminder we note that for g = 6:45 this difference comes out to be 905 MeV which also is far too large. Fixing g from the experimental value (293 MeV) for this mass difference yields g = 4:30. The associated results for the binding energies of the \Lambda
+
+b
+
+(443 MeV) and \Lambda
+
+c
+
+(244 MeV) baryons are far too small.
+
+6. Including Light Vector Mesons
+
+We have just seen that it is very difficult to achieve a consistent picture of both the light and heavy sectors in the model where the soliton is supported by the pseudoscalars only. This motivates the inclusion of light vector mesons, especially since we then have one more undetermined parameter in the heavy sector (ff), which can be employed to fix the binding energy of \Lambda
+
+b
+
+while keeping the parameters in the light sector untouched. However, as soon
+
+as we include the vector mesons we encounter the problem that for ff 6= 0 the coefficient f
+
+1
+
+in the effective bound state Lagrangian(A.5) may develop a node, i.e.
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
+(6.1)
+
+may change its sign in between r = 0 and r ! 1. This in turn causes the Lagrangian (A.6) to become singular. Since we have !(r) * 0 this problem occurs for the bound heavy mesons (ffl ? 0) when ff ! 0 and for the bound anti-heavy mesons (ffl ! 0) when ff ? 0. In the former case the binding energy is large enough so that the singularity fortunately does not appear in the considered range ff * \Gamma 1. In the latter case, however, numerical instabilities occur for ff ss 1. In order to avoid this numerical problem we will omit the discussion of penta quark states for sets of parameters which lead to nodes of (6.1).
+
+In table 6.1 the dependence of the binding energies in the S and P wave channels on ff are displayed. The parameters for the light sector of the model
+
+g = 5:57; m
+
+V
+
+= 773 MeV
+
+fl
+
+1
+
+= 0:3; fl
+
+2
+
+= 1:8; fl
+
+3
+
+= 1:2; (6.2)
+
+have been taken from ref. [11]. These were determined to provide a best fit to the mass differences of the low-lying
+
+1
+
+2
+
++
+
+and
+
+3
+
+2
+
++
+
+light baryons, allowing variation only for those param-
+
+eters which could not be determined from the light meson sector [17]. Furthermore various static properties have been reasonably well described using these parameters [12].
+
+Again we observe that in the P-wave case the approximation (A.9) is very good while in the S wave channel the corresponding solution overestimates the exact binding energy. In this respect the behavior of the model is similar to the one without light vector mesons.
+
+We remark that for ff ss 0 numerically stable penta quark solutions in both S and P wave channels are observed. However, these carry binding energies no larger than about 50MeV and hence may well disappear upon modification of the model. The vanishing binding of the penta-quarks for ff ss 0 has already been conjectured in ref. [9] from the fact that
+
+d 2
+
+F
+
+0
+
+(0) +
+
+p
+
+2c
+
+gm
+
+V
+
+G
+
+00
+
+(0) in eq (3.10) deviates only slightly from zero for the parameters (6.2).
+
+Of course, the number of bound radial excitations also depends on ff. Our predictions for the binding energies of these radial excitations are shown in table 6.2.
+
+18
+
+Table 6.1: The dependence of the binding energy on the undetermined parameter ff. Data are given in MeV. In the heavy sector we have adopted the parameters (2.8) for the B- meson. The data in parentheses refer to the results obtained using the approximate bound state equation (A.9).
+
+ff P wave S wave -1.00 1035 (1036) 847 (900) -0.75 972 (976) 791 (843) -0.50 910 (916) 735 (785) -0.25 848 (857) 679 (729)
+
+0.00 786 (797) 624 (672) 0.25 725 (738) 569 (617) 0.50 664 (679) 515 (562) 0.75 604 (621) 462 (507) 1.00 544 (563) 410 (454)
+
+Table 6.2: The binding energies (in MeV) of the ground state and radial excitations as functions of ff for the S- and P wave channels. Again the parameters for the B-meson (2.8) have been used to illustrate this dependence.
+
+ff = \Gamma 0:5 ff = 0:0 ff = 0:5 P-wave S-wave P-wave S-wave P-wave S-wave
+
+910 735 786 624 664 515 568 428 472 344 379 264 299 196 229 139 165 88 109 45 66 18 30 --
+
+34 27 -- -- -- --
+
+19
+
+Let us adjust ff so that the binding energy of the P wave baryon \Lambda
+
+b
+
+is reproduced, i.e.
+
+ffl
+
+\Lambda
+
+b
+
+= 780 MeV. From table 6.2 we observe that this yields ff ss 0; the exact value reads
+
+ff = 0:03. As a prediction we then find ffl
+
+\Lambda
+
+c
+
+= 536 MeV which is somewhat smaller than the
+
+experimental value 630 MeV but certainly an improvement compared to the pseudoscalar soliton. The resulting wave-functions are displayed in figure 6.1. In the bottom sector we then find a penta quark state which is bound by 18 MeV. No bound penta quark state is observed in the charm sector.
+
+In the S wave channel we observe bound states with binding energies 301 MeV and 617 MeV in the charm and bottom sectors, respectively. Again a penta quark state is found only in the bottom sector. This state is bound by 19 MeV.
+
+Since the observed penta quark states are only very weakly bound it is suggestive that these states might disappear once kinematical corrections due to the finite mass of the soliton are incorporated. These corrections will be the subject of the next section.
+
+7. Estimate of Kinematical Corrections
+
+Following ref. [9] we attempt to estimate the corrections related to the finiteness of the soliton mass by substituting for M and M
+
+\Lambda
+
+the reduced mass (_) of the soliton and the
+
+heavy meson under consideration into the bound state equations associated with (A.1) and (A.3). For the parameters (6.2) the mass of the soliton turns out to be 1631 MeV
+
+a
+
+. This
+
+leads to the reduced masses
+
+_
+
+b
+
+= 1246 MeV; _
+
+\Lambda
+
+b
+
+= 1248 MeV;
+
+_
+
+c
+
+= 870 MeV; _
+
+\Lambda
+
+c
+
+= 900 MeV: (7.1)
+
+Clearly this estimate of the kinematical corrections provides a major change of the parame- ters.
+
+We first note that within the model of pseudoscalars only, the resulting binding energies for the P wave states are 326 MeV and 211 MeV in the B-meson and D-meson sectors, respectively. Here we have again used g = 6:45. These numbers are significantly smaller than the experimental data. Adopting g = 4:30, which gives the correct nucleon-\Delta mass difference, leads to even smaller binding energies. Moreover, in the S wave channel we do not observe any bound states in either the B-meson or in the D-meson sector.
+
+When vector mesons are included we can again make use of the a priori undetermined parameter, which we fix by reproducing the binding energy of \Lambda
+
+b
+
+for (7.1). This yields
+
+ff = \Gamma 0:97. In the S wave channel we then observe a bound state with ffl
+
+B
+
+= 420 MeV.
+
+More importantly, the binding energy of the charmed baryon is obtained to be 638 MeV, in remarkably good agreement with the experimental value. Clearly, fitting just one parameter in the vector meson model provides a nice overall agreement with the experimental spectrum of the heavy baryons. The resulting wave-functions are displayed in figure 7.1. Although the masses assumed for the heavy mesons (7.1) are quite small the heavy limit relations (3.3) are still approximately satisfied. An S wave state carrying a binding energy of 256 MeV is also obtained in the D-meson sector. This result suggests identifying this state with the recently
+
+a
+
+Quantum corrections [15] will reduce this value so that a reasonable description of the nucleon mass is
+
+obtained. These corrections are formally subleading in 1=N
+
+C
+
+.
+
+20
+
+Figure 6.1: The wave-functions for the bound mesons in the bottom (left) and charm (right) sectors.
+
+21
+
+Figure 7.1: The wave-functions for the bound mesons in the bottom (left) and charm (right) sectors in the reduced mass approximation for the kinematical corrections.
+
+22
+
+Table 7.1: The bound state energies with kinematic corrections taken into account. Displayed are the lowest radial excitations in each channel only, as well as the known experimental data.
+
+c baryons b baryons P Wave:
+
+ffl
+
+B
+
+; MeV
+
+Expt., MeV
+
+638 630
+
+780 (fit)
+
+780
+
+S Wave:
+
+ffl
+
+B
+
+; MeV
+
+Expt., MeV
+
+256 320
+
+420
+
+?
+
+discovered \Lambda
+
+0
+
+c
+
+, which is supposed to be bound by approximately 320 MeV. These results
+
+are summarized in table 7.1. We also remark that the number of radial excitations is quite limited in this case. For example, we observe the first excited P wave state in the B-system just 184 MeV below the threshold. We will not further pursue these radial excitations since (as indicated after (6.1)) states with such low binding energies are troublesome numerically.
+
+As a further consequence of the small value for ff no bound penta quark states are observed.
+
+Finally it is worthwhile to note that employing the above described procedure for the kaons, i.e. substituting _
+
+K
+
+= 380 MeV and _
+
+\Lambda
+
+K
+
+= 572 MeV while keeping ff = \Gamma 0:97, leads
+
+to a binding energy of 233 MeV for the P wave. Although the heavy quark symmetry is certainly not valid for the kaons this result compares favorably with the isospin weighted average binding energies of the \Lambda and \Sigma hyperons (261 MeV). Without the kinematical corrections we would find a very loosely bound P wave kaon. The reason is that we then need to choose a value for ff which is close to zero.
+
+8. Summary
+
+In this paper we have considered baryons containing one heavy quark or anti-quark as respectively bound states of heavy mesons or anti-mesons in the background of a soliton, which is constructed from light pseudoscalar and vector mesons. To describe the coupling between the heavy and light mesons we have employed the simplest generalization of the heavy spin symmetric effective interaction to finite masses. No further approximations asso- ciated with the heavy mass limit have been made. We have restricted our investigations to the physically interesting cases of S- and P wave heavy mesons. Special emphasis has been put on studying the behavior of the binding energies and the bound state wave-functions when going from the heavy mass limit to physically realistic masses. We have observed that the heavy limit result for the binding energy is actually approached very slowly when increasing the heavy meson mass. For the empirical meson masses the heavy limit result overestimates the exact solution to the bound state equation by a factor of two (three) in the B(D) meson system. Furthermore the degeneracy between the binding energies in the S- and P wave channels is removed. In the case of the antimeson fields (related to the penta quark baryons q
+
+4
+
+_
+
+Q) we have observed the interesting feature that a state, which in
+
+the geometrical coupling scheme of the heavy symmetry theory is predicted to be bound, is prohibited by the dynamics. Technically this is caused by the non-commutativity of the limits M ! 1 and r ! 0. Hence this state does not exist even for large but finite masses.
+
+23
+
+Turning to realistic meson masses, the binding energy of the allowed S- and P wave penta quark states decreases leaving these states unbound in the D meson system.
+
+Although the binding energy deviates significantly from the heavy limit result we noted that in the course of going to realistic masses the P wave radial functions reasonably well satisfy the heavy limit relations. As a consequence the approximative bound state equation obtained by substituting these relations for the heavy vector meson fields in the differential equation for the heavy pseudoscalar field provides a binding energy close to the exact result. This approximation may be a useful simplification in other more complicated models [23].
+
+We found that it was not possible to obtain a reasonable description of the properties of both the light and heavy baryons when the Skyrme model is employed for the light soliton sector
+
+a
+
+. This made mandatory the incorporation of light vector mesons. Although that
+
+brings into the game one more parameter, describing the coupling of the isoscalar ! meson to the heavy meson fields, we observed the satisfying feature that adjusting this parameter to the binding energy of the lowest baryon containing a heavy bottom quark leads to a reasonable agreement with the data available for other baryons with a heavy quark. This picture holds when kinematical corrections are approximated by substituting the reduced masses in the bound state equations. In that case not only the penta quarks in the S wave channel but also those in the P wave channel become unbound. Furthermore the number of radially excited bound states is reduced. In any event, the kinematical corrections require more thorough investigation.
+
+In this paper we neglected the relatively small splitting between heavy baryons of isospin zero and one. The baryons constructed so far carry neither good spin nor isospin quantum numbers. The construction of such states will make it possible to computate this splitting. In order to generate these states collective coordinates A(t) describing the isospace orientation have to be introduced. Specifying the spinor in Fourier space
+
+O/(ffl) = (O/
+
+1
+
+(ffl) ; O/
+
+2
+
+(ffl)) (8.1)
+
+the coupling between the collective rotations and the bound state assumes the form
+
+Z
+
+dtL
+
+\Omega ;O/
+
+= \Gamma
+
+1
+
+2
+
+Z
+
+dffl
+
+2ss
+
+c
+
+h
+
+(ffl)
+
+0 @
+
+2 X
+
+i;j=1
+
+O/
+
+\Lambda
+
+i
+
+(ffl)o/
+
+ij
+
+O/
+
+j
+
+(ffl)
+
+1 A
+
+\Delta \Omega (8.2)
+
+with \Omega = \Gamma itr (o/ A
+
+. A) being the angular velocity of the iso-rotations. The coupling coef-
+
+ficient c
+
+h
+
+(ffl) is bilinear in the radial wave-functions \Phi and \Psi
+
+_
+
+. The subscript h has been
+
+attached to denote the heavy flavor under consideration. In order to compute c
+
+h
+
+(ffl) the
+
+wave-functions should be normalized to carry a unit heavy flavor quantum number. Finally the hyperfine splitting will be given by
+
+M
+
+\Sigma
+
+h
+
+\Gamma M
+
+\Lambda
+
+h
+
+=
+
+1 \Gamma c
+
+h
+
+(ffl
+
+B
+
+)
+
+ff
+
+2
+
+(8.3)
+
+where ff
+
+2
+
+refers to the moment of inertia corresponding to the isorotation A. Upon canonical
+
+quantization of O/
+
+i
+
+(ffl) the bound state (with energy ffl
+
+B
+
+) is projected out from the Fock space
+
+a
+
+Parameters should be fit from the meson sector as far as possible.
+
+24
+
+of meson fluctuations. It will be very interesting to pursue this path although in the model including light vector mesons further complications arise because field components, which vanish classically, get induced by this collective rotation [18]. It may also be interesting to examine the effect of translational collective coordinates on the kinematical corrections associated with finite light baryon mass.
+
+Acknowledgements
+
+One of us (HW) acknowledges support by a Habilitanden-scholarship of the Deutsche Forschungsgemeinschaft (DFG). This work was supported in part by the US DOE contract number DE-FG-02-85ER 40231 and by the National Science Foundation under Grant .
+
+Appendix A: The Lagrangian for the S- and P-wave heavy mesons
+
+In this appendix we present the Lagrangian density for the ans"atze (2.9) and (2.10) of the bound heavy mesons. Due to parity invariance these two channels decouple. We also add some analytical results for the limit of large meson masses.
+
+Substituting (2.10) in (2.5) gives for the S wave channel
+
+L
+
+(S)
+
+H
+
+= \Phi
+
+02
+
++
+
+"
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
++
+
+R
+
+2
+
+ff
+
+2r
+
+2
+
+#
+
+\Phi
+
+2
+
++ M
+
+\Lambda 2
+
+h
+
+\Psi
+
+2
+
+1
+
++ 2\Psi
+
+2
+
+2
+
+\Gamma \Psi
+
+2
+
+0
+
+i
+
++
+
+2
+
+r
+
+2
+
+^
+
+r\Psi
+
+0
+
+2
+
++ \Psi
+
+2
+
+\Gamma
+
+R
+
+ff
+
++ 2
+
+2
+
+\Psi
+
+1
+
+*
+
+2
+
++
+
+R
+
+2
+
+ff
+
+r
+
+2
+
+\Psi
+
+2
+
+2
+
+\Gamma
+
+^
+
+\Psi
+
+0
+
+0
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+1
+
+*
+
+2
+
+\Gamma 2
+
+^`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+2
+
+\Gamma
+
+R
+
+ff
+
++ 2
+
+2r
+
+\Psi
+
+0
+
+*
+
+2
+
++ 2M d
+
+^
+
+F
+
+0
+
+\Psi
+
+1
+
++
+
+2
+
+r
+
+sinF \Psi
+
+2
+
+*
+
+\Phi
+
++2d
+
+(
+
+F
+
+0
+
+^
+
+1
+
+r
+
+(1 + cosF ) \Psi
+
+0
+
+\Psi
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+2
+
+2
+
+*
+
++
+
+2
+
+r
+
+sinF
+
+^
+
+\Psi
+
+2
+
+\Psi
+
+0
+
+0
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+1
+
+\Psi
+
+2
+
++
+
+R
+
+ff
+
++ 2
+
+2r
+
+\Psi
+
+0
+
+\Psi
+
+1
+
+*
+
+)
+
++
+
+4
+
+p
+
+2cM
+
+gm
+
+V
+
+"
+
+!
+
+0
+
+\Psi
+
+0
+
+\Psi
+
+1
+
++
+
+2G
+
+0
+
+r
+
+\Psi
+
+1
+
+\Psi
+
+2
+
++
+
+G
+
+r
+
+2
+
+(G + 2) \Psi
+
+2
+
+2
+
+#
+
++
+
+4
+
+p
+
+2c
+
+gm
+
+V
+
+(
+
+!
+
+0
+
+r
+
+R
+
+ff
+
+\Phi \Psi
+
+2
+
++
+
+G
+
+r
+
+2
+
+(G + 2) \Psi
+
+0
+
+\Phi
+
+0
+
++
+
+G
+
+0
+
+r
+
+R
+
+ff
+
+\Phi \Psi
+
+0
+
++
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+"
+
+2G
+
+0
+
+r
+
+\Psi
+
+2
+
++
+
+G
+
+r
+
+2
+
+(G + 2) \Psi
+
+1
+
+#
+
+\Phi
+
+)
+
+: (A.1)
+
+Here a prime indicates a derivative with respect to the radial coordinate r. Furthermore the abbreviation R
+
+ff
+
+= cosF \Gamma 1 + ff (1 + G \Gamma cosF ) has been introduced. It should be noted
+
+that we have omitted the overall factor O/
+
+y
+
+O/.
+
+25
+
+In the limit M = M
+
+\Lambda
+
+! 1 the leading contribution is obtained to be
+
+L
+
+(S)
+
+H
+
+!
+
+"
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
+#
+
+h
+
+\Phi
+
+2
+
++ \Psi
+
+2
+
+1
+
++ 2\Psi
+
+2
+
+2
+
+i
+
++ 2M d
+
+^
+
+F
+
+0
+
+\Psi
+
+1
+
++
+
+2
+
+r
+
+sinF \Psi
+
+2
+
+*
+
+\Phi
+
+\Gamma 2d
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+' ^
+
+F
+
+0
+
+\Psi
+
+2
+
++
+
+2
+
+r
+
+sinF \Psi
+
+1
+
+*
+
+\Psi
+
+2
+
++
+
+4
+
+p
+
+2cM
+
+gm
+
+V
+
+"
+
+2G
+
+0
+
+r
+
+\Psi
+
+1
+
++
+
+G
+
+r
+
+2
+
+(G + 2) \Psi
+
+2
+
+#
+
+\Psi
+
+2
+
++
+
+4
+
+p
+
+2c
+
+gm
+
+V
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+"
+
+2G
+
+0
+
+r
+
+\Psi
+
+2
+
++
+
+G
+
+r
+
+2
+
+(G + 2) \Psi
+
+1
+
+#
+
+\Phi : (A.2)
+
+Note that the energy eigenvalue ffl is of the order M hence the first term in (A.2) is also of this order. We have additionally used the fact that \Psi
+
+0
+
+may be omitted in the heavy limit,
+
+cf. eq (2.11). Performing the expansion (3.1) leads to the binding energies (3.2) and (3.10) together with the corresponding relations for the wave-functions (3.4) and (3.11) for bound S wave mesons and anti-mesons, respectively.
+
+For the P wave channel one obtains upon substitution of the ansatz (2.9)
+
+L
+
+(P )
+
+H
+
+= \Phi
+
+02
+
++
+
+"
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
++
+
+2
+
+r
+
+2
+
+`
+
+1 +
+
+1
+
+2
+
+R
+
+ff
+
+'
+
+2
+
+#
+
+\Phi
+
+2
+
++ M
+
+\Lambda 2
+
+^
+
+\Psi
+
+2
+
+1
+
++
+
+1
+
+2
+
+\Psi
+
+2
+
+2
+
+\Gamma \Psi
+
+2
+
+0
+
+*
+
++
+
+1
+
+2
+
+^
+
+\Psi
+
+0
+
+2
+
+\Gamma
+
+1
+
+r
+
+\Psi
+
+2
+
+*
+
+2
+
++
+
+1
+
+r
+
+R
+
+ff
+
+\Psi
+
+1
+
+\Psi
+
+0
+
+2
+
++
+
+1
+
+r
+
+2
+
+R
+
+ff
+
+(\Psi
+
+1
+
++ \Psi
+
+2
+
+) \Psi
+
+2
+
++
+
+1
+
+2r
+
+2
+
+R
+
+2
+
+ff
+
+`
+
+\Psi
+
+2
+
+1
+
++
+
+1
+
+2
+
+\Psi
+
+2
+
+2
+
+'
+
+\Gamma
+
+^
+
+\Psi
+
+0
+
+0
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+1
+
+*
+
+2
+
+\Gamma
+
+1
+
+2
+
+^
+
+R
+
+ff
+
+r
+
+\Psi
+
+0
+
++
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+2
+
+*
+
+2
+
+\Gamma d
+
+(
+
+2
+
+r
+
+sinF
+
+^
+
+\Psi
+
+2
+
+\Psi
+
+0
+
+0
+
+\Gamma
+
+R
+
+ff
+
+r
+
+\Psi
+
+0
+
+\Psi
+
+1
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+1
+
+\Psi
+
+2
+
+*
+
++
+
+F
+
+0
+
+r
+
+^
+
+r
+
+2
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+\Psi
+
+2
+
+2
+
+\Gamma (1 \Gamma cosF ) \Psi
+
+0
+
+\Psi
+
+2
+
+*
+
+)
+
++ 2M d
+
+^
+
+F
+
+0
+
+\Psi
+
+1
+
+\Gamma
+
+sinF
+
+r
+
+\Psi
+
+2
+
+*
+
+\Phi
+
++
+
+2
+
+p
+
+2cM
+
+gm
+
+V
+
+"
+
+2!
+
+0
+
+\Psi
+
+0
+
+\Psi
+
+1
+
+\Gamma
+
+2G
+
+0
+
+r
+
+\Psi
+
+1
+
+\Psi
+
+2
+
++
+
+G
+
+2r
+
+2
+
+(G + 2) \Psi
+
+2
+
+2
+
+#
+
++
+
+4
+
+p
+
+2c
+
+gm
+
+V
+
+(
+
+1
+
+r
+
+2
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+[G (G + 2) \Psi
+
+1
+
+\Gamma rG
+
+0
+
+\Psi
+
+2
+
+] \Phi \Gamma
+
+!
+
+0
+
+r
+
+^
+
+1 +
+
+R
+
+ff
+
+2
+
+*
+
+\Psi
+
+2
+
++
+
+1
+
+r
+
+2
+
+[G (G + 2) \Phi
+
+0
+
++ G
+
+0
+
+(2 + R
+
+ff
+
+) \Phi ] \Psi
+
+0
+
+)
+
+: (A.3)
+
+Also for the P wave we display the leading term in the limit M = M
+
+\Lambda
+
+! 1
+
+L
+
+(P )
+
+H
+
+!
+
+"
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
+#
+
+^
+
+\Phi
+
+2
+
++ \Psi
+
+2
+
+1
+
++
+
+1
+
+2
+
+\Psi
+
+2
+
+2
+
+*
+
++ 2M d
+
+^
+
+F
+
+0
+
+\Psi
+
+1
+
+\Gamma
+
+sinF
+
+r
+
+\Psi
+
+2
+
+*
+
+\Phi
+
++d
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+"
+
+2
+
+r
+
+sinF \Psi
+
+1
+
+\Gamma
+
+F
+
+0
+
+r
+
+\Psi
+
+2
+
+#
+
+\Psi
+
+2
+
++
+
+2
+
+p
+
+2cM
+
+gm
+
+V
+
+"
+
+2G
+
+0
+
+r
+
+\Psi
+
+1
+
+\Gamma
+
+G
+
+2r
+
+2
+
+(G + 2) \Psi
+
+2
+
+#
+
+\Psi
+
+2
+
++
+
+4
+
+p
+
+2c
+
+gm
+
+V
+
+r
+
+2
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+[G (G + 2) \Psi
+
+1
+
+\Gamma rG
+
+0
+
+\Psi
+
+2
+
+] \Phi : (A.4)
+
+26
+
+Again the expansion (3.1) provides the results for the bound (anti-) mesons in the P wave channel, which are discussed in chapter 3.
+
+The Euler-Lagrange equations associated with (A.1) and (A.3) are integrated using the method described in appendix A for ref. [12]. Technically a problem arises because the equation of motion for \Psi
+
+1
+
+is a constraint rather than a second order differential equation as
+
+in the case of the other fields. Hence \Psi
+
+1
+
+is not a dynamical degree of freedom and has to be
+
+eliminated in terms of the other fields. This can be achieved by formally writing
+
+L =
+
+1
+
+2
+
+a
+
+i
+
+i
+
+02
+
+i
+
++ b
+
+ij
+
+i
+
+i
+
+i
+
+0
+
+j
+
++
+
+1
+
+2
+
+c
+
+ij
+
+i
+
+i
+
+i
+
+j
+
++
+
+1
+
+2
+
+f
+
+1
+
+\Psi
+
+2
+
+1
+
++ (g
+
+i
+
+i
+
+i
+
++ h
+
+i
+
+i
+
+0
+
+i
+
+) \Psi
+
+1
+
+(A.5)
+
+where i
+
+i
+
+refer to any of \Phi ; \Psi
+
+0
+
+and \Psi
+
+2
+
+. The coefficient functions a
+
+i
+
+etc. have to be identified
+
+from (A.1) and (A.3). Note that there are no terms linear in the meson fields. This is in contrast to the exploration of the induced kaon (and K
+
+\Lambda
+
+) components of ref. [12]. The
+
+elimination of \Psi
+
+1
+
+yields
+
+L =
+
+1
+
+2
+
+~ A
+
+ij
+
+i
+
+0
+
+i
+
+i
+
+0
+
+j
+
++
+
+~ B
+
+ij
+
+i
+
+i
+
+i
+
+0
+
+j
+
++
+
+1
+
+2
+
+~ C
+
+ij
+
+i
+
+i
+
+i
+
+j
+
+; (A.6)
+
+wherein
+
+~ A
+
+ij
+
+= a
+
+i
+
+ffi
+
+ij
+
+\Gamma
+
+h
+
+i
+
+h
+
+j
+
+f
+
+1
+
+;
+
+~ B
+
+ij
+
+= b
+
+ij
+
+\Gamma
+
+h
+
+i
+
+g
+
+j
+
+f
+
+1
+
+and
+
+~ C
+
+ij
+
+= c
+
+ij
+
+\Gamma
+
+g
+
+i
+
+g
+
+j
+
+f
+
+1
+
+: (A.7)
+
+This equation also shows that singularities may appear when f
+
+1
+
+= 0, cf Sect. 6. Noting now
+
+that
+
+~ A
+
+\Gamma 1
+
+ij
+
+=
+
+1
+
+a
+
+i
+
+ffi
+
+ij
+
++
+
+"
+
+f
+
+1
+
+\Gamma
+
+3 X
+
+l=1
+
+h
+
+l
+
+h
+
+l
+
+a
+
+l
+
+#
+
+\Gamma 1
+
+h
+
+i
+
+a
+
+i
+
+h
+
+j
+
+a
+
+j
+
+(A.8)
+
+the differential equations resulting from (A.6) may be integrated by standard numerical techniques. In general no regular solution exists for an arbitrary value of the energy ffl. For the purpose of obtaining the regular solution ffl is treated as a parameter. The value yielding this solution is identified as the bound state energy.
+
+Finally we would like to incorporate the light vector mesons into the approximate bound state equation studied in ref.[9]. This bound state equation is derived in two steps. First the equations of motion for \Phi are approximated by the leading contributions in the limit M = M
+
+\Lambda
+
+! 1. In the second step the heavy limit relations (3.4) and (3.3) are substituted
+
+into these equations. This procedure results in
+
+\Phi
+
+00
+
+= \Gamma
+
+2
+
+r
+
+\Phi
+
+0
+
++
+
+"
+
+M
+
+2
+
+\Gamma
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+2
+
++
+
+1
+
+2r
+
+2
+
+(l
+
+eff
+
+(l
+
+eff
+
++ 1) + R
+
+ff
+
+)
+
+2
+
+#
+
+\Phi
+
+\Gamma 2M d
+
+^
+
+F
+
+0
+
+\Gamma
+
+2
+
+r
+
+sinF
+
+*
+
+\Phi \Gamma
+
+2c
+
+gm
+
+V
+
+`
+
+ffl \Gamma
+
+ff
+
+2
+
+!
+
+'
+
+"
+
+2G
+
+0
+
+r
+
+\Gamma
+
+G
+
+r
+
+2
+
+(G + 2)
+
+#
+
+\Phi : (A.9)
+
+Here l
+
+eff
+
+= 1; 0 refers to the S- and P waves, respectively. Once again we remind the reader
+
+that the presence of the soliton exchanges the behaviors of the S- and P wave-functions near
+
+27
+
+r ss 0. It should also be noted that the expansions (3.1) lead in a straightforward manner to the binding energies (3.2) in the heavy limit. Similarly the penta quark bound state energy (3.10) is obtained by assuming the relations (3.11) in the second step of the above described procedure.
+
+Appendix B: Conventions
+
+In order to agree with the conventions of refs. [6, 9] we should make the following replacements for the quantities in the present paper:
+
+f
+
+ss
+
+! F
+
+ss
+
+=
+
+p
+
+2;
+
+ae
+
+_
+
+!
+
+1 p
+
+2
+
+ae
+
+_
+
+;
+
+g !
+
+p
+
+2~g;
+
+G(r) ! \Gamma G(r);
+
+!(r) ! \Gamma
+
+p
+
+2~g!(r): (B.1)
+
+References
+
+[1] C. Callan and I. Klebanov, Nucl. Phys. B262 (1985) 365;
+
+C. Callan, K. Hornbostel, and I. Klebanov, Phys. Lett. B202 (1988) 296; I. Klebanov in Hadrons and Hadronic M atter, page 223, proceedings of the NATO Advanced Study Institute, Cargese, 1989, edited by D. Vautherin, J. Negele and F. Lenz (Plenum Press 1989).
+
+[2] J. Balaizot, M. Rho, and N. Scoccola, Phys. Lett. B209 (1988) 27;
+
+N. Scoccola, H. Nadeau, M. A. Novak, and M. Rho, Phys. Lett. B201 (1988) 425; D. Kaplan and I. Klebanov, Nucl. Phys. B335 (1990) 45 Y. Kondo, S. Saito, and T. Otofuji, Phys. Lett. B256 (1991) 316; M. Rho, D. O. Riska, and N. Scoccola, Z. Phys. A341 (1992) 341; H. Weigel, R. Alkofer, and H. Reinhardt, Nucl. Phys. A576 (1994) 477.
+
+[3] E. Eichten and F. Feinberg, Phys. Rev. D23 (1981) 2724;
+
+M. B. Voloshin and M. A. Shifman, Yad. Fiz. 45 (1987) 463 (Sov. J. Nucl. Phys. 45 (1987) 292); N. Isgur and M. B. Wise, Phys. Lett. B232 (1989) 113; B237 (1990) 527; H. Georgi, Phys. Lett. B230 (1990) 447.
+
+[4] E. Jenkins and A. V. Manohar, Phys. Lett. B294 (1992) 173;
+
+Z. Guralnik, M. Luke, and A. V. Manohar, Nucl. Phys. B390 (1993) 474; E. Jenkins, A. V. Manohar, and M. Wise, Nucl. Phys. B396 (1993) 27, 38.
+
+[5] M. Rho, in Baryons as Skyrme Solitons, World Scientific, 1994, edited by G. Holzwarth;
+
+D. P. Min, Y. Oh, B. Y Park, and M. Rho, Soliton structure of heavy baryons Seoul
+
+28
+
+report no. SNUTP 92-78, ; H. K. Lee, M. A. Novak, M. Rho, and I. Zahed, Ann. Phys. (N.Y.) 227 (1993) 175; M. A. Novak, M. Rho, and I. Zahed, Phys. Lett. B303 (1993) 130. D. P. Min, Y. Oh, B. Y Park, and M. Rho, Heavy-quark symmetry and Skyrmions Seoul report no. SNUTP 94-117, .
+
+[6] K. S. Gupta, M. A. Momen, J. Schechter and A. Subbaraman, Phys. Rev. D47 (1993)
+
+R4835; M. A. Momen, J. Schechter and A. Subbaraman, Phys. Rev. D49 (1994) 5970.
+
+[7] Y. Oh, B. Y. Park and D. P Min, Phys. Rev. D49 (1994) 4649; [8] Y. Oh, B. Y. Park and D. P Min, Phys. Rev. D50 (1994) 3350. [9] J. Schechter and A. Subbaraman, "Excited Heavy baryons in the bound state picture",
+
+SU-4240-586, UCI-TR 94-38.
+
+[10] Y. Oh and B. Y. Park, Energy levels of the soliton-heavy-meson bound states, hep-
+
+.
+
+[11] N. W. Park and H. Weigel, Phys. Lett. B268 (1991) 155; [12] N. W. Park and H. Weigel, Nucl. Phys. A541 (1992) 453. [13] H. Albrecht et al. (ARGUS collaboration), Phys. Lett. B317 (1993) 227;
+
+D. Acosta et al. (CLEO collaboration), CLEO conf. 93-7, contributed to the Interna- tional Symposium on Lepton and Photon Interactions, Ithica (1993); M. Battle et al. (CLEO collaboration), CLEO conf. 93-7, contributed to the Interna- tional Symposium on Lepton and Photon Interactions, Ithica (1993); P. L. Frabetti et al. (E687 collaboration), FERMILAB-Pub-93-32-E (1993).
+
+[14] See also C.-K. Chow and M. B. Wise Phys. Rev. D50, 2135 (1994). [15] G. Holzwarth, Nucl. Phys. A572 (1994) 69. [16]
+
+" O. Kaymakcalan, S. Rajeev, and J. Schechter, Phys. Rev. D30 (1984) 594.
+
+[17] P. Jain, R. Johnson, Ulf-G. Meissner, N. W. Park and J. Schechter, Phys. Rev. D37
+
+(1988) 3252.
+
+[18] Ulf.-G. Meissner, Phys. Rep. 161 (1988) 213;
+
+B. Schwesinger, H. Weigel, G. Holzwarth, and A. Hayashi, Phys. Rep. 173 (1989) 173; G. Holzwarth, editor, Baryons as Skyrme Solitons, World Scientific, 1994.
+
+[19] J. Schechter and A. Subbaraman, Phys. Rev. D48 (1993) 332. [20] P. Jain, A. Momen and J. Schechter, "Heavy Meson Radiative Decays and Light Vector
+
+Meson Dominance", SU-4240-581.
+
+29
+
+[21] J. Schechter and H. Weigel, "Resolving Ordering Ambiguities in the Collective Quan-
+
+tization by Particle Conjugation Constraints", SU-4240-587, UNITU-THEP-22/1994.
+
+[22] T. H. R. Skyrme, Proc. R. Soc 127 (1961) 260;
+
+G. S. Adkins, C. R. Nappi, and E. Witten, Nucl. Phys. B228 (1983) 552.
+
+[23] M. A. Novak, M. Rho, and I. Zahed, Phys. Rev. D48 (1993) 4370;
+
+W. A. Bardeen and C. T. Hill, Phys. Rev. D49 (1994) 409; D. Ebert, T. Feldmann, R. Friedrich, and H. Reinhardt, Nucl. Phys. B434 (1995) 619.
+
+30
+

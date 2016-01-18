@@ -1,0 +1,360 @@
+
+
+ 3 Aug 1995
+
+Non-Equilibrium Phase Transitions and
+
+Domain Walls
+
+D.Coulson1, Z.Lalak1
+
+;2, B.Ovrut1
+
+1Department of Physics
+
+University of Pennsylvania
+
+Philadelphia, PA 19104 2Institute of Theoretical Physics
+
+University of Warsaw Warsaw, Poland 00-681
+
+Abstract Non-equilibrium phase transitions of a scalar field in an expanding spacetime are discussed. These transitions are shown to lead, for appropriate potential energy functions, to a biased choice of vacuum structure which can be analytically described using percolation theory. The initial domain wall networks, which form between different vacua, are evolved in time by computer simulation and their behavior in time analyzed. It is shown that, unlike systems in thermal equilibrium, domain walls formed in biased systems persist for only a short time before decaying exponentially away. This result opens the door to a complete re-analysis of domain walls in cosmology.
+
+1 The "Structuron" Field We begin by considering a real scalar field, OE, which lives in an expanding Friedman-Robinson-Walker (FRW) spacetime. We will assume that this field interacts with other fields by gravitation alone, and interacts with itself via
+
+1
+
+a potential energy of the form
+
+V (OE) = V0 cos OEv + 1! ; (1) where V
+
+0
+
+v2 o/ H
+
+2i ; (2)
+
+V0 o/ v4; and Hi is the initial Hubble parameter during the epoch of inflation. One minimum of this potential occurs at OE0 = ssv. Expanding V around this minimum gives
+
+V = 12 `V0v2 ' OE2 + 14! ` V0v4 ' OE4 + ::: (3)
+
+Defining mass m j V0v2 and coupling * j V0v4 , then the conditions in equation (2) imply that
+
+m o/ Hi; (4)
+
+* o/ 1: It follows that field OE is not in thermal equilibrium. Many such fields appear naturally in various "beyond the standard model" scenarios. Here we will simply discuss such a field in the abstract, referring to it by the generic name "structuron" since, as we will see, it can play a role in creating large scale extra-galactic structure. The behavior of a structuron is determined by considering the quantum mechanics of a real scalar quantum field, ^OE, in expanding FRW spacetime. This quantum field can be expanded as
+
+^OE = OEc^1 + ^OEq: (5)
+
+Field OEc satisfies the classical equation of motion
+
+"OEc + 3H .OEc + @V@OE
+
+c = 0: (6)
+
+During inflation, when H = Hi, and long afterward during the expansion epoch, the conditions in equations (4) imply that one can drop the potential energy term to leading order. The result is that, to leading order
+
+OEc = V (7)
+
+2
+
+where V is a completely arbitrary constant. To the next order, the classical field develops a tiny damped velocity
+
+.OEc ,= VHv (8)
+
+which can safely be ignored. The quantum operator, ^OEq, and its physical effect, is a more complicated issue. It is well known that the quantum fluctuations associated this field lead, during the inflationary epoch, to the formation of a "weakly inhomogeneous, quasi-classical" scalar field, \Phi . This consists, just at the end of inflation, of a quantum induced zero mode, plus a part which can be Fourier decomposed into wavelengths satisfying the condition
+
+H\Gamma 1i ^ * ^ L: (9) Here H\Gamma 1i is the radius of the event horizon at the end of inflation and L is the radius of the Universe. During the expansion phase, the radius of the event horizon increases with time. At redshift z, this radius is given by lc(z) = H(z)\Gamma 1. As wavelengths of the quasi-classical field come within the growing horizon, they rapidly decay in amplitude and can be ignored. At any given redshift z, only those wavelengths satisfying
+
+lc(z) ^ * ^ L (10) remain "frozen" and compose the quasi-classical field. Field \Phi , at any redshift z, has an interesting spatial decomposition that will be useful in our later analysis. To discuss this we first must introduce the two-point correlation function, ,(l), defined by
+
+,(l) j h0j ^OEq(x + l) ^OEq(x)j0i (11) where the wavelengths in the quantum operators are to be cut off as in equation (10) and l is arbitrary. The translational invariance of the Bunch-Davies vacuum j0i implies that , is independent of coordinate x. Expression (11) can be evaluated, and for lc o/ l o/ L, we find that
+
+,(l) ,= H
+
+2i
+
+4ss2 ln
+
+L
+
+l : (12)
+
+3
+
+This result is completely dominated by the long wavelength modes satisfying l ^ * ^ L. Secondly, we must introduce a measure of the random fluctuations between two points, \Delta (l), which is defined by
+
+\Delta (l) = H
+
+2i
+
+4ss2 ln
+
+l lc : (13)
+
+This function is completely dominated by the short wavelength modes satisfying lc(z) ^ * ^ l. Note that
+
+,(l) + \Delta (l) = Hi4ss2 ln Ll
+
+c (14)
+
+which is the mean square value of all the fluctuations in \Phi . We are now in a position to decompose field \Phi , as alluded to above. Consider the universe at some fixed redshift z. Let us "coarse-grain" the universe into spheres of radius l. To first approximation, all of these spheres are correlated by the longer wavelength modes, which they share in common. Therefore, they all share an approximate zero mode background, Bl, defined by
+
+Bl = +q,(l): (15) However, within each sphere there are fluctuations due to the shorter wavelength modes. Since these fluctuations arise in a causally independent way from one sphere to the next, each sphere exhibits an independent fluctuation,F
+
+l, whose value is determined probabilistically from the Gaussian distribution function
+
+P (Fl) = 1q2ss\Delta (l)e\Gamma
+
+F2l 2\Delta (l) : (16)
+
+Note that the root mean square value of this distribution is given by
+
+rms(Fl) = +q\Delta (l): (17) Unlike Bl which is a spatial constant, Fl varies randomly over the coarsegrained manifold. It follows that for any length scale l, the weakly inhomogeneous, quasi-classical scalar field can be decomposed as
+
+\Phi (x) = Bl + Fl(x): (18)
+
+4
+
+Figure 1: Distribution function, P (Fl) and potential, V (OE). At any point in space, the relationship between the total shared zero mode background V + Bl, the quantum fluctuation Fl and the potential energy is shown in Figure 1. As long as the potential energy in equation (6) can be ignored, no phase transition takes place. However, after a long time, the redshift is such that the kinetic energy density becomes comparable, and then smaller than, the potential energy. Let us say that they become comparable, and the potential energy no longer ignorable, at redshift zt. At this time, at each point in space, the field must roll either toward vacuum (+) or toward vacuum (\Gamma ). It is clear from Figure 1 that the the probability that it roles to the (+) vacuum is given by
+
+p = Z
+
+1
+
+0 dFlP (Fl): (19) It is important to note that, since classical background V is arbitrary, p can take any value in the range 0 ^ p ^ 1. In general, p 6= 1/2. Similarly, the probability that the field rolls to the (\Gamma ) vacuum is given by 1 \Gamma p. Putting everything together, we see that at the time of the phase transition, zt, in any spatial sphere of radius l (that is, at any coarse-grained point) the system settles into vacuum (+) with arbitrary probability p, or vacuum
+
+5
+
+(\Gamma ) with probability 1 \Gamma p, and that the choice of the vacuum in any two spheres is statistically independent [1]. Now between any two neighboring spheres which have a different vacuum choice, the scalar field OE will form a topological kink; that is, a domain wall. Hence, at zt an initial domain wall network will form over all space. Can we determine the spatial structure of this initial domain wall network? Yes, using percolation theory.
+
+2 Percolation Theory Percolation theory predicts statistical characteristics and topological properties of a "typical" vacuum pattern formed on a lattice. If we partition space into a cubic lattice, with each cube having volume l3, then percolation theory becomes applicable to the prediction of the initial distribution of domain walls. In the following, we will always restrict our discussion to three dimensional, cubic lattices. Percolation theory tells us that there exists some critical probability, pc. If the population probability for a vacuum exceeds this critical value, that vacuum will percolate the lattice; that is, one can trace a path from one face of the lattice to another without crossing a domain wall. If the bias probability of a vacuum is less than the critical value, however, that vacuum will not percolate, and domain wall "bags", or clusters, of this vacuum will form. Whether one, both or neither vacua percolate depends on the relative values of p, 1 \Gamma p and pc.
+
+It has been shown that pc = 0:311 is the critical probability for a cubic lattice in three dimensions [2]. Thus, for p ! pc, the (+) vacua are in finite clusters while the (\Gamma ) vacua sites lie predominantly in a large percolating cluster, since necessarily 1 \Gamma p ? pc. It follows that the associated domain walls are relatively small, forming around the compact boundaries of the finite clusters. Figure 2 shows this behavior in the case of a small bias probability, p = 0:1 ! pc. Note that there exist only finite, disconnected domain wall bags, the number and size of which can be shown to grow as p approaches pc from below. For the case that both p and 1 \Gamma p exceed pc, both vacua will percolate the lattice, and infinite (that is, lattice sized) domain walls separating the vacua will form. A small number of domain wall bags, disconnected from the percolating cluster, also form but their number decreases as p approaches 0:5. Figure 3 shows this "infinite" domain wall structure in the limiting case of p = 0:5. The crucial lesson to be learned
+
+6
+
+Figure 2: Initial distribution of domain walls in three dimensions with bias probability, p = 0:1. Here we show a (10\Lambda )3 grid.
+
+Figure 3: Initial distribution of domain walls in three dimensions with bias probability, p = 0:5. For clarity we show here only a (5\Lambda )3 grid.
+
+7
+
+from all this is that when both vacua percolate, the topology of the posttransition vacuum is one of long, convoluted domain walls stretching across all space, whereas, when p ! pc, the vacuum is composed of small, compact domain wall bags.
+
+Percolation theory allows one to give a reasonably accurate mathematical description of the number of finite s-clusters, their radius and the size of their boundary. Here s denotes the number of neighboring lattice sites that are occupied by the same vacuum. Let ns be the probability that a given lattice site is an element of an s-cluster. This is a fundamental quantity, given by the ratio of the total number of s-clusters, Ns, over the total number of lattice sites, N . An analytical expression for this quantity has been found using scaling arguments and Monte Carlo simulations [3]. The result is
+
+ns = :0501s\Gamma o/ e\Gamma :6299(
+
+p\Gamma pc
+
+pc )s
+
+oe[( p\Gamma pc
+
+p )s
+
+oe+1:6679]; (20)
+
+where o/ = 2:17 and oe = :48. Similarly, the average radius of gyration for an s-cluster Rs(p), for p ! pc and s ? s,, is found to be
+
+Rs(p) = :702(pc \Gamma p):322s:55\Lambda ; (21) where
+
+s, = :311jp \Gamma :311j !
+
+2:08
+
+: (22)
+
+It can also be shown, for p ! pc and s,?5, that every s-cluster has a boundary composed of
+
+ts = 1 \Gamma pp ! s (23)
+
+sites. One can easily check using the formula for ns that, on a given lattice, the number of s-clusters falls rather quickly with growing s. Hence there is an smax such that the total number of smax-clusters is 1. In other words, formation of clusters with s much larger than smax is extremely improbable. This means that on a given lattice there exists an upper statistical cut-off on the size of observable clusters..
+
+Using the above formulae, as well as other results found in [3], it is possible, for a fixed lattice and a given value of p, to compute the surface area for the domain walls between the (+) and the (\Gamma ) vacua. In particular, we
+
+8
+
+have attempted to compute the domain wall surface area for the three dimensional cubic lattice case. However, this calculation is very difficult when there are two percolating vacua and hence, we are restricted to a calculation for p ! pc. This difficulty arises from the fact that the associated large domain walls are highly fractalized and hence their surface area is difficult to characterize. The finite size of the lattice further reduces the value of p for which we can perform a reasonable calculation to p,!0:25. Furthermore, formula (20) for ns is not very accurate for p ! 0:175. This puts a lower bound on the calculation. A very reasonable calculation can be performed in the range 0:175 ^ p ^ 0:25 but, even in this range, we estimate an error of about 10%. Our results for the domain wall surface area are plotted, along with the 10% error bars, as curve (a) in Figure 4. These results can be checked, and extended to any values of p, simply by letting the computer evaluate wall surface area. The solid line (b) in Figure 4 represents the mean initial surface area generated for 0 ^ p ^ 0:5. The initial area grows monotonically with p, approaching the maximal value of 1:5 \Theta V at p = 0:5. Note that in the region where we can compare the percolation prediction with the computer experiment, there is good agreement.
+
+We conclude that, by using percolation theory, we can analytically determine the structure of the initial network of domain walls. The principal result is that for p ! pc the domain walls form small, compact bags whereas when p * pc the domain walls become very long and stretch across the entire universe. These results have been verified, and made numerically more accurate, using computer simulations. However, the initial domain wall networks do not satisfy the static equation of motion and, therefore, must evolve in time. The role of dynamics in propagating or erasing these initial conditions is discussed in the following section.
+
+3 Evolution of Domain Walls To investigate the evolution of the initial domain wall networks described above, we choose to follow Press, Ryden and Spergel (hereafter PRS)[4]. The dynamics of the scalar field, OE, are determined by the equation of motion
+
+@2OE
+
+@j2 +
+
+2 j
+
+d ln a d ln j
+
+@OE
+
+@j \Gamma r
+
+2OE = \Gamma a2 @V
+
+@OE ; (24)
+
+9
+
+0.00 0.10 0.20 0.30 0.40 0.50
+
+p
+
+0.0
+
+0.5 1.0 1.5 2.0
+
+links/site
+
+(a) (b)
+
+Figure 4: The number of links across which a domain wall falls per lattice site. Points (a) are the 3d percolative predictions in the regime 0:175 ^ p ^ 0:25, with their associated uncertainty (, 10%). Line (b) shows the measured values (averaged over 20 three dimensional samples) for 0 ^ p ^ 0:5.
+
+where j is the conformal time co-ordinate, a is the scale factor of the universe (a , j in the radiation era, and a , j2 in the matter era), V is the scalar potential and the spatial gradients are with respect to co-moving co-ordinates. The scalar potential determines the topology of the vacuum manifold. Instead of the periodic potential given in 1, we will use the quartic potential
+
+V (OE) = V0 OE
+
+2
+
+OE20 \Gamma 1!
+
+2
+
+: (25)
+
+This potential has two degenerate vacua, OE = \Sigma OE0, separated by a potential barrier V0 and closely approximates the cosine potential in the region between any two minima.
+
+Following PRS we can define a physical domain wall thickness w0 given by
+
+w0 j ss OE0p2V
+
+0 : (26)
+
+The ratio of the wall thickness to the horizon size at the time of the phase
+
+10
+
+transition
+
+W0 j w0a(j
+
+0)
+
+1 j0
+
+d ln a d ln j fififififij0 (27)
+
+then sets j0, the conformal time of the phase transition and the time at which we begin the simulation.
+
+In order to avoid some technical difficulties, we will use a generalization of equation (24) given by
+
+@2OE
+
+@j2 +
+
+ff
+
+j
+
+d ln a d ln j
+
+@OE
+
+@j \Gamma r
+
+2OE = \Gamma afi @V
+
+@OE : (28)
+
+Henceforth, ff = fi = 2 which reproduces equation (24) will be replaced with ff = 3, fi = 0. We refer the reader to PRS for a full justification of this change.
+
+We evolve equation (28) on a regular Cartesian grid with periodic boundary conditions. Our finite difference scheme is second order accurate in both space and time, with the lattice equations
+
+ffi j 12 ff \Delta jj d ln ad ln j ; (29)i r2OEji;j;k j OEi+1;j;k + OEi\Gamma 1;k;k + OEi;j+1;k + OEi;j\Gamma 1;k
+
++ OEi;j;k+1 + OEi;j;k\Gamma 1 \Gamma 6OEi;j;k; (30)
+
+.OEn+1=2i;j;k = (1 \Gamma ffi)
+
+.OEn\Gamma 1=2i;j;k + \Delta j `r2OEnijk \Gamma afi @V@OEn
+
+ijk '
+
+1 + ffi (31)
+
+OEn+1i;j;k = OEni;j;k + \Delta j .OEn+1=2i;j;k : (32) Here, subscripts refer to the spatial lattice co-ordinate, superscripts refer to the time co-ordinate, and .OE j @OE=@j. The spatial grid size will be chosen to be \Delta x = 1. In this paper, we will set OE0 = 1. The scalar field initial conditions are then chosen using the prescription described above for various bias probabilities, p. That is, in the following we will use percolation theory with allowed field values of \Sigma 1 at any lattice site. We will also choose the initial field "velocity", .OE, to be zero everywhere on the lattice.
+
+Simulations were run in the radiation dominated epoch, with a = (j=j0) and the initial time, j0 = 1. We chose a wall thickness w0 = 5, making the
+
+11
+
+ratio W0 = 5. This value was used to ensure that the wall thickness was well above the lattice resolution scale (recall \Delta x = 1), while ensuring that for most of the dynamic range of the simulation, the wall-wall separation exceeded the wall thickness. The results are the following.
+
+We present the evolution of the energy density of the network of domain walls in the radiation dominated epoch. As each simulation is evolved, the comoving wall area is determined (according to the prescription of PRS) and a plot of this area, A, per co-moving volume V versus conformal time is produced. The simulations are run on a cubic lattice with L3 sites where L = 128. They were run until a time j = 128, or until no more walls remained in the box. The domain wall thickness was again set to w0 = 5, leaving us with only modest dynamical range in which to follow the network evolution.
+
+A plot of A=V for these runs is shown in Figure 5. The self-similar evolution seen in PRS for the p = 0:5 case is well reproduced in the time range 2w0 ! j ! L=2. Fitting the scaling portion (10 ! j ! 64) of the curve to the power law
+
+A=V / j_* ; (33)
+
+we find _* = \Gamma 0:89 \Sigma 0:06. This is to be compared with the value found in PRS of _* = \Gamma 0:92 \Sigma 0:06 for their three dimensional simulations in a matter-dominated epoch.
+
+Moving away from the p = 0:5 case, one sees a dramatic departure from self-similar scaling. In each case there is an exponential cut-off in the ratio A=V at some characteristic time. For the cases of p close to 1=2, that is for 0:49 ^ p ! 0:5, we find that the curves are well fitted by a function of the form
+
+A=V / j_* e\Gamma j=_j: (34)
+
+However, for the cases where p ! 0:49 a simple exponential suffices
+
+A=V / e\Gamma j=_j: (35) Values for _* and _j, averaged over 5 runs for each value of p, are given in Table 1.
+
+For p close to 0:5 the domain wall network appears to enter a quasi-scaling regime in which A=V scales / j_* , before eventually being exponentially cutoff at j = _j. In particular, for the bias p = 0:499 we see that the network
+
+12
+
+1 10 100 1000
+
+h
+
+10-6
+
+10-5 10-4 10-3 10-2 10-1
+
+100
+
+A/(1.5 V)
+
+p=0.5 p=0.499 p=0.49 p=0.48 p=0.47
+
+Figure 5: Evolution of the comoving area, A, of domain walls per volume, V , with conformal time, j, in three dimensional runs. For each bias, p, we show the evolution of one realization.
+
+p _* _j 0.5 -0.89 - 0.499 -0.43 38:7y
+
+0.49 - 5.4 0.48 - 2.8 0.47 - 1.8
+
+Table 1: Fits to the plots of A=V against j for different initial bias probabilities, p, in three dimensions using the functional forms (34) and (35) given in the text. y: for the p = 0:499 case we report the best fit to equation (34), although the late time decay was found to be somewhat steeper than an exponential.
+
+13
+
+scales exactly as the p = 0:5 case in the epoch 2w0 ^ j ^ 30, before the exponential decay is established. As p ! pc = 0:311, however, _j rapidly approaches the resolution size of the grid, and no evidence of early scaling is seen. This behavior continues as p drops below the critical threshold.
+
+To conclude, in the three-dimensional simulations we see persistent scaling behavior precisely at p = 0:5. For p below 0.5 but above p ' 0:49, we see scaling for a finite time which is then exponentially cut-off at some conformal time _j. The value of _j, which becomes very large as p ! 0:5, decreases rapidly as p approaches 0.49. For p below this value no scaling behavior is seen and the behavior is well described by a simple exponential for all conformal time.
+
+4 Discussion We conclude that domain walls formed during a biased non-equilibrium phase transition do not, in general, persist in time. For p 6= 1/2 they scale for a relatively short time before decaying away exponentially. Only when p = 1=2 exactly does persistent scaling behavior set in. It follows that biased domain walls evade the "no-go" arguments that apply to walls in thermal equilibrium. Since domain walls exhibit localized energy density, they will act as the seeds for the formation of large scale structure. A first attempt to analytically calculate the precise form of this structure, using percolation theory and the spherical matter collapse model, has been presented in [5]. The lesson learned there is that domain wall induced structure leaves a distinctive signature which could well open a cosmological window onto the microscopic structure of particle physics.
+
+Acknowledgments We thank Paul Steinhardt, Rob Crittenden and David Spergel for their useful comments. The work of D.Coulson was supported by the DOE under Contract No. DOE-EY-76-C-02-3071, while that of Z.Lalak and B.Ovrut was supported in part by the DOE under Contract No. DOE-AC02-76-ERO3071 and NATO Contract Ref. CRG 940784.
+
+14
+
+References
+
+[1] Z. Lalak, B. Ovrut, manuscript in preparation. [2] D. Stauffer, Phys. Rep. 54, 1 (1979); A. Aharony, in Directions in Condensed Matter Physics edited by G. Grinstein and G. Mazenko (World Scientific, Singapore, 1986).
+
+[3] Z. Lalak, B. Ovrut and S. Thomas, Phys. Rev. D 51, 5456 (1995). [4] W. Press, B. Ryden and D. Spergel, Ap. J. 347, 590 (1989). [5] Z. Lalak, S. Lola, B. Ovrut, and G.G. Ross, Nucl. Phys. B 434, 675
+
+(1995).
+
+15
+

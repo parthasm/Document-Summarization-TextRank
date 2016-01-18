@@ -1,0 +1,264 @@
+
+
+ 12 Jan 1996
+
+Damping Rate of a Scalar Particle in Hot Scalar QED
+
+\Lambda
+
+Markus H. Thoma and Christoph T. Traxler Institut f"ur Theoretische Physik, Universit"at Giessen,
+
+35392 Giessen, Germany
+
+Abstract In contrast to the damping of partons in a quark-gluon plasma, the damping of a scalar particle in a hot scalar QED plasma can be calculated to leading order for the whole momentum range using the Braaten-Pisarski method. In this way the evolution of the logarithmic infrared singularity caused by the exchange of a transverse photon from soft to hard momenta can be studied. The damping rates of quarks and gluons in a quark-gluon plasma (QGP) have been studied in a number of papers (see ref. [1] and references quoted there), because they are of theoretical as well as practical interest. For instance, the gluon damping rate at zero momentum, calculated in lowest order perturbation theory, turned out to be gauge dependent ("plasmon puzzle") [2], stimulating the development of an improved perturbation theory (Braaten-Pisarski method [3]). Furthermore, this rate is related to the Lyapunov exponent of the classical Yang-Mills theory [4]. The damping rates of hard partons with momenta of the order of the temperature or larger, on the other hand, provide a simple test for infrared problems in finite temperature gauge theories (see e.g. [5]) and are closely connected to interesting quantities of the QGP such as the thermalization time in ultrarelativistic heavy ion collisions [6], the energy loss of energetic partons [7,8] and transport coefficients [9].
+
+A consistent calculation of damping rates in hot gauge theories requires the use of the
+
+\Lambda Supported by BMBF and GSI Darmstadt
+
+1
+
+Braaten-Pisarski method, leading to gauge invariant results complete to leading order in the coupling constant. This method is based on the resummation of a class of diagrams, called hard thermal loops (HTL), from which effective Green's functions are constructed. These effective Green's functions have to be used if all external legs of the Green's function under consideration are soft, i.e. of the order of gT , where the coupling constant g is assumed to be small.
+
+Damping rates, defined by the imaginary part of dispersion relations, are proportional to the imaginary part of self energies [10]. In the case of the damping rate of a soft gluon we have to consider the self energy shown in fig.1, where the blobs denote resummed Green's functions. Since the external legs of these diagrams are soft, effective propagators as well as vertices have to be adopted. Due to the complicated structure of these effective Green's functions, in particular of the effective vertices, the damping rate of a soft gluon has been calculated only at zero momentum, yielding the gauge invariant result [11]
+
+flg(0) = 0:2640 g2 T: (1) The physical mechanism of this damping can be seen from cutting the diagrams of fig.1 [12] resulting in graphs that correspond to elastic scattering and gluon bremsstrahlung.
+
+In the case of a hard gluon the damping rate is determined from the imaginary part of the self energy in fig.2, where only one effective propagator and no effective vertices are needed, as the external lines of the diagram are hard. Cutting this diagram, we see that the damping is due to elastic scattering, but there is no gluon bremsstrahlung contribution to leading order. The hard damping rate exhibits a logarithmic infrared divergence, caused by the absence of static magnetic screening in the transverse part of the effective gluon propagator. At zero momentum the transverse propagator, corresponding to a chromomagnetic interaction, does not contribute and the Debye screening in the longitudinal (chromoelectric) part is sufficient to provide a finite result. Assuming an infrared cutoff from higher order contributions beyond the Braaten-Pisarski resummation scheme, for example by a non-perturbative magnetic mass of the order g2T [14] or the damping itself [15], the following result is obtained [13]
+
+2
+
+flg(p ?,T ) = 3g
+
+2T
+
+4ss ln
+
+c g ; (2)
+
+where the constant c cannot be determined using the Braaten-Pisarski method and will be chosen as c = 1 in the following (logarithmic approximation).
+
+The same observation holds for the damping rate of a quark: At zero momentum a finite result is found [16,17], whereas for hard momenta a logarithmic infrared divergence shows up [7,5].
+
+It would be of interest to study the transition from zero momentum to hard momenta in the damping rates, i.e., how the infrared divergence switches on. Unfortunately, the calculation of the soft damping rates in QCD at non-zero momenta is very involved due to the complicated momentum dependence of the effective vertices in fig.1. In order to illuminate this problem, we consider scalar QED as a toy model for QCD [18]. We expect to gain insight into the development of the infrared singularity in the gluon damping rate with increasing momentum by studying the damping rate of a scalar particle in scalar QED as function of the momentum, because the structure of both theories at high temperatures is similar. For example, the effective gauge boson propagators show the same momentum dependence. However, there are no effective vertices in scalar QED and the effective scalar HTL self energy is momentum independent, facilitating the computation of the scalar damping rate for arbitrary momenta enormously. (The damping rate of a photon is infrared finite even for hard momenta [19] and thus cannot be used to study the above problem.)
+
+As a first step of the calculation of the scalar damping rate we have to determine the effective Green's functions in scalar QED. The effective photon propagator in Coulomb gauge follows from the resummation of the HTL photon self energy of fig.3 [18],
+
+D?L
+
+\Gamma 1 = k2 + 3 m2
+
+fl 1 \Gamma k
+
+0
+
+2k ln
+
+k0 + k k0 \Gamma k ! ;
+
+D?T
+
+\Gamma 1 = k2
+
+0 \Gamma k
+
+2 \Gamma 3
+
+2 m
+
+2 fl "1 \Gamma 1 \Gamma k
+
+2
+
+k20 !
+
+k0 2k ln
+
+k0 + k k0 \Gamma k # ; (3)
+
+where mfl = eT =3 and k = jkj. In QCD the effective gluon propagator differs from the effective photon propagator (3) only by replacing m2fl by m2g = g2T 2(1 + Nf =6)=3, where Nf
+
+3
+
+is the number of thermalized quark flavors in the QGP.
+
+The effective scalar propagator is obtained by resumming the HTL scalar self energy diagrams of fig.4 [18], resulting in the simple expression
+
+\Delta ?
+
+\Gamma 1 = k2
+
+0 \Gamma k
+
+2 \Gamma m2
+
+s (4)
+
+with ms = eT =2.
+
+The damping rate of a charged scalar particle is given by
+
+fls(p) = \Gamma 12!
+
+p Im \Xi
+
+?(p
+
+0 = !p; p); (5)
+
+where !p = qp2 + m2s and the scalar self energy \Xi ? is shown in fig.5. Cutting this diagram corresponds to elastic scattering of scalar particles off scalar particles via the exchange of a photon. The decay of a scalar particle into a scalar particle plus a photon is kinematically forbidden. As opposed to gluon damping there is no bremsstrahlung contribution for soft momenta.
+
+It is convenient to decompose the scalar damping rate into a part flL corresponding to the exchange of a longitudinal photon and a part flT corresponding to the exchange of a transverse photon: fls = flL + flT . Using the effective propagators of (3) and (4) for calculating the diagram of fig.5 within the imaginary time formalism we find
+
+flL(p) = e
+
+2
+
+16ss
+
+1 !p Z
+
+1 0 dq q
+
+2 Z
+
+1
+
+\Gamma 1 dj
+
+(!p + !k)2
+
+!k [n(!k) + n(!p \Gamma !k)] aeL(!p \Gamma !k; q);
+
+flT (p) = e
+
+2
+
+4ss
+
+p2 !p Z
+
+1 0 dq q
+
+2 Z
+
+1
+
+\Gamma 1 dj
+
+1 \Gamma j2
+
+!k [n(!k) + n(!p \Gamma !k)] aeT (!p \Gamma !k; q); (6)
+
+where q is the magnitude of the three momentum of the exchanged photon, k = jp \Gamma qj the one of the internal scalar particle and j the cosine of the angle between p and q. Bose distributions are given by n(!) = 1=[exp(!=T )\Gamma 1] and the spectral functions of the effective photon propagator by [20]
+
+aeL;T (!; q) = \Gamma 1ss ImDL;T (! + iffl; q): (7) The integrals over q and j in (6) have to be performed numerically. The results for flL(p)=e2T and flT (p)=(e2T ln 1=e) as functions of p=T are shown in fig.6, where we have chosen e = 0:01
+
+4
+
+in order to guarantee the weak coupling limit. We note that the damping rate depends only weakly upon the momentum over the whole range except from momenta of the order eT .
+
+Now we discuss the limiting cases p ! 0 and p ?,T . In the first case, we may set !p = ms and k = q. Furthermore, q as well as k are soft and we replace the distribution functions by T =!k and T =(!p \Gamma !k). Then the j-integration becomes trivial. The remaining integration over q has to be done numerically, yielding for the longitudinal part of the damping rate
+
+flL(0) = 0:02870 e
+
+2 T: (8)
+
+(The small deviation of (8) from the numerical solution of (6) in fig.6 at small momenta is caused by the use of the approximation n(!) ' T =! for the distribution functions.)
+
+The transverse part is logarithmically infrared divergent. Therefore the momentum integration is dominated by small q. For q o/ eT we approximate ! = !p \Gamma !k ' q2=(2ms). Thus we may use the static limit, j!j o/ q, for the transverse spectral function [14],
+
+aeT (!; q) = 3m
+
+2 fl!q
+
+4
+
+1 q6 + (3ssm2fl!=4)2 : (9)
+
+Then the logarithmically divergent part can be extracted analytically:
+
+flT (p ! 0) = 16e
+
+2T
+
+9ss3
+
+p2 m2fl ln
+
+1
+
+e ; (10)
+
+where a non-perturbative infrared cutoff of the order e2T has been assumed. As in the case of quarks and gluons the transverse contribution to the damping rate vanishes at zero momentum. So the total damping rate of a scalar particle at zero momentum is given by (8). For small momenta the logarithmically divergent part of the damping rate is switched on proportional to p2=m2fl and is of higher order compared to (8) as long as p !,e2T .
+
+For hard momenta p ?,T , we may set ms = 0, k = p AE q, !p \Gamma !k = qj, n(!k) = 0, and n(!p \Gamma !k) = T =(!p \Gamma !k). Then the integration over q can be done exactly, while the one over j has to be performed numerically, yielding
+
+flL(p ?,T ) = 0:04369 e2 T; (11)
+
+5
+
+which agrees, apart from color factors, with the result for quarks and gluons and is independent of the momentum p.
+
+In the case of the transverse part we obtain analogously to the QCD case [5] the logarithmic divergent result
+
+flT (p ?,T ) ' e
+
+2T
+
+4ss ln
+
+1
+
+e ; (12)
+
+where we assumed an infrared cutoff of the order e2T again. (In this calculation the static limit (9) has been assumed, which leads to a result differing by about 10% from the one obtained with the full spectral function (7), as can be seen by comparing with fig.6.)
+
+In conclusion, we have calculated the damping rate of a scalar particle in scalar QED for the whole momentum range to leading order using the effective perturbation theory developed by Braaten and Pisarski. The logarithmic infrared singularity in the part coming from the exchange of a transverse photon, is switched on with a factor p2=mfl for small p o/ eT . In order to avoid this divergence a treatment beyond the Braaten-Pisarski method is required.
+
+An application of the calculation presented here is the damping rate of a Higgs particle in an electroweak plasma above the phase transition. This damping rate is almost identical to the one of a scalar particle in scalar QED and will be presented in a forthcoming publication [21].
+
+ACKNOWLEDGMENTS We would like to thank A. Rebhan for helpful discussions.
+
+6
+
+REFERENCES [1] M.H. Thoma, to be published in: Quark-Gluon Plasma II, ed. R. Hwa (World Scientific),
+
+hep-ph/95
+
+[2] J.A. Lopez, J.C. Parikh, and P.J. Siemens, Texas A&M preprint (1985) unpublished [3] E. Braaten and R.D. Pisarski, Nucl. Phys. B337 (1990) 569 [4] T.S. Bir'o, C. Gong, B. M"uller, and A. Trayanov, Int. Jour. Mod. Phys. C5 (1994) 113 [5] C.P. Burgess and A.L. Marini, Phys. Rev. D45 (1992) R17; A. Rebhan, Phys. Rev. D46
+
+(1992) 482
+
+[6] M.H. Thoma, Phys. Rev. D49 (1994) 451 [7] M.H. Thoma and M. Gyulassy, Nucl. Phys. B351 (1991) 491 [8] E. Braaten and M.H. Thoma, Phys. Rev. D44 (1991) R2625 [9] M.H. Thoma, Phys. Lett. B269 (1991) 144 [10] U. Heinz, K. Kajantie, and T. Toimela, Ann. Phys. (N.Y.) 176 (1987) 218 [11] E. Braaten and R.D. Pisarski, Phys. Rev. D42 (1990) 2156 [12] H.A. Weldon, Phys. Rev. D28 (1983) 2007 [13] E. Braaten, Nucl. Phys. B (Proc. Suppl.) 23B (1991) 351 [14] R.D. Pisarski, Phys. Rev. Lett. 63 (1989) 1129 [15] V.V. Lebedev and A.V. Smilga, Ann. Phys. (N.Y.) 202 (1990) 229 [16] E. Braaten and R.D. Pisarski, Phys. Rev. D46 (1992) 1829 [17] R. Kobes, G. Kunstatter, and K. Mak, Phys. Rev. D45 (1992) 4632 [18] U. Kraemmer, A.K. Rebhan, and H. Schulz, Ann. Phys. (N.Y.) 238 (1995) 286
+
+7
+
+[19] M.H. Thoma, Phys. Rev. D51 (1995) 862 [20] R.D. Pisarski, Physica A158 (1989) 146 [21] T.S. Bir'o and M.H. Thoma, in preparation
+
+8
+
+FIGURES
+
++ FIG. 1. Gluon self energy determining the damping rate of a soft gluon.
+
+FIG. 2. Gluon self energy determining the damping rate of a hard gluon.
+
+FIG. 3. Hard thermal loop diagrams of the photon self energy.
+
+FIG. 4. Hard thermal loop diagrams of the scalar self energy.
+
+9
+
+FIG. 5. Scalar self energy determining the damping rate of a scalar particle.
+
+10-5 10-4 10-3 10-2 10-1 1000.00 0.02 0.04 0.06 0.08
+
+e = 0.01 p/T
+
+gT/e2T ln(1/e) gL/e2T
+
+FIG. 6. Momentum dependence of the longitudinal and transverse parts of the scalar damping rate.
+
+10
+

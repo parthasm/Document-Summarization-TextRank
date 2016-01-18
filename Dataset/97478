@@ -1,0 +1,713 @@
+ Phys. Lett. B412 (1997) 350
+
+
+
+Towards systematic near-threshold calculations
+in perturbative QFT
+
+Fyodor V. Tkachov
+
+Institute for Nuclear Research of Russian Academy of Sciences
+60th October Ave. 7a, Moscow 117312 Russia
+
+
+
+For any near-threshold asymptotic regime and for any Feynman diagram (involving loop and/or
+phase space integrals), a systematic prescription for explicitly constructing all-logs, all-powers
+(all-twists) expansions in perfectly factorized form with explicit integrals for coefficients, is pre-
+sented. The distribution-theoretic nature of the method of asymptotic operation employed allows
+treatment of totally exclusive phase space in the same manner as loop integrals.
+
+
+
+Introduction 1 ticity properties of Feynman diagrams; cf. the discussion
+in [12].
+The purpose of this Letter is to present a summary of sys- The central difficulty of constructing asymptotic expansions
+tematic recipe for construction of asymptotic expansions of of Feynman diagrams in masses and momenta is that formal
+Feynman diagrams near threshold values of kinematic vari- Taylor expansions of integrands possess non-integrable singu-
+ables. The recipe lays a foundation, heretofore lacking, for sys- larities localized on variously intersecting manifolds in the
+tematic higher-order calculations as well as for all-order con- space of integration momenta. The key observation (from
+struction of asymptotic expansions in operator/effective La- which the entire theory of AO unfolds in a logical manner) is
+grangian form. The range of applicability of the recipe includes that the difficulty is a manifestation of the distribution-
+many concrete applications such as near-threshold production theoretic nature of the expansion problem [1]4, and that the
+of, say, electron-positron pair in QED (and many similar prob- crucial mathematical task is to find expansion of the integrand
+lems in the Standard Model); the small-x problem in deeply in the sense of distributions5. Asymptotic operation is a pre-
+inelastic scattering; etc. scription that yields such an expansion for a given integrand (=
+The recipe is a culmination of the development of the tech- product of propagators).
+nique of asymptotic operation (As-operation or simply AO) The structure of AO is fixed by the extension principle
+which has been the driving force behind the continuous prog- [1; 15] -- a very general but essentially simple proposition re-
+ress in the systematic1 studies of asymptotic expansions of lated to the well-known Hahn-Banach theorem (see e.g. [17]).
+Feynman diagrams in masses and momenta since before 1982 The resulting prescription is, roughly, as follows (see also
+[1]2. The Euclidean variant of AO yielded powerful calcula- Sec. 2 below):
+tional formulas for the short-distance expansion in the MS
+scheme [3; 4] and for mass expansions [5-8] that were used in (i) The formal expansion of the integrand should be supple-
+a number of NNLO calculations in QCD and the Standard mented with counterterms -- linear combinations of
+Model (e.g. [9-11]). The non-Euclidean extension of AO pre- (derivatives of) -functions with coefficients that depend on
+sented below is intended to play the same role with respect to the expansion parameter (cf. below Eq. 2.9).
+
+ v3 7 Nov 1998 the near-threshold problems as the Euclidean variant did with (ii) Concrete integral expressions for the coefficients valid
+respect to those calculations. within the precision of expansion are obtained from the so-
+arXiv: v3 7 Nov 1998 Roughly speaking, Euclidean regimes correspond to cases called consistency conditions [18; 15].
+when some masses and momenta are componentwise larger (iii) A fine-tuning of the consistency conditions to achieve
+than others.3 On the other hand, one deals with a truly non- purely power-and-log dependence of the coefficients of coun-
+Euclidean regime when some momenta have both large and terterms on the expansion parameter (the property of perfect
+small components, and the large components approach special factorization [3]).6
+values that result in a non-trivial overlap of singularities of dif- After the counterterms of AO are found, obtaining the corre-
+ferent factors in the momentum-space integrand. Such situa- sponding all-order operator expansions is a matter of more or
+tions correspond to thresholds from the point of view of analy- less straightforward combinatorics (cf. the Euclidean case [8]).
+
+
+4 This observation was influenced by Bogoliubov's analysis of the UV
+1 "Systematic" here means all-logs, all-powers treatments complete with problem [13; 14].
+explicit calculational formulas in a form maximally suitable for practical 5 For precise definitions see [15; 16].
+applications. 6 Note that the deterministic logic of AO leads one step-by-step towards the
+2 For a review and complete references to the original publications, as well solution. Contrast this with the BPHZ-type methods where one, in fact,
+as for comparison with the conventional methods such as the BPHZ theory needs to guess the result (the forest formula) as a whole in order to proceed
+and the technique of leading logarithmic approximation, see [2]. to, say, formal proofs. For instance, the BPHZ-type interpretation of the
+3 To this class also belong degenerate cases with external large momenta general Euclidean expansions needed to borrow the explicit results that
+are fixed on mass shell which simply corresponds to complex-valued large had been previously obtained within the framework of AO (for details
+external momenta from the point of view of Euclidean space. see [19]).
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  2
+
+
+
+
+
+Thus, the analytical focus of the entire theory of asymptotic called homogenization -- a secondary expansion that compl e-
+expansions of Feynman diagrams is in finding the coefficients ments the consistency conditions for the coefficients of AO.
+of the counterterms of AO in a form best suited for applica- The homogenization splits those coefficients into pieces with
+tions. The point is that, in general, asymptotic expansions are strict power-and-log dependence on the expansion parameter
+not unique (which is reflected in an arbitrariness of the expres- (powers needing not be integer). Below we expand the sce-
+sions for coefficients of AO obtained from consistency condi- nario of [2] by presenting explicit rules for the homogeniza-
+tions). Uniqueness is restored [15], however, if one imposes on tion.8
+expansions the requirement of perfect factorization [3] -- It is remarkable that a self-contained analytical recipe for an
+which at the level of individual diagrams stipulates that the individual diagram can be summarized in a rather compact
+expansions run in pure powers and logarithms of the expansion universal form for arbitrary non-Euclidean regimes despite
+parameter. Apart of its importance for applications their larger analytical variety than in the Euclidean case. Such
+(determination of power-suppressed corrections is impossible a description would not be possible without using the language
+without it [20]), the uniqueness of power-and-log expansions of AO. However, there is both an increasing familiarity among
+has a number of technical advantages: physicists with the technique of AO, and a tendency to use it in
+(i) AO commutes with multiplications by polynomials thus various non-standard physical problems due to its power and
+allowing one to ignore complications due to non-scalar flexibility (cf. [22-26])9. On the other hand, not all such works
+particles; have been equally successful.10 Therefore, it would be useful
+-- prior to a more complete treatment which would require a
+(ii) expansions inherit all algebraic properties of the initial substantially longer text -- to give a summary of the procedure
+integrands (such as the Ward-Takahashi-Slavnov-Taylor iden- in a form suitable for calculations that can also serve as a
+tities); starting point for derivation of all-order operator-form expan-
+(iii) maximal calculational simplifications; (iv) considerable sions for various regimes.
+advantages for a regularization-independent treatment [16; 21], Before we proceed to formulas, a few remarks are in order.
+which is potentially important for supersymmetric models. (i) One sometimes uses the term Minkowski space regimes
+The consistency conditions have the form of integrals in- (cf. [27]). However, Minkowski space per se allows both
+volving some of the propagators of the original Feynman inte- Euclidean regimes (cf. their treatment in Minkowski space in
+grand as well as a test function whose behavior at the singular [12]), and a more complex class of non-Euclidean, or near-
+point is fixed but which is otherwise arbitrary (cf. Eq. 2.12). threshold regimes. I emphasize the distinction in order to avoid
+For the Euclidean case, it was found [18; 15] that it is suffi- confusion due to vagueness of terminology and argumentation
+cient to replace such test functions with suitable polynomials in many publications on the subject.
+(to be understood as an appropriate limiting procedure; for a (ii) In some recent publications the term "threshold expan-
+rigorous treatment see [16; 21]). It turned out that such a re- sion" was misused to denote cases with kinematic parameters
+placement modifies the expressions only within the precision set exactly at threshold values with expansions running with
+of the expansion (which is always allowed), whereas the sim- respect to some other parameter (e.g. internal mass), or degen-
+ple scaling of the integrand in momenta and masses ensures erate thresholds tractable by Euclidean methods. In this Letter
+the power-and-log dependence of the resulting expression on we consider true non-degenerate thresholds (including non-
+the expansion parameter. This allowed us to include into sys- zero ones) intractable by Euclidean methods, and expansions in
+tematic consideration the entire class of Euclidean asymptotic a parameter that measures closeness to such a threshold.
+regimes [18] and subsequently to expand the scope of operator- (iii) The method of AO considers integrands in momentum
+expansion methods to such regimes. space as distributions prior to integration. It is therefore ideally
+suited for studying physical problems where integration over
+As was emphasized from the very beginning [18; 15; 2], the the phase space of final state particles should not be performed
+scenario of AO is completely general and by no means limited in an explicit fashion. Indeed, the -functions that describe the
+to Euclidean cases. The specifics of the non-Euclidean regimes 2 2
+is that the singularities of integrands are localized on non- phase space -- e.g. ( p ) ( p - m )
+0 etc. -- are, from the
+linear manifolds (light cones and mass shells) and that non- distribution-theoretic point of view, equally acceptable factors
+zero finite limiting values for external momenta break the alongside the standard causal propagators ( p2 - m2 + i )-1
+0 .
+usual scale invariance of integrands. As a consequence, the This opens a prospect for a systematic treatment of e.g. the
+simple trick that yielded power-and-log dependence in the problem of power corrections in jet-related shape observables
+Euclidean case is no longer sufficient. However, it is important in the context of precision measurements of
+to understand that the consistency conditions are obtained from S according to
+first principles without any restricting assumptions, and there- the theoretical scenario outlined in [28] in analogy with the
++ -
+fore possess all the flexibility to accommodate any additional case of total cross section of e e hadrons where the op-
+requirement that one may lawfully impose -- in particular, to
+perform an appropriate fine-tuning to achieve the required 8 Ref.[2] outlined the worst-case scenario for non-Euclidean AO because a
+power-and-log dependence on the expansion parameter. universal description of its structure was not yet available. Thus, the com-
+binatorial complexity due to the homogenization seems now to be less se-
+The resulting problem and its solution were identified in vere -- at least for some asymptotic regimes -- than anticipated then.
+[2]: the problem consists in occurrence of the so-called oscu- 9 The integral version of AO [6; 8] (cf. also its first special case -- the
+lating singularities7, whereas the solution is given by the so- formulas for OPE coefficient functions in the MS scheme [3; 4]) is useful
+in situations where efficient automation is necessary, such as higher-order
+7 i.e. singularities whose singular manifolds touch rather than intersect in a calculations etc.
+general fashion; for a detailed discussion see [12]. When a mixture of os- 10 For instance, the description of AO in ref.[25] is incorrect whereas the
+culating and transverse intersections occurs, simple uniform scaling rules authors of [26] independently found via AO a correct treatment of a con-
+for description of the strength of the singularity no longer suffice. crete near-threshold problem.
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  3
+
+
+
+
+
+erator-product expansion can be used for that purpose [20]. UV renormalization is assumed to be performed in
+Problems with exclusive phase space occur on a massive scale a massless scheme of the MS type and is treated following
+in physical applications.11 The various cuts used for event se- [33; 34; 21] as a subtraction from momentum space integrand
+lection are equivalent to various weights in phase space inte- of its asymptotic terms (in the sense of distributions) for
+grals, which means that the corresponding matrix elements p (see [15; 16] for an exact interpretation of the large-p
+squared are effectively treated as distributions in the momenta limit involved). For practical purposes, it is sufficient to
+of the final state particles -- a perfect setting for application of employ the MS scheme [35] (or any of the massless renormali-
+the distribution-theoretic technique of AO. zation schemes), and treat unrenormalized UV-divergent
+integrals formally as convergent in the usual fashion (cf. the
+Description of the method 2 prescriptions of the Euclidean AO [15; 8]; a rigorous treatment
+of why this is possible is given in [16; 21]).
+The prescriptions of AO are best described as a formal deri-
+vation rather than a final formula or theorem. The reason is Expansion parameter and asymptotic regimes 2.3
+that every step of the derivation has a simple concrete meaning
+enabling one to control correctness of formulas in each con- The expression 2.2 depends on external parameters such as
+crete situation, whereas blindly using a cumbersome final for- masses, momenta of incoming particles etc. It is assumed that
+mula may result in gross errors.12 some of the momentum components and/or masses are small
+We follow the notations of [15; 16] and focus here only on compared to others. The small parameter (one with respect to
+the most difficult -- analytical -- aspect of the expansion which the expansion is to be performed) will be denoted as .
+problem; the diagrammatic interpretation depends on a con- In general, one assumes that some of the external parameters
+crete asymptotic regime and is a much simpler (combinatorial) -- masses or momenta -- tend to specific values (zero or not),
+issue anyway. We describe AO in the form with an intermedi- and that the differences between the external parameters and
+ate regularization similarly to how the Euclidean case was their limiting values are of order (extension to cases with
+treated in [15]. It is not difficult to convert the formulas into a several scales of the form n is straightforward). The limiting
+regularization-independent form similar to [16] (further details values of external momenta need not be zero componentwise.
+specific to the non-Euclidean are given in [30]). In general, we Some examples of the constructs mentioned in the description
+have in view a combination of dimensional [31] and analytical given below, are presented in Sec. 3 (for further examples see
+[32] regularizations; the latter may be needed in the cases [23] and [36]).
+when the dimensional regularization alone is insufficient (cf. Our prescriptions are valid irrespective of what kind of
+the example of [23]). threshold the chosen asymptotic regime corresponds to -- pe r-
+haps, none at all in which case there will simply be no singu-
+The expression to be expanded 2.1 larities requiring addition of non-trivial counterterms.
+The collection of all integration momenta (loop and phase Note also the following rule for the problems with explicit
+space) is denoted as p . The integrand of the diagram to be ex- phase space: If some phase space momentum components are
+panded in a small parameter is represented as follows: to be treated as small, i.e. O( ) , they should be made O( )
+1 by
+
+G( p) = g( p) , g( p)
+= el (p, )j , 2.2 appropriate rescaling before applying the procedures of AO.
+g G g g
+
+Formal expansion 2.4
+where = ± -
+g (z) (z i )
+0 1 or (z) (each such factor will be re-
+ferred to as "propagator"); l p The construction of AO begins with the formal (usually, but
+g ( , ) is a second order polyno- not necessarily, Taylor) expansion of the integrand in powers
+mial of the momenta p and masses (first order polynomials are of : G( p) T G( p)
+o . Each factor is expanded separately,
+allowed as a special case; cf. gauge boson propagators in non- the results are formally multiplied and reordered in increasing
+covariant gauges). Note that we allow as factors causal propa- powers of . The terms of the resulting series possess, in gen-
+gators, their complex conjugates, and phase-space -functions eral, non-integrable singularities which have to be examined in
+(for simplicity, the -functions of phase space factors are the geometrical and analytical aspects.
+omitted; to include them, it is sufficient to modify g accord-
+Geometric classification of singularities
+ingly in all formulas; cf. the example in Sec. 3.1). Various of the formal expansion 2.5
+polynomials that may occur in the numerator (due to non-scalar
+particles and interactions with derivatives) are ignored because Each formal expansion T o g( p) of each factor g( p) of
+AO commutes with multiplication by polynomials [15]. The the initial product 2.2 is singular on the manifold
+expression 2.2 comprises as special cases loop and unitarity g de-
+diagrams. scribed by l p =
+g ( , )
+0 0 . The aggregate singular manifold of
+
+T o G( p) is
+gG g . In general, the latter is singular in the
+
+sense of differential geometry, so one splits it into non-singular
+11 I am indebted to S. Jadach for explaining to me this point. components (labeled by an index ; each such component
+12 Incidentally, Collins et al. [25] attempted to describe a non-Euclidean is a smooth open manifold). To each component there corre-
+example of AO. The result is a bizarre text which makes very little sense
+beyond vaguely echoing the discussions I had with John Collins during my sponds a subproduct F p G p
+( ) ( ) (but unlike the Euclidean
+three visits to Penn State (I believed we were discussing application of the case, here different
+technique of AO to the Sudakov problem; cf. [23]). Several of the formu- may correspond to the same sub-
+las of [25] (together with the accompanying textual descriptions) are sim- product; e.g. the apex of the light cone and its two cones corre-
+ply incorrect. This calls for a critical reexamination of the "proofs" of spond to the same propagator). F ( p) ( p) contains all the
+QCD factorization theorems, which I intend to do elsewhere [29].
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  4
+
+
+
+
+
+factors from G that are singular everywhere on . Denote as and all l p
+g ( , )
+0 with L p
+g ( ) 0 are independent of Z . Then X
+
+G \ ( p) the product of all factors from G that do not belong and Y scale with 2 , and Z scales with .14 As a simple check,
+to . One may say that represents a "subgraph"; its corr e- this rule correctly yields a uniform scaling in all components of
+sponding product of propagators F ( p) ( p
+) is determined p and both when all l p
+g ( , ) are linear functions, and when
+
+uniquely.13 they are all purely quadratic functions (the Euclidean case).
+
+Analytical structure of singularities 2.6 Power counting15 One performs the power counting to de-
+termine the strength of singularity in each term of T o G( p)
+Here we have to set rules for power counting and -- simu l- near generic points of each
+taneously -- to define the so-called homogenization -- a se c- . For that, one drops from de-
+ondary expansion needed in non-Euclidean situations to reduce nominators (and/or arguments of -functions) all but those
+the coefficients of counterterms of AO to power-and-log form. components of l p
+g ( , )
+0 that scale with the lowest power of ,
+The discussion below is in the context of a given subgraph . and introduces into the numerator the factor
+One considers a general point p0 of and the behavior of 2dim X +2dimY+dimZ that corresponds to the scaling of the in-
+F p
+( ) when p p0 along directions that are transverse to tegration measure. Collecting all powers of one obtains an
+-
+. The components of p that are tangential to are overall factor where can be appropriately called the
+"spectators" and are to be ignored. After introducing appropr i- singularity index of the subgraph (e.g. = 2 corresponds to
+ate local coordinates near p0 and redefinitions, we may as- quadratic divergence etc.).
+sume in what follows that p does not have spectator compo-
+nents and that = { }
+0 . Homogenization 2.7
+
+The homogenization parameter
+Scaling Scale p ni
+p
+n is introduced as fol-
+i i , so that:
+lows: (i) scale l p g
+as described; (ii) drop the over-
+(i) all scaling exponents n are positive integer; g ( , ),
+
+(ii) for each g , l p all ng ; (iii) replace with . The operation of homogeni-
+g ( , ) scales as
+n zation (denoted as H
+g ) is as follows: (i) introduce as just
+lmain ( p
+, ) + O(
+g ) , and the scaling exponent for is the
+described; (ii) expand in ; (iii) set 1 in the result.
+minimal value ensuring this for given ni ; H is meant to be applied to integrals similar to those we set
+(iii) if main main =
+g is the manifold on which l ( p
+g , )
+0 0 , then out to expand from the very beginning (see below Eq. 2.12).
+main
+-- defined as Therefore, the expansion in H
+g main
+g i.e. the set of all p such that must in general be performed
+in the sense of distributions -- requiring the entire machinery
+l main( p =
+g , )
+0 0 for all g -- coincides with = { }
+0 . The of AO with another level of homogenization etc. Since at each
+latter means, in particular, that the collection of all step the expansion problem simplifies (dimensionality of the
+l main( p integration space is reduced), the recursion stops correctly after
+g , ) , g depends on all components of p .
+a finite number of levels of homogenization. In many interest-
+These properties ensure that each step of our expansion ing cases, however, non-trivial singularities requiring coun-
+procedure is a mathematically correct transformation. A re- terterms do not occur and this expansion degenerates into a
+markable fact is that the scaling satisfying (i)­(iii) need not be simple Taylor expansion.
+unique (e.g. in the case of radiative corrections to the example The occurrence of secondary expansions with their corres-
+of Sec. 3.1). The beautiful mathematical mechanism of how dif- ponding homogenizations is behind the mechanism that en-
+ferent scalings result in the same final answer, is mentioned sures independence of final results of the choice of scaling
+below after the definition of homogenization -- we have a l- (provided the latter satisfies the three conditions mentioned in
+ready had opportunities [15] to emphasize a remarkable stabil- Sec. 2.6): non-trivial counterterms for secondary homogeniza-
+ity of the method of AO that yields correct results even in tions yield expressions that correspond to alternative scalings,
+counterintuitive cases as long as one applies it in a systematic whereas the "formal" part of the homogenization expansion
+manner. Different correct scalings do differ in the number of yields zero by explicit integration. Demonstrating this mecha-
+intermediate steps leading to the (same) final result. An opti- nism in detail requires a much more detailed exposition than
+mal definition is as follows: Split l ( p, )
+0 L ( p) + L( p
+g g g ) we can afford here.
+with L p = O p 2
+g ( ) ( ) , L p = O p
+g ( ) ( ) . Then split
+
+p ( X ,Y, Z) so that all L p
+g ( ) depend on, and only on X
+
+
+13
+The pinch/non-pinch classification of singularities (the usual starting 14
+point of the conventional analyses; cf. e.g. [27]) is actually irrelevant for For general non-quadratic (cubic etc.) functions one may recur to a
+the analytical study of the singularities in general, and for the construction technique based on Newton's polyhedra similar to that used in the theory
+of AO in particular: the non-pinched singularities simply correspond to of singularities of differential mappings [37].
+parts of singular manifolds where the corresponding counterterms nullify 15 This is regarded as a technical problem in the context of the theory of
+(which can be deduced e.g. directly from their expressions). Such a nullifi- QCD factorization theorems [27], esp. in the case of non-leading power
+cation is rather accidental from the point of view of analytical structure of corrections and mixed soft/collinear singularities. Our rules should settle
+singularities. the issue (see also [30]).
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  5
+
+
+
+
+
+Structure of asymptotic operation 2.8 last expression in 2.12 is determined by scaling out using the
+scaling rules for already explained.
+Recall the general formula for AO [15]: An important point to remember is that the construction of
+As o G( p) = T o G( p) + E ( p)
+× T
+o G \ ( p) . 2.9 asymptotic expansions (including AO) is always, strictly
+speaking, carried out for a particular finite precision O N
+( ) .
+It is rather natural: each singularity of the formal expansion This implies that one subtracts only the series to that precision
+T o G( p) receives a counterterm E ( p) localized on the cor- in the integrand of 2.12. Correspondingly, the counterterm is
+responding singular manifold . So, the summation runs also defined at that step only within that precision, whereas
+expansion implied by H -- if carried too far -- would gene r-
+over all subgraphs , and E ( p) have the form
+ate terms of excessive precision O N n
+( + ) -- terms that would
+E ( )
+p = E
+
+( ) ×
+( p)
+, , , 2.10 also be divergent in the UV region! One can verify by power
+counting, however, that all the contributions of precision
+where summation runs over a complete set of -functions lo- O N
+( ) are exactly those whose (formal) UV convergence is
+calized on , and E
+, ( ) in general are -- unlike the ensured by the subtraction. In the end one can forget about the
+Euclidean case where each E
+, ( ) is proportional to one in- restriction O N
+( ) because the formula (the last expression in
+teger power of -- series in (non-integer) powers of with 2.12) is independent of it.18
+coefficients that are polynomials of log . As was already em- Another important point concerns the diagrammatic inter-
+phasized, finding those coefficients is the central analytical pretation of the subtraction in the first expression in 2.12. In
+task of the theory of asymptotic expansions of Feynman dia- the Euclidean case, it was shown [34; 21] that the subtractions
+grams. of this sort exactly correspond to the standard Bogoliubov UV
+R-operation -- in agreement with the fact that the integrals
+Consistency conditions for the coefficients 2.11 that occurred there for E, were exactly diagrams with local
+The finding of E
+, ( ) is performed according to the same operator insertions. In the general non-Euclidean situation,
+general recipe as in [15], i.e. via consistency conditions. Sup- there is no universal (i.e. valid for all regimes) operator char-
+pose one wishes to construct the coefficients for E acterization for the integrals that occur after the homogeniza-
+, ( )
+for tion (the expansion H distorts standard propagators in differ-
+one subgraph . One assumes that for all < the construc-
+ent ways for different asymptotic regimes). But the prescription
+tion has been performed (the usual ordering of subgraphs with for their UV renormalization is always determined uniquely by
+respect to increasing codimensionality of singular manifolds is the structure of subtractions in 2.12.
+assumed here; cf. [15]). An appropriate choice of coordinates
+ensures that the singularity one is after is localized at p = 0 . As a last remark, an interesting technical point may be
+mentioned. Namely, despite the presence of the additional ex-
+Then the coefficients are given by the following formulas (cf.
+sec. 12.3 in [15] and eq. (20.5) in [16]): pansion H in Eq.2.12 compared to the Euclidean case, when
+one integrates out the -functions similarly to the procedure of
+E ( ) = lim X
+d Y
+d Z
+d ( X-2 ,Y-2 ,Z -
+z 1
+)
+, sec. 5.3 of [8] to obtain the AO in integral form, this additional
+× P series blends into a single Taylor expansion with the expansion
+( p) H o 1 - A
+s o
+resulting from derivatives of -functions (cf. eq.(5.8) in [8]).
+= p
+d P ( p) H o ( p, ).
+z 2.12 This is easily explained if one notices that the non-Euclidean
+prescriptions remain valid in the general non-linear/non-
+(The polynomials P form a complete dual set for the - uniform case, so that the "spectator" product G \ can be
+functions formally absorbed into and treated as a "deformation" of the
+, -- exactly as in the Euclidean case. As o
+latter, and when obtaining the AO in integral form, only those
+differs from As o by absence of the term with = in the counterterms of the AO would survive that are proportional to
+corresponding sum 2.9.) The first expression demonstrates how -functions without derivatives. But then the expansion H
+the intermediate cutoff is removed. Notice the asymmetry of
+the cutoff which corresponds to the asymmetry of the scaling. would be the only expansion remaining in the end! (Note,
+The role of H however, that the expansion implied by H
+(a new element compared to the Euclidean affects the entire
+case) is to split the coefficient into terms with pure power-and- G -- in contrast with the Euclidean case where only certain
+log dependence on (which motivates its definition). The sec- subgraphs are thus expanded; cf. the expansions of "heavy
+ond expression takes into account the nullification of the sub-
+tracted ("shadow") terms in dimensional/analytic regulariz a- ties by the dimensional/analytical regularization, although now the scaling
+tion, which is due to their pure-power behavior under the is non-uniform in different components of p .
+(asymmetric) scaling.16,17 The power of for each term in the 17 To obtain the corresponding regularization-independent formula one
+~
+f o
+replaces As r As where ~rf is an appropriate generalization of
+16 the corresponding Euclidean subtraction operator; see [16] and [30].
+Nullification of integrals of the form d D p p
+z -2 = 0 is well-known. It
+18 However, a great caution must be exercised when establishing corre-
+is due to the fact that the dimensional regularization preserves formal spondence between the terms of the last expression in 2.12 and the singu-
+scalings. In the new situation, we are dealing with zero integrals of, very larities of the formal expansion T
+- o G . The correspondence is rather
+roughly, the form d D-2 p dp c Ap + p
+z + + h
+2 2 = 0 . The underlying tricky which fact caused some confusion in the literature (see a discussion
+reason for their nullification is the same -- preservation of scaling prope r- in [19]).
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  6
+
+
+
+
+
+knots" in [8].) An amusing implication is that use of the gen- in Taylor-expanding with respect to the quadratic terms in p2
+0
+eral non-Euclidean results would actually simplify the con- etc.), we find:
+struction of Euclidean AO in integral form.
+E D
+( ) = d p e2mp - 2
+p j e2m( - p ) -
+z 2 j
+0 0 p
+Examples 3
+3/
+1 2- 1 2-
+= × × (m ) / ,
+b g 3.5
+The two examples we consider are related to well-known 4m /
+3 2-
+
+simple integrals so that checks are possible, yet involve ex- where = 1 (4 - D) . The final result for 3.2 is as follows:
+plicit phase space so that a systematic treatment via any other 2
+method would be problematic. In both examples, obtaining dD p w( p) e p2 - m2j e(Q - p)2 - m
+z 2
++ + j
+higher terms of the expansion is tedious but entirely straight-
+forward -- an exercise that is left to an interested reader. Su b- = Q2 - m2 w(m~) + OeQ2 - m2
+4 4 j. 3.6
+4m
+stantially more involved examples will be presented elsewhere
+[38; 39]. (The integral of the first term of the formal expansion -- the
+first term on the r.h.s. of 3.4 -- is zero for smooth w.) This re-
+Threshold Q2 ~ m2
+4 for the kinematics Q m + m 3.1 sult is checked by noticing that the case w = 1 corresponds to
+the imaginary part of a simple self-energy diagram; cf. the ex-
+This example corresponds to a near-threshold creation of a plicit result in [40], eq.(24.5).
+pair (e.g. + -
+e e by a photon). Remember that asymptotic op-
+eration commutes with multiplication by polynomials so that The behavior of 2 2 at s + 3.7
+non-scalar numerators are ignored in our example.19 The phase Our second example corresponds to the matrix element
+space is represented as squared with exclusive phase space for k + k k + k
++ - + -
+d D p w( p) e p2 - m2j e(Q - p)2 - m
+z 2
++ + j , 3.2 (where k = k ±
+± ± p ) via simplest t -channel exchange of a
+
+scalar particle with momentum p at large s = (k + k )2 . The
+where (k 2 m2 ) (k ) 2 2 + -
++ - = (k - m )
+0 , Q is the momentum
+example is motivated by the large-s /small-x problem in QCD
+of the "photon" that decays into the pair, and the arbitrary [41], so all particles (partons) are massless and the external
+weight w (corresponding to arbitrary cuts experimentalists may partons are slightly off-shell (time-like). The expression to be
+use for event selection) means that the phase space is treated expanded is:
+as totally exclusive, so that one essentially deals with the prod-
+uct of 's and 's interpreted as a distribution. We are going to 2 2 -
+s p
+d w( p) e(k + p) j e(k - p) j p
+z 2
++ + + - , 3.8
+extract the first non-trivial (square root) contribution using the
+prescriptions set forth above. where e(k + p)2j = (k0 + p0) 2
++ + + e(k+ + p) j etc., and we
+To describe the asymptotic regime we choose have replaced for simplicity the exchange particle's squared
+Q = b m
+2 + ,0g with 0 . Then propagator p-4 by p-2 (imagine e.g. that there occurred a
+
+= (Q2 - m2) m - (Q2 - m2)2 ( )
+m 3
+4 4 4 4 + K 3.3 cancellation with p2 from a non-scalar numerator). w is an ar-
+bitrary weight that describes cuts, observables etc. The as-
+It is convenient to perform a shift p p + m
+~, m~ = (m,0) . The
+ymptotic regime is described by s with k 2 , p2 O
+± = 1
+( ) .
+formal expansion of the product in then is: Introduce two light-like vectors q± such that 2q q 1
++ - = and
+e(p + ~m)2 - m2j e( ~m +~ 2 2
++ + - p) - m j k = s q + O(s- /
+1 2
+± ± ) . Taking out s from each + and de-
+= ep2 + m
+2 p - 2
+p j 2 2
++ e p j /
+0 0 + p - m
+2 p -
+0 0 noting = -
+s 1 2 , rewrite 3.8 as
+
++
+2 - p + m ep2 + 2mp - 2
+p j 2 2
+e p j K z -
+( ) 2 e2 + 2
++ 2
++ 2
+j
+0 + 0 0 + p - m
+2 p - +
+0 0 3.4 dp w p p q p k p O( p
++ + + )
+
+The singularity at the point p = 0 is seen from the fact that the e- q
+2 p + k 2
++ p2
++ O( 2
+p
++ - - )j . 3.9
+arguments of the two -functions reduce to the form
+The first term of the formal expansion is:
+( p ) ( 2
+p )
+0 , with the second ill-defined in the case of -2
+c h c h
+higher derivatives (the singularity is regulated by the dimen- dp w( p) 2q p -2q p p + O
+z + + + - ( ) . 3.10
+sional regularization). To do the power counting according to =
+{p = zq ; z
+the prescriptions of Sec. 2, one identifies X ( p , ), Y Singularities are localized on ± ± } and
+0 p
+=
+with Z empty. The first product of 's is convergent whereas 0 0
+{ } . The two collinear singularities ± are similar to
+the second one is linearly divergent. In any case, a counterterm those considered in [23]. Following the above rules, one finds
+of the form E( ) ( p) is necessary. Evaluating E( ) ac- the appropriate scaling (in the Sudakov coordinates):
+2
+cording to the given recipe (the homogenization consists simply p 2 p
+m m , p p
+, (for ± the component
+pm is spectator and does not scale). One finds that in the
+leading order the two singularities are logarithmic, so only -
+19 Of course, they do play a role in determining which particular terms functions without derivatives have to be added to 3.10:
+from the asymptotic expansion contribute to a particular process at a par- + +
+dz c (z, ) ( p - zq ) + dz c (z, ) ( p - zq
+z z ) . 3.11
+ticular precision with respect to the small parameter. But our aim here is - + + - - -
+only to demonstrate the essential analytical mechanism.
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  7
+
+
+
+
+
+The corresponding coefficients are easily found: For Monte-Carlo type applications one needs to recast the
+results into a regularization-independent form. The correspond-
+c (z D
+, ) = d p (±2 pq + k 2)cz - 2 pq hp-
+z 2
+± + ± ± m ing prescriptions are derivative from the power-counting rules
+of Sec. 2.6 and follow the general pattern of [16; 21]. More
+1 - -
+
+~ bmzg ek2j
++ ± , 3.12 details will be given elsewhere [30].
+
+
+where A ( A )
+0 A
++ = > and we have dropped irrelevant coef- Conclusions 4
+ficients. However, when one multiplies the collinear coun-
+terterms by the corresponding G \ = (m q p) The recipe for the non-Euclidean (near-threshold) asymp-
+m + 2 m , one finds
+totic operation given above is a very general one, is valid prac-
+that the product vanishes because c (z) ~ z-
+± (cf. the case tically for any non-Euclidean asymptotic regime, and for any
+with a non-zero mass where a similar product was ill-defined individual Feynman diagram, including unitarity diagrams with
+[23]). cut propagators as well as diagrams in non-covariant gauges,
+The scaling for the singularity localized at = heavy-quark and non-relativistic effective theories, etc. But de-
+0 0
+{ } is uni-
+
+form in all components p p
+, . The counterterm spite its generality, it relies on few analytical principles, which
+is important for calculationists who wish to have a complete
+then is c p
+0 ( ) ( ) with intellectual control over what they are doing (cf. e.g.
+- [22; 24; 26]). In many applications (namely, automated higher-
+c D
+( ) = d p e2q p + k2
+j e-2q p +k2j p 2
+z
+0 + + + + - - order calculations and derivations of all-order near-threshold
+
+1 2
+-
+~ . expansions in operator/effective Lagrangian form) one would
+3.13
+need the rules for AO in integral form similar to the Euclidean
+Due to all the -functions, the integrals in this example are ones found in [5-8], that are currently in wide use (cf. [9-11]).
+performed very easily. Such rules are not difficult to obtain -- but then the universa l-
+ity of formulas is lost and each regime has to be treated sepa-
+Finally, the expansion is: rately. Studying the operator form of expansions for various
+Eq. 3.8 = Eq. 3.10 + c ( ) w
+0 (0) . 3.14 non-Euclidean (near-threshold) regimes and performing the
+corresponding calculations will be a topic of active research in
+Performing integration in 3.10 with w = 1 one finds that the the coming years [26; 38; 39; 43].
+poles -1 in 3.14 cancel (as expected). One sees that the
+log contribution is associated with the diffractive region Acknowledgements I am indebted to V.I. Borodulin, G. Jikia
+p ~ 0 . and N.A. Sveshnikov for an extremely important support.
+I thank D. Broadhurst and P. Nason for pointing out the impor-
+If one had normal non-cut propagators instead of the two - tance of studying non-zero thresholds in QED and the Standard
+functions in 3.8, the vanishing of collinear counterterms would Model, S. Jadach for emphasizing the importance of exclusive
+not occur, which would give rise to the well-known log2 treatment of phase space, A.V. Radyushkin for bibliographic
+terms (taking imaginary part eliminates one logarithm). Oth- advice, and F. Berends for an encouraging laugh. This work
+erwise the integrals are just a bit more involved, and the cor- was supported in part by the Russian Foundation for Basic
+rectness of calculations is easily checked by comparison with Research under grant 95-02-05794.
+the well-known analytical results (see e.g. [42]).
+
+
+F.V.Tkachov Near-threshold expansions Phys. Lett. B412 (1997) 350  8
+
+
+
+
+
+References
+
+[1] F.V. Tkachov, in Quarks-82. Proc. Int. Seminar. Sukhumi, USSR. [22] V.P. Spiridonov and F.V. Tkachov, Phys. Lett. 260B (1991) 109.
+May 5-7, 1982. INR, USSR Acad. Sci. [23] J.C. Collins and F.V. Tkachov, Phys. Lett. 294B (1992) 403.
+[2] F.V. Tkachov, Sov. J. Nucl. Phys. 56 (1993) 180 [hep- [24] V.I. Borodulin and G. Jikia, preprint Freiburg-THEP 96/19
+. (1996). 
+[3] F.V. Tkachov, Phys. Lett. 124B (1983) 212. [25] J.C. Collins, L. Frankfurt, and M. Strikman, preprint CERN-
+[4] S.G. Gorishny, S.A. Larin, and F.V. Tkachov, Phys. Lett. 124B TH/96-314, PSU/TH/168 (1996)  version of 20
+(1983) 217. Dec 96].
+[5] G.B. Pivovarov and F.V. Tkachov, preprint INR P-370 (1984) [26] V.I. Borodulin and G. Jikia (to be published).
+[KEK no. 8502210]. [27] G. Sterman, preprint ITP-SB-96-4 (1996) .
+[6] G.B. Pivovarov and F.V. Tkachov, preprint INR -459 (1986) [28] N.A. Sveshnikov and F.V. Tkachov, Phys. Lett. B382 (1996) 403
+[KEK no. 8610360]. .
+[7] G.B. Pivovarov and F.V. Tkachov, in Quarks-86. Proc. Int. Semi- [29] F.V. Tkachov (in preparation).
+nar. Tbilisi, USSR. May 1986. VNU Science Press, 1987. [30] F.V. Tkachov (in preparation).
+[8] G.B. Pivovarov and F.V. Tkachov, Int. J. Mod. Phys. A8 (1993) [31] G. 't Hooft and M. Veltman, Nucl. Phys. B44 (1972) 189.
+2241 . [32] E.R. Speer and M.J. Westwater, Ann. Inst. H.Poincaré A-XIV
+[9] S.A. Larin, F.V. Tkachov, and J.A.M. Vermaseren, Phys. Rev. (1971) 1.
+Lett. 66 (1991) 862. [33] A.N. Kuznetsov and F.V. Tkachov, talk at Quarks-88. Proc. Int.
+[10] S.A. Larin, F.V. Tkachov, and J.A.M. Vermaseren, Phys. Lett. Seminar. Tbilisi, USSR. May 1988.
+272B (1991) 121. [34] A.N. Kuznetsov and F.V. Tkachov, in Renormalization Group '91.
+[11] J.H. Kühn, in Cracow International Symposium on Radiative Cor- II Int. Conf. Dubna, USSR. 3-6 Sept. 1991. World Scientific,
+rections, Cracow, Poland, 1996 . 1992.
+[12] F.V. Tkachov, Int. J. Mod. Phys. A (1998, in print) [hep- [35] G. 't Hooft, Nucl. Phys. B61 (1973) 455.
+. [36] F.V. Tkachov (in preparation).
+[13] N.N. Bogoliubov, Doklady USSR Acad. Sci. 82 (1952) 217. [37] V.I. Arnold, A.N. Varchenko, and S.M. Guseyn-Zade, Singularities
+[14] N.N. Bogoliubov and D.V. Shirkov, Introduction to the Theory of of differentiable mappings. Classification of critical points, caustics
+Quantized Fields. Interscience, 1959. and wave fronts, vol. 1. NAUKA, 1982 (in Russian).
+[15] F.V. Tkachov, Int. J. Mod. Phys. A8 (1993) 2047 [hep- [38] P.S. Cherzor, N.A. Sveshnikov, and F.V. Tkachov (in preparation).
+. [39] N.A. Sveshnikov, F.V. Tkachov, and N.I. Ussyukina, (in prepara-
+[16] A.N. Kuznetsov, F.V. Tkachov, and V.V. Vlasov, preprint PSU- tion).
+92/108-T (1992) . [40] N.N. Bogoliubov and D.V. Shirkov, Quantum Fields. NAUKA,
+[17] R.D. Richtmyer, Principles of Advanced Mathematical Physics, 1980 (in Russian).
+vol. 1. Springer-Verlag, 1978. [41] L.N. Lipatov, Sov. J. Nucl. Phys. 23 (1976) 642.
+[18] F.V. Tkachov, preprint INR P-332 (1984). [42] N.I. Ussyukina and A.I. Davydychev, Phys. Lett. 298B (1992)
+[19] F.V. Tkachov, in The VIII Int. Workshop on High Energy Physics. 363.
+Zvenigorod, Russia. 15-21 September 1993. INP MSU, 1994 [hep- [43] A.V. Stepanova and F.V. Tkachov , "Algebraic algorithm for next-
+. to-leading order calculations in the large-s/small-x regime", in:
+[20] F.V. Tkachov, Phys. Lett. 125B (1983) 85. Proc. Int. Workshop QFTHEP'97, Samara, Sept. 4-10, 1997 [hep-
+[21] A.N. Kuznetsov and F.V. Tkachov, preprint INR-809/93 (1992) .
+.
+
+
+

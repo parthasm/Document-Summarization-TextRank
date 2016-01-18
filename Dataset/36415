@@ -1,0 +1,164 @@
+
+
+ 7 May 95
+
+fc World Scientific Publishing Company Mz-Th/95-08, UTAS-PHYS-95-11
+
+Feynnman Diagram Calculations From finite Integral Representations to knotted Infinities \Lambda
+
+Dirk Kreimeryz Department of Physics, University of Mainz
+
+55099 Mainz, Germany
+
+ABSTRACT Work is reported on finite integral representations for 2-loop massive 2-, 3- and 4-point functions, using orthogonal and parallel space variables. It is shown that this can be utilized to cover particles with arbitrary spin (tensor integrals), and that UV divergences can be absorbed in an algebraic manner. This includes a classification of UV divergences by means of the topology of the graph, interpreted in terms of knots.
+
+1. Introduction The following sections will cover three topics: Section 2 discusses the use of parallel and orthogonal space variables. It is shown how to simplify the fl-algebra, and how to construct what should be called the characteristic polynomial of a graph. Section 3 reports on work done in collaboration with the theory group at Mainz university. It focuses on algorithms written in Maple, heading towards a complete algebraization of the scheme outlined in Section 2. We also mention some algebraic properties of the UV sector of a renormalizable field theory. Section 4 focuses on recent calculations with David Broadhurst, classifying various Feynman graphs with the help of knot theory.
+
+2. Parallel and Orthogonal Space Variables It is one of the major challenges in computational high energy physics to obtain results for 2-, 3- and 4-point functions at the two-loop level involving various internal masses. Quite often it turns out that such results can be obtained using orthogonal and parallel space variables. In the following we recapitulate the ideas behind the introduction of these variables and, in particular, explore how they might be used to facilitate the handling of the fl-algebra.
+
+Assume we are confronted with the calculation of a n-point function in perturbative quantum field theory. The exterior momenta pj span a n\Gamma 1 dimensional vector space, due to momentum conservation. Necessarily, all loop momenta li involved
+
+\Lambda Presented at the AI-HENP 95 workshop, Pisa, April 1995 yemail: kreimer@physvax.phys.utas.edu.au zOn leave of absence from Univ. of Tasmania, Hobart, Australia
+
+1
+
+2 From finite Integral Representations : : : split in a natural way into two components:
+
+l_i ! l_i;= + l_i;?; li;? \Delta pj = 0 8 i; j:
+
+For loop integrations this defines a set of parallel space variables li;= and orthogonal space variables li;? in a covariant manner; l_i;= and l_i;? are genuine four-vectors.
+
+Dimensional regularization uses this splitting to allow for an operational definition in terms of analytic continuation of the radial orthogonal space variables.1 Much of our previous work relies on utilizing this set of variables not only to prove various properties of DR, as done in Collins' book, but to simplify actual calculations.1;2;3 One can obtain useful integral representations, including even the four-point twoloop box topologies, along the following lines:2;3;4;5;6
+
+ffl Choose a measure R 1\Gamma 1 for parallel space variables. ffl Integrate simply the angular integrations in the orthogonal space. ffl Integrate the modulus of the four-vectors li;?. ffl Do as many as possible parallel space integrations via the residue theorem. In particular, the method can be extended to obtain integral representations for a whole graph, and we will comment on these ideas in more detail now.5 Take for example a two-loop calculation of a fermionic vertex correction. We have a twodimensional parallel space, and the vertex carries a Lorentz index ff say. Let us describe how we can obtain an integral representation for such a problem.
+
+Without loss of generality we can choose two vectors e_1 ; e_2 ; e1 ? e2 = 0 so that
+
+p_1 = p11e_1 + p12e_2 ; p_2 = p21e_1 + p22e_2 ;
+
+l_1 = l11e_1 + l12e_2 + l_1;?; l_2 = l21e_1 + l22e_2 + l_2;?;
+
+and we use a measure for loop integrationsZ
+
++1
+
+\Gamma 1 dl
+
+11dl12dl21dl22 Z
+
++1
+
+0 d j l
+
+1;? j d j l2;? j Z
+
++1
+
+\Gamma 1 d(l
+
+1;? \Delta l2;?):
+
+In the numerator we generally come across a lengthy string of fl-matrices. We could go the traditional way, trace it, project out the various form factors, and calculate all scalar integrals which were obtained. Such a method was featured by the Leiden group.7 Here we will advocate a different approach, as introduced recently.5 We like to utilize some elementary properties of the fl-algebra, combined with our parallel/orthogonal space variables. Corresponding to e1; e2 we find imbedded in
+
+: : : to knotted Infinities 3 the fl-algebra elements fl1; fl2; fli? so that:5
+
+ffl1; fl2g = ffl1; fli?g = ffl2; fli?g = 0;
+
+ffli?; flj?g = 2gij?;
+
+gi?i = D \Gamma 2; fl21 = 1; fl22 = \Gamma 1; fl2?;i = \Gamma 1: (1)
+
+Here the matrices fl?;i forms a basis in orthogonal space, and we have assumed without loss of generality that the basis vector e1 is timelike. We have
+
+l/i = li1fl1 + li2fl2 + l? \Delta fl?: (2) A crucial observation is now that we can replace the whole fl-algebra in the orthogonal space by a totally symmetrized combination of metrical tensors g?. This is because these tensors deliver the only possible formfactors in the orthogonal space. No exterior momenta can modify them. We further note that the external index ff has to be taken into account by using flff = (fl1; fl2; fli?).
+
+Utilizing Eq.(1) and Eq.(2) we see that the fl-algebra reduces to a sum of terms
+
+fn5;n1;n2fln
+
+5
+
+5 fl
+
+n1 1 fl
+
+n2 2 ;
+
+n5; n1; n2 2 f0; 1g; (3)
+
+with scalar functions fn5;n1;n2.
+
+Here we incorporated a possible fl5, which can be treated either as anticommuting, as justified recently, or along the more cumbersome BM approach.8;9;10 Note that even with a non-anticommuting fl5 we have
+
+ffl5; fl1g = ffl5; fl2g = 0; as the nonvanishing part of the anticommutator lives in orthogonal space. These are the advantages: We can obtain an answer without applying the trace to our amplitude. If we are interested in a trace we may apply it at the end, where it becomes trivial when acting on the terms of Eq.(3). The whole method can be implemented by using non-commutative operators in REDUCE for example. In doing so we found that this way of handling the fl-algebra is superior to the standard ways incorporating lengthy `High Energy Packages'. This article is not the place to present elaborate examples, but we intend to incorporate the experience gained at the one-loop level also in the two-loop level and will report on the results in the future.11
+
+3. UV-Divergences and Algebraic Structures To exploit the advantages of the method presented in section 2 one has to isolate the UV singular behaviour of the theory. This involves not only genuine two-loop contributions, but also various one-loop terms. Based on earlier results a one-loop
+
+4 From finite Integral Representations : : : package is now available which facilitates one- and two-loop calculations.12;13;14;15 It is presented in a form which makes it useful for applications which even advocate a more traditional approach to two-loop calculations. Here we shortly comment on some improvements of the package compared to the 1.0 version published recently.15
+
+ffl Terms linear in (D \Gamma 4), useful for two-loop calculations, are now evaluated
+
+as well.
+
+ffl Degenerate cases for exterior momenta and masses can now be handled. ffl The program is now able to treat IR divergent cases. A similar package for the two-loop level is obtained for two-point functions but has yet to be tested. The package follows the ideas outlined in section 2, isolates UV-singularities as described elsewhere, incorporating the necessary counterterm graphs during this process, and therefore utilizing at a modest two-loop level some remarkable structures of UV divergent Feynman graphs.5 In fact, it is shown that the UV-divergent structure of a Feynman graph can be obtained in an algebraic manner.16;17 For ladder topologies a full algebraization can be achieved, for nested as well as overlapping divergences. In the following section we describe the ideas which were used to obtain a topological classification of UV-divergences.
+
+4. Classifications of Feynman Graphs The study of UV-divergences in Feynman graphs reveals some remarkable properties: topologically simple graphs (ladder graphs) are free of transcendental contributions in the divergent sector, and the topological nature of more complicated graphs reflects itself in the transcendental contributions to Z-factors.16;17 This pattern has been confirmed by studying various results of Broadhurst.18 These results have motivated David Broadhurst to investigate all Feynman graphs which correspond to the vertex correction at the seven loop level in OE4 theory, and which are free of subdivergences.19 In collaboration with him, the author started a classification of the Feynman diagrams in terms of knots, elaborating on the ideas developed in previous work.16;17 Details of the calculation will be presented elsewhere; some of the results can also be found in Broadhurst's contribution to these proceedings.19;20
+
+We now describe the steps necessary to classify Feynman diagrams using knot theory.
+
+ffl First we map the OE4 couplings to three-point couplings in all possible ways.
+
+The intermediate propagator is a static propagator corresponding to a Lagrangemultiplier field.x
+
+ffl Then we map the Feynman graph to a link diagram following the rules of as
+
+given in previous work.17.
+
+xWe thank Bob Delbourgo for supporting us with this idea to map four-point couplings to threepoint couplings.
+
+: : : to knotted Infinities 5 ffl We use a skein relation to reduce the link diagram to knots and try to relate
+
+the result to the transcendentals obtained by Broadhurst.
+
+-> Fig. 1. The mapping of a four-point to three-point couplings in all possible ways. The dashed line indicates the static propagator.
+
+We give an example borrowed from our previous work.17
+
+Fig. 2. We like to investigate this six-loop Feynman graph. We also give a OE4 graph which is topologically equivalent, and which was investigated by Broadhurst.18 The two dots in this graph have to be identified. It can be obtained from the graph on the lhs by shrinking three propagators.
+
+Let us map this graph to a link diagram:
+
+6 From finite Integral Representations : : : Fig. 3. The generation of the (3; 4) torus knot. In the first line we have removed one propagator to generate the i(3)i(3) factor knot. Then we attach the last propagator in the most economic way, giving us the link diagram on the bottom rhs. We used Reidemeister II and III moves to get from the second to the third line. We end up with the braid word oe41oe2oe41oe2. (All components encircle the dot in the middle counterclockwise, so that we can read off the braid word.) After skeining the two kidneys we find a knot. It can be identified as the 819 knot in the standard tables, which is the (3; 4) torus knot.21
+
+Following these lines we hope that in future work an identification of the UVdivergent sector of Feynman graphs can be made possible from their topology. Acknowledgements
+
+It is a pleasure to thank the group in Mainz, especially Lars Br"ucher, Johannes Franzkowski, Ulrich Kilian, J"urgen K"orner and Karl Schilcher for a long lasting collaboration on the subject of sections 2 and 3. The results sketched in section 4 are the consequence of an inspiring collaboration with David Broadhurst.
+
+I would like to thank the organizers of this conference for their kind hospitality and support.
+
+This work was supported under grant 4 from the Australian Research Council and under grant HUCAM CHRX-CT94-0579 from the EU.
+
+References
+
+1. J. Collins, Renormalization, Cambridge Univ. Press (1984). 2. D. Kreimer, Phys. Lett.B273 (1991) 277. 3. D. Kreimer, Phys. Lett.B292 (1992) 341. 4. D. Kreimer, Phys. Lett.B347 (1995) 107. The group in Mainz is actually calculating
+
+the three-point crossed ladder two-loop topology with this method at the moment. First numerical tests look promising. 5. D. Kreimer, Mod. Phys. Lett.A Vol.9, No.12 (1994) 1105. 6. A. Czarnecki, U. Kilian, D. Kreimer, Nucl. Phys. B433 (1995) 259;
+
+A. Czarnecki, On the New Method of Computing Two-Loop Massive Diagrams, Univ. Karlsruhe preprint TTP 94-12. . 7. F.A. Berends, J.B. Tausk Nucl. Phys.B421 (1994) 456. 8. J.G. K"orner, D. Kreimer, K. Schilcher, Z.Phys.C54 (1992) 503. 9. D. Kreimer, The Role of fl5 in Dimensional Regularization, UTAS-PHYS-94-01,
+
+subm. to IJMPA. . 10. P. Breitenlohner, D. Maison, Comm. Math. Phys.52 (1977) 11,39,55. 11. R. Stemler, Diploma Thesis, Univ. Mainz. In this thesis, the methods of section 2
+
+were tested on one-loop calculations in the SM, using the unitary gauge and therefore confronting a tedious fl-algebra. 12. D. Kreimer, Z. Phys.C54 (1992) 503. 13. D. Kreimer, Int. J. Mod. Phys.A8, No.10 (1993) 1797. 14. L. Br"ucher, J. Franzkowski, D. Kreimer, Mod. Phys. Lett.A9 (1994) 2335. 15. L. Br"ucher, J. Franzkowski, D. Kreimer, Comp.Phys.Comm.85 (1995) 153. Contact
+
+`franzkowski@dipmza.physik.uni-mainz.de' for the latest version. 16. D. Kreimer, Renormalization and Knot Theory, UTAS-PHYS-94-25, subm. to J. of
+
+Knot Th. and its Ramifications. .
+
+: : : to knotted Infinities 7 17. D. Kreimer, Knots and Divergences, UTAS-PHYS-95-10, to appear in Phys. Lett.B.
+
+. 18. D.J. Broadhurst, Massless scalar Feynman Diagrams: Five Loops and Beyond, Open
+
+Univ. preprint OUT-4102-18. 19. D.J. Broadhurst, D. Kreimer Knots and Numbers in OE4 Theory to 7 Loops and Beyond,
+
+Open Univ. preprint OUT-4102-57. . 20. D.J. Broadhurst, D. Kreimer, in preparation. 21. C.C. Adams, The Knot Book, Freeman (1994).
+

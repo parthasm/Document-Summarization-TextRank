@@ -1,0 +1,376 @@
+
+
+ 22 Jul 94
+
+G"oteborg ITP 94-13
+
+June 1994
+
+Thermal versus Vacuum
+
+Magnetization in QED
+
+Per Elmfors,1,a Per Liljenberg,2,b David Persson3,b
+
+and Bo-Sture Skagerstam4,b,c
+
+aNORDITA, Blegdamsvej 17, DK-2100 Copenhagen O/, Denmark bInstitute of Theoretical Physics, Chalmers University of Technology and
+
+University of G"oteborg, S-412 96 G"oteborg, Sweden cUniversity of Kalmar, Box 905, S-391 29 Kalmar, Sweden
+
+Abstract The magnetized relativistic Fermi and Bose gases are studied at finite temperature and density. In the case of the Fermi gas, the contribution to the magnetization from the vacuum becomes dominant for high magnetic fields, when the thermal contribution saturates. In the case of the charged Bose gas, the (paramagnetic) vacuum-magnetization becomes dominant when the gas changes from a diamagnetic to a paramagnetic behaviour. We furthermore find that the scalar-QED effective coupling constant for a weak non-zero external magnetic field is a decreasing function of the temperature.
+
+1Email address: elmfors@nordita.dk. 2Email address: tfepl@fy.chalmers.se. 3Email address: tfedp@fy.chalmers.se. 4Email address: tfebss@fy.chalmers.se. Research supported by the Swedish National Research Council
+
+under contract no. 8244-311.
+
+1 Introduction The magnetostatic properties of the vacuum has hitherto not been studied to the same extent as the electrostatic case where the vacuum polarization has well-known screening effects. However, it is necessary to add the vacuum contribution to the magnetization in order that the average of the induced current equals the curl of the magnetization (see Ref.[1]). Then also the mean field equation follows from the minimization of the effective action with respect to the magnetic induction B (see below). The vacuum magnetization becomes dominant in spinor- as well as scalar-QED, at extremely high field strengths. The magnetic fields associated with collapsed magnetic stellar objects may be as high as B = O(1010)T [2] (cf. m2e=e = O(109)T). At such field strengths the vacuum magnetization starts competing with the ordinary thermal magnetization. Here we study some aspects of a an ideal QED e+e\Gamma -plasma and a charged Bose gas at finite temperature T and chemical potential _ in the presence of a static uniform magnetic field, in particularly the high field limit. The thermal Fermi and Bose gases in a high magnetic field have been studied earlier in Refs.[3, 4], but there the vacuum contribution was neglected. Since our numerical algorithms are converging faster at vanishing chemical potential, we shall mostly consider the neutral plasma, but the general behaviour is unchanged at finite density.
+
+2 The Fermi Gas The partition function Zf (B; T; _) for the relativistic ideal e+e\Gamma -plasma in presence of an external magnetic field B in a sufficiently large quantization volume V , and the corresponding thermal part of the effective Lagrangian Lfi;_eff , can be written as [5]
+
+log Zf (B; T; _)
+
+fiV j L
+
+fi;_ eff
+
+= eB2ss2
+
+1X
+
+n=0
+
+2X *=1 Z
+
+1 0 dk
+
+k2 E*;n if
+
++F (E*;n) + f \Gamma F (E*;n)j : (1)
+
+Here the energy spectrum is E*;n = qk2 + 2eB(n + * \Gamma 1) + m2, and f \Sigma F (E) are the Fermi-Dirac equilibrium distributions
+
+f \Sigma F (E) = 1exp[fi(E \Upsilon _)] + 1 ; (2)
+
+1
+
+where fi is the inverse temperature. Separating the field independent part, we writeL
+
+fi;_ eff = L
+
+fi;_ 0 + L
+
+fi;_ 1 , where
+
+Lfi;_0 j log Zf (T; _)fiV = 13ss2 Z
+
+1
+
+\Gamma 1 d!`(!
+
+2 \Gamma m2)fF (!) i!2 \Gamma m2j3=2 : (3)
+
+Here Zf (T; _) is the partition function for the field-free ideal e+e\Gamma -plasma with particle energy E = pk2 + m2 and fF (!) = `(!)f +F (!)+`(\Gamma !)f \Gamma F (\Gamma !). Using the identity
+
+exp(\Gamma jxj)j
+
+xj = Z
+
+1 0
+
+dtp
+
+2sst exp `\Gamma
+
+1 2 (x
+
+2t + 1
+
+t )' ; (4)
+
+and expanding the distribution functions under the restriction j_j ! m, we can write the field dependent part Lfi;_1 for j_j ! m as
+
+Lfi;_1 = 18ss2 X
+
+l6=0
+
+(\Gamma 1)l+1 Z
+
+1
+
+0
+
+dx
+
+x3 exp \Gamma
+
+fi2l2
+
+4x \Gamma m
+
+2x! cosh(fil_)[eBx coth(eBx) \Gamma 1] : (5)
+
+In the case _ = 0, Eq.(5) agrees with the result obtained in Ref.[6] where it was derived using thermal quantum field theory. Here we have shown that it can be directly derived from the canonical partition function. It is, however, not obvious how to generalize Lfi;_1 to j_j * m, since then it appears to be divergent due to the presence of the infinite sum in Eq.(5). The latter problem has recently been solved and we refer to Ref.[5] for a general discussion. The effective Lagrangian density is
+
+Leff = L0 +L1 +Lfi;_eff ; (6) where the tree-level part is L0 = \Gamma 1=2 B2, and L1 corresponds to the the well-known result [7]
+
+L1 = \Gamma (eB)
+
+2
+
+8ss2 Z
+
+1 0
+
+dx
+
+x3 exp(\Gamma m
+
+2 x
+
+eB )aex coth(x) \Gamma 1 \Gamma
+
+1 3 x
+
+2oe : (7)
+
+We have here performed the standard renormalizations leaving eB invariant. Notice that Eq.(7) corresponds to a renormalized l = 0 term in Eq.(5). We then obtain
+
+L1 + Lfi;_1 = \Gamma (eB)
+
+2
+
+8ss2 Z
+
+1 0
+
+dx
+
+x3 exp(\Gamma x
+
+m2 eB ) #4"0; exp \Gamma
+
+eBfi2
+
+4x !# aex coth(x) \Gamma 1 \Gamma
+
+1 3 x
+
+2oe
+
++ (eB)
+
+2
+
+6ss2
+
+1X
+
+l=1
+
+K0(lfim)(\Gamma 1)l+1 ; (8)
+
+where we have identified a #4-function, given by #4[z; q] = 1+2 P1l=1(\Gamma 1)lql
+
+2 cos(2lz). The
+
+effective Lagrangian can be used to define an effective temperature dependent coupling constant [8]
+
+1
+
+e2eff = \Gamma
+
+1 eB
+
+@Leff @(eB) : (9)
+
+2
+
+For weak fields, eB o/ m2, and for T AE m the last term in Eq.(8) dominates and the corresponding effective coupling agrees with a conventional renormalization group calculation [5], which can be showed using the expansion P1l=1 K0(xl)(\Gamma 1)l+1 ! \Gamma 1=2 log x as x ! 0.
+
+An external field is included by adding a term Lext = jext \Delta A to Leff. Here jext is the external current which is independent of the dynamics of the system considered, such that r \Theta H = jext, and A is the vector potential B = r \Theta A . Neglecting a boundary term at infinity we rewrite Lext = B \Delta H. The mean field equation
+
+B = H + M (B) ; (10) is then obtained by minimizing the effective action with respect to B, where we have included the vacuum contribution Mvac in the magnetization, i.e.
+
+M = M fi;_ + Mvac = @@B (Lfi;_1 + L1) : (11) We find that the thermal part M fi;_ of the magnetization saturates for high fields (ff = e2=4ss)
+
+eM fi;_ ss ffss3 T 2 ; peB ? T AE m : (12)
+
+This was discussed in Ref.[3], but without considering the vacuum contribution
+
+eMvac ss ff3ss eB log(eB=m2) ; eB AE m2 ; (13) that starts to dominate when eB log(eB=m2) * ss2T 2. We have numerically evaluated Mvac and M fi;_ and the result is presented in Fig.1. In order to improve the convergence in the numerical calculation we have found it convenient to write Eq.(8) in the formR
+
+1 0 dxf (x) = R
+
+ffl 0 dxf (x) + R
+
+1 ffl dxf (x) and to perform a modular transformation x ! 1=x
+
+in the last integral. One can then choose ffl = 1=ss in order to obtain a numerically rapidly
+
+converging integral. As a curiosity we observe that Eq.(10) has a solution for vanishing external field H = 0, but a non-zero microscopic field B at eB=m2 ss exp(3ss=ff). This would mean that a spontaneous magnetic field would be generated at the Landau-ghost pole and therefore lead to a breakdown of Lorentz invariance. Perturbation theory can, however, not be naively extrapolated to such very large magnetic fields so any spontaneous vacuum magnetization cannot be concluded from the present calculation.
+
+The magnetic susceptibility, O/ = @M=@B, is a measure of the fluctuations of the magnetization. If only the thermal part of the free energy is retained one would erroneously conclude that O/ ! 0 [3] and that there would be no fluctuations in M in the large B limit.
+
+3
+
+0:1 1 10 100 1000
+
+eB=m2
+
+10\Gamma 5
+
+10\Gamma 4 10\Gamma 3 10\Gamma 2 10\Gamma 1 10\Gamma 0
+
+eM=m2
+
+T =m = 0:5
+
+T =m = 1 T =m = 2 T =m = 4
+
+Figure 1: The vacuum (dotted line) and thermal parts of the magnetization for a neutral Fermi gas. Notice that the thermal contribution saturates for large values of the magnetic field.
+
+3 The Bose Gas The formalism used in the previous section applies also to scalar-QED. The energy spectrum is now given by En = qk2z + (2n + 1)eB + m2 and the one-particle distributions are
+
+f \Sigma B (E) = 1exp[fi(E \Upsilon _)] \Gamma 1 : (14)
+
+It is rather straightforward to obtain the vacuum correction [7]
+
+L1 = 116ss2 Z
+
+1
+
+0
+
+ds
+
+s3 exp(\Gamma m
+
+2s) ( eBs
+
+sinh(eBs) \Gamma 1 +
+
+(eBs)2
+
+6 ) : (15)
+
+to the effective action. Proceeding as in the previous section we find the field independent thermal part
+
+Lfi;_0 j log Zb(T; _)fiV = 16ss2 Z
+
+1
+
+\Gamma 1 d!`(!
+
+2 \Gamma m2)fB(!) i!2 \Gamma m2j3=2 ; (16)
+
+where Zb(T; _) is now the partition function for the field independent ideal charged boson gas with particle energy E = pk2 + m2 and fB(!) = `(!)f +B (!)+`(\Gamma !)f \Gamma B (\Gamma !). In the
+
+4
+
+0:1 1 10 100
+
+eB=m2
+
+10\Gamma 6
+
+10\Gamma 5 10\Gamma 4 10\Gamma 3 10\Gamma 2 10\Gamma 1
+
+jeM j =m2
+
+T =m = 0:5
+
+T =m = 1
+
+T =m = 2 T =m = 4
+
+Figure 2: The vacuum part (dotted line) and the modulus of the thermal part of the magnetization for a neutral Bose gas. Notice that the thermal contribution actually is negative, and that the thermal part of the magnetic susceptibility is changing sign.
+
+bosonic case we always have j_j ^ m. The field dependent part of the effective action can then generally, in analogy to the previous section, be written in the form
+
+L1 + Lfi;_1 = (eB)
+
+2
+
+16ss2 Z
+
+1 0
+
+dx
+
+x3 exp(\Gamma x
+
+m2 eB ) #3"ifi_; exp \Gamma
+
+eBfi2
+
+4x !# (
+
+x sinh(x) \Gamma 1 +
+
+1 6 x
+
+2)
+
+\Gamma (eB)
+
+2
+
+24ss2
+
+1X
+
+l=1
+
+K0(lfim) cosh(lfi_) ; (17)
+
+where #3[z; q] = 1 + 2 P1l=1 ql
+
+2 cos(2lz). For weak fields, eB o/ m2, and for T AE m the
+
+last term in Eq.(17) dominates and can be used to calculate the effective temperaturedependent coupling as in the previous section. One then uses the expansion P1l=1 K0(xl) ! ss=(2x) + 1=2 log x as x ! 0. Even though the coefficient in front of the logarithmic term in this case agrees with an asymptotic renormalization group analysis, the term linear in T leads to an effective coupling which is a decreasing function of the temperature. The difference between bosonic and fermionic QED, in this respect, can be understood from a one-loop calculation of the photon polarization tensor. Since we consider a static magnetic field we do not obtain any dominant thermal mass of order e2T 2. For fermions the leading high T term is a logarithm which is related to the UV divergence and the
+
+5
+
+coefficient is the same as for the standard fi-function. In the bosonic case there is an IR divergence at high T from the Bose-Einstein distribution which generates a term linear in T . One can easily verify that the coefficient from the polarization tensor agrees with the one obtained from Eq.(17).
+
+One can, furthermore, verify that the vacuum contribution L1 dominates over the thermal parts of the effective action if the magnetic field is sufficiently large. We have numerically evaluated Mvac and M fi;_ and the result is presented in Fig.2. We see that the vacuum contribution starts to dominate the magnetization of the system when the gas changes from a diamagnetic to a paramagnetic behaviour.
+
+ACKNOWLEDGEMENT
+
+One of the authors (B.-S. S.) thanks NFR for providing the financial support. It is a pleasure to thank the organizers of the 3rd Workshop on Thermal Field Theories, 1993, for providing a stimulating atmosphere during which parts of the present work were initialized. We also thank A. Sj"olander for a stimulating discussion.
+
+References
+
+[1] P. Elmfors, P. Liljenberg, D. Persson and B.-S. Skagerstam, "Condensation and Magnetization of the Relativistic Bose Gas", preprint G"oteborg ITP 94-12.
+
+[2] V. Ginzburg, "High Energy Gamma Ray Astrophysics" (North Holland, Amsterdam,
+
+1991); S. L. Shapiro and S. A. Teukolsky, "Black Holes, White Dwarfs and Neutron Stars, The Physics of Compact Objects " (Wiley, New York, 1983); G. Chanmugam, "Magnetic Fields of Degenerate Stars", Ann. Rev. Astron. Astrophys. 30 (1992) 143; J. R. P. Angel, "Magnetic White Dwarfs", Ann. Rev. Astron. Astrophys. 16 (1978) 487; J. D. Landstreet, "Magnetic Fields at the Surfaces of Stars", The Astron. Astrophys. Rev. 4 (1992) 35; R. Narayan, P. Paczy'nski and T. Piran, "Gamma-Ray Bursts as the Death Throes of Massive Binary Stars", Ap. J. Lett. 395 (1992) L83.
+
+[3] D. Miller and P. S. Ray, "Thermodynamics of a Relativistic Fermi Gas in a Strong
+
+Magnetic Field", Helv. Phys. Acta 57 (1984) 96 and "Limiting Particle Density of a Relativistic Fermi Gas in a Magnetic Field", Helv. Phys. Acta 57 (1984) 704.
+
+6
+
+[4] J. Daicic, N. E. Frankel and V. Kowalenko, " Magnetized Pair Bose Gas: Relativistic Superconductor", Phys. Rev. Lett. 71 (1993) 1779; J. Daicic, N. E. Frankel, R. M. Gailis and V. Kowalenko, "Statistical Mechanics of the Magnetized Pair Quantum Gases", Phys. Rep. 237 (1994) 63.
+
+[5] P. Elmfors, D. Persson and B.-S. Skagerstam, "The QED Effective Action at Finite
+
+Temperature and Density", Phys. Rev. Lett. 71 (1993) 480 and "Real-Time Thermal Propagators and the QED Effective Action for an External Magnetic Field", Astroparticle Physics (in press).
+
+[6] W. Dittrich, "Effective Lagrangians at Finite Temperature", Phys. Rev. D19 (1979)
+
+2385.
+
+[7] J. Schwinger, "On Gauge Invariance and Vacuum Polarization", Phys. Rev. 82 (1951)
+
+664 and "Particles, Sources and Fields", Vol. 3 (Addison-Wesley Pub. Co., 1988).
+
+[8] A. Chodos, D. A. Owen and C. M. Sommerfield, "Strong Field Dependence of the
+
+Fine Structure Constant", Phys. Lett. 212B (1988) 491.
+
+7
+

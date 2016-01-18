@@ -1,0 +1,383 @@
+
+
+
+
+
+
+Gell-Mann­Low Function in QED
+
+I. M. Suslov
+Kapitza Institute for Physical Problems, Russian Academy of Sciences, ul. Kosygina 2, Moscow, 117973 Russia
+e-mail: suslov@kapitza.ras.ru
+
+
+
+The Gell-Mann­Low function (g) in QED (g is the fine structure constant) is reconstructed. At large g, it
+behaves as g with 1 and 1.
+PACS numbers: 12.20.Ds; 11.10.Gh
+
+
+Recently a present author [1, 2] developed a meth- Integration with respect to the fermion fields gives
+od of summation divergent perturbation series with
+arbitrary coupling constants. With this method, infor- Z , = DAA(x )...A(x )G(y , z )...G(y , z )
+
+mation about all terms of the series is obtained by the M L 1 M 1 1 L L
+interpolation of the known first terms with their Lipatov × det(i ­ m + eA)
+asymptotics [3]. In this paper, this method will be used to (2)
+reconstruct the Gell-Mann­Low function in QED.
+× 1
+exp ­--- 4x(µA ­ Aµ)2
+d
++ ...,
+Lipatov's method [3] is based on the saddle-point 4
+
+calculation of path integrals near instanton configura-
+tions and is being questioned because of the possible where G(x, x') is the Green's function for the Dirac
+renormalon contributions [4]. Formally, the asymptotic operator
+behavior of perturbation theory is determined by the
+singularity nearest to the origin in the Borel plane. (i ­ + e )G(x, x') = (x ­ x'), (3)
+m A
+Whereas the presence of instanton singularities is
+beyond question, the existence of renormalon singular- and the ellipsis stands for the terms with other pairings
+ities has never been proved, which is acknowledged by of (y ) and z
+( ) . Estimations show that the quantity
+the most active advocates of this direction [5]. Having i k
+been proved in [6], the absence of renormalon singular- eA(x) is large for the saddle-point configuration and
+ities in the 4 theory casts doubt on the renorma- the asymptotic form of the determinant at e i can
+lon concept as a whole, although similar proofs are be used, because the growth rate is maximal at imagi-
+lacking for other field theories. In such a situation, nary e values [9]:
+it is possible to assume that the renormalon singulariti-
+es are absent. e4 4
+ln det(i ­ + e ) = ----------- d x A2
+( )2. (4)
+m A
+
+1. The asymptotics of perturbation theory for QED 122
+was discussed in the late 1970s [7­9]; all fundamental
+problems were solved by Bogomolny and Fateyev This result is not gauge invariant and is only valid for a
+[8, 9], but no results for specific quantities was obtain- specifically chosen gauge; it can be obtained for slowly
+ed. Below, we partially fill this gap. varying fields or for configurations with a sufficiently
+high symmetry [9]. Taking Eq. (4) into account, a path
+The vertex with M photon and 2L electron free lines integral with effective action
+is determined by the path integral
+
+4 1 2
+Z = ( )... A(x )(y ) z
+( )...(y ) S { A} = d x ---
+( ­ )2 4---g2(A )2
+­ ,
+M, DAD DA x
+L 1 M 1 1 L
+eff
+4 µA Aµ 3
+(5)
+
+× 4 1
+z
+( ) exp ­ x ---( ­ )2
+d e2
+L 4 µA Aµ
+(1) g = 4
+------,
+
+
+appears in Eq. (2); the asymptotic form of perturbation
+-+ (i ­ m + e A) .
+theory for this action can be found by Lipatov's
+method. Its structure is determined by the homogeneity
+
+
+0191
+
+
+192 SUSLOV
+
+properties of the action [10]; when g2 is used as a cou- High-order coefficients in the expansion of the
+pling constant, these properties are the same as in the 4 Gell-Mann­Low function (g) = ­
+( g)N coin-
+
+theory, and the general asymptotic term has the form N
+N
+cide, except for a constant factor, with the coefficients
+c S­N
+0 (N + b)g2N, where S0 is the instanton action. In for the invariant charge [3], which is determined in the
+actuality, the expansion is in arbitrary integer (not only electrodynamics by the quantity gD, where D is the
+even) g powers, and the general term is c S­N/2 photon propagator (M = 2, L = 0). The general asymp-
+0 (N/2 + totic term is D
+b)gN.1 Taking the value of instanton action into account, N(­g)N + 1 ~ NZN(­g)N + 1 or NZN ­ 1(­g)N ~
+one obtains for the Nth-order contribution to the vac- N1/2ZN(­g)N, from whence it follows that
+uum integral (M = 0, L = 0) [8]:
++
+
+= const × 4.886­N N 12
+---------------- , N . (10)
+33/2
+N/2 +
+N 2
+Z (­g)N = const -------- N r
+------------- (­g)N, (6)
+N
+43 2
+The same result is obtained if the invariant charge is
+where r = 11 is the number of zero modes including determined through the triple vertex (M = 1, L = 1). In
+four translations, a scale transformation, and six four- this case, the dominant contribution to the asymptotic
+dimensional rotations (instanton corresponds in sym- expression comes from the amputation of the photon
+metry to a rigid body of an irregular shape). line.
+In the general case, the functional form of the result 2. The following four terms of the -function expan-
+can be found by structural calculations described in sion in the MOM scheme are known [11]
+[10] and reduced to dimensional analysis. It is easy to
+show that ec ~ N­1/4 and Ac(x) ~ N1/2 for the saddle-point 4 202
+configuration. To find the dimension of G(x, x'), con- g
+( ) = ---g2 4g3 64
+------ 3
+( ) ­ --------- g4
++ +
+sider the Dyson equation 3 3 9
+(11)
+256 1280
+G(x, x') = G (x ­ x') + --------- ­ ------------
+0 + 186 3
+( ) 5
+( ) g5 + ... .
+(7) 3 3
+4
+­ d yG (x ­ y)e ( )G(y, x')
+0 A y
+The series summation procedure should be somewhat
+which follows from Eq. (3). In order to clarify the struc- modified as compared to [1, 2], because Lipatov's
+ture of the solution, let us consider the scalar analogue asymptotic expression has the form caN(N/2 + b)
+of Eq. (7) and assume that the function A(x) is strongly instead of caN(N + b). The Borel transform B(z) is
+localized near x = 0; one can then set G(y, x') G(0, x') defined as
+in the integral, after which the equation is easily solved:
+G(x, x') = G (x ­ x') ­ b ­ 1
+0
+0 g
+( ) = dxe x x B(ag x),
+
+4
+G ­
+( x') d yG (x ­ y)e ( ) 0
+0 0 A y (8)
+(12)
+­ -------------------------------------------------------------------------.
+4
+1 + d yG (­y)e ( )
+0 A y
+B z
+( ) = B ­
+( z)N, B
+N
+= -----------------------------------,
+N N aN(N/2 + b )
+N = 0 0
+Because eA(x) ~ N1/4 and Eq. (8) is finite in the limit
+e , one has G(x, x') ~ N0. It is natural to expect where b0 is an arbitrary parameter. The conformal map-
+that this result is general and is not caused by the ping z = u/(1 ­ u) of the Borel transform provides a con-
+above assumptions. The Nth-order contribution to the vergent series in u with the coefficients
+integral in Eq. (1) has the form
+N
+
+33/2
+N/2 + +
+U = B (­1)KCK ­ 1( N 1), U = , (13)
+B
+const -------- N r M
+------------------------ (­g)N (9)
+N K N ­ 1 0 0
+43 2 K = 1
+
+for even M and, with the extra factor eN1/4, for odd whose large-N behavior
+M values.
+
+1 ­ 1
+The direct expansion of Eq. (2) in powers of the last term in U = U , U = ---------------------------------------------- (14)
+N N
+Eq. (5) is incorrect, because the functional integration will then a () b
+( + /2)
+0
+include the configurations for which result (5) is invalid. The cal-
+culation should be carried out by the saddle-point method, which
+yields a continuous function of N; the fact that it must be taken at determines the parameters of the asymptotic expression
+the integer or half-integer points is an external condition. (g) = g at g .
+
+
+GELL-MANN­LOW FUNCTION IN QED 193
+
+The interpolation is performed for the reduced coef-
+ficient function
+
+A A
+F N
+= ------ = A 1
++ -------------- 2
++ --------------------- + ...,
+N as 0 ( )2
+N N N
+~
+­ N N
+~
+­ (15)
+
+as = aNNb~(N/2 + b b~
+­ ),
+N
+
+
+
+by cutting off the series and choosing the coefficients AK
+so that Eq. (15) coincides with the known FN values.
+
+Optimal parametrization corresponds to
+b~ = b ­ 1/2 =
+
+5.5 [2], while the parameter
+N
+~ is used for checking on
+the stability of the results and for numerical optimiza-
+tion. In contrast to the 4 theory [1, 2], the common coef-
+ficient in the asymptotic expression (10) is unknown. Fig. 1.
+Technically, this is not a problem because the
+parameter
+A0 in Eq. (15) is not considered as known but
+is found by interpolation. However, this leads to a much
+greater uncertainty in the function FN; its first values (in
+units of 10-3) F 2 = 63.1, F3 = ­7.02, F4 = 0.34, and F5 =
+1.23 exhibit only a weak tendency to become a constant,
+and the predicted value A0 = lim F changes by several
+N
+N
+
+orders of magnitude with changing N
+~ . At first glance,
+no reasonable results can be obtained in such a situa-
+tion.
+
+However, the algorithm used for determining the
+asymptotic form of (g) is, in a sense, "superstable":
+the addition of an arbitrary mth-order polynomial
+Pm(N) to BN does not change the coefficients UN at N
+m + 2 [2]. This property can be generalized for a wide
+class of smooth functions: a change in UN caused by the
+replacement BN BN + f(N), where f(N) is an integer
+function with rapidly decreasing Taylor-series coeffi-
+cients, rapidly decreases with N. Thus, smooth errors
+are immaterial even if they are large. In contrast, the
+nonsmooth errors lead to a catastrophic effect, which
+can be used for optimization: if the interpolation
+procedure is not satisfactory, the behavior of UN at
+large N cannot be interpreted in terms of a power-law
+dependence [2]. Fig. 2.
+
+To check this argumentation, a test experiment was
+carried out for the 4 theory. The use of complete infor- tory.2 Clearly, the results obtained below should only
+mation [i.e., coefficients 2­5 and parameters A0 and be treated as a zero approximation.
+A1 in Eq. (15)] gave = 0.96 ± 0.01 and = 7.4 ± 0.4
+[2]; the same procedure without the use of A0 and A1 Following [2], let us approximate UN by the power-
+gave = 1.02 ± 0.03 and = 1.7 ± 0.3. Taking into law dependence for a fixed interval 20 N 40 and dif-
+account that the uncertainty in the coefficient function ferent b0 and N~ values. The 2 dependence on N~
+(estimated through varying N
+~ by ~1 near its optimal
+2
+value) amounts to few percent in the first case and more The difference in the values is not controlled by the estimated error,
+but this is quite explainable: the procedure proposed in [2] for
+than an order of magnitude in the second, one can con- estimating errors is only justified in the vicinity of the exact
+clude that such a stability of the results is quite satisfac- result, where all deviations can be linearized.
+
+
+194 SUSLOV
+
+minima of 2 at b0 = ­'/2, ­''/2, ..., where the respec-
+tive corrections to Eq. (14) vanish, are closest to the
+exact value 1 [2].4
+
+Figure 3a shows different estimates for the index
+1.0
+as a function of N
+~ [2]: (1) from the value of eff at the
+2 minima corresponding to ' and ''; (2) from the
+position of the 2 minimum corresponding to b0 = ­/2;
+(3) from a change in sign of U when processing by
+taking the logarithm of UN (solid line in Fig. 2b); and
+(4) the same but for processing with a fixed index
+(dashed line in Fig. 2b). Figure 3b shows different esti-
+mates obtained for : (1) from the U value at the 2
+minima corresponding to ' and '' and (2) and (3) from
+the slope of the linear portion of the U(b0) dependence
+1.0 near the root (upper and lower estimates, respectively).
+The discrepancy between different estimates gives a
+
+measure of uncertainty of the results. For N
+~ 0.25, the
+0.5 results for are consistent with a value slightly smaller
+than unity. For N
+~ > 0.25, there is a systematic increase
+to 1.08, which is not controlled by the estimated error, but the 2
+minima are ill-defined and unstable in this case. Similar behavior is
+observed for . We take, as the most reliable, values in the
+Fig. 3. middle of the chosen
+N
+~ interval, and accept the conser-
+vative estimates for the accuracy including systematic
+changes:
+
+= 1.0 ± 0.1, = 1.0 ± 0.3. (16)
+
+
+
+It follows from above that even this estimate of error is
+not reliable.
+
+It is easy to sum up the series for arbitrary g by cal-
+culating the UN coefficients in Eq. (13) for N 30 and
+continuing them according to the asymptotic expres-
+sion found for U
+Fig. 4. N ­ 1. Figure 4 shows the results for
+
+N
+~ = 0.2 and b0 = 0. The one-loop law 2g2 matches the
+asymptotic dependence
+(Fig. 1) enables one to select a set of interpolations g at g ~ 10. At g < 5, (g)
+differs only slightly from the one-loop result. Within
+(-0.5 N
+~ 1.0) for which the power-law behavior of the accuracy adopted, the asymptotic expression for
+UN is probable. The typical dependences of 2 and (g) coincides with the upper limit of inequality 0
+effective values of U and on b
+0 (Fig. 2) indicate that (g) < g, which was derived in [12] from spectral con-
+1.3 Indeed, the quantity U reverses its sign [see siderations. For = 1 and = 1, the fine structure con-
+Eq. (14)] at b stant in pure electrodynamics increases at small dis-
+0 = ­/2 ­0.5. At the same b0 value, 2
+has a minimum, which corresponds to the fact that the tances L as L­2.
+leading contribution UN ­ 1 vanishes and the power- This work was supported by INTAS (grant no. 99-
+law dependence UN ~ N' ­ 1 prevails, where the index ' 1070) and the Russian Foundation for Basic Research
+corresponds to the next correction to the asymptotic (project no. 00-02-17129).
+expression for (g) (it is assumed that (g) = g +
+4
+g' + g'' + ... at large g). The values of In the test examples, minima of 2 are usually observed only for
+
+' '' eff at the and ' [2]. The appearance of additional minima is probably
+specific to a small amount of information; it was observed in the
+3 For technical reasons, Fig. 2 shows the quantity U~ = U
+(b0 + 1). above-mentioned test experiment for the 4 theory.
+
+
+GELL-MANN­LOW FUNCTION IN QED 195
+
+REFERENCES 7. C. Itzykson, G. Parisi, and J. B. Zuber, Phys. Rev. D 16,
+996 (1977); R. Balian, C. Itzykson, G. Parisi, and
+1. I. M. Suslov, Pis'ma Zh. Éksp. Teor. Fiz. 71, 315 (2000) J. B. Zuber, Phys. Rev. D 17, 1041 (1978).
+[JETP Lett. 71, 217 (2000)]. 8. E. B. Bogomolny and V. A. Fateyev, Phys. Lett. B 76B,
+2. I. M. Suslov, Zh. Éksp. Teor. Fiz. 120, 5 (2001) [JETP 210 (1978).
+93, 1 (2001)]. 9. E. B. Bogomolny, V. A. Fateyev, and L. N. Lipatov, Sov.
+3. L. N. Lipatov, Zh. Éksp. Teor. Fiz. 72, 411 (1977) [Sov. Sci. Rev., Sect. A 2, 247 (1980).
+Phys. JETP 45, 216 (1977)]. 10. I. M. Suslov, Zh. Éksp. Teor. Fiz. 117, 659 (2000) [JETP
+4. G. t'Hooft, in The Whys of Subnuclear Physics: Pro- 90, 571 (2000)].
+ceedings of the 1977 International School of Subnuclear 11. S. G. Gorishny, A. L. Kataev, S. A. Larin, and L. R. Sur-
+Physics, Erice, 1977, Ed. by A. Zichichi (Plenum, New guladze, Phys. Lett. B 256, 81 (1991).
+York, 1979). 12. N. V. Krasnikov, Nucl. Phys. B 192, 497 (1981); H. Yam-
+5. M. Beneke, Phys. Rep. 317, 1 (1999), Sect. 2.4. agishi, Phys. Rev. D 25, 464 (1982).
+
+6. I. M. Suslov, Zh. Éksp. Teor. Fiz. 116, 369 (1999) [JETP
+89, 197 (1999)]. Translated by R. Tyapaev
+
+
+

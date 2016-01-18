@@ -1,0 +1,203 @@
+VIII Int. Workshop on High Energy Physics. Zvenigorod, Russia. 15-21 Sept. 1993. INP MSU: Moscow, 1994
+ corrected 7 Nov 1998
+
+
+ON DIMENSIONAL REGULARIZATION AND MATHEMATICAL RIGOUR
+
+
+F.V. Tkachov#1
+
+Institute for Nuclear Research of the Russian Academy of Sciences, Moscow 117312, Russia
+
+
+The controversy concerning the phenomenon of breakdown of dimensional regularization in the problems involving asymptotic
+expansions of Feynman diagrams in non-Euclidean regimes is discussed with some pertinent bibliographic comments.
+
+
+
+
+I would like to clarify some points in the discus- one encounters the singularity at = 0 generated
+sion of whether or not the dimensional regulari- after the denominator is Taylor-expanded in , and
+zation [1] (see also [2]) breaks down in the explicit that singularity is not regulated by 0 . The simp-
+and very simple example presented in [3]. The lest manifestation of this is that one will not be able
+example is a one-loop scalar triangle diagram with to perform the integration in the expanded expres-
+only one non-zero internal mass m in the horizon- sion termwise--even at = 1 (4 - D) 0 -- without
+2
+tal "gluon" propagator in the figure below. One running into infinities. It is hard to imagine how the
+considers the case when Q2 ( p p 2
+= - - ) ±
+1 2 standpoint of ref. [4] could be defended in view of
+with m fixed and p2 = 0 , and the explicit evidence provided by eq. (1).
+i
+q
+one attempts to construct a To reiterate: if one attempts to expand the above
+perfectly factorized asymptotic triangle graph in powers and logarithms of (i.e.
+2 expansion (a one-loop Sudakov to perform a factorization), then the first subtraction
+1
+k analogue of OPE). Then the one has to make corresponds to the collinear singu-
+soft singularity corresponding larities, and after collinear subtractions, the resul-
+p p
+1 3 2 to the gluon can not be regula- ting expression--as was found in [3]--contains a
+ted by dimensional continu- singularity that is not regulated by dimensional
+ation after the first subtraction (corresponding to continuation. This pathology persists (as it should)
+collinear singularities) is done. irrespective of the representation one uses (e.g. it is
+Surprisingly, our finding was disputed in [4] manifest in the above integral representation).
+which concluded that "one should not be afraid of It should be stressed that the errors in [4] were
+using dimensional regularization in practical calcu- committed at the level of interpretation rather than
+lations connected with the Sudakov limit". calculations. Indeed, ref. [4] failed to point out any
+Referring the reader for a detailed critique of [4] concrete mistakes in [3], and the simple calculation
+to [5], I'd like to discuss some additional points. performed in [4] (which correctly found the pre-
+ v4 23 Nov 1998 Without further ado, let me present an exact sence of the second logarithm in the expansion--a
+expression (pointed out by N. Ussyukina) for the logarithm that is clearly not associated with poles in
+arXiv: v4 23 Nov 1998 triangle graph in terms of Feynman parameters in ) confirms rather than disproves the conclusions
+which integrations over two of the three Feynman of [3].
+parameters have been done (an interested reader Ref. [4] contains statements that are breathtaking
+will easily reproduce it): to an expert--e.g. that some UV divergences may
+cancel IR ones (recall the proverbial apples and
+1 - -
+1 d [ ]
+× oranges)--a revelation declared in [4] to constitute
+1
+( - -
+
+) -
+z , (1)
+2 1
+Q ( + ) - a "principal new feature" of the expansion problem
+0 in non-Euclidean asymptotic regimes (see [5] for an
+explanation of the origin of this fallacy).
+where = m2 / Q2 > 0 , and a trivial overall coeffi- The misinterpretations of [4] are not accidental.
+cient is dropped. The representation of the diagram They are fortified by references to the book [6] that
+in terms of hypergeometric functions quoted in [4] purports to provide an uncompromisingly
+can be directly obtained from this. "rigorous" account of the state of the art in the
+If one attempts to extract the powers and loga- theory of multiloop calculations and asymptotic
+rithms of 0 prior to integration over , then properties of Feynman diagrams. Because all our
+
+
+#1 E-mail: ftkachov@ms2.inr.ac.ru
+
+
+knowledge comes at second hand in some way, a a "rigorous" lower level formalism is only a matter
+number of theorists took for granted the awesome of having spare time and nothing better (sic!) to do.
+rigor of [6] and were misled by [4]. Further, consider the method of defining dimensi-
+Therefore, I would like to take the bull by the onally regulated diagrams via the -parametric
+horns and examine the book [6] itself. A book representation described in [6]. It implements, in a
+review being a perfectly legitimate scientific genre, most straightforward fashion, the elementary idea of
+it is also clear that (i) to trace the origins of a splitting the integration domain into as many
+misconception is no less instructive than those of a sectors à la Sudakov-Hepp as needed to make the
+discovery; (ii) the apparent discrepancy between the integral in each subdomain absolutely convergent
+grandiose formalism of [6] and the elementary for some values of D , and then using trivial tricks
+nature of the errors of [4] may be the most puzzling (integration by parts) to perform analytical continu-
+aspect of the current dispute; (iii) references to the ation. (Apart from minor modifications, the forma-
+"rigor" of [6] constitute to many (let us face it) the lism of this kind was thoroughly worked through in
+single most convincing argument of [4]. [11].) This is extremely cumbersome (like program-
+The proof of the pudding is in the eating. Why ming in machine codes)--and it is also obvious that
+mathematical research into the nature of multiloop an intermediate layer of abstraction is missing to
+Feynman diagrams should be judged otherwise? hide the ugly details (cf. high level programming
+Indeed, it is useful inasmuch as one can learn some- languages). The method of [6] is also totally impra-
+thing from it about how to deal with those noto- ctical--the resul ting formalism is far too cumberso-
+riously complex beasts. (One could argue that such me to induce any calculationist to use it to check a
+a research could be interesting from the point of new trick. The reader is left in disappointment to
+view of pure mathematics, but there is nothing decide whether or not to trust the outlines of proofs
+in [6] worth mentioning in that respect.) presented in [6].
+The design of ref. [6] is simple. It outlines a An examination of the journal publications on
+method of purportedly rigorous definition of dimen- which ref. [6] is based reveals that the actual proofs
+sionally regulated Feynman diagrams, and then it are as a rule omitted there as being "technical"
+sketches how the method could be used to while most of the text consists of lengthy formu-
+"rigorously prove" many well-known results in lations of "theorems" that simply rephrase other
+applied QFT. An unwary reader will be impressed people's results in an obscure formal manner. But
+by the formidable formalism, while the biblio- what is then the claim of the author of [6]? If the
+graphic comments are phrased in such a way as to proofs are not worth publishing in full, why are they
+leave no doubt that the formulae calculationists had as important as ref. [6] attempts to convince us?
+been using for years in highly non-trivial calcu- And the crucial question: if those proofs are so
+lations, did not, really, exist before they were cumbersome that cannot be presented in full, who
+declared "rigorously proved" by the author of [6]. and how should prove that they are correct?
+A closer examination, however, reveals the fol- An experienced theorist would of course never
+lowing interesting circumstance. All more or less rely on such an evidence and would always prefer
+significant results described in [6] (starting from the concrete checks of his/her findings (calculations,
+results on singular structure of Feynman diagrams formulas etc.) by another method. Meaningful--
+[8]) were found by other authors by other methods even if not completely formalized--heuristics are
+(which the author of [6] did not bother to describe), incomparably more useful in that respect than the
+in some cases confirmed by as many as three groups sterile rigor of obscure "proofs".
+(e.g. [7], [9], [10]); have been checked for self- Ref. [6] also contains a compilation of formulas
+consistency in dozens of sophisticated calculations for multiloop calculations. The compilation is, un-
+(e.g. [12]); the complexity of those results should derstandably, rather indiscriminate--it takes a first-
+leave no doubt that their authors certainly knew hand experience of real-life calculations to make
+what they were doing. To translate their heuristics such a compilation useful. Instead, the emphasis of
+(if one may thus qualify their exact algorithms) into [6] is on justification of the tricks within dimen-
+sional regularization. However, the "justi fication" is
+
+
+F.V.Tkachov  156
+
+
+
+mostly reduced to formal references to the cumber- Unfortunately, a student of Applied Quantum
+some constructions of dimensionally regularized Field Theory seeking insight into the nature of
+diagrams described previously. multiloop Feynman diagrams, will not profit
+The last chapters of [6] present a version of from [6]. Motivation, heuristics, and understanding
+"proof" of general Eucli dean asymptotic expansions are the concepts banished from the compilation [6]
+of Feynman diagrams in the MS scheme discovered with the utmost "rigor" of an empty formalism.
+and verified in different ways by three groups of Acknowledgments. I thank E. Kazes for lending
+authors [7], [9], [10], where all the formulas that me a copy of ref. [6], J. Collins for discussions, and
+are needed in practical calculations were found and N. Ussyukina for pointing out the representation (1).
+subsequently verified in several record-setting 3- to
+5-loop calculations (for a review see [7]). Ref. [6] ¢¡¤£¦¥¨§©£©¥ !©#"$%&¡'§©£©(¤)0©1"'¡325476¢¡398@¥A§B"¨¥
+C¡¤£¦¥A§D©E£©¥ !©#"$%3¡F§D©E£©(G)0©(1"D'¡3254'6¢¡398@¥¨§¨"¨¥
+
+
+
+
+
+treats the pioneer publications--the publi cations ¥¨§©E6IHI§A)0P¤§"¨£©#"DQQ5£B¡¤RS©(T
+¥¨§D©E6IHI§3)0P¤§F"A£D©#"QUQ5£¨¡¤RS©(T
+
+
+
+
+
+that contributed to defining the state of the art in '"¨6V!©'"DT!©'"D2)XW©(¥Y"D'¡3254'6¢¡3
+'"¨6V!©'"DT!©'"D2)XW©¥1"D'¡3254'6C¡3
+
+
+
+
+
+multiloop calculations--with dismis sive (sometimes `3a0bdc¢e(fhgpi&b¤qhgXrGi¨as@`¨`tu`¨v
+
+
+
+
+
+grossly misleading) small-print comments. Appa-
+rently, those papers are not up to the standards of References
+"rigor" of [6]. But a more likely reason is that the [1] G. ' t Hooft and M. Veltman:
+Nucl. Phys. B44
+book [6] contains hardly any genuinely new ideas or (1972) 189.
+results as compared with the original publications of [2] J. C. Collins: Renormalization. Cambridge:
+the other authors. In fact, the version of proofs Cambridge University Press, 1984.
+described in [6] is extremely cumbersome and [3] J. C. Collins and F. V. Tkachov: Phys. Lett.
+exhibits the worst features of the BPHZ method (cf. B294 (1992) 403.
+the discussion in [7])--for lack of space I cannot [4] V. A. Smirnov: Phys. Lett. B309 (1993) 397.
+quote e.g. the incomprehensible definition of IR [5] J. C. Collins and F. V. Tkachov: The dimen-
+subgraphs given in [6], to be compared with the sional regularization cannot be salvaged in
+simple criterion of the original publications (see the Sudakov problem (to be published)
+[7]). And again, neither ref. [6] nor the journal [6] V. A. Smirnov: Renormalization and asympto-
+publications it is based upon contain complete tic expansions. Basel: Birkhäuser, 1991.
+proofs. [7] F. V. Tkachov: Advanced methods for study-
+The nature of the book [6] explains the fiasco of ing radiative corrections. Theory of asymp-
+[4]: all of the meaningful problems considered and totic operation. Sov. J. Nucl. Phys. 56 (1993)
+"proved" in [6] had already been posed, thought out 180 , and refs. therein.
+and solved by others. Ref. [4] marked the first time [8] M. Sato, T. Miwa, M. Jimbo, and T. Oshima:
+the author of [6] ventured to consider a genuinely Publ. RIMS 12, Suppl. (1977) 387.
+novel and delicate problem. [9] C. H. Llewellyn Smith and J. P. de Vries:
+Mathematics is not about rigor--or, at least, not Nucl. Phys. B296 (1988) 991.
+about that bad kind of rigor that hides a lack of [10] S. G. Gorishny: Nucl. Phys. B319 (1989) 633.
+genuine ideas. Like any natural science, a good [11] O. I. Zav' yalov: Renormalized Feynman diag
+-
+mathematics is first and foremost about understand- rams. Moscow: NAUKA, 1979 (in Russian).
+ing, about solving difficult problems, and about [12] S. A. Larin, F. V. Tkachov, and J. A. M.
+making discoveries. Vermaseren: Phys. Rev. Lett. 66 (1991) 862.
+
+
+

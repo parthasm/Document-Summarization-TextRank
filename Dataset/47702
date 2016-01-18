@@ -1,0 +1,438 @@
+UCR/95­17
+MSU­NPI/95­30/394
+August 1995
+
+ELECTROWEAK TOP QUARK PRODUCTION
+AT THE FERMILAB TEVATRON*
+
+
+A.P. HEINSON
+Department of Physics, University of California,
+Riverside, CA 92521­0413, USA
+
+A.S. BELYAEV and E.E. BOOS
+Nuclear Physics Institute, Moscow State University,
+RU­119899 Moscow, Russia
+
+
+ABSTRACT
+
+Top quarks can be produced from the electroweak Wtb coupling, leading to a
+single top or antitop in the final state. We examine single top quark production at the
+Fermilab Tevatron and calculate the cross section as a function of top quark mass,
+for each of three separate production processes. We give details of the interferences
+between Feynman diagrams in W-gluon fusion and then study the effects of an
+anomalous (V+A) term in the Wtb coupling. Using predictions for the next Tevatron
+run, we estimate the experimental sensitivity to the CKM matrix element Vtb as a
+function of the strength of the anomalous coupling.
+
+
+1. Introduction
+
+The top quark has recently been discovered by the DØ1 and CDF2 collaborations at
+the Fermilab Tevatron. Measurements of its mass are 199 ± 30 GeV and 176 ± 13 GeV
+from DØ and CDF in the lepton+jets decay modes and 145±32 GeV in the dilepton decay
+mode from DØ3. Because the top quark is so heavy, electroweak production of single top
+quarks from a Wtb vertex becomes competitive with strong production of tt pairs from a
+gtt vertex. The resummed next-to-leading order cross section for tt production4 is
+ 12 Sep 1995 2 26 0
++ .26
+. ­0.17 pb at s = 1.8 TeV when the top quark mass m = 200 GeV. A recent
+t
+calculation to O( 2
+)for single top production5 gives the cross section for the principal
+s
+single top process (for t and t combined) as 1.7 pb, which is 75% of the total tt rate.
+Therefore, the possibility exists for an experimental measurement of single top production
+at the Tevatron with the current ~100 pb­1 data set.
+We have examined the processes for single top production, and calculated the
+corresponding cross sections, at the current Tevatron energy of s = 1.8 TeV. In addition,
+we have started to prepare for the large numbers of single top events predicted for the next
+Tevatron run at s = 2.0 TeV, when there should be twenty times as much data as exists
+now. We have examined the effects of an anomalous right-handed (V+A) coupling at the
+Wtb vertex from which single top quarks are produced. The single top quark system is the
+only place to study this coupling, and to measure the CKM matrix element V .
+tb
+There is an extensive literature on single top physics at hadron colliders5,6, although
+few papers use the current Tevatron energy with modern parton distributions. How to
+study the Wtb coupling and what can be learnt have also featured in the literature7.
+
+
+* Presented by Ann Heinson at the Workshop on Physics of the Top Quark, IITAP, Iowa State
+University, Ames, Iowa, May 25­26th 1995. Heinson@ucrph0.ucr.edu
+
+1
+
+
+2. Single Top Quark Cross Section
+
+2.1 Single Top Processes
+
+We have calculated the tree level cross sections for the following processes:
+
+1. pp tb + X
+2. pp tq + X
+3. pp tW - + X
+
+where X represents additional final state particles other than gluons. In process 1. the final
+state t and b are produced from an extremely off-shell s-channel W boson. Process 2.
+occurs via a t-channel W boson. Process three has several types of Feynman diagrams. We
+have included the following subprocesses in our calculations:
+
+1.1 q' q tb 1.2 q' g tb q
+2.1 q'b tq 2.2 q' g tqb
+3.1 bg tW 3.2 qq tWb 3.3 gg tWb
+
+where q is a valence or sea u or d quark. Subprocess 2.2 q'g tqb is known as W­gluon
+fusion. Although 1.2 and 2.2 look superficially the same, in fact they each have two
+Feynman diagrams which form separate gauge invariant sets, and the diagrams are
+calculated in pairs as higher order corrections to the 22 processes with tb and tq in the
+final state. Feynman diagrams for these processes are shown in Fig. 1.
+In our calculations, we have omitted subprocesses with strange or charm sea quarks
+in the initial state for simplicity. These would boost the total cross section by ~2­3%. We
+have included diagrams with intermediate state photons or Z bosons where appropriate (3.2
+and 3.3) but the contributions are not significant. For subprocesses 3.2 and 3.3, we have
+omitted diagrams with strong tt production, where the t has decayed to a Wb . We have
+included diagrams with off-diagonal CKM matrix elements.
+The subprocesses we have included in our calculations comprise all the significant
+ones with two or three vertices, except those with a gluon in the final state, which are
+significant but have not yet been fully treated. Subprocesses with an extra quark in the final
+state, for instance bg tqq' and qb tWq, although they have several Feynman
+diagrams, do not contribute more than ~1­2% to the total cross section. This also applies to
+the subprocess bb tWb , despite its large number of Feynman diagrams, including one
+with electroweak tt production.
+
+
+2.2 Calculation Details
+
+We have calculated the production cross section for each of the subprocesses
+mentioned above. We used the computer program CompHEP8 to do the tree level symbolic
+calculations and to generate optimized FORTRAN code for the squared matrix elements. We
+used the BASES9 package to integrate over all phase space using parton distribution
+functions, and a CompHEP­BASES interface10 to generate the event kinematics with
+
+
+
+
+
+2
+
+
+u d t
+u W
+u b
+W u
+d b
+b
+
+W
+d t
+d
+g t g
+
+(a) 1.1 ud tb 1.2 ug tbd
+
+
+
+d u d
+u u d
+
+
+
+W
+W W
+t b
+b t
+
+
+b t g g
+b t
+
+
+(b) 2.1 ub td 2.2 ug tdb
+
+
+
+b W b W
+
+b t
+
+g
+t
+g t
+
+
+
+(c) 3.1 bg tW
+
+
+
+Fig.1 Representative Feynman diagrams for the significant subprocesses included in
+our calculation for single top quark production at the Tevatron: (a) W boson s-
+channel production pp tb + X ; (b) W boson t-channel production
+pp tq + X and (c) pp tW ­ + X .
+
+
+smoothing of singular variables. For parton distributions, we have used the CTEQ3M11 and
+MRS(A')12 fits, which are representative next-to-leading-order sets in the MS
+renormalization scheme.
+The following Standard Model parameters have been used in our calculations: m =
+Z
+91.19 GeV, m = 5.0 GeV, = 1/128, sin2 = 0.225 and CKM matrix elements V =
+b W ud
+0.975 and V = 0.999. All results have been obtained in the unitarity gauge and the
+tb
+'t Hooft­Feynman gauge, as a check of the calculations. Differences between calculations
+in the two gauges are less than 0.1%.
+We have chosen to use m2 as the QCD evolution parameter or scale
+t Q2. A typical x
+value is 0.1, where x is the fraction of the proton or antiproton momentum carried by each
+initial state parton. At a scale Q2 = (180 GeV)2, the value of is 0.104.
+s
+
+
+
+2.3 Combining Cross Sections
+
+Care must be taken when combining some single top subprocesses to avoid double
+counting. Subprocesses 2.1 ( q'b tq ) and 2.2 ( q'g tqb : W-gluon fusion) have a
+considerable region of overlap when the g bb is on-shell, so that the b quark which
+fuses with the W boson is the same as the initial state b sea quark in subprocess 2.1. A
+technique has been developed13 which takes care of this double counting whilst being
+
+
+
+
+3
+
+
+consistent with the definition of the b sea quark in the parton distributions. It involves
+summing the cross sections calculated for each of the two subprocesses, and then
+subtracting the gluon splitting rate convoluted with subprocess 2.1. We have adopted this
+technique here.
+The subtracted term is not a small correction. For example, using CTEQ3M and m =
+t
+180 GeV, the 22 subprocess q'b tq gives a cross section of 0.750 pb before
+subtraction, W-gluon fusion q'g tqb gives 0.293 pb and the correction is ­0.536 pb,
+giving a total rate for pp tq + X of 0.507 pb. The subtraction term forms just over half
+of the raw total rate. Alternatively, if the 22 subprocess and the subtraction term are just
+ignored, then the remaining cross section from only the W-gluon fusion subprocess is less
+than 60% of the total pp tq + X rate.
+
+
+2.4 Cross Section Versus Top Quark Mass
+
+Our results are shown in Fig. 2 as a function of the top quark mass m , at
+t s =
+1.8 TeV. The solid curves are from the calculations with CTEQ3M and the dot-dash curves
+are from MRS(A'). With m = 180 GeV, we find the total cross section for top to be
+t
+0.834 pb (CTEQ3M), with contributions of 0.247 pb from subprocess 1.1, 0.032 pb from
+1.2, 0.215 pb from 2.1 after correction, 0.293 pb from 2.2 (W-gluon fusion), 0.042 pb
+from 3.1, and 0.005 from subprocesses 3.2 and 3.3 combined.
+
+
+] ]
+b b
+2 CTEQ3M gbb CTEQ3M
+ppt+X 1
+[p [p
+MRS(A') diagram s = 1.8 TeV
+n n
+io s = 1.8 TeV io
+ct 1.5 ct q'gtqb
+e e
+S S total
+0.5
+ss pptq+X ss
+ro ro
+C 1 C
+gtt
+pptb+X diagram
+0
+0.5
+interference
+pptW+X
+
+0 -0.5
+100 140 180 220 100 140 180 220
+
+Top Quark Mass m [GeV] Top Quark Mass m [GeV]
+t t
+
+Fig.2 Electroweak single top quark production Fig.3 Interference between the Feynman diagrams
+cross section from pp interactions. of the W-gluon fusion subprocess q' g tqb .
+
+
+3. A Closer Look at W-Gluon Fusion
+
+We have studied the contributions to the production rate from the two Feynman
+diagrams in subprocess 2.2, W-gluon fusion: q'g tqb . These calculations were done in
+the unitarity gauge with the CTEQ3M parton distributions. The Feynman diagram in which
+the initial state gluon produces a bb pair contributes 145% to the total rate, whereas the
+diagram in which the gluon splits to a tt pair contributes only 5%. Although this diagram
+
+
+
+
+4
+
+
+contributes so little to the total, the destructive interference between the two diagrams is
+very significant, at ­50%. Figure 3 shows the contributions to the total W-gluon fusion
+cross section from each diagram and from the interference between them as a function of
+the top quark mass.
+
+
+4. Wtb Coupling and Vtb
+
+We have investigated the effect of an anomalous contribution to the Wtb coupling, in
+the form of a right-handed (V+A) structure, specified by a parameter A . In the unitarity
+r
+gauge, the Wtb coupling is given by:
+
+= eVtb [ µ 1(- µ
+5 ) + A 1
+( )
+r + 5 ]
+2 2 sinW
+
+where e is the electronic charge, sin = 0.474 and
+W µ and 5 are Dirac matrices.
+The dependence of the total single top cross section on the parameter A is shown in
+r
+Fig. 4 for the upgraded Tevatron energy of s = 2.0 TeV and V = 0.999. Here
+tb
+(t + t ) = (tb ) + (tb) + (tq) + (tq ) + (tW - ) + (tW +
+( )) . The cross section rises from the SM value
+of 2.37 pb to 4.60 pb when A = +1.
+r
+
+
+
+5 1
+]b m = 180 GeV CTEQ3M tb
+t V
+[p s = 2.0 TeV
+V = 0.999 t
+tb n 0.9
+n e
+io m
+ct 4 le
+e E
+S 0.8
+trix
+ss a
+ro MM
+t C 0.7
+K
+3 C
+t +
+
+0.6
+
+
+
+2 0.5
+-1 -0.5 0 0.5 1 -1 -0.5 0 0.5 1
+(V+A)/(V­A) Coupling Strength A (V+A)/(V­A) Coupling Strength A
+r r
+
+Fig.4 Total single top quark production cross Fig.5 Region of sensitivity at the 95% C.L. in the
+section in pp interactions as a function of ( V ,
+tb A ) plane, for an experiment with 2 fb­1
+r
+the right-handed (V+A) coupling parameter A . of data, S:B = 1:2, 10% efficiency and m =
+r t
+180 GeV.
+
+
+We have estimated the experimental sensitivity in the (V plane from the next
+tb , Ar )
+Tevatron collider run. The parameters used in our estimate are that the collider will operate
+at 2.0 TeV, there will be a 2 fb­1 data set, the top quark has a mass of 180 GeV, and the
+search will take place in the electron+jets and muon+jets decay modes with 10% overall
+efficiency. We assume the branching fraction will remain constant at 2/9 and that the
+signal-to-background ratio will be 1:2, based on a study for the TeV-2000 project14. If the
+Wtb coupling has SM form and there are only three quark families (i.e.
+0 9988
+. V at the 90% CL15),
+tb 0 9995
+.
+
+
+
+5
+
+
+then there should be approximately 105 fully reconstructed b tagged events. Assuming that
+315 events are seen (105 signal and 210 background), limits can be placed on V as a
+tb
+function of any anomalous coupling as parametrized by A . These 95% CL limits are
+r
+shown in Fig. 5. If the W coupling is purely left-handed, then the limits on V are
+tb tb
+0 817
+. V . For = 0.5, 0 735
+. V , and if = 1.0, then 0 586
+. V .
+tb 0 826
+.
+tb 1
+tb 1 A A
+r r
+
+
+
+5. Acknowledgements
+
+We would like to thank P. Baringer, P. Ermolov, P. Grannis, A. Klatchko, W.-K.
+Tung, S. Willenbrock and C.-P. Yuan for useful discussions, and the Moscow State
+University CompHEP group, especially S. Ilyin and A. Pukhov for their valuable help.
+This paper is an abridged version of a more detailed one in preparation16.
+
+
+6. References
+
+1. S. Abachi et al. (The DØ Collaboration), Phys. Rev. Lett. 74 (1995) 2632.
+2. F. Abe et al. (The CDF Collaboration), Phys. Rev. Lett. 74 (1995) 2626.
+3. S. Abachi et al. (The DØ Collaboration), to appear in the Proceedings of the European
+Physical Society Conference, Brussels (1995).
+4. E. Laenen, J. Smith and W.L. van Neerven, Phys Lett B321 (1994) 254.
+5. G. Bordes and B. van Eijk, Nucl. Phys. B435 (1995) 23.
+6. S. Dawson, Nucl. Phys. B249 (1985) 42; S.S.D. Willenbrock and D.A. Dicus, Phys. Rev. D 34
+(1986) 155; S. Dawson and S.S.D. Willenbrock, Nucl. Phys. B284 (1987) 449; T. Moers, R.
+Priem, D. Rein and H. Reitler, in Proceedings of the Large Hadron Collider Workshop, Aachen
+(1990) 418; S. Cortese and R. Petronzio, Phys. Lett. B253 (1991) 494; R.K. Ellis and S.
+Parke, Phys. Rev. D 46 (1992) 3785; G. Bordes and B. van Eijk, Z. Phys. C57 (1993) 81; D.O.
+Carlson and C.-P. Yuan, Phys. Lett. B306 (1993) 386; D.O. Carlson and C.-P. Yuan,
+MSUHEP-40903 (March 1995); T. Stelzer and S. Willenbrock, DTP/95/40, ILL-(TH)-95-30
+7. (May 1995).
+C.-P. Yuan, Phys. Rev. D 41 (1990) 42; G.V. Jikia and S.R. Slabospitsky, Phys. Lett. B295
+(1992) 136; D.O. Carlson, E. Malkawi and C.-P. Yuan, Phys. Lett. B337 (1994) 145;
+E. Malkawi and C.-P. Yuan, Phys. Rev. D 50 (1994) 4462; C.-P. Yuan, Mod. Phys. Lett. A10
+(1995) 627.
+8 E.E. Boos et al., in Proceedings of the XXVIth Rencontre de Moriond, ed. J. Tran Than Van,
+(Edition Frontiers, 1991) 501; E.E. Boos et al., in Proceedings of the Second International
+Workshop on Software Engineering, ed. D. Perret-Gallix, (World Scientific, 1992) 665.
+9. S. Kawabata, Comp. Phys. Commun. 41 (1986) 127.
+10. V.A. Ilyin, D.N. Kovalenko and A.E. Pukhov, INP MSU Preprint-95-2/366, Moscow State
+University (1995).
+11. H.L. Lai et al., Phys. Rev. D 51 (1995) 4763.
+12. A.D. Martin, R.G. Roberts and W.J. Stirling, RAL-95-021 (February 1995).
+13. R.M. Barnett, H.E. Haber and D.E. Soper, Nucl. Phys. B306 (1988) 697; F.I. Olness and
+W.-K. Tung, Nucl. Phys. B308 (1988) 813.
+14. P. Baringer and A.P. Heinson, "Single Top Physics with a High Luminosity Tevatron",
+DØ Note 2600 (June 1995); D. Amidei et al., in preparation for submission to Phys. Rev. D.
+15. "Review of Particle Properties", Phys. Rev. D 50 (1994) 1315.
+16. A.P. Heinson, A.S. Belyaev and E.E. Boos, "Single Top Quarks at the Fermilab Tevatron", in
+preparation.
+
+
+
+
+
+6
+
+
+

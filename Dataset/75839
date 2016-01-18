@@ -1,0 +1,470 @@
+
+
+ 24 May 1995
+
+FERMION GREEN FUNCTIONS IN NON-ABELIAN
+
+GAUGE THEORIES IN FOUR DIMENSIONS
+
+G. Triantaphyllou1 Department of Physics, University of Toronto
+
+Toronto, ON M5S 1A7, Canada
+
+Abstract Previous results on fermion chirality-flipping four-point functions are extended to non-abelian gauge theories. The problem is purely non-perturbative, and the analytical formalism used is based on the Schwinger-Dyson hierarchy. This is truncated, and the resulting equations are solved numerically by relaxation techniques. Taking the large-N limit in SU (N ) theories simplifies the problem substantially, allowing the formulation of conjectures on the behavior of n-point and chirality-flipping fermion Green functions for general n.
+
+In this work we study the dynamical generation of fermion chirality flipping four-point functions within the framework of non-abelian gauge theories. These are generated in a purely non-perturbative manner, so in our analysis we have to use an adequate formalism like the one based on the Schwinger-Dyson (SD) hierarchy. The resulting equations are analytically intractable and very challenging even numerically. However, a certain limit in the theory allows a drastic simplification.
+
+Our interest is focused on two objectives. One is to estimate the critical value of the gauge coupling, below which the four-point functions are equal to zero. We would like to study this in a case where four-fermion condensates develop on scales higher than the scale of two-fermion-condensate formation. This would make it consistent to treat the four-fermion condensate problem independently of the mass generation problem. Our other goal is to study the momentum dependence of the fermion four-point function. If such an object could generate a fermion or a gaugeboson mass, then two or 4 lines of the four-point function would be closed off into a loop or into another four-point function. It would therefore be interesting to study the details of the momentum dependence, such as the relative size of the four-point function when different pairs of momenta are large.
+
+In the present study we use a one gauge-boson exchange approximation, where one gauge boson can attach to any pair of the four legs. The present work constitutes a clear progress with respect to our previous study [2], since, apart from considering a general non-abelian group, it includes a treatment of non-linearities, it does not neglect terms proportional to external momenta while at the same time exploring the full available momentum space, and in a certain limit allows us to draw conclusions on the behavior of general n-point functions.
+
+1Talk given at the 17th annual MRST meeting in Rochester (May 1995), based on work in collaboration with B. Holdom [1].
+
+We focus our attention on fermion operators that are purely chirality changing of the form _L\Gamma R _L\Gamma 0R + h.c., where L j (1
+
+\Gamma fl5)
+
+2 and R j
+
+(1+fl5)
+
+2 . We constrainour study to just one fermion flavor. The four independent operators which have
+
+this property and respect parity are2
+
+1 2 ( _ _ + _fl
+
+5 _fl5) = _LR _LR + h:c:
+
+_oe_* _oe_* = _Loe_* R _Loe_* R + h:c: 1 2( _*
+
+a _*a + _*afl5 _*afl5) = _L*aR _L*aR + h:c:
+
+_*aoe_* _*aoe_* = _L*aoe_* R _L*aoe_* R + h:c:; (1)
+
+where *a are the generators of the non-abelian gauge group we wish to study. From now on we will denote all operators of the form _\Gamma _\Gamma 0, where \Gamma ; \Gamma 0 are matrices with possibly non-trivial spinor and color structure, by \Gamma \Omega \Gamma 0.
+
+The vacuum expectation values of these four operators receive exclusively nonperturbative contributions, and their non-zero values would break dynamically a chiral U (1)A, were the latter not broken by instantons.
+
+The SD formalism relevant to these four-fermion operators was discussed in Ref. [2] and led to an equation shown diagrammatically in Fig. 1. It results from a truncation of the SD hierarchy achieved by approximating the four-fermion+photon vertex appearing in the equation by a four-fermion vertex and a photon attached via a bare vertex on one of its legs. Such an approximation neglects, among others, non-linearities that would become important in the infra-red. We will return to them later. The equation has been symmetrized to include diagrams with gluons connecting all possible pairs of fermions, so the right-hand side is multiplied by a factor of 1=2.
+
+We are considering a four-point function associated with the Green function h0jT f _fffi _aeo/ gj0i. In momentum space, the four-point function receiving exclusively non-perturbative contributions is
+
+Offfiaeo/ = OS+P (Ifffi \Omega Iaeo/ + fl5fffi \Omega fl5aeo/ ) + OT oe_*fffi \Omega oe_*aeo/
+
++OcolorS+P (*aIfffi \Omega *aIaeo/ + *afl5fffi \Omega *afl5aeo/ ) + OcolorT *aoe_*fffi \Omega *aoe_*aeo/ (2)
+
+where the four scalar functions OS+P , OT , OcolorS+P and OcolorT depend on 6 variables, which are all the independent and Lorenz-invariant combinations of the external 4-momenta p1; :::; p4, corresponding to the fermions with spinor indices ff; fi; ae; o/ respectively. We wish to develop the SD equations for these scalar functions.
+
+The functional integral operators \Gamma i appearing below are defined exactly as in our previous work [2]. We work in the Landau gauge which is popular in studies of SD equations; the gauge boson propagator reads D
+
+_*
+
+k2 j
+
+1 k2 iffi
+
+_* \Gamma k_k*
+
+k2 j.
+
+2We choose to work in Euclidean space, so there is no difference between upper and lower Lorentz indices.
+
+By combining the results of the abelian case [2] with considerations pertaining on the color structure in a SU (N ) theory, we have
+
+OS+P = 3(N
+
+2 \Gamma 1)
+
+2N (\Gamma
+
+A + \Gamma B)[OS+P ] + 6(\Gamma C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OcolorT ]
+
+OT = \Gamma N
+
+2 \Gamma 1
+
+2N (\Gamma
+
+A + \Gamma B)[OT ] + 2(\Gamma C + \Gamma D + \Gamma E + \Gamma F )[OcolorT ] +
+
+1 2 (\Gamma
+
+C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OcolorS+P ]
+
+OcolorS+P = \Gamma 32N (\Gamma A + \Gamma B)[OcolorS+P ] + 3(N
+
+2 \Gamma 1)
+
+2N 2 (\Gamma
+
+C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OT ] +
+
+6 \Gamma N
+
+2 + 2
+
+2N (\Gamma
+
+C + \Gamma D) + 1N (\Gamma E + \Gamma F )! [OcolorT ]
+
+OcolorT = 12N (\Gamma A + \Gamma B) + \Gamma N
+
+2 + 2
+
+N (\Gamma
+
+C + \Gamma D) \Gamma 2N (\Gamma E + \Gamma F )!! [OcolorT ] +
+
+N 2 \Gamma 1
+
+2N 2 (\Gamma
+
+C + \Gamma D + \Gamma E + \Gamma F )[OT ] + N
+
+2 \Gamma 1
+
+8N 2 (\Gamma
+
+C + \Gamma D \Gamma \Gamma E \Gamma \Gamma F )[OS+P ] +
+
+1 2 \Gamma
+
+N 2 + 2
+
+2N (\Gamma
+
+C + \Gamma D) + 1N (\Gamma E + \Gamma F )! [OcolorS+P ]; (3)
+
+where \Gamma i[O] j \Gamma i(Oi) and Oi are the form factors with loop-dependent arguments corresponding to diagrams i = A; :::; F [2].
+
+We are faced with a system of four coupled 4-dimensional integral equations involving functions of 6 variables. As it stands, the problem is analytically intractable, and even a numerical solution proves to be beyond our present means.
+
+By taking the large-N limit, Eq.3 reduces to
+
+0BBB
+
+BBBBB BBB@
+
+OS+P
+
+OT OcolorS+P OcolorT
+
+1CCC CCCCC CCCA = N
+
+0BBB BBBBB BBB@
+
+3 2 (\Gamma
+
+A + \Gamma B) 0 0 0
+
+0 \Gamma 12 (\Gamma A + \Gamma B) 0 0 0 0 0 \Gamma 3(\Gamma C + \Gamma D) 0 0 \Gamma 14 (\Gamma C + \Gamma D) \Gamma (\Gamma C + \Gamma D)
+
+1CCC CCCCC CCCA
+
+0BBB BBBBBB BBB@
+
+[OS+P ]
+
+[OT ]h OcolorS+P ih OcolorT i
+
+1CCC CCCCCC CCCA
+
+(4) It is clear that in the large-N limit, the two form factors OS+P;T decouple from the other two OcolorS+P;T . As regards the first two, it is obvious that only OS+P is going
+
+be non-zero, since OT receives a negative contribution from the dominant diagrams A and B. It is also apparent that OcolorS+P can be non-zero only if OcolorT is non-zero. Having a non-zero OcolorT seems highly unlikely, however, since it receives a negative contribution from the dominant diagrams C and D involving itself. Even if it were able to be non-zero, it would require a critical coupling much larger than the one required for OS+P and it should therefore not present a problem.
+
+The form that this system of coupled integral equations takes in the large-N limit allows us to argue for the omission of contributions coming from operators proportional to external momenta. With regards to the operators with structure p_i oe_* \Omega p*j oe** and p_i p*j oe_* \Omega p*kpo/l oe*o/ , which have so far been neglected, we can see that the contributions they receive from the dominant diagrams having the same functions in their vertices are negative, so we do not expect the corresponding fourpoint functions to be non-zero. Similar arguments make us neglect operators with structure O1 j p_i p*j oe_* \Omega 1 and O2 j 1 \Omega p_i p*j oe_* (and trivial color structure).
+
+We now write down the integral equation for OS+P according to the previous discussion. We have
+
+OS+P = N ff16ss3 Z d4kfl_ 1k=(k= \Gamma q=) fl*
+
+kOAS+P D_*1
+
+(k \Gamma p1)2 +
+
+kOBS+P D_*4
+
+(k \Gamma p4)2 ! (5)
+
+where q j p1 + p2, D_*i j ffi_* \Gamma (k
+
+\Gamma pi)_(k\Gamma pi)*
+
+(k\Gamma pi)2 and the left-superscript of
+
+kOA;BS+P is a
+
+reminder that these functions depend on the loop momentum.
+
+We go in a reference frame where ~p1 = \Gamma ~p2, and the form of the kernel of the integral equation indicates that OS+P is a function of five variables, i.e. OS+P = OS+P (p01; j ~p1j; p04; j ~p4j; q0). We also have kOAS+P = kOAS+P (k0; jkj; p04; j ~p4j; q0) and kOBS+P = kOBS+P (p01; j ~p1j; k0; jkj; q0).
+
+The structure of the equation indicates that a special solution to the above integral equation is factorizable, i.e. OS+P , ~B(p01; j ~p1j; q0) ~B(p04; j ~p4j; q0). Physically this is expected, since the momenta flowing in diagram A are independent from the momenta flowing in diagram B. Setting p01 = p04 j p0 and j ~p1j = j ~p4j j jpj, we have
+
+~B(p0; jpj; q0) = N ff8ss3 Z d4k ~B(k0; jkj; q0)fl_ 1k=(k= \Gamma q=)fl* D
+
+_* 1
+
+(k \Gamma p1)2 (6)
+
+where we have separated q0 from the other two variables with a semi-column, since it does not mix with loop momenta and can thus be treated as a parameter.
+
+Note that for q0 = 0 this reduces to the linearized SD equation for the fermion two-point function. For non-zero q0, the problem reduces to the one of a three-point function.
+
+We have so far neglected non-linearities coming in our problem. These come from diagrams containing an odd number of four-point functions and a gluon in a way that makes them important only in the IR regime. They therefore provide our equation with an effective IR cut-off. Their non-linear nature gives our solution a natural scale. These diagrams are not easily resummable, so we multiply the kernel of our equation by the function A(q0) j k
+
+2
+
+k2+\Lambda 2 ~B2(0;0;q0) , where \Lambda is the effective IR
+
+cut-off in our theory provided by the non-linearities, in an effort to mimic their effects, and we normalize ~B(0; 0; 0) = 1. Our full solution will thus be given by
+
+OS+P = i r\Lambda j
+
+2 ~B(p0
+
+1; j~pij; q0) ~B(p04; j ~p4j; q0), where r is a constant larger than unitybecause of the numerical factors appearing in the loops by which non-linearities are
+
+introduced in the problem.
+
+Moreover, we change our variables from p0, k0, jpj, and jkj, to p = qp0 2 + jpj2,
+
+k = qk0 2 + jkj2, OE = arctan (jpj=p0) and ~OE = arctan (jkj=k0), so ~B(p0; jpj; q0) j B(p; OE; q0). We then solve for the function pB in order to increase the accuracy of the numerical solution that follows, since we expect B to decrease with increasing p. After some Dirac algebra, and omitting terms with structure p_i p*j oe_* \Omega 1 according to our previous discussion, the equation becomes
+
+pB(p; OE; q0) = 3N ff4ss2 Z dkd ~OE kB(k; ~OE; q
+
+0)k sin ~OEi
+
+(q0 \Gamma k cos ~OE)2 + k2 sin2 ~OEj 2 sin OE \Theta
+
+ln (k sin ~OE + p sin OE)
+
+2 + (k cos ~OE \Gamma p cos OE)2
+
+(k sin ~OE \Gamma p sin OE)2 + (k cos ~OE \Gamma p cos OE)2 ! \Theta
+
+1 \Gamma q
+
+0k cos ~OE
+
+k2 ! \Theta
+
+k2 k2 + \Lambda 2B2(0; 0; q0); (7)
+
+where 0 !\Gamma OE; ~OE !\Gamma ss.
+
+The form of the integral equation allows us to use the same discretization lattice for the arguments of the function B inside and outside the integral. We choose the number of lattice points in each dimension to be equal to 40. Our results do not change by varying this number. The integral equation is solved via a relaxation method. We first insert an initial configuration for our function, and then iterate the equation until it is satisfied to a reasonable accuracy.
+
+We start by setting q0 = 0. This gives us a critical coupling N ffc = 2:7\Sigma 0:3. This coupling is somewhat larger than the one required for a non-zero two-point function, which, for large-N , is given by the relation N ffc = 2ss3 ss 2:1. This discrepancy is expected to disappear in the limit \Lambda UV \Gamma ! 1. We then keep this coupling fixed, and for different values of q0 we compute the corresponding values of B(0; 0; q0). In Fig. 2 we plot the function p\Lambda B(p; OE; 0).
+
+We see that p\Lambda B(p; OE; 0) exhibits the cos (fl log (p=\Lambda )) behavior ( with fl a couplingdependent constant and \Lambda the IR cut-off of the equation) that is well known in two-point function studies, and that it is independent from OE, as expected. We do not trust the behavior of the function for momenta smaller than \Lambda , since we expect our formalism to break down at that region. As q0 increases and gets larger than \Lambda B(0; 0; q0), it plays the role the non-linearities played before and acts like an effective IR cut-off, so the shape of B is the same as the one of the two-point function having q0 as its IR cut-off. The dependence on OE remains very weak. This behavior was expected for q0 = 0, and it persists for larger q0. Moreover, B falls rapidly with increasing q0, so the non-linearities become increasingly irrelevant in this regime.
+
+~\Gamma fffi \Gamma aeo/@
+
+@@
+
+@@ae _
+
+L
+
+I
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma o/
+
+R
+
+` \Gamma \Gamma \Gamma \Gamma \Gamma fi R
+
+\Psi
+
+@@ @@ @ff
+
+_L
+
+R
+
+= ~\Psi \Psi \Psi \Psi
+
+\Psi
+
+\Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta \Lambda \Theta
+
+\Phi \Phi \Phi \Phi \Phi @@@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+A
+
++
+
+~ \Phi \Phi \Phi \Phi \Phi \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta \Theta \Delta ffffffffff
+
+@@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+C
+
++
+
+~ ''\Gamma \Theta \Delta \Phi \Theta \Delta ff ii\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma @ @@
+
+@@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+E
+
++
+
+~ ffffffff
+
+ff
+
+\Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta \Gamma \Delta
+
+\Omega \Omega \Omega \Omega \Omega
+
+@@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+B
+
++
+
+~
+
+\Omega \Omega \Omega \Omega \Omega \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Psi \Psi \Psi \Psi \Psi @@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+D
+
++
+
+~ ii\Delta \Lambda \Theta \Psi \Lambda \Theta \Phi
+
+jj\Theta \Lambda \Gamma \Omega \Lambda \Gamma \Psi ``\Lambda \Gamma \Delta @@
+
+@@
+
+@
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma
+
+@@ @@ @
+
+F
+
+Figure 1: The schematic form of the SD equation. We have labeled the four fermions by their spinor indices. We label the diagrams by the capital letters A; :::; F , and we omit the factor of 1=2 multiplying the right-hand side.
+
+1 10
+
+100 50
+
+100 150
+
+0 0.5
+
+1 1.5
+
+p \Lambda OE
+
+p \Lambda B(p; OE; 0)
+
+Figure 2: The function p\Lambda B(p; OE; 0)
+
+The behavior found is approximately B(0; 0; q0) ss i1 \Gamma q
+
+0
+
+1:16\Lambda j
+
+1 2 . It is obvious that,
+
+for a given critical coupling, q0 cannot exceed \Lambda by much before the whole solution collapses to zero.
+
+The form that the integral equation takes for large N suggests a possible generalization of the above results. In particular, the diagrams that dominate are the ones in which a gluon is attached between two fermion fields with spinor indices contracted with each other, since color flows through a closed loop. Therefore, one might expect only condensates of the form 12 ! ( _::: _ + _fl5::: _fl5) ?=!_ LR::: _LR + h:c: ?, where the ellipsis stands for n \Gamma 4 fermion fields paired with each other as in the first and last pair, to get non-zero expectation values at the same critical value of the gauge coupling as the 2- and four-point functions.
+
+Moreover, we expect the corresponding scalar n-point function OnS+P to factorize and to be given by OnS+P = \Lambda pc B1:::Bk, where \Lambda c is the characteristic energy of the theory, and p = 4 \Gamma 3k with k = n=2. In analogy with the previous discussion, we have defined the functions Bi j B(pi; OEi; qi); i =; 1:::; k, where, as before, pi is the four-momentum of one of the fermions in each pair and qi is the total fourmomentum of the pair. In order for each of the functions Bi to satisfy the same final integral equation as before, however, we have to assume that the three-momenta of the fermions in each pair are equal and opposite to each other, so that ~qi = 0. The qualitative results should not change substantially, nevertheless, if one makes the weaker assumption that we can go in an optimum reference frame where no fermion has a three-momentum which is much larger than the three-momentum of the fermion it is contracted with.
+
+To conclude, in this work we have treated a truncated Schwinger-Dyson equation for the four-point function of fermions interacting via a non-abelian gauge interaction in the Landau gauge. We considered chirality-changing four-point functions which receive non-perturbative contributions exclusively. The large-N limit of SU (N ) renders our problem analogous to a three-point function one. Our numerical results indicate that the equations exhibit a critical behavior, and that the critical coupling appears to be roughly equal to the one required for the formation of two-fermion condensates. The beauty of the large-N limit is that it also allows us to guess the critical and momentum behavior of fermion chirality-flipping n-point functions for higher n.
+
+References
+
+[1] B. Holdom and G. Triantaphyllou, University of Toronto Preprint UTPT-95-10,
+
+May 1995. !hep-ph Bulletin ?
+
+[2] B. Holdom and G. Triantaphyllou, University of Toronto Preprint UTPT-94-
+
+31, December 1994. !hep-ph Bulletin ? To appear in Phys. Rev. D.
+

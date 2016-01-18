@@ -1,0 +1,275 @@
+NEW ALGEBRAIC-NUMERIC METHODS
+FOR LOOP INTEGRALS.
+SOME 1-LOOP EXPERIENCE
+
+
+D .Y u. Bardina, L.V. Kalinovskayaa and F. V. Tkachovb
+
+a Joint Institute for Nuclear Research, Dubna, Moscow Region, 141980 Russia
+
+b Institute for Nuclear Research of Russian Academy of Sciences
+Moscow, 117312 Russia
+
+
+
+We report our experiences with the generalized integration-by-parts algorithm  in the
+context of calculations of a realistic one-loop subset of diagrams.
+
+
+
+
+This project combined the experience of the 1 (x + A)
+x ╡ 1
++ ╡
+ZFITTER1 team [1] with the experience of designing 1 - V ( x) = V (x)
+. 0.1
+2(
+╡ +1)
+algorithms for multiloop calculations2 [4], [5] in order to
+explore the potential of the "algebraic" scenario of loop Here x is the vector of Feynman parameters,
+calculations suggested in [6].
+T T
+V (x) = x Vx + 2R x + Z is a quadratic polynomial,
+The scenario generalizes the idea of [4], which is to T 1 T 1
+-
+= -
+exploit the rich algebraic structure of integrands in order A R V -
+=
+and (Z R V R).
+to reduce them to a maximally simple form, depending Any one-loop integral can be represented as
+on the specific application. The original algorithm of [4] -n
+-
+
+was about reduction of massless self-energies to recur- dxQ(x)V ( x)
+S . 0.2
+
+sively one-loop integrals easily calculable analytically; An iterative application of 0.1 followed by integration by
+it demonstrated that such a reduction may be an extre- parts reduces 0.2 to a sum of the form
+mely powerful calculational tool. The scenario of [6] is
+N -
+about reduction of integrands to a form maximally dx Q (x )V (x ),
+S 0.3
+suitable for subsequent numerical integration. It is based where the sum involves integrals over simplices with no
+on a subtle algebraic fact (a generalization of the so- higher dimensionality than in the original integral 0.2.
+called Bernstein theorem [7]) and is applicable to arbitra- The Laurent expansion in yields integrals of the form
+ry loop integrals (arbitrary topologies and patterns of
+masses and external momenta). This is in theory.
+N V (x )
+dx Q(x )
+╫V (x )ln ,
+0.4
+In practice, the complexity of the problem of finding S 2
+╡
+the differential identities required by the scenario of [6]
+arXiv: 17 Dec 2000 where ╡ is the unit of mass. (In a general one loop
+for integrands with 2 or more loops now appears to be so integral second powers of log V are possible.)
+great (and the resulting identities so hugely cumbersome) By choosing N large enough (which is achieved by
+that the feasibility of the scenario of [6] beyond one loop suitably many applications of the identity 0.1) one can
+level is rather doubtful. achieve an arbitrarily large degree of smoothness of the
+However, for one-loop integrals, all algebraic difficul- integrands in 0.4, ensuring their better amenability to
+ties reduce to an iterative application of a simple dif- numerical integrations. With N =0, one has a simple
+ferential identity: absolute convergence (logarithmic singularities in the
+integrand). With N =1, the integrand is continuous; with
+N =2, it has continuous first derivatives, etc. Simple 1-
+1 ZFITTER [1], along with TOPAZ0 [2], is a program which dimensional examples show that the optimal rate of
+incorporates all the available theoretical knowledge about the Z- numerical convergence (with integration algorithms that
+resonance in the process of e+e- annihilation [3]. They have been used make use of continuity of derivatives) is achieved for
+to extract Standard Model parameters from the precision data
+obtained at LEP1 by the experimental collaborations at LEP. values of N =4,5; by rate of convergence we understand
+2 These algorithms are behind the flourishing industry of NNLO QCD the number of integrand evaluations required to attain a
+calculations (sum rules and moments of DIS structure functions; mass precision of 8-10 digits.
+expansions; (
+tot e +e - hadrons)).
+
+
+
+
+
+1
+
+
+On the downside, the quantity which appears in the в 1
+(k ) P
+B ( 0.9
+ж ) б k
+dx P ln x ,
+denominator may contain small factors near thresholds, 0 x 2
+0 ╡
+leading to large numerical cancellations between differ-
+ent terms in the sum 0.3, which offset the benefits of where
+smoother integrands.3 The scenario of [6] offers no
+б 2 д г 2 г 2
+P Q x(1 x) M x M (1 д x) . 0.10
+options for that. Note, however, that a complete set of x 1 2
+rules for obtaining systematic asymptotic expansions of Conventional expressions for the formfactors
+arbitrary Feynman integrals in arbitrary asymptotic Z
+F , # = ,
+L ,
+Q D are in terms of the standard C 0 and B0.
+regimes was obtained in [8], so the handling of cases #
+with a small is in theory not an insurmountable One application of the identity 0.1 (in n ) together
+з 4
+problem (although, of course, one would prefer a uniform with integration by parts yields expressions in terms of
+algorithm to treat the various cases). (0)
+C and (0)
+B . The total length of the three expressions
+0 0
+Our aim was to explore the behavior of this algorithm is one LaTeX page. Two applications yield expressions
+in a realistic case of a subset of diagrams which in terms of (1)
+C and (1)
+B , with the total length of two
+0 0
+contribute to the ZFITTER [1]. The subset (which we pages.
+call Z cluster; for details see [9]) is gauge invariant and After the algebraic simplifications, numerical integra-
+UV finite. It is shown in the following figure: tion was performed using a simple Simpson integrator
+f which is sensitive to smoothness of integrands.
+The numerical results are presented in the following
+Z 0
+table:
+f
+
+k Re Im
+We will consider and evaluate three standard scalar
+Z
+F
+formfactors Z
+F , # = ,
+L ,
+Q D which are present in the Z L 1.62989336 2.32844153
+#
+cluster with incoming photon in the Z vertex. These 0 < 10-9 1.5E-3
+can be expressed in terms of the standard Passarino- 1 < 10-9 1.9E-5
+Veltman functions C 0 and B0 (see e.g. [3]). For instance: Z
+FQ -0.366725194 0.808473633
+в
+2 2 2 2 n 4 1
+( , , ; , , ) n
+i C p p Q m m m ╡
+б d q , 0.5
+0 1 2 1 2 d d d 0 < 10-9 2.0E-4
+0 1 2
+1 < 10-9 2.2E-6
+where б 2 г 2
+d q m д i , б г 2 г 2
+d (q p ) m д i and
+0 1 1 1 Z
+FD -0.00234117123 -0.0063346893
+б г 2 г 2
+d (q Q) m д i . Also Q б p г p . In terms
+2 2 1 2 0 < 10-9 1.9E-3
+of Feynman parameters (in n = 4):
+1 < 10-9 2.3E-5
+в 1 в 1 x
+2 2 2
+б 1
+C ( p , p ,Q ; m , ,
+m m ) dx dy P , 0.6
+0 1 2 1 2 x, y
+0 0
+For each formfactor, the first line lists exact results
+where (obtained in the usual way via dilogarithms). The second
+and third lines give absolute relative errors for the results
+бед 2 2 д 2 2 г 2 д 2 д 2
+P x p y p xy Q p p
+x, y 1 2 ( 1 2 ) of numerical calculation of the same quantities. The lines
+г 2 г 2 д 2 г 2 г 2 д 2 г 2
+x( p m m ) y( p m m ) m . 0.7
+1 1 2 2 k = 0|1 correspond to the cases when the identity 0.1 is
+used once
+We introduce the following generalizations: | twice so that all resulting integrands have the
+singularity ln P |PlnP (absolute integrability with loga-
+в 1 в 1 x P
+(k ) rithmic singularities [step function in the imaginary
+б k x, y
+C ( 0.8
+ж ) dx dy P ln .
+0 x, y 2
+0 0 ╡ parts] in the first case; continuous integrands in the
+second case). The simplest Simpson integrator was used
+Similarly: which likes continuous second order derivatives. But we
+felt the complexity of the formulas resulting from three
+application of the differential identity was too great to
+3 Examples of this kind were provided to us by K. Kato. Note that justify the effort involved in the interfacing of the
+maximal benefits from the algebraic transformations being described algebraic and numerical parts of this project for more
+are obtained with integration routines that make use of the increased
+regularity of resulting integrands. But since the method effectively than two applications of the identity 0.1 at the current
+subtracts all types of divergencies/singularities simultaneously, it may exploratory stage of the project.
+be beneficial even with MC integrators.
+
+
+
+
+2
+
+
+A conclusion that can be drawn from our experiment References
+is that the scenario based on the use of the algebraic [1] D. Bardin et al: ZFITTER v.6.21 - A semi-analytical
+identity 0.1 may, at least in some one loop applications, + -
+program for fermion pair production in e e
+be a viable alternative to the standard procedures based annihilation,  [DESY 99-070].
+on the use of analytical expressions in terms of diloga- [2] G. Montagna, O. Nicrosini, F. Piccinini, and
+rithms (cf. [3]). Moreover, we have observed a number of G.Passarino [Comp. Phys. Comm. 93 (1996)120; 117
+attractive properties: (1999) 278]
+╖ Gauge cancellations within gauge invariant subsets of [3] D. Bardin and G. Passarino: The Standard Model in
+diagrams occur prior to numerical integrations. This the Making. Precision Study of the Electroweak
+means that numerical cancellations due to at least this Interactions [Clarendon, Oxford, 1999].
+source are not encountered. [4] F.V. Tkachov: A theorem on analytical calculability
+╖ of 4-loop renormalization group functions
+Similarly cancel UV divergences. [Phys. Lett. 100B (1981) 65].
+╖ In our example, we have observed little (if any) [5] F.V. Tkachov: Advanced methods for studying
+evidence of numerical instabilities. It is essential here radiative corrections. Theory of asymptotic
+that a deterministic numerical integration algorithm was operation ,  [QFTHEP'92;
+used which took into account the increased smoothness Phys. Part. Nucl. 25 (1994) 649].
+of the integrands; Monte Carlo integration algorithms are [6] F.V. Tkachov: Algebraic algorithms for multiloop
+inappropriate here. calculations. The first 15 years. What's next?,
+╖ The method offers an interesting alternative to the  [NUIMA A389 (1996) 309].
+conventional Passarino-Veltman reduction to scalar inte- [7] I.N. Bernstein: Analytical continuation of generalized
+functions in a parameter [Functional Analysis And
+grals. Note that the new reduction (i.e. the representation Its Applications, 6 (1972) 26].
+in terms of the basic scalar functions 0.8, 0.9 with all x'
+excluded from 0.4) was implemented in n dimensions. [8] F.V. Tkachov: Towards systematic near-threshold
+expansions in perturbative QFT , 
+The greatest technical difficulty for implementation [Phys. Lett. B412 (1997) 350].
+of the described scenario -- both in one loop and to a [9] D. Bardin, L. Kalinovskaya, and G. Nanava:
+very much greater extent beyond one loop -- appears to An electroweak library for the calculation of EWRC
+be the dominant software engineering platform in the to e+e- f f within the topfit project,
+HEP community (conventional inefficient symbolic ma- .
+nipulation programs + numerical calculations with the
+archaic Fortran/C or the clay-feet monster of C++, with [10] F.V. Tkachov: Theoretical physicist's personal
+software engineering in the post-Java world
+no easy connection between the two). Another problem is [to be posted].
+that the computer resources needed even in simpler cases
+are huge (although Moore's Law is slowly taking care of
+that; perhaps too slowly).
+
+Since there are physical problems in which further
+progress via conventional approaches seems to be all but
+excluded, experimentation with the scenario for loop
+calculations of [6] will continue. On a limited scale and
+in some special problems one may even expect realistic
+calculations to occur within a few years -- provided a
+sufficient high-quality software engineering effort could
+be mustered. But the main problem is the inadequacy of
+the dominant software engineering platform in HEP.4
+
+
+Acknowledgments
+
+This work was supported in part by the Russian
+Foundation for Basic Research (quantum field theory
+section) under grant 99-02-18365. F.T. thanks K.Kato
+for providing some numerical examples of calculations of
+one-loop integrals.
+
+
+4 It cannot be emphasized too strongly: C++ cannot be a foundation
+on which to build future. Some related comments together with a
+discussion of alternatives are collected in [10].
+
+
+
+
+3
+
+
+

@@ -1,0 +1,654 @@
+
+
+ 30 May 95
+
+HD-TVP-95-5 CHIRALLY INVARIANT TRANSPORT EQUATIONS FOR
+
+QUARK MATTER1
+
+W. Florkowski 2;3, J. H"ufner, S.P. Klevansky and L. Neise
+
+Institut f"ur Theoretische Physik, Universit"at Heidelberg
+
+Philosophenweg 19, D-69120 Darmstadt, Germany
+
+Abstract: Transport equations for quark matter are derived in the mean field approximation for the Nambu - Jona-Lasinio Lagrangian. Emphasis is put on the chiral limit (zero current quark mass) and the consequences of the chiral symmetry are investigated in detail. Our approach is based on the spinor decomposition of the Wigner function. Kinetic equations for the quark densities and for the evolution of the spin are derived. We find that the latter is constrained by the requirement of the axial current conservation.
+
+HEIDELBERG, MAY 1995
+
+1 Research supported in part by the Federal Ministry for Research and Technology,
+
+(BMFT) grant number 06 HD 742 (0), the Deutsche Forschungsgemeinschaft, grant number Hu 233/4-3, and the Gesellschaft f"ur Schwerionenforschung (GSI) m.b.H. Darmstadt.
+
+2 Permanent address: H. Niewodnicza'nski Institute of Nuclear Physics, ul. Radzikowskiego 152, PL-31-342 Krak'ow, Poland. 3 E-mail address: wojtek @ hobbit.mpi-hd.mpg.de.
+
+1. Introduction
+
+The ultimate goal of the ultra-relativistic heavy-ion collisions being currently carried out at CERN is the observation of the phase transition from hadronic matter to the so-called quark-gluon plasma [1, 2]. One expects that during such a deconfinement phase transition, in which the structures of individual hadrons are destroyed and replaced by a highly-energetic system of quarks and gluons, chiral symmetry is additionally restored. Lattice simulations of QCD [3] indicate that the chiral symmetry restoration phase transition and deconfinement phase transitions may indeed occur at the same temperature. Looking for the signatures of these two phase transitions is one of the most challenging problems of high-energy nuclear physics, both from the experimental and the theoretical point of view [4].
+
+Since the matter produced in high energy nuclear collisions lives only for a short while, it is natural to expect that its space-time evolution proceeds far away from equilibrium. Consequently, there exists a growing interest in applying and developing transport theories, which are suitable for the description of non-equilibrium processes. A kinetic theory based directly on QCD has been formulated in papers by Heinz [5], and by Elze, Gyulassy and Vasak [6]. However this approach, with a few exceptions [7], is still far removed from practical applications.
+
+In the context of the two phase transitions that have been mentioned, it is desirable and important to be able to include some of their aspects into the kinetic approach, which can otherwise be based on some phenomenological assumptions. The deconfinement phase transition seems at present to be too difficult to deal with, since we still do not yet understand this phenomenon fully. On the other hand, the chiral phase transition has been studied in terms of effective chiral models of QCD, for which phenomenological Lagrangians can be given. Such an approach has been quite successful in clarifying this transition.
+
+One such effective approach is based on the Nambu - Jona-Lasinio (NJL) model; within its framework we can study the temperature (density) dependence of various physical quantitites like, e.g., the quark condensate, the pion decay constant, or the quark and meson masses [8, 9]. It is also possible to study the change of the thermodynamic properties of the quark-meson plasma as the system passes the chiral phase transition [10]. With few exceptions however [11, 12, 13], the considerations based on the NJL model are usually restricted to equilibrium situations. We refer the reader to reviews on the NJL model given in [14].
+
+In the present paper, we wish to investigate how the concept of chiral symmetry can be explicitly included into the quantum and classical transport theory based on the NJL Lagrangian. In our investigations, we shall restrict ourselves to the mean field or Hartree
+
+2
+
+approximation, since the interesting phenomena (like, e.g., spontanous symmetry breaking) already take place at this level. Our approach is based on the spinor decomposition of the Wigner function and follows the treatment of [15] and [16]. However, in contrast to [15] we do not neglect the spin degrees of freedom and take into account all the components of the spinor decomposition. On the other hand, we differ from [16], where the spin dynamics is fully discussed, in that we study a system that is governed by a different type of interaction.
+
+A transport theory for the NJL model has been already formulated by Zhang and Wilets [11], where the Keldysh closed-time-path formalism combined with the effectiveaction method has been used to derive the kinetic equations. A certain class of solutions of the classical transport equations found in [11] has been studied in both [12] and [13]. Nevertheless, Ref. [11] does not discuss how the symmetry of the underlying theory (i.e., the chiral symmetry of the NJL Lagrangian) should reflect itself in the transport equations.
+
+In this paper, in trying to clarify this point, we derive the general form of the transport equations (in the mean field approximation) which are chirally invariant. We discuss the properties of these equations and then study their classical limit by performing an expansion in _h for all the functions appearing in the spinor decomposition. Throughout our approach, we investigate and check the consistency of our equations under the assumptions of chiral symmetry. In particular, this implies that the axial current should always be conserved. For the spin evolution equation, as will be seen, this turns out to be a non-trivial requirement.
+
+Our paper is organized as follows: In Section 2 we define the NJL model in the mean field approximation. The Wigner function and its spinor decomposition are introduced in Section 3. In Section 4 we present the chirally invariant quantum kinetic equations. Their classical limit is discussed thoroughly in Sections 5 - 8. In Section 9 we study the case when chiral symmetry is explicitly broken by the presence of nonzero current quark masses. We summarize and conclude in Section 10.
+
+2. The NJL model in the mean field approximation
+
+In our study, we consider the following Lagrangian of the NJL type,
+
+L = _ (i 6 @ \Gamma m0) + G h( _)2 + ( _ifl5)2i ; (1) where is the Dirac field, m0 is the current quark mass, and G is the coupling constant. For simplicity, flavor and color degrees of freedom have been neglected. In the case m0 = 0, the Lagrangian (1) is invariant under UA(1) transformations. This symmetry is, however,
+
+3
+
+spontanously broken by the ground state. In a more realistic approach to quark matter, one should consider the Lagrange density which is invariant under SUA(2) transformations, with UA(1) explicitly broken due to the presence of anomalies and with the spontanous symmetry breaking of SUA(2) [14]. Nevertheless, we expect that the basic problems concerning the formulation of the chirally invariant transport theory can be already studied in the framework of a simpler theory, like this based on (1). In what follows we shall always assume that m0 = 0 except for Section 9 where the consequences of setting m0 6= 0 are taken into consideration.
+
+By introducing the fields ^oe and ^ss defined as
+
+^oe = \Gamma 2G _; ^ss = \Gamma 2G _ifl5; (2) we can recast Lagrangian (1) into the form
+
+L = _i 6 @ \Gamma ^oe _ \Gamma ^ss _ifl5 \Gamma ^oe
+
+2 + ^ss2
+
+4G : (3) The equivalence of (1) and (3) becomes clear if one checks that the variation of (1) with respect to _ gives the same equation of motion for as the variation of (3) with respect to
+
+_; ^oe and ^ss, namely
+
+[i 6 @ \Gamma ^oe(x) \Gamma ifl5^ss(x)] (x) = 0: (4)
+
+In the following, we shall restrict ourselves to the mean field approximation, i.e., the operators
+
+^oe and ^ss will be replaced by their mean values
+
+^oe ! oe = h^oei = Tr(^ae^oe); ^ss ! ss = h^ssi = Tr(^ae^ss): (5) where ^ae is the density operator and Tr denotes the trace over all physical states of the system. The particular form of ^ae is not important for our considerations. We only note that in typical situations, ^ae is either an operator projecting on the parity invariant ground state or it describes parity invariant statistical ensembles. In these two cases h^ssi = 0. Nevertheless, in more general situations (e.g., when the system is out of equilibrium) we cannot exclude the case h^ssi 6= 0.
+
+The Lagrangian (3) is invariant under the UV (1) transformations, ! 0 = exp(\Gamma i OE2 ), which leads to the conservation of the vector current,
+
+@_V _(x) = 0; V _(x) = h _(x)fl_(x)i: (6)
+
+4
+
+In addition, as was stated before, it is invariant under UA(1) chiral transformations
+
+! 0 = exp(\Gamma ifl5 O/2 ); (7)
+
+^oe ! ^oe0 = ^oe cos O/ \Gamma ^ss sin O/; (8) ^ss ! ^ss0 = ^ss cos O/ + ^oe sin O/: (9)
+
+Consequently, the axial current is conserved as well,
+
+@_A_(x) = 0; A_(x) = h _(x)fl_fl5(x)i: (10)
+
+In general, for a non-equilibrium transport theory, one requires two independent Green functions to describe the system. In the mean field approximation, however, one is sufficient. We thus choose the Green function
+
+G!fffi(x; y) = h _fi(y)ff(x)i (11) to be the fundamental quantity in our description. One can easily notice that it satisfies the same equation as the field (x) does, i.e., in the mean field approximation we have
+
+[i 6 @ \Gamma oe(x) \Gamma ifl5ss(x)] G!(x; y) = 0: (12)
+
+The mean fields oe(x) and ss(x) are determined by the Green function G!(x; y) through the relations
+
+oe(x) = \Gamma 2G tr G!(x; x); ss(x) = \Gamma 2G tr ifl5G!(x; x); (13)
+
+where the trace tr is taken over the spinor indices.
+
+3. Wigner function and its spinor decomposition
+
+For the description of non-uniform systems, it is convenient to introduce Wigner transforms. This allows one to make an easier physical interpretation of the components of the Green function and facilitates performing the classical limit. In the case of the Green function G!(x; y), its Wigner transform is obtained by introducing the center-of-mass coordinate X = (x + y)=2, the relative coordinate u = x \Gamma y, and by taking the Fourier transform with respect to u. Following the notation of [17], we define
+
+Wfffi(X; p) = Z d4u e
+
+i _h p\Delta u G!fffi `X + u2 ; X \Gamma u2 ' : (14)
+
+5
+
+In Eq. (14) we have explicitly incorporated the Planck constant _h, since later on we wish to investigate the classical approximation.
+
+The Wigner transforms of the derivative of a two-point function, @f (x; y)=@x_, and of the product of a one-point function with the two-point one, f (x)g(x; y), are given by the expressions
+
+@f (x; y)
+
+@x_ ! (\Gamma ip
+
+_ + _h
+
+2 @
+
+_)f (X; p); (15)
+
+f (x)g(x; y) ! f (X)g(X; p) \Gamma i_h2 @_f (X)@_p g(X; p); (16) with the notation @_ = @=@X_; @_p = @=@p_, and where in the second relation (16), only the derivatives of first order in @p and @X are kept. This approximation will always be used in the following.
+
+Using Eq. (12) and the properties of the Wigner transform (15) and (16), we arrive at the following equation for the Wigner function
+
+"
+
+p_ + i_h2 @_! fl_ \Gamma oe(X) + i_h2 @_oe(X)@_p \Gamma ifl5ss(X) \Gamma _h2 fl5@_ss(X)@_p # W (X; p) = 0:
+
+(17) Eq. (17) together with Eqs. (13) and (14) form the system of the coupled equations that we are going to study in detail in this paper. We observe that under the chiral transformation (7), the Wigner function changes according to the prescription
+
+W ! W 0 = exp(\Gamma ifl5 O/2 ) W exp(\Gamma ifl5 O/2 ): (18) Hence, one can check that Eq. (17) is invariant under transformations (8), (9) and (18) and thus that the first order in the derivative expansion of the Green function is symmetry preserving.
+
+The Wigner function Wfffi(X; p) is a 4 by 4 matrix in spinor indices and can be expanded in terms of 16 independent generators of the Clifford algebra. The conventional basis consists of 1, ifl5; fl_; fl_fl5; and 12oe_* which we denote in what follows by \Gamma i. In this basis, the Wigner function has the form
+
+W = F + ifl5P + fl_V_ + fl_fl5A_ + 12 oe_*S_* : (19)
+
+6
+
+The properties fl0W yfl0 = W and fl0\Gamma yi fl0 = \Gamma i (the first one results from (14), whereas the second one is a simple consequence of the definition of \Gamma i) indicate that the coefficients in the spinor decomposition F (X; p); P(X; p); V_(X; p); A_(X; p) and S_* (X; p) are real functions. We note that the spinor decomposition technique has been already used in the formulation of the transport theory for QED [16, 18, 19] and for QHD (so-called quantum hadrodynamics) [15].
+
+The vector and axial currents, see Eqs. (6) and (10), are related to the functions V_(X; p) and A_(X; p) by the simple relations
+
+V _(X) = 4 Z d
+
+4p
+
+(2ss)4 V
+
+_(X; p) (20)
+
+and
+
+A_(X) = \Gamma 4 Z d
+
+4p
+
+(2ss)4 A
+
+_(X; p): (21)
+
+Therefore V_(X; p) and A_(X; p) can be interpreted as the momentum densities of these two currents. For the physical interpretation of the other components we refer the reader to Refs. [16, 18]. Under the chiral transformation (18) the coefficients of the spinor decomposition (19) change as follows
+
+F ! F 0 = F cos O/ + P sin O/;
+
+P ! P0 = \Gamma F sin O/ + P cos O/; V_ ! V0_ = V_; (22) A_ ! A0_ = A_; S_* ! S0_* = S_* cos O/ + ~S_* sin O/;
+
+~S_* ! ~S0_* = \Gamma S_* sin O/ + ~S_* cos O/;
+
+where ~S_* is the dual tensor to S_* , namely
+
+~S_* = 12 "_*fffiSfffi: (23)
+
+7
+
+4. Kinetic equations
+
+Substituting expression (19) into Eq. (17) gives the following system of the coupled equations for the coefficients of the decomposition (19)
+
+K_V_ \Gamma oeF + ssP = \Gamma i_h2 i@*oe@*p F \Gamma @* ss@*p Pj ; (24) \Gamma iK_A_ \Gamma oeP \Gamma ssF = \Gamma i_h2 i@*oe@*p P + @*ss@*p F j ; (25) K_F + iK*S*_ \Gamma oeV_ + issA_ = \Gamma i_h2 i@*oe@*p V_ \Gamma i@*ss@*p A_j ; (26) iK_P \Gamma K* ~S*_ \Gamma oeA_ + issV_ = \Gamma i_h2 i@*oe@*p A_ \Gamma i@*ss@*p V_j ; (27) i(K_V*\Gamma K*V_)\Gamma "_*fffiKffAfi \Gamma ss ~S_* +oeS_* = i_h2 (@floe@flp S_*\Gamma @flss@flp ~S_* ): (28)
+
+In abbreviation we have introduced here the notation K_ = p_ + i_h2 @_. Eqs. (24) - (28) should be supplemented by the formulas that determine the mean fields. They follow from (13) and have the form
+
+oe(X) = \Gamma 2G Z d
+
+4p
+
+(2ss)4 tr W (X; p) = \Gamma 8G Z
+
+d4p (2ss)4 F (X; p) (29)
+
+and
+
+ss(X) = \Gamma 2G Z d
+
+4p
+
+(2ss)4 tr ifl5W (X; p) = 8G Z
+
+d4p (2ss)4 P(X; p): (30)
+
+Using the transformation properties (8), (9) and (22) we can check that this system of equations is chirally invariant. Strictly speaking, each of Eqs. (24), (25) and (28) is separately a chirally invariant equation. On the other hand, Eqs. (26) and (27), after a chiral transformation, form linear combinations of each other. These combinations imply, however, that each of their components must vanish separately. In consequence, we can treat the system of the two equations (26) and (27) as a chirally invariant expression. In the analogous way, one can check that the system of Eqs. (29) and (30) is chirally invariant.
+
+For further analysis, it is convenient to discuss separately the real and imaginary parts of Eqs. (24) - (28). The real parts give
+
+p_V_ \Gamma oeF + ssP = 0; (31)
+
+8
+
+_h
+
+2 @_A
+
+_ \Gamma oeP \Gamma ssF = 0; (32)
+
+p_F \Gamma _h2 @*S*_ \Gamma oeV_ = \Gamma _h2 @*ss@*p A_; (33) \Gamma _h2 @_P \Gamma p* ~S*_ \Gamma oeA_ = \Gamma _h2 @*ss@*p V_; (34) \Gamma _h2 (@_V* \Gamma @*V_) \Gamma "_*fffipffAfi + oeS_* \Gamma ss ~S_* = 0: (35)
+
+One can notice that integrating of Eq. (32) over the momentum gives
+
+_h Z d
+
+4p
+
+(2ss)4 @_A
+
+_(X; p) = 0; (36)
+
+where the definitions (29) and (30) have been used. This equation is nothing other than the statement that the axial current should be conserved (10). We thus see that after making the gradient expansion, this conservation law is still included in the transport equations. The imaginary parts of Eqs. (24) - (28) yield
+
+_h
+
+2 @
+
+_V_ = \Gamma _h
+
+2 i@*oe@
+
+* p F \Gamma @*ss@
+
+* p Pj ; (37)
+
+p_A_ = _h2 i@*oe@*p P + @* ss@*p F j ; (38) _h
+
+2 @_F + p
+
+* S*_ + ssA_ = \Gamma _h
+
+2 @* oe@
+
+* p V_; (39)
+
+p_P \Gamma _h2 @* ~S*_ + ssV_ = \Gamma _h2 @* oe@*p A_; (40)
+
+(p_V* \Gamma p* V_) \Gamma _h2 "_*fffi@ffAfi = _h2 i@floe@flp S_* \Gamma @flss@flp ~S_*j : (41)
+
+Although we have neglected the higher order gradients, Eqs. (31) - (41) are still quantum kinetic equations. In order to obtain the classical equations one makes an expansion in powers of F in _h
+
+F = F(0) + _hF(1) + _h2F(2) + ::: ; (42) and similarly of P; V_; A_; S_* ; ss and oe. Expansions of the form (42) are inserted into Eqs. (31) - (41) and the expressions at the appropriate powers of _h are compared. The detailed description of this procedure will be the subject of the next Sections.
+
+9
+
+5. Constraint equations in the leading order of _h
+
+Substituting expansions of the type (42) into Eqs. (31) - (35), we find to leading (zeroth) order of _h
+
+p_V(0)_ \Gamma oe(0)F(0) + ss(0)P(0) = 0; (43)
+
+oe(0)P(0) + ss(0)F(0) = 0; (44)
+
+p_F(0) \Gamma oe(0)V_(0) = 0; (45)
+
+~S_*(0)p* \Gamma oe(0)A_(0) = 0; (46)
+
+\Gamma "_*fffipffA(0)fi + oe(0)S_*(0) \Gamma ss ~S_*(0) = 0: (47)
+
+Correspondingly, the zeroth order of Eqs. (37) - (41) has the form
+
+p_A(0)_ = 0; (48) p* S(0)*_ + ss(0)A(0)_ = 0; (49)
+
+p_P(0) + ss(0)V_(0) = 0; (50)
+
+p_V*(0) \Gamma p* V_(0) = 0: (51)
+
+These are only four equations, since Eq. (37) is already of first order in _h. From Eqs. (44) and (45) one finds
+
+P(0) = \Gamma ss(0) F(0)oe
+
+(0) (52)
+
+and
+
+V_(0) = p_ F(0)oe
+
+(0) : (53)
+
+Then Eqs. (50) and (51) are automatically fulfilled. Moreover, Eqs. (43) - (45) lead to the mass-shell constraint for the function F(0)(X; p), namely
+
+[p2 \Gamma M 2(X)]F(0)(X; p) = 0; M 2(X) = oe2(0)(X) + ss2(0)(X): (54) From Eq. (47), we find the following expression for the spin tensor
+
+S_*(0) = \Gamma ss(0)M 2 hp_A*(0) \Gamma p* A_(0)i + oe(0)M 2 "_*fffipffA(0)fi ; (55)
+
+10
+
+and the dual spin tensor
+
+~S_*(0) = \Gamma oe(0)M 2 hp_A*(0) \Gamma p* A_(0)i \Gamma ss(0)M 2 "_*fffipffA(0)fi : (56) Substituting now Eq. (56) into Eq. (46), and using (48) one obtains a mass-shell constraint for A_(0)(X; p) also, i.e.,
+
+[p2 \Gamma M 2(X)]A*(0)(X; p) = 0: (57) Finally, using (55), (48) and (57) we find that (49) is satisfied. In summary, Eqs. (43) - (51) lead to the expressions for P(0) and V_(0) in terms of F(0), and for S_*(0) and ~S_*(0) in terms of A_(0). Furthermore, they lead to the two mass-shell constraints.
+
+The mean fields appearing in Eqs. (43) - (47), (49) and (50) are required to be calculated in a self-consistent way from Eqs. (29) and (30). Doing so, we find
+
+oe(0)(X) = \Gamma 8G Z d
+
+4p
+
+(2ss)4 F(0)(X; p); (58)
+
+ss(0)(X) = 8G Z d
+
+4p
+
+(2ss)4 P(0)(X; p): (59)
+
+Due to the relation (44), one finds that these two equations are not independent and can be reduced to a single equation which determines the invariant mass M (X). To see this relation more clearly, let us define the distribution function F (X; p) via the expression
+
+F (X; p) = F(0)(X; p)oe
+
+(0)(X) = \Gamma
+
+P(0)(X; p)
+
+ss(0)(X) (60)
+
+and the angle \Phi (X) via the relations
+
+ss(0) = M (X) sin \Phi (X); oe(0) = M (X) cos \Phi (X): (61) F (X; p) is a chirally invariant quantity, and knowledge of it determines the value of M (X). In addition, it allows us to calculate the vector current density V_(0). However, Eqs. (58) and (59) do not determine separately the fields ss(0) and oe(0), i.e., the angle \Phi (X). This fact is in agreement with the requirements of the chiral symmetry of the problem: under the chiral transformations \Phi (X) ! \Phi 0(X) = \Phi (X) + O/ and, consequently, the absolute value of \Phi (X) has no physical significance.
+
+11
+
+With this, we conclude the discussion of the expressions obtained to zeroth order in _h. The derived equations all display the chirally invariant form. Let us turn now to the discussion of the equations which follow from Eqs. (37) - (41), considered to first order in _h.
+
+6. Kinetic equation for the quark distribution functions
+
+Employing Eqs. (52) and (53) in Eq. (37), one immediately finds
+
+p_@_F (X; p) + M (X)@_M (X)@_p F (X; p) = 0; (62) where we have used the definition (60). This is again a chirally invariant equation. Due to the mass-shell condition (54), we can express F (X; p) as the sum of the quark and antiquark distribution functions f +(X; p) and f \Gamma (X; p) defined by
+
+F (X; p) = 2ss ( ffi(p
+
+0 \Gamma Ep(X))
+
+2Ep(X) f
+
++(X; p) + ffi(p0 + Ep(X))
+
+2Ep(X) hf
+
+\Gamma (X; \Gamma p) \Gamma 1i) : (63)
+
+Here Ep(X) = qp2 + M 2(X), and p is a three-momentum. Substituting expression (63) into Eq. (62), and integrating over p0 gives
+
+p_@_f \Sigma (X; p) + M (X)@_M (X)@_p f \Sigma (X; p) = 0: (64) Eq. (64) displays a typical form for fermion mean field theories. In our case, however, a characteristic feature of this equation is the appearance of the chirally invariant mass M (X). We emphasize that the four-momentum p_ occuring in (64) is to be taken on the mass shell, i.e., in this case p0 = Ep(X). At the same time the distribution functions f \Sigma are functions of the space-time coordinate X and the three-momentum p with the derivative with respect to the energy, p0, defined to be zero. We have formally included it however, in order to display the relativistic invariance of the kinetic equation (64) explicitly.
+
+Using Eqs. (58), (60) and (63) we find that the NJL gap equation takes the form
+
+oe(0)(X) = 4Goe(0)(X) Z d
+
+3p
+
+(2ss)3
+
+1 Ep(X) h1 \Gamma f
+
++(X; p) \Gamma f \Gamma (X; p)i ; (65)
+
+which determines the mass M (X) appearing in Ep(X) in terms of the distribution functions f \Sigma (X; p). One can easily notice that using Eq. (59) instead of (58) we would obtain the same equation as (65), with the appearance of ss(0) instead of oe(0).
+
+12
+
+Using now Eqs. (20) and (63), we find the following expression for the baryon current
+
+V _(X) = 2 Z d
+
+3p
+
+(2ss)3
+
+p_ Ep(X) hf
+
++(X; p) \Gamma f \Gamma (X; p) + 1i ; (66)
+
+where p_ is again on the mass shell, i.e., p0 = Ep(X). The constant appearing at the end of the square bracket can be neglected, since it does not contribute to V(X), and for V 0(X) it introduces a constant (although infinite) charge.
+
+We note that Eqs. (64) and (65) form a closed system of equations: the distribution functions f \Sigma (X; p) determine the invariant mass M (X) through Eq. (65), whereas the space dependence of M (X) determines in (64) the time evolution of f \Sigma (X; p). In the case ss(0) = 0 this system of equations was first derived by Zhang and Wilets [11], whose calculations were based on the path integral formalism. Our approach represents an alternative derivation and generalizes their results to the case ss(0) 6= 0. Some solutions of Eqs. (64) and (65) have been found in [12] and [13].
+
+7. Spin evolution
+
+In the classical limit the spin dynamics is described by the behavior of the function A_(0)(X; p) [16, 18]. In order to derive the kinetic equation for A_(0)(X; p), we use Eq. (40) and substitute into it the expression for V_ obtained from Eq. (33). Such a procedure gives, to the first order in _h, the following equation
+
+p_@*A*(0) \Gamma oe(0)@* ~S*_(0) \Gamma ss(0)@* S*_(0) + M @* M @*p A_(0) = 0: (67) Substituting the expression for the spin tensor (55) and the dual spin tensor (56) into Eq. (67) leads to the equation determining the space-time evolution of A_(0)(X; p), namely
+
+p* @*A_(0) + M @* M @*p A_(0) + @*MM hp_A*(0) \Gamma p* A_(0)i \Gamma "_*fffi@*\Phi pffA(0)fi = 0: (68) We note that Eq. (68) is again a chirally invariant equation, since both the mass M (X) and the gradient of the angle \Phi (X) are chirally invariant quantities. Due to the condition (48), only three out of four equations in (68) are independent. In fact, one can check that multiplication of (68) by p_ gives zero.
+
+The mass M (X) appearing in (68) has to be calculated from the system of equations (64) and (65). Hence, it can be treated in (68) as an externally prescribed function. On the other
+
+13
+
+hand, the gradient @_\Phi (X) is not known, and until we specify how to calculate it, Eq. (68) cannot be used to determine the time evolution of A_(0)(X; p). Moreover, one has to check whether the solutions of (68) satisfy the requirement of axial current conservation (10). The last two points will be discussed in more detail in the next Section, where we examine the consistency of our all equations up to the first order in _h.
+
+In analogy to the QED calculations [6] we introduce the spin up and spin down phasespace densities
+
+F\Sigma s(X; p) = F (X; p) \Sigma S_(X; p) A
+
+_ (0)(X; p)
+
+M (X) ; (69)
+
+where S_(X; p) is defined by
+
+S_(X; p) = A
+
+(0) _ (X; p)h
+
+\Gamma A(0)* (X; p)A*(0)(X; p)i
+
+1 2 : (70)
+
+Due to the condition (48), the four-vector A_(0)(X; p) is space-like, A_(0)(X; p)A(0)_ (X; p) ! 0, therefore S_(X; p)S_(X; p) = \Gamma 1. The quantity S_(X; p) describes the mean spin orientation of the classical particles placed at the space-time point X and having the four-momentum p. On the other hand, the magnitude of A_(0)(X; p), through Eq. (69), determines how many spin up and spin down particles are present in the system. Using Eq. (68), we find
+
+p* @* S_ + M @* M @*p S_ + @* MM p_S* \Gamma "_*fffi@*\Phi pffSfi = 0; (71) and consequently
+
+p* @*F\Sigma s(X; p) + M @* M @*p F\Sigma s(X; p) = 0: (72) Hence, in a similar way to transport equations for QED [16], we find that the spin components decouple. Since both functions F (X; p) and A_(0)(X; p) are on the mass-shell, we can write the analogous decomposition as in (63), namely
+
+F\Sigma s(X; p) = 2ss ( ffi(p
+
+0 \Gamma Ep(X))
+
+2Ep(X) f
+
++ \Sigma s(X; p) + ffi(p
+
+0 + Ep(X))
+
+2Ep(X) hf
+
+\Gamma \Upsilon s(X; \Gamma p) \Gamma 1i) : (73)
+
+Substituting Eq. (73) into Eq. (72), and integrating over p0 gives
+
+14
+
+p_@_f \Sigma \Sigma s(X; p) + M @_M @_p f \Sigma \Sigma s(X; p) = 0: (74) By a direct comparison of (63) and (73), we find f \Sigma (X; p) = 12 hf \Sigma +s(X; p) + f \Sigma \Gamma s(X; p)i. Therefore the functions f \Sigma (X; p) simply represent the spin-averaged densities. This has been given in agreement with the normalization of (65) and (66).
+
+8. Consistency of the classical transport equations
+
+The kinetic equations for the quark densities (62) and for the spin (68) follow from Eqs. (37) and (40) considered to the first order in _h. We have yet to examine (i) whether equations (38), (39) and (41) are consistent with these to the same order and (ii) whether the additional information for the angle \Phi (X) appearing in (68) can be obtained. We note that this kind of checking has been done in the case of QED in [16].
+
+First, in order to illustrate that there is no contradiction between (37) and (39) we substitute the quantities A_ and S*_ obtained from Eqs. (34) and (35), respectively into Eq. (39). In this way, we find the following equation
+
+_h (@_F(0) \Gamma p
+
+*
+
+oe(0) "@_ p*
+
+F(0)
+
+oe(0) ! \Gamma @* p_
+
+F(0)
+
+oe(0) !# \Gamma
+
+ss(0) oe(0) @_P(0)
+
++ 1oe
+
+(0) hss(0)@
+
+*ss(0)@*p V(0)_ + oe(0)@*oe(0)@*p V(0)_ i) = 0: (75)
+
+Since we are interested in retaining terms to the first order in _h we can use the relations (44), (45), (54), and the kinetic equation (62) to find that (75), and consequently (39), is fulfilled.
+
+In an analogous fashion, using the kinetic equation for spin (68), the constraints (48) and (57), and the definition (61), we can show that Eq. (41) is fulfilled again to the first order in _h. To do this, we multiply both sides of (41) by "fffi_*. Using the formula for V* from (33), we find that the multiplication of the left-hand-side of (41) gives the expression
+
+\Gamma _hoe
+
+(0) n"
+
+fffi_*p_ h@flS
+
+fl*
+
+(0) \Gamma @flss(0)@
+
+fl p A
+
+*(0)i \Gamma oe(0) i@ffA(0)
+
+fi \Gamma @fiA(0)ff jo : (76)
+
+On the other hand, the multiplication of the right-hand-side of (41) yields
+
+15
+
+_h h@floe(0)@flp ~S(0)fffi + @flss(0)@flp S(0)fffi i : (77) Using now the expressions for S(0)_* and ~S(0)_* , after a rather lengthy calculation in which Eqs. (48), (57), (61) and (68) must be used, we find that the two expressions above are equal to each other. Consequently, Eq. (41) is fulfilled up to the first order in _h as well.
+
+In this way, we have shown that Eqs. (37), (39) - (41) are satisfied in the first order. To prove this fact, we have used Eqs. (31) - (35), treating them as if they were satisfied up to the first order. Is this procedure admissable? The answer to this question is yes. Only F and A_ are independent functions (with A_ restricted by the axial current conservation (36)). Eqs. (32), (33) and (35) are just the definitions of P, V_ and S_* , and therefore are in our approach always satisfied. On the other hand Eq. (31) gives in the first order
+
+(p2 \Gamma M 2)F(1) = 2 hoe(0)oe(1) + ss(0)ss(1)i F(0) + @*ss(0)A*(0) (78) and
+
+(p2 \Gamma M 2)P(1) = 2 hoe(0)oe(1) + ss(0)ss(1)i P(0) + @*oe(0)A*(0); (79)
+
+whereas using Eq. (34) one finds
+
+(p2 \Gamma M 2)A_(1) = 2 hoe(0)oe(1) + ss(0)ss(1)i A_(0) \Gamma M 2F @_\Phi : (80) One can notice that Eq. (80) as it stands is a chirally invariant expression. On the other hand Eqs. (78) and (79) form a system of chirally invariant equations in the same way as equations (26) and (27), or equations (29) and (30). One can also check, that using formula (32) as the definition of P and Eq. (78), we can derive Eq. (79). Therefore, only one of equations (78) and (79) is really independent. We observe that all the expressions (78) - (80) are just the generalized mass-shell constraints for F(1), P(1) and A_(1), and they do not influence the relations in the zeroth order.
+
+The last equation that we are still required to check is Eq. (38). Substituting the quantity P, calculated from (32) into (38), gives
+
+M 2(X)
+
+2 @_\Phi (X)@
+
+_ p F (X; p) = p
+
+_A(1)
+
+_ (X; p): (81)
+
+We see that Eq. (81) defines the parallel part of A_ in the first order. Multiplying (80) by p_ and using Eqs. (81) and (54) we obtain zero. Hence Eqs. (81) and (80) are consistent.
+
+16
+
+After deriving all possible equations up to the first order in _h and checking their consistency, we are still faced with two problems. Firstly, the system of our equations in the leading order is not closed, since we do not have an equation for \Phi (X). Secondly, it is still not clear whether our kinetic equation for spin satisfies the requirement of the axial current conservation.
+
+One a priori possible situation is that the condition of the axial current conservation eliminates the freedom connected with the choice of @_\Phi (X). However, by studying some simple situations, one can convince oneself that this is not the case. For example, assuming that M = const and that initially the spin distribution is homogenous A_(0)(t = 0; x; p) = B_(p) we find p0@0A0(0) = "0ijk @i\Phi pj Bk(p). In this situation, the axial current conservation at t = 0 requires that @i\Phi R d4p "0ijk (pj =p0) Bk(p) = 0. We can see that this equation is not sufficient to determine the gradient of \Phi and consequently the derivative @0A0(0) remains not well defined. Consequently, in order to obtain the closed system of equations in the classical limit we have to make some assumption on the form of @_\Phi (X). The simplest chirally invariant choice is
+
+@_\Phi (X) = 0: (82) In the case (82), our kinetic equation (68) allows us to determine the time evolution of the function A_(0)(X; p) from its knowledge at some initial time. One can notice, however, that this equation allows for solutions which do not satisfy the requirement of the axial current conservation. One of these solutions, for the case M = const, has the form A_(0)(X; p) = s_(p)s* (p)X* ffi(4)(p \Gamma ~p), where s_(p) is a vector satisfying the conditions s_(p)p_ = 0 and s_(p)s_(p) = \Gamma 1, and ~p is some given value of the four-momentum, with ~p_ ~p_ = M 2. On the other hand, there also exist solutions of Eq. (68) which satisfy the requirement of the axial current conservation. These are, e.g., the static homogeneous solutions (for the case M = const) or the solutions which are odd functions of momentum.
+
+In consequence, we observe that Eq. (68) neither guarantees nor contradicts Eq. (10). Therefore the axial current conservation should be used as an external condition which selects the physical solutions of (68).
+
+9. Explicit breaking of chiral symmetry
+
+In the case m0 6= 0, the chiral invariance of the Lagrangian (1) is explicitly broken by the expression \Gamma m0 _. In this situation, the additional term in the Dirac equation leads
+
+17
+
+to a simple modification of our kinetic equations (24) - (28); we have to replace the mean field oe by the sum oe + m0. Of course, in practice, this change affects only the real parts of our equations, i.e., the formulae (31) - (35), since the imaginary parts (37) - (41) depend only on the gradients of oe. On the other hand, we observe that Eqs. (58) and (59) remain unchanged because they are just definitions of the mean fields.
+
+The important fact in the non-symmetric case is that the relations between the functions F(0); P(0) and V_(0) look different. In particular, instead of Eqs. (52) and (53), we now find
+
+P(0) = \Gamma ss(0) F(0)oe
+
+(0) + m0 ; V
+
+_ (0) = p
+
+_ F(0)
+
+oe(0) + m0 : (83)
+
+Using the first of the relations (83) in Eqs. (58) and (59), we obtain
+
+oe(0)(X) + 8G Z d
+
+4p
+
+(2ss)4 F(0)(X; p) = 0; (84)
+
+and
+
+ss(0)(X) "oe(0)(X) + m0 + 8G Z d
+
+4p
+
+(2ss)4 F(0)(X; p)# = 0: (85)
+
+A straightforward consequence of these two equations is the condition
+
+ss(0)(X) = 0; (86) which implies also that P(0(X; p) = 0 and \Phi (X) = 0. Therefore, we observe that if the system is not chirally invariant, equations (58) and (59) allow for the determination of the angle \Phi (X).
+
+For m0 6= 0, the mass-shell constraints (54) and (57), as well as the kinetic equations (62) and (68) preserve their form, only in this case we should use the definitions
+
+F (X; p) = F(0)oe
+
+(0) + m0 ; M (X) = oe(0) + m0: (87)
+
+The gap equation (65) has now the form
+
+M = m0 + 4GM Z d
+
+3p
+
+(2ss)3
+
+1q
+
+M 2(X) + p2 h1 \Gamma f
+
++(X; p) \Gamma f \Gamma (X; p)i : (88)
+
+18
+
+Let us now discuss the behavior of the axial current in the case when m0 6= 0. In this situation, we no longer have an axial current conservation law, and using Eq. (32), we can write
+
+_h ae 12 @_A_(0) \Gamma (oe(0) + m0)P(1) \Gamma ss(1)F(0)oe = 0: (89) The integration of (89) over momentum gives
+
+@_A_(0)(X) = \Gamma m0G ss(1)(X): (90) In contrast to the m0 = 0, case we observe that such an integration does not lead to any constraint for A_(0) itself. Therefore, without any restrictions on @_A_(0) we can treat Eq. (89) as a defining equation for P(1). One can still check that Eq. (89) leads to the mass-shell constraint for P(1) which agrees with (79). The latter formula, for the case m 6= 0, should be rewritten in the form (p2 \Gamma M 2)P(1) = @*M A*(0). We note that Eq. (90) describes the partial conservation of the axial current (PCAC) in our case.
+
+10. Summary and Conclusions
+
+In this paper, the chiral symmetry concepts have been explicitly included in the construction of the transport equations for quark matter. Our starting point was a chirally invariant Lagrangian and we derived the transport equations via a spinor decomposition of the Wigner function and a gradient expansion. Our calculation was restricted to the mean field approximation. We have taken into account the spin dynamics and discussed the possibility of having a non-zero pseudoscalar condensate. In this aspect, our results are a generalization of some earlier results obtained in Ref. [11].
+
+The classical quark distribution functions satisfy the kinetic equations of the standard form with the effective chirally invariant mass M 2(X) = ss2(0)(X) + oe2(0)(X), where ss(0)(X) and oe(0)(X) are leading terms in the classical expansion of the pseudoscalar and scalar condensates. Furthermore the angle \Phi (X), defined through the relation ss(0)(X)=oe(0)(X) = tan\Phi (X), must be a constant. However, its value remains undefined, which reflects the chiral symmetry of the problem.
+
+The classical equation for the spin evolution, which has been derived here for the first time, is also invariant under chiral transformations. However, its solutions are constrained by the additional condition of the axial current conservation, that is not simple to incorporate.
+
+19
+
+The inclusion of the quark mass term into the Lagrangian explicitly breaks the chiral invariance. Consequently, we find that \Phi (X) as well as ss(0)(X) must be zero. Nevertheless, the general form of the kinetic equations does not change and we can still use them with the substitution M (X) = oe(0)(X) + m0, where m0 is the current quark mass. Moreover, in this case the requirement of the axial current conservation reduces to a form familiar from PCAC.
+
+Acknowledgements: We thank M. Volkov, F. Witte and P. Zhuang for clarifying discussions.
+
+20
+
+References
+
+[1] H.R. Schmidt and J. Schukraft, J. Phys. G19 (1993) 1705. [2] Proceedings of the conference Quark Matter '93, Nucl. Phys. A566 (1994). [3] See, for example, F. Karsch, in Quark-Gluon Plasma (World Scientific, 1990) ed. R.C.
+
+Hwa, p. 61.
+
+[4] C.P. Singh, Phys. Rep. 236 (1993) 147. [5] U. Heinz, Phys. Rev. Lett. 51 (1983) 351; Ann. Phys. (N.Y) 161 (1985) 48. [6] H.-Th. Elze, M. Gyulassy and D. Vasak, Nucl. Phys B276 (1986) 706; Phys. Lett. B177
+
+(1986) 402.
+
+[7] A. Bialas, W. Czy.z, A. Dyrek and W. Florkowski, Nucl. Phys. B296 (1988) 611. [8] T. Hatsuda and Kunihiro, Phys. Rev. Lett. 55 (1985) 158. [9] W. Florkowski and B.L. Friman, Acta Phys. Pol. B25 (1994) 49. [10] J. H"ufner, S.P. Klevansky, P. Zhuang and H. Voss, Ann. Phys. (N.Y.) 234 (1994) 225;
+
+P. Zhuang, J. H"ufner and S.P. Klevansky, Nucl. Phys. A576 (1994) 525.
+
+[11] W.-M. Zhang and L. Wilets, Phys. Rev. C45 (1992) 1900. [12] A. Abada and J. Aichelin, Phys. Rev. Lett. 74 (1995) 3130. [13] W. Florkowski, Phys. Rev. C50 (1994) 3069. [14] U. Vogel and W. Weise, Prog. Part. and Nucl. Phys. 27 (1991) 195; S.P. Klevansky, Rev.
+
+Mod. Phys. 64 (1992) 649; M.K. Volkov, Phys. Part. Nucl. 24 (1993) 35; T. Hatsuda and T. Kunihiro, Phys. Rep. 247 (1994) 221.
+
+[15] H.-T. Elze et al, Mod. Phys. Lett. A2 (1987) 451. [16] D. Vasak, M. Gyulassy, and H.-T. Elze, Ann. Phys. (N.Y.) 173 (1987) 462. [17] St. Mr'owczy'nski and U. Heinz, Ann. Phys. (N.Y) 229 (1994) 1. [18] I. Bialynicki-Birula, P. G'ornicki and J. Rafelski, Phys. Rev. D44 (1991) 1825. [19] P. Zhuang and U. Heinz, Regensburg Preprint TPR-95-2
+
+21
+

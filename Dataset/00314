@@ -1,0 +1,342 @@
+
+
+ 10 Jan 1995
+
+Cavendish-HEP-94/5 Electroweak instantons at non-zero Weinberg angle\Lambda
+
+M.J. Gibbsy, Cavendish Laboratory, University of Cambridge
+
+Madingley Road, Cambridge CB3 0HE, U.K.
+
+Abstract Previous calculations of instanton effects in electroweak theory have concentrated on the case of zero Weinberg angle `w, where the U(1) hypercharge field decouples. In this paper we extend the instanton calculation to non-zero `w, by constructing a perturbation expansion. This allows for the first time the study of photon production at B and L number violating verticies. We find that the orientation of the instanton solution in isospin space has to be carefully considered to avoid unphysical results.
+
+Cavendish-HEP-94/5 January 10, 1995
+
+\Lambda Research supported in part by the UK Particle Physics and Astronomy Research Council and by the EC Programme "Human Capital and Mobility", Network "Physics at High Energy Colliders", contract CHRX-CT93-0357 (DG 12 COMA).
+
+yCurrent address: Department of Physics, Oliver Lodge Laboratory, Liverpool University, U.K.
+
+1 Introduction It has been known for some time that topologically non-trivial gauge fields (instantons) induce baryon and lepton number violating verticies in electroweak theory [1, 2]. More recent investigations into these processes suggest that such processes may be observable at supercollider energies. An extensive review can be found in [3].
+
+However, present calculations have all been in the context of SU(2)-Higgs models, which correspond to the limit sin2 `w = 0. In this case the U(1)Y field decouples and can be consistently set to zero. In order to investigate more fully the possibility of observing B and L violating processes at supercollider energies [4], one has to include the effect of a non-zero Weinberg angle. This will allow the study of B and L violating vertices which include photons as well as massive gauge bosons for the first time.
+
+In this paper we consider the inclusion of the U(1)Y field by a perturbative expansion in `w, similar to the method discussed in [5-7] for the sphaleron. We construct the instanton which dominates the euclidian path integral in the unit winding number sector of the electroweak theory, and calculate the effect of non-zero `w. The resultant expressions appear to violate co-ordinate system independence, and we demonstrate how this problem is resolved by considering the integration over the instanton orientations.
+
+Our discussion is limited to the bosonic part of the electroweak theory, in euclidian space. This is obtained by performing a Wick rotation x0 ! \Gamma ix0. The corresponding rotation for gauge fields is A0 ! iA0. The relevant part of the Lagrangian is then
+
+Lboson = 12 Tr (F_* F_*) + 14 (B_* B_* ) + (D_OE)y D_OE + * `OEyOE \Gamma 12 v2'
+
+2
+
+: (1)
+
+The two gauge field tensors are defined in terms of the corresponding gauge fields in the usual way. Thus, for the SU(2) gauge field A_ = oea2 Aa_ we have
+
+F_* = @_A* \Gamma @*A_ + [A_; A*] (2) and for the U(1) field B_
+
+B_* = @_B* \Gamma @* B_: (3)
+
+The symmetry is spontaneously broken by the Higgs expectation value hOEi = v=p2, leaving U(1)EM. This can be demonstrated by writing the field OE in the form
+
+OE (x) = 1p2 (v + j (x)) 01 ! (4) This choice for the expansion of OE corresponds to choosing the unitary gauge. The W \Sigma bosons correspond to the fields
+
+W \Sigma _ = 1p2 iA1_ \Upsilon iA2_j (5) and the Z0 boson and photon can be written in terms of the Weinberg angle tan`w = g0=g as
+
+Z_ = cos`wA3_ \Gamma sin`wB_ (6)
+
+fl_ = sin`wA3_ + cos`wB_ (7)
+
+1
+
+respectively. The masses of these particles are then mfl = 0, mW = gv=2, and mZ = mW =cos`w for the photon and the W \Sigma and Z0 bosons respectively. The Higgs boson, which is the physical manifestation of the field j, has mass mH = p2*v.
+
+In our notation, the classical equations of motion of the fields in (1) are
+
+D* F_* = J SU(2)L_ ; (8)
+
+@*B_* = J U(1)Y_ ; (9)
+
+D_D_OE = 2* `OEyOE \Gamma 12 v2' OE; (10)
+
+and the associated currents are
+
+J SU(2)L_ = \Gamma 14 ig `OEyoeaD_OE \Gamma (D_OE)y oeaOE' (11)
+
+J U(1)Y_ = \Gamma 12 ig0 `OEyD_OE \Gamma (D_OE)y OE' : (12)
+
+Introduction of fermion fields into the calculation of S-matrix amplitudes introduces a coupling between the determinant of the quantum fluctuations about the classical instanton solution and the fermionic fields in such a way as to violate B and L number conservation. The contribution to the determinant of this coupling is referred to as the `zero-modes' of the fermionic fields.
+
+2 Instantons The existence of non-trivial solutions to the field equations of SU(2) theory has been known for some time [8]. For such a theory, with no Higgs or U(1) gauge field, the classical equation of motion is D_F_* = 0. The solution with unit winding number is referred to as the instanton. In the singular gauge the expression for an instanton located at the origin is
+
+Aa_ (x) = 2g ae
+
+2
+
+x2
+
+1 x2 + ae2 j
+
+a _* x*; (13)
+
+where the ja_* are the 't Hooft symbols [1]. The parameter ae is the size of the instanton. The corresponding expression for an instanton centred at z is obtained by using x_ ! (x \Gamma z)_.
+
+However, a complication arises when the Higgs field is included. It can be shown that in this case the equations have no nontrivial solutions with finite action by using simple scaling arguments [9]. This makes the semicalssical evaluation of the euclidian path integral by an expansion about nontrivial configurations difficult [10, 11]. The constrained instanton [9] of Affleck is a suitable method for dealing with this problem. We now briefly outline the construction of the constrained instanton for the case `w = 0 before proceeding the the general case of non-zero `w.
+
+A constraint is introduced into the path integral
+
+1 = Z dae\Delta (ae) ffi `Z d4x O \Gamma aed\Gamma 4' (14)
+
+2
+
+where O is a local operator of dimension d ? 4 and \Delta is a Jacobian. Fourier transforming this ffi-function allows the path integral to be performed with ae fixed. This is equivalent to calculating the path integral with the addition of an extra term +i!O into the Lagrangian, where ! is the conjugate Fourier variable to ae. Both the path integral and the ! integral now have a saddle point, and can be performed by the method of steepest descents. Operators such as Tr F 3 and (OEyOE \Gamma v2=2)3 yield suitable classical solutions. They will also have no effect to lowest order in perturbation theory on the B and L number violating fermion zero modes as they are constructed only of boson fields.
+
+The classical solution obtained by this procedure is the constrained instanton. The centre of the solution, at small r = jxj, is a `core' where the unconstrained instanton and the associated Higgs solution are approximate solutions. In the framework of the constrained instanton approach these solutions are valid in the limit r o/ ae o/ 1=v, where the source terms in (8,9,10) can be neglected. Outside this core, at large distances such that r AE ae, the source terms become important. In this limit the fields are dominated by the solutions of
+
+Aacl_ (x) = \Gamma PW (ae)g ja_* @* Gmw (x) (15)
+
+OEcl (x) = vp2 [1 \Gamma PH (ae) GmH (x)] 01 ! ; (16) where Gm (x) satisfies i\Gamma
+
+@2 + m2j Gm (x) = ffi(4) (x) : (17)
+
+Using the solution
+
+Gm (x) = 14ss2 mx K1 (mx) ; (18)
+
+the functions PW (ae) and PH (ae) are found by matching the two solutions in the intermediate region where r , ae. By working to leading order in ae, the operator O used to constrain the instanton in Eq. (14) can be neglected, and we find PW (ae) = 4ss2ae2 and PH (ae) = 2ss2ae2. This large x behaviour, after Fourier transforming, becomes an effect at small k. We find that poles of Green functions based on expansions about the constrained instanton [10, 11] are at m2W and m2H for the gauge and Higgs bosons respectively. Note that a computation based on the unconstrained instanton would yield poles for k2 ! 0 for all boson types, corresponding to mW = mH = 0.
+
+2.1 Electroweak symmetry breaking The discussion of the constrained instanton in the literature has so far been in the context of SU(2) gauge theories only, which corresponds to sin `w = 0 in the standard model. We now extend this discussion to include the study of instanton processes for non-zero `w. Our approach is to introduce the symmetry breaking by forming a perturbation expansion in `w.
+
+The U(1)Y current (12) will provide a source for the B_ field. The leading order correction in `w can be computed by the following procedure. We assume that the scalar
+
+3
+
+and SU(2)L fields are unchanged. The U(1)Y current is calculated using (12) with the B_ contribution to the covariant derivative of OE held at zero, and finally equation (9) is solved to yield the induced U(1)Y gauge field. Higher order corrections can then be determined by computing the changes in the other fields and iterating the procedure.
+
+The general form of the lowest-order background fields from the constrained instanton computation are
+
+Aa cl_ (x) = 1g ja_* x* ff (x; ae) ; (19)
+
+OEcl (x) = vp2 fi (x; ae) 01 ! : (20) Inserting this form into the field equations and using the procedure just described, we find the U(1)Y current to be
+
+J U(1)Y_ (x) = g0 v
+
+2
+
+4 fi
+
+2 (x; ae) j3
+
+_* x* ff (x; ae) : (21)
+
+We now impose the Landau gauge, @_B_ = 0. In this gauge
+
+\Gamma @2B_ = J U(1)Y_ (22) and the Fourier transform _Bcl_ (k) of the induced classical field is then
+
+_Bcl_ (k) = ig0v2ss2j3_* k*k4 Z
+
+1
+
+0 dr r
+
+3J2 (kr) fi2 (r) ff (r) : (23)
+
+Near the mass shell,z k2 + m2 ! 0, the large distance behaviour of the classical fields dominates the Fourier transform. Therefore, we insert the large distance form of the constrained instanton for the functions ff and fi into Eqs. (19,20,23). For the Higgs field we find
+
+_jcl (k) = \Gamma vp2 2ss
+
+2ae2
+
+k2 + m2H ; for k
+
+2 + m2
+
+H ! 0: (24)
+
+The W \Sigma fields are
+
+_W \Sigma cl_ (k) = i 4ss
+
+2
+
+g ae
+
+2 hj1
+
+_* \Upsilon ij2_*i k
+
+*
+
+k2 + m2W ; for k
+
+2 + m2
+
+W ! 0; (25)
+
+and for the Z0 boson and photon we obtain
+
+_Z0 cl_ (k) = cos`w i 4ss
+
+2
+
+g ae
+
+2j3
+
+_* k
+
+*
+
+k2 + m2Z ; for k
+
+2 + m2
+
+Z ! 0; (26)
+
+_flcl_ (k) = sin`w i 4ss
+
+2
+
+g ae
+
+2j3
+
+_* k
+
+*
+
+k2 ; for k
+
+2 ! 0: (27)
+
+Two comments about these last two equations are in order. Firstly, the leading coefficients of cos `w and sin `w arise from the superposition of the A3_ and B_ fields according
+
+zRecall that we are working in Euclidian space-time.
+
+4
+
+to Eqs. (6,7), and are separate to factors of `w arising from our perturbation expansion. Secondly, the shift of the position of the poles of the classical field is exact only in the case of the photon, Eq. (27). Strictly speaking, the Z0 boson pole is still at m2W . This is because we are working only to leading order in `w. Therefore the difference between mW and mZ is considered to be small - they are equal to O(`w).
+
+A straightforward interpretation of Eqs. (26) and (27) can be made. The production of the Z0 boson and the photon from the instanton can be pictured as a two stage process: the emission of a W 0 boson, followed by the decay W 0 ! Z0 or W 0 ! fl. Construction of the Feynman diagrams for these decays, as shown in Fig. (1) leads to the extra factors
+
+cos`w k
+
+2 + m2
+
+W
+
+k2 + m2Z iW
+
+0 ! Z0j (28)
+
+and
+
+sin`w k
+
+2 + m2
+
+W
+
+k2 iW
+
+0 ! flj (29)
+
+which replace the W 0 mass pole with a pole at the relevant physical particle mass. In this picture an emitted W 0 decays into a Z0 boson or a photon with relative probabilities cos2`w and sin2`w respectively. Treating physical particle production as the decay products of the W 0 boson is identical to inserting the expressions (26) and (27) into the constrained instanton calculation.
+
+2.2 Integration over the instanton orientation The 't Hooft symbols in the expressions we have derived for the classical fields couple weak isospin and space-time indices. Insertion of Eqs. (25) to (27) into Green functions would therefore imply that the breaking of the SU(2)L \Theta U(1)Y symmetry produces instanton effects which are coordinate system dependent. However, the instanton solutions we have discussed can be rotated in SU(2) space. The effect of the rotation is to change the relative orientation of isospin space to real space of the classical solution. The fermion zero modes are SU(2) doublet eigenfunctions of operators formed from the classical instanton field, and so are also rotated in SU(2) space. In order to obtain the correct, coordinate system independent result, we have to sum over all possible orientations. Note that the orientation of the OE field is uncorrelated to the gauge field orientation, as the action is invariant under independent rotations of the A_ and OE fields [11]. The orientation of the OE field is completely fixed by spontanteous symmetry breaking.
+
+This summation corresponds to integrating over all possible rotation matrices in the SU(2) group. As well as removing the coordinate system dependence, this procedure has two other effects. One of these is to enforce charge conservation. Particle configurations that violate conservation of charge have contributions which are finite for a particular orientation, but upon integration give no contribution to the matrix elements. The second effect is to produce a large number of terms in the expression for the matrix element. The origin of these terms can be seen by studying the integration of a product of SU(2) rotation matrices over all possible rotations.
+
+5
+
+A general SU(2) rotation matrix U can be written in the form U = n_oe_, where the four vector oe_ j (i; oe). The integral of two rotation matrices, both corresponding to the same rotation but acting on different isospin vectors jai and jbi, isZ
+
+SU(2) dU U jai U jbi = oe_jai oe*jbi Z dnn_n*
+
+= oe_jai oe*jb i ffi_*: (30)
+
+Here dU is the SU(2) group measure. The numeric constant from the integration is ignored. The integral of an odd number of rotation matrices is exactly zero, so we next consider the case of four rotation matrices. Extending our notation in an obvious way, the result of the integration in this case is
+
+oe_jai oe*jbi oeaejci oeoejdi \Theta (ffi_* ffiaeoe + ffi_aeffi*oe + ffi_oeffi*ae) ; (31) and the generalisation for 2n matricies is obvious.
+
+The effect of the integration is to couple the isospin vectors together in a symmetric manner. The integral of NR rotation matrices (for even NR) will give (NR \Gamma 1)!! termsx. We can now see what effect this will have on the structure of the matrix element. The SU(2) rotated classical field Aa cl_ (U ) can be expressed in terms of the unrotated field as
+
+Aa cl_ (U ) = Tr ^oeaU oebU y* Ab cl_ : (32) The effect of the rotation matrix on the fermion zero modes will be to rotate their direction in isospin space, for example cl (U ; x) = U cl (x). Hence there will be one rotation matrix in the integral for each of these fields. The integration over all rotations will cause these fields to couple together. This coupling will link the momentum and polarization vectors together in a nontrivial way when the classical solutions are inserted to obtain the matrix element. For the Standard Model, we have 4nG fermion zero modes and there will be NR = 4nG + 2nB rotation matrices.
+
+The total charge of the classical fields is obtained by integrating the time component of the appropriate current. Therefore, the SU(2) charges are given by
+
+Qa cl (t) = Z d3x J a SU(2)
+
+L0 (t; x) ; (33)
+
+and the U(1) charge by
+
+Qcl (t) = Z d3x J U(1)
+
+Y0 (t; x) : (34)
+
+However, we have to take into account the integration over orientations by substitution of Eq. (32) into these expressions and integrating over all orientations. Denoting by Qa the SU(2) charge integrated over all configurations, it is straightforward to show that
+
+Qa cl (t) = Qb cl (t) Z dU Tr ^oeaU oebU y* : (35)
+
+Substitution of Eq. (30) and taking the trace gives Q
+
+a cl (t) j 0 independent of Qb cl.
+
+The same result is obtained for the integrated U(1) charge Qcl by considering the effect of rotating the instanton solution in this case also. The fact that these charges are identically zero for all values of t conserves SU(2)L and U(1)Y separately. Therefore, electric charge, which is a superposition of these two charges, is also conserved.
+
+xNote that n!! = n(n
+
+\Gamma 2)(n \Gamma 4):::3:1 for odd n.
+
+6
+
+3 Summary In this paper we have constructed the electroweak instanton corresponding to non-zero Weinberg angle. This demonstrates for the first time the coupling of the photon to instanton induced B and L number violating verticies, and we have proposed a simple physical interpretation of the symmetry breaking. The resultant expressions for the classical background fields appear to violate co-ordinate system independence. We have shown that this problem can be resolved by integrating over all possible orientations of the classical field configuration. Such an integration, in the case of the electroweak instanton, forces the interactions to respect electric charge conservation.
+
+The integration over orientations leads to an expression for the matrix element of the process which contains a large number of terms. Calculations of B and L number violating matrix elements due to instanton processes indicate a typical boson multiplicity of nB , 1=ffW . Taking nB = 30 and nG = 3 gives a typical value of NR , 70. However, taking for example NR = 50, direct calculation of 49!! , 1032 terms is not feasible. This problem can be overcome by noting that the large number of outgoing particles, , 40, means that a good working assumption of the final state is an isotropic distribution in solid angle [4].
+
+We end by considering the implications for instanton-induced processes in QCD [12-14]. The integration over the SU(3) strong interaction group can essentially be separated into two parts; the SU(2) subgroup containing the instanton and the remainder of the group, although one must be careful as there are some subtleties in this separation [15]. For QCD, the relevant particle multiplicites are much lower than the electroweak case, and consequently the integration over instanton configurations will contain much fewer terms. Therefore, exact computation of the integral may be possible in this case.
+
+Acknowledgements The author would like to thank A. Ringwald and B.R. Webber for helpful discussions and comments.
+
+References
+
+[1] G. 't Hooft, Phys. Rev. D14 (1976) 3432. [2] G. 't Hooft, Phys. Rev. Lett. 37 (1976) 8. [3] M. Mattis, Phys. Rep. 214 (1992) 159. [4] M.J. Gibbs, A. Ringwald, B.R. Webber and J.T. Zadrozny, Cavendish preprint
+
+Cavendish-HEP-93/6, CERN-TH.7090/93, to appear in Zeit. Phys. C.
+
+[5] F. Klinkhamer and N. Manton, Phys. Rev. D30 (1984) 2212.
+
+7
+
+[6] B. Kleihaus, J. Kunz and Y. Brihaye, Phys. Lett. B273 (1991) 100. [7] M.E.R. James, Zeit. Phys. C55 (1992) 515. [8] A. Belavin, A. Polyakov, A. Schwartz and Yu. Tyupkin, Phys. Lett. B59 (1975) 85. [9] I. Affleck, Nucl. Phys. B191 (1981) 445. [10] A. Ringwald, Nucl. Phys. B330 (1990) 1. [11] O. Espinosa, Nucl. Phys. B343 (1990) 310. [12] V.V. Khoze and A. Ringwald, Phys. Lett. B259 (1991) 106. [13] I.I. Balitsky and V.M. Braun, Phys. Rev. D47 (1993) 1879. [14] I.I. Balitsky and V.M. Braun, Phys. Lett. B314 (1993) 237. [15] C. Bernard, Phys. Rev. D19 (1979) 3013.
+
+8 W 0 ~
+
+cos `w k
+
+2+m2
+
+W
+
+k2+m2Z
+
+. . .^ ^. . .^ ^Z
+
+0 W 0 ~
+
+sin `w k
+
+2+m2
+
+W
+
+k2
+
+\Psi \Psi \Psi \Psi \Psi \Psi \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Lambda \Gamma \Omega \Omega \Omega \Omega \Omega \Omega
+
+fl
+
+Figure 1: Feynman diagrams for the decays W 0 ! Z0 and W 0 ! fl.
+
+9
+

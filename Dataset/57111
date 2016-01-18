@@ -1,0 +1,146 @@
+F.V.Tkachov A verification of the Optimal Jet Finder 2001-11-04 1
+
+
+
+
+A verification of the Optimal Jet Finder
+
+Fyodor V. Tkachov
+
+INR RAS, Moscow 117312, Russia
+
+
+
+
+The fortran-77 code  of the jet algorithm based on the optimal jet definition [hep-
+ has been successfully verified (up to a few interface bugs) using an independently
+evolved code written in the object-oriented language Component Pascal [http://www.oberon.ch]. The
+final fortran code OJF_014 is available on the Web.
+
+
+
+
+
+The optimal jet definition discovered in [1] purports to pro- tional, and attempted to implement the algorithm as described
+vide a final theoretical answer to the problem of finding the in [1], [2] in as simple and straightforward manner as possible,
+best jet definition. A practical version of the answer was pro- avoiding -- but providing interface hooks for implementation
+vided in [2] in the form of a fortran-77 code; its beta of -- the optimizations which are not essential for mathemati-
+(OJF_013) was available on the web at [3]. cal correctness of the algorithm.
+The first working version of the algorithm was first devel- Comparison of the fortran beta, OJF_013, with the new
+oped in the object-oriented language Component Pascal using Component Pascal code, revealed the following:
+the rapid application development environment BlackBox (i) identicity of the optimal jet configurations found by
+Component Builder [4]. The BlackBox brings the best features OJF_013 and the verification version;
+of the Oberon System [5] to commercial environments. Com- (ii) a minor interface problem in OJF_013 with the set_seed
+ponent Pascal is a fine-tuning of the seminal programming lan- routine (improper handling of large values of the seed, not af-
+guage Oberon which has been influencing the software devel- fecting the correctness of the minimization algorithm itself);
+opment world in a profound way, and a heir to the famous Pas-
+cal and Modula-2 [6]. A superb and unmatched combination of (iii) a misprint in the formulae for the gradients in [2] (the re-
+a fast compiler producing high-quality code; strict type safety vision has been posted in the arXive already);
+of the meticulously designed language; and a highly dynamic (iv) a discrepancy in the definition of the function Y between
+software development environment allowed to perform the OJF_013 and the main theory paper [1]: the theory paper in-
+necessary experimentation and find a minimization algorithm cludes the factor 2 into the definition of Y whereas OJF_013
+to serve as a basis for a fortran implementation which evolved includes it into the coefficient (Radius2) with which Y is
+independently to accommodate the fine-tunings of the jet defi- added to E_soft to yield Omega;
+nition (reported in the January 2000 revision of [1]). Large (v) discrepancies due to rounding errors due to slightly dif-
+scale tests by Pablo Achard [7] demonstrated usefulness, sta- ferent coding of formulas in the two versions; the discrepancies
+bility and a good speed of the fortran beta code (OJF_013). manifest themselves in the form of different local minima
+However, the following problems were seen: sometimes resulting from the same seed in the two versions;
+1) An inferior readability and a lack of safety of fortran made this is not a physical problem because both versions find ex-
+it difficult to make claims about adherence of the encoded al- actly the same global minimum;
+gorithm to the theoretical definition of [1]. (vi) some superfluous code and intermediate data in OJF_013
+2) The potential role of the resulting jet algorithm as a univer- -- neither affect the results and the functioning of the mini-
+arXiv: 5 Nov 2001 sal standard tool in high-energy physics warranted an inde- mum search algorithm, and their effect on the speed of the al-
+pendent verification of the code. gorithm is, so far as I can see, negligible;
+
+3) A wide -- however unfortunate and deplorable -- adoption (vii) options for further optimizations.
+of C++ as a standard language for software development for Taking (i) into account, the version OJF_014 of the fortran
+high energy physics experiments might at some point require code was developed by eliminating (ii)­(iv), which required
+that a C++ port of the algorithm be undertaken. The fortran only very minor changes of the code and did not affect the core
+code does not seem to be the best starting point for that. minimization routine. The findings (vi) and (vii) were not ad-
+To address these problems, it was decided to undertake a com- dressed to avoid spoiling a good thing. The few differences
+plete revision of the early Component Pascal implementation between the beta, OJF_013, and OJF_014 are easily seen using
+from the ground up without regard to the fortran code and all the text comparison feature of text editors.
+the optimization implemented therein. The time gap between An additional change in the OJF_014 compared with
+this undertaking and the switch to fortran in the development OJF_013 is a more differential treatment and relaxation of the
+of OJF_013, as well as the fact that the fortran code was con- floating point error bounds used in checks of invariants that
+siderably evolved in the meantime, including a thorough clean- must be satisfied at intermediate steps of the algorithm (such
+up of the code, ensured as complete independence of the earlier as equality to 0 or 1 of certain sums; see the formulae in [2]).
+fortran and this last Component Pascal implementations, as is These bounds were deliberately chosen very tight in the beta
+possible given that the two were not done by different people. version, causing termination of the algorithm for a small frac-
+The verification version was written in Component Pascal tion of realistic samples of events. A reasonable relaxation of
+using the BlackBox Component Builder, version 1.4 Educa- the bounds cannot break the algorithm as such errors do not
+
+
+F.V.Tkachov A verification of the Optimal Jet Finder 2001-11-04 2
+
+
+
+
+propagate from iteration to iteration thanks to the design of the the NATO grant PST.CLG.977751. The sponsorship of the
+algorithm (especially the mechanism of so-called "snapping" of Oberon microsystems, Inc. is gratefully acknowledged.
+the recombination matrix elements z a j to the boundary of the
+simplex). On the whole, no effort was spared to ensure nu- References
+merical correctness and stability of the code. [1] F.V. Tkachov, A theory of jet definition, IJMPA, in print
+The Component Pascal version of the algorithm consists of ; rev. Jan. 2000].
+three independently compiled modules implementing the jet [2] D.Y. Grigoriev and F.V. Tkachov, An efficient imple-
+finding algorithm, an I/O module, and a dialog control module. mentation of the optimal jet definition, Proc. XIV Int.
+The three main modules implement, respectively: Workshop High Energy Physics and Quantum Field The-
+ory (QFTHEP'99), Moscow, May 27 - June 2, 1999, [hep-
+(1) a minimization algorithm in the njets-dimensional standard .
+simplex (recall that the recombination matrix z a j for a fixed [3] http://www.inr.ac.ru/~ftkachov/projects/jets/
+particle a is a point in the standard simplex; see [1], [2]) which [4] Oberon microsystems, Inc., http://www.oberon.ch
+allows independent checks with arbitrary functions (a new [5] N. Wirth, The Programming Language Oberon, Soft.
+feature compared with the fortran code); this module is imple- Prac. & Exp. 18(7) (July 1988) 671-690;
+mented in such a way as to allow, say, optimizations similar to M. Reiser and N. Wirth, Programming in Oberon: Steps
+those used in the fortran code via redefinition of certain meth- Beyond Pascal and Modula, Addison-Wesley, 1992;
+ods without affecting the code of this module; N. Wirth & J. Gutknecht, Project Oberon: the design of
+(2) a module implementing kinematics formulae; polymor- an operating system and compiler, ACM Press 1992;
+phism is used to hide in this module the specifics of the spheri- H. Mössenböck and N. Wirth, The Programming Lan-
+cal and the hadron-hadron collisions kinematics; guage Oberon-2, Institut für Computersysteme, ETH
+Zürich, January 1992.
+(3) a global minimum search module which allows to vary [6] N. Wirth. Pascal - User Manual and Report, 1974;
+minimization tactics. N. Wirth. Programming in Modula-2. Springer-Verlag,
+The clean separation of concerns between the modules in- 1982.
+teracting via explicitly defined interfaces, together with the [7] Pablo.Achard@cern.ch
+clean design, excellent readability, and the safety features of
+Component Pascal minimize chances of introducing bugs so
+common in fortran and C/C++, so that one would have been
+inclined to trust the Component Pascal code should a signifi-
+cant difference with the fortran version emerge, which eventu-
+ality, thanks goodness, did not materialize.
+
+The resulting fortran code OJF_014 is released as a final
+public code. It is available from the URL [3].
+
+Still, it is well-known that complex calculations should be
+done at least twice -- independently by different teams. In the
+case of the optimal jet algorithm, a completely independent
+implementation of the minimum search algorithm may not be
+necessary if one notes that the mathematical nature of the
+global minimum search problem ensures that the results can be
+rather easily checked in a brute force fashion with OJF_014
+treated as a black box. Indeed, it is sufficient to independently
+write the code evaluating the function R ( z a j ) being mini-
+mized. Then for a given event, one could generate random con-
+figurations of the recombination matrix elements z a j and check
+that the corresponding values of R are not less then the value
+of R on the configuration found by OJF_014. The efficiency
+of such a verification procedure would be enhanced if one also
+implements simple procedures to vary the random configura-
+tions z a j to decrease R ; such procedures need constitute nei-
+ther complete, nor efficient minimum search method. It would
+also be easy e.g. to study in a more detailed fashion the be-
+havior of R on the straight line connecting a randomly gener-
+ated z a j with the point of global minimum produced by
+OJF_014.
+
+Implementing such a brute force verification should, hope-
+fully, not be a problem with all the hardware out there; one
+only has to ensure a complete independence of the code for
+evaluation of R from the OJF_014 code.
+
+Acknowledgments. This work was supported in parts by the
+Russian Foundation for Basic Research grant 99-02-18365, and
+
+
+

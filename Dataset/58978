@@ -1,0 +1,228 @@
+
+
+ 20 Apr 1995
+
+UM-P-95-11 RCHEP-95-07
+
+A Nonperturbative Study of Quarkonium Systems
+
+J. P. Ma and B. H. J. McKellar Recearch Center for High Energy Physics School of Physics University of Melbourne Parkville, Victoria 3052 Australia
+
+Abstract: Using Nonrelativistic QCD on the lattice we studied the mass spectrum of quarkonium systems nonperturbatively for a range of the bar quark mass. We determined two products of the matrix elements involved in quarkonium decays and studied the mass dependence of the results. We predict from our calculations the leptonic decay width of \Upsilon , and use the mass dependence to predict the leptonic decay width of J=. These calculations agree with the experimental results. In lattice NRQCD an additional parameter n is introduced, and we study the sensitivity of our results to the choice of n.
+
+1. Introduction. In quarkonium the heavy quark moves with a small velocity v2, so nonrelativistic quantum chromodynamics (NRQCD) may be used as a good approximation to describe quarkonium systems. Recent studies have shown that quarkonium systems can be well approximated on lattice by solving NRQCD nonperturbatively[1-4]. This opens an opportunity for precise tests of QCD. It is important to distinguish these first principles calculations from model calculations, for example potential model calculations, which may be inspired by QCD, but which depend on phenomenological parameters.
+
+We study quarkonium systems using NRQCD on a 163\Theta 48 lattice. We use 20 quenched gauge configurations with fi = 6:0. In previous studies[4], the mass spectrum of bottonium was extensively studied and shown to agree precisely with experiment[4]. We emphasize in our work decay matrix elements, one of which is related to relativistic corrections. However in order to set the physical scale, we need to calculate the mass spectrum. We have simulated quarkonium systems for a range of the heavy quark mass to study the mass dependence of the matrix elements, in the hope that it may be possible to extrapolate our results for the matrix elements from bottonium to charmonium. We must approach charmonium by extrapolation because the lattice spacing at fi = 6:0 is too small for direct simulation of charmonium with lattice NRQCD[5]. Another aspect of our work is to study the n-dependence of our results, where n is a parameter introduced into lattice NRQCD for numerical reasons.
+
+The action of NRQCD for quarks on a lattice can be defined as[6]:
+
+SQ = X
+
+x
+
+ae
+
+y(x)(x) \Gamma y(x; t + 1)(1 \Gamma H02n )nU yt (x; t)(1 \Gamma H02n )n(x; t)oe : (1)
+
+In Eq.(1) H0 is the Hamitonian operator on the lattice, U_(x) is the gauge link, and n is an integer parameter. We only retain the action up to order v2. In our work tadpole improvement[7] is implemented, i.e., each gauge link U_ is replaced by U_=u0, where u0 = h 13 TrUplaqi
+
+1 4 . For the configurations used here u0 = 0:8778. With this action the quark
+
+1
+
+propagator G(x; t) satisfies the evolution equation
+
+G(x; t + 1) = ffix;0ffit+1;0 + (1 \Gamma H02n )nU yt (x; t)(1 \Gamma H02n )nG(x; t)
+
+H0 = \Gamma \Delta
+
+(2)
+
+2 ^MQ \Gamma h0; h0 =
+
+3(1 \Gamma u0)
+
+^MQ
+
+(2)
+
+with G(x; t)=0 for t ! 0. In Eq.(2) \Delta (2) is the lattice Laplacian, and ^MQ is the quark mass parameter in lattice units. We subtracted a constant in H0, this has an effect that the results from the mean field theory for the mass renormalization constant Zm and the zero point energy E0 are independent of n and also of ^MQ. The integer n is introduced to avoid the numerical instability when high momentum modes occur[8]. The introduction of n has an effect only at order a2, where a is the lattice spacing. Therefore one expects that results from simulations should not have a strong dependence on n as a ! 0. An estimate[6] suggests that n should be larger than 1:15^M
+
+Q at fi = 6:0 to avoid the instability. With this
+
+estimate n = 1 should be enough large for MQ = 2:0. However we will see that numerical
+
+instability may still occur for ^MQ around 2:0 and this has effects in the determination of the matrix elements. The numerical values of the matrix elements determined with n = 1 and n = 2 are significantly different for ^MQ ^ 2:0. For the mass spectrum this n-dependence is not significant.
+
+With the action of Eq.(1) spin-symmetry is an exact symmetry, hence quarkonia with the same orbital angular momentum have the same mass. We will only consider S-wave and P -wave quarkonia without radial excitations.
+
+2.The Mass Spectrum. Since the action in Eq.(1) is nonrelativistic, the absolute energy scale is unknown. However the zero-point energy E0 of a quark can be calculated perturbatively. The exact mass of a quarkonium state, for example an S-wave state, is related to E0 by:
+
+MS = 2(a\Gamma 1ZM ^MQ \Gamma E0) + ES : (3)
+
+Here ES is the nonrelativistic energy of the quarkonium and it can be measured in lattice
+
+2
+
+simulations. We will use Eq.(3) to determine the mass of a S-wave quarkonium. For ZM and E0 we use the results from the mean field theory. With H0 given in Eq.(2) they are:
+
+^E0 = aE0 = \Gamma ln u0; ZM = 1u
+
+0 (4)
+
+Although the results for one loop corrections to E0 and ZM in Eq.(2) exist, we consider it is not necessary to include them because we employ NRQCD in Eq.(1) only at the order of v2 and the corrections with the tadpole improvement are small.
+
+To determine ES we measure the correlator on the lattice:
+
+HS (t) = X
+
+x
+
+h0jO/y(x; t)((x; t)y (0)O/(0)j0i (5)
+
+In Eq. (5), O/(x) is the field for the anti-quark. For large t, HS (t) takes the asymptotic form:
+
+HS (t) ss jhSjO/yj0ij2e\Gamma tEs : (6)
+
+From this we determine ^ES and the matrix element. We measure the correlators with 24 initial points for n = 1 and n = 2. We used the standard fit to extract ^ES and the matrix element. Our results for ^MS = aMS are given in table 1.
+
+Table 1 ^MQ 1.5 1.7 2.0 2.3 2.6 ^MS (n = 1) 5.2436(3) 5.5171(5) 5.9363(5) 6.5440(3) 6.9391(4) ^MS (n = 2) 5.2132(5) 5.4351(5) 5.8552(4) 6.3488(4) 6.8828(5)
+
+From Table 1 one can see that the masses determined from n = 1 and n = 2 are not significantly different, the differences are only at 1 \Gamma 2% in the ^MQ-range we consider. We also measured the correlator for P -wave quarkonium to determine the mass spliting between the S-wave and P -wave quarkonium at ^MQ = 2:6; the result is
+
+\Delta MP \Gamma S = 0:352(6); for n = 1
+
+\Delta MP \Gamma S = 0:331(8); for n = 2:
+
+(7)
+
+3
+
+Given the fact that the mass spliting is not sensitive to the quark mass in the range considered here, we use the result with n = 2 in Eq.(7) and use the experimental result for bottonium to estimate the lattice spacing. We obtain a\Gamma 1 = 1:33(3)GeV. In this estimation one should keep in mind that the systematic error is larger than the statistical error quoted here. One source of the systematic error is the neglect of the terms of order v4 in the action. For bottonium v2 ss 0:1. This means the systematic error due to the O(v4) terms is about 10% for \Delta MP \Gamma S , and hence also at least 10% in the estimate of a. With this we conclude that the S-wave quarkonium simulated here at ^MQ = 2:6 approximately corresponds to bottonium with the predicted mass MS = 9:15(20)GeV. The pole mass of the b-quark can also be determined: Mb = 3:9(1)GeV.
+
+Our results for the spectrum are compatible with the results of previous studies by other groups. It is interesting to make a comparson with the results from the precise study of [4], where the terms at the order of v4 are included in the lattice action of NRQCD and some improvement reducing the effect of the finite lattice spacing is also made. The results from there are that the quarkonium at ^MQ = 1:71 corresponds to bottonium, the pole mass of b quark is 4.7GeV and the inverse of the lattice spacing is 2.4GeV. Comparing these with our results above gives a feeling how significant the effect of the accurate action of [4] can be in the physical results. The lattice spacing determined here is with a factor of 2 larger than that of [4]. This is expected since the action employed in [4] is more accurate in v than ours and is improved to reduce the effect of the finite lattice spacing.
+
+3. The Matrix Elements. Recently Bodwin, Braaten and Lepage[9] have treated quarkonium systems rigorously within QCD. This contrasts with earlier treatments within the potential model. A series of factorized forms for the decay and production rate of quarkonia were obtained, where the nonperturbative physics is represented through NRQCD matrix elements. With this work one can also systematically account for relativistic corrections in decay and production processes. For example, the decay rate for
+
+4
+
+1S0 ! flfl and for 3S1 ! `+`\Gamma can be written as
+
+\Gamma (1S0 ! flfl) = 2ssQ4ff2\Phi 1M 2
+
+Q h0jO/
+
+yj1S0ih1S0jyO/j0i
+
+\Gamma 43M 4
+
+Q Refh0jO/
+
+y( \Gamma i
+
+2
+
+$D)2j1S
+
+0ih1S0jyO/j0ig\Psi
+
+\Gamma (3S0 ! `+`\Gamma ) = 2ssQ
+
+2ff2
+
+3 \Phi
+
+1 M 2Q h0jO/
+
+yoeij3S1ih3S1jyoeiO/j0i
+
+\Gamma 43M 4
+
+Q Refh0jO/
+
+yoei( \Gamma i
+
+2
+
+$D)2j3S
+
+1ih3S1jyoeiO/j0ig\Psi
+
+(8)
+
+at the leading order in ff and ffs. In Eq.(8) terms with M \Gamma 4Q are relativistic corrections of order v2. The matrix elements in Eq.(8) are defined in NRQCD and they can only be calculated nonperturbatively. For bottonium the state 1S0 has still not been found experimentally. Since the spin-symmetry is an exact symmetry in the approximation used here, the two products of the matrix elements in \Gamma (1S0 ! flfl) are equal to those in \Gamma (3S0 ! `+`\Gamma ). They have also a simple relation to the matrix elements in hadronic decay. We study these products directly, introducing the notation:
+
+F1 = h0jO/yj1S0ih1S0jyO/j0i G1 = Refh0jO/y( \Gamma i2
+
+$D)2j1S
+
+0ih1S0jyO/j0ig:
+
+(9)
+
+The quantity F1 has dimension 3 in mass and G1 has dimension 5 in mass. F1 is proportional to the square of the absolute value of the wave function at the origin. On the lattice F1 can be extracted form the correlation function in Eq.(5). To measure G1 we construct a suitable correlation function, in which we use the covariant centered difference on the lattice for the covariant derivative D. The quantity G1 is also studied in [10], where the same lattice action is used as in Eq.(1). However, it is claimed in [10] that the quarkonium simulated at ^MQ = 1:5 corresponds to bottonium, which is in contrary to our result above. Our results for ^F1 = a3F1 and ^G1 = a5G1 are given in Table 2.
+
+Table 2
+
+5
+
+^MQ 1.5 1.7 2.0 2.3 2.6 2.9 ^F1(n = 1) 2.86(4) 1.92(4) 1.58(2) 1.56(2) 1.68(2) 1.88(2) ^F1(n = 2) 1.16(2) 1.20(1) 1.35(1) 1.66(2) 1.82(2) 2.10(3) ^G1(n = 1) 1.19(1) 0.64(1) 0.45(1) 0.43(1) 0.48(1) 0.58(2) ^G1(n = 2) 0.224(8) 0.248(6) 0.31(1) 0.41(1) 0.53(1) 0.67(2)
+
+We have seen that the mass spectrum is not sensitive to the parameter n, however the results for ^F1 and ^G1 are quite different for different n. The parameter ^F1 determined with n = 1 decreases linearly with ^MQ from 2.9 to 2.3, then it increases as ^MQ decreases further. From physical arguments one expects that F1 decreases if MQ decreases. The possible reason for the deviation from these expectation can be that n = 1 is still not large enough to prevent the numerical instability caused by high momentum modes arround
+
+^MQ = 2:0 in the determination of ^F1. We conclude that the calculation with n = 1 can
+
+not give correct results for ^MQ ^ 2:0, where local sources are used to calculate quark propagators in Eq.(2). In the following we will only take the results with n = 2 for discussions.
+
+From our data ^F1 is approximately proportional to ^MQ in the ^MQ range from 1.7 to 2.9: ^F1 ss 0:7 ^MQ. This behaviour is expected, since F1 is expected to be proportinal to MQ. In our approximation MQ = a\Gamma 1ZM ^MQ is proportional to ^MQ. But at ^MQ = 1:5, ^F1 deviates from this proportionality relation, as can be seen in Fig.1 where the straight line represents the relation ^F1 = 0:7 ^MQ. Similarly, we find that the values of ^G1 for ^MQ from 2.0 to 2.9 satify the relation ^G1 = 0:078 ^M 2Q very well, but the values at ^MQ = 1:5 and 1.7 deviate from the relation. We suggest that the reason for the deviations at lower ^MQ is the same as discussed above. In Fig.2 we plot the results for ^G1, the curve is ^G1 = 0:078 ^M 2Q. From Fig.1 and Fig.2 one observes that ^G1 for ^MQ from 2.0 to 2.9 fits a parabola much better than ^F1 fits a straight line. This is confirmed by the O/2 of the fits: for ^G1 O/2 is 0.61, while O/2 of the fit for ^F1 is 20 for ^MQ from 1.7, 2.0 and 2.3 to 2.9. If we include the data point at ^MQ = 1:5 into the fit, O/2 becomes 45!
+
+6
+
+With these results one can predict the leptonic decay width of \Upsilon . We use the following formula for doing this:
+
+\Gamma (3S1 ! `+`\Gamma ) = 2ssQ2ff2\Phi (1 \Gamma 163ss ffs(MQ)) 1M 2
+
+Q (a
+
+\Gamma 1)3 ^F1 \Gamma 4
+
+3
+
+1 M 4Q (a
+
+\Gamma 1)5 ^G1\Psi : (10)
+
+Here the one loop correction from QCD in the coffecient of F1 term is also included. For \Upsilon we take MQ = Mb = 4:7GeV, ff = 1=128 and ffs(Mb) = 0:20, where we used the one-loop fi-function and the experimental value for ffs(MZ ) = 0:115 to evolve ffs to _ = Mb. We obtain \Gamma (\Upsilon ! e+e\Gamma ) ss 1:7KeV. Our result is in agreement with the experimental result, \Gamma (\Upsilon ! e+e\Gamma ) ss 1:3KeV. However, as discussed for the a\Gamma 1 determination before, a large systematic error can occur in our result and it can not be taken as a precise prediction. That is why we have not quoted any error in our estimate above. The G1 term gives in Eq.(10) a small negative contribution which is only 5% of the decay width. Another way to use our lattice results to predict the decay width is to extract directly from lattice simulations the dimensionless quantities F1=M 3Q = ^F1=(ZM ^MQ)3 and G1=M 5Q = ^G1=(ZM ^MQ)5 for the estimate of the decay width. The advantage is that a direct use of a\Gamma 1 is avoided. But since these quantities depends on a power of the quark mass, a precise location of \Upsilon in the parameter space of ^MQ is needed for a precise prediction. The decay width determined in that way with ^Mb = 2:6 is 2.8KeV, which is not too far away from either the experimental value or our other estimate.
+
+With the mass dependence of F1 and G1 we can also estimate the leptonic decay width of J=. Assuming Mb : Mc = ^Mb : ^Mc and taking Mc = 1:3GeV we obtain ^Mc = 0:719. For ffs at _ = Mc we use the experimental value ffs(Mo/ ) = 0:355 and evolve this value to _ = Mc. Using ^G1 = 0:078 ^M 2Q and ^F1 = 0:7 ^MQ we obtain with Eq.(10): \Gamma (J= ! e+e\Gamma ) ss 7:1KeV, which is not too far from the experimental result: \Gamma (J= ! e+e\Gamma ) ss 5:4KeV. In our estimates the QCD corrections are very important, in particular the factor (1 \Gamma 163ss ffs) is 0.29 for J=, and 0.66 for \Upsilon , but without the QCD correction the factor is 1. We also see that the relativistic correction is large for ^G1 because of the relatively small c
+
+7
+
+quark mass. This correction is at the level of 20%. Our final result is the determination of \Gamma (jc ! flfl). With the extrapolated values of ^F1 and ^G1 we obtain: \Gamma (jc ! flfl) ss 23KeV, where the one loop QCD correction is included. Comparing the experimental result \Gamma (jc ! flfl) ss 6:6KeV our value is three times too large. The fact that our prediction for \Gamma (J= ! e+e\Gamma ) is close to the experimental result gives some surport to the validity of the mass dependence for ^F1 and ^G1. However, the discrepancy in \Gamma (jc ! flfl) indicates that the mass dependence may need to be modified in order to get both \Gamma (jc ! flfl) and \Gamma (J= ! e+e\Gamma ) in agreement with experiment. In our work we neglected the O(v4) terms in the action and have taken only the tree-level results for renormalization constants to convert lattice results into those of the continuum. One can hope that including the O(v4) terms, and by taking higher order effects in renormalization constants into account, the results will be improved. The effect of renormalization constants may be significant in converting lattice results for F1 to continuum results, since at the one loop level, the operator in F1 is mixed with that in G1. All of the relevant renormalization constants are not yet available at the one-loop level.
+
+4. Summary. In this work we have studied the properties of quarkonium systems by solving NRQCD on lattice nonperturbatively. The results for the mass spectrum are compatible with the results from other groups and with experiment. We studied two products of matrix elements involved in quarkonium decays, one of which is related to the relativistic corrections. Our prediction of \Gamma (\Upsilon ! e+e\Gamma ) ss 1:7KeV is in agreement with experiment. It is found that the relativistic correction is small (5%) as expected. It should be stressed that this result is a QCD prediction and is not a result from model calculations. We simulated quarkniom systems in a range of the quark mass and found the mass dependence of ^F1 and ^G1. ^F1 is proportional to ^MQ as expected and ^G1 is proportional to ^M 2Q. With these relations we extropolate our prediction for \Gamma (\Upsilon ! e+e\Gamma ) to \Gamma (J= ! e+e\Gamma ). The prediction for \Gamma (J= ! e+e\Gamma ) is in reasonable agreement with
+
+8
+
+experiment. A large relativistic correction (ss 22%) in charmonium is found. However our prediction for \Gamma (jc ! flfl) is 3 times larger than the experimental value.
+
+In NRQCD on lattice a extra parameter n is introduced for preventing numerical instabilities from high momentum modes. We studied the n-dependence of our results by taking n = 1 and n = 2. The mass spectrum does not depend on n significantly. However, the difference between the results for ^F1 and ^G1 with defferent n is large at ^MQ ^ 2:0. In addition, the value of ^F1 determined with n = 1 at ^MQ ^ 2:0 increases with decreasing quark mass, this is against physical expectations. We think that the results with n = 2 for
+
+^MQ from 2.0 to 2.9 are reasonable. Our prediction for the decay widths is based on these
+
+results.
+
+Acknowlegment: The gluon configurations used here are from UKQCD. We would like to thank UKQCD for providing their configurations to us. Discussions with Dr. L. Hollenberg and Dr. T.D. Kieu are acknowleged. The whole calculation was performed on several UNIX work-stations available to us, we thank Dr. M. Munro, the system manager, for helping. This work is supported by Australian Research Council.
+
+9
+
+Reference [1] B.A. Thacker & G.P. Lepage, Phys. Rev. D43 (1992) 196 [2] C.T.H. Davies & B.A. Thacker, Nucl. Phys. B405 (1993) 593 [3] S.M. Catterall et. al. (UKQCD Collabration), Phys. Lett. B300 (1993) 393 [4] C.T.H. Davies et. al. (NRQCD Collabration), Phys. Rev. D50 (1994) 6963, Phys. Rev. Lett. 73 (1994) 2654 [5] C. Morningstar, Phys. Rev. D50 (1994) 5902 [6] G.P. Lepage, L. Magnea & C. Nakhleh, Phys. Rev. D46 (1992) 4052 [7] G.P. Lepage & P. Mackenzie, Phys. Rev. D48 (1993) 2250 [8] C.T.H. Davies & B.A. Thacker, Phys. Rev. D45 (1992) 915 [9] G.T. Bodwin, E. Braaten & L.P. Lepage, Phys. Rev. D51 (1995) 1125 [10] G.T. Bodwin, S. Kim & D.K. Sinclair, Argonne Preprint ANL-HEP-CP-94-91
+
+10
+
+Figure Caption Fig.1 The values of ^F1 vs ^MQ. The x-axis is for ^MQ, the y-axis is for ^F1. The points are the data points.
+
+Fig.2 The values of ^G1 vs ^MQ. The x-axis is for ^MQ, the y-axis is for ^G1. The points are the data points.
+
+11
+

@@ -1,0 +1,4428 @@
+
+
+ 26 Jul 1996
+
+Semileptonic Decays of Heavy Flavors in QCD
+
+by Lev A. Koyrakh, M.S.
+
+Dissertation Presented to the Faculty of the Graduate School of
+
+The University of Minnesota
+
+in Partial Fulfillment
+
+of the Requirements
+
+for the Degree of
+
+Doctor of Philosophy
+
+The University of Minnesota
+
+May 1996
+
+This work is dedicated to: my parents Abram and Martha,
+
+my wife Natalia and children Roman and Alice.
+
+Acknowledgments I am greatly indebted to a number of individuals who have helped me during my graduate studies. Many members of the Univerity of Minnesota physics department faculty have been extremely helpful. I am particularly grateful for the insights and assistance shared with me by my advisor Prof. A. Vainshtein, and Prof. M. Voloshin. Different parts of this work were done together with B. Blok, N. Uraltsev, M. Shifman and A. Vainshtein. Chapter 2 is based on the work [13], and Chapters 4 and 6 - on the work [34].
+
+I would like to thank my parents, Martha Slobodkina and Abram Koyrakh for their support during my graduate studies.
+
+I am especially thankful to my wife Natalia and children Roman and Alice, whose continued support and sacrifice have proved vital throughout my graduate career.
+
+I also would like to akcnowledge the great help from MATHEMATICA by Wolfram Research, Inc. in making a lots of lengthy calculations fun to play with.
+
+And I am grateful to the people of the United States who made it possible for me to come to this beautiful country and study the science I love so much.
+
+My dissertation research was supported, in part, by the US Department of Education Fellowships.
+
+Lev A. Koyrakh The University of Minnesota May 1996
+
+iii
+
+Semileptonic Decays of Heavy Flavors in QCD
+
+Lev A. Koyrakh, Ph.D. The University of Minnesota, 1996
+
+Supervisor: A. Vainshtein A model independent approach based on a generalization of the operator product expansion is used to describe semileptonic decays of heavy flavors. In the first part of the dissertation we calculate differential distributions in the inclusive semileptonic weak decays of heavy flavors in QCD. In particular, the double distribution in electron energy and invariant mass of the lepton pair is calculated. The distributions are calculated as series in m\Gamma 1Q where mQ is the heavy quark mass. All effects up to m\Gamma 2Q are included.
+
+Also calculated are the energy distribution and semileptonic decay width for the case of a heavy lepton in the final state. In the case of B-meson decays, for b ! uo/ _* transitions the nonperturbative corrections decrease the decay rate by 6% of its perturbative value, while for b ! co/ _* they decrease it by 10%.
+
+Based on the results of the first part of the work, the full up to order 1=m2Q set of the OPE sum rules for the heavy flavor transitions and radiative corrections to them up to order ffs\Lambda QCD=mQ are calculated.
+
+A new model is proposed for the inclusive semileptonic decays of the B mesons B ! l_*Xc, which is defined by the requirement that it should satisfy the QCD consistency conditions. These conditions are imposed in the form of the OPE sum rules. It is shown that under some natural assumptions the OPE sum rules provide sufficient number of constraints to fully determine exclusive contributions of a number of resonances in the final state of the decay. The proposed model can be used for experimental measurements of the heavy meson matrix element _2ss which describes the kinetic energy of the heavy quark inside the hadron, as well as for extraction of value of jVcbj from experimental data.
+
+iv
+
+Table of Contents Acknowledgments iii Abstract iv List of Figures vii Chapter 1 Introduction 1 Chapter 2 Differential distributions in semileptonic decays of heavy flavors
+
+in QCD 4 2.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 4 2.2 Kinematical analysis : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 8 2.3 Operator product expansion : : : : : : : : : : : : : : : : : : : : : : : : : : : 11 2.4 Calculation of the differential distributions for massless lepton in the final state 19 2.5 Application to the analysis of the experimental data : : : : : : : : : : : : : 23
+
+Chapter 3 Corrections to the heavy lepton energy distribution in the inclusive decays Hb ! o/ _*X 26 3.1 Heavy lepton energy distributions : : : : : : : : : : : : : : : : : : : : : : : : 27 3.2 Numerical estimates and experimental predictions : : : : : : : : : : : : : : 30 3.3 Summary of results of chapters 2 and 3 : : : : : : : : : : : : : : : : : : : : 35
+
+Chapter 4 Sum rules for heavy flavor transitions 36
+
+4.1 Cuts and sums. OPE sum rules and predictability of moments and inclusive
+
+distributions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 36
+
+v
+
+4.2 Complete list of the OPE sum rules up to order 1=m2Q : : : : : : : : : : : : 40 Chapter 5 Perturbative corrections to the sum rules 45
+
+5.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 45 5.2 Virtual gluons contributions : : : : : : : : : : : : : : : : : : : : : : : : : : : 46 5.3 Real gluons contributions : : : : : : : : : : : : : : : : : : : : : : : : : : : : 48
+
+Chapter 6 The QCD constrained model of semileptonic decays of the B
+
+mesons in the heavy quark limit 53 6.1 Introduction. Description of the model : : : : : : : : : : : : : : : : : : : : : 53 6.2 Two doublets model : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 57 6.3 Three doublets model : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 59
+
+Chapter 7 Model of the decay including perturbative and nonperturbative
+
+corrections to the sum rules 62 7.1 Description of the model. : : : : : : : : : : : : : : : : : : : : : : : : : : : : 62 7.2 Three doublets model : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 65 7.3 Differential distributions for the model including perturbative and nonperturbative corrections : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 66 7.4 Numerical analysis. Importance of the nonperturbative corrections to the
+
+sum rules. : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 70 7.5 Summary and outlook : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 74
+
+Chapter 8 Conclusions. 76 Appendix A The phase space of the decay 78 Appendix B Hadronic invariant functions 81 Appendix C Structure functions of the resonances in the heavy quark limit 83 Bibliography 89
+
+vi
+
+List of Figures 2.1 Cuts of the forward scattering amplitude in the complex plane q0. : : : : : 11 2.2 The tree diagram determining the transition operator T_* in the leading
+
+approximation. The dashed lines correspond to the weak currents, the solid internal line describes the propagation of the quark q and the bold external lines represent the heavy quark Q. : : : : : : : : : : : : : : : : : : : : : : : 12 2.3 The tree diagram determining the operator without the heavy quark Q. Now
+
+the bold internal line describes the propagation of the heavy quark Q and the solid external lines represent the quark q. : : : : : : : : : : : : : : : : : 18 2.4 The kinematical region of the decay for b ! u decays in coordinates x =
+
+2Ee=mb and t = q2=2mbEe. The solid lines are the kinematical boundary for the b quark decay (xmax = tmax = 1) and the dashed lines are the boundary for B meson decay (xmax = tmax = MB=mb). The area of integration for the distribution P (x; t) is shaded. It includes integration over the resonance domain. : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 24 2.5 The integrated distribution P (x; t) for the case b ! u is plotted as function
+
+of t = q2=2mbEe for few values of x = 2Ee=mb. The dashed lines correspond to the leading order distribution while the solid lines account for nonperturbative corrections (see Eq. (2.56)). The lines stop at the border of resonance region. It follows from the picture that the corrections are negative. : : : : 25
+
+vii
+
+3.1 The energy spectrum of o/ is plotted for b ! co/ _* transitions. The solid line
+
+shows the distribution with the nonperturbative corrections, while the dashed line - without them. For comparison, on the same plot we show the electron energy distribution for b ! ce_* transitions (aeo/ = 0). The graph can only be trusted for x ! xmax , 0:95. : : : : : : : : : : : : : : : : : : : : : : : : : : 31 3.2 The energy spectrum (3.8) of o/ is plotted for b ! uo/ _* transitions (aeq = 0).
+
+The solid line shows the distribution with the nonperturbative corrections, while the dashed line - without them. For comparison, on the same plot we show the electron energy distribution for b ! ue_* transitions (aeo/ = 0). The graph can only be trusted for x ! xmax , 1:05. : : : : : : : : : : : : : : : 32 3.3 The function fl(x) plotted for the case b ! co/ _*. The solid line shows fl(x)
+
+with the nonperturbative corrections while the dashed line - without them. The graph can only be trusted for x ! xmax , 0:95. : : : : : : : : : : : : : 33 3.4 The function fl(x) for the case b ! uo/ _* (aeq = 0). The solid line shows fl(x)
+
+with the nonperturbative corrections while the dashed line - without them. The graph can only be trusted for x ! xmax , 1:05. : : : : : : : : : : : : : 34
+
+4.1 Cuts of the forward scattering amplitude in the complex plane q0 and position
+
+of the resonance region and continuum spectrum. : : : : : : : : : : : : : : : 38
+
+5.1 Feynman diagrams for the real gluon contributions to the hadronic tensor. : 49 7.1 Hadronic structure functions wi(q2), i = 1; 2; 3, for the model without nonperturbative corrections to the sum rules. : : : : : : : : : : : : : : : : : : : 71 7.2 Hadronic structure functions (wi1 + wi+11 )(q2) for the model including nonperturbative corrections to the sum rules. These should be compared directly with the functions on Fig. 7.1 : : : : : : : : : : : : : : : : : : : : : : : : : 71 7.3 Functions f i(Ee; q2)0 of the resonance doublets for the model without nonperturbative corrections to the sum rules for x = 2Ee=MB = 0:2 . : : : : : : 72 7.4 Functions (f i + f i+1)(Ee; q2) for the model including nonperturbative corrections to the sum rules for x = 2Ee=MB = 0:2 . : : : : : : : : : : : : : : : 72
+
+viii
+
+7.5 Normalized electron spectrum plotted for the model with and without nonperturbative corrections. For comparison, electron spectrum for a free quark decay is also show. : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 74
+
+ix Chapter 1 Introduction The problem of theoretical understanding of semileptonic decays of heavy particles have long attracted theorists's attention. One of the most challenging aspects of the problem has to do with the strong interaction. Namely it is difficult to theoretically calculate different formfactors for exclusive decay channels. The problem is that the exclusive channels are formed by the strong interaction at large distances when the perturbation theory is not applicable. Phenomenological models have been employed in the situations when theoretical calculation from the first principles was not possible. Different models of the semileptonic decays of heavy quarks have been suggested [2],[28]. Those models are based on different sides of theoretical understanding of the problem. The ACCMM (Altarelli, Cabibbo, Corb`o, Maiani and Martinelli [2]) model takes into account the so called primordial motion of the heavy quark inside the hadron and assigns Gaussian distribution of the heavy quark spatial momentum with the so called Fermi momentum pF being the width (dispersion) of that distribution. Of course, one of immediate consequences of this picture is that the lifetime of the meson becomes longer than in a free quark decay due to the Lorentz time dilation. The other, ISGW (Isgur, Scora, Grinstein, Wise [28],[47],[46]) model uses quark-antiquark potential in order to calculate the formfactors, which are obtained as overlap integrals between final and initial states wave functions of the so called light degrees of freedom of the corresponding mesons.
+
+In the recent years model independent predictions for the lepton energy distributions as well as double distributions in the lepton energy and invariant mass of the lepton pair
+
+1
+
+in the decays have been obtained [5],[6],[13],[38]. These predictions are based on the QCD operator product expansion (OPE) in which two new phenomenological parameters describing heavy particles were introduced: matrix element of the chromomagnetic operator _2G which is responsible for the hyperfine mass splitting within heavy quark doublets, and _2ss - average kinetic energy of the heavy quark inside the hadron. The results of the operator product expansion are related to measurable quantities via sum rules [49],[48],[9],[10]. One can also view the sum rules as model independent constraints which should be satisfied by any reasonable phenomenological model of the decay. In the present work an attempt is made to introduce a phenomenological model of semileptonic decays of B mesons which is consistent with the QCD in the sense that it satisfies the OPE sum rules. In the proposed model the final state of the decay is represented as sum of different resonance contributions along with continuum states. Then the resulting hadronic tensor is restrained by the OPE sum rules. It is shown that with limited number of resonances in the final state the constraints could be solved exactly yielding predictions for different formfactors for the decay thus satisfying the QCD conditions. Once the constraints are solved, one can use them to calculate the hadronic tensor and differential distributions in the semileptonic decays. In this way the differential distributions in the decay could be described without ffi-function singularities which appear in the pure OPE approach. One can also relate the parameter _2ss to the quantities which could be (at least in principal) measured by experimentalists (such as hadronic structure functions, or at least the lepton spectrum) and in turn measure the _2ss. This approach could be also useful in a more accurate determination of jVcbj and jVubj from experimental data.
+
+In order to perform a lot of calculations done in this work a special program package was written in MATHEMATICA (Wolfram Research, Inc.). The package includes a small but effective "Lorentz calculator" intended for performing calculations and simplifications of expressions involving various tensor and gamma matrix structures, and a special program which effectively does the operator product expansion described in this work.
+
+The dissertation is organized as follows. In Chapter 2, based on the work [13], the operator product expansion is used to derive the differential distributions in semileptonic decays of heavy flavors with a massless final state lepton (electron), then in Chapter 3,
+
+2
+
+based on the paper [33], the lepton energy distributions are derived for the case of a massive lepton (o/ -lepton) in the final state. In mostly review Chapter 4 the results of Chapter 2 are used to derive the OPE sum rules (in that we follow works [48],[9],[10]), and the full list of the sum rules is calculated. In Chapter 6 a new model of semileptonic decays of heavy flavors is proposed. The model is based on the QCD consistency conditions following from the OPE sum rules. In Chapter 6 the model is formulated in the heavy quark limit. Perturbative corrections to the sum rules are calculated in Chapter 5. In Chapter 7 the model is generalized to take into account perturbative and nonperturbative corrections to the OPE sum rules. Numerical analysis of the proposed model is made in Section 7.4.
+
+3
+
+Chapter 2 Differential distributions in semileptonic decays of heavy
+
+flavors in QCD
+
+2.1 Introduction Differential distributions in semileptonic decays of heavy flavors are used for measurements of the CKM matrix elements, key phenomenological parameters of the standard model. To extract the CKM matrix elements from data one needs to disentangle the effects of strong interactions at large distances from the quark-lepton lagrangian known at short distances.
+
+Up to now essentially two approaches are applied to describe nonperturbative strong interaction effects in the inclusive weak decays: the naive parton model amended to include the motion of the heavy quark inside the decaying meson [2]; and the `exclusive variant' based on summation of different channels, one by one [28]. Both approaches are admittedly model-dependent, neither their accuracy nor the connection to the fundamental parameters of QCD are clear a priori. Each of them needs an input from constituent quark model to parametrize nonperturbative effects. The latter play an especially important role in the form of the spectra near the endpoints.
+
+The need for the model-independent QCD-based predictions is apparent. Consid4
+
+erable progress achieved recently in the theory of preasymptotic effects (proportional to powers of 1=mQ where mQ is the heavy quark mass) allows one to make these predictions.
+
+The theoretical construction presented in this chapter is, in a sense, a generalization and combination of the formalisms which are used in deep inelastic scattering and total cross section of e+e\Gamma annihilation. The expansion parameter in deep inelastic scattering is Q\Gamma 1 where Q is the momentum transfer. In the problem at hand the expansion parameter is m\Gamma 1Q or, more exactly, the inverse energy released in the final hadronic state (in the rest frame of the decaying quark).
+
+In the classical problems of this type, like e+e\Gamma - annihilation, there are two alternative ways to get predictions. The first approach having a solid theoretical justification in terms of OPE [57] is based on calculations in the euclidean domain where one can apply OPE. The contact with the observable quantities is made through the dispersion relations and in this way predictions for certain integrals are obtained. In the second approach we perform the calculations directly in Minkowski domain. Although formally this calculation refers to large distances, from the first approach we know that in specific integrals large distance contributions drop out. Therefore the results obtained in this way, although not valid literally, should be understood in the sense of duality: being smeared over some duality interval the theoretical prediction should coincide with the smeared experimental curve. The inclusive weak decays will be treated within the second approach. The averaging mainly refers to the invariant mass of the inclusive hadronic state produced in the decay considered.
+
+If the invariant mass of the final hadronic state is large this is not a constraint at all since the theory `itself' takes care of the averaging required by duality. In the opposite limit, near a spectral endpoint, the smearing is not provided for free. The boundary of the distribution corresponds to low momentum of the quark produced (low momentum of the hadronic final state). At this point the OPE blows up, therefore we do not have any specific prediction for the distributions near the boundary. Nevertheless the integrals taken over the domain from the kinematical boundary up to a new boundary, defined by the requirement that the OPE is convergent, are predicted. In particular this integration domain should include the resonances range (when mQ is large a parametrically stronger
+
+5
+
+limitation is imposed by the fact that the heavy quark and meson masses are different). An example of the safe integration is the total decay width where the integration domain is maximal.
+
+Although we explicitly work in the Minkowski kinematics we always keep in mind the relationship to the euclidean domain and the corresponding operator product expansion. The first analysis of this type has been outlined in [54] for inclusive heavy flavor decay rates. A general analysis of the semileptonic inclusive spectra along this line is presented in Ref. [18]. In that work it was observed, in particular, that the leading operator and those appearing at the next-to-leading order have a gap in dimensions of two units, and, consequently, the O(m\Gamma 1Q ) term should be absent in certain quantities. The analysis presented in [18] was not backed up, however, by concrete calculations of the preasymptotic effects. Recently this formalism has been systematically developed and applied to the non-leptonic decays of heavy flavors [6, 15] and the charged-lepton energy spectrum in the semileptonic decays [7] (see also [5]).
+
+We generalize the results of Ref. [7] to find the complete inclusive distributions in the semileptonic decays. The leptonic variables -- Ee; q2 and q0, where Ee is the charged lepton energy and q is the momentum of the lepton pair 1 -- are kept fixed which automatically fixes the invariant mass of the inclusive hadronic state. Integrating over q0 we obtain the double spectral distribution in Ee and q2.
+
+At the first stage we construct the transition operator T (Q ! X ! Q) describing the forward scattering amplitude of the heavy quark Q on a weak current. Our focus is the influence of the `soft' modes (background fields) on the transition operator T_* which is expressed as an infinite series in the local operators built from gluon and quark fields and bilinear in Q; _Q.
+
+The local operators are ordered according to their dimensions; the coefficient functions contain the corresponding powers of 1=mQ (or 1=Eh, where Eh is the energy released into the hadronic system). At sufficiently large mQ or Eh the operators with the lowest dimensions dominate, and the infinite series can be truncated. Generically, we will refer to the power expansion as 1=mQ expansion, although strictly speaking it is an expansion
+
+1The charged massless lepton produced will be generically called `electron' hereafter.
+
+6
+
+in 1=Eh. At the next stage the matrix elements of the relevant operators over the initial heavy hadron HQ must be evaluated. Unfortunately, in the present-day QCD the matrix elements over the hadronic states are not theoretically calculable. In some instances they can be related, through heavy quark symmetries, to measurable quantities [24],[28]; in other cases they have to be parametrized. These parameters play the role analogous to the gluon condensate [49]. As a matter of fact, at the level of the leading preasymptotic corrections only two operators are relevant. The matrix element of the first one can be related to the mass splittings of the vector and pseudoscalar heavy mesons. The matrix element of the second one has the meaning of the average square of the spatial momentum of the heavy quark Q in HQ and the state must be treated as a parameter.
+
+Finally, the observed decay rates and spectra are obtained by taking the discontinuity of the hadronic tensor hHQjT_*jHQi and convoluting the result with the lepton currents and appropriate kinematic factors.
+
+In this work we consider the differential distributions in the semileptonic decays at the level of O(m\Gamma 2Q ). The differential distributions are measured experimentally in the B meson decays and will be used for more precise determination of Vub, for example. This was a primary motivation for our investigation. We would like to make it as close to the fundamental QCD as possible.
+
+The organization of this chapter is as follows. In Section 2.2 we describe the kinematics and in Section 2.3 we present the operator product expansion. In Section 2.4 we derive the differential distributions for the massless lepton case. Section 2.5 is devoted to analysis of our distributions and limitations on the their use. Then we apply our results to derivation of the heavy lepton energy distribution and semileptonic width in decays Hb ! o/ _*X. Our results are summarized in Section 3.3. Appendix B contains expressions for hadronic invariant functions.
+
+7
+
+2.2 Kinematical analysis We will consider the inclusive weak decays of the mesons (or baryons) with the open heavy flavor into the lepton pair plus (inclusive) hadronic state
+
+HQ(pH) ! l(pl) + _*(p*) + hadrons: Our goal in this chapter is to calculate the differential decay rate
+
+d3\Gamma dEedq2dq0 ; (2.1)
+
+where Ee is the energy of the emitted electron and q_ = p_l + p_* is the 4-momentum of the lepton pair. In order to find the differential distributions we need to know the amplitude of the process, which is given by the expression
+
+M = VqQ GFp2 _e \Gamma * * hXjj*jHQi: (2.2) Here VqQ is the corresponding Cabibbo-Kobayashi-Maskawa matrix element, j_ = _q\Gamma _Q is the electroweak currents, \Gamma _ = fl_(1 + fl5). (Although our theory is general we will keep in mind the b ! c and b ! u decays, so that Q = b and q = c or u). The differential distributions we are interested in are given by the modulus squared of the amplitude (2.2) summed over the final hadronic states.
+
+The modulus squared of the amplitude summed over the final hadronic states can be written as
+
+jMj2 = jVqQj2G2F MHQ l_* W_*; (2.3)
+
+where MHQ is the mass of hadron HQ, W_* is the hadronic tensor
+
+W_* = X
+
+X
+
+(2ss)4 ffi4(pHQ \Gamma q \Gamma pX ) 12M
+
+HQ hHQjjy_(0)jXihXjj*(0)jHQi; (2.4)
+
+and l_* is the lepton tensor
+
+l_* = 8 [ (pe)_(p*)* + (pe)*(p*)_ \Gamma g_*(pe \Delta p*) + iffl_*fffi(pe)ff(p*)fi]: (2.5) Let us introduce the hadronic structure functions wi and parametrize the hadronic tensor in the following way:
+
+W_* = \Gamma w1 g_* + w2 v_ v* \Gamma i w3 ffl_*fffi vffqfi + w4 q_ q* + w5 (q* v_ + q_ v* ): (2.6)
+
+8
+
+Here q_ = (pe + p*)_ is the 4 - momentum of the lepton pair, v_ = (pHQ)_=MHQ is the 4-velocity of the initial hadron (not that of the Q-quark). Note that we have omitted the structure q_v* \Gamma q* v_ which can not appear because of the T -invariance. The structure functions wi depend on two invariant variables, q \Delta v and q2. In the rest frame of HQ which will be used throughout the paper q \Delta v = q0, so wi = wi(q0; q2). The convolution of W_* with the lepton tensor (2.5) is given by the expression:
+
+W_* l_* = 4 f2 q2 w1 + [ 4 Ee ( q0 \Gamma Ee ) \Gamma q2 ] w2 + 2 q2 ( 2 Ee \Gamma q0) w3 g: (2.7) We see that only three structure functions are relevant for the processes we are considering in this paper. At this step we encounter the third variable, the electron energy Ee = pe \Delta pHQ=MHQ , entering through the leptonic tensor.
+
+Finally the formulae for the differential width takes the form
+
+d3\Gamma dEe dq2dq0 = jVqQj
+
+2 G2F
+
+32 ss4 [2q
+
+2w1 + [4 Ee(q0 \Gamma Ee) \Gamma q2] w2 + 2 q2(2 Ee \Gamma q0) w3 ]: (2.8)
+
+This expression concludes the kinematical analysis. Our task is, of course, the calculation of the structure functions wi(q0; q2). We will proceed to this calculation in the next section.
+
+The phase space of the decay is described in details in Appendix A. Here let us write down expressions for different Lorentz invariant phase space integrations which we will need in the future.
+
+LIP S = Z Z Z dEedq2dq0
+
+=
+
+M2B\Gamma M2D
+
+2MBZ
+
+0
+
+dEe
+
+2Ee(M2B\Gamma M2D\Gamma 2MBEe)
+
+MB\Gamma 2EeZ
+
+0
+
+dq2
+
+M2B\Gamma M2D+q2
+
+2MBZ
+
+Ee+ q24Ee
+
+dq0
+
+=
+
+(MB\Gamma MD)2Z
+
+0
+
+dq2
+
+M2B\Gamma M2D+q2
+
+2MBZ
+
+pq2 dq
+
+0
+
+q0\Gamma pq20\Gamma q2
+
+2Z
+
+q0\Gamma pq20\Gamma q2
+
+2
+
+dEe
+
+=
+
+(M2B\Gamma M2D)2
+
+4M2BZ
+
+0
+
+dq2
+
+MB\Gamma pM2D+q2Z
+
+p
+
+q2
+
+dq0
+
+q0\Gamma jqj
+
+2Z
+
+q0\Gamma jqj
+
+2
+
+dEe: (2.9)
+
+9
+
+The limits of integration are easily established by considering kinematical boundaries for the particles taking part in the decay.
+
+We now can perform the integration over the electron energy and obtain distribution in lepton pair energy and momentum (the distribution is in fact the integrand in the following expression for the total width):
+
+\Gamma = jVqQj2 G
+
+2F
+
+16 ss4 Z
+
+(M2B\Gamma M2D)2
+
+4M2B
+
+0 dq
+
+2 Z MB
+
+\Gamma pM2D+q2p
+
+q2 dq0fjqj(q
+
+20 \Gamma q2)w1 + q3
+
+3 w2g: (2.10)
+
+Integrating equation (2.8) over q0 we obtain the double distribution in the electron energy and the invariant mass of the lepton pair:
+
+d2\Gamma dEe dq2 = jVqQj
+
+2 G2F
+
+32 ss4 Z
+
+qmax0 qmin0 dq0f2q
+
+2w1 + [4 Ee(q0 \Gamma Ee) \Gamma q2] w2 + 2 q2(2 Ee \Gamma q0) w3 g;
+
+(2.11) where
+
+qmin0 = Ee + q2=4Ee; qmax0 = (M 2B \Gamma M 2D + q2)=2MB: (2.12)
+
+Let us notice that the last distribution (2.11) contains weighted integrals of wi's over q0: Z
+
+qmax0
+
+qmin0 q
+
+k0 wi(q0; q2)dq0;
+
+in other words, moments of the structure functions, where qmin0 and qmax0 are kinematical boundaries of q0. This is important, because it is the moments of the structure functions which appear in the inclusive distributions are the quantities which could be reliably predicted in QCD. We will show this in Section 4.1 devoted to derivation of the OPE sum rules.
+
+As it is well known, not all values of q0 correspond to physical processes. The ones which do lie on the physical cuts of the forward scattering amplitude T_* (which will be introduced in the next section) in the complex plain q0. The picture of the cuts is shown on Fig. 2.1. This picture could be readily understood. First, all the cuts lie on the real axis for only real q0 are physical. Different cuts correspond to different physical processes. B meson decay processes correspond to 0 ! q0 ! MB \Gamma qM 2D + q2, this cut will be called
+
+10
+
+cut1 cut2cut3
+
+Re q0 0 M M
+
+B D+ +*2 2qM MB D- +* 2 2qdecay cut
+
+q0
+
+Figure 2.1: Cuts of the forward scattering amplitude in the complex plane q0. cut1. There is also a cut corresponding to collision of B and _D mesons, which lies in MB + qM 2D + q2 ! q0 ! +1, this cut will be important in considering operator product expansion sum rules, we call it cut2. All negative q0 are physical, they correspond to a W boson hitting B meson with formation of some final hadronic state X, we call it cut3. Let us note that separation between the decay cut1 and collision cut2 is 2qM 2D + q2 ?? \Lambda QCD.
+
+2.3 Operator product expansion In this section we will discuss the derivation of the tensor W_* . The Operator Product Expansion (OPE) is similar to that in the deep inelastic scattering. It is convenient to introduce the hadronic tensor h_* (forward scattering amplitude) as follows:
+
+h_* = i Z d4xe\Gamma iqx 12 M
+
+HQ hHQjT fj
+
++_ (x)j*(0)gjHQi: (2.13)
+
+The absorptive part of this tensor reduces to W_* discussed above
+
+W_* = (1=i) disc h_* : (2.14) Here disc(h_* ) is the discontinuity of the forward scattering amplitude h_* on the physical cut in the complex plane of the variable q0. Of course, h_* can be expanded into the same set of structures as W_* (see. Eq. (2.6))
+
+h_* = \Gamma h1 g_* + h2 v_ v* \Gamma i h3 ffl_*fffi vffqfi +
+
+h4 q_ q* + h5 (q* v_ + q_ v* ); (2.15)
+
+11
+
+Q Q
+
+q
+
+Figure 2.2: The tree diagram determining the transition operator T_* in the leading approximation. The dashed lines correspond to the weak currents, the solid internal line describes the propagation of the quark q and the bold external lines represent the heavy quark Q.
+
+and the relation (2.14) implies that
+
+wi = 2 Im hi: (2.16) Let us remind that h_* is the matrix element of the transition operator T_*
+
+h_* = 12 M
+
+HQ hHQjT_*jHQi; (2.17)
+
+T_* = i Z d4xe\Gamma iqx T fj+_ (x)j*(0)g; (2.18) so below we will construct OPE for the product of currents in equation (2.18). Having in mind the relationship to euclidean analysis discussed above we will treat our expansion in the same way as a normal euclidean OPE. In the asymptotic limit mQ ! 1 the hadronic tensor h_* is given by the tree graph of Fig. 2.2. This graph defines the matrix element of the transition operator T_* over the heavy quark state,
+
+hQjT_*jQi = \Gamma _uQ\Gamma _ 16 P \Gamma 6 q \Gamma m
+
+q \Gamma * uQ: (2.19)
+
+The latter expression represents nothing else but the free quark decay. In the asymptotic regime mQ ! 1 the interaction of the heavy quark with the gluon/light quark medium, as well as its intrinsic motion inside the hadron can be neglected. Then
+
+P_ = P0 _ j mQ v_; (2.20)
+
+12
+
+where v_ is the 4-velocity of hadron HQ .
+
+Equation (2.19) allows one to immediately write down the operator form in the approximation at hand (only operators bilinear in Q, _Q are considered, see the discussion of other operators at the end of this section):
+
+T_* = \Gamma _Q\Gamma _ 16 k \Gamma m
+
+q \Gamma * Q = \Gamma
+
+2 (k2 \Gamma m2q) [gff_k* + gff*k_ \Gamma g_* kff \Gamma iffl_*fffikfi] _Qfl
+
+ff(1 + fl5)Q;
+
+(2.21) where k = P0 \Gamma q.
+
+As we see, the two operators _Qflff _Q and _Qflfffl5 _Q showed up in the operator expansion at the level considered. Note, that the _Qflfffl5 _Q term vanishes after averaging over the unpolarized hadronic states.
+
+In this paper the perturbative corrections in ffs are not touched upon at all. As for nonperturbative corrections they appear due to interactions with the soft medium of the light cloud in HQ. By taking these interactions into account we isolate two types of effects. First, the fast quark q produced does not propagate as a free one, but interacts with the background fields; these corrections will be included explicitly into the OPE coefficients. Second, the heavy quark Q also does not live in the empty space; it is surrounded by the light cloud. In particular, due to this fact the heavy quark momentum does not coincide with mQv_. This large distance effect will not be calculated explicitly, but implicitly it will be reflected in the HQ matrix elements of the operators in T_*. This is in full analogy with what people usually do in deep inelastic scattering. The influence of the background field on the transition operator is summarized by the following expression
+
+T_* = \Gamma Z dxe\Gamma iqx _Q(x)\Gamma _Sq(x; 0) \Gamma * Q(0); (2.22) where Sq(x; 0) is the propagator of the quark q in an external gluon field Aa_. It is convenient to use the Schwinger technique of treating the motion in an external field (for a review of QCD adaptation see , e.g. Ref. [43]). Within that formalism the propagator Sq is presented by the following expression
+
+Sq(x; 0) = (xj 16 P \Gamma m
+
+q j0): (2.23)
+
+Here 6 P = fl_(p_ + A_(X)), A_ = g Aa_ T a is the gluon field in the matrix representation.
+
+Furthermore, the operator of coordinate X_ and momentum p_ are introduced, (thus the
+
+13
+
+field A_(X) becomes an operator function of X_), with the commutation relations
+
+[p_; X*] = i g_*; [X_; X*] = 0; [p_; p*] = 0: (2.24) The states jx) are the eigenstates of the operator X_, X_jx) = x_jx).
+
+Combining equations (2.22) and (2.23), we arrive at
+
+T_* = \Gamma Z dxe\Gamma iqx(xj _Q(x)\Gamma _ 16 P \Gamma m
+
+q \Gamma * Q(X)j0): (2.25)
+
+As we have discussed above the operator P_ contains a large mechanical part (P0)_ = mQv_; the deviation from P0 will be separated explicitly
+
+P_ = (P0)_ + ss_ (2.26) and we will expand in ss_. In this paper we will limit ourselves to the terms up to O(ss2) corresponding to 1=m2Q corrections. The master formulae to perform the expansion is
+
+T_* = \Gamma Z dx(xj _Q(X)\Gamma _ 16 P
+
+0\Gamma 6 q \Gamma mq+ 6 ss \Gamma * Q(X)j0): (2.27)
+
+There is a subtle point in the description of the formalism given above. Technically in the computation the A_(x) is assumed to be a c-number background field while in the final expression for local operators it should be understood as a second quantized operator. Since we are not considering any loop corrections this substitution is justified.
+
+Let us now discuss the set of the operators relevant to the order O(m\Gamma 2Q ). Without loss of generality we can work in the rest frame of the hadron HQ, i.e. v_ = (1; 0; 0; 0). Only those operators will be retained which produce non-vanishing results after being averaged over HQ. The leading operator, as it was discussed above, is
+
+_Qfl0Q; (2.28)
+
+its matrix element is fixed by the vector current conservation,
+
+1 2 MHQ hHQj _Qfl0QjHQi = 1: (2.29)
+
+Equation (2.29) is given in relativistic normalization we are using throughout this paper. In the non-relativistic normalization there is no need in the factor 1=2MHQ in the LHS.
+
+14
+
+As it has been noted in Ref. [18] there are no operators of dimension 4 in the problem at hand. The set includes two operators of dimension 5:
+
+OG = i2 _QoefffiGfffiQ; (2.30) Oss = \Gamma _Q D2Q = _Q ss2Q; (2.31) where oefffi = 12 (flffflfi \Gamma flfiflff), and Gfffi = g GqfffiT a is the gluon field strength tensor. The classification above takes into account the fact that the quark field Q satisfies the equation of motion. In particular, it stems that the operator _QQ is not independent but is reducible to three operators (2.28), (2.30) and (2.31):
+
+_Q Q = _Q fl0Q \Gamma 12 m2
+
+Q
+
+_Q ss2Q +
+
+i 4 m2Q _Qoe
+
+fffiGfffiQ + O(m\Gamma 3Q ): (2.32)
+
+To get Eq. (2.32) we observe that the lower component of Q is related to the upper one in the following way
+
+1 \Gamma fl0
+
+2 Q =
+
+1 2mQ ssoe
+
+1 + fl0
+
+2 Q + O(m
+
+\Gamma 2Q ); (2.33)
+
+and the difference between _QQ and _Qfl0Q is due to the product of the lower components. (Here and below we will stick to the HQ rest frame.)
+
+A few other useful relations which can be obtained in the same manner and are valid at the level O(m\Gamma 2Q ) are:
+
+_QflssQ = 1m
+
+Q
+
+_Q(ss2 \Gamma i2 oeG)Q + O(m\Gamma 2Q ); (2.34)
+
+_Qflssfl0Q = O(m\Gamma 2Q ); (2.35) _Qss0Q = 12m
+
+Q
+
+_Q(ss2 \Gamma i2 oeG)Q + O(m\Gamma 2Q ): (2.36)
+
+A few comments are in order here concerning the actual technique of constructing the OPE. Since we work in the HQ rest frame it is convenient to compute different components of T_* separately, T00; T0i; Ti0 and Tij. The calculation itself is a straightforward although rather tedious procedure of expanding the denominator in Eq. (2.27) in 6 ss using the properties of the fl matrices, the commutation relation
+
+[ss_; ss*] = i G_* (2.37)
+
+15
+
+and equations (2.34) - (2.36).
+
+Notice that we must keep the terms of the first order in ss0 and of the second order in ss, since
+
+ss0 Q = (oess)
+
+2
+
+2mQ Q + O(m
+
+\Gamma 2Q ): (2.38)
+
+Next, observe that the Green function in the background field can be written as follows:
+
+16 P\Gamma 6 q \Gamma mq = (6 P\Gamma 6 q + mq)
+
+1 (P \Gamma q)2 + (i=2)oeG \Gamma m2q
+
+j (6 P\Gamma 6 q + mq) 1\Pi : (2.39)
+
+To transpose 1=\Pi with \Gamma * it is convenient to use the identity
+
+1 \Pi \Gamma * = \Gamma *
+
+1 \Pi +
+
+1 \Pi [\Gamma * ; \Pi ]
+
+1 \Pi
+
+= \Gamma * 1\Pi + 1\Pi [\Gamma *; i2oeG] 1\Pi : (2.40) Acting on Q and using the equations of motion we can now substitute 1=\Pi in both terms on the right-hand side by
+
+1
+
+m2Q \Gamma m2q \Gamma 2Pq + q2 ; (2.41)
+
+provided that we limit ourselves to terms up to O(m\Gamma 2Q ). The second term in (2.40) can be simplified even further since here we can additionally neglect ss in P = P0 + ss.
+
+We split the calculation into three parts: Vector\Theta Vector, Axial\Theta Axial and Vector\Theta Axial in correspondence with the structure of \Gamma _ as a sum of vector and axial vector, \Gamma _ = fl_ + fl_fl5. The full hadronic tensor h_* is given then by the following expression:
+
+h_* = hV V_* + hAA_* + hAV_* + hV A_* = 12 M
+
+HQ hHQjT
+
+V V_* + T AA_* + T AV_* + T V A_* jHQi : (2.42)
+
+The complete expressions for the hadronic invariant functions are given in the Appendix B. In the order O(m\Gamma 2Q ) they are defined by the matrix elements of operators OG, Oss given by eqs.(2.30), (2.31):
+
+1 2 MHQ hHQj _Q
+
+i 2 oe_*G
+
+_* QjHQi = 1
+
+2 MHQ hBj_b(oe
+
+\Delta B)bji = _2G; (2.43)
+
+where B is the chromo-magnetic field operator, and
+
+1 2 MHQ hHQj _Q ss
+
+2QjHQi = _2ss: (2.44)
+
+16
+
+The parameter _2G coincides with m2oeH introduced in [14]. For mesonic states it is expressible in terms of the quantity measured experimentally - the hyperfine mass splittings, and it has the zero value for baryonic states of the type of \Lambda Q; the parameter _2ss has the meaning of the average square of spatial momentum of the heavy quark Q in the hadronic state HQ. The two quantities _2G and _2ss often appear in the combination _2ss \Gamma _2G, cf. equation (2.32).
+
+The value of _2G is known from the hyperfine mass splitting between the members of the heavy quark symmetry doublet B and B\Lambda , for it one has the following expression
+
+_2G = 34(M 2B\Lambda \Gamma M 2B) ss 0:36 GeV2: (2.45) As for the value of _2ss it is not known that well. Some QCD sum rules estimates of _2ss were made in [4] Also the inequality _2ss ? _2G was proven in [52]. Let us say here, that _2ss is an important phenomenological parameter which enters different characteristics of the B mesons and should be measured in experiments. One of the goals of this paper is to formulate constraints on the phenomenological structure functions which follow from the OPE sum rules and then fit them using the measured lepton energy spectrum. In this way we hope to be able to extract the QCD parameter _2ss from the experimentally measured lepton energy spectrum. Its value is expected to be around 0:5GeV2.
+
+Let us now introduce some definitions for the quark masses. In the works The heavy hadron mass is related to the heavy quark mass in the following way:
+
+MHQ = mQ + _\Lambda + _
+
+2ss \Gamma _2G
+
+2m2Q + O(
+
+1 m3b ;
+
+1 m3Q ); (2.46)
+
+where Q is a heavy quark ( in this paper it is b or c), HQ is the lowest lying meson containing Q, _\Lambda is the so-called "mass" of the light degrees of freedom . The last expression is in fact an expansion of the hadron mass in 1=mQ. The _2ss=2m2Q part of the hadron mass is due to the motion of the heavy quark inside the hadron, _2G=2m2Q is due to chromomagnetic interaction between the heavy quark and light degrees of freedom, _\Lambda is the mQ independent part of the heavy meson mass.
+
+Let us also introduce the following notation:
+
+ffib j MB \Gamma mb = _\Lambda + _
+
+2ss \Gamma _2G
+
+2m2b ; and ffic j MD \Gamma mc = _\Lambda +
+
+_2ss \Gamma _2G
+
+2m2c ; (2.47)
+
+17
+
+q q
+
+Q
+
+Figure 2.3: The tree diagram determining the operator without the heavy quark Q. Now the bold internal line describes the propagation of the heavy quark Q and the solid external lines represent the quark q.
+
+then
+
+MB \Gamma MD = mb \Gamma mc + (_2ss \Gamma _2G)( 12m
+
+b \Gamma
+
+1 2mc ) + O(
+
+1 m3b ;
+
+1 m3c ); (2.48)
+
+MB \Gamma MD\Lambda = mb \Gamma mc + (_2ss \Gamma _2G)( 12m
+
+b \Gamma
+
+1 2mc ) \Gamma
+
+2 3
+
+_2G mc + O(
+
+1 m3b ;
+
+1 m3c ); (2.49)
+
+and
+
+ffib \Gamma ffic = (_2ss \Gamma _2G)( 12m
+
+b \Gamma
+
+1 2mc ) + O(
+
+1 m3b ;
+
+1 m3c ): (2.50)
+
+The last comment of this section is about the operators which are not bilinear in _Q, Q fields. The simplest example of appearance of such operators is given by the diagram of Fig.2.3 where the heavy quark Q propagates between the current vertices. This diagram is similar to the one of Fig. 2.2, and the corresponding operator follows from Eq.(2.21) by substitution Q ) q, mq ) mQ, k_ ) q_. The additional term in T_* has the form
+
+\Delta T_* = \Gamma _q\Gamma * 16 q \Gamma m
+
+Q \Gamma _ q = \Gamma
+
+2 (q2 \Gamma m2Q) [gff_q* + gff*q_ \Gamma g_* qff \Gamma iffl_*fffi qfi] _qfl
+
+ff(1 + fl5)q:
+
+(2.51) The matrix element of the operator _qflffq over the HQ state counts the number of quarks q and is not small in general. The operator coefficient given by Eq.(2.51) is particularly large when q2 ! m2Q.
+
+In terms of the intermediate hadronic states in the forward scattering off HQ this contribution is due to states in crossing channel containing two Q quarks - the problem was pointed out in Ref. [18]. The cross-channel is not related to the weak inclusive decays under
+
+18
+
+consideration. It is reasonable to accept the duality between the operators without heavy quark fields and the cross-channel contributions having nothing to do with heavy flavor decays. We rely on the assumption that we can consistently omit the crossing channel together with operators in T_* related to this channel.
+
+2.4 Calculation of the differential distributions for massless
+
+lepton in the final state
+
+The differential distributions we are interested in are determined by equation (2.8) containing three structure functions w1, w2 and w3. They are obtained from the results for hi (see Appendix B) by taking the imaginary parts of the corresponding functions (see. Eq. (2.16)). The imaginary parts are due to the poles of hi and are obtained through the relations:
+
+Im 1zn = ss (\Gamma 1)
+
+n
+
+(n \Gamma 1)!
+
+dn\Gamma 1 dzn\Gamma 1 ffi(z); (2.52)
+
+where z is given by
+
+z = m2Q \Gamma 2 mQ q0 + q2 \Gamma m2q: (2.53)
+
+We do not present here the expression for the triple differential distribution which can be easily obtained by combining the equations (2.8), (2.16), (2.52) and expressions for hi from the Appendix B.
+
+Although the result is derived for the physical quantity d3\Gamma =dEedq2dq0, it can not be directly compared with the experimental data. An obvious signal for this is the presence of the delta function and its derivatives. It is not surprising because we are sitting now right on mass-shell of the q-quark. As we discussed in the introduction our results should be understood in the sense of duality: that is that the predictions should be smeared over certain duality interval. At the moment we have no purely theoretical tools to fix the size of the duality interval, therefore we are forced to rely on qualitative arguments and experimental data. For example the duality interval for q0 can be inferred from the distribution in the invariant mass of the final hadronic states. Our ffi-functions reflect the resonance structure at low invariant masses. The smearing interval should be chosen in such a way as to cover the entire resonance domain up to the onset of the smooth behavior.
+
+19
+
+Instead of smearing of the distribution one can calculate the average characteristics like the total width \Gamma or hM nXi, where MX is the invariant mass of the final hadronic states. The power corrections we have calculated will enter in a specific way in each particular quantity.
+
+Now let us proceed to the calculation of the double differential distribution d2\Gamma =dEe dq2. To this end we must integrate over q0, rather simple exercise with ffi-functions. However if one would perform the integration by merely substituting
+
+q0 ! q\Lambda 0 = m
+
+2Q + q2 \Gamma m2q
+
+2 mQ ; (2.54)
+
+and taking the derivatives in the case of ffi0 and ffi00, one would get the wrong answer. The point is that integration domain in q0 has a boundary from below
+
+q0 * Ee + q
+
+2
+
+4 Ee ; (2.55)
+
+which corresponds to 4 Ee E* * q2. Therefore one should take into account the fact that q0 can not cross the boundary (2.55). For that we introduce `(q0 \Gamma Ee \Gamma q2=4Ee) into the integrand. The occurrence of the `-function is important for the integration of ffi0(q0 \Gamma q\Lambda 0) and ffi00(q0 \Gamma q\Lambda 0) which leads to appearance of ffi(q\Lambda 0 \Gamma Ee \Gamma q2=4Ee) and ffi0(q\Lambda 0 \Gamma Ee \Gamma q2=4Ee) in the double distribution d2\Gamma =dq2 dEe because of differentiation of the `-function . The final formulae for the double differential distribution in the lepton energy Ee and q2 takes the form:
+
+d2\Gamma dxdt = jVqQj
+
+2 G2F m5Q
+
+96 ss3 x
+
+2 f 6 (1 \Gamma t)(1 \Gamma ae \Gamma x + xt)+
+
+GQ [ 1 \Gamma 5ae + 2t + 10aet + 10xt \Gamma 10xt2 \Gamma
+
+(\Gamma 1 + 6ae \Gamma 5ae2 + x \Gamma 5aex + t \Gamma 2aet + 5ae2t + xt + 15aext + 5x2t \Gamma 2xt2 \Gamma 10aext2 \Gamma 10x2t2 + 5x2t3) ffi((1 \Gamma t)(1 \Gamma x) \Gamma ae) ] + KQ [\Gamma 3 + 3ae + 4t \Gamma 4aet \Gamma 6xt + 4xt2 \Gamma
+
+(1 \Gamma 2ae + ae2 \Gamma 3x + 3aex \Gamma 3t + 2aet + ae2t + 11xt \Gamma 3aext \Gamma 3x2t \Gamma 6xt2 \Gamma 2aext2 + 2x2t2 + x2t3) ffi((1 \Gamma t)(1 \Gamma x) \Gamma ae) + (1 \Gamma ae \Gamma x + xt)(1 \Gamma t)(1 \Gamma 2ae + ae2 \Gamma 2xt \Gamma 2aext + x2t2) ffi0((1 \Gamma t)(1 \Gamma x) \Gamma ae) ] g: (2.56)
+
+20
+
+Here we have introduced the dimensionless variables
+
+x = 2 Ee=mQ; t = q2=2mQEe; (2.57) and the parameters
+
+ae = m2q=m2Q; GQ = _2G=m2Q; KQ = _2ss=m2Q: (2.58) Let us emphasize that the scale mQ used in equation (2.57) is the heavy quark mass and does not coincide with MHQ which is normally used in the experimental distributions.
+
+The fact that OPE generates corrections only of the order of O(m\Gamma 2Q ) (terms proportional to KQ and GQ) is valid for the distributions only if we use mQ as a scale, i.e. in the variables x; t. Of course one can easily rescale them to MHQ ; then the corrections of the order of O(m\Gamma 1Q ) will show up for trivial kinematical reasons.
+
+We can proceed further and obtain the energy spectrum by integrating over q2. The range of integration is given by
+
+0 ^ t ^ 1 \Gamma ae1 \Gamma x : (2.59)
+
+The result for the energy spectrum coincides with that obtained in [7]. For the sake of completeness we present it here 2:
+
+d\Gamma
+
+dx = j
+
+VqQj2G2F m5Q
+
+192ss3 `(1 \Gamma x \Gamma ae)2x
+
+2f(1 \Gamma f )2(1 + 2f )(2 \Gamma x) + (1 \Gamma f )3(1 \Gamma x)+
+
+(1 \Gamma f )[(1 \Gamma f )(2 + 53 x \Gamma 2f + 103 f x) \Gamma f
+
+2
+
+ae (2x + f (12 \Gamma 12x + 5x
+
+2))]GQ \Gamma
+
+[ 53 (1 \Gamma f )2(1 + 2f )x + f
+
+3
+
+ae (1 \Gamma f )(10x \Gamma 8x
+
+2) + f 4
+
+ae2 (3 \Gamma 4f )(2x
+
+2 \Gamma x3) ] KQg;(2.60)
+
+where f = ae=(1 \Gamma x). Finally, performing the last integration over x in the domain
+
+0 ^ x ^ 1 \Gamma ae; (2.61) we arrive to the total width coinciding with that in [5]:
+
+\Gamma = jVqQj2 G
+
+2F m5Q
+
+192ss3 [ z0 (1 +
+
+1 2 (GQ \Gamma KQ)) \Gamma 2 z1 GQ ]; (2.62)
+
+where z0 = 1 \Gamma 8ae + 8ae3 \Gamma ae4 \Gamma 12ae2 log ae and z1 = (1 \Gamma ae)4.
+
+2Let us draw the reader's attention to the difference of notation: y in [7] is equal to our x.
+
+21
+
+Now let us discuss the characteristic features of the double distribution (2.56). The most striking one is the presence of the singular terms. The technical reason for occurrence of those terms was that we expanded the denominator of the pole expression (2.27) in ss and oe G. Physically this expansion reflects the shifts of the masses of particles due to the nonperturbative effects. As it was mentioned above these singularities reflect the structure of the resonance domain and the predictions suitable for comparison with the experimental data require smearing over the corresponding domain. To illustrate the most salient features of our prediction let us concentrate on the physically interesting case of the b ! u transition.
+
+For massless u quark the kinematical region of b quark semileptonic decay is shown on Fig. 2.4. It has the form of a square with the side equal to 1 in the plane (x = 2Ee=mb; t = q2=2mbEe). The right-hand side of the square corresponds to the maximal energy of electron Ee = mb=2 while the upper side is a maximal energy of neutrino. In the real B meson decay the kinematical region is certainly wider; if one neglects the pion mass the region is the square with the side xmax = tmax = MB=mb. The origin of this window is related to the motion of the heavy b quark inside the B meson. In our calculations we account for nonzero momentum of the b quark in the form of expansion which produced singular ffi and ffi0 terms on the boundary. It is possible to show (see refs.[7],[31]) that the expansion breaks down at distances , (MB \Gamma mb)=mb near the boundary, so we need to integrate our distributions over a range of the order of the window between quark and hadron boundaries. It is interesting to note that the distribution spreads off the distances of the order (MB \Gamma mb)=mb while the corrections to integrals are only of the second order in 1=mb.
+
+Another effect we need to account for is the structure of the resonance region near the low end of the hadronic invariant masses. To imitate the effect let us imagine that this region corresponds to the u quark fragmentation into the hadronic states with s (the square of the invariant mass) from s = 0 to s = s0 = 2 GeV2. The curve corresponding to s = s0 on Fig. 2.4 is given by the equation:
+
+(1 \Gamma t)(1 \Gamma x) = s0=m2b ; (2.63) and the resonance region should be included as a whole into the process of integration; we can predict the integral but not the structure.
+
+22
+
+2.5 Application to the analysis of the experimental data Our theoretical prediction (2.56) depends on the following parameters: VqQ, mQ, mq, KQ, GQ. Let us remind that in this paper we do not consider perturbative in ffs corrections (see Ref. [17]), which, of course, should be added. The Cabibbo-Kobayashi-Maskawa matrix element VqQ does not effect the form of the differential distribution; the total semileptonic width is proportional to jVqQj2. The quark masses enter at the level of leading approximation while KQ and GQ determine 1=m2Q corrections. It is important that our differential distributions by themselves could be used to fit these parameters. In particular it is a good place to extract the heavy quark mass.
+
+Our purpose here is to give an idea of how important the 1=m2Q corrections are in the case of charmless B-meson decays (b ! u transition). To this end we will use the approximate values for the parameters mB, Kb and Gb obtained from other sources. First, we use mb , 4:8 GeV as deduced from the QCD sum rules analysis of the Ypsilon system [51], and mu = 0. Parameter Gb can be extracted from the B; B\Lambda mass splitting [14]:
+
+Gb = 34(M 2(B\Lambda ) \Gamma M 2(B))=m2b , 0:017: (2.64) As a representative value we use for the parameter Kb the value , 0:02. A close value was obtained in Ref. [4] from the QCD sum rules. Earlier QCD sum rule result [39] was a factor of two higher. Notice that the sensitivity of our results to the value of Kb is essentially less than that to Gb. For example, Eq. (2.62) for b ! u transition contains Gb + 13 Kb.
+
+In accordance with the discussion at the end of the previous section the comparison with experiment should include integration of our distribution (2.56) over the domain which includes the area adjacent to the kinematical boundary. We will choose this area to be given by the resonance domain (see Eq. (2.63)) with s0 = 2 GeV2.
+
+Let us introduce the quantity:
+
+P (xc; tc) = 1\Gamma
+
+0 Z ZA(xc;tc) dxdt
+
+d2\Gamma dxdt; (2.65)
+
+where xc; tc is the point in (x; t) plane sitting not too close to the boundary (outside the resonance range), \Gamma 0 = jVubj2G2F m5b =192ss3 and the area of integration A(xc; tc) shown on Fig. 2.4 as shaded includes the resonance domain plus domain x ? xc; t ? tc. For the
+
+23
+
+0.2 0.4 0.6 0.8 1 x 0.2 0.4 0.6
+
+0.8
+
+1
+
+t
+
+(x,t)
+
+Figure 2.4: The kinematical region of the decay for b ! u decays in coordinates x = 2Ee=mb and t = q2=2mbEe. The solid lines are the kinematical boundary for the b quark decay (xmax = tmax = 1) and the dashed lines are the boundary for B meson decay (xmax = tmax = MB=mb). The area of integration for the distribution P (x; t) is shaded. It includes integration over the resonance domain.
+
+experimental distribution the range of integration should be extended to include the window between quark and hadron kinematical boundaries. Notice that in the limit of large mQ the size of the window (MHQ \Gamma mQ)=mQ is parametrically larger then the resonance range s0=m2Q. In the case of b-quark they are numerically close.
+
+The function P (x; t) is plotted as a function of t on Fig. 2.5 for three values of x equal to 0.3, 0.6, 0.8. The last value of x is close to the border of the resonance region beyond which we cannot make reliable predictions for the distributions considered. The dashed lines on Fig. 2.5 describe the leading order distributions in t while the solid lines include QCD corrections we have calculated. As we can see it from the curves, the corrections are negative and their relative magnitude is larger near the endpoints of the spectra.
+
+24
+
+0.2 0.4 0.6 0.8 1
+
+t
+
+0
+
+0.2 0.4 0.6
+
+0.8
+
+1
+
+
+
+x=0.3 x=0.6
+
+x=0.8
+
+Figure 2.5: The integrated distribution P (x; t) for the case b ! u is plotted as function of t = q2=2mbEe for few values of x = 2Ee=mb. The dashed lines correspond to the leading order distribution while the solid lines account for nonperturbative corrections (see Eq. (2.56)). The lines stop at the border of resonance region. It follows from the picture that the corrections are negative.
+
+25
+
+Chapter 3 Corrections to the heavy lepton energy distribution in the inclusive
+
+decays Hb ! o/ _* X
+
+In this part of our work we investigate the power corrections to the heavy lepton energy distribution in the inclusive decays
+
+Hb ! o/ _*X;
+
+where Hb is a hadron containing heavy quark b and o/ is the o/ -lepton. We include nonperturbative corrections up to the order 1=m2b, and show that they cause the decay rate of B-mesons to decrease by 6 to 10 percent of its perturbative value depending on the mass of the quark in the final state. The lepton mass does not effect neither hadronic nor weak leptonic tensors. Therefore we can use expressions (2.2)-(2.8) and (B.7)-(B.11) for the hadronic invariant functions to get the corresponding matrix element. What differs the decay with a heavy lepton from the decay with a massless lepton is the phase space of the particles in the final state.
+
+The first experimental observations of the decay were made recently using the missing energy tag [1],[44]. The missing energy was associated with two *o/ in the decay chain b ! o/ \Gamma _*o/ X; o/ \Gamma ! *o/ X0, which made it difficult to reconstruct. The branching ratio was found to be 4:08 \Sigma 0:76 \Sigma 0:62% in [1] and 2:76 \Sigma 0:47 \Sigma 0:43% in [44] (more recent
+
+26
+
+analysis), which is compatible with the Standard Model. However because of the difficulties in identification of the decay mode Hb ! o/ _*X, the accuracy of the measurements is still insufficient for direct comparison of the results of this paper with the data.
+
+3.1 Heavy lepton energy distributions As was discussed earlier in the semileptonic inclusive decays there are three independent kinematical variables: Eo/ , q0, and q2, where Eo/ is the energy of the emitted lepton (o/ in this paper), q0 is the energy and q2 is the invariant mass of the lepton pair. The full differential distribution can be written as follows:
+
+d\Gamma dEo/ dq0 dq2 =
+
+1 128 ss4 MHb jM(Eo/; q0; dq
+
+2)j2: (3.1)
+
+The matrix element of the process M(Eo/ ; q0; dq2) involves the same hadronic and leptonic tensors as used in [13] and which are given by the expressions (2.2)-(2.8) and (B.7)-(B.11). The corresponding phase space and the boundaries for the kinematical variables for the massive lepton case are briefly discussed in Appendix A.
+
+The double differential distribution in Eo/ and q2 could be obtained from (3.1) by integrating over q0. The corresponding expressions are somewhat cumbersome because of the complicated limits of integration over q0 in (q2; q20) plane. Also there is little use of the double distribution because of the difficulties in observing the considered decays at present time. Therefore we will not write out the formulae for the double distributions in (q2; Eo/ ), but will rather integrate Eq. (3.1) twice and get the energy distribution for the charged lepton in the final state. One more remark is in place here. Although we are looking at a hadron decay, in our dynamical approach we are considering a heavy quark decaying in the external field created by its interactions with the light degrees of freedom. That is why in the case at hand we have to use the quark kinematical boundaries rather then the hadronic ones. This means that in the formulas (A.7)-(A.10) we have to use mb and mq instead of MHb and MD correspondingly. We will use such a kinematical boundary in the following calculations. Our results then should be understood in the sense of duality (see discussion in Chapter 2, [13]).
+
+27
+
+To get the energy distribution we integrate (3.1) over dq2 and dq0. In the dimensionless variables:
+
+x = 2 Eo/m
+
+b ; aeq =
+
+m2q m2b ; and aeo/ =
+
+m2o/
+
+m2b ; (3.2)
+
+the result of the integration then takes the following form:
+
+1 \Gamma 0
+
+d\Gamma
+
+dx = 2 qx
+
+2 \Gamma 4 aeo/ f3 (1 \Gamma aeq + aeo/ ) x \Gamma 2 x2 \Gamma 4 aeo/ + aeq (3 \Gamma aeq + 3 aeo/) f +
+
+(\Gamma 3 \Gamma aeq + 6 aeo/ \Gamma aeq aeo/ \Gamma 3 ae2o/) f 2 + 2 (1 \Gamma aeo/ )2 f 3 + Kb [ \Gamma 5 x
+
+2
+
+3 +
+
+14 aeo/
+
+3 \Gamma
+
+2 3 aeq (3 \Gamma aeq + 3 aeo/) f + (1 +
+
+2 3 aeq \Gamma 4 aeo/ +
+
+2 3 aeq aeo/ + ae
+
+2o/ ) f 2 +
+
+2 3 (6 + aeq \Gamma 6 aeo/ + 4 aeq aeo/ \Gamma 6 ae
+
+2o/ + aeq ae2o/ + 6 ae3o/) f 3
+
+aeq +
+
+3 (1 \Gamma aeo/ )2 (\Gamma 1 \Gamma 2 aeq + 2 aeo/ \Gamma 2 aeq aeo/ \Gamma ae2o/ ) f
+
+4
+
+ae2q + 4 (1 \Gamma aeo/ )
+
+4 f 5
+
+ae2q ] +
+
+Gb [ 2 x + 53 x2 + 4 aeq \Gamma 143 aeo/ + (\Gamma 2 + 3 aeq \Gamma 53 ae2q \Gamma 2 aeo/ + 5 aeq aeo/ ) f +
+
+(\Gamma 2 \Gamma 53 ae2q + 4 aeo/ + 8 aeq aeo/ \Gamma 53 ae2q aeo/ \Gamma 2 ae2o/ \Gamma 10 aeq ae2o/ ) f
+
+2
+
+aeq +
+
+(\Gamma 1 + aeo/ ) (3 + 53 aeq \Gamma 8 aeo/ + 253 aeq aeo/ + 5 ae2o/ ) f
+
+3
+
+aeq + 5 (1 \Gamma aeo/ )
+
+3 f 4
+
+aeq ] g; (3.3)
+
+where
+
+f = aeq1 + ae
+
+o/ \Gamma x ; (3.4)
+
+and
+
+\Gamma 0 = jVqbj2 G
+
+2F m5b
+
+192 ss3 : (3.5) The quantities Kb and Gb are the hadronic matrix elements introduced in Eq. (2.44).
+
+The energy distribution (3.3) spans in x from x = 2 paeo/ to x = 1 + aeo/ \Gamma aeq. It includes the nonperturbative corrections - terms proportional to Kb and Gb. The part of Eq.(3.3) without corrections coincides with the electron spectrum in _ decay with a massive o/_ from Ref. [50]. In the limit aeq ! 0 we encounter the familiar end-point singularities of the lepton spectrum. To get the limit right we make the following substitutions:
+
+f n
+
+aeq )
+
+ffi(1 + aeo/ \Gamma x)
+
+n \Gamma 1 ; n ? 1; (3.6)
+
+and
+
+f n
+
+ae2q )
+
+ffi0(1 + aeo/ \Gamma x) (n \Gamma 1) (n \Gamma 2); n ? 2 (3.7)
+
+28
+
+and only then take aeq to zero. To see that this procedure gives the right limit, it is sufficient to compare the results of integration of the both sides of (3.6) and (3.7) in the limits 2 paeo/ ^ x ^ 1 + aeo/ \Gamma aeq, multiplied by an arbitrary integrable function and check that the both sides are equal to each other. The distribution for aeq ! 0 takes the form:
+
+1 \Gamma 0
+
+d\Gamma aeq!0
+
+dx = qx
+
+2 \Gamma 4 aeo/ f (6 + 6 aeo/) x \Gamma 4 x2 \Gamma 8 aeo/ +
+
+Kb [ 28 aeo/3 + ffi0(1 + aeo/ \Gamma x) (\Gamma 13 + 4 aeo/3 \Gamma 2 ae2o/ + 4 ae
+
+3o/
+
+3 \Gamma
+
+ae4o/
+
+3 ) \Gamma
+
+10 x2
+
+3 ] +
+
+Gb [\Gamma 28 aeo/3 + ffi(1 + aeo/ \Gamma x) (\Gamma 113 + 9 aeo/ \Gamma 7 ae2o/ + 5 ae
+
+3o/
+
+3 ) + 4 x +
+
+10 x2
+
+3 ]g: (3.8)
+
+Now we can integrate distribution (3.3) to get the decay width including 1=m2b corrections:
+
+\Gamma = jVqbj2 G
+
+2F m5b
+
+192 ss3 f(1 +
+
+Gb \Gamma Kb
+
+2 ) z0(aeq; aeo/) \Gamma 2 Gb z1(aeq; aeo/) g; (3.9)
+
+where:
+
+z0(aeq; aeo/) = p* (1 \Gamma 7 aeq \Gamma 7 ae2q + ae3q \Gamma 7 aeo/ \Gamma 7 ae2o/ + ae3o/ + aeq aeo/ (12 \Gamma 7 aeq \Gamma 7 aeo/ ) ) +
+
+12 ae2q (1 \Gamma ae2o/ ) log (1 + vq)(1 \Gamma v
+
+q) + 12 ae
+
+2o/ (1 \Gamma ae2q) log (1 + vo/ )
+
+(1 \Gamma vo/ ) (3.10)
+
+z1(aeq; aeo/) = p* ( (1 \Gamma aeq)3 + (1 \Gamma aeo/ )3 \Gamma 1 \Gamma aeq aeo/ (4 \Gamma 7 aeq \Gamma 7 aeo/ ) ) +
+
+12 ae2q ae2o/ log (1 + vq)(1 + vo/ )(1 \Gamma v
+
+q)(1 \Gamma vo/ ); (3.11)
+
+* = *(1; aeq; aeo/) = 1 + ae2q + ae2o/ \Gamma 2aeq \Gamma 2aeo/ \Gamma 2aeqaeo/ ;
+
+vq and vo/ are the maximal velocities of the quark and the o/ -lepton produced in the decay:
+
+vq = p*1 + ae
+
+q \Gamma aeo/ ; vo/ =
+
+p* 1 \Gamma aeq + aeo/ : (3.12) There exists a simple relation between the two functions z0(aeq; aeo/) and z1(aeq; aeo/ ) [7] :
+
+z1(aeq; aeo/) = \Gamma 2 aeq dz0(aeq; aeo/)dae
+
+q \Gamma 2 aeo/
+
+dz0(aeq; aeo/)
+
+daeo/ + 4 z0(aeq; aeo/) : (3.13)
+
+Width (3.9) is symmetrical function of aeq and aeo/ and therefore its limit when aeq ! 0
+
+\Gamma aeq!0 = jVqbj2 G
+
+2F m5b
+
+192 ss3 f(1 +
+
+Gb \Gamma Kb
+
+2 ) (1 \Gamma 8 aeo/ + 8 ae
+
+3o/ \Gamma ae4o/ \Gamma 12 ae2o/ log aeo/ ) \Gamma 2 Gb (1 \Gamma aeo/ )4 g
+
+(3.14) is the same as limit when aeo/ ! 0 with substitution aeq ) aeo/ .
+
+29
+
+3.2 Numerical estimates and experimental predictions To make numerical estimates in this section we will consider the B-meson decays B ! o/ _*X. We choose the following values for the parameters entering expressions (3.3), (3.8), (3.9) and (3.14) (see discussion in [7] and in chapter 2, [13]): mb = 4:8 GeV, mc = 1:4 GeV, mu = 0, mo/ = 1:78 GeV, Gb = 0:02 and Kb = 0:017 (note that for \Lambda b we have Gb = 0 and the corrections are much smaller).
+
+For the width of the decay we see that the nonperturbative corrections are negative. For b ! uo/ _* transitions they decrease the width by 6% of its perturbative value, while for the b ! co/ _* case they decrease it by 10% (note that for the massless lepton in the final state these numbers are 4% and 5% correspondingly). The quantity insensitive to the uncertainties of known values of Vqb is \Gamma (b ! o/ *X)=\Gamma (b ! e*X):
+
+rq = \Gamma (b ! o/ *X)\Gamma (b ! e*X) = z0(aeq; aeo/)z
+
+0(aeq; 0) [ 1 \Gamma 2 Gb (
+
+z1(aeq; aeo/ ) z0(aeq; aeo/ ) \Gamma
+
+z1(aeq; 0) z0(aeq; 0))]: (3.15)
+
+The first factor of last equation describes the phase space suppression while the second contains the nonperturbative corrections. The corrections reduce rc by 4% and ru by 2% of their perturbative values. Note that in the quantity rc the relative contribution of the corrections is almost independent of the uncertainties in the value of c-quark mass.
+
+The obtained energy distributions (3.3) and (3.8) could be applied to the decays involving the transitions b ! c and b ! u. The analysis of applicability of the distributions was made in Chapter 2 ([7] and [13]). There it was shown that the proper quantity to confront with experiment is
+
+fl(x) = Z
+
+1+aeo/ \Gamma aeq
+
+x dx
+
+0 1
+
+\Gamma 0
+
+d\Gamma (x0)
+
+dx0 ; 2paeo/ ^ x ! 1 + aeo/ \Gamma aeq: (3.16)
+
+This quantity does not contain the end-point singularities and is suitable for direct comparison with the experimental data for x not too close to its maximal value (so that the operator product expansion is still valid and we are not in the resonance region). As we mentioned above, the hadronic kinematical region is different from the quark one. Therefore to compare our results with experiment the range of integration of the experimental distribution should include the window between the quark and hadronic boundaries 1 + aeo/ \Gamma aeq ^ x ^ MB=mb + aeo/ \Gamma aeq. Correspondingly, the reliable prediction can only
+
+30
+
+0 0.2 0.4 0.6 0.8 1
+
+x
+
+0 2
+
+4 6 8
+
+r =0t
+
+r =0.13t
+
+Figure 3.1: The energy spectrum of o/ is plotted for b ! co/ _* transitions. The solid line shows the distribution with the nonperturbative corrections, while the dashed line - without them. For comparison, on the same plot we show the electron energy distribution for b ! ce_* transitions (aeo/ = 0). The graph can only be trusted for x ! xmax , 0:95.
+
+be made for 2paeo/ ^ x ^ xmax, where xmax = 1 + aeo/ \Gamma aeq \Gamma (MB \Gamma mb)=mb. For u-quark xmax , 1:05, for c-quark xmax , 0:95.
+
+The lepton energy spectrum is plotted on the Fig. 3.1 for b ! co/ _* and on the Fig. 3.2 for b ! uo/ _*. The delta-functions of Eq.(3.8) are not shown on the graph. For comparison, on the same plots we show the energy distributions for electrons in b ! ce_* and b ! ue_* transitions correspondingly (aeo/ = 0).
+
+The function fl(x) is plotted on Fig. 3.3 for the case b ! co/ _* and on Fig. 3.4 for b ! uo/ _*. The solid line shows fl(x) with the nonperturbative corrections while the dashed
+
+31
+
+0 0.2 0.4 0.6 0.8 1
+
+x
+
+0
+
+2
+
+4 6 8
+
+
+
+r =0t
+
+r =0.13t
+
+Figure 3.2: The energy spectrum (3.8) of o/ is plotted for b ! uo/ _* transitions (aeq = 0). The solid line shows the distribution with the nonperturbative corrections, while the dashed line - without them. For comparison, on the same plot we show the electron energy distribution for b ! ue_* transitions (aeo/ = 0). The graph can only be trusted for x ! xmax , 1:05.
+
+32
+
+0.75 0.8 0.85 0.9 0.95 1 1.05
+
+x
+
+0 0.02 0.04 0.06
+
+0.08
+
+0.1 0.12
+
+g
+
+Figure 3.3: The function fl(x) plotted for the case b ! co/ _*. The solid line shows fl(x) with the nonperturbative corrections while the dashed line - without them. The graph can only be trusted for x ! xmax , 0:95.
+
+33
+
+0.8 0.9 1 1.1
+
+x
+
+0 0.1
+
+0.2 0.3
+
+g
+
+Figure 3.4: The function fl(x) for the case b ! uo/ _* (aeq = 0). The solid line shows fl(x) with the nonperturbative corrections while the dashed line - without them. The graph can only be trusted for x ! xmax , 1:05.
+
+34
+
+line - without them.
+
+Although the functions are plotted for the whole range of x, 2paeo/ ^ x ^ 1 + aeo/ \Gamma aeq, we can only trust the graphs for x ! xmax.
+
+3.3 Summary of results of chapters 2 and 3 Let us now summarize our results. Model independent approach to nonperturbative effects (1=mQ)n is used for calculations of differential distributions. The effects are most pronounced near the endpoints of the spectra. We discussed how the comparison with experiment should be formulated accounting for the boundary effects. Somewhat disappointing is that we cannot use our results to improve an extraction of Vub by the consideration of q2 dependence. Indeed, experimentally the signal of b ! u is due to the range of electron energy Ee near the upper end where b ! c is absent. However as it follows from Fig.2.4 the distribution in q2 at such energies is concentrated in the resonance domain, and no model-independent prediction emerges.
+
+We also investigated the nonperturbative corrections up to order 1=m2b to the decays Hb ! o/ _*X and found their contribution to the o/ -lepton energy spectrum and the width of the decay. In the case of B-meson decays the corrections could be up to 10% of the width. Unfortunately at present time the experimental measurements are not accurate enough in order to compare our results with the data.
+
+35
+
+Chapter 4 Sum rules for heavy flavor
+
+transitions
+
+4.1 Cuts and sums. OPE sum rules and predictability of
+
+moments and inclusive distributions
+
+One of the goals of this work is to formulate a model for the semileptonic decays of heavy flavors which could describe transitions into individual hadronic final states. We will see that QCD provides sufficient number of constraints on the formfactors of such transitions. Those constraints are imposed in the form of sum rules which follow from the OPE analysis of the inclusive decays developed in the previous chapters. We consider these sum rules to be the QCD conditions on the structure functions of different final state hadronic resonances which should be satisfied by any phenomenological model. This is in fact what we will call the QCD constrained model of the semileptonic decay of the B mesons. So, we define our model by the requirement that it satisfies these sum rules.
+
+The sum rules for semileptonic heavy flavor transitions were considered in the works [9],[48], [10],[11],[35],[52]. These sum rules are based on the dispersion relations which follow from analyticity and unitarity of the scattering matrix. This approach follows many ideas of the classical works [49]. Despite the fact that we are not going to use Borel transform in our analysis in this work, it is clear that it also could be utilized and we are going to do it
+
+36
+
+somewhere.
+
+In this chapter we are going to briefly review and summarize the results for the OPE sum rules derived in the above cited papers and provide the full list of the sum rules for heavy flavor transitions up to the order 1=m2Q. This is the highest order we can go based on the structure functions calculations done in Chapter 2 and listed in the Appendix B (see also [13] and [38]).
+
+To be specific, we will be talking about b ! c transitions, however no sum rules will contain the c-quark mass in the denominator, thus they could be used for b ! u transitions as well. As we will see, it is only Ec (or Eu, correspondingly) that should remain large parameter for the sum rules to be valid.
+
+The hadronic invariant functions introduced in the previous section satisfy the following dispersion relations
+
+hj(q0; q2) = 12ss Z
+
+cut
+
+wj(~q0; q2)
+
+~q0 \Gamma q0 d~q0: (4.1)
+
+Here cut means the physical cut in the q0 complex plain. q0 is some point away from the cut. We will distinguish two kinds of cuts: hadronic for which we keep notation cut and quark, which we will denote as qcut.
+
+In Chapter 2 (see also [13] and [38]) the tensor h_* was calculated by means of the operator product expansion (OPE) for the correlator of currents in (2.13). Let us call h_* calculated in this way htheor_* , which means that these functions vave been calculated using theoretical metods. The expressions for the functions htheorj obtained by means of the OPE are given in the Appendix B (see also [13]). For them the dispersion relation (4.1) is only valid for the values of q0 for which the OPE is valid: far from the cuts.
+
+On the other hand, we can represent the hadronic tensor W_* by inserting the complete set of physical states in the Eq. (2.4). We will call the tensor calculated in such a way W phen_* , phenomenological. In the points where the OPE is valid, the hphen_* (q0; q2) calculated using (4.1) for wphenj and the htheor_* (q0; q2) should be the same with the accuracy with which the OPE was calculated. Then in a remote from the cuts point q0 one obtains the following equation:
+
+htheorj (q0; q2) ss 12ss Z
+
+cut
+
+wphenj (~q0; q2)
+
+~q0 \Gamma q0 d~q0: (4.2)
+
+37
+
+At the same time, we can also write:
+
+htheorj (q0; q2) = 12ss Z
+
+qcut
+
+wtheorj (~q0; q2)
+
+~q0 \Gamma q0 d~q0: (4.3)
+
+Now equating RHS's of (4.2) and (4.3) we have:
+
+1 2ss Zcut
+
+wphenj (~q0; q2)
+
+~q0 \Gamma q0 d~q0 ss
+
+1 2ss Zqcut
+
+wtheorj (~q0; q2)
+
+~q0 \Gamma q0 d~q0: (4.4)
+
+The point q0 in which the comparison of the theoretical and phenomenological invariant functions is performed will be called reference pount.
+
+Let us describe the analytical structure of the hadronic tensor h_* (q0; q2) in the complex plane of q0 at fixed q2. This tensor has discontinuities on the physical cuts , which represent possible physical processes. The semileptonic decay cut spans from q0 = 0 to q0 = MB \Gamma qM 2D + q2, we will call it cut1. Another cut corresponding to fusion of B and
+
+_D mesons, goes from q0 = MB + qM 2D + q2 to q0 = 1, we will call it cut2. There is the
+
+third cut going from q0 = \Gamma 1 to q0 = 0, which corresponds to the process of _D absorbing a W -boson and going into _B. This cuts structure is shown on Fig. 4.1.
+
+cut1 cut2cut3
+
+Re q0 0
+
+reference point
+
+M MB D+ +*2 2q M MB cont- +2 2q
+
+local duality
+
+resonance region
+
+M MB D- +* 2 2q region
+
+decay cut
+
+Figure 4.1: Cuts of the forward scattering amplitude in the complex plane q0 and position of the resonance region and continuum spectrum.
+
+Let us introduce a new variable
+
+ffl = MB \Gamma qM 2D\Lambda + q2 \Gamma q0; (4.5) which describes the distance from the right end of the decay cut to the reference point q0. Then ~ffl = MB \Gamma qM 2D\Lambda + q2 \Gamma ~q0 is the final state excitation energy counted from the ED\Lambda .
+
+38
+
+Note, that in the definition of ffl we used the hadronic masses, and not the quark ones. Then for hadronic invariant functions we have the following expression:
+
+htheorj (ffl; q2) ss 12ss Z
+
+cut1
+
+wphenj (~ffl; q2)
+
+~ffl \Gamma ffl d~ffl +
+
+1 2ss Zcut2+cut3
+
+wphenj (~ffl; q2)
+
+~ffl \Gamma ffl d~ffl: (4.6)
+
+In the Eq. (4.6) ~ffl is in fact excitation energy of the final hadronic state counted from the D\Lambda energy. The equation (4.6) in fact is the starting point for the derivation of the sum rules. [49],see [10], [11],[9],[48],[52],[35]. Despite of the different ways used for deriving the sum rules in the original papers, they all could be obtained in a systematic way from the equation (4.6) (see [10]).
+
+The choice of the reference point ffl is based on the following consideration. The only experimentally observed processes lie on the decay part of the physical cut of the forward scattering amplitude. Therefore, the integral in the RHS of the Eq. (4.2) is known only for the part of the cut corresponding to the B meson decays. This dictates the choice of the reference point close to the decay part of the cut (which is cut1) and as far from the other cuts as possible. At the same time ffl can not be too close to cut1 for the OPE to be valid. Therefore we choose the reference point in between cut1 and cut2 but as close to cut1 as possible. This will lead to the fact that in Eq. (4.6) only integral over cut1 will be relevant for derivation of the sum rules. Note, that the value of ffl at the reference point is negative.
+
+One of important assumtions we are going to make is the assumption of local duality starting at the scale of Mdual \Gamma MD\Lambda . In practical terms this duality means that hadronic tensor wphenj (q0; q2) is the same as the theoretical one wtheorj (q0; q2).
+
+The choice of the reference point close to cut1 enables us to leave only integrations over cut1 and neglect contributions of other cuts. Then with the help of the local duality we can write:
+
+1 2ss Z
+
+ffldual ED\Gamma ED\Lambda
+
+wphenj (~ffl; q2)
+
+~ffl \Gamma ffl d~ffl ss
+
+1 2ss Z
+
+ffldual (MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec)
+
+wtheorj (~ffl; q2)
+
+~ffl \Gamma ffl d~ffl (4.7)
+
+where ffldual = MB \Gamma qM 2dual + q2. The unusually looking lower limit of integration in the RHS is due to the fact that integration in quark q0 goes from 0 to mb \Gamma Ec, and, therefore, in ffl it starts from (MB \Gamma mb) \Gamma (ED\Lambda \Gamma Ec).
+
+39
+
+For ~ffl lying on cut1 where j~fflj o/ jfflj; ffl ! 0 let us expand the denominators of the integrals over the cut1 in the following series:
+
+1 ~q0 \Gamma q0 =
+
+1 ffl \Gamma ~ffl =
+
+1X
+
+k=0
+
+(\Gamma ~ffl)k
+
+fflk+1 ; (4.8)
+
+For the other cuts, on the contrary, we have different condition satisfied: jfflj o/ j~fflj, and the expansion goes in the positive powers of ffl and not in negative.
+
+Now by equating the coefficients in front of 1=fflk, we arrive at the OPE sum rules:
+
+1 2ss Z
+
+ffldual MB\Gamma ED\Lambda w
+
+phen j (ffl; q2)ffl
+
+kdffl = 1
+
+2ss Z
+
+ffldual (MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec) w
+
+theorj (ffl; q2)fflkdffl: (4.9)
+
+It is clear now that the operator product expansion approach provides answers for the moments of physical structure functions, but not for the functions themselves. This is sufficient for calculation of inclusive quantities such as inclusive differential distributions and total widths. In the next chapters however, it will be shown that if one consideres the moments (or the corresponding sum rules) as constraints on a model of the decay, then determination of exclusive quantities also becomes possible.
+
+Let us notice that the first three sum rules corresponding to k = 0; 1; 2 could be calculated using the results for hi's derived in the work [13] (see Appendix B), since in that work hj 's were calculated only to the order 1=m2Q. The last term on the RHS in fact contains gluon corrections to the forward scattering amplitude and therefore all corrections of order ffs due to virtual and real gluons should be included. The virtual gluon corrections have been calculated in the previous works [40]. Corrections due to emission of a real gluon will be calculated later in this work.
+
+4.2 Complete list of the OPE sum rules up to order 1=m2Q The RHS of the sum rules (4.9) for k = 0; 1; 2 for j = 1; 2; 3 were calculated in the work [10]. Here we reproduce the results of that work and add the results of calculations for j = 4; 5.
+
+As it was explained in the previous section, for the moments
+
+IJ1J2;kj = 12ss Z
+
+ffldual
+
+(MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec) w
+
+phen j (ffl; q2)ffl
+
+kdffl
+
+40
+
+we have theoretical predictions. Here IJ1J2;kj is the moment corresponding to the meson average of T fJ1J2g. As it was explained in the previous section, for these quantities we have theoretical predictions. In the derivation of the hadronic structure functions the expressions for AA current could be obtained from the expressions for V V current by substitution mc ! \Gamma mc. For the moments of the structure functions however this is not true because of the shift of variable q0 to ffl (4.5). The practical way of calculation was expansion of the corresponding hadronic invariant functions in 1=ffl (see [10] for details). In this derivation we used mass relations (2.47-2.50). Here we provide here the complete list of moments of all structure functions without perturbative corrections. The perturbative corrections to the sum rules will be calculated in the next chapter.
+
+For the V V currents:
+
+IV V;01 = 12 \Gamma mc2 E
+
+c +
+
+mc 12 Ec3 \Gamma
+
+mc 4Ec mb2 +
+
+mc2 6 Ec3 mb ! _
+
+2G
+
++ mc4 E
+
+c mb2 \Gamma
+
+mc2 6 Ec3 mb +
+
+mc3 4 Ec5 ! _
+
+2ss; (4.10)
+
+IV V;11 = _\Lambda 2 `1 \Gamma mcE
+
+c '
+
+2 \Gamma _\Lambda 2
+
+4Ec 1 \Gamma
+
+m2c
+
+E2c ! `1 \Gamma
+
+mc
+
+Ec ' + 1 \Gamma
+
+mc2
+
+Ec2 !
+
+_2G 6mb
+
++ ` \Gamma 112 E
+
+c \Gamma
+
+1 6 mb +
+
+mc 4 Ec2 ' (1 \Gamma
+
+m2c
+
+E2c )_
+
+2ss; (4.11)
+
+IV V;21 = _\Lambda
+
+2
+
+2 `1 \Gamma
+
+mc
+
+Ec '
+
+3
+
++ `1 \Gamma mcE
+
+c ' 1 \Gamma
+
+mc2
+
+Ec2 !
+
+_2ss
+
+6 ; (4.12)
+
+IV V;02 = mbE
+
+c + ` \Gamma
+
+5 6 Ec mb +
+
+mb 2 Ec3 +
+
+mc 3 Ec3 ' _
+
+2G + 5
+
+6 Ec mb \Gamma
+
+2 mb 3 Ec3 \Gamma
+
+mb mc2
+
+2 Ec5 ! _
+
+2ss; (4.13)
+
+IV V;12 = _\Lambda mbE
+
+c `1 \Gamma
+
+mc Ec ' \Gamma _\Lambda
+
+2 mb
+
+2E2c 1 \Gamma
+
+mc2
+
+E2c ! +`
+
+1 \Gamma mcE
+
+c \Gamma
+
+2 mb
+
+Ec '
+
+_2G 3Ec + \Gamma
+
+2 3 +
+
+mb 6 Ec +
+
+mb mc2
+
+2 Ec3 !
+
+_2ss Ec ; (4.14)
+
+41
+
+IV V;22 = _\Lambda 2 mbE
+
+c `1 \Gamma
+
+mc Ec '
+
+2
+
++ 1 \Gamma mc
+
+2
+
+E2c !
+
+mb 3 Ec _
+
+2ss; (4.15)
+
+IV V;04 = IAA;04 = _
+
+2G
+
+3 Ec3 mb \Gamma
+
+_2ss 3 Ec3 mb ; (4.16)
+
+IV V;14 = IAA;14 = \Gamma _
+
+2G
+
+3 Ec2 mb +
+
+_2ss 3 Ec2 mb ; (4.17)
+
+IV V;24 = IAA;24 = 0 (4.18)
+
+IV V;05 = IAA;05 = \Gamma 12 E
+
+c \Gamma
+
+5 _2G 12 Ec3 + 1 +
+
+mc2 2 Ec2 !
+
+_2ss 2E3c ; (4.19)
+
+IV V;15 = IAA;15 = \Gamma _\Lambda 2E
+
+c `1 \Gamma
+
+mc
+
+Ec ' +
+
+_\Lambda 2 4E2c 1 \Gamma
+
+mc2
+
+Ec2 ! +`
+
+1 2 \Gamma
+
+Ec 6 mb '
+
+_2G
+
+E2c + \Gamma
+
+1 4 +
+
+Ec 6 mb \Gamma
+
+mc2 4 Ec2 !
+
+_2ss E2c ; (4.20)
+
+IV V;25 = IAA;25 = \Gamma _\Lambda
+
+2
+
+2Ec `1 \Gamma
+
+mc
+
+Ec '
+
+2 \Gamma
+
+1 \Gamma mc
+
+2
+
+E2c !
+
+_2ss 6Ec ; (4.21)
+
+For the AA currents:
+
+IAA;01 = 12 + mc2 E
+
+c + \Gamma
+
+mc 12 Ec3 +
+
+mc 4 Ec mb2 +
+
+mc2 6 Ec3 mb ! _
+
+2G +
+
+\Gamma mc 4 Ec mb2 \Gamma
+
+mc2 6 Ec3 mb \Gamma
+
+mc3 4 Ec5 ! _
+
+2ss; (4.22)
+
+IAA;11 = _\Lambda 2 1 \Gamma mc
+
+2
+
+Ec2 ! \Gamma
+
+_\Lambda 2 4Ec `1 +
+
+mc
+
+Ec ' 1 \Gamma
+
+mc2
+
+E2c ! + 1 \Gamma
+
+mc2 Ec2 !
+
+_2G 6mb \Gamma `
+
+1 12 Ec +
+
+1 6 mb +
+
+mc 4 Ec2 ' (1 \Gamma
+
+m2c
+
+E2c )_
+
+2ss; (4.23)
+
+IAA;21 = _\Lambda 2 12 \Gamma mc2 E
+
+c \Gamma
+
+mc2 2 Ec2 +
+
+mc3 2 Ec3 ! +
+
+1 6 +
+
+mc 6 Ec \Gamma
+
+mc2 6 Ec2 \Gamma
+
+mc3 6 Ec3 ! _
+
+2ss; (4.24)
+
+42
+
+IAA;02 = mbE
+
+c + ` \Gamma
+
+5 6 mb +
+
+mb 2 Ec2 \Gamma
+
+mc 3 E2c '
+
+_2G
+
+Ec +
+
+5 6 mb \Gamma
+
+2 mb 3 Ec2 \Gamma
+
+mb mc2
+
+2 E4c !
+
+_2ss Ec ; (4.25)
+
+IAA;12 = _\Lambda mbE
+
+c `1 \Gamma
+
+mc Ec ' \Gamma _\Lambda
+
+2 mb
+
+2 Ec2 1 \Gamma
+
+mc2
+
+Ec2 ! +`
+
+1 \Gamma 2 mbE
+
+c +
+
+mc
+
+Ec '
+
+_2G 3Ec + \Gamma
+
+2 3 +
+
+mb 6 Ec +
+
+mb mc2
+
+2 Ec3 !
+
+_2ss Ec ; (4.26)
+
+IAA;22 = _\Lambda 2 mbE
+
+c `1 \Gamma
+
+mc Ec '
+
+2
+
++ 1 \Gamma mc
+
+2
+
+Ec2 !
+
+mb 3 Ec _
+
+2ss; (4.27)
+
+For the V A currents:
+
+IV A;03 = 12 E
+
+c \Gamma
+
+_2G 12 Ec3 \Gamma
+
+1 6 +
+
+mc2 4 Ec2 !
+
+_2ss E3c ; (4.28)
+
+IV A;13 = _\Lambda 2 E
+
+c `1\Gamma
+
+mc
+
+Ec ' \Gamma
+
+_\Lambda 2 4 E2c 1\Gamma
+
+m2c
+
+E2c ! +
+
+_2G 6 Ec mb
+
++ \Gamma 112 \Gamma Ec6 m
+
+b +
+
+mc2 4 Ec2 !
+
+_2ss E2c ; (4.29)
+
+IV A;23 = _\Lambda
+
+2
+
+2 Ec `1\Gamma
+
+mc
+
+Ec '
+
+2
+
++ _
+
+2ss
+
+6 Ec 1\Gamma
+
+m2c
+
+E2c ! : (4.30)
+
+All moments that are not written are equal to zero. Let us notice that all second
+
+moments are related to each other by the heavy quark symmetry, this happens because these moments are only known in the leading order and nonperturbative corrections to them have not been calculated.
+
+For the V \Gamma A current we have
+
+IV \Gamma A;kj = IV V;kj \Gamma 2IV A;kj + IAA;kj : For the reader's convenience let us reproduce them here:
+
+IV \Gamma A;01 = 1 + mc
+
+2(_2G\Gamma _2ss)
+
+3Ec3mb ; (4.31)
+
+IV \Gamma A;11 = _\Lambda `1 \Gamma mcE
+
+c ' \Gamma
+
+_\Lambda 2 2Ec 1 \Gamma
+
+mc2
+
+Ec2 ! +
+
+1 \Gamma mc
+
+2
+
+Ec2 !
+
+_2G 3mb \Gamma 1 \Gamma
+
+mc2
+
+Ec2 ! `
+
+1 6Ec +
+
+1 3mb ' _
+
+2ss; (4.32)
+
+43
+
+IV \Gamma A;21 = _\Lambda 2 `1 \Gamma mcE
+
+c '
+
+2
+
++ 1 \Gamma mc
+
+2
+
+Ec2 !
+
+_2ss
+
+3 ; (4.33)
+
+IV \Gamma A;02 = 2mbE
+
+c + ` \Gamma
+
+5 3mb +
+
+mb Ec2 '
+
+_2ss Ec +
+
+5 3mb \Gamma
+
+4mb
+
+3E2c \Gamma
+
+mbmc2
+
+Ec4 !
+
+_2ss Ec ; (4.34)
+
+IV \Gamma A;12 = _\Lambda 2mbE
+
+c `1 \Gamma
+
+mc
+
+Ec ' \Gamma _\Lambda
+
+2 mb
+
+Ec2 1 \Gamma
+
+mc2
+
+Ec2 ! +`
+
+1 \Gamma 2mbE
+
+c '
+
+2_2G
+
+3Ec + \Gamma
+
+4 3 +
+
+mb 3Ec +
+
+mbmc2
+
+Ec3 !
+
+_2ss Ec ; (4.35)
+
+IV \Gamma A;22 = _\Lambda 2 2mbE
+
+c `1 \Gamma
+
+mc
+
+Ec '
+
+2
+
++ 2mb3E
+
+c 1 \Gamma
+
+mc2
+
+Ec2 ! _
+
+2ss; (4.36)
+
+IV \Gamma A;03 = 1E
+
+c \Gamma
+
+_2G 6Ec3 \Gamma
+
+1 3 +
+
+mc2 2Ec2 !
+
+_2ss E3c ; (4.37)
+
+IV \Gamma A;13 = _\Lambda E
+
+c `1 \Gamma
+
+mc
+
+Ec ' \Gamma
+
+_\Lambda 2 2E2c 1 \Gamma
+
+mc2
+
+Ec2 ! + (4.38)
+
+_2G 3Ecmb + \Gamma
+
+1 6 \Gamma
+
+Ec 3mb +
+
+mc2 2Ec2 !
+
+_2ss E2c ; (4.39)
+
+IV \Gamma A;23 = _\Lambda
+
+2
+
+Ec `1 \Gamma
+
+mc Ec2 '
+
+2
+
++ 1 \Gamma mc
+
+2
+
+Ec2 !
+
+_2ss 3Ec ; (4.40)
+
+IV \Gamma A;04 = 2IV V;04 ; (4.41)
+
+IV \Gamma A;14 = 2IV V;14 ; (4.42)
+
+IV \Gamma A;24 = 0; (4.43) IV \Gamma A;05 = 2IV V;05 ; (4.44) IV \Gamma A;15 = 2IV V;15 ; (4.45) IV \Gamma A;25 = 2IV V;25 : (4.46) The listed moments could be viewed as expanded in the inverse heavy quark mass, they contain leading order contributions plus nonperturbative corrections (except second moments for which only the leading order is calculated). Radiative corrections to the sum rules will be calculated in Chapter 5.
+
+44
+
+Chapter 5 Perturbative corrections to the
+
+sum rules
+
+5.1 Introduction In the discussion of the operator product expansion we did not take into account any perturbative corrections to the forward scattering amplitude. This also means that we have neglected contributions of perturbative corrections in the theoretical part of the sum rules.
+
+There are two places the perturbative corrections are coming from: virtual gluon exchange and real gluon emission. Therefore one can write for the structure functions:
+
+wtheorj (ffl; q2) = w(0)j (ffl; q2) + wvirtj (ffl; q2) + wrealj (ffl; q2); where w(0)j (ffl; q2) is the leading order in ffs result including nonperturbative corrections obtained in Chapter 2, wvirtj (ffl; q2) and wrealj (ffl; q2) are perturbative corrections coming from virtual and real gluons correspondingly. Now expresstions for each moment of each structure function will contain two additional parts, due to virtual and real gluons.
+
+The contribution of virtual gluons to the hadronic tensor could be found in the work [40], for readers convenience and to make this text self contained, we review the results of that work in the following Section 5.2. The real gluon contributions to the sum rules are calculated in Section 5.3.
+
+45
+
+5.2 Virtual gluons contributions In this section the results of Ref. [40] of calculations of the virtual gluon contributions to the hadronic vertex are used to calculate the corresponding contributions to the hadronic tensor and the OPE sum rules.
+
+The virtual gluon exchange results in the modification of the interaction vertex [40] (see also the review paper [41]):
+
+\Gamma V;_QCD = (1 + aV )fl_ + bV v_ + cV v0_; (5.1) \Gamma A;_QCD = (1 + aA)fl_fl5 + bAv_fl5 + cAv0_fl5; (5.2) where
+
+aV;A = ffsss [ln mbm
+
+c \Gamma
+
+flhh0 (w)
+
+4 ln
+
+mc
+
+* +
+
+2 3 (f (w) \Sigma r(w) + g(z; w))]; (5.3)
+
+bV;A = \Gamma 2ffs3ss [2r(w) \Upsilon 1 + hV;A1 (z; w)]; (5.4)
+
+cV;A = \Upsilon 2ffs3ss hV;A2 (z; w); (5.5)
+
+where z = mc=mb, w = v \Delta v0 = Ec=mc = p1 + q2=m2c , and v0 is the velocity of the final c-quark, * is the gluon mass which is needed to regularize the infrared divergency. This divergency is to be cancelled in the sum rules by the corresponding divergency in the gluon emission part of perturbative corrections. The upper signs refer to the vector current, whereas the lower signs refer to the axial current. Expressions for the functions f (w), r(w), g(z; w), hV;A1 (z; w), and h(A)2 (z; w) are given in the works [40], [41], we cite them here for the reader's convenience.
+
+w\Sigma = w \Sigma pw2 \Gamma 1; (5.6) flhh0 = 163 [wr(w) \Gamma 1]; (5.7)
+
+r(w) = 1pw2 \Gamma 1 ln(w + pw2 \Gamma 1); (5.8) f (w) = wr(w) \Gamma 2 \Gamma wpw2 \Gamma 1 [L2(1 \Gamma w2\Gamma ) + (w2 \Gamma 1)r2(w)]; (5.9)
+
+g(w) = wpw2 \Gamma 1[L2(1 \Gamma zw2\Gamma ) \Gamma L2(1 \Gamma zw2+)] \Gamma
+
+z 1 \Gamma 2wz + z2 [(w
+
+2 \Gamma 1)r(w) + (w \Gamma z) ln z]; (5.10)
+
+46
+
+L2(x) = \Gamma Z
+
+x
+
+0 dt
+
+ln(1 \Gamma t)
+
+t ; (5.11)
+
+hV;A2 (z; w) = z(1 \Gamma 2wz + z2)2 f2(w \Upsilon 1)z(1 \Sigma z) ln z \Gamma
+
+[(w \Sigma 1) \Gamma 2w(2w \Sigma 1)z + (5w \Sigma 2w2 \Upsilon 1)z2 \Gamma 2z3]r(w)g \Gamma
+
+z 1 \Gamma 2wz + z2 [ln z \Gamma 1 \Sigma z]; (5.12) hV;A1 (z; w) = hV;A2 (z\Gamma 1; w) \Gamma 2r(w) \Sigma 1: (5.13)
+
+After plugging this vertex into the expressions for the hadronic tensor, one can read off the corrections to the corresponding hadronic structure functions. The corrected expressions look as follows (nonperturbative corrections are not included):
+
+wV V1 = 2ss(1 + 2aV )(mb \Gamma mc \Gamma q0)ffi(m2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c ); (5.14) wV V2 = 4ss(mb + 2aV mb + bV (mb + mc) +
+
+cV ( m
+
+2b
+
+mc + mb))ffi(m
+
+2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c); (5.15)
+
+wV V3 = 0; (5.16) wV V4 = 4ss c
+
+V
+
+mc ffi(m
+
+2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c); (5.17)
+
+wV V5 = \Gamma 2ss((1 + bV + cV ) + 2(aV + cV mbm
+
+c ))ffi(m
+
+2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c); (5.18)
+
+and for the V A currents only hV A3 is not equal to zero,
+
+wV A3 = 2ss(1 + aV + aA)ffi(m2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c ): (5.19) For the AA currents expressions are obtained from the ones for V V currents by replacing mc ! \Gamma mc.
+
+In the last expressions we can rearrange the argument of the delta function, since in the sum rules we integrate over ffl = MB \Gamma ED\Lambda \Gamma q0 and only over the decay cut:
+
+ffi(m2b \Gamma 2mbq0 + q20 \Gamma q2 \Gamma m2c ) ! 12E
+
+c ffi(mb \Gamma Ec \Gamma q0) =
+
+1 2Ec ffi(ffl \Gamma (MB \Gamma mb) + (ED
+
+\Lambda \Gamma Ec));
+
+where Ei = qM 2i + q2. The corrected sum rules are now obtained by multiplying Eq. (5.14)-(5.19) by the appropriate power of ffl, dividing by 2ss and by 2Ec, dropping the delta functions and substituting q0 ! mb \Gamma Ec. Let us note that these corrections contain the
+
+47
+
+infrared logarithmic divergencies which are to be cancelled by the corresponding real gluon contributions. Let us call perturbative corrections to the moments including only virtual gluon contributions Skj . Then for the corrections to the moments we get:
+
+SV V;k1 = a
+
+V
+
+Ec (Ec \Gamma mc)((MB \Gamma mb) \Gamma (ED
+
+\Lambda \Gamma Ec))k; (5.20)
+
+SV V;k2 = 1E
+
+c [2a
+
+V mb + bV (mb + mc) +
+
+cV ( m
+
+2b
+
+mc + mb)]((MB \Gamma mb) \Gamma (ED
+
+\Lambda \Gamma Ec))k; (5.21)
+
+SV V;k3 = 0; (5.22) SV V;k4 = c
+
+V
+
+mcEc ((MB \Gamma mb) \Gamma (ED
+
+\Lambda \Gamma Ec))k; (5.23)
+
+SV V;k5 = \Gamma 12E
+
+c [(b
+
+V + cV ) + 2(aV + cV mb
+
+mc )]((MB \Gamma mb) \Gamma (ED
+
+\Lambda \Gamma Ec))k; (5.24)
+
+SV A;k3 = 12E
+
+c (a
+
+V + aA)((MB \Gamma mb) \Gamma (ED\Lambda \Gamma Ec))k: (5.25)
+
+As it was already mentioned, SAA;kj could be obtained from equations (5.20)-(5.24) by substituting mc ! \Gamma mc.
+
+5.3 Real gluons contributions The corrections to the hadronic tensor coming from the real gluon emission have also been calculated, they could be read off from different works (see for example [17],[26],[32], [20]- [22],[27]). The corresponding expressions are however pretty lengthy and we are not going to use them in our calculation of the corrections to the sum rules. Instead we are going to derive approximate formulas for the moments of the structure functions, utilizing the fact that the energy release in the decay is of the order of mb \Gamma mc ?? MB \Gamma Mdual , \Lambda QCD, where Mdual is the hadron invariant mass scale at which the local duality starts. In fact, MB \Gamma Mdual is the size of the resonance domain, in which we are going to expand (speaking more presicely, we are going to expand in (MB \Gamma Mdual)=Ec).
+
+Let us first define the quantity we are going to calculate. The contribution of real gluons to the hadronic tensor W virt_* in the leading order in 1=mb is defined by the following expression, containing c quark and a gluon g in the intermediate state:
+
+48
+
+W virt_* = X
+
+X=cg
+
+(2ss)4 ffi4(pQ \Gamma q \Gamma pX) 12m
+
+bhbjjy_(0)jXihXjj*(0)jbi
+
+= 12m
+
+b(2ss)2 Z
+
+d3k 2!k
+
+d3pc
+
+2Ec ffi
+
+4(pb \Gamma q \Gamma pc \Gamma k) X
+
+pol:h
+
+bjjy_(0)jcgihcgjj*(0)jbi; (5.26)
+
+where k is the gluon momentum and the sum runs over gluon polarizations. The matrix elements hcgjj*(0)jbi are given by the diagrams on Fig. 5.1.
+
+Q
+
+q g Q
+
+q
+
+g
+
+Figure 5.1: Feynman diagrams for the real gluon contributions to the hadronic tensor.
+
+Functions wj(ffl; q2) satisfy the following sum rules: 1 2ss Z
+
+ffldual MB\Gamma ED\Lambda w
+
+phen j (ffl; q2)ffl
+
+kdffl = 1
+
+2ss Z
+
+ffldual (MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec) w
+
+theorj (ffl; q2)fflkdffl:: (5.27)
+
+Let us denote
+
+1 2ss Z
+
+ffldual (MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec) w
+
+theorj (ffl; q2)fflkdffl: = Ikj + Ik;virtj + Ik;realj ; (5.28)
+
+where Inj are the leading order in ffs moments,
+
+Ik;virtj = 12ss Z
+
+ffldual
+
+(MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec)+* dffl ffl
+
+k wvirtj ;
+
+are the contributions of virtual gluons, and
+
+Ik;realj = 12ss Z
+
+ffldual
+
+(MB\Gamma mb)\Gamma (ED\Lambda \Gamma Ec)+* dffl ffl
+
+k wrealj ;
+
+49
+
+are the contributions of the real gluons, Ec = pm2c + q2, ffldual = qM 2dual + q2\Gamma qM 2D\Lambda + q2 is the excitation energy where the continuum spectrum of hadrons starts. The lower limits of integrations correspond to 0 o/ q0 o/ mb \Gamma Ec \Gamma *, with * being the gluon mass needed for regularization of the infrared divergency.
+
+We now need to calculate the right hand sides of Eq. (5.27). To be able to perform the calculation we will make one more approximation. In fact in Eq. (5.27) the integration goes over the resonance domain of the final hadron energies. We will assume that this resonance domain is narrow compared to the maximal energy release in the process. Then ffldual can be considered as a small parameter along with all gluon energies in the integration domain and we can expand in it. (Note, that in fact we need to calculate moments of different structure functions, and not the functions themselves. This allows us to change the order of integration and first expand and integrate in ffl, which makes the calculation easier to do). Let us denote
+
+RJJ;kj = 12ss Z
+
+ffldual
+
+* dffl ffl
+
+k wJJ;realj :
+
+Let us introduce for convenience the variable v0 = \Gamma q=Ec, which is the spatial velocity of the final quark. Then the results of the calculations look as follows.
+
+For V V currents:
+
+RV V;01 = ffs3ssm
+
+b E3c fffldual [ Ec (4 mb Ec \Gamma 2 mbmc \Gamma 2Ec
+
+2)+
+
+(mc2 + mb (\Gamma 2Ec + mc(1 + v
+
+0 2))) Ecj
+
+v0j ln(
+
+1 + jv0j 1 \Gamma jv0j )]+
+
+2mbE2c (Ec \Gamma mc)Ec(\Gamma 2+ 1jv0j) ln( 1 + jv
+
+0j
+
+1 \Gamma jv0j )) ln(
+
+ffldual
+
+* )g; (5.29)
+
+RV V;11 = ffsffldual3ss (1\Gamma mcE
+
+c )[ 2\Gamma
+
+m2cj v0jE2c ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]; (5.30)
+
+RV V;21 = 2 ffs v
+
+02 (Ec \Gamma mc) ffl2dual
+
+9ss Ec ; (5.31)
+
+RV V;02 = 2ffs3ssE3
+
+c f
+
+ffldual v02E2c [ (mb Ec (4 m
+
+2c + 6 v02E2c ) \Gamma 4 E4c ) +
+
+50
+
+(2 mc2E3c \Gamma mb (3 mc2v0 2E2c + 2 (mc4 + v0 4E4c ))) 1jv0jE
+
+c ln(
+
+1 + jv0j 1 \Gamma jv0j) ]+
+
+2mbE2c (\Gamma 2 + 1jv0j ln( 1 + jv
+
+0j
+
+1 \Gamma jv0j)) ln(
+
+ffldual
+
+* )g; (5.32)
+
+RV V;12 = 2 ffsmb3ss E2
+
+c ffl
+
+dual [ 2 Ec\Gamma mc
+
+2
+
+jv0jEc ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]; (5.33)
+
+RV V;22 = 4 ffs mbv
+
+02 ffl2dual
+
+9ss Ec ; (5.34)
+
+RV V;04 = 2 ffsffldual3ssm
+
+bv0 2E2c [ 2 \Gamma
+
+m2cj v0jE2c ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]; (5.35)
+
+RV V;05 = ffs3ssm
+
+bE3c f
+
+ffldual v0 2E2c [ 2Ec(\Gamma mb(3 mc
+
+2 + 4v02E2c ) + Ec3)+
+
+(\Gamma m2c E3c + mb (2 v04E4c + mc2 (3 mc2 + 4 v02E2c ) )) 1jv0jE
+
+c ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]+
+
+2mbE2c (2 \Gamma 1jv0j ln( 1 + jv
+
+0j
+
+1 \Gamma jv0j)) ln(
+
+ffldual
+
+* )g; (5.36)
+
+RV V;15 = ffs ffldual3ss E2
+
+c [\Gamma 2 E
+
+c+ m
+
+2cj
+
+v0jEc ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]; (5.37)
+
+RV V;25 = \Gamma 2ffsv
+
+0 2 ffl2dual
+
+9ss Ec : (5.38) For V A currents:
+
+RV A;03 = ffs3ssm
+
+b E3c f
+
+ffldual v02E2c [ 2Ec(mb ( mc
+
+2 + 2 v02E2c ) \Gamma Ec3) +
+
+(mc2E3c \Gamma mb (mc4 + 2 v0 2E4c )) 1jv0jE
+
+c ln(
+
+1 + jv0j 1 \Gamma jv0j) ]+
+
+2mb E2c (\Gamma 2 + 1jv0j ln( 1 + jv
+
+0j
+
+1 \Gamma jv0j ) ) ln(
+
+ffldual
+
+* )g; (5.39)
+
+RV A;13 = ffs ffldual3ssE2
+
+c [ 2 E
+
+c\Gamma m
+
+2c
+
+jv0jEc ln(
+
+1 + jv0j 1 \Gamma jv0j ) ]; (5.40)
+
+51
+
+RV A;23 = 2 ffsv
+
+0 2 ffl2dual
+
+9ss Ec : (5.41) For AA currents expressions are obtained from the ones for V V currents by replacing mc ! \Gamma mc.
+
+In these calculations we did not retain terms of the order (ffs=ss)\Theta (nonperturbative corrections) to the corresponding moments, because these terms have extra ffs=ss and are expected to be suppressed in respect to the nonperturbative corrections. In other words, here we are not considering perturbative corrections to nonperturbative corrections.
+
+Note, that first and second moments of different structure functions are simply related to each other, which again is a reflection of the heavy quark symmetry:
+
+(Ec \Gamma mc)R11 = 2mbR12 = \Gamma R15 = R13; (5.42) and
+
+(Ec \Gamma mc)R21 = 2mbR22 = \Gamma R25 = R23: (5.43)
+
+Terms violating the heavy quark symmetry show up only in zeroth moments.
+
+In this section we used notation slightly different from [41] and from the previous section, but the relation between the variables is clear: w = Ec=mc = 1=p1 \Gamma v0 2; pw2 \Gamma 1 = jv0j=p1 \Gamma v0 2: It is easy to see that the calculated expressions are not singular as v0 ! 0.
+
+An explicit check shows that the infrared divergency is cancelled. To do this it is sufficient to see that in the virtual gluons part the only coefficient that has infrared divergent terms is aV;A:
+
+aV;A = ffsss fl
+
+hh0 (w)
+
+4 ln
+
+mc
+
+* + ::: = \Gamma
+
+4 3
+
+ffs
+
+ss [
+
+wp
+
+w2 \Gamma 1 ln(w + pw
+
+2 \Gamma 1) \Gamma 1] ln mc* + :::
+
+= \Gamma 43 ffsss [ mc2jv0jE
+
+c ln
+
+w + pw2 \Gamma 1 w \Gamma pw2 \Gamma 1 \Gamma 1] ln
+
+mc
+
+* + :::
+
+= \Gamma 23 ffsss [\Gamma 2 + 1jv0j ln 1 + jv
+
+0j
+
+1 \Gamma jv0j] ln
+
+mc
+
+* + ::: (5.44)
+
+where we only kept logarithmically divergent terms.
+
+52
+
+Chapter 6 The QCD constrained model of
+
+semileptonic decays of the B mesons in the heavy quark limit
+
+6.1 Introduction. Description of the model In this chapter we introduce a model of semileptonic decays of B meson into charmed final states B ! l_*Xc, based on QCD. In this model we will use experimental information and heavy quark symmetry along with the constituent quark model spectroscopy in order to identify possible final states and to parametrize the structure functions of the decay. We use these states to saturate the phenomenological part of the OPE sum rules (4.9) and then use the sum rules to fix the hadronic structure functions.
+
+Let us start with the description of what is known about the final hadronic states of the decay. The lowest energy final hadronic states seen in experiments with B mesons are (all D mesons electric charges are zeros, like in decays B\Gamma ! X0c l_*) : D(1870), D\Lambda (2007), D1(2420) and D\Lambda 2(2460) [45]. In this chapter we use the notion of the heavy quark spin symmetry [29],[30] and consider final states as doublets of that symmetry. Therefore in our model we will consider B meson decaying into leptons and hadronic resonances: pseudoscalar D and vector D\Lambda , axial-vector and tensor D1, D\Lambda 2, scalar and axial-vector D\Lambda \Lambda , D\Lambda \Lambda 1
+
+53
+
+and pseudoscalar and vector D\Lambda \Lambda \Lambda , D\Lambda \Lambda \Lambda 1 . In the constituent quark models the last doublet represents the first radial excitation and for some quark-antiquark potentials is degenerate with the third one. Anything lying above will be considered continuum states. We consider the members of the heavy quark doublets to have degenerate masses. We hope that this picture provides a good approximation for the final states of the decay and that these final states will saturate the OPE sum rules. In the present work we will limit the discrete states by the final states listed above, however one can of course add more final states such as the first radial excitations, etc. We note, however that the structure functions for the case of three heavy doublets in the final state are completely fixed by the first three OPE sum rules and therefore could be considered most suitable as the model with the next to leading order accuracy. The results obtained in the present section will be used as zero approximation for the model including next to leading order corrections to the structure functions (see Section 7).
+
+The resonances listed above could be viewed in the following way in terms of the constituent quark model [29],[30]. Since the c quark is heavy, in the first approximation we can neglect the interaction of its spin with the light degrees of freedom. Then we can classify the states of the light subsystem as 11S1=2, 11P1=2, 11P3=2 and 21S1=2, where the usual spectroscopic notation n2s+1lj was employed: n is the radial quantum number, s is the spin of the light quark, l is the orbital momentum of the light quark and j is the total momentum of light degrees of freedom. The last state is the first radial excitation. Now we add the spin of the c quark. Each of the listed states gets doubled thus forming the heavy quark doublets and we get the following classification [30] (now in the n2S+1LJ notation, S is the combined spin of the two quarks inside the meson, L is the orbital momentum of the light quark, and J is the spin of the meson or total angular momentum of the b_q system):
+
+pseudoscalar D ! j11S0i and vector D\Lambda ! j13S1i; axial-vector D1 ! q 32j11P1i + q 12 j13P1i and tensor D\Lambda 2 ! j13P2i ; scalar D\Lambda \Lambda ! j13P0i and axial-vector D\Lambda \Lambda 1 ! q 32j11P1i \Gamma q12 j13P1i; pseudoscalar D\Lambda \Lambda \Lambda ! j21S0i and vector D\Lambda \Lambda \Lambda 1 ! j23S1i, The notation for the last two doublets is in no way standard, we use it here in order to merely have notation for these particles.
+
+54
+
+Since, as it was already mentioned, the last two doublets are usually degenerate in quark potential models, we will consider them as one and the same doublet number three. Therefore, contribution of the last two doublets in the heavy quark symmetry limit will always look like a contribution of a combined doublet.
+
+As a consequence of the heavy quark mass being large one also can expect that the mass splitting inside heavy quark doublets (which is in fact the hyperfine splitting in the quark model of hadrons) is smaller then that between different heavy quark doublets (the latter is due to the LS coupling in this model).
+
+In the limit of the exact heavy quark symmetry the hadronic tensor is described by just one structure function w(q0; q2) and has the following form (same as for the free quark decay)
+
+W_* = 4ssw(q0; q2) (\Gamma (MB \Gamma q0) g_* + 2MB v_v* + iffl_*fffivffqfi \Gamma (v_q* + v* q_)); (6.1) where we stick to the convention ffl0123 = \Gamma ffl0123 = 1. Note that w4 (coefficient in front of the structure q_q* ) is zero in this approximation. Therefore in this limit it is sufficient to write the sum rules for the structure function w1
+
+w1 = 4 ss (MB \Gamma q0) w(q0; q2): Let us note that for a free quark decay w(q0; q2) = 1 \Delta ffi(M 2B \Gamma 2MBq0 + q20 \Gamma q2 \Gamma M 2i ).
+
+As it was described above, in the sum rules we fix q2 and calculate the following moments for the V \Gamma A current:
+
+Ik0;1(q2) = 12ss Z
+
+fflmax
+
+0 ffl
+
+k[w1(q0; q2)]0 dffl; (6.2)
+
+where subscript 0 denotes the leading order in 1=mQ expansion and
+
+ffl = MB \Gamma q0 \Gamma ED\Lambda = EX \Gamma ED\Lambda = qM 2X + q2 \Gamma qM 2D\Lambda + q2; (6.3) fflmax = MB \Gamma E\Lambda D: (6.4)
+
+The variable ffl is just the energy of the final hadron counted from the energy of the D\Lambda . According to the sum rules, these moments of the phenomenological structure functions should be equated to the corresponding moments of the theoretically calculated function
+
+55
+
+wtheor1 . The number of moments which we are able to calculate is limited by the accuracy of the operator product expansion (see discussion in [10] and in Section 4.1).
+
+If one tries to approximate the final hadronic state by a sum over heavy quark doublets and neglects the contribution of continuum states, then for w(q0; q2) one can write:
+
+w1 (q0; q2) = 4 ss X
+
+i
+
+(MB \Gamma q0)wi(q2) ffi(M 2B \Gamma 2MBq0 + q20 \Gamma q2 \Gamma M 2i )
+
+= 2ss X
+
+i
+
+wi(q2) ffi(MB \Gamma Ei \Gamma q0); (6.5)
+
+where Mi is mass and Ei = qM 2i + q2 is energy of i's heavy quark doublet and the sum runs over the heavy doublets. Note that the second ffi-function ffi(MB +Ei \Gamma q0) was dropped, since it does not contribute to the sum rules, as it was explained in Section 4.1.
+
+Let us say that both nonperturbative and radiative corrections violate the heavy quark symmetry, for them the equation (6.1) does not hold. We will not consider them in this section but will take them into account later as small perturbations of the sum rules.
+
+The function w satisfies the following leading order sum rules:X
+
+i
+
+wi = 1; (6.6)X
+
+i
+
+(Ei \Gamma ED\Lambda ) wi = _\Lambda (1 \Gamma mcE
+
+c ); (6.7)X
+
+i
+
+(Ei \Gamma ED\Lambda )2 wi = _\Lambda 2 (1 \Gamma mcE
+
+c )
+
+2 + _2ss
+
+3 (1 \Gamma
+
+m2c
+
+E2c ) (6.8)
+
+As we can see, these equations express phenomenological structure functions through quark masses, _\Lambda and _2ss. If we could solve these equations for w's and express w's through
+
+_\Lambda and _2ss, then we could fit _\Lambda and _2ss by comparing decay distributions (2.11) with data.
+
+For the differential distribution in variables Ee; q2, q0 we have for the case at hand:
+
+d3\Gamma dEe dq2dq0 = jVcbj
+
+2 G2F
+
+2 ss3 w (q0 \Gamma Ee) (2EeMB \Gamma q
+
+2): (6.9)
+
+Now integrating over q0 we obtain the expression for the double distribution in q2 and Ee:
+
+d2\Gamma
+
+dEe dq2 = jVcbj
+
+2 G2F
+
+4 ss3 (2Ee MB \Gamma q
+
+2) X
+
+i
+
+wi(q2)
+
+MB (MB \Gamma Ei \Gamma Ee): (6.10)
+
+56
+
+In the last equation q2 is not independent:
+
+q2 = q20 \Gamma q2 = M
+
+4B + M 4i + q4 \Gamma 2MBMi \Gamma 2MBq0 \Gamma 2Miq0
+
+4 M 2B ; (6.11)
+
+and
+
+Ei = M
+
+2B + M 2i \Gamma q2
+
+2 MB : (6.12) For each resonance the variable q2 changes between the following limits:
+
+0 ! q2 ! 2Ee(M
+
+2B \Gamma 2MBEe \Gamma M 2i )
+
+MB \Gamma 2Ee : (6.13)
+
+The distribution in electron energy is now obtained by integrating the double distribution over q2:
+
+d\Gamma dEe = Z
+
+2Ee(M2B\Gamma 2MBEe\Gamma M2D)
+
+MB\Gamma 2Ee
+
+0
+
+d2\Gamma dEe dq2 :
+
+For each resonance in the final state the electron energy lies within the limits
+
+0 ! Ee ! MB2 (1 \Gamma M
+
+2i
+
+M 2B ): (6.14)
+
+The general case including perturbative and nonperturbative corrections will be considered in Section 7.
+
+We are now going to consider two simple models for the function w(q0; q2), namely models with two and three heavy hadronic doublets in the final state of the decay. For these models equations (6.6)-(6.8) could be solved and solutions could be used for measuring _2ss.
+
+6.2 Two doublets model Let us now try to satisfy these sum rules in the following simple way: assume that there exist only two heavy quark doublets with masses MD\Lambda and MD\Lambda 2 .
+
+Let us denote for convenience:
+
+\Delta = MD\Lambda 2 \Gamma MD\Lambda ; (6.15) ~\Delta 2 = M 2D\Lambda
+
+2 \Gamma M
+
+2D\Lambda : (6.16)
+
+Note, that in this chapter we do not distinguish between masses of particles within the same heavy quark doublet.
+
+57
+
+Now the sum rules (6.6)-(6.8) take the form:
+
+w1 + w2 = 1 (6.17) w2 ~\Delta 2 = _\Lambda (1 \Gamma mcE
+
+c )(ED
+
+\Lambda 2 + ED\Lambda ); (6.18)
+
+w2 ( ~\Delta 2)2 = (_\Lambda 2 (1 \Gamma mcE
+
+c )
+
+2 + _2ss
+
+3 (1 \Gamma
+
+m2c
+
+E2c ) )(ED
+
+\Lambda 2 + ED\Lambda )2: (6.19)
+
+We see that the system of equations is overdetermined and there is no way to satisfy these sum rules at arbitrary q2.
+
+However let us expand the RHS in
+
+v2 = q
+
+2
+
+E2c ss
+
+q2 E2D\Lambda ; and v
+
+2i = q2
+
+E2i ; (6.20)
+
+where
+
+E2c = m2c + q2: (6.21)
+
+Then for small velocities of the particles in the final states we can cast the sum rules into the form:
+
+w1 + w2 = 1 (6.22)
+
+w2 ~\Delta 2 = _\Lambda q
+
+2
+
+2 E2D\Lambda (MD
+
+\Lambda 2 + MD\Lambda ); (6.23)
+
+w2 ~\Delta 4 = _
+
+2ss
+
+3
+
+q2 E2D\Lambda (MD
+
+\Lambda 2 + MD\Lambda )2; (6.24)
+
+The last three equations can be solved:
+
+_2ss = 32 _\Lambda \Delta ; (6.25)
+
+w2 = _\Lambda 2 \Delta q
+
+2
+
+E2D\Lambda ; (6.26)
+
+w1 = 1 \Gamma _\Lambda 2 \Delta q
+
+2
+
+E2D\Lambda : (6.27) The Isgur-Wise ae parameter is defined as the slope of the universal Isgur-Wise formfactor [30], which is related to the slope of w1(q2): w1 = 1 \Gamma (ae \Gamma 14)(v0)2, where v 0 = q=qM 2D\Lambda + q2. From the equation (6.27) we see that ae2 is related to \Lambda and \Delta in a very simple way:
+
+ae2 = _\Lambda 2 \Delta + 14 : (6.28)
+
+58
+
+Finally,
+
+w1 = 1 \Gamma (ae2 \Gamma 14 ) q
+
+2
+
+M 2D\Lambda + q2 : (6.29)
+
+w2 = (ae2 \Gamma 14 ) q
+
+2
+
+M 2D\Lambda + q2 : (6.30) Now, with _\Lambda = 0:55GeV, MD\Lambda = 2:009GeV, MD\Lambda 2 = 2:462GeV we obtain:
+
+_2ss = 32 _\Lambda (MD\Lambda 2 \Gamma MD\Lambda ) ' 0:37GeV; (6.31)
+
+ae2 = _\Lambda 2(M
+
+D\Lambda 2 \Gamma MD\Lambda ) ' 0:86; (6.32)
+
+which is in agreement with the other estimates and experimental data.
+
+Summarizing, we can say that the first (Bjorken) sum rule along with the second (Voloshin) and the third (Bigi-Uraltsev-Vainshtein-Shifman ) sum rules relate _\Lambda and the mass difference \Delta with _2ss and the hadronic structure function w . Now using Eq. (6.10)- (6.14) one can fit _2ss in d\Gamma =dEe from experimental data on the decay.
+
+6.3 Three doublets model It was shown in the previous secsion that in the case of two doublets in the final state the sum rules equations could not be solved exactly at any q2. In fact, we did not have enough degrees of freedom to satisfy the sum rules. However if one adds the third doublet to the model then the sum rules could be solved exactly. In this section we solve the equations for the structure functions in the case of three heavy quark doublets in the final state. In fact, if we consider masses of the third and fourth doublets degenerate (which happens in potential quark models, as it was mentioned in Section 6.1), the structure function w3 could be considered as a sum of contributions of those two doublets. In this sense the proposed model in the heavy quark limit takes care of the fourth doblet. But since it is described by just tree independend functions, we will still call it three doublets model.
+
+Let us first introduce the notation. We will call the three doublets d1 = fD; D\Lambda g, d2 = fD\Lambda 2; D1g, and d3 = fD\Lambda \Lambda ; D\Lambda \Lambda 1 g and use the following definitions:
+
+\Delta 2 = Ed2 \Gamma Ed1 = qM 2d2 + q2 \Gamma qM 2d1 + q2; \Delta 3 = Ed3 \Gamma Ed1 = qM 2d3 + q2 \Gamma qM 2d1 + q2: (6.33)
+
+59
+
+In this model in the heavy quark limit we use only three doublets, bearing in mind that there is a fourth one, which is degenerate with the third, then we do not separate their contributions and use generic notation d3 for both of them.
+
+Now the sum rules for the three particles take the following form.
+
+w1 + w2 + w3 = 1; w2 \Delta 2 + w3 \Delta 3 = _\Lambda (1 \Gamma mcE
+
+c );
+
+w2 \Delta 22 + w3 \Delta 23 = _\Lambda 2 (1 \Gamma mcE
+
+c )
+
+2 + _2ss
+
+3 (1 \Gamma
+
+m2c
+
+E2c ): (6.34)
+
+The last three equations could be solved:
+
+w1 = 1 \Gamma 1\Delta
+
+2 \Delta 3 (
+
+_\Lambda (\Delta 3 + \Delta 2) \Gamma _\Lambda 2 (1 \Gamma mcE
+
+c ) \Gamma
+
+_2ss
+
+3 (1 +
+
+mc
+
+Ec ))(1 \Gamma
+
+mc
+
+Ec );
+
+w2 = 1\Delta
+
+2 (\Delta 3 \Gamma \Delta 2) (\Delta 3
+
+_\Lambda \Gamma _\Lambda 2 (1 \Gamma mcE
+
+c ) \Gamma
+
+_2ss
+
+3 (1 +
+
+mc
+
+Ec )) (1 \Gamma
+
+mc
+
+Ec );
+
+w3 = 1\Delta
+
+3 (\Delta 3 \Gamma \Delta 2) (
+
+_\Lambda 2 (1 \Gamma mcE
+
+c ) \Gamma \Delta 2
+
+_\Lambda + _
+
+2ss
+
+3 (1 +
+
+mc
+
+Ec )) (1 \Gamma
+
+mc
+
+Ec ): (6.35)
+
+The three functions w1, w2, w3 must be positive, which leads to the following inequality:
+
+\Delta 2 _\Lambda ^ _\Lambda 2 (1 \Gamma mcE
+
+c ) +
+
+_2ss
+
+3 (1 +
+
+mc
+
+Ec ) ^ \Delta 3 _\Lambda : (6.36)
+
+Of course, the last inequality is specific for the three resonance doublets case of our model, but it still gives some physical limitations on the quantities involved. Let us note also that in the limit q2 ! 0 it looks as follows:
+
+\Delta m2 _\Lambda ^ 23 _2ss ^ \Delta m3 _\Lambda ; which, in turn, could be viewed as limitations on the values of _2ss, \Delta m3 and _\Lambda . For example, if one takes \Delta m2 ' 0:6GeV, _\Lambda ' 0:5GeV, then one gets:
+
+0:45GeV2 ^ _2ss;
+
+0:6GeV ^ \Delta m3;
+
+which is in accordance with the estimates for _2ss of the works [10] ,[9],[48],[53] (in these works the inequality _2ss ^ _2G was proven; while _2G ' 0:36GeV2). In fact, however, these
+
+60
+
+inequalities do not take into account perturbative corrections to the sum rules, which could somewhat alter them.
+
+Expanding w1 at small v2 we find
+
+w1 = 1 \Gamma v2c ( _\Lambda (\Delta 3 + \Delta 2)2 \Delta
+
+3\Delta 2 \Gamma
+
+_2ss 3 \Delta 3\Delta 2 ); (6.37)
+
+where v2c = q2=(m2c + q2). From the last expression we can see that the Isgur-Wise aeparameter in this case is
+
+ae2 \Gamma 14 = m
+
+2c
+
+M 2D\Lambda (
+
+_\Lambda (\Delta m3 + \Delta m2)
+
+2 \Delta m3\Delta m2 \Gamma
+
+_2ss 3 \Delta m3\Delta m2 ); (6.38)
+
+where \Delta m2 = Md2 \Gamma Md1 and \Delta m3 = Md3 \Gamma Md1 and we have taken into account the fact that the ae-parameter is defined for hadrons and not for quarks.
+
+For the differential distributions one can again use formulas (6.9)-(6.14).
+
+61
+
+Chapter 7 Model of the decay including perturbative and nonperturbative
+
+corrections to the sum rules
+
+7.1 Description of the model. In the previous chapters we have considered the model of semileptonic decays of heavy flavors in the heavy quark limit. We considered the final states resonances to be heavy quark doublets and also neglected terms breaking the heavy quark symmetry in the sum rules. In this chapter we are going to take into account the fact that the resonance doublets masses are split and that the hadronic tensor and, therefore, the sum rules, contain terms violating the heavy quark symmetry. We are going to use the previous chapters results as a zero approximation model and consider perturbative and nonperturbative corrections as small perturbations to it.
+
+Let us consider a model with n heavy quark doublets. To accommodate deviations from the heavy quark symmetry we now need to consider mass splitting within the heavy quark doublets as well as independence of different structure functions in the hadronic tensor (they were not independent in the heavy quark limit, see Eq. (6.1)).
+
+Now we have 2n resonances with different masses, we will consider mass splittings
+
+62
+
+of the doublets to be of order 1=m2Q.
+
+For the masses of the first four resonances experimental data is available, and therefore we do not need to consider them as parameters to be fixed from the sum rules [45]. For higher resonances, however, no data exists, but as numerical analysis of the model will show, they are not going to play a major role for their contribution is going to be small anyway.
+
+The hadronic tensor now has all structure functions independent from each other. Three of these functions contribute to semileptonic decays. The operator product expansion was calculated only with the accuracy 1=m2Q. This limits the order of the sum rules we can use to restrict the structure functions by three. It is valid to include 1=mQ corrections to the first two sum rules while in order to calculate them for the third one we would have to know the higher order terms of the OPE.
+
+First let us introduce the notation. Since now we are considering deviations from the heavy quark symmetry, we assign each resonance its own distinctive mass Mi, where for odd i's Mi; Mi+1 come from the same heavy quark doublet. Let us also denote wij; wi+1j the corresponding structure functions, where j stands for the structure function number and i; i + 1 denote the functions coming from the same doublet for odd i0s. Note that functions wij refer to the separate resonances within the heavy quark doublets, while the previously defined functions wi which did not have subscripts referred to the contributions of the whole doublets. Let us also denote the leading order moments as Ik0;j. In this section we only consider V \Gamma A current.
+
+Our model is now formulated as follows:
+
+wphenj (q0; q2) = 2ss X
+
+i
+
+wij(q2) ffi(MB \Gamma qM 2i + q2 \Gamma q0) +
+
+wcontj (q0; q2) `(MB \Gamma qM 2cont + q2 \Gamma q0); (7.1) where Mcont is the hadronic invariant mass at which the continuum spectrum starts.
+
+In our model we will assume that Mcont = Mdual, other words, we assume that local duality starts at the same scale as continuum spectrum. Then in the LHS of the sum rules only resonance contributions should be counted.
+
+63
+
+The first three sum rules now read:X
+
+i=1;3;5;:::
+
+(wij + wi+1j ) = ~I0j ; (7.2)X
+
+i=1;3;5;:::
+
+wij(Ei \Gamma ED\Lambda ) + wi+1j (Ei+1 \Gamma ED\Lambda ) = ~I1j ; (7.3)X
+
+i=1;3;5;:::
+
+wij(Ei \Gamma ED\Lambda )2 + wi+1j (Ei+1 \Gamma ED\Lambda )2 = ~I2j : (7.4)
+
+In the last equations ~Ikj are the moments including all perturbative and nonperturbative corrections found in previous sections.
+
+We are interested in the lowest order in 1=mQ corrections to the sum rules. Let us expand energies of the final particles in heavy mass splittings:
+
+Ei ss Ei+1 \Gamma M
+
+2i+1 \Gamma M 2i
+
+2Ei+1 = Ei+1 \Gamma
+
+ffiM 2i 2Ei+1 = Ei+1 \Gamma
+
+Mi+1ffiMi
+
+Ei+1 : (7.5)
+
+Then we have for the sum rules:X
+
+i=1;3;5;:::
+
+(wij + wi+1j )(Ei+1 \Gamma ED\Lambda )k \Gamma wij kMi+1ffiMiE
+
+i+1 (Ei+1 \Gamma ED
+
+\Lambda )k\Gamma 1 = ~Ikj : (7.6)
+
+For wij + wi+1j we can write
+
+wij + wi+1j = (wij + wi+1j )0 + ffiwij + ffiwi+1j ; (7.7) where (wij)0 are the leading order structure functions which are determined from the sum rules in the heavy quark limit (6.6)-(6.8), and ffiwij are corresponding corrections. In fact, by comparing (7.1) and (6.5) one finds:
+
+wi = (wi1 + wi+11 )0; i = 1; 3; 5: Let us take into account the fact that ffiMi , \Lambda 2QCD=mQ and therefore wi+1j in the second term of Eq. (7.6) could be taken in the leading approximation. By the virture of the heavy quark symmetry both (wij)0 and (wi+1j )0 could be expressed through the universal Isgur-Wise formfactors [30]. The explicit expressions for these functions are given in the appendix C.
+
+64
+
+Since it is only the sum of corrections for the members of a heavy quark doublet which enters the sum rules and the expressions for lepton energy distributions, we will introduce a special notation for it:
+
+ffiW ij = ffiwij + ffiwi+1j ; i = 1; 3; 5: Finally corrections to the sum rules can be written in the form:X
+
+i=1;3;5;:::
+
+ffiW ij (Ei+1 \Gamma ED\Lambda )k = ~Ikj \Gamma Ik0;j + X
+
+i=1;3;5;:::
+
+(wij)0 kMi+1ffiMiE
+
+i+1 (Ei+1 \Gamma ED
+
+\Lambda )k\Gamma 1; (7.8)
+
+where Ik0;j are defined in Eq. (6.2).
+
+This system of equations relates corrections to the structure functions to the mass splittings inside the heavy doublets. For the model to be self consistent in the zeroth approximation we take resonance doublets masses equal to the masses of heavier particles of the doublets. This does not matter in the zeroth approximation itself (heavy quark symmetry limit) but does matter when we consider nonperturbative corrections to the sum rules coming from the mass splittings within the doublets. Again, for the first two doublets the mass splittings are known experimentally [45].
+
+We see that the OPE sum rules provide the system of equations for the functions ffiW ij , which is determined to the same degree as the system of equations for the functions (wij)0. In fact for V \Gamma A current we have three systems of equations, independent for each structure function number.
+
+7.2 Three doublets model For three heavy doublets in the final state the system of equations (7.8) can be easily solved, for it has the following generic form:
+
+x + y + z = a; y\Delta 3 + z\Delta 5 = b; y\Delta 23 + z\Delta 25 = c:
+
+The solution is:
+
+x = c \Gamma b(\Delta 3 + \Delta 5) + a\Delta 3\Delta 5\Delta
+
+3\Delta 5 ;
+
+65
+
+y = b\Delta 5 \Gamma c\Delta
+
+3\Delta 5 \Gamma \Delta 23 ;
+
+z = b\Delta 3 \Gamma c\Delta
+
+3\Delta 5 \Gamma \Delta 25 :
+
+Let us denote:
+
+\Delta i = Ei \Gamma ED\Lambda ; ffiIkj = ~Ikj \Gamma Ik0;j \Gamma X
+
+i=1;3;5;:::
+
+(wi+1j )0 kMiffiMiE
+
+i \Delta
+
+k\Gamma 1i :
+
+Then for each structure function the equations are:
+
+ffiW 1j + ffiW 3j + ffiW 5j = ffiI0j ;
+
+ffiW 3j \Delta 3 + ffiW 5j \Delta 5 = ffiI1j ; ffiW 3j \Delta 23 + ffiW 5j \Delta 25 = ffiI2j ;
+
+and the solution is given by:
+
+ffiW 1j = ffiI
+
+2j \Gamma ffiI1j (\Delta 3 + \Delta 5) + ffiI0j \Delta 3\Delta 5
+
+\Delta 3\Delta 5 ;
+
+ffiW 3j = ffiI
+
+1j \Delta 5 \Gamma ffiI2j
+
+\Delta 3\Delta 5 \Gamma \Delta 23 ;
+
+ffiW 5j = ffiI
+
+1j \Delta 3 \Gamma ffiI2j
+
+\Delta 3\Delta 5 \Gamma \Delta 25 : (7.9)
+
+7.3 Differential distributions for the model including perturbative and nonperturbative corrections
+
+One of possible uses of the proposed model is to describe the lepton energy and invariant mass distribution in the semileptonic decays of heavy mesons. In this section we will show that the information about structure functions derived from the corrected sum rules is sufficient in order to write expressions for the differential distributions. Unlike the pure OPE results, this model predicts smooth distributions, which do not have anything like ffi-functions at the ends, and still is totally based on OPE.
+
+The hadronic structure functions of the model are given by the following expression
+
+66
+
+wphenomj = 2ss X
+
+i
+
+wij(q2)ffi(MB \Gamma q0 \Gamma qM 2i + q2) +
+
+wcontj (q0; q2) `(M 2B \Gamma 2MBq0 + q2 \Gamma M 2cont) = 2ss X
+
+i
+
+wij(q2)2Eiffi(M 2B \Gamma 2MBq0 + q2 \Gamma M 2i ) +
+
+wcontj (q0; q2) `(M 2B \Gamma 2MBq0 + q2 \Gamma M 2cont): (7.10) In the last equations we have taken into account the relationZ
+
+decay phase space dq
+
+2dq0f (q0; q2)2Eiffi(M 2B \Gamma 2MBq0 + q2 \Gamma M 2i )
+
+= Zdecay phase space dq2dq0f (q0; q20 \Gamma q2)ffi(MB \Gamma q0 \Gamma qM 2i + q2); (7.11) with corresponding limits of integration. Because, it is the double distribution in Ee; q2, that we studied in the previous chapters and experimentalists are going to measure, in what follows we will work in variables (q0; q2). The form of the equations in the variables (q0; q2) could be readily restored.
+
+The full differential distribution is given by the Eq. (2.9), which we rewrite here showing explicitly contributions of different states:
+
+d3\Gamma dEe dq2dq0 = jVcbj
+
+2 G2F
+
+32 ss4 f
+
+2ss X
+
+i
+
+[2q2wi1 + [4 Ee(q0 \Gamma Ee) \Gamma q2] wi2 + 2 q2(2 Ee \Gamma q0) wi3] \Theta
+
+2Eiffi(M 2B \Gamma 2MBq0 + q2 \Gamma M 2i ) +
+
+[2q2wcont1 + [4 Ee(q0 \Gamma Ee) \Gamma q2] wcont2 + 2 q2(2 Ee \Gamma q0) wcont3 ] \Theta `(M 2B \Gamma 2MBq0 + q2 \Gamma M 2cont)g: (7.12)
+
+The total width is then given by the formulae: \Gamma = Z
+
+\Phi dEedq
+
+2dq0 d3\Gamma
+
+dEe dq2dq0
+
+= jVcbj
+
+2G2F
+
+32 ss4 f2ss Xi Z\Phi i dEedq
+
+2 Ei
+
+MB [2q
+
+2wi1 + [4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2] wi2 +
+
+2 q2(2 Ee \Gamma MB + Ei) wi3] +Z
+
+\Phi d\Phi [2q
+
+2wcont1 + [4 Ee(q0 \Gamma Ee) \Gamma q2] wcont2 + 2 q2(2 Ee \Gamma q0) wcont3 ] \Theta
+
+`(M 2B \Gamma 2MBq0 + q2 \Gamma M 2cont)g: (7.13)
+
+67
+
+where \Phi ; \Phi i's are volumes in the phase space in corresponding variables available to the particles in the final state, and the sum runs over all resonances. Note that the phase spaces available to heavier particles in the final state are smaller then those available to the lighter ones, therefore \Phi i+1 ? \Phi i; i = 1; 3; 5.
+
+Let us examine the resonance contributions to the total width. First let us denote:
+
+f i = E iM
+
+B [2q
+
+2wi1 + [4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2] wi2 + 2 q2(2 Ee \Gamma MB + Ei) wi3]; (7.14)
+
+where
+
+Ei = M
+
+2B + M 2i \Gamma q2
+
+2MB : For a contribution of a heavy doublet, up to the first order in the heavy doublet mass splitting, we have:
+
+Z
+
+\Phi i dEedq
+
+2f i + Z
+
+\Phi i+1 dEedq
+
+2f i+1
+
+ss Z
+
+\Phi i dEedq
+
+2(f i)0 + Z
+
+\Phi i dEedq
+
+2ffif i + Z
+
+\Phi i+1 dEedq
+
+2(f i+1)0 + Z
+
+\Phi i+1 dEedq
+
+2ffif i+1
+
+ss Z
+
+\Phi i+1 dEedq
+
+2(f i)0 + Z
+
+\Phi i+1 dEedq
+
+2ffif i + Z
+
+\Phi i+1 dEedq
+
+2(f i+1)0 +Z
+
+\Phi i\Gamma \Phi i+1 dEedq
+
+2(f i)0 + Z
+
+\Phi i+1 dEedq
+
+2ffif i+1
+
+ss Z
+
+\Phi i+1 dEedq
+
+2[(f i)0 + (f i+1)0 + (ffif i + ffif i+1)] + Z
+
+\Phi i\Gamma \Phi i+1 dEedq
+
+2(f i)0; (7.15)
+
+where (f i)0 are taken in the leading order (heavy quark symmetry limit) and ffif i are correction to them. From the last equation it follows that there are regions of the decay phase space where only one resonance of a doublet is present. Therefore unlike heavy quark symmetry case, now we need to know not only leading order structure functions describing resonance doublets, but also the leading order contributions of individual resonances. These contributions could be expressed through the universal Isgur-Wise form factors [29],[30], which is done in Appendix C.
+
+In the three doublets model, all the integrands in the last line of Eq. (7.15) are known. To find (f i)0 + (f i+1)0 we can use solutions (6.35) of the model without corrections,
+
+68
+
+and to find (ffif i + ffif i+1) we can use (7.9):
+
+ffif i + ffif i+1 = E iM
+
+B [2q
+
+2wi1 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) wi2 + 2 q2(2 Ee \Gamma MB + Ei) wi3] \Gamma
+
+f E iM
+
+B [2q
+
+2wi1 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) wi2 + 2 q2(2 Ee \Gamma MB + Ei) wi3]g0 +
+
+E i+1
+
+MB [2q
+
+2wi+11 + (4 Ee(MB \Gamma Ei+1 \Gamma Ee) \Gamma q2) wi+12 + 2 q2(2 Ee \Gamma MB + Ei+1) wi+13 ] \Gamma
+
+f E i+1M
+
+B [2q
+
+2wi+11 + (4 Ee(MB \Gamma Ei+1 \Gamma Ee) \Gamma q2) wi+12 + 2 q2(2 Ee \Gamma MB + Ei+1) wi+13 ]g0
+
+= E iM
+
+B [2q
+
+2ffiwi1 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) ffiwi2 + 2 q2(2 Ee \Gamma MB + Ei) ffiwi3] +
+
+E i+1
+
+MB [2q
+
+2ffiwi+11 + (4 Ee(MB \Gamma Ei+1 \Gamma Ee) \Gamma q2) ffiwi+12 + 2 q2(2 Ee \Gamma MB + Ei+1) ffiwi+13 ]
+
+ss E iM
+
+B [2q
+
+2(ffiwi1 + ffiwi+11 ) + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) (ffiwi2 + ffiwi+12 ) +
+
+2 q2(2 Ee \Gamma MB + Ei)( ffiwi3 + ffiwi+13 )] = E iM
+
+B [2q
+
+2ffiW i1 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) ffiW i2 + 2 q2(2 Ee \Gamma MB + Ei) ffiW i3]: (7.16)
+
+Finally, we get for the total width:
+
+\Gamma = jVcbj2 G
+
+2F
+
+32 ss4 f Xi=1;3;5 2ss Z\Phi i+1 dEedq
+
+2f4(2Ee MB \Gamma q2) 1
+
+MB (MB \Gamma Ei \Gamma Ee) w
+
+i
+
++ E iM
+
+B [2q
+
+2ffiW i1 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) ffiW i2 + 2 q2(2 Ee \Gamma MB + Ei) ffiW i3]g
+
++2ss X
+
+i=1;3;5 Z\Phi i\Gamma \Phi i+1
+
+dEedq2[2q2(wi1)0 + (4 Ee(MB \Gamma Ei \Gamma Ee) \Gamma q2) (wi2)0
+
++2 q2(2 Ee \Gamma MB + Ei)( wi3)0] EiM
+
+B
+
++ Z
+
+\Phi dEedq
+
+2dq02ss[2q2wcont1 + (4 Ee(q0 \Gamma Ee) \Gamma q2) wcont2 + 2 q2(2 Ee \Gamma q0) wcont3 ]
+
+\Theta `(M 2B \Gamma 2MBq0 + q2 \Gamma M 2cont)g: In the last equation the first term is the leading order contribution, it contains functions wi defined in Eq. (5.27)) which are found by solving leading order sum rules equations (6.35), second and third terms are the nonperturbative corrections and the fourth is perturbative corrections to the total width. The functions (wij)0 are read off from the equations (C.2), (C.11), (C.20), q0 = (M 2B + M 2X \Gamma q2)=2MB, where MX is the mass of the corresponding particle. Numerical analysis shows however, that contributions of the phase space regions \Phi i \Gamma \Phi i+1 are negligibly small.
+
+69
+
+The energy distribution is the integrand of the integral over Ee, and the double distribution in Ee and q2 is given by the integrand of the integral over dEedq2. For each resonance the variables change in the following limits:
+
+0 ! q2 ! 2Ee(M
+
+2B \Gamma 2MBEe \Gamma M 2i )
+
+MB \Gamma 2Ee ;
+
+0 ! Ee ! MB2 (1 \Gamma M
+
+2i
+
+M 2B ): (7.17) As for the contribution of continuum states, we recall that in our model it was chosen to be the same as radiative gluon emission correction to the free quark decay starting at some invariant hadronic mass Mmin. These corrections have been calculated many times before (see for example [17],[32],[20]-[22], [26],[27]), and we are not going to reproduce them here. The range of the variables for the continuum is as follows:
+
+Ee + q
+
+2
+
+4Ee ! q0 !
+
+m2b + q2 \Gamma M 2min
+
+2mb
+
+0 ! q2 ! 2Ee(m
+
+2b \Gamma 2mbEe \Gamma M 2min)
+
+mb \Gamma 2Ee ; (7.18)
+
+0 ! Ee ! mb2 (1 \Gamma M
+
+2min
+
+m2b ): (7.19) Use of the quark variables is dictated by the nature of the calculation in which one considers decay of a quark into a quark and gluon. However use of hadronic variables (which is effectively use of MB instead of mb) is also permissible within our accuracy since we did not take into account corrections of the order ffs\Lambda 2QCD=m2b.
+
+This effectively concludes formulation of our model.
+
+7.4 Numerical analysis. Importance of the nonperturbative
+
+corrections to the sum rules.
+
+In this section we are going to investigate how important the nonperturbative corrections to the sum rules are from the point view of affecting predictions of our model. This section is mostly illustrative. More work is needed in order to make reliable connections between the proposed model and real experiments.
+
+Let us make some assumptions about different quantities that enter the model. First about hadron masses. For them we take the following values [45]. For B-meson mass
+
+70
+
+0 0.2 0.4 0.6 0.8
+
+1
+
+0 0.05 0.1 0.15 0.2~q 2=M 2
+
+B
+
+w1w2 w3
+
+Figure 7.1: Hadronic structure functions wi(q2), i = 1; 2; 3, for the model without nonperturbative corrections to the sum rules.
+
+0 0.2 0.4 0.6 0.8
+
+1
+
+0 0.05 0.1 0.15 0.2~q 2=M 2
+
+B
+
+w11 + w21w3
+
+1 + w41w5 1 + w61
+
+Figure 7.2: Hadronic structure functions (wi1+wi+11 )(q2) for the model including nonperturbative corrections to the sum rules. These should be compared directly with the functions on Fig. 7.1
+
+71
+
+0 0.02 0.04 0.06 0.08
+
+0.1 0.12 0.14
+
+0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18y = q2=M 2
+
+B
+
+(f 1)0(f 2)
+
+0(f 3) 0
+
+Figure 7.3: Functions f i(Ee; q2)0 of the resonance doublets for the model without nonperturbative corrections to the sum rules for x = 2Ee=MB = 0:2 .
+
+-0.05
+
+0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18y = q2=M 2
+
+B
+
+f 1 + f 2f 3 + f 4 f 5 + f 6
+
+Figure 7.4: Functions (f i+f i+1)(Ee; q2) for the model including nonperturbative corrections to the sum rules for x = 2Ee=MB = 0:2 .
+
+72
+
+MB = 5:2GeV. For the first resonance doublet: MD = 1:87GeV, MD\Lambda = 2:01GeV; for the second: MD\Lambda 2 = 2:42GeV, MD1 = 2:46GeV. About the third resonance doublet experimental information is not available and for testing of our model we take the following values: MD\Lambda \Lambda = 3:8GeV, MD\Lambda \Lambda 1 = 3:83GeV. For the matrix elements of the operators in the OPE we can use the following information. First, as we mentioned earlier, _2G = :36GeV2 is known from the hyperfine mass splitting between B; B\Lambda . For _2ss there is no direct measurements, but we can use the inequality _2ss * _2G to get an idea about its possible range. For our estimates we take _2ss = :4GeV2, which is consistent with the other people's estimates (see, for example [23]).
+
+We did calculations of our model both in the heavy quark symmetry limit (without nonperturbative corrections to the sum rules), and without heavy quark symmetry (nonperturbative corrections to the sum rules taken into account). We calculated hadronic structure functions, which in fact determine the corresponding hadronic formfactors, functions f i 's (7.14), which represent contributions of different resonances to the differential distributions, and electron energy distributions.
+
+The hadronic structure functions wi(q2) and wi1(q2) are plotted on Fig. 7.1 and Fig. 7.2 correspondingly. One can see that the functions are significantly different, which signals that nonperturbative corrections to the sumrules are relatively large and important. Same conclusion follows from the analysis of plots of functions f i 's on Fig. 7.3 and Fig. 7.4. The most different between symmetric and non-symmetric cases is behavior of contributions of the first and second resonance doublets, while the contributions of the third one in both cases is relatively insignificant. This could be an indication of the fact that two doublets approximation of Section 6.2 is sufficient (with nonperturbative and perturbative corrections to the sum rules taken into account).
+
+On Fig. 7.5three normalized electron energy distributions are plotted. Two of them - for the cases of the model with and without nonperturbative corrections to the sum rules taken into account. The third curve shows the electron energy distribution for the free quark decay. We plotted all of them on the same graph in order to demonstrate differences in the electron spectrums. We see that the model predicted spectrum is different from the free quark one. Let us also mention, that despite the fact that the electron spectrums for the
+
+73
+
+0 0.5
+
+1 1.5
+
+2 2.5
+
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9x = 2E
+
+e=MB
+
+corrections included
+
+r
+
+rrrrrr
+
+rrr
+
+rr
+
+rr
+
+rr
+
+rr
+
+rr
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+rr
+
+rr
+
+rr
+
+rrr
+
+rrrrr
+
+rr
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+r
+
+HQ symmetry
+
+free quark
+
+Figure 7.5: Normalized electron spectrum plotted for the model with and without nonperturbative corrections. For comparison, electron spectrum for a free quark decay is also show.
+
+models with and without the corrections seem close, the determination of phenomenological parameters from experimental data based on the model with and without the corrections of course will be different.
+
+7.5 Summary and outlook The proposed model of the semileptonic decays B ! Xcl* is based on some general heavy quark spectroscopy arguments and the operator product expansion sum rules. In this sense the model is so to speak "model-independent", for it does not utilize any quark-antiquark potential nor it introduces any phenomenological parameters like "Fermi momentum" which are not coming from the QCD based analysis. All the parameters of the model have a clear meaning in QCD, like hadronic matrix elements _2ss, _2G, _\Lambda , etc .
+
+There are still some unanswered questions about the model, however. One of them is about the fourth resonance doublet, which in potential quark models is degenerate with the third one. As it was shown, this is not a problem for the heavy quark symmetry case, but the issue has to be addressed in the full model as well. One of the possible solutions
+
+74
+
+could be considering more sum rules, not just for the V \Gamma A current but also for V and A currents separately. This would provide more sum rules and could describe the structure of the final state in more details. Another approach could be not using the notion of the third and fourth resonances at all, but instead use the sum rules to restrain part of the continuum spectrum in the domain where local duality does not work (one can think about it as of some broad resonance merging with the continuum spectrum).
+
+The other direction of improving the model and making it possibly more accurate, is to use Borel transformed sum rules. This would effectively suppress contributions of the higher states along with continuum states, and at the same time better describe the contributions of the lowest resonances.
+
+Numerical analysis of the effects of perturbative corrections also needs to be done. The main question about the model has to do with the accuracy of the operator product exopansion itself. We have seen that the nonerturbative corrections of order 1=m2Q to the OPE sum rules strongly affect predictions for the structure functions of the resonances. What would happen if the next order corrections were taken into account? How this would affect determination of the value of _2ss from experiment? The 1=m3Q corrections have been considered in recent works [12],[25], but there is still no conclusive numerical estimates for hasronic invariant functions, which could be used in the considered model.
+
+75
+
+Chapter 8 Conclusions. In the first part of the work a model independent operator product expansion approach was used to calculate differential distributions in semileptonic decays of heavy flavors in QCD. Double distributions in lepton energy and invariant mass of the lepton pair for the massless lepton (electron) in the final state and the energy spectrum for massive o/ -lepton have been calculated.
+
+Based on expressions for hadronic invariant functions, the full set of sum rules for heavy flavor transitions up to order 1=m2Q was calculated along with perturbative corrections to them up to order ffs\Lambda QCD=mQ.
+
+A new model of semileptonic decays of B-mesons was proposed, which is based on the model-independent OPE sum rules approach. It was shown that the OPE sum rules provide sufficient number of restrictions to fully fix contributions of different resonances to the hadronic tensor. In fact, in this approach it is possible to calculate different hadronic structure functions for the transitions induced by the weak currents. Important here is that the proposed model is so to speak "model independent". It does not use any potential quark model calculations and is entirely based on very general symmetry and spectroscopic considerations.
+
+The proposed model could have several uses. On one hand it can realistically describe the end point (maximal lepton energy) part of the lepton spectrum as well as double differential distributions in lepton energy and combined invariant mass of the lepton pair. On the other hand, it provides relations between the lepton spectrum and important phe76
+
+nomenological parameters describing strong interactions in heavy mesons, which are given by the matrix elements of operators in the operator product expansion. This should enable experimentalists to extract the OPE matrix elements from the experimentally measured lepton spectrum.
+
+77 Appendix A The phase space of the decay In this Appendix we briefly outline the derivation of the Lorentz Invariant Phase Space (LIPS) for the case of the inclusive semileptonic decay Hb ! o/ _*X. Let us introduce the invariant kinematical variables in the following way. Let P be the 4-momentum of the decaying particle, so that M 2Hb = P 2; q = po/ + p_* is the 4-momentum of the lepton pair, po/ and p_* are the momentums of the emitted charged lepton and neutrino correspondingly. We introduce m2X = p2X; - the invariant mass squared of the born hadronic state and m2X _* = p2X _*; - the combined mass of the hadrons and _*. We have the following relations: pX = P \Gamma q and pX _* = P \Gamma po/ . The introduced invariant variables are related to the ones used in [13] in the following way:
+
+m2X = M 2Hb + q2 \Gamma 2 MHb q0; (A.1) m2X _* = M 2Hb + m2o/ \Gamma 2 MHb Eo/ : (A.2) The inclusive decay rate in the normalization of [13] is given by the following expression:
+
+\Gamma = 1128ss6 M
+
+Hb Z
+
+m2X max m2X min dm
+
+2X jM(m2X _*; m2X; q2)j2 d\Phi (P; pX; po/; p_*); (A.3)
+
+where jM(m2X _*; m2X; q2)j2 is the matrix element which describes the transition into the hadronic states with mass m2X , it is given by the expressions (2)-(8) in [13]. The lower boundary of m2X is given by the mass squared of the lightest final hadronic state possible in the decay (D-meson mass for b ! c and pion mass for b ! u transitions ), while the
+
+78
+
+upper boundary of m2X is (MHb \Gamma mo/ )2. The d\Phi (P; pX; po/ ; p_*) is the three particle LIPS for a particle with the 4-momentum P going into three particles with 4-momentums pX; po/ and p_* . It is given by the formulae:
+
+d\Phi (P; pX; po/ ; p_*) = (2 ss)4 ffi4(P \Gamma pX \Gamma po/ \Gamma p_* ) `(pX) `(po/ ) `(p_*) d
+
+4pX
+
+(2 ss)3
+
+d4p_* (2 ss)3
+
+d4po/ (2 ss)3 ; (A.4)
+
+where `(a) denotes `(a0), and a0 is the zero component of the 4-vector a. For the threeparticle phase space one can write:
+
+d\Phi (P; pX; po/; p_*) = Z dm
+
+2X _*
+
+2 ss d\Phi (P; pX _*; po/) d\Phi (pX _*; pX; p_*) ffi(m
+
+2X _* \Gamma p2X _*) (A.5)
+
+where d\Phi (a; b; c) is a two particle LIPS for a particle with 4-momentum a going into particles with 4-momentums b and c. The equation (A.5 gives the decomposition of a 3-particle LIPS into 2-particle LIPSes.
+
+In order to introduce a new variable q2 into the phase space integral one can multiply the equation (A.5) by "1": Z
+
+dq2 ffi(q2 \Gamma (p_* + po/ )2) `(q0) = 1: (A.6) Performing the integrations over all variables except for m2X; q2 and m2X _*, which amounts to integrating the delta functions in LIPSes along with determining the conditions for the delta functions to be non-zeros, we arrive to the following formulae:
+
+\Gamma = 1512 ss4 M 3
+
+Hb Z
+
+(MHb\Gamma mo/ )2 M2D dm
+
+2X _* Z m
+
+2X_*
+
+MD2 dm
+
+2X Z q
+
+2max(m2X;m2X_*)
+
+q2min(m2X;m2X_*) dq
+
+2 jM(m2X _*; m2X; q2)j2;
+
+(A.7) where
+
+q2min(m2X; m2X _*) = 12 [ M 2Hb + m2X \Gamma m2X _* + m2o/ \Gamma M
+
+2H
+
+b \Gamma m
+
+2o/
+
+m2X _* m
+
+2X (A.8)
+
+\Gamma q* (M
+
+2H
+
+b; m2o/; m
+
+2X _*) (m2X _* \Gamma m2X )
+
+m2X _* ]; (A.9)
+
+q2max(m2X; m2X _*) = 12[ M 2Hb + m2X \Gamma m2X _* + m2o/ \Gamma M
+
+2H
+
+b \Gamma m
+
+2o/
+
+m2X _* m
+
+2X (A.10)
+
++ q*(M
+
+2H
+
+b; m2o/; m
+
+2X _*) (m2X _* \Gamma m2X )
+
+m2X _* ]; (A.11)
+
+79
+
+and
+
+*(a; b; c) = a2 + b2 + c2 \Gamma 2 a b \Gamma 2 a c \Gamma 2 b c: (A.12)
+
+The physical meaning of the function *(a; b; c) lies in its relation to the square of the spatial momentum p \Lambda 2 of particles born in a two - body decay in the center of mass reference frame, for example:
+
+p \Lambda 2X _* = p \Lambda 2o/ = *(M
+
+2H
+
+b; m
+
+2o/; m2X _*)
+
+4 M 2Hb : (A.13) The fully differential distribution (3.1) in the invariant variables looks as follows:
+
+d\Gamma dm2X dm2X _* dq2 =
+
+1 512 ss4 M 3Hb jM(m
+
+2X; m2X _*; dq2)j2: (A.14)
+
+80
+
+Appendix B Hadronic invariant functions Here we present the results of calculations of different hadronic invariant functions hi, introduced by eqs.(2.15), (2.42). The structure functions wi are simply related to hi by eqs.(2.16) and (2.52). We use the following notation: q0 = q \Delta v, 2 = q20 \Gamma q2 and z = m2Q \Gamma 2 mQ q0 + q2 \Gamma m2q.
+
+For the Vector\Theta Vector functions we have:
+
+hV V1 = \Gamma [ ( mQ \Gamma mq \Gamma q0 ) \Gamma (_2G \Gamma _2ss ) 12m
+
+Q (
+
+1 3 +
+
+mq mQ ) ]
+
+1 z \Gamma 1 mQ [
+
+1 3 _
+
+2G ( (4 mQ \Gamma 3q0)( mQ \Gamma mq \Gamma q0) + 2 q2 ) +
+
+_2ss (q0 (mQ \Gamma mq \Gamma q0) \Gamma 23 q2 ) ] 1z2 \Gamma 43 _2ss q2 (mQ \Gamma mq \Gamma q0) 1z3 ; (B.1)
+
+hV V2 = \Gamma [ 2 mQ \Gamma 53m
+
+Q (_
+
+2G \Gamma _2ss) ] 1
+
+z \Gamma
+
+2 3 [ 2_
+
+2G (mQ \Gamma mq) \Gamma 5 _2G q0 + 7 _2ss q0] 1
+
+z2 \Gamma
+
+8 3 mQ _
+
+2ss q2 1
+
+z3 ; (B.2)
+
+hV V3 = 0 ; (B.3)
+
+hV V4 = \Gamma 43m
+
+Q (_
+
+2ss \Gamma _2G) 1
+
+z2 ; (B.4)
+
+hV V5 = 1z \Gamma 13 [ 5 q0m
+
+Q (_
+
+2G \Gamma _2ss ) \Gamma 4 _2ss) ] 1
+
+z2 +
+
+4 3 _
+
+2ss q2 1
+
+z3 : (B.5)
+
+To get the functions hAAi for Axial\Theta Axial tensor from hV Vi one should substitute mq by (\Gamma mq) in eqs.(B.1 - B.5).
+
+81
+
+For the Axial\Theta Vector tensor only one invariant structure survives:
+
+hV A3 = 1z + [ 2 _2G + 53 (_2ss \Gamma _2G) q0m
+
+Q ]
+
+1 z2 +
+
+4 3 _
+
+2ss 2 1
+
+z3 : (B.6)
+
+Summing up we get the result for the full hadronic tensor h_* .
+
+h1 = \Gamma [ 2 (mQ \Gamma q0) \Gamma 13m
+
+Q (_
+
+2G \Gamma _2ss) ] 1
+
+z \Gamma
+
+[ 23m
+
+Q _
+
+2G (4 m2Q + 2 q2 \Gamma 7 mQ q0 + 3 q20) + _2ss
+
+2mQ (4 q0 (mQ \Gamma q0) \Gamma
+
+8 3 q
+
+2 ) ] 1
+
+z2 \Gamma
+
+8 3 _
+
+2ss q2 (mQ \Gamma q0) 1
+
+z3 ; (B.7)
+
+h2 = \Gamma [ 4 mQ + 103m
+
+Q (_
+
+2ss \Gamma _2G) ] 1
+
+z \Gamma [
+
+28
+
+3 _
+
+2ss q0 + _2G ( 8
+
+3 mQ \Gamma
+
+20
+
+3 q0) ]
+
+1 z2 \Gamma 16
+
+3 _
+
+2ss mQ q2 1
+
+z3 ; (B.8)
+
+h3 = \Gamma 2 1z \Gamma [ 4 _2G + 103 (_2ss \Gamma _2G ) q0m
+
+Q ]
+
+1 z2 \Gamma
+
+8 3 _
+
+2ss q2 1
+
+z3 ; (B.9)
+
+h4 = \Gamma 83m
+
+Q (_
+
+2ss \Gamma _2G) 1
+
+z2 ; (B.10)
+
+h5 = 2 1z \Gamma 23 [ 5 (_2G \Gamma _2ss) q0m
+
+Q \Gamma 4 _
+
+2ss) ] 1
+
+z2 +
+
+8 3 _
+
+2ss q2 1
+
+z3 : (B.11)
+
+82
+
+Appendix C Structure functions of the resonances in the heavy quark limit
+
+In this appendix we are going to write down expressions for the contributions of separate resonances to the structure functions in the leading order in the heavy quark mass. We need these expressions for the formulation of the full model of the decays which takes into account independence of different structure functions and mass differences between particles in the same heavy quark doublets. Due to these mass differences there are regions in the phase space of the decay, where only one (the heavier) resonance of the doublet contributes.
+
+These formulas could be obtained using the results of the original works of Isgur and Wise [29],[30].
+
+Now we need to write down parts of the hadronic tensor coming from each resonance in the heavy quark limit. For our purposes we only need to know the structure functions for the V \Gamma A currents.
+
+W_* = X
+
+X
+
+(2ss)4 ffi4(pB \Gamma q \Gamma pX ) 12M
+
+B hBjjy_(0)jPX; *ihPX; *jj*(0)jBi
+
+= 2ss X
+
+i
+
+ffi(MB \Gamma q0 \Gamma qM 2i + q2) 12M
+
+B X* fhBjV y_ (0)ji; q; *ihi; q; *jV*(0)jBi
+
+\Gamma hBjV y_ (0)ji; q; *ihi; q; *jA*(0)jBi \Gamma hBjAy_(0)ji; q; *ihi; q; *jV*(0)jBi
+
++hBjAy_(0)ji; q; *ihi; q; *jA*(0)jBig = 2ss X
+
+i
+
+w_*(i)ffi(MB \Gamma q0 \Gamma qM 2i + q2);
+
+83
+
+where i runs over all resonances of our model (not just the resonance doublets), * runs over all polarizations of the corresponding particle and
+
+w_*(i) = 12M
+
+B X* fhBjV y_ (0)ji; q; *ihi; q; *jV*(0)jBi \Gamma hBjV y_ (0)ji; q; *ihi; q; *jA*(0)jBi
+
+\Gamma hBjAy_(0)ji; q; *ihi; q; *jV*(0)jBi + hBjAy_(0)ji; q; *ihi; q; *jA*(0)jBig:
+
+Now we define the structure functions of the resonances in the following way: w_*(i) = \Gamma wi1g_* + wi2 v_ v* \Gamma i wi3 ffl_*fffi vffqfi + wi4 q_ q* + wi5 (q* v_ + q_ v* ); so that
+
+wj(q0; q2) = 2ss X
+
+i
+
+wij(q2) ffi(MB \Gamma qMi + q2 \Gamma q0):
+
+To calculate the hadronic tensor we will also need formulas for sums over spins of the vector and tensor particles in the final states:X
+
+*
+
+ffl_(v0; *)ffl*(v0; *) = \Gamma g_* + v0_v0* ;X
+
+*
+
+ffl_* (v0; *)fflaeoe(v0; *) = 12(P_aeP*oe + P_oeP*ae) \Gamma 13 P_* Paeoe;
+
+where the projection operator P_* = g_* \Gamma v0_v0* .
+
+Now we can write down the contribution of each resonance to the hadronic tensor in the heavy quark limit (let us remind the spectroscopic notation: n2S+1LJ , here n is the radial quantum number, S is the combined spin of the two quarks inside the meson, L is the orbital momentum of the light quark and J is the spin of the meson): for pseudoscalar D ! j11S0i and vector D\Lambda ! j13S1i:
+
+hDjV_jBi = p2MBj1(w)(v_ + v0_); hDjA_jBi = 0; hD\Lambda jA_jBi = p2MBj1(w)f(w + 1)ffl_ \Gamma ffl \Delta vv0_g;
+
+hD\Lambda jV_jBi = ip2MBj1(w)ffl_ffifffifflffivffv0fi;
+
+w_*(D) = j21(w)fv_v* + (v_v0* + v0_v* ) + v0_v0*g;
+
+= j21(w) 1M 2
+
+X f(M
+
+B + MX )2v_v* \Gamma (MB + MX )(q*v_ + q_v*) + q_q* g;
+
+84
+
+w_*(D\Lambda ) = j21(w)f\Gamma 2w(1 + w)g_* \Gamma v_v* \Gamma 2i(1 + w)ffl_*afivffv0fi
+
++(1 + 2w)(v_v0* + v0_v*) \Gamma v0_v0* g: = j21(w) 1M 2
+
+X f\Gamma 2(M
+
+B \Gamma q0)(MB + MX \Gamma q0)g_*
+
++(3M 2B + 2MBMX \Gamma MX 2 \Gamma 4MBq0)v_v* + 2i(MB + MX \Gamma q0)ffl_ffifffivffqfi \Gamma (MB + MX \Gamma 2q0)(q*v_ + q_v* ) \Gamma q_q* g; (C.1)
+
+w_* (D) + w_* (D\Lambda ) = 2(w + 1)j21(w)f\Gamma wg_* \Gamma iffl_*fffivffv0fi + (v*v0_ + v_v0*)g
+
+= 2(MB + MX \Gamma q0)M 2
+
+X j
+
+21(w)f\Gamma (MB \Gamma q0)g_*
+
++2MBv_v* + iffl_*fffivffqfi \Gamma (q*v_ + q_v*)g; (C.2)
+
+w1 = 2(w + 1)j21(w) = 2(MB + MX \Gamma q0)M
+
+X j
+
+21(w); (C.3)
+
+w11 = 0; (C.4) w12 = j21(w) (MB + MX )
+
+2
+
+M 2X ; (C.5) w13 = 0; (C.6)
+
+w21 = 2j21(w) (MB \Gamma q0)(MB + MX \Gamma q0)M 2
+
+X ; (C.7)
+
+w22 = j21(w) (3M
+
+2B + 2MBMX \Gamma M 2X \Gamma 4MBq0)
+
+M 2X ; (C.8)
+
+w23 = 2j21(w) (MB + MX \Gamma q0)M 2
+
+X
+
+; (C.9)
+
+for tensor D\Lambda 2 ! j13P2i and axial-vector D1 ! q 32j11P1i + q12 j13P1i:
+
+hD\Lambda 2jV_jBi = ip2MBp3j2(w)ffl_fffiffifflff* v*vfiv0ffi; hD\Lambda 2jA_jBi = p2MBp3j2(w)f(w + 1)ffl_ffvff \Gamma v0_fflfffivffvfig;
+
+hD1jV_jBi = p2MB 1p2 j2(w)f\Gamma (w2 \Gamma 1)ffl_ + (\Gamma 3v_ + (w \Gamma 2)v0_)ffl \Delta vg;
+
+hD1jA_jBi = \Gamma p2MB ip2j2(w)(w + 1)ffl_fffiffifflffvfiv0ffi;
+
+w_*(D\Lambda 2) = j22(w)f\Gamma w(w \Gamma 1)(1 + w)2g_*
+
++(1 + w)(w \Gamma 2)v_v* \Gamma i(w \Gamma 1)(1 + w)2ffl_*fffi vffv0fi
+
+85
+
++(1 + w)(\Gamma 2 + 2w + w2)(v*v0_ + v0*v_) + (1 + w)(w \Gamma 2)v0_v0* g = j22(w) (MB + MX \Gamma q0)M 4
+
+X f\Gamma (M
+
+B \Gamma MX \Gamma q0)(MB + MX \Gamma q0)(MB \Gamma q0)g_*
+
++(3M 3B + 2M 2BMX \Gamma 3MBM 2X \Gamma 2M 3X \Gamma 5M 2Bq0 \Gamma 4MBMX q0 \Gamma M 2X q0 + 2MBq20)v_v* +i(MB + MX \Gamma q0)(MB \Gamma MX \Gamma q0)ffl_*fffivffqfi \Gamma (2M 2B \Gamma 2M 2X \Gamma 3MBq0 \Gamma 2MXq0 + q20)(q*v_ + q_v* ) +(MB \Gamma 2MX \Gamma q0)q_q* g;
+
+w_*(D1) = j22(w)f\Gamma 3w(w \Gamma 1)(1 + w)2g_*
+
+\Gamma (1 + w)(w \Gamma 2)v_v* \Gamma 3i(w \Gamma 1)(1 + w)2ffl_*fffivffv0fi +(1 + w)(\Gamma 2 \Gamma 2w + 3w2)(v*v0_ + v0*v_) \Gamma (w \Gamma 2)(1 + w)v0_v0* g = j22(w) (MB + MX \Gamma q0)M 4
+
+X f\Gamma 3(M
+
+B \Gamma MX \Gamma q0)(MB + MX \Gamma q0)(MB \Gamma q0)g_*
+
++(5M 3B \Gamma 2M 2BMX \Gamma 5MBM 2X + 2M 3X \Gamma 11M 2Bq0 + 4MBMX q0 + M 2X q0 + 6MBq20)v_v* +3i(MB + MX \Gamma q0)(MB \Gamma MX \Gamma q0)ffl_*fffivffqfi \Gamma (2M 2B \Gamma 2M 2X \Gamma 5MBq0 + 2MXq0 + 3q20)(q* v_ + q_v* ) \Gamma (MB \Gamma 2MX \Gamma q0)q_q* g; (C.10)
+
+w_*(D\Lambda 2) + w_* (D1) = 4(w \Gamma 1)(w + 1)2j22(w)f\Gamma wg_* \Gamma iffl_*fffivffv0fi + (v*v0_ + v_v0* )g
+
+= 4(MB + MX \Gamma q0)
+
+2(MB \Gamma MX \Gamma q0)
+
+M 4X j
+
+22(w)f\Gamma (MB \Gamma q0)g_*
+
++2MBv_v* + iffl_*fffivffqfi \Gamma (q* v_ + q_v* )g; (C.11)
+
+w2 = 4(w \Gamma 1)(w + 1)2j22(w) = 4(MB + MX \Gamma q0)
+
+2(MB \Gamma MX \Gamma q0)
+
+M 3X j
+
+22(w); (C.12)
+
+w31 = j22(w) (MB + MX \Gamma q0)
+
+2
+
+M 4X (MB \Gamma MX \Gamma q0)(MB \Gamma q0); (C.13)
+
+w32 = j22(w) (MB + MX \Gamma q0)M 4
+
+X (3M
+
+3B + 2M 2BMX \Gamma 3MBM 2X \Gamma 2M 3X \Gamma
+
+5M 2Bq0 \Gamma 4MBMXq0 \Gamma M 2X q0 + 2MBq20); (C.14)
+
+86
+
+w33 = j22(w) (MB + MX \Gamma q0)
+
+2
+
+M 4X (MB \Gamma MX \Gamma q0); (C.15)
+
+w41 = 3j22(w) (MB + MX \Gamma q0)
+
+2
+
+M 4X (MB \Gamma MX \Gamma q0)(MB \Gamma q0); (C.16)
+
+w42 = j22(w) (MB + MX \Gamma q0)M 4
+
+X (5M
+
+3B \Gamma 2M 2BMX \Gamma 5MBM 2X + 2M 3X \Gamma 11M 2Bq0 +
+
+4MBMX q0 + M 2X q0 + 6MBq20); (C.17) w43 = 3j22(w) (MB + MX \Gamma q0)
+
+2
+
+M 4X (MB \Gamma MX \Gamma q0): (C.18)
+
+for scalar D\Lambda \Lambda ! j13P0i and axial-vector D\Lambda \Lambda 1 ! q 32j11P1i \Gamma q12 j13P1i:
+
+hD\Lambda \Lambda jV_jBi = 0; hD\Lambda \Lambda jA_jBi = \Gamma 2p2MBj3(w)(v_ \Gamma v0_);
+
+hD\Lambda \Lambda 1 jV_jBi = 2p2MBj3(w)f(w \Gamma 1)ffl_ \Gamma ffl \Delta vv0_g; hD\Lambda \Lambda 1 jA_jBi = 2ip2MBj3(w)ffl_ffifffifflffivfiv0ffi;
+
+w_* (D\Lambda \Lambda ) = 4j23(w)f\Gamma (v*v0_ + v0*v_) + v_v* + v0_v0*g
+
+= 4j23(w) 1M 2
+
+X f(M
+
+B \Gamma MX)2v_v* \Gamma (MB \Gamma MX )(q*v_ + q_v* ) + q_q* g;
+
+w_* (D\Lambda \Lambda 1 ) = 4j23(w)f\Gamma 2w(w \Gamma 1)g_* \Gamma v_v* \Gamma 2i(w \Gamma 1)ffl_*fffivffv0fi
+
++(2w \Gamma 1)(v*v0_ + v0* v_) \Gamma v0_v0* g = 4j23(w) 1M 2
+
+X f\Gamma
+
+2(MB \Gamma MX \Gamma q0)(MB \Gamma q0)g_*
+
++(\Gamma (MB + MX )2 + 4MB(MB \Gamma q0))v_v* +2i(MB \Gamma MX \Gamma q0)ffl_*fffi vffqfi \Gamma (MB \Gamma MX \Gamma 2q0)(q*v_ + q_v* ) \Gamma q_q* g; (C.19)
+
+w_*(D\Lambda \Lambda ) + w_* (D\Lambda \Lambda 1 ) = 8(w \Gamma 1)j23(w)f\Gamma wg_* \Gamma iffl_*fffivffv0fi + (v*v0_ + v_v0* )g
+
+= 8(MB \Gamma MX \Gamma q0)M 2
+
+X j
+
+23(w)f\Gamma (MB \Gamma q0)g_*
+
++2MBv_v* + iffl_*fffivffqfi \Gamma (q* v_ + q_v* )g; (C.20)
+
+w3 = 8(w \Gamma 1)j23(w) = 8(MB \Gamma MX \Gamma q0)M
+
+X j
+
+23(w);
+
+w51 = 0; (C.21)
+
+87
+
+w52 = 4j23(w) (MB \Gamma MX )
+
+2
+
+M 2X ; (C.22) w53 = 0; (C.23)
+
+w61 = 8j23(w) (MB \Gamma MX \Gamma q0)(MB \Gamma q0)M 2
+
+X ; (C.24)
+
+w62 = 4j23(w) \Gamma (MB + MX )
+
+2 + 4MB(MB \Gamma q0)
+
+M 2X ; (C.25)
+
+w63 = 8j23(w) (MB \Gamma MX \Gamma q0)M 2
+
+X : (C.26)
+
+For the fourth doublet which is (pseudoscalar,vector), like the first one, the formulas are exactly the same as corresponding expressions for the first one, with the evident substitution j1 ! j4.
+
+In the above equations j1(w), j2(w) and j3(w) are the universal Isur-Wise formfactors for the three resonance doublets respectively; MX are the masses of the corresponding resonance doublets; v; v0 are velocities of the initial and final heavy mesons (v0 = (MB \Gamma q0)=MX), w = v \Delta v0 = EX=MX = (MB \Gamma q0)=MX, (note that w * 1); ffl* , fflff* are the polarization vectors and tensors for the corresponding (pseudo)vector and tensor mesons in the final state.
+
+Functions w1; w2; w3 are known from the solutions (6.35) to the sum rules equations (6.6-6.8), which in turn determines the form factors j1; j2; j3. The structure functions for each of the resonances could be read off from the above equations.
+
+88
+
+Bibliography [1] The ALEPH Collaboration, Phys. Lett. B298, 479 (1993). [2] G. Altarelli, N. Cabibbo, G. Corb`o, L. Maiani and G. Martinelli, Nucl. Phys. B208,
+
+365 (1982).
+
+[3] P. Ball, V.M. Braun, H.G. Dosch, Phys.Rev. D48, 2110 (1993). [4] P. Ball, V.M. Braun, Phys.Rev. D49, 2472 (1994). [5] I. Bigi, B. Blok, M. Shifman, N. Uraltsev and A. Vainshtein, "A QCD 'Manifesto'
+
+on Inclusive Decays of Beauty and Charm", Talk at DPF Meeting of APS, November 1992, Preprint TPI-MINN-92/67-T. Published in DPF Conf.1992, pp. 610-613.
+
+[6] I. Bigi, N. Uraltsev and A. Vainshtein, Phys. Lett. B293, 430 (1992). [7] I. Bigi, M. Shifman, N. Uraltsev and A. Vainshtein, Phys.Rev.Lett. 71, 496 (1993). [8] I. Bigi, M. Shifman, N. Uraltsev, A. Vainshtein, Int.J.Mod.Phys. A9, 2467 (1994). [9] I.Bigi, A. Grozin, M. Shifman, N. Uraltsev, A. Vainshtein, Phys. Lett. B339, 160
+
+(1994).
+
+[10] I. Bigi, M. Shifman, N. Uraltsev, A. Vainshtein, Phys.Rev. D52, 196 (1995). [11] J. D. Bjorken, Invited Talk at Les Rencontres de la Valle d'Aosta, La Thuille, 1990,
+
+Preprint SLAC-PUB-5278, 1990.
+
+[12] B. Blok, R. Dikeman, M. Shifman, Phys. Rev. D51, 6167 (1995). [13] B.Blok, L. Koyrakh, M. Shifman and A. Vainshtein, Phys. Rev. D49, 3356 (1994).
+
+89
+
+[14] B. Blok and M. Shifman, Nucl. Phys. B389, 534 (1993). [15] B. Blok and M. Shifman, Nucl. Phys. B399, 441; 459 (1993). [16] C. Boyd, B. Grinstein, R. Lebed, Phys.Rev.Lett. 74, 4603 (1995). [17] N. Cabibbo, G. Corb`o and L. Maiani, Nucl. Phys. B155, 93 (1979);
+
+G. Corb`o, Nucl. Phys. B212, 99 (1983). G. Corb`o, Phys. Lett. B116, 298 (1982).
+
+[18] J. Chay, H. Georgi and B. Grinstein, Phys. Lett. B247, 399 (1990). [19] CLEO Collaboration (P. Avery et al.) "Measurement of the form-factors for _B0 !
+
+D\Lambda l_*", CLEO-CONF-94-7, Jul 1994. 27pp. Submitted to Int. Conf. on High Energy Physics, Glasgow, Scotland, Jul 20-27, 1994. Published in ICHEP 1113 (1994).
+
+[20] A. Czarnecki, M. Jezabek, Nucl. Phys. B427, 3 (1984) [21] A. Czarnecki, M. Jezabek, J. K"uhn, Phys. Rev. Lett. 73, 384 (1994). [22] A. Czarnecki, M. Jezabek, J. K"uhn, Phys. Lett. B346, 335 (1995). [23] A. F. Falk, M. Luke, M. J. Savage, "Phenomenology of the 1=mQ Expansion in Inclusive
+
+B and D Meson Decays ", Report-no: CMU-HEP95-20, JHU-TIPAC-95024, UTPT- 95-24, .
+
+[24] E. Eichten and B. Hill, Phys. Lett. B 234, 511 (1990);
+
+H. Georgi, Phys. Lett. B240, 447 (1990).
+
+[25] M. Gremm, A. Kapustin "Order 1=m3b corrections to inclusive semileptonic B decays",
+
+CALT-68-2042, .
+
+[26] Z. Guralnik, M. Schmaltz, "Strong corrections to inclusive B ! Xo/ _*o/ decays", UCSDPTH-94-22, Dec 1994. 30pp. e-Print Archive: .
+
+[27] Q. Hokim and Xuan-Yem Pham, Annals of Physics Vol. 155, No.1 June 1984, pp.202-
+
+227
+
+90
+
+[28] N. Isgur, D. Scora, B. Grinstein, M. Wise, Phys.Rev. D39, 799 (1989). [29] N. Isgur, M. Wise, Phys. Lett. B237, 527 (1990). [30] N. Isgur and M. Wise, Phys. Rev. D43, 819 (1991). [31] R.L.Jaffe and L.Randall, Nucl.Phys. B412, 79 (1994). [32] M. Jezabek, J. K "uhn, Nucl. Phys. B320, 20 (1989). [33] L. Koyrakh Phys. Rev. D49 (1994) 3379. [34] L. Koyrakh, N. Uraltsev, A. Vainshtein, in preparation. [35] H. J. Lipkin, Phys.Lett. B308, 105 (1993). [36] M. Luke, M. Savage, M. B. Wise, Phys.Lett. B343, 329 (1995). [37] T. Mannel and M. Neubert, Phys. Rev. D50, 2037 (1994). [38] A. Manohar and M. Wise, Phys.Rev. D49 1310 (1994). [39] M. Neubert, Phys.Rev. D46, 1076 (1992). [40] M. Neubert, Phys. Rev. D46, 2212 (1992). [41] M. Neubert, Phys.Rept. 245, 259 (1994). [42] M. Neubert, Phys.Rev. D51, 5924 (1995). [43] V. Novikov, M. Shifman, A. Vainshtein and V. Zakharov, Fortsch. Phys. B32, 585
+
+(1984).
+
+[44] A. Putzer, The ALEPH Collaboration, Improved Measurement of the b ! o/ _*o/ X
+
+Branching ratio, Talk at the 5-th International Symposium on Heavy Flavor Physics, Montreal, Canada, July 6-10, 1993.
+
+[45] Review of Particle Properties, Phys. Rev. D50, (1994). [46] D. Scora, "Semileptonic hadron decay in the quark potential model", UMI-315-82807-
+
+2-mc (microfiche), 1993. 160pp., Ph.D.Thesis.
+
+91
+
+[47] D. Scora, N. Isgur, Phys.Rev. D52, 2783 (1995). [48] M. Shifman, N.G. Uraltsev, A. Vainshtein, Phys.Rev. D51, 2217 (1995); Erratum ibid.D52, 3149 (1995).
+
+[49] M. Shifman, A. Vainshtein and V. Zakharov, Nucl. Phys. B147 385, 448, 519 (1979). [50] R.E.Shrock, Phys. Rev. D24, 1275 (1981). [51] M. Voloshin, Preprint ITEP-21-1980, unpublished; M. Voloshin, Yu. Zaitsev, Usp. Fiz.
+
+Nauk, 152, 361 (1987) [Sov. Phys. Uspekhi, 30, 553 (1987)].
+
+[52] M.B. Voloshin, Phys.Rev. D46, 3062 (1992). [53] M.B. Voloshin, Phys.Rev. D51, 4934 (1995). [54] M. Voloshin and M. Shifman, Yad. Fiz. 41, 187 (1985) [Sov. J. Nucl. Phys. 41, 120
+
+(1985)]; ZhETF 91, 1180 (1986) [Sov. Phys. JETP 64, 698 (1986)].
+
+[55] M. Voloshin and M. Shifman, Yad. Fiz. 45 (1987) 463 [Sov. J. Nucl. Phys. 45, 292
+
+(1988)].
+
+[56] M. Voloshin and M. Shifman, Yad. Fiz. 47, 801 (1988) [Sov. J. Nucl. Phys. 47, 511
+
+(1988)].
+
+[57] K. Wilson, Phys. Rev. 179, 1499 (1969);
+
+K. Wilson and J. Kogut, Phys. Rep. 12, 75 (1974).
+
+92
+

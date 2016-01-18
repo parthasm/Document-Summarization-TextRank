@@ -1,0 +1,409 @@
+NSF-PT-96-3
+December 1996
+
+CP VIOLATION, MIXING, AND QUANTUM MECHANICS
+
+Boris Kayser
+Physics Division, National Science Foundation
+4201 Wilson Blvd., Arlington, VA 22230 USA
+
+
+ABSTRACT
+
+We discuss the quantum mechanics of B-factory experiments, and that of neutral K or
+B decay. Predictions for the processes to be studied at the B factories can be made through
+an approach based on amplitudes, rather than on wave functions. This approach avoids the
+puzzles of the "collapse of the wave function." In the treatment of the decay of a neutral K
+or B, the contributions of the different mass eigenstate components of the decaying particle
+must be evaluated at exactly the same spacetime point. Otherwise, the frequency predicted
+for the oscillation of the decay rate may be incorrect.
+
+According to the Standard Model (SM), CP violation comes from complex phase factors in the
+Cabibbo-Kobayashi-Maskawa (CKM) quark mixing matrix. In the B meson system, some of the
+anticipated CP-violating asymmetries can cleanly probe the phases of various products of CKM el-
+ements. Thus, these asymmetries can incisively test whether CKM phases are indeed the origin of
+CP violation.
+
+Most of the clean information on CKM phases will come from the decays of neutral B mesons.
+­ -- ­
+The neutral B meson Bd, a bd bound state, and its antiparticle Bd, a bd bound state, mix. As a re-
+--
+sult, the Bd­ Bd system has two mass eigenstates, BHeavy (BH) and BLight (BL), with complex
+masses
+
+µ = + m
+B -
+H( L) mB (-) i . (1)
+2 2
+
+Here, mB is the average of the BH and BL masses, mB is their mass difference, and is the width
+which to a very good approximation they have in common.1 Due to the mixing, a neutral B which
+at some proper time = 0 is known to be a pure |Bd will not remain so. Rather, after a proper time
+it will have evolved into a state |Bd(), given according to the SM by
+
+ 13 Feb 1997 -
+i m -i
+B
+
+B 2 ×
+d ( ) = e
+(2)
+*
+
+× m V m
+cos B tdVtb B
+- i sin
+2 Bd V* 2 Bd
+tdVtb
+--
+Similarly, a neutral B which at = 0 was a pure |Bd will have evolved after proper time into a
+-- --
+state |Bd() which, like |Bd(), is a superposition of pure |Bd and pure |Bd. Note from Eq. (2)
+--
+that, until it decays, a |Bd() oscillates back and forth between being a pure |Bd and a pure |Bd.
+
+Future, complementary experiments on CP violation in B decays will be carried out at dedi-
+cated high-luminosity e+e­ colliders ("B factories") and at hadron facilities. At the B factories, the
+B mesons will be produced via the process
+
+e+e­ (4s) BB . (3)
+
+Half the time, the B mesons yielded by this process will be neutral, and it is only this case with
+which we shall be concerned.
+
+To appear in the Proceedings of the 28th International Conference on High Energy Physics,
+Warsaw, July 1996.
+1
+
+
+Let us consider the process (3) in the (4s) rest frame. Since the (4s) has intrinsic spin J = 1,
+--
+but B mesons are spinless, the B pair from (4s) BB is in a p wave. Owing to Bd­ Bd mixing,
+--
+each member of this pair oscillates back and forth between |Bd and |Bd [cf. Eq. (2)]. However,
+owing to their common origin in the decay (4s) BB, the two B mesons in the pair are corre-
+lated. In particular, they cannot both decay to the same final state f at the same time t in the (4s)
+frame.2 For, if they did, then just after their decay we would have two identical J = 0 bosonic
+systems--one from each of the B mesons--in an overall p wave. This would violate the rule that
+two identical bosons cannot be in an antisymmetric state.
+
+Consider, then, the situation in which the B mesons from (4s) BB decay at different
+(4s)-frame times t1 and t2>t1. Suppose the first decay, at time t1, yields the final state f1. Then,
+by the previous argument, we know that at time t1, the B which did not yet decay must be in a state
+which cannot decay to f1. Thus, at time t1, this surviving B must be in the state |BNot f given by
+1
+
+B = -
+Not f Bd f1 T Bd Bd f1 T Bd , (4)
+1
+
+
+since, obviously, f1|T|BNot f = 0. One says that the decay of the first B from (4s) BB at
+1
+time t1 "collapses the BB wave function," uniquely fixing the state of the remaining B at the same
+time. With the state of the remaining B known, one can apply the Schrödinger equation for the Bd
+--
+­ Bd system to evolve this state forward from time t1. One can then calculate the probability for this
+surviving B to decay to a final state f2 at time t2. Putting everything together, one finds, for exam-
+ple, that if f1 = l­X, a semileptonic state, and f2 = Ks, then
+-
+Prob [One B l X at t1; Other B Ks at t2 ]
+(5)
+-(t +t )
+e 2 1 1 - sin
+{ ( ) [ ( - )]}
+K sin mB t2 t1 .
+s
+
+Here, "Prob" stands for probability, and Ks is the phase of a certain product of CKM elements.
+The expression (5), with t1 and t2 times in the (4s) rest frame, neglects the motion of the B
+mesons. This is an excellent approximation, since in the (4s) frame each B has v/c 0.06.
+However, it would be desirable to have a description of the sequence (4s) BB f1f2 which is
+fully consistent, not only with quantum mechanics, but also with relativity. In addition, it would be
+advantageous to have a description which avoids the collapse of the BB wave function. One would
+then avoid the enigma of how, without any interaction between the two B mesons after they are
+born and separate, the B which decays last can know what final state the one which decays first
+produces, and when it does so.
+
+What we wish to describe is a decay chain of the form
+
+(4s) B + B , (6)
+
+f (t , x )
+2 2 2
+
+f (t , x )
+1 1 1
+
+where f1 is the final state into which one of the B mesons decays, (t1, x1) is the spacetime point at
+
+which the decay occurs, and similarly for f2 and (t2, x2). One can describe this chain in a way
+which takes relativity fully into account, and avoids the collapse of the wave function, by simply
+calculating directly, without going through a BB wave function, the amplitude for the entire
+chain.3,4 To this end, it is convenient to work in the neutral B mass eigenstate basis. The amplitude
+for the chain (6) has two terms. The first of these represents a process in which the B which prop-
+
+agates from the (4s) decay point to (t1,x1) and decays to f1 is a BH, while the one which propa-
+
+
+2
+
+
+
+gates to (t2, x2) and decays to f2 is a BL. The second term represents a process in which the roles
+of BH and BL are interchanged. Since the BH­BL mass difference is tiny, these two processes are
+experimentally indistinguishable, so their amplitudes must be added coherently. Due to the anti-
+symmetry of the (4s) BB amplitude, the two B mesons in (6) cannot both be BH or BL.
+
+The amplitude AHL for the process where the B which decays to f1 (f2) is a BH (BL) is given
+by
+
+AHL = A(BH to 1; BL to 2) e­iµH1 e­iµL2 ×
+× A(BHf1) A(BLf2) . (7)
+
+Here, A(BH to 1; BL to 2) is the amplitude for an (4s) to decay to a BH moving towards (t1, x1)
+
+and a BL moving towards (t2, x2). (This amplitude is antisymmetric under BH BL.) The factor
+exp(­iµH1) is the amplitude for the BH to propagate from the spacetime point where it is born to
+
+the point (t1, x1) where it decays. In this factor, 1 is the proper time which elapses in the BH rest
+frame during the propagation. Similarly, exp(­iµL2) is the amplitude for the BL to propagate to
+
+(t2, x2). [That the amplitude for a particle of mass µ to propagate for a proper time is exp(­iµ)
+follows trivially from Schrödinger's equation applied in the rest frame of the particle.] Finally,
+A(BHf1) is the amplitude for BH to decay to f1, and similarly for A(BLf2). If the various A's
+on the right-hand side of Eq. (7) are Lorentz invariant, AHL is Lorentz invariant.
+
+Adding to AHL the amplitude for the process in which the roles of BH and BL are interchanged,
+and using the antisymmetry of A(BH to 1; BL to 2), we find that the complete amplitude A for the
+decay chain (6) is simply
+
+A e­iµH1 e­iµL2 A(BHf1) A(BLf2)
+­ e­iµL1 e­iµH2 A(BLf1) A(BHf2) . (8)
+
+If, for example, we apply this general expression to the case where f1 = l­X and f2 = KS, we
+find that
+
+Prob [One B l­X at 1; Other B KS at 2]
+e­(2+1) {1 ­ (sin KS) sin[mB(2­1)]} . (9)
+This result agrees with the one of Eq.(5) found by collapsing the BB wave function, except that the
+times t1,2 in the rest frame of the (4s) have been replaced by the proper times 1,2 in the rest
+frames of the B mesons.5 This is a negligible correction for (4s) BB, but a (2-3)% effect for
+KK, a process involving almost identical physics to be studied at the factory DANE.
+Of course, the incorporation of small relativistic effects is not the main benefit of the amplitude
+approach. A more important benefit is the ability to derive theoretical expressions such as (9)
+which describe B-factory experiments without having to invoke the "collapse of the wave function"
+or to puzzle over its riddles.
+
+
+As our discussion of B-factory experiments illustrates, the behavior of a neutral B meson in-
+volves some very interesting quantum mechanical effects. Indeed, this is true of a neutral K, D, B,
+or, assuming neutrino mass, a neutrino. Any of these particles is a superposition of mass eigen-
+states with different masses. These mass eigenstate components contribute coherently when the
+particle decays or interacts. Interference between these coherent contributions causes the probabil-
+ity for the decay or interaction to oscillate with the time or distance that the particle travels. Let us
+consider this oscillation.6
+
+
+
+
+3
+
+
+The oscillatory behavior of a particle which is a superposition of several mass eigenstates is
+nicely illustrated by the propagation of a kaon produced by a KS regenerator. Incident on the re-
+generator is a pure KL beam. With amplitude r, the regenerator introduces into the beam a KS
+component. Thus, a kaon emerging from the regenerator is in the state
+
+|Kr = |KL + r |KS . (10)
+
+Let us call the spacetime point where the kaon leaves the regenerator (0, 0). Suppose this kaon then
+propagates to a spacetime point (t, x), where it is observed to decay into +­. Since its |KL and
+|KS components propagate differently, the kaon is no longer in the state |Kr of Eq. (10) when it
+arrives at (t, x), but in a different state we shall call |Kr(t, x). The probability [Kr(t, x) +­]
+for this kaon to decay to +­ at the point (t, x) is given by
+
+Kr(t, x) +-
+[ ]=
+(11)
+- 2
+N
+A(K iµ N +-
+r is KN )e A(KN ) .
+N = S, L
+
+
+Here, A(Kr is KN) is the amplitude for the original Kr to be the mass eigenstate KN, exp(­iµNN)
+is the amplitude for this mass eigenstate to propagate from the regenerator to the decay point (t, x),
+and A(KN +­) is the amplitude for KN to decay to +­. In the propagation amplitude exp
+(­iµNN), µN mN ­iN/2 is the complex mass of KN, and N is the proper time which elapses in
+the KN rest frame during its propagation. By including a superscript N on N, we are allowing for
+the possibility that N may depend on whether the KN is a KS or KL.
+
+The precise meaning of the proper time N is somewhat subtle. Since understanding its mean-
+ing is crucial to the correct treatment of particles which are mixtures of mass eigenstates, let us try
+to clarify what N is.3,6
+
+The key point is that the interfering KS and KL contributions to the decay of our kaon, like the
+interfering components of any spacetime-dependent wave, must be evaluated at precisely the same
+spacetime point (t, x).3,6 To be sure, for a given momentum p, the KS and KL components of the
+kaon move at different speeds, because they have different masses. Thus, classically , these com-
+ponents, which were both born at the spacetime point (0, 0), cannot both arrive at the decay point x
+at the same time t. However, quantum mechanically, the propagating kaon is described by a wave
+packet, with some central momentum p. This wave packet has KS and KL pieces. Since the KS is
+slightly lighter than the KL, the center of the KS piece of the wave packet moves faster than that of
+the KL piece. Thus, the centers of the KS and KL pieces become displaced relative to each other.
+Nevertheless, at the time t that the kaon decays, the KS and KL pieces of its wave packet overlap.
+It is the contributions from these two overlapping pieces at the common point x where the kaon
+decays that are to be added coherently. Thus, in Eq. (11), N is simply the time in the KN rest
+frame of the decay event (t, x). That is,
+
+N = 1 [E ]
+N ( p)t - px , (12)
+mN
+
+where p is the central momentum of the wave packet, and E 2
+N(p) = (p2 + mN )1/2.
+
+From Eq. (12), it is easily shown that through first order in mK mL ­ mS, S = L. Thus,
+through first order in mK, one may compute the relative phase between the two interfering ampli-
+tudes in Eq. (11) taking S and L to have a common value . Experimentally, this is given in
+terms of the meaured distance x travelled by a kaon before decay and the measured momentum p of
+the kaon by
+
+
+4
+
+
+m
+= x K . (13)
+p
+
+1
+Here, mK (m
+2 L + mS) is the average kaon mass.
+
+[In complete analogy with the kaon proper times, the B meson proper times in Eqs. (7) and (8)
+are, through first order in mB, independent of whether a BH or a BL is propagating. For this
+reason, we have not distinguished between the proper times for these two cases.]
+
+With S and L taken to have a common value in Eq. (11), this expression yields the familiar
+result7
+- 2 -
+[K S + L +
+r (t, x) +- ] r 2 e +- e
+(14)
++ - 1( + )
+2 r +- e 2 S L cos(m + -
+K r +- ) .
+
+Here, +­ A(KL+­) / A(KS+­), and r and +­ are, respectively, the phases of r and
++­. The oscillatory last term on the right-hand side of Eq. (14) arises from the interference be-
+tween the KS and KL contributions to the decay. Note that the frequency of oscillation of this term
+with is mK. Our knowledge of mK (and similarly mB) stems solely from measurements of
+this frequency and that of related oscillations.
+
+What if, instead of evaluating the KS and KL contributions to the kaon decay at a common de-
+cay point x and a common decay time t, we mistakenly evaluate them at the (unequal!) KS and KL
+classical arrival times at the point x? The classical arrival time of KN at x is tN = x[EN(p)/p], and
+the corresponding proper time is N = x(mN/p). If we use classical arrival times, then in Eq. (11)
+this value of N replaces the quantity of Eq. (13). The relative phase of the KS and KL terms in
+Eq. (11) is then
+
+x
+m 2 2
+LL ­ mSS = (mL ­ mS ) = 2(m
+p K) , (15)
+
+where is the proper time of the decay determined experimentally via Eq. (13). But then the KS ­
+KL interference term in the predicted decay rate oscillates with at a frequency of 2(mK), rather
+than the correct frequency, mK. That is, evaluating the contributions of the different mass eigen-
+states at their classical times of arrival at the decay point yields an oscillation frequency double the
+true value.
+
+In summary, the contributions of the different mass eigenstate components of a neutral K, D,
+or B to the decay of this particle must be evaluated at exactly the same spacetime point. Evaluating
+them this way shows that the frequency with which the decay probability oscillates is always m,
+the difference between the masses of the mass eigenstates. This is true both for an isolated neutral
+K, D, or B, and for one which is part of a pair created in KK or (4s) BB. Several recent
+descriptions of neutral particle propagation which differ from our own also conclude that the oscil-
+lation frequency is m.8
+
+Nevertheless, there is one analysis which does not agree.9 This analysis finds that, while the
+probability for decay of an isolated neutral K oscillates like cos (mK), the probability for
+KK f1f2, the -factory analogue of the decay chain (6), oscillates like cos [2(mK)(2 ­ 1)].
+Thus, this analysis predicts that when the world's first factory is turned on, the oscillation fre-
+quency will be found to be twice what we and most others expect.
+
+Now, inspection of the treatment of Ref. 9 shows that in dealing with KK f1f2,, it
+takes the KS and KL components of each kaon to have a common momentum, and evaluates their
+
+
+5
+
+
+contributions to the kaon decay at their classical arrival times at the decay point. As we have seen,
+such a procedure gives an oscillation frequency of 2(mK), while the correct value is mK. Thus,
+the frequency found in Ref. 9 for KK f1f2 is not correct. In particular, the prediction of
+this reference that the oscillation frequency in KK f1f2 is twice that in decay of an isolated
+K is not correct. This becomes especially clear when one notes that the treatment of Ref. 9, applied
+to B mesons, would predict that the oscillation frequency in (4s) BB f1f2, 2, is twice the
+frequency in decay of an isolated B, 1. This prediction is already experimentally contradicted.
+Experiments at LEP and the Tevatron find that10
+
+1 = (0.458 ± 0.020) ps­1 , (16)
+
+while measurements at ARGUS and CLEO teach us that11
+
+2 = (0.42 ± 0.06) ps­1 . (17)
+
+Clearly, 2 is not twice 1, but equal to 1.
+
+To sum up, the quantum mechanics of the B factory experiments can be simply understood,
+without invoking the "collapse of the wave function," by calculating amplitudes directly. The
+quantum mechanics of a propagating neutral K, D, B, or neutrino requires that the contributions of
+the different mass eigenstate components of this particle to its decay or interaction always be eval-
+uated at precisely the same spacetime point.
+
+
+
+References
+
+1I. Bigi, V. Khoze, N. Uraltsev, and A. Sanda, in CP Violation, ed. C. Jarlskog (World
+Scientific, Singapore, 1989) p. 175.
+
+2H. Lipkin, Phys. Rev. 176, 1715 (1968).
+
+3B. Kayser and L. Stodolsky, Phys. Lett. B359, 343 (1995).
+
+4B. Kayser, in `95 Electroweak Interactions and Unified Theories (Proceedings of the XXXth
+Rencontres de Moriond), ed. J. Trân Thanh Vân (Editions Frontieres, Gif-sur-Yvette, 1995) p. 373.
+
+5An astute guesser could have guessed that the effect of taking the relativistic motion of the B
+mesons into account would be to replace t1,2 by 1,2.
+6The discussion which follows is based on B. Kayser, SLAC-PUB-7123, to be published.
+
+7See, for example, K.Kleinknecht, in CP Violation, ed. C. Jarlskog (World Scientific, Singapore,
+1989) p. 41.
+
+8Y. Grossman and H. Lipkin, Weizmann Inst. of Science preprint WIS-96/23; H. Lipkin, Phys.
+Lett. B348, 604 (1995); J. Lowe et al., Phys. Lett. B384, 288 (1996) (This paper, like ours,
+emphasizes that the contributions of different mass eigenstates must be evaluated at the same
+spacetime point.). See also M. Nieto, e-print .
+
+9Y. Srivastava, A. Widom, E. Sassaroli, Z. Phys. C66, 601 (1995).
+
+10S. L. Wu, in Proceedings of the 17th International Symposium on Lepton-Photon Interactions,
+eds. Z. Zhi-Peng and C. He-Sheng (World Scientific, Singapore, 1996) p. 273.
+
+11H. Schröder, in B Decays (Revised 2nd Edition), ed. S. Stone (World Scientific, Singapore,
+1994) p. 449.
+
+
+
+
+
+6
+
+
+

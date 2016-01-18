@@ -1,0 +1,104 @@
+
+
+ 23 Nov 1994
+
+UNIFICATION AND LOW-ENERGY SUPERSYMMETRY
+
+AT ONE AND TWO-LOOP ORDERS
+
+Nir Polonsky
+
+A DISSERTATION
+
+in Physics
+
+Presented to the Faculties of the University of Pennsylvania in Partial Fulfillment of the Requirements
+
+for the Degree of Doctor of Philosophy
+
+1994
+
+UPR-0641-T
+
+ABSTRACT UNIFICATION AND LOW-ENERGY SUPERSYMMETRY
+
+AT ONE AND TWO-LOOP ORDERS
+
+Nir Polonsky Dissertation Supervisor: Prof. Paul Langacker
+
+The status of coupling constant unification - assuming the validity of the standard model or of its minimal supersymmetric extension at high energies - and of relations between various Yukawa couplings (assuming the supersymmetric extension) which are implied in certain grand-unified theories, are studied in detail. Theoretical uncertainties in the calculations are emphasized, and low-energy constraints and predictions are derived. In particular, we find that bottom-tau unification favors a Higgs boson lighter than 110 GeV. The structure of the vacuum in the model studied is also discussed. Implications of embedding supersymmetric models in grand-unified theories are further explored and are shown to affect the soft supersymmetry breaking mass parameters of the models, and thus the spectrum at low-energy.
+
+iv
+
+Contents 1 Introduction 1
+
+1.1 Motivation : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 1 1.2 The Minimal Supersymmetric Model : : : : : : : : : : : : : : : : : : : : : : : : : : : : 2 1.3 A Prototype of a Grand-Unified Theory: SU(5) : : : : : : : : : : : : : : : : : : : : : : 5 1.4 Contents of Dissertation : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 7
+
+2 Weak-Scale Data 8
+
+2.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 8 2.2 Weak-Scale Gauge and Yukawa Couplings : : : : : : : : : : : : : : : : : : : : : : : : : 8
+
+2.2.1 Precision Electroweak Data : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 9 2.2.2 The Strong Coupling : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 11 2.2.3 The b-quark Mass : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 12 2.2.4 New Data : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 13 2.3 Mass Bounds on the New Supersymmetric and Higgs Particle Spectrum : : : : : : : : : 13
+
+3 Status and Implications of Coupling Constant Unification 17
+
+3.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 17 3.2 One- and Two- Loop Predictions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 19 3.3 The Correction Terms: A Formal Discussion : : : : : : : : : : : : : : : : : : : : : : : : 24 3.4 The Correction Terms in The MSSM : : : : : : : : : : : : : : : : : : : : : : : : : : : : 31 3.5 Conclusions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 33
+
+4 b-o/ Yukawa Unification and the Bottom Mass Prediction 46
+
+4.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 46 4.2 The b-quark Mass II : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 48 4.3 The mpolet \Gamma tan fi Plane : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 49 4.4 The Correction Terms : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 51 4.5 Conclusions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 60
+
+5 The Higgs Sector in Supersymmetric Yukawa Unified Models 70
+
+5.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 70 5.2 The Weak-Scale Higgs Sector : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 72
+
+5.2.1 The Minimization Conditions : : : : : : : : : : : : : : : : : : : : : : : : : : : : 72 5.2.2 The Higgs Sector Custodial Symmetries : : : : : : : : : : : : : : : : : : : : : : 73 5.2.3 The Spectrum : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 74 5.2.4 Summary : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 75 5.3 The tan fi ! 1 scenario : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 75 5.4 The Loop-Induced Mass : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 77
+
+v
+
+vi 5.4.1 The EPM: Run and Diagonalize : : : : : : : : : : : : : : : : : : : : : : : : : : : 78 5.4.2 The RGM: Diagonalize and Run : : : : : : : : : : : : : : : : : : : : : : : : : : : 79 5.4.3 Comparison Between the EPM and RGM : : : : : : : : : : : : : : : : : : : : : 80 5.4.4 Constraints on the Mixing Enhancement : : : : : : : : : : : : : : : : : : : : : : 81 5.4.5 Two-Loop Calculations : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 82 5.5 The Prediction for The Higgs Boson Mass and Its Upper Bound : : : : : : : : : : : : : 83 5.6 A Comment on Extended Higgs Sectors : : : : : : : : : : : : : : : : : : : : : : : : : : : 85 5.7 Conclusions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 85
+
+6 Generation and Implications of Non-Universal Soft Parameters in Supersymmetric
+
+Grand-Unified Models 98 6.1 Introduction : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 98 6.2 Patterns of Non-Universality at MG : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 100 6.3 Weak-Scale Phenomena : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 104
+
+6.3.1 First and Second Family Scalars : : : : : : : : : : : : : : : : : : : : : : : : : : : 109 6.3.2 The _ Parameter : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 110 6.3.3 The Higgs Scalars : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 111 6.3.4 Third Family Scalars : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 111 6.3.5 Possible Implications : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 112 6.4 Conclusions : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 112
+
+7 Conclusions and Future Outlook 127 A Outline of the Numerical Procedures 129
+
+A.1 The Numerical Calculation : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 129 A.2 An Algorithm for Solving The MSSM Using RG Techniques : : : : : : : : : : : : : : : 129
+
+B Implications of Recent Data 131 C A General Treatment of Heavy Threshold Effects 133 D Color and Charge Breaking Minima at RG-Improved Tree Level 135
+
+Bibliography 139
+
+Chapter 7 Conclusions and Future Outlook
+
+In this dissertation we studied in detail various low-energy aspects of supersymmetric theories, and, in particular, of supersymmetric grand-unified theories. We chose the MSSM and the minimal supersymmetric SU (5) and SO(10), all of which are described in chapter 1, as prototype models. Using the data, which is surveyed in chapter 2, we conclude that the relations examined (chapters 3 and 4), i.e.,
+
+ffl coupling constant unification: ff1 = ff2 = ff3 = ffG; ffl proton decay (tree level): MV , MG ?, 1015 GeV; ffl proton decay (loop level): MHC = M5 , MG ?, 1016 GeV; ffl SU (5) type Yukawa unification: hb = ho/ ; ffl minimal-SO(10) type Yukawa unification: ht = hb = ho/ ; are all consistent with the data when assuming the MSSM (but not the SM or extensions of either the SM or MSSM with many Higgs doublets) as the effective theory below the GUT scale. The Yukawa unification relations are consistent [assuming ffs(MZ) ?, 0:12] only for large t and b-quark Yukawa couplings. The large Yukawa coupling assumption results in additional structure, e.g., the quasi fixedpoint convergence, custodial symmetries in the Higgs sector, important GUT effects and new local (sometimes global) minima of the scalar potential along dangerous directions.
+
+If nature is indeed supersymmetric, one has an additional probe of the Planck scale, i.e., the SSB parameters. We have shown that Yukawa unification (i.e., requiring large Yukawa couplings) constrains the SSB parameters space leading (for tan fi ss 1) to the upper bound mh0 !, 110 GeV on the Higgs boson mass (chapter 5). We also argued that, in general, the SSB parameters do not have universal boundary conditions at MG. This is due to the potentially important GUT renormalization effects (chapter 6). Thus, the soft scalar masses (and not only the SM fermion masses) should bear traces of a grand-unified sector, if it exists. For example, we found [assuming minimal SU (5)] m~t1; 2 ?, 200 GeV for the t-scalars. These GUT effects are enhanced when considering either Yukawa unification or loop-level proton decay (both lead to the large Yukawa coupling assumption).
+
+In our studies we paid special attention to the theoretical uncertainties in the calculations. For gauge and Yukawa couplings we included one-loop threshold and finite corrections due to the Higgs, supersymmetric and superheavy spectra, and from conversion and nonrenormalizable terms, respectively. We also treated mpolet correlations explicitly. For the Higgs scalar potential parameters and masses, we included important one-loop corrections due to the supersymmetric spectrum and GUT effects. Implications of the latter were studied in more generality. The supersymmetric threshold corrections to the Higgs sector were studied using different methods and we also commented on the two-loop corrections.
+
+127
+
+128 We stressed (see also Appendix A) that using the more recent data we predict ffs(MZ) ss 0:13 \Sigma 0:01, which is in agreement with Z-pole determinations ffs(MZ), but significantly higher than some low-energy extractions (see Table 2.1). However, due to the GUT-scale threshold uncertainty, even if ffs !, 0:12 is known to high precision and our effective parameter MSUSY (which we argued is !, 300 GeV) is obtained from observation and accounted for, coupling constant unification will still be consistent with the data, but the predictive power of the models could be altered by requiring correction terms of a specific magnitude and sign. The situation regarding Yukawa couplings is more complicated. A perturbation to the respective GUT relations of the order of the light family Yukawa couplings must exist. In addition, due to the large predicted ffs values, one has to assume O(15%) correction terms in order to maintain a successful prediction for the b-quark mass. (For large tan fi that correction can take the form of finite superpartner loops.) Stronger constraints on tan fi are obtained (or alternatively, larger corrections are required) in models with a right-handed neutrino superfield below the GUT scale [172]. This issue, together with the issue of neutrino masses, is left for future studies.
+
+Our studies suggest that the continuation of the investigation of supersymmetric models is well motivated. We believe it should follow a three-fold approach:
+
+1. Continued improvement of analytic expressions and of numerical calculations (e.g., a consistent
+
+two-loop calculation of mh0), as well as improving estimations of the theory uncertainties and their model dependence.
+
+2. Study of the soft parameters, i.e., Planck-scale scenarios for the SSB parameters and their lowenergy implications.
+
+3. Calculation (within a specific model) of low-energy quantities that are relatively sensitive to the
+
+new superpartner and Higgs particles. (That approach could eventually lead to a global analysis of supersymmetric models.)
+
+We chose not to emphasize the issue of non-universality (of the SSB parameters). Obviously, consideration of such scenarios results in compromising the predictive power. It is useful to investigate characteristics of such models (as we did), but the advantage of pursuing such studies any further before any data (regarding the spectrum) is available is not clear.
+
+Lastly, we pointed out (see also Appendix D) the typically complicated structure of the vacuum. The theory contains many scalar fields and the scalar potential could have local (and global) minima in different directions. That observation can be used to constrain the parameter space, as well as have interesting cosmological implications, and it deserves further study.
+

@@ -1,0 +1,1747 @@
+1
+
+
+Electromagnetic structure
+of hadrons
+
+Alexander G. Kyriakos
+
+
+Saint-Petersburg State Institute of Technology,
+St.Petersburg, Russia
+
+
+
+Present address:
+Athens, Greece
+e-mail: lelekous@otenet.gr
+
+
+
+Abstract
+
+In the previous papers [1,2,3], based on Dirac's equation, we have
+considered the electromagnetic structure of the leptons. In the
+present paper, using the Yang-Mills equation, we will analyse the
+electromagnetic structure of the hadrons.
+
+
+PASC 12.10.-g Unified field theories and models.
+PASC 12.90.+b Miscellaneous theoretical ideas and models.
+
+
+
+Contents
+
+1.Introduction
+1.1 The Yang-Mills equation and QCD
+1.2 The investigation object choice
+1.3 Problem statement
+2."One quark" theory
+2.1 Inner and external fields
+2.2 The "one quark" equation
+2.3 Electromagnetic form of "one quark" equation
+2.4 The "one quark" linear equation Lagrangian
+2.5 Lagrangian of non-linear "one quark" equation
+3.Quantum and electromagnetic forms of "three quark"
+equations
+3.1 Electromagnetic forms of quantum equations
+3.2 Rings or knots?
+3.3 "Three quarks" equation without interaction.
+3.4 Interaction appearance
+4. Electromagnetic "two quark" equations
+5. About symmetry breaking and mass appearance
+Appendix 1. Hadron models
+A1 "Three quarks" model
+A2 "Two quarks" model
+Conclusion
+References
+
+
+2
+
+
+1. Introduction
+
+
+As it is known the modern Standard Model Theory of elementary
+particles is described by the Yang-Mills equation [4].
+
+
+1.1 The Yang-Mills equation and QCD
+
+
+The Standard Model Theory contains the electroweak theory,
+which is based on the SU(2)xU1 symmetry group, and the strong
+interaction theory (SU(3) symmetry group). Both theories are built
+on the base of the Yang-Mills equation in the same way.
+Let's introduce briefly the QCD theory [4,5,6]. As it is
+known, the QCD theory and the QED theory forms are alike.
+Particularly, the Lagrangian and the equation of the QCD have the
+same form as the Lagrangian and the equation of the QED [4,5].
+Since it is important for our theory understanding, we
+consider at first the theory structure of QED.
+In the usual notations [5] the Lagrangian of QED is
+represented by the sum:
+1
+L = + - -
+QED ([i eA m
+µ µ ) µ ] µ
+F µ
+F , (1.1)
+4
+where =
+µ / xµ is the partial derivative with respect to 4-co-
+ordinate x = -
+µ , F A A
+µ µ µ is the operator of electromagnetic
+
+field strength, - e, m are the electrical charge and the mass of
+
+the electron, respectively; µ are the Dirac's matrices, is the
+
+hermitian wave function, µ
+A is the potential of the
+
+electromagneticl field (the summation is always taken with respect
+to same indeces). The first and the third summands of the
+Lagrangian describe the free motion of electron, the last summand
+describes the same of photons, and the term
+µ
+A describes its
+
+interaction. Using the covariant derivative
+D = - ieA
+µ µ µ , (1.2)
+we can write the Lagrangian in the form:
+1
+L = - -
+QED [D m
+µ µ ] µ
+F µ
+F , (1.3)
+4
+The physical means of the present theory will be understood
+better, if we use the our notations [1]. In this notations we have
+for QED Lagrangian:
+L = L + Lint + L
+QED D M , (1.4)
+
+where
+L = + + ! ! +
+D ( ^ ^
+^
+^ ^ 2
+
+c p m c
+e
+0 ) ,
+(1.5)
+
+
+is the free electron Lagrangian.
+The Lagrangian:
+L = - + +
+int (0 c !^
+^ p!
+ex ex )
+, (1.6)
+
+is the interaction Lagrangian, and
+
+
+3
+
+
+1 ! !
+2 2
+L = -
+M (E H )
+8 , (1.7)
+is the Maxwell theory Lagrangian.
+Thus, the full Lagrangian of QED theory is:
+! ! ! ! !
+L = +
+- + - + + -
+QED [^ ( ex) ^
+^ c (^p pex) 2 1
+^ m c E H
+0 e ] ( 2 2), (1.8)
+8
+^! ^ ! !
+^
+where ^ , ^ = i" , p = -i
+0 , - are Dirac's matrices,
+"
+- the
+t
++
+operators of energy and momentum, is the Hermitian wave
+e
+! !
+function, = e, p = A
+ex ex are the external electron energy and
+c ! !
+momentum , c is the light velocity, m E,
+e is the electron mass, H
+( !
+, A)
+are the electric and magnetic field, respectively, and is 4-
+^! ^
+potential of external field. The matrices ^ ,
+0 , are the
+
+following Dirac's matrices:
+1 0 0 0 0 0 0 1
+
+0 1 0 0 0 0 1 0
+^
+= , ^
+=
+0 1 ,
+0 0 1 0 0 1 0 0 1 0 0 0
+
+0 0 0 1 1 0 0 0 ^ 0 1 0 0
+! = ,(1.9)
+0 0 0 - i 0 0 1 0 4
+0 0 -1 0
+
+0 0 i 0 0 0 0 -
+1 0 0 0 -1
+^
+=
+, ^
+=
+2 3
+0 - i 0 0 1 0 0 0
+
+i 0 0 0 0 -1 0 0
+
+In Quantum Chromodynamics (QCD) we have quarks instead of
+electrons and gluons instead of photons, between which there are
+the strong interactions instead of electromagnetic interactions.
+The strong interactions among quarks and gluons are described by
+the non-abelian gauge theory, based on the gauge group SU )
+3
+( C ,
+instead of the abelian gauge theory of the EM theory, based on the
+gauge group U )
+1
+( . Each quark sort (flavour) corresponds to a
+colour (strong interaction charge) triplet in the fundamental
+representation of SU )
+3
+( and the gauge fields needed to maintain
+the gauge symmetry, the gluons, are in the adjoint representation
+of dimension 8. Gauge invariance ensures that gluons are massless
+whose spin is equal to 1, as the photon. Since the gluons masses
+are equal to zero, the quark interaction radius is equal to
+infinity, but the sizes of the quark system (particles) are very
+-
+small (in order 10 13 cm). The explanation of this fact is not
+known (the «confinement» problem).
+The QCD Lagrangian may by written in ordinary notations
+[4,5,6] as
+1
+L = - -
+QCD i[D m
+µ µ ] i µ
+F µ
+F , (1.10)
+4
+
+
+4
+
+
+
+
+a
+where a
+F = F
+µ µ , (1.11)
+2
+
+stands for the gluon field tensor, i are the quark fields and the
+covariant derivative is defined by
+D = -
+µ µ µ
+igA , (1.12)
+
+The strong coupling is represented by g and indices are summed
+
+over a = 8
+,...,
+1 and over i = ,
+1 3
+,
+2 . Finally, a 2 and f SU
+abc are the )
+3
+(
+
+group generators and structure constants, respectively, which are
+related to the commutator:
+[ , = if
+2
+a b ] c
+abc , (1.13)
+For the gluons the field strength has the view:
+F = A - - -
+µ µ µ
+A ig[ µ
+A
+A
+A µ
+A ], (1.14)
+or in the vector form:
+! ! ! ! !
+F = A - A + gA × A
+µ µ µ µ , (1.15)
+
+The photon potentials Aµ are the numbers and in the QED case
+the above commutator is equal to zero. In the case of the non-
+abelian gauge fields (gluons) Aµ are the matrices, and the above
+comutator is not equal to zero. Thanks to this commutator, the
+non-linear interaction of the gluons appears.
+
+The matrices a are named Gell-Mann matrices and have the
+view:
+0 1 0 0 i 0 1 0 0
+-
+= , = i , = ,
+3 0 -1 0
+2 0 0
+1 1 0 0
+
+0 0 0
+0 0 0
+0 0 0
+
+0 0 1 0 0 - i 0 0 0
+
+= 0 0 0 , = 0 0 0 , = 0 0 1 , (1.16)
+4 5 6
+1 0 0 i 0 0 0 1 0
+0 0 0 1 0 0
+
+= 0 0 - i , = 0 1 0 .
+7 8
+0 i 0 0 0 - 2
+If we consider the quark as real fermion, the contradiction
+with Pauli principle appears. To eliminate this contradiction some
+inner degree of freedom is introduced, named colour (or colour
+charge).
+According to modern theory in strong interactions the colour
+charges play the same role as the electrical charges in the
+electromagnetic interactions. The interaction between electrons
+takes place through the photon exchange. In this case gluons play
+the role of photons, which are also electrically neutral vector
+particles. The basic difference between gluons and photons is that
+the photon is one, but gluons are 8 and have colour charges.
+
+
+5
+
+
+Thanks to these colour charges the gluons interact strongly with
+one another and can radiate one another.
+
+
+1.2 The investigation object choice
+
+
+Apparently the simplest of the hadrons must be the scope of
+our investigation. There is a reason to believe that the simplest
+particles are particles with the lower mass of the mass spectrum
+of each particle family. In the case of the baryons the simplest
+particles are nucleons - proton (antiproton) and neutron
+(antineutron); among the mesons these are the pi mesons. We will
+name these particles the basic particles.
+As it is known, the basic particles consist only of two
+quarks u and d:
+1
++ - 0
+= ud , = du, = (uu - dd ), p = uud, n = ddu
+2
+
+which have the following charges:
+2 1
+q = e, q = - e
+u d
+3 3
+
+The quark masses don't depend on their colour, but depend on the
+flavour. The u and d quarks have aproximetly the following masses:
+
+m 4 MeV , m 7 MeV
+u d
+
+
+1.3 Problem statement
+
+
+The problem of the present paper is to show the
+electromagnetic structure of the hadrons. As it is followed from
+the Standard Model Theory (SMT), the quark family is analogue to
+the lepton family.
+Based on this analogy we suppose that:
+1) The electromagnetic structure of the hadrons is similar to the
+lepton structure;
+2) the above hadron Lagrangian (and equations) is composed from
+three Lagrangians (equations) of the lepton type, i.e. by three
+Dirac's equation Lagrangians (three Dirac's equations).
+In other words, we must show that the lepton Lagrangian (also
+lepton equation) is the «one quark» Lagrangian (equation).
+
+
+
+2. "One quark" theory
+
+
+2.1 Inner and external fields
+
+
+The comparison between the QCD and the QED Lagrangians, that
+we made above, is not entirely right. The QED Lagrangian is not
+the free lepton Lagrangian, but the Lagrangian with interaction
+between leptons and photons. On the other hand, the above
+Lagrangian of hadrons is indeed the Lagrangian of the free hadron.
+This distinction is bounded with the distinction among inner
+and external fields of the particles. The external field, used in
+
+
+6
+
+
+the QED for the description of the interaction among the electron
+and other charge particles, is in the case of hadron the inner
+field, describing the quark-quark interaction.
+Thus, it follows from above that the "one quark" Lagrangian
+and equation must be the QED Lagrangian (equation) for external
+field, but inside the hadron this "external field" describes the
+quark-quark interaction.
+
+
+
+2.2 The "one quark" equation
+
+
+For the solution of the present problem we use here some
+results, which were represented in detail in the paper [1].
+Particularly, to understand the "one quark" equation form, we
+consider the electromagnetic and quantum forms of electron-positron
+pair production theory.
+Let's consider the particle-antiparticle production
+conditions. One -quantum cannot turn spontaneously into the
+electron-positron pair, although it interacts with the electron-
+positron vacuum. For the pair production, at first, the following
+2
+mass correlation is necessary: 2m c
+p e (where p is the photon
+
+energy, me - the electron mass and c - the light velocity). At
+second, the presence of the other particle, having the
+electromagnetic field, is needed. It can be some other -quantum,
+- +
+the electron e , e , an atom nucleus Ze etc. For example, we have
+
+the typical reaction:
++ -
++ Ze Ze + e + e , (2.1)
+which means that, while moving through the particle field (as in
+medium with high refraction index) the photon (or maybe virtual
+photon) takes some transformation, which corresponds to the pair
+production. Considering the fact that Pauli's matrices describe
+the vector rotations and also taking in account the optical-
+mechanical analogy analysis, we can assume that the above
+transformation is a field distortion. From this follows the
+distortion hypothesis:
+By the fulfilment of the pair production conditions
+the distortion of the electromagnetic field of the photon can take
+place; as a result photon is able to move along the closed
+trajectory, making some stable construction named elementary
+particle.
+About the electron, as the simplest particle, we can suppose
+that the photon trajectory is circular.
+Consider the linear photon, moving along - y -axis (of course,
+we can also use any other direction [2]). In a general case it has
+the two possible polarisations and contains the field vectors
+E , E , H , H (E H
+y = y =
+x z x z )
+0 . Such photon can form the ring only on the
+(x, ,
+o y) or the ( y, ,
+o z) plains.
+The bispinor form of free lepton Dirac's equations can be
+written as one equation [7]:
+
+
+7
+
+
+^! ^
+^ ! ^ 2
++
+c p + m c
+e = ,
+0 (2.2)
+
+(the notations see above).
+Put the following semi-photon bispinor:
+E
+z
+Ex
+= iH (2.3)
+z
+iH x
+Using (2.3), we can write the equation of the electromagnetic
+wave moved along any axis in form:
+(# 2 2
+- c # 2
+p! ) = ,0
+(2.4)
+
+The equation (2.4) can also be written in the following form:
+
+2 2
+2 ! !
+( #
+- c p 0
+o #
+) ( # #)
+= , (2.5)
+where 1^
+^o = is the unit matrix. In fact, taking into account that
+2
+2 2 ! ! !2
+( #
+= p = p
+o #
+) # , ( # #) # ,
+we see that equations (2.4) and (2.5) are equivalent.
+Factorising (2.5) and multiplying it from left on Hermithian-
+
+conjugate function + we get:
++ (# # - c#! #p!) (# # + c#! #p! 0
+o o ) = , (2.6)
+
+The equation (2.6) may be disintegrated on two equations:
++
+( ^! ^
+^
+^ !
+
+o - c p)= 0, (2.7)
+( # +c ! p! = 0
+o #
+#
+#) , (2.8)
+
+It is not difficult to show (using (2.2)) that the equations (2.7)
+and (2.8) are Maxwell's equations without current and, at the same
+time, are Dirac's electron-positron equations without mass.
+In accordance with our assumption, the reason for current
+appearance must be the electromagnetic wave motion along a
+curvilinear trajectory. We will show the appearance of the current,
+using the general methods of the distortion field investigation
+[8], but the same result can be obtained simplier in the vector
+form (see [1] Appendix 1, chapter A1.2.). The question is about the
+tangent space introduction at every point of the curvilinear space,
+in which the orthogonal axis system moves. This corresponds to the
+fact, that the wave motion along a circular trajectory is
+accompanied by the motion of the rectangular basis, built on
+! ! ! !
+vectors ( E, S , H ), where S is the Poynting vector.
+
+For the generalisation of Dirac's equation in Riemann's
+geometry it is necessary [8] to replace the usual derivative
+/
+µ xµ (where xµ are the co-ordinates in the 4-space) with the
+covariant derivative: D = + µ =
+µ µ µ ( ,
+0 ,
+1 ,
+2 3 are the summing
+
+indexes), where µ is the analogue of Christoffel's symbols in the
+case of the spinors theory. When a spinor moves along the beeline,
+
+all µ = 0 , and we have a usual derivative. But if a spinor moves
+
+
+8
+
+
+
+along the curvilinear trajectory, then not all µ are equal to zero
+and a supplementary term appears. Typically, the last one is not
+the derivative, but it is equal to the product of the spinor itself
+
+with some coefficient µ . Thus we can assume that the supplementary
+term is a longitudinal field, i.e. a current. So from (2.7-2.8) we
+obtain:
+µ µ
+D
+µ = ( µ + )
+µ = 0 ,
+According to the general theory [8] the increment in spinor µ
+has the form of the energy-momentum 4-vector. It is logical (see
+
+also [1], Appendix 1, chapter A1.2.) to identify µ with 4-vector
+of energy-momentum of the electron's own field:
+
+=
+µ { p
+c!
+,
+s s }, (2.9)
+
+Then equations (2.7) and (2.8) in the curvilinear space will have
+the view:
++
+[ ( ^! ^
+^
+^ c p! c !
+p!
+o - ) -( ^
+^o s - s ) ] = 0 ,
+
+(2.10)
+[ ( ^! ^
+^
+^ c p! c ! p!
+o + ) +( ^
+^
+os + s ) ] = 0, (2.11)
+According to the energy conservation law we can write:
+! ! 2
+^ ^
+^
+± c p = $ m c
+o s s e , (2.12)
+
+Substituting (2.12) in (2.10) and (2.11) we will arrive at the
+usual kind of Dirac's equation with the mass:
++
+[ ( ^! ^
+^
+^ !
+o - c p) ^ 2
+- m c
+e ]= 0 , (2.13)
+[ ( ^! ^
+^
+^ !
+o +
+c p) ^ 2
++ m c
+e ] = 0, (2.14)
+
+Figure 1 illustrates the above description of the process of
+electron-positron pair generation:
+
+
+
+
+
+Fig.1
+
+
+
+It is not difficult to see that the pair production process
+corresponds to the photon division on two circular semi-periods
+(semi-photons). According to our supposition the "one quark" is the
+ring or knot (loop) of the same type.
+
+
+9
+
+
+
+
+
+2.3. Electromagnetic form of "one quark" equation
+
+
+Taking into account that = (y) , from (2.13) using (2.14) we
+obtain:
+!
+! !
+rot E + 1 H = i H,
+c t c
+! , (2.15)
+! 1 E !
+rot H - = -i E,
+c t c
+2
+m c
+where e
+= . The equations (2.15) are the Maxwell equations with
+"
+current [9]. It is interesting that along with the electrical
+current the magnetic current also exists here. This current is
+equal to zero by Maxwell's theory, but its existence by Dirac
+doesn't contradict to the quantum theory. (As we have showed [3]
+the magnetic current appearance relates to the initial photon
+circular polarisation and integrally this current is equal to
+zero).
+
+
+2.4. The "one quark" linear equation Lagrangian
+
+
+As it is known [9], the Lagrangian of the free field Maxwell's
+theory is:
+1 ! !
+2 2
+L = -
+M (E H )
+8 (2.16)
+The following expression can be taken as Lagrangian of Dirac's
+theory [7]:
+L = + + ! ! +
+D ( ^ ^
+^
+^ ^ 2
+
+c p m c
+e
+0 )
+, (2.17)
+
+For the wave moving along the y -axis the equation (2.17) can be
+
+written:
+1 m c
+L + +
+# i e
+= - - +
+# ,
+D (2.18)
+c t y y "
+Transferring each term of (2.18) in electrodynamics' form (see [1])
+we obtain for the semi-photon or "one quark" equation the following
+Lagrangian:
+! ! ! !
+L = +
++ - -
+D ( ^ ^
+^ ^ c p i s E H
+0 ) 2 2
+( ), (2.19')
+8
+or in ordinary form:
+! !
+s 2 2
+L = +
+µ
+µ - i -
+D (E H ), (2.19'')
+8
+2
+2m c
+where e
+=
+s (note that we must differ the complex conjugate
+" ! ! ! !
+field vectors E * , H * and E , H ).
+As we have supposed, the Lagrangian (2.19'') is the
+Lagrangian of "one quark", and it is actually similar to (1.10).
+
+
+10
+
+
+We can say that the Lagrangian (1.10) is constructed from
+Lagrangians of three interacting quarks. Therefore, to obtain
+(1.10) we must sum three Lagrangians (2.19'') and "turn on" the
+interactions among quarks (i.e. to go over from simple derivative
+to the covariant derivative).
+1
+Now we will show that the photon interaction term µ
+F µ
+F can
+4
+be represented as non-linear expression the same type as (1.15),
+which describes the photon-photon (i.e. gluon-gluon) interactions.
+
+
+
+2.5. Lagrangian of non-linear "one quark" equation
+
+
+Using (2.10) we can write (see [1]) the Lagrangian of "one
+quark" equation in the form:
+
+L = + - c !^
+^ p!^ + + - c !^ p!
+N ( ) (s s )
+, (2.20)
+
+Let's show that the expression (2.20) represents the common form of
+Lagrangian of non-linear "one quark" (or "one ring", or "one knot",
+or electron Dirac's) equation.
+Taking into account that the free electron Dirac's equation solution
+is the plane wave:
+( )
+
+= -
+ei t ky
+0 , (2.21)
+we can represent (2.20) in the approximate quantum form:
++ s
+LN = ^ !
+µ
+µ + ( +
+)2 - ( + ^
+
+)2 , (2.22)
+8
+where
+s is the "volume" of the particle.
+Transform (2.20) into electrodynamics form. For energy and momentum
+in the electromagnetic form we have [1]:
+1
+! !
+= U d = +
+s
+( 2 2
+E H )
+d , (2.23)
+8
+
+
+
+1
+! ! ! 1 !
+p = !
+g d = = ×
+s S d E H d
+(2.24)
+2 [ ] ,
+c 4
+
+
+
+
+
+
+Normalising -function by relationship:
+' 1
+L N = L , (2.25)
+2 N
+8 m c
+e
+
+and using the equations (2.23) and (2.24), we find:
+' 2 2 ! 2
+L N = +
+^µ
+µ + 2 (U - c g ), (2.26)
+It is not difficult to transform the second summand, using the
+known electrodynamics' transformation (that is quantum form of the
+known Fierz's correlation):
+2 2 2 ! ! ! ! ! ! ! ! !
+2 2 2 2 2 2 2 2 2
+(8 ) (U - c g ) = (E + H ) - 4(E × H) = (E - H ) + (
+4 E H) , (2.27)
+So we have: ! ! ! !
+'
+L N = +
+^µ
+µ + 2 ([ 2
+E + H )2
+2 - 4 (E × H )2 ], (2.28)
+or
+
+
+11
+
+
+! ! ! !
+'
+L N = +
+^µ
+µ + 2 ([ 2
+E - H )2
+2 + 4 (E H )2], (2.28')
+We can say that this Lagrangian is the "one quark" non-linear
+equation Lagrangian.
+Actually, as we have shown in the paper [1], the Lagrangian
+(2.28) is similar to the Lagrangian of the photon-photon
+interaction [10]:
+
+
+
+
+
+1 ! ! ! ! ! !
+L E H b E H E H
+p- p = ( 2 2
+- )+ ([ 2 - )22 +7( )2]+...,
+8 (2.29)
+where b is constant.
+
+Using (2.28) we can build the "three quark" Lagrangian of the
+
+same type as (1.10) with (1.15).
+
+
+3. Quantum and electromagnetic forms of "three quark"
+equations
+
+3.1 Electromagnetic forms of quantum equations
+
+
+It has been known for a long time [10,11] that the quantum
+equations can formally be represented as the Maxwell equation
+system. For example, according to [11] the spinor Dirac's equation
+system
+[ ^! ^! 2
+(^ ^
+o -
+c p) - mc ] = 0
+[ , (3.1)
+^! ^! 2
+(^ ^
+o +
+c p) + mc ] = 0
+becomes the full Maxwell equation system, if we use instead of
+and 2x1-matrix wave functions, the 3x1-matrix electromagnetic
+field function:
+= (! !
+E), = (iH ), (3.2)
+
+and instead of 2x2-spinor Pauli's matrices ^ we use the following
+3x3-matrices:
+0 0 0 0 0 i 0 i 0
+-
+^
+^
+^
+S i S S i
+3 = 0 0
+2 = 0 0 0
+1 = 0 0 - , , , (3.3)
+
+0 i 0
+i 0 0
+0 0 0
+The zero and unit 3x3-matrices are also useful:
+1 0 0 0 0 0
+
+^
+S 0^ = 0 0 0
+0 = 0 1 0 , , (3.4)
+
+0 0 1
+0 0 0
+As it
+is known [4], these matrices are the rotation
+generators of SU(2) group and coincide with some matrices of the
+chromodynamics.
+We will describe two equations (3.1) as one equation:
+for particle
+
+
+12
+
+
+[ (6 6 ^! ^
+^
+^ -c !
+o p) 6 ^ 2
+- mc ] = 0 , (3.5)
+
+
+and for antiparticle
+
++
+[ (6 6 ^! ^
+^
+^ !
+o +c p) 6 ^ 2
++ mc ]= 0 , (3.6)
+
+
+where upper left index "6" means that these matrices are the 6x6-
+matrices of the following type:
+^!
+! ! ! ! ! ^S 0^ ^S 0^
+6 ^ 6 6 6 0^ S 6 6 6 ^
+= ^
+i ^
+^
+
+4 = 0
+0 = 0
+x + ^ j
+y + k
+z =
+^! , ^ , ^ , (3.7)
+S 0^ 0^ S 0^ - S
+0 0
+
+
+The wave function has the 6x1-matrix form:
+!E
+
+6 = ! , (3.8)
+iH
+We name the equations (3.5)-(3.6) three-knot equations and 6x6-
+matrices - three-knot matrices.
+
+The above matrices give the right expressions of the bilinear
+form of the theory (i.e. the basic values of Maxwell's theory), as
+it is not difficult to test:
+
+for the energy:
+! !
+6 + !
+6^ = + =
+0
+6 E 2 H 2
+8 U , (3.9)
+
+for the momentum projections of the electromagnetic field:
+
+
+
+
+6 + 6
+^ 6
+= (
+2 E H - E H )
+1 y z z y ,
+
+6 + 6
+^ 6
+= (
+2 E H - E H )
+2 z x x z , (3.10)
+6 + 6
+^ 6
+= (
+2 E H - E H )
+3 x y y x ,
+
+or for the Poynting vector:
+! ! !
+i j k
+! 1
+S E E E
+P = x y z =
+
+4
+H H H , (3.11)
+x y z
+
+1
+= {! ! !
+i (E H E H j E H E H k E H E H
+y z - )
+z y - ( x z - )
+z x + ( x y - y x } 1
+)
+6 +
+==
+6 !
+6
+
+4
+8
+and for 1st scalar of electromagnetic field:
+!
+6 + !
+6 6 2 2
+^
+= E - H = 8 I
+4 1 , (3.12)
+
+3.2 Rings or knots?
+
+
+We consider the proton as three "one quark" construction,
+i.e. as three bounded lepton constructions, each of which is a
+ring.
+
+According to above suppositions the proton model can have the
+following forms (Fig.2):
+
+
+13
+
+
+
+
+
+Fig.2
+
+
+A first question appears: does the proton consist of rings or
+of knots?
+The following argument exists about the proton consisting of
+the three engaged knots: if the proton consisted of rings, the
+proton charge would be equal to e
+3 . Therefore, proton has the
+third scheme of the figure 2. (On the other hand the asymptotic
+freedom corresponds better to the ring structure of the barions).
+
+
+3.2 "Three quarks" equation without interaction
+
+
+From the above follows that the proton equation contains
+three "one quark" equations, i.e. three electron equations or
+three pair of the scalar Maxwell equations (one pair for each co-
+ordinate).
+Obviously, there is a possibility of two directions of
+rotations of each quark. Then there must exist 6+6 scalar
+equations for proton description and also 6+6 equations for the
+antiproton description.
+Let's find these equations without interaction, i.e. putting
+the interaction (mass) terms equal to zero. Using the wave
+function form (3.8) and the three-knot matrices (3.7) from the
+equation (3.5) (or (3.6)) we obtain:
+E H H
+x 0 - z y
+
+E H H
+y z 0
+- x
+
+H
+E H
+z -
+1 y x 0
++ +
++ = 0 , (3.13)
+c t iH x 0 y iE z iE
+z -
+y
+x
+iH
+y - iE 0
+z iEx
+
+iH iE iE
+z
+y -
+x 0
+
+or
+
+
+14
+
+
+1 E
+x H H
+z y
+- - =
+0
+c t y z
+1 Ey Hz
++ - H x
+= 0
+c t x z
+1 E H
+z y H
+- - x = 0
+
+c t x y
+, (3.14)
+1 H
+x E Ey
+z
++ - =
+0
+c t y
+z
+1 H y Ez Ex
+- - = 0
+c t x z
+1 H E
+z y E
++ - x = 0
+
+c t x y
+As we see, the equations (3.13) and (3.14) coincide entirely with
+the electromagnetic wave equation system.
+Let's consider now the hypothetical three-knot equation of
+the three-quark particle. If the equations (3.13) describe the
+knots with the x,y,z directions, we can obtain the following
+equations:
+1 E 1 Ez Hx
+x H z
+- =
+0 a + =
+0 a
+c t y c t y
+
+1 H 1 H x Ez
+z Ex
+- = 0 a' + = 0 a'
+
+c t
+y c t y
+
+1 E 1 Ex H y
+y
+- H
+x
+= 0 b + = 0 b
+c t z
+c t z
+(3.15) (3.15')
+1 H E 1 H
+x y y Ex
+- =
+0 b' + = 0 b'
+c t
+z c t z
+1 E H E
+y 1 y H
+z - = z
+0 c + = 0 c
+c t x c t x
+
+1 H 1 H E
+z y
+y
+- Ez
+= 0 c' + = 0 c'
+
+c t x c t x
+
+As it is not difficult to see, each pair of equations a,b,c
+describe a separate knot; the knots of equations (3.15) are rolled
+up in the plains XOZ, ZOY, YOX, and the knots of the equations
+(3.15') are rolled in the plains XOY, YOZ , ZOX.
+
+
+15
+
+
+3.4. Interaction appearance
+
+
+The interaction term in the electron equation was obtained as
+a consequence of the electromagnetic field motion along the
+curvilinear trajectory (see also [1]). This coincides with the
+conclusions of modern physics.
+The modern particle theory is also known as the gauge field
+theory. Without a detail discussion we will only underline the
+basic property of this theory: the interactions between the
+particles are introduced in the field equation via the gauge
+transformations and this procedure is equivalent to the field
+vector transformations in the curvilinear space [4,12]. These
+transformations lead to the covariant derivative appearance
+[4,12]:
+1
+D = - Bkl M
+µ , (3.16)
+uµ µ kl
+2
+1 kl
+which contain the interaction fields B M
+µ kl , while the usual
+2
+derivative these fields don't have.
+Our theory shows that the appearance of the interaction terms
+is not a mathematical transformation, but is bounded with the
+vector motion along the curvilinear trajectory.
+Actually, in the linear photon equation the interaction terms
+don't exist. Therefore, inside of the particle the interaction
+among the particle parts appears only in the instant when the
+photon begins to roll up. The electromagnetic form of the pair
+production theory of electron-positron, stated above, shows that
+thanks to the particle trajectory distortion, in the equation the
+additional terms appear.
+The derivative additional term appearance follows from the
+general theory of the vector motion along the curvilinear
+trajectory. This theme was studied in the vector analyse, in the
+differential geometry and in the hypercomplex number theory
+hundred years ago [13,14] and it is well known. It must be noted
+that in physics there is no need in using all the mathematical
+results, but only the measured physical value (e.g., three co-
+ordinates of the space; time; electromagnetic field vectors;
+energy, momentum and momentum of rotation, etc.). Below we
+consider some conclusions of these theories.
+! !
+Any vector F (r ) can have the following forms [13]:
+! ! ! 1 2 3 1 ! 2 ! 3 ! !1 !2 !3
+F(r ) = F(x , x , x ) = F e + F e + F e = F e + F e + F e
+1 2 3 1 2 3 , (3.17)
+1 2 3
+where F , F , F , F , F , F
+1 2 3 are the invariant and co-variant vector
+i
+modulus and e! and e!i are the basis vectors, which in general case
+are changed from point to point. When vector moves along the
+curvilinear trajectory the partial derivatives get the view:
+! i ! !i
+F
+F
+e
+! F
+e
+!
+i i i i
+= e + F = e + F , (3.18)
+j j i j j i j
+x
+x
+x
+x
+x
+
+where the following notations are used:
+
+
+16
+
+
+e!
+i k ! i ! k
+= e = - e , (3.19)
+j ij k kj
+x
+
+k
+The coefficients ij are named Christoffel symbols or bound
+coefficients. Thus, for the y - direction photon
+!
+E = !3
+E e
+3 , (3.20)
+! !
+H = 1
+H e
+1
+
+we obtain:
+
+
+1 !E E3 !3 3 !
+= e + E
+0 3 k
+e
+k 0
+c t x
+1 !
+H H1 !1 1 !
+= e + H
+0 1 k
+e
+c t k
+x 0
+! , (3.21)
+E
+= E3 e!3 + E
+2 33 ! k
+e
+y k
+x 2
+!
+H H1 !1 1 ! k
+= e + H
+2 1 e
+y k
+x 2
+
+The same we can obtain for the other directions of the photons.
+
+As we see here the additional terms, which the initial linear
+equations didn't have, have appeared. Thus, in the general case,
+when the electromagnetic field vectors of three-knot particles
+move along the curvilinear trajectories, the additional terms of
+the same type, which we obtained in the case of Dirac's equation,
+appear. Thus, we can obtain equations similar to the Standard
+Model Theory equations.
+
+As result we obtain the following equation system:
+1 E H H
+x
+z y
+- - = -
+i 1 Ex
+c t y z c
+1 Ey H H
+z
++ - x
+= -i 1 E
+c t x z y
+c
+1 E H H
+z y
+- - x = -i 2 E
+
+c t x y z
+c
+, (3.22)
+1 H E E
+x y
+z 2
++ - =
+i H
+c t y x
+z c
+1 H y E E
+z x
+- - = i 3 H
+c t x z y
+c
+1 H E E
+z y
++ - x = i 3 H
+z
+c t x y c
+where
+1 , 2 , 3 are the frequencies of each knot. These values
+
+don't entirely define the charges of quarks, as in the case of
+electron, since the current values relate also to the rotation and
+twisting of field vectors.
+
+
+17
+
+
+
+Note: the Christoffel symbols are not the mathematical
+values, but the physical values; namely, they are the currents,
+which appeared thanks to the gyration and twisting of the
+electromagnetic vectors.
+Note also, that these additional terms play a different role
+in the physics. For example, in mechanics the additional term is a
+mass term; in electrodynamics it is an electrical current; inside
+of the particle it is the inner current, i.e. longitudinal non-
+linear fields; etc.
+
+
+
+4. Electromagnetic "two quark" equations
+
+Obviously, the mesons must contain two knots, i.e. they must
+be described by "two engaged quark" equations. In the wave or
+oscillation physics two knot figures appear only by summing two
+mutually perpendicular oscillations (Fig.3)
+
+
+
+
+
+Fig.3
+
+!
+where the electric field vector E is drawn as strokes. As we see
+the two-knot figure has one positive and one negative knot, that
+is in accordance with the quark meson model. Note that this meson
+model's spin must be equal to zero.
+From above we can suppose that:
+1) the meson equations must be the equation system which consists
+of one electron-like and one positron-like equation; and
+2) these equations must be the result of the rolling up of two
+initial photons with mutual perpendicular directions,
+3) the electric vectors of both photons must lie in one plain,
+
+e.g., of one photon with y -direction, which contains E , H
+x z , and
+
+other photon with x -direction, which contains E , H
+y z field vectors
+
+(see Fig.4).
+
+
+
+
+
+Fig.4
+
+
+Obviously there are a lot of building variants of such pairs.
+The simplest way for the two-knot (meson) equation construction
+
+
+18
+
+
+is to use the electron-positron equation or the three-knot
+(baryon) equations. For example, for the building of a two-knot
+particle in the XOY plain it is enough to use the above field
+vectors, making equal to zero the field vectors of photon with the
+Poynting vector having z -direction.
+
+
+
+5. About symmetry breaking and mass appearance
+
+
+Among the QCD and electroweak theory there is one serious
+difference: the interaction particles of QCD (gluons) are
+massless, and the interaction particles of electroweak theory
+(intermediate bosons) have big masses. The electroweak theory is
+built in the same way as the QCD, and until one point the
+electroweak interaction particles don't have masses. For the
+masses acquirement in the electroweak Lagrangian one function is
+introduced - a single complex Higgs doublet, which describes the
+Higgs boson ­ a hypothesised spinless particle H. Then, some
+mathematical transformation, which is named the spontaneous
+symmetry breaking, is realised. Thanks to the Higgs boson vacuum
+interaction, the massless interaction particles acquire the
+masses, but the Higgs boson doesn't change; thus the Higgs boson
+acts as the reaction catalyst.
+
+The problem exists: is there a particle in our photon
+symmetry breaking theory, whose action is similar to the Higgs
+boson action?
+
+Let's show that such particle really exists, although it has
+other properties from the Higgs boson. Consider newly the pair
+production reaction (2.1) in form:
++ -
++ N N + e + e , (4.1)
+
+where N is the nucleus of atom (e.g., proton) or other charged
+particle. For the Lagrangian of this reaction we can write
+conventionally:
+L( + N ) = L( + -
+N + e + e ) , (4.2)
+
+or
++ -
+L( ) + L(N ) = L(N ) + L(e + e ) , (4.3)
+
+Of course, the nucleus is not the Higgs boson, but it plays the
+same role as a catalyst in the particle transformations.
+Note also that the relation (4.1) can be considered as a
+description of the wave refraction, where the term L(N )
+
+corresponds to the medium with some refraction index and can be
+described as the dispersion matrix for the transformation from the
+linear wave to the gyration wave.
+
+
+19
+
+
+Appendix. Hadron models
+
+We have considered above the hadrons as particles, consisting
+of two or three knots. The equation of one knot is the Dirac
+equation that has a harmonic solution. Therefore, it can be
+supposed that the hadrons are the superposition of two or three
+harmonic oscillations. On other words, the hadrons are the space
+wave packets. According to the Schreudinger [15] (see also [16],
+section 6.1) the wave packets, built from harmonic waves
+(oscilations), don't have a dispersion, i.e. they are stable.
+Thus, we can, as a fist approximation, build the hadrons model as
+the space packet of the harmonics superposition.
+Of course, the below models differ a lot from the real models
+and can not be used for calculation of the particle features. But
+they give some representation about them.
+The models were constructed using Mathcad-program.
+
+
+A1. "Three quarks" model
+
+
+Thus, we suppose that the three-knot model is built from
+three harmonics oscillation. Let's choose the following
+oscillation parameters:
+= ,
+3 = = N := 200
+1 ,
+2
+2 3
+3
+
+=
+, = = j := 0..
+1 , 0 N
+2 2 2 3
+r = ,
+2 r = r = k := 0..N
+1 ,
+2
+2 2
+3
+
+t =
+: j 2 v =
+: k
+j N k
+X : r t
+k j = sin( j - )
+, 1 1 1
+Y : r t
+k j = sin( j - )
+, 2 2 2
+Z : r t
+k j = sin( j - )
+, 3 3 3
+
+We obtain the following three-knots figure A1:
+
+
+2
+1
+0
+1
+2 2
+2 1
+0 1
+10 2
+
+1
+
+
+2
+
+,,X
+Y
+Z
+
+
+
+
+
+Fig. A1
+
+
+20
+
+
+To show the field plain gyration and twisting we change the
+j
+parameter t t :=
+j to . Then we obtain figure A2:
+j 2.2
+
+
+
+
+
+
+2
+1
+0
+1
+2 2
+2 1
+
+0 1
+10
+2
+
+1
+
+
+2
+
+
+,,X
+Y
+Z
+
+
+
+
+
+Fig. A2
+
+
+
+A2. "Two quarks" model
+
+
+To build the two-knot (meson) model in the above proton model
+equations we choose the following new parameters:
+= 1 =
+1 and 0
+1 ,
+and put Z :
+k j = 0
+, . Then we obtain the figure A3:
+
+
+2
+1
+0
+1
+2 2
+,,X
+Y
+Z
+1
+
+0 1
+
+2
+0
+
+
+
+
+
+Fig.A3
+
+
+We hope that the further investigations will allow us to
+build real models, which will give us the opportunity to calculate
+the particle features.
+
+
+21
+
+
+Conclusion
+
+Our scope to show that Maxwell's equations can describe the
+composite space figures, which consist of two or three knots and
+have the hadrons properties, is fulfilled.
+Of course we can not yet answer all questions about hadrons,
+but if the above theory is right we can understand better what are
+the quark and gluon, why free quarks and gluons do not exist, why
+quarks have fractional charges, why gluons interact with each
+other and can produce the particles; and many others.
+
+
+
+
+References
+
+1. Kyriakos, A.G.(http://arXiv.org/abs/, 2002.
+2. Kyriakos, A.G.(http://arXiv.org/abs/, 2002
+3. Kyriakos, A.G.(http://arXiv.org/abs/, 2002.
+4. Lewis H. Ryder. Quantum field theory. Cambridge university
+press, 1985.
+5. L.B.Okun. Elementary particle physics (in Russian). Moscow,
+1988.
+6. A.Pich. Aspects of quantum chromodynamics. (arXiv:
+ v.1, 13 Jan.2000)
+7. L.T. Schiff. Quantum Mechanics. 2nd edition, McGraw-Hill Book
+Company, Jnc, New York, 1955.
+8. A.Sokoloff, D.Iwanenko. Quantum field theory (in Russian).
+Moskwa-Leningrad, 1952.
+9. M.-A. Tonnelat. Les Principes de la Theorie Electromagnetique et
+de la Relativite. Masson et C. Editeurs, Paris, 1959.
+10. W.J.Archibald.Canad. Journ.Phys., 33, 565 (1955)
+11. A.I. Achieser, W.B. Berestetski. Quantum electrodynamics.
+Moscow,1969.
+12. F.A.Kaempffer. Concepts in quantum mechanics. Academic press,
+N.Y and London, 1965.
+13. G.A. Korn, Th.M. Korn. Mathematical handbook for scientists
+and engineers. McGraw-Hill Book Co., 1961.
+14. E. Madelung. Die mathematischen hilfsmittel des physikers.
+Springer verlag, Berlin, 1957
+15. E.Schreudinger. Naturwissenschaften, Bd.14, S.664-666 (1926)
+16. M.Jammer. The conceptualdevelopment of quantum mechanics.
+McGraw-Hill book Company, 1967.
+
+
+

@@ -1,0 +1,1932 @@
+
+
+
+
+
+
+Summing Divergent Perturbative Series
+in a Strong Coupling Limit.
+The Gell-Mann­Low Function of the j4 Theory
+
+I. M. Suslov
+
+Kapitza Institute of Physical Problems, Russian Academy of Sciences, Moscow, 117334 Russia
+e-mail: suslov@kapitza.ras.ru
+
+
+
+
+Abstract--An algorithm is proposed for determining asymptotics of the sum of a perturbative series in the
+strong coupling limit using given values of the expansion coefficients. Application of the algorithm is illus-
+trated, methods for estimating errors are developed, and an optimization procedure is described. Applied to the
+4 theory, the algorithm yields the Gell-Mann­Low function asymptotics of the type (g) 7.4g0.96 for large g.
+The fact that the exponent is close to unity can be interpreted as a manifestation of the logarithmic branching
+of the type (g) ~ g(lng)­ (with 0.14), which is confirmed by independent evidence. In any case, the 4
+theory is self-consistent. The procedure of summing perturbative series with arbitrary values of the expansion
+parameter is discussed.
+
+
+
+
+1. INTRODUCTION approach allowed the critical indices of the phase tran-
+sition theory to be determined to within the third deci-
+This paper presents a systematic description of the mal position [6­8], thus rendering the intermediate
+algorithm proposed previously in a brief communica- coupling region (g ~ 1) principally accessible. However,
+tion [1]. Operation of the algorithm is illustrated by test this direction was not developed further because the prob-
+examples, methods for estimating errors are developed, lem of renormalon contributions arose that cast doubt [9]
+and an optimization procedure is described. Using this on the applicability of the Lipatov method. The interest in
+algorithm, the Gell-Mann­Low function of the 4 the- this field had dropped sharply and no breakthrough into
+ory--the main physical result of this study--can be the strong coupling region took place.
+reconstructed with a tenfold greater precision.
+The abstract formulation of the problem is as fol- Expanding the theory into the strong coupling
+lows. Let some function W(g) be expanded into a series region is required in many fields of theoretical physics.
+of the perturbation theory in powers of a coupling con- The most known cases, related to the dependence of the
+stant g: effective coupling constant g on the spatial scale L, include
+the problem of electrodynamics at very small distances
+and the confinement problem. The dependence of g
+W g
+( ) = W ­
+( g)N. (1)
+on L in renormalizable theories is determined by the
+N
+equation
+N = 0
+
+The first several expansion coefficients WN can be dg =
+obtained by straightforward diagram calculations. The ­-------------- g
+( ) = g2 g3
+­ + g4 ­ ... . (3)
+2 3 4
+d L2
+ln
+high-order terms can be determined using the Lipatov
+method [2], which is applicable to most of the impor- In the general case, this description requires informa-
+tant problems and yields for WN an asymptotic behavior tion on the Gell-Mann­Low function (g) for arbitrary g.
+of the type (see reviews [3­5]): The possible variants were classified by Bogolyubov
+and Shirkov [10]. In the case of > 0, the situation
+Was = caN(N + b) caN Nb ­ 1N!. (2) 2
+N reduces to the following. If the function (g) possesses
+Matching asymptotics (2) to the first coefficients pro- a root at g
+0, then g(L)
+g0 as L 0. If (g) at large g
+vides information about all terms of the series and behaves as g with 1, then g(L)
+at small L;
+allows the W(g) function to be approximately restored, should (g) grow as g with > 1, the theory is no
+but this procedure requires using special methods for longer self-consistent and cannot describe the behavior
+summing divergent series. Implementation of this of g(L) in the entire range of L.
+
+
+0001
+
+
+
+
+
+2 SUSLOV
+
+The first attempt at restoring the function in the 4 Note that the interaction term in expression (4) corre-
+theory with the Euclidean action sponds to the "natural" charge normalization, for which
+the parameter a in asymptotics (2) is unity. It will be
+demonstrated that the results obtained in [12, 13] are
+4 1
+S{} = d x ---
+()2 162
+-----------g4
++ (4)
+not artifacts: they objectively reflect the behavior (g)
+2 4!
+in the interval 1 g 10. However, the true asymptot-
+ics is manifested at still greater g and gives evidence of
+was undertaken by Popov et al. [11]. The Shirkov group self-consistency of the 4 theory.
+attempted to move into the strong coupling region [12]
+and obtained for large g asymptotics of the type 0.9g2, 2. RELATIONSHIP BETWEEN W(g)
+which differs only by a coefficient from a one-loop law ASYMPTOTICS AND EXPANSION
+1.5g2 valid for g 0. A close asymptotic behavior COEFFICIENTS
+(1.06g1.9) was obtained by Kubyshin [13], while the
+more recently developed variational perturbation the- Let us formulate the problem of restoring the
+ory of Sissakian et al. [14] yields 2.99g1.5. All these asymptotics
+results give evidence that the 4 theory is not self-con-
+W g
+( ) = W , g , (7)
+g
+sistent.1 This is, however, rather strange from the stand-
+point of condensed-matter applications, where a quite using the coefficients WN of the series (1). This coeffi-
+reasonable disordered system model [16, 17] well cients, increasing at large N according to the factorial
+defined in the continuum limit is mathematically law (2), are assumed to be set numerically. By analogy
+strictly reduced to the 4 theory. Another argument fol- with the case of critical indices introduced in the phase
+lows from the author's recent study [9] showing the 4 transition theory, the slow (logarithmic) corrections to (7)
+theory to contain no renormalon singularities, which are considered as overstating the accuracy. For exponen-
+can be considered as evidence of self-consistency. This tially growing W(g), which can be revealed by abnor-
+situation makes revision of the above results an urgent mally large values of , the series (1) is considered
+task. upon preliminarily taking the logarithm.
+
+In this paper, an algorithm is proposed for restoring
+asymptotics of the sum of a perturbative series in the 2.1. Standard (Conform-Borel) Summing Procedure
+strong coupling limit using given values of the expan- Considering the sum of series (2) in the Borel
+sion coefficients (Section 2). Application of the algo- sense [20], we use a modified definition of the Borel
+rithm is illustrated by test examples with both known image B(g),
+expansion coefficients (Section 4) and the coefficients
+obtained by interpolation (Sections 5 and 6). Methods
+b ­ 1
+for estimating errors and an optimization procedure are W g
+( ) = dxe­x x 0 B g
+( x),
+
+developed (Sections 3 and 6). The problem of summing
+the perturbative series with finite g is considered, and it 0 (8)
+
+is demonstrated that knowledge of the W(g) asymptot-
+ics significantly increases precision of the results (Sec- B g
+( ) = B ­
+( g)N, B
+W N
+= -----------------------,
+N N (N + b )
+tion 7). The main physical result of this study consists 0
+N = 0
+in reconstructing the Gell-Mann­Low function of the
+where b
+4 theory (Section 8). The task is solved proceeding 0 is an arbitrary parameter (convenient for opti-
+mization of the summation procedure [6]). It was sug-
+from the same information as that used in [13], namely, gested by Le Guillou and Zinn-Justin [6] and recently
+the first four coefficients of expansion of the (g) func- proved for the 4 by the author [9] that the Borel image
+tion in the subtraction scheme [15, 18] is analytical in the complex plane g cut from ­1/a to -
+(Fig. 1a). The analytical continuation of B(g) from the
+3 154.14
+g
+( ) = ---g2 17
+------g3
+­ + ----------------g4 2338
+------------g5
+­ + ..., (5) convergence circle |g| < 1/a to an arbitrary complex g
+2 6 8 16 value is provided by a conformal mapping g = f(u) of
+the plane with a cut into a unity circle |u| < 1 (Fig. 1b).
+and their asymptotics according to Lipatov, taking into The re-expansion of B(g) into a series in u,
+account the first-order correction [19]:
+
+B g
+( ) = B ­
+( g)N B u
+( ) uN, (9)
+= U
+
+1.096 4.7 N g = f u
+( ) N
+= ------------- N7/2 N!1 ­ ------- + ... . (6)
+N 162 N
+N = 0 N = 0
+gives a series converging for any g. Indeed, all the pos-
+1 sible singular points (P, Q, R, ...) of the B(g) function
+It should be noted that Kazakov et al. [12] do not insist on this
+conclusion, emphasizing the preliminary character of their results occur on the cut and their images (P, Q, Q', R, R', ...)
+(see also [15]). fall on the boundary |u| = 1 of the circle. Therefore, the
+
+2001
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 3
+
+second series in (9) converges at any u < 1, but the inte- (a) g (b) u
+rior of this circle is in a single-valued correspondence Q R
+with the region of analyticity in the g plane.
+­1/a
+The conformal mapping is defined by the formulas 0 g = 0 g =
+P
+R Q P ­1 1
+4 u (1 + ag)1/2 ­ 1
+g = --- ------------------ or u = ----------------------------------, (10) Q'
+a ( R'
+1 ­ u)2 (1 + ag)1/2 + 1
+
+from which we readily find a relationship between UN
+and BN: u u
+(c) R (d)
+N Q
+4
+K
+U = B , U = B ­--- CN ­ K
+
+0 0 N K a N + K ­ 1 g =
+(11)
+K = 1 g = 0 g =
+P g = 0 g = 0
+(N 1). 0 1 0 1
+
+In order to establish a relationship between asymptotics
+(7) and the expansion coefficients, we will use the fact that
+the behavior of UN at large N is determined by a sum of the Q' R'
+contributions from singular points occurring on the
+boundary |u| = 1. This can be readily checked by
+expressing UN in terms of B(u), Fig. 1. (a) The Borel image is analytical in the complex
+plane with (­, ­1/a) cut; (b) this analyticity region can be
+du B u
+( ) conformally mapped onto the unity circle; (c) restricting the
+U = -------- -----------, (12) consideration to analytical continuation to the positive
+N 2
+° iuN+1 semiaxis, the conformal mapping is admitted onto any
+C region in which the point u = 1 is the closest boundary point
+to the origin; (d) in the extremal form (18) of this mapping,
+and deforming the integration contour (enclosing the the analyticity region can be conformally mapped onto the
+point u = 0) so as to make it passing around the cuts plane with (1, ) cut.
+from all singular points to infinity. A singularity of the
+type A(1 ­ u/u0) at the point u0 = ei makes a contribu- and B
+~ g
+( ) corresponding to b
+tion to U 0 and b1, we readily obtain
+N of the type a recalculation formula
+A e­iN b ­ b ­ 1
+-------------- ------------. (13) 1 0
+1 x g
+
+­
+( ) N1 + B
+~ g
+( ) = ----------------------- dx-------------------- B ------------ , (15)
+
+b
+( ­ b ) 1 + x
+1 0 (1 + x)b1
+0
+Now we can readily find the contributions to UN from and a rule of singularity transformation at a finite (g
+the singular points of the initial Borel image B(g). For 0)
+or infinite points on the passage from b
+power singularities at the points g = , g = ­1/a, and 0 to b1:
+g = g0 with g0 (­, ­1/a), the corresponding expres- g ­ g
+0
+
+sions are as follows: B g
+( ) = A ­
+( ) --------------
+B
+~ g
+( )
+g
+0
+
+A 4
+1 ­ g + ­ b0
+B g
+( ) = Ag U = -------------- --- --------------, b1
+= A(­ ­ b + b ) g0
+-------------- , (16)
+N 2
+( )a 1 0
+N1 ­ 2 g
+0
+
+A A
+A (­1)N B g
+( ) = ----------------------g B
+~ g
+( ) = ----------------------g .
+B g
+( ) = A g
+( + 1/a) U = ---------------------------------------------, ( + b ) ( + b )
+N ( 0 1
+4a) ­
+( 2) N1 + 2
+(14) As is seen, an increase in b
+0 weakens the singularities
+B g
+( ) = A g
+( ­ g ) U at a finite point, while the character of singularity at
+0 N
+infinity remains unchanged. For sufficiently large b0,
+2 A cos
+(/2) cos(N ­ /2) the contributions from finite points to U
+= N are sup-
+-------------- -------------------------- ---------------------------------------,
+­
+( ) 3
++ pressed and the corresponding asymptotic behavior is
+a sin (/2) N1 determined by the singularity of B(g) (and, hence, of
+where = arccos(1 + 2/ag ) . W(g)) at g :
+0
+W
+The singularities of B(g) change depending on the 4
+
+U = -------------------------------------- --- N2 ­ 1, N . (17)
+N
+parameter b 2
+( ) b
+( + ) a
+0 in formulas (8). For the Borel images B(g) 0
+
+
+4 SUSLOV
+
+This formula solves the problem: the coefficients UN W
+are related by a linear transformation (11) to the initial U = ----------------------------------------. (21)
+( +
+coefficients W a ( ) b )
+0
+N (see Eq. (8)), while their asymptotic
+behavior (17) determine the parameters W and of As a result, we arrive at a simple algorithm: calculate
+asymptotics (7). coefficients BN by formula (8) using preset WN, recalcu-
+Formulas (14) indicate that a contribution to U late B
+N N to UN using relationship (19), and take the power
+from the singular point g = is monotonic, while the limit (20) for large N to determine parameters W and
+contributions from other points are oscillating. There- for asymptotics (7).
+fore, increasing b0 leads to a change in the UN behavior
+from oscillating to monotonic. This phenomenon was 2.3. Random Error Growth
+observed in [6] and, albeit not given any satisfactory
+explanation, regularly employed for improving the The above algorithms possess an implicit drawback
+divergence of perturbative series. that significantly restricts the accuracy of description.
+Let us introduce a reduced coefficient function:
+
+2.2. Modified Conformal Mapping W W
+F N
+= --------- N
+= ------------------------------
+N as
+A more effective algorithm is provided by using a W caN(N + b)
+N
+modified conformal mapping. (22)
+A A
+1 2
+According to the Riemann theorem [21], the confor- = 1 + ------ + ------ + ... AK
++ ------- + ...,
+N
+mal mapping of a simply connected region into a unity N2 NK
+circle is unique to within the so-called normalization, which varies within finite limits and admits a regular
+which can be fixed by setting the images of two expansion in the powers of 1/N. The latter can be
+(internal and boundary) points. Under the conven- checked by calculating sequential corrections to the
+tion that the point g = 0 is imaged by u = 0 and g = by Lipatov asymptotics [19]. In practice, FN is set with a
+u = 1, conformal mapping (10) is the only one that certain accuracy N (calculation or round-off error),
+allows the Borel image to be analytically continued to which leads to a random error in U
+arbitrary complex g values. However, this is not neces- N. The error disper-
+sion for the algorithm considered in Section 2.2 is as
+sary: to perform the integration in (8), the analytical follows:
+continuation to positive semiaxis is sufficient. Then,
+any conformal mapping into a region of the type N (K + b) 2
+depicted in Fig. 1c is admissible, in which the point (U )2 = c -----------------------CK ­ 1 . (23)
+
+N K N ­ 1
+u = 1 is the boundary point closest to the origin. The (K + b )0
+K = 1
+second series in expansion (9) is convergent at u < 1
+and, in particular, in the interval 0 < u < 1 imaging the For the round-off errors, the value of K = is indepen-
+positive semiaxis. An advantage of this conformal map- dent of K. A sum calculated by the steepest descent
+ping is that the contributions from singular points P, Q, method for large N,
+Q', R, R' ... to UN are exponentially suppressed and the U 2N, (24)
+U N
+N asymptotics for all b0 is determined by a contribu-
+tion of the singular point at u = 1 related to the singu- demonstrates a catastrophic growth of the error. Calcu-
+larity of W(g) at g . lation with a double computer accuracy yields ~ 10­14,
+Let us use an extremal form of such mapping, imag- so that UN is on the order of unity for N 45.2 This
+ing the plane with cut (­, ­1/a) into the plane with cut restricts the accuracy of determining the parameters of
+(1, ) (Fig. 1d). This mapping is given by the formula asymptotics (7) to approximately 1%. According to
+expression (23), an increase in b
+u 0 decreases the error so
+g = ------------------, (18) that the permissible N level grows. However, large b
+a 1
+( ­ u) 0
+values delay the process of attaining the asymptote (20),
+which leads to the following relationship between U so that no advantages are eventually gained.
+N
+and B For the algorithm considered in Section 2.1, the
+N:
+error grows at a still higher rate,
+U = B ,
+0 0 U ( 2 + 1)2N 5.8N, (25)
+N N
+B (19)
+U K
+= ------(­1)KCK ­ 1
+(N 1).
+N N ­ 1 and the requirement of using sufficiently large b0 signif-
+aK
+k = 1 icantly restricts the possibility of optimization (see Sec-
+tion 3). Nevertheless, this algorithm may still be useful
+The asymptotic behavior of UN for large N is
+2 This error growth is observed in fact in the form of rapidly
+U = U ­ 1 , N , (20)
+N N increasing irregular oscillations.
+
+
+
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 5
+
+UN 2
+(a) (b)
+
+
+~n
+
+n
+U N ­ 1
+
+N N opt
+min Nmin
+
+Fig. 2. The UN treatment according to the power law: (a) a typical situation whereby large N correspond to a large statistical error
+and small N, to a large systematic error; (b) the plot of 2 versus Nmin at a constant number of points n.
+
+
+to increase the accuracy of calculations in the region of suited to obtaining a reliable zero-order approxima-
+small g (Section 7). Below we dwell on the algorithm tion.4
+of Section 2.2 based on a modified conformal mapping, Treating U
+which offers indisputable advantages in the region of N by the power law can involve a standard
+strong coupling. procedure of minimization of 2 [22]:
+The above considerations indicate that the computer 2 y ­ y(x )
+i i
+2
+= ---------------------
+
+round-off errors restrict the accuracy of the algorithm to , (27)
+
+i
+~1% even for test examples where the W i
+N values are
+precisely known. In real cases, the accuracy of WN cal- where yi are the values set at the points xi with a statis-
+culations is much worse and the situation might appear tical error i and fitted to the theoretical function y(x).
+as hopeless. However, this is not so in fact because we In this process, it is important to select properly the
+mostly deal with interpolation errors, the influence of interval Nmin N Nmax for the UN treatment. Indeed,
+which has a quite different character. The linear rela- large N values lead to large statistical errors determined
+tionship (19) known in mathematics as the Hausdorff by formula (23), while small N values increase the role
+transformation [20] possesses a remarkable property of a systematic error related to the fact that UN still did
+N not attain asymptotics (20) (Fig. 2a). The
+K upper limit N
+Km ­
+( 1) CK ­ 1 = = , , , ­ (26)
+0, m 0 1 ... N 2, max can be chosen using the condition
+N ­ 1 UN ~ UN, since the points with greater N provide no
+K = 1 additional information; this choice is not very critical
+that makes smooth errors (well approximated by poly- since the procedure of 2 minimization automatically
+nomials) insignificant even despite their large magni- discriminates the points with large statistical errors,
+tude.3 Of course, limitations related to the computer 2
+which are used in averaging with a weight of 1/ . The
+i
+round-off error are still valid, but a 1% accuracy is quite lower limit N
+sufficient for real problems and this level can hardly be min has to be selected taking into account
+improved for the level of information accessible at the 2 value, which reaches an extremely high level for
+present. small Nmin but attains a "normal" level of n ± const n
+Strictly speaking, the problem of round-off errors is (n is the number of points) with increasing Nmin (Fig. 2b).
+purely technical and can be solved by means of special The optimum value of Nmin corresponds to the left end
+precise arithmetic programs which allow the calcula- of the "plateau," where a systematic error becomes
+tions to be performed with arbitrary number of signifi- smaller than the statistical error and the available infor-
+cant digits [22], however, the accuracy of and W res- mation is most completely employed.
+toration logarithmically depends on the computation In fact, the conditions for a strict statistical treat-
+accuracy. Algorithms that are more perfect in this ment of 2 were not fulfilled because the errors UN for
+respect do exist, but their consideration falls outside the various N were not independent (see Eq. (23)). This was
+scope of this paper; such methods, albeit providing for
+a high accuracy in the test examples, are insufficiently 4 This situation is well known in computational mathematics [22].
+robust and work unsatisfactorily under conditions of All algorithms can be roughly divided into two groups: those in
+restricted information. The algorithm under consider- the first group possess moderate accuracy and convergence rate
+but are highly reliable (an example is offered by seeking for a
+ation is quite stable and, in the author's opinion, ideally root of equation through segment halving); algorithms of the sec-
+ond group show high accuracy and ensure rapid convergence but
+3 This implies that, in the case when many WN values are known pose stringent requirements with respect to the function smooth-
+with low precision, the data should be used upon approximation ness (e.g., in seeking a root with the forecast for several deriva-
+by a smooth function rather than directly. tives).
+
+
+6 SUSLOV
+
+Accordingly, the asymptotic behavior of UN written by
+2 (a)
+analogy with (20) and (21) is described as
+
+W
+U = ---------------------------------------- N ­ 1
+N
+a
+( ) b
+( + )
+0 (29)
+W'
++ ' ­ 1 + ...
+
+------------------------------------------- N .
+­ ­' a '
+b
+( ') b
+( + ')
+0
+0
+eff (b) First, let us neglect the correction terms indicated by
+dots in expansion (29). A formal treatment of this
+expression according to the power law (20) yields quite
+satisfactory results because the truncated function (29)
+' in the double logarithmic scale varies smoothly and is
+well approximated by a straight line. However, this
+approximation only leads to certain effective values of
+­ ­' b0
+U and U
+.
+(c)
+Uexact
+Note that, because of the poles of the gamma function,
+the first and second terms in (29) become zero for b0 = ­
+and b0 = ­', respectively. These b0 values correspond
+­ ­' b0 to the purely power laws, UN N' ­ 1 and UN N ­ 1,
+which results in increasing quality of the approxima-
+tion and a sharply decreasing 2 value. Within a fixed
+Fig. 3. Theoretical plots of (a) 2, (b) eff, and (c) U ver- working interval Nmin N Nmax, the pattern is as follows
+sus b0 constructed with neglect of the correction terms indi- (Fig. 3): the 2 versus b0 curve exhibits sharp minima at
+cated by dots in expression (29). b0 = ­' and b0 = ­; the effective index eff drops down
+to ' in the vicinity of b0 = ­ and is close to outside
+manifested by the fact that 2 values decreased below this region (being exactly equal to at b0 = ­'); the
+the "normal" level (dashed curve in Fig. 2b), while the effective parameter U corresponds to exact W at
+statistical uncertainty of and W became very small b0 = ­' and crosses the zero level in the vicinity of the
+and did not reflect real errors even in the order of mag- point b0 = -. The slope of a linear portion of the curve
+nitude. For this reason, we considered the choice of near this root is
+Nmin as satisfactory when the 2 values were on the cor-
+rect order of magnitude (~n); small changes in N W
+min did U -----------------(b + ), (30)
+
+not significantly influence the results. 0
+a
+( )
+
+which provides for an W estimate not too sensitive
+3. DEPENDENCE ON THE PARAMETER b with respect to errors. The rejected terms in (29) may
+0
+AND ACCURACY ESTIMATION only slightly perturb this pattern.
+The pattern outlined above was actually observed,
+Direct application of the algorithm described in Sec- but the behavior of
+tion 2.2 is insufficiently effective since the results eff and U in the vicinity of b0 = ­ is
+usually discontinuous (as indicated by dashed branches
+depend on the arbitrary parameter b0, which implies in the curves of Fig. 3). However, this circumstance is
+that an additional investigation is necessary to select the not physically significant and only reflects features of
+optimum value. the mathematical procedure involving taking logarithm
+It is naturally expected that corrections to asymp- of the UN modulus,
+tote (7) have the form of a regular expansion with ln U = ln U + ( ­ 1) ln N, (31)
+respect to 1/g. However, even the simplest examples N
+show that, in the general case, this assumption is not followed by using a linear fitting algorithm [22]. The
+valid: in the zero-dimensional case, the corrections fol- sign of U is determined by calculating 2 for U = |U|
+low the powers of g­1/2; for an anharmonic oscillator, and ­|U| and selecting a variant with the minimum
+the corrections follow the powers of g­2/3 (see Section 4). value. This procedure leads to rather senseless results in
+For this reason, we admit the power corrections in the the case of U
+general form: N changing sign, but this is only possible
+in a small vicinity of the point b0 = ­, while the sign
+of UN outside this narrow interval is determined by the
+W g
+( ) = W + W ' + ... . (28)
+g 'g sign of the first term in the right-hand part of Eq. (29).
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 7
+
+Smoothness of the U(b0) function is restored when which can be considered as a zero-dimensional limit of
+the treatment according to power law (20) is performed the functional integral in the n-component 4 theory.
+by varying only U at a fixed (approximate) value. Here, it is easy to calculate the expansion coefficients
+Small variations of virtually do not affect the position
+of the root of U n + 2
+n
+
+(b0), while significantly influencing the N + ------------
+N + ---
+
+W 4 4
+value determined from the slope of the linear rela- W = caN -------------------------------------------------------- (33)
+tionship (30). The above considerations suggest four N (N + 1)
+different methods for estimating the index, based on (i) and their behavior for large N:
+the eff value at the first minimum of 2 (counting from
+large b0), (ii) the position of the second 2 minimum, (iii) A
+1
+the change in the sign of U upon the logarithmic treat- W = caN(N + b)1 + ------ + ... , (34)
+N N
+ment, and (iv) the change in the sign of U
+upon treatment
+at a fixed value (taken equal to a preliminary estimate). where
+The first two estimates ensure, in the general case, a
+higher precision, since their uncertainty is determined n ­ 1
+a = 4, b = -----------,
+by the ratio of rejected terms in the right-hand part of 2
+expansion (29) to the characteristic value of the first (35)
+term outside the narrow vicinity of b 2n/2 (n ­ 2) 4
+( ­ n)
+0 ­. The accu- c = ----------, A = --------------------------------.
+1
+racy of the last two estimates is determined by the ratio 4 16
+of the second term to the first term. When the rejected
+terms in (29) are comparable with the second term (this Asymptotic behavior of the integral at g is
+condition can be monitored by reproducibility of the ' described by the following relationships:
+value), all four methods are on the same footing. In
+W g
+( ) = W , = ­n/4,
+practice, it is always important to monitor the change in g (36)
+the sign of U because this point reliably indicates the W = n
+( /4)/4,
+minimum in 2 corresponding to b0 = ­ (the number- with the corrections having the form of a series in pow-
+ing of minima may change because of their disappear-
+ance, appearance of spurious minima, etc. (see below). ers of g­1/2. In the test, the required number of coeffi-
+cients W
+There are three possible estimates of W N was set with a double computer accuracy
+, which use ( ~ 10­14), after which the and W
+either (i) the U values were
+value at the first minimum of 2 or restored assuming their Lipatov asymptotics to be
+(ii, iii) the slope of a linear portion of the U(b0) curve known.
+in the vicinity of the root for the treatment at a fixed
+(variation of the latter parameter within the interval of (i) n = 1. Figure 4 shows the U
+~ N against N curves
+uncertainty obtained by the four methods indicated above calculated for various values of the parameter b0
+provides the upper and lower estimates for W, respec- (points) and the results of treatment according to the
+tively). power law (solid curves). For better illustration, the
+As can be readily shown, a difference between vari- data are presented in the form of coefficients,
+ous estimates of and W is on the same order of mag- U
+~ =
+N U b
+( + N ), (37)
+nitude as the deviation of each estimate from the exact N 0 0
+value. This correlation can be used for estimating normalized so as to tend to a finite limit for b0 ;
+errors. The availability of several estimates is of great N
+significance: while any two estimated values can acci- 0 is the lower limit of summation in relationship (19),
+which can differ from unity when several first terms of
+dentally be close to each other (leading to understated the series (1) are zero. As is seen, all curves in fact
+value of the predicted error), the accidental proximity exhibit a power asymptotic behavior for large N.
+of three or four estimates is hardly probable. Attaining the asymptote is delayed for b0 1 and
+b0 ­N0, because of the existence of the correspond-
+4. TEST EXAMPLES ing large parameters in relationship (19). In contrast,
+The operation of the proposed algorithm can be the power law holds even for small N for b0 = 0.82 cor-
+illustrated by application to several test systems. responding to the first minimum of 2.
+
+Figure 5 shows the plots of 2, U
+~
+4.1. Zero-Dimensional Case eff, and =
+U(b0 + N0) versus b0 calculated in the interval
+The first example is offered by the integral 24 N 50. For the first minimum of 2 corresponding
+to b0 = 0.82, estimates obtained according to Section 3
+are as follows:
+W g
+( ) = dn ­ 1 exp( 2
+­ g4
+­ ), (32)
+= ­0.247, W = 0.892, ' = ­0.82. (38)
+0
+
+
+8 SUSLOV
+
+The second minimum of 2 taking place at b0 = 0.26
+­ ~
+UN yields
+b0 = 5 = ­0.26, ' = ­0.67. (39)
+4
+
+3 The U
+0.02 value changes sign at b0 = 0.210 and 0.215 for
+the treatment with taking a logarithm and at a fixed
+2 index, which yields the estimates = ­0.210 and
+1.5 -0.215, respectively. The slope of a linear portion in the
+0.01 U(b0) curve in the vicinity of the root (dashed line in
+0.5 Fig. 5 constructed upon treatment at a fixed index)
+0.82 yields the W values depending on the preselected
+0.25 value: for = ­(0.21­0.26), the estimates range within
+0 W = 0.883­0.933. Summarizing all these estimates,
+0.1 we obtain the set of estimates
+­0.2 = ­ 0.235 ± 0.025, W = 0.908 ± 0.025, (40)
+­0.01 ­0.6 ' = 0.75 ± 0.08,
+which are consistent with the exact values
+= ­0.25, W = 0.9064, ' = ­0.75. (41)
+
+­0.02
+Since the ' values in (38) and (39) agree satisfactorily,
+we may conclude that the rejected terms in expansion
+10 20 30 40 (29) are small as compared to the second term. There-
+N fore, the best estimates for are provided (see Section 3)
+by relationships (38) and (39). Restricting to these esti-
+Fig. 4. The plots of U
+~ = U
+N
+N (b0 + 1) versus N mates, we obtain
+at fixed b 0 (points and dashed curves) for integral = ­ 0.253 ± 0.007, W = 0.887 ± 0.005 (42)
+(32) with n=1. Solid curves show the results of treatment
+according to the power law. instead of set (40). Here, the accuracy of determining
+really increased, but the error of W is somewhat under-
+estimated.
+log2 The shape of the 2 curves is highly sensitive to
+8 selection of the lower boundary of the working interval
+Nmin N Nmax. As the Nmin value decreases, the 2
+6 minima tend to smear, while an increase in Nmin leads to
+4 flattening of the curves and the appearance of small-
+scale fluctuations hindering identification of the min-
+2 ima. In attempts at obtaining the clearest minima corre-
+sponding to 2 values of the correct order in magnitude,
+0 0.5 1.0 1.5 b0 the choice was usually made between two­three Nmin
+­ ~
+U eff values.5 A change in the working interval most signifi-
+0.25 cantly affects the estimates (39), with the and ' vari-
+0.2 eff ~
+U ations approximately corresponding to a difference
+0 between (38) and (39).
+0.1
+(ii) n = 2. The 2 plots in Fig. 6 exhibit sharp minima
+0
+~ 0.5 1.0 1.5 at b
+b 0 = 1.26 and 0.50. The first 2 minimum yields
+0
+U
+­0.1
+­0.50
+= ­0.4996, W = 0.442, ' = ­1.26, (43)
+
+eff
+­0.2 ' while the other three methods give = ­0.5000 accu-
+rate to within the last digit. An estimate for ' obtained
+using the second 2 minimum amounts to about 20,
+Fig. 5. The plots of 2, eff, and U~ = U
+(b0 + 1) versus
+5
+b0 for integral (32) with n = 1 in the averaging interval of It should be noted that, in displaying the results of calculations
+24 N 50. Dashed line shows a portion of the U(b0) with fixed decimal point, the 2 minima are well distinguished by
+curve in the vicinity of the root, obtained by the treatment at a the configuration of digits even in the course of a rapid on-screen
+constant index = ­0.25. computer survey.
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 9
+
+which is inconsistent with (43). Therefore, the rejected log2
+terms in (29) are comparable with the second, so that all
+four possible estimates are on the same footing. Treat- 6
+ment of a linear portion of the U(b0) curve near the 4
+root yields W = 0.460. As a result, we obtain
+2
+= ­ 0.5000 ± 0.0004, W = 0.451 ± 0.009 , (44)
+
+
+in good agreement with the exact values 0 0.5 1.0 1.5 b0
+~
+U eff
+= ­0.50, W = 0.4431. (45)
+­0.45
+0
+(iii) n = 3. Here, the 2(b 0.5 1.0 1.5 ­0.55
+0) plots exhibit minima at ~
+b ­0.2 eff U
+0 = 1.07 and 0.77, which yield ­0.65
+= ­0.704, W = 0.192, ' = 1.07 (46)
+
+and Fig. 6. The plots of 2, eff, and U~ = U
+(b0 + 1) versus
+b
+0 for integral (32) calculated with n = 2 in the averaging
+= ­0.77, ' = ­1.42, (47) interval of 20 N 50. Dashed line shows a portion of the
+U(b
+respectively. Estimates obtained using U 0) curve in the vicinity of the root, obtained by the
+changing treatment at a constant index = ­0.5. The eff for b0 = 0.5
+sign are = ­0.86 for the treatment with taking a loga- falls far outside the diagram boundaries.
+rithm and = ­0.84 for the treatment at a fixed index.
+Determining W from the slope of a linear portion in
+the U(b function exhibits a pole at the exact value of the index
+0) curve in the vicinity of the root yields 0.311,
+0.420, and 0.751 for = ­0.704, ­0.77, and ­0.86, = ­1 (see Eq. (29)), so that the next term of the expan-
+respectively. Since the two values of ' reasonably sion becomes significant with the parameters
+agree with each other, the estimates (46) and (47) for
+must be more precise. Taking only these estimates into ' = ­1.50, W = ­ /8 = ­0.2216. (52)
+
+'
+account, we obtain
+= ­0.737 ± 0.033, W Therefore, the proposed algorithm is incapable of restor-
+= 0.306 ± 0.114, (48) ing correct asymptotics described by Eq. (7) in the case of
+' = ­ 1.25 ± 0.18, nonpositive integer values. In order to avoid these prob-
+lems, the algorithm has to be supplemented by the follow-
+in good agreement with the exact values ing rule: if the treatment yields a negative value, the
+= ­0.75, W = 0.3063, ' = ­1.25. (49)
+result must be checked by taking a negative or frac-
+tional power of series (1) and summing the reexpanded
+An allowance for all four estimates of yields series.
+= ­0.78 ± 0.08, W = 0.47 ± 0.28 (50)
+
+
+with markedly greater errors. 4.2. Anharmonic Oscillator
+In this case, we may also point out difficulties aris-
+ing due to an additional "spurious" minimum appearing The second example is offered by the problem of
+at b determining the ground sate E
+0 = 1.90. However, this minimum can be excluded 0(g) of an anharmonic
+from consideration upon identifying the minimum at oscillator described by the Schrödinger equation
+b0 = 0.77 as corresponding to b0 = ­ (by U changing
+sign) and the minimum at b0 = 1.07 as corresponding to d2 x2 gx4
+b ­-------- + ----- + -------- (x) = E(x). (53)
+0 = ­' (by the consistent ' values). In the general 4 4
+case, the process of identifying useful minima resem- dx2
+bles the situation in spectroscopy under high noise con-
+ditions: selecting informative signals requires certain This problem can be reduced to a one-dimensional 4
+skill. theory. Consider E0(g) as the W(g) function with the
+(iv) n = 4. In this case, application of the algorithm initial terms of the perturbative series having the fol-
+encounters the "hidden rock" of this method. Based on lowing form:
+the usual estimates, we obtain a quite precise result:
+1 3 21 333
+= ­1.500 ± 0.004, W = ­0.222 ± 0.005. (51)
+W g
+( ) = --- + ---g ------g2
+­ + ---------g3 30885
+---------------g4
+­ + ... . (54)
+2 4 8 16 128
+However, these values do not agree with (36). The dis-
+crepancy is caused by the fact that the main contribu- Bender and Wu [23] calculated the first 75 coefficients
+tion to the UN asymptotics vanish because the gamma WN up to the 12th decimal digit and obtained an expres-
+
+
+10 SUSLOV
+
+For g , the last term in braces is insignificant and
+­ ~
+UN 0 tends to a constant value of 0.6679863 that can be
+0.2 determined by the variational method [24]. Thus, the
+W(g) asymptotics is described by power series (7) with
+b0 = 10 the parameters
+
+0.1 5 = 1/3, W = (57)
+0.668,
+1 2 and the corrections having the form of a series in pow-
+ers of g­2/3.
+0
+0 ­0.6 Figure 7 presents the plots of U
+~ N against N and the
+­0.8 results of their treatment according to the power law.
+
+­0.9 Figure 8 shows the plots of 2, eff, and U
+~ versus b0.
+­0.1 As is seen, 2 exhibits minima b0 = 1.30 and ­0.34 corre-
+sponding to
+
+= 0.349, W = = ­ (58)
+0.602, ' 1.80
+0 10 20 30 N
+
+and
+
+Fig. 7. The plots of U
+~ = U
+N
+N (b0 + 1) versus N for an = 0.34, ' 20, (59)
+anharmonic oscillator. The notations are the same as in Fig. 4.
+respectively. Estimates obtained using U
+changing sign are = 0.285 for the treatment
+log2 with taking logarithm and = 0.337 for the treatment
+at a fixed index. Determining W from the slope of a
+3 linear portion in the U(b0) curve in the vicinity of the
+2 root yields values in the interval from 0.616 to 0.883.
+The two values of ' having nothing in common indi-
+1 cates that all estimates are on the same footing. As a
+­1 0 1 2 b0 result, we obtain
+­ ~ eff
+U
+0.2 ~ = 0.317 ± 0.032, W = 0.74 ± 0.14, (60)
+
+U 0.4
+0.1 eff in good agreement with the exact values (57).
+0 The above examples show that the accuracy of
+0 1 2 restoring the W(g) asymptotics, while depending sig-
+­0.1 0.3
+nificantly on the particular problem, is generally corre-
+lated with the character of corrections to the UN asymp-
+totics described by relationship (20). An average accuracy
+Fig. 8. The plots of 2, eff, and U~ = U
+(b0 + 1) versus on the order of 10­2 is attained in the zero-dimensional
+b0 for an anharmonic oscillator in the averaging interval of case with odd n, where the corrections to (20) have the
+24 N 45. Dashed line shows the result of treatment at a
+constant index = 0.34. form of power series in N­1/2. For even n, every other cor-
+rection vanishes due to the poles of the gamma function
+to leave a regular expansion in 1/N, which markedly
+sion describing behavior of the expansion coefficients increases the resulting accuracy. A relatively low accu-
+with large N: racy in the case of an anharmonic oscillator is related to
+the fact that corrections have the form of series in pow-
+6 1
+95/72
+W = ­--------3N N + --- 1 ­ -------------- + ... . (55) ers of N­1/3.6 It is important to note, however, that the
+N 3/2 2 N
+algorithm automatically yields an estimate of the error.
+The estimate is rather reliable when all four possible
+The asymptotics of E methods for evaluating are employed.
+0(g) for g is revealed by
+substituting E0(g) = 0g1/3and x xg­1/6, after which
+6
+Eq. (53) transforms into The first term in (28) gives, in addition to the main contribution
+
+to U ­ 1 ­ 2
+N proportional to N , the regular corrections N ,
+­ 3 ' ­ 1 ' ­ 2
+d2 x2 x2 N , ...; the second term contributes by N , N , ..., etc.
+­-------- + ----- + ----------- (x) = (x). (56)
+0 As a result, the expansion in g­2/3 converts into the expansion in
+d x2 4 4g2/3 N­1/3.
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 11
+
+5. ALGORITHM OPERATING Table 1. Comparison of UN values calculated for b0 = 1
+WITH INTERPOLATED COEFFICIENT using exact and interpolated coefficients WN
+FUNCTION
+U
+The importance of interpolation was strongly under- N
+estimated, although this method can obviously provide N Interpolation Interpolation
+for an increase in the accuracy of calculations. In most Exact WN values with L0 = 1, L = 5 with L0 = 1, L = 1
+investigations in the field under consideration, the algo-
+rithms were formulated so as to avoid mentioning the 30 ­2.911 × 10­3 ­2.911 × 10­3 ­2.868 × 10­3
+coefficients WN at intermediate N values. This approach 35 ­2.408 × 10­3 ­2.409 × 10­3 ­2.369 × 10­3
+is conceptually incorrect since, using a finite number of
+the initial coefficients and their asymptotics, it is possi- 40 ­2.038 × 10­3 ­2.041 × 10­3 ­2.004 × 10­3
+ble to construct a function with preset behavior in infin-
+ity.7 A reasonable problem formulation corresponds to
+approximately setting all WN, after which W(g) can be Table 2. The parameters of asymptotics for integral (32)
+reconstructed with certain precision. with n = 1 calculated using exact and interpolated coeffi-
+cients W
+Thus, a necessary stage in solving the problem con- N
+sists in interpolating the coefficient function, which Interpolation Interpolation
+naturally implies that this function is analytical (see Estimates Exact WN with L0 = 1, with L0 = 1,
+Section 8.2). The interpolation stage allows the param- based on values L = 5 L = 1
+eter c in the Lipatov asymptotics (essentially not used
+in the standard conform-Borel procedure [6]) to be First 2 mini- = ­0.246 = ­0.245 = ­0.269
+effectively employed. In addition, it is possible to take mum ' = ­0.827 ' = ­0.830 ' = ­0.761
+into account smoothness of the reduced coefficient
+function, its regularity with respect to 1/N, and (eventu- W = 0.893 W = 0.892 W = 0.912
+ally) the information concerning asymptotics of the AK Second 2 = ­0.249 = ­0.245 = ­0.271
+coefficients in expansion (22) [25]. minimum ' = ­0.792 ' = ­0.849 ' = ­0.747
+In Section 2.3, some qualitative considerations were
+presented suggesting that the influence of the interpola- U changing = ­0.210 = ­0.210 = ­0.218
+tion errors is not as significant as that of the round-off sign
+errors. Unfortunately, no particular estimates illustrat- U(b0) linear = ­0.215 = ­0.215 = ­0.225
+ing this were obtained. Validity of this statement will be W
+experimentally demonstrated for the zero-dimensional = 0.889 W = 0.887 W = 0.885
+test example with n = 1.
+With a view to modeling a situation for the 4 the- tions indicate that no catastrophic consequences take
+ory, let us assume that several coefficients in the expan- place up to N = 40, when the influence of the round-off
+sion of series (1) are known, errors becomes significant. This can be seen in Table 1
+presenting the values of some coefficients UN calcu-
+W , W , ..., W , (61)
+L L + 1 L lated for b
+0 0 0 = 1 using the exact and interpolated coeffi-
+cients of WN. An increase in the b0 value improves the
+together with the Lipatov asymptotics (2) and the cor- accuracy; when b0 decreases, the accuracy drops some-
+responding first correction in 1/N. The interpolation is what, although the resulting deviations would be indis-
+conveniently performed for the reduced coefficient tinguishable on the scale of Fig. 4.
+function, retaining a finite number of terms in expan-
+sion (22) and selecting coefficients AK by correspon- The curve of 2(b0) is analogous to (albeit not fully
+dence to set (61). coinciding with) that depicted in Fig. 5. Estimates of
+Let us consider in detail two examples of the inter- the asymptotic parameters are listed in Table 2; for bet-
+polation procedure, which correspond to (i) L0 = 1, L = 5 ter illustration, all values refer to the same working
+and (ii) L interval of 23 N 45 and the value = ­0.25 used for
+0 = 1, L = 1. Owing to a slow character of vari-
+ation of the coefficient function, the accuracy of inter- the treatment of a linear portion of the U(b0) curve. As
+polation in both cases is very high: ~10­9 and ~10­4, is seen from these data, changes in and W caused by
+respectively. A random error of such amplitude should the interpolation fall within the scatter of various esti-
+lead to large fluctuations in UN for N 30 in the mates and virtually do not influence the accuracy of res-
+former case and N 13 in the latter case. Real calcula- toration of asymptotics (7). Therefore, interpolation
+using a single expansion coefficient W1 allowed the
+7 A function of the factorial series possesses the same asymptotics W(g) asymptotics to be restored with an accuracy not
+of coefficients (2) but with a different parameter c [17]; the last
+statement in the text can be readily proved by taking an appropri- worse than that achieved with the exact coefficients WN.
+ate linear combination of several functions. Of course, this is by no means a typical situation.
+
+
+12 SUSLOV
+
+asymptotic parameter c [17]. The new series is summed
+Q (a) 1 2 upon selecting the value so as to provide for the best
+convergence of the second series in expansion (9). The
+3
+Qexact optimization procedure is employed, bringing both
+advantages and troubles, in most investigations in the
+3 field under consideration. On the one hand, the princi-
+2 1 pal possibility of improving the convergence is defi-
+nitely valuable. On the other hand, the results become
+opt
+dependent of an arbitrary parameter and it is difficult
+Q (b) to get rid of the feeling that any result can be obtained.
+Theoretically, the use of series (62) is fully equiva-
+lent to the study of initial series (1) and the value of any
+Q quantity Q obtained upon summation must be indepen-
+exact
+dent of the parameter . However, under the conditions
+of restricted information concerning coefficients WN,
+the Q value begins to depend on the choice of , this
+dependence weakening as the amount of information
+increases. In the general case, no uniform convergence
+opt
+with respect to takes place and an approximate Q
+value is close to the exact one only within a certain
+Fig. 9. Schematic diagrams illustrating the optimization
+procedure: (a) theoretically, any quantily Q obtained upon "plateau" region (Fig. 9a), the deviations rapidly grow-
+summation of the series must be independent of the optimi- ing outside this region. As the amount of necessary
+zation parameter ; however, such dependence arises under information increases, the plateau expands and flattens
+the conditions of restricted information and weakens (on the (see, e.g., [26]). Apparently, the best convergence takes
+passage from curve 1 to 2, 3, etc.) as the amount of informa- place at the center of the plateau. However, this point is not
+tion increases (the optimum value = opt occurs at the cen- always unambiguously selected, since the plateau may be
+ter of the plateau); (b) the choice of affects both the
+approximate Q value (thick solid curve) and the error of asymmetric or poorly pronounced, the center may shift in
+determination (cross-hatched area), so that a correct estima- the course of convergence, etc. Therefore, selecting the
+tion of this error must provide for the exact value Qexact best approximation for Q and estimating the approxima-
+being compatible with all data. In the "ideal" situation tion uncertainty are rather subjective procedures.
+depicted, optimization with respect to consists in select-
+ing the result characterized by a minimum error. In the author's opinion, the optimization problem can
+nevertheless be solved objectively. Indeed, since the
+choice of affects both the approximate Q value and the
+6. OPTIMIZATION error of determination, a correct estimation of this error
+OF THE INTERPOLATION PROCEDURE must provide for the exact value Qexact being compatible
+Considering an example in the preceding section, with the approximate values obtained for any (Fig. 9b).
+we were lucky to see that the most natural method of This criterion eliminates the problem of an apparent
+interpolation may give good results. In the general case, dependence of Q on . Once such an "ideal" situation
+the interpolation procedure requires optimization that is attained, optimization of the procedure with respect
+will be demonstrated in the case of an anharmonic to reduces to selecting the result characterized by a
+oscillator. Let us first discuss the general strategy of minimum error.
+optimization, which has been significantly modified in The optimization procedure is expediently per-
+comparison to that used in the previous works. formed in the interpolation stage, since all the final
+errors arise essentially from the uncertainties in WN.
+Rewriting expansion (22) in the equivalent form
+6.1. General Strategy of Optimization
+
+On an abstract level, the optimization consists in W = caN Nb~( N + b b~
+­ )
+N
+introducing a certain variation of the summation proce-
+dure characterized by a parameter , the latter value (63)
+
+× A
+~ A
+~
+1 1
++ -------------- 2
++ --------------------- + ... A
+~ K
++ ---------------------- + ...
+being eventually selected in a "optimum manner." For
+N N
+~
+­ (N N~
+­ )2 (N N~
+­ )K
+example, the initial series (1) can be raised to the
+power and reexpanded to yield and using the interpolation by truncating the series and
+
+W g
+( ) = W
+~ selecting coefficients A
+~ K , we obtain a manifold of real-
+0 ­ W
+~ 1g + W~2g2 ­ ...
+(62) izations of the interpolation procedure characterized by
++ c~aN(N + b)(­g)N + .... two parameters, b~ and N
+~ . An analysis of the test exam-
+The properties of this series are analogous to those of ples shows this parametrization to be sufficiently effec-
+the initial one, except for a change in the Lipatov tive: the accuracy of interpolation achieved for the opti-
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 13
+
+
+mum b~ and N
+~ values can be higher by several orders where A1 is the value of A1 for b~ = b ­ 1/2. In all known
+of magnitude as compared to that for a random choice cases, A1 < 0 (see [19, 23, 27, 28]) and a minimum cor-
+of these parameters. Below, the optimization with rection corresponds to parametrization (65), which
+respect to b~ is based on theoretical consideration, while favors a good matching between the high-order asymp-
+
+the optimum N
+~ value is selected based on the results of totics and the low-order behavior. Note that the asymp-
+tote according to the Lipatov method [2] is
+numerical calculations.8
+2c(a/e)N Nb ­ 1/2NN.
+
+6.2. Optimization with Respect to b~ The above parametrization (65) corresponds to approx-
+imation
+Optimization with respect to b~ ­
+is related to the problem of selecting parametrization for 2e N NN (N + 1/2)
+the Lipatov asymptotics which can be written in various whose accuracy is 4% even for N = 1; so, this paramet-
+forms: caN(N + b), caNNb ­ 1N!, etc. This problem was risation is close to "natural" one. For an anharmonic os-
+actively discussed (see, e.g., [11, 12]), but no satisfac- cillator, the optimum parametrization coincides with (55),
+tory solutions were proposed. while in the zero-dimensional case with n = 1 it is close
+to (34) and (35).
+Note that the values b~ = b and b~ = b ­ 1 lead to
+identical results:
+6.3. Optimization with Respect to N
+~
+
+Nb~(N + b b~
+­ ) The case of an anharmonic oscillator was studied in
+
+(64)
+detail using the interpolation with L
+Nb(N), b~ = b 0 = 1, L = 9 (i.e.,
+= using the first nine WN coefficients), which corresponded
+Nb ­ 1(N + 1) = Nb(N), b~ = b ­ 1. to an accuracy of ~10­3. The interpolation based on
+expression (22) was unsatisfactory: the 2 values obtained
+Therefore, the approximate values of any quantity Q by treatment according to the power law (20) were abnor-
+obtained upon summation of the series will coincide for mally large even for reasonable averaging intervals and
+b~ = b and b ­ 1. As the amount of information concern- gave no clear pattern with minima. The reason for this
+behavior is revealed by comparison of the UN coeffi-
+ing the coefficients WN increases, the Q(b~ ) function cients (obtained by interpolation) to the exact values.
+varies more and more slowly. When the characteristic As is seen from Fig. 10a, the difference is very large,
+scale L of this variation increases, the kth derivative of making treatment by the power law practically impos-
+the function drops as 1/Lk. As a result, an extremum at sible. Deviations increase by approximately the same
+the point b~ = b ­ 1/2 appears in the general situation, law as those for the random errors, but the variation is
+with a plateau between the Q values corresponding to rather smooth and is analogous for different b0 values.
+It appears that these deviations can be compensated in
+b~ = b and b ­ 1and the point b~ = b ­ 1/2 being the nat-
+ural center of this plateau. The error of restoring Q, like a broad range of b0 by optimization with respect to N~ .
+any other value, exhibits an extremum (which is naturally This is really so and the region of optimum N
+~ val-
+expected to be minimum) at b~ = b ­ 1/2 (see Section 8). ues can be determined without knowledge of the exact
+Thus, the optimum choice is b~ = b ­ 1/2; this corre- result. Figure 11 shows the behavior of 2 in the interval
+sponds to the following parametrization of the Lipatov of 20 N 40 depending on N
+~ for integer b0 values.
+asymptotics: As is seen, small 2 values are immediately obtained for
+b N
+~
+Was = caN Nb ­ 1/2(N + 1/2). (65) 0 = 0, 1, 2, 3 in the interval of = ­(5.0­5.5). This is
+N evidence that the error of UN can be compensated for all
+The first correction A b
+1/N to this asymptotics (see expan- 0 0, since greater b0 correspond to still smaller errors
+(see Section 2.3). As is seen from Fig. 10b, deviations
+sion (22)) depends on b~ as
+of the resulting UN for N~ = ­5.4 from exact values for
+A = A ­ ( )2 b
+1 b ­ 1/2 b~
+­ /2, (66)
+1 0 0 are in fact virtually indistinguishable.
+The possibility of more refined optimization is based
+8 Further increase in the number of optimization parameters seems on the fact that the interpolation errors in formula (29)
+to be inexpedient: this way may lead to absurd results. In particu- play the same role as do the high-order scaling correc-
+lar, a large number of parameters allows imitation of a rapid con-
+vergence of the algorithm to an erroneous result. In the framework tions indicated by dots. As N
+~ is changed, the interpola-
+of the proposed approach, it is possible to ensure coincidence of
+four estimates of and to obtain a zero value for estimated error. tion errors smoothly vary and (for a certain N
+~ value)
+
+
+14 SUSLOV
+
+become approximately compensated by the scaling cor-
+­ ~
+UN ~ rections. This point can be detected by the maximum
+N = 0
+= 10 proximity of various estimates obtained for the
+b and
+0
+0.1 W
+5 values.
+2 A systematic treatment with determination of the
+1
+0 and W values was carried out for N~ in the interval
+0 from ­5.0 to ­5.6 at a step of 0.1. A "correct" pattern of
+­0.6 10 20 30 N 2 minima was observed for N~ = ­5.5, while for N~ = -5.6
+the first minimum disappeared and for N
+~ -5.4 it was
+­0.8 split in two. The reason for this splitting is qualitatively
+­0.1 (a)
+­0.9 evident: Figs. 10 and 11 show that, at a fixed N
+~ , there
+is a certain b0 value for which the effect of the interpo-
+­ ~
+UN lation error upon UN is virtually compensated. This
+b0 = 10 ~
+0.1 N = ­5.4 very b
+5 0 corresponds to an "extra" minimum of 2 in
+1 2 comparison with the pattern of Fig. 8. Since it is diffi-
+cult to decide a priori which of the two minima is true,
+0 the estimates were obtained for both (and proved to be
+0 very close to each other).
+­0.6 10 30 N
+The results of these numerical calculations are sum-
+marized in Table 3 and depicted in Fig. 12. The scatter
+­0.8 of and W values allows the error to be evaluated by
+­0.1 (b) the order of magnitude. In order to obtain an "ideal"
+­0.9 pattern according to Fig. 9b, the error interval should be
+expanded by a factor of 1.3 and 1.1 for and W,
+respectively (dotted curves in Fig. 12). Then the values
+Fig. 10. Optimization of the interpolation procedure for an of = 0.38 and W = 0.52 (dashed curves in Fig. 12)
+anharmonic oscillator: (a) a comparison of the UN values
+are compatible with the results for all N
+~ . Selecting the
+obtained by interpolation for N
+~ = 0 using the first nine WN
+coefficients (solid curves) to exact values (dashed curves); N
+~ values in each particular case so as to minimize the
+vertical bars indicate the N values above which behavior of one-side error (as indicated by arrows in Fig. 12), we
+the exact UN values is visually indistinguishable from that obtain the following estimates:
+according to the power law; (b) an analogous pattern after the
+
+optimization with respect to N
+~ (for N~ = ­5.4). = 0.38 ± 0.05, W = 0.52 ± 0.12. (67)
+
+
+A comparison to the set (57) shows that the error is esti-
+mated adequately, while the average values are some-
+2 what displaced; the shift in W
+log is induced by the shift
+in .
+12
+
+7. SUMMING PERTURBATIVE SERIES
+FOR AN ARBITRARY g
+10 b0 = 5
+When the amount of information concerning the W
+4 N
+coefficients suffices for restoring the W(g) asymptotics
+8 3 as g , summing series (1) for an arbitrary g
+2 encounters no problems: the coefficients UN for N 40 are
+calculated by formula (19) and the subsequent terms can
+6 1 be obtained according to the UN ­ 1 asymptotics, so that
+0 all coefficients of the converging series (9) are known.
+The summation error is determined by the accuracy of
+4 restoring the asymptotics,
+
+0 2 4 6 8 10
+U U
+N
+= ---------- = ---------- + ln N, (68)
+as
+­ ~
+N UN N 1 U
+
+
+
+Fig. 11. The plots of 2 versus N
+~ for an anharmonic oscil- which varies logarithmically with N and can be consid-
+lator in the interval of 20 N 40 at various fixed b values. ered as constant with a restricted interval. Introducing a
+0
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 15
+
+Table 3. Asymptotic parameters for an anharmonic oscillator obtained by the interpolation with L0 = 1, L = 9 (the values in
+parentheses for N
+~ = ­5.6 were estimated at the point b0 = 2.20 where the first 2 minimum disappears)
+
+for N~
+Estimates based on
+­5.0 ­5.1 ­5.2 ­5.3 ­5.4 ­5.5 ­5.6
+
+First 2 minimum 0.398 0.396 0.393 0.390 0.385 0.378 (0.373)
+0.476 0.452 0.422 0.399 0.384
+
+Second 2 minimum 0.50 0.47 0.42 0.37 0.33 0.29 0.34
+U changing sign 0.585 0.535 0.485 0.445 0.405 0.365 0.335
+U(b0) linearization 0.495 0.445 0.40 0.36 0.32 0.29 0.26
+
+W for N~
+
+­5.0 ­5.1 ­5.2 ­5.3 ­5.4 ­5.5 ­5.6
+
+First 2 minimum 0.490 0.495 0.500 0.505 0.513 0.529 (0.540)
+0.356 0.390 0.440 0.487 0.517
+
+U(b0) slope 0.226 0.290 0.373 0.463 0.572 0.675 0.712
+0.502 0.538 0.568 0.698 0.885 1.09 0.953
+
+
+
+
+characteristic scale Nc on which the relative error is Substituting these expressions into (8) and using the
+comparable with as and using the approximation steepest descent method for ag N , we obtain
+c
+
+
+U 0, N < N
+N c , ag N
+---------- = (69) W g
+( ) as c
+U --------------- (71)
+N , N N ,
+as c W g
+( ) exp{ 2(N /ag)1/2
+­ }, ag N
+as c c
+
+we obtain for ag 1 (where some preexponential factors are omitted for
+clarity). For negative , the results for ag Nc are
+N
+
+B g
+( ) = U c
+exp ­------
+somewhat different. In particular, for ­1 < < 0 we
+as N ag obtain W(g) =
+N = N as(W(g) ­ W(gc)), where agc ~ Nc.
+c (70) A natural scale for Nc is provided by the middle of the
+B g
+( ), ag N
+as c working interval (Nmin, Nmax), that is, Nc 30; however,
+= U agexp(­N /ag), ag
+N . deviations from this value may be quite large because the
+as N c c
+c corresponding equality holds in fact on the logarithmic
+
+
+W
+0.6 (a) (b)
+3 1.0 3
+2
+0.5 1 0.8 2
+1 4 1
+0.4 0.6 1
+1 2 3
+0.3 4 1
+0.4
+= 0.38 ± 0.05 1 2 W = 0.52 ± 0.12
+0.2 0.2
+5.0 5.2 5.4 5.6 5.0 5.2 5.4 5.6
+­ ~
+N ­ ~
+N
+
+Fig. 12. The plots of and W values estimated for an anharmonic oscillator by various methods (see Section 3): (a) estimates
+
+based on the (1) first 2 minimum, (2) second 2 minimum, (3) U
+changing sign, and (4) U(b0) linearization; (b) W estimates based on
+the (1) first 2 minimum and (2, 3) U(b0) slope (upper and lower bounds, respectively). Small-dash lines indicate the error interval
+expanded by a factor of 1.3 and 1.1 for and W values, respectively.
+
+
+
+
+16 SUSLOV
+
+Table 4. Comparative data for the exact integral (32) with n = 1 and the results obtained by summing the perturbative series
+
+W(g) × 10
+g Summing with exact Summing upon interpo- Summing upon interpo-
+Exact value WN lation with L0 = 1, L = 5 lation with L0 = 1, L = 1
+
+1 6.842134 6.842135 6.842134 6.8436
+
+2 6.183453 6.183454 6.183452 6.1867
+
+4 5.497111 5.497110 5.497105 5.5034
+
+8 4.820615 4.820608 4.820594 4.832
+
+16 4.181699 4.181669 4.181637 4.200
+
+32 3.597297 3.59720 3.59714 3.624
+
+64 3.075230 3.07500 3.07490 3.113
+
+128 2.616802 2.61633 2.61617 2.668
+
+256 2.219222 2.2184 2.2182 2.285
+
+512 1.877472 1.8761 1.8758 1.959
+
+1024 1.585578 1.5835 1.5831 1.68
+
+g 9.064g­0.25 8.95g­0.247 8.95g­0.247 9.12g­0.269
+
+
+
+scale (lnNc ln30). In practice, approximation (69) with Table 4 presents the results of calculations for the
+a constant N zero-dimensional case. Here, the first column gives the
+c is expedient only for large g. In the gen-
+eral case, estimate (71) is valid with an effective N exact values of integral (32) with n = 1, while the col-
+c
+value, which is determined by the number N of the max- umns from second to fourth present the results of sum-
+imum term U mation obtained using exact WN coefficients and inter-
+NuN in the series for B(u) (for small g, this
+value is close to L + 1, e.g., to the number of the first polated values (with L0 = 1, L = 5 or L0 = 1, L = 1),
+unknown coefficient W respectively. In each case, the calculations were per-
+N). formed for b0 corresponding to the first 2 minimum.
+A comparison to (71) indicates that Nc ~ 200 for the
+Table 5. Comparative data for the exact ground state energy second and third columns and Nc ~ 10 for the fourth
+E0(g) of an anharmonic oscillator and the results obtained by column.
+summing the perturbative series (the 2E0(g) and 2g values are
+given in order to provide for the correspondence with the data Table 5 presents the analogous data for an anhar-
+reported in most other papers using a different normaliza- monic oscillator. Here, the first column gives the exact
+tion) E0(g) values taken from [24], while the second and third
+columns present the results of summation obtained
+2E0(g) using exact WN coefficients and interpolated values
+Summing upon (with L0 = 1, L = 9), respectively. In this case, the esti-
+interpolation
+2g Summing with mates give Nc ~ 200 for the second column and about
+Exact value exact W with L0 = 1, L = 9
+N 50 for the third column.
+(b0 = 1.30) ( N
+~ = ­5.3, Information concerning the W(g) asymptotics can
+b0 = 3.55) also be taken into account within the framework of the
+standard conform-Borel procedure (Section 2.1) by inter-
+0.5 1.241854 1.241854 1.241857
+polating the UN coefficients (with the known asymptotics
+1 1.392352 1.392352 1.392396 (17)) calculated using formula (11). For approximation
+2 1.607541 1.607545 1.60790 (69), we obtain by analogy with (71)
+3 1.769589 1.769605 1.7706
+4 1.903137 1.903178 1.9051 2
+W g
+( ) , ag N
+as c
+--------------- (72)
+5 2.018341 2.018418 2.0214 W g
+( ) exp ­3(N2/ag)1/3
+{ }, ag N2.
+as c c
+10 2.449174 2.44961 2.4599
+This procedure is preferred in the case of sufficiently
+20 3.009945 3.0117 3.040
+small g values (when Nc is close to L + 1), leading to
+50 4.003993 4.0115 4.096 smaller errors as compared to those obtained for (71).
+100 4.999418 5.018 5.19 For greater g, the attaining of Nc values indicated above
+g 2 × 0.668g1/3 2 × 0.602g0.349 2 × 0.511g0.387 seems to be impossible.
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 17
+
+According to the standard procedure of calculating log2
+the critical indices [6], the second series (9) is truncated
+on the Lth term that corresponds to the error given by b0 = 5
+15
+(72) with Nc = L + 1 and as ~ 1. In the three-dimen- 3
+sional case, a large number of expansion coefficients 2
+are known (for L = 6). These values are well matched
+with (2), which gives hope for restoring the asymptotics 1
+10
+of scaling functions with an accuracy of as ~ 10­2 and 0
+for increasing Nc at the expense of interpolation. Thus, ­1
+it is apparently possible to increase the accuracy of cal-
+culation of the critical indices by two­three orders of 5
+magnitude even for the currently available information.
+Using the modified conformal mapping may lead to a
+further increase in the accuracy, provided that the scale ­2 0 2 4 6 8
+of Nc 20 would be accessible in the corresponding ­ ~
+N
+region of ag ~ 0.2.
+
+Fig. 13. The plots of 2 versus N
+~ for the 4 theory in the
+8. THE 4 THEORY interval of 20 N 40 at various fixed b0 values.
+
+8.1. Restoration of the Gell-Mann­Low Function
+~
+Now let us turn to a real physical problem of restor- UN
+ing the Gell-Mann­Low function in the 4 theory, con- b b0 = 10
+0 =
+sidering (g) as W(g) and proceeding from the informa-
+tion contained in relationships (5) and (6). 5
+The interpolation was based on formula (63) with an 20
+optimum value of b~ = 4. Figure 13 presents the plots of 2
+2(
+N
+~ ) versus
+N
+~ calculated in the interval 20 N 40 1
+for several fixed b0 values. As is seen, promising results can 10 0.5
+be expected for N
+~ values close to zero, where the curves 0
+obtained at b ­0.5
+0 = ­1, 0, ­1 and 2 exhibit sharp minima. The
+
+interval ­0.5 N
+~ 0.5 was studied in more detail. ­0.9
+0 ­1.1
+Figure 14 shows the behavior of the coefficients U
+~ N = ­1.3
+U
+N (b0 + 2) in the case of a nearly optimum interpola- ­1.5
+tion with N
+~ = 0. If the curves for b ­1.7
+0 1 and b0 ­2 ­10
+(attaining the asymptote with delay) are rejected, the
+data for large N asymptotically tend to a constant level,
+which correspond to a critical index close to unity. ­1.9
+This conclusion is consistent with the position of the
+second 2 minimum and with the change of sign in U ­20
+0 10 20 30 N
+(Fig. 15). A clear pattern with 2minima was observed
+for
+N
+~ 0.2; when the N~ value increased, the first 2 Fig. 14. The plots of U
+~ = U
+N
+N (b0 + 2) versus N for vari-
+minimum approached to and eventually merged with ous b0 (points and dashed curves) and the results of treat-
+the second minimum. For this reason, no estimates ment according to the power law (solid curves) for the 4
+using the first minimum could be obtained for N
+~ 0.3. theory. The calculations were performed using a nearly
+optimum interpolation with b~ = 4, N
+~ = 0.
+The results of determining the and W values are
+presented in Table 6 and Fig 16. The ideal pattern for ,
+corresponding to Fig. 9b, is obtained upon expanding related to a weak dependence on the averaging interval.
+the error interval by a factor of two (dashed lines in Fig. With an allowance for the double error, we finally obtain
+16a), after which the value of = 0.96 is compatible
+with the results for all N
+~ . In the fixed interval of 20 = 0.96 ± 0.01. (73)
+
+N < 40, all four estimates of coincide for N
+~ = ­0.12 For W (Fig. 16b), the ideal pattern is obtained imme-
+on an accuracy level of 10­3; the main uncertainty is diately and the corresponding value of W = 7.4 is com-
+
+
+18 SUSLOV
+
+patible with all data. Here, the one-side error is mini-
+log2
+mum at N
+~ = ­0.08, which yields
+10
+W = ± . (74)
+7.4 0.4
+8 Correctness of the optimization with respect to b~
+(which was carried out in Section 6.2 in somewhat heuristic
+6 manner) can be demonstrated now. For an optimum value of
+~ N
+~ = ­0.12 and the b~ value varied in an interval from 0
+N = 0 to 6, a clear pattern of
+4 2 minima was obtained in the
+middle of the interval. On approaching the boundaries,
+the first
+(a) 2 minimum approached to and merged with
+2 the second minimum exactly as it was observed on
+
+increasing N
+~ . These corresponding results for and
+­1 0 1 b0
+~ W are presented in Fig. 17; expanding the error inter-
+U eff val by a factor of 2 and 1.1 for and W, respectively,
+~
+5 U makes the values (73) and (74) compatible with almost all
+
+data (except for a narrow interval at b~ = 5.5, where the
+proximity of all estimates is obviously accidental. As is
+0 1
+~ seen, the minimum errors also agree with (73) and (74).
+U Summation of the perturbative series for the Gell-
+Mann­Low function at finite g values was performed
+eff
+­5 using a procedure analogous to that described in Sec-
+tion 7. The accuracy was evaluated by variation with
+(b) respect to b0 and N~ . The variation with respect to b0
+­10 0 gave a markedly greater Nc values and allowed the W(g)
+asymptotics to be modified without significantly affect-
+Fig. 15. (a) The pattern of minima in 2 for the 4 theory in ing the results for g ~ 1. On varying the N
+~ value, with
+the averaging interval of 20 N 40. (b) The plots eff and b0 adjusted so as to maintain a constant value of =
+U
+~ versus b
+0 for N
+~ = 0. The dashed curve shows the 0.96, the most probable value of W = 7.4 is obtained
+U(b0) curve for fixed = 1.
+for N
+~ = ­0.067; the uncertainty range indicated in (74)
+corresponds to the interval ­0.09 N
+~ ­0.05. Table 7
+
+3 lists the data for N
+~ = ­0.067, with the error estimated
+(a)
+1.3 4 by comparison to the results for N
+~ = ­0.05 and ­0.09.
+2
+4 Note that asymptote (7) is attained rather slowly, the
+0.9 1
+1 deviation amounting to about 15% even for g = 100.
+3 = 0.96 ± 0.01 Figure 18 presents a comparison of the results
+0.5 2 obtained for g 20 to the data reported by other
+researchers.
+W
+17 (b) 1 2
+2 8.2. The Possibility of Logarithmic Branching
+13 Since the value of differs only slightly from unity,
+a question arises as to whether the accuracy is sufficient
+9 to consider this deviation significant. Formally speak-
+ing, this is really so because the error was estimated objec-
+3
+1 tively and there is no ground to expect it to be significantly
+5 W = 7.4 ± 0.4
+3 understated. Nevertheless, the possibility that the equality
+­0.4 ­0.2 0 0.2 0.4 = 1 is strict is not excluded, since asymptotics (7) may
+~
+N contain logarithmic corrections of the type
+
+­
+Fig. 16. The plots of various (a) and (b) W estimates ver- W g
+( ) = W (ln g) , g . (75)
+g
+sus b0 for the 4 theory. The notations are the same as in
+Fig. 12. Small-dash lines indicate the error interval for For > 0, these corrections may inspire a small
+expanded by a factor of two. decrease in . In this case, formula (20) contains an
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 19
+
+
+Table 6. Asymptotic parameters for the 4 theory obtained for b~0 = 4 and various N
+~ values by the interpolation with L0 = 2,
+L = 5
+
+for N~
+Estimates based on
+­0.5 ­0.3 ­0.2 ­0.12 ­0.1 0.0 0.1 0.2 0.3 0.5
+
+First 2 0.863 0.920 0.945 0.962 0.964 0.975 0.974 0.931 ­ ­
+minimum ±0.005
+Second 2 0.54 0.78 0.90 0.960 0.970 1.00 1.01 1.01 0.97 1.16
+minimum
+
+U changing 0.795 0.865 0.915 0.960 0.973 1.035 1.105 1.175 1.255 1.415
+sign ­0.961
+
+U(b0) 0.907 0.90 0.929 0.961 0.971 1.022 1.082 1.147 1.218 1.371
+linearization ±0.001
+
+W for N~
+
+­0.5 ­0.3 ­0.2 ­0.12 ­0.1 0.0 0.1 0.2 0.3 0.5
+
+First 2 4.67 5.22 5.75 6.36 6.63 8.26 11.82 30.9 ­ ­
+minimum ±0.16
+U(b0) 3.02 5.58 6.55 7.35 7.34 7.18 6.78 6.45 5.91 5.05
+slope 15.9 10.0 7.85 7.55 7.61 9.07 11.3 16.5 17.3 12.3
+
+
+
+additional factor (lnN)­ with unchanged W, so that the Note that the first term 0 is absent in the expansion
+results for U of the function (5) simply by its definition, while van-
+N can be treated according to Eq. (75) with
+the parameters ishing of the next coefficient 1 is accidental. Indeed, in
+the (4 ­ )-dimensional 4 theory, the latter term is non-
+= 1, 0.14, W (76)
+7.7 zero and has a magnitude on the order of ; accordingly,
+
+without any increase in 2. Actually, the possibility of
+such a logarithmic branching seems to be quite proba-
+ble for the following reasons. 1.7 (a) 3
+1. It can be ascertained that the logarithmic branch- 4
+ing in the case of strict equality = 1 is unavoidable. 3
+1.3
+Indeed, let us write series (1) in the form of the Som- 4 2
+merfeld­Watson integral [2, 13]: 0.9 2 1 1
+
+z
+( )
+W g
+( ) = W ­
+( g)N = ­----- dz-------------gz, (77)
+1 W
+N
+2i° sinz 3 1 (b)
+N = N 20
+0 C 3
+where (z) is the analytical continuation of WN onto
+the complex plane ( (N) = W 15
+N) and C is the contour
+containing the points N0, N0 + 1, N0 + 2, ... (Fig. 19). If
+z = is the extreme right-hand singularity of 10
+(z)/sinz, we can modify the contour into the posi- 2
+tion C' and show that this singularity determines the
+behavior of W(g) as g . The purely power law (7) 1
+5
+corresponds to the presence of a simple pole at z = , 2
+while the law described by Eq. (75) corresponds to a ~
+0 1 2 3 4 5 6 b
+singularity of the (z ­ ) ­ 1 type.9
+Fig. 17. The plots of various (a) and (b) W estimates ver-
+9 It is clear from the above considerations that the assumption of
+analyticity of the coefficient function on the real axis for N N sus b~ for the 4 theory. The notations are the same as in
+0,
+which is necessary for interpolation, is confirmed in all cases by Fig. 12. Small-dash lines indicate the error interval expanded
+the results obtained. by a factor of 2 and 1.1 for and W values, respectively.
+
+
+20 SUSLOV
+
+Table 7. The Gell-Mann­Low function for the 4 theory 2. Lipatov [29] considered the class of field theories
+(values in parentheses indicate the error estimated in units of (generalizing the four-dimensional 4 theory) with a
+the last decimal digit) nonlinearity of the n type and a space dimension of
+d = 2n/(n ­ 2), for which a logarithmic situation takes
+g (g) g (g)
+place. For all such theories, 1 = 0; however, this coef-
+0.2 0.04993(2) 30 138.7(50) ficient differs from zero when d decreases. Therefore,
+0.4 0.18518(26) 40 193.2(75) (1) = 0 by analogy with the cases considered above.
+0.6 0.3939(10) 50 248.3(100) In the limit n , the Gell-Mann­Low function is
+exactly calculated [29] and the extreme right-hand sin-
+0.8 0.6667(27) 60 303.9(127) gularity of (z) has the form of (z ­ 1)3/2, which leads
+1 0.9952(51) 70 359.7(155) to asymptotics of the type (g) g(lng)­3/2. From the
+2 3.272(33) 80 415.6(182) continuity considerations, we may expect for large but
+3 6.278(85) 90 471.7(212) finite n values that a nonanalytical zero of the type (z ­ 1)
+4 9.758(157) 100 527.7(240) is retained and the singularity at z = 1 is still the extreme
+right-hand one. Therefore, asymptotics (78) is natural
+5 13.57(25) 150 808.1(389) for such field theories and it is not surprising that it may
+6 17.64(36) 200 1087(54) be retained up to n = 4. Note that W is negative when
+7 21.90(47) 250 1366(70) n , so that the Gell-Mann­Low function pos-
+8 26.32(60) 300 1644(86) sesses a zero; a direct extrapolation of the results to n = 4
+9 30.87(75) 350 1920(101) leads to an analogous conclusion for the 4 theory [29].
+In fact, with this extrapolation we must take into
+10 35.53(90) 400 2196(127) account that the index changes from 3/2 to small values
+15 59.95(175) 450 2471(133) such as in (76); then the change in sign of the asymptot-
+20 85.59(275) 500 2745(149) ics naturally takes place according to (78) at = 1. The
+25 111.9(38) g 7.41g0.96 positiveness of 0 follows from the matching of
+(2) ~ 0 and the positiveness of 2 [29].
+Anyhow, we have to select between two possibili-
+(1) ~ . The limiting transition 0 shows that, in ties: (i) a purely power law (7) with a critical index
+the four-dimensional case, (1) = 0 and a simple pole slightly below unity and (ii) an asymptotics of the type
+cannot take place at = 1. If the function tends to (78) with > 0. In both cases, the 4 theory turns out to
+zero as z 1 by the law (z) = 0(z ­ 1), then be self-consistent.
+
+
+g
+( ) 0
+= (ln )­, g (78)
+( 8.3. On the Results Obtained in [12, 13]
+1 ­ )
+--------------------g g
+
+The curves in Fig. 14 display for N < 10 a linear por-
+and the positive definiteness of has a quite clear origin. tion where U
+~ N 1.1(N ­ 1), which is stable with
+respect to changes both in b0 and in the extrapolation
+procedure. This region might be considered as a true
+FN 0.9g2 asymptotics for U
+~ N (assuming the results for N > 10 to
+1.0 be the interpolation artifacts), corresponding to the
+dependence (g) 1.1g2, which is close to the result
+200 0.5 obtained in [12, 13].
+1.96g1.9
+In fact, stability of the above region has a different ori-
+gin. This behavior is related to a characteristic "trough" in
+0 50 1002.99g1.5
+N
+100
+
+7.4g0.96 z
+1.5g2 C'
+
+0 5 10 15 g C
+
+Fig. 18. A comparison of the Gell-Mann­Low function for N0
+the 4 theory calculated in this work (solid curve) to the
+results reported by other researchers (dashed curves top to
+bottom corresponding to [12, 13, 14], respectively). The
+inset shows a reduced coefficient function (in this scale, dif-
+ferences between the data obtained using various interpola-
+tion methods are insignificant). Fig. 19. Integration contour for Eq. (77).
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 21
+
+the reduced coefficient function FN at N 10 (see the physical charge at large distances, the 4 theory is
+inset in Fig. 18). Modeling this trough by assuming inconsistent: the effective charge g(L) turns into infinity
+F3 = F4 = ... = F10 = 0 and taking into account Eqs. (19) at a certain Lc (Landau pole), while for L < Lc the g(L)
+and (22), we obtain is undetermined. Considering the field theory as a lim-
+iting case of the lattice theories, the 4 theory is "triv-
+U
+~ = ( )
+N c b + 2
+0 ial": the physical charge tends to zero for any value of
+N (79) the bare charge.
+× ( + )
+F (­1)K K b
+-----------------------CK ­ 1.
+K In recent years, the problems related to the concept
+(K + b ) N ­ 1
+0
+K = 1 of triviality were actively discussed by several
+From this we obtain for N 10 and all b researchers (see [30, 31] and references therein). On the
+0 the result one hand, the existing indications of triviality of the 4
+U
+~ N = 1.5(N ­ 1), which is determined by the first non- theory were emphasized; on the other hand, the 4 the-
+vanishing coefficient F2 (see the curve for b0 = in ory was declared verified (with a positive result) by
+Fig. 14) and is close to the real situation. For the numerical modeling on a lattice. Let us briefly discuss
+function, this result implies that a single-loop law 1.5g2 this problem as well.
+is valid up to g ~ 10. The 4 theory is strictly proven to be trivial in a
+Upon modeling the trough in FN more precisely by space with the dimensionality d > 4 and nontrivial for
+assuming F3 = F4 = ... = F10 = and using (26) we d < 4 [32, 33]. In the case of d = 4, the obtained inequal-
+obtain, in the case when the ratio of gamma functions ities were only slightly insufficient for the statement of
+in (79) reduces to a polynomial for b0 = b ­ p with an triviality. This fact was considered by
+integer p and N in the interval p + 2 N 10, mathematicians as annoying unpleasanty
+and triviality of the 4 theory was stated
+1 + b
+U
+~ = ( ) 0 as "virtually proved." From the standpoint
+N W 1 ­ ----- N ­ 1 + ----- -------------- . (80)
+2 F F 1 + b
+2 2
+of physics, this optimism is by no means justified: on
+the modern level, the aforementioned results for d 4 are
+This result indicates that the linear slope varies but rather primitive, being simple consequences of renor-
+remains independent of b0. More complicated calcula- malizability and a one-loop renormalization group.
+tions show that Eq. (80) is valid for arbitrary b0 to On the contrary, the situation with d = 4 is physically
+within corrections on the order of /(N + b highly complicated and no analytical approaches to
+0)b + 1; for = 0.2
+solving this problem have been developed so far.
+(see Fig. 18), we obtain U
+~ N = 1.1(N ­ 1) + const, where
+the last constant depends on b In the author's opinion, the results of numerical
+0 but does not exceed a few
+tenths in the interval 0 < b experiments on the lattice revealed nothing unexpected.
+0 < 10. Thus, a notion of the qua- In view of the absence of zeros of the function, the
+dratic law with modified coefficient (g) = 1.5(1 ­ /F2)g2 effective charge g(L) always decreases with the dis-
+is really meaningful in the interval 1 g 10 but is a tance. However, the numerical methods cannot answer
+consequence of the trough in FN.10 The limited width of the question as to whether the "charge zero" does exist,
+the trough indicates that this law is not related to a real which is explained by limited lattice dimensions. There
+asymptotics (whatever it is). are many cases of misunderstanding related to the
+The above considerations clearly indicate that the charge normalization: even in the "natural" normaliza-
+result obtained in [12, 13] is by no means a computa- tion used in this work, the quadratic law is extended to
+tional error and objectively reflects the behavior of the g ~ 10 (see Section 8.3); traditional normalizations extend
+function for g 10. This result is unavoidably this interval even greater, for example, up to g ~ 600 when
+obtained upon summing a series with a small number of the interaction term is written in the form of g4/8. There-
+expansion coefficients, since no other portion obeying the fore, behavior of any quantities is indistinguishable
+power law can be found in Fig. 14 for N < 7 (the points on from trivial in a broad range of parameters.
+the curves for b0 < 0 are omitted for clarity, because their Among old publications, only the paper of Freed-
+sharp oscillations would overload the pattern). man et al. [34] is worth of mentioning where it was
+stated that g(L) uniformly decreases in g0, which is
+8.4. The Question of "Triviality" actually indicative of the "charge zero." However, judg-
+of the 4 Theory ing by the results, the charge normalization employed
+in [34] differed by a factor of about 100 (an expression
+The situation when the function possesses asymp- for the action obviously contains a misprint) from that
+totics of the ga type with > 1 can be given a two-fold used in this work and all results for finite g
+interpretation. From the standpoint of finiteness of a 0 fell within
+a region where the quadratic law is operative. Nontriv-
+10 ial results were only obtained for g
+This law is more clearly pronounced for the Borel image and is 0 = by reduction to
+somewhat distorted for the function as a result of integration in the Ising model. Although this reduction is apparently
+Eq. (8); however, (g) remains downward-convex up to g ~ 100. possible, there is no method (except for extrapolation)
+
+
+22 SUSLOV
+
+to establish a correspondence between normalization of test examples showed that the algorithm is stable under
+the field variable in the Ising model and that in the ini- conditions of strongly restricted information and con-
+tial 4 theory. This leads to uncertainty in the charge firmed reliability of the error estimation. The main
+normalization, an allowance for which makes unjusti- physical result of this study consists in restoring the
+fied any conclusions concerning uniform convergence. Gell-Mann­Low function of the 4 theory and demon-
+Now let us turn to the original results of [30, 31]. strating its self-consistency. The latter conclusion
+The main idea was illustrated by the example of a non- agrees with the absence of renormalon singularities
+ideal Bose gas possessing a well-known spectrum of established previously [9].
+the Bogolyubov type: (k) ~ k for small k and (k) ~ k2 The proposed algorithm can be applied to solving
+for k . Let us pass to the "continuum limit" by many other problems as well, in particular, to restoring
+allowing two characteristic scales of the problem (scat- the Gell-Mann­Low functions in quantum electrody-
+tering length and interparticle distance) to tend to zero. namics and quantum chromodynamics. At present,
+If the first value tends to zero rather rapidly, a "quite solving this task is complicated by the absence of cal-
+trivial theory" appears and a quadratic spectrum of the culations of the full-scale Lipatov asymptotics in these
+ideal gas is restored. If the limiting transition is per- theories, although the basis for such calculations is
+formed so as to maintain a certain relationship (ensur- fully prepared [27, 35­39]. Application of the proposed
+ing constant sound velocity) between the two scales, a algorithm to the theory of phase transitions may
+"trivial theory with nontrivial vacuum" appears and the increase the accuracy of calculation of the critical indi-
+spectrum becomes strictly linear (i.e., strongly different ces by at least two­three orders of magnitude.
+from that of the ideal gas), although no interaction of
+quasiparticles (phonons) takes place. The latter sce- ACKNOWLEDGMENTS
+nario was suggested for the continuum limit of the 4
+theory, stating that it is logically self-consistent. This study was supported by the INTAS foundation
+Even if the last statement is accepted, a question still (grant no. 99-1070) and by the Russian Foundation for
+remains unanswered as to why this limiting transition Basic Research (project no. 00-02-17129).
+does physically take place. For a Bose gas of neutral
+atoms, there is no real possibility of simultaneously REFERENCES
+changing both the gas density and the scattering length.
+The situation required for the authors of [30, 31] may 1. I. M. Suslov, Pis'ma Zh. Éksp. Teor. Fiz. 71, 315 (2000)
+take place only in the case of a special long-range inter- [JETP Lett. 71, 217 (2000)].
+action, whereby a change in the density affects the 2. L. N. Lipatov, Zh. Éksp. Teor. Fiz. 72, 411 (1977) [Sov.
+Debye screening radius. However, this scenario is not Phys. JETP 45, 216 (1977)].
+arbitrary and can be predicted based on the initial 3. Large Order Behavior of Perturbation Theory, Ed. by
+Hamiltonian. J. C. Le Guillou and J. Zinn-Justin (North-Holland,
+It was stated [30, 31] that the assumption concern- Amsterdam, 1990).
+ing a nontrivial character of the continuum limit was con- 4. J. Zinn-Justin, Phys. Rep. 70, 109 (1981).
+firmed by the results of numerical modeling on the lattice. 5. E. B. Bogomolny, V. A. Fateyev, and L. N. Lipatov, Sov.
+However, this conclusion was based only on a particular Sci. Rev., Sect. A 2, 247 (1980).
+interpretation of the "experimental" data, rater than on a 6. J. C. Le Guillou and J. Zinn-Justin, Phys. Rev. Lett. 39,
+direct experimental evidence: the numerical experiments 95 (1977); Phys. Rev. B 21, 3976 (1980).
+were performed deep in the region of the single-loop law 7. G. A. Baker, Jr., B. G. Nickel, M. S. Green, and
+and could not contain any information concerning the triv- D. I. Meiron, Phys. Rev. Lett. 36, 1351 (1976); Phys.
+iality. The results, however unusual they might seem, Rev. B 17, 1365 (1978).
+must by explained within the framework of a weak cou- 8. J. C. Le Guillou and J. Zinn-Justin, J. Phys. Lett. 46,
+pling limit. L137 (1985); J. Phys. (Paris) 48, 19 (1987); 50, 1365
+Triviality of the 4 theory leads to the non-renormal- (1989).
+izability of the Higgs spectrum of the Standard Model. 9. I. M. Suslov, Zh. Éksp. Teor. Fiz. 116, 369 (1999) [JETP
+This results in violating one of the basic postulates, the 89, 197 (1999)].
+principle of renormalizability. Thus, papers [30, 31] 10. N. N. Bogoliubov and D. V. Shirkov, Introduction to the
+were stimulated by the wish to resolve the difficulties. Theory of Quantized Fields (Nauka, Moscow, 1976;
+According to the results obtained in this work, no such Wiley, New York, 1980).
+difficulties were inherent in the system studied. 11. V. S. Popov, V. L. Eletskioe, and A. V. Turbiner, Zh. Éksp.
+Teor. Fiz. 74, 445 (1978) [Sov. Phys. JETP 47, 232
+(1978)].
+9. CONCLUSION 12. D. I. Kazakov, O. V. Tarasov, and D. V. Shirkov, Teor.
+This paper develops an algorithm for summing Mat. Fiz. 38, 15 (1979).
+divergent series of the perturbation theory with arbi- 13. Yu. A. Kubyshin, Teor. Mat. Fiz. 58, 137 (1984).
+trary values of the coupling constant. Verification on the 14. A. N. Sissakian et al., Phys. Lett. B 321, 381 (1994).
+
+
+SUMMING DIVERGENT PERTURBATIVE SERIES 23
+
+15. A. A. Vladimirov and D. V. Shirkov, Usp. Fiz. Nauk 129, 28. S. V. Faleev and P. G. Silvestrov, Phys. Lett. A 197, 372
+407 (1979) [Sov. Phys. Usp. 22, 860 (1979)]. (1995).
+16. M. V. Sadovskioe, Usp. Fiz. Nauk 133, 223 (1981) [Sov. 29. L. N. Lipatov, Zh. Éksp. Teor. Fiz. 71, 2010 (1976) [Sov.
+Phys. Usp. 24, 96 (1981)]. Phys. JETP 44, 1055 (1976)].
+17. I. M. Suslov, Usp. Fiz. Nauk 168, 503 (1998) [Phys. Usp. 30. M. Consoli and P. M. Stevenson, Z. Phys. C 63, 427
+41, 441 (1998)]. (1994).
+18. F. M. Dittes, Yu. A. Kubyshin, and O. V. Tarasov, Teor. 31. A. Agodi, G. Andronico, P. Cea, et al., Mod. Phys. Lett.
+Mat. Fiz. 37, 66 (1978). A 12, 1011 (1997).
+19. Yu. A. Kubyshin, Teor. Mat. Fiz. 57, 363 (1983). 32. J. Frolich, Nucl. Phys. B 200 (FS4), 281 (1982);
+20. G. H. Hardy, Divergent Series (Clarendon, Oxford, M. Aizenman, Commun. Math. Soc. 86, 1 (1982).
+1949; Inostrannaya Literatura, Moscow, 1951). 33. J. P. Eckmann and R. Epstein, Commun. Math. Phys. 64,
+21. Yu. V. Sidorov, M. V. Fedoryuk, and M. I. Shabunin, Lec- 95 (1979).
+tures on Theory of Functions of Complex Variable 34. B. Freedman, P. Smolensky, and D. Weingarten, Phys.
+(Nauka, Moscow, 1976), Para. 32. Lett. B 113B, 481 (1982).
+22. W. H. Press, B. P. Flannery, S. A. Teukolsky, and W. T. Vet- 35. E. B. Bogomolny and V. A. Fateyev, Phys. Lett. B 71B,
+terling, Numerical Recipes (Cambridge Univ. Press, 93
+(1977); L. N. Lipatov, A. P. Bukhvostov, and
+Cambridge, 1988). E. I. Malkov, Phys. Rev. D 19, 2974 (1979).
+23. C. M. Bender and T. T. Wu, Phys. Rev. 184, 1231 (1969); 36. G. Parisi, Phys. Lett. B 66B, 382 (1977).
+Phys. Rev. D 7, 1620 (1973). 37. C. Itzykson, G. Parisi, and J. B. Zuber, Phys. Rev. D 16, 996
+24. J. Cizek and E. R. Vrskay, Int. J. Quantum Chem. 21, 27 (1977); R. Balian, C. Itzykson, G. Parisi, and J. B. Zuber,
+(1982). Phys. Rev. D 17, 1041 (1978).
+25. I. M. Suslov, Zh. Éksp. Teor. Fiz. 117, 659 (2000) [JETP 38. E. B. Bogomolny and V. A. Fateyev, Phys. Lett. B 76B,
+90, 571 (2000)]. 210 (1978).
+26. A. I. Mudrov and K. B. Varnashev, Phys. Rev. E 58, 5371 39. I. I. Balitsky, Phys. Lett. B 273, 282 (1991).
+(1998).
+27. S. V. Faleev and P. G. Silvestrov, Nucl. Phys. B 463, 489
+(1996). Translated by P. Pozdeev
+
+
+

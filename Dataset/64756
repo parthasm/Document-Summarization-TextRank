@@ -1,0 +1,182 @@
+
+
+4
+
+Given the general gaussian approximation of (9), the correlation radii take the following model independent form for azimuthally symmetric systems [4,6]
+
+R2? = D(x \Gamma fi?t)2E \Gamma Dx \Gamma fi?tE
+
+2 ; R2
+
+L = D(z \Gamma fiLt)
+
+2E \Gamma Dz \Gamma fiLtE2 ;
+
+R2s = Dy2E ; R2?L = D(x \Gamma fi?t)(z \Gamma fiLt)E \Gamma Dx \Gamma fi?tEDz \Gamma fiLtE ; (11) where we use the notationD
+
+,E j D,E(K) = R d
+
+4x , S(x; K)R
+
+d4x S(x; K) : (12) LCMS radii can be found by setting fiL = 0 in (11) and using in eq. (12) a form of S(x; K) which is valid in the LCMS frame. We can see that in this frame, R2?L provides information about any z-t and/or z-x correlations of the source (as seen in the LCMS). Obviously, for the model shown in figure 4, these correlations are not insignificant.
+
+It has been shown that when the B_* mixing parameters are small, the correlation radii simply measure the lengths of homogeneity *_ of the source [9]. For example, for the source defined by eqs. (6) and (7), the "side" radius takes the form [4,6]
+
+Rs = *2 = RG(1 + mtv2=T )\Gamma 1=2 : (13) Here we can see explicitly that when transverse flow is present (v 6= 0), the length of homogeneity measured by the "side" radius is smaller than the geometrical transverse radius. Due to the mt dependence, this reduction effect is more pronounced for higher momentum and/or larger mass particles.
+
+Using two specific model sources and a model independent formalism, we have shown that there is no a priori reason why an R2?L cross term should be excluded from gaussian fits to experimental correlation data. Not only will the new parameter reveal more information about the source, its inclusion will undoubtedly increase the accuracy of the other fitted radii.
+
+REFERENCES 1. NA35 Coll., G. Roland et al., Nucl. Phys. A566 (1994) 527c;
+
+NA44 Coll., M. Sarabura et al., Nucl. Phys. A544 (1992) 125c; E802 Coll., T. Abbott et al., Phys. Rev. Lett. 69 (1992) 1030. 2. NA35 Coll., D. Ferenc et al., Nucl. Phys. A544 (1992) 531c;
+
+NA44 Coll., H. Beker et al., Z. Phys. C64 (1994) 209. 3. G. Bertsch, M. Gong, and M. Tohyama, Phys. Rev. C 37 (1988) 1896. 4. S. Chapman, P. Scotto and U. Heinz, Regensburg preprint TPR-94-28,
+
+ submitted to Phys. Rev. Lett. 5. S. Pratt, T. Cs"org"o and J. Zimanyi, Phys. Rev. C42 (1990) 2646. 6. S. Chapman, P. Scotto and U. Heinz, Regensburg preprint TPR-94-29,
+
+ submitted to Heavy Ion Physics (Acta Phys. Hung., New Series). 7. NA35 Coll., T. Alber et al., talk at Quark Matter '95, these proceedings. 8. T. Cs"org"o, Lund U. preprint LUNFD6 (NFFL-7081) (1994), Phys. Lett. B, in press;
+
+T. Cs"org"o and B. Lo/rstad, Lund U. preprint LUNFD6 (NFFL-7082) (1994). 9. Yu. Sinyukov, Talk presented at Nato Advanced Research Workshop "Hot Hadronic
+
+Matter: Theory and Experiment", Divonne June 27 - July 1, 1994.
+
+3 where ae = px2 + y2 and v o/ 1 is the transverse flow velocity of the fluid at ae = RG.
+
+To generate an "out-longitudinal" correlation function, we plug in some numbers and then numerically integrate eq. (3), using (6) and (7). For simplicity, we consider a pion source with no transverse flow (v = 0) which freezes out instantaneously (ffio/ = 0) with the following other source parameters: RG = 3 fm, o/0 = 4 fm/c, ffij = 1:5, and T = 150 MeV. In [6] we show that when the emission function (6) with these parameters is integrated over spacetime, it produces a very reasonable one-particle distribution. Figure 3 shows the "out-longitudinal" correlator for pairs with Y = \Gamma 2, K? = 200 MeV, and qs = 0. Figure 4 shows the same correlation calculated in the LCMS frame, which is the longitudinally boosted frame defined by fiL = 0 [2]. Since both figures feature rotations of the major and minor axes, it is apparent that the correlations both in the fixed and LCMS frames would be much better fit by eq. (2) than by eq. (1).
+
+q (MeV) out
+
+q L -120 -60 0 60 120-400
+
+-200 0 200 400
+
+Figure 3: Correlation calculated numerically using (3), (6) and (7) in the fixed center of mass frame.
+
+q (MeV) out
+
+q L -120 -60 0 60 120-120
+
+-60 0 60 120
+
+Figure 4: Same as fig.3, but calculated in the LCMS frame.
+
+4. Model Independent Derivation of the Correlation Function
+
+By making a saddle point approximation to a general emission function, we can derive model independent expressions for all of the correlation radii [4,6]. We define the spacetime saddle point _x of the emission function S(x; K) through the four equations
+
+d dx_ ln S(x; K)fififi_x = 0 (8) where _ = f0; 1; 2; 3g. Essentially the saddle point is that point in spacetime which has the maximum probability of emitting a particle with momentum ~K. A saddle point approximation for S(x; K) can then be made in the following way [6]
+
+S(x; K) ' S(_x; K) exp 24\Gamma X
+
+_
+
+(x_ \Gamma _x_)2
+
+2*2_ \Gamma X_?* B_* (x_ \Gamma _x_)(x* \Gamma _x*)35 ; (9)
+
+where we define lengths of homogeneity and source mixing parameters by
+
+*_( ~K) = "\Gamma d
+
+2
+
+dx2_ ln S(x; K)fififi_x#
+
+\Gamma 1=2
+
+and B_* ( ~K) = \Gamma ddx
+
+_
+
+d dx* ln S(x; K)fififi_x : (10)
+
+2 2. Stationary Gaussain Sources
+
+Consider the following azimuthally symmetric gaussian emission function: S(x; K) = f (K) exp "\Gamma x
+
+2 + y2
+
+2R2 \Gamma
+
+z2 2L2 \Gamma
+
+(t \Gamma t0)2
+
+2(ffit)2 # : (4)
+
+Using (3), one can see that the corresponding correlation function takes the form C(q; K) = 1 \Sigma exp[\Gamma q2s R2 \Gamma q2?(R2 + fi2?(ffit)2) \Gamma q2L(L2 + fi2L(ffit)2) \Gamma 2q?qLfi?fiL(ffit)2] ; (5) so the q?qL cross term provides a measurement of the duration of particle emission (ffit).
+
+The effect of the cross term is easiest to see by looking at the "out-longitudinal" projection of the correlation function. Figures 1 and 2 show contour plots of the "outlongitudinal" correlator for a source featuring R = L = cffit = 3 fm and pairs characterized by qs = 0, fi? = p:5 c. The outer contours are for jC \Gamma 1j = 0:1, and each successively smaller contour represents an increase of 0:1. In figure 1 fiL = 0, so the cross term vanishes, thus causing the major and minor axes of the elliptical contours to coincide with the "out" and "longitudinal" axes. In figure 2, however, fiL = p:5 c, and the nonvanishing cross term causes a rotation in the major and minor axes. This effect should be easily observable, and has in fact already been measured in NA35 correlation data [7].
+
+q (MeV) out
+
+q L -120 -60 0 60 120-120
+
+-60 0 60 120
+
+Figure 1: Eq. (5) with fiL = 0.
+
+q (MeV) out
+
+q L -120 -60 0 60 120-120
+
+-60 0 60 120
+
+Figure 2: Eq. (5) with fiL = q1=2 c. 3. Model Featuring Boost-Invariant Expansion
+
+Now we turn to a more realistic model, similar to those in [8]. In the center of mass frame of an expanding fireball, we define the following emission function [4,6]:
+
+S(x; K) = o/
+
+0mtch(j \Gamma Y )
+
+(2ss)3o/ q2ss(ffio/ )2 exp "\Gamma
+
+K\Delta u(x)
+
+T \Gamma
+
+x2 + y2
+
+2R2G \Gamma
+
+j2 2(ffij)2 \Gamma
+
+(o/ \Gamma o/0)2
+
+2(ffio/ )2 # ; (6)
+
+where T is a constant freeze-out temperature, o/ = pt2 \Gamma z2, j = 12 ln[(t + z)=(t \Gamma z)], mt =q
+
+m2 + K2?, and Y is the rapidity of a particle with momentum K. We consider a flow which is non-relativistic transversally but which exhibits Bjorken expansion longitudinally,
+
+u(x) ' i1 + 12 (vae=RG)2j chj; (vx=RG); (vy=RG); i1 + 12(vae=RG)2j shj ! ; (7)
+
+ 30 Jun 1995
+
+1 The "Out-Longitudinal" Cross Term and Other Model Independent Features of the Two-Particle HBT Correlation Function
+
+S. Chapmana, P. Scottob, and U. Heinz b aLos Alamos National Laboratory, Los Alamos, NM 87545, USA
+
+bInstitut f"ur Theoretische Physik, Universit"at Regensburg, D-93040 Regensburg, Germany
+
+Using two specific models and a model independent formalism, we show that an "outlongitudinal" cross term should be included in any gaussian fits to correlation data. In addition, we show that correlation radii (including the cross term) measure lengths of homogeneity within the source, not necessarily geometric sizes.
+
+1. Introduction
+
+Experimentally measured Hanbury-Brown Twiss (HBT) correlations between two identical particles are typically fit by gaussians of the form [1,2]
+
+C(q; K) = 1 \Sigma * exp h\Gamma q2sR2s (K) \Gamma q2?R2?(K) \Gamma q2LR2L(K)i ; (1) where q = p1 \Gamma p2, K = 12 (p1 + p2), the + (\Gamma ) sign is for bosons (fermions), and the coordinate system is defined as follows [3]: The "longitudinal" or ^z (subscript L) direction is parallel to the beam; the "out" or ^x (subscript ?) direction is parallel to the component of K which is perpendicular to the beam; and the "side" or ^y (subscript s) direction is the remaining direction. We claim that significantly more can be learned and better fits achieved if an "out-longitudinal" cross term is included in the following way [4]
+
+C(q; K) = 1 \Sigma * exp h\Gamma q2sR2s (K) \Gamma q2?R2?(K) \Gamma q2LR2L(K) \Gamma 2q?qLR2?L(K)i ; (2) where R2?L is a parameter which can be either positive or negative.
+
+To see how this cross term arises in two-particle correlations, we use the following well established theoretical approximation [5,6]
+
+C(q; K) ' 1 \Sigma j R d
+
+4x S(x; K) eiq\Delta xj2
+
+j R d4x S(x; K)j2 ; (3)
+
+where q0 = E1 \Gamma E2 and K0 = EK = qm2 + jKj2. Here S(x; K) is a function which describes the phase space density of the emitting source. For pairs with jqj o/ EK , we can use the approximation q0 ' fi?q? + fiLqL, where fii = Ki=EK .
+

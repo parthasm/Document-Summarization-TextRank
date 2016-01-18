@@ -1,0 +1,264 @@
+
+
+ 20 Apr 1995
+
+OITS-569 March 1995
+
+IN SEARCH FOR SIGNS OF CHAOS IN
+
+BRANCHING PROCESSES
+
+Zhen CAO and Rudolph C. HWA Institute of Theoretical Science and Department of Physics
+
+University of Oregon, Eugene, Oregon 97403-5203
+
+Abstract For systems that involve particle production through branching processes the concept of chaos is explored. The measures that can describe their behaviors are investigated. Monte Carlo simulation is used to generate events according to perturbative QCD and an Abelian model. It is shown how the measures proposed distinguish the two cases in ways that characterize the chaotic behavior.
+
+It has been known for some time that the nonlinear, non-Abelian dynamics of the classical Yang-Mills field has chaotic solutions [1, 2]. More recently, it has been shown by lattice calculation that the classical non-Abelian gauge theory generally exhibits deterministic chaos and that the Lyapunov exponents can be numerically determined [3, 4, 5]. How to extend the investigation to the quantum theory is, however, unclear inasmuch as the notion of quantum chaos for such dynamics is not well defined [6, 7]. In this paper we take the first step in that direction, not just going into the quantum dynamics of a nonlinear theory, but into the realm of particle production of quantized fields.
+
+In this uncharted territory we have very little guidance on what to study in search for signs of chaos. It is not clear what a trajectory is in QCD, even less the distance between two trajectories. What exactly is the Kolmogorov entropy, well defined in classical dynamics [8], is also unclear in the multiparticle production problem. Our first objective is therefore to the find some measure that can play the role of distance between trajectories and some other quantity that conveys the loss of information in the final state.
+
+1
+
+In order to know whether or not we have found the right measures, it is necessary to test our ideas on different dynamical problems and show that the measures can effectively distinguish different characteristics. We shall therefore concentrate on two branching processes in particle production. One is the pure gluon theory in perturbative QCD; the other is a cascade model (to be referred to as the O/ model) that has none of the features of the gauge theory. We shall regard the gluons (partons) as particles and ignore hadronization so that we may focus on the issue of chaoticity in the branching dynamics.
+
+In either case we start with a parton having high time-like virtuality Q2 and use computer simulation to study the evolution of the system through branching. The Monte Carlo code generates the parton momentum distributions that in the case of QCD satisfy the Altarelli-Parisi evolution equations [9, 10, 11]. The splitting functions for the two cases are drastically different, and the ways the virtualities degrade are also different. They give rise to the diverse behaviors that emerge. The question is how to find a quantitative measure of the diversity that is useful from the point of view of chaoticity.
+
+One of the difficulties in the problem posed is that time is not an explicit variable when calculating momentum distribution. Moreover, with the number of degrees of freedom increasing in the cascade process, there is no obvious way to generalize the definition of a trajectory in classical dynamics. However, branching has an irrefutable physical notion of the direction of time, and parton multiplicity n increases with time so long as only tree diagrams (without recombination) are considered, which we do. Thus we take two conjugate views: the "temporal" development (parameterized by n) without regard to the parton momenta, and the "geometrical" characteristics in the momentum space at the end of the evolution. In some rough sense this corresponds to the two views of the classical systems that are related by ergodicity.
+
+Concerning trajectory and distance between trajectories, our thinking goes as follows. The classical field intensity is replaced in the quantum case by the number n of quanta, and the distance between two field configurations can be represented by the variance D2 of the n distribution, Pn. This distribution arises after repeated simulation from the same initial condition, i.e., a fixed initial virtuality Q2. Quantum fluctuation is enough to replace the small variation of the initial condition in classical dynamics. With the average hni regarded as a measure of the evolution time, D2 as a function of hni can then be regarded as the quantum analog of the classical distance function d(t). This hni is the average multiplicity, not just in the final state, but along the evolution process.
+
+More precisely, let us focus on one event and use a tree to represent a particular branching process. Regardless of the virtuality q2 of any line, all vertices of the same generation are put at the same branching level and a label i is given to each generation between two levels, starting with i = 0 for the initial parton at Q2. By ignoring q2 in the genealogy of the tree, we are emphasizing topology and overlooking momenta. Let ni denote the number of partons at the i th generation. We shall use the event
+
+2
+
+averaged hnii in lieu of time, although a simple linear or exponential relationship between the two is not expected. In fact, hnii may not increase monotonically with i, even if ni does; in such a case we use only the increasing portion. For the measure that plays the role of distance, we define the normalized variance
+
+Vi = iDn2i E \Gamma hnii2j = hnii2 (1) This differs from the second cumulant moment K2 by a term \Gamma 1=hnii, and is better than it because K2 can become negative (thus precluding log-log plots), while Vi is always positive. A rapid increase of Vi with hnii can be interpreted as the analog of the "divergence of nearby trajectories" in classical dynamics. Clearly, if Vi remains constant or decreases, one does not become more ignorant about the state of the system as it evolves, and thus it cannot be regarded as exhibiting chaotic behavior.
+
+For MC simulation we follow the procedure described by Odorico [10]. For both pure-gauge QCD and the O/ model we start with virtuality Q2 and end at Q20. The splitting function for g ! gg is
+
+P (z) = 6 ^ 1 \Gamma zz + z1 \Gamma z + z (1 \Gamma z)* (for QCD) (2) where z is the momentum fraction of the daughter parton in the frame where the mother parton's momentum is 1. In terms of the Sudakov form factor S(Q2; Q20) one can calculate the probability of emitting a resolvable gluon occurring between Q2 and Q20; when it occurs in the simulation at q2, then z is chosen to be in the range z0 ^ z ^ 1 \Gamma z0, where z0 = Q20=q2. The daugthers evolve separately from the maximum virtualities, q21 = z q2 and q22 = (1 \Gamma z) q2, according to the same procedure as applied to the mother. The running coupling constant is, as usual, ffs(q2) = 4ss=[11 log(q2=\Lambda 2)], where we have set Nc = 3, Nf = 0, and shall use \Lambda = 250 MeV. Branching ceases when q2 reaches Q20 or below.
+
+In the O/ model we use the splitting function
+
+P (z) = 6z (1 \Gamma z) (for the O/ Model) (3) There is no infrared or collinear divergence and therefore no evolution. Nevertheless, we introduce Q2 dependence by requiring that the daughter virtualities be zq2 and (1 \Gamma z)q2, when the mother virtuality is q2, and z can be any value between 0 and 1. We require branching to occur successively until the virtualities of all lines reach Q20. We consider this model because it examplifies the Abelian dynamics without infrared and collinear divergences. Yet the multiplicity of particles produced depends on Q2 so that the result of branching can be compared with the non-Abelian case, although for very different Q=Q0.
+
+We have simulated these two branching processes by running 105 events each, using Q0 = 1 GeV. The results on Vi vs hnii are shown in the log-log plot in Figure 1 for various values of Q=Q0 indicated. While it is hard to produce high multiplicity in
+
+3
+
+QCD unless Q=Q0 is extremely large, particles are copiously produced in the O/ model at moderate Q=Q0. The general features of Vi vs hnii for the two cases are markedly different. The QCD result shows a power-law increase in the high hnii range
+
+Vi / hnii^ ; ^ ' 0:4 ; (4) where the exponent ^ is approximately independent of Q2. The O/ model, on the other hand, shows a rapid rise initially, but followed by a precipitous drop after reaching a maximum. Indeed, the maximum Vi decreases with increasing Q2. Clearly, this is not a case that suggest chaotic behavior.
+
+For gluon branching the monotonic increase of Vi with hnii implies that, as the branching proceeds, how many particles are produced in any event becomes more and more unpredictable. The power-law dependence may be regarded as the analog of the exponential increase with time of the distance between classical trajectories that are initially close by. However, there is no way to relate ^ to the Lyapunov exponents, since among other differences the notion of time is not well defined here. By itself ^ ' 0:4 does not indicate how chaotic the behavior is. There is a need for another measure of chaoticity.
+
+If Figure 1 is viewed as the analog of the description of the temporal behavior, another place to search for signs of chaos is in the phase space of the particles. As the system evolves, more and more information is lost on where the partons are (or more precisely, what their momenta are), so entropy increases not only because of the increase of the number of particles, but also because of the dynamical fluctuations in their momenta. We therefore consider a multifractal description of that fluctuation and focus on the information dimension as a characterization of the entropy of the system [8].
+
+Since at each vertex of branching a daughter's momentum fraction z is known in the simulation, the momentum x of a final particle as a fraction of the initial particle is therefore calculable. It is x = Qi zi, where zi is the momentum fraction of the descendant at the i th generation. Since the particle distribution ae(x) is highly peaked near x = 0, it is smoother to examine the distribution in the cumulative variable X, defined by [12]
+
+X(x) = Z
+
+x
+
+x1 ae(x
+
+0) dx0= Z x
+
+2
+
+x1 ae(x
+
+0) dx0 ; (5)
+
+where x1 and x2 are two extreme points in the distribution ae(x), between which X varies from 0 to 1. In terms of X the inclusive distribution ae(X) is constant. For each event the fluctuation in X space is then studied by dividing the interval 0 ^ X ^ 1 into M bins and calculating the factorial moments
+
+fq(M ) = M
+
+\Gamma 1
+
+MX
+
+j=1
+
+nj(nj \Gamma 1) \Delta \Delta \Delta (nj \Gamma q + 1) (6)
+
+4
+
+where nj is the multiplicity in the j th bin. After averaging over all events, the normalized factorial moment
+
+Fq = hfqi = hf1iq (7)
+
+is known to contain no statistical fluctuations [13].
+
+What interests us is its behavior near q = 1, where we can extract the information dimension D1. To that end it is necessary to extend the definition of Fq in (6) to noninteger q. A method for achieving that without losing the attribute Fq = 1 for Poissonian fluctuation has recently been developed [14]. Using that method we have calculated Fq for a continuous range of q, as shown in Figure 2, for both QCD and the O/ model. The results for the two cases are very different and provide a distinct contrast between them. They are in accord with the temporal behavior shown in Figure 1 in that, for q ? 1, Fq ! 1 in the O/ model, meaning that the distribution is sub-Poissonian, while Fq ? 1 in QCD, indicating large fluctuations. The geometrical properties in the X space are not revealed until we investigate the M dependence. We find that in both cases Fq are not sensitive to M , as can be seen from the various lines in Figure 2 corresponding to different M values. Thus the behavior has no interesting multifractal property: D1 ' 1 in both cases.
+
+The origin of the lack of significant M dependence can be traced to Fq itself, where the event averaging cancels out the fluctuations. Event by event the values of F eq = f eq =(f e1 )q, where e labels an event, fluctuate greatly, especially when M is large. To quantify the degree of that fluctuation we define event-averaged (vertical) moments of the (horizontal) F eq moments
+
+Cp;q(M ) = DF pq (M )E = hFq(M )ip ; (8) where DF pq E = N
+
+\Gamma 1 Pe(F e
+
+q )
+
+p, N being the total number of events. We then calculate
+
+Cp;q(M ) for 0 ! p ! 2, and q = 2; 3; 4. It is found that Cp;q(M ) indeed exhibits significant M dependences, as shown in Figure 3. In all cases of p and q, the O/ model has smaller Cp;q compared to QCD, implying smaller fluctuations of F eq . The M dependences do not show linearity over any extended range in the log-log plots, the best being from M = 5 to 20. In that range we write
+
+Cp;q(M ) / M
+
+q(p) : (9)
+
+From the slope q(p) in the neighborhood of p = 1, we can calculate the index _q, defined by
+
+_q = ddp q(p) jp=1 : (10)
+
+The result of our simulation yields the values _q = 0:0061; 0:054; 0:23 for q = 2; 3; 4 in the case of QCD, and 0.0014, 0.010, 0.046 in the O/ model, respectively. Clearly, for each q, _(QCD)q is significantly larger than _(O/)q . We now give a physical interpretation of _q as an entropy index to be used as a new measure of the event fluctuation in branching processes.
+
+5
+
+If we define P eq = F eq = Pe F eq , and then define Hp;q = Pe(P eq )p, we have an entropy in the event space
+
+Sq = \Gamma X
+
+e P
+
+e q lnP
+
+e q = \Gamma ddp lnHp jp=1 : (11)
+
+Hp;q and Cp;q can be related by their definitions, yielding
+
+d dp lnCp;q jp=1 = lnN \Gamma Sq : (12)
+
+From (9) and (10) we obtain
+
+Sq = ln(N M
+
+\Gamma _q ) ; (13)
+
+apart from a possible additive term independent of N and M . _q appears to be related to the information dimension, but it is not because Sq is not the entropy defined in the X space, which is the one that is divided into M cells. The event space in which Sq is defined has not been partitioned into small cells. The meaning of (13) can be seen in two extreme cases: (a) if F eq is the same for every event, then P eq = 1=N , and Sq = lnN ; (b) if only one event has F eq 6= 0, and F eq = 0 in all others, then Sq = 0. Thus case (b) is more ordered in the event space than (a); that is, it is more disordered to spread out an observable (F eq here) over all events (even if F eq = constant) than to confine it to a few events having nonzero values (analogous to the increase of entropy of an expanding gas). [The case of all F eq = 0 is excluded from consideration in order to render P eq meaningful.] Thus Sq decreases when there are more events with F eq = 0, signifying more order in the event space. From (13) we see that _q is a measure that decrease, which in turn implies more fluctuation in F eq .
+
+At large M only large spikes in small bins contribute to F eq , especially when q is large. Events with large spikes are rare. Consequently, the fluctuation in F eq from event to event becomes more pronounced with increasing q. That behavior is now quantified by _q. We may therefore use _q to characterize the spatial properties of the chaotic behavior of a branching process. We have, however, at this stage no quantitative criterion on how small _q must be in order to signify no chaotic behavior.
+
+We can relate the classical and quantum problems in our description in the event space as follows. Consider a neighborhood Nffl around an initial point in phase space for a classical trajectory. For chaotic dynamics, starting the system from any point in Nffl leads to widely different trajectories at sufficiently long time later. We may regard N of these trajectories in Nffl as corresponding to N branching events all with the same initial virtuality, but having different outcomes. F eq (M ) describes the final state of the system for the e th event, and _q describes the degree of fluctuation of F eq from event to event. Sufficiently large values for the index _q therefore signify chaotic behavior of the branching process.
+
+In conclusion, we have found features about QCD branching that are not shared by the O/ model, which represents Abelian branching. Because of the non-classical
+
+6
+
+nature of the system, we have had to search for new measures and observables. The dependence of Vi on hnii reveals the "temporal" behavior, while Fq, Cp;q, and _q describe the "spatial" properties. All these measures taken together give a collective description of the degree of chaoticity in a branching process. We have found that Vi increases with hnii in QCD, while it decreases for the O/ model. The dependences of Fq on q are totally different for the two cases. Cp;q and _q are much larger for QCD than for the O/ model. These results collectively suggest that QCD branching is chaotic, while the O/ model is not. Among the measures considered, Vi (and higher moments of ni, which could also have been considered) vs hnii contain detailed information about the branching process from generation to generation, but they are not accessible to the experiment. The others describe the characteristics of the final state, and can be determined experimentally in most high-energy collisions. The entropy index _q is most unusual and deserves further investigation.
+
+One of us (RCH) is grateful to K. Geiger, B. L. Hao, S. G. Matinyan, and B. M"uller for helpful discussions. This work was supported in part by the U.S. Department of Energy under Grant No. DE-FG06-91ER40637.
+
+References
+
+[1] S.G. Matinyan et. al., Sov. Phys. JETP 53, 421 (1981). [2] S.G. Matinyan, Sov. J. Part. Nucl. 16, 226 (1985) and other references quoted
+
+therein.
+
+[3] B. M"uller and A. Trayanov, Phys. Rev. Lett. 68, 3387 (1992). [4] T.S. Bir'o, C. Gong, B. M"uller and A. Trayanov, Int. J. Mod. Phys. C5, 113
+
+(1994).
+
+[5] C. Gong, Phys. Lett. B298, 257 (1993), Phys. Rev. D 49, 2642 (1994). [6] M Tabor, Chaos and Integrability of Nonlinear Dynamics (Wiley, N.Y., 1989). [7] Quantum Chaos, edited by H.A. Cerdeira et al. (World Scientific, Singapore,
+
+1991).
+
+[8] H.G. Schuster, Deterministic Chaos (Physik-Verlag, Weinheim, 1984). [9] A. Altarelli and G. Parisi, Nucl. Phys. B 126, 298 (1977). [10] E. Odorico, Nucl. Phys. B 172, 157 (1989).
+
+7
+
+[11] B.R. Webber, Ann. Rev. Nucl. Part. Sci. 36, 253 (1986). [12] A. Bialas and M. Gardzicki, Phys. Lett. B252, 483 (1990). [13] A. Bialas and R. Peschanski, Nucl. Phys. B 273, 703 (1986); B 308, 867 (1988). [14] R.C. Hwa, Phys. Rev. D 51, (1995).
+
+8 101010 10 10
+
+10
+
+10 10 <n >
+
+V
+
+QCD
+
+-model
+
+Q/Q = 100
+
+1000300
+
+QCD
+
+5
+
+2010
+
+i 0
+
+1 320
+
+0 -1
+
+-modelc
+
+-2 -3
+
+i
+
+c
+
+Figure 1: Normalized variance vs average multiplicity at various generations in the branching processes.
+
+9
+
+c Fq
+
+-model
+
+QCDM= 50 100
+
+200
+
+210 3 1
+
+2 1.5
+
+q Figure 2: Factorial moments of continuous order for various bin sizes. Q=Q0 = 103 for QCD and 20 for the O/-model.
+
+10
+
+1 10 100-0.005 0 0.005
+
+0.01 0.015
+
+0.02 0.025
+
+0.03
+
+1 10 100-0.05 0 0.05
+
+0.1 0.15
+
+0.2 0.25
+
+0.3
+
+1 10 100-0.2 0 0.2 0.4 0.6 0.8
+
+1
+
+MM M 10
+
+q=4q=3q=2
+
+c
+
+log C
+
+p= 0.5 1.0 1.5 2.0 -modelQCD p,q
+
+Figure 3: Cp;q vs M for various values of p and q. Q=Q0 = 103 for QCD and 20 for the O/-model.
+
+11
+

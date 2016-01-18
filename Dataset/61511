@@ -1,0 +1,300 @@
+
+
+CERN-TH. 7409/94 DYNAMIC GLUON CONFINEMENT
+
+IN HIGH ENERGY PROCESSES WITHIN EFFECTIVE QCD FIELD THEORY
+
+K. Geiger CERN TH-Division, CH-1211 Geneva 23, Switzerland
+
+Abstract An effective Lagrangian approach to describe the dynamics of confinement and symmetry breaking in the process of quark-gluon to hadron conversion is proposed. The deconfined quark and gluon degrees of freedom of the perturbative QCD vacuum are coupled to color neutral condensate fields representing the non-perturbative vacuum with broken scale and chiral symmetry. As a first application the evolution of gluons emitted by a fragmenting high energy q _q pair from the perturbative to the non-perturbative regime with confinement is studied. For reasonable parameter choice the solution of the equations of motion leads to flux tube configurations with a string tension t ' 1 GeV/fm.
+
+e-mail: klaus@surya11.cern.ch CERN-TH. 7409/94, August 1994
+
+0
+
+The transformation of color charged quarks and gluons in high energy QCD processes into colorless hadrons is commonly believed to be a local phenomenon. The universality of parton fragmentation observed in hard processes as e+e\Gamma annihilation, deep inelastic ep scattering, Drell Yan, etc., is strongly supported by experimental observations. Thus, a consistent description of the local hadronization mechanism must be independent of the details of the partons prehistory and should apply also to hadron-hadron, hadron-nucleus, or nucleus-nucleus collisions.
+
+To date most of the theoretical tools to study properties of QCD are inadequate to describe the dynamics of the transformation from partonic to hadronic degrees of freedom: Perturbative techniques are limited to the deconfined, short distance regime of high energy partons [1], QCD sumrules [2] and effective low energy models [3] are restricted to the long distance domain of hadrons, and lattice QCD [4] lacks the capability of dynamical calculations concerning the quark-gluon to hadron conversion. On the other hand, phenomenological approaches to parton fragmentation [5], are mostly based on hadronization models with adhoc prescriptions to simulate hadron formation from parton decays.
+
+In this letter I will propose a universal approach to the dynamic transition between partons and hadrons based on an effective QCD field theory description. The key element is to project out the relevant degrees of freedom for each kinematic regime and to embody them in an effective QCD Lagrangian which recovers QCD with its scale and chiral symmetry properties at high momentum transfer, but yields at low energies the formation of symmetry breaking gluon and quark condensates including excitations that represent the physical hadrons. I will first formulate the general field theoretical framework. Subsequently I shall demonstrate its applicability to the dynamics of parton-hadron conversion by studying exemplarily the evolution of gluons produced by a fragmenting quark-antiquark pair. The aim of this letter is to give a lucid presentation of the conceptual framework, details of the work reported here will be given elsewhere [6].
+
+The effective QCD Lagrangian is represented in the form
+
+L := L[; A] + L[O/; U ] + L[; A; O/] : (1) Here
+
+L[; A] = \Gamma 14 F_*;aF _*a + i ^ ifl_@_ \Gamma gsfl_A_a Ta* i + Lgauge + Lghost (2)
+
+1
+
+is the QCD Lagrangian in terms of the quark (i) and gluon fields (Aa) and F _*a = @_A*a \Gamma @*A_a + gsfabcA_b A*c . The effective Lagrangian [7]
+
+L[O/; U ] = 12 (@_O/)(@_O/) + 14 T r ^ (@_U )(@_U y)* \Gamma c ` O/O/
+
+0 '
+
+3
+
+T r ^ mq(U + U y)*
+
+\Gamma b ^ 14 O/40 + O/4 ln ` O/e1=4O/
+
+0 '* \Gamma
+
+1 2 `
+
+O/ O/0 '
+
+4
+
+m20 OE20 ; (3)
+
+introduces a scalar gluon condensate field O/ and a meson field U = fss exp ii P8j=0 *jOEj=fssj for the nine pseudoscalar meson fields OEj (fss = 93 MeV), with non-vanishing vacuum expectation values O/0 = h0jO/j0i 6= 0 and U0 = ch0jU + U yj0i 6= 0 that explicitly break scale, respectively chiral symmetry. In (3), c is a constant, mq = diag(mu; md; ms) and b is related to the conventional bag constant B by B = bO/40=4. The key ingredient in (1) is the connection between the scale and chiral symmetric, short distance regime of colored fluctuations and the world of colorless hadrons with broken symmetries. It is mediated by the coupling between the fundamental quark and gluon degress and the effective fields O/ and U through coupling functions g(O/) and ,(O/),
+
+L[; A; O/] = ,(O/)4 F_*;aF _*a \Gamma i g(O/) i : (4) The couplings are chosen [6] in the spirit of the Friedberg-Lee model [8] as g(O/) = g0,=(,\Gamma 1) and ,(O/) = `(O/)v3(3v \Gamma 4) with v = O/=O/0 which generate absolute confinement of quarks and gluons [9], here intimately connected with the formation of the gluon condensate O/0 and the q _q condensate U0. The non-linear couplings have the properties that , = g = 0 for O/ = 0 at short distances, but in the long range regime , ! 1, g ! 1 as O/ ! O/0.
+
+The specific form of \Delta L j L[O/; U ] + L[; A; O/] is motivated by the dual QCD vacuum picture [8]: High momentum, short distance quark-gluon fluctuations (the perturbative vacuum) are embedded in a confining background field O/ (the non-perturbative vacuum), in which by definition the low momentum, long range fluctuations are absorbed. In analogy to a thermodynamic system in equilibrium with a heat bath there can be a net flow of energy between the system and the heat bath environment such that the bare energy of the system is not conserved. However the free energy of the system, here high momentum quarks and gluons, is constant [10]. It corresponds to the conserved physical energy momentum tensor `_* with the well known trace anomaly [11]:
+
+`__ = (1 + flm) X
+
+q
+
+mq _qq + fi(ffs)4ff
+
+s F
+
+_*F _* ; (5)
+
+2
+
+where flm is the anomalous mass dimension and fi the QCD beta function. This anomaly constraint is modeled [7] by the third and fourth term in (3) with the correspondence U0 = h0j_qqj0i and \Gamma BO/40 = h0j(fi=2gs)F_*F _*j0i.
+
+The following remarks concerning the effective QCD Lagrangian (1) are important: First, at short distances the exact QCD Lagrangian is recovered, since O/ = U = 0 and , = g = 0, whereas the long distance QCD properties emerge as O/=O/0; U=U0 ! 1 [7] and no colored quanta survive. Second, the problem of double counting degrees of freedom has to be carefully inspected. Although it does not arise in one-loop calculations (to which I will restrict here), processes with e.g. two-gluon exchange could also be contained in the exchange of a color singlet O/-quantum. A minimal possibility to avoid this problem is a rigid separation of high and low momentum modes, in a way that it is exclusive but complementary. Third, L[O/; U ] embodies the correct QCD scaling properties. It accounts for the anomaly (5) without which Poincar'e invariance would be broken, and the mass of the proton would come out wrong, since 2m2p = hpj`__jpi. Fourth, there is no need for renormalization of L[O/; U ] since O/ and U are already interpreted as effective, composite fields with loop corrections implicitely included.
+
+The effective QCD field theory defined by (1) is readily applicable to describe the dynamic evolution from perturbative to non-perturbative vacuum in high energy processes. In the following I shall consider as an example the fragmentation of a q _q jet system with its emitted bremsstrahlung gluons and describe the evolution of the system as it converts from the parton phase to the hadronic phase. A time-like virtual photon in an e+e\Gamma annihilation event with large invariant mass Q2 AE \Lambda 2 is assumed to produce a q _q pair which initiates a cascade of sequential gluon emissions. The early stage is characterized by emission of "hot" gluons far off mass shell in the perturbative vacuum. Subsequent gluon branchings yield "cooler" gluons with successively smaller virtualities, until they are within Q20, where Q0 is of the order of mO/ j 4bO/20 ' 1 GeV. At this point condensation sets in, or loosely speaking, the "cool" gluons are eaten up by the color neutral scalar condensate field O/ representing the non-perturbative vacuum. Restricting the analysis to the gluonic sector, the equations of motions that derive from (1) reduce to:
+
+@_ [^(O/)F _*a ] = \Gamma gs^(O/)fabcA_;bF _*c (6)
+
+3
+
+@_@_O/ = \Gamma @V (O/)@O/ \Gamma @^(O/)@O/ F_*;aF _*a (7) @_@_U = \Gamma 4 c ` O/O/
+
+0 '
+
+3
+
+T r[mq] ; (8)
+
+where ^ = 1 \Gamma , and V (O/) is the potential evident from (3). The key problem is the first equation, since the gluon fields drive the dynamics of the O/-field which in turn feeds back via ^(O/). Note that the U -field does not couple directly to the gluon field. The procedure in the following is therefore to 'solve' eq. (6) as a function of ^ and then to insert the solution into (7), so that one is left (aside from the simple third equation) with a single non-linear equation for O/. As a simplification I shall work in the mean field approximation, i.e. separating off the quantum fluctuations of the O/-field, O/ = _O/ + ^O/, where _O/ is a c-number and ^O/ a quantum operator (similarly for U ).
+
+Solving the equation of motion (6) for the gluon field is equivalent to the calculation of the complete Greens function with an arbitrary number of gluons, a formidable task indeed. Instead, I will restrict to evaluate the 2-point Greens fuction only (Fig. 1), i.e. the full gluon propagator which includes both the gluon self-interaction through real and virtual emission and absorption, and the effective interaction with the confining background field O/ [6]. In the framework of "jet calculus" [12], this gluon propagator describes how a gluon, produced with an invariant mass Q2, evolves in the variable x and the virtuality k2 (or transverse momentum k2?) through these interactions. In one-loop approximation it is obtained by calculating the corresponding single loop cut diagrams. In the present case, one has in addition to the usual gluon branching and fusion processes, g ! gg and gg ! g, contributions from energy transfer and two gluon annihilation processes g ! gO/ and gg ! O/, respectively. This is illustrated in Fig. 1.
+
+The determining equation for the propagator corresponds an evolution equation for the gluon distribution, which is defined [13] as average number of gluons at 'light cone time' r+ = 0 in the multi-gluon state jP i with light cone fractions x j k+=P + in a range dx and transverse momenta in a range d2k? with respect to the jet axis:
+
+x g(x; k2?) = 1P + Z dr
+
+\Gamma d2r?
+
+(2ss)3 e
+
+\Gamma i(k+r\Gamma \Gamma ~k?\Delta ~r?) hP j F +_
+
+a (0; r
+
+\Gamma ; ~r?) Fa; _ + (0; 0;~0?) jP i :(9)
+
+Performing a standard Mellin transformation to the moment representation g(!; k2?) :=
+
+4
+
+R 1
+
+0 dxx
+
+!g(x; k2
+
+?), the evolution equation reads:
+
+k2? @@k2
+
+? g(!; k
+
+2 ?) = fl(!; k2?) g(!; k2?) ; (10)
+
+where fl(!; k2?) plays the role of a generalized anomalous dimension (*O/ j ,(O/)2=4ss),
+
+fl(!; k2?) = ffs(k
+
+2 ?)
+
+2ss `(k
+
+2 ? \Gamma Q20) ^Ag!gg(!) \Gamma ` \Lambda k2
+
+? ' A
+
+gg!g(!)*
+
++ *O/(k
+
+2 ?)
+
+2ss ^Ag!gO/(!) \Gamma `
+
+\Lambda k2? ' Agg!O/(!)* : (11)
+
+In Leading Log approximation one finds:
+
+Ag!gg(!) = 2 CA ^1112 + 1! \Gamma 2! + 1 + 1! + 2 \Gamma 1! + 3 \Gamma S(!)* Agg!g(!) = ss
+
+2 ae
+
+! Ag!gg(!) Ag!gO/(!) = 14 ^ 32 \Gamma 1! + 1 \Gamma 1! + 2 \Gamma 2 S(!)*
+
+Agg!O/(!) = ss
+
+2 ae
+
+2 ! ^
+
+1 ! + 1 \Gamma
+
+2 ! + 2 \Gamma
+
+2 ! + 3* : (12)
+
+Here CA = Nc, ae = O(1) is a parameter, S(!) = (! + 1) \Gamma (1) with the Psi (Digamma) function (z) = d[ln \Gamma (z)]=dz and \Gamma (1) = flE = 0:5772 the Euler constant. Fig. 2 shows fl(!; k2?) for different values of k2?.
+
+The formal solution of eq. (10) is obtained by complex integration in the !-plane,
+
+x g(x; k2?) = 12ssi Z
+
+C d! x
+
+\Gamma ! exp (Z Q
+
+2
+
+k2?
+
+dk0 2?
+
+k0 2? fl(!; k
+
+02 ? )) (13)
+
+which yields the x-distribution of gluons as a function of the evolution variable k2?. For the full anomalous dimension (11) this inversion must be done numerically [6]. However, the main features of the evolution of the gluon distribution in the presence of the O/-field become already evident when making some simple analytic estimates. For simplicity I will divide the kinematic range of the k2?-evolution into two distinct domains: (i) Q2 * k2? ? Q20 and k2?=\Lambda 2 AE 1 so that *O/ ' 0 and @*O/=@ ln k2? ' 0, (ii) Q20 * k2? * \Lambda 2 and k2?=\Lambda 2 ' 1 with *O/ ! (4ss)\Gamma 1 and @*O/=@ ln k2? ? 0. In this case, the gluon distribution g(x; k2?) can be evaluated analytically [6] which yields for k2? ?, Q20 the well known Leading Log solution of QCD [14], but for k2? ! Q20 a substantial suppression at small x is found to set in, reflecting the "condensation" of gluons into the confining background field O/. The corresponding k2?- dependence of the total gluon multiplicity Ng(k2?) = R 10 dx g(x; k2?) can also be estimated
+
+5
+
+in the above approximation with the result:
+
+(i) Ng(k2?) = Ng(Q2) ` ln(Q
+
+2=\Lambda 2)
+
+ln(k2?=\Lambda 2) '
+
+\Gamma 1=4 exp h2 p(CA=ssb) ln(Q2=\Lambda 2)i
+
+exp h2 p(CA=ssb) ln(k2?=\Lambda 2)i (14)
+
+(ii) Ng(k2?) = Ng(Q20) exp ^\Gamma ae2 \Lambda
+
+2
+
+k2?
+
+1 + [1 + ln(k2?=Q20)]2 \Gamma 2k2?=Q20
+
+ln(Q20=\Lambda 2) * : (15)
+
+In the region (i) Q2 * k2? ? Q20, the multiplicity coincides with the QCD result [14], characterized by a logarithmic growth as the gap between the hard scale Q2 and k2? increases. On the other hand, in the region (ii) Q20 * k2? ? \Lambda 2, the exponent is always negative so that the number of gluons rapidly decreases and vanishes at k2? = 0, ensuring that no gluons and therefore no color fluctuations exist at distances R ?, \Lambda \Gamma 1. This behaviour is evident in Fig. 3.
+
+Returning to eqs. (6)-(8), the coupled system of equations can now be solved numerically by utilizing the definition (9) together with the solution for the gluon distribution (10) and (13). Since O/ is taken to be equal the mean field _O/, the multiplication of eq. (7) by hP j and jP i from the left and right, respectively, affects only the F_*F _* term which gives the gluon distribution by virtue of (9). With the solution of the gluon distribution inserted, the remaining task is to solve eq. (7) for the O/-field. An interesting phenomenological application [15] is to calculate the string constant, which characterizes the linearly rising potential between the q _q-pair due to the gluon interactions. Considering the fragmentation of a heavy q _q pair, an adiabatic (Born-Oppenheimer) treatment is a reasonable approximation, because one can view the ith gluon as being emitted from the q _q pair plus gluons g1; g2; : : : ; gi\Gamma 1, with the spatial coordinates of these "sources" being frozen during the emission of the gluon i [16]. Using the separation Rq_q of the receding q _q as a measure of the typical gluon transverse momenta k2? ss R\Gamma 2q_q and minimizing the energy per unit length of this system, one obtains in the adiabatic approximation for each gluon configuration at a given Rq_q the form of O/ and the string tension t. The total energy per unit length t receives contributions from both the O/-field in the low energy regime and the gluon field in the high energy domain, which on account of (5) is given by [6],
+
+t j ER
+
+q_q = Z dA ^
+
+1 2 jrO/j
+
+2 + V (O/) * + Z dA ^(O/) hP j fi(ffs)
+
+4ffs F_*;aF
+
+_* a jP i ; (16)
+
+where A is the cross-sectional area of the flux tube of the gluons between the q _q, perpen6
+
+dicular to Rq_q. In one loop order fi = \Gamma bff2s with b = 33=(12ss) for Nf = 0. Using eq. (9), assuming axial symmetry, and minimizing t with respect to O/ yields following non-linear integro-differential equation (r is the radial coordinate perpendicular to Rq_q):
+
+\Gamma ^ d
+
+2
+
+dr2 +
+
+1 r
+
+d dr * O/(r) +
+
+@V (O/)
+
+@O/ +
+
+b ffs
+
+2 (P
+
++)2 Z d2k? Z dx x g(x; k2
+
+?) Z dr r ^(O/) = 0 :
+
+(17)
+
+This equation is to be solved subject to the constraint [15] that the total color electric flux through a plane between the q and _q equals the color charge on one of them, and the boundary conditions O/0(0) = 0; O/(1) = O/0. The solutions for t, O/ and ^ are shown in Fig. 4 for the reasonable parameter choice O/0 = fss and bag constant B = (150 MeV)4 [6]. As the quarks separate with increasing Rq_q, the gluons first multiply which results in a growing string tension, but then gluon condensation sets in, yielding a saturating behaviour of t (Fig. 4a). For Rq_q ss 1 fm the gluon field is completely confined within a flux tube of radius r ' 1 fm (Fig. 4b).
+
+In perspective, the Lagrangian approach presented here to describe the confinement dynamics of high energy partons in the framework of effective QCD field theory has the potential to be extended to a systematic quantum description of hadronization. With the inclusion of quark degrees and quantum fluctuations of the O/- and U -fields, one could calculate e.g. the mass spectrum of glueball and meson excitations as physical hadrons. Ultimately one would like to address the microscopic dynamics in full 6-dimensional phasespace, with explicit inclusion of the color flow throughout the evolution. The possible applications are manifold. One particular interest is the expected (non-)equilibrium QCD phase transition in high energy systems as in heavy ion collisions or the early universe, an issue which could be addressed along the lines of Campbell, Ellis and Olive [7].
+
+Acknowledgements I would like to thank J. Ellis and H.-T. Elze for valuable suggestions.
+
+References
+
+[1] Yu. L. Dokshitzer, D. I. Dyakonov, and S. I. Troyan, Phys. Rep. 58, 269 (1980).
+
+7
+
+[2] M. A. Shifman, A. I. Vainshtein, and V. A. Zakharov, Nucl. Phys. B147, 448 (1979). [3] E.g.: E. Witten, Nucl. Phys. B223, 422, 433 (1983); J. Gasser and H. Leutwyler, Ann.
+
+Phys. 158, 142 (1984); U. Vogl and W. Weise, Prog. Part. Nucl. Phys. 27, 195 (1991).
+
+[4] F. Karsch, Nucl. Phys. (Proc. Suppl.) B9, 357 (1989). [5] B. Webber, Ann. Rev. Nucl. Part. Sci. 36, 253 (1986). [6] K. Geiger, in preparation. [7] J. Lanik, Phys. Lett. B144, 439 (1984); B. A. Campbell, J. Ellis, and K. A. Olive,
+
+Phys. Lett. B235, 325 (1990); Nucl. Phys. B345, 57 (1990).
+
+[8] R. Friedberg and T. D. Lee, Phys. Rev. D15, 1694 (1977); D16, 1096 (1977); D18,
+
+2623 (1978).
+
+[9] L. Wilets, Nontopological Solitons (World Scientific, Singapore 1989), and references
+
+therein.
+
+[10] S. D. Bass, Cavendish Preprint HEP 94/6 (1994). [11] M. Shifman, Phys. Rep. 209, 341 (1991). [12] K. Konishi, A. Ukawa, and G. Veneziano, Nucl. Phys. B157, 45 (1979). [13] J. C. Collins and D. E. Soper, Nucl. Phys. B194, 445 (1982). [14] See e.g.: A. Basetto, M. Ciafaloni, and G. Marchesini, Phys. Rep. 100, 201 (1983). [15] M. Bickeb"oller, M. C. Birse, H. Marshall and L. Wilets, Phys. Rev. D31, 2892 (1984);
+
+M. Grabiak and M. Gyulassy, J. Phys. G17, 583 (1991).
+
+[16] A. H. Mueller, Nucl. Phys. B415, 373 (1994).
+
+8
+
+FIGURE CAPTIONS Figure 1: Diagrammatic representation of the two-point Greens function of gluons, including both the gluon (self) interactions and the effective interaction with the confining background field O/ (indicated by the dashed lines). This gluon propagator describes the evolution of a gluon from a chosen cascade branch in x and k2, starting from x0 and Q2.
+
+Figure 2: The anomalous dimension fl(!; k2?) of eq. (11) versus ! for different values of k2?.
+
+Figure 3: Evolution of the gluon multiplicity Ng(k2?) from Q2 down to \Lambda 2. At first the gluons multiply, but at k2 ss Q20 a rapid condensation sets which is complete at \Lambda 2 (Q0 = 1 GeV, \Lambda = 0:23 GeV).
+
+Figure 4: a) String tension t versus separation Rq_q of the q _q pair, and b) the solutions for O/ and ^ at Rq_q = 1 fm versus r which is the radial coordinate perpendicular to Rq_q (O/0 = fss and B1=4 = 150 MeV).
+
+9
+

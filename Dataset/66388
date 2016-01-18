@@ -1,0 +1,1057 @@
+
+
+ 18 Apr 1995
+
+QUARK GLUON PLASMA IN NUMERICAL SIMULATIONS
+
+OF LATTICE QCD
+
+CARLETON DeTAR Physics Department, University of Utah
+
+Salt Lake City, Utah 84112, USA
+
+E-mail: detar@physics.utah.edu
+
+ABSTRACT Numerical simulations of quantum chromodynamics at nonzero temperature pro- vide information from first principles about the physical properties of the quark gluon plasma. Because the lattice approximation can be refined indefinitely, results of lattice simulations now provide the most reliable basis for our under- standing of the nonperturbative characteristics of the plasma and of the high temperature phase transition. Following a brief overview of the methodology of lattice gauge theory at nonzero temperature, recent results and insights from lattice simulations are discussed. These include our understanding of the phase diagram of QCD, the nature of the phase transition, and the structure of the plasma.
+
+Contents 1. Introduction 2. Nonzero Temperature QCD on the Lattice 2.1 Feynman Path Integral from the Gibbs Ensemble: A Thumbnail Sketch 2.2 Monte Carlo Methods 2.3 Lattice QCD 2.3.1 Pure Yang-Mills Theory 2.3.2 Including Quarks 2.3.3 Asymptotic Freedom 2.3.4 Quenched Approximation 2.3.5 Nonzero Chemical Potential 2.4 Lattice Observables 2.4.1 Quark Propagator 2.4.2 Hadron Propagator 2.4.3 Polyakov Loop 2.4.4 Heavy Quark Potential 3. Phase Structure 4. Temperature of the Phase Transition 5. Consequences of Chiral Symmetry Restoration 5.1 Chiral Order Parameter 5.2 Critical Behavior 5.3 Screening Spectrum
+
+6. Thermodynamics with Wilson Fermions 7. Structural Changes at the Crossover 7.1 Constituent Quark Free Energy 7.2 Induced Baryon Number 7.3 Heavy Quark Potential 7.4 Topological Structures 7.4.1 Instantons 7.4.2 Monopoles 8. Bulk Properties of the Quark Gluon Plasma 8.1 Equation of State 8.2 Baryon Susceptibility 9. Correlations and Confinement in the Quark Gluon Plasma 9.1 Hadron Propagation at Imaginary Time 9.2 Screening Wave Functions 9.3 Dimensional Reduction and Confinement at High Temperature 10. Conclusions
+
+1. Introduction
+
+In 1974 Wilson proposed a formulation of quantum chromodynamics (QCD) on a discrete space-time lattice.
+
+1
+
+A few years later Creutz demonstrated that this formu-
+
+lation was a promising basis for the successful numerical simulation of the theory.
+
+2
+
+The simulation method is suitable for studies of QCD at nonzero temperature in thermal equilibrium and, at least at present, at zero baryon chemical potential. It is the most promising currently available method for deducing nonperturbative charac- teristics of QCD at zero or nonzero temperature, starting from first principles. Given suitable algorithms and computing power, the only approximations, namely, finite lattice spacing, finite volume, and unphysically large quark masses, can be refined indefinitely. Thus lattice simulations provide the basis for much of our theoretical understanding of the characteristics of QCD at nonzero temperature.
+
+Are the predictions of lattice QCD relevant to the experimental effort? The vi- olently expanding product of a high energy heavy ion collision can scarcely be ap- proximated as an equilibrium plasma at zero baryon chemical potential. Indeed, even a hydrodynamical description that assumes local equilibrium could be questionable. Thus despite our confidence in lattice QCD, it is still essential that we formulate good models to bridge the gap between the relatively solid predictions of the computer sim- ulations and the experimental environment.
+
+In the past few years lattice simulations have achieved a reasonably consistent qualitative picture of the high temperature behavior of QCD. What has emerged is a far more subtle and intriguing picture of the quark gluon plasma and the nature of the phase transition than earlier caricatures would have suggested. At very high
+
+temperatures we have a plasma that behaves in bulk roughly like a free gas of quarks and gluons, yet it retains features of confinement that are evident in long-range cor- relations. Although there may be no phase transition, there is at least a dramatic crossover accompanied by dramatic changes in the structure and symmetries of the plasma. In this chapter we will be taking stock of what lattice QCD tells us about hadronic matter in thermal equilibrium. Particular emphasis will be placed on de- velopments since the last volume, which featured an excellent review by Karsch.
+
+3
+
+For
+
+the past several years, the annual "Lattice" conference has regularly featured sessions on nonzero temperature QCD. Recent proceedings can be found in Refs. 4,5,6,7.
+
+2. Nonzero Temperature QCD on the Lattice
+
+Here we give a very brief sketch of the basis for lattice gauge theory at zero and nonzero temperature. Our purpose is to indicate how the Euclidean space-time lattice with periodic boundary conditions arises naturally in the quantum Gibbs ensemble, and to show how the temperature of the ensemble determines the imaginary time dimension of the lattice. For a more complete exposition, there are some excellent texts.
+
+8
+
+2.1. Feynman Path Integral from the Gibbs Ensemble: A Thumbnail Sketch
+
+Nonzero temperature simulations of a field theory are designed to calculate oper- ator expectation values on the quantum Gibbs ensemble at temperature T :
+
+hOi = Tr(Oe
+
+\Gamma H=T
+
+)=Tre
+
+\Gamma H=T
+
+; (1)
+
+where H is the hamiltonian for the field theory, O is any operator, the trace is over all physical states in the Hilbert space, and we use units in which the Boltzmann constant k is one. The operator exp(\Gamma H=T ) is just the standard time evolution operator exp(\Gamma iHt) evaluated at an imaginary time
+
+t = \Gamma i=T: (2) This expression is the origin of the imaginary time coordinate and the important rela- tionship between the temperature and the extent of the Euclidean spacetime volume in imaginary time.
+
+Several steps are required in order to convert the trace over states in the Gibbs ensemble (1) into a multidimensional integral over lattice variables. Let us consider briefly how this is done for a scalar field theory based on a single field OE. First the hamiltonian H is formulated on a three-dimensional lattice with lattice constant a. The continuous field then takes on values OE(x) on each of the sites x of a three- dimensional lattice. The trace over states is written on a complete orthonormal basis
+
+jOE(x)i in which the field is diagonal. To facilitate the estimation of the time evolution operator, the imaginary time interval [0; 1=T ] is then subdivided into N
+
+t
+
+steps for large
+
+N
+
+t
+
+, and the trace (partition function) is rewritten in the form
+
+Z = Tre
+
+\Gamma H=T
+
+= Tr(e
+
+\Gamma H=N
+
+t
+
+T
+
+e
+
+\Gamma H=N
+
+t
+
+T
+
+. . . e
+
+\Gamma H=N
+
+t
+
+T
+
+): (3)
+
+This step produces the lattice discretization in imaginary time. Each of the infinitesi- mal time evolution operators (transfer matrices) in the product is written as a matrix on the field-diagonal basis. This is done through the completeness relation
+
+1 =
+
+Z
+
+Y
+
+x
+
+dOE(x)jOE(x)ihOE(x)j: (4)
+
+Since this relation is inserted between each factor, it is convenient to introduce an extra label o/ to distinguish the multiplte integration variables: OE(x; o/ ). The extra variable is naturally taken to be a discrete imaginary time variable, leading to a classical field variable OE(x; o/ ) defined on a four-dimensional Euclidean lattice. The discrete time values are
+
+o/ = a
+
+t
+
+k for k = 0; 1; 2; . . . ; N
+
+t
+
+\Gamma 1. (5)
+
+where a
+
+t
+
+= 1=N
+
+t
+
+T is taken to be the lattice constant in the imaginary time direction.
+
+In terms of this labeling the partition function then becomes
+
+Z =
+
+Z
+
+Y
+
+x;o/
+
+dOE(x; o/ )hOE(x; 0)je
+
+\Gamma H=N
+
+t
+
+T
+
+jOE(x; (N
+
+t
+
+\Gamma 1)a
+
+t
+
+)i (6)
+
+hOE(x; (N
+
+t
+
+\Gamma 1)a
+
+t
+
+)je
+
+\Gamma H=N
+
+t
+
+T
+
+jOE(x; (N
+
+t
+
+\Gamma 2)a
+
+t
+
+)i . . .
+
+hOE(x; 2a
+
+t
+
+)je
+
+\Gamma H=N
+
+t
+
+T
+
+jOE(x; a
+
+t
+
+)ihOE(x; a
+
+t
+
+)je
+
+\Gamma H=N
+
+t
+
+T
+
+jOE(x; 0)i:
+
+Since we are taking a trace, we have built in the requirement that OE(x; N
+
+t
+
+a
+
+t
+
+) = OE(x; 0).
+
+This is the origin of periodicity in imaginary time. An explicit evaluation of the transfer matrix elements leads to Feynman's remarkable path integral formula for the quantum partition function
+
+Z(T ) = Tre
+
+\Gamma H=T
+
+=
+
+Z
+
+Y
+
+x
+
+dOE(x) exp[\Gamma S(OE; T )]; (7)
+
+where S(OE; T ) is the imaginary time classical action for the field configuration OE(x) for x = (x; o/ ) on the Euclidean space-time lattice of dimension N
+
+3
+
+\Theta N
+
+t
+
+. The integration
+
+is over all possible choices of the field values on the lattice.
+
+Any observable O is a function of the field OE. The expectation value (1) is then
+
+hOi =
+
+Z
+
+Y
+
+x
+
+dOE(x)O(OE) exp[\Gamma S(OE; T )]=Z(T ) (8)
+
+2.2. Monte Carlo Methods
+
+As sketched in the previous section, the Feynman path integral formulation re- duces quantum statistical mechanics to an integration over classical variables. For- mulated on a lattice, the problem is reduced to a multidimensional integration. For a wide class of actions, the weight factor exp(\Gamma S) of the integration is positive definite, and the integration can be done effectively using a variety of Monte Carlo sam- pling methods, using the weight factor as a probability. Among these are heat bath, Metropolis, and molecular dynamics methods. The basic idea is to produce a large biased sample of points fOE
+
+i
+
+(x); i = 1; . . . ; N
+
+conf
+
+g in the space of the multidimensional
+
+integration. These are commonly called "configurations", and are characterised by choosing a particular value of the field on each space-time point. The sample is biased so that the probability of encountering a configuration is proportional to the weight factor
+
+P (fOE(x)g) / exp(\Gamma S): (9)
+
+On such a biased sample, the operator expectation value is simply the average of its values on the sample configurations:
+
+hOi = lim
+
+N
+
+conf
+
+!1
+
+1 N
+
+conf
+
+N
+
+conf
+
+X
+
+i=1
+
+O(OE
+
+i
+
+): (10)
+
+The algorithmic challenge lies in formulating an efficient sampling method that pro- duces a desired variance at the lowest computational cost.
+
+2.3. Lattice QCD
+
+2.3.1.Pure Yang-Mills Theory The Feynman path integral is expressed in terms of the action in a Euclidean space time. The Wilson formulation of the Euclidean action for quantum chromodynamics starts from a regular hypercubic lattice with equal space and time lattice constants a = a
+
+t
+
+. The gauge vector potential A
+
+a
+
+_
+
+(x) defines the gauge connection
+
+U
+
+x;_
+
+= exp(igaA
+
+c
+
+_
+
+(x)*
+
+c
+
+=2) (11)
+
+between the site x and the nearest neighbor site x + ^_. (The lattice vector of length a in the _ direction is ^_.) Here g is the gauge coupling constant and *
+
+c
+
+are the
+
+usual generators of the SU(3) Lie algebra. This SU(3) matrix is called the gauge link matrix. There is one such variable for each of the links connecting nearest neighbors on the lattice. A forward connection for a given link is associated with the matrix U
+
+and a backward connection for the same link is associated with the adjoint of that matrix U
+
+y
+
+.
+
+The plaquette variable is defined on a unit square on the lattice as the product of the connections around the square.
+
+2 = TrU
+
+_*
+
+(x) = TrU
+
+_
+
+(x)U
+
+*
+
+(x + ^_)U
+
+y
+
+_
+
+(x + ^*)U
+
+y
+
+*
+
+(x) (12)
+
+The trace of any such product of gauge connections around a closed path is gauge invariant. The plaquette variable is related to the SU(3) color Maxwell field strength in the continuum limit.
+
+lim a!0
+
+ReTrU
+
+_*
+
+(x)=3 = 1 \Gamma
+
+a
+
+4
+
+g
+
+2
+
+6
+
+[F
+
+c
+
+_*
+
+(x)]
+
+2
+
+(13)
+
+The continuum Euclidean action for a pure gluon field is
+
+S
+
+g
+
+=
+
+Z
+
+d
+
+4
+
+x
+
+1
+
+4
+
+[F
+
+c
+
+_*
+
+(x)]
+
+2
+
+: (14)
+
+Wilson suggested the lattice approximation
+
+S
+
+g
+
+=
+
+X
+
+x
+
+X _6=*
+
+6=g
+
+2
+
+[ReTrU
+
+_*
+
+(x)=3 \Gamma 1] (15)
+
+Creutz first demonstrated the feasibility of using this simple approximation in numerical simulations. It has served as the basis for a great many studies since then. Improvements, some very promising, have been proposed. They add terms to the action formed from products of the gauge connection around larger loops.
+
+9;10;11
+
+The
+
+objective is to remove lattice artifacts as nearly as possible and facilitate the approach to the continuum limit.
+
+2.3.2.Including Quarks Incorporating fermions into the functional integral demands an additional effort. The Pauli exclusion principle requires that they be introduced as anticommuting Grassmann numbers rather than the ordinary commuting numbers of the boson fields. Since we compute with ordinary numbers, it is then necessary to complete the inte- gration over the fermion degrees of freedom by hand. Fortunately, this is easy to do. Unfortunately, the resulting nonlocal effective action vastly increases the computa- tional cost. The result, however, is a simulation of full QCD.
+
+An additional complication with fermions is a difficulty in controlling the number of fermion species. We would like to construct a theory that reproduces faithfully the chiral symmetry of the continuum theory at zero quark mass. The lattice regu- larization forces us to make a difficult choice. Either we give up chiral symmetry or we must have a doubling (usually a few redoublings) of the number of quark species.
+
+There are two popular lattice fermion formulations corresponding to these choices. One is called the staggered or Kogut-Susskind fermion formulation
+
+12
+
+and the other
+
+the Wilson fermion formulation.
+
+1
+
+The hope is that in the continuum limit, either
+
+choice takes us to the one and only continuum theory.
+
+For present purposes we merely write down the lattice fermion actions for these two choices. For further details the reader should consult Ref. 8. In the Wilson fermion formulation the quark field for each flavor is represented as a Dirac color spinor
+
+c
+
+j
+
+(x)
+
+on each lattice site x with a three-component color index c and a four-component Dirac spin index j. The fermion action is then
+
+S
+
+W
+
+f
+
+=
+
+X
+
+x
+
+8 !
+
+:
+
+_ (x)(x) \Gamma ^
+
+4 X
+
+_=1
+
+[
+
+_ (x + ^_)(r + fl
+
+_
+
+)(x) +
+
+_ (x)(r \Gamma fl
+
+_
+
+)(x + ^_)]
+
+9 =
+
+;
+
+(16)
+
+where ^ = 1=(2am + 8r) and r is usually taken to be 1. The summation over color and spin degrees of freedom is implicit. With r = 0 the fermion action is chirally symmetric at zero quark mass and describes 16 degenerate fermion species. With r 6= 0 the degeneracy is lifted at the expense of destroying chiral symmetry in the zero quark mass limit.
+
+In the "staggered" fermion formulation the quark field is represented as a color spinor
+
+c
+
+(x) with no explicit Dirac spin degree of freedom. In effect, four spin and
+
+four flavor components are distributed over each hypercube of dimension 2
+
+4
+
+. The
+
+fermion action is
+
+S
+
+S
+
+f
+
+=
+
+X
+
+x
+
+8 !
+
+:
+
+2am
+
+_ (x)(x) +
+
+4 X
+
+_=1
+
+ff
+
+_
+
+(x)[
+
+_ (x)(x + ^_) \Gamma
+
+_ (x + ^_)(x)]
+
+9 =
+
+;
+
+(17)
+
+The phase factors ff
+
+_
+
+(x) are diagonalized Dirac matrices. The summation over the
+
+color index is implicit. The theory is chirally symmetric at zero quark mass, but there are four degenerate flavors. Such a flavor symmetry is unnatural, but there are methods for reducing the effective flavor number.
+
+8
+
+Because flavor rotations involve
+
+fields on different lattice sites, except for U(1) transformations, which are diagonal in space, flavor rotations are restricted to a discrete lattice subgroup. Thus instead of the full SU(4)\Theta SU(4) chiral symmetry, the symmetry consists of a U(1)\Theta U(1) subgroup plus a discrete subgroup. Since a restoration of rotational invariance in the continuum limit is anticipated, it is also expected that the full chiral symmetry will be restored simultaneously. On a coarse lattice members of the same flavor multiplet are not necessarily degenerate. For example, it is popular to measure the masses of two members of the pion multiplet, often called ss and ss
+
+2
+
+, with local operators in the
+
+staggered fermion scheme. The mass ratio m
+
+ss
+
+=m
+
+ss
+
+2
+
+serves as an indicator of progress
+
+toward the continuum limit, since it should approach one.
+
+The total action in either case is the sum of the gauge and fermion parts
+
+S = S
+
+g
+
++ S
+
+f
+
+: (18)
+
+The partition function is then given by
+
+Z =
+
+Z
+
+dU dd
+
+_ e
+
+\Gamma S
+
+: (19)
+
+As we have noted, the fermion fields must be integrated out explicitly. In either formulation, the fermion fields enter in a bilinear form,
+
+S
+
+f
+
+=
+
+_ M (U ) (20)
+
+where the fermion matrix M (U ) is a matrix with row and column indices labeled by the spatial coordinate as well as color and, if necessary, spin. Integrating out the quark degrees of freedom leads to
+
+Z
+
+Y
+
+x
+
+d
+
+_ (x)d(x) exp[
+
+_ M (U )] = det M (U ) (21)
+
+Thus the effective gauge action is
+
+S
+
+eff
+
+(U ) = S
+
+g
+
+(U ) + log det M (U ) (22)
+
+and the partition function is then
+
+Z =
+
+Z
+
+dU e
+
+\Gamma S
+
+eff
+
+(U)
+
+(23)
+
+The second term in the effective action is the fermion determinant. It depends on the gauge fields and induces a nonlocal gauge field interaction. This feature vastly increases the computational effort. It is beyond the scope of this review to dis- cuss the various methods for accommodating the fermion determinant in a numerical simulation.
+
+8
+
+The most effective method uses a molecular dynamics approach. With
+
+tricks it is possible to approximate the induced effect upon the gauge field of any number of fermion species. The more elegant "exact" simulations require four species of staggered fermions or two species of Wilson fermions.
+
+2.3.3.Asymptotic Freedom Since our goal in lattice QCD is to regulate and approximate the continuum theory, it is crucial that there be a meaningful lattice continuum limit. Fortunately, QCD (and lattice QCD) is an asymptotically free field theory with an ultraviolet fixed point. As the lattice coupling g is decreased, the lattice constant a, measured in physical units, also decreases. For small enough g, it decreases according to the perturbative scaling relation
+
+a\Lambda = e
+
+\Gamma 1=(2fi
+
+0
+
+g
+
+2
+
+)
+
+(fi
+
+0
+
+g
+
+2
+
+)
+
+\Gamma fi
+
+1
+
+=(2fi
+
+2
+
+0
+
+)
+
+(24)
+
+where fi
+
+0
+
+= (11\Gamma 2N
+
+f
+
+=3)=(16ss
+
+2
+
+) and fi
+
+1
+
+= (102\Gamma 38N
+
+f
+
+=3)=(16ss
+
+2
+
+)
+
+2
+
+and \Lambda sets the scale.
+
+It is determined in lattice regularization from a physical quantity, such as the proton mass. A proton may occupy only a few lattice sites at large g, but as g is decreased, the proton occupies more lattice sites, so is represented with increasing resolution. It follows from the relationship between g and lattice scale a, that increasing 6=g
+
+2
+
+corresponds to increasing the temperature T = 1=(N
+
+t
+
+a). Thus by varying 6=g
+
+2
+
+, it
+
+is possible to study a range of temperatures without changing the number of lattice points.
+
+2.3.4.Quenched Approximation The "quenched" approximation to QCD amounts to carrying out the simulation with the fermion determinant set to one, cutting the computational effort by orders of magnitude. In this case the thermal ensemble consists only of gluons. Quite useful results can be obtained in this way at zero temperature, where it has been difficult to find cases where vacuum fermion loops seem to make a difference. At nonzero tem- perature, however, fermions do make a significant difference in the thermal ensemble. The phase structure changes when quarks are included. Thus the quenched approxi- mation at nonzero temperature may give suggestive results, but fermions cannot be neglected if precise contact with nature is needed.
+
+2.3.5.Nonzero Chemical Potential The partition function for full QCD, Eq. (19), represents the grand canonical ensemble at zero baryon chemical potential. The fermion determinant is real and nonnegative for two flavors of Wilson fermions or four flavors of staggered fermions. Thus the factor exp(\Gamma S
+
+eff
+
+) is a suitable probability weight for a Monte Carlo sim-
+
+ulation. It would be very useful to be able to carry out simulations at nonzero chemical potential. The problem is obviously important, since the debris of a heavy ion collision necessarily includes regions of nonzero chemical potential and the cores of neutron stars are obviously baryon rich. Unfortunately at nonzero chemical potential, we encounter a fundamental technical problem: The fermion determinant becomes complex, spoiling the probability weight. Various tricks have been proposed to evade this problem. They include carrying out simulations in the quenched approximation or at zero chemical potential, and incorporating a correction factor to simulate the effects of a nonzero chemical potential. Such methods are limited to a very small chemical potential or a very small volume. Thus they may succeed in giving hints about what happens at a small chemical potential, but none has been successful in achieving a result that can be confidently extended to the thermodynamic limit of inifinite volume. Thus this problem remains an open challenge. For a recent review,
+
+see Ref. 13. 2.4. Lattice Observables
+
+2.4.1.Quark Propagator To determine properties of the thermal ensemble one measures a variety of ob- servables. Many of the important observables involve quarks. Thus, for example, we need the quark propagator
+
+h(z)
+
+_ (y)i = Z
+
+\Gamma 1
+
+Z
+
+Y
+
+x;_
+
+dU
+
+_
+
+(x)d(x)d
+
+_ (x)e
+
+\Gamma S
+
+(z)
+
+_ (y) (25)
+
+The integration over quark variables is again carried out explicitly, giving
+
+h(z)
+
+_ (y)i = Z
+
+\Gamma 1
+
+Z
+
+Y
+
+x;_
+
+dU
+
+_
+
+(x)M
+
+\Gamma 1
+
+(z; y; U ) exp(\Gamma S
+
+eff
+
+(U )) (26)
+
+or the gauge field average of the inverse of the fermion matrix. (We have suppressed the color and spin labels for simplicity.) In a more compact notation, we may write
+
+h(z)
+
+_ (y)i = hM
+
+\Gamma 1
+
+(z; y; U )i
+
+U
+
+(27)
+
+where the subscript U in the expectation value on the right side indicates that it is taken with respect to the effective gauge action.
+
+2.4.2.Hadron Propagator If an observable is not gauge invariant, the integration over gauge variables gives zero. The quark propagator we have been discussing can be defined in a specific gauge. A hadron propagator, on the other hand, is gauge invariant. For example the operator
+
+_ (x)\Gamma (x) is an interpolating field for a quark-antiquark meson with a
+
+particular Dirac matrix \Gamma determining the spin and parity. Thus a meson propagator can be extracted from the correlation
+
+h
+
+_ (z)\Gamma (z)
+
+_ (y)\Gamma (y)i
+
+U
+
+\Gamma h
+
+_ (0)\Gamma (0)i
+
+U
+
+h
+
+_ (0)\Gamma (0)i
+
+U
+
+= hTr[M
+
+\Gamma 1
+
+(z; y; U )\Gamma M
+
+\Gamma 1
+
+(y; z; U )\Gamma ]i
+
+U
+
+\Gamma hTr[M
+
+\Gamma 1
+
+(z; z; U )\Gamma ]Tr[M
+
+\Gamma 1
+
+(y; y; U )\Gamma ]i
+
+U
+
+(28)
+
+\Gamma hTr[M
+
+\Gamma 1
+
+(0; 0; U )\Gamma ]i
+
+U
+
+hTr[M
+
+\Gamma 1
+
+(0; 0; U )\Gamma ]i
+
+U
+
+The second term on the right side makes a contribution only for flavor singlet mesons. It represents a coupling to gluon intermediate states. The last term, the vacuum
+
+disconnected term, on either side contributes only for flavor singlet mesons with vacuum quantum numbers, such as the chiral condensate order parameter
+
+_ .
+
+In this way all hadron propagators are constructed from products of the inverse of the Dirac matrix, averaged over gauge field configurations with a weight determined by the effective gauge action.
+
+2.4.3.Polyakov Loop An important observable simulates the effect of introducing a static spinless quark into the ensemble. It is formed from the product of a string of gauge link matrices along a line in the time direction. The observable that introduces a static quark at site x is
+
+P (x) = Tr
+
+N
+
+t
+
+\Gamma 1
+
+Y
+
+o/=0
+
+U
+
+4
+
+(x; o/ ) (29)
+
+where the trace is over the color degrees of freedom. The static quark world line is closed by virtue of the periodicity of the lattice. A static antiquark is introduced by the complex conjugate variable.
+
+The change in the free energy of the ensemble caused by the addition of a single heavy quark is given by
+
+exp[\Gamma f (T; m
+
+q
+
+)=T ] = hP (0)=3i
+
+U
+
+(30)
+
+2.4.4.Heavy Quark Potential The thermal heavy quark potential is determined from
+
+exp[\Gamma V (r; T )=T ] = hP (0)P
+
+y
+
+(r)=9i
+
+U
+
+(31)
+
+The quantity V (r; T ) is more precisely the change in the free energy of the ensemble caused by adding a spinless quark and antiquark pair at separation r.
+
+3. Phase Structure
+
+In nature the quark masses assume their physical values, of course. In numerical simulations, however, it is possible to adjust quark masses and other parameters to gain more insight into the phase structure of QCD. Thus a phase diagram can be constructed in the multidimensional space of the temperature T , the quark masses m
+
+i
+
+for i = 1; . . . ; N
+
+f
+
+flavors and the corresponding chemical potentials _
+
+i
+
+. The majority
+
+of simulations have been carried out at zero chemical potential with two or four flavors of equal mass quarks. However, there are a few simulations that approach a more physical quark mass spectrum with two equal mass light quark flavors and Error: /undefinedresult in --currentpoint--
+Operand stack:
+--nostringval--
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:146/200(L)-- --dict:37/50(L)--
+Current allocation mode is local
+

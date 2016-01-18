@@ -1,0 +1,2720 @@
+FERMILAB-CONF-96/429-T
+NSF-PT-96-2
+November 1996
+
+
+
+CP VIOLATION IN THE K AND B SYSTEMS
+
+
+
+
+
+Boris Kayser
+
+
+Fermi National Accelerator Laboratory
+Batavia, IL 60510 USA
+and
+National Science Foundation*
+4201 Wilson Boulevard
+Arlington, VA 22230 USA
+
+
+
+
+
+Abstract
+
+Although CP violation was discovered more than thirty years
+ago, its origin is still unknown. In these lectures, we describe the CP-
+violating effects which have been seen in K decays, and explain how
+CP violation can be caused by the Standard Model weak interaction.
+ 5 Feb 1997 The hypothesis that this interaction is indeed the origin of CP viola-
+tion will be incisively tested by future experiments on B and K decays.
+We explain what quantities these experiments will try to determine,
+and how they will be able to determine them in a theoretically clean
+way. To clarify the physics of the K system, we give a phase-conven-
+tion-free description of CP violation in this system. We conclude by
+briefly exploring whether electric dipole moments actually violate CP
+even if CPT invariance is not assumed.
+
+
+
+
+
+To appear in the Proceedings of the Summer School in High Energy Physics and Cosmology, held
+at the International Center for Theoretical Physics, Trieste, June-July 1995.
+
+* Permanent Address
+
+
+1. Preamble
+
+Being lovers of symmetry, we are tempted to expect that the behavior of a
+physical system will not change at all if we replace every particle in it by its anti-
+particle. However, in some processes nature violates this expected matter-anti-
+matter symmetry. Particularly interesting is the violation of invariance under
+CP, the combined action of charge conjugation C and parity P. Before we turn to
+CP, let us first briefly consider the simplest operation which replaces a particle by
+its antiparticle, namely C.
+
+
+The effect of C on a particle f(p ,) of momentum p and helicity is given by
+
+­
+Cf(p ,) = C f (p ,) , (1.1)
+
+­
+where f is the antiparticle of f, and C is a phase factor. Note that C does not alter
+a particle's momentum or helicity.
+
+It has long been known that some processes are not invariant under C.
+Consider, for example, the decay µ. Invariance under C would require that
+the muons produced in + µ+ + and - µ- + have identical helicity. But it
+is found that actually they have opposite helicity: the µ+ in + decay is always left-
+handed, while the µ- in - decay is always right-handed. Thus, µ is not
+invariant under C.
+
+A somewhat more subtle operation which replaces a particle by its antipar-
+ticle is CP. The effect of CP on f(
+p ,) is given by
+
+­
+CPf(p ,) = CP f (­ p ,­) , (1.2)
+
+Here, the momentum and helicity reversals are due to the action of P, and CP is a
+phase factor.
+
+From Eq. (1.2), the CP-mirror image of the decay + µ + + , where the
+LH
+subscript LH reminds us that the µ+ has left-handed helicity, is the decay -
+µ ­ + , in which the µ­ has right-handed helicity. These two decays are the ones
+RH
+actually observed, and they have equal rates. Thus, µ, while not invariant
+under C, is invariant under CP.
+
+One might wonder whether perhaps all processes, even those which are not
+invariant under C, are nevertheless invariant under CP. The decays of the neu-
+tral K mesons have taught us that this is not the case. Let us turn, then, to the
+phenomenology of the neutral kaon system.
+
+
+
+1
+
+
+2. CP Violation in the Neutral K System
+
+Let us consider neutral kaons at rest. We choose our phase conventions in
+this Section so that
+
+
+CPK0 = +--
+K0 . (2.1)
+
+Simple field theory then implies that
+
+
+CP--
+K0 = +K0 . (2.2)
+
+In Section 5, we shall free ourselves of this phase convention, and adopt a conven-
+tion-free formalism.
+
+--
+While K0 and K0 have opposite strangeness, the weak interactions do not
+--
+conserve strangeness, and so they mix K0 and K0. The time evolution of a neutral
+kaon is then described by a two-component Schrödinger equation of the form
+
+a(t) a(t)
+i = M . (2.3)
+a a
+t (t)
+(t)
+
+
+Here, a(t) is the amplitude for us to have a K0 at time t, anda(t) is the amplitude
+--
+for us to have a K0. The quantity M is a 2x2 matrix,
+
+
+K0|M|K0 K0|M|K0
+M M
+
+M = 11 12
+, (2.4)
+M M
+K0|M|K0 K0|M|K0 21 22
+
+
+known as the neutral K mass matrix, which serves as the effective Hamiltonian
+for a neutral kaon at rest. Since a kaon disappears with time through its decay, M
+is non-Hermitean.
+
+We shall assume that the world is CPT invariant. It is readily shown that
+this invariance implies that
+
+
+M11 K0MK0 = --
+K0M--
+K0 M22 . (2.5)
+
+-- ­
+Writing M11 M ­ i/2, and M22 M ­ i/2, we see that the real part of Eq. (2.5), M
+--
+= M , is an example of the well-known CPT requirement that a particle and its anti-
+­
+particle have the same mass. The imaginary part, = , is an example of the re-
+quirement that they have the same total width or, equivalently, the same lifetime.
+
+
+
+
+2
+
+
+Assume for the moment that CP invariance holds. Then our effective
+Hamiltonian obeys (CP)M (CP) = M, and we have
+
+
+M12 K0M--
+K0 = K0(CP)M (CP)--
+K0
+
+--
+= (CP)K0M(CP)K0 = --
+K0MK0 M21 . (2.6)
+
+Thus, from Eqs. (2.5) and (2.6), M has the form
+
+X Y
+M = . (2.7)
+Y X
+
+
+The eigenstates of M--the mass eigenstates of the neutral K system--are then
+1 1
+1 1
+and - . That is, they are the CP eigenstates
+2 1
+2 1
+
+
+K = 1
+1 K0 + K0
+2 (2.8)
+
+and
+
+
+K = 1
+2 K0 - K0
+2 . (2.9)
+
+Note that K1 and K2 have opposite CP parity:
+
+CPK1(2) = +
+(­) K1(2) . (2.10)
+
+Now, experimentally, the two mass eigenstates of the neutral K system are
+the K-short KS, with a short lifetime S = (0.8926 ± 0.0012) x 10­10 sec, and the K-
+long KL, with a much longer lifetime L = (5.17 ± 0.04) x 10­8 sec. Essentially all KS
+decays are to +­ or 00. It is easy to show that both of these final states have CP
+= +1. Thus, if CP invariance and the associated CP conservation law hold, KS
+must be K1. Then KL must be K2. But then, since K2 has CP = ­1, the decays KL
++­ and KL 00 are forbidden. Nevertheless, these decays do occur.1 Thus, CP
+is violated in neutral K decays.
+
+To be sure, the observed violation is small. The amplitudes for the CP-violat-
+ing decay KL +­ and the CP-conserving one KS +­ are in the ratio2
+
++- T KL = -
+(2.285 ± 0.019) × 10 3 . (2.11)
++- T KS
+
+
+
+
+3
+
+
+Similarly,2
+
+
+00 T KL = -
+(2.275 ± 0.019) × 10 3 . (2.12)
+00 T KS
+
+
+Nevertheless, this violation of CP is nonvanishing. Like C, CP is a symmetry
+which is not always respected.
+
+In addition to KL , other CP-violating effects have been seen in the
+neutral kaon system. One of these is found in the semileptonic decays KL l,
+where l is an e or a µ. When CP invariance holds, the KL is a CP eigenstate. Then
+the CP-mirror image of the decay KL ­l+ is KL +l­­
+. To be sure, CP
+reverses the momenta and helicities of all the outgoing particles, but that is irrel-
+evant when we integrate over these variables to get the full rate for decay into the
+particles under consideration. Thus, when CP invariance holds, we require that
+(KL ­l+ ) = (KL +l­­
+). However, it is found experimentally that2
+
++ -
+K
+( )- K
+( )
+L -l L +l
+
+" + "
+
+= 3.27 ± 0.12 x 10­3 . (2.13)
+
+Further observed CP-violating effects will be discussed in Section 5.
+
+3. The Origin of CP Violation in the Standard Model
+
+All CP-violating effects observed to date have been seen in the decays of neu-
+tral kaons. These decays are known to be due to the weak interaction. Therefore, it
+is natural to speculate that CP violation may well be an effect of the weak inter-
+action. This is the possibility that we shall emphasize here.
+
+The weak interaction is very successfully described by the so-called
+Standard Model (SM). In the SM, the weak interaction is carried by the charged
+weak boson W, and the neutral weak boson Z. These bosons couple to the leptons
+and to the three generations, or families, of quarks:
+
+Generation: 1 2 3
+
+Charge = 2/3 u c t
+Charge = ­1/3 d s b
+
+Mass
+
+
+
+4
+
+
+As indicated, the quarks in the third generation are the heaviest ones, those in the
+second generation are lighter, and those in the first generation are lighter still. In
+a typical Feynman diagram for a hadronic weak decay, a relatively heavy quark
+decays to lighter ones via W exchange. This is illustrated in Fig. 1, in which a KS
+decays via its --
+K0 ( =s ­
+d) component into +­. The diagram of Fig. 1 entails the
+W-mediated quark decay s u­
+ud.
+
+­
+* u
+Vud ­
+W­ d
+V
+s us u
+K +
+s
+­
+d
+
+Figure 1. One of the diagrams for KS +-.
+
+According to the SM, the coupling of the W boson to the quarks is given by
+the Hamiltonian
+
+H µ µ *
+W = g W V
+µi + g W V
+i µ . (2.14)
+2 i L L i L L
+= 2
+u,c,t
+i=d,s,b i
+
+1­5
+Here, g is a real overall coupling strength, W is the W boson field, L is
+2
+the left-handed projection of the quark field and similarly for iL, and the numer-
+ical coefficients Vi are the elements of the Cabibbo-Kobayashi-Maskawa (CKM)
+quark mixing matrix
+
+Vud Vus Vub
+V = V
+cd Vcs Vcb
+. (2.15)
+
+Vtd Vts Vtb
+
+Note from Eq. (2.14) that any of the three negatively-charged quarks i can turn into
+any of the three positively-charged ones by emitting a W­, the amplitude for its
+doing so being proportional to Vi. Thus, the off-diagonal elements of V describe
+transitions in which a quark in one family turns into a quark in another family.
+Hence, these elements mix the families, earning for V the name "quark mixing
+matrix".
+
+
+
+
+5
+
+
+The SM coupling of the Z boson to the quarks is described by the
+Hamiltonian
+
+H = g µ [{ ( )- ( ) ] ( ) } . (2.16)
+Z Z I3 qL Q q sin2 W qL µqL - Q q sin2 W qR µqR
+cosW q=u,c,t,
+d,s,b
+
+Here, W is the Weinberg angle, I3(qL) is the weak isospin of the left-handed
+(1+5)
+quark qL, Q(q) is the electric charge of q, and qR q is the right-handed
+2
+projection of the quark field q.
+
+g µ
+Under CP, the term W V
+i L µ iL in the W-quark interaction HW trans-
+2
+forms as
+
+( µ µ
+CP) g W V ( )-1 [ ( )*( )] g
+i L µ iL CP = * W
+( ) i W ViiL µL . (2.17)
+2 2
+
+Here, (W), etc. are phases, and we may choose [*(W)()*(i)] = 1. Then
+
+H µ µ
+W = g W V µi + g W V*ii µ
+2 i L L L L
+,i 2 ,i . (2.18)
+
+g µ µ
+W V µ + g W V*i µi
+CP iiL L L L
+2 2
+,i ,i
+
+We see that HW is CP-invariant if, and only if, V is real, or can be made real by
+changing the phase conventions for the quark fields.
+
+The analogue of Eq. (2.17) for the terms in the Z-quark interaction HZ states
+that each of these terms transforms back into itself under CP. Thus, HZ is neces-
+sarily CP-invariant.
+
+We conclude that in the SM weak interaction, CP violation can arise only if
+some of the numbers Vi are complex. How their complexity can produce physi-
+cal CP-violating effects will be explained shortly.
+
+3.1. The CKM Matrix
+
+The SM requires that the CKM quark mixing matrix be unitary. Apart from
+this unitarity, the matrix is not predicted, so its elements must be determined
+experimentally.
+
+
+
+
+
+6
+
+
+How many independent parameters are needed to determine fully the CKM
+matrix V? In answering this question, we must bear in mind that some of the
+complex phases which V may contain are not physically meaningful. To see this,
+note from Eq. (2.14) that, apart from irrelevant factors, Vi is just the amplitude
+HWi for the quark transition i through W emission. Thus, if the arbi-
+trary relative phase of the i and quarks is changed, the phase of Vi will change
+correspondingly. Redefining the down-type quark i by i eii multiplies the i
+column of V by ei. Similarly, phase redefining the up-type quark multiplies the
+row of V by a phase factor. Hence, without changing the physics, we may mul-
+tiply any column or row of V by a phase factor, or carry out any number of such
+operations. We may use these operations to remove from V five phases corre-
+sponding to the five relative phases of the six quarks, leaving five of the elements
+of V real. We may do this, for example, by multiplying each of the columns of V by
+a phase factor chosen to make its bottom element real, and then multiplying each
+of the top two rows by a phase factor chosen to make its rightmost element real.
+
+Mindful of this freedom to remove at least some phases from V, let us now
+suppose that there are, not just three doublet quark families, but N of them, so
+that V becomes an NxN matrix. How many parameters are necessary to deter-
+mine it completely? Before constraints are imposed, 2N2 real numbers are
+required to fully specify the N2 complex elements of V. But the unitarity of V
+demands that the sum of the absolute squares of the elements in any of its
+columns be unity--a demand that imposes N constraints. Furthermore, unitarity
+demands that any two of the columns of V be orthogonal. Now, there are N(N­1)/2
+pairs of columns, and the equation expressing the orthogonality of any pair has
+both a real and an imaginary part. Thus, orthogonality of columns imposes N(N­
+1) constraints. Hence, the most general NxN unitary matrix depends on 2N2 ­ N
+­ N(N­1) = N2 real parameters. Now, in the N quark families there are 2N
+quarks, with 2N­1 relative phases. Thus, 2N­1 phases in V are not physically
+meaningful, and may be removed by phase redefinitions of the quarks or, equiva-
+lently, by multiplying columns and rows of V by phase factors. Hence, the number
+of physically meaningful independent real parameters in V is N2 ­ (2N­1) = (N­1)2.
+
+One possible choice for these parameters is mixing angles (parameters
+which would be present even if V were real) and phases. To calculate the number
+of mixing angles on which V depends, imagine that it is real. It is then an ortho-
+gonal (i.e., a rotation) matrix. It contains N2 real elements, subject to N con-
+straints expressing the requirement that each of its columns be a vector of unit
+length, and N(N­1)/2 constraints expressing the requirement that any pair of its
+columns be orthogonal. Thus, V depends on N2 ­ N ­ N(N­1)/2 = N(N­1)/2 mix-
+ing angles.
+
+
+7
+
+
+In summary, the complex NxN quark mixing matrix depends on (N­1)2
+parameters. If we take these to be mixing angles and phases, N(N­1)/2 of them
+are mixing angles, so that (N-1)2 ­ N(N­1)/2 = (N­1)(N­2)/2 of them are phases.
+Note from this result that there are no physically significant phases in the mixing
+matrix unless N 3.3 Had there been fewer than three quark families, it would
+have been impossible for the weak interaction, as described in the SM, to violate
+CP.
+
+(It is instructive and easy to explicitly construct the most general unitary
+quark mixing matrix for the case N = 2, and show that all phases can be removed
+from this matrix by multiplying its rows and columns by phase factors. Since this
+leaves the matrix real, it cannot violate CP.)
+
+Although there are in reality (at least) three quark families, the fact that
+the quark mixing matrix cannot violate CP in a world with only two families has
+an important consequence. Namely, it implies that CP violation in K decays will
+be small, as observed, even if the complex phases in the true 3x3 mixing matrix
+are large. Furthermore, it tells us where we must look if we wish to see large CP-
+violating effects.4 To see why it implies that CP violation in K decays will be small,
+note that, as illustrated in Fig. 1, the dominant diagrams for K decays involve only
+quarks from the first two families. The quarks t and b are not involved. Thus, in
+first approximation, K decays "do not know" that there are not just two, but three
+quark generations. In this approximation, K decay processes do not contain
+enough physics to violate CP. Now, when one goes beyond the first approximation,
+one finds that K decays do involve the quarks of the third generation in several
+ways, so that these reactions can (and do!) violate CP. However, because one must
+go beyond the leading approximation before the third generation quarks come into
+the picture, CP violation in K decays is small.
+
+From this discussion, it is clear that if we wish to see large CP-violating
+effects coming from the CKM matrix, we must look for them in processes which
+involve, even in leading approximation, quarks from all three generations. To this
+end, new facilities are being built and new experiments are being developed
+which will study CP violation in the decays of the B or beauty mesons. The B
+mesons and their quark content are
+­ ­
+B+ = [bu ] B­ = [bu]
+­ -- ­
+Bd = [bd] Bd = [bd]
+­ -- ­
+Bs = [bs] Bs = [bs]
+­ -- ­
+Bc = [bc] Bc = [bc] .
+
+
+
+8
+
+
+In a typical B decay, the heavy b orb quark in the B--a quark of the third genera-
+tion--decays down to lighter quarks in the first and/or second generations. Often,
+all three generations are involved. Thus, CP violation can be large.
+
+As we shall see shortly, the CP-violating effects in B decays can also yield
+clean information on the phases in the CKM matrix. Thus, the study of these
+effects will be a very good test of whether these phases are indeed the origin of CP
+violation.
+
+4. CP Violation in the B System
+
+The effects to be sought in the B system are CP-violating inequalities
+between the rates for CP-mirror-image decays. When CP invariance holds, the
+amplitude fTi for the decay of any initial state i into any final one f obeys
+
+fTi = CP[f]TCP[i] . (4.1)
+
+Thus, for example, any inequality between the rates for the CP-mirror-image
+decays B+ f and B­ f, wheref CP[f] is the CP-mirror image of the final
+state f, is a violation of CP invariance. It is violations of this general sort, which
+are B-system analogues of the K-system asymmetry of Eq. (2.13), which will be
+sought.
+
+As we noted earlier, CPT invariance, which we assume to hold exactly,
+requires that any unstable particle and its antiparticle have the same total width.
+Thus, if there is some final state f for which, in violation of CP, [B+ f] > [B­
+f], then there must be some other final state (or states) f for which [B+ f] <
+[B­ f]. Otherwise, the CPT constraint that total [B+] = total[B­] could not be
+satisfied.
+
+The complex phases in the CKM matrix, like complex phases anywhere in
+quantum mechanics, lead to physical consequences only through interferences
+between amplitudes. In particular, it is through interferences that the CKM
+phases produce CP violation. How they do this is nicely illustrated by the compari-
+son between the CP-mirror-image processes B+ f and B­ f. Suppose that the
+weak decay B+ f receives contributions from two Feynman diagrams. Each of
+these diagrams is proportional, like the diagram of Fig. 1, to some product of
+CKM elements. Thus, the amplitude a for the first diagram has the form
+
+f
+a = MeiCKM eiS , (4.2)
+
+
+
+
+
+9
+
+
+where M is the magnitude of a, f
+CKM is the phase of the product of CKM elements
+to which the diagram is proportional, and S is a phase arising from strong in-
+teraction effects such as final-state rescattering. Similarly, the amplitude a for
+the second diagram has the form
+
+f
+a = Mei CKM ei S , (4.3)
+
+where M' a, f
+CKM is the phase of the product of CKM elements to which the
+second diagram is proportional, and S is the strong-interaction phase of this
+diagram. The rate for B+ f is then
+
+f f 2
++
+B f
+[ ]= MeiCKMeiS +Mei CKMei S , (4.4)
+= 2 + ( )
+M2 + M 2MM cos + S
+
+where f
+CKM ­ f
+CKM is the relative CKM phase of the two amplitudes, and S
+S ­ S is their relative strong-interaction phase.
+
+Now, the diagrams for the CP-mirror-image decay B­ f are, of course,
+the same as those for B+ f, except that every quark (antiquark) is replaced by its
+antiquark (quark). From HW, Eq. (2.14), we see that, owing to this replacement,
+every CKM element appearing in a diagram for B+ f is replaced by its complex
+conjugate in the corresponding diagram for B­ f. However, apart from CKM
+phases, the SM weak interaction of Eqs. (2.14) and (2.16) is completely CP invari-
+ant, as is the SM strong interaction. Thus, apart from the reversal of its CKM
+phase, the amplitude of a diagram does not change at all when we go from B+ f
+to B­ f. Hence, the rate for B­ f is
+
+f f 2
+- - -
+B f
+[ ]= Me i i
+CKM eiS + Me CKM ei S . (4.5)
+= 2 + ( )
+M2 + M 2MM cos - + S
+
+Comparing Eqs. (4.4) and (4.5), we see that when CKM phases are present,
+the two interfering amplitudes can have a different relative phase in B­ f than
+they do in B+ f. As a result, [B­ f] and [B+ f] can differ, in violation of
+CP.
+
+To test the SM of CP violation, one would like not only to observe a CP-violat-
+ing inequality between [B+ f] and [B­ f], but also to determine the CKM
+phase . Of course, [B+ f] and [B­ f] are only two measurable quantities,
+and as we see from Eqs. (4.4) and (4.5), they depend on four parameters: M, M, ,
+
+
+10
+
+
+and S. Thus, by themselves, they cannot determine . Consequently, in general,
+a clean test of the SM of CP violation is not possible in decays of charged B mesons.
+(To be sure, in the exceptional cases where M and M can be determined indepen-
+dently of [B+ f] and [B­ f], the measurement of these two decay rates de-
+termines sin2, up to a two-fold ambiguity, and so does provide a test of the SM.5)
+
+4.1. Decays of Neutral B Mesons
+
+In decays of neutral B mesons, a clean test of the SM of CP violation is
+-- --
+possible. To see why, let us discuss the Bd ­ Bd system; the Bs ­ Bs system behaves
+similarly.
+
+-- --
+The key feature of the Bd ­ Bd system is the fact that the Bd and Bd mix. In
+the SM, they do so largely as a result of the box diagram in Fig. 2. The phase of the
+--
+mixing amplitude A(Bd Bd) is then
+
+
+arg A
+[ (B )]= *
+( )2
+m
+d Bd arg VtdVtb . (4.6)
+-2CKM
+--
+We shall refer to m
+CKM (where m stands for mixing) as the Bd ­ Bd mixing phase.
+
+
+Vtb
+* t V
+td
+b d
+Bd W W Bd
+
+d b
+Vtd t Vtb
+*
+
+--
+Figure 2. The SM box diagram for Bd ­ Bd mixing.
+
+--
+Time evolution in the Bd ­ Bd system is described by a two-component
+--
+Schrödinger equation, just like the one for neutral kaons, Eq. (2.3). The Bd ­ Bd
+Schrödinger equation involves a mass matrix,
+
+
+M = X M 12
+, (4.7)
+M
+
+21 X
+-- --
+which is the Bd ­ Bd counterpart to the K mass matrix of Eq. (2.4). In the Bd ­ Bd
+mass matrix, the diagonal elements X are equal because of CPT, and the off-diag-
+onal element M21 comes from the box diagram of Fig. 2. The remaining off-diago-
+
+
+
+11
+
+
+nal element, M 12, comes from a similar box diagram in which every quark
+(antiquark) has been replaced by its antiquark (quark). As in the case of charged B
+decays, this means that every CKM element has been replaced by its complex con-
+jugate, but there have been no other changes. Since the box diagram of Fig. 2 has
+no strong phase (owing to the fact that the B meson is far belowtt threshold), we
+see that
+
+M12 = M21(V V*) = M *
+21 . (4.8)
+
+--
+Let us call the mass eigenstates of the Bd ­ Bd system BHeavy (BH) and
+BLight (BL). From Eq. 4.7, the complex masses of these mass eigenstates--the
+eigenvalues of M-- are
+
+
+= M M - i
+H(L) X + m
+(-) 12 21 H(L) H(L) . (4.9)
+2
+
+Here, mH(L) are the masses of BH(L), respectively, and H(L) are their widths.
+Note that since M12M21 is real and positive, so that H and L have the same
+imaginary part, the widths of BH and BL are equal:
+
+H = L . (4.10)
+
+(To a very good approximation, this equality holds even if the SM diagram of Fig. 2
+--
+is not a good approximation to A(Bd Bd). This is simply because, unlike KS and
+KL, neither B mass eigenstate has a special decay mode which is an appreciable
+fraction of its decays and which is unavailable to the other mass eigenstate. Thus,
+BH and BL have approximately equal widths.)
+
+From Eqs. (4.7) and (4.9), the mass eigenstates BH(L) are given by
+
+- m
+B = 1 + 2iCKM
+H(L) B
+d e B
+(-) d . (4.11)
+2
+
+Here and hereafter we assume that M21 does come from the SM diagram of Fig. 2.
+
+--
+Owing to the Bd --Bd mixing, a neutral B at rest which at time t = 0 is a
+pure Bd will not remain that way. Rather, in time t it will evolve into a state
+Bd(t) which is a coherent superposition of Bd and --
+Bd. From Eqs. (4.9), (4.11),
+and Schrödinger's equation, it is straightforward to show that
+
+-
+i m-i
+t - m
+B 2 - 2iCKM
+{ }
+d (t) = e c Bd ie s Bd . (4.12)
+
+
+
+12
+
+
+Here,
+
+mH + mL
+m (4.13)
+2
+
+is the average BH, BL mass,
+
+m mH ­ mL (4.14)
+
+is the BH ­ BL mass difference, and
+
+
+c cos (mt), s sin (mt) . (4.15)
+2 2
+
+Note from Eq. (4.12) that, before it decays into some final state, a neutral B meson
+which at time t = 0 is a pureBd oscillates between being a Bd and a --
+Bd. This
+oscillation has been observed,6 and it is found that
+
+m
+= 0
+.66 ± 0.09 ARGUS & CLEO7
+
+0.72 ± 0.04 LEP6,8
+
+
+Thus, before a typical B decays, it undergoes a non-negligible fraction of one oscil-
+lation.
+
+--
+Suppose, now, that f is a final state into which both a pure Bd and a pure Bd
+can decay. Examples of such a final state are +­, D0Ks, +­, and Ks. Let f(t)
+(Bd(t) f) be the time-dependent probability for the time-evolved particle Bd(t),
+which at t = 0 was a pure Bd, to decay into f. From the wave function for Bd(t), Eq.
+(4.12), f(t) is given by
+
+2
+2 = -t - -2i mCKM
+f (t) = f T Bd (t) e c f T Bd ie s f T Bd . (4.16)
+
+
+Let us now assume that the decay amplitudes fTBd and fT--
+Bd are each
+dominated by a single Feynman diagram. Then
+
+f
+=
+f T Bd MeiCKM eiS , (4.17)
+
+where M is the magnitude of the diagram which dominates fTBd, f
+CKM is the
+phase of the product of CKM elements to which this diagram is proportional, and
+S is the strong interaction phase of the diagram. Similarly,
+
+- f
+f T B = Me iCKM eiS , (4.18)
+d
+
+
+13
+
+
+-- ­
+where M , ­ f
+CKM, andS are respectively the magnitude, CKM phase, and strong
+phase of the diagram which dominates fT--
+Bd. From Eqs. (4.16)-(4.18), we then
+have9
+
+--
+f(t) = e­t {c2M2 + s2--
+M 2 ­ 2csMM sin ( + s)} , (4.19)
+
+where
+
+m + f + f (4.20)
+2CKM CKM CKM
+
+is the relative CKM phase of the two interfering amplitudes in Eq. (4.16), and
+
+S = S ­S (4.21)
+
+is their relative strong phase.
+
+--
+The CP-mirror image of the decay Bd(t) f is the process Bd(t) f, where
+-- --
+Bd(t) is the time-evolved particle which at time t = 0 is a pure Bd. As before, when
+we go from a process to its CP-mirror image, the CKM phases reverse, but noth-
+ing else changes. Thus, from the expression (4.19) for f(t), we may infer that the
+­ --
+probability ­f(t) (Bd(t) f) is given by9
+
+­
+­ --
+f (t) = e­t {c2M2 + s2--
+M 2 ­ 2csMM sin (­ + s)} . (4.22)
+
+--
+Now, since Bd(t) f and Bd(t) f are CP-conjugate reactions, CP invari-
+­
+ance would require that ­
+f(t) = f (t). Comparing Eqs. (4.19) and (4.22), we see that
+when 0, this requirement is violated. Note that, as always, the CKM phase
+produces this CP violation through an interference; in this case the interference
+--
+between the two terms in Eq. (4.16), or between their analogues in Bd(t) f.
+Physically, the first term in Eq. (4.16) corresponds to a Bd remaining a Bd and
+decaying directly into f. The second term corresponds to a Bd evolving, through
+--
+mixing, into a Bd, which then decays into f.
+
+Recalling that and m are already known, it is trivial to see from Eqs.
+­
+(4.19) and (4.22) that measurements of the functions ­
+f(t) and f (t) will determine
+--
+M, M , s+ sin ( + s) and s­ sin (­ + s). Once s+ and s­ are known, one can
+find sin2, up to a two-fold ambiguity, by using
+
+
+sin2 = 1 1 - s 2 2
++s- ± (1 - s+ )(1 - s- )
+2 . (4.23)
+
+
+
+
+
+14
+
+
+Note that, apart from the discrete ambiguity, this expression gives a theoretically
+clean value for sin2. This value does not depend on any unknown or difficult-to-
+calculate parameters. This value can be compared directly to the prediction from
+the CKM matrix to test cleanly whether phases in this matrix are indeed the
+source of CP violation.
+
+As we have seen, the CKM phase which is probed in a given decay, Bd(t)
+f, is the relative CKM phase of the two interfering terms in Eq. (4.16). That is,
+recalling Eq. (4.6),
+
+A(B f )
+= d
+CKM Phase , (4.24)
+A(B ) ( )
+d B A B
+d d
+f
+
+where "A" denotes an amplitude. As an example, in Bd(t) +­, we expect A(Bd
++­ --
+) to be dominated by the diagram in Fig. 3. Similarly, we expect Bd +­ to
+be dominated by the diagram in Fig. 4.
+
+u
+Vud +
+­
+d
+­ V *
+b ub u
+­
+
+­
+Bd
+d
+
+Figure 3. The diagram which dominates Bd +­.
+
+­
+* u
+Vud ­
+d
+V
+b ub u
+-- +
+Bd
+­
+d
+
+--
+Figure 4. The diagram which dominates Bd +­.
+
+The mixing amplitude A(Bd --
+Bd) is dominated by the diagram in Fig. 2. Thus, in
+Bd(t) +­,
+
+
+
+
+15
+
+
+*
+= V V
+arg ud ub
+2
+( *
+V V . (4.25)
+td tb ) *
+V V
+ub ud
+= 2 [
+arg * *
+V V V V
+ud ub tb td ]
+
+
+In a similar way, one may easily find what CKM phase is probed by any particu-
+lar decay. Note that since each of the amplitudes in Eq. (4.24) is always propor-
+tional to some product of CKM elements (assuming each amplitude is dominated
+by one diagram), is always the phase of some product and quotient, or equiva-
+lently of some product, of CKM elements.
+
+The neutral B decay rates, and the extraction of a CKM phase from them,
+become particularly simple when the final state f is a CP eigenstate. Examples of
+such a final state are +­ and (neglecting CP violation in the kaon system) Ks.
+­
+When f is a CP eigenstate, we have f CPf = ff, where f is the CP parity of
+­ --
+f. Then fT--
+Bd = ffT--
+Bd. Now, Bd is the CP conjugate of Bd, andf is the
+­
+CP conjugate of f, so fT--
+Bd is the CP conjugate of fTBd. As before, CP-con-
+jugate amplitudes have opposite CKM phase but are otherwise identical. Thus,
+from Eq. (4.17), when f is a CP eigenstate,
+
+- f
+f T B = iCKM eiS
+d f Me . (4.26)
+
+Using this relation and Eq. (4.17) in Eq. (4.16), we find that
+
+f(t) = M2e­t{1 ­ f sin sin(m t)} , (4.27)
+
+where , the relative CKM phase of the two interfering terms, is now given by
+
+= 2 m f
+( )
+CKM + . (4.28)
+CKM
+
+-- ­
+For the CP-mirror-image decay, Bd(t) f, the decay rate f(t) must be the same as
+f(t) except for a reversal of the CKM phase. That is,
+
+­
+f(t) = M2e­t{1 + f sin sin(m t)} . (4.29)
+
+Now, m is known, as is the CP parity f of any particular final state f of interest.
+­
+Thus, the CP-violating asymmetry between f(t) and f(t),
+
+f (t) - f (t) = ( )
+f sin sin mt , (4.30)
+" + "
+
+
+
+16
+
+
+cleanly determines the CKM phase quantity sin.10
+
+It should be emphasized that the ability to cleanly extract CKM phase
+information from decay rates does depend on the assumption that fTBd and
+fT--
+Bd are each dominated by one Feynman diagram. When fTBd or fT--
+Bd
+involves several competing diagrams with different CKM phases, the rate for Bd(t)
+f involves several interferences, rather than just one, and no longer cleanly
+determines any one relative CKM phase of two amplitudes. Fortunately, in at
+least some of the decay modes of greatest interest, there are strong reasons for
+believing that one diagram does dominate.11
+
+4.2. Future Experiments
+
+In Section 3, it was argued that CP-violating effects in B decay can be large.
+We now see, for example, from Eq. (4.30) for the asymmetry in decay to a CP
+eigenstate, that these effects can indeed be large. If the CKM phase quantity sin
+in the asymmetry (4.30) is O (1), then obviously the asymmetry itself is O (1).
+However, it will take a large sample of B mesons to observe even a large CP-violat-
+ing asymmetry. The reason is that each of the asymmetries on which the experi-
+mental search will focus occurs in the decay to some specific final state, or CP-
+conjugate pair of final states, and the branching ratio for B decay to any of the
+final states of interest is rather small. Thus, a lot of B mesons will be required
+before a CP-asymmetry in some particular decay mode can be seen.
+
+As an example, consider the CP eigenstate final state f = Ks. If the decay
+rate [Bd(t) Ks] is measured by observing N events, the measurement has a
+--
+statistical error of order N. Similarly for [Bd(t) Ks]. Thus, if the asymmetry
+
+[B ]-[ ]
+d (t) Ks Bd(t) Ks (4.31)
+" + "
+
+is, for example, of order 0.1, we must have N << (0.1)N in order to measure it with
+any accuracy. Hence, we require N >
+~ 103. Now, typically a is detected via its
+decay to µ+µ­ or e+e­. Since only 12% of particles decay in this way, we need ~104
+Bd(t) Ks events in order to detect 103 of them. Furthermore, BR(Bd(t) Ks)
+4x10­4.2 Thus, to detect 103 BdKs decays, we need ~108 Bd mesons. For other
+typical decay modes of interest, the number of Bd mesons required is similar.
+However, the total number of Bd mesons recorded to date at CESR, for example, is
+only ~5x106.12 To produce and study enough B mesons to measure CP-violating
+asymmetries in the B system, future experiments are being planned for hadron
+facilities, and special high-luminosity e+ e­ colliders ("B factories") are being built
+
+
+
+17
+
+
+at SLAC and KEK. The experiments to be done at the hadron facilities and the B
+factories will complement each other nicely.
+
+--
+To experimentally compare the rate for Bd(t) f with that for Bd(t) f (or,
+--
+when f is a CP eigenstate, that for Bd(t) f), we must, of course, be able to distin-
+--
+guish a Bd(t) from a Bd(t). That is, we must be able to tag the B as having been a
+--
+pure Bd, or a pure Bd, at some specific time t = 0. Several methods for doing this
+are being considered. Let us briefly review them.
+
+At the B factories, B mesons will be produced in pairs via the reaction
+
+--
+e+e­ (4s) BdBd . (4.32)
+
+Since the (4s) [the upsilon(4s)] has intrinsic spin S = 1, and B mesons are spin-
+less, the B pair created in this reaction will be in a p wave. Now, after it is pro-
+duced, each B meson in the pair will evolve, thanks to mixing, into a coherent
+--
+mixture of pure Bd and pure Bd. However, at no time can one have two identical
+bosons in an antisymmetric state such as a p wave. Thus, if at some time which
+we shall call t = 0, one of the B mesons in the pair decays in a fashion which re-
+--
+veals that at the instant of decay it is, say, a Bd, then, at the same instant, the
+other B meson in the pair must be a Bd. That is, the decay of the one B at t = 0 tags
+the remaining B as a Bd(t). This type of tagging is an interesting modern applica-
+tion of the quantum mechanical correlation first discussed by Einstein, Podolsky,
+and Rosen (the EPR effect).
+
+What kind of neutral B decay will reveal that at the instant of decay the par-
+--
+ent was a Bd? An example of such a decay is semileptonic decay, the diagrams for
+which are shown in Fig. 5. From these diagrams, we see that a positively-charged
+--
+lepton l+ can come only from a Bd, and a negatively charged one l­ only from a Bd.
+Thus, the charge of the lepton tells us whether, at the instant of decay, the parent
+--
+was a Bd or a Bd.
+
+A typical B factory experiment might study the decay chain
+
+e+ + e­ (4s) B + B , (4.33)
+
+f
+­ CP
+l +
+( ) + ...
+
+­
+where l(+) + ... is a semileptonic final state and fCP is a CP eigenstate. Let us
+consider this chain in the (4s) rest frame. In this frame the B mesons are quite
+nonrelativistic, so we may, for the moment, neglect their motion, and take B-rest-
+frame proper times and (4s)-frame times to be indistinguishable. Changing the
+
+
+18
+
+
+l+
+
+
+W
+­ ­
+b c
+
+Bd
+d
+
+
+l­
+
+­
+
+W
+b c
+--
+Bd
+­
+d
+
+Figure 5. The diagrams for semileptonic neutral B decay.
+The symbol l denotes a charged lepton.
+
+notation, let us now call the time of the decay (4s) B + B, t = 0; the time of the
+­
+decay B l(+) + X, tl; and the time of the decay B fCP, tCP. The probability that
+one B will decay semileptonically at time tl is proportional to exp[­tl]. The proba-
+bility that the other B will live at least until time tl is proportional to a second fac-
+tor of exp[­tl]. If the B undergoing the semileptonic decay yields an l­ (l+), then
+--
+at time tl the other B must be a pure Bd (Bd). Thus, the probability that this B will
+decay to fCP at time tCP is given by Eq. (4.27) [Eq. (4.29)] with f taken to be fCP. Most
+importantly, in applying Eq. (4.27) or (4.29), we must take the time variable, which
+as we recall represents the time of the decay to the CP eigenstate relative to the
+--
+time when the parent was known to be a pure Bd or Bd , to be tCP ­ tl. Combining
+all factors, we have for the joint probability of the two B decays in (4.33)
+
+-
+
+Probability One B (+)
+l + X at time tl; Other B fCP at time tCP
+
+
+
+- - - - -
+e t t (t t )
+le le CP l 1
+(+) [ ( )]
+f sin sin m t . (4.34)
+CP CP - tl
+
+
+= - + -
+e (tCP t )
+l 1
+(+) [ ( )]
+f sin sin m t
+CP CP - tl
+
+
+
+
+19
+
+
+Although it is not obvious from what has been said, this result is true even if tCP is
+earlier than tl.
+
+To take the (so far neglected) motion of the B mesons in the (4s) rest frame
+and all the requirements of relativity into account, we may replace the treatment
+above by one in which we do not speak of the semileptonic decay of one B as deter-
+--
+mining the Bd or Bd nature of the other B. Rather, we simply calculate directly the
+amplitude for the entire decay chain (4.33).13 This amplitude approach also has
+the advantage of avoiding a puzzling question raised by the treatment based on the
+EPR effect: How does the second B know the charge of the lepton produced in the
+decay of the first B, and how does it know when that decay occurred? For the joint
+probability of the two B decays in (4.33), the amplitude approach yields precisely
+the same result, Eq. (4.34), as the EPR approach, provided that the times in that
+result are taken to be proper times in the B rest frames, rather than times in the
+(4s) rest frame. The time tl must be taken to be the proper time elapsed in the
+frame of the semileptonically decaying B between its birth and decay, and
+similarly for tCP.
+
+Suppose one does an experiment in which there is not enough resolution to
+measure the decay times tl and tCP, so one simply measures the time integral
+over the joint decay probability (4.34). The contribution to this time integral of the
+term in (4.34) proportional to sin, the quantity one would like to determine,
+vanishes. This is because
+
+
+
+- +
+dt e (tCP t )
+l sin[m(t ] = 0 (4.35)
+
+dtl
+0 0 CP CP - tl)
+
+by the antisymmetry of the integrand under tl tCP. Thus, to determine sin
+with neutral B mesons at a B factory, one must be able to measure the B decay
+times, at least to some extent. To measure the decay time of a B, one would deter-
+mine the pathlength it covers before decay and its energy. Now, in every e+ e­
+collider built so far, the e+ and e­ beams have equal and opposite momenta, so that
+in the reaction e+ e­ (4s) BB, the (4s) is at rest in the laboratory frame.
+Thus, at these colliders, one would be trying to determine the B pathlength in the
+(4s) rest frame. However, as already mentioned, in this frame the B mesons are
+quite nonrelativistic. In fact, they are so slow ( 0.06) that, before decaying in
+1.6x10­12 sec,8 a typical B covers only ~30µm. Pathlengths this short cannot be
+measured. To make the B pathlengths long enough to be measurable, the SLAC
+and KEK B factories will be asymmetric colliders. That is, in each of them the
+positron beam will have a different energy from the electron beam. As a result,
+the (4s) formed in the e+ e­ collision will be moving in the laboratory, and will
+transmit its motion to its daughter B mesons. The asymmetry between the beam
+
+
+20
+
+
+energies will be sufficient to lead to B mesons which typically will travel ~200µm
+before decaying. Such a distance is large enough to be measured.
+
+Another method for tagging, which may prove useful at hadron facilities, is
+based on the expectation that some fraction of the neutral B mesons made at those
+facilities will be created via the production and decay of a B**. By B** we mean an
+excited B meson heavy enough to decay to B + . Such mesons are expected as p-
+wave quark-antiquark bound states, and are observed at LEP.8 Now, as Fig. 6
++ ­ --
+makes clear, a B** decays to Bd+, but a B** to Bd­.
+
+--
+B B
+d d
+­
+b b ­
++ d ­
+B** B** d
+­
+d ­ d
+u u
++ ­
+
++ ­ --
+Figure 6. The diagrams for B** B +
+d and B** Bd ­.
+
+Suppose, then, that in some event one finds a neutral B and a charged which
+are close to each other in phase space and whose momenta are such that the
+invariant mass of the B system is the known mass of a B**. Then, neglecting
+background and assuming that the B system came from a B**, if the charge of
+the is positive (negative), we can conclude that, at the moment of its production
+--
+in B** B, the neutral B was a pure Bd (Bd ).14 Results from LEP8 suggest that
+the fraction of B mesons made via a B** may be appreciable at hadron facilities, so
+this method of tagging may be quite helpful.
+
+4.3. What There is to Measure
+
+As we have seen, the CKM phase which is probed by CP violation in any B
+decay is the phase of some product of CKM elements. What, then, are the inde-
+pendent phases of all possible products of CKM elements? That is, what is there to
+measure?
+
+The answer to this question grows out of the fact that, in the SM, the CKM
+matrix must be unitary. The requirement of unitarity demands, among other
+things, that any pair of columns of the CKM matrix be orthogonal, and similarly
+for any pair of rows. Thus, we have the six orthogonality constraints
+
+
+
+
+
+21
+
+
+ds VudV*us + VcdV*cs + VtdV*ts = 0
+5
+
+sb VusV*ub + VcsV*cb + VtsV*tb = 0
+4 2 2
+
+db VudV*ub + VcdV*cb + VtdV*tb = 0
+3 3 3 (4.36)
+
+u c VudV*cd + VusV*cs + VubV*cb = 0
+5
+
+ct VcdV*td + VcsV*ts + VcbV*tb = 0
+4 2 2
+
+ut VudV*td + VusV*ts + VubV*tb = 0
+3 3 3
+
+To the left of each constraint is indicated the pair of columns, or of rows, whose
+orthogonality is expressed by that constraint. Under each term in each constraint
+is given the rough empirical size of that term, expressed as a power of the Cabibbo
+angle = 0.22. Each term in any of the constraints may be pictured as a vector in
+the complex plane. The constraint then states that its three terms form the sides
+of a closed triangle, called a "unitarity triangle",15 in the complex plane. The six
+unitarity triangles corresponding to the constraints of Eqs. (4.36) are shown,
+somewhat schematically, in Fig. 7. As we see from Eqs. (4.36), in two of the trian-
+gles, the three sides are of comparable size, so that the interior angles can all be
+large. However, in each of the remaining triangles, one of the sides is much
+shorter than the other two, and the angle opposite this short side must be small.
+
+Any angle in one of the unitarity triangles is, of course, (apart from an
+extra ) just the relative phase of the two adjacent sides. Thus, this angle is the
+phase of a product of CKM elements. Furthermore, the product concerned will
+always be one whose phase is convention-independent. For example, the relative
+phase of the two sides adjacent to the angle in the db triangle is arg
+(VtdV*tbV*udVub). Now, this phase is invariant under phase redefinition of the t
+quark, since this redefinition causes equal and opposite phase changes in Vtd and
+V*tb. Similarly, is invariant under phase redefinition of the u, d, or b quark.
+Thus, the angles in the unitarity triangles do not depend on phase conventions.
+
+
+
+
+
+22
+
+
+ds uc
+V * *
+cdVcs V
+V * udVcd
+tdVts V *
+V ubVcb
+udVus
+*
+' V *
+usVcs
+
+
+
+
+
+sb ct
+V *
+tsVtb V *
+csVts
+V *
+cdVtd
+V *
+* usVub
+VcsVcb V *
+cbVtb
+
+
+
+
+
+db ut
+
+V *
+udVub V * * *
+tdVtb VudVtd VubVtb
+
+V * *
+cdVcb VusVts
+
+
+Figure 7. The unitarity triangles. To the left of each triangle is indicated the pair of
+columns, or of rows, whose orthogonality this triangle expresses. The significance of
+the angles labeled , , , , and is explained in the text.
+
+Now, it can be shown that if is the phase of any phase-convention-independent
+product of CKM elements (that is, if is the CKM phase probed in some experi-
+ment on CP violation), then16
+
+= n + n + n + n . (4.37)
+
+Here, , , , and are the four unitarity triangle angles identified in Fig. 7, and
+n, n, n, and n are integers. From Eq. (4.37), we see that, presuming , , ,
+and are independent, these four angles may be taken to be the independent
+
+
+
+23
+
+
+phases of all possible (convention-independent) products of CKM elements. The
+CKM phase probed by any CP experiment is a simple linear combination of
+these four angles. The future experiments on CP violation in the B system may be
+thought of as, in part, an attempt to determine these four angles.
+
+It can be proved that, once they are known, , , , and completely de-
+termine the entire CKM matrix.16 Since, as is well known, it takes four indepen-
+dent parameters to determine this matrix, it follows that , , , and must
+indeed be independent, as we just assumed. Furthermore, since , , , and do
+completely determine the full CKM matrix, CP experiments in the B system are
+not merely measurements of angles in the unitarity triangles, but, in principle at
+least, probes of the entire content of the CKM matrix.17
+
+From the magnitudes of the terms in the "ds" orthogonality constraint of
+Eqs. (4.36), we see that the angle in the ds unitarity triangle is at most of order
+5/ , or 2x10­3 radians. Thus, in a B decay where the CKM phase which is
+probed is , the CP violation would be very small. As a result, it may not be possi-
+ble to measure . However, plans are being developed, and facilities being con-
+structed, to measure the three remaining independent angles, , , and .
+
+Wolfenstein has introduced a very good (~3%) approximation18 to the CKM
+matrix V which is based on the empirical observation that, as far as the magni-
+tudes of its elements are concerned, V has approximately the form
+
+1 3
+
+V ~ 1 2 . (4.38)
+3 2 1
+
+
+The implications of the magnitudes summarized here for the unitarity constraints
+(4.36) have already been indicated beneath them. In Wolfenstein's approximation,
+in effect one neglects the small term in the ds constraint of Eqs. (4.36) relative to
+the larger terms, and does the same in the sb constraint. The ds and sb unitarity
+triangles then each collapse to two antiparallel lines of equal length, and the an-
+gles and vanish (cf. Fig. 7). Of the four independent unitarity-triangle angles
+originally present, only the angles and , in the db triangle, remain. These
+angles, and the dependent angle = ­ ­ in the same triangle, are in any case
+the angles on which the early CP experiments on the B system will concentrate,
+since they are the angles which may be large and which, therefore, may produce
+large CP-violating asymmetries. Consequently, in the literature, attention has
+been focused on the db triangle.
+
+
+
+24
+
+
+The program to test the SM of CP violation through experiments on B
+decays may be summarized as follows:
+
+1. Measure the four independent angles of the unitarity triangles. If the smallest
+angle, , is beyond reach, at least measure , , and . Focus first on and ,
+since these angles may both be large.
+
+2. To see whether the SM provides a consistent picture of CP-violating phenom-
+ena, or leads to inconsistencies which point to physics beyond the SM, overcon-
+strain the system as much as possible. To do so--
+
+a. Measure, if possible, CP asymmetries in different decay modes which, if
+the SM of CP violation is correct, all yield the same angle (, for example).
+See whether these asymmetries actually yield the same numerical result.
+
+b. Measure independently the angles , , and in the db triangle, and see
+whether these angles actually add up to .
+
+c . Measure the lengths of the sides of the db triangle (via experiments on non-
+CP-violating effects such as decay rates and neutral B mixing). See whether
+the interior angles implied by the measured lengths agree with those in-
+ferred directly from CP-violating asymmetries.
+
+Table 1. Decay modes and the CKM phase angle which they probe. In the final
+state K*0, the K*0 is required to decay as shown. Similarly for the final state
+(­ )
+D0K+; gCP is a CP eigenstate, such as +­ or K+K­. References are given in the
+last column.
+
+
+
+Decay Mode Ref.
+
+B +
+d(t) +­, +­, a1 ­ 2 11, 9, 19
+
+Bd(t) Ks, K*0 2 10, 20
+
+Ks 0
+
+B +
+s(t) Ds K­ + 2 - 21
+(­ )
+B+ D0K+ - 5
+gCP
+
+Bs(t) 2 22, 23
+
+
+
+25
+
+
+In Table 1 are listed some decay modes which (in combination with their
+CP conjugates) are potential probes of the independent angles , , and , and the
+dependent angle . In this table, Bs(t), in analogy with Bd(t), is the time-evolved
+state which at time t = 0 was a pure Bs. The B+ decay listed is one of the excep-
+tional charged B decays from which clean CKM phase information can be ex-
+tracted.5 Note that, neglecting and relative to , the decays B +
+s(t) Ds K­ and
+(­ )
+B+ D0K+ (gCP)K+ both yield the latter angle.
+
+5. Testing the SM of CP Violation in the K System
+
+The future tests of the SM of CP violation will include experiments on the
+neutral K system, where CP violation was discovered. Before discussing these
+experiments, we shall introduce a phase-convention-independent description of
+CP violation in this system. Such a description has several advantages. First, it
+clarifies the meaning of the phases which have been experimentally observed.
+Secondly, it makes possible a useful test for errors in theoretical calculations.
+Namely, if one computes the theoretical prediction for an experimental observable
+using nothing but convention-independent variables, then it is easy to check by in-
+spection that the prediction is convention-independent, as it must always be. If it
+is not convention-independent, then one has made a mistake.
+
+With the convention-independent description of CP violation in hand, we
+shall discuss past experiments on the kaon analogues of the time-dependent Bd(t)
+decays we considered in Section 4.1. Finally, we shall turn to future kaon experi-
+ments.
+
+5.1 Convention-Free Description of CP Violation
+
+The existence of different phase conventions arises from the freedom to
+redefine any quantum state by multiplying it by a phase factor. To develop a
+phase-convention-free formalism, we must express every quantity of interest in
+terms of variables that are manifestly invariant under such phase redefinitions of
+the states.
+
+--
+When the phases of the states K0 and K0, and in particular their relative
+phase, are arbitrary, we have
+
+--
+CP K0 = K0 , (5.1)
+
+where is a phase factor. Elementary field theory then implies that
+
+
+CP --
+K0 = *K0 . (5.2)
+
+
+26
+
+
+--
+Thus, within the neutral K system, in the K0, K0 basis, the operator CP is the
+matrix
+
+
+CP = 0 *
+
+. (5.3)
+0
+
+
+From this matrix, we see that within the neutral K system,
+
+(CP)­1 = CP = CP , (5.4)
+
+and
+
+(CP)2 = I , (5.5)
+
+where I is the identity matrix. From this last relation, it follows that the neutral
+kaon CP eigenstates, K1,2, are given by
+
+
+K = ei1(2)
+1(2) K0 + CP K0
+(-) , (5.6)
+2
+
+with
+
+CPK1(2) = + K
+( ­ ) 1(2) . (5.7)
+
+In Eqs. (5.6), the overall phases 1,2 are arbitrary. However, when, as in either of
+Eqs. (5.6), a state is expressed as a coherent superposition of several components,
+the relative phases of the components had better not be arbitrary, because the con-
+tributions from these components can interfere, with physical consequences,
+when the state decays. To make this non-arbitrariness manifest in each of Eqs.
+(5.6), we have written both components on the right-hand side in terms of the
+same state, K0. It is then obvious that no arbitrary relative phase is involved.
+(An operator, such as the CP operator in Eq. (5.6), does not introduce arbitrary
+phases. These come only from states, or from the matrix elements of operators
+between states.)
+
+Let us now turn to the neutral K mass matrix M of Eq. (2.4). The diagonal
+elements of this matrix are convention-free, since the arbitrary phase of the state
+--
+K0 obviously cancels out of M11 K0MK0 and that of K0 cancels out of M22
+-- --
+K0MK0. Thus, the CPT constraint that M11 = M22 X holds in any convention.
+
+The eigenvalues of M--the complex masses of the mass eigenstates KS and
+KL--are
+
+
+
+27
+
+
+S(L) = X +
+
+M
+( ­ ) 12M21 . (5.8)
+
+We shall prove shortly that, as the notation implies, the eigenvalue X +
+
+M12M21
+(X ­
+
+M12M21) corresponds to the KS (KL). Being physically observable, these
+eigenvalues cannot depend on conventions. As we have just seen, X is indeed con-
+-- --
+vention-free, and M12M21 = K0MK0K0MK0 clearly does not depend on the
+phase of any state either.
+
+The eigenstates belonging to the eigenvalues S(L) are, respectively,
+
+
+K = eiS(L)
+S(L) K0 + CP K0
+(-) . (5.9)
+
+1 + 2
+
+Here, S(L) are arbitrary phases, and
+
+12
+K0 (CP)M K0
+
+. (5.10)
+K0 M (CP) K0
+
+
+The arbitrary phase of the state K0 obviously cancels out of, so this quantity is
+convention-free. Hence, so too is the relative phase of the two terms on the right-
+hand side of Eqs. (5.9).
+
+In terms of the CP eigenstates, the mass eigenstates KS(L) of Eqs. (5.9) are
+
+1 +
+K = + ~
+[ ]
+S(L) eiS(L) K2(1) . (5.11)
+2 1 + 2
+( ) ~K1(2)
+
+
+Here,
+
+~ -
+K e i1(2) K
+1(2) 1(2) , (5.12)
+
+and
+
+1 1
+2 2
+K0 K K0 M (CP) K0 - K0 (CP)M K0
+1 K1 KL = 1 - = . (5.13)
+1 1
+K0 K 1 + 2 2
+2 K2 KL K0 M (CP) K0 + K0 (CP)M K0
+
+
+
+
+
+
+28
+
+
+Note that is convention-free, and that, from Eqs. (5.12) and (5.6), the same is true
+of the relative phase of ~
+K1 and ~
+K2. Thus, the relative phase of the two terms on
+the right-hand side of Eqs. (5.11) is independent of conventions.
+
+When the neutral kaon mass matrix M is CP-invariant, we have (CP)­1M(CP)
+= M, so that M(CP) = (CP)M, and consequently vanishes. Thus, is a convention-
+free measure of CP violation in the neutral K mass matrix.
+
+As we noted earlier, CP violation in the neutral K system is small. From
+the fact that the amplitude for KL is much smaller than that for KS
+[see Eqs. (2.11) and (2.12)], and the fact that CP() = +1, we know that it is KS
+which is close to being a CP-even eigenstate of CP, and KL which is close to being
+a CP-odd one. From Eq. (5.13), we see that when CP-noninvariance of M is
+small, is small. Thus, it is clear from Eq. (5.11) that the mass eigenstates we
+have labeled "KS" and "KL" are indeed respectively the KShort and KLong.
+Hence, the corresponding eigenvalues, "S" and "L" of Eq. (5.8), are indeed re-
+spectively the complex masses of KShort and KLong.
+
+In studying the decays of neutral kaons to a final state f, it will be useful to
+have the convention-free parameter
+
+
+f T K
+L KL K0
+f . (5.14)
+f T K
+S KS K0
+
+When f is a CP eigenstate with even CP parity,
+--f would vanish in the absence of
+CP violation, and serves as a convention-free measure of this violation.
+
+In the literature, discussions of CP violation in the kaon system are almost
+always carried out within specific phase conventions. Almost universally, these
+discussions adopt the convention that S = L = 0 in Eqs. (5.9) for the states KS(L).
+They also adopt the independent convention that 1 = 2 = 0 in Eqs. (5.6) for
+K(1(2). Finally, they choose the additional convention that = +1 in the CP rela-
+tion (5.1), as we did in Section 2. Alternatively, they choose = ­1.
+
+In the literature, neutral kaon decay to the final state f is commonly
+described in terms of the parameter
+
+
+f T KL
+f , (5.15)
+f T KS
+
+
+
+
+29
+
+
+especially when f is a 2 state. We note that the phase of f depends on the conven-
+tions for the phases of KL and KS. Now, from Eqs. (5.9), we see that in the con-
+vention where S = L, KLK0 / KSK0 = 1. Thus, in this convention,
+
+
+--f = f . (5.16)
+
+That is, our
+--f is a convention-free analogue of the traditional parameter f, and
+the two agree in the most commonly used convention for the phases of KL and
+KS.
+
+The violation of CP in the neutral K mass matrix M is traditionally de-
+scribed in terms of the convention-dependent parameter , which may be defined
+by
+
+
+K1 KL . (5.17)
+K2 KL
+
+When M is CP-invariant, KL has no CP-even (i.e., K1) component, so vanishes.
+From Eqs. (5.13) and (5.6),
+
+= ei(2 ­ 1) . (5.18)
+
+Thus, is a convention-free analogue of , and in the popular phase convention
+where 2 = 1 = 0, the two agree.24
+
+5.2. Some Existing Observations of CP Violation in the K System
+
+In Section 2, we already mentioned two CP-violating effects which have
+been seen in neutral kaon decay. The first of these is the decay of KL, which in the
+absence of CP violation would have CP = ­1, to , which has CP = +1. Since
+KLK0 / KSK0 is just a phase factor [see Eqs. (5.9)], we see from Eqs. (2.11) and
+(2.12) that the magnitudes of -- --
++­
+-- +­ and oo
+-- 00 are both approximately
+2.28 x 10­3, and, within errors, are equal. The second CP-violating effect we men-
+tioned is the charge asymmetry of Eq. (2.13).
+
+There is a third observed CP-violating effect, closely related to the decay KL
+, and to the non-exponential decays of Bd(t) mesons to CP eigenstates de-
+scribed by Eq. (4.27). This effect is found in the decay K0(t) f of a time-evolved
+neutral K, which at time t = 0 was a pure K0, into the final state f = +­ or f =
+00. Now, the KN (N = S or L) mass eigenstate component of a K0 evolves in
+time t into KNexp(­iNt). From this fact and Eqs. (5.9) and (5.14), it is trivial to
+
+
+
+
+30
+
+
+show that the time-dependent probability for the decay K0(t) f, (K0(t) f), is
+given by
+
+- 2 -
+K0(t) f
+( )e St + Lt +
+f e
+
++ - 1 +
+2 (
+2 S L )t cos(m ) . (5.19)
+f e Kt - f
+
+Here, we have written the complex mass N of KN as mN ­ iN/2, where mN is
+the mass of KN and N is its width. The mass difference mK is defined as mL ­
+m -- --
+S, and f is the phase of f. Note from Eq. (5.19) that because both the KS and KL
+components of a K0(t) can decay into (in violation of CP), the rate for K0(t)
+receives a contribution from the decay of the KS component, another from that of
+the KL component, and a third from an interference term.
+
+A fourth observed CP-violating effect, very similar to the one found in K0(t)
+f, is seen in the decay of neutral kaons produced by a regenerator. The regener-
+ator is a slab of material on which is incident a pure KL beam--a neutral K beam
+from which the KS component has long since decayed away. The regenerator
+recreates a KS component in this beam. It is able to do so because a KL is a coher-
+--
+ent superposition of K0 and K0, and the amplitudes for the latter two particles to
+scatter in a material medium differ. Thus, what emerges from the medium will
+--
+be a different K0­K0 superposition from the one which was incident. That is, the
+emerging kaon beam will contain a KS component. In particular, if a kaon enters
+the regenerator as a pure KL, it will emerge in the state Kr given by
+
+Kr = KLKLRTKLR + KSKSRTKLR . (5.20)
+
+Here, R stands for the regenerator, so that KL(S)RTKLR is the amplitude for
+the regenerator to emit a KL (KS) when a KL is incident. Now, after a time t in the
+rest frame of the kaon Kr, its KN (N = L or S) mass eigenstate component will
+have evolved into exp(­iNt)KN. Thus, the Kr will have evolved into the state
+Kr (t) given by
+
+Kr(t) = e­iLtKLKLRTKLR + e­iStKSKSRTKLR . (5.21)
+
+Omitting an irrelevant overall constant, the amplitude for this time-evolved kaon
+to decay to the final state f, fTKr(t), is just
+
+fTK --
+r(t) f e­iLt + re­iSt . (5.22)
+
+Here,r is the convention-free KS regeneration amplitude defined by
+
+
+
+31
+
+
+KL K0
+r KSR T KLR . (5.23)
+KLR T KLR K
+S K0
+
+From Eq. (5.22), the probability (Kr(t) f) for a neutral kaon to decay to a final
+state f at a proper time t after emerging from a regenerator is given by
+
+(K --
+r(t) f) ­
+r 2e­St + f2e­Lt +
++ 2­
+r
+--fe­(S+L)t/2 cos(mKt +r ­f) . (5.24)
+
+Here,r is the phase of ­
+r . If f is a state (hence CP-even), only the first term in
+Eq. (5.24) would be present were it not for CP violation.
+
+Through experimental studies of KS ­ KL interference terms such as those
+in (K0(t) f), Eq. (5.19), and (Kr(t) f), Eq. (5.24), we have learned that25
+
+mK = (3.4894 ± 0.0073) µeV , (5.25)
+
+that25
+
+-- --
++­ arg (+­) = (43.56 ± 0.56)° , (5.26)
+
+and that2
+
+-- --
+oo arg (oo) = (43.5 ± 1.0)° . (5.27)
+
+In the literature, the numbers quoted in Eqs. (5.26) and (5.27) are referred to, re-
+spectively, as "the phase of +­" and "the phase of oo". In the most popular phase
+convention, in which --
+f = f, these numbers do have this significance. However,
+they do not have this meaning in general, since, as we have noticed, the phase of
+f, Eq. (5.15), depends on conventions. The convention-free quantities whose
+phases, in any convention, have the values quoted in Eqs. (5.26) and (5.27) are,
+respectively, -- --
++­ and oo.
+
+
+5.3. Indirect and Direct CP Violation
+
+There are two ways in which CP can be violated in neutral K decay. First, it
+can be violated as a consequence of the CP-noninvariance of the neutral K mass
+matrix, which causes the mass eigenstates KS and KL to deviate slightly from
+being pure CP eigenstates. When the KL, while dominantly the CP-odd state K2,
+contains a small admixture of the CP-even state K1, as in Eq. (5.11), it can decay to
+the CP-even state +­ through its K1 component. It can do this even if the actual
+K decay amplitudes conserve CP, so that +­TK2 = 0.
+
+
+32
+
+
+The violation of CP stemming from the fact that KS and KL are not CP
+eigenstates is called "indirect CP violation".
+
+The other way in which CP can be violated is through the decay amplitudes
+themselves. Examples of possible CP violations in K decay amplitudes would be a
+nonvanishing value of the CP-changing decay amplitude +­TK2, or a non-
+--
+vanishing value of the difference ­l+TK0 ­ +l­
+­TK0 between the ampli-
+tudes for two CP-mirror-image processes.
+
+The violation of CP in decay amplitudes themselves is called "direct CP
+violation".
+
+Suppose that f+ is a CP-even final state. Suppose further that there is no
+direct CP violation. Then f+T ~
+K2 = 0. Thus, from Eqs. (5.14), (5.11), and (5.9),
+
+f
+= + T ~
+K1 =
+f . (5.28)
++ f
++ T ~
+K1
+
+That is, when there is no direct CP violation, the parameters --
+f for different CP-
++
+even final states f+ are all equal. In particular, they are all equal to. Now, Eq.
+(5.13) clearly implies that
+
+
+K0 M
+[ ,CP] K0
+= . (5.29)
+2
+K0 M (CP) K0
+[ ]12 + K0(CP)M K0
+[ ]12
+
+
+This expression makes it particularly obvious that vanishes when M is CP
+invariant. Since is small, the two terms in the denominator D of Eq. (5.29) are
+approximately equal. Thus, from Eqs. (5.3) and (5.8),
+
+
+D 4
+
+M12M21 = 2 (S ­ L) . (5.30)
+
+The numerator N of Eq. (5.29), being convention-independent, may be evaluated in
+the convention where the of the CP relation (5.1) is unity. In this phase convention,
+
+N = M12 ­ M21 . (5.31)
+
+Now, it can be shown that in the difference M12 ­ M21, the dispersive part of the
+matrix element dominates strongly over the absorptive part.26 Furthermore, the
+dispersive part of M12 is real and equal to that of M21, except for CKM elements in
+the former which are replaced by their complex conjugates in the latter. Thus, N
+
+
+33
+
+
+= M 12 ­ M21 is pure imaginary. If, in particular, arg N = ­/2, then, from Eq.
+(5.30),
+
+-
+arg = tan 1 2 mK
+= (43.46 ± 0.08)o . (5.32)
+
+S - L
+
+In the absence of direct CP violation, this angle (or, for arg N = +/2, this angle
+plus ) is the predicted phase of -- --
++­ and of o o. Comparing Eq. (5.32) with Eqs.
+(5.26) and (5.27), we see that the agreement is superb. We note that in obtaining
+arg, we used Eqs. (5.8) for the eigenvalues of M. These equations assume the CPT
+constraint M11 = M22 X. Thus, the agreement between the phase we calculated
+for and the measured phases of -- --
++­ and oo is a test of CPT invariance.
+
+
+All confirmed CP-violating effects observed to date can be explained in
+terms of indirect CP violation alone. For example, as we have already remarked,
+the measured magnitudes of -- --
++­ and oo are compatible with equality, as required
+when there is no direct CP violation. (We shall return to this point.) In addition,
+the measured value of the charge asymmetry , Eq. (2.13), is compatible with the
+hypothesis that this asymmetry arises purely from indirect CP violation. This
+hypothesis is expected to be a very good one, since, as illustrated in Fig. 8, in the
+SM there is only one diagram for the decay KL ­l+, and, similarly, only one
+for KL +l­­
+. The violation of CP arises from phase factors, and these phase
+factors never produce physical effects unless there is an interference between
+amplitudes proportional to them. When a decay involves only one diagram, hence
+only one amplitude, there can be no interference. Therefore, the decay amplitude
+cannot violate CP. That is, there can be no "direct" CP violation.
+
+l+ l­
+­
+­
+s
+­ u s u
+K K
+L - L +
+­
+d d
+(a) (b)
+
+Figure 8. (a) The sole SM diagram for KL ­l+. (b) The sole SM diagram for KL
++l­­
+. Note that KL ­l+ proceeds only through the K0(­
+sd) component of the KL,
+-- ­
+while KL +l­­
+proceeds only through the K0(sd) component.
+
+To see that the value of is compatible with the absence of direct CP viola-
+tion, we note from Eqs. (5.9) and (5.13) that
+
+
+
+
+34
+
+
+--
+KL (1 +)K0 ­ (1 ­)K0 . (5.33)
+
+Recalling (see Fig. 8) that KL ­l+ and KL +l­­
+occur only through the K0
+--
+and K0 components of the KL, respectively, we have
+
+­l+TKL (1 +) ­l+TK0 (5.34)
+
+
+and
+
+--
++l­­
+TKL (1 ­) +l­­
+TK0 . (5.35)
+
+--
+If there is no direct CP violation, then ­l+TK0 and +l­­
+TK0, being
+decay amplitudes for CP-mirror-image processes, have equal magnitude. Then
+
++ -
+(K
+L -l ) - (KL +l )
+" + "
+
+= 1 + 2 - 1 - 2 (5.36)
+" + "
+2e ,
+
+
+
+where we have used the fact that
+­2 1. Now, absent direct CP violation, ­ =
+--
++­ = 2.28 x 10­3. Thus, if direct CP violation is also absent from , then, from
+Eq. (5.36), cannot exceed 2 (2.28 x 10­3) = 4.56 x 10­3. The measured value of
+quoted in Eq. (2.13) satisfies this constraint easily.
+
+While there is as yet no firm evidence for direct CP violation, a great effort
+has been made to find such evidence by showing experimentally that in K ,
+-- --
+oo + ­, in violation of Eq. (5.28). However, so far, this challenging effort has
+been inconclusive. The reported experimental results are
+
+2
+-4
+NA31 Experiment 27
+"e = (23 ± 6.5) × 10
+"= 1 1- oo . (5.37)
+6 +- (7.4 ± 5.2 ± 2.9) × 10-4 E731 Experiment 28
+
+
+
+(In the second of these results, the first error is statistical and the second system-
+atic.) Plainly, more needs to be done to clarify the situation. More sensitive exper-
+iments which will try to establish that
+-- --
+oo +­ are planned for both Fermilab and
+CERN. In addition, at the coming factory DANE, an effort will be made to es-
+tablish the existence of direct CP violation by following the ingenious suggestion29
+to study the decay chain
+
+
+
+
+35
+
+
+K + K . (5.38)
+
+
+0 0
++­
+
+To see that the probability of this chain depends on whether there is direct CP vio-
+lation, consider the special case where the two kaons decay simultaneously in the
+rest frame. Since the has S = 1, the primary decay KK leaves the kaons in
+a p wave. As a result, these two kaons cannot decay simultaneously to the same
+final state.30 For, if they did, then just after their decay, we would have two identi-
+cal spinless bosonic systems (one from each of the kaons) in an overall p wave, in
+violation of the rule that one cannot have two identical bosons in an antisymmet-
+ric state. Thus, if at some time t one of the kaons decays to +­, then at this time,
+--
+the other kaon must be that linear combination of K0 and K0 which cannot decay
+to +­. Now, in the absence of direct CP violation, we have TK2 = 0. Then
+--
+the linear combination of K0 and K0 which cannot decay to +­ is simply K2.
+However, (in the absence of direct CP violation) K2 cannot decay to 00 either.
+Thus, when there is no direct CP violation, the two kaon decays in the decay
+sequence (5.38) cannot occur simultaneously.
+
+Of course, the experiment to study the decay chain (5.38) will not restrict
+itself to events in which the two kaons decay simultaneously. However, by consid-
+ering this special case, we have seen that the experiment will be sensitive to
+whether direct CP violation is present or not.
+
+If, as the SM states, CP violation is due to complex phases in the CKM ma-
+trix, then direct CP violation is indeed expected to occur, both in K and B decays,
+apart from exceptions such as K ( ­ )
+L +
+­l± . In particular, barring an accident,
+in K the direct CP violation TK -- --
+2 0 does indeed occur. Then +­ oo,
+or equivalently, the parameter "e ('/)" of Eq. (5.37) is nonvanishing. However,
+calculating the precise SM prediction for e ('/) is very challenging. From exist-
+ing calculations, one predicts only that31
+
+­2 x 10­4 < e ('/) < 13 x 10­4 . (5.39)
+
+Nevertheless, for e ('/) to vanish, or to be much smaller than 10­4, seems un-
+likely. Thus, it is very interesting to search, with a sensitivity at the level of 10­4, for
+a nonvanishing value of this directly-CP-violating quantity. Establishing a nonvan-
+ishing value at this level would not only serve as a test, at least qualitative, of the
+SM picture of CP violation, but would also discriminate against the models which
+ascribe CP violation to a so-called "superweak interaction"32 lying beyond the SM.
+In general, superweak models of CP violation predict that e ('/) << 10­4. 32,33
+
+
+36
+
+
+5.4. The Rare Decay KL 0 ­
+
+Measurement of the branching ratio for the so far unobserved rare decay
+KL 0­ would provide a clean test of the SM of CP violation, complementing the
+tests to come from B decays.
+
+The system 0­ can be in either a CP = +1 or a CP = ­1 state. However,
+neglecting neutrino mass, when this system is produced by SM interactions in KL
+decay, it will be in a pure CP = +1 state. But in the absence of CP violation, CP(KL)
+= ­1. Thus, the decay KL 0­ violates CP.
+
+To see why the SM interactions yield a purely CP-even final state in KL
+0­, we note that the CP of the final state is given by
+
+CP(0­) = CP(0) CP(­) (­1)L , (5.40)
+
+where CP(­) is the CP of the ­ pair, and L is the orbital angular momentum of
+the 0 relative to this pair in the KL rest frame. Since the KL is spinless, L = J(­),
+where J(­) is the total angular momentum of the pair. Now, when neutrino
+mass is neglected, a neutrino produced by SM interactions will be left-handed,
+and an antineutrino right-handed. Thus, in the effective Hamiltonian Heff for KL
+0­, in the rest frame of the ­ pair, the only operator which can create this
+pair is ­L
+L, where L is the left-handed projection of the neutrino field. (Other
+operators bilinear in the neutrino field would create a neutrino pair with the
+wrong helicities. For example, the scalar operator ­ would create a and ­ of
+like, rather than opposite, helicity.) Now, the ­ pair created by the action of ­L
+L
+on the vacuum will have CP(­) = +1, since ­L
+L is even under CP. In addition,
+this pair will have J(­) = 1, since ­L
+L is a spatial three-vector operator. Thus,
+since CP(0) = ­1, Eq. (5.40) yields CP(0­) = +1.
+
+In the SM, KL 0­ comes from the diagrams in Fig. 9, plus the related
+--
+diagrams in which the decay goes through the K0, rather than the K0, component
+of the K *
+L. Notice that all the diagrams in Fig. 9 are proportional to VtsVtd. Thus,
+--
+their K0 analogues, in which every quark has been replaced by its antiquark, are
+proportional to V *
+tsVtd. Now, from Eqs. (5.9), (5.10), and (5.1),
+
+--
+KL
+M12K0 ­ M21K0 . (5.41)
+--
+At the quark level, the K0 K0 mixing amplitude M12 arises from diagrams such
+as, for example, the one in Fig. 10, proportional to (V *
+csVcd)2. Suppose this diagram
+
+
+
+
+
+37
+
+
+­ ­
+
+
+Z Z
+­ ­
+t t W W
+­ ­ ­
+s
+­ W d s
+­ t d
+KL 0 KL 0
+d d d d
+
+
+­
+
+l
+
+W W
+­ ­
+s
+­ t d
+KL 0
+d d
+
+
+Figure 9. The SM diagrams for KL 0­ through the K0(s­d) component of the KL.
+
+c
+s d
+
+K0 W W K0
+
+d s
+c
+--
+Figure 10. A diagram for K0 K0 mixing.
+
+dominates M *
+12, so that its CP-conjugate, proportional to (VcsVcd)2, dominates
+--
+M 21. Then, from Eq. (5.41), the diagrams of Fig. 9, and their K0 analogues, we
+have for the KL 0­ amplitude
+
+0­TK * * * *
+L VcsVcdVtsVtd ­ VcsVcdVtsVtd . (5.42)
+
+That is,
+
+0­TK * *
+L m(VcsVcdVtsVtd) ­J . (5.43)
+
+
+
+
+
+38
+
+
+From Fig. 7, it is easy to see that the phase-convention-independent quantity J is
+just twice the area of the ds unitarity triangle. What is less obvious is that all six
+unitarity triangles have the same area, so that J, which is known as the Jarlskog
+invariant, is twice the area of any of them.34 Since the unitarity triangles can
+have nonzero area only if the CKM matrix contains CP-violating complex phase
+factors, J is a convention-free measure of CP violation in the CKM matrix.
+
+In addition to the mixing diagram of Fig. 10, one expects significant contri-
+butions from other processes where the quark (antiquark) line involves an inter-
+mediate u (u
+­ ).35 These contributions to M *
+12 are proportional to (VusVud)2, rather
+than (V * *
+csV c d)2, and their counterparts in M 21 are proportional to (Vu sVud)2.
+However, in view of the relative sizes of the terms in the ds unitarity constraint of
+Eqs. (4.36), this constraint implies that, apart from a minus sign, V *
+usVud has the
+same phase as V *
+csVcd to within a few milliradians. As a result, even when the u-
+quark contributions to M12 and M21 are included, the CP-violating phase probed by
+K * *
+L 0
+­ is still that of VcsVcdVtsVtd, and we still have 0­TKL J.
+
+The decay KL 0­ is not only CP violating, but is strongly dominated by
+direct CP violation.36 One way to see this is to estimate
+--
+o ­. To this end, we note
+that once the heavy W and Z boson degrees of freedom in the diagrams of Fig. 9
+are integrated out, the effective Hamiltonian Heff for KL 0­ is given by31
+
+H * ­
+eff = G VtsVtd (s
+­ d) (L L) + h.c. . (5.44)
+
+Here, G is a constant which is fairly well determined once the mass of the top
+quark is given. For KS 0­, the appropriate effective Hamiltonian represents
+both the diagrams of Fig. 9 (with KL KS) and similar diagrams witht replaced
+by c, and so is more complicated than the Heff of Eq. (5.44). However, we will get
+the right order of magnitude for the KS 0­ amplitude if we neglect the charm
+contribution, and take Heff to be given by Eq. (5.44) for both KL 0­ and KS
+0­.37 Then from the definition (5.14) for --f, Eq. (5.41) for KL and its analogue
+for K --
+S, and Eq. (5.44) for Heff, we have for o
+­ the estimate
+
+
+M * 0 * 0
+12VtsVtd s d K0 - M 21VtsVtd d s K0 L 0
+L
+0 ~ . (5.45)
+" + " "
+
+Now, as we have already noted, the CKM phase of
+M *
+12 is that of VcsVcd. Thus,
+we may write
+
+M *
+12 = r12VcsVcd , (5.46)
+
+
+
+
+39
+
+
+where r12 has no CKM phase. Similarly, we may write
+
+M *
+21 = r21VcsVcd , (5.47)
+
+where r21 has no CKM phase. Let us now go to a phase convention in which V is
+real when CP is conserved. In such a convention, we must have
+
+
+r 0 0
+12 s d K0 = r21 d s K0 , (5.48)
+
+
+since --
+o ­ must vanish when CP is conserved. Hence, from Eq. (5.45), in our
+chosen convention, when CP is not conserved, we must have
+
+
+im V V* V* V
+( )
+cs cd ts td
+0 ~ e V V* *
+( ) . (5.49)
+cdVtsV
+cs td
+
+Since both sides of this relation are phase-convention independent, this estimate
+holds in any convention.
+
+Combined with our knowledge of the CKM matrix,38 the relation (5.49)
+yields the estimate 0.1 --
+~
+<o­ ~< 1. Even though this estimate was obtained
+neglecting the charm-exchange contribution to KS 0­, we may safely con-
+clude that -- --
+o ­ is much larger than the corresponding K parameters +­
+and
+--
+oo, both of which are ~2x10­3. However, from Eq. (5.28) we know that when
+direct CP violation is absent, the parameters
+--f for different CP-even final states
+are all equal. Thus, we conclude that if the SM description of K 0­ is correct,
+direct CP violation is present in neutral K decays.
+
+From Eqs. (5.14) and (5.11), we have
+
+A
+-- 2 +A1
+o ­ = , (5.50)
+A1 +A2
+
+~
+where A2 is the CP-violating decay amplitude 0­TK2 , and A1 is the CP-
+~
+conserving one 0­T K -- --
+1 . As we have seen,
+­+­ 2x10­3, but o­
+is much larger than this. Thus, from Eq. (5.50), A2 >> ­A1. That is, in
+0­TKL, which from Eq. (5.11) is proportional to A2 +A1, the directly CP
+violating term A2 dominates over the indirectly CP violating oneA1.39
+
+To calculate (KL 0­), one must evaluate the matrix element
+
+
+
+
+40
+
+
+0­H * ­
+effK0 = G VtsVtd 0s
+­ dK0 ­L L0 (5.51)
+
+of the effective Hamiltonian of Eq. (5.44), and the simply-related matrix element
+--
+0­HeffK0. In Eq. (5.51), the leptonic matrix element is, of course, trivial, and
+the hadronic matrix element 0 s
+­ dK0 is related by isospin40 to 0s­
+uK+, a matrix element which has been measured by determining the rate for K+
+0e+. For fixed input parameters (the top quark mass, for example), the theo-
+retical uncertainty in BR(KL 0­) is only ±1.4%.31 Thus, measurement of this
+branching ratio could yield a rather accurate value of the Jarlskog invariant J--
+information about the CKM matrix which must be consistent with that from other
+sources.
+
+To be sure, the measurement would not be easy. Given our present knowl-
+edge of the relevant CKM elements, BR(KL 0­) = (1-5)x10­11 in the SM.
+Observing such a rare decay will be a challenge. Adding to the challenge will be
+the fact that BR(KL 00) / BR(KL 0­) ~ 108, so that one must take steps to
+ensure that any decay identified as KL 0­ is not really the much more likely
+KL 00, with one of the pions having escaped detection. Nevertheless, it is to be
+hoped that BR(KL 0­) will indeed be measured.
+
+6. Do Electric Dipole Moments Violate CP?
+
+Outside of the neutral meson systems, CP violation has been sought by
+trying to show that a spin one-half fermion, such as the neutron or electron, has
+an electric dipole moment (EDM). It is trivial to prove, as we shall shortly, that
+such an EDM would violate invariance under time reversal T. If one then
+assumes that the world is invariant under CPT, it follows that an EDM would
+violate CP. We would like to close the present article by asking whether one can
+prove directly that an EDM violates CP without invoking CPT invariance.
+
+Let us first prove that if a quantum system with definite angular momen-
+
+tum s has an EDM, then T invariance is violated. By the rotational properties of
+
+the system, the EDM, µEl
+, must point along the vector s . That is,
+
+µ
+El
+= gEl s , (6.1)
+
+where gEl is a constant. Imagine, now, that the system is in a static external
+
+electric field E. The interaction energy E due to the EDM is then
+
+
+E = ­µEl
+· E = ­gEl s ·E . (6.2)
+
+
+
+
+
+41
+
+
+
+Now, it is obvious that under time reversal, E E, and s ­s . Thus, E ­ E.
+That is, if the interaction energy of the world includes a term stemming from an
+EDM, then this energy is not invariant under T.
+
+If nature is described by a local, relativistically-invariant quantum field
+theory (such as the SM and its extensions), then it is invariant under CPT.41
+Thus, it is relatively safe to assume that CPT invariance does hold, so that an
+EDM violates not only T but also CP.
+
+But what if CPT does not hold? Can we prove that an EDM still violates CP?
+To try to do so, we recall that, apart from a constant, the EDM of a spin one-half
+fermion f, µEl(f), is just the q2 = 0 value of the form factor E(q2) in the "electric
+dipole term"
+
+i E(q2) µ u
+­ 2 µ q 5 u1 (6.3)
+
+in the general decomposition of the amplitude for + f f, the absorption of a pho-
+ton by f. Here, q is the momentum carried by the photon, µ is the photon polariza-
+tion, and u1 and u2 are, respectively, the initial and final Dirac spinors for f. To
+explore the CP properties of the electric dipole coupling, (6.3), let us go to the cross
+channel, where we have the process f + f. In this channel, the amplitude (6.3)
+becomes
+
+i E(q2) µ u
+­ f µ q 5 v­f , (6.4)
+
+where v is the Dirac spinor for an antifermion. We are now in a region where q2
+(2mf)2, where mf is the mass of f, while in considering + f f we were in a re-
+gion where q2 0. Now, one can show that if f + f proceeds through the cou-
+pling (6.4), then theff pair will be produced in a state which in the nonrelativistic
+limit is 1P1. Furthermore, the CP of anff pair in a state with orbital angular
+momentum L and total spin S is just (­1)S+1. Thus, the electric dipole coupling
+(6.4) leaves theff pair in a state with CP = ­1. But a photon has CP = +1. Thus,
+when f + f proceeds through the electric dipole coupling (6.4), CP is not
+conserved.
+
+We have obtained this result for f + f without invoking CPT. Have we
+thereby proved that an EDM violates CP even when CPT does not hold? Actually,
+we have not! Recall that the EDM of f is proportional to the value of E(q2) at q2 = 0.
+To relate E(q2=0) to E(q2) in the positive q2 region which corresponds to f + f,
+we must invoke "crossing". Crossing tells us that the analyticity properties of E(q2)
+are such that if this form factor is nonzero in the region q2 0, which corresponds
+to + f f, then it is also nonzero in the region q2 (2mf)2, which corresponds to
+
+
+42
+
+
+f + f. Thus, from our previous argument, if µEl(f) 0, then f + f violates CP.
+However, this author does not know of any way to prove that crossing holds with-
+out assuming that nature is described by a local, relativistically-invariant quan-
+tum field theory. And, if we assume that nature is described by such a theory,
+then CPT invariance holds! Thus, we have not succeeded in proving that an EDM
+violates CP even when CPT does not hold. Indeed, we still do not know whether an
+EDM necessarily violates CP under such circumstances.
+
+7. Conclusion
+
+It is particularly natural to hypothesize that CP violation is an effect of the
+SM weak interaction, which means that it comes from phases in the quark mix-
+ing matrix. During the next two decades, this hypothesis will be cleanly tested
+through elegant experiments on B and K decays. Regardless of whether these
+experiments confirm or disprove the hypothesis, their results will be exciting
+news.
+
+Acknowledgements
+
+It is a pleasure to thank G. Buchalla, I. Dunietz, B. Holstein, and B.
+Winstein for helpful conversations, and to thank the Fermi National Accelerator
+Laboratory for excellent hospitality during the time that these lectures were
+prepared.
+
+
+
+
+
+43
+
+
+References
+
+1. J. Christenson, J. Cronin, V. Fitch, and R. Turlay, Phys. Rev. Lett. 13, 138
+(1964); J. M. Gaillard et al., Phys. Rev. Lett. 18, 20 (1967); J. Cronin et al.,
+Phys. Rev. Lett. 18, 25 (1967).
+
+2. M. Barnett et al. (Particle Data Group), Phys. Rev. D 54, 1 (1996).
+
+3. M. Kobayashi and T. Maskawa, Prog. of Theo. Phys. 49, 652 (1973).
+
+4. L. Wolfenstein, private communication.
+
+5. M. Gronau and D. Wyler, Phys. Lett. B265, 172 (1991), and, for example, M.
+Gronau, J. Rosner, and D. London, Phys. Rev. Lett. 73, 21 (1994).
+
+6. S. L. Wu, University of Wisconsin preprint WISC-EX-96-343 .
+
+7. H. Schröder, in B Decays (Revised 2nd Edition), ed. S. Stone (World Scientific,
+Singapore, 1994), p. 449.
+
+8. We derive the B width from the lifetime reported by J. Kroll, Fermilab
+preprint FERMILAB-CONF-96-032 .
+
+9. R. Aleksan, I. Dunietz, B. Kayser, and F. Le Diberder, Nucl. Phys. B361, 141
+(1991).
+
+10. A. Carter and A. Sanda, Phys. Rev. Lett. 45, 952 (1980); Phys. Rev. D 23, 1567
+(1981); I. Bigi and A. Sanda, Nucl. Phys. B193, 85 (1981) and B281, 41 (1987); L.
+Wolfenstein, Nucl. Phys. B246, 45 (1984); and I. Dunietz and J. Rosner, Phys.
+Rev. D 34, 1404 (1986).
+
+11. In one mode of interest, Bd(t) +­, several diagrams may be involved, but a
+technique based on isospin analysis has been developed for dealing with the
+situation in this mode. See M. Gronau and D. London, Phys. Rev. Lett. 65,
+3381 (1990).
+
+12. K. Berkelman, private communication.
+
+13. B. Kayser and L. Stodolsky, Phys. Lett. B359, 343 (1995).
+
+14. M Gronau, A. Nippe, and J. Rosner, Phys. Rev. D 47, 1988 (1993).
+
+
+
+
+
+44
+
+
+15. C. Jarlskog, in CP Violation, ed. C. Jarlskog (World Scientific, Singapore,
+1989), p. 3; J. Bjorken, private comunications.
+
+16. R. Aleksan, B. Kayser, and D. London, Phys. Rev. Lett. 73, 18 (1994).
+
+17. The relations between different non-independent angles in the unitarity tri-
+angles are simple, and the independent set , , , can, of course, be re-
+placed by alternative sets of four independent angles.
+
+18. L. Wolfenstein, Phys. Rev. Lett. 51, 1945 (1983).
+
+19. A. Snyder and H. Quinn, Phys. Rev. D 48, 2139 (1993).
+
+20. B. Kayser, M. Kuroda, R. Peccei, and A. Sanda, Phys. Lett. B237, 508 (1990).
+
+21. R. Aleksan, I. Dunietz, and B. Kayser, Z. Phys. C54, 653 (1992).
+
+22. I. Dunietz, in Proceedings of the Workshop on B Physics at Hadron
+Accelerators, eds. P. McBride and S. Mishra (Fermilab report FERMILAB-
+CONF-93/267), p. 83.
+
+23. R. Aleksan, B. Kayser, and D. London, ibid, p. 299.
+
+24. After our own convention-free analysis of the kaon system was well underway,
+we became aware of closely-related work in K. Kojima, W. Sugiyama, and S.
+Tsai, Prog. Theor. Phys. 95, 913 (1996), and in S. Tsai, Nihon University
+preprint NUP-A-96-5. These authors also consider the possibility of CPT
+violation.
+
+25. B. Pagels, talk presented at the 28th Intl. Conf. on High Energy Physics,
+Warsaw, July 1996.
+
+26. R. Sachs, The Physics of Time Reversal Invariance (Univ. of Chicago Press,
+Chicago, 1988); J. Cronin, Rev. Mod. Phys. 53, 373 (1981) and Acta Physical
+Polonica B15, 419 and 721 (1984); P. Kabir, The CP Puzzle (Academic Press,
+New York, 1968); J. Bell and J. Steinberger, in Proceedings of the
+International Conference on Elementary Particles, eds. T. Walsh et al.
+(Rutherford High Energy Laboratory, Chilton, England, 1966), p. 195.
+
+27. G. Barr et al., Phys. Lett. B317, 233 (1993).
+
+28. L. Gibbons et. al., Phys. Rev. Lett. 70, 1203 (1993).
+
+
+
+
+
+45
+
+
+29. H. Lipkin, Phys. Rev. 176, 1715 (1968); I. Dunietz, J. Hauser, and J. Rosner,
+Phys. Rev. D 35, 2166 (1987).
+
+30. H. Lipkin, Ref. 29.
+
+31. G. Buchalla, A. Buras, and M. Lautenbacher, Max Planck Inst. preprint
+MPI-Ph/95-104.
+
+32. L. Wolfenstein, Comments Nucl. Part. Phys. 21, 275 (1994).
+
+33. For a comprehensive and enlightening discussion of the theoretical expecta-
+tions and experimental searches for direct CP violation, see B. Winstein and
+L. Wolfenstein, Rev. Mod. Phys. 65, 1113 (1993).
+
+34. C. Jarlskog, Ref. 15.
+
+35. J. Rosner, in B Decays (Revised 2nd Edition), ed. S. Stone (World Scientific,
+Singapore, 1994), p. 470.
+
+36. L. Littenberg, Phys. Rev. D 39, 3322 (1989).
+
+37. See the discussion of the related decay K+ +­ in Refs. 31 and 33.
+
+38. A. Ali and D. London, in Proceedings of the 27th Intl. Conf. on High Energy
+Physics, eds. P. Bussey and I. Knowles (Inst. of Physics Publishing, Bristol,
+1995), p. 1133.
+
+39. We thank G. Buchalla and B. Holstein for extensive and illuminating discus-
+sions of direct vs. indirect CP violation in KL 0­.
+
+40. Isospin breaking effects of a few percent, discussed in W. Marciano and Z.
+Parsa, Phys. Rev. D 53, R1 (1996), can be taken into account.
+
+41. J. J. Sakurai, Invariance Principles and Elementary Particles (Princeton
+University Press, Princeton, 1964).
+
+
+
+
+
+46
+
+
+

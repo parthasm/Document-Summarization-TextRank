@@ -1,0 +1,374 @@
+
+
+ 15 Feb 1995
+
+BARI-TH 198/95 February 1995
+
+GENERALIZED GAUSSIAN EFFECTIVE POTENTIAL :
+
+THERMAL CORRECTIONS
+
+Paolo Cea and Luigi Tedesco Dipartimento di Fisica dell'Universit'a di Bari, I-70126 Bari, Italy
+
+INFN, Sezione di Bari, I-70126 Bari, Italy
+
+ABSTRACT We evaluate the thermal corrections to the generalized Gaussian effective potential. We carry out the calculations of the lowest order corrections in the case of self-interacting scalar fields in one and two spatial dimensions, and study the restoration of the symmetry at high temperatures.
+
+1
+
+In a previous study [1,2] we introduced the generalized Gaussian effective potential which allows to evaluate in a systematic manner the corrections to the Gaussian approximation. In this paper we would like to study the thermal corrections to the generalized Gaussian effective potential. In particular we are interested in the phenomenon of the symmetry restoration at high temperatures. To this end we shall discuss in details the lowest order thermal corrections for self-interacting scalar fields in one and two spatial dimensions.
+
+Let us firstly discuss the thermal corrections in the general setting of selfinteracting scalar fields in * + 1 dimensions. In the fixed-time Schr"odinger representation, the Hamiltonian reads
+
+H = Z d* x ^\Gamma 12 ffi
+
+2
+
+ffiOE(~x)ffiOE(~x) +
+
+1 2 i~rOE(~x)j
+
+2 + 1
+
+2 m
+
+2OE2(~x) + *
+
+4! OE
+
+4(~x)* : (1)
+
+As it is well known [3], the Gaussian effective potential is given by
+
+VGEP (OE0) = 1V minj0? ! 0jHj0 ?!
+
+0j0 ? ; (2)
+
+where V is the spatial volume and j0 ? is a Gaussian trial functional centered at OE0. The generalized Gaussian effective potential is set up as follows. Starting from the vacuum functional j0 ?, one constructs a variational Fock basis jn ?. After that, the Hamiltonian H is splitted into the unperturbated Hamiltonian H0 and the perturbation HI. H0 and HI are defined respectively by the diagonal and off-diagonal elements of H on the basis jn ?. By switching the interaction HI on, the unperturbed ground state j0 ? evolves into j\Omega ?. Whereupon the generalized Gaussian effective potential is given by [1]:
+
+VG(OE0) = 1V ! \Omega jHj\Omega ?! \Omega j\Omega ? ; (3)
+
+2
+
+with the constraint
+
+! \Omega jOE(~x)j\Omega ?
+
+! \Omega j\Omega ? = OE0: (4)
+
+Using the Gell-Mann and Low theorem on the ground state [4], we showed that
+
+VG(OE0) = VGEP (OE0) + 1V
+
+1X
+
+n=1
+
+(\Gamma i)n
+
+n! Z
+
+0
+
+\Gamma 1 dt
+
+1::: Z
+
+0
+
+\Gamma 1 dt
+
+n\Delta
+
+\Delta ! 0jT (HI(0)HI(t1):::HI(tn))j0 ?connected e[ffl(t
+
+1+:::+tn)]; (5)
+
+where j0 ?= j0 ?, and HI(t) is the interaction Hamiltonian in the interaction representation. We, now, turn to finite-temperature field theory. Thermal equilibrium is achieved when the system has minimized its free energy F. Standard thermodinamics [5] gives
+
+F = \Gamma 1fi lnZ ; (6) where Z is the partition function
+
+Z = tr \Gamma e\Gamma fiH \Delta (7) and fi = 1T (Boltzmann's constant k = 1). The finite temperature generalized Gaussian effective potential is defined by
+
+V TG (OE0) = FV = \Gamma 1fiV lnZ (8) with the constraint (4). In order to evaluate the partition function we face with the problem of calculating the trace in Eq. (7). Indeed, the trace involves a summation over the
+
+3
+
+unknown eigenstates of the full Hamiltonian H. However, in our approach the full Hamiltonian has been splitted into the unperturbated Hamiltonian H0 and the perturbation HI. Thus the natural strategy is to perform the trace in Eq. (7) by employing the thermodinamic perturbation theory [6]. Indeed, to first order in HI, the trace can be replaced by a summation over the eigenstates of H0. A straightforward calculation gives:
+
+Z = Z0(1 \Gamma fi ! HI ?fi ); (9) where
+
+Z0 = tr(e\Gamma fiH
+
+0 ) = X
+
+n
+
+! nje\Gamma fiH
+
+0 jn ? (10)
+
+and
+
+! HI ?fij 1Z
+
+0 tr(e
+
+\Gamma fiH0 HI) = 1
+
+Z0 Xn ! nje
+
+\Gamma fiH0 HIjn ? : (11)
+
+In Equation (10) and (11) we sum over the eigenstates of free scalar field Hamiltonian with mass _, where _ satisfies the gap equation:
+
+_2 = m2 + *2 OE20 + *4 Z d
+
+* k
+
+(2ss)*
+
+1q
+
+~k + _2
+
+: (12)
+
+Observing that
+
+! njHIjn ?= 0; (13) and that the states jn ? are eigenstates of H0, one readily gets
+
+! HI ?fi= 0: (14) As a consequence, a straightforward calculation gives:
+
+4
+
+V TG (OE0) = VGEP (OE0) + 1fi Z d
+
+*k
+
+(2ss)* ln(1 \Gamma e
+
+\Gamma fig(~k)) + O[(HI)2]; (15)
+
+where g(~k) = q~k2 + _2. Note that Eq. (15) differs from the finite-temperature Gaussian effective potential [7]. The difference resides in the different use of the gap equation. In our scheme the gap equation (12) is fixed once and for all. In particular it does not depend on the temperature . On the other hand, in the finitetemperature Gaussian effective potential approach the gap equation includes the thermal corrections. Now, the gap equation fixes the basis to sum over in the thermal average. This means that different gap equations lead to inequivalent basis. As a matter of fact the discrepancy between our result Eq. (15) and the finite-temperature Gaussian effective potential comes from the thermal average of the interaction Hamiltonian. In our approach Eq.(14) holds, whereas in Ref. [7] ! HI ?fi6= 0.
+
+As we have discussed in Ref. [1,2] the main advantages of our approach at zero temperature reside in the diagrammatic expansion of the higher order corrections which is amenable to a diagrammatic resummation. Moreover the renormalization of the generalized Gaussian effective potential relies on the underlying OE0 = 0 field theory. Remarkably enough, it turns out that these fine features extend also to the case of scalar field theory at finite temperatures. Indeed we can write a manageable formula for the higher order corrections to Eq. (15). To do this, the usual thermodinamic perturbation theory is useless. Instead we may follow the Matsubara's methods [8]. In the Matsubara's scheme one deals with scalar fields which depend on the fictious imaginary time o/ varying in the interval (0; fi).
+
+If the Hamiltonian of the system in thermal equilibrium can be written as H = H0 + HI, then one can show that the corrections to the thermodynamic potential are given by
+
+5
+
+\Delta \Omega = \Gamma 1fi ln ! To/ exp \Gamma Z
+
+fi
+
+0 H
+
+I (o/ )do/ ! ?; (16)
+
+where HI (o/ ) is the interaction Hamiltonian in the Matsubara's interaction representation, To/ is the o/ -ordering operator, and the thermal averages are done with the free field partition function. Moreover, it turns out that only connected diagrams contribute to \Delta \Omega :
+
+\Delta \Omega = \Gamma 1fi
+
+1X
+
+m=1
+
+(\Gamma 1)m
+
+m! Z
+
+fi
+
+0 do/
+
+1:::o/m ! To/ (HI(o/1):::HI(o/m)) ?ficonnected : (17)
+
+In our case, if we write
+
+V TG (OE0) = VGEP (OE0) + 1fi Z d
+
+* k
+
+(2ss)* ln(1 \Gamma e
+
+\Gamma fig(~k)) + \Delta V TG (OE0); (18)
+
+we readily get
+
+\Delta VG(OE0) = \Gamma 1fi
+
+1X
+
+m=2
+
+(\Gamma 1)m
+
+m! Z
+
+fi
+
+0 do/
+
+1:::o/m ! To/ (HI(o/1):::HI(o/m)) ?ficonnected : (19)
+
+Note that, due to Eq. (14), the sum in Eq. (19) starts from m = 2. The thermal average of time-ordered products is evaluated by means of the Wick's theorem for thermal fields [9]. In this way we obtain the thermal corrections to the generalized Gaussian effective potential as connected vacuum diagrams. In Figure 1 we display the second order thermal corrections. The vertices can be extracted from the interaction Hamiltonian [1,2]:
+
+HI = Z d* x ^`_2OE0 \Gamma *3 OE30' : j(~x) : + *3! OE0 : j3(~x) : + *4! : j4(~x) :* ; (20)
+
+6
+
+where j(x) = OE(x) \Gamma OE0. The solid lines in Fig.1 are the thermal propagators of the scalar fields with mass _:
+
+Gfi(~x\Gamma ~y; o/1\Gamma o/2) =! To/ j(~x; o/1)j(~y; o/2) ?fi = 1fi
+
++1X
+
+n=\Gamma 1 Z
+
+d* k (2ss)*
+
+ei[~k(~x\Gamma ~y)\Gamma !
+
+n(o/1\Gamma o/2)]
+
+!2n + g2(~k) ;
+
+(21)
+
+where !n = 2ssnfi . Note that the thermal propagator is periodic in the time variable with period 2ssfi . A distinguishing feature of the graphical expansion of Eq.(19) with respect to Eq.(5) stems from the fact that the (m!)\Gamma 1 coming from the mth order term is not completely cancelled by the number of different Wick contractions corresponding to a given graph. Consequently, a graph contributes to \Delta V TG (OE0) in proportion to a combinatoric coefficient depending on the order of the graph. Moreover in evaluating the contribution due to a given graph one should take care of the normal ordering prescription in the interaction Hamiltonian. It turns out that the normal ordering in HI modifies the so-called anomalous diagrams, i.e. the diagrams which vanish at zero temperature [10]. For istance, in Fig. 1 the diagrams (b) and (c) are anomalous. We find that the normal ordering of the interaction Hamiltonian modifies the diagrams like (b) and (c) in Fig. 1 by replacing Gfi(0) with ~Gfi(0), where
+
+~Gfi(0) = Gfi(0) \Gamma lim
+
+fi!1 Gfi(0) = Z
+
+d*k (2ss)*
+
+1
+
+2g(~k) "cotgh
+
+fig(~k)
+
+2 ! \Gamma 1# : (22)
+
+A full account of the second order thermal corrections to the generalized Gaussian effective potential will be presented elsewhere [11]. In the remainder of the present paper we would like to analyze the lowest order thermal corrections, Eq.(15), for the case of * = 1; 2 spatial dimensions.
+
+7
+
+In one spatial dimension Eq.(15) reads
+
+V TG (OE0) = VGEP (OE0) + _
+
+20
+
+ss ^fi2 Z
+
+1 0 dt ln `1 \Gamma e
+
+\Gamma pt2+ ^fi2x' ; (23)
+
+where ^fi = fi_0; x = _
+
+2
+
+_20 , and _0 = _(OE0 = 0): In Figure 2 we show V
+
+TG (OE0) \Gamma V TG (0)
+
+(in units of _20) versus OE0 for ^* ? ^*c (\Lambda ). As we can see, the symmetry broken at T=0 gets restored for ^T ? ^Tc. Obviously the critical temperature depends on
+
+^*. It turns out that ^Tc can be extimate, within a few percent, by means of the
+
+high-temperature expansion of the integral in Eq. (23). By following the classical work by Dolan and Jackiw [12] we find the following high-temperature expansion:
+
+V TG (OE0) = VGEP (OE0) + _20 "\Gamma ss2 ^fi2 + px2 ^fi \Gamma x8ss + x4ss ln ^fipx4ss ! \Gamma i(3)64ss3 x2 ^fi2 +
+
+i(5) 512ss5 ^fi
+
+4x3 + O( ^fi6)* (24)
+
+where i(z) is the Riemann's zeta function. In Fig.2 we also show the high-temperature expansion Eq. (24) (dashed line); we can see that the high-temperature expansion is a good approximation even at T ' Tc. Indeed For ^* = 4 we find ^Tc ' 1:27, which agrees with the value obtained by using the high-temperature expansion (24). The case of two spatial dimensions can be dealed with in a similar way. We have
+
+V TG (\Phi 0) = VGEP (\Phi 0) + _
+
+30
+
+(2ss) ^fi3 Z
+
+1 0 dt t ln `1 \Gamma e
+
+\Gamma pt2+ ^fi2x' ; (25)
+
+where now \Phi 0 = OE
+
+2 0_
+
+0 :
+
+The high temperature expansion of the integral in (25) gives [12]
+
+(\Lambda ) Notations as in Ref. [2]
+
+8
+
+V TG (\Phi 0) = VGEP (\Phi 0) + _30 ^\Gamma ss
+
+2
+
+90 ^fi4 +
+
+x 24 ^fi2 \Gamma
+
+1 12ss
+
+x3=2
+
+^fi \Gamma
+
+x2 64ss2 ln(x ^fi
+
+2) +
+
+c 64ss x
+
+2 + O( ^fi2)i (26)
+
+where the constant c = 32 + 2ln4ss \Gamma 2fl, and fl is Euler-Mascheroni's constant. In Figure 3 we display Eq. (25) together with Eq. (26) in units of _30 (we subtract the temperature dependent constant V Tfi (0)). Again, the thermal corrections lead to the expected symmetry restoration at high temperatures. In this case, however, the high-temperature expansion Eq.(26) is a valid approximation for T ?? Tc only. So that the critical temperature Tc must be extimate by numerical methods.
+
+In summary, we have discussed the thermal corrections to the generalized Gaussian effective potential. In the lowest order approximation we obtain the restoration of the symmetry at high temperatures by a first order phase transition. The second order thermal corrections are under study. We plan to present the results in a future publication [11].
+
+9
+
+FIGURE CAPTIONS Fig. 1 Second order thermal corrections to the generalized Gaussian effective potential.
+
+Fig.2 Thermal corrections to generalized Gaussian effective potential to the lowest
+
+order for * = 1 and ^* = 4. Dashed lines refer to high-temperature expansion.
+
+Fig.3 Thermal corrections to generalized Gaussian effective potential to the lowest
+
+order for two spatial dimensions and ^* = 4. Dashed line refers to hightemperature expansion. The critical temperature is Tc ' 1:60.
+
+10
+
+REFERENCES [1] P. Cea, Phys. Lett. B 236 (1990) 191. [2] P. Cea and L. Tedesco, Phys. Lett. B 335 (1994) 423. [3] P.M. Stevenson, Phys Rev D 30 (1984) 1712; Phys. Rev. D 32 (1985) 1389;
+
+Phys. Rev. D 33 (1986) 2305 and refences therein. [4] M. Gell-Mann and Low, Phys. Rev. 84 (1951) 350. [5] See for example: A.L. Fetter and J.D. Walecka, Quantum Theory of ManyParticle System (McGraw-Hill, New York, 1965); J.I.Kapusta, Finite Temperature Field Theory (Cambridge University Press, 1989). [6] R.P.Feynman, Statistical Mechanics (W.Benjamin, 1982). [7] I. Roditi, Phys. Lett. B 177 (1986) 85;
+
+G.A. Haji and P.M. Stevenson, Phys Rev. D 37 (1988) 413. [8] T. Matsubara, Prog. Theor. Phys. 177 (1955) 351. [9] A.A. Abrikosov, L.P. Gorkov and I.E. Dzyaloshinski, Methods of Quantum
+
+Field Theory in Statistical Physics (Dover, New York,1975). [10] E.k.U. Gross, E. Runge, and O. Heinonen, Many-Particle Theory (Adam
+
+Hilger, Bristol, 1991). [11] P. Cea and L. Tedesco, in preparation. [12] L. Dolan and R. Jackiw, Phys. Rev. D 9 (1974) 3320.
+
+11
+
+(a) (b)
+
+(c) (d)
+
+(e)
+
+FIG. 1
+

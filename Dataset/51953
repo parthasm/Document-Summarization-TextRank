@@ -1,0 +1,368 @@
+
+
+ORSAY LECTURES ON CONFINEMENT (I)
+
+by Vladimir N. Gribov* L. D. Landau Institute for Theoretical Physics Acad. of Sciences of the USSR, Leninsky pr. 53, 117 924 Moscow, Russia
+
+and KFKI Research Institute for Particle and Nuclear Physics
+
+of the Hungarian Academy of Sciences H - 1525 Budapest 114, P.O.B. 49, Hungary
+
+and Laboratoire de Physique Th'eorique et Hautes Energies** Universit'e de Paris XI, b^atiment 211, 91405 Orsay Cedex, France
+
+LPTHE Orsay 92/60 June 1993
+
+* Supported in part by Landau Institute-ENS D'epartement de Physique exchange program
+
+** Laboratoire associ'e au Centre National de la Recherche Scientifique
+
+1
+
+1. The theory of supercharged nucleus
+
+This talk is just introductory. Literally it is not about confinement, but it is important since it is closely connected to the theory of quark confinement. In fact, this theory deals with two different problems. The first one is, how to confine particles, i.e. the problem of producing forces strong enough to prevent quarks from separating, which will be discussed later. But there is also another, very severe problem.
+
+We know, that quarks are light, almost massless particles. The question is, how to bind massless particles in a volume which is much smaller than the Compton wave length. Usually this is not easy to do, because the wave function is decreasing exponentially like e\Gamma pm
+
+2\Gamma !2r, which in the best case
+
+can be e\Gamma mr. But if the mass is very small, the state is very broad, and it is in complete contradiction with what we know about hadrons.
+
+The mechanism of supercharged nuclei, which we will discuss in the present talk, seems to be a unique possibility to bind a particle in a small region in space. The theory of the supercharged nucleus is very old. It was initiated in the forties by the work of Pomeranchuk and Smorodinsky [1], and it became very well developed, with no unsolved questions left. Since we, however, want to apply this theory to quarks, we will talk about it in a way slightly different from what people are used to, combining the picture of the Dirac sea in external field and the language of Feynman's Green function.
+
+The problem of the supercharged nucleus is the following. If there is a nucleus NZ with a charge Z, and if Z is larger than a critical value Zc
+
+Z ? Zc
+
+2
+
+(theoretically Zc = 137, practically it is around Zc , 180), then this nucleus will decay to an atom with a charge Z \Gamma 1 and a positron:
+
+NZ ! AZ\Gamma 1 + e+ : This atom can be stable or unstable. If it is unstable,it can decay again up to a situation, when the total charge of the atomic state AZ\Gamma n becomes sufficiently small. This is a peculiar thing : it means, that the nucleus behaves like a resonance. It does not exist in the nature freely, but it exists inside the atom. In this sense it is analogous to what we know about the quarks. This, of course, is not confinement, but in some respects it is not so different.
+
+Indeed, the nucleus has a baryon number B and a lepton number zero. But this state with lepton number 0 does not exist, there are only states for which the lepton number equals unity. In this sense, it is a confinement of states with zero lepton number.
+
+Theoretically the described problem is very well defined. If we want to understand the new type of atomic states, we have to consider the interaction of the electron with the nucleus, taking into account all possible interactions.
+
+e
+
+3
+
+In this case there are some simplifications. First,
+
+ff !! 1 ; (1) but
+
+ffZ , 1 : (2)
+
+The third important simplification is that the ratio of the electron mass me and the nucleon mass mN is much smaller than unity :
+
+me mN !! 1 : (3)
+
+Because of these conditions, the problem can be solved exactly. First, due to (1), we can neglect all the corrections to electron propagation, since they would be of the order of ff, and leave those diagrams which contain lines connecting electron and nucleus lines and radiative correction to the nucleus line. But also, because of (3), the recoil of the nucleus due to photon emission will be very small, and instead of writing this interaction and taking into account all the sequences, including recoil, we can write that this is equal to the electronic Green function in the external field of the nucleus, multiplied by the nuclear Green function with radiative corrections
+
+= Ge(A) GN
+
+(4) 4
+
+Here Ge(A) is the Green function of the electron in the external field ; the Green function of the nucleus GN , which corresponds to the diagram a
+
+b c
+
+a
+
+contains a lot of radiative corrections. We have to include loops like b since they are of the order of ffZ, and diagrams c being ffZ2. Fortunately, all this turns out to be very simple. The reason is, that all the photons in these diagrams cause no recoil for the nucleus. It means, that we can write the following :
+
+GN = GN0 e
+
++
+
+(5)
+
+where everything can be factorized. will be the symbolic expression for the electrostatic energy of the nucleus, and gives us the mass renormalization for the nucleus due to electron vacuum polarization. And thus we have an exact description for GN . Further, the first step is, of course, to calculate the electron Green function in an external field, which also defines the nucleus mass renormalization entering the exponent in (5).
+
+5
+
+This means, that with the knowledge of the Green function of the electron in the Coulomb field, we can calculate everything.
+
+The equation for the electron Green function isb
+
+rGe = \Gamma iffi (6) fl_ (@_ \Gamma iA_) Ge = \Gamma iffi (7) Since the potential does not depend on the time, we can always write
+
+Ge(x2; x1) = Z d!2ssi e\Gamma i!(t
+
+2\Gamma t1)! (r1) _!(r2) (8)
+
+and, because of that, we have
+
+fl_ (@_ \Gamma iA_) ! = 0 ; (9) or, in a more convenient way,
+
+[ffj pj + mfl0 \Gamma (! \Gamma A)] ! = 0 : (10) Before discussing the solution of the equation, let us consider the well-known features of the spectrum of this system.
+
+w
+
+m-m
+
+6
+
+There are cuts going from m to 1 and from \Gamma m to \Gamma 1, corresponding to the continuous spectrum, and sequences of poles corresponding to Coulomb levels.
+
+Now - how does the critical phenomenon come in ? If we increase Z, the pole which corresponds to the atom in the ground state moves to the left, passing zero without any troubles (for a finite-size nucleus) and reaches the point \Gamma m at the value Z = Zc. With the further growth of Z ? Zc the position of the level !0 is going to the complex plane and the state becomes unstable. However, at this point we come to a paradox : this !0 is supposed to be the energy of an atomic state, i.e. the energy of the atomic state becomes complex, contradicting the physics we have expected. Indeed, we thought that the nucleus was unstable and would decay on a stable atom and a positron.
+
+This means, that the described simple solution has to be essentially changed, since, apparently, the Green function Ge(A) of the electron does not reflect the whole physics, and the features of GN in (4) turn out to be important. We will show, in fact, that there is a cancellation between Ge(A) and GN .
+
+Let us consider now, what is happening from the point of view of the Dirac sea. From m to 1 and from \Gamma m to \Gamma 1 there is a continuous spectrum of electron states in the Coulomb field. Also, as we said before, there is a resonance state with complex energy !0 + i\Gamma =2, where !0 ! \Gamma m. What is the physics of this resonance ?
+
+7
+
+w w0
+
+r m
+
+-m
+
+The Dirac equation can be written in the form
+
+(T + A) = 0 (11) where T is the kinetic energy and A the potential energy. This kinetic energy can have two signs T = \Sigma pp2 + m2, and therefore the total energy can be quasi-classically either p
+
+p2 + m2 + A(r) = E (12) or
+
+\Gamma pp2 + m2 + A(r) = E : (13)
+
+Obviously, (12) can be fulfilled only close to the origin. In this case the potential is negative, the square root is positive, and the total energy is negative. Classically, the electron will be stopped at a return point r1,where the energy E is the sum of the potential and the mass m :
+
+m + A(r1) = E (14)
+
+8
+
+This means, that in this region there is a normal wave function which oscillates at r ! r1. After that it has to decrease exponentially because of the absence of classical trajectories. For the equation (13) the situation is the opposite, it can exist only at large distances, since the potential at large distances is small, and the energy is negative ; consequently, there will be another return point r2, where
+
+\Gamma m + A(r2) = E (15) Again, there will be a plane wave, i.e. normal oscillation at r ? r2 with a subsequent exponential decrease due to the absence of classical motion between the points r1 and r2
+
+r m
+
+-m
+
+EA=E+mA=E-m
+
+r2r1
+
+w
+
+The situation is somewhat similar to that with a barrier in the non-relativistic problem :
+
+9
+
+E2
+
+r1 r2
+
+This barrier-type behaviour can be easily seen, if one writes a second order equation instead of the first order one. Indeed, let us re-write the Dirac equation in the form `
+
+r2 + 12 F_* oe_* ' = 0 : (16) Here
+
+r2 \Gamma \Gamma @2t \Gamma iA\Delta 2 = \Gamma 1r @2r r \Gamma !2 + 2!A \Gamma A2 : (17)
+
+In this equation the effective potential energy is 2!A \Gamma A2. If A is negative, the first term 2!A corresponds to attraction at large distances, and the second term \Gamma A2 to repulsion at short distances.
+
+It is natural to expect, that this negative energy state is just a resonance. But : in the previous discussion we forgot about the Pauli principle. We have been talking only about one state and not about the Dirac sea. However, Dirac sea means, that all these normal negative levels have to be occupied.
+
+10
+
+In this case, if our particle will try to go out and pass through this barrier, there will be no place for it. When we find, that the Green function Ge has a complex singularity, this reflects the fact, that we did not say up to now, what type of Green function we are using.
+
+Imagine, that the Dirac sea is not filled up. In this case it would be natural for our state to have complex energy. On the other hand, we are used to the fact, that the Feynman Green function reflects the Pauli principle in the correct way, and therefore, if we are looking for the Feynman Green function, we expect to find the proper answer.
+
+Suppose now, that we will calculate the Feynman Green function. Still, we said that there is a general solution for the Green function with a complex pole. The question is, how this happens.
+
+The answer is essentially very simple. Indeed, we are looking for a Green function which is a sum of diagrams of the type
+
+(18) If the Feynman Green function contained only positive energy propagating in positive time, all the energy denominators in (18)
+
+1 " \Gamma pm2 \Gamma p2
+
+would be real at negative total energy. But the Feynman Green function
+
+contains also negative energy, propagating in negative time. It corresponds to the so-called Z-diagram
+
+11
+
+Perturbatively this diagram contains also only positive energy intermediate states. However, if the incoming and outgoing lines will correspond to negative energy bound states, then the three-particle intermediate state containing two negative energy particles and one positive energy particle can have negative total energy :
+
+1 " \Gamma pm2 + p2 \Gamma 2" = \Gamma
+
+1 " + pm2 + p2 :
+
+This means, that the Feynman Green function in this case obtains an imaginary position of the pole in contradiction with the Pauli principle. (This contradiction is obvious from the second of the Z-diagrams, since we have there two particles in the same state at the same time). It is also clear, that this diagram reflects not the decay of a state, but that of the vacuum.
+
+Let us see, how the Green function of the nucleus will recover the Pauli principle. Consider the diagram
+
+12
+
+t,r 0,r'
+
+Ge
+
+GN The Green function of the electron is in this case
+
+Ge(t; r; r0 ) = Z d!2ssi e\Gamma i!t! (r) _! (r0 ) : (19) In order to calculate it, we have to write the following contour of integration (for Z ! Zc)
+
+m-m w
+
+With Z growing, the pole will move (as indicated by the dotted line) to the complex plane,
+
+13
+
+-m m
+
+w -w0 + i \Gamma
+
+and we will have to change the contour of integration:
+
+-m m
+
+w -w0 + i \Gamma
+
+14
+
+As we see, the Green function will contain a growing exponent which will be defined by the imaginary part of the pole. At large t we will be left with an unstable pole contribution
+
+Ge(t; r; r0 ) = Z d!2ssi e\Gamma i!t!(r) _!(r0) , e\Gamma t\Gamma i!0t : Obviously, the total of the diagrams can not contradict the Pauli principle, and due to this fact there has to be a cancellation between the electron Green function and the Green function of the nucleus. The latter contains contributions of the type
+
+and has singularities connected with atomic states
+
+A
+
+e+
+
+This means, that the Green function of the nucleus will contain this loop, which, definitely, has an imaginary part, because the nucleus becomes heavier than the atom and the positron. It gives us a contribution which describes
+
+15
+
+the instability and results in an exponent e\Gamma \Gamma t corresponding to the decay of the nucleus
+
++ + .... = e = e-\Gamma t - i Mt
+
+Hence, e\Gamma t will cancel and
+
+Ge
+
+GN will be proportional to e\Gamma i(!0+M)t which corresponds to the propagation of an atomic state with real energy !0 + M
+
+t,r1 0,r'1
+
+So, indeed, we have shown, that in this case the bound state is stable not only due to the existence of binding forces, but also because of the Pauli principle, which reflects the antisymmetry between our electron and the electron in the vacuum. In the electron-nucleus scattering amplitude (4) asymptotically (i.e. at large t) only the part
+
+16
+
+survives in the sense
+
+e e
+
+N N
+
+t2 t1 t
+
+2
+
+t'2 t
+
+1 t'1
+
+because the Green function of the nucleus decays always exponentially, and it has to be compensated by the increase of the electron Green function. This is possible only, if
+
+\Gamma (t2 \Gamma t01) ! 1 ; \Gamma (t01 \Gamma t1) ! 1 ; t02 \Gamma t01 ! 1 : Let us see now, how we have lost the Pauli principle in discussing Feynman Green functions. This can be understood immediately. Our aim is to derive the Feynman prescription from the Dirac picture. In the latter we have negative levels filled up, and we look for the propagation of additional particles.
+
+17
+
+x1 x2 How can we derive Feynman rules from this ? It will be, indeed, very simple. In this picture our Green function
+
+G x1 x2
+
+has, of course, to be retarded :
+
+GR x1 x2
+
+The real propagation is second order in external field :
+
+GR x1 x2A A (20)
+
+18
+
+We start with the usual calculation, but we have to include the Dirac sea. The external field A is acting not only on the particles, but also on the Dirac sea. This means, that we have to consider our particle and a particle from the Dirac see ;
+
+x1 x2
+
+will be a possible diagram. However, we can write also
+
+and consider the diagrams
+
+x1 x2
+
+(21)
+
+and
+
+19
+
+x1 x2
+
+(22)
+
+Averaging over all particles in the Dirac sea, the diagram (21) leads to
+
+x1 x2
+
+which corresponds to the first order contribution to vacuum polarization and is in fact zero. The diagram (22) gives
+
+x1 x2
+
+and we get
+
+20
+
+G_x1 x2 (23) summing all negative energy levels. Adding the diagram with GR (20) to that with G\Gamma (23), we obtain the Feynman diagram. By these two diagrams, however, symmetry is not reflected. In order to be symmetrical, we have to add
+
+x1 x2
+
+which means that the external field is interacting twice with the vacuum. But averaging this, we get
+
+x1 x2
+
+i.e. we have to add a diagram which corresponds to vacuum polarization in external field. In other words, the Pauli principle is taken into account by adding vacuum polarization to the normal Feynman propagator.
+
+21
+
+It is, of course, always necessary to consider vacuum polarization, but sometimes it is relevant, sometimes not. In the case of weak coupling the vacuum polarization was real and, when added to the Feynman propagator, did not change the picture essentially. But in our case, in the case of strong coupling, the vacuum polarization becomes complex and because of this, it defines everything.
+
+In conclusion, let us make it clear, which region of distances between the nucleus and the electron is important in our calculation.
+
+As it is shown in [2], the solution !(r) of the Dirac equation (10) is
+
+!(r) , 1pr cos ^p(Zff)2 \Gamma 1`n rr
+
+0 + ffi* (24)
+
+in the region
+
+r0 !! r !! fifififi 1! fifififi ; where r0 is the radius of the nucleus. If j!jr0 !! 1, the function !(r) will oscillate and at r0 ! 0 this corresponds to "falling into the center". If r0 is finite, the "falling into the center" does not occur. However, the existence of oscillations is a sign which indicates that the levels passed through the point ! = \Gamma m.
+
+The number of oscillations n in the region r0 ! r ! 1m which determines the number of levels passing through is defined by the condition
+
+p(Zff)2 \Gamma 1 `n 1
+
+mr0 + ffi = nss : (25)
+
+22
+
+At n = 1 formula (25) provides the condition for the charge to be supercritical (with r0 and m finite) and shows, that the region where the supercritical phenomenon occurs is
+
+r0 !! r ^ 1m : Acknowledgements
+
+The text of these lectures was written by Julia Nyiri. She substantially expanded and edited the original notes she took during the lectures. I am very grateful to Ph. Boucaud, A. Dudas and J. Mourad who formated the text and the figures. Also, I would like to thank the Lab. de Physique Theorique et Hautes Energies, and especially A. Capella, M. Fontannaz, A. Krzywicki, D. Schiff and Tran Than Van for their hospitality, and the warm and inspiring atmosphere during my stay at Orsay.
+
+References
+
+[1] I. Pomeranchuk, Ya. Smorodinsky, Journ. Fiz. USSR 9 (1945) 97. [2] Ya. Zeldovich, V. Popov, Uspekhi Fiz. Nauk105 (1971) 4.
+
+23
+

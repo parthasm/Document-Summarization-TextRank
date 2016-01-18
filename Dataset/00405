@@ -1,0 +1,276 @@
+A comparative study of the D0 neural-network analysis of the top quark non-
+leptonic decay channel
+
+
+
+
+
+R.Odorico
+
+University of Bologna, Department of Physics and Istituto Nazionale di Fisica Nucleare, Sezione di Bologna
+Via Irnerio 46, I-40126 Bologna, Italy
+e-mail: odorico@www.bo.infn.it
+
+
+
+
+
+Abstract. A simpler neural-network approach is presented for the analysis of the top quark non-leptonic decay channel
+in events of the D0 Collaboration. Results for the top quark signal are comparable to those found by the D0
+Collaboration by a more elaborate handling of the event information used as input to the neural network.
+
+
+
+arXiv: 7 Apr 2000
+
+
+2
+
+R. Odorico: NN study of tt non-leptonic 2
+
+
+
+
+
+
+1 Introduction
+
+The D0 Collaboration has recently presented an analysis of its Fermilab Tevatron collider data, aimed to establish a tt
+
+signal with both top quarks decaying non-leptonically. The analysis makes use of neural networks (NN), whose input is
+
+mainly represented by thoroughly researched variables built from a complete and detailed jet reconstruction for the
+
+events [1,2].
+
+This analysis, like previous theoretical NN studies of the same signal (see, e.g., [3]), is based on the presumption
+
+that NN's should be "helped" by insight we gather from the theoretical event representations developed to interpret the
+
+events. In other words, it is left aside the possibility that the NN acting directly on the raw data may find internal
+
+representations by itself, which are adequate for discrimination.
+
+The study presented here consists of a NN application with the latter approach: instead of using jets as
+
+intermediaries, the NN is directly applied to a calorimetric deposition grid. Simulated events for tt and the QCD
+
+
+
+
+
+
+background are provided by the event generator COJETS 6.24 [4]. The NN is a conventional feed-forward network with
+
+back-propagation training [5] handled by program NEURAL 2.0 [6].
+
+By mimicking the event selection criteria used by D0, it is found that the NN results for tt non-leptonic with
+
+
+
+
+
+
+this direct and simpler approach are comparable to those obtained by D0 employing jet-reconstruction.
+
+
+
+2 Event selection
+_
+tt and QCD background events are provided by the event generator COJETS 6.24 [4]. For pp interactions at a c.m.
+
+energy Ecm = 1.8 TeV and a top quark mass mt = 175 GeV it yields a total tt cross-section ( tt ) = 7.31 pb.
+A series of cuts is imposed in order to: i) suppress the contribution of leptonic and semi-leptonic decays of the top
+
+quark; ii) reduce the amount of the background. Where possible, the cuts mimic those used in the D0 analysis.
+
+For the suppression of the top leptonic and semi-leptonic decay contributions, events containing an electron or
+
+muon with a transverse momentum p > 20 GeV or a missing transverse energy E miss > 20 GeV are excluded.
+T T
+
+For the sake of background reduction the following requirements are imposed:
+
+i) Total transverse energy E tot > 120 GeV;
+T
+
+ii) At least one muon with transverse momentum p > 4 GeV and absolute pseudorapidity < 2.5.
+T
+
+iii) A linear aplanarity AL > 0.5. Considering only particles with < 2.5 (neutrinos excluded), after finding the
+
+thrust, or major axis M, in the transverse energy plane, and defining the minor axis m as the axis orthogonal to it, linear
+
+aplanarity is defined as A | |
+L = i | E i m / i | E i M , where E i is the transverse energy vector of particle i .
+
+
+For the integrated luminosity = 110.2 pb-1 applying to the D0 event sample, the events left after all the cuts are:
+
+i) 128 events for tt ; ii) 3868 events for the background.
+
+
+
+3 Variables
+
+The region < 2.5 is covered by a grid of 40 calorimetric cells with x = 1 x 45°. Their energy depositions are
+
+thresholded at 10 GeV, i.e. cells with a deposition less than that are set to deposition zero. That is in order to suppress
+
+cumulative effects from the many cells with low depositions, which may disorient the NN. The origin of the azimuth
+
+is set, for each event, by the side of the minor axis m opposite to that of i E i m
+.
+
+Thus, the variables we use as input to the NN are:
+
+i) The 40 variables given by the energy depositions in the calorimetric cells;
+
+ii) The total (visible) transverse energy E tot ;
+T
+µ
+iii) The maximum muon transverse momentum observed in the event, p .
+T ,max
+
+
+3
+
+R. Odorico: NN study of tt non-leptonic 3
+
+
+
+
+
+
+4 Neural network
+
+The neural network NN is structured in 2 cascading feed-forward nets, both with 1 hidden layer and 1 output node. The
+
+first, NN1, has in input only the 40 calorimetric deposition variables and employs 8 hidden nodes. The NN1 output,
+µ
+E tot and p are the input variables of the second feed-forward net, NN
+T T ,max 2, which employs 2 hidden nodes. Its output,
+
+which in the following will be referred to as the NN output, varies between 0, the background target, and 1, the top
+
+signal target.
+
+The back-propagation training is applied first to NN1, with outputs from the trained net applied to the training
+
+events stored away. The same set of events (5,000 for each type) is then used for the back-propagation training of NN2.
+
+
+5 Results
+
+For a comparison with the NN results of the D0 analysis, we pick up the dependence on the NN output of the ratio
+
+R = N ( tt non-leptonic) / N (Background) , where numerator and denominator represent the numbers of events
+
+specified in parentheses. Fig. 1 shows R versus the NN output from the D0 results and from this study.
+
+The results are comparable taking into account that, besides the intrinsic uncertainties of the Monte Carlo
+
+simulations involved in both calculations, in this study no special effort has been made in optimizing the event cuts, the
+
+calorimetric segmentation (pretty rough, although economical, as it stands now), the choice of the variables, the NN
+
+structure. That would have been outside the scope of this study, meant to theoretically examine the viability of this
+
+alternative approach and not aimed to a thorough quantitative interpretation of experimental data, like in the case of the
+
+D0 analysis.
+
+
+
+5 Conclusions
+
+Instead of employing an elaborate jet reconstruction, in a neural network analysis of the events it may be convenient to
+
+directly use the calorimetric map: the neural network itself will care to build its own internal representations of the data
+
+to discriminate.
+
+It should be noted that in the place of the deliberately down-to-earth handling of the calorimetric map used here,
+
+one can extract variables from it by using tools from the well supplied mathematical arsenal for the analysis of 2-
+
+dimensional data (like, e.g., the currently popular wavelet transform).
+
+
+4
+
+R. Odorico: NN study of tt non-leptonic 4
+
+
+
+
+
+
+References
+1. B. Abbott et al. (D0 Collaboration), Phys. Rev. D 60, 12001 (1999).
+2. B. Abbott et al. (D0 Collaboration), Phys. Rev. Lett. 83, 1908 (1999).
+3. A. Cherubini and R. Odorico, Z. Phys. C 53, 139 (1992) 139.
+4. R. Odorico, Comput. Phys. Commun. 72, 238 (1992); updated program available in:
+http://www.bo.infn.it/preprint/odorico.html.
+5. D.E. Rumelhart, G.E. Hinton, R.J. Williams, in Parallel distributed processing: explorations in the
+microstructure of cognition (Vol. 1), edited by D.E. Rumelhart and J.L. McClelland
+(MIT Press, Cambridge MA 1986).
+6. R. Odorico, Comput. Phys. Commun. 96, 314 (1996); updated program available in:
+http://www.bo.infn.it/preprint/odorico.html.
+
+
+
+5
+
+R. Odorico: NN study of tt non-leptonic 5
+
+
+
+
+
+
+
+
+NN Ratio Top/Background
+
+10,00
+
+D0 results This simulation
+
+
+
+
+
+1,00
+
+
+
+
+
+0,10
+
+
+
+
+
+(#Top events)/(#Background events)
+
+
+
+
+0,01
+
+0,00 0,20 0,40 0,60 0,80 1,00
+
+NN Output
+
+
+
+
+
+Fig 1. Dependence of the ratio R = N ( t t non-leptonic) / N (Background) on the NN output,
+
+according to the results of the D0 analysis and of this study.
+
+
+

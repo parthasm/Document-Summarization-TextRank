@@ -1,0 +1,870 @@
+
+
+DTP/95/20 CERN-TH/95-46
+
+
+
++ \Gamma _` _0 Costas G. Papadopoulos Physics Department, Durham University, Durham, DH1 3LE, UK
+
+and CERN, Theory Division, CH-1211 Geneva 23, Switzerland
+
+ABSTRACT We present the full tree-order calculation of the process e+e\Gamma ! `_*` q _q0 including the width effects in a way which is consistent with gauge in- variance and high-energy unitarity and which has a natural interpretation within standard perturbation theory. We also include C and P preserv- ing deviations from Standard Model trilinear vector boson couplings. An analysis of the sensitivity of these channels on the trilinear couplings, us- ing well measured angular variables of the four-fermion final state, is also presented.
+
+February 1995
+
+LEP II will provide us, for the first time, with the opportunity to study directly the W boson, above the energy threshold for W -pair production. One of the most important measurements at these energies will be the determination of the trilinear vector boson couplings [1, 2, 3, 4, 5], a characteristic manifestation of the underlying non-Abelian symmetry of elementary particle interactions [6]. In order to determine these couplings we need accurate predictions of the cross sections which will be mea- sured at LEP II. It is therefore evident that a good theoretical description of the four fermion production is indispensable.
+
+In this paper we present a full tree-order calculation of the processes:
+
+e+e\Gamma ! `_*` q _q0 (1) taking into account the non-zero width of the heavy unstable particles W and Z in a way which is consistent with gauge invariance and well justified within standard perturbation theory. We also include all possible deviations1 from the Standard Model trilinear vector boson interactions which respect C and P invariance. The need for this calculation stems from two different directions: from the experimental point of view it is evident that the LEP II environment will consist of four-fermion final states; from the theoretical point of view, we expect that finite width effects as well as non-resonant contributions, estimated to be of the order of a few per cent, will be significant for the trilinear vector boson couplings measurements.
+
+The Feynman diagrams contributing to the processes Eq.(1) are given in Figs.1,2. Graphs 1 to 3 contribute to W -pair production, whereas graphs 1 to 6 as well as 11 to 16 contribute to single-W production, e+e\Gamma ! e\Gamma _*eW + [4, 5]. Graphs 1, 2, 11 and 12 are the signal graphs, since they include the trilinear boson vertex function, whereas graphs 1 to 3 are the double-resonant graphs, 4 to 16 are the single-resonant ones and finally graphs 17 to 20 are the non-resonant ones.
+
+The amplitudes have been calculated using the E-vector formulation [4] of the spinor product technique [7]. This is based on the following representation for the fermion `current', for massless fermions:
+
+E_* (p1; p2) j _u*(p1)fl_u*(p2) (2) where
+
+E0\Gamma = qp+1 p+2 + (p1x + ip1y)(p2x \Gamma ip2y)qp+
+
+1 p+2
+
+Ex\Gamma = vuut p
+
++2
+
+p+1 (p1x + ip1y) + vuut
+
+p+1 p+2 (p2x \Gamma ip2y)
+
+Ey\Gamma = \Gamma i`vuut p
+
++2
+
+p+1 (p1x + ip1y) \Gamma vuut
+
+p+1 p+2 (p2x \Gamma ip2y)'
+
+1Sometimes referred to as anomalous couplings.
+
+1
+
+Ez\Gamma = qp+1 p+2 \Gamma (p1x + ip1y)(p2x \Gamma ip2y)qp+
+
+1 p+2
+
+(3)
+
+with p\Sigma = p0 \Sigma p3.
+
+The main advantage of this formulation is that there is a very straightforward way to write down the expression for a given Feynman graph. For example, for the graph number 7 the expression is simply (omitting propagators and coupling constants):
+
+T , X
+
+i=q;e\Gamma ;e+
+
+sign(pi)E\Gamma (pq; pi) \Delta E*(pe+ ; pe\Gamma ) E\Gamma (pi; p_q0) \Delta E\Gamma (p`; p*` ) (4)
+
+where sign(p) = \Sigma 1 for outgoing and incoming momenta respectively. Furthermore the FORTRAN code representation of the amplitudes is very simple, facilitating consid- erably the writing and checking of the programme.
+
+One of the first problems, inherent in any four-fermion calculation, is the treatment of the propagator of the heavy unstable particles, W and Z, appearing as intermediate states in all Feynman graphs [8]. The problem is that if we implement the tree-order form of this propagator 1
+
+p2 \Gamma m2V we have a non-integrable singularity in phase space, located at p2 = m2V . The well- established procedure to cure this problem is to take into account the finite width of these particles. The propagator takes the well-known Breit-Wigner form
+
+1 p2 \Gamma m2V + imV \Gamma V (p2) :
+
+From the point of view of the quantum field theory, the Breit-Wigner propagator can be understood as the effect of the resummation of all self-energy graphs as shown in Fig.3. The `width' of the particle is then identified with the imaginary part of the one-loop self-energy contribution and it is a function of p2. The `fixed' width \Gamma V is now defined at p2 = m2V , and it is connected to the decay of the on-shell heavy particle, as is dictated by the optical theorem.
+
+Although all these seem to be rather elementary, the treatment of the width effects, using the above prescription, leads in general to gauge-invariance violation [9], as well as to unitarity violation at high energies. Let us first see how this problem appears in the `t-channel' graphs 11, 14, 17 and 19 of Fig.2, where a photon is exchanged carrying a space-like momentum. Their expressions, omitting trivial factors, are given as follows:
+
+T11 = 1(p
+
+1 \Gamma p3)2
+
+1 (p4 + p56)2
+
+1 2p5 \Delta p6 \Gamma m2W _u3fl_u1 _u5fl_u6 _u2fl_(p=4 + p=56)fl*u4
+
+T14 = 1(p
+
+1 \Gamma p3)2
+
+1\Gamma 2p2 \Delta p4 \Gamma m2W
+
+1 2p5 \Delta p6 \Gamma m2W
+
+2
+
+_u3fl_u1 _u5flffu6 _u2fl*u4 \Gamma fl_*ff T17 = 1(p
+
+1 \Gamma p3)2
+
+1 (p1 \Gamma p3 \Gamma p5)2
+
+1\Gamma 2p2 \Delta p4 \Gamma m2W _u3fl_u1 _u5fl_(p=3 + p=5 \Gamma p=1)fl* u6 _u2fl*u4
+
+T19 = 1(p
+
+1 \Gamma p3)2
+
+1 (p1 \Gamma p3 \Gamma p6)2
+
+1\Gamma 2p2 \Delta p4 \Gamma m2W _u3fl_u1 _u5fl_(p=1 \Gamma p=3 \Gamma p=6)fl* u6 _u2fl*u4 (5)
+
+where p1; p3; p4; p5; p6 are the momenta of the incoming electron and the outgoing electron, neutrino, quark and antiquark, respectively, and \Gamma fl_*ff is the three-boson vertex function. The singularity appearing in the collinear limit p3kp1 is integrable due to the non-zero electron mass and the result is nothing but the well-known logarithmic rise of the total cross section, log(s=m2e), where me is the electron mass, which forms the basis of the Weisz"aker-Williams approximation [10]. If we look more closely at the expressions given above, we see that in order to get a logarithmic behaviour (or a logarithmic divergence in the case of massless electrons) we need to have the following relation
+
+(p1 \Gamma p3)2(T11 + T14 + T17 + T19) = 0
+
+in the limit p_3 = x p_1 , which is nothing but the gauge invariance at the subprocess level fl + e+ ! _*eq _q0. Let us now write the above equation in the collinear limit:
+
+0 = ` 2p1 \Delta p2(p
+
+4 + p5 + p6)2 \Gamma
+
+2p1 \Delta (p5 + p6) 2p2 \Delta p4 + m2W \Gamma iffi '
+
+E56 \Delta E24 (p5 + p6)2 \Gamma m2W + ifl
+
+\Gamma ffi\Gamma _fffiE
+
+fi 24Eff56p
+
+_ 1
+
+(p5 + p6)2 \Gamma m2W + ifl +
+
+1 1 \Gamma x
+
+E56 \Delta E24 2p2 \Delta p4 + m2W \Gamma iffi (6)
+
+where we have allowed for several possible contributions, including the width of the W both in time-like and space-like regions (fl and ffi respectively) as well as a modification of the three-boson vertex. The solutions are easily worked out and they can be enumerated as follows (ffi\Gamma _fffiEfi24Eff56p_1 = ffi\Gamma E56 \Delta E24=(1 \Gamma x)):
+
+1. ffi = fl = ffi\Gamma = 0 which is the standard tree-order result. This of course has the
+
+disadvantage that the matrix element squared is not integrable over the phase space. A `solution' to this problem, first proposed in reference [11], is to multiply the tree-order amplitude by a factor
+
+q2 \Gamma m2W q2 \Gamma m2W + imW \Gamma W
+
+where q2 is the (positive) momentum squared of the intermediate W . This of course provides a gauge-invariant quantity, as an approximation of the tree- order cross section, which, nevertheless, is not well justified within standard perturbation theory.
+
+3
+
+2. ffi = fl = mW \Gamma W and ffi\Gamma = 0 which is the so-called `naive scheme', where a
+
+fixed width is considered in any W propagator. This `solution' shares the same problem as the first one, since there is no justification of the width-term in propagator functions with space-like momentum flow, where the imaginary part of the self-energy contribution is vanishing.
+
+3. Finally, the last solution is given by:
+
+fl = ffi\Gamma = \Gamma Wm
+
+W (p5 + p6)
+
+2:
+
+It is exactly this last solution which is the basis of our approach to the width problem. What it suggests is that we have to take into account the relevant contribution from the one-loop correction to the three-boson vertex [12]. This is shown in Fig.4, and we will use the term Breit-Wigner triangle, in order to emphasize the relation of this correction to the resummed Breit-Wigner propagator.
+
+It is very easy to verify that the imaginary part of the one-loop graph, shown in Fig.5, fits perfectly the requirement of our third solution. It is not difficult to realize that the relation derived in the collinear limit is nothing but the standard Ward identity, which relates the imaginary part of the one-loop vertex with the inverse of the Breit-Wigner propagator2.
+
+Let us now come to the high-energy unitarity, which is related to the double- resonant graphs 1, 2 and 3. In the high energy limit the dominant part of each amplitude can be obtained by the replacements:
+
+_u5flffu6 ! pff5 + pff6 and _u3flfiu4 ! pfi3 + pfi4 : Then, all amplitudes simplify a lot and become proportional to
+
+s E21 \Delta (p5 + p6 \Gamma p3 \Gamma p4) ; where s = (p1 + p2)2. The cancellation of these terms, whose contribution to the cross section grows linearly with s, is guaranteed by the following equations (g(*)f is the coupling of Z with the fermion f and gZW W is the coupling with the W boson):
+
+Qe + g(+)e gZW W = 0 and Qe + g(\Gamma )e gZW W + 12s2
+
+w = 0
+
+a consequence of the SU (2) \Theta U (1) gauge symmetry. It is more convenient to rewrite them in the following form
+
+~e* \Delta ~gW + ffi*;\Gamma 12s2
+
+w = 0
+
+2For a comprehensive analysis on the treatment of the width of unstable particles in perturbation theory, see reference [13].
+
+4
+
+where
+
+~e* = Qeg(*)
+
+e !
+
+and
+
+~gW = 1g
+
+ZW W !
+
+When we consider the width effects we have to resum the self-energy contributions for the neutral boson propagator. The building block of this resummation is, as usual, the imaginary part of the one-loop contribution, which can be written as
+
+K = \Gamma i e2 124ss Ng 2 Pf Q
+
+2f Pf Qf (gfL + gfR)P
+
+f Qf (g
+
+f L + g
+
+f R) Pf ((g
+
+f L)2 + (g
+
+f R)2) !
+
+where Ng is the number of fermion generations, and the summation over the fermions,P
+
+f , is restricted within a complete generation. In deriving this formula we have neglected all fermion masses, which are irrelevant in the high energy limit. It is a
+
+matter of algebra to realize that the vector ~gW is an eigenvector of the matrix K and therefore the resummed result can be written in the form
+
+(Qe + g(+)e gZW W )(1 + i e2 124ss Ng 2s2
+
+w )
+
+\Gamma 1
+
+and
+
+(Qe + g(\Gamma )e gZW W )(1 + i e2 124ss Ng 2s2
+
+w )
+
+\Gamma 1 + 1
+
+2s2w
+
+for right- and left-handed electrons respectively. As is easily seen, the right-handed amplitude automatically satisfies the high-energy unitarity condition, since it is pro- portional to the tree order result. For the left-handed part we have to add the relevant Breit-Wigner triangle contribution. There are three cut graphs contributing in this kinematical configuration, but only the cut on the neutral boson site is relevant for the high-energy limit. In this limit the effect of the triangle graph is given by the tree-order result multiplied by the factor (1 + i e2 124ss Ng 2s2w ), which cancels exactly the self-energy resummed contribution. This result also relies on the gauge symmetry relations: X
+
+f
+
+0Qf = 4Ng and X
+
+f
+
+0g(\Gamma )f = 4NggZW W
+
+where Pf 0 means that t = 1=2 and t = \Gamma 1=2 fermions are taken with a relative minus sign, which gives rise to a complete factorization of the Breit-Wigner triangle graph contribution, in the high energy limit.
+
+Finally we would like to briefly comment on the reason why the sum of the Breit- Wigner propagator and the Breit-Wigner triangle form a subset of gauge-invariant graphs. As far as the high-energy limit is concerned, the result is proportional to Ngff, where ff = e2=4ss is the electromagnetic coupling constant, since the loop summation is taken over complete fermion generations. It is rather elementary to realize that
+
+5
+
+in the limit Ng ! 1 and ff ! 0, with Ngff=fixed, the only graphs that survive are exactly those considered in our discussion and therefore they are by themselves gauge invariant.
+
+It is worth while to notice that, at the amplitude level, the cancellation of the most divergent term, which is proportional to s=m2W , holds for each fermion separately. The reason is that the triangle contribution is proportional to the vector
+
+~g0W = 1s2
+
+W 0@
+
+tf Qf tf (tf \Gamma Qf s2w) 1swcw 1A
+
+whereas the corresponding K-matrix is proportional to
+
+M = 0@ 2Q
+
+2f Qf (tf \Gamma 2Qf s2w) 1
+
+swcw
+
+Qf (tf \Gamma 2Qf s2w) 1swcw (t2f \Gamma 2tf Qf s2w + 2Q2f s4w) 1s2wc2w 1A
+
+with the property that M
+
+~gW = \Gamma ~g0W :
+
+Therefore the triangle contribution cancels exactly the resummed self-energy one, and terms growing linearly with s are absent, as unitarity requires.
+
+The bosonic contribution to the width effects should be treated more carefully. First of all the bosonic self-energy contribution can be resummed in the same way as the fermionic one and it is easily proved that the vector ~gW is still an eigenvector of the corresponding K-matrix, in the high energy limit. Nevertheless, including the triangle graph contribution does not, generically, lead to a gauge invariant result and one has to take into account box graphs as well [13, 14]. Furthermore it is not possible to isolate a part of the higher order corrections, which is gauge invariant, in a way similar to the one suggested by the high Ng-limit in the fermionic sector. A possible alternative is to use background field techniques[15] in order to restore the gauge invariance. It should be emphasized, however, that, due to threshold effects arising from the phase-space integration, the bosonic graphs do not contribute to the definition of the fixed width of the W and Z, at this order of perturbation theory. The same is still true for the U (1) gauge-invariance restoration in the small momentum transferred limit, q2fl ! 0. Finally their contribution at LEP II energies is supressed by factors of the form 1 \Gamma 4m2V =s, where mV refers to the mass of W , Z and Higgs particle.
+
+After completing the amplitude calculation we now proceed with the integration over the phase space. To this end we have implemented a Monte Carlo integration algorithm which is essentially identical to the multichannel approach of references [16, 17]. The problem is that the amplitude we have to integrate over is a very complicated function of the kinematical variables, peaking at different regions of phase space. The idea is to define different kinematical mappings, corresponding to different peaking structures of the amplitude and then use an optimization procedure to adjust
+
+6
+
+the percentage of the generated phase-space points, according to any specific mapping, in such a way that the total error is minimized. Notice that the four particle phase space is determined by eight independent variables. For each algorithm, the set of these variables and the corresponding mapping to the eight pseudorandom numbers, aei; i = 1; : : : ; 8, is given below:
+
+m2q;_q0 = m2W + mW \Gamma W tan(ae1(y+ \Gamma y\Gamma ) + y\Gamma )
+
+y+ = tan\Gamma 1( E
+
+2 \Gamma m2W
+
+mW \Gamma W ) y\Gamma = tan\Gamma 1(\Gamma mW\Gamma
+
+W )
+
+m2`;_*` = m2W + mW \Gamma W tan(ae2(y0+ \Gamma y\Gamma ) + y\Gamma )
+
+y0+ = tan\Gamma 1( (E \Gamma mq;_q0)
+
+2 \Gamma m2W
+
+mW \Gamma W ) cos `W = 2ae3 \Gamma 1; OEW = 2ssae4
+
+cos `\Lambda ` = 2ae5 \Gamma 1; OE\Lambda ` = 2ssae6 (in the `; _*` rest frame) cos `\Lambda q = 2ae7 \Gamma 1; OE\Lambda q = 2ssae8 (in the q; _q0 rest frame) (7)
+
+which simulates the peaking structure of graphs 1 and 2,
+
+m2q;_q0 = m2W + mW \Gamma W tan(ae1(y+ \Gamma y\Gamma ) + y\Gamma ) m2q;_q0;_*` = (ae2E2x + (1 \Gamma ae2)m2xq;_q0)1=x
+
+cos `` = 1 \Gamma `(1 \Gamma ae3)(1 \Gamma cmin)(1\Gamma *) + ae3(1 \Gamma cmax)(1\Gamma *)'
+
+1=(1\Gamma *)
+
+OE` = 2ssae4 cos `\Lambda _*` = 2ae5 \Gamma 1; OE\Lambda _*` = 2ssae6 (in the _*`; q; _q0 rest frame)
+
+cos `\Lambda q = 2ae7 \Gamma 1; OE\Lambda q = 2ssae8 (in the q; _q0 rest frame) (8)
+
+which for x = 1 simulates the peaking structure of graph 11 and with x ! 0 the peaking structure of graphs 14, and finally
+
+m2q;_q0 = m2W + mW \Gamma W tan(ae1(y+ \Gamma y\Gamma ) + y\Gamma ) m2`;_*` = m2W + mW \Gamma W tan(ae2(y0+ \Gamma y\Gamma ) + y\Gamma )
+
+cos `W = ff \Gamma `(1 \Gamma ae3)(ff \Gamma 1)(1\Gamma *) + ae3(ff + 1)(1\Gamma *)'
+
+1=(1\Gamma *)
+
+ff = Ep
+
+0W \Gamma m2`;_*
+
+`
+
+Ej~pW j
+
+OEW = 2ssae4
+
+cos `\Lambda ` = 2ae5 \Gamma 1; OE\Lambda ` = 2ssae6 (in the `; _*` rest frame) cos `\Lambda q = 2ae7 \Gamma 1; OE\Lambda q = 2ssae8 (in the q; _q0 rest frame) (9)
+
+which simulates the peaking structure of graph 3.
+
+7
+
+In order to study the sensitivity of the processes under consideration on the trilin- ear boson couplings we need a parametrization of these interactions that goes beyond the Standard Model . There are of course several possibilities, but we are going to restrict ourselves to the most economical one. The relevant interaction Lagrangian can be written in the following form [2]:
+
+L = X
+
+V =fl;Zae
+
+gV (V_W \Gamma _* W +* \Gamma V_W +_* W \Gamma * + ^V V_* W +_W \Gamma _* )
+
++ gV *VM 2
+
+W V
+
+_aeW +ae* W \Gamma _ae oe (10)
+
+where
+
+W \Sigma _* = @_W \Sigma * \Gamma @*W \Sigma _ W \Sigma is the W -boson field, and gfl = e, gZ = ectg `w, ^fl = ^Z = 1 and *fl = *Z = 0 at tree order in the Standard Model . It is more convenient to express the different couplings in terms of their deviations from the Standard Model values. For this we define the following deviation parameters:
+
+ffiZ = gZ \Gamma ctg `w xfl = ^fl \Gamma 1 xZ = (^Z \Gamma 1)(ctg `w + ffiZ) (11)
+
+It is worth while to note that the interaction Lagrangian becomes linear with respect to the above parameters (including also *fl and *Z ).
+
+The V W +W \Gamma vertex function can be derived from the above interaction La- grangian and has the following form [4]:
+
+\Gamma V_fffi(q; p+; p\Gamma ) = igV aegff_^(^ + * p
+
+2\Gamma
+
+m2W )q \Gamma p+*fi + `gfffi \Gamma *
+
+qffqfi
+
+m2W '(p+ \Gamma p\Gamma )_
+
++ gfi_^p\Gamma \Gamma (^ + * p
+
+2+
+
+m2W )q*ff \Gamma
+
+* m2W q
+
+2gfffip\Gamma _
+
++ *m2
+
+W p
+
++ff(g_fip+ \Delta q \Gamma p+_qfi) \Gamma *m2
+
+W p\Gamma
+
+fi(g_ffp\Gamma \Delta q \Gamma p\Gamma _qff)
+
++ *m2
+
+W p\Gamma \Delta q q
+
+_gfffioe (12)
+
+where p\Sigma are the momenta of W \Sigma respectively, and q the momentum of the neutral gauge boson (fl, Z). Note that in many processes a great simplification occurs due to fermion current conservation; for example the term proportional to q_ vanishes whenever the neutral boson is coupled to a massless fermion pair.
+
+During the last few years, considerable progress has been achieved concerning the understanding of the physics underlying the non-standard boson self-couplings. As
+
+8
+
+Gounaris and Renard [18] showed, the deviations from the Standard Model couplings can be parametrized in a manifestly gauge-invariant (but still non-renormalizable) way, by considering gauge-invariant operators involving higher-dimensional interac- tions among gauge bosons and Higgs field. Restricting ourselves to SU (2)L \Theta U (1)Y - invariant operators with dimension up to 8, we can have the following list [5, 19]:
+
+OB\Phi = B_*(D_\Phi )y(D* \Phi )O
+
+W \Phi = (D_\Phi )y o/ \Delta W _* (D* \Phi ) OW = 13! (W _ae \Theta W ae* ) \Delta W *_ O0W \Phi = (\Phi yo/ \Delta W _* \Phi )(D_\Phi )y(D* \Phi )O
+
+0W = (W _ae \Theta W ae* ) \Delta (\Phi y o/
+
+2 \Phi )B
+
+*_ (13)
+
+where o/i = 12oei (oei are the Pauli matrices),
+
+B_* = @_B* \Gamma @* B_ where B_ is the U (1)Y gauge field,
+
+W _* = @_W * \Gamma @*W _ \Gamma g2W _ \Theta W * where W are the SU (2)L gauge fields and
+
+\Phi = OE
+
++
+
+1p
+
+2(v + H + iOE
+
+0) !
+
+is the Higgs doublet. The covariant derivative D_ is given, as usual, by
+
+D_ = @_ + i g2o/ \Delta W _ \Gamma i g1B_ and e = g2 sin `w = g1 cos `w.
+
+The interaction Lagrangian can be written now as
+
+L = LSM + X giOi (14) where Oi are the operators given in Eq.(13). The effect of each operator on the trilinear coupling parametrization, given in Eq.(10), is described in table 1. The main consequence of the above considerations is that SU (2)L \Theta U (1)Y gauge invariance implies relations between deviation parameters, which must be taken into account in a phenomenological analysis. Furthermore, taking into account the limitting statistics expected at LEP II this is a very welcome result, since an investigation of the full multiparameter space seems to be rather impossible. In this paper, adopting this point of view, we focus our analysis on the six one-parameter cases, as given in table 1.
+
+9
+
+case operator non-vanishing deviations
+
+1 OB\Phi xfl, xZ = \Gamma xfltg `w 2 OW \Phi \Gamma OB\Phi ffiZ 3 OW \Phi xfl, ffiZ = xfl=(swcw), xZ = \Gamma xfltg `w 4 OW *fl , *Z = *fl 5 O0W \Phi xfl, xZ = xflctg `w 6 O0W *fl, *Z = \Gamma *fl tg2`w
+
+Table 1: Contribution of different gauge-invariant operators to the anomalous cou- plings (sw = sin `w and cw = cos `w).
+
+Having clarified the amplitude as well as the phase-space calculation we now pro- ceed with the presentation of our numerical results. Several checks have been made in order to guarantee their correctness. First of all both the U (1) gauge invariance and the unitary high-energy behaviour of the calculation have been successfully tested at the numerical level. Furthermore we have checked our programme with the EXCALIBUR Monte Carlo [16], and taking identical conditions (width implementation, input pa- rameters, kinematical cuts, etc) we found complete agreement at all energies at which we run the programme (175, 190, 200 and 500 GeV). It should be mentioned however that in what follows we have implemented our novel approach to the width effects, which is different from that of EXCALIBUR. Finally, since this calculation is an expan- sion of the single-W production programme [4], several checks already done for this process are still in order for the four fermion calculation.
+
+The input Standard Model parameters we have used are as follows:
+
+MW = 80:5 GeV; MZ = 91:19 GeV; sin2 `W = 0:23; ff = 1=129 whereas the phase-space cuts are defined as:
+
+cos `` ^ 0:95 cos `jet ^ 0:95 cos `q;_q0 ^ 0:95 E`; Ejet * 5 GeV and mq;_q0 * 10 GeV (15)
+
+The `width' of the W is calculated by the formula:
+
+\Gamma W mW =
+
+ff 12s2w nf
+
+where nf = 9(12) for ps ^ mtop + mb(ps ? mtop + mb). The fl \Gamma Z propagator is defined by D
+
+= 1s D0(1 \Gamma KD0)\Gamma 1
+
+where
+
+D0 = 0@ 1 00 s
+
+s\Gamma m2Z 1A
+
+10
+
+As we have already pointed out, for the analysis we are attempting in this paper we will restrict ourselves to the one-parameter cases described in table 1. This simplifies the analysis, since the results (total cross sections and angular distributions) can always be written in the following simple form:
+
+oei = oe0i + xoeii + x2oesi (16) where x stands for any deviation parameter (ffiZ, xfl or *fl ), oe0i is the Standard Model result, oeii is the interference term and oesi is the signal term squared. The subscript i refers to a given phase-space configuration, or to a given phase-space variable. We find it more convenient to work with this parametrization rather than to specify some particular (arbitrary) values for the deviation parameters. In any case, the values of oe0i , oeii and oesi completely determine the dependence on x.
+
+In Fig.6 we show the total cross section as a function of the energy from 175 GeV up to 500 GeV. The Standard Model cross section reaches its maximum around 200 GeV, whereas the interference term is negative and small in absolute value in the full energy range up to 500 GeV. The main contribution, especially at higher energies comes from oes, and it is more than an order of magnitude larger that the Standard Model prediction at 500 GeV. It is worth while to mention the difference in the energy growth between cases 3 and 4: this is to be expected, since the relations among the different deviation parameters given in case 3 are expected to result in a cancellation of the most divergent part of the amplitude[2].
+
+In order to further analyse the sensitivity of the cross section to the trilinear couplings, we have to use differential distributions. There are in general two different and in some way complementary strategies in this analysis. The `optimistic' one is to use the fully differential cross section, a function of the eight independent phase- space variables [2, 20]. This is of course the `ultimate' information one can get, but since experimentally some of the phase-pace variables are poorly measured, one has to cope with a low efficiency factor. The `realistic' one is to focus on these kinematical variables and the corresponding differential distributions, which are well measured experimentally and try to maximize the sensitivity with respect to the trilinear couplings. In this paper we are following the latter approach and we calculate the differential distribution with respect to the angle of the produced lepton in the laboratory frame. In order to compare the sensitivity of the lepton angle with the sensitivity of other variables, which are a priori more sensitive to the trilinear boson couplings, we calculate also the following differential distributions:
+
+1. doe=d cos `W , where `W is defined as the angle of the vector ~pq_q0 with the electron
+
+beam in the laboratory frame, which for the signal graphs is identical to the angle of W +, and
+
+2. doe=d cos `\Lambda j , where the angle `\Lambda j is defined as the angle between the spatial mo-
+
+mentum of the outgoing quark in the rest frame of the q; _q0 system, and the
+
+11
+
+momentum ~pq_q0 in the laboratory frame, which for on-shell W decay has been used as a polarization analyser [2].
+
+The Standard Model distributions are given in Fig.7 for ps = 175 GeV and 205 GeV. As is evident from this figure, the distribution of the electron is very similar to the distribution of the W \Gamma (which is taken from the W + distribution by the replace- ment cos ` ! \Gamma cos `) and peaks in the direction parallel to the electron beam, as a combined effect of the neutrino as well as photon t-channel exchange contributions.
+
+The effect of the deviation terms on these distributions can be traced by studying the ratios oei
+
+oe0 and
+
+oes oe0 as functions of the corresponding angular variables. As an example we present, in Fig.8, the above-mentioned quantities at ps = 205 GeV for the electron channel. Similar results are obtained at ps = 175 GeV as well as for the `muon' channel, e.g. when a lepton different from the electron is produced in the final state. The main conclusion is that the angular dependence of the deviation terms is rather important and the general tendency is to flatten out the background distributions in all cases.
+
+Operator `` `\Lambda j `WO
+
+B\Phi \Gamma :37 :83 \Gamma :62 1:13 \Gamma :46 1:06 xfl \Gamma :17 :35 \Gamma :30 :81 \Gamma :21 :86O
+
+W \Phi \Gamma OB\Phi \Gamma :67 :62 \Gamma :70 :70 \Gamma :22 :24
+
+ffiZ \Gamma :33 :41 \Gamma :37 :55 \Gamma :17 :26O
+
+W \Phi \Gamma :24 :31 \Gamma :26 :33 \Gamma :08 :09 xfl \Gamma :11 :28 \Gamma :13 :28 \Gamma :06 :07O
+
+W \Gamma :38 :40 \Gamma :45 :46 \Gamma :14 :16 *fl \Gamma :16 :27 \Gamma :21 :29 \Gamma :09 :13O0
+
+W \Phi \Gamma :31 :41 \Gamma :39 :60 \Gamma :14 :15 xfl \Gamma :13 :22 \Gamma :18 :50 \Gamma :09 :11O0
+
+W \Gamma :44 :91 \Gamma :62 :94 \Gamma :42 :76 *fl \Gamma :20 :53 \Gamma :31 :53 \Gamma :21 :50
+
+Table 2: Limits on deviation parameters from electron channel. The first row corre- sponds to ps = 175GeV and the second one to ps = 205GeV.
+
+In order to determine the sensitivity to the trilinear vector boson couplings we implement a standard, though idealized, O/2 analysis. More precisely we define a `O/2' function as follows:
+
+O/2 = X
+
+i
+
+(oei \Gamma oe0i )2
+
+"2i
+
+12
+
+Operator `` `\Lambda j `WO
+
+B\Phi \Gamma :29 1:49 \Gamma :45 1:60 \Gamma :28 :38 xfl \Gamma :13 :19 \Gamma :20 :95 \Gamma :13 :17O
+
+W \Phi \Gamma OB\Phi \Gamma :51 :56 \Gamma :56 :65 \Gamma :15 :16
+
+ffiZ \Gamma :26 :38 \Gamma :31 :46 \Gamma :11 :14O
+
+W \Phi \Gamma :17 :30 \Gamma :20 :35 \Gamma :05 :06 xfl \Gamma :08 :17 \Gamma :10 :28 \Gamma :04 :04O
+
+W \Gamma :24 :36 \Gamma :33 :46 \Gamma :09 :10 *fl \Gamma :12 :21 \Gamma :16 :26 \Gamma :06 :07O0
+
+W \Phi \Gamma :23 :35 \Gamma :29 :72 \Gamma :09 :09 xfl \Gamma :09 :13 \Gamma :13 :51 \Gamma :05 :06O0
+
+W \Gamma :31 :98 \Gamma :48 1:00 \Gamma :30 :50 *fl \Gamma :15 :51 \Gamma :23 :52 \Gamma :15 :32
+
+Table 3: Limits on deviation parameters from `muon' channel. The first row corre- sponds to ps = 175GeV and the second one to ps = 205GeV.
+
+where "i is the statistical error of the i-th bin. In the present analysis we have chosen six equidistant bins in the range \Gamma 0:95 ^ cos ` ^ 0:95, where ` stands for any of the angles under consideration. Furthermore, the integrated luminosity at ps = 175 GeV is taken to be L = 500pb\Gamma 1, whereas at ps = 205 GeV we have used the value L = 300pb\Gamma 1. The errors on the deviation parameters are now given by standard statistical theory [21] and the two standard deviation results are presented in tables ,. It should be mentioned, however, that the errors given in the above tables are in some sense a lower limit on the corresponding `real' ones, since they do not take into account the goodness of the fit statistics, which relies on how well the real data are described by the Standard Model predictions. Nevertheless assuming that the real data would be described by the Standard Model and that O/2/dof , 1 we have a rather good estimate of the expected sensitivity. The main point underlined by this analysis is that, first of all, in most cases, the `W is more sensitive than the other variables, whereas `e is more efficient than `\Lambda j . Secondly, the sensitivity increases with increasing energy, even though the luminosity is substantially decreasing. Finally, electron and `muon' channels seem to give comparable results, even though in the `muon' channel we have doubled the corresponding statistics by including both _ and o/ events, which share the same theoretical description. The limits obtained on the deviation parameters are of the same order of magnitude as those extracted from on-shell W production, using the same angular variables. It is expected, however, that a more sophisticated analysis, using the method proposed in reference [20] could substantially increase the sensitivity to the trilinear boson couplings. Such an analysis seems to be suitable for the four-fermion production and it is important to be carried out, taking into account
+
+13
+
+the precise experimental conditions.
+
+In summary, we have presented a full tree-order calculation of the four-fermion production processes
+
+e+e\Gamma ! `_*` q _q0:
+
+We have shown that a consistent treatment of the width effects is possible, at least for the fermionic contribution, and we have implemented it in a Monte Carlo programme. The C and P preserving deviations from the trilinear Standard Model couplings have been taken into account, and a first analysis on the sensitivity of the four-fermion production on these deviation parameters is presented.
+
+Acknowledgements It is pleasure to thank R.Kleiss, D.Zeppenfeld, G.Gounaris, E.Argyres, W.J.Stirling, G.J. van Oldenborgh, R.Sekulin and S.Tzamarias for helpful discussions. This work is supported by the EU grant CHRX-CT93-0319.
+
+14
+
+[1] K. Gaemers and G. Gounaris, Z.Phys. C1(1979) 259. [2] M. Bilenky et al., Nucl. Phys. B409 (1993) 22. [3] K. Hagiwara, R. Peccei, D. Zeppenfeld and K. Hikasa, Nucl.Phys. 282 (1987)
+
+253.
+
+[4] E.N. Argyres and C.G. Papadopoulos, Phys. Lett. B263 (1991) 298. [5] C.G. Papadopoulos, Phys. Lett. B333 (1994) 202. [6] S.L.Glashow, Nucl.Phys. 22 (1961) 579;
+
+S.Weinberg, Phys.Rev.Lett. 19 (1967) 1264; A.Salam, in Elementary particle theory, ed. N.Svartholm (Almquist and Wik- sell, Stockholm, 1968)p.367
+
+[7] R. Kleiss and W.J. Stirling, Nucl. Phys. B262 (1985) 235. [8] M.Veltman, Physica 29 (1963) 161 and Physica 29 (1963) 186. [9] F.A.Berends and G.B.West, Phys.Rev. D1(1970) 122;
+
+A.Aeppli, F.Cuypers and G.J. van Oldenborgh, Phys.Lett. B314 (1993) 413; A.Aeppli, G.J. van Oldenborgh and D. Wyler, Nucl.Phys. B428 (1994) 126; M.Nowakowski and A.Pilaftsis, Z.Phys. C 60 (1993) 121; Y.Kurihara, D.Perret-Gallix and Y.Shimizu, `e+e\Gamma ! e\Gamma _*eu _d from LEP to lin- ear collider energies' KEK-PREPRINT-94-150,KEK-CP-021,LAPP-EXP-94- 23, hep-ph:9412215.
+
+[10] C.F. von Weisz"aker, Z.Phys. 88 (1934) 612;
+
+E.J.Williams, Phys.Rev. 45 (1934) 729; M-S.Chen and P.Zerwas, Phys. Rev. D12 (1975) 187.
+
+[11] U.Baur, J.A.M.Vermaseren and D.Zeppenfeld, Nucl.Phys. B375 (1992) 3. [12] R.Kleiss and D.Zeppenfeld, private discussions. [13] E.N.Argyres, W.Beenakker, A.Denner, S.Dittmaier, J.Hoogland, R.Kleiss,
+
+C.G.Papadopoulos, G.Passarino, and G.J. van Oldenborgh, in preparation.
+
+[14] E.N.Argyres, G. Katsilieris, A.B. Lahanas, C.G.Papadopoulos and V.C. Spa-
+
+nos, Nucl.Phys. B391 (1993) 23; J. Papavassiliou and K. Philippides,Phys. Rev. D 48 (1993) 4255.
+
+[15] A. Denner, G. Weiglein and S. Dittmaier, `Application of the Background-Field
+
+Method to the electroweak Standard Model', BI-TP.94/50, UWITP 94/03, October 1994.
+
+15
+
+[16] F.A.Berends, R.Pittau and R.Kleiss, Nucl.Phys.B424(1994) 308. [17] R.Kleiss and R.Pittau, Comp.Phys.Commun. 83 (1994) 141. [18] G.J. Gounaris and F.M. Renard, Z.Phys. C59 (1993) 133. [19] M.Kuroda, F.M.Renard and D.Schildknecht, Phys.Lett. B183 (1987) 366
+
+J.Maalampi, D.Schildknecht and K.H.Schwarzer, Phys.Lett. B166 (1986) 361.
+
+[20] R.L.Sekulin, Phys.Lett. B338 (1994) 369. [21] W.T. Eadie et al., Statistical Methods in Experimental Physics, North-Holland,
+
+Amsterdam, 1971.
+
+16
+
+\Gamma \Gamma
+
+\Gamma \Gamma e+
+
+@@ @@ e\Gamma
+
+. .^ ^fl; Z \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma W
+
+`
+
+_*`
+
+@@ @@
+
+@@
+
+_q0
+
+q
+
+*e
+
+\Gamma \Gamma
+
+q
+
+@@ _q0
+
+\Gamma \Gamma
+
+`
+
+@@ _*
+
+`
+
+1,2 3
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+@@
+
+@@
+
+. .^ ^fl; Z \Gamma \Gamma
+
+\Gamma \Gamma
+
+`
+
+@@
+
+@@ _*`
+
+\Gamma \Gamma
+
+q
+
+@@ _q0 \Gamma \Gamma
+
+\Gamma \Gamma
+
+@@
+
+@@
+
+. .^ ^
+
+Z @@
+
+@@ _*`
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+`
+
+\Gamma \Gamma
+
+q
+
+@@ _q0
+
+4,5 6
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+@@
+
+@@
+
+. .^ ^fl; Z \Gamma \Gamma
+
+\Gamma \Gamma
+
+q
+
+@@
+
+@@ _q0
+
+\Gamma \Gamma
+
+`
+
+@@ _*
+
+` \Gamma \Gamma
+
+\Gamma \Gamma
+
+@@
+
+@@
+
+. .^ ^fl; Z @
+
+@@
+
+@ _q0
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+q
+
+\Gamma \Gamma
+
+`
+
+@@ _*
+
+`
+
+7,8 9,10 Figure 1: Feynman graphs contributing to e+e\Gamma ! `_*` q _q0 in the s-channel.
+
+17
+
+e+ _*e
+
+W
+
+( ())fl; Z
+
+\Gamma \Gamma
+
+q
+
+@@ _q0
+
+e\Gamma e\Gamma
+
+_*e
+
+e\Gamma @@ @@ @@\Gamma \Gamma q
+
+@@ _q0
+
+11,12 13
+
+_*e( ( ( ( (
+
+) ) ) ) )
+
+fl; Z
+
+e\Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Gamma \Gamma \Gamma
+
+\Gamma q @@ _q0
+
+_*e( ( ( ( (
+
+) ) ) ) )
+
+Z
+
+e\Gamma
+
+@@ @@
+
+@@\Gamma \Gamma
+
+q
+
+@@ _q0 14,15 16
+
+_*e
+
+_q0 q( () fl; Z e\Gamma
+
+_*e q _q0( () fl; Z e\Gamma
+
+17,18 19,20 Figure 2: Feynman graphs contributing to e+e\Gamma ! e_*e q _q0 in the t-channel.
+
+18
+
+. .^ &%'$BW . .^ = . . .^ ^ + . .^ &%'$. .^ + : : :
+
+Figure 3: The Breit-Wigner propagator . .^ &%'$BW \Psi ffff\Phi \Phi \Omega = . . .^ ^ \Psi \Psi ffffff\Phi \Phi \Phi \Omega \Omega + . .^ &%'$\Psi ffff\Phi \Phi \Omega
+
+Figure 4: The Breit-Wigner triangle
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+W +
+
+\Gamma \Gamma `pfi\Gamma
+
+oe\Gamma
+
+p2
+
+\Omega \Omega \Omega \Omega \Omega \Omega \Phi \Phi \Phi \Phi \Phi \Phi fl; Z
+
+@@R
+
+q_
+
+-p1
+
+@@
+
+@@
+
+@\Gamma \Gamma \Gamma \Gamma \Gamma
+
+W +- pff+
+
+Figure 5: The cut graph contributing to the restoration of U (1) gauge invariance.
+
+19
+
+Figure 6: The total cross section, in picobarns, as a function of the centre-of-mass energy for cases 3 and 4 as explained in the text. The solid, dashed and dotted lines correspond to the Standard Model interference and signal terms respectively.
+
+20
+
+Figure 7: The Standard Model distributions doe=d cos `e (solid line), doe=d cos `W (dot- ted line) and doe=d cos `\Lambda j (dashed line), in picobarns.
+
+21
+
+Figure 8: The ratio oei=oe0 (lower lines) and oes=oe0 (upper lines) for the six cases given in table 1 as a function of cos `W (solid line),cos `e (dot-dashed line) and cos `\Lambda j (dashed line).
+
+22
+

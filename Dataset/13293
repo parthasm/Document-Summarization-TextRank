@@ -1,0 +1,8019 @@
+
+
+Hera-B 00-012
+
+Physics 00-002
+
+
+
+Present knowledge of the Cabibbo-
+Kobayashi-Maskawa matrix
+
+
+
+M. B (1) (1) (1) (1) (1)
+ARGIOTTI , A. BERTIN , M. BRUSCHI , M. CAPPONI , S. DE CASTRO ,
+R. D (1) (1) (1) (1) (1)
+ONÀ , P. FACCIOLI , D. GALLI , B. GIACOBBE , U. MARCONI ,
+I. M (1) (1) (2) (1) (1)
+ASSA , M. PICCININI , M. POLI , N. SEMPRINI CESARI , R. SPIGHI ,
+V. V (1) (1) (1) (1) (1)
+AGNONI , S. VECCHI , M. VILLA , A. VITALE AND A. ZOCCOLI
+
+(1) Dipartimento di Fisica dell'Università di Bologna ­ Bologna, Italy
+Istituto Nazionale di Fisica Nucleare Sezione di Bologna ­ Bologna, Italy
+
+(2) Dipartimento di Energetica `Sergio Stecco' dell'Università di Firenze ­ Firenze, Italy
+Istituto Nazionale di Fisica Nucleare Sezione di Bologna ­ Bologna, Italy
+
+
+
+
+Abstract
+
+A complete review of the Cabibbo-Kobayashi-Maskawa (CKM) matrix
+elements and of the experimental methods for their determination is presented.
+A critical analysis of the relevant experimental results, and in particular of the
+most recent ones, allows to improve the accuracies of all the matrix elements.
+A 2 minimization with the three-family unitarity constraint on the CKM
+matrix is performed to test the current interpretation of the CP violating
+phenomena inside the Standard Model. A complete and unambiguous solution
+satisfying all the imposed constraints is found. As a by-product of the fit, the
+precision on the values of the matrix elements is further increased and it is
+possible to obtain estimates for the important CP violation observables sin2,
+sin2 and . Finally, an independent estimation of the CKM elements based
+on a Bayesian approach is performed. This complementary method constitutes
+a check of the results obtained, providing also the probability functions of the
+CKM elements and of the related quantities.
+
+PACS 12.15.Hh ­ Determination of CKM matrix elements.
+
+
+Published on La Rivista del Nuovo Cimento, 23 N3 (2000), 1.
+
+
+
+
+1 Introduction ............................................................................................................ 3
+
+1.1 The CKM matrix................................................................................................ 4
+
+1.2 The unitarity triangle......................................................................................... 6
+
+2 Experimental determination of the CKM matrix elements................................... 8
+
+2.1 |Vud|...................................................................................................................9
+2.1.1 Super-allowed nuclear decays .................................................................... 9
+2.1.2 Neutron
+decay ......................................................................................... 11
+2.1.3 Pion
+decay............................................................................................15
+2.1.4 Summary of |Vud| determinations ............................................................. 16
+
+2.2 |Vus| ................................................................................................................. 17
+2.2.1 Kaon semileptonic decays........................................................................ 17
+2.2.2 Hyperon semileptonic decays................................................................... 19
+
+2.3 |Vcd| and |Vcs|................................................................................................... 20
+2.3.1 |Vcd| ......................................................................................................... 20
+2.3.2 |Vcs| from neutrino charm production ....................................................... 21
+2.3.3 |Vcs| from semileptonic decays of D mesons............................................. 22
+2.3.4 |Vcs| from W ± boson decays ..................................................................... 23
+2.3.5 Determination of the best values of |Vcd| and |Vcs| .................................... 24
+
+2.4 |Vub|................................................................................................................. 25
+
+2.5 |Vcb|................................................................................................................. 26
+2.5.1 Exclusive
+decays ..................................................................................... 26
+2.5.2 Inclusive
+decays ...................................................................................... 28
+
+2.6 |Vub|/|Vcb|......................................................................................................... 29
+
+2.7 Elements of the third row................................................................................. 31
+2.7.1 Experimental determination of f .......................................................... 33
+Ds
+2.7.2 Lattice QCD results ................................................................................. 35
+2.7.3 Measurements of m and m ........................................................... 38
+B B
+d s
+
+2.7.4 CP violation in the neutral kaon system; ...................................... 40
+K K
+
+2.7.5 The
+constraint .................................................................................43
+K
+
+2.7.6 b s penguin decays............................................................................45
+2.8 Summary ......................................................................................................... 47
+
+3 An up-to-date profile of the unitarity triangle ..................................................... 48
+
+3.1 Description of the fit procedure ....................................................................... 48
+
+3.2 Constraints on the unitarity triangle in Wolfenstein's parametrization. ........... 52
+
+3.3 Results............................................................................................................. 54
+
+3.4 Bayesian determination of the CKM matrix ..................................................... 61
+
+3.5 New prospects ................................................................................................. 68
+
+Conclusions ................................................................................................................... 74
+
+References ..................................................................................................................... 76
+
+
+
+
+2
+
+
+1 Introduction
+
+One of the most interesting and mysterious aspects of nature is its behaviour under
+Charge-Parity (CP) transformation. For more than 35 years after the discovery of CP
+violation in the neutral kaon sector, no conclusive evidence of violation of this symmetry
+has been found in other phenomena, but a huge experimental effort is being made in this
+direction. The main reason for the interest in this field is related to the question whether
+the Standard Model is able to account for the observed magnitude of these phenomena.
+CP violation is introduced, in a general way, into the charged-current weak interactions
+between quarks existing in at least three different families. In the Standard Model, it
+originates from an unremovable complex phase in the Cabibbo-Kobayashi-Maskawa1,2
+(CKM) matrix, which describes the flavour mixing between the quark states. With this
+formulation, it is possible to foresee many different CP violating phenomena, which will
+be a matter of study in the current (as well as in the next) generation of B factories. In
+order to have reliable estimations for these phenomena, as well as to test this sector of
+the Standard Model, a precise knowledge of all the matrix elements is necessary.
+The values of the CKM matrix elements are not fixed by theory and must be evaluated
+on the basis of the available experimental information. This can be performed by
+studying specific classes of processes, such as, for example, the semileptonic decays of
+mesons or baryons, and by exploiting the relations between the experimental
+determinations of decay rates or branching ratios and the relevant matrix elements. The
+theoretical uncertainties in the hadronic system description usually limit the final
+precision obtained in the determination of the CKM matrix. Notwithstanding this
+difficulty, which in some cases makes the related experimental information even
+unserviceable, all the CKM matrix elements of the first two rows can be safely
+determined.
+The requirement that the CKM matrix be a unitary matrix imposes strong constraints
+between its elements. This characteristic allows one to test the goodness of the values
+found and of the assumptions made in the Standard Model in order to account for the
+observed CP violation.
+
+The main purposes of this work are a survey of the CKM matrix elements as
+determined one by one from the experimental data and the refinement of their values by
+means of a unitarity-constrained minimum-2 fit. The main results of this study already
+appeared in Refs. 3 and 4. The impact of new measurements foreseen in the next years
+is also emphasized.
+
+In the following paragraphs, a short introduction to the CKM matrix and the
+unitarity triangle is presented. In Section 2, the direct measurements of the CKM matrix
+elements and other experimental constraints are discussed taking into account the most
+recent experimental, theoretical and phenomenological achievements. In Section 3, we
+present the methodology used to obtain the maximum precision for the CKM parameters
+from the results presented in Section 2, through the requirement that the CKM matrix be
+a 3×3 unitary matrix. Finally, the determination of the imaginary part of the matrix and
+the best estimation of the CP violating observables are presented.
+
+
+
+
+
+3
+
+
+1.1 The CKM matrix
+
+
+In the Standard Model, the quark mass eigenstates (physical states) do not take part
+as pure states in weak interactions. The unitary transformation connecting the two bases
+of mass and weak eigenstates is represented by the Cabibbo-Kobayashi-Maskawa (CKM)
+matrix. By convention, the charge +2/3 quarks (u, c and t) are chosen to be pure states,
+and flavour mixing is described in terms of a 3×3 matrix operating on the d, s and b
+quark states:
+
+d
+d V V V
+ud us ub d
+s = V (1. 1-1)
+CKM s = V V V
+cd cs cb s
+
+
+b b V V V
+td ts tb b
+Thus d', s' and b', instead of d, s and b, are partners of u, c and t respectively within
+the weak isospin doublets.
+All the properties of weak quark interaction are codified inside the CKM matrix, which
+makes it possible to extend the Cabibbo1 model, preserving the weak coupling
+universality while explaining the existing priority scale among the transitions occurring
+inside one quark family and those connecting two neighbouring families, or the first with
+the third one. Its structure incorporates the GIM5 mechanism, which suppresses the
+flavour-changing neutral-current (FCNC) processes. Finally, the imaginary part of the
+CKM matrix is the source of all the CP-violating phenomena which the Standard Model
+is able to account for.
+CP symmetry, which is equivalent, according to the CPT theorem, to time reversal
+invariance T, would be conserved if the matrix were real. On the other hand, to account
+for CP violation V must be complex independently of the phase convention of the
+CKM
+
+fermionic fields, which it acts on. The Lagrangian density term which represents the
+( ±
+W -mediated) charge current processes involving quarks depends on V according to
+CKM
+
+the expression
+d
+
+µ
+/
+± G - µ + (1. 1-2)
+F (u c t )
+W (1 5)V s W .
+h .
+c
+CKM
+b
+
+Let us consider initially the most general case. As an N×N unitary matrix, V depends
+CKM
+2
+on N real parameters, 2N - 1 of which can be reabsorbed by the quark fields which
+multiply the right and left sides of the matrix, by means of a global redefinition of the
+arbitrary phases. Of the remaining (N - 1)2 free parameters, N (N - 1)/ 2 are the Euler
+angles, common to the real (orthogonal) matrix and to the complex (unitary) one, the
+others are unremovable complex phases; they are therefore physically meaningful and
+can be measured as signals of CP violation. The N = 2 matrix, which contains only one
+parameter (the Cabibbo angle), is real; consequently, it cannot give rise to CP violation.
+This is precisely the reason why Kobayashi and Maskawa3 conjectured the existence of
+three quark doublets in 1973. The authors presented the hypothesis as one of several
+possible explanations, which were able to account for CP non-conservation with a
+minimal extension of the two-generation model. But the idea began to be held in high
+consideration when Perl and collab. 6 discovered the third lepton () in 1975, following
+
+
+
+
+4
+
+
+up the original intuition and preceding experience of Zichichi and collab.7, and after the
+discovery of the fifth quark (b) at Fermilab8 in 1977.
+The CKM matrix (N = 3) can be parametrized in terms of three Euler angles and one
+phase; the latter is entirely responsible for the CP violation in the Standard Model.
+Several possible parametrizations differ both in the choice of the Euler angles and in the
+positioning of the phases; the one proposed by Chau and Keung9 combining notations
+already used by Maiani10 and Wolfenstein11 is adopted by the PDG12 as the `canonical'
+parametrization:
+-i
+13
+c c s c s e
+12 13 12 13 13
+
+V (1. 1-3)
+CKM = - s c - i i
+13
+c s s e c c - 13
+s s s e s c
+12 23 12 23 13 12 23 12 23 13 23 13
+i i
+13 13
+s s c c s e c s s c s e c c
+12 23 - 12 23 13 - 12 23 - 12 23 13 23 13
+where
+c = cos , s = sin , is the mixing angle between the ith and the jth
+ij ij ij ij ij
+
+generation ( is the Cabibbo angle), and is the phase angle.
+12 13
+
+Given the experimentally observed hierarchy among couplings
+V V V V , (1. 1-4)
+ub < cb < ,
+us cd < 1
+
+the matrix elements can be written in terms of powers of the sine of the Cabibbo angle
+= s V V .
+
+
+(1. 1-5)
+us cd .
+0 22
+12
+
+If one defines the parameters A, , according to the relations
+2 -
+s = A , s e i 13 = A3 (1. 1-6)
+13 ( -i)
+23
+
+and neglects, for example, terms of order ( 6
+), the following expression
+2 4
+1- - 3
+
+A ( - i)
+
+2 8
+2 4
+V
+CKM = 2 4 1 2 4
+- 1-
+A - + iA 1- -
+(1+4 2A)
+2
+A
+2 2 8
+2 2 4
+3
+
+A ( 2 A
+1- ) 2 2 1 2
++ -
+i 1- - A 1- - +
+i 1-
+
+2 2 2 2
+
+(1. 1-7)
+is obtained. This parametrization, formulated by Wolfenstein11, has the advantage of
+making the characters which differentiate the CKM matrix from a common unitary
+matrix particularly evident: it is almost diagonal (the diagonal elements are close to
+unity) and its elements decrease in magnitude with increasing distance from the
+
+diagonal, according to a nearly symmetrical pattern ( V V at the first non-zero
+ji ij
+
+order in ). The second part of Eq. (1.1-6) yields the following relation (for 0)
+
+tan =
+(1. 1-8)
+13
+between the phase and the parameters and : therefore 0 is the CP symmetry-
+breaking condition in the Standard Model, as expressed in Wolfenstein's
+parametrization.
+
+
+
+
+
+
+
+5
+
+
+1.2 The unitarity triangle
+
+
+Among the orthonormality relations of the row-vectors and those of the column-vectors
+of the CKM matrix (9 independent relations in all),
+2 2
+V + 2
+V + V = 1 i = u, c,t (1. 2-1)
+id is ib
+
+V V V V V V (1. 2-2)
+ud us +
+cd cs +
+td ts = 0
+
+V V V V V V (1. 2-3)
+ud ub +
+cd cb +
+td tb = 0
+í
+
+(the first provides a way of testing the unitarity condition, with reference to direct
+measurements of the elements of the same row), Eq. (1. 2-3) is of particular interest, as
+it defines on the complex plane a triangle whose sides have dimensions of the same
+order in ( ( 3
+)) and thus subtend angles having comparable amplitudes. The length of
+one of the sides can be normalised to the real value 1: dividing Eq. (1. 2-3) by
+V V ,
+cd cb
+
+one obtains the so-called unitarity triangle, defined by the relation
+
+1+ V V V V
+td tb + ud ub = 0
+, (1. 2-4)
+V V V V
+cd cb cd cb
+
+and represented in Figure 1, where the angles are indicated, according to a widespread
+convention, by the letters , , .
+
+(,)
+* V V *
+V V td tb
+ud ub
+* V V *
+V V cd cb
+cd cb
+
+(0,0) (1,0)
+Figure 1. ­ The unitarity triangle
+
+
+The vertex of the triangle is the complex vector
+
+1+ V V
+td tb = ( + i) 2
+
+1- +
+( 4). (1.2-5)
+V V
+cd cb 2
+1
+The correction of order 4
+is equal to 4 -4
+f (,, )
+A 310 ; thus
+8
+2
+2
+
+= 1- and = 1- (1. 2-6)
+2
+2
+are, almost exactly, the coordinates of the vertex in the complex plane. The angle is
+equal to the phase of the canonical parametrization:
+13
+
+= arctan = arctan = . (1.2-7)
+13
+
+
+
+
+6
+
+
+, and are in direct relation to the CP asymmetries which are peculiar to B meson
+2
+decays. Forthcoming experiments will measure sin2, sin2 and sin or sin2. The first
+two observables can be expressed as functions of and in the following way:
+2 ( 2 2
++ - ) 2 (1- )
+sin 2 = ( ; sin 2 = . (1. 2-8)
+2
++ - )2
+2 2
++ (1- )2 2
++
+The CP asymmetry which should be measured in the decays 0 0 0
+B , B J K is defined
+d d S
+
+as
+-
+CP N ( 0 0
+B J K N B J K
+d S ) ( 0 0
+d S )
+a = (1. 2-9)
+0
+J KS N ( 0 0
+B J K + N B J K
+d S ) ( 0 0
+d S )
+(N is the number of events in a given proper time interval) and is proportional to sin2.
+A very preliminary measurement of this asymmetry has been performed recently by
+CDF13, but given the lack of precision it cannot be interpreted as a definitive proof of
+CP violation in the b quark sector. New, precise measurements of this quantity are
+expected in the forthcoming years from dedicated experiments like BaBar, Belle and
+HERA-B, which should start their physics data taking since the beginning of the year
+2000. Moreover, the upgraded version of the CDF detector should provide new results
+from the beginning of 2001. Finally, the LHCb experiment should be operative from
+year 2006. These experiments will be active at different machines ( + -
+e e colliders, pN
+fixed target, p
+p and pp colliders) and with different experimental techniques. This will
+
+lead to independent determinations of the angles of the unitarity triangle. The attainable
+precision will also depend on the technique used and on the actual value of these
+quantities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+
+2 Experimental determination of the CKM matrix
+elements
+
+As it will become explicit in the following Subsections, the possibility of carrying
+out independent measurements of the CKM matrix elements and other observables
+connected with weak decay amplitudes is due to the great precision with which the
+Fermi constant G was measured.
+F
+
+The measurement of the muon lifetime, by which G is determined, has been the
+F
+
+subject of nearly half a century of experimental inquiries14, which began in the early
+Forties. The first accurate measurement was carried out at CERN15 in 1962 and, for the
+first time, an inconsistency with the coupling constant of the nuclear transition
+14 O14N + +
+e + clearly emerged. One year later this evidence led Cabibbo1 to a new
+e
+
+formulation of the weak-coupling universality principle. The present level of precision
+was achieved in 1984 by the Saclay-CERN-Bologna16 and TRIUMPH17 groups. The SCB
+group also provided one of the most meaningful tests of CPT invariance through a
+determination of the ratio
++ - . From the world average of these measurements, the
+µ µ
+
+following value of G is obtained12 taking into account the radiative corrections:
+F
+
+G (*). (2-1)
+F = ( - -
+.
+1 16639 ± ) 5 2
+00001
+.
+0 10 GeV
+
+Sections 2. 1 to 2. 6 describe the direct measurements of the CKM matrix elements of
+the first two rows. In most cases, the main source of uncertainty in the values obtained
+is the theoretical interpretation of the experimental results. In fact, detailed calculations
+of hadronic terms are generally needed to relate the measured quantities to the CKM
+elements. Moreover, different theoretical approaches do not always give univocal
+predictions. For example, in the recent investigations of rare B decays the data analysis
+is strongly dependent on the model used. The problems of theoretical interpretation are
+not restricted to the latest results: the extraction of V from the hyperon decay
+us
+
+measurements, for example, still cannot rely on a solid agreement between independent
+theoretical calculations. As a further example, the lack of consistency between the very
+precise V value obtained from the analysis of nuclear decays and the unitarity of the
+ud
+
+CKM matrix has led to the formulation of a number of (not yet fully established)
+hypotheses which can explain the discrepancy with the expected value by predicting
+additional nuclear structure effects. The discussion of these aspects is essential in
+obtaining reliable estimations of the CKM matrix elements.
+From a different point of view, the main interest in the measurement of the
+observables which are related to the elements of the third row (B meson mixing, CP
+violation parameters) is the chance of revealing the existence of new physics, since the
+hypotheses involved are subject to a wide range of possible modifications in the
+extensions of the Standard Model. The information available on the elements of the third
+row will be collectively discussed in section 2. 7, since all the measurements give
+combinations rather than single CKM elements.
+
+
+
+* Units = c = 1 are used here and throughout the text.
+
+
+8
+
+
+2.1 |Vud|
+
+Super-allowed nuclear transitions, neutron decay and pion decay are the
+experimental sources which provide basic information for the determination of V .
+ud
+
+Several difficulties are encountered in the theoretical description of these processes when
+tracing back from the hadron to the quark level (u d) transition. The result obtained
+from the study of nuclear decays is sufficient to make V the CKM matrix element
+ud
+
+known with the greatest precision; nevertheless, additional nuclear corrections, which
+have been proposed in order to account for a 2 incompatibility with the value expected
+assuming unitarity, may still have to be applied. The deduction of V from neutron
+ud
+
+decay has to deal with the historical inconsistency between the independent
+measurements of the axial coupling constant as well as of the neutron mean-life. Pion
+decay provides the cleanest way of extracting V , but a suitable level of precision has
+ud
+
+still to be attained through a refined measurement of the decay rate.
+
+
+2.1.1 Super-allowed nuclear decays
+
+The most precise and the largest amount of experimental information on V comes
+ud
+from the analysis of super-allowed nuclear decays, in which the spin-parity P +
+J = 0
+and isospin of the nuclei are preserved. Due to the energies released in these processes,
+the so-called allowed approximation assumes that the emitted leptons have zero relative
+angular momentum. Under this hypothesis, the + +
+0 0 nuclear decays can be simply
+described considering only the vector part of the weak interaction (Fermi transitions).
+Moreover, the nucleus involved in a transition occurring within an isospin multiplet is
+labelled with the same quantum numbers in the final state as in the initial one; then,
+assuming an exact isospin symmetry and that the other nucleons behave as spectators,
+the initial and final nuclear states are completely superimposed, so that the nuclear
+matrix element can be assumed independent of any detail of the nuclear structure and is
+given by a simple isospin coefficient. In this way the experimental values of ft ­ the
+product of the phase space factor f, depending on the atomic number and the end-point
+energy, and the half life t of the specific process ­ are expected to be nearly the same in
+all the super-allowed transitions.
+For the super-allowed transitions occurring within isospin T= 1 multiplets, ft is defined
+by
+= K
+ft = K
+2
+(2. 1-1)
+2 2 2
+G M 2G V
+F ud
+V fi
+
+2
+where
+M is the matrix element, G the vector coupling constant, which depends
+fi = 2 V
+
+on the V matrix element, G = G V , and the constant K is
+ud V F ud
+
+- -
+K 3
+= 2 ln 2 m5 10 4
+= 271
+.
+8120 ± .
+0 012 10 . (2. 1-2)
+e ( ) GeV s
+
+
+
+
+
+9
+
+
+A more accurate description of these processes, which includes the small (of the
+order of 1%) and calculable contribution of electromagnetic effects and radiative
+corrections, leads to the following expression:
+t ( K
+ft 1 + 1- = (2. 1-3)
+R )( C ) 2
+2
+G
+2 V 1+
+F ud ( R )
+where and are the nucleus-dependent and nucleus-independent radiative
+R R
+
+2
+corrections and is the charge-dependent correction to M due to isospin
+C fi
+
+symmetry breaking.
+The nucleus independence of the t value and its direct correspondence to the V
+ud
+
+matrix element are two important theoretical aspects which make the study of super-
+allowed nuclear transitions particularly useful for the determination of V . From an
+ud
+
+experimental point of view, the study of these reactions is simpler than that of neutron or
+pion decays and more precise measurements can be obtained. The ft value of a super-
+allowed transition A A
+X + Y + + e
++ is determined by measuring the total half-life,
+e
+0 0
+
+the branching fraction (R) and the end-point energy of the specific process, which can be
+clearly identified by measuring the relative yield and the energy of the monochromatic
+
+rays emitted in the Y nuclear de-excitations.
+The averaged experimental results of nine super-allowed decays, including the
+recent data for 10 C (particularly relevant as it is close to the Z= 0 limit where the effects
+of the nuclear structure vanish) have been collected and updated by Towner and Hardy18
+(see Table I). The radiative and nuclear structure corrections have been evaluated taking
+into account the results of several independent calculations19. As expected, the corrected
+ft-values are in fact mutually compatible. Their weighted average
+t = 3072.3 ± 0.9 ± 1.1 = 3072.3 ± 2.0 s (2. 1-4)
+(where the second error is due to the systematic difference between two independent
+computations of and has been added linearly to the statistical error) leads, with
+C
+= (2.40 ± 0.08) 10-2,
+(2. 1-5)
+R
+
+to the following measurement of V :
+ud
+
+V = 0.9740 ± 0.00014
+ud exp ± 0.00048 th = 0.9740 ± 0.0005 (2.1-6)
+(the second error represents the uncertainty on the radiative corrections).
+
+In spite of its precision, the value of V obtained from nuclear decays has been
+ud
+
+often criticized due to the inconsistency it presents with the unitarity of the 3×3 CKM
+matrix. Combining the result 2. 1-6 with the best values of V (2.2-16) and V (2. 4-
+us ub
+
+4), in fact, a deviation of 1. 9 from unity is found:
+2 2 2
+V V V . (2. 1-7)
+ud + us + ub = .
+0 9971± 0015
+.
+0
+
+This result may indicate that the value 2. 1-6 is underestimated. Various attempts have
+been made to explain this inconsistency by including additional corrective factors.
+On pure phenomenological grounds, Wilkinson20 admitted a residual dependence of t
+on Z and tried to extract it from the experimental data. After extrapolating t to Z = 0
+the value V = 0.9746 ± 0.0006 was obtained.
+ud
+
+
+
+
+
+10
+
+
+Saito and Thomas21 proposed a physical model of the infinite nuclear matter, in which
+the influence of nuclear binding, mediated by meson exchange, is studied in terms of the
+quark degrees of freedom. A non-negligible charge-symmetry violating effect was found
+to involve the quarks inside bound nucleons, resulting in an additional correction to the
+ft value, which should raise V by 0. 06 to 0. 08%,
+ud
+
+V = 0.9747 ± 0.0006, (2. 1-8)
+ud
+lowering the discrepancy with the unitarity condition to 1 .
+Since none of the model proposed have been clearly established yet, they are not applied
+directly neither in Ref. 18 nor by the PDG12. However, we follow the PDG in enlarging
+the uncertainty in the determination of V :
+ud
+
+V = 0.974 ± 0.001. (2. 1-9)
+ud nuclear
+
+Q t1 2 R P t
+EC ft
+Z EC
+(keV) (ms) (%) (%) (s) (s)
+10 C 5 1907.77(9) 19290(12) 1.4645(19) 0.296 3038.7(45) 3072.9(48)
+14 O 7 2830.51(22) 70603(18) 99.336(10) 0.087 3038.1(18) 3069.7(26)
+26m Al 12 4232.42(35) 6344.9(19) 99.97 0.083 3035.8(17) 3070.0(21)
+34 Cl 16 5491.71(22) 1525.76(88) 99.988 0.078 3048.4(19) 3070.1(24)
+38m K 18 6044.34(12) 923.95(64) 99.998 0.082 3049.5(21) 3071.1(27)
+42 Sc 20 6425.58(28) 680.72(26) 99.9941(14) 0.095 3045.1(14) 3077.3(23)
+46 V 22 7050.63(69) 422.51(11) 99.9848(13) 0.096 3044.6(18) 3074.4(27)
+50 Mn 24 7632.39(28) 283.25(14) 99.942(3) 0.100 3043.7(16) 3073.8(27)
+54 Co 26 8242.56(28) 193.270(63) 99.9955(6) 0.104 3045.8(11) 3072.2(27)
+Average
+t = 3072.3(9)
+2 /8 = 1.10
+
+Table I. ­ Experimental results, computed electron-capture probabilities ( P ) and ft-
+EC
+values of nine super-allowed +
+decays (see Ref. 18). The values of the total half-lives
+( t1 2 ), the branching ratios (R) and the electron-capture probabilities computed for 0+
+0+ transitions have been used to determine the partial half-life t = t1 2 (1+ P . f is the
+EC ) R
+
+value of the phase-space integral corresponding to the atomic number Z of the residual
+nucleus and the Q-value of each reaction ( Q is the Q-value of the electron-capture
+EC
+process, Q Q + + 2m ). The last column lists the ft-values after correction for
+EC e
+
+
+nucleus-dependent effects.
+
+
+
+2.1.2 Neutron decay
+
+The free neutron mean life ( ) and the ratio g g between the coupling
+n A V
+
+constants of axial and vector currents (both take part in the decay of neutrons) are in this
+case the experimental parameters required for the determination of V 18:
+ud
+
+
+
+
+
+11
+
+
+2 K / ln 2
+V = (2. 1-10)
+ud 2 2
+G 1+ 1+ 3 g g f 1+
+F ( R )( ( A V ) ) ( R ) n
+where K is the typical constant of decays (Eq. 2.1-2), the nucleus-independent
+R
+
+radiative correction (2. 1-5) and f (1 + the phase-space function (which depends on
+R )
+the Q-value) after radiative correction, f (1+ =1.71489 ± 0.0000222. The
+R )
+
+experimental data concerning neutron decay are shown in Table II.
+
+The results of several measurements, based on two different experimental
+techniques, are used for the determination of the neutron mean life.
+i. The method used in the first experiments consists in counting the decays which
+occur in a definite portion of a continuous or pulsed neutron beam. The precision of
+the result depends mainly on the accuracy with which it is possible to determine the
+spatial dimensions of the observed part of the beam and its density of neutrons.
+From these quantities the initial population, N 0 , can be computed; the mean life is
+
+derived from the relation ( -
+N - N N = e
+0 , where N is the number of the
+t ) t
+0 t
+
+neutrons which have decayed in the transit time t.
+ii. The recent development of techniques for the production and the accumulation of
+ultra-cold neutrons (having kinetic energy lower than -7
+310 eV ) has considerably
+reduced the sources of systematic errors in the measurement of the mean life. Very
+slow neutrons can be confined within material walls or magnetic traps. By counting
+the number of neutrons inside the cell as a function of time, can be determined
+n
+
+as the only parameter of the exponential decay law. The efficiency of the detector
+(which does not affect the measured ratio between the populations at different
+times), the volume of the cell and the initial density do not need to be known and it
+is not necessary to detect the decay products.
+
+The ratio g g between the axial and vector coupling constants can be determined
+A V
+
+by measuring the parameters describing the correlations between neutron spin and lepton
+momenta. The decay probability per unit time has the following expression:
+p p p p p ×p
+e e ( e )
+P(p ,p ,) 1 + + + + (2. 1-11)
+e a A B D
+Ee
+E Ee
+E Ee
+E
+
+where E , p and
+e
+E , e
+p are the energies and the momenta of the electron and the
+
+antineutrino, the neutron spin).
+i. The axial part of weak interaction is responsible for an anisotropic production of the
+electrons. The number of electrons emitted in the same direction as the nuclear spin
+(
+N ) is smaller than the number of electrons going in the opposite direction (
+N ).
+Consequently, when the neutrons are polarized the term which correlates neutron
+spin and electron momentum is non-zero and its coefficient
+
+N -
+A N (2. 1-12)
+
+N + N
+is measurable; then = g g can be determined from the relation
+A V
+( + )
+1
+A = -2 2 .
+(2. 1-13)
+1+ 3
+
+
+12
+
+
+
+
+Experimental techniques (s) References
+n
+918 ± 14 1972 Christensen et al. 23
+decay count of beamed 891 ± 9 1988 Spivak24
+neutrons 876 ± 21 1988 Last et al. 25
+878 ± 30 1989 Kossakowski et al. 26
+889.2 ± 4.8 1996 Byrne et al. 27
+903 ± 13 1986 Kosvintsev et al. 28
+877 ± 10 1989 Paul et al. 29
+Accumulation of ultra-cold 887.6 ± 3.0 1989 Mampe et al. 30
+neutrons 888.4 ± 3.3 1992 Nesvizhevskii et al. 31
+882.6 ± 2.7 1993 Mampe et al. 32
+886.7 ± 1.9
+Average (2 /7 = 1.53, s =1.24)
+
+
+
+Measured quantities g g References
+A V
+-1.258 ± 0.015 1975 Krohn et al. 33
+-1.261 ± 0.012 1979 Erozolimskii et al. 34
+Decay asymmetry of free -1.262 ± 0.005 1986 Bopp et al. 35
+polarized neutrons -1.2594 ± 0.0038 1997 Yerozolimsky et al. 36
+-1.266 ± 0.004 1997 Liaud et al. 37
+-1.274 ± 0.003 1997 Abele et al. 38
+Electron-neutrino correlation
+coefficient (from the analysis -1.259 ± 0.017 1978 Stratowa et al. 39
+of the proton energy spectrum)
+Rate of muon capture in -1.24 ± 0.04 1984 Bertin et al. 40
+hydrogen
+-1.2665 ± 0.0025
+Average (2 /6 = 1.88, s =1.37)
+Table II. ­ Neutron decay: measurement of the parameters necessary for the
+determination of V (statistical and systematic errors have been added in quadrature).
+ud
+
+The results of more than twenty years of experimental investigation are listed. The
+mutual determinations of and g g (obtained fixing the value of cos or V )
+n A V C ud
+
+have obviously not been taken into account. All the data have been used in the
+calculation of the averages; however, given the wide range of the error values, the
+compatibility test (2) has been performed without taking into account the least precise
+measurements. The degrees of freedom of the measurements whose uncertainties exceed
+the (arbitrarily defined) threshold value of ten times the unscaled error in the average
+have not been counted. The g g value independently obtained from the measured
+A V
+
+rate of nuclear muon capture by a proton is also quoted for comparison.
+
+
+
+
+
+
+13
+
+
+F
+V i
+ud gure 2.
+. The -g g
+A V n
+1.19 1.21 1.23 1.25 1.27 1.29
+dar 840 860 880 900 920 940
+­ N
+k bands eutr
+Krohn et al. Christensen
+on mean life and et al. 1972
+1975
+repr Kosvintsev et
+es Stratowa et al. 1986
+en al. 1978
+t the
+Spivak 1988
+av Erozolimskii
+g
+e A
+r et al. 1979 Last et al.
+age g 1988
+14 V
+v meas
+a Bertin et al.
+lue Kossakowski
+1984 et al. 1989
+s (w urements
+ith r Paul et al.
+Bopp et al. 1989
+1986
+es us
+cale Mampe et al.
+ed in the deter 1989
+d e Yerozolimsky
+et al. 1997
+rr Nesvizhevskii
+or et al. 1992
+s, s Liaud et al.
+ee 1997 Mampe et al.
+Table mination of 1993
+
+Abele et al.
+II). Byrne et al.
+1997 1996
+
+
+
+ii. In the experiments using non-polarized neutrons the coefficient
+2
+-1
+a = - 2
+(2. 1-14)
+1+ 3
+of the electron-neutrino angular correlation is measured, since it is the only term of
+the decay probability which does not depend on neutron spin and therefore does not
+vanish on the average. The parameter a is extracted by comparing the measured
+energy distribution of the outgoing protons to the spectrum shape calculated as a
+function of a.
+iii. A determination of g g was deduced by the experimental data regarding muon
+A V
+
+capture in hydrogen40 -- a process which, according to the hypothesis of lepton
+universality, is analogous to the reversed neutron decay.
+
+To compute the average values of and g g , scale factors have been applied to
+n A V
+
+the errors because of the disagreement between independent determinations. The
+dispersion of the measurements is shown in Figure 2.
+Substituting the best values of and g g in Eq. (2. 1-10), the result
+n A V
+
+V (2. 1-15)
+ud = 9755
+.
+0 ± 0.0016g g ± 0010
+.
+0 ± .
+0 0004
+neutron = .
+0 9755 ± 0019
+.
+0
+A V n R
+
+is obtained. The experimental uncertainty, which is the most substantial contribution in
+the total error, exceeds the one of the measurement (2. 1-6) deduced from nuclear decays
+(which is mainly theoretical in origin) by more than one order of magnitude. This
+determination is compatible with the nuclear result (2. 1-9) and with unitarity (1-2-1):
+2 2 2
+V V V . (2. 1-16)
+ud + us + ub = 0000
+.
+1 ± 0039
+.
+0
+
+It should however be noticed that single measurements of g g would lead to different
+A V
+
+determinations of V which in some cases are incompatible with each other, with the
+ud
+
+nuclear result and with unitarity. For example, when the measurement by Abele at al. 38
+is used alone (not averaged), it leads to the value V = 0.9712 ± 0.0020, which is even
+ud
+
+lower than the result given by nuclear decays (2. 1-6) and deviate from unitarity by 2. 1
+2
+standard deviations ( V ). On the contrary, if the average of the
+ui = 9916
+.
+0 ± .
+0 0040
+i=d ,s,b
+
+remaining seven measurements is considered ( g g = -1.2621 ± 0.0023 with
+A V
+2 /6 =0.26), the resulting value V = 0.9788 ± 0.0016 actually exceeds unitarity by
+ud
+
+2 2
+: V . Most likely, therefore, the determination 2. 1-15 is the
+ui = .
+1 0065 ± 0033
+.
+0
+i=d ,s,b
+
+result of a number of accidental compensations between opposite systematic effects.
+
+
+2.1.3 Pion decay
+
+With respect to the already described methods for determining V , the advantages
+ud
+
+of studying pion decay are twofold: it is a pure vector transition and, obviously, it
+does not depend on effects due to nuclear structure. Unfortunately, the small ( -8
+10 )
+
+
+
+
+15
+
+
+branching ratio of the channel + 0 +
+e has not yet been measured precisely enough
+e
+
+to provide a competitive determination of V . In the relation18
+ud
+2 ( + 0 +
+K / ln 2)7 ( e e )
+V = (2. 1-17)
+ud 2
+G
+2 1+ f f f
+1 2 1+
+F ( R ) ( R )
+K , G and are given by Eqs. (2.1-2), (2-1) and (2.1-5) respectively,
+F R
+5
+, f = [(m m ± - m = ±
+± - m 0 ) m ] where12
+0 ( .45936 .0 )
+0005
+e 30
+R = ( .
+1 05± .
+0 )
+15 %
+MeV and the corrections f (m -
+1 and f 2 , calculated as functions of ± m 0 ) m ± , are41
+
+f f2 = 0
+1 = 0.941039 and .951439 . Using the values of the branching ratio of the
+reaction and the pion mean life,
+7 ( + 0 +
+e )= (1 025
+. [41, 12]
+(2. 1-18)
+e ± 0.034) -8
+10
+= (2 6033
+.
+± 0 0005
+. )-8s [42,12], (2. 1-19)
+from Eq. (2. 1-17) the result
+V 9670
+.
+0 ± .
+0 0160 ± .
+0 0009 = .
+0 967 ± 016
+.
+0
+ud =
+pion 7 , (2. 1-20)
+
+is obtained, which is consistent with the other measurements of V and with unitarity:
+ud
+
+2
+V . (2. 1-21)
+ui = 984
+.
+0 ± .
+0 031
+i=d ,s,b
+
+The experimental uncertainty should be reduced by a factor of 10 before it becomes
+comparable to the theoretical error. A new, more precise measurement of the decay rate,
+therefore, would be essential. It would make it possible to get around the controversial
+aspects of the theoretical description of nuclear decays, and provide an unambiguous
+determination of V without requiring the knowledge of additional experimental
+ud
+
+parameters such as the axial coupling constant in the case of neutron decay.
+
+
+2.1.4 Summary of |Vud| determinations
+
+The best value of V is calculated as the weighted average of the independent
+ud
+
+determinations 2. 1-9, 2. 1-15 and 2. 1-21:
+V = 0.9740 ± 0.0010. (2.1-22)
+ud nuclear
+
+V = 0.9755 ± 0.0019. (2.1-23)
+ud neutron
+V 0.967 ± 0.016. (2. 1-24)
+ud =
+pion
+
+Average V = 0.9743 ± 0.0008.
+
+(2. 1-25)
+ud
+
+
+
+
+
+
+
+
+
+
+
+
+16
+
+
+2.2 |Vus|
+
+A precise determination of V can be obtained from the analysis of kaon and
+us
+
+hyperon semileptonic decays. In this Section, we will describe the results and point out
+the main theoretical uncertainties connected with the two methods.
+
+
+2.2.1 Kaon semileptonic decays
+
+The + 0 -
+K 0
++ K processes, called respectively +
+K and 0
+K ,
+L +
+and 3 3
+are pure vector s
++
+u transitions. From the observed decay rates the value of
+
+V can be extracted according to the relation43
+us
+
+2
+2
+= G V
+F us 5 2
+m C f . (*)
+(2. 2-1)
+K
+3 1( 2
+0) (1+ )(1+ )
+192 I
+Here
+G is the Fermi constant, I the phase-space integral, m the kaon mass, C a
+F K
+normalization constant ( 2
+C =1/2 and 2
+C =1 for the +
+K and 0
+K transitions respectively),
+3 3
+(channel-dependent) and the radiative corrections44, 45
++
+0
+= ( K
+.
+2 12 ± 08
+.
+0 ) -
+% = .
+2
+%
+0 or
+e3 . (2. 2-2)
+0
+%
+5
+.
+0
+0
+or Ke3
+The form factor f appearing in Eq. (2. 2-1) and the analogous f account for the
+2 (t )
+1(t )
+
+dependence of the matrix element of the vector current on the square momentum transfer
+2
+t = ( p :
+K - )
+
+p
+µ µ µ µ µ
+K (p = + + - .
+(2. 2-3)
+K ) u s (p ) C ({p p
+K )f1(t ) (p p
+K )f2 (t )}
+To compute the integral I, the t-dependence of both form factors has to be known:
+(m -m
+K )2
+1 m m 3m m m
+3 2
+2
+2
+2
+2 2
+2 K - 2
+2
+I = dt 1 1 f t f t (2. 2-4)
+8 2
++ -
+1( ) ( )
++
+
+m t t t m
+2
+K m 2
+(2 + 2) ( )
+
+
+where
+( 2
+m + - - , f (t ) f t + t f t m - ,
+1 ( ) 2 ( ) ( 2 2
+K
+m )
+K
+m t )2
+2 2 2
+4 mK
+m
+
+f t f t f , f (t ) f (t) f (0)
+1( ) 1 ( ) (0
+1 )
+and m , m ( = ,
+e µ ) are the masses of the particles involved in the process. One
+K
+m ,
+
+can determine the reduced form factor f from the experimental data, which can be
+1 (t )
+
+fitted with an f depending linearly on t. On the contrary, the linear form does not
+1 (t )
+
+give a good description of the data in the case of f (t). However, since f (t) is
+multiplied by the square lepton mass in the expression of I (2. 2-4), its contribution can
+
+
+
+* This formula is valid if the small (3 ) CP violating effect which differentiates the rates of
+0 - 0 +
+K +
+e and K -
+e decays is neglected. This is certainly an allowed
+L e L e
+
+approximation given the current precision (1%) of the experimental data and the presence of
+larger theoretical uncertainties.
+
+
+
+17
+
+
++ 0
+be made negligible by considering only the K decay yields ( K +
+e and
+e3 e
+0 -
+K +
+e
+L e ). In this way, the integrals can be computed as43
+
+I + = .
+0 1605± ,
+0009
+.
+0
+Ke3 (2. 2-5)
+I = ±
+0 .
+0 1561 .
+0008
+.
+0
+Ke3
+Substituting these values and the latest average determination of the rates for the +
+K
+e3
+and 0
+K processes12
+e3
++ = ( -
+560
+.
+2 ± .
+0 ) 15
+033 10 MeV
+Ke3 (2. 2-6)
+-
+= ±
+0 ( 937
+.
+4 ) 15
+053
+.
+0 10 MeV
+Ke3
+
+into Eq. (2. 2-1), one obtains
++ 0
+
+f K Vus = ± ±
+1 (0) 2181
+.
+0 .
+0 0015 0001
+.
+0
+(2. 2-7)
+0 -
+f K V = ± ±
+1 (0) 2101
+.
+0 0013
+.
+0 0001
+.
+0
+us
+
+where the theoretical uncertainty of the radiative corrections (a relative error of the same
+order as that on has been assumed for ) is quoted separately to show that it is
+negligible. The two results can be combined after taking into account the effects of
+isospin symmetry breaking: with43
++ 0 -
+K K
+f f = ± (2. 2-8)
+1 ( 0
+0) 1 (0) .1022 0 002
+.
+the weighted average
+0 -
+f K V (2. 2-9)
+us = ±
+1 (0) 2114
+.
+0 0016
+.
+0
+
+is obtained (*).
+Two calculations were performed to determine the form factor of the +
+K decay at
+e3
+
+zero momentum transfer, giving the following results:
+0 -
+K
+f = ± 43, (2. 2-10)
+1 (0) .0961 008
+.
+0
+0 -
+K
+f = ± 46. (2. 2-11)
+1 (0) .0963 .0004
+The reliability of the error estimate in Eq. (2. 2-10) was questioned by the authors of
+Ref. 47 due to the uncertainties which are inherent in all chiral perturbation theory
+computations. However, a perfectly consistent result was provided by the second,
+independent calculation (2. 2-11), performed in the framework of a relativistic
+constituent quark model which proved to be successful in the description of the electro-
+weak properties of light mesons.
+Using the result 2. 2-10, from Eq. (2. 2-9) one obtains
+
+V = 0.2200 ± 0.0017
+us exp ± 0.0018th = 0.2200 ± 0.0025. (2. 2-12)
+
+
+
+
+
+* -
+The two determinations of 0
+f K , though consistent at the 11% confidence level
+1 (0) Vus
+(2/1 = 2.6), have been averaged, as suggested by the PDG12, after multiplying the errors by the
+
+scale-factor s = 2 1 =1.6. This procedure is followed also in those cases where other authors
+prefer not to average the results at all. Incidentally, better agreeing results would be obtained for
+0 -
+
+f K if the channel-dependent radiative corrections in Eq. 2.2-2 would not be applied.
+1 (0) Vus
+
+
+18
+
+
+2.2.2 Hyperon semileptonic decays
+
+The deduction of V from hyperon semileptonic decay rates requires a more
+us
+
+complex theoretical analysis. While the kaon decays are described by the vector
+interaction alone and thus the SU(3) symmetry-breaking occurs at the second order only
+(Ademollo-Gatto's theorem), an accurate study of hyperon decays requires the additional
+computation of the more substantial (first-order) correction for the axial form factor.
+Donoghue, Holstein and Klimt48 (DHK) computed SU(3)-breaking corrections up to the
+second order for the vector part and to the first order for the axial one, and applied them
+to the WA2 data (SPS) combined with the previous world averages (ten distinct hyperon
+decay channels in all)49. Finally, they quoted the result
+
+V = 0.220 ± 0.001
+us exp ± 0.003th, (2. 2-13)
+
+where the error is evidently dominated by the theoretical uncertainty. The PDG12 do not
+use the hyperon decay result to determine the best value of V . Flores-Mendieta et
+us
+
+al. 50 tested the reliability of four distinct theoretical models which provide second order
+SU(3)-breaking corrections for hyperon semileptonic transitions and pointed out a strong
+model-dependence of the results. In particular, using the DHK model they found a value
+of V noticeably higher than the one originally determined by the authors themselves
+us
+
+(2.2-13), and much less consistent with the kaon decay data. This disagreement may be
+explained as the result of a different treatment of the experimental data. For example, in
+Ref. 50 only the three most precisely measured decay channels instead of the original ten
+were taken into account. This reduction in the experimental basis increases considerably
+the relative statistical weight of the -
+e
+
+- data, which is the one showing by far
+e
+
+the worst agreement with the DHK model, as already found by the authors themselves.
+Moreover, the weighted average of two disagreeing results
+( - -
+e [49]
+e ) = ( -
+83
+.
+1 ± .
+0 79) 6 1
+10 s
+( - -
+e [51] (2. 2-14)
+e ) = ( -
+.
+3 44 ± .
+0 19) 6 1
+10 s
+average ( - -
+e with 2 = 4
+e ) = ( -
+.
+3 36 ± 19
+.
+0 ) 6 1
+10 s
+-1
+(the first of which is consistent with the DHK fitted value of 2.65106 s ) is used for the
+-
+e
+
+- decay width in both the analyses, but only DHK apply a scale factor of 2
+e
+
+to the errors to make the two measurements compatible. The authors of the second
+analysis50 quote the value obtained using the chiral perturbation model of Ref. 52 as the
+best determination of V from hyperon decays:
+us
+
+V = 0.2176 ± 0.0026. (2.2-15)
+us
+
+However, they also show that values ranging from 0. 21 to 0. 25 can be obtained by
+applying different models.
+
+Since apparently unresolved theoretical uncertainties still affect the description of
+hyperon decays, we prefer not to use these results. Therefore, we assume the
+determination obtained from kaon decays
+V = 0.2200 ± 0.0025 (2.2-16)
+us
+
+as the best value, noting however that it is in good agreement with the results of two
+different analyses of hyperon semileptonic decays.
+
+
+
+19
+
+
+2.3 |Vcd| and |Vcs|
+
+A measurement of the matrix elements V and V can be obtained from the
+cd cs
+
+study of the deep inelastic scattering of neutrinos on nucleons. For the determination of
+
+V the experimental data concerning the D K e
++
+semileptonic transitions and the
+cs e
+recent measurements of the ±
+W hadronic decays are also used.
+
+
+2.3.1 |Vcd|
+
+V and V can be extracted by comparing the cross sections of the charm
+cd cs
+
+production induced by neutrino and anti-neutrino scattering on nucleons.
+
+µ-
+µ µ+
+V V
+( )
+cd cs
+W W+ µ
+d s
+( ) c s
+Figure 3. ­ Neutrino-induced dimuon production.
+
+
+The dimuon production from neutrino-nucleon scattering can be described as a two-
+stage process (see Figure 3). The charge-current interaction of the neutrino with a d or s
+quark yields the first muon and changes the quark flavour into charm. The second muon,
+having the opposite charge, is the result of the semileptonic decay of the c quark:
++ d (s) c + µ- c s + µ+ +
+µ ( µ ) (2.3-1)
++ d (s) c + µ+ c s + µ- +
+µ ( µ )
+
+The cross-sections of the dimuon processes were measured by the collaborations
+CDHS53, CCFR54 and CHARM II55. The cross-section terms containing the dependence
+on V and V were extracted by fitting the neutrino and anti-neutrino data
+cd cs
+
+simultaneously:
+2
+CDHS V B (2. 3-2)
+cd = (4 1
+.
+c ± 0.7) -3
+10
+2 + . + . -
+CCFR V B . (2. 3-3)
+cd c = ( 0 38 0 37
+5 34 - . stat - . 10
+0 39 0 55 syst ) 3
+
+2 + . -
+CHARM II V B (2. 3-4)
+cd c = ( 0 35
+42
+.
+4 - . ± .
+0 34
+stat syst 10
+0 34 ) 3
+where B is the weighted average of the semileptonic branching ratios of the charmed
+c
+
+hadrons produced by the neutrino-nucleon interaction. The analysis performed by CHDS
+made use of leading-order QCD calculations, while the CCFR and CHARM II results
+were obtained in the context of the more accurate next-to-leading-order formalism.
+
+
+
+
+
+20
+
+
+Combining Eqs. (2. 3-2), (2. 3-3) and (2. 3-4) (*), the following weighted average is
+obtained:
+2 -3
+V B .
+(2. 3-5)
+cd c = ( 63
+.
+4 ± .
+0 )
+34 10
+
+The value of B was calculated56 using the independently measured rates of charmed
+c
+
+hadron production from neutrinos57 and the semileptonic branching ratios58 of charmed
+hadrons:
+B = 0.0919 ± 0.0094. (2.3-6)
+c
+
+Thus from Eq. (2. 3-5) the value
+V = 0.224 ± 0.014 (2. 3-7)
+cd
+
+is obtained.
+
+
+2.3.2 |Vcs| from neutrino charm production
+
+From dimuon cross-section measurements, the above-mentioned CDHS, CCFR and
+CHARM II experiments obtained also the following results:
+2
+V
+CDHS cs = 9.3±1.6 (2. 3-8)
+V
+cd
+
+CCFR 2
+V B (2. 3-9)
+cs c = ( + 09
+.
+0
+.
+2 00± 0 10
+. 10-
+stat - syst
+15
+.
+0 ) 2
++ 2
+2
+
+1 V
+CHARM II cs
+1 + = .
+3 58 + 49
+.
+0
+(2. 3-10)
+- ± 0 44
+.
+41
+.
+0 stat syst
++ 2 V
+cd
+
+Here the parameter , which quantifies the relative size of the strange quark sea, is
+defined as the ratio of the integrated distribution function of strange quarks to that of u
+and d quarks:
+1 1
+= [x s(x) + x s(x)]dx [xu (x) + x d (x)]dx
+(2. 3-11)
+0 0
+where s(x) , s (x) , u (x) and d (x) are the quark density distributions in momentum
+space and x is the fraction of nucleon momentum carried by the quark. All three
+analyses assumed the equality s (x) = s(x) . Although this assumption can be
+contradicted59,60, CCFR verified that the removal of the s (x) = s(x) constraint does not
+lead to a significant modification of the results.
+A new analysis by CCFR61, which has determined the value of with an
+independent measurement of the inclusive neutrino cross-section, makes it possible to
+extract a measurement of V from these data. The result,
+cs
++0 028
+= 0.453± 0 106 .
+. -0 096 , (2. 3-12)
+.
+
+indicates a marked SU(3)-flavour-symmetry violation (an SU(3)-symmetric sea would
+have = 1). In order to compare the CDHS, CCFR and CHARM II results for V , we
+cs
+
+
+* For the estimate of V (and of V in the next Subsection), we symmetrize the errors in the
+cd cs
+
+CCFR result, taking the average of the positive and negative errors (statistical and systematic
+added in quadrature) while keeping the same central value.
+
+
+
+21
+
+
+multiply Eqs. (2. 3-9) and (2. 3-10) by + 2 = 2.453 ± 0.126, Eq. (2.3-8) and the
+2
+determination of V V resulting from Eq. (2. 3-10) by Eq. (2. 3-5), obtaining:
+cs cd
+2 -
+CDHS 2
+V B (2. 3-13)
+cs c = ( 31
+.
+4 ± )
+81
+.
+0 10
+2 -
+CCFR 2
+V B (2. 3-14)
+cs c = ( .
+4 91± )
+46
+.
+0 10
+2 -
+CHARM II 2
+V B
+cs c = ( 60
+.
+3 ± .
+0 )
+79 10 (2.3-15)
+2 -
+Average 2
+V B
+cs c = ( .
+4 53 ± .
+0 )
+37 10 (2.3-16)
+From Eqs. (2. 3-6), (2. 3-12) and (2. 3-16) V is determined as follows:
+cs
+
+V = 1.04 ± 0.16. (2.3-17)
+cs
+
+
+
+2.3.3 |Vcs| from semileptonic decays of D mesons
+
+
+V can also be obtained by comparing the measured decay amplitude of the
+cs
+
+semileptonic processes D ( D K e
++
+) to the corresponding expression in the theory
+e3 e
+
+of weak interaction. The method is very similar to the one used for the derivation of
+
+V from K decays. The decay rate is described by the relation
+us e3
+
+
+(D +
+Ke cs
+(2. 3-18)
+e ) 2
+2
+G V
+F 5
+= m f I
+D +
+3 1 ( 2
+0) (1 û)
+192
+where the meanings of the single quantities are the same as in Eq. (2. 2-1). The phase-
+space density I is obtained by calculation of the integral 2. 2-4 with m and
+K
+m replaced
+
+respectively by m and m ; in this case, the observed square-momentum spectrum can
+D K
+
+be fitted62 using the single-pole parametrization of the reduced form factor,
+f t f t f m2 2 - , with m m .
+2 GeV
+1 . Assuming this form
+pole (m t
+pole )
+1 ( ) = 1( ) (0
+1 )= pole Ds
+
+exactly and neglecting the term proportional to 2
+m f in the integral, we get I = 0.195.
+e (t)2
+Although isospin symmetry requires equal transition rates for 0 -
+D K e
++ and
+e
++
+D K 0e
++ decays, the measured values differ considerably outside their errors. In
+e
+
+averaging the available experimental results for the D branching ratios and D
+e3
+
+lifetimes12, we rescale the error by the factor 2
+s = = 6
+.
+2 , obtaining:
+( +
+D Ke . (2. 3-19)
+e ) = ( -
+.
+8 3 ± .
+1 0) 10 1
+10 s
+After substituting into Eq. (2. 3-18), we get
+f 0 V 0.53 ± 0.06.
+(2. 3-20)
+1( )2 2
+cs =
+Most of the theoretical evaluations for the form factor at zero-recoil (see Ref. 62 for a
+review) give results included between 0.6 and 0.8. Assuming f (0 = ± , we
+1 ) .07 1.
+0
+obtain
+V = 1.04 ± 0.16, (2.3-21)
+cs
+
+in full agreement with Eq. (2. 3-17).
+
+
+
+
+
+22
+
+
+2.3.4 |Vcs| from W ± boson decays
+
+New measurements have been obtained from the recent study of ±
+W boson decays at
+LEP2. Their precision is already higher than that of the previous independent results;
+moreover, the errors are dominated by the experimental uncertainty and are bound to be
+further reduced. DELPHI63, ALEPH64, L365 and OPAL66 extracted the value of V
+cs
+
+using two independent procedures. The ratio
++
+W q
+c = V + V + V
+W ( ) 2 2 2
+R = = (2. 3-22)
+c ( q d ,s,
++
+W hadrons)
+b cd cs cb
+2 2 2 2 2 2
+V + V + V + V + V + V
+ud us ub cd cs cb
+
+(in the second equality, corrections of order 2 2
+m = m are neglected; the transitions
+q u ,d ,c,s ,b W
+
+with a top quark in the final state are energetically forbidden) was determined by tagging
+the flavours of the hadronic jets which arise from the fragmentation of the primary
+quarks coming from ±
+W decays. The results obtained,
++
+0 46
+. 18
+.
+0
+- ± 0 07
+. DELPHI
+0 14
+. stat syst
+
+.
+0 51 .
+0 05 0 03
+.
+W ± ±
+R = ALEPH (2. 3-23)
+c stat syst
+0 50
+. ± 0 11
+. ± .
+0 04 L3
+stat syst
+.047±0.04 ±0 06
+. OPAL
+stat syst
+
+are consistent with the value ½ expected assuming the unitarity of the CKM matrix. The
+ratio of hadronic ±
+W decays to leptonic ±
+W decays,
+7 ( +
+W )
+hadrons 7 ( +
+W )
+hadrons 2 2 2 2 2 2 m
+S W ,
+7 ( + 1
+W leptons) =
+1-7 ( +
+W )=(V + V + V + V + V + V
+ud us ub cd cs cb ) ( )
++
+hadrons
+(2. 3-24)
+where is the strong coupling constant and once again the quark phase-space
+S
+
+corrections have been neglected, was also measured. The results
+( +
+.
+66 0 .36
+- ± .
+0 9
+7
+.
+3 stat syst )% DELPHI
+
+7 ( 89
+.
+66 0 67
+. .
+0 31 % ALEPH
++
+W hadrons) ( ± ±
+stat syst )
+= ( (2. 3-25)
+69
+.
+68 ± 0 68
+. ± 0 39
+.
+stat syst )% L3
+( 34
+.
+68 ± 0 61
+. ± 31
+.
+0
+stat syst )% OPAL
+
+correspond (using m 12) to the determinations
+S ( W ) = 120
+.
+0 ± .
+0 005
+1 87
+. ± 0 31
+. DELPHI
+stat + syst
+2 1 946
+. ± 0 065
+. ALEPH
+V =
+(2. 3-26)
+ij stat + syst
+, 2 113
+. 077
+.
+0
+i =u c ± stat + L3
+syst
+j =d ,s,b 2 079
+. ± 0 066
+. stat + OPAL
+syst
+
+which have to be compared with the Standard Model expectation of 2.
+From the measurements of the observables 2. 3-22 and 2. 3-24 each experiment
+obtained two independent determinations of V (see Table III). The values compiled by
+cs
+
+the PDG67,12 were assigned to the other CKM matrix elements. However, their
+uncertainties only contribute to a small fraction of the V systematic errors (for
+cs
+
+example, ±0.003 in DELPHI's measurement, to be compared with ±0.05), so that the
+correlation of these results with the other measurements of the CKM matrix elements is
+negligible.
+
+
+
+23
+
+
+V from 7 (W q
+c ) V from 7 (W hadrons)
+cs cs
+
+DELPHI63 0.94 +0 32
+. 0.90 ± 0.17
+- stat ± 0.13syst stat ± 0.04syst
+0 26
+.
+ALEPH64 1.00 ± 0.11stat ± 0.07syst 0.947 ± 0.031stat ± 0.015syst
+L365 0.98 ± 0.22stat ± 0.08syst 1.032 ± 0.033stat ± 0.018syst
+OPAL66 0.91 ± 0.07stat ± 0.11syst 1.015 ± 0.029stat ± 0.015syst
+
+Table III. ­ Measurements of V obtained using W decays at LEP2. In most cases, the
+cs
+
+results are still preliminary.
+
+
+The average determinations (with statistical and systematic errors added in
+quadrature) are
++
+DELPHI V = 0 16
+.
+.
+0 91 , (2. 3-27)
+cs -0 15
+. stat + syst
+ALEPH V = .
+0 950 ± 033
+.
+0 , (2. 3-28)
+cs stat + syst
+L3 V = 031
+.
+1 ± .
+0 037 , (2. 3-29)
+cs stat + syst
+
+OPAL V = 009
+.
+1 ± 032
+.
+0 . (2. 3-30)
+cs stat + syst
+
+Finally, we average them allowing for a common systematic error of ± 0.015 and obtain
+V = 0.993 ± 0.025 (2 = 1.4), (2. 3-31)
+cs
+
+where the scale factor s= 1. 2 has been applied to (the uncorrelated part of) the errors.
+
+
+2.3.5 Determination of the best values of |Vcd| and |Vcs|
+
+The best values of V and V are obtained as the result of an overall fit to the
+cd cs
+
+measurements mentioned in the preceding Subsections. 8 constraints (Eqs. 2. 3-
+2, 3, 4, 6, 8, 9, 10, 12) and 2 direct determinations (Eqs. 2. 3-21, 31) are included in the fit
+(*). The maximum likelihood estimates of the 4 parameters of the fit, V , V , B
+cd cs c
+
+and , are
++ .
+0 013
+V (2. 3-32)
+cd = 225
+.
+0 -0 011
+.
+
+V (2. 3-33)
+cs = .
+0 996 ± .
+0 024
++ .
+0 0086 +
+B .
+0 067
+= .
+0 489 (2. 3-34)
+c = .
+0 0935- .00080 - .
+0 059
+
+with 2/d.o.f. = 2/6 = 0.7 and a 10.5% correlation between V and V .
+cd cs
+
+These results can be used to test the unitarity of the CKM matrix with reference to the
+elements of the second row: using Eqs. (2. 3-32), (2. 3-33) and (2. 5-10) ( V ) we obtain
+cb
+
+2 2 2
+V V V . (2. 3-35)
+cd + cs + cb = .
+1 044 ± 048
+.
+0
+
+
+
+
+* The following method is used to take the asymmetric errors into account. Each error is treated
+as a function of the parameters, which is constant and equal to the positive or negative error
+when the current value of the unknown term of the constraint falls outside the positive or the
+negative margin; in the intermediate region, the function is matched continuously by a straight
+line.
+
+
+
+24
+
+
+2.4 |Vub|
+
+CP violation can be included in the framework of the Standard Model only if all
+elements of the CKM quark-mixing matrix have non-zero values. This fact justified the
+strong experimental and theoretical effort devoted to the determination of V , which is
+ub
+
+expected, on the basis of the unitarity condition, to be very small.
+The observation of an excess of events in the lepton end-point spectra, interpreted as the
+result of charmless semileptonic decays of B mesons, was made by CLEO68 at CESR
+and ARGUS69 at DESY in 1990 and gave the first experimental evidence70 of a non-zero
+V . The subsequent experiments were faced with the hard task of a precise
+ub
+
+determination of its value. The main difficulty in measuring signals from b
+-
+u
+processes arises from the large background induced by the stronger b
+-
+c
+transitions. The contribution of the charmed B decays can be suppressed by looking for
+exclusive decays were charmless final states can be directly observed by means of
+invariant-mass peaks. Such measurements, though easier from an experimental point of
+view, involve the transition between the heavy B meson and a light daughter hadron,
+which is extremely challenging to describe precisely, and lead to model-dependent
+results. This approach, successfully exploited by the CLEO collaboration in the
+measurement of the 0 0 - +
+B -
+
++ B
+and branching ratios, led to the
+
+following average determination of V (see Table IV):
+ub
+
+V = ( 0
++ 21
+3 25
+. ± 0.14 . ± 0.55 10
+-0 , (2. 4-1)
+.29 ) 3-
+ub CLEO exclusive
+
+where the errors are respectively statistical, systematic and theoretical.
+
+Exclusive measurements, feasible with the B production at the (4#), are not
+effective at LEP, where the lepton momenta in the b-hadron rest frame cannot be
+reconstructed with sufficient accuracy, the efficiency of the B decay vertex
+reconstruction depends on the charge multiplicities of the final state and the
+fragmentation of the b quarks produces different particles which dilute the signal. These
+disadvantages are compensated for by the back-to-back topology of the b quark
+production from Z decays, which avoids the mixing of the B decay products. This
+characteristic is fully exploited by a novel technique based on the study of the shape of
+the invariant mass of the hadronic system recoiling against the lepton in b
+-
+u
+transitions. The analyses, up to now performed by the ALEPH and L3 collaborations,
+have allowed the determination of the b X inclusive branching ratios quoted in
+u
+
+Table IV. The basic remark is that a smaller model-dependence is expected in predicting
+the shape of this invariant-mass distribution, while the recent progress in the theoretical
+calculations has succeeded in containing the uncertainties at the level of few percent71.
+The weighted average of the inclusive branching ratios obtained by the LEP experiments
+leads to
+7 (b X 2 = 0.99 (2.4-2)
+u ) = ( -
+.
+2 0 ± 8
+.
+0 ) 3
+10
+(the correlations between systematic errors have been taken into account following the
+indications found in Ref. 72), from which, using the average b quark lifetime12
+
+
+
+
+
+25
+
+
+= ( 564
+.
+1 ± 014
+.
+0 )ps , the value of V can be extracted in the context of the Heavy
+b ub
+
+Quark Theory71:
+V = (4.3 ± 0.9exp ± 0.3th ) 10-3 = (4.3 ± 0.9) 10-3. (2.4-3)
+ub LEP inclusive
+
+This determination can be averaged with the CLEO mean value coming from exclusive
+branching-ratio measurements, giving the following reference value of V :
+ub
+
+V = (3.6 ± 0.5) 10-3 2 = 0.92. (2. 4-4)
+ub
+
+
+
+
+Experiment Decays
+measured 7 V
+ub
+
+0
+B - +
+(1 8.± 0 4. ± 0 3.± 0.2) -4
+10
+CLEO73 ( +0.3
+3.3 ± 0.2 ± 0.7 10
+-0
+.4 ) -3
+0
++ 5
+0 (2 5.±0 4. . ±0 5. 10
+-0 7
+. ) 4-
+B - +
+
+0 - +
+CLEO74 B + 35
+.
+0 -
+± ± ( 0
++ 23
+. -
+3.23 ± 0.24 ± 0.58 10
+-
+.
+0 26 ) 3
+( .269 0 41
+. 50
+.
+0 10
+- 40
+.
+0 ) 4
++ + -
+L375 (3 3.±1 0.±1 7.) 3-
+10 ( 08. 14.
+0
+.
+6 ± 2
+.
+0 10
+1
+- 0
+. 1
+- 9
+. ) 3
+inclusive
+b X 2
+V
+ub = ( ±
+u 68
+.
+18 94
+.
+5
+ALEPH76 (1 73
+. ± 0 55
+. ± 0. ) 3
+-
+55 10
+± 5 94
+. ±1 ) -6
+45
+. 10
+
+Table IV. ­ Summary of the experimental determinations of V . The branching ratios
+ub
+
+measurements have statistical and systematic errors quoted separately. Where a third
+error is given, it accounts for the model-dependence of the results.
+
+
+
+
+2.5 |Vcb|
+
+The charmed semileptonic decays of B mesons constitute the experimental basis for
+the direct determination of the matrix element V . In this Section, two different
+cb
+
+methods, which make use of exclusive and inclusive measurements, are described.
+
+
+2.5.1 Exclusive decays
+
+A number of research groups have carried out measurements of V studying the
+cb
+
+
+B D B
+D
+and exclusive decays in the kinematic configuration in which the
+D meson is produced at rest (zero recoil) and the energy of the lepton-neutrino system is
+at its maximum.
+In the context of the Heavy Quark Effective Theory (HQET)77, which approximates
+the masses of the heavy quarks involved in the process (b and c in this case) as infinite,
+the hadronic form factors appearing in the expressions of the differential semileptonic
+decay rates can be defined using one universal function ( )
+w (Isgur-Wise function),
+
+which is independent of the initial and final heavy mesons. This form factor describes
+the superposition of the light quark wave functions. The maximum overlap is reached in
+
+
+
+
+26
+
+
+the limit of zero recoil, for which the normalization (w = )
+1 = ( 2 2
+q = q ) =1 is
+max
+adopted; here 2 2 2
+w = 2
+v v = m + m - q m
+2 m , and q = (p p
+B - D )2
+B D ( B D ) ( B D) is the square
+momentum transferred to the leptonic system, with 2
+q m m . However, the
+max = ( B - D )2
+
+analytic form of the function cannot be predicted within HQET. Therefore, to extract the
+value of V the differential decay rate
+cb
+
+2
+d G 2
+F 2
+= f ( ,
+w m ,m ) ( )
+w V (2. 5-1)
+3 B D
+dw 48 cb
+
+(f is a known function measuring the density of states) is measured in the limit of zero
+recoil, where the matrix element is the only unknown factor. Due to the reduced
+observable statistics at the point of zero recoil (w= 1), the data are collected in the range
+w> 1; the value of 1
+( ) V is then obtained by extrapolating to the limit w 1+. For
+cb
+
+this purpose the function ( )
+w , a priori unknown, is parametrized as a Taylor
+
+expansion around the point w = 1:
+2
+( )
+w = 2
+( )[
+1 1- ^ (w - )
+1 + ^c(w - )
+1 + ]
+(2. 5-2)
+(the first derivative must be negative, since the condition w = 1 corresponds to the
+maximum superposition of the wave functions and thus to the maximum of (w)). The
+value of the intercept ( )
+1 V is then extracted from a fit to the differential decay
+cb
+
+data. Although not all the experiments are sensitive to the quadratic term ( ( )
+w is often
+
+assumed to depend linearly on w), basic QCD considerations favour a positive value of
+the curvature c^ , having a definite correlation with the slope 2
+^
+( ^c .
+0 66 ^ 2
+- .
+0 11 )78.
+
+The form factor ( )
+1 , which equals 1 at the leading order in the HQ expansion, is then
+determined by calculating perturbatively the effect of the finiteness of the heavy quark
+masses. While the second order 1 m ( m or m ) power corrections have been
+Q = m
+Q b c
+computed in the case of
+B D
+decays, for which the (1 m term is absent79, at
+Q )
+
+present the B
+D decays can be described with less theoretical accuracy, since only
+the first order of the expansion is known. Moreover, both the overall branching ratio
+and the rate near the point of zero-recoil are smaller for the B
+D mode, thus
+limiting the precision of the measurements.
+From the experimental analysis of the
+B D exclusive decays, CLEO and the
+LEP experiments obtained accurate determinations of the parameter ( )
+1 V . The data
+cb
+
+are displayed in Table V. OPAL and DELPHI derived their results using a quadratic
+parametrization of the Isgur-Wise function, while a linear dependence was assumed by
+CLEO and ALEPH. We do not report the results of other measurements carried out by
+ARGUS80 (
+B D B
+D
+), ALEPH84 and CLEO81 ( ), which provide less precise
+(though consistent) information.
+Since the LEP measurements, though presumably highly correlated, are scarcely
+consistent even within their total errors, we compute their weighted average separately
+(in this way we avoid diluting the reduced 2 with the contribution of the independent
+measurement by CLEO) and rescale the error by the factor 2
+s = 2 = .
+2 0 , obtaining
+( ) -
+1 V . (2. 5-3)
+cb = (35 ± 2) 3
+10
+D LEP
+
+
+
+
+
+27
+
+
+Further averaging with the CLEO measurement leads to the result given in Table V.
+
+
+
+D ( ) 3
+1 Vcb 10
+0
+B *+ -
+D
+- 0 CLEO II82 35.1 ± 1.9 ± 1.9
+* -
+B D
+
+
+OPAL83
+32.8 ± 1.9 ± 2.2
++
+B 0 -
+D ALEPH84 31.9 ± 1.8 ± 1.9
+DELPHI85 37.95 ± 1.34 ± 1.59
+
+Average 35.0 ± 1.6
+
+Table V. ­ 1 measurements. The errors are statistical and systematic
+D ( ) Vcb
+respectively.
+
+
+
+Detailed calculations of the QCD and finite-mass corrections which have to be applied to
+the form factor normalization give the result78
+= 0.91 ± 0.03.
+( )
+1 (2. 5-4)
+D
+
+Then we can extract V from the best value of 1 :
+D ( ) V
+cb cb
+
+V (38.5 ± 1.8exp ± 1.3th)10-3 = (38.5 ± 2.2)10-3. (2.5-5)
+cb =
+exclusive
+
+
+
+2.5.2 Inclusive decays
+
+The measurements of the inclusive branching ratio of B semileptonic decays to
+charmed final states and of the B meson mean life provide another independent
+determination of V . The relation between the matrix element and the experimental
+cb
+
+observables is calculated in the framework of the Heavy Quark Theory71:
+- B X
+3 ( c )
+V . (2. 5-6)
+cb = 1
+.
+41 10 ±
+-2 1
+- (1 06
+.
+0 )
+.
+6 77 10 ps
+
+The measurements on the (4#) and those at the Z give quite different results (*):
+( 0 ±
+B B X V (2. 5-7)
+cb =
+S ( -
+.
+39 91± 55
+.
+0 ) 3
+
+c ) - -
+= 39
+.
+6 ± 18
+.
+0 10
+ps 10
+(4S ) ( ) 2 1 (4 )
+(b X V (2. 5-8)
+cb =
+Z ( -
+.
+41 48 ± 50
+.
+0 ) 3
+10
+c )Z = ( - -
+90
+.
+6 ± 17
+.
+0 ) 2 1
+10 ps
+
+(only the experimental errors are quoted in the V values). Their average (2 = 4.5,
+cb
+
+error rescaled by 2.1) leads to
+
+
+* The world-average total semileptonic branching-ratios have been corrected by the b u
+contribution (Eq. 2.4-2). The average of the 0
+B and ±
+B mean lives12 has been used to calculate
+(B X .
+c )(4S)
+
+
+
+
+28
+
+
+
+9 = (40.8 ± 0.8 ± 2.4 ) 10-3 = (40.8 ± 2.5) 10-3.
+FE (2.5-9)
+LQFOXVLYH
+exp th
+
+
+Finally, we obtain our best value of FE
+9 averaging the results obtained from the
+inclusive (Eq. 2.5-5) and exclusive (2.5-9) measurements:
+
+FE
+9 = (39.5 ± 1.7) 10-3.
+(2.5-10)
+
+
+
+2.6 |V |/|V |
+ub cb
+
+
+The first observations of E l
+-
+X l transitions, carried out by the CLEO and,
+subsequently, the ARGUS collaboration, were based on the gain in sensitivity obtained by
+restricting the data selection to the final part of the phase-space, where the lepton
+momenta are beyond the end-point of the E l
+-
+F l processes. An excess of leptons with
+momenta in the range 3
+.
+2 *H9 < S < 6
+.
+2
+l *H9 is interpreted as evidence of charmless B
+decays. The drawback of this approach is represented by the limited portion of the
+observed phase-space, which requires an extrapolation to the low momentum region in
+order to recover the full decay rate, leading to a model-dependent measurement. This
+technique led CLEO, ARGUS, and CLEO II to the direct measurement of the ratio
+
+XE
+9 FE
+9 (Table VI). Recently, the DELPHI collaboration, by means of a technique based
+on the study of the shape of the invariant-mass distribution of the hadronic system
+recoiling against the lepton, has produced a new measurement of the XE
+9 FE
+9 ratio,
+which takes into account the whole lepton spectrum (Table VI).
+We get a further estimation of the XE
+9 FE
+9 ratio using our reference values for XE
+9
+and E
+9 derived in Sections 2.4 and 2.5 (Eqs. 2.4-4 and 2.5-10):
+
+XE
+9 = 0.091 ± 0.013.
+E
+9 (2.6-1)
+By taking the weighted average of this value with the DELPHI determination we obtain
+the following evaluation of the XE
+9 E
+9 ratio:
+
+XE
+9 = 0.093 ± 0.011.
+E
+9 (2.6-2)
+
+We note that the CLEO and ARGUS XE
+9 E
+9 measurements, quoted in the first part of
+Table VI, are spread out by the considerable differences of the theoretical models
+available at that time. On the contrary, the theoretical uncertainties connected to our
+estimation (2.6-2) of the XE
+9 E
+9 ratio are at the level of few percent71. Therefore, we
+can use this value to reject, by means of a 2 test, the models which give conflicting
+predictions. The 2 values indicating the compatibility with the reference value 2.6-2,
+2(KS)=9.4, 2(WSB)=6.9, 2(ACCMM)=2.4, 2(ISGW)=24,
+(with 3 degrees of freedom) induce to reject the KS and IGSW models at the 5% level and
+to recover the WSB and ACCMM predictions. In particular, the ACCMM model, which is
+also able to reproduce a good agreement between the three measurements (the 2 of the
+average is 2.5, see Table VI), leads to the following average determination:
+
+XE
+9 = 0.088 ± 0.009,
+E
+9 (2.6-3)
+
+
+
+
+29
+
+
+where the error has been rescaled by the factor 5
+.
+2 .
+
+This result is finally averaged with the DELPHI measurement, giving our V V
+ub cb
+
+reference value:
+V V = 0.090 ± 0.008. (2. 6-4)
+ub cb
+
+
+
+
+
+Model KS86 WSB87 ACCMM88 ISGW89
+Experiment
+CLEO68
+2.2< p 0.095 ± 0.011 0.114 ± 0.018 0.089 ± 0.011 0.148 ± 0.020
+< 2. 4 GeV
+2.4< p< 2.6 GeV
+ARGUS70 0.110 ± 0.012 0.130 ± 0.015 0.110 ± 0.012 0.200 ± 0.023
+2.3< p< 2.6 GeV
+CLEO II90
+2.3< p 0.057 ± 0.006 0.075 ± 0.007 0.078 ± 0.008 0.104 ± 0.010
+< 2. 4 GeV
+2.4< p< 2.6 GeV
+Average 0.073 ± 0.005 0.088 ± 0.006 0.088 ± 0.006 0.124 ± 0.008
+(2/2) (10.3) (6.7) (2.5) (8.2)
+
+
+DELPHI91 0.100 ± 0.011stat ± 0.018 syst ± 0.009 model
+
+Table VI. ­ Summary of the experimental determinations of V V . The upper part
+ub cb
+
+compares the V V measurements obtained by CLEO, ARGUS and CLEO II using
+ub cb
+
+four distinct theoretical models. The lepton momentum ( p ) ranges observed by each
+experiment is also indicated. The CLEO and CLEO II results have been renormalized to
+the present value of the inclusive branching ratio of the background processes,
+7 (B X 7 (B
+X 7 B X (obtained using
+u
+)- ( )= ( .
+10 25 ± 22
+.
+0 )%
+c ) =
+
+Eq. (2. 4-2) and the value of 7 (B X ) quoted in Ref. 12).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30
+
+
+
+
+
+2.7 Elements of the third row
+
+
+The m
+and m
+meson-antimeson oscillation frequencies, the parameter
+B B K
+d s
+
+measuring the mass-matrix CP violation in the neutral-kaon system and the inclusive rate
+of the bs rare decays constitute the main experimental constraints on the values of
+Vtd, Vts and Vtb.
+All the measurements involving elements of the third row implicitly contain the
+hypothesis of a three-generation CKM matrix. For example, CDF92 measured the ratio
+7 (t Wb) 7 (t Wq), which can be translated into a direct measurement of
+q=d ,s b
+,
+
+V ,
+tb
+
+V 7 t Wb
+tb ( ) +
+V , (2. 7-1)
+tb = = 96
+.
+0 -
+2 2 2 7 t Wq
+V V V
+td + ts + tb ( ) 0 16
+.
+.
+0 12
+
+q=d ,s,b
+
+2 2 2
+only if the assumption V V V is made. It has to be stressed that, if this
+td + ts + tb =1
+condition is relaxed, no determination is possible for V using such an experimental
+tb
+
+procedure (based on tt production) and only very loose bounds can be set ( V > 0.045
+tb
+
+at 95% C. L. )92. On the other hand, a measurement of the single top production cross
+section, which is directly proportional to V 2 without any underlying hypothesis, will
+tb
+
+be possible in Runs 2 and 3 of CDF and D093.
+The mixing and CP violating phenomena are directly related to the existence of new
+physics. If the d, s and b quarks were allowed to couple with the members of a fourth
+quark family (or with another unknown species of heavy fermions) or a different kind of
+highly massive gauge bosons could replace the exchanged ±
+W , new, significant
+contributions would have to be expected in the description of these processes. A
+common property of the weak transitions of which these observables are characteristic
+parameters is the ability to change the flavour of the quarks involved without changing
+their charge (effective FCNC processes). The corresponding amplitudes can be obtained,
+within the Standard Model, by iterating the basic, charged-current weak couplings. In
+this way, the S= 2 and/or B= 2 transitions on which the mixing phenomena of neutral
+mesons are based, are traced back to the elementary S= 1 and B= 1 processes, which
+are represented by single CKM matrix elements. The description of mixing by means of
+the so-called `box' diagrams (see Figure 4), in which two virtual ±
+W bosons are
+exchanged between two quark lines, cannot lead to a quantification of the transition
+amplitudes without the additional assumption that only three quark families exist. The
+hypothesis of the 3×3 unitarity of the CKM matrix, which has not been used for the
+deduction of the elements of the first two rows, plays an essential role in the
+measurement of the elements of the third row, even if it not imposed as a direct
+constraint.
+
+
+
+
+
+
+
+31
+
+
+u, c, t u, c, t
+b d b s
+
+0 W
+0 W B0
+B B0
+B
+d V d s V s
+W td W ts
+d b s b
+u, c, t u, c, t
+Figure 4. ­ Examples of box diagrams describing 0 0 0
+B B and 0
+B B mixing.
+s -
+d - d s
+
+
+
+The effective Hamiltonian for the B= 2 transitions ( 0 0
+B B mixing), for example,
+d - d
+
+is proportional (neglecting corrective terms) to
+
+V V V V S(x , x ) , (2. 7-2)
+id ib jd jb i j
+i, j
+
+where S (x , x ) are the Inami-Lim94 functions (apart from the sign, irrelevant for the
+i j
+
+final formulae), which depend on quark masses ( 2 2
+x m m ),
+i = i W
+1 3 3 log x 3 1
+S (x , x ) = x x i
++ - + -
+2
+i j i j (x x
+i j )
+
+4 (
+2 1- x 4 1- - 4
+1- 1-
+i ) ( xi ) x x
+i j ( xi )( xj) i j
+
+(2. 7-3)
+3
+1 9 3 3 x
+i
+S (x , x ) S(x ) = x + - - log x (2. 7-4)
+i i i i 4 (
+4 1- x 2
+2 1- x 2 1- x
+i ) (
+i ) i
+i
+
+and the indexes in the summation assume in turn all the values corresponding to the up-
+type quarks which take part in the intermediate virtual state; therefore, in the three-
+family model, i, j = u, c, t. The unitarity condition is then used again to simplify the
+expression 2. 7-2. The approximate equality between orders of magnitude
+
+V V V V V V (2. 7-5)
+ud ub
+cd cb
+td tb = ( 3
+)
+applies in Wolfenstein's parametrization; the relative weight of the summation terms is
+thus determined by the functions S (x , x ) , the magnitudes of which fulfil the following
+i j
+
+relation (the values of the masses and all other parameters occurring in the expressions
+quoted in this paragraph will be given in Table XV):
+4 1 0
+S (x , x ) : S (x , x ) : S(x , x ) , (2. 7-6)
+t t t c c c 10 :10 :10
+while all other combinations are negligible in comparison with S (x , x ) . Therefore, the
+c c
+
+box diagram is dominated by the top quark contribution and, when all other terms are
+2
+neglected, the 0
+B mass difference is proportional to V V S (x ) . Replacing the d
+d td tb t
+
+quark by an s quark does not alter the proportions between the members of Eq. (2. 7-6),
+so that the same approximation applies to 0 0
+B B mixing:
+s - s
+
+2 2
+GF 2 2
+m m m f B S x V V (2. 7-7)
+B = ( )
+d 2 W B B B B t td tb
+6 d d d
+
+2 2
+GF 2 2
+m m m f B S x V V (2. 7-8)
+B = ( )
+s 2 W B B B B t ts tb
+6 s s s
+
+Here S(x ) is the loop function (2.7-4) corrected for the effects of perturbative QCD;
+B t
+
+its value does not depend on the convention chosen for the top quark mass, provided the
+same convention is used to compute ; the result95, 96 = 0. is valid within
+B 55 ± 0 01
+.
+B
+
+the MS (Minimal Subtraction) renormalization scheme and, for reasons of consistency,
+
+
+
+32
+
+
+the mass m has to be computed by rescaling the pole mass7: m (m ) = 166 ± 5 .
+t t pole ( )GeV
+t
+
+2 2
+f and f are the B meson decay constants; the products f B and f B ( B
+B B B B B B B
+d s d d s s d
+
+and B are called `bag' factors) parametrize the matrix elements between the initial and
+Bs
+the final hadronic state. Their values are the main theoretical uncertainty in the relations
+2. 7-7 and 2. 7-8. In order to determine these parameters, most theoretical analyses make
+use of QCD computations performed on a discretized space-time (lattice-QCD). (A
+comparison between some recent results will be shown in Table IX and in Table X).
+Even though no direct experimental determinations of f and f exist at present,
+B B
+d s
+a number of experiments have measured the rates of the processes +
+D and
+s µ
++ µ
++
+D , leading to an estimate of the decay constant f . An indirect measurement
+s
++ Ds
+
+of f and f can then be obtained by extrapolating from D to B sector97 by means of
+B B
+d s
+
+the theoretical determinations of f f and f f , which are quite accurate.
+B D B D
+d s s s
+
+Moreover, the measurement of f can be used to check the results of lattice
+Ds
+
+simulations, which generally determine f and the B meson decay constants
+Ds
+simultaneously.
+
+
+2.7.1 Experimental determination of f
+Ds
+
+According to the Standard Model, +
+D semileptonic decays occur by pair
+s
++
+
+annihilation of the constituent quark (c) and antiquark ( s ) into a virtual W; the decay
+constant f parametrizes the matrix element between the quark-antiquark wave
+Ds
+
+function and vacuum. The strength of the coupling is the same as in a c s charge-
+current process and the decay amplitude is proportional to Vcs:
+
+7 ( + G V m
+D f m m . (2. 7-9)
+s + ) 2
+2
+2 2
+
+F cs 2 2
+= 1
+
+D D D -
+
+s s s 2
+8
+mDs
+The dependence on the square lepton mass causes the suppression of the decays having
+an electron (or positron) in the final state. Table VII shows the measured values of the
+relevant branching ratios.
+E653 and CLEO respectively determined the ratios
+7 ( +
+D 7 D (2. 7-10)
+s +
+µ s µ
+µ ) ( + + )=0.
+µ 16 ± 0 06
+. ± 0 03
+.
+and 7 ( +
+D 7 D (2. 7-11)
+s +
+µ µ ) ( +s +
+)= 0.173± 0 023
+. ± 0 035
+.
+from which the values listed in the Table have been obtained using12
+7 ( +
+D , (2. 7-12)
+s +
+µ µ )= ( .
+2 0 ± .
+0 5)%
+7 ( +
+D . (2. 7-13)
+s +
+)= ( .
+3 6 ± .
+0 9)%
+The measurements of the channel +
+D ,
+s
++
+L3: 7 ( +
+D (2. 7-14)
+s +
+)= (7.4 ± .
+2 8 ± .
+2 4)%
+DELPHI: 7 ( +
+D , (2. 7-15)
+s +
+)= ( .
+8 5 ± .
+4 2 ± .
+2 6)%
+have been converted according to the relation
+
+
+
+
+33
+
+
+7 ( + +
++ 7 D
+D (2. 7-16)
+s + s
+µ µ ) ( )
+9.743
+which follows from Eq. (2. 7-9) (see Table VIII for the mass values). The same fixed
+ratio between the two branching ratios was assumed by BES and ALEPH, which
+determined the value of 7 ( +
+D by fitting the data provided by the observation
+s µ
++ µ )
+of both leptonic channels.
+
+
+7 ( +
+D (%)
+s µ
++ µ )
+Experiment / Decays
++ + +0.18 0
++ 19
+WA7598 D 0 40 .
+.
+s µ µ -0 14
+. -0.18
++
+Ds +
+µ µ +1.3 +0
+BES99 (**) 3
+1.5 .
+-0 6
+. -0 2
+.
++
+Ds +
+
++
+Ds +
+µ µ
+E653100 (*) 0.32 ± 0.12 ± 0.10
++ +
+Ds µ µ
++ +
+L3101 D (**) 0.76 ± 0.29 ± 0.25
+s
++ +
+DELPHI102 D (**) 0.87 ± 0.43 ± 0.27
+s
+
++
+Ds +
+µ µ
+CLEO103 (*) 0.62 ± 0.08 ± 0.20
++
+Ds +
+
+
++
+Ds +
+µ µ
+ALEPH104 (**) 0.64 ± 0.08 ± 0.26
++
+Ds +
+
+Weighted average 0.512 ± 0.098
+2 /6 = 0.93
+f = 254 ± 25
+D ( )MeV
+s
+
+
+Table VII. ­ Branching ratio measurements for the +
+D decay. The errors
+s µ
++ µ
+quoted are statistical and systematic respectively. See the footnote on page 24 for the
+description of how the asymmetric errors are included in the average. (*) E653 and
+CLEO measured the ratios between the branching fractions of the decays indicated (see
+text). (**) Lepton universality has been assumed in converting the +
+D result into
+s
++
+a 7 ( +
+D measurement.
+s µ
++ µ )
+
+
+
+From the average branching ratio, using the data given in Table VIII the result
+f = 254 ± 25 (2.7-17)
+D ( )MeV
+s
+is obtained. The error is entirely due to the experimental determination of the decay
+rate. The correlation between this result and the measurement of V is completely
+cs
+
+negligible. The value of V used for the deduction of Eq. (2.7-17) is the output value
+cs
+
+of a unitarity-constrained fit performed by the PDG12 using all the directly measured
+CKM matrix elements (it is perfectly consistent with the result we will obtain in Sect. 3
+
+
+
+34
+
+
+after imposing the unitarity constraint); in this case, given its precision, it can be regarded
+as a constant (*). The result is in good agreement with a value ( f = (241± 36)MeV )
+s
+D
+
+obtained in Ref. 105 as an application of the Isgur-Wise Theory to the measured rates of
+the decays B D
+D and B D
+D .
+s s
+
+
+
+mµ (105 65838
+. 9± 0 0
+. )
+00034 MeV
++0 29
+.
+
+m (1777.05-0
+.26 )MeV
+m ± (1968 5.± 0 6.)MeV
+Ds
+12
+-
+± (0.467 ± 0.017)10 s
+Ds
+V 0.9745 ± 0.0008 90%C. .
+L
+cs
+
+
+Table VIII. ­ List of the parameters used to extract f from the measurements of
+s
+D
+
+%U ( +
+D and %U ( +
+D (see Ref. 12).
+s
++ )
+s µ
++ µ )
+
+
+
+
+2.7.2 Lattice QCD results
+
+Some recent lattice computations of heavy meson decay constants and bag factors are
+shown in Table IX and X. The large systematic errors are due to several types of
+approximations. For example, the results have been obtained on a finite space-time lattice
+and therefore are dependent on the lattice spacing. Moreover, the bag factors have been
+computed in a renormalization scheme which is peculiar to the lattice gauge theory, and
+
+have to be converted using a continuum renormalization scheme (such as the MS
+scheme), within which the experimental data are analysed. The extreme SU(3) symmetry,
+often assumed for the light quarks, and the use of perturbative techniques are two other
+sources of uncertainty which the systematic errors usually account for. On the other hand,
+the evaluation of the consequences of the so-called quenched approximation is still at a
+preliminary stage. In this approximation, which is common to all the computations, the
+contribution of the sea quarks in closed loops is neglected, leading to a substantial
+reduction in computing time. However, only the MILC collaboration106 has performed an
+estimation of the resulting systematic errors; moreover, its investigation of quenching
+effects was limited to a very simplified case107, in which only two quark flavours were
+considered and the extrapolations to the physical masses and to the continuum were
+omitted. While the theoretical panorama is still evolving, at present a truly reliable
+estimate of the uncertainties on the currently available results cannot be given.
+
+
+
+
+
+
+* The correlation between two measurements can obviously be eliminated if the margin of error
+corresponding to the 100% confidence level is assumed for one of them. The error in the
+determination of f does not increase if that for V (already corresponding to a 90% confidence
+Ds cs
+
+level) is rescaled by a factor of 25.
+
+
+
+35
+
+
+f f f f f f f f f
+B (MeV ) B (MeV )
+D (MeV ) B D B D B B Ref.
+s d s d s s s s d
+
+
+224 ± 2 ± 16 ± 11 (0.77 ± 0.09) 173 ± 4 ± 9 ± 9 (0.89 ± 0.10) 199 ± 3 ± 10 ± 10 [108]
++ 31 39
++ +4 +0
+162 ± 7 ± 5 ± 5 ±11± 6 .
+-8 ±
+190 5±5±5 ±
+13
+± 6 9- 0- 02
+1.18 ± 0.03± 0.05-0 [109]
+221 ± 9 (0.73 ± 0.08) 161 ± 16 (0.86 ± 0.06) 190 ± 12 1.18 ± 0.08 [110]
+f f 1
+213 14
++ B +0.02
+d D 0
++ 04
+=0 76 .
+. 164 14
++ = 0.88 185 +13 +0
+-8 ± 9 1 .
+11
+- ±8
+11
+- ±11 0
+- 05 05
+. -0 03
+. . [111]
+f f f f -
+13 004
+.
+D D D B
+s s s
+
+201 ± 6 ± 15 ± 7 [112]
+25
++ 17
++
+210± +0 04
+. +0.08 25
++ 23
++ +0 05
+. +0 05
+. +34 +27 +0 04
+.
+-
+9 9 1- 0.75 ± 0.03-0 157± 0 85
+. ± 0. 171±10 1.11± 0.02-0 [106]
+.03 ± 0.03
+.02 - 0 -
+11 9 -0 -
+03 003
+. -0 -9 -2
+1.16 ± 0.03 [113]
+237 ± 16 (0.76 ± 0.14) 180 ± 32 (0.87 ± 0.17) 1.14 ± 0.08 [114]
+1.17 ± 0.03 [115]
+8
++ 7
++ 7
++ +0 04
+147±11 175±8 ±11± 1.20 ± 0 04 .
+12
+- ± 9 ± 6 10
+- 7-0 . -0 [116]
++6
+231 ±12 0
++
+0 78 0
++ 12 + 0
++
+. ± 0 04 . 0 88
+. ± 0 03 .
+-0 11
+. -0 26
++
+179± -
+18 9 . -0 28
+204± -
+16 0 1 14
+. ±0. -
+03 001 [117]
+.
+
+
+Table IX. ­ Recent lattice QCD results for the heavy-meson decay constants. The errors reflect many different causes of systematic
+uncertainties which are inherent in lattice QCD calculations. However, their evaluation is incomplete in almost all cases. In particular,
+the effects of the quenched approximation, in which only the valence quark contribution is taken into account, has not been estimated
+except for a partial evaluation by the authors of Ref. 106 (see the last error quoted). Moreover, some results are still preliminary. Where
+direct determinations are not available, the values of f f and f f obtained by combining the results listed in the same row are
+B D B D
+d s s s
+
+shown (in brackets) for comparison.
+
+
+
+
+
+36
+
+
+The independent predictions for the ratios f f , f f and f f are fully
+B D B D B B
+d s s s s d
+
+compatible. This evidence can be made even more significant if the values calculated
+from f , f and f are indicated where direct determinations are not available.
+D B B
+s d s
+
+Apparently, the systematic errors tend to cancel out in the ratios. Assuming that a
+similar compensatory effect occurs between the quenching errors, the following
+estimates will be used for the purposes of the present discussion:
+f f , (2. 7-18)
+B D = 0 76
+. ± 0 04
+.
+d s
+
+f f . (2. 7-19)
+B D = 0.87 ± 0.04
+s s
+They correspond to the central value f f =1.145 (ratio of 2.7-19 to 2.7-18), which
+B B
+s d
+
+all the direct determinations are consistent with. Almost all predictions for f f are
+B B
+s d
+
+included in the range described by the estimate
+f f .
+(2. 7-20)
+B B = 1 15
+. ± 0 04
+.
+s d
+
+The comparison of the f predictions from all models with the experimental value
+Ds
+
+(2. 7-17) shows a systematic theoretical underestimation: this goes in the direction to
+confirm the evaluation of the quenching errors made by MILC. Using the experimental
+value of f and Eqs. (2. 7-18, 19) (which are valid under the assumption that the
+Ds
+
+systematic errors in the ratios f f , f f are small) the following indirect
+B D B D
+d s s s
+
+measurements of the B meson decay constants are obtained:
+f = 193 ± 22 , (2. 7-21)
+B ( )MeV
+d
+f = 221± 24 . (2. 7-22)
+B ( )MeV
+s
+
+The differences between the central values of these measurements and the average
+quenched results f = 165MeV , f =191MeV are nearly equal to the magnitudes of
+B B
+d s
+
+the quenching errors computed by MILC ( + 23 MeV and + 27 MeV respectively).
+On the other and, the direct calculations based on QCD sum rules favour slightly lower
+values of the decay constants: for example, the average f = is quoted
+B (160±30)MeV
+d
+
+in a review118 of the latest theoretical developments in this field. However, only the
+theoretical determinations of the ratios between decay constants (Eqs. 2. 7-18, 19, 20),
+which are expected to be less model-dependent, will be used in the present analysis.
+
+Since no information can be obtained from experiments about the bag factors B
+Bd
+
+and B , a value of B with which all values in Table X are compatible is assumed:
+B B
+s d
+
+B ;
+
+(2. 7-23)
+B =1 30
+. ± 0 15
+.
+d
+
+The error estimate is conservative enough to cover a probable discrepancy which may be
+due to quenching effects (roughly 4%119).
+No calculation has highlighted any difference between B and B due to SU(3)-
+B B
+s d
+
+breaking effects: they will be assumed to be nearly equal:
+BBs =1 00
+. ± 0.01
+
+(2. 7-24)
+BBd
+that is, using (2. 7-23),
+B B B .
+(2. 7-25)
+B = B = B =1 30
+. ± 0.15
+s d
+
+
+
+
+
+37
+
+
+B B B
+B B B Ref.
+d s d
+
+1.01 ± 0.01 [115]
+1.29 ± 0.08 ± 0.05 ± 0.03 [120]
++0.04
+1.40 ± 0.06-0 0.99 ± 0.01 ± 0.01 [121]
+.26
+
+1.17 ± 0.09 ± 0.04 ± 0.03 1.00 ± 0.02 [113]
+
+1. 46 ± 0.19 1 [122]
+0.99 ± 0.03 [110]
+
+Table X. ­ Lattice-QCD evaluations for the bag parameters entering into the
+expressions of the 0
+B and 0
+B mass differences.
+d s
+
+
+
+From Eqs. (2. 7-17), (2. 7-18), (2. 7-19) and (2. 7-25) the following estimates of the
+hadronic factors occurring in Eqs. (2. 7-7) and (2. 7-8) are obtained:
+f B = ± ± = ± (2. 7-26)
+B B 220 22 17 220 28
+d d ( exp th )MeV ( )MeV
+f B = ± ± = ± (2. 7-27)
+B B 252 25 19 252 31
+s s ( exp th )MeV ( )MeV
+where the first error is due to the experimental uncertainty in f .
+Ds
+
+
+
+2.7.3 Measurements of m and m
+B B
+d s
+
+
+The world average value of m
+,
+Bd
+m ,
+(2. 7-28)
+B = ( -
+.
+0 473 ± ) 1
+016
+.
+0 ps
+d
+
+was computed by the LEP B Oscillations Working Group123 using the results of the
+measurements carried out by CLEO and ARGUS (at the (4#)), CDF, SLD, and the
+LEP experiments . An accurate procedure was followed in order to take all common
+systematic uncertainties into account. The same method was applied to the 0
+B
+s
+
+oscillation data collected by ALEPH, DELPHI, OPAL, CDF and SLD. The fast
+oscillations 0 0
+B B have not been resolved yet, but a lower limit on m
+,
+s - s Bs
+m -
+> , (2. 7-29)
+B 3
+.
+14 1
+ps %
+95 C. .
+L
+s
+
+has been set using the amplitude method, of which a detailed theoretical account was
+given by Moser and Roussarie124. The time evolution of an initially pure 0
+B state is
+s
+
+described by the functions
+t
+0 1 -
+P(B ) = e Bs 1+ cos
+s ( m t
+Bs )
+2 Bs
+(2. 7-30)
+t
+0 1 -
+P(B ) = e Bs 1- cos
+s ( m t
+Bs )
+2 Bs
+They are the probability density functions representing the likelihood that at the time t
+the meson is found in the 0
+B and 0
+B states respectively; the amplitude is defined as
+s s
+the coefficient of the oscillating term:
+
+
+
+38
+
+
+t
+0 0 1 -
+P(B , B ) = e Bs 1± cos
+s s ( m t
+Bs )
+2 . (2. 7-31)
+Bs
+
+The experiments measure at each fixed value of m
+; the expected physical values
+Bs
+
+are = 1 if m
+is the actual oscillation frequency, otherwise = 0. The amplitude
+Bs
+
+spectrum obtained from the combined results is shown in Figure 5. The lower limit
+1
+-
+m is the value at which is incompatible with 1 at a 95% confidence
+B = 3
+.
+14 ps
+s
+
+level:
+(m m . (2. 7-32)
+B ) + 1 645
+. (
+B ) = 1
+s s
+
+
+
+
+3
+
+
+data ± 1
+2.5 1.645
+
+Amplitude data ± 1.645
+2
+
+
+95% C.L. limit 14.3 ps-1
+1.5 sensitivity 14.7 ps-1
+
+
+
+1
+
+
+
+0.5
+
+
+
+0
+
+
+
+-0.5
+
+
+
+-1
+0 2 4 6 8 10 12 14 16 18 20
+( )
+m ps -1
+Bs
+Figure 5. ­ Spectrum of the 0 0
+B B oscillation amplitude, determined by the LEP B
+s - s
+
+Oscillations Working Group as a world average of the results achieved by ALEPH,
+DELPHI, OPAL, CDF and SLD. The values of the amplitude and its error are
+shown as functions of the oscillation frequency m
+. The precision of the amplitude
+Bs
+
+measurement decreases as m
+increases; the sensitivity -1
+m is the value
+B = .
+14 7 ps
+Bs s
+
+at which it is no longer possible to distinguish between = 1 and = 0 because of the
+increased margin of error. At -1
+m the dotted line, representing the graph of
+B = .
+14 7 ps
+s
+
+the function 1.645 (
+m , intersects the line = 1, so the values = 1 and = 0
+B )
+s
+
+cannot be considered as mutually incompatible at a confidence level higher than
+P(x > x + .
+1 645 ) . The coloured region represents the confidence interval
+x = 5%
+±1 645
+. (90%); its upper margin is the graph of (m +1 645 m
+; the value
+B ) . ( B )
+s s
+
+of this function does not exceed 1 until the frequency 1
+-
+m is reached;
+B = 3
+.
+14 ps
+s
+therefore, for -1
+m the probability that equals 1 is lower than 5%.
+B < 3
+.
+14 ps
+s
+
+
+
+
+
+39
+
+
+Using the result in Eq. (2. 7-26), the measurement (2. 7-28) of the m
+oscillation
+Bd
+
+frequency can be translated into the following determination of the product V V :
+tb td
+
+V V (2. 7-33)
+tb td = ( -
+.
+7 9 ± 4
+.
+1 ) 3
+10
+where the values of the parameters occurring in Eq. (2. 7-7) have been anticipated from
+Table XV. This is actually a determination of V itself, since the unitarity condition
+td
+
+fixes V as + ( 4
+1 ). However, if the result of the direct measurement 2.7-1 is
+tb
+
+assumed for V , one obtains
+tb
+
+V . (2. 7-34)
+td = ( -
+2
+.
+8 ± .
+2 0) 3
+10
+
+The result 2. 7-29 can similarly be used to set a lower limit on the value of V .
+ts
+
+However, a more tight constraint is provided by the ratio of m (Eq. 2.7-8) to m
+B B
+s d
+
+(Eq. 2. 7-7):
+2
+m
+m f
+B B B V
+s s s ts
+= . (2. 7-35)
+m
+m f V
+B B B td
+d d d
+
+The limit (2. 7-29) correspond, with f f (obtained by combining
+B B = .
+1 149 ± .
+0 036
+s d
+
+Eqs. 2. 7-18, 19, 20) and m given by Eq. (2. 7-28), to
+Bd
+V V > (2. 7-36)
+ts td 4 5
+. %
+95 C. .
+L
+
+
+
+2.7.4 CP violation in the neutral kaon system;
+K K
+
+
+The CP violation measured by the parameter corresponds to an asymmetry in
+K
+
+the extent to which the neutral kaons K0 and K0 take part in the formation of the K
+L
+
+and K mass eigenstates (called long-lived and short-lived states since 600 ).
+S K K
+L S
+
+
+In fact only the combinations in which K0 and K0 have the same weight,
+0 0
+K± K ± K , CP K± = ± K± , (2. 7-37)
+
+are CP eigenstates, while the S= 2 forces which cause the mixing favour the non-
+homogeneous configurations
+0 0 1-
+K (2. 7-38)
+S p K + q K K + q p
++ K-
+1+ q p
+1- q p
+and 0 0
+K . (2. 7-39)
+L p K - q K K +
+- K+
+1+ q p
+is defined in terms of the amplitudes of the processes 0 0 + -
+K
+L ,
+,S
+K
+
+( CP = + ):
+
+A(K
++ -
+L )
++- + ,
+
+(2. 7-40)
+A(K
++ -
+S ) K K
+A(K
+0 0
+L )
+00 -
+2 .
+
+(2. 7-41)
+A(K
+0 0
+S ) K K
+
+40
+
+
+Here parametrizes the `direct' CP violation predicted by the Standard Model, which
+K
+
+involves the dynamics of S= 1 decays and thus has not the same effect on the two
+channels. This asymmetry is accounted for by the different way in which
++- and 00
+are dependent on . According to a class of models which refer to Wolfenstein's125
+K
+
+`superweak' theory, the observable CP asymmetry of neutral kaon decays should arise
+from the S= 2 sector alone: therefore would vanish, the equality +- = 00 =
+K K
+would apply and the CP violation observed in 0 0 + -
+K , decays should be
+L
+entirely attributed to a CP-even component already present in the initial state K (thus
+L
+0
+q p 1; q p is not independent of the global phase-convention of the states K and
+
+0
+K ).
+
+The superweak theory has been unequivocally contradicted by the recent
+preliminary results of the KteV and NA48 experiments: the new measurements of the
+ratio Re are incompatible with the value at a virtually 100%
+K K = 0
+K K ( K K )
+confidence level (6.8 and 2.5 respectively):
+
+KteV: Re K = (28.0 ± 3 0
+. stat ± 2 6
+. syst ±1 0
+. MCstat ) -4
+10 = (28 0
+. ± 4. ) -4
+1 10
+K
+
+NA48: K - -
+Re = ( .
+18 5 ± 5
+.
+4
+stat ± .
+5 8syst ) 4
+10 = ( .
+18 5 ± 3
+.
+7 ) 4
+10
+K
+(2. 7-42)
+
+Experiment Re(
+K K )
+-
+E731126 (7 4. ±5 9.) 4
+10
+-
+NA31127 (23.0±6 5.) 4
+10
+-
+KteV128 (28.0± 4. ) 4
+1 10
+-
+NA48129 ( 5.
+18 ± .
+7 3) 4
+10
+( -
+.
+21 2 ± 6
+.
+4 ) 4
+10
+Average 2/3 = 2.8, s = 1.7
+
+Table XI. ­ Experimental determinations of the parameter Re( which quantifies
+K K )
+
+the direct CP violation in the neutral kaon system. The scale factor s =1.7 has been
+applied to the error in the average because of the slight discrepancy between the
+measurements.
+
+
+The margin of certainty reduces slightly if the world average (see Table XI) is assumed
+as the best value of Re( :
+K K )
+K -
+Re = (21 2
+. ± 6
+.
+4 ) 4
+10
+. (2. 7-43)
+K
+
+The average is, however, incompatible with the lack of direct CP violation at a
+99. 9999% (4.6 ) confidence level.
+It has often been argued130 that a value of greater than 210-3 cannot be
+K K
+
+accounted for within the present model of CP violation based on a single complex phase
+
+
+
+
+41
+
+
+in the CKM matrix. In actual fact, the evidence for direct CP violation is the only
+straightforward, unambiguous conclusion which can be drawn from the experimental
+result, while, at present, large theoretical uncertainties affect the Standard Model
+computations of the magnitude of the CP-violating effect. Most computed values (see
+Table XII) are consistent with a lower value than the measured one. However, they are
+strongly dependent on the strange quark mass (roughly 2
+m ), of which the
+K K 1 s
+
+most recent estimates, based on lattice-QCD calculations, give much lower values than
+before. The Standard Model prediction is summarized by the following expression:131
+2
+K 150MeV (1 2)
+= ImV V . (2. 7-44)
+td ts - .
+1 35 + 1
+.
+1 S B .
+1 0 67
+.
+0 S B
+6 + ( - ) (3 2)
+[ 8 ]
+K m (m )
+s c
+
+Here S represents the short-distance QCD effects, which have been calculated up to the
+next-to-leading order:140,132
+6.5 S 8.5;
+(2. 7-45)
+(1 2)
+B and (3 2)
+B are the hadronic matrix elements of the operators
+6 8 6
+O and 8
+O which
+contribute to the effective Hamiltonian; they are evaluated in the 0
+K ( )I=0
+(I= 1/2) and 0
+K ( ) (I= 3/2) transitions respectively:133,134,135
+I =2 (1 2)
+0 8 3 2
+. 6
+B 1.3, ( )
+0 6
+. 8
+B 1 0
+. . (2. 7-46)
+
+The term containing the CKM matrix elements is equal to
+2 5 4
+-
+ImV V (2. 7-47)
+td ts A .
+1 24 10
+at the leading order in . The s quark mass has to be evaluated in the µ m 1.3GeV
+c
+
+scale. If the whole spectrum of the available theoretical predictions for m were taken
+s
+
+into account (the range 60 MeV m 170 MeV, for µ 2GeV , is quoted by the
+s
+
+PDG12), a rather indefinite estimate of would be obtained. On the other hand, if
+K K
+
+an `average' ( 120 MeV ) value is assumed for m , Eq. (2.7-44) and the measurement
+s
+
+of cannot be made compatible. The lattice QCD results show a much better
+K K
+
+agreement with the experimental data. The range of the quenched results is136
+
+
+-4 K -4
+- 2 1
+. 10 13.310
+[137]
+K
+K = (4.6±3.0±0 4.) -4
+10
+[138]
+K
+K = ( 14+ -
+17 10
+10
+- ) 4
+[139]
+K
+.
+5 3 .
+3 8 10 4 using ( ) 150 20
+K ( ± ) - m m
+s c = ( ± )
+= MeV [140]
+4
+K (8 5.± .59) -
+10 using m (m ) 125 20
+s c = ( ± )MeV
+K = ( -
+.
+15 0 ± .
+4 ) 4
+8 10
+[141]
+K
+
+
+Table XII. ­ Expected values of the parameter according to some Standard
+K K
+
+Model calculations.
+
+
+
+42
+
+
+
+100 MeV m GeV
+2 150 MeV; (2. 7-48)
+s ( )quenched
+if the quenching effects are taken into account, there should be a 40% reduction:142
+60 MeV m 2 90 MeV; (2. 7-49)
+s ( GeV )
+
+the corresponding values in the µ = m scale are
+c
+70 MeV m m 100 MeV. (2.7-50)
+s ( c )
+
+The following range of allowed values is obtained from Eqs. (2. 7-44, 45, 46, 47):
+0.7 10-3< K
+Re < 4.3 10-3, (2.7-51)
+K
+
+which is fully compatible with the average experimental value in Eq. (2. 7-43).
+is directly proportional to the imaginary part of the CKM matrix (Eq. 2.7-47);
+K K
+
+however, due to the large uncertainty in its expected value, the use of this measurement
+as a constraint would have a completely negligible effect.
+
+
+
+2.7.5 The constraint
+K
+
+
+The PDG12 averages for the CP violation parameters of the kaon system are
++- = (2 284
+. ± 0 018
+. ) -3
+10 ,
+(2. 7-52)
+
+00 +- = 0 9930
+. ± 0 020
+. ;
+(2. 7-53)
+
+their product is
+00 = (2 268
+. ± 0.018) -3
+10 .
+(2. 7-54)
+
+Inverting the relations (2. 7-40) and (2. 7-41) to extract the modulus of
+, one gets
+K
++-
+= +- ,
+(2. 7-55)
+K
+K
+K
+1+ 1+ Re
+K
+K
+00
+= 00 (2. 7-56)
+K
+K
+K 1- 2
+1- 2 Re
+K
+K
+
+and using Eq. (2. 7-43) together with either (2. 7-52) or (2. 7-54), from the preceding
+expressions the measurement
+= (2.
+(2. 7-57)
+K 279 ± 0 018
+. ) -3
+10
+is obtained. The contribution of the c quark loop cannot be neglected in the kaon
+system:96
+2 2
+i 4 G m m
+F W K 2
+Im Re (2. 7-58)
+K = e f B
+K K ( M + 2
+12 M12 )
+2
+12 2 mK
+2 2
+
+with M
+12 = S(x ) V V S (x ) V V S (x , x V
+) V V V .
+cc c ( cs cd ) + tt t ( ts td )
++ 2 ct c t cs cd ts td
+
+(2. 7-59)
+M12 is proportional to the non-diagonal element of the neutral kaon mass matrix, which
+0 0 0 0
+represents K - K mixing: M K + ( ) ; is the ratio
+eff S = 2
+12 K
+
+
+
+
+43
+
+
+Im [
+A K ( )I =0 ]
+= ,
+(2. 7-60)
+Re [
+A K ( )I =0 ]
+m
+the mass difference between the K and K autostates; the QCD corrections to
+K L S
+
+the Inami-Lim functions are the factors
+=1 38
+. , = 0 574
+. , = 0. ,
+ct 47 ± 0 04
+.
+tt ± 0 004
+.
+cc ± 0.53
+(2. 7-61)
+which have been calculated up to the next-to-leading order95,96. The decay constant f
+K
+
+and the bag parameter B determine the magnitude of the hadronic matrix element
+K
+2
+0 5 0 2
+K [s µ(1- )d] K m f B . A precise value of f can be deduced from the
+K K K K
+
+measurement of the leptonic decay rate of kaons12:
+f = 159.8 ±1.5 . (2. 7-62)
+K ( )MeV
+On the contrary, the parameter B cannot be measured. The two most recent lattice
+K
+
+QCD computations give perfectly compatible results:
+Kilcup et al. 143 B ( GeV
+2 ) = 62
+.
+0 ± 02
+.
+0 ± .
+0 02 ,
+(2. 7-63)
+K stat syst
+
+JLQCD144 B ( .
+(2. 7-64)
+K 2GeV ) = 0 628
+. ± 0.042
+JLQCD's datum is the result of an extended simulation, which included a detailed
+analysis of the systematic effects of discretization and the renormalization scheme
+conversion. The scale-independent constant B entering into the expression 2.7-58 has
+K
+
+to be determined by applying a suitable transformation to the value computed at
+µ = 2GeV . This can be done either with reference to the physical situation in which
+three light dynamical quarks ( n ) exist, or within the quenched approximation
+f = 3
+
+( n ) already used to deduce the results 2. 7-63 and 2. 7-64. Allowing for both
+f = 0
+
+possibilities133, which lead to slightly different results, the relation
+B 1.34
+K = =1.36 ± 0 02 (2.7-65)
+B (
+K 2 .
+GeV ) 1.38 (quenched)
+will be used. If the contribution of the dynamic quarks is included (unquenching) and the
+deviation from the SU(3)-symmetry assumed for light quarks ( m = m = m ) is taken
+u d s
+
+into account, the value of B should increase by a further 10% amount:145
+K
+
+BK =1.05 ± 0 02
+. , (2. 7-66)
+(B )
+K quenched
+
+BK =1.04 -1 05
+. . (2. 7-67)
+(B )
+K SU (3)
+
+When Eq. (2. 7-64) is multiplied by Eq. (2. 7-65) and the corrective factor
+B (B ) is applied (with a conservative increase in the margin
+K K quenched+SU (3) =1.10 ± 0 05
+.
+
+of uncertainty in order to allow for a possible systematic error in the evaluation of the
+unquenching correction145) the result
+B = 0.
+
+(2. 7-68)
+K 94 ± 0.08
+is obtained.
+The term proportional to the real part of the box diagram will be neglected in the
+expression of , since it is numerically insignificant (it has been estimated96 as a
+K
+
+correction not exceeding 2% compared to the size of the term proportional to the
+
+
+
+
+44
+
+
+imaginary part). This approximation is justified on account of the considerable
+theoretical uncertainty in B , but the whole expression will have to be considered (and
+K
+
+the parameter will also have to be evaluated) as soon as the error in the determination
+of B is reduced. For the present, an additional 2% error is attributed to the
+K
+
+measurement of .
+K
+
+The following constraint on the CKM matrix elements is provided by the present
+0 0
+experimental and theoretical information about CP violation in the K - K system:
+2 2 2
+G m m f
+B S(x )Im V V S(x ) Im V V
+K = F W K K K { cc c ([ cs cd)2 + tt t ts td +
+2 ] ([ )2]
+12 2 m (2. 7-69)
+K
++ 2 S(x , x )Im V V V V
+ct c t (
+cs cd ts td )}
+with
+= (2. . (2. 7-70)
+K 28 ± 0 05
+. ) -3
+10
+
+
+2.7.6 b s penguin decays
+
+The first observation of the bs electromagnetic penguin decays (see Figure 6),
+performed by CLEO146, consisted in the identification of the exclusive channel
+B
+K (892
+) . The measured decay rate of this process cannot be used to extract
+accurate information about the weak coupling of the quarks involved in the interaction,
+because of major theoretical uncertainties in the description of the hadronization process.
+Recently, CLEO and ALEPH have carried out independent measurements of the
+inclusive branching ratio 7 (b X , providing quite a reliable way of constraining
+s )
+
+the CKM matrix elements V and V . The Standard Model prediction, normalized to
+ts tb
+
+the background processes b
+c , has been calculated up to the next-to-leading
+order147, assuming V V V and 7 (b X
+c ) = (10.4 ± .
+0 4)%
+ts tb = 0.
+cb 976 ± 0 010
+.
+
+(the values are taken from [67]):
+7 (b
+s ) = (3.28 ± 0. ) -4
+33 10 .
+(2. 7-71)
+
+
+
+
+
+
+b s
+t
+
+W Vts
+
+Figure 6. ­ Example of electromagnetic penguin diagram describing the process b s.
+
+
+Since
+7 (b s ) 2 2
+V V
+ts tb , (2. 7-72)
+7 (b c) 2
+Vcb
+
+
+
+45
+
+
+the following expression relates the CKM matrix elements to the measured quantities:
+
+7 (b X 7 b X V V
+s ) ( c ) 2 2
+ts tb
+( =
+- ; (2. 7-73)
+28
+.
+3 ± .
+0 30) 4
+10 .
+0 104 ( 976
+.
+0 )2 2
+Vcb
+
+the errors coming from 7 (b X and V V V have been subtracted from
+c ) ts tb cb
+
+the total error. CLEO and ALEPH have reported the following results:
+CLEO148 7 (B X , (2. 7-74)
+s )= ( -
+15
+.
+3 ± .
+0 35stat ± 41
+.
+0 syst ) 4
+10
+
+ALEPH149 7 (b X . (2. 7-75)
+s )= ( -
+.
+3 11± 80
+.
+0 stat ± 72
+.
+0 syst ) 4
+10
+
+The different way in which b quarks are produced in these experiments (at the (4#)
+resonance and from Z decay) should be taken into account choosing the corresponding
+measured value for 7 (b X . However, since the CLEO measurement is the
+c )
+
+main contribution to the weighted average
+7 (b X , (2. 7-76)
+s ) = (3.14 ± 0. ) -4
+48 10
+it will be assumed that
+7 (b X 7 12
+) = (B X ) = ±
+,
+(2. 7-77)
+(4S ) ( .
+10 45 )
+21
+.
+0 %
+
+therefore, after subtracting the b X contribution (Eq. 2. 4-2),
+u
+7 (b X .
+(2. 7-78)
+c ) = ( 25
+.
+10 ± .
+0 )
+23 %
+
+By substituting the values 2. 7-76 and 2. 7-78 into Eq. (2. 7-73), the result
+2 2
+V V
+ts tb = 93
+.
+0 ± 14
+.
+0 ± 08
+.
+0 = 93
+.
+0 ± .
+0 17 , (2. 7-79)
+2
+Vcb
+is obtained. The first error is the uncertainty in the measurement of the branching ratio;
+the second error is associated with its theoretical computation. This corresponds, with
+
+V 1 and V given by Eq. (2.5-10), to the following determination of V :
+tb cb ts
+
+V = (38.1 ± 3.8)10-3. (2. 7-80)
+ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46
+
+
+2.8 Summary
+
+
+The best values obtained so far in the present work for the CKM matrix elements
+are listed in Table XIII, where they are compared to those quoted by the Particle Data
+Group (updated in January, 1998).
+In most cases, a reduction in the experimental uncertainties has been obtained by
+taking into account the most recent measurements. For example, data from deep inelastic
+scattering of neutrinos on nucleons and from hadronic ±
+W decays have been included in
+the V average, leading to a reduction by a factor of 7 in the final uncertainty. A
+cs
+
+significant improvement has also been achieved in the determination of V V , since
+ub cb
+
+new, independent measurements of V and V V have made it possible to
+ub ub cb
+
+discriminate between the disagreeing theoretical predictions which were used in the end-
+point inclusive analyses of non-charmed B decays.
+In other cases, the determinations of the matrix elements have not changed
+considerably; however, all the values obtained are the result of a detailed re-analysis of
+the available information, in which the relevant experimental parameters have been
+updated to the most recent world averages.
+
+
+PDG'98 this
+analysis
+
+V 0.9740 ± 0.0010 0.9743 ± 0.0008
+ud
+
+V 0.2196 ± 0.0023 0.2200 ± 0.0025
+us
+
+V (3.3 ± 0.8)10-3 (3.6 ± 0.5)10-3
+ub
+
+V V 0.080 ± 0.020 0.090 ± 0.008
+ub cb
+
+V 0.224 ± 0.016 0
++ .013
+cd 0 225
+. - .
+0 011
+
+V 1.04 ± 0.16 0.996 ± 0.024
+cs
+
+V (39.5 ± 1.7)10-3 (39.5 ± 1.7)10-3
+cb
+
+V 0.99 ± 0.15 + 16
+.
+0
+tb 0.96- 12
+.
+0
+
+V V
+tb td (8.4 ± 1.8)10-3 (7.9 ± 1.4)10-3
+(from B - B oscillation)
+d d
+
+
+V V
+ts td > 3.7 95% C.L. > 4.5 95% C.L.
+(from B - B oscillation)
+s s
+
+
+V V V
+ts tb cb 1.1 ± 0.43 0.96 ± 0.09
+(from b s)
+
+Table XIII. ­ Comparison between the values of the CKM matrix elements obtained in
+the present analysis and those from the Review of Particle Physics (January `98).
+
+
+
+
+
+
+
+
+
+47
+
+
+3 An up-to-date profile of the unitarity triangle
+
+As far as possible, all the experimental information collected in the previous Section
+has been treated in such a way that any correlation among the single determinations has
+been avoided or reduced to a negligible level. As a result, a set of independent
+constraints on the CKM matrix elements has been outlined. In this Section, we refine the
+determination of the CKM matrix and obtain estimates for other parameters of physical
+interest by imposing all these constraints simultaneously and requiring explicitly that the
+three-family unitarity condition of the matrix be satisfied. This further constraint is
+imposed (together with the removal of the non-physical complex phases) by expressing
+the matrix elements in terms of a four-variable parametrization (either Wolfenstein's or
+the canonical parametrization). The number of independent constraints which is needed
+to make the problem completely determined is then exceeded by a wide margin.
+Therefore, the precision in the values of the CKM matrix elements can be improved
+considerably with respect to those obtained from direct measurements. At the same time,
+the unitarity triangle, which represents one of the unitarity relations on the complex
+plane, can be determined, and the magnitudes of the CP asymmetries in B decays can be
+evaluated.
+Two different methods are followed independently for the overall determination of the
+CKM matrix and the unitarity triangle. The first procedure, a 2-minimization, is
+discussed in Sect. 3. 1 and the results are reported in Sect. 3. 3. A number of additional
+trials is also performed, in which the principal constraints are removed in turn to show
+how they affect the results. In Sect. 3. 2 the information which is effective in
+constraining the position of the vertex of the unitarity triangle is represented
+geometrically on the (, ) plane using Wolfenstein's parametrization. An account of
+the second method, based on Bayesian statistics, and the results obtained from its
+application are presented in Sect. 3. 4. Finally, in Sect. 3. 5 the impact of the
+forthcoming experiments at the B factories is evaluated, and the importance they have as
+essential instruments for the verification of the Standard Model is emphasized.
+
+
+
+
+3.1 Description of the fit procedure
+
+
+The information used in the present analysis to constrain the CKM matrix is
+summarized in Table XIV. The matrix elements have been expressed in terms of
+Wolfenstein's unitary parametrization. Each term has been calculated up to the fourth
+order in . For this purpose, the expansion of V has been extended further than in
+CKM
+
+Eq. (1. 1-7), considering the real and the imaginary parts separately. While it is true that
+a fourth-order computation is not justified by the present degree of precision of the data,
+future improvements in the theoretical and experimental uncertainties will increase the
+sensitivity of the results to the accuracy of these computations. For example, the fourth-
+order correction is already comparable to the magnitude of the error in the case of V
+ud
+
+and it would not even be possible to use the direct measurement of V as a constraint if
+tb
+
+the expansion were truncated at the second order.
+
+
+
+48
+
+
+The maximum-likelihood estimates of the parameters , A, and result from the
+minimization of the function
+2
+2
+( , ,
+,
+, A,
+, ) (O A O
+i ( )- i )
+= 2
+.
+(3. 1-1)
+i Oi
+
+In each term, the unknown member O of a constraint equation is compared
+i (, ,
+A , )
+with the measured value O within the error corresponding to one standard
+i Oi
+
+deviation (all the input data of the fit are assumed to be normally distributed).
+
+
+Term Value Expression Eq./Ref.
+2 4
+
+V 0.9743 ± 0.0008 1- - (2.1-25)
+ud 2 8
+V 0.2200 ± 0.0025 (2.2-16)
+us
+
+V ( -
+6
+.
+3 ± 0 5
+. ) 3
+3 2 2
+A + (2.4-4)
+ub 10
+
+V V 0.090 ± 0.008 2 2
++ (2.6-4)
+ub cb
+
+4
+2
+V + .
+0 013
+225
+.
+0 1- A (1- 2 ) (2.3-32)
+cd -
+.
+0 011 2
+2
+1 2
+4 A
+V 0.996 ± 0.024 1- - + (2.3-33)
+cs
+2 8 2
+V (39.5 ±1.7) -3
+10 2
+A (2.5-10)
+cb
+
+4
+V + .
+0 16
+96
+.
+0 1- 2 (2.7-1)
+tb - A
+0 12
+. 2
+2 2
+V V
+ts tb 1- 2 1- 2 - 4[ 2
+A -2 + 1- ]
+2 0.93 ± 0.17 ( ) ( ) (2.7-79)
+Vcb
+2
+2 2
+G fB m
+F 2
+m m m
+= d f B S t A
+Bd 2 W Bd ( Ds )2 2 6
+B B 2 ( 2 2 2 2 2
+{1- ) + - ( + - )+
+6 f m
+m ( - Ds W
+0.473 ± 0.016) 1
+B ps (2.7-7,28)
+d
+4 1 2
++ - A ( 2
++ 2
+)+ 2
+A (2 - )
+1
+4
+2
+2
+G f
+B 2
+m
+F 2 s 2
+m -1
+> m = m m f B S t A A (2.7-8,29)
+Bs 2 W Bs ( Ds ) 24 2 4 2 2
+B B 2 {1- (1-2)- [ - + (1- )]}
+B 14.3 ps 95% C. .
+L
+s
+6 fDs mW
+2 2 2
+G m m f
+F W K K 2 2
+6 m 2 4
+=
+B A S c A
+K 2 K - 2
+cc 2 1- - (4 (3-2 )+ )
+1 +
+
+6 2 m
+K mW 2 8
+2
+m
+t 2 4 2 2 2 1 4 1 2
+2 1 2
+(2 28
+. ± 0. ) 3
+-
+05 10 + S (2.7-69,70)
+tt A A
+2 1- - + - 2 + + - + + (4 - )
+1 +
+K mW 2 2 2 8
+2 2
+m m 2
+
+c t 4 2 5 1
++ S ,
+ct A
+2 2 1- - - 2 +
+m m
+W W 2 2 8
+2 (1- )
++0 41
+sin2 0.79 .
+-0 44 [13]
+. (1- )2 2
++
+
+Table XIV. ­ Constraints on the CKM matrix in Wolfenstein's parametrization. Each
+single term in the expressions has been calculated up to ( 4
+) corrections.
+
+
+A number of theoretical or experimental quantities, such as B , B , f and m ,
+B K D t
+s
+on which the expressions of m
+, m
+and are dependent, are not known
+B B K
+d s
+
+precisely enough to be regarded as constants. Therefore, they are handled as variables of
+
+
+
+49
+
+
+the minimization together with , A, and . Their measurements or theoretical
+estimates are used as additional constraints, which are imposed by adding further terms
+to the total 2, such as (f f
+D - D
+s s )2
+2
+. (3. 1-2)
+f = 2
+s
+D f sD
+The constrained variables of the fit and the parameters which, because of the
+comparatively small errors (< 1%), are chosen to be fixed at their central values are
+listed in Table XV.
+By allowing some `known' parameters to vary, a strong coupling between the
+equations for m
+and m
+is induced. Therefore, B , f , f f and f f ,
+B B D B D B D
+d s B s d s s s
+
+instead of f B and f B , will be used as parameters of the fit when the
+B B B B
+d d s s
+
+constraints m
+and m
+(2. 7-7 and 2. 7-8) are applied simultaneously: in this way,
+B B
+d s
+
+the correlation arising from the common use of the measurement of f is taken into
+Ds
+
+account. f f and f f will be further constrained by means of Eq. (2. 7-20) (the
+B D B D
+d s s s
+
+determination of f f is regarded as an independent piece of information):
+B B
+s d
+
+f f
+B D
+s s = 1.15 ± 0 04
+. . (3.1-3)
+f f
+B D
+d s
+
+
+Variables Eq./Ref. Constants Ref.
+f f = 0 574
+.
+tt ± 0.
+B D = .
+0 76 ± 04
+.
+0 (2.7-18) 004 [95,96]
+d s
+
+f f 5
+- -
+G [12]
+F = ±
+B D = 87
+.
+0 ± .
+0 04 (2.7-19) (1.16639 0 ) 2
+00001
+. 10 GeV
+s s
+f = 254
+.
+0 ± 025
+.
+0 m = .
+80 41 ± 0.10
+W ( )GeV
+D ( )GeV (2.7-17) [12]
+s
+B B B m = 2792
+.
+5 ± 0018
+.
+0
+B ( )GeV
+B (= B = B (2.7-25) [12]
+d s ) = .
+1 30 ± .
+0 15
+d
+= 0 55
+. [95,96] m = .
+5 3692 ± .
+0 0020
+B ( )GeV [12]
+B ± 0.01
+s
+
+m = 166 ± 5 15
+-
+= ±
+t ( )GeV [12] m 3.489 0.009 10 [12]
+K ( ) GeV
+
+m = 1 25
+. ± 0.10 m = .
+0 497672 ± .
+0 000031
+c ( )GeV [12] [12]
+K ( )GeV
+=1. [95,96] f = 0.1598 ± 0.0015 [12]
+K ( )GeV
+cc 38 ± 0 53
+.
+= 0 47
+.
+ct ± 0.04 [95,96]
+
+
+B = 0. (2.7-68)
+K 94 ± 0.08
+
+Table XV. ­ Variable and constant parameters of the fit.
+
+
+The m
+constraint is imposed following the same pattern of the procedure adopted
+Bs
+in the search for 0 0
+B B oscillations (see Sect 2. 7. 3). The variable is expected to be
+s - s
+
+distributed normally with mean value equal to 1 in the presence of oscillations. For each
+value of m
+, the value assumed by is determined using the data represented in
+Bs
+
+Figure 5 and the term
+2
+(m )
+B -1
+s
+(3. 1-4)
+(m )
+Bs
+
+
+50
+
+
+is added to the total 2. m
+is in turn determined by the current values of the
+Bs
+
+parameters of the minimization using equation (2. 7-8). Therefore, the maximum
+2
+probability ( - 2
+P e ) is attributed to the values of the parameters that yield
+measurements of compatible with 1. Following this method, the information contained
+in the whole amplitude spectrum become effective, while the single measurement
+( 1
+-
+m was used to deduce the lower limit (2. 7-29).
+B = 3
+.
+14 ps
+s )
+The complete expression of the total 2 is given below. The central values of the
+experimental or theoretical determinations are indicated with a superscript bar. Gaussian
+errors corresponding to one standard deviation are assigned to them. The remaining
+symbols represent the unknown terms of the constraint equations calculated as functions
+of the parameters.
+(V V V V V V V V V V
+ud - ud )2
+2 ( us - us )2 ( ub - ub )2 ( ub cb - ub cb )2
+= + + + +
+2 2 2 2
+
+V V V V V
+ud us ub ub cb
+(V V V V V V V V
+cd - cd )2 ( cs - cs )2 ( cb - cb )2 ( tb - tb )2
++ + + + +
+2 2 2 2
+
+V V V V
+cd cs cb tb
+
+2
+2 2 2
+V V V V V V
+ts tb cb - 2 2 2
+ts tb cb
+2
+(m m
+B - B
+d d )
++ + +
+2 2
+
+2 2 2 m
+V V V d
+B
+ts tb cb
+
+(m f f f f f f f f
+B K K B D B D B D B D
+s ) 2 2 2 2
++ -1 ( - ) ( -
+d s d s ) ( -
+s s s s )
+
+2 2 2
+(m
+B f f f f
+s ) + + + +
+K B
+s
+D
+d
+B s
+D
+s
+2
+f f
+B D
+s s - f f
+B B
+s d
+f f 2 2 2 2
+f f
+B D B B m m
+d s ( D - D
+s s ) ( B - B) ( B - B) ( t - t)
++ + + + + +
+2 2 2 2 2
+
+f f f B m
+B B B t
+d
+B
+s s
+D
+(m m B B
+c - c )2 (cc -cc)2 (ct -ct)2 ( K - K)2 2
+sin2 - sin2
++ + + + +
+2 2 2 2
+m B
+c
+cc
+ct K (sin2 )
+(3. 1-5)
+The asymmetric errors in the measurements of V , V and sin2 have been handled
+cd tb
+
+as already described in the footnote on page 24.
+24 constraints (i. e. the number of 2 terms) and 14 parameters (, A, , and those
+listed in the first column of Table XV) correspond to 24­14= 10 degrees of freedom in
+the fit.
+The minimization has been performed using the numerical libraries of MINUIT150.
+The errors quoted in the results are the ones, asymmetric, computed by the MINOS
+subprogram taking into account the non-linearity of the problem.
+
+
+
+
+
+
+
+
+
+51
+
+
+3.2 Constraints on the unitarity triangle in Wolfenstein's
+parametrization.
+
+
+One of the advantages in the use of Wolfenstein's parametrization is that the
+effectiveness of a constraint can be estimated at first sight. In fact, the present status of
+the uncertainties is such that some constraints are almost ineffective in comparison with
+the much stronger requirement of unitarity. For example, the ( 5
+) term of
+4
+2
+V = 1- A (1- 2) ,
+(3. 2-1)
+cd
+2
+i. e. the fourth-order correction in the magnitude of the matrix element, is completely
+negligible compared to the experimental error. Therefore, the measurement of V and
+cd
+
+that of 7
+V = + ( ) impose essentially the same constraint on the parameter , but
+us
+
+the former is six times less precise and thus insignificant. Analogously, V , V and
+cs tb
+2 2 2 2
+V V V differ from unity by ( ) terms (see Table XIV), which can be
+ts tb cb
+
+neglected given the comparatively low precision of the measurements. The error in V
+ud
+
+is probably just below the level of precision which would make the constraint useful.
+2 2 2
+The expressions of m
+and V V V have the same functional dependence on
+B ts tb cb
+s
+
+the parameters, which occurs only at the second order in :
+2 2 2 2
+m V V V . (3. 2-2)
+B ts tb cb 1- (1- 2 )+
+s ( 4)
+However, the `measurement' of m
+does have a non-negligible effect as a constraint
+Bs
+
+on the vertex of the unitarity triangle. The equations for m
+and m
+are in fact
+B B
+s d
+
+strongly coupled together by the common factor 2
+f B S m m and the additional
+D B B
+s ( 2 2
+t W )
+
+constraint (3. 1-3). The m
+constraint can thus be replaced by the equivalent equation
+Bs
+2
+m m f V m f
+B B B B B
+s s s ts s s 1 1
+= = +
+2 2 ( 2 , (3.2-3)
+2 )
+
+m m f V m f
+B B B td B B
+d d d d d (1- )
++
+which is significant at the lowest order in .
+The way in which the constraints applied to the CKM matrix define an allowed region
+for the vertex ( 2
+, ) = (1- 2)(
+, ) of the unitarity triangle is shown in Figure 7. The
+measurement of the ratio V V defines an annulus centred in the origin on the ( , )
+ub cb
+
+plane:
+2 2 2 2
+2
+V V . (3. 2-4)
+ub cb = + = + 1-
+2
+Since V = A2 V V has the same dependence on and , the graph represents
+ub ub cb
+
+the combined measurements of V V , V and V (with average V V =
+ub cb ub cb ub cb
+0.090 ± 0.007). At the lowest order in , an annular region with centre in ( , ) =
+(1,0) is favoured by the measurement of m
+(see Table XIV):
+Bd
+(1- )2 2
++ (1- )2 2 3
++ m . (3. 2-5)
+B
+A
+d
+
+
+
+
+
+52
+
+
+The dotted arc shown in the figure circumscribes the area defined by the constraint
+-1
+m , which has been expressed as a lower bound of m
+m (3.2-3),
+B > 3
+.
+14 ps B B
+s s d
+
+with f f fixed at its central value. The dependence of on and is, at the
+B B K
+s d
+
+lowest order in ,
+B A2
+6 - S x + S x , x + A24 1- S x , (3. 2-6)
+K K { cc ( c) ct ( c t) ( ) tt ( t )}
+where (see Eqs. 2. 7-3, 2. 7-4 and the mass values in Table XV)
+S (xc )= (2 42
+. ± 0.39) -4
+10
+S (x
+
+(3. 2-7)
+t ) = 2.38 ± 0 11
+.
+
+S (x , x
+c t ) = (2.15 ± 0. ) -3
+31 10
+The foregoing expressions define the region included between the two lines shaped like
+hyperbolas. The direct measurement of the angle is represented by a cone with the
+vertex in (1, 0). Clearly, this measurement is not precise enough to constitute an effective
+constraint.
+
+
+
+10.9 m
+m Bd
+0.8 Bs
+(95% C.L.)
+0.7
+
+0.6 | / |
+V V
+ub cb
+0.5
+| |K
+0.4
+
+
+0.3
+
+0.2 sin2
+
+0.1
+
+
+0
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+Figure 7. ­ Graphic representation of the experimental constraints on the vertex of the
+unitarity triangle. The continuous lines mark the boundary of the regions favoured by the
+constraints , m
+, V V and sin2 at the 68% confidence level. They have
+K B ub cb
+d
+
+been calculated by allowing all the parameters to vary inside their respective ±1
+intervals. The limit on m
+(95% C. L. ) is represented by the dotted line. The graph
+Bs
+also indicates the most probable shape of the unitarity triangle as determined by the
+simultaneous application of all constraints.
+
+
+
+
+
+
+
+
+
+53
+
+
+
+
+
+3.3 Results
+
+
+The complete solution of the fit is given in Table XVI (CKM parameters and matrix
+elements) and Table XVII (output values of the additional parameters). The most
+probable shape of the unitarity triangle and the contours of the 68 and 95% confidence
+regions for the vertex (, ) are shown in Figure 8.
+The maximum-likelihood estimates of , , sin2, sin2, = , ,
+13 12 23 and 13
+have been obtained by repeating the minimization with the use of different
+parametrizations. Wolfenstein's parameters and can be replaced by the coordinates
+
+, of the vertex of the unitarity triangle using the one-to-one relations (1. 2-6). A
+
+choice between several non-equivalent ways of inverting the relations (1. 2-8) has to be
+made in order to express the parametrization in terms of sin2 and sin2. In fact, while
+and can be placed into one-to-one correspondence with tan and tan
+tan(-- ),
+tan
+= tan =
+1+ tan tan
+
+(3. 3-1)
+=
+tan = tan tan
+1-
+1+ tan tan
+sin2 and sin2 cannot be inverted unless the domains of and are already known.
+Assuming that and belong to the intervals
+
+0 < 2 <
+3
+and <
+2 < , (3. 3-2)
+2 2 2
+which are favoured by the previously obtained results for and , the relations
+
+1
+= - 1
+arcsin sin
+(
+2 ) , = 2 (3. 3-3)
+2 2 arcsin sin
+( )
+2
+hold. This choice is also supported a posteriori, for the minimum 2 and the output
+values of all other parameters are the same as those yielded by the primary fit. When the
+constraint equations are expressed in terms of the canonical parametrization (1-3), the
+values of the three Euler angles , , and the phase = are obtained as a
+12 23 13 13
+result of the fit. An alternative possibility of estimating the angle is given by Eqs. (3.3-
+1) and (3. 3-3), from which and can be extracted as functions of sin2, or
+sin2, . The results are displayed in Figure 8 in terms of three different couples of
+parameters.
+
+The constraints have in turn been released by subtracting the corresponding terms
+from the total 2. In this way, the influence of each single constraint on the
+determination of the unitarity triangle has been ascertained. The most significant results
+are listed in Table XVIII. The way in which the confidence regions for (
+, ) vary in
+
+the four most interesting cases can be seen in Figure 9.
+
+
+
+
+
+
+54
+
+
+
+
+68% C.L. 95% C.L.
++
+0020
+.
+0
+2219
+.
+0 - 0.2179 ÷ 0.2258
+0 0021
+.
+
+A 0.798 ± 0.029 0.743 ÷ 0.868
++0 046
+.
+175
+.
+0 - 0.103 ÷ 0.288
+0 034
+.
+
++0 031
+.
+354
+.
+0 - 0.275 ÷ 0.415
+0 032
+.
+
++
+sin2 0 20
+.
+- .
+0 11- -0.73 ÷ 0.26
+0 22
+.
++
+sin2 0 044
+.
+725
+.
+0 - 0.632 ÷ 0.809
+0 046
+.
+= ( +
+.
+63 7- 45.4° ÷ 74.4°
+7 0
+. )
+3
+.
+5
+13
+
+(12.82 ± 0.12)° 12.58° ÷ 13.05°
+12
+( + .
+0
+.
+2 250- 2.12° ÷ 2.43°
+0 071
+. )
+074
+23
+( +0
+.
+0 202- 0.176° ÷ 0.230°
+0 013
+. )
+014
+.
+13
+
+97508
+.
+0 (+45 25
+- 0 2218
+. 20 0 00353
+. .
+0 97417 ÷ 97597
+.
+0 0 2179
+. ÷ 0.2258 0 00309
+. ÷ 00402
+.
+0
+46 ) ( ) (+-24)
+
+V 0 2217
+. (20) 0 97432
+. (46) 0 0393
+. (+12- 0 2178
+. ÷ .
+0 2257 0 97341
+. ÷ .
+0 97522 0369
+.
+0 ÷ 0424
+.
+0
+13 )
+ij +
+32 +13 +
+00782
+.
+0 ( 48 00701
+.
+0 ÷ 0.00846 0.0363 ÷ .
+0 0418 0 999118
+. ÷
+- 0386
+.
+0 999223
+.
+0 0 999316
+.
+33 ) (-12) (-51)
+2 = 2.6
+
+Table XVI. ­ Results of the fit.
+
+
+
+68% C.L. 95% C.L.
+
+f f 0
++ 29
+. 0.705 ÷ 0.817
+B D 760
+.
+0 -
+d s 0 28
+.
+
+f f 0.872 ± 0.031 0.811 ÷ 0.933
+B D
+s s
+f +16 228 ÷ 289
+D 257 MeV
+- MeV
+s 15
+B = B = B 1.31 ± 0.13 1.06 ÷ 1.58
+B ( B B
+d s )
+0.550 ± 0.010 0.531 ÷ 0.570
+B
+m 165.9 ± 4.9
+t GeV 156.3 ÷ 175.5 GeV
+m 1.244 ± 0.098
+c GeV 1.05
+÷
+1.44
+GeV
+1.42 ± 0.51 0.42 ÷ 2.42
+cc
+0.468 ± 0.039 0.391 ÷ 0.545
+ct
++
+B .
+0 073
+930
+.
+0 0.790 ÷ 1.074
+K -0 072
+.
+
+
+Table XVII. ­ Output values of the additional parameters entering into the expressions
+
+of , m and m
+.
+K B B
+d s
+
+
+
+
+
+
+
+
+55
+
+
+1 1
+2
+0.9 0.9
+
+
+0.8 0.8
+sin
+0.7 0.7
+
+
+0.6 0.6
+
+
+0.5 0.5
+
+0.4 0.4
+
+0.3 0.3
+
+0.2 0.2
+
+0.1 0.1
+
+0
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1 0
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+sin 2
+
+1 1
+2 2
+0.9 0.8
+
+
+0.8
+sin 0.6
+sin
+0.7 0.4
+
+
+0.6 0.2
+
+
+0.5 0
+
+
+0.4 -0.2
+
+
+0.3 -0.4
+
+
+0.2 -0.6
+
+
+0.1 -0.8
+
+
+0 -1
+30 40 50 60 70 80 90 100 30 40 50 60 70 80 90 100
+(degrees) (degrees)
+
+Figure 8. ­ Contours of the 68 and 95% two-dimensional confidence regions for the vertex (, ) of the unitarity triangle and the
+observables sin2, sin2 , .
+
+
+
+
+56
+
+
+sin2 sin2 V (68%)
+CKM
+
+97508
+.
+0 (+45 25
+- 2218
+.
+0 20 0 00353
+.
+46 ) +
++ ( ) (-24)
+0 046
+. + + +
+.
+0 175 0 031
+. 0 20
+. 0 044
+. ( +
+.
+63 7
+- 0
+.
+7 )3.
+5
+- .
+0 354- - .
+0 11- .
+0 725- +
+all the constraints 0.034 0 032
+. 0 22
+. 0.046 0 2217
+. (20) 97432
+.
+0 (46) .
+0 0393 ( 12
+-13 )
+0.103 ÷ 0.288 0.275 ÷ 0.415 -0.73 ÷ 0.26 0.632 ÷ 0.809 45.4° ÷ 74.4° +32 +13 +
+00782
+.
+0 ( 48
+- .
+0 0386 999223
+.
+0
+33 ) (-12) (-51)
++28
++ .
+0 97508 (46) 0 2218
+. (20) .
+0 00355 (-27 )
+064
+.
+0 + + +
+0 186
+. 042
+.
+0
+0 350
+. .
+0 47
+- 0 17
+. .
+0 044
+0 725
+. (62+
+10
+- )
+14
+without m
+- .
+0 090 - .
+0 044 - 36
+.
+0 - 048
+.
+0 0.2217 (20) .
+0 97431 (+47 17
+- .
+0 0394
+46 ) (+-16)
+s
+B -0.041 ÷ 0.299 0.266 ÷ 0.429 -0.83 ÷ 0.82 0.624 ÷ 0.812 43° ÷ 96° +62 +
+.
+0 00775 ( 62
+- 0 0388
+. 17 0 999216
+.
+49 ) ( ) (-66)
+.
+0 97508 (46) 0 2218
+. (20) 0 00357
+. (+29-28)
++
+068
+.
+0
+0 196
+. ± + 53
+.
+0
+- 0 22
+. + 045
+.
+0
+0 726
+. (60+
+10
+- )
+16
+without 0 346
+. 0 045
+.
+m
+and m
+- .
+0 104 - .
+0 37 - .
+0 049 .
+0 2217 (20) 0 97431
+. (+46- .
+0 0395 16
+47 ) ( )
+Bd s
+B -0.386 ÷ 0.314 0.261 ÷ 0.430 > -0.82 0.625 ÷ 0.811 42° ÷ 154° +73 +
+.
+0 00767 ( 64
+- 0 0389
+. 17 0 999213
+.
+53 ) ( ) (-66)
++29
++ .
+0 97508 (46) 0 2218
+. (20) 0.00357 (-28)
+046
+.
+0 + + +
+0 172
+. .
+0 032
+0 358
+. .
+0 20
+- 0 08
+. .
+0 045
+0 728
+. ( + .5
+64 3
+.
+- .
+7 6 )
+3
+without - .
+0 035 - .
+0 035 - .
+0 24 - .
+0 048 0.2217 (20) 0 97431
+. (+46 16
+- 0 0395
+.
+47 ) (+-15)
+K 0.099 ÷ 0.312 0.232 ÷ 0.421 -0.91 ÷ 0.30 0.629 ÷ 0.812 38° ÷ 75° 0 00791
+. (45) +16 +
+0 0389
+. ( 61
+- 0 999211
+.
+15 ) (-64)
+0 97508
+. (46) 0 2218
+. (20) .
+0 00339 (+74
+-54 )
+without V V + 065
+.
+0 + 081
+.
+0 + .
+0 23
+- .
+0 10 ( + .5
+64 0
+.
+- .
+7 2 )
+6
+ub cb 0 166
+. - 0 340
+. 0 13
+. 70
+.
+0 +
+.
+0 048 - .
+0 060 -0 25
+. - .
+0 11 .
+0 2217 (20) 0 97432
+. (+46 16
+- 0 0394
+.
+47 ) (+-15)
+and V -0.074 ÷ 0.363 0.234 ÷ 0.544 -0.74 ÷ 0.33 0.495 ÷ 0.990 +44 +
+ub 44° ÷ 76° .
+0 00788 ( 60
+- 0 0388
+. 15 0 999216
+.
+43 ) ( ) (-63)
+.
+0 97508 (46) 2218
+.
+0 (20) 0 00357
+. (29)
+only
+V
+ij -0.427 ÷ 0.427 -0.427 ÷ 0.427 -0.773 ÷ 0.773
+undetermined undetermined .
+0 2217 (+21 50 17
+- 97431
+.
+0 .
+0 0395
+20 ) (+-46) (+-16)
+and V V -0.457 ÷ 0.457 -0.457 ÷ 0.457 -0.813 ÷ 0.813 +50 +21 +
+ub cb .
+0 00782 ( 64
+- 0389
+.
+0 999212
+.
+0
+29 ) (-27) (-67)
+
+Table XVIII. ­ Results (68 and 95% C. L. ) obtained after releasing in turn the main constraints.
+
+
+
+
+
+57
+
+
+0.6 0.6
+0.5 0.5
+
+
+
+
+
+0.4 0.4
+
+
+
+
+
+0.3 0.3
+
+
+
+
+
+0.2 0.2
+witout m
+without constraint
+m Bs
+Bs m
+and constraints
+B
+0.1 0.1 d
+
+
+
+
+
+0 0
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4 -0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4
+
+0.6 0.6
+0.5 0.5
+
+
+
+
+
+0.4 0.4
+
+
+
+
+
+0.3 0.3
+
+without | |
+V ub
+
+0.2 without constraint
+
+| | 0.2 and | / |
+V V
+K ub cb
+
+constraints
+0.1 0.1
+
+
+
+
+
+0 0
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4 -0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4
+
+
+Figure 9. ­ Regions of maximum probability (68% and 95%) for the vertex (, ) of the unitarity triangle, as determined by four
+different sets of constraints. Each graph has been superimposed over the contours obtained in the complete fit (see Figure 8).
+
+
+
+58
+
+
+It should be noted that, even when the only constraint which is based on the present
+experimental evidence for CP violation, namely the measurement of , is released, it
+K
+
+is unequivocally predicted that the observables parametrizing the magnitude of CP
+violation ( , , sin2 ) assume non-zero values. (The measurement of sin2 is not
+incompatible with the absence of CP-violating effects and, given its precision, has no
+influence on the results). The current precision in the determination of the phase is
+almost entirely due to the much more effective V V and V constraints: when
+ub cb ub
+
+these are removed, the error in sin2, for example, is nearly tripled. However, the
+imaginary part of the CKM matrix becomes totally undetermined after the removal of all
+constraints the theoretical interpretation of which assumes the dominant contribution of
+the top quark in the virtual intermediate state of the S= 2 and/or B= 2 processes. On
+the other hand, it is evident that the remaining constraints (the direct measurements of
+
+the moduli V except V ) cannot be used to confine the domain of the vertex of the
+ij tb
+
+unitarity triangle to any definite region, except for a spherically symmetrical area around
+the origin ( V V and V ).
+ub cb ub
+
+As expected, the results have proved to be nearly or completely insensitive to the
+2 2 2
+removal of the constraints V , V , V , V and V V V .
+ud cd cs tb ts tb cb
+
+
+It is not clear to what extent the minimum 2 value can be interpreted as an estimate
+of the goodness-of-fit. The contribution of non-Gaussian uncertainties should be taken
+into account. Moreover, the ineffective constraints should reasonably not be numbered
+among the degrees of freedom of the fit. Whatever its exact statistical interpretation, the
+small 2 value (=2.6 unnormalized) obtained in the fit with all the constraints, is the
+clear sign of a high degree of consistency in the experimental data and between the data
+and the model.
+
+
+The value of m
+has been computed using the relation linking m
+to m
+:
+B B B
+s s d
+
+2
+m f
+B B V
+s s ts
+m
+= m .
+
+(3. 3-4)
+B B
+s d m f V
+B B td
+d d
+
+The results are
++3 0
+. -1
+m (3. 3-5)
+B = .
+15 4- ps
+0 7
+.
+s
+with -1 -1
+.
+14 1ps < m 95% C. L. ,
+B < .
+21 5 ps
+s
+
+when the term depending on the measured amplitude ( m
+is included in the 2 and
+Bs )
++3 2
+. -1
+m (3. 3-6)
+B = .
+15 9- ps
+3 1
+.
+s
+with -1 -1
+9
+.
+9 ps < m 95% C. L. ,
+B < .
+22 4 ps
+s
+
+after releasing the direct experimental constraint on m
+. When the other constraints in
+Bs
+turn are removed, the results listed in Table XIX are obtained.
+
+
+
+
+
+
+59
+
+
+68% C. L. m (ps -1)
+B 95% C. L.
+s
+
++ 0
+.
+3
+complete fit .
+15 4- 14.1 ÷ 21.5
+0 7
+.
+
++
+without m
+2
+.
+3
+B .
+15 9
+s - 9.9 ÷ 22.4
+3 1
+.
+
++
+without m
+and m
+4 4
+.
+B B .
+15 2
+d s - 8.9 ÷ 24.8
+3 5
+.
+
++ 0
+.
+3
+without K .
+15 4- 14.0 ÷ 23.5
+0 7
+.
+
++
+without V V and V 1
+.
+3
+.
+15 4
+ub cb ub -0 7
+. 14.0 ÷ 23.6
+Table XIX. ­ m
+predictions.
+Bs
+
+
+The combination of CKM matrix element which determines the magnitude of the
+direct-CP-violation parameter (Eq. 2.7-44) has also been calculated:
+K K
+
+ImV V = (1.24 ± 0.14) 10-4 (3. 3-7)
+td ts
+1.0 10-4 <
+ImV V < 1.5 10-4 95% C.L.
+td ts
+
+
+The major theoretical uncertainty in the results of the fit is the one affecting the
+knowledge of B and B (the value of is even more uncertain, but a more precise
+K B cc
+
+determination would be of little importance, since in the term multiplied by is
+K cc
+
+roughly ten times smaller than those containing and ). The corresponding
+ct tt
+2 2
+constraints (i. e. the terms (B B and (B B of the 2) have been
+B - B ) 2
+K - K ) 2
+B B
+K B
+
+removed in order to establish their influence on the results. Moreover, as B and B
+K B
+
+are included among the `free' parameters of the fit, their values are determined, together
+with those of the CKM parameters, on the basis of the remaining data, which are mostly
+experimental in origin (see Table XX).
+
+
+free parameters B B
+B K
++ .
+0 046 +
+0.175 .
+0 031
+0.354
+-0 034
+. -0 032
+.
+0.103 ÷ 0.288 0.275 ÷ 0.415
++ .
+0 071 +0 032
+. +0 36
+.
+B 176
+.
+0 354
+.
+0 .
+1 34
+- .
+0 036 - .
+0 031 -0 26
+.
+B
+0.103 ÷ 0.303 0.270 ÷ 0.415 0.89 ÷ 2.19
++0 047
+. +0 033
+. + .
+0 17
+B 172
+.
+0 358
+.
+0 89
+.
+0
+-0 035
+. -0 035
+. - .
+0 14
+K
+0.099 ÷ 0.311 0.236 ÷ 0.421 0.64 ÷ 1.27
++0 122
+. +0 033
+. +0 37
+. + .
+0 19
+B 172
+.
+0 358
+.
+0 .
+1 31 89
+.
+0
+and B -0 035
+. -0 035
+. - 27
+.
+0 -0 15
+.
+K K 0.098 ÷ 0.426 0.104 ÷ 0.421 0.85 ÷ 3.90 > 0.63
+
+Table XX. ­ Simultaneous determination of the vertex of the unitarity triangle and the
+bag parameters (68 and 95% C. L. ), performed by removing the theoretical constraints
+on B and B . The results are perfectly compatible with the (more precise) theoretical
+B K
+
+determinations B and B used in the complete fit.
+K = 0.94 ± 0.08
+B = 30
+.
+1 ± 15
+.
+0
+
+
+
+
+60
+
+
+The purely theoretical determinations of the bag parameters clearly have considerable
+weight, although this is not evident when the corresponding constraints are released one
+at a time (the cause may be found in the strong correlation between the constraints
+m , m and ). In particular, both B and the -coordinate of the vertex (the
+B B K B
+d s
+
+two parameters are highly correlated) are determined with much less precision when
+only the `experimental' constraints are used.
+On the other hand, a significant increase in the precision of the results will not be
+achieved by reducing the theoretical errors in B and B , unless a general
+B K
+
+improvement in the level of the uncertainties is obtained (particularly in the quark
+masses, which occur in the factor S (x , x , and in the decay constants). The values of
+c t )
+
+B and B are in fact already known at the highest useful level of precision: if the
+K B
+
+errors in B and B B ,
+B = .
+1 300 ± .
+0
+B K are simultaneously reduced by a factor of 10 ( 015
+B ), the results
+K = .
+0 940 ± 0 008
+.
++ .
+0 044
+= 176
+.
+0 =
+- , 353
+.
+0 ± 031
+.
+0 (3. 3-8)
+.
+0 036
+
+104
+.
+0 < < 282
+.
+0 .
+0 277 < < .
+0 413 %
+95 C.L
+are obtained, which in practice coincide with the ones reported in Table XVI.
+
+Our results for the CKM parameters and for the vertex of the unitarity triangle are
+compatible with those obtained in previous analyses151,152 which made use of similar
+techniques but different sets of experimental data.
+
+
+
+
+3.4 Bayesian determination of the CKM matrix
+
+To have an estimate of the goodness of the values obtained with the 2 minimization
+method and obtain the probability distribution functions (p. d. f. ) of the CKM elements
+and of all the estimated quantities, a complementary method153, based on Bayesian
+statistics154, has been applied to the data set of Table XIV. This method has the
+considerable advantage that it keeps track of all the assumptions made from beginning to
+end, whereas other methods usually do not. For example, the standard 2-minimization
+method starts from the assumption that all the input values are Gaussian-distributed and
+provide estimates that are assumed to be Gaussian-distributed. This is reliable only at a
+first approximation, since the asymmetric errors and the shapes of the maximum
+probability regions clearly indicate that at least some quantities depart from Gaussianity.
+The Bayesian approach for the statistic estimations starts from the definition of a set of
+parameters ( x ) with a prior probability P(x,i) and a set of experimental data e with a
+probability distribution function P(e, x | i), which depends on the x parameters. If x is
+a set of continuous variables, their final (`posterior') probability distribution function is
+given by
+, | × ,
+P(x,i | e) P(e x i) P(x i)
+= . (3. 4-1)
+P(e, x | i) P(x,i) x
+d
+×
+
+
+
+61
+
+
+Hence, if an initial probability distribution for certain variables ( x ) is used and new
+experimental data are expressed by P(e, x | i), from Eq. (3.4-1) we get a new
+distribution of probability for the initial variables (the posterior p. d. f. ). From the shape
+of this distribution, the best estimations or the allowed ranges of the starting variables
+can be extracted. The prior p. d. f. P(x,i) and the allowed range for x are generally a
+matter of assumption. As long as the P(e, x | i) function contains more information than
+the prior p. d. f. , these assumptions do not play any role in the final results155.
+Eq. (3. 4-1) can be used to estimate the p. d. f. of the CKM elements. To allow the
+comparison with the 2 minimization method, we consider exactly the same experimental
+data set (Table XIV). Therefore, in e we consider the quantities V , V , V , V ,
+ud us cd cs
+
+2 2 2
+V , V V , V , V V V and sin2, which depend on the four CKM
+cb ub cb ub ts tb cb
+
+parameters only, and the quantities , m
+, ( m
+which depend also on other
+Bs )
+K Bd
+
+experimental or theoretical parameters. These parameter dependencies fix the set of the
+x quantities. Concerning the CKM parameters, we take the four angles that define
+completely a unitarized three-family CKM matrix (Eq. 1. 1-3): = ( , , , .
+12 13 23 13 )
+
+The parameter space is given by all the allowed space, that is [ ,
+0 [23 ×[ ,0
+2 [.
+For the prior distribution P( ,
+i) of , since we have no information to use, we assume
+a uniform distribution in the allowed space. As is customary in the Bayesian method,
+this general and weak assumption has no (or weak) effect on the final result154. As far as
+, m
+, and m
+are concerned, we use the following expressions:
+K B B
+d s
+
+2 2 2
+G f m m
+F K K W B = (3. 4-2)
+K Im M K Im M
+K = 12 12
+2
+12 2 mK
+2 2 2
+G m m f B
+F B W B B B
+m d d
+= S x V V
+= S x V V (3.4-3)
+B ( t ) 2
+d 2 td tb B ( t ) 2
+td tb
+6
+2 2 2
+G m m f B
+F B W B B B
+m s s
+= S x V V = S x V V (3.4-4)
+B ( t ) 2
+s 2 ts tb B ds ( t ) 2
+ts tb
+6
+
+where M has the same expression as in Eq. (2. 7-57), while , and are
+12 K B ds
+
+given by
+2 2 2 2
+G2 f 2m m2 G m m f B m f
+F B W B
+F K K W
+= B , B B B B
+d d
+= , s s
+= . (3. 4-5)
+K K
+2 B ds
+12 2 m 2
+6 2
+m f
+K B B
+d d
+
+The factors , which have been isolated in these expressions, will be considered as
+i
+
+three other initial parameters in the set x , which is finally composed by
+(,)= ( , , , , , , . The distinction between and in m
+
+12 13 23 13 K B ds ) B ds Bs
+
+takes correctly into account that a strong correlation of the theoretical errors between
+m
+and m
+exists. For each of them, we assume a Gaussian prior p. d. f. defined on
+B B
+d s
+
+the positive side only with the mean values and standard deviations given in table XVI.
+
+
+
+
+
+
+
+62
+
+
+parameter value
+(18.0 ± 1.6)103
+K
+(3.10 ± 0.69)103
+B GeV
+1.34 ± 0.09
+ds
+
+
+Table XXI. ­ The factors, part of the x parameter set, which enter into the
+expressions of , m and m . Values and errors listed have been used to define
+K B B
+d s
+
+the prior p. d. f. .
+
+
+For the expression of the probability distribution function P(e, x | i) which enters in Eq.
+(3. 4-1), it is possible to take advantage of the fact that all the measurements in the set e
+are independent. Therefore, we use:
+
+P(e, x | i)= P µ , x | i
+(3. 4-6)
+i ( X i )
+i
+
+where the product runs over all the measurements considered and P are their
+i
+
+probabilities. These are given by the Gaussian distribution functions, associated to the
+µX measured values, times an interval value X
+:
+P µ , | = , µ ,
+(3. 4-7)
+i ( x i
+X ) g(X(x) X X ) X
+with
+(X (x)-µX )2
+-
+g(X (x )
+, µ , = e (3. 4-8)
+X X ) 2
+1 2 X
+
+2 X
+The P µ , | written in this way represents the probability to measure X in an interval
+i ( x i
+X )
+[µ ,µ + X
+when the mean value and the standard deviation of the Gaussian
+X X ]
+distribution are given by X (x) and . The actual choice of the interval width X is
+X
+
+not relevant since, when P(e, x | i) is built and substituted into Eq. (3.4-1), all the X
+i
+cancel out in the ratio. Apart from these X
+terms, P(e, x | i) has the structure of a
+i
+
+likelihood.
+For the posterior probability function P(x,i | e), we can calculate the probability
+distribution of any variable z which is a function of x , z = f (x), by means of the
+following relation:
+P(z,i | ) d
+e = (z - f (x))P(x,i | e) d
+x
+d = P(x,i | e)
+(3. 4-9)
+z > f (x ) x
+d
+dz dz
+where the integral must be evaluated in all the allowed space and (x) is the usual
+Heavyside function, that is 1 for x > 0 and 0 for x < 0.
+In order to obtain the p. d. f. for any quantity z which we are interested in using Eq.
+(3. 4-9), we applied extensively the Monte Carlo method for the integral evaluation,
+generating a sample of 9
+10 points in the x space with a probability distribution given
+by the P(x,i).
+The p. d. f. for the most important quantities, which are evaluated simultaneously,
+are shown in Figures 10-13. As can be seen in Figure 10, the three angles can vary
+ij
+
+in a rather small range and have an approximate Gaussian distribution, whereas the
+
+
+
+
+63
+
+
+phase can vary in a much wider range and it is clearly not Gaussian-distributed. The
+13
+
+p. d. fs. for sin2, sin2, m
+and the vertex of the unitarity triangle are shown in
+Bs
+
+Figure 11 and Figure 13. They have a marked non-Gaussian behaviour, which is
+particularly evident in the shape of sin2. The p.d.f. for the moduli of the CKM
+elements are shown in Figure 12. As it can be seen, the elements V , V , V and
+cb td ts
+
+V are clearly not Gaussian-distributed.
+tb
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 10. ­ Posterior probability distribution functions for and . Points with
+ij 13
+
+error bars refer to the solution obtained with the 2-minimization method.
+
+
+
+
+
+
+
+
+
+
+64
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 11. ­ Posterior probability distribution functions for sin2, sin2 and m .
+Bs
+
+
+
+
+
+
+
+
+
+
+
+
+65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 12. ­ Posterior probability distribution functions for V .
+ij
+
+
+
+
+
+
+
+
+66
+
+
+
+
+Figure 13. ­ Posterior probability distribution functions for and , 68% and 95%
+probability contours for the vertex of the unitarity triangle.
+
+
+
+
+
+In Table XXII, we present the complete result of this method for comparison with
+the one obtained with the 2-minimization method (Table XVI). As Bayesian estimators
+of the p. d. f. parameters, we take the mean and root mean square of the relative p. d. f. .
+The comparison with the results given in Table XVI shows a good agreement on all data
+within one sigma. As expected, the biggest differences can be observed on the variables
+having the clearest non-Gaussian behaviour, for which the Bayesian estimation of the
+root mean square gives always a bigger value. As regards the 95% limits, since these
+are mainly determined by the properties of the p. d. f. tails (which are assumed to be
+Gaussian in the 2 method) the Bayesian estimation always favour wider intervals. The
+95% regions quoted are central-interval estimates, computed as in the previous analysis
+of Ref. 153.
+
+
+
+
+
+
+67
+
+
+parameter mean
+± r.m.s. 95% C.L.
+0.2218 ± 0.0020 0.2178 ÷ 0.2257
+0.183 ± 0.063 0.045 ÷ 0.293
+0.343 ± 0.032 0.283 ÷ 0.412
+= (64 ± 13)° 47° ÷ 96°
+13
+(12.81 ± 0.12)° 12.6° ÷ 13.0°
+12
+(2.27 ± 0.06)° 2.16° ÷ 2.42°
+13
+(0.203 ± 0.015)° 0.175° ÷ 0.234°
+23
+sin2 -0.15 ± 0.33 -0.67 ÷ 0.74
+sin2 0.71 ± 0.06 0.60 ÷ 0.80
+V 0.9751 ± 0.0005 0.9742 ÷ 0.9760
+ud
+
+V 0.2218 ± 0.0020 0.2178 ÷ 0.2258
+us
+
+V 0.0036 ± 0.0003 0.0030 ÷ 0.0041
+ub
+
+V 0.2217 ± 0.0020 0.2177 ÷ 0.2256
+cd
+
+V 0.9743 ± 0.0003 0.9734 ÷ 0.9752
+cs
+
+V 0.0398 ± 0.0011 0.0379 ÷ 0.0424
+cb
+
+V 0.0078 ± 0.0006 0.0071 ÷ 0.0093
+td
+
+V 0.0392 ± 0.0012 0.0371 ÷ 0.0420
+ts
+
+V 0.99921 ± 0.00004 0.99910 ÷ 0.99928
+tb
+
+V V 0.0894 ± 0.0066 0.0765 ÷ 0.1025
+ub cb
+
+m
+(15.5 ± 0.9) -1 13.8 ÷ 17.5 -1
+B ps ps
+s
+
+
+
+Table XXII. ­ Results of the Bayesian estimation method. The results can be directly
+compared with those obtained with the 2-minimization method (see Table XVI), with
+which they are fully compatible.
+
+
+
+
+
+3.5 New prospects
+
+According to the experimental results concerning kaon decays, a single complex
+phase in the CKM matrix seems a suitable explanation for CP violation. On the other
+hand, insofar as the baryon number of the universe has to be considered as a
+dynamically generated quantity rather than an initial condition, the Standard Model fails
+to account for the present abundance of matter by several orders of magnitude156. The
+measurement of the CP-violating phenomena which are expected to occur in heavier
+quark sectors will provide an independent way of testing the present theoretical
+knowledge. The study of B mesons, which are ten times heavier than kaons and thus
+undergo a wide range of (mostly rare) decays, seems to be an almost ideal field of
+research. Large CP asymmetries are predicted to occur in the decays of B mesons and
+
+
+
+
+68
+
+
+the experiments will have many possibilities of revealing the presence of new physics.
+The measurement of CP violation in the b quark sector will be the subject of an intense
+activity in the so-called B factories after 2000.
+A quite clear strategy can be adopted in the measurement of sin2. The already
+mentioned CP asymmetry (1-17) which is expected in the rates of 0 0
+B B J K
+d d S
+
+decays will be measured either as an oscillating function of time, whose amplitude is
+equal to sin2, or by integration over a definite interval of time.
+The extraction of sin2 from the measurement of the asymmetry
+CP ( 0 + -
+B B
+d )-( 0 + -
+d )
+a + - = (2. 4-1)
+( 0 + -
+B B
+d )+( 0 + -
+d )
+is less straightforward, since `tree' and `penguin' amplitudes interfere with different
+weak and strong phases in 0 0 + -
+B B decays, which therefore violate CP symmetry
+d d
+directly. Additional measurements of the isospin-related processes 0 + -
+B ,
+d
++ + 0 0 0
+B , 0
+B and their CP-conjugates will be required in order to estimate
+d
+the relative phase of the amplitudes ( 0 + - 0 + -
+B and (B .
+d )
+d )
+An even greater uncertainty affects the prospects for the determination of the angle
+. A measurement of can in principle be obtained from the observation of the time-
+dependent CP asymmetries involved in 0 0
+B B oscillations, such as those between the
+s - s
+rates of 0 0 - 0 +
+B t K and 0
+B t K , or B and B . The
+s (t ) -
+D K
+s (t ) +
+D K
+s ( ) 0
+s
+s ( ) 0
+s s s
+
+major experimental difficulty is due to the rapidity of the oscillations, which have not
+yet been resolved. The most promising method in the short run is probably the one
+consisting in the measurement of the direct CP asymmetry between the decays
+0 + - 0 -
+B and +
+B ; the extraction of requires some additional branching
+d K
+d K
+
+ratio measurements in order to eliminate the hadronic uncertainties which are introduced
+by a phase difference between tree and penguin amplitudes.
+
+A distinction can be made between the experiments at the hadronic machines
+(HERA-B, CDF, LHCb) and those exploiting the B production induced by
+electromagnetic interactions between colliding +
+e and -
+e (BaBar and Belle). While the
+experiments in the first class can detect the production of b
+b couples with a high cross-
+section, but with a low signal-to-background ratio, a low cross-section is expected
+BB
+
+at the electromagnetic B factories, which, on the other hand, will be operating in a frame
+of quite a few background events.
+The measurement of the 0 0
+B B oscillation frequency m
+is within reach of the
+s - s Bs
+hadronic B factories only. The chances of success of each experiment are restricted by
+the maximum time resolution it can achieve, which imposes an upper limit on the
+measurable value of m
+.
+Bs
+0 ±
+HERA-B will study the reactions pN 0
+b
+b B , B , B , in fixed-target mode
+d s b
+
+( s GeV
+42 ). The expected cross-section is high ( nb
+12 ), but, because of a very
+bb
+slow signal-to-background ratio ( -6
+), an extremely sensitive trigger is
+bb tot 10
+
+needed.
+
+
+
+69
+
+
+At BaBar and Belle, the B mesons will be produced by electromagnetic interaction
+in collider mode ( + - 0 ±
+e e (4S) B , B ). The favourable signal-to-background ratio
+d
+( ) is counterbalanced by a very low production cross-section
+B
+B tot 28
+.
+0
+( nb
+1
+.
+1 ), so that a quite high luminosity is required: integrated luminosities of
+BB
+
+respectively 30 and 100 fb-1 can be reached after one year by the two experiments. For
+both BaBar and Belle the B physics is inhibited.
+s
+
+By the end of 2000, CDF Run II will become operative. The reactions
+0 ±
+p
+p 0
+b
+b B , B , B , will be studied in collider, with s TeV
+0
+.
+2 . The expected
+d s b
+cross-section is 50µb , but a large amount of background events will have to be
+bb
+rejected ( -3
+).
+bb tot 10
+
+Finally, LHCb is expected to start in 2005. b-flavoured hadrons will be produced in
+
+pp collisions at s TeV
+14 . With such a high energy in the centre of mass, the b
+b
+cross section will reach the value 500µb . At the same time, the background
+bb
+sensitivity will be confined to .
+bb tot 1 160
+
+
+The predictions obtained in the present analysis,
+
+sin2 = 0
++ 20
+.
+- + + + -
+0 11
+. 0 .
+5 3 0
+. 1
+- , sin2 = 044
+.
+0 725
+. .
+63 7 m , (2. 4-2)
+B = .
+15 4 ps
+22
+.
+0 - , = ( - ,
+0
+.
+7 )3
+.
+0 046 -0 7
+.
+s
+
+already provide an estimate of the limits beyond which the new measurements will have
+to be definitely interpreted as signals of new physics. For example, the prediction for
+sin2 is precise enough to define a wide range of values which the Standard Model
+would be unable to account for, even within the `physical' range [0,1].
+The most general supersymmetric (SUSY) extensions of the Standard Model would
+be able to change the expected shape of the unitarity triangle (the existence of only three
+generations of particles is not called into question) in quite an unpredictable way, due to
+the contribution of new, presently unconstrained phases. Some restrictive assumptions
+have to be made in order to give a quantitative account of the possible modifications of
+the present scenario, as allowed by the currently available experimental data. In the
+Minimal Supersymmetric Standard Model (MSSM) and its several variants (see Ref. 152
+for a recent review), the flavour­changing processes are controlled by essentially the
+same mixing matrix (V ) as in the Standard Model. The direct measurements of the
+CKM
+
+CKM matrix elements are not affected by these theories, while the contribution of the
+supersymmetric particles to the effective FCNC processes (B-meson and K-meson
+mixing) can be parametrized by adding a `supersymmetric' term to the top-quark loop
+
+function in the expressions of m
+, m and . Equations (1. 7-7), (1. 7-8) and
+B B K
+d s
+
+(1. 7-65) have thus to be modified by making the substitutions
+
+m
+: S (x d
+1+ S x
+t ) ( BSUSY ) ( t)
+Bd
+m : S (x s
+1+ S x
+(2. 4-3)
+t ) ( BSUSY ) ( t)
+Bs
+: S (x 1+ S x
+t ) ( KSUSY) ( t)
+K
+
+
+
+
+
+70
+
+
+The quantities B B
+d
+, s
+and K
+are positive definite functions of the masses of
+SUSY SUSY SUSY
+
+the supersymmetric particles involved (top squark, chargino and charged Higgs) and of
+other SUSY parameters. To an excellent approximation, they are equal to each other152:
+B B K
+d s
+= = = .
+
+(2. 4-4)
+SUSY SUSY SUSY SUSY
+
+Therefore, as far as the determination of the vertex of the unitarity triangle is concerned,
+only one additional degree of freedom ( ) has to be considered, so that a suitable
+SUSY
+
+level of predictivity can be reached in the computation of the relevant parameters. The
+experimental constraints on the masses of the supersymmetric particles, on the electric
+dipole moments of electron and neutron and on the branching ratio of B X decays
+s
+
+can be used to set an upper bound on : the values allowed in different MSSM
+SUSY
+
+models range157 from (Standard Model) to .
+SUSY = .
+0 6
+SUSY = 0
+
+
+-
+m
+B ( 1
+ps
+SUSY sin2 sin2 )
+s
+
+
+0
++ 39
+.
+- + .
+0 087 + .
+0 032 + .
+0 23
+- 0
++ 045
+. ( 8
+.
+6
+.
+64 0+ 4
+.
+15 +
+- .
+15 1 )
+4
+.
+5
+EE 03
+.
+0 - 0 174
+. 0.355 .
+0 10 0.726
+.
+0 19 - .
+0 036 - .
+0 033 - .
+0 56 -0 048
+. -0 7
+.
+FR < 1.9 95% 0.099 ÷ 0.385 0.171 ÷ 0.417 -1 ÷ 0.34 0.629 ÷ 0.811 24.8° ÷ 75.0° 14.0 ÷32.3
++ .
+0 046 + 031
+.
+0 + 20
+.
+0 + .
+0 044 ( + .5 3
++ 0
+.
+63 7
+. 4
+.
+15
+- .
+7 0 )
+3
+0.0 0 175
+. 0 354
+. - .
+0 11 0 725
+.
+(SM) - .
+0 034 - .
+0 032 - 22
+.
+0 - .
+0 046 - 7
+.
+0
+0.103 ÷ 0.288 0.275 ÷ 0.415 -0.73 ÷ 0.26 0.632 ÷ 0.809 45.4° ÷ 74.4° 14.1 ÷21.5
++ .
+0 103 + .
+0 033 0
++ 24
+. 0
++ 047
+. ( + .5 + .
+6 2
+.
+61 5 7
+.
+15
+- .
+17 2 )
+9
+0.2 0.187 -
+- 0 345
+. 0 19
+. 0.720
+0 038
+. -0 071
+. -0 59
+. - .
+0 049 - .
+0 8
+D 0.113 ÷ 0.333 0.236 ÷ 0.409 -0.98 ÷ 0.26 0.620 ÷ 0.809 37.4° ÷ 72.8° 14.2 ÷25.3
+IXE 0
++ 078
+. 0
++ 034
+. 0
++ 21
+. + .
+0 053
+F ( .
+5 + .
+5 8
+0
+.
+52 + 18 5
+.
+- .
+13 3 )
+1
+0.4 0.242 -
+- 0 311
+. 0 52
+. 0 702
+.
+.
+0 031 - 049
+.
+0 -0 40
+. - .
+0 061 - .
+1 4
+0.140 ÷ 0.356 0.213 ÷ 0.387 -1 ÷ 0.102 0.569 ÷ 0.799 33.0° ÷ 68.6° 14.7 ÷27.7
+0
++ 040
+. + .
+0 042 0
++ 25
+. + .
+0 063 ( + .
+3 5
+.
+41 7+ 22 6
+.
+- 6
+.
+6 )1.
+9
+0.6 0.299 -
+- 0.267 0 82
+. 0.665
+.
+0 052 -0 039
+. -0 17
+. - .
+0 068 - .
+3 6
+0.192 ÷ 0.373 0.197 ÷ 0.358 -1 ÷ - 0.216 0.530 ÷ 0.783 29.8° ÷ 60.2° 15.9 ÷29.7
+
+Table XXIII. ­ MSSM predictions.
+
+
+The data displayed in the first row of Table XXIII are the result of a new fit1 performed
+
+using the modified formulas for m
+, m , and treating as an additional
+B B K SUSY
+d s
+
+free parameter. Although values of greater than 0. 36 are disfavoured at the 84%
+SUSY
+
+C. L. , SUSY effects as large as 190% of the Standard Model expectation are possible
+according to the 95% result. The prediction for the observable sin2 is completely
+insensitive to the new physics at the present level of precision of the data, while the
+lowest values of sin2 and and the highest ones of m allowed at the 95% C.L.
+Bs
+
+( < 45°, sin2 < -0.73, m > 22ps-1) fall outside the corresponding ranges of the
+Bs
+
+Standard Model predictions. A lower value of the imaginary part and, in general, less
+marked CP-violating effects are predicted in the MSSM than in the Standard Model
+itself.
+Figure 14 shows the 95% contours obtained after fixing the parameter at four
+different values belonging to the allowed range ( = 0.0, 0.2, 0.4, 0.6). The variation
+SUSY
+
+
+
+1 2 2 2
+The constraints sin2 and 7 (B X ( V V V ) have been removed.
+s ) ts tb cb
+
+
+
+
+
+71
+
+
+of the minimum 2 value with respect to the Standard Model ( ) result ( 2
+) is
+SUSY = 0 0
+
+also indicated. The numerical results are given in Table XXIII. Even though the
+Standard Model scenario is slightly favoured by the present experimental constraints, the
+two extreme regions = 0.0 and = 0.6 of the (, ) plane are not mutually
+SUSY SUSY
+
+exclusive. It will not be possible to test the reliability of the Standard Model with respect
+of its minimal extensions until more precise (and independent) experimental data are
+made available by the experiments at the B factories. Figure 15 shows how the improved
+determination of the unitarity triangle may be able to exhibit significant divergences
+between the models already in the first years of running of the experiments.
+
+
+0.6
+1999
+0.5
+
+
+
+
+0.4
+
+
+
+
+0.3
+
+
+/
+2 2
+0.2 SUSY 0
+(SM) 0.0 1
+0.2 1.3
+0.1 0.4 1.4
+0.6 1.5
+
+0
+-0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+
+
+
+Figure 14. ­ 95% C. L. allowed regions for the vertex of the unitarity triangle in four
+different SUSY scenarios.
+
+
+The approximate error magnitudes expected in each experiment for the measurements of
+sin2 and sin2 are reported in Table XXIV as functions of the year. The error values
+in sin
+2 are the results of very unequal estimations, in which different weights have
+been attributed to the unknown contribution of the penguin amplitude. The measurement
+of has not been taken into account, since most of the experiments refrain from making
+predictions on the error. The largest measurable values of m
+are also indicated.
+Bs
+Using these data, the projections represented in Figure 15 have been calculated. They
+describe the probable way in which the results of the experiments running at the B
+factories will progressively increase the accuracy in the determination of the vertex of
+the unitarity triangle, according to different Minimal Supersymmetric models (including
+the Standard Model itself). It has been assumed that the new measurements are
+compatible with the values predicted inside each respective model (Table XXIII) and that
+the first measurement of the 0 0
+B B oscillation frequency is provided by LHCb in
+s - s
+
+2006 with the error (m . The results expected from single experiments
+Bs ) 1
+-
+= .
+0 009 ps
+
+have been combined. These hypothetical measurements have been used as the additional
+constraints of a new fit procedure, as a result of which the contours shown in Figure 15
+have been calculated.
+
+
+
+72
+
+
+
+
+2000 2002 2004 2006
+m
+
+Bs (sin 2 ) (sin
+2 )
+
+HERA-B pN b
+b B0, B± , B0, 1
+d s b 22 -
+ps 0.17 / 0.35 0.12 / 0.25 0.09 / 0.18 0.07 / 0.14
+BaBar + - 0 ±
+e e (4S) B B - 0.08 / 0.31 0.05 / 0.18 0.04 / 0.14 0.03 / 0.12
+d ,
+
+Belle + - 0 ±
+e e (4S) B B - 0.10 / 0.15 0.06 / 0.09 0.04 / 0.07 0.04 / 0.06
+d ,
+
+
+CDF p
+p b
+b B0, B±, B0, 1
+d s b 35 -
+ps - 0.07 / 0.09 0.05 / 0.06 0.04 / 0.05
+LHCb pp b
+b B0, B± , B0, 1
+d s b 50 -
+ps - - - 0.023 / 0.06
+Average 0. 06 / 0. 13 0.03 / 0.06 0.02 / 0.04 0.01 / 0.03
+
+Table XXIV. ­ Expected uncertainties in the measurements of sin2 and sin2 and
+largest measurable values of m
+in the experiments at the B factories.
+Bs
+
+
+
+
+
+0.6
+0.6
+
+2000 2002
+0.5 0.5
+
+
+
+
+0.4 0.4
+
+
+
+
+0.3 0.3
+
+
+
+
+0.2 0.2
+
+
+
+
+0.1 0.1
+
+
+
+
+0 0
+-0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+-0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+
+
+0.6
+0.6
+
+2004 2006
+0.5 0.5
+
+
+
+
+0.4 0.4
+
+
+
+
+0.3 0.3
+
+
+
+
+0.2 0.2
+
+
+
+
+0.1 0.1
+
+
+
+
+0 0
+-0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+-0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+
+
+Figure 15. ­ Expected evolution in the determination of the vertex of the unitarity
+triangle resulting from forthcoming measurements of sin2, sin2 and (in 2006) m
+at
+Bs
+the B factories. Each graph represents the 95% C. L. regions corresponding respectively
+to (Standard Model scenario, the upper left plot in all four cases) and
+SUSY = 0
+= 0.2, 0.4, 0.6. The present (1999) scenarios were shown in Figure 14.
+SUSY
+
+
+
+
+
+
+
+
+73
+
+
+Conclusions
+
+An intensive program for the study of CP violation in weak decays involving the b-
+quark is about to be carried on by dedicated experiments. Only indirect estimates can be
+given at present for the magnitude of these phenomena; moreover, they are obtained in
+the framework of a critical sector of the Standard Model, the one describing the flavour-
+changing processes and parametrized by the CKM matrix, the verification of which
+offers the most favourable prospects for the discovery of new physics. With the aim of
+setting the status of the present knowledge about the CKM matrix before the start of the
+new experimental venture, a detailed and comprehensive review of the theoretical and
+experimental information until now available in this field has been presented.
+A great amount of precise information, obtained in some cases by exploiting new
+experimental sources, has been made available by the exceptionally thriving activity of
+the experiments in the very last years, leading in some cases to a noticeable
+improvement in the direct determination of the CKM matrix elements. For example, the
+precise measurement of W± hadronic decays can be translated into a determination of the
+element V being a factor of 6 more precise than the former best value derived from
+cs
+
+the analysis of D semileptonic decays. Moreover, thanks to a new measurement of the
+size of the nucleon strange-quark sea, it has been possible to extract a value for V
+cs
+
+from the neutrino-nucleon scattering data. Especially valuable information comes from
+the recent progress in the observation of B decays. More stringent constraints on V
+td
+
+and (in the form of a lower limit) V are now provided by the study of 0 0
+B - B and
+ts d d
+
+0 0
+B - B oscillations, while the first determination of V has been made possible by
+s s ts
+
+new measurements and accurate theoretical calculations of the b s decay rate.
+Furthermore, new or recently improved measurements of B semileptonic decays have
+led to better determinations of V , V and V V .
+ub cb ub cb
+
+Both the latest measurements and earlier (but not always unproblematic) results have
+been critically reviewed in the present work, calling attention to the least clearly defined
+experimental situations and pointing out the main theoretical uncertainties and questions.
+Among the results obtained, the theoretical uncertainty on the earliest experimental
+determinations of V V has been reduced by exploiting the results of the recent
+ub cb
+
+measurements of V , V and V V to discriminate between the disagreeing
+ub cb ub cb
+
+predictions of different models. The resulting information provides at present the most
+effective constraint on the values of the imaginary part of the CKM matrix and of the
+CP-violating parameters.
+A set of independent constraints has then been defined on the basis of the collected
+information. The unitarity condition of the 3×3 CKM matrix has been imposed as a
+further constraint by expressing each quantity in terms of either Wolfenstein's or the
+canonical parametrization. With the explicit assumption of unitarity, an over-determined
+problem is obtained, the solution of which gives much more precise values for the
+matrix elements; at the same time, other quantities of physical interest, such as the
+angles of the unitarity triangle and the B -oscillation parameter, can be determined.
+s
+
+
+
+
+
+74
+
+
+Two independent procedures have been followed, consisting respectively in a 2-
+minimization and in a more refined approach based on Bayesian statistics. The results
+obtained from the application of the two methods are in good agreement and, in some
+cases, constitute a great improvement with respect to the direct experimental
+determinations of the CKM elements. For example, the errors in V and V are
+cd cs
+
+reduced respectively by factors of 6 and 8, while the precision on V is increased by 4
+tb
+
+orders of magnitude. The probability distribution functions of the CKM elements and of
+all other relevant parameters are obtained as a result of the Bayesian determination.
+Highly asymmetric distributions are found for some quantities, such as the angles of the
+unitarity triangle, indicating that a complete description of the final knowledge of these
+parameters cannot be given if a simple confidence interval is quoted, as in the results of
+the 2 minimization. On the other hand, the 2 method has the advantage of providing a
+measure of the compatibility between the data and the model. The low 2 value at the
+minimum denotes a high degree of consistency between the experimental data and the
+description of the CP violating phenomena considered inside the Standard Model.
+The following predictions concerning the physics of B-meson decays have been
+obtained:
+
+sin2 = 0
++ 20
+.
+- + + + -
+0 11
+. 0 .
+5 3 0
+.
+m .
+B =
+- , sin2 = 044
+.
+0 725
+. .
+63 7 .
+15 4 ps
+22
+.
+0 - , = ( - , 1
+0
+.
+7 )3
+.
+0 046 -0 7
+.
+s
+
+They indicate with absolute certainty the presence of CP violation in B decays according
+to the Standard Model. Moreover, this conclusion is independent of the experimental
+evidence for the parallel phenomenon already observed in the kaon system, since the
+removal of the constraint does not alter significantly the results.
+K
+
+The above-mentioned results constitute the reference values to which the direct CP-
+violation and 0
+B -mixing measurements will have to be compared in the search for new
+s
+
+physics. On the other hand, their constraining effect on at least one class of minimal
+extensions of the Standard Model is still rather weak. In fact, the predictions of the
+Standard Model and those of its Minimal Supersymmetric extensions are at present
+nearly indistinguishable. However, as it has been shown in the last Section of this work,
+the direct measurements of CP violation expected in the first years of running of the B
+factories should already be able to bring the knowledge of the unitarity triangle to a
+substantially higher level of precision, offering the chance of detecting even the smallest
+non-Standard-Model effects.
+
+
+
+
+
+Acknowledgments
+
+We would like to thank F. Buccella, N. Cabibbo, E. A. Paschos, P. Santorelli and H.
+Schröder for stimulating discussions and many helpful suggestions.
+
+
+
+
+
+
+75
+
+
+References
+
+1 N. Cabibbo, Phys. Rev. Lett. 10 (1963) 351
+2 M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49 (1973) 652
+3 P. Faccioli, Thesis (in Italian), Bologna University (1999)
+4 M. Bargiotti et al., Nuovo Cimento 112 A (1999), in press
+5 S.L. Glashow, J. Iliopoulos and L. Maiani, Phys. Rev. D 2 (1970) 1285
+6 M.L. Perl et al. (MARK I Collab.), Phys. Rev. Lett. 35 (1975) 1489; M.L. Perl et al.
+(MARK I Collab. ), Phys. Lett. B 63 (1976) 466; M. L. Perl et al. (MARK I Collab. ),
+Phys. Lett. B 70 (1977) 487
+7 M. Bernardini et al., "A proposal to search for leptonic quarks and heavy leptons
+produced by ADONE", I. N. F. N. /AE-67/3 (1967); V. Alles Borelli et al. , Lett. Nuovo
+Cimento 4 (1970) 1156; M. Bernardini et al. , Nuovo Cimento A 17 (1973) 383; V.
+Alles Borelli et al. , Phys. Lett. B 59 (1975) 201
+8 S.W. Herb et al. (Fermilab P.C. Collab.), Phys. Rev. Lett. 39 (1977) 252; W.R. Innes
+et al. (Fermilab P. C. Collab. ), Phys. Rev. Lett. 39 (1977) 1240
+9 L.-L. Chau and W.-Y. Keung, Phys. Rev. Lett. 53 (1984) 1802
+10 L. Maiani, Phys. Lett. B 62 (1976) 183
+11 L. Wolfenstein, Phys. Rev. Lett. 51 (1983) 1945
+12 C. Caso et al. (Particle Data Group), Eur. Phys. J. C 3 (1998) 1
+13 CDF Collab., "A measurement of sin2 from 0
+B J K with the CDF detector",
+S
+
+CDF/PUB/BOTTOM/CDF/4855
+14 A. Bertin and A. Vitale, Riv. Nuovo Cimento 7 (1984) No. 7
+15 F.J.M. Farley et al., Proceedings of the International Conference on High Energy
+Physics, Geneva (CERN, Geneva, 1962), p. 415; A. Zichichi, Suppl. Nuovo Cimento 1
+(1964) 11
+16 G. Bardin et al., Phys. Lett. B 137 (1984) 135
+17 K.L. Giovanetti et al., Phys. Rev. D 29 (1984) 343
+18 I. S. Towner and J.C. Hardy, "The current status of V ", preprint 
+ud
+
+19 : Ref. 44 and A. Sirlin, in "Precision Tests of the Standard Electroweak Model",
+R
+
+ed. P. Langacker (World-Scientific, Singapore, 1994). : I. S. Towner, J.C. Hardy
+C
+
+and M. Harvey, Nucl. Phys. A 284 (1977) 269; W. E. Ormand and B. A. Brown, Phys.
+Rev. C 52 (1995) 2455. : A. Sirlin, Phys. Rev. 164 (1967) 1767; A. Sirlin and R.
+R
+
+Zucchini, Phys. Rev. Lett. 57 (1986) 1994; W. Jaus and G. Rasche, Phys. Rev. D 35
+(1987) 3420; A. Sirlin, Phys. Rev. D 35 (1987) 3423; I. S. Towner, Nucl. Phys. A
+540 (1992) 478; I. S. Towner, Phys. Lett. B 333 (1994) 13
+20 D.H. Wilkinson, Nucl. Phys. A 511 (1990) 301; Nucl. Instrum. Meth. A 335 (1993)
+172, 182, 201; Z. Phys. A 348 (1994) 129
+21 K. Saito and A.W. Thomas, Phys. Lett. B 363 (1995) 157
+22 D.H. Wilkinson, Nucl. Phys. A 377 (1982) 474; I. S. Towner and J.C. Hardy, in
+"Symmetries and Fundamental Interactions in Nuclei", eds. E. M. Henley and W. C.
+Haxton (World-Scientific, Singapore, 1995), pp. 183-249
+23 C.J. Christensen et al., Phys. Rev. D 5 (1972) 1628
+24 P.E. Spivak, Sov. Phys. JETP 67 (1988) 1735
+
+
+
+76
+
+
+
+25 J. Last et al., Phys. Rev. Lett. 60 (1988) 995
+26 R. Kossakowski et al., Nucl. Phys. A 503 (1989) 473
+27 J. Byrne et al., Europhys. Lett. 33 (1996) 187
+28 Yu. Yu. Kosvintsev et al., JETP Lett. 44 (1986) 571
+29 W. Paul et al., Z. Phys. A 45 (1989) 25
+30 W. Mampe et al., Phys. Rev. Lett. 63 (1989) 593
+31 V.V. Nesvizhevskii et al., Sov. Phys. JETP 75 (1992) 405
+32 W. Mampe et al., JETP Lett. 57 (1993) 82
+33 V.E. Krohn et al., Phys. Lett. B 55 (1975) 175
+34 B.G. Erozolimskii et al., Sov. J. Nucl. Phys. 30 (1979) 356
+35 P. Bopp et al., Phys. Rev. Lett. 56 (1986) 919
+36 B. Yerozolimsky et al., Phys. Lett. B 412 (1997) 240
+37 P. Liaud et al., Nucl. Phys. A 612 (1997) 53
+38 H. Abele et al., Phys. Lett. B 407 (1997) 212
+39 C. Stratowa et al., Phys. Rev. D 18 (1978) 3970
+40 A. Bertin and A. Vitale, Riv. Nuovo Cimento 7 (1984) No. 8
+41 W.K. McFarlane et al., Phys. Rev. D 32 (1985) 547
+42 V.P. Koptev et al., JETP Lett. 61 (1995) 877; T. Numao et al., Phys. Rev. D 52
+(1995) 4855
+43 H. Leutwyler and M. Roos, Z. Phys. C 25 (1984) 91
+44 W.J. Marciano and A. Sirlin, Phys. Rev. Lett. 56 (1986) 22
+45 H.H. Williams et al., Phys. Rev. Lett. 33 (1974) 240; T. Becherrawy, Phys. Rev. D 1
+(1970) 1452
+46 W. Jaus, Phys. Rev. D 44 (1991) 2851
+47 E.A. Paschos and U. Türke, Phys. Rep. 178 (1989) 145
+48 J.F. Donoghue, B.R. Holstein and S.W. Klimt, Phys. Rev. D 35 (1987) 934
+49 M. Bourquin et al. (BGHORS Collab.), Z. Phys. C 21 (1983) 27;
+Particle Data Group, Rev. Mod. Phys. 56 (1984) 1
+50 R. Flores-Mendieta, A. García and G. Sánchez-Colón, Phys. Rev. D 54 (1996) 6855
+51 J.A. Thompson et al., Phys. Rev. D 21 (1980) 25
+52 J. Anderson and M.A. Luty, Phys. Rev. D 47 (1993) 4975
+53 H. Abramowicz et al. (CDHS), Z. Phys. C 15 (1982) 19
+54 A.O. Bazarko et al. (CCFR Collab.), Z. Phys. C 65 (1995) 189
+55 P. Vilain et al. (CHARM II Collab.), "Leading-order QCD analysis of neutrino-
+induced dimuon events", CERN-EP/98-128, August 1998
+56 T. Bolton, "Determining the CKM parameter Vcd from N
+charm production", hep-
+
+57 N. Ushida et al. (Fermilab E531 Collab.), Phys. Lett. B 206 (1988) 375
+58 Ref. 67 and Y. Kubota et al. (CLEO Collaboration), Phys. Rev. D 54 (1996) 2994
+59 S. J. Brodsky and B.-Q. Ma, Phys. Lett. B 381 (1996) 317
+60 F. Buccella, O. Pisanti and L. Rosa, "The strange quark problem in the framework of
+statistical distributions", in preparation
+61 U.K. Yang et al. (CCFR), "Measurement of the longitudinal structure function and
+V in the CCFR experiment", preprint 
+cs
+
+62 L. Montanet et al. (Particle Data Group), Phys. Rev. D 50 (1994) 1173
+
+
+
+77
+
+
+
+63 P. Abreu et al. (DELPHI Collab.), Phys. Lett. B 439 (1998) 209
+64 R. Barate et al. (ALEPH Collab.), Phys. Lett. B 453 (1999) 107; ALEPH
+Collaboration, "Measurement of W-pair production in + -
+e e collisions at 189 GeV",
+International Europhysics Conference on High Energy Physics, Tampere 1999
+(HEP'99), ALEPH 99-064 CONF 99-038, July 1999; ALEPH Collaboration, "A direct
+measurement of V in hadronic W decays using a charm tag", CERN-EP-99-124,
+cs
+
+September 1999
+65 The L3 Collaboration, "Preliminary results on charm production in W decays", XXIX
+International Conference on High Energy Physics, Vancouver 1998 (ICHEP'98), L3
+Note 2232, June 1998; "Preliminary results on the measurement of W-pair cross
+
+sections in + -
+e e interactions at s = 189 GeV and W-decay branching fractions",
+HEP'99, L3 Note 2376, March 1999
+66 The OPAL Collaboration, " + - +
+W W production in -
+e e collisions at 189 GeV",
+OPAL Physics Note PN378 March 1999; "A measurement of charm production in
++ - + -
+e e W W at LEP2", HEP'99, OPAL Physics Note PN402, July 1999
+67 R.M. Barnett et al. (Particle Data Group), Phys. Rev. D 54 (1996) 1
+68 R. Fulton et al. (CLEO Collab.), Phys. Rev. Lett. 64 (1990) 16
+69 H. Albrecht et al. (ARGUS Collab.), Phys. Lett. B 234 (1990) 409
+70 H. Albrecht et al. (ARGUS Collab.), Phys. Lett. B 255 (1991) 297
+71 I.I. Bigi, M. Schifman and N.G. Uraltsev, Annu. Rev. Nucl. Part. Sci. 47 (1997) 591;
+N. Uraltsev, "Theoretical uncertainties in ",  June 1999;
+sl (b u)
+I. I. Bigi, "Memo on extracting V and V V from semileptonic B decays", hep-
+cb ub cb
+
+ July 1999
+72 D. Abbaneo et al. (The LEP Vub Working Group), "Determination of the LEP average
+BR(b X and derivation of V ", LEPVUB-99/01 June 1999
+u
+) ub
+
+73 J.P. Alexander et al. (CLEO Collab.), Phys. Rev. Lett. 77 (1996) 5000
+74 C.P. Jessop et al. (CLEO Collaboration), "Measurement of (B
+) , V and
+ub
+
+the Form Factor Slope in B
+Decay", ICHEP'98 #855, CLEO CONF 98-18;
+B. H. Behrens et al. (CLEO Collab. ), "Measurement of B
+decay and V ",
+ub
+
+preprint 
+75 M. Acciarri et al. (L3 Collab.), Phys. Lett. B 436 (1998) 174
+76 R. Barate et al. (ALEPH Collab.), Eur. Phys. J. C 6 (1999) 555
+77 N. Isgur and M. Wise, Phys. Lett. B 232 (1989) 113, ibid. 237 (1990) 527;
+H. Georgi, Phys. Lett. B 238 (1990) 395
+78 I. Caprini and M. Neubert, Phys. Lett. B 380 (1996) 376
+79 M.E. Luke, Phys. Lett. B 252 (1990) 447
+80 H. Albrecht et al. (ARGUS Collab.), Z. Phys. C 57 (1993) 533, Phys. Rept. 276
+(1996) 223
+81 M. Athanas et al. (CLEO Collab.), "Measurement of the B
+
+D partial width and
+form factor parameters", ; J. Bartelt et al. (CLEO Collab. ),
+"Measurement of the B
+
+D branching fractions and form factor", 
+82 B. Barish et al. (CLEO Collab.), Phys. Rev. D 51 (1995) 1014
+
+
+
+78
+
+
+
+83 K. Ackerstaff et al. (OPAL Collab.), Phys. Lett. B 395 (1997) 128
+84 D. Buskulic et al. (ALEPH Collab.), Phys. Lett. B 395 (1997) 373
+85 P. Abreu et al. (DELPHI Collab.), Z. Phys. C 71 (1996) 539; DELPHI
+Collaboration, "New precise measurement of Vcb", HEP'99 #4_518, DELPHI 99-107
+CONF 294, June 1999
+86 J.G. Körner and G.A. Schuler, Z. Phys. C 38 (1988) 511
+87 M. Wirbel, B. Stech and M. Bauer, Z. Phys. C 29 (1985) 637
+88 G. Altarelli, N. Cabibbo, G. Corbò, L. Maiani and G. Martinelli, Nucl. Phys. B 208
+(1982) 365
+89 N. Isgur, D. Scora, B. Grinstein and M.B. Wise, Phys. Rev. D 39 (1989) 799
+90 J. Bartelt et al. (CLEO Collab.), Phys. Rev. Lett. 71 (1993) 4111
+91 M. Battaglia et al. (DELPHI Collab.), "Measurement of 7 (b X and
+u
+)
+determination of V V with DELPHI at LEP", HEP'99 #4_521, DELPHI 99-110
+ub cb
+
+CONF 297, June 1999
+92The CDF Collaboration, "First direct measurement of the ratio of branching fractions
+B(t Wb) B(t Wq) and of the CKM element V in p
+p
+tb collisions at
+
+s = .
+1 8TeV ", CDF/PUB/TOP/CDFR/5028 (1999)
+93 A.P. Heinson, "Measuring the CKM matrix element Vtb at D0 and CDF", D0-Conf-
+97-26 UCR/D0-97-12, FERMILAB-Conf-97/238-E, July 97
+94 T. Inami, C.S. Lim, Prog. Theor. Phys. 65 (1981) 297
+95 G. Buchalla, A.J. Buras and M.K. Harlander, Nucl. Phys. B 337 (1990) 313; W.A.
+Kaufman, H. Steger and Y. P. Yao, Mod. Phys. Lett. A 3 (1989) 1479; J. M. Flynn,
+Mod. Phys. Lett. A 5 (1990) 877; A. Datta, J. Frölich and E. A. Paschos, Z. Phys. C
+46 (1990) 63; A. J. Buras, M. Jasmin and P. H. Weisz, Nucl. Phys. B 347 (1990) 491;
+S. Herrlich and U. Nierste, Nucl. Phys. B 419 (1994) 292; A. J. Buras, MPI-PHT/95-
+88, TUM-T31-97/95 (1995)
+96 G. Buchalla, A.J. Buras, M.E. Lautenbacher, Rev. Mod. Phys. 68 (1996) 1125
+97 P. Paganini, F. Parodi, P. Rondeau and A. Stocchi, Physica Scripta 58 (1998) 556
+98 S. Aoki et al. (WA75 Collab.), Prog. Theor. Phys. 89 (1993) 131
+99 J.Z. Bai et al. (BES Collab.), Phys. Rev. Lett. 74 (1995) 4599
+100 K. Kodama et al. (Fermilab E653 Collab.), Phys. Lett. B 382 (1996) 299
+101 M. Acciarri et al. (L3 Collab.), Phys. Lett. B 396 (1997) 327
+102 F. Parodi, P. Rondeau, A. Stocchi (DELPHI Collab.) "Measurement of the
+branching fraction +
+D ", HEP'97 Conference, Jerusalem, #455, DELPHI 97-
+s
++
+105 CONF 87
+103 M. Chada et al. (CLEO Collab.), Phys. Rev. D 58 (1998) 032002
+104 ALEPH Collaboration, "Leptonic decays of the D meson", ICHEP'98 #937
+s
+
+105 F Buccella and P. Santorelli, Nuovo Cimento A 107 (1994) No. 5
+106 C. Bernard et al. (MILC Collab.), Phys. Rev. Lett. 81 (1998) 4812
+107 C. Bernard et al. (MILC Collab.), "Heavy-light decay constants: conclusion from the
+Wilson action", 
+108 S Aoki et al. (JLQCD Collab.), Phys. Rev. Lett. 80 (1998) 5711
+
+
+
+
+
+79
+
+
+
+109 K. I. Ishikawa et al. (JLQCD Collab.), "Scaling behaviour of f with NRQCD",
+B
+
+
+110 L. Lellouch and C.J. David Lin (UKQCD Collab.), "Neutral B meson mixing and
+heavy-light decay constants from quenched lattice QCD", 
+111 A. X. El-Khadra et al., Phys. Rev. D 58 (1998) 014506
+112 J. Hein, "Pseudoscalar decay constant in heavy-light systems", 
+113 N. Yamada et al., "Preliminary study of B parameter using Lattice NRQCD", hep-
+B
+
+
+114 C.R. Allton et al., Phys. Lett. B 405 (1997) 133; L. Conti, Nucl. Phys. B (Proc.
+Suppl. ) 63A-C (1998) 359
+115 V. Giménez, G. Martinelli, Phys. Lett. B 398 (1997) 135
+116 A. Ali Khan et al., Phys. Lett. B 427 (1998) 132
+117 D. Becirevic et al., "Non-perturbatively improved heavy-light mesons: masses and
+decay constants", 
+118 V.M. Braun, "QCD sum rules for heavy flavors", Invited talk at the 8th International
+Symposium on Heavy Flavour Physics (Heavy Flavours 8), Southampton, July 1999
+119 A. Soni, Nucl. Phys. B (Proc. Suppl.) 47 (1996) 43
+120 V. Giménez and J. Reyes, "Calculation of the continuum-lattice HQET matching for
+the complete basis of four-fermion operators: reanalysis of the 0 0
+B - B mixing", hep-
+
+121 J. Christensen, T. Draper and C. McNeile, Phys. Rev. D 56 (1997) 6993
+122 C. Bernard, T. Blum and A. Soni, "SU(3) flavour breaking in hadronic matrix
+elements for B - B oscillations", 
+123 The LEP B Oscillations Working Group, "Combined results on 0
+B oscillations:
+results for Lepton-Photon 1999", XIX International Symposium on Lepton and Photon
+Interactions at High Energies, Stanford University, August 1999,
+http://www. cern. ch/LEPBOSC/
+124 H.G. Moser, A. Roussarie, Nucl. Instrum. Meth. A 384 (1997) 491
+125 L. Wolfenstein, Phys. Rev. Lett. 13 (1964) 380
+126 L.K. Gibbons et al. (E731), Phys. Rev. Lett. 70 (1993) 70
+127 G.D. Barr et al. (NA31), Phys. Lett. B 317 (1993) 233
+128 A. Alavi-Harati et al., Phys. Rev. Lett. 83 (1999) 22
+129 V. Fanti et al., "A new measurement of direct CP violation in two pion decays of the
+neutral kaon", submitted to Physics Letters B, 
+130 I. Bigi, "CP Violation ­ A Probe of Nature's Grand Design", UND-HEP-97-BIG 09
+131 Y. Keum, U. Nierste and A.I. Sanda, "A short look at ", 
+132 A.J. Buras, M. Jamin and M.E. Lautenbacher, Nucl. Phys. B 370 (1992) 69, Nucl.
+Phys. B 400 (1993) 37, Nucl. Phys. B 400 (1993) 75, Nucl. Phys. B 408 (1993) 209;
+M. Ciuchini, E. Franco, G, Martinelli and L. Reina, Phys. Lett. B 301 (1993) 263,
+Nucl. Phys. B 415 (1994) 403
+133 R. Gupta, "Quark masses, B-parameters, and CP violation parameters and ",
+
+134 L. Conti et al., Phys. Lett. B 421 (1998) 273
+
+
+
+
+
+80
+
+
+
+135 W.A. Bardeen, A.J. Buras and J.-M. Gérard, Phys. Lett. B 180 (1986) 133, Nucl.
+Phys. B 293 (1987) 787, Phys. Lett. B 192 (1987) 138; T. Hambye et al. , Phys. Rev.
+D 58 (1998) 014017
+136 S.R. Sharpe, "Progress in lattice gauge theory", 
+137 A.J. Buras, M, Jamin, M.E. Lautenbacher, Phys. Lett. B 389 (1996) 749
+138 M. Ciuchini, Nucl. Phys. B (Proc. Suppl.) 59 (1997) 149
+139 S. Bertolini et al., Nucl. Phys. B 514 (1998) 93
+140 A.J. Buras, "Weak hamiltonian, CP violation and rare decays", TUM-HEP-316-98,
+
+141 E.A. Paschos, "Rescattering effects for ", in preparation
+142 R. Burkhalter, "Recent results from the CP-PACS Collaboration", ;
+S. Aoki et al. , "Full QCD light hadron spectrum from the CP-PACS", 
+143 G. Kilcup, R. Gupta, S.R. Sharpe, Phys. Rev. D 57 (1998) 1654
+144 S. Aoki et al. (JLQCD Collab.), Phys. Rev. Lett. 80 (1998) 5271
+145 S.R. Sharpe, Nucl. Phys. B (Proc. Suppl.) 53 (1997) 181
+146 R. Ammar et al. (CLEO Collab.), Phys. Rev. Lett. 71 (1993) 674
+147 K. Chetyrkin, M. Misiak, M. Münz, Phys. Lett. B 400 (1997) 206
+148 M.S. Alam et al. (CLEO Collab.), Phys. Rev. Lett. 74 (1995) 2885; S. Glenn et al.
+(CLEO Collab. ), "Improved measurement of (b s )", ICHEP'98 #1011, CLEO
+CONF 98-17
+149 R. Barate et al. (ALEPH Collab.), Phys. Lett. B 429 (1998) 169
+150 F. James, MINUIT ­ Function Minimization and Error Analysis, CERN Program
+Library Long Writeup D506 (1994)
+151 F. Parodi, P. Rondeau, A. Stocchi, Nuovo Cimento 112 A (1999) No. 8
+152 A. Ali and D. London, "Profiles of the unitarity triangle and CP-violating phases in
+the Standard Model and supersymmetric theories", 
+153 D.E. Jaffe and S. Youssef, Computer Physics Communications 11 (1997) 206
+154 W.T. Eadie et al., Statistical Methods in Experimental Physics, North-Holland Publ.
+Comp. , Amsterdam, 1998
+155 G. D'Agostini, "Bayesian reasoning in high-energy physics: principles and
+applications", CERN 99-03 July 1999
+156 P. Huet and E. Sather, Phys. Rev. D 51 (1995) 379
+157 S. Baek and P. Ko, Phys. Rev. Lett. 83 (1999) 488
+
+
+
+
+
+81
+
+
+

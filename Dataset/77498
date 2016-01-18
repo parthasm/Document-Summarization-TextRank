@@ -1,0 +1,106 @@
+
+
+ 28 Feb 1995
+
+A Monte Carlo Calculation of Atmospheric Muon and Neutrino Fluxesy M. Thunmana\Lambda , G. Ingelmana and P. Gondolob aDepartment of Radiations Sciences, Uppsala University, Box 535, S-751 21 Uppsala, Sweden
+
+bLPTHE, Universit'e de Paris VI-VII, 2 place Jussieu, F-75251 Paris Cedex05, France
+
+Production of muons and neutrinos in cosmic ray interactions with the atmosphere has been investigated with a cascade simulation program based on Lund Monte Carlo programs. The resulting `conventional' muon and neutrino fluxes (from ss; K decays) agree well with earlier calculations, whereas the improved charm particle treatment used in this study gives significantly lower `prompt' fluxes compared to earlier estimates. This implies better prospects for detecting very high energy neutrinos from cosmic sources.
+
+1. Introduction
+
+TSL/ISV-95-0112 ISSN 0284-2769
+
+y To appear in proceedings "Trends in Astroparticle Physics", Stockholm, Sweden, 22-25 September 1994
+
+The flux of muons and neutrinos at the earth has an important contribution from decays of particles produced through the interaction of cosmic ray particles in the atmosphere. This has an interest in its own right, since it reflects primary interactions at energies that can by far exceed the highest available accelerator energies. It is also a background in studies of neutrinos from cosmic sources as attempted in large neutrino telescopes, such as Amanda, Baikal, Dumand and Nestor. Here we give a short report of a comprehensive study of muon and neutrino production in cosmic ray proton interactions with nuclei in the atmosphere using detailed Monte Carlo simulations [1,2].
+
+The atmospheric muons and neutrino fluxes are dominated by `conventional' sources, i.e. decays of relatively long-lived particles such as ss and K mesons. This is well understood from earlier studies [3,4] and confirmed by our investigations [1,2]. With increasing energy, the probability increases that such particles interact before decaying. This implies that even a small fraction of short-lived particles can give the dominant contribution to the high energy tail of the muon and neutrino fluxes. These `prompt' muons and neutrinos arise through semi-leptonic decays of hadrons containing heavy quarks, most notably charm.
+
+\Lambda rapporteur, thunman@tsl.uu.se
+
+Previous estimates of the flux of prompt muons and neutrinos from charm [5-7] vary by a few orders of magnitude (cf. Fig. 3). This is due to the different models used to calculate the charm hadron cross section and energy spectra. The models are usually constrained or fitted to experimental data at accelerator energies and then extrapolated to the higher energies needed in this context. Obviously, the extrapolation can only be trustworthy if based on a sound physical model. The main new contribution of our study is in this context, where we apply state-of-the-art models to simulate charm particle production in high energy hadron-hadron interactions.
+
+2. The cascade algorithm
+
+The prompt flux is essentially independent of the zenith angle due to the negligible probability that the very short-lived particles interact before decaying. This flux is therefore relatively more important in the vertical direction where the conventional flux is lower. The fluxes are therefore calculated for the vertical direction which has the advantage that a simple exponential model for the density of the atmosphere can be used, i.e. the atmospheric depth is
+
+X[g/cm2] = 1300 e\Gamma h[km]=6:4 (1) The parameters are chosen to give a good description of the atmosphere at altitudes of 10-40 km where the interactions typically take place.
+
+The simulation algorithm is constructed as follows [1,2]. The energy of a cosmic ray proton is chosen from the form \Phi (E) , E\Gamma fl\Gamma 1, with fl = 1:7 for E below 5\Delta 106 GeV and fl = 2 above. A proton-nucleon interaction is then generated with Pythia [8] resulting in a complete final state of particles. Cross section and mean free path are scaled according to the composition of the atmosphere, and an interaction height is chosen. The produced particles are traced through the atmosphere until they either decay or interact as given by simulated decay lengths and interaction lengths. Particle decays are fully simulated with daughter particle momenta. In case of interactions, the interacting particle is regenerated in the same direction but with degraded energy corresponding to the appropriate leading particle spectrum. The procedure is repeated until all particles have decayed, hit the ground or their energy fallen below a minimum of 102 GeV. Finally, muons and neutrinos are counted with appropriate weights to obtain their energy spectra.
+
+The simplification that secondary interactions are not simulated in full detail is justified since only leading particles will contribute significantly. Other particles with lower energy give a negligible flux compared to the flux of primary particles at the corresponding energy. Furthermore, proton-nucleus and meson-nucleus collisions are very similar except for the leading particle.
+
+To obtain the flux of conventional muons and neutrinos, an inclusive event sample is simulated using Pythia in a mode generating minimum bias proton-proton interactions (including diffractive scattering). The particle production results from Lund model hadronisation of colour string fields between partons scattered in semi-soft QCD interactions. The prompt flux is obtained from charm particles arising from the hadronisation of charm quarks produced in the processes gg ! c_c and q _q ! c_c as calculated with leading order perturbative QCD (pQCD) matrix elements.
+
+3. Numerical results
+
+From the extensive studies in [1,2] we show in Fig. 1 the main results in terms of the calculated fluxes of muons and neutrinos. The prompt
+
+Figure 1. Vertical fluxes (E3-weighted energy spectra) of muons and neutrinos from conventional (ss; K decays) and prompt (charm decays) sources and their sum as obtained from simulated cosmic ray interactions in the atmosphere.
+
+contribution from charmed particles dominates at high energies. This contribution is subdivided on the different charmed particles in Fig. 2, demonstrating the dominance of the D\Sigma ;0 mesons.
+
+The results for the inclusive prompt and conventional fluxes can be parametrised as (cf. the primary flux)
+
+OE(E) =
+
+8!
+
+:
+
+N0 E\Gamma fl\Gamma 1=(1 + A E) E ! E0
+
+N 00 E\Gamma fl
+
+0\Gamma 1=(1 + A0 E) E ? E
+
+0
+
+(2)
+
+Table 1 Values of parameters in eq. 2 obtained from fits to the Monte Carlo results in Fig. 1.
+
+N0 fl A E0 fl0 A0 N 00 Conv. _\Gamma + _+ 1:3 \Delta 10\Gamma 1 1:77 4:4 \Delta 10\Gamma 3 2:7 \Delta 105 2:40 9:2 \Delta 10\Gamma 6 4:6 \Delta 10\Gamma 1 Prompt _\Gamma + _+ 2:4 \Delta 10\Gamma 6 1:63 6:5 \Delta 10\Gamma 7 3:2 \Delta 107 2:64 6:2 \Delta 10\Gamma 8 1:2 \Delta 101 Conv. *_ + _*_ 8:5 \Delta 10\Gamma 3 1:55 9:1 \Delta 10\Gamma 3 7:9 \Delta 103 2:69 1:0 \Delta 10\Gamma 6 3:3 \Delta 10\Gamma 4 Prompt *_ + _*_ 2:5 \Delta 10\Gamma 6 1:63 6:5 \Delta 10\Gamma 7 4:4 \Delta 107 2:78 1:3 \Delta 10\Gamma 8 8:0 \Delta 101 Conv. *e + _*e 3:8 \Delta 10\Gamma 4 1:70 3:9 \Delta 10\Gamma 3 1:3 \Delta 105 2:32 4:6 \Delta 10\Gamma 6 1:8 \Delta 10\Gamma 3 Prompt *e + _*e 2:5 \Delta 10\Gamma 6 1:63 6:5 \Delta 10\Gamma 7 4:1 \Delta 107 2:87 6:0 \Delta 10\Gamma 7 6:4 \Delta 103
+
+Figure 2. Flux of muon neutrinos and antineutrinos from decays of the different charmed particles.
+
+with an accuracy of typically better than 10% using the fitted parameter values in Table 1.
+
+4. Discussion
+
+Whereas earlier calculations [3,4] agree well with our conventional muon and neutrino fluxes [1,2], previous estimates [6,7] of the prompt fluxes are up to orders of magnitude larger as illustrated in Fig. 3. (Prompt fluxes are direction independent up to , 107 GeV [1] and therefore directly comparable between horizontal and vertical directions.) These differences are due to different models for charm production, both regarding the energy dependence of the cross section and the
+
+distribution in longitudinal momentum fraction xF = pk=pmax (Feynman-x) of the charmed particles. Model I [6] uses a parametrised energy dependence of the cross section, normalised to some charm production data, and an xF -spectrum of the form
+
+dN=dxF , (1 \Gamma xF )ff (3) with ffD = 5 and ff\Lambda
+
+c = 0:4 for D-mesons and \Lambda c.Feynman scaling is thus assumed, i.e. x
+
+F is independent of the collision energy. Model II [7]
+
+simply takes charm as 10% of the total inelastic cross section and xF distributions of eq. (3) with ffD = 3 and ff\Lambda
+
+c = 1. Model III [7] correspondsto charm quark production calculated with leading order pQCD matrix elements using relatively hard parton distributions.
+
+Figure 3. Prompt and conventional muon fluxes (solid lines) compared with earlier model calculations I-III of horizontal prompt fluxes (see text).
+
+Figure 4. Distribution in xF of D-mesons in a model obeying Feynman scaling (ffD = 5 in eq. (3), solid line), and from Pythia at proton beam energy 103 GeV (dashed line), 106 GeV (dotted line) and 109 GeV (dash-dotted line).
+
+Whereas our model reproduces available data on charm production cross sections [2], not all of models I-III do. When extrapolating orders of magnitude in energy, the cross section differences are enhanced to factors of 10. A more important reason for our lower flux is, however, the strong breaking of Feynman scaling as demonstrated in Fig. 4. This arises from the dominance of charm production close to threshold in pQCD such that, with increasing energy, smaller momentum fractions x of incoming partons will contribute (giving a sensitivity to parton density parametrisations). Together with the hadronisation mechanism, this dynamics imply smaller xF at higher collision energies.
+
+Finally, the calculated atmospheric muonneutrino flux is considered as a background in comparison to astrophysical sources, as illustrated in Fig. 5. The neutrino production in cosmic ray interactions with the galactic medium and, in particular, the diffuse neutrino flux from active galactic nuclei is estimated to be in excess of the atmospheric neutrino background for high energies and should therefore be possible to detect with large scale neutrino telescopes.
+
+Figure 5. Vertical fluxes of conventional and prompt atmospheric muon-neutrinos (solid lines) compared to astrophysical sources: the flux from cosmic ray interactions with the intra-galactic medium (dashed curves derived from [9]; upper curve apply for the direction towards the center of the galaxy, and lower curve orthogonal to the galactic plane) and the estimated diffuse fluxes from active galactic nuclei (dotted line [10], dashdotted line [11]).
+
+REFERENCES 1. M. Thunman, Licentiate thesis, Uppsala University, TSL/ISV-94-0097 2. M. Thunman et al., in preparation 3. L.V. Volkova, Sov. J. Nucl. Phys. 31 (1980)
+
+784 [Yad. Fiz. 31 (1980) 1510] 4. P. Lipari, Astropart. Phys. 1 (1993) 195 5. C. Castagnoli et al., Nuovo Cimento A82
+
+(1984) 78 6. L.V. Volkova et al., Nuovo Cimento C10
+
+(1987) 465 7. E. Zas et al., Astropart. Phys. 1 (1993) 297 8. T. Sj"ostrand, PYTHIA 5.7 & JETSET 7.4,
+
+CERN-TH.7112/93 9. G. Domokos et al., J. Phys. G19 (1993) 899 10. A.P. Szabo, R.J. Protheroe, in [12] p. 24 11. M. Sikora, M. Begelman, in [12] p. 114 12. Proc. Workshop on High Energy Neutrino Astrophysics, Honolulu, 1992, eds. V.J Stenger et al., (World Scientific, Singapore)
+

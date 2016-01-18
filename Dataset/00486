@@ -1,0 +1,47 @@
+
+
+SEMI-LEPTONIC FORM-FACTORS FROM LATTICE QCD
+
+\Lambda
+
+Tanmoy Bhattacharya and Rajan Gupta T-8 Group, MS B285, Los Alamos National Laboratory, Los Alamos,
+
+New Mexico 87545, U. S. A.
+
+ABSTRACT We present results for semi-leptonic form-factors obtained on a statistical sample of 66 323 \Theta 64 lattices at fi = 6:0 using quenched Wilson fermions. We find  where the error estimate includes statistical errors and errors due to extrapolation to q2 = 0 and to physical values of (mu + md)=2 and ms. The remaining sources of systematic errors are those due to O(a) discretization errors and those due to quenching, which our results indicate may be small. We also comment on the validity of pole-dominance in these form-factors.
+
+1. INTRODUCTION
+
+Exclusive semi-leptonic decays of D and B mesons provide the cleanest measurements of the CKM quark mixing matrix. For example, the decay rate for D ! Kl*,
+
+d\Gamma D
+
+!Kl*
+
+dq2 =
+
+G2F 24ss3 jVcsj
+
+2 p3
+
+K f
+
+2 +(q
+
+2); (1)
+
+depends on kinematic factors, a single CKM matrix element Vcs, and the form-factor f+(q2). To extract CKM matrix elements from such processes requires non-perturbative calculations of the form-factors as they encapsulate all strong interaction effects. In this talk we report on results obtained from numerical simulations of lattice QCD.
+
+2. LATTICE PARAMETERS
+
+The results presented here have been obtained using the following lattice parameters. The 323 \Theta 64 gauge lattices were generated at fi = 6:0 using the combination 5 over-relaxed (OR) sweeps followed by 1 Metropolis sweep. Quark propagators are calculated on lattices separated by 2000 OR sweeps using the simple Wilson action. Periodic boundary conditions are used in all 4 directions, both during lattice update and propagator calculation. Quark propagators have been calculated using one version of Wuppertal smeared sources at ^ = 0:135 (C), 0:153 (S), 0:155 (U1), 0:1558 (U2), and 0:1563 (U3). These quark masses correspond to pseudoscalar mesons of mass 2800, 980, 700, 550 and 440 M eV respectively using 1=a = 2:25(10)GeV set by mae. On each of the 66 configurations we make two independent measurements of the form-factors, which we average before doing the statistical analysis using the jackknife method.
+
+\Lambda Talk presented by R. Gupta at DPF94. Error: /rangecheck in --repeat--
+Operand stack:
+-1 --nostringval--
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:116/250(L)-- --dict:42/200(L)--
+Current allocation mode is local
+

@@ -1,0 +1,2268 @@
+
+
+ 21 Mar 1995
+
+APPLICATIONS OF HIGH-TEMPERATURE FIELD THEORY
+
+TO HEAVY-ION COLLISIONS
+
+MARKUS H. THOMA Institut f"ur Theoretische Physik, Universit"at Giessen
+
+35392 Giessen, Germany
+
+Abstract A recent development in finite temperature field theory, the so-called Braaten-Pisarski method, and its application to properties of a quark-gluon plasma, possibly formed in relativistic heavy ion collisions, are reviewed. In particular parton damping rates, the energy loss of energetic partons, thermalization times, viscosity, and production and damping rates of hard photons are discussed.
+
+Contents 1 Introduction 3 2 Perturbation theory at finite temperature 6
+
+2.1 Imaginary time formalism : : : : : : : : : : : : : : : : : : : : : : : : 6 2.2 Saclay method : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 8 2.3 Self energies : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 9 2.4 Effective propagators and dispersion relations : : : : : : : : : : : : : 12 2.5 Gluon damping rate : : : : : : : : : : : : : : : : : : : : : : : : : : : 15
+
+3 The Braaten-Pisarski method 18
+
+3.1 OE4-theory : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 18 3.2 Gauge theories : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 20
+
+4 Damping rates 27
+
+4.1 Damping rates of hard particles : : : : : : : : : : : : : : : : : : : : : 28 4.2 Damping rates of soft particles : : : : : : : : : : : : : : : : : : : : : : 36
+
+5 Energy loss 38
+
+5.1 Motivations and estimates : : : : : : : : : : : : : : : : : : : : : : : : 38 5.2 Quantum field theoretic definition : : : : : : : : : : : : : : : : : : : : 40 5.3 Braaten-Yuan prescription : : : : : : : : : : : : : : : : : : : : : : : : 42 5.4 Energy loss of muons : : : : : : : : : : : : : : : : : : : : : : : : : : : 43 5.5 Energy loss of partons : : : : : : : : : : : : : : : : : : : : : : : : : : 46 5.6 Radiative energy loss : : : : : : : : : : : : : : : : : : : : : : : : : : : 50
+
+6 Transport rates and viscosity 52
+
+6.1 Motivation and definition : : : : : : : : : : : : : : : : : : : : : : : : : 52 6.2 Transport rates : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 53 6.3 Viscosity : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : 57
+
+7 Damping and production of hard photons 60
+
+7.1 Photon damping rate : : : : : : : : : : : : : : : : : : : : : : : : : : : 61 7.2 Photon production rate : : : : : : : : : : : : : : : : : : : : : : : : : : 65
+
+1
+
+8 Conclusions 69 A Notations 75 B Calculation of the photon self energy 76
+
+2 Chapter 1 Introduction There are two different methods based on the fundamental theory of strong interactions, i.e. QCD, for a theoretical description of the quark-gluon plasma (QGP) and predictions of possible signatures, namely lattice and perturbative QCD. The advantage of lattice QCD (Creutz, 1983) is the non-perturbative nature of this method, rendering the entire regime of values of the coupling constants and temperatures accessible. However, lattice simulations are numerically very elaborate. Thus only relatively small lattice sizes with typically 163 \Theta 8 sites (Gottlieb et al., 1993) can be treated up to now. Hence the extrapolation of the results to the continuum case is not established completely. Moreover, it is not possible to describe dynamical variables on the lattice, such as signatures of the QGP based on particle production. Furthermore, neither a finite quark chemical potential nor pre-equilibrium effects can be considered on a lattice. On the other hand, the equation of state and the phase transition can be studied within lattice calculations (Petersson, 1991). A strong variation in the energy density, corresponding to a hadron gas below the critical temperature and to a QGP above, respectively, has been found. The critical temperature resulting from these investigations is given by Tc = 150 - 200 MeV corresponding to a critical energy density of fflc = 1 - 3 GeV/fm3. Above about twice to four times the critical temperature the lattice equation of state approaches the one of an ideal parton gas. The determination of the order of the phase transition is more involved. Recent results taking into account quarks dynamically indicate rather a smooth transition (cross over) than a first or second order phase transition (Brown et al., 1990).
+
+Perturbative QCD requires a small value of the strong coupling constant and works only above the critical point. Estimates of the effective temperature dependent coupling constant between Tc and 2Tc lead to ffs = g2=4ss = 0:2 - 0.5. (The lower value can be motivated by renormalization scheme arguments at finite temperature (Huang and Lissia, 1994).) With increasing temperature the coupling constant should decrease - presumably logarithmically - according to asymptotic freedom. Perturbative QCD can be extended to finite temperature (and chemical potential) (Kapusta, 1989) for investigating properties of a thermalized QGP, e.g. dynamical signatures. Small deviations from the equilibrium, e.g. thermalization times and transport coeffi3
+
+cients, can be considered using linear response theory (Heinz, Kajantie, and Toimela, 1987) or the Kubo formalism (Zubarev, 1974).
+
+However, applying perturbation theory to gauge theories at finite temperature leads to serious problems. Many physical quantities, computed perturbatively, suffer from infrared singularities and gauge dependence. For example, different results for the damping rate of a gluon at zero momentum were found in different gauges, even negative ones in covariant gauges (Lopez, Parikh, and Siemens, 1985), corresponding to an unphysical instability of the QGP. This so-called plasmon puzzle was the starting point for the development of an improved, effective perturbation theory by Braaten and Pisarski (1990a). Pisarski (1989b) discovered that results obtained in naive perturbation theories can be incomplete in the order of the coupling constant since higher order diagrams can contribute to lower order in the expansion in the coupling constant. Braaten and Pisarski (1990a) succeeded, by distinguishing between hard momenta of the order of T and soft momenta of the order of gT , to isolate the relevant diagrams for QCD. These so-called "Hard Thermal Loops" (HTL) have to be resummed in a geometrical series (see also Frenkel and Taylor (1990).) In this way effective propagators and vertices are constructed, which can be used as in ordinary perturbation theory leading to results that are complete to leading order in the coupling constant. This effective perturbation theory yields gauge independent results for physical quantities (Braaten and Pisarski, 1990c) and in the case of the gluon damping rate a positive value (Braaten and Pisarski, 1990b). At the same time medium effects are taken into account due to the resummation, e.g. Debye screening caused by the color charges of the QGP, removing or at least weakening infrared divergences. Quantities that are logarithmically infrared divergent to leading order, using bare Green's functions, are finite applying the Braaten-Pisarski method. Many interesting quantities of the QGP belong to this class, such as the energy loss of energetic partons in the QGP (Braaten and Thoma, 1991b), the viscosity of the QGP (Thoma, 1991a), and the production rate of hard photons in the QGP (Kapusta, Lichard, and Seibert, 1991; Baier et al., 1992). Quantities that are quadratically infrared divergent in naive perturbation theory, e.g. damping rates of hard partons, are logarithmically infrared divergent using effective Green's functions (Pisarski, 1989b; Thoma and Gyulassy, 1991). The reason for this behavior is due to the fact that the effective gluon propagator contains screening of static chromoelectric fields (Debye screening) but no static chromomagnetic screening. A consistent consideration of the latter screening probably requires non-perturbative methods, such as a self consistent resummation based on a mean field approximation. So far there are only preliminary attempts for developing such methods for QCD (Kalashnikov, 1992; Thoma, 1992b).
+
+Another problem of the Braaten-Pisarski method relies on the assumption of the weak coupling limit, g o/ 1, for distinguishing between hard and soft momenta. To what extent the results obtained under this assumption can be extrapolated to realistic values of the coupling constant, g = 1:5 - 2.5, has to be studied in each single case. Anyway, the Braaten-Pisarski method means an enormous improvement compared to the naive perturbation theory at finite temperature and takes account of important medium effects of the QGP.
+
+4
+
+Last but not least, investigations of field theoretic methods for thermal systems are of fundamental interest. For this problem requires the combination of the three basic methods of modern physics, i.e. statistical physics, theory of relativity, and quantum mechanics. The application of relativistic quantum statistics or thermal field theory, however, is restricted to relativistic systems, such as plasmas of relativistic particles, which appear in nature only under extreme astrophysical conditions, e.g. supernovae explosions, neutron stars, and the Big Bang. Owing to the possibility of creating a QGP in relativistic heavy ion collisions the development of field theoretic methods at finite temperature has been intensified within the last few years greatly.
+
+The aim of the present report is the introduction to the Braaten-Pisarski method and to review its application to interesting problems of the QGP in ultrarelativistic heavy ion collisions. In order to provide a useful introduction to this topic for nonexperts who want to apply this method, we will try to keep the discussion on an informal level as simple as possible. (An alternative, more formal introduction to thermal field theories and the Braaten-Pisarski method has been presented by Altherr (1993).) Some basic ideas of thermal field theory and perturbation theory at finite temperature, relevant for the following, will be discussed in chapter 2. The BraatenPisarski method will be introduced in chapter 3, where we will avoid complicated and formal derivations as far as possible. For this purpose the basic ideas are exemplified using the scalar field theory. The remaining part of this report is devoted to the use of the Braaten-Pisarski method for interesting properties of the QGP, demonstrating at the same time the technical details of the method and its application. In chapter 4 the damping rates of particles in the QGP are treated, which are the starting point for the energy loss of partons in the QGP (chapter 5) and the transport rates (chapter 6), from which thermalization times and the viscosity of the QGP follow. In chapter 7 the damping and production of hard photons will be considered. The conclusions including the limitations of the Braaten-Pisarski method and possible extensions are given in chapter 8. In appendix A the notations used throughout this report are summarized. In appendix B the photon self energy in the HTL approximation will be calculated explicitly.
+
+5
+
+Chapter 2 Perturbation theory at finite temperature
+
+Our goal is the computation of cross sections, life times, etc. of relativistic particles at high temperatures. High temperature means a temperature T that is significantly higher than the masses m of the thermal particles, T AE m, leading to a relativistic heat bath due to particle production, such as a QGP consisting of u-, d-quarks and gluons. For the description of such a system we will adopt perturbative methods similar to the zero temperature case, i.e. Feynman diagrams and rules for computing amplitudes.
+
+2.1 Imaginary time formalism Green's functions are the central objects of perturbation theory. The most important Green's function is the propagator. How does it look like at finite temperature? For simplicity sake, we first consider the scalar field theory1. At zero temperature the bare propagator is given by the vacuum expectation value of the time ordered product of two fields at different space-time points (Mandl and Shaw, 1984)
+
+i \Delta T =0(x \Gamma y) = h0jT fOE(x)OE(y)gj0i ; (2.1) where j0i denotes the ground state of the non-interacting theory. At finite temperature the expectation value in (2.1) has to be replaced by a thermal one, e.g. using a canonical partition function Z = tr[exp(\Gamma fiH)] with fi = 1=T and the Hamiltonian H:
+
+i \Delta (x \Gamma y) = 1Z X
+
+n hnjT fOE(x)OE(y)gjni e
+
+\Gamma fiEn ; (2.2)
+
+where En and jni are the eigenvalues and eigenstates of the non-interacting Hamiltonian. Expressing the field by creation and annihilation operators in the four dimensional momentum space, K = (k0; k), the expectation value in (2.2) can be evaluated,
+
+1The free Lagrangian reads L
+
+0 = (@_OE@
+
+_OE \Gamma m2OE2)=2.
+
+6
+
+for instance for x0 ? y0,
+
+i \Delta (x \Gamma y) = Z d
+
+3k
+
+(2ss)3
+
+1 2!k n[1 + nB(!k)] e
+
+\Gamma iK(x\Gamma y) + nB(!k) eiK(x\Gamma y)o (2.3)
+
+with k0 = !k = pk2 + m2 and the Bose-Einstein distribution
+
+nB(!k) = 1efi!
+
+k \Gamma 1 : (2.4)
+
+Eq.(2.3) describes the propagation of a scalar particle in a heat bath from x to y, where besides the spontaneous emission in the vacuum at x there is also induced emission and absorption described by the terms containing nB(!k).
+
+As in the zero temperature case (Mandl and Shaw, 1984), we want to express the propagator by a four dimensional integral over K. A possible representation can be obtained in the so-called imaginary time formalism, which we will use here, since the Braaten-Pisarski method has been derived within this formalism. Owing to the periodicity of the thermal propagator in imaginary time o/ = it, \Delta (o/ ) = \Delta (o/ + fi) (Kapusta, 1989), the Fourier integral for k0 is replaced by a Fourier series
+
+i \Delta (x \Gamma y) = i T
+
+1X
+
+n=\Gamma 1 Z
+
+d3k (2ss)3
+
+i K2 \Gamma m2 e
+
+\Gamma iK(x\Gamma y) ; (2.5)
+
+where the four momentum K contains now discrete energies k0 = 2ssinT with integers n (Matsubara, 1955). The equivalence of (2.5) and (2.3) follows from the relation (Kapusta, 1989)
+
+T
+
+1X
+
+n=\Gamma 1 f (k
+
+0 = 2ssinT ) = 12ssi Z
+
+i1
+
+\Gamma i1 dk0
+
+[f (k0) + f (\Gamma k0)]
+
+2
+
++ 12ssi Z
+
+i1+ffl
+
+\Gamma i1+ffl dk0 [f (k0) + f (\Gamma k0)] nB(k0) ; (2.6) which holds for arbitrary functions f (k0) having no pole on the imaginary axis.
+
+Compared to the zero temperature Feynman rules, the propagator in momentum representation is now given by \Delta (K) = 1=(K2 \Gamma m2) with the Matsubara frequencies k0 = 2ssinT and the loop integration by iT Pk0 R d3k=(2ss)3. In the case of fermions the propagator is anti-periodic, implying k0 = (2n + 1)issT .
+
+As simplest example we consider the tadpole self energy of the OE4-theory2 at finite temperature shown in fig.2.1. Using standard Feynman rules (see appendix A) modified by the finite temperature prescription given above, we find
+
+\Pi 1 = 12 g2 Z d
+
+3k
+
+(2ss)3
+
+1 2!k [1 + 2nB(!k)] : (2.7) The zero temperature part vanishes after renormalization. The finite temperature part is ultraviolet finite due to the distribution function and can be evaluated exactly in the limit of a vanishing mass yielding the simple result
+
+\Pi 1 = g2 T 2 : (2.8) 2An interaction term \Gamma g2OE4 is added to the free Lagrangian.
+
+7
+
+K Figure 2.1: Tadpole self energy of a scalar particle with OE4 interaction. 2.2 Saclay method Sums over k0 in loops, containing two or more propagators, can be performed most conveniently by the so-called Saclay-method (Pisarski, 1988). Here the propagator is presented by
+
+\Delta (K) = \Gamma Z
+
+fi
+
+0 do/ e
+
+k0o/ \Delta (o/; !k) ; (2.9)
+
+where
+
+\Delta (o/; !k) = \Gamma T X
+
+k0
+
+e\Gamma k0o/ \Delta (K) (2.10)
+
+= 12!
+
+k n[1 + n
+
+B(!k)] e\Gamma !ko/ + nB(!k) e!ko/ o :
+
+The last equation follows from using (2.6). In this way the summation over k0 in expressions containing \Delta (K) is trivial, because k0 shows up only in the exponential function in (2.9).
+
+In the case of a fermion propagator the Saclay representation reads
+
+S(P ) = (P _fl_ + M ) e\Delta (P ) (2.11) with e
+
+\Delta (P ) = \Gamma Z
+
+fi
+
+0 do/ e
+
+p0o/ e\Delta (o/; Ep) (2.12)
+
+and e
+
+\Delta (o/; Ep) = 12E
+
+p n[1 \Gamma n
+
+F (Ep)] e\Gamma E
+
+po/ \Gamma nF (Ep) eEpo/ o ; (2.13)
+
+where Ep = pp2 + M 2 and
+
+nF (Ep) = 1efiE
+
+p + 1 (2.14)
+
+denotes the Fermi-Dirac distribution. It is straightforward to take into account a finite chemical potential (see e.g. (Vija and Thoma, 1994)) in addition.
+
+8
+
+K
+
+K-P P
+
+Figure 2.2: Photon self energy to lowest order. 2.3 Self energies The self energy of a gauge boson in the one-loop approximation is an important example for the application of the perturbation theory at finite temperature. In general it is not possible to derive an analytic formula due to distribution functions, appearing under the integrals. In the high temperature limit, however, i.e. for temperatures much larger than the momentum of the gauge boson, the integrations can be done exactly. The gluon self energy in the high temperature limit has been found by Klimov (1982) and independently by Weldon (1982a).
+
+For simplicity sake we will first treat the photon self energy (fig.2.2). We consider a thermal system of relativistic electrons, positrons and photons with a net charge zero, i.e. a vanishing chemical potential. We will follow the derivation by Braaten and Pisarski (1990a), which relies on the restriction to hard loop momenta k; k0 ?,T . As discussed in appendix B this hard thermal loop (HTL) approximation is equivalent to the high temperature limit.
+
+The transversality of the polarisation tensor, P _\Pi _*(P ) = 0, implies that only two components are independent, for which we choose the longitudinal and the transverse components
+
+\Pi L(P ) = \Pi 00(P ) ;
+
+\Pi T (P ) = 12 ffiij \Gamma pipjp2 ! \Pi ij(P ) : (2.15)
+
+The explicit computation using the methods developed in the last sections is shown in appendix B for the longitudinal part. The transverse part follows analogously. The leading term of the high temperature expansion is given by
+
+\Pi L(p0; p) = \Gamma 3 m2fl 1 \Gamma p02p ln p0 + pp
+
+0 \Gamma p ! ;
+
+\Pi T (p0; p) = 32 m2fl p
+
+20
+
+p2 "1 \Gamma 1 \Gamma
+
+p2 p20 !
+
+p0 2p ln
+
+p0 + p p0 \Gamma p # ; (2.16)
+
+where mfl = eT =3 can be regarded as a "thermal photon mass", generated by the interaction of the photons with the thermal electrons and positrons.
+
+9
+
++ + +
+
+Figure 2.3: Gluon self energy to lowest order. The following remarks are of interest: 1.The next term of the high temperature expansion can also be calculated exactly (Toimela, 1986). It is proportional to g2T times a function of p0 and p, which has the dimension of an energy. 2. The photon self energy is momentum independent in contrast to the tadpole of the OE4-theory (2.8), which is also proportional to g2T 2. 3. For p20 ! p2, (2.16) has an imaginary part
+
+ln p0 + pp
+
+0 \Gamma p = ln fififififi
+
+p0 + p p0 \Gamma p fififififi \Gamma i ss `(p
+
+2 \Gamma p20) : (2.17)
+
+The resulting damping is called Landau damping (Pisarski, 1988) and is essential for quantities like the energy loss or the viscosity, as will be discussed later on. 4. The self energy (2.16) reduces to \Pi L(p0 = 0) = \Gamma 3m2fl and \Pi T (p0 = 0) = 0 in the static limit p0 ! 0. As discussed in the next section, the static limit of the self energy is related to the screening of static fields, and m2D = 3m2fl is the Debye mass, leading to the screening of static electric fields, whereas there is no screening of static magnetic fields within the HTL approximation (Kajantie and Kapusta, 1985). This result is not surprising since an electron-positron gas contains electric charges but no magnetic monopoles. 5. The leading term of the high temperature expansion can be derived also from the Vlasov equation, i.e. a transport equation without collision term considering a mean field. The only non-classical quantity, entering thereby, is the Fermi distribution for the electrons and positrons. The photon self energy is obtained now via the dielectric constants (Elze and Heinz, 1989; Mr'owczy'nski, 1990; Thoma and Gyulassy, 1991)
+
+fflL(p0; p) = 1 \Gamma \Pi L(p0; p)p2 ;
+
+fflT (p0; p) = 1 \Gamma \Pi T (p0; p)p2
+
+0 ; (2.18)
+
+10
+
+P
+
+Figure 2.4: Electron self energy to lowest order. which follow from the solution of the the Vlasov equation for the distribution functions assuming a small deviation from equilibrium (Lifshitz and Pitaevskii, 1981). The coincidence of the self energy, found in the perturbative high temperature approximation, with the one of the Vlasov equation is caused by the equivalence of the high temperature limit, T ! 1, and the classical limit, _h ! 0. As a matter of fact, already Silin (1960) found the result (2.16) in this way.
+
+Next we turn to the gluon self energy. For this purpose the diagrams of fig.2.3 have to be considered. Because of the gluon propagator a gauge has to be chosen. Surprisingly, the leading term of the high temperature expansion differs from (2.16) just by replacing the thermal photon mass mfl by a thermal gluon mass (Klimov, 1982; Weldon, 1982a)
+
+m2g = g
+
+2T 2
+
+3 `1 +
+
+Nf
+
+6 ' ; (2.19) where Nf indicates the number of thermal quark flavors. In contrast to the photon self energy (fig.2.2), which is of course gauge independent, gauge independence holds for the gluon self energy only for the leading term of the high temperature expansion (Heinz, Kajantie, and Toimela, 1987). The coincidence of the QED and QCD polarisation tensor can be understood from the Vlasov equation, where the only difference between QED and QCD originates from the distribution functions (Elze and Heinz, 1989).
+
+The electron and quark self energies in the HTL limit can be derived analogously by starting from the diagram in fig.2.4 (Klimov 1982, Weldon 1982b). Neglecting the bare fermion mass M it reads
+
+\Sigma (P ) = \Gamma a(p0; p) P _fl_ \Gamma b(p0; p) fl0 (2.20) with
+
+a(p0; p) = 14p2 [tr(P _fl_ \Sigma ) \Gamma p0 tr(fl0 \Sigma )] ;
+
+b(p0; p) = 14p2 hP 2 tr(fl0 \Sigma ) \Gamma p0 tr(P _fl_ \Sigma )i ; (2.21) where the traces over the fl matrices are given by
+
+tr(P _fl_ \Sigma ) = 4 m2F ;
+
+11
+
++=K Figure 2.5: Dyson-Schwinger equation defining the effective propagator of a scalar particle.
+
+tr(fl0 \Sigma ) = 2 m2F 1p ln p0 + pp
+
+0 \Gamma p (2.22)
+
+with the thermal fermion masses m2F = e2T 2=8 in the QED and m2F = g2T 2=6 in the QCD case.
+
+2.4 Effective propagators and dispersion relations First we consider the OE4-theory with a vanishing mass. The effective propagator is defined by the Dyson-Schwinger equation in fig.2.5, where the tadpole (2.8) shows up in the r.h.s. The effective propagator is obtained by iteration leading to a geometrical series, in which the tadpole is resummed. The result of this resummation is given by
+
+\Delta ?(K) = 1K2 \Gamma m2
+
+th ; (2.23)
+
+where m2th = \Pi 1 = g2T 2 is the thermal mass. The dispersion relation following from the pole of the effective propagator,
+
+!(k) = qk2 + m2th ; (2.24) describes the propagation of a collective mode with mass mth, caused by the interaction with the heat bath.
+
+Analogously to the OE4-theory we construct an effective photon propagator. It is convenient to choose the Coulomb gauge, @i Ai = 0, for this purpose.
+
+The bare propagator in Coulomb gauge is given by
+
+D00(K) = 1k2 ;
+
+D0i(K) = 0 ;
+
+Dij (K) = 1K2 ffiij \Gamma kikjk2 ! : (2.25)
+
+12
+
++=K Figure 2.6: Dyson-Schwinger equation defining the effective photon propagator. Here the D00-term describes the propagation of a longitudinal photon mediating the electric interaction (Coulomb field). The transverse part Dij corresponds to the propagation of a transverse photon and the mediation of the magnetic interaction, respectively.
+
+The effective photon propagator is defined by the Dyson-Schwinger equation shown in fig.2.6 yielding the longitudinal and transverse contributions
+
+D?L(K) = 1k2 \Gamma \Pi
+
+L(K) ;
+
+D?T (K) = 1K2 \Gamma \Pi
+
+T (K) ; (2.26)
+
+where we assumed the same Lorentz structure as for the bare propagator, i.e. D?00 = D?L, D?0i = 0 and D?ij = D?T (ffiij \Gamma kikj =k2).
+
+Eq.(2.26) represents the most general form of the exact photon propagator in Coulomb gauge (Heinz, Kajantie, and Toimela, 1987). Now we assume the high temperature expressions (2.16) for the self energy \Pi L and \Pi T in (2.26). The dispersion relation of the collective photon mode in the relativistic electron-positron plasma follows from the poles of the effective propagator (Klimov, 1982)
+
+D?L\Gamma 1(K) = k2 + 3 m2fl 1 \Gamma !2k ln ! + k! \Gamma k ! = 0 ;
+
+D?T \Gamma 1(K) = !2 \Gamma k2 \Gamma 32 m2fl !
+
+2
+
+k2 "1 \Gamma 1 \Gamma
+
+k2 !2 !
+
+! 2k ln
+
+! + k ! \Gamma k # = 0 : (2.27)
+
+Before we are going to solve these equations, we will consider the static limit, ! ! 0, of the effective photon propagator. The longitudinal part reduces to D?L(! ! 0) = 1=(k2 + 3m2fl), the transverse to D?T (! ! 0) = \Gamma 1=k2. Thus the long range electric interaction is shielded in the infrared limit by the Debye mass m2D = 3m2fl, originated by the presence of electric charges in the medium, as opposed to the magnetic interaction.
+
+The equations (2.27) cannot be solved analytically. In the limits, k ! 0 and k ! 1, however, there are simple solutions (Pisarski, 1989a):
+
+!L(k ! 0) = mfl + 310 k
+
+2
+
+mfl ;
+
+13
+
+0.0 0.5 1.0 1.5 2.0 2.5 3.00.0 0.5 1.0 1.5 2.0 2.5
+
+wL wT
+
+w/mg
+
+k/mg Figure 2.7: Dispersion relations of collective photons and gluons.
+
+!L(k ! 1) = k ;
+
+!T (k ! 0) = mfl + 35 k
+
+2
+
+mfl ; !T (k ! 1) = k : (2.28)
+
+The numerical solution of (2.27) is depicted in fig.2.7. Let us discuss these results: 1. In the limit k ! 1 the dispersion relation of a bare photon, ! = k, is recovered. In the limit k ! 0 the dispersion relation describes a non-relativistic particle with mass mfl. Comparing with a non-relativistic plasma (Jackson, 1975) one observes that this particle corresponds to a collective mode called plasmon in the the longitudinal case. The thermal photon mass mfl is identical to the plasma frequency. 2. The dispersion relation lies above the light cone, ! ? k, for all values of k. Therefore the imaginary part of the self energy does not contribute and the plasma oscillations are not damped in the high temperature approximation; i.e., there is no Landau damping, causing the dissipation of energy from the plasma wave into the heat bath (Lifshitz and Pitaevskii, 1981).
+
+Analogously to the collective photon modes in a QED plasma there are collective gluon modes in a QGP, which simply result by replacing mfl in (2.27) and (2.28) by mg of (2.19).
+
+Besides collective bosonic modes also collective fermionic modes exist in a relativistic plasma following from the poles of the effective fermion propagator. It is convenient to adopt the helicity representation for the effective propagator of an elec14
+
+tron or quark (Braaten, Pisarski, and Yuan, 1990):
+
+S?(P ) = 12D
+
++(P ) (fl
+
+0 \Gamma ^p \Delta fl) + 12D
+
+\Gamma (P ) (fl
+
+0 + ^p \Delta fl) ; (2.29)
+
+where
+
+D\Sigma (P ) = \Gamma p0 \Sigma p + 14p [\Sigma tr(P _fl_ \Sigma ) \Gamma (\Sigma p0 \Gamma p) tr(fl0 \Sigma )] : (2.30)
+
+The traces containing the fermion self energy are given by (2.22). The dispersion relations are given by the zeros of D\Sigma (P ) (Braaten, Pisarski, and Yuan, 1990). It is interesting to note that the mode corresponding to D\Gamma (P ), called plasmino (Braaten, 1992), has no zero temperature counterpart, as it is also the case for the plasmon.
+
+2.5 Gluon damping rate The gluon damping rate caused a controversy in the middle of the eighties about the consistency of perturbative QCD at finite temperature (plasmon puzzle), triggering investigations that led to a consistent formulation of perturbation theory within the Braaten-Pisarski resummation technique (Pisarski, 1989b). Therefore we will sketch the status of the gluon damping before the invention of the Braaten-Pisarski method.
+
+The gluon damping rate is defined as the imaginary part of the dispersion relation, fl(k) = \Gamma Im !(k). Here we restrict ourselves to the damping of collective modes at zero momentum in a pure gluon gas. Assuming no overdamping, fl o/ Re !, the damping rates of the transverse and longitudinal modes are given by (Heinz, Kajantie, and Toimela, 1987; Braaten and Pisarski, 1990b)
+
+flT (0) = \Gamma 12m
+
+g Im \Pi
+
+T (! = mg; k = 0) ;
+
+flL(0) = \Gamma mg2 limk!0 ^ 1k2 Im \Pi L(! = mg; k)* : (2.31) Since there is no direction specified in the plasma, the dielectric tensor,
+
+fflij(!; k) = "fflL(!; k) kikjk2 \Gamma fflT (!; k) ffiij \Gamma kikjk2 !# ; (2.32) reduces to ffl(!) ffiij implying fflL(!; k = 0) = fflT (!; k = 0) (Lifshitz and Pitaevskii, 1981). Then (2.18) together with (2.31) yields flT (0) = flL(0).
+
+As we have seen, there is no gluon damping associated with the leading term of the high temperature expansion; i.e., the dispersion relation has no imaginary part, because ! ? k is true for all k and the imaginary part of the gluon self energy in the high temperature limit vanishes for !2 ? k2. The next to leading term of the self energy in the high temperature expansion, on the other hand, contains an imaginary
+
+15
+
++= Figure 2.8: Damping of a collective gluon according to (2.33) and (2.34) caused by absorption of a thermal gluon and the decay in two thermal gluons, respectively.
+
+part, leading to damping. This imaginary part of the longitudinal contribution in the limit, k o/ !, which is of interest here, reads (Heinz, Kajantie, and Toimela, 1987)
+
+Im \Pi L(k o/ !) = \Gamma 14ss g2 T k
+
+2
+
+! : (2.33) This result has been derived within the temporal and Coulomb gauge, respectively. As mentioned already above, the non-leading terms of the high temperature expansion are gauge dependent. The gluon damping rate at zero momentum can be written as
+
+flL;T (0) = a g
+
+2T
+
+8ss ; (2.34) where a = 1 holds in temporal and Coulomb gauge. Using covariant gauges, however, negative results have been found, e.g. a = \Gamma 5 in the case of the Feynman gauge (Lopez, Parikh, and Siemens, 1985). Negative damping rates would correspond to an instability of the QGP. Moreover, observables like damping rates should be gauge independent. These unphysical results led to speculations about the failure of perturbative QCD at finite temperature. However, Pisarski (1989b) noticed that the perturbation theory, as it was used here, is incomplete; i.e., diagrams contributing to the same order, g2, in (2.34) have been neglected. The modification of perturbation theory, for taking consistently into account all contributions to the same order, is the topic of the next chapter.
+
+Before we will come to this, the mechanism for the gluon damping according to (2.34) shall be discussed. The physical meaning of the imaginary part of the gluon self energy on the mass shell can be illuminated according to an extension of the Cutkosky cutting rules to finite temperature (Weldon, 1983), by cutting the internal lines of the diagram. We consider the diagram corresponding to polarisation by gluon pair creation. Owing to the high temperature expansion the external momentum has to be small compared to the temperature, while the internal momentum is of the order of the temperature (see appendix B); i.e., we consider the polarisation of a collective mode, indicated by a blob in fig.2.8, caused by thermal gluons. Cutting the diagram we obtain to possible processes: (1) damping of a collective mode by absorption of a thermal gluon and (2) decay into two thermal gluons. The first process, requiring space like momenta, K2 ! 0, is forbidden because of ! ? k for the collective gluon.
+
+16
+
+The second process is possible only if the energy of the final gluons is equal to the one of the collective gluon. Since the decay takes place in the plasma, the final gluons have then to be collective modes as well. As a matter of fact, this reflects already the inconsistency in the derivation of (2.34). The true damping mechanism to order g2T is based on higher processes, as it will be discussed in section 4.2.
+
+17 Chapter 3 The Braaten-Pisarski method As we have seen in the last chapter, studying the example of the gluon damping rate at zero momentum, the use of bare Green's functions at finite temperature may lead to unphysical results. This inconsistency of the naive perturbation theory relies on the fact that higher order diagrams, i.e. multi-loop diagrams, can contribute to a lower order in the coupling constant at finite temperature than naively expected. These diagrams are the HTL diagrams, of which we encountered already the polarisation tensor, (2.16), and the fermion self energy, (2.20) to (2.22). They have to be resummed into effective Green's functions, which will be used then just like bare Green's functions in naive perturbation theory. This effective perturbation theory, developed by Braaten and Pisarski (1990a) leads to consistent results that are complete in the order of the coupling constant. In the following this idea will be discussed in detail.
+
+3.1 OE4-theory In order to exemplify the program, sketched above, we will start with the OE4-theory. Neglecting the mass of the scalar particle - we are interested in gauge theories with massless bosons - we found \Pi 1 = g2T 2, (2.8), for the tadpole self energy. Now we want to go beyond the one-loop self energy. In the two-loop approximation the diagram shown in fig.3.1 arises, which is proportional to g4 and infrared divergent in the massless case, because there are two propagators in the lower loop. Naive expectation suggests that the exact self energy can be written as \Pi = g2T 2 [1+O(g2)], providing a correction of the order g2 to the tadpole.
+
+In order to check this conjecture, we consider the tadpole containing the effective propagator (2.23) instead of the bare one (fig.3.2). This effective tadpole \Pi ? consists of the sum of all daisy diagrams. Apart from the bare tadpole \Pi 1 all these diagrams are infrared divergent. In spite of containing an infinite sum of diagrams the effective tadpole can be computed easily by simply replacing the mass m in (2.7) by the thermal mass mth = gT .
+
+18
+
+Figure 3.1: Contribution to the two-loop self energy of a scalar particle. First we will consider the ultraviolet finite contribution. From (2.7) we get
+
+\Pi ?fin = 6ss2 g2 Z
+
+1
+
+0 dk
+
+k2 \Omega k nB(\Omega k) (3.1)
+
+with \Omega 2k = k2 +m2th. This integral cannot be evaluated exactly, but it can be expanded into a series for small g. For this purpose we decompose the integral by introducing a separation scale k?, restricted by gT o/ k? o/ T , and make use of k; mth o/ T in the first integral and of mth o/ k in the second. In this way one finds (Kapusta, 1989)
+
+\Pi ?fin = g2 T 2 ^1 \Gamma 3ss g + O(g2)* : (3.2) This result also holds if the ultraviolet divergent part is added, since it is of order g4 after renormalization.
+
+The result (3.2) shows some interesting properties: 1. The effective tadpole \Pi ? is infrared finite, although it contains (infinitely many) infrared divergent diagrams. 2. The correction to the bare tadpole \Pi 1 is of the order of g instead of g2, as naively expected. 3. The correction is not a multiple of the coupling constant g2 of the theory and thus not a perturbative result. 4. An expansion in the number of loops is not equivalent to one in the coupling constant, as diagrams with an arbitrary number of loops contribute to g3.
+
+The reason for this surprising behavior of the self energy is the use of the effective propagator, containing an infrared regulator mth = gT in the denominator, caused by the resummation of infinitely many diagrams (see fig.2.5), implying a finite result for \Pi ?. Furthermore, the order in the coupling constant is reduced, since \Pi ? is sensitive to small momenta and energies; i.e., small momenta and energies contribute significantly to the integral in (3.1) in such a way that the coupling g in the denominator of the integrand in (3.1) becomes important. This behavior, exemplified in the case of OE4- theory, is typical for field theories at finite temperature, as long as the bare masses of the particles are zero or negligible compared to the temperature.
+
+19
+
+= + + + . . . Figure 3.2: Scalar tadpole containing the effective propagator.
+
+These observations motivate the following recipe, consisting of three steps, for massless field theories at finite temperature: 1. First, diagrams proportional to g2T 2 have to be isolated, in our example the tadpole \Pi 1 in (2.8). 2. Next, effective Green's functions have to be constructed by resummation of these diagrams, here the effective propagator \Delta ? of (2.23). 3. Finally, quantities such as self energies - here the effective tadpole \Pi ? (3.2) - have to be calculated, using an effective perturbation theory, in which, depending on the situation, bare or effective Green's functions are used as in ordinary perturbation theory. If only momenta and energies of the Green's functions are required which are hard, i.e. of the order of the temperature or larger, bare Green's functions are sufficient, as can be seen for example from the effective scalar propagator \Delta ?, in
+
+which the effective mass m2th = g2T 2 can be neglected if K2 ?, T 2. (For an exact argumentation it is convenient to adopt the Euclidean metric, for which K 2 = k20 + k2 holds. Then K2 is always hard, if k0 and (or) k are hard (Braaten and Pisarski, 1990a).) If, however, all momenta and energies of the Green's functions, necessary for the calculation, are soft, i.e. proportional to gT , effective Green's functions have to be used. This is the case for the scalar self energy beyond the leading order g2T 2, since small momenta are important in the loop integration of the effective tadpole.
+
+It is essential to emphasize that this method is based on the weak coupling assumption, g o/ 1, which allows for a distinction between hard and soft momenta.
+
+The proceeding, proposed here, is the idea of the effective perturbation theory developed by Braaten and Pisarski (1990a). In the next section it will be extended to gauge theories, which are of course more involved than the OE4-theory. Besides the OE4- theory the Yukawa theory (Thoma, 1994c) and scalar electrodynamics (Kraemmer, Rebhan, and Schulz, 1994) have been studied as simple examples for applying the Braaten-Pisarski method.
+
+3.2 Gauge theories We follow mainly the arguments given by Braaten and Pisarski (1990a). The starting point is the fact that naive perturbation theory, i.e. the exclusive use of bare Green's
+
+20
+
+\Pi HTL
+
+2 T 2
+
+P 2 g~
+
+Figure 3.3: HTL correction to the bare gluon propagator. functions, does not reproduce all contributions to leading order in g for certain quantities, such as the gluon damping rate. Therefore one has to ask the question, which diagrams are as important as the tree diagrams defining the bare Green's functions. In other words, which diagrams lead to effective Green's functions that contribute to the same order in g as the bare ones? The answer to this question depends on the external momenta of these diagrams. If these momenta are hard, P ?, T , there are no such diagrams besides the bare Green's functions. If, however, the external momenta are soft, P , gT , then diagrams exist from which effective Green's functions can be constructed that must not be neglected compared to the bare ones. These diagrams are the HTL.
+
+As an example we consider the gluon propagator of fig.3.3, where the gluon self energy in the HTL approximation proportional to g2T 2 has been inserted. If the external momentum is soft, this propagator, consisting of two bare propagators and the HTL polarisation tensor, is as important as the bare one. If, however, P is hard, it gives contributions reduced by a factor of g2. It should be noted that the internal momenta are hard, since only hard momenta contribute to the HTL gluon self energy (see appendix B).
+
+Now we want to proceed according to our recipe, proposed in the last section, by isolating the HTL diagrams first. In the case of the OE4-theory the only HTL diagram is the momentum independent tadpole, \Pi 1 = g2T 2. In gauge theories one encounters two complications. First, the HTL are momentum dependent, e.g. the polarisation tensor (2.16). Secondly, the gauge symmetry leads to relations between the Green's functions (Ward identities), causing effective vertices in addition to effective propagators. For instance, the relation between the gluon self energy and the three-gluon vertex is given by
+
+(K \Gamma K0)_ \Gamma _*ae(K; K0) = \Pi *ae(K) \Gamma \Pi *ae(K0) : (3.3) Hence there are HTL corrections to the three-gluon vertex, shown in fig.3.4, which are as important as the bare vertex. Analogously we expect HTL corrections to the four-gluon vertex and the quark-gluon vertex. Braaten and Pisarski (1990a) showed that HTL corrections arise for all n-gluon amplitudes and n-gluon-plus-one-quarkpair amplitudes. In Coulomb or Feynman gauge these corrections are represented by the one-loop diagrams with hard loop momenta, containing only three-gluon vertices and quark-gluon vertices (with the exception of the tadpole in fig.2.3), as shown in fig.3.5. (Since this method leads to gauge independent results (Braaten and Pisarski,
+
+21
+
+T T
+
+T
+
+T T
+
+T Figure 3.4: HTL corrections to the three-gluon vertex. 1990c), it is possible to choose any gauge.) These diagrams have to be taken into account in the corresponding amplitudes only if all external legs are soft. This can be proven by power counting in g similarly to fig.3.3 without calculating the diagrams explicitly.
+
+The computation of these HTL is very tedious due to their complicated momentum and energy dependence. However, it can be simplified using Ward identities (Braaten and Pisarski, 1990d). Furthermore, it is possible to derive the HTL from a generating functional, which can be obtained by adding the following term to the QCD Lagrangian (Braaten and Pisarski, 1992a)
+
+Lplasma = \Gamma 32 m2g T r F_ae * P
+
+aeP oe
+
+(P \Delta D)2 + F
+
+_ oe !
+
++ m2q _ fl_ o/ P
+
+_
+
+P \Delta D AE ; (3.4) where mg and mq denote the effective gluon and quark masses defined in (2.19) and (2.22), D the covariant derivative, and the angle brackets averaging over the directions of P ae leading to the logarithmic factors in the HTL (see e.g. (2.16)). This effective Lagrangian shows a couple of interesting properties, which are the topic of current investigations (Brandt et al., 1993).
+
+Moreover, the HTL can be derived from a classical kinetic theory similar to the polarisation tensor, where the only non-classical inputs are the Bose and Fermi distributions (Blaizot and Iancu, 1993; Kelly et al., 1994).
+
+According to the next step of our recipe effective Green's functions will be constructed from the HTL. In the case of the effective gluon or quark propagator this happens via resummation within a Dyson-Schwinger equation, which has be done already in section 2.4 (see (2.27), (2.29) and (2.30)). (Inserting the HTL self energy only once as in fig.3.3 is not sufficient, since repeated insertion of \Pi HT L in the case of soft external momenta results obviously in effective propagators which are as important as the bare ones.)
+
+22
+
+T
+
+T
+
+T T
+
+T
+
+T T
+
+TT
+
+T
+
+T T T
+
+T
+
+T
+
+T Figure 3.5: All HTL corrections of QCD in Coulomb- or Feynman gauge. For producing the effective vertices, the HTL corrections have to be added simply to the bare vertices. In fig.3.6 all effective Green's functions up to the four-point amplitude are listed. Here also an effective two-quark-two-gluon vertex appears which has no bare contribution. This vertex plays a role for the plasmino damping (see section 4.2).
+
+The last step of our recipe consists of the use of the effective Green's functions within an effective perturbation theory for computing certain quantities, e.g. properties of the QGP. When do we have to use effective Green's functions and when are bare ones sufficient? As soon as soft momenta become important in the diagrams which contribute to the quantity under consideration, i.e., as soon as the quantity becomes sensitive to the momentum scale gT , effective Green's functions have to be considered. However, only if all legs attached to the Green's functions are soft, it is necessary to use effective Green's functions. For example, the gluon self energy in the HTL approximation (2.16) requires only bare Green's functions since only hard momenta in the loop contribute. Hence the construction of effective Green's functions from bare ones is consistent. Otherwise, a self consistent resummation would have been necessary.
+
+For calculating the next to leading order of the gluon self energy proportional to g3, however, effective propagators and vertices have to be utilized (Rebhan, 1993; Schulz, 1994). In the case of the gluon damping rate they have to be taken into account already to leading order (see section 4.2). As a matter of fact, each quantity becomes sensitive to momenta of the order of gT from a certain order on and has then to be treated applying the Braaten-Pisarski method. From which order on this occurs, has to be studied in each single case.
+
+In this way one obtains a systematic expansion in the coupling constant and, as shown by Braaten and Pisarski (1990d), gauge independent results for amplitudes on the mass shell. (The latter statement has been doubted recently, since seemingly gauge dependent results have been found for the quark damping rate (Baier, Kunstatter, and Schiff, 1992). This problem will be discussed in the next chapter.)
+
+In conclusion, the effective perturbation theory of Braaten and Pisarski means a crucial improvement compared to the naive perturbation theory at finite temperature.
+
+23
+
+(c) = + +T T
+
+T
+
+T T
+
+T
+
+(a)
+
+= +
+
++ +
+
+T T
+
+T T
+
+(d)
+
+= =
+
++ + +
+
+T T T T
+
+T
+
+T
+
+T
+
+T
+
+T
+
+T (b)
+
+(e)
+
+(f)
+
+= =
+
++
+
++ +
+
++T T T T
+
+TT
+
+T
+
+TT TT T
+
+T T T
+
+T
+
+T T
+
+Figure 3.6: Effective Green's functions of QCD up to the four-point amplitude.
+
+24
+
+For physical quantities it provides gauge independent results that are complete in the order of the coupling constant. Furthermore screening effects due to the self energies in the denominator of the effective propagators, e.g. Debye screening, are taken into account, thus improving the infrared behavior significantly. Many interesting observables which are infrared divergent within the naive perturbation theory are finite using the Braaten-Pisarski method.
+
+Nevertheless, the effective perturbation theory is not the ultimate solution of all problems of thermal field theory, since it suffers from two serious disadvantages. First, it is based on the assumption g o/ 1, which is never fulfilled in the case of the QGP. Typical values for situation, met in ultrarelativistic heavy ion collisions, are given by g = 1:5 - 2.5, corresponding to ffs = g2=4ss = 0:2 - 0.5. If one assumes that the effective temperature dependent coupling constant decreases logarithmically with increasing temperature, g ^ 0:5 is obtained at a temperature of the order of the Planck mass (M"uller, 1993). To what extent the extrapolation of the results, obtained via the Braaten-Pisarski method, to realistic values of the coupling constant can be justified, is debatable and has to be investigated in each single case. On the other hand, the requirement g o/ 1 might be too restrictive (Braaten, 1995), because it depends on the definition of the coupling constant, which might contain numerical factors as for instance in the case of the OE4-theory, where one often chooses g2=4! instead of g2. A criterion for the validity of the effective perturbation theory, which does not depend on such a convention for defining the coupling constant, might be derived by comparing the inverse of the bare gluon propagator in the imaginary time formalism k2 + (2ssnT )2 with the static longitudinal propagator k2 + m2D. Demanding that the soft momentum scale is significantly smaller than the hard one, m2D o/ (2ssT )2, implies ffs o/ ss instead of g o/ 1. Indeed, the applications of the Braaten-Pisarski method to the quantities discussed in chapters 5 - 7 are valid as long as g !, 1 holds.
+
+In any case, however, the Braaten-Pisarski method takes account of important properties of the QGP, e.g. medium effects, at least qualitatively. Moreover, it provides an improvement of the naive perturbation theory which gives results for example for the equation of state above about two to four times the critical temperature in agreement with lattice calculations (Petersson, 1991). Anyway, the problem of the magnitude of the coupling constant is not a conceptual problem of the method but one of the application.
+
+The second problem, on the other hand, is a problem of principle, inherent in the way the resummation has been performed. The Braaten-Pisarski method considers no magnetic screening since the transverse part of the HTL polarisation tensor (2.16) vanishes in the static limit, p0 ! 0, as discussed already in section 2.3. Therefore it can happen that certain quantities are infrared divergent at leading order even when calculated with effective Green's functions. This occurs if the quantity becomes sensitive to momenta of the order of g2T , i.e., if momenta of the order of g2T are important in the integral determining the quantity under consideration. An important example for such a quantity is the damping rate of a hard parton, considered in detail in the next chapter. So far there are only preliminary or phenomenological attempts
+
+25
+
+to improve this situation.
+
+In the following chapters the formalism introduced here will be applied to various interesting quantities of the QGP. The usefulness and the elegance, but also the problems of the effective perturbation theory will be exhibited in these applications.
+
+26 Chapter 4 Damping rates The interaction rate of a particle at finite temperature indicates, how often collisions of the particle with the particles of the heat bath take place. It is obtained as a convolution of the magnitude of the square of the matrix element responsible for the collision with the distribution functions of the external particles. The damping rate, defined as the imaginary part of the dispersion relation, follows from the imaginary part of the self energy of the particle, as e.g. the gluon damping rate at zero momentum in section 2.5. Through cutting rules (Weldon, 1983) the damping and interaction rates are closely related. This connection allows for an easy interpretation of the physical process responsible for the damping, which showed us already the inconsistency of the gluon damping rate, calculated within naive perturbation theory.
+
+Owing to long range forces of gauge theories, there are more collision partners at large distances. Thus the damping rates in QED and QCD are dominated by small momentum transfers, leading in general to infrared divergent results if bare propagators are used. (In the case of the gluon damping rate at zero momentum, calculated in section 2.5 using bare propagators, a finite, although inconsistent result has been obtained, because the damping mechanism relies here on the decay of a plasma mode without gluon exchange to lowest order.) These infrared singularities are screened by medium effects that can be taken into account using effective propagators and vertices in the computation of the matrix elements or the self energies. Hence interaction and damping rates are typical examples, requiring the application of the Braaten-Pisarski method.
+
+First we will demonstrate the calculation of the interaction rate of an energetic particle (muon, electron, quark, or gluon) in detail. This problem represents the simplest application of the Braaten-Pisarski method in gauge theories, since only the effective gauge boson propagator is needed. Moreover, these rates are the starting point for other interesting quantities, such as the energy loss (chapter 5) or the viscosity (chapter 6). Furthermore, these rates are already plagued with the problem of the missing magnetic screening. Because of these properties damping rates have been studied in a large number of publications (Pisarski, 1989b; Lebedev and Smilga, 1990, 1991, 1992; Thoma and Gyulassy, 1991; Braaten, 1991; Braaten and Thoma,
+
+27
+
+P P'
+
+Q K K'
+
+Figure 4.1: Elastic scattering of a muon (bold line) off a thermal electron to lowest order.
+
+1991a; Burgess and Marini, 1992; Rebhan, 1992a; Baier, Kunstatter, and Schiff, 1992; Nakkagawa, Ni'ewgawa, and Pire, 1992, 1993; Smilga, 1992; Altherr, Petitgirard, and del Rio Gaztelurrutia, 1993; Baier, Nakkagawa, and Ni'egawa, 1993; Heiselberg and Pethick, 1993; Pisarski, 1993; Peign'e, Pilon and Schiff, 1993; Thoma, 1994a; Baier and Kobes, 1994).
+
+Afterwards we turn to the damping rates of collective plasma modes (Braaten and Pisarski, 1990b, 1992b; Pisarski, 1991; Kobes, Kunstatter, and Mak, 1992), such as the gluon damping rate at zero momentum, which started the development of the Braaten-Pisarski method. The treatment of these rates is much more tedious than the one of rates for hard particles, because effective vertices have to be considered in addition. An exception is the damping of a soft Yukawa fermion which can be calculated easily, as there are no effective vertices in the Yukawa theory (Thoma, 1994c).
+
+4.1 Damping rates of hard particles Here we will consider the damping rate of a heavy lepton propagating through a relativistic electron-positron plasma (Braaten and Thoma, 1991a). This QED problem has been investigated in detail, since it exemplifies the application of the BraatenPisarski method for gauge theories in the simplest possible way. We assume that the mass and the momentum of the heavy lepton are much larger than the temperature, which in turn is much larger than the electron mass: p, M AE T AE me. This can be realized for example for muons at a temperature of about 10 MeV, as it might be the case in supernova explosions. We will display the calculation in detail, as it reflects the methods used in an ideal manner, and since the rate is closely related to observables of the QGP discussed in chapter 5 and 6.
+
+The interaction rate is caused to lowest order in the coupling constant e by the Feynman diagram of fig.4.1, i.e. by elastic scattering of the muon off the thermal electrons and positrons via the exchange of a photon. Here P = (E; p) denotes the four momentum of the incoming muon with mass M , energy E = pp2 + M 2, and velocity v = p=E. The four momentum K = (k; k) belongs to the electron in the
+
+28
+
+Q P P'
+
+K
+
+K'
+
+Figure 4.2: Lowest order contribution to the imaginary part of the self energy of a muon (bold line) in naive perturbation theory.
+
+initial state, where we have neglected the electron mass. Momenta and energies with a prime indicate outgoing particles.
+
+The interaction rate of the process _e\Gamma ! _e\Gamma is obtained analogously to the zero temperature case,
+
+\Gamma (E) = 12E Z d
+
+3p0
+
+(2ss)32E0 Z
+
+d3k (2ss)32k nF (k) Z
+
+d3k0 (2ss)32k0 [1 \Gamma nF (k
+
+0)]
+
+\Theta (2ss)4 ffi4(P + K \Gamma P 0 \Gamma K0) 2hjMj2i ; (4.1) where the angle brackets mean averaging over the possible initial and summation over the final spin states. The factor of 2 comes from the summation over the spin states of the incoming electron. There will be another factor of 2 from the process _e+ ! _e+, which has the same matrix element to lowest order. Here we assume an identical number of electrons and positrons in the plasma, i.e. a vanishing chemical potential. (The generalization of the Braaten-Pisarski method to finite chemical potential has been discussed by Vija and Thoma (1994); see also section 7.2.) The only difference in the definition of the interaction rate according to (4.1), compared to the zero temperature case, is the appearance of the distribution functions. The factor nF (k) indicates the number of thermal electrons as possible scattering partners, while the factor [1 \Gamma nF (k)] describes Pauli blocking of the scattered electrons. There are no distribution functions of the muon which is not a thermal particle.
+
+Using cutting rules (Weldon, 1983; Keil, 1989) the interaction rate can be obtained also from the imaginary part of the muon self energy via
+
+\Gamma (E) = \Gamma 12E [1 \Gamma nF (E)] tr [(P _fl_ + M ) Im \Sigma (E + iffl; p)] : (4.2) The self energy corresponding to the matrix element of fig.4.1 is displayed in fig.4.2. Cutting through the internal fermion lines, shows the equivalence of (4.1) and (4.2). (An rigorous generalization of the Cutkosky cutting rules (Itzykson und Zuber, 1980) to finite temperature has been given by Kobes and Semenoff (1985, 1986).)
+
+So far only bare propagators and vertices have been employed (fig.4.1 and fig.4.2). The interaction rates, calculated from these diagrams, are proportional to e4 and
+
+29
+
+Q P P' Figure 4.3: Lowest order contribution to the imaginary part of the muon (bold line) self energy using the effective perturbation theory.
+
+quadratically infrared divergent. Now we will apply the Braaten-Pisarski method to this problem. Intuitively one could replace the bare photon propagator in fig.4.1 by the effective one. However, the Braaten-Pisarski method has been derived within the imaginary time formalism. Therefore we will start from the muon self energy, which can be calculated in the imaginary time formalism.
+
+The lowest order contribution to the imaginary part of the muon self energy, using the effective perturbation theory, stems from the diagram in fig.4.3. Obviously, we do not need an effective muon propagator or vertex in the self energy, since the fermion lines are hard due to the muon mass. The effective photon propagator (fig.2.6)
+
+contains an infinite number of electron loops with hard momenta (K ?, T ); i.e., the damping mechanism is caused by elastic scattering of the muon off the electrons and positrons of the plasma via the exchange of a virtual plasma mode. The imaginary part of the muon self energy comes from the imaginary part of the effective photon propagator, arising for k20 ! k2. Thus the damping mechanism can be understood as virtual Landau damping of the collective photon.
+
+It is interesting to note that the computation of the muon self energy with an effective photon propagator according to fig.4.3 is easier than in naive perturbation theory, where a two-loop diagram (fig.4.2) has to be evaluated. (The one-loop diagram with a bare photon propagator contains no imaginary part, since a bare muon cannot decay electromagnetically.)
+
+Here we will follow the derivation of the interaction rate according to Braaten and Thoma (1991a). Standard Feynman rules give the following expression for the muon self energy of fig.4.3:
+
+\Sigma ?(P ) = i e2 Z d
+
+4Q
+
+(2ss)4 D
+
+?_* (Q) fl_ S(P 0) fl* ; (4.3)
+
+where P 0 = P \Gamma Q. It is convenient to choose the photon propagator in Coulomb gauge and to decompose it into longitudinal and transverse contributions as in (2.27). Performing the trace over the fl-matrices in (4.2) and employing the imaginary time formalism we find
+
+tr [(P _fl_ + M ) \Sigma ?(P )] =
+
+30
+
+\Gamma 4 e2 T X
+
+q0 Z
+
+d3q (2ss)3 e\Delta (P
+
+0) fD?L(Q) (p20 + p2 \Gamma p0q0 \Gamma p \Delta q + M 2)
+
++2 D?T (Q) [p20 \Gamma p0q0 + p \Delta q \Gamma (p \Delta ^q)2 \Gamma M 2]g : (4.4) The easiest way for evaluating the sum over q0 is given again by the Saclay method. In the case of the muon propagator e\Delta (P 0) we can directly adopt (2.12) and (2.13). In the case of the effective photon propagator it is convenient to use the spectral representation (Schulz, 1992; Taylor, 1993; Kalashnikov, 1994),
+
+D?L;T (Q) = Z
+
+1
+
+\Gamma 1 d!
+
+aeL;T (!; q) q0 \Gamma ! + iffl : (4.5)
+
+From this the effective photon propagator within the Saclay method can be written as (Pisarski, 1989a):
+
+D?L;T (q0; q) = \Gamma Z
+
+fi
+
+0 do/ e
+
+q0o/ Z 1
+
+\Gamma 1 d! aeL;T (!; q) [1 + nB(!)] e
+
+\Gamma !o/ : (4.6)
+
+(The equivalence of (4.5) and (4.6) follows directly by integrating over o/ und using the expression (2.4) for the Bose distribution.)
+
+The spectral function contains a contribution from the residue of the pole of the effective propagator and a discontinuous contribution from the imaginary part of the propagator (Landau damping) if !2 ! q2 (Pisarski, 1989a):
+
+aeL;T (!; q) = aeresL;T (!; q) ffi(! \Gamma !L;T (q)) + aedisL;T (!; q) `(q2 \Gamma !2) : (4.7) Here !L;T (q) are the poles of the effective propagator, aeresL;T (!; q) the corresponding residues, and
+
+aedisL;T = \Gamma 1ss Im D?L;T (!; q) : (4.8)
+
+(The expression for the discontinuous part follows directly by inserting (4.8) into (4.5), using the relation Im 1=(k0 \Gamma ! + iffl) = \Gamma ssffi(k0 \Gamma !), the connection with the residue by means of (2.6).)
+
+In the following we only need the discontinuous part, which is responsible for the damping (virtual Landau damping), as discussed above:
+
+aedisL (!; q) = 3m
+
+2fl !
+
+2q jDL(!; q)j
+
+2 ;
+
+aedisT (!; q) = 3m
+
+2fl !(q2 \Gamma !2)
+
+4q3 jDT (!; q)j
+
+2 : (4.9)
+
+The summation over q0 in (4.4) can be done easily using the representation (4.6). It gives a factor ffi(o/ \Gamma o/ 0), rendering the o/ 0 integration trivial. The integration over o/ yields Z
+
+fi
+
+0 do/ e
+
+(p0\Sigma E0\Gamma !)o/ = efi(p0\Sigma E
+
+0\Gamma !)
+
+p0 \Sigma E0 \Gamma ! : (4.10)
+
+31
+
+Owing to the discrete energies of the muon, p0 = (2n + 1)issT , we can set exp(fip0) =\Gamma
+
+1 and continue p0 in the denominators analytically to real values p0 = E + iffl on the mass shell afterwards. The imaginary part of the muon self energy is due to the imaginary part of the energy denominator
+
+Im 1E \Sigma E0 \Gamma ! + iffl = \Gamma ss ffi(E \Sigma E0 \Gamma !) : (4.11) Combining (4.4) to (4.11), we end up with
+
+tr [(P _fl_ + M ) Im \Sigma ?(P )] = \Gamma 4 ss e2 i1 + e\Gamma fiEj Z d
+
+3q
+
+(2ss)3 Z
+
+1 \Gamma 1 d!
+
+\Theta 1 + nB(!)2E0 f[1 \Gamma nF (E0)] ffi(E \Gamma E0 \Gamma !) \Gamma nF (E0) ffi(E + E0 \Gamma !)g (4.12) \Theta naedisL (!; q) (2E2 \Gamma E! \Gamma p \Delta q) + 2 aedisT (!; q) [p2 \Gamma E! + p \Delta q \Gamma (p \Delta ^q)2]o :
+
+So far this expression is exact. Now we will utilize the assumption p, M AE T . Then we can assume the following approximations. First, we may neglect factors such as exp(\Gamma E=T ), exp(\Gamma E0=T ), nF (E), and nF (E0), which is obvious, since the muon is not
+
+a thermal particle due to its large mass. Next, we may replace E0 = q(p \Gamma q)2 + M 2 by E0 ' E \Gamma v \Delta q, expanding for small q=E. This expansion is possible because the integrand decreases like 1=q3; i.e., only small q contribute to the integral. Then we get ffi(E \Gamma E0 \Gamma !) ' ffi(! \Gamma v \Delta q), which enables us to perform the angle integration:
+
+\Gamma (E) = e
+
+2
+
+2ssv Z
+
+1 0 dq q Z
+
+vq \Gamma vq d! [1 + nB (!)] "ae
+
+disL (!; q) + v2 \Gamma !2
+
+q2 ! ae
+
+disT (!; q)# : (4.13)
+
+Since only small momenta, q o/ T , contribute to the damping rate, also ! has to be small, ! o/ T , allowing for an expansion of the Bose factor:
+
+1 + nB(!) ' T! + 12 ::: : (4.14) In the following we only consider the first term of this expansion. The second one does not contribute anyway, as the spectral densities are odd functions of !. The resulting integral can be evaluated only numerically. In the the limit M AE p, however, (4.13) can be simplified further, allowing for an analytic evaluation of the rate. From M AE p we get v o/ 1 and thus ! o/ q. Then we may expand the spectral densities for ! o/ q (Pisarski, 1989b):
+
+aedisL (!; q) ' 3m
+
+2fl!
+
+2q
+
+1 (q2 + 3m2fl)2 ;
+
+aedisT (!; q) ' 3m
+
+2fl!q
+
+4
+
+1 q6 + (3ssm2fl!=4)2 : (4.15)
+
+32
+
+Substituting these expressions together with (4.14) into (4.13), the interaction rate, corresponding to the exchange of a longitudinal photon, is given by
+
+\Gamma L(v o/ 1) = e
+
+2T
+
+4ss : (4.16) The transverse part is logarithmically infrared divergent,
+
+\Gamma T (v o/ 1) = e
+
+2T
+
+2ss v `ln
+
+1
+
+ffl \Gamma
+
+1 4 ' ; (4.17)
+
+where we introduced an infrared cut-off, ffl ! 0, for the q-integral.
+
+These results deserve a number of remarks:
+
+1. The damping rate fl of a muon, defined as the imaginary part of the dispersion relation (Thoma and Gyulassy, 1991), is just one half of the interaction rate, fl = \Gamma =2. 2. The interaction rate is proportional to e2 instead of e4 as expected from naive perturbation theory. This anomalous large damping (Lebedev and Smilga, 1990, 1991, 1992) is caused by the use of the effective photon propagator, similarly to the reduction in the coupling constant of the next to leading order term of the effective tadpole of the OE4-theory, (3.2). (The effective photon masses, m2fl , e2, appearing in the numerator and denominator of the spectral density, cancel each other when integrating over q (see also remark 8).) 3. The logarithmic infrared singularity in the transverse part of the interaction rate (4.17) is caused by the absence of a magnetic screening mass; i.e., the rate is sensitive to momenta of the order of e2T . Since we do not expect a magnetic screening in a relativistic electron-positron plasma, this would mean that a muon cannot propagate in such a plasma. However, there are doubts (Lebedev and Smilga, 1990, 1991, 1992; Smilga, 1992; Thoma, 1994a), whether the damping rate has a physical meaning at all. Alternatively the damping could be described by the infrared finite transport rate, discussed in chapter 6. On the other hand, a muon in a plasma is never exactly on the mass shell due to continuous collisions. If the finite width, i.e. an imaginary part of the muon propagator, due to these collisions is taken into account, a finite result for the damping rate can be found. Since the width is caused by the damping of the muon itself, this method corresponds to a self consistent determination of the damping. (Lebedev and Smilga, 1990, 1991, 1992; Altherr, Petitgirard, and del Rio Gaztelurrutia, 1993; Pisarski, 1993; Henning, Sollacher, and Weigert, 1994). This implies that the infrared cut-off ffl in (4.17) should be of the order of e. If it is possible to derive a consistent result for the damping rate in this way is under debate (Peign'e, Pilon, and Schiff, 1993; Baier and Kobes, 1994). Another possibility of avoiding the infrared singularity of the damping rate by the Bloch-Nordsieck mechanism has been proposed by Ni'egawa (1994). In any case the reduction of the quadratic infrared singularity found in naive perturbation theory to a logarithmic one is an important progress, allowing for an estimate of the rate up to logarithmic accuracy. 4. The formula (4.13) also holds for a hard electron with momentum p ?, T , setting the velocity equal to v = 1. The calculation, shown above, can be taken over. In
+
+33
+
+principal there could be a self energy diagram in addition to fig.4.3, containing an effective electron propagator instead of an effective photon propagator. However, owing to momentum conservation at the vertex and the fact that the interaction rate is dominated by small momenta of the photon, the electron in the loop of the self energy is always hard; i.e., a bare electron propagator suffices. Indeed, it is possible to show explicitly that the contribution from the diagram with an effective electron and a bare photon propagator is of higher order. The neglect of factors of the form exp(\Gamma E=T ) in (4.13) is approximately possible, as long as the electrons have at least thermal energies, i.e. E * 3T . The static approximation, v o/ 1, for the spectral densities (4.15), however, has to be revoked. Therefore the integration over ! has to be performed numerically, yielding \Gamma L = 1:098 e2T =4ss (Thoma und Gyulassy, 1991; Thoma, 1994a); i.e. the deviation from the static approximation is only 10 %. 5. The interaction rate of a heavy quark, e.g. a charm or bottom quark, in the QGP simply follows by replacing the square of the electric charge e2 of the muon in (4.16) and (4.17) by the chromoelectric charge CF g2 of the quark, where CF = 4=3 denotes the Casimir invariant of the fundamental representation of SU(3). In the case of a heavy quark at rest, v = 0, this result has been derived by Pisarski (1989b). 6. The interaction rate of a light quark with hard momentum has been considered by means of the Braaten-Pisarski method first by Thoma und Gyulassy (1991). Again the electron charge in the rate of a hard electron has to be replaced by the color charge of the quark resulting in \Gamma ' (CF g2T =2ss) ln(1=g) to logarithmic accuracy, where an infrared cut-off g o/ 1 has been chosen. In a similar way this result (up to a factor of 3) was found already earlier by Lebedev and Smilga (1990, 1991), which was verified later on also by Burgess and Marini (1992) and Rebhan (1992a). 7. The interaction rate of a hard gluon follows from the one of a light quark by replacing CF by the Casimir invariant of the adjoint representation, CA = 3. This can be seen either by explicit evaluation of the gluon self energy using an effective gluon propagator (Braaten, 1991; Burgess und Marini, 1992) or immediately by comparing the scattering diagrams of elastic quark scattering (fig.4.1) with the ones of elastic gluon scattering, caused by the scattering of the gluon off the thermal quarks and gluons via the exchange of a gluon. 8. The interaction rates of light partons are independent of the parton momentum p in the limit p AE !; q. Moreover, they do not depend on the number of thermalized flavors in the QGP, since the effective gluon mass mg in the spectral density drops out after integrating over q. Though the number of possible scattering partners is increased if additional quark flavors are present, at the same time the screening is enlarged. Both effects cancel each other exactly (Thoma, 1994a). 9. The quark damping rate has been calculated also in covariant gauges (Baier, Kunstatter, and Schiff, 1992). The gauge dependent part proportional to the gauge fixing parameter , is infrared divergent and has to be removed by an infrared regulator. The gauge dependent part vanishes only if one first puts the self energy on mass shell, before the regulator is set equal to zero. Interchanging both the limits, a gauge dependent contribution survives. This observation caused doubts about the gauge independence of the Braaten-Pisarski method, which, however, could be disproved
+
+34
+
+meanwhile by arguing for the correct order of the limits (Rebhan, 1992b; Braaten and Pisarski, 1992b; Nakkagawa, Ni'egawa, and Pire, 1992, 1993; Altherr, Petitgirard, and del Rio Gaztelurrutia, 1993; Baier, Nakkagawa, and Ni'egawa, 1993; Kobes and Mak, 1993). 10. In a QGP there might be the possibility of a magnetic screening mass due to non-perturbative field configurations, e.g. chromomagnetic monopoles. This mass should be proportional to g2T (Lind'e, 1980; Gross, Pisarski, and Yaffe, 1981) and could serve as an infrared regulator for the interaction rate (Pisarski, 1989b). Indeed, a magnetic gluon mass has been found in lattice calculations (Biloire, Lazarides, and Shafi, 1981; deGrand and Toussaint, 1982) as well as in classical considerations (Bir'o and M"uller, 1993). Despite of the completely different nature of both the approaches, identical results mmag = 0:31g2T have been obtained. Pisarski (1993) combined the magnetic mass with the finite width of the quark phenomenologically. Extrapolating these results to realistic values of the strong coupling constant, e.g. ffs = 0:3, gives \Gamma q ' 0:3T for quarks and \Gamma g ' 0:7T for gluons (Thoma, 1994a). 11. Assuming that the interaction rates of light and hard partons describes typical relaxation and thermalization times of the QGP, o/q;g = 1=\Gamma q;g, surprisingly short thermalization times of about o/q ' 1 - 2 fm/c und o/g ' 0:5 - 1 fm/c are obtained choosing a temperature of 300 MeV (Thoma, 1994a). These results agree with the ones found in numerical simulations of ultrarelativistic heavy ion collisions (Wang and Gyulassy, 1991; Geiger and M"uller, 1992; Geiger, 1993). Furthermore one observes that the gluon component of the parton gas thermalizes faster than the quark component (Shuryak, 1992; Geiger, 1993; Bir'o et al., 1993) due to the stronger interactions of gluons compared to quarks. Whether the interaction rates, however, determine the thermalization times directly is questionable, as discussed in chapter 6. 12. The interaction rate determines the color conductivity and diffusion of the QGP, which describes the relaxation from a deviation of the color equilibrium distribution (Selikhov and Gyulassy, 1993; Heiselberg, 1994b). The color conductivity, for instance, is given by oec = 2m2g=\Gamma g (Selikhov and Gyulassy, 1993). 13. The rates of inelastic processes such as gg ! q _q or gg ! ggg have not been treated by means of the Braaten-Pisarski method up to now. Because they are of interest for the chemical equilibration of the QGP (Bir'o et al., 1993) and the radiative energy loss of energetic partons (Gyulassy and Wang, 1994), they have been estimated using bare Green's functions and the effective gluon mass mg and quark mass mq as infrared cut-offs (Xiong and Shuryak, 1992; Bir'o et al., 1993; Altherr and Seibert, 1994). In this way the electric and magnetic infrared singularities are removed at the same time, of course without any justification. 14. The mechanism of photon damping to lowest order is caused by Compton scattering as opposed to elastic scattering, which is responsible for parton and lepton damping. The photon damping rate will be discussed in detail in chapter 7.
+
+35
+
++ Figure 4.4: Self energy contributions to the damping of a soft gluon. 4.2 Damping rates of soft particles Now we will turn to the damping rates of particles with soft momenta, i.e. of the order gT . Such particles can be regarded as collective modes, e.g. plasmons, as discussed in section 2.4. A consistent treatment of those rates again requires the use of the Braaten-Pisarski method. Again the rates follow from one-loop self energies containing effective Green's functions. Since the external momenta are soft now, all lines of the diagram determining the self energy can be soft. Thus effective vertices as well as propagators have to be used.
+
+4.2.1 Gluon damping rate
+
+The leading order contribution to the gluon damping rate at zero momentum stems from the diagrams of the gluon self energy in fig.4.4. Owing to the complicated expressions for the effective vertices and propagators, the evaluation of these diagrams is very tedious. Since we only need the imaginary part of these diagrams at zero momentum (see (2.31)), the calculation can be simplified considerably. After all, the calculation is far from being trivial. The gauge independent result of this lengthy calculation (Braaten und Pisarski, 1990b),
+
+flL;T (0) = 6:63538 g
+
+2T
+
+8ss ; (4.18) represents the solution of the plasmon puzzle discussed in section 2.5. The damping rate is significantly larger than the one found by using naive perturbation theory in temporal or Coulomb gauge, (2.34) with a = 1, and positive in contrast to the result, obtained using bare Green's functions in covariant gauge. Hence there is no indication of an instability of the QGP.
+
+The physical damping mechanism can be recognized again by cutting the diagrams in fig.4.4. There are the following possibilities: We can cut through two lines ("polepole term"), through one line and one blob ("pole-cut term") or through two blobs ("cut-cut term"). Cutting through a blob means cutting a HTL self energy, leading to virtual Landau damping. The pole-pole term corresponds to the decay of the collective mode (at zero momentum) in two collective modes, which is forbidden by kinematics. The pole-cut term describes gg ! gg scattering and the cut-cut term inelastic gg ! ggg processes (bremsstrahlung). So the damping mechanism of
+
+36
+
++ Figure 4.5: Self energy contributions to the damping of a soft quark. collective gluons at zero momentum relies on elastic and inelastic scattering processes between plasma waves and thermal gluons, as opposed to the decay of the collective mode in bare gluons as expected in naive perturbation theory (see section 2.5). This observation demonstrates once more that the Braaten-Pisarski method leads not only to quantitatively improved results, compared to naive perturbation theory, but also contributes to a deeper insight into the physical processes in the QGP.
+
+It is interesting to note that, in contrast to the hard rates, there are no infrared singularities due to the missing static magnetic screening. Although the rates at zero momentum are caused by scattering, the exchange of a transverse gluon does not lead to a divergence, since magnetic processes are suppressed for vanishing external momentum.
+
+Finally, we would like to note that investigations of the chaoticity of a classical Yang-Mills system on the lattice, using the Hamilton formalism in temporal gauge, yielded a Lyapunov exponent which surprisingly agrees with the gluon damping rate at zero momentum, (4.18), (M"uller and Trayanov, 1992; Bir'o et al., 1994). A possible connection between the damping rate and the Lyapunov exponent might rely on the fact that both quantities measure the entropy increase of the system (Gong, 1993).
+
+4.2.2 Quark damping rate
+
+The quark damping rate at zero momentum follows from (Braaten and Pisarski, 1992b)
+
+fl\Sigma (0) = \Gamma 18 tr[fl0 Im\Sigma ?(mq + iffl; 0)] ; (4.19) where fl\Sigma denotes the rates for positive and negative helicity eigenstates, respectively, which are identical at zero momentum analogously to the transverse and longitudinal gluon damping rates, and mq = gT =p6 is the thermal quark mass. For the quark self energy \Sigma ? we have to adopt the diagrams in fig.4.5. Here an effective vertex between two quarks and two gluons which has no bare counterpart is needed. Independently Kobes, Kunstatter, and Mak (1992) and Braaten and Pisarski (1992b) found
+
+fl\Sigma (0) = b g
+
+2T
+
+12ss ; (4.20) where the constants b = 5:63 and 5.71 apply to two and three thermal quark flavors, respectively. The damping mechanism is caused by elastic (2 ! 2) and inelastic (2 ! 3) scattering processes, as in the case of the gluon damping.
+
+37
+
+Chapter 5 Energy loss The transition and energy loss of a charged particle through matter has been investigated intensively since decades (Jackson, 1975). For example the famous Bethe-Bloch formula describes the energy loss of a charged particle with a mass, which is large compared with the electron mass, in non-relativistic matter, such as a plasma, by collisions of the particle with the electrons of the matter. In the case of relativistic particles radiative corrections, i.e. energy loss by bremsstrahlung, become important. This process dominates especially for light particles such as electrons.
+
+5.1 Motivations and estimates The energy loss of particles in a relativistic medium, e.g. a QGP or a relativistic electron-positron plasma, requires a quantum field theoretic treatment. For e.g. cross sections of quark scattering, following from QCD, enter the energy loss. In this way Bjorken (1982) estimated the energy loss of energetic partons in the QGP. This quantity is of interest, as it is closely related to the appearance of jets in ultrarelativistic heavy ion collisions, which are supposed to be observable at RHIC and LHC for the first time in heavy ion collisions (Eskola, Kajantie, and Lindfors, 1989).
+
+Jets can be considered as an external probe for the fireball. For in the case of a relativistic heavy ion collision the energetic parton, produced in primary parton collisions has to traverse the fireball (fig.5.1), being decelerated and deflected. This modification by the medium leads to an asymmetric jet distribution, while in electronpositron or proton-proton collisions jets originating from a quark-antiquark pair are emitted in opposite directions. Indeed, the deflection of the jet axis (acomplanarity) has been discussed as a possible signature of the QGP formation (Apple, 1986; Blaizot and McLerran, 1986; Rammerstorfer and Heinz, 1990). Unfortunately, this deflection may also arise in a hadronic fireball, rendering the distinction of the two phases by means of the jet-acomplanarity impossible (Rammerstorfer and Heinz, 1990).
+
+Rather the deceleration of jets might serve as a signal for the QGP. According to preliminary estimates the energy loss of energetic partons in the two phases might differ by an order of magnitude; i.e., jets in hadronic matter might be suppressed as
+
+38
+
+Figure 5.1: Jets in ultrarelativistic heavy ion collisions. opposed to jets in a QGP ("jet unquenching") (Gyulassy and Pl"umer, 1990). Whereas the energy loss of quarks in hadronic matter is given by the string tension of about 1 GeV/fm, Bjorken's estimate (Bjorken, 1982) for a quark with an energy of about E = 10 - 20 GeV in the QGP yielded dE=dx = 0:1 - 0.2 GeV/fm.
+
+Bjorken's estimate is based on the use of elastic qq- and qg-cross sections to lowest order perturbation theory, i.e. on diagrams of the type shown in fig.4.1. The infrared singularities in these cross sections have been removed similarly as in the case of the inelastic rates, discussed in the last chapter, by introducing the Debye mass, m2D = 3m2g, as infrared regulator.
+
+However, according to Fermi (Jackson, 1975; Ichimaru, 1973) the infrared contribution to the energy loss due to large distance collisions can be described as follows: The incoming charged particle induces an electric field in the medium, which reacts via the Lorentz force upon the incoming particle causing its deceleration. By means of this classical consideration the energy loss can be related to the dielectric constant of the medium. In the case of quarks one finds (Thoma and Gyulassy, 1991)
+
+dE
+
+dx = \Gamma
+
+CF g2 4 ss2 v2 Z
+
+dq
+
+q Z
+
+vq \Gamma vq d! ! hIm ffl
+
+\Gamma 1 L + (v2 q2 \Gamma !2) Im (!2 fflT \Gamma q2)
+
+\Gamma 1i ; (5.1)
+
+where CF = 4=3 and v is the velocity of the quark. Adopting the expressions (2.18) for the longitudinal and transverse dielectric constant together with the HTL gluon self energy (2.16), a finite result has been found from (5.1), rendering the introduction of an infrared cut-off obsolete. Mr'owczy'nski (1991) combined the infrared contribution found in this way with the one caused by short distance collisions, estimated by Bjorken, introducing the Debye mass as a separation scale. A similar proceeding has been proposed by Koike and Matsui (1992). In both cases the final result depends on the somewhat arbitrary separation scale.
+
+The energy loss of a quark in the QGP, following from these considerations, can
+
+39
+
+be summarized in a pocket formula as
+
+dE
+
+dx =
+
+8 ss
+
+3 `1 +
+
+Nf
+
+6 ' ff
+
+2 s T 2 ln q
+
+max
+
+qmin ! ; (5.2)
+
+where qmax ' p4T E and qmin ' mD denote the maximum and minimum momentum transfer in the parton collision. Assuming ffs = 0:2, Nf = 2, T = 250 MeV, and E = 20 GeV, as chosen by Gyulassy and Pl"umer (1990), an energy loss of about 0.2 GeV/fm results. The small value ffs = 0:2, motivated by lattice calculations (Gao, 1990) and renormalization scheme arguments (Huang and Lissia, 1994), however, is affected by a large uncertainty. Already for ffs = 0:4 the energy loss according to (5.2) is of the order of the string tension. Also the choice of qmax and qmin is ambiguous. Assuming e.g. qmax = E results in a doubling of the energy loss. Finally, another important uncertainty is due to the neglect of higher order effects, such as radiation.
+
+The uncertainty in qmin can be removed employing the Braaten-Pisarski method, the one in qmax taking into account the kinematics rigorously at least in the case of heavy quarks. In the forthcoming sections the energy loss of heavy quarks due to elastic scattering in the QGP will be derived consistently, leading to a result which is infrared finite, gauge independent, complete to leading order in the coupling constant, and independent of arbitrary parameters like cut-offs and separation scales.
+
+For estimating the energy loss we also will assume ffs = 0:2, as there is no reliable method for determining the temperature dependent effective coupling constant up to now. (Attempts for deriving a temperature dependent running coupling constant starting from the renormalization group equation at finite temperature (Baier, Pire and Schiff, 1991; van Eijck, Stephens and van Weert, 1994) did not lead to unambiguous results so far.) The validity and limitation of the extrapolation of the results for dE=dx, obtained by means of the Braaten-Pisarski method for g o/ 1, to realistic values of g = 1:5 - 2.5 will be discussed in section 5.5.
+
+The calculation of the energy loss by bremsstrahlung is much more involved, since higher order diagrams as well as new medium effects (Landau-Pomeranshuk effect) arise. Consequently this contribution to the total energy loss is not yet treated within the Braaten-Pisarski method. In section 5.6 rough estimates will be given.
+
+Besides for jet quenching as a possible signature for the QGP, the energy loss has been used as an input for the numerical simulation of nucleus-nucleus collisions (Wang and Gyulassy, 1992), for estimating thermalization times (Shuryak, 1992) in ultrarelativistic heavy ion collisions, and for the mean free path of heavy quarks in a primordial QGP (Dine et al., 1992). Another quantity, closely related, is the diffusion rate of a charm quark, which plays a role for the J=-suppression. It has has been calculated by Svetitsky (1988) analogously to the energy loss according to Bjorken.
+
+5.2 Quantum field theoretic definition For simplicity sake we will first consider the energy loss of a muon in a relativistic QED plasma. Furthermore we will restrict ourselves to the collisional energy loss, which
+
+40
+
+is given to lowest order by elastic scattering of the muon off the thermal electrons and photons of the plasma via the exchange of a photon (Fig.4.1). (Although elastic scattering does not cause an energy transfer in the center of mass system, it does in the system of the heat bath.)
+
+A quantum field theoretic definition of the energy loss can be obtained in the following way (Braaten and Thoma, 1991a): The mean distance between two collisions of a muon with velocity v in the plasma is given by \Delta x = v=\Gamma , where \Gamma is the interaction rate of section 4.1. (As usual, we assume that the dimension of the plasma is large compared to the mean free path of the muon, corresponding to a large number of collisions, and that the energy transfer per collision is small compared to the energy of the muon.) The energy loss of a muon per collision is given by \Delta E = E \Gamma E0 = !, where ! denotes the energy transfer by the exchanged photon with four momentum Q = (!; q). The mean energy loss is now obtained by averaging over the interaction rate \Gamma times the energy transfer ! and dividing by the velocity v of the muon. This is expressed in a symbolic formula as
+
+dE
+
+dx =
+
+1 v Z d\Gamma ! ; (5.3)
+
+meaning that the photon energy ! has to be inserted under the integrals that define the interaction rate, i.e. (4.1) or (4.2). The energy loss can be calculated analogously to the interaction rate either from the scattering matrix element or from the imaginary part of the muon self energy.
+
+However, there is an essential difference compared to the interaction rate: The additional factor ! in the energy loss changes the infrared behavior completely. Whereas the interaction rate is quadratically infrared divergent using a bare photon propagator and logarithmically using a resummed one, the energy loss is logarithmically infrared divergent in naive perturbation theory but finite applying the Braaten-Pisarski method. This can be seen by inspecting (4.13). If ! is inserted under the integral there, the infrared divergence is reduced directly by the factor ! and in addition by the fact that now the second term of the expansion of the distribution function in (4.14) contributes, because the spectral functions aedisL;T (!; q) are odd functions of !. Indeed, the use of the effective photon propagator suffices for producing a finite result, although the effective photon propagator contains no static magnetic screening. This dynamical screening of infrared singularities for quantities that are logarithmically divergent in naive perturbation theory has been observed first in the case of the viscosity (Baym, Monien, and Pethick, 1988; Pethick, Baym, and Monien, 1989; Baym et al., 1990).
+
+Owing to the additional factor !, a further modification arises compared with the interaction rate besides the different infrared behavior. While in the latter case only soft momentum transfers, q !,eT , need to be considered because of the strong decrease of the integrand with momentum, \Gamma , R dq=q3, all kinematically possible momentum transfers have to be taken into account in the case of the energy loss, dE=dx , R dq=q. Since the effective photon propagator in the muon self energy, (4.3) and fig.4.3, contributes to damping only for soft momenta - for hard momenta it
+
+41
+
+reduces to the bare propagator, which contains no imaginary part - it is not possible to compute the energy loss by simply using the effective propagator in the muon self energy for the entire momentum range.
+
+An alternative would be the use of the effective photon propagator in the scattering matrix element according to fig.5.2. This diagram reduces to fig.4.1, as desired, for large momentum transfers Q and considers screening effects for soft momenta at the same time. This approach, however, suffers from two problems: First, it cannot be derived rigorously from the Braaten-Pisarski method, which relies on the imaginary time formalism; i.e., strictly speaking, the use of effective propagators is only possible in loop diagrams. (However, both approaches give the same result in the case of the energy loss for soft momentum transfers (Braaten and Thoma, 1991a).) Secondly, the diagram in fig.5.2 integrated over the external momenta contains higher order contributions in the coupling constant, as can be seen, studying a simple analytic example (Thoma, 1994d):
+
+I j e4 Z
+
+s
+
+0 dt t j\Delta
+
+?(t)j
+
+= e4 ln s + __
+
+2
+
+__2 +
+
+__2 s + __2 \Gamma 1! (5.4)
+
+Here t = Q2 stands for the momentum of the photon with maximum momentum transfer s = (P + K)2 and \Delta ? = 1=(t + __2) for the effective propagator with thermal mass __ , eT . The factor t under the integral softens the infrared divergence, appearing for __ = 0, as in the case of the energy loss. The second term in the parentheses of (5.4) yields contributions to higher orders, O(e6). In the simple example above these contributions can be removed by neglecting these terms making use of s AE __2. However, if an integration over distribution functions (see e.g. (4.1)) has to be performed, an analytic result as in (5.4) cannot be given. Hence the higher order contributions cannot be separated off easily. Consequently, the final result is not consistent in the order of the coupling constant. If we want to obtain a complete expansion up to order e6, we would have to consider additional complicated diagrams, e.g. with effective vertices.
+
+5.3 Braaten-Yuan prescription A method for the consistent treatment to leading order of quantities which are logarithmically infrared divergent, using bare propagators, has been proposed by Braaten and Yuan (1991). Introducing a separation scale q?, similarly as in the derivation of the photon self energy in the HTL approximation in appendix B, restricted by eT o/ q? o/ T but otherwise arbitrary, soft and hard momentum transfers can be treated separately.
+
+For soft momentum transfers, q ! q?, we adopt the Braaten-Pisarski method for example in the case of the energy loss by starting from the muon self energy with an
+
+42
+
+Figure 5.2: Elastic scattering of a muon (bold line) off a thermal electron via the exchange of a collective photon.
+
+effective photon propagator (fig.4.3). Neglecting terms of the order of eT compared to q?, wherever it is possible, i.e. causing no divergence, we obtain an expression of the form B ln(q?=eT ) + Asoft with constants Asoft and B that are independent of q?. The factor of eT under the logarithm is due to the use of the effective propagator.
+
+The hard contribution (q ? q?) follows from using only bare Green's functions for example in the matrix element and from taking account of q? o/ T . In this way an expression of the form B ln(T =q?) + Ahard is achieved, where B is the same constant as in the soft part. Adding up both the contributions, B ln(1=e) + Asoft + Ahard is found; i.e., the arbitrary separation scale drops out, reflecting the consistency of the final result to leading order.
+
+Applying this prescription to our simple example (5.4) we get Isoft = e4 [ln(t?=__2)\Gamma 1] if t ! t? and Ihard = e4 ln(s=t?) if t ? t? using the bare propagator \Delta (t) = 1=t. In total I = e4 [ln(s=__2) \Gamma 1] follows, which agrees with (5.4) in the limit s AE __2 and is not contaminated by higher orders (Thoma, 1994d). The advantage of the Braaten-Yuan prescription is the possibility to separate off the higher order terms analytically, even in cases where numerical integrations over distribution functions are required, as opposed to using the effective propagator in the matrix element for all momentum transfers. In conclusion, the Braaten-Yuan prescription provides an analytic way for obtaining results that are complete to leading order in the coupling constant.
+
+5.4 Energy loss of muons First, we will consider the soft part, q ! q?, combining (5.3) with (4.2) and (4.3). Proceeding analogously to the interaction rate but using the second term in the expansion of the Bose enhancement factor in (4.14), since the spectral functions are odd functions of !, we find
+
+dE
+
+dx !soft =
+
+e2 4 ss v2 Z
+
+q? 0 dq q Z
+
+vq \Gamma vq d! ! "ae
+
+disL (!; q) + v2 \Gamma !2
+
+q2 ! ae
+
+disT (!; q)# : (5.5)
+
+43
+
+Figure 5.3: Compton scattering from a muon (bold line). The expression (5.5) coincides with the one, (5.1), obtained by Thoma and Gyulassy (1991), if (5.1) is carried over to the QED case by substituting CF g2 by e2, and if (2.18), (2.26), and (4.8) are combined, yielding (Thoma and Gyulassy, 1991)
+
+Im ffl\Gamma 1L = \Gamma ss q2 aedisL ; Im (!2fflT \Gamma q2)\Gamma 1 = \Gamma ss aedisT : (5.6)
+
+This agreement demonstrates the equivalence of the HTL approximation, which is identical to the high temperature limit, with the classical approximation, used in deriving (5.1).
+
+Changing variables from q and ! to q and x = !=q, the integration over q can be done exactly. The x-integral, however, has to be evaluated numerically. Considering furthermore q? AE eT ,
+
+dE
+
+dx !soft =
+
+e4T 2
+
+24ss
+
+1 v \Gamma
+
+1 \Gamma v2
+
+2v2 ln
+
+1 + v 1 \Gamma v ! `ln
+
+q? eT + Asoft(v)' (5.7)
+
+is obtained, where Asoft(v) begins at Asoft(0) = 0:049, increases to a maximum of Asoft(0:96) = 0:292 monotonically and decreases then monotonically to Asoft(1) = 0:256.
+
+As already mentioned above, the soft part of the energy loss can also be derived from the matrix element with an effective photon propagator according to fig.5.2 (Braaten and Thoma, 1991a). This observation confirms the conjecture that the imaginary part of the diagram of fig.4.3 corresponds to elastic scattering via the exchange of a collective plasma mode, meaning the extension of the cutting rules (Weldon, 1983) to collective modes, not proven in general so far.
+
+The hard part, q ? q?, can be achieved starting from the matrix element combining (5.3) and (4.1) and using bare Green's functions. Besides electron-muon scattering, the Compton processes shown in fig.5.3 contribute to the same order in e. These contributions, however, are suppressed by a factor (T =M )2 (Braaten and Thoma, 1991a), where M is the mass of the muon, assumed to be large compared to the temperature.
+
+The matrix element for elastic scattering of muons off electrons and positrons, averaged over the initial states and summed over the final ones, reads (Braaten and
+
+44
+
+Thoma, 1991a)
+
+hjMj2i = 8 e
+
+4
+
+Q4 (P \Delta K P
+
+0 \Delta K0 + P \Delta K0 P 0 \Delta K \Gamma M 2 K \Delta K0) : (5.8)
+
+This result has been obtained in Feynman gauge, whereas the soft part was calculated using Coulomb gauge, which causes no problem because of the gauge independence of the hard as well as the soft part in our treatment.
+
+Inserting (5.8) in (5.3) together with (4.1), a somewhat lengthy calculation gives (Braaten and Thoma, 1991a)
+
+dE
+
+dx !hard =
+
+e4T 2
+
+24ss
+
+1 v \Gamma
+
+1 \Gamma v2
+
+2v2 ln
+
+1 + v 1 \Gamma v ! ln
+
+T q? + ln
+
+E M + Ahard(v)! ; (5.9)
+
+where we assumed p, M AE T again. The maximum momentum transfer, providing the upper limit for the integration in deriving (5.9), has been determined from the kinematics of the scattering, containing no arbitrary assumption, in contrast to the one used by Bjorken in the case of light partons. The function Ahard(v) decreases monotonically from Ahard(0) = 1:239 to Ahard(1) = 1:072.
+
+Combining (5.7) and (5.9), we end up with
+
+dE
+
+dx =
+
+e4T 2
+
+24ss
+
+1 v \Gamma
+
+1 \Gamma v2
+
+2v2 ln
+
+1 + v 1 \Gamma v ! `ln
+
+E M + ln
+
+1
+
+e + A(v)' : (5.10)
+
+As expected according to the Braaten-Pisarski method, the final result indeed is independent of the separation scale q?. The function A(v) = Asoft(v) + Ahard(v) increases monotonically from A(0) = 1:288 to A(0:88) = 1:478 and decreases then monotonically to A(1) = 1:328. In fig.5.4 the result (5.10) is compared with the ones by Bjorken (1982) (dotted line) and Thoma and Gyulassy (1991) (dashed line), carried over to the energy loss of a muon. In contrast to the complete result (5.10) the estimates of Bjorken and Thoma and Gyulassy, respectively, depend logarithmically on M=T , for which M=T = 10 has been chosen in fig.5.4.
+
+The energy loss (5.10) is proportional to e4 instead of e2, as it is the case for the damping rate due to the different infrared behavior. The factor of e2 in the effective photon mass entering the denominator of the effective propagator shows up under the logarithm in the case of the energy loss, whereas it reduces the order in the coupling constant from e4 to e2 in the case of the damping rate.
+
+In the limit of small and large velocities (v ! 0 and v ! 1, respectively) the formula (5.10) is not valid anymore, since the approximations v AE T =E and E o/ M 2=T , respectively, assumed in deriving (5.10) do not hold anymore. After all it is possible to derive analytic expressions analogously to (5.10) in both these cases. For v ! 0 dE
+
+dx !v!0 = \Gamma
+
+e4T 3 12ssM v `ln
+
+1
+
+e + 1:288' ; (5.11)
+
+45
+
+0.0 0.2 0.4 0.6 0.8 1.00 1 2 3 4 5
+
+(dE/dx)/(e 4 T 2 /24
+
+p)
+
+v Figure 5.4: Energy loss of a muon in dimensionless units as function of the muon velocity according to (5.10) (solid line), to Thoma and Gyulassy (1991) (dashed line), and to Bjorken (1982) (dotted line).
+
+has been found (Braaten and Thoma, 1991a), where the negative sign means that muons with subthermal energies gain energy from the plasma.
+
+For v ! 1 Braaten and Thoma (1991a) obtained
+
+dE
+
+dx !v!1 =
+
+e4T 2
+
+48ss `ln
+
+E e2T + 2:725' : (5.12)
+
+Finally the expression (5.10) describing the energy loss of a massive charged particle in a relativistic plasma shall be compared with the one in a non-relativistic plasma (Bethe-Bloch-formula), which reads (Jackson, 1975)
+
+dE
+
+dx =
+
+e2!2pl
+
+4ssv2 ln
+
+mev2E
+
+!plM + A! : (5.13)
+
+Here !pl denotes the plasma frequency (thermal photon mass) and me the electron mass, and A a constant of the order of one. The non-relativistic formula (5.13) shows a minimum as a function of the velocity, whereas the relativistic one, (5.10), increases monotonically with v.
+
+5.5 Energy loss of partons The energy loss of a heavy quark Q with mass M AE T and momentum p AE T , e.g. of a charm or bottom quark, in a QGP can be treated analogously to the energy loss
+
+46
+
+Figure 5.5: Scattering of a heavy quark (bold line) off thermal quarks and gluons to lowest order.
+
+of a muon (Braaten and Thoma, 1991b). The processes responsible for the collisional energy loss are scattering processes of the heavy quark off the thermal quarks q and gluons g, displayed in fig.5.5. In contrast to the QED case, Compton scattering cannot be neglected, since these contributions (s- and u-channel) do not cancel anymore in the limit T =M ! 0 due to color factors. In addition, there is a new diagram describing the elastic scattering of the quarks off a gluon (t-channel).
+
+Analytic results can be found, as in the case of the muon, for the energy regimes E o/ M 2=T and E AE M 2=T , for which the maximum momentum transfer has a simple form, allowing for an analytic integration in the hard part.
+
+First we will consider the limit E o/ M 2=T . The soft contribution (q ! q?) is obtained from the one of the muon (5.7) by replacing e by g, the thermal photon mass
+
+mfl = eT =3 by the thermal gluon mass mg = (q1 + Nf =6=p3) gT , and multiplying with a color factor CF = 4=3. These modifications follow immediately comparing the quark self energy diagram, responsible for the soft part (fig.5.6), with the one of the muon self energy (fig.4.3) using the standard Feynman rules for QED and QCD.
+
+The hard part (q ? q?) due to Qq-scattering in fig.5.5 follows from the hard part of the muon energy loss by replacing e by g, multiplying with a color factor of 2/3, and summing over the possible Nf flavor states of the incoming thermal quark. The hard contribution coming from Qg-scattering has to be calculated from the corresponding diagrams in fig.5.5. Thereby we may set q? equal to zero in the Compton contributions, since the s- and u-channels do not lead to infrared singularities. The explicit expressions for the hard part, caused by the diagrams of fig.5.5, are presented in the literature (Braaten and Thoma, 1991b).
+
+Combining the soft contribution with the hard one, q? cancels again, as expected, and the final result for the energy loss of a heavy quark for E o/ M 2=T is given by
+
+dE
+
+dx =
+
+8ss ff2s T 2
+
+3 `1 +
+
+Nf
+
+6 '
+
+1 v \Gamma
+
+1 \Gamma v2
+
+2v2 ln
+
+1 + v 1 \Gamma v ! ln 2
+
+Nf Nf +6 B(v) ET
+
+mgM ! ; (5.14)
+
+where B(v) is a smooth function of the quark velocity v that increases monotonically from B(0) = 0:604 to B(0:88) = 0:731 and decreases then monotonically to B(1) = 0:629.
+
+The energy loss in the limit E AE M 2=T can also be carried over partly from the one of a muon for v ! 1, (5.12). Solely the Qg-contribution has to be calculated explicitly, where now Compton scattering can be neglected. In this way the energy
+
+47
+
+Figure 5.6: Self energy contribution to the soft part of the energy loss of a heavy quark (bold line).
+
+loss of a heavy quark with E AE M 2=T has been derived (Braaten and Thoma, 1991b),
+
+dE
+
+dx =
+
+8ss ff2s T 2
+
+3 `1 +
+
+Nf
+
+6 ' ln 2
+
+Nf 2(Nf +6) 0:920 pET
+
+mg ! : (5.15)
+
+Demanding a continuous transition from (5.14) to (5.15), a crossing energy Ecross = 1:80M 2=T , if Nf = 2, follows. Applying these results to realistic situations, we choose a typical temperature of T = 250 MeV and extrapolate the results (5.14) and (5.15), derived in the weak coupling limit, g o/ 1, to ffs = 0:2. The energy loss of a charm quark (Mc = 1:5 GeV) and a bottom quark (Mb = 5 GeV) are plotted in fig.5.7 and fig.5.8, respectively, as a function of the quark momentum. The crossing energy in the case of a charm quark is Ecross = 16 GeV leading to the kink in fig.5.7. Since this kink is not very pronounced, the use of (5.14) below Ecross and of (5.15) above it appears to be a good approximation. In the case of a bottom quark, for which Ecross = 180 GeV, only the expression for E o/ M 2=T is shown. Comparing the complete results (5.14) and (5.15) with the estimates of Bjorken (1982) (dotted line) and Thoma and Gyulassy (1991) (dashed line), one observes that the first one is a better approximation for large momenta, while the latter one for small momenta. In the case of a charm quark with a typical energy of E = 20 GeV the energy loss is given by about dE=dx ' 0:3 GeV/fm, whereas the energy loss of a bottom quark is just about half of it. This suggests that in particular jets with a bottom quark as leading particle are almost unquenched in a QGP.
+
+Finally, we will point out a peculiarity of the curves in fig.5.7 and fig.5.8. For small momenta, p ! 1:2 GeV for the charm quark and p ! 4:1 GeV for the bottom quark, the energy loss becomes negative. This cannot be explained as an energy gain at subthermal energies, which are considerably smaller. The reason for this unphysical result relies on the daring extrapolation from g o/ 1 to g = 1:6. As a matter of fact, the formula (5.14) fails if g ? 1:08 and E ! 0:93gM hold at the same time, since the logarithm in (5.14) then becomes negative. This behavior is not immediately obvious, as the energy loss is derived from the magnitude of the square of a matrix element. (This statement also applies to the soft part, since it can be derived from the matrix element with an effective propagator as well.) However, using the Braaten-Yuan prescription, positive terms have been omitted, namely terms which do not diverge for q? ! 1 in the soft part and for q? ! 0 in the hard part. These terms can be neglected if g o/ 1 and, actually, have to be neglected in order to derive a consistent final result, as discussed in sections 5.2 and 5.3. Here a limitation of the
+
+48
+
+0 10 20 30 40 50-0.1 0.0 0.1 0.2 0.3 0.4 0.5
+
+T=0.25 GeV, as=0.2, Mc=1.5 GeV
+
+dE/dx [GeV/fm]
+
+p [GeV] Figure 5.7: Energy loss of a charm quark as function of the quark momentum according to (5.14) and (5.15) (solid line), Thoma and Gyulassy (1991) (dashed line), and Bjorken (1982) (dotted line).
+
+0 10 20 30 40 50-0.1 0.0 0.1 0.2 0.3 0.4 0.5
+
+T=0.25 GeV, as=0.2, Mb=5 GeV
+
+dE/dx [GeV/fm]
+
+p [GeV] Figure 5.8: Energy loss of a bottom quark as function of the quark momentum according to (5.14) (solid line), Thoma and Gyulassy (1991) (dashed line), and Bjorken (1982) (dotted line).
+
+49
+
+application of the Braaten-Pisarski method to leading order in g becomes apparent. For large momenta, however, p AE T a reasonable behavior is found, which indicates a justification for the application of the Braaten-Pisarski method to realistic situations.
+
+Next we consider the energy loss of a light quark or gluon (Thoma, 1991b). Similarly to the energy loss of an electron in non-relativistic matter it is more complicated, because light partons may lose their entire energy in a single collision, causing large fluctuations in the energy loss. Moreover, new qq-scattering diagrams (u-channel), leading to infrared singularities for large momentum transfers, arise. Furthermore, the integrations over the matrix elements in the hard part cannot be performed analytically, since the assumption M AE T , used for deriving (5.9), does not hold anymore. On the other hand, momentum transfers of the order of the momentum of the incoming particle do not contribute to jet-quenching, since then the energy and the momentum of the incoming parton will be transferred to a thermal parton, taking over the role of the leading particle in the jet. Consequently, the energy stays within the jet and will not be dissipated into the QGP. In order to take this behavior into account, we introduce a maximum momentum transfer ~q, which is given by about
+
+~q = p=2; i.e., we neglect ultrahard momentum transfers for describing the physically interesting energy loss of a jet in the QGP. Then it can be shown (Thoma, 1991b) that this energy loss follows from the one of a heavy quark in the E AE M 2=T limit simply by replacing E in (5.15) by ~q. Of course, in this way the final result depends on an ambiguous parameter in contrast to the energy loss of a heavy quark. For values of ~q between 5 and 20 GeV, T = 250 MeV, and ffs = 0:2 the energy loss of a quark jet amounts to about 0.2 - 0.3 GeV/fm, agreeing well with the estimate of Bjorken (1982). The energy loss of a gluon jet is obtained from the one of a quark jet by multiplying with a color factor 9/4, as can be seen by comparing the scattering matrix elements (Bjorken, 1982).
+
+5.6 Radiative energy loss In the case of ultrarelativistic charged particles the radiation loss dominates over the collisional one. In the case of quark we then have to consider the bremsstrahlung diagrams in fig.5.9. A rigorous treatment, on the same level as for the collisional energy loss in the last section, of these contributions to the energy loss has not been succeeded so far. Gunion and Bertsch (1982) estimated the matrix elements, belonging to the diagrams in fig.5.9, by factorizing the process into an elastic scattering and a subsequent gluon emission. The energy loss per collision is not longer caused by the energy transfer in the elastic scattering but by the energy of the emitted gluon. Therefore the infrared divergence from the elastic scattering contribution is not reduced but is still quadratically within naive perturbation theory as in the case of the damping rate of a hard quark. For a rough estimate we cut off this divergence, as usual, by the Debye mass. Then the order in the coupling constant is reduced by one order in ffs, as it is also the case for the damping rate. Consequently, the radiative energy loss is not of order ff3s, as naively expected from fig.5.9, but proportional to
+
+50
+
+Figure 5.9: Gluon bremsstrahlung diagrams contributing to the radiative energy loss of a quark in the QGP.
+
+ff2s, i.e. of the same order as the collisional energy loss.
+
+On the other hand, in the case of the radiative energy loss another medium effect besides Debye screening plays an important role. The emission of photons or gluons from an ultrarelativistic charged particle in a dense medium is suppressed by the finite formation time: A photon or gluon cannot be emitted if there is not enough time for the photon or gluon to reach the mass shell before the next scattering of the charged particle takes place. This effect predicted by Landau and Pomeranshuk (Landau and Pomeranshuk, 1953; Feinberg, 1966) has been verified recently experimentally in the transition of ultrarelativistic ions through thick targets (Klein, 1994). Since this effect is caused by multiple scattering events, the radiative energy loss cannot be derived solely from the already complicated diagrams of fig.5.9. First rough estimates by Gyulassy and Pl"umer (1990) indicated that the radiative energy loss of an energetic parton in the QGP should be smaller than the collisional one. Later on more accurate investigations (Gyulassy et al., 1992; Gyulassy and Wang, 1994), however, led to a value for the radiative energy loss of a light quark of about 1 - 2 GeV/fm, suggesting the dominance of the radiative energy loss over the collisional one, despite of the presence of the Landau-Pomeranshuk effect. The radiative energy loss turned out to be proportional to the square of the Debye mass according to these investigations, which can be understood in the following way: A larger screening mass corresponds to a larger mean free path of the quarks in the QGP, leading to a suppression of the Landau-Pomeranshuk effect and thus to an enhancement of the gluon emission probability. Of course, if the mean free path becomes too large, the energy loss will decrease as bremsstrahlung processes become rare.
+
+In conclusion, the energy loss of a parton in a QGP is likely to be of the same order in a QGP and hadronic matter. Consequently, jet quenching presumably cannot be used as a signature for the phase of the fireball. A possible exception could be realized for a system close to the phase transition, where lattice calculations show a strong reduction of the Debye mass (Gao, 1990), leading perhaps to a small energy loss. Then variations of the jet quenching with the temperature of the fireball or the center of mass energy in the heavy ion collision could hint at a possible phase transition (Gyulassy et al., 1992). Nevertheless, jets should be taken into account as a valuable external probe for the fireball in heavy ion experiments.
+
+51
+
+Chapter 6 Transport rates and viscosity In the last chapter we have studied the effect of a relativistic plasma on an energetic charged particle. Now we will consider an important property of the plasma itself, namely its reaction to a deviation from the equilibrium momentum distribution. The momentum relaxation is of great interest, as it is closely related to thermalization times and the viscosity of the plasma.
+
+6.1 Motivation and definition The momentum relaxation follows from the collision term of the Boltzmann equation (Reif, 1965), which consists of a momentum integration over the differential cross section of the scattering process under consideration and a phase space factor containing the non-equilibrium distributions fi = f (r; pi; t). In the case of a two-body collision (1; 2 $ 3; 4) this phase space factor reads (see e.g. Cassing and Mosel, 1990)
+
+F = f1 f2 (1 \Sigma f3) (1 \Sigma f4) \Gamma (1 \Sigma f1) (1 \Sigma f2) f3 f4 ; (6.1) where the upper sign applies to bosons and the lower one to fermions, respectively. This phase space factor vanishes not only in the equilibrium case, i.e. fi = nB;F (pi), but also if p1 = p3 (or p1 = p4) holds. For in this case also p2 = p4 (or p2 = p3) are valid due to momentum conservation, leading to f3 = f1 and f4 = f2 (or f3 = f2 and f4 = f1). Consequently, colinear elastic scattering events with scattering angle ` = 0ffi in the center of mass system and anti-colinear with ` = 180ffi do not contribute to the momentum relaxation. (An illuminating interpretation is given by the fact that an anisotropic momentum distribution cannot be equilibrated by colinear or anti-colinear collisions.) Since, however, those scattering angles lead to infrared singularities in the cross sections (` = 0ffi corresponds to t = (P1 \Gamma P3)2 = 0 and ` = 180ffi to u = (P1\Gamma P4)2 = 0), the phase space factor F softens these infrared divergences. In the case of a non-relativistic plasma with Coulomb interaction the cross section oe can be replaced by a transport cross section oetrans = R doe (1 \Gamma cos `) (Lifshitz and Pitaevskii, 1981), where the transport factor 1\Gamma cos ` is generated by an expansion of the collision
+
+52
+
+term for small scattering angles (` = 0ffi), describing the suppression of large distant collisions. In this way the quadratic infrared singularity of the Rutherford cross section reduces to a logarithmic one (Coulomb logarithm) (Lifshitz and Pitaevskii, 1981). In order to cut off also the divergence due to anti-colinear collisions, we replace the factor 1 \Gamma cos ` by (sin `)2=2, which agree for small `.
+
+In the following we will assume that momentum relaxation in a relativistic plasma can also be described by replacing cross sections by transport cross sections (Danielewicz and Gyulassy, 1985). This implies a modification of the interaction rate \Gamma to a transport rate \Gamma trans = R d\Gamma (sin `)2=2.
+
+In the limit of small momentum transfers q = p\Gamma p0, coming back to the notations for the momentum variables used before (see fig.4.1), the transport factor can be written as 2q2 (1 \Gamma !2=q2)=s with s = (P + K)2 (Thoma, 1994a). The factor of q2, appearing here, reduces the quadratic divergence in the interaction rate using bare propagators to a logarithmic one. Thus the transport rate turns out to be finite, applying the Braaten-Pisarski method analogously to the energy loss. (Owing to the t-u-symmetry of the relevant matrix elements and of the transport factor, the divergence for large momentum transfers, i.e. anti-colinear scattering events, is removed automatically.) The explicit computation of the transport rate can be done again by means of the Braaten-Yuan prescription.
+
+The transport rate provides an estimate for the thermalization time of the QGP in relativistic heavy ion collisions, o/therm = 1=\Gamma trans, because the momentum relaxation describes the approach to a thermal momentum distribution. This definition of the thermalization time has the great advantage over the one by means of the interaction rate, o/therm = 1=\Gamma , in section 4.1 that the transport rate is finite even in the absence of a static magnetic screening. Of course, this estimate of the thermalization time is justified only for small deviations from the equilibrium. On the other hand, it does not depend on assumptions about the begin and end of the pre-equilibrium phase, as it is the case using computer simulations of relativistic heavy ion collisions (Geiger and M"uller, 1992; Wang and Gyulassy, 1991). Furthermore, the transport rate is closely related to the shear viscosity of the plasma, which describes the momentum transport in the plasma (Reif, 1965), as it will be discussed in section 6.3.
+
+6.2 Transport rates Here we want to compute transport rates of quarks and gluons with thermal energies, which are based on the parton scattering processes to lowest order perturbation theory, shown in fig.6.1 (Combridge, Kripfganz, and Ranft, 1977; Cutler and Sivers, 1978), where we will include screening effects again by applying an effective gluon propagator. (In the transport rates only the bare gluon propagator in the t- and u-channel diagrams leads to a logarithmic infrared singularity, while the bare quark propagator produces no divergence even for a vanishing quark mass.) According to the Braaten-Yuan prescription we decompose the transport rate into a soft (q ! q?) and a hard (q ? q?) part.
+
+53
+
+The soft part follows again from the quark or gluon self energy containing an effective gluon propagator. We only have to insert the transport factor (sin `)2=2 under the integral determining the self energy. The transport factor can be approximated by the small momentum transfer limit 2q2 (1 \Gamma !2=q2)=s because of q? o/ t. Inserting this factor under the integral in (4.13), extended to QCD, we obtain
+
+\Gamma softi;trans = Cig
+
+2T
+
+sss Z
+
+q? 0 dq q
+
+3 Z q
+
+\Gamma q
+
+d!
+
+! 1 \Gamma
+
+!2
+
+q2 ! "ae
+
+disL (!; q) + 1 \Gamma !2
+
+q2 ! ae
+
+disT (!; q)# ;
+
+(6.2) where Ci = CF = 4=3 holds for quarks and Ci = CA = 3 for gluons. The integration over q can be performed analytically, the one over ! has to be done numerically. For simplicity sake we consider first only gg-scattering in a pure gluon gas (Nf = 0). Then we find (Thoma, 1994a)
+
+\Gamma softg;trans(Nf = 0) = 24ssff
+
+2sT 3
+
+s "ln
+
+q?2 ffsT 2 ! \Gamma 2:811# : (6.3)
+
+If we are interested only in a logarithmic accuracy (Thoma, 1991a; Thoma, 1993a), we are able to present the final result immediately, since the hard contribution according to the Braaten-Yuan prescription has to assume the form
+
+\Gamma hardg;trans(Nf = 0) = 24ssff
+
+2s T 3
+
+s "ln
+
+T 2 q?2 ! + Ahard# ; (6.4)
+
+yielding within logarithmic accuracy
+
+\Gamma g;trans(Nf = 0) = 24ssff
+
+2sT 3
+
+s ln
+
+1 ffs : (6.5)
+
+However, it is desirable to know the coefficient of 1=ffs under the logarithm, as ffs is not really small compared to 1. For this purpose we have to compute the hard part, i.e. the constant Ahard, explicitly. Again we start from the definition of the interaction rate via the matrix element containing the processes displayed in fig.6.1. Then e.g. the gluon transport rate in a pure gluon gas is given by
+
+\Gamma g;trans(Nf = 0) = 12p Z d
+
+3p0
+
+(2ss)32p0 [1 + nB(p
+
+0)] Z d3k
+
+(2ss)32k nB(k)
+
+\Theta Z d
+
+3k0
+
+(2ss)32k0 [1+nB(k
+
+0)](2ss)4ffi4(P +K \Gamma P 0\Gamma K0)16hjM(gg ! gg)j2i (sin `)2
+
+2 ; (6.6)
+
+where the matrix elements contains only the scattering diagrams (d) of fig.6.1. However, the momentum integrations are much more involved now than in the case of the energy loss of a heavy quark, where we utilized M AE T for simplifying the integrals. An analytic estimation can be obtained, using the approximation \Gamma trans ' aeoetrans, where ae denotes the parton density of the QGP. In the case of a pure gluon gas
+
+54
+
+t
+
+st u q q
+
+P P'
+
+Q K K't (a)
+
+(b)
+
+q
+
+q
+
+q g (c)
+
+u s
+
+(d)
+
+g
+
+g
+
+t u s 4-point
+
+Figure 6.1: qg-scattering processes to lowest order.
+
+ae = 16 R d3k=(2ss)3 nB(k) holds. In order to match the soft part onto the hard one (q?-cancellation), the integrand of ae has to be multiplied by the Bose enhancement factor 1 + nB(k):
+
+\Gamma g;trans(Nf = 0) = Z d
+
+3k
+
+(2ss)3 16 nB (k) [1 + nB(k)] Z dt
+
+doe
+
+dt !gg
+
+2tu
+
+s2 : (6.7)
+
+Here the usual Mandelstam variables s = (P + K)2, t = (P \Gamma P 0)2 = \Gamma 2pp0 (1 \Gamma cos `), and u = \Gamma s \Gamma t have been introduced and the transport factor has been expressed by these variables (sin `)2=2 = 2tu=s2 (Thoma, 1994a).
+
+The formula (6.7) can be derived (Thoma, 1994a) setting nB(p0) = 0 in the exact expression (6.6), which is approximately justified because of hp0i ' 3T , choosing nB(k0) = nB(k), which holds approximately as long as the momentum transfer q =j
+
+k0 \Gamma kj is not too large, and adopting the definition of the differential cross section (Bjorken and Drell, 1964).
+
+The differential cross section for gg-scattering has been given by Combridge,
+
+55
+
+Kripfganz, and Ranft (1977):
+
+doe
+
+dt !gg =
+
+9g4 64sss2 `\Gamma
+
+us
+
+t2 \Gamma
+
+st u2 \Gamma
+
+tu
+
+s2 + 3' : (6.8)
+
+Combining (6.7) and (6.8) and using the limits \Gamma s+q?2 and \Gamma q?2 for the t-integration results in
+
+\Gamma hardg;trans(Nf = 0) = 24ssff
+
+2sT 3
+
+s "ln
+
+s q?2 ! \Gamma
+
+19 15 # ; (6.9)
+
+where we made use of s AE q?2. In the case of thermal gluons we replace s by its thermal average hsi = 2hpihki = 14:59T 2. After adding the soft contribution (6.3), we end up with the q? independent transport rate
+
+\Gamma g;trans(Nf = 0) ' 5:2 ff2s T ln 0:25ff
+
+s : (6.10)
+
+The computation of the gluon and quark transport rates in a QGP with Nf = 2 is a little bit more elaborate, leading to (Thoma, 1994a)
+
+\Gamma g;trans(Nf = 2) ' 6:6 ff2s T ln 0:19ff
+
+s ;
+
+\Gamma q;trans(Nf = 2) ' 2:5 ff2s T ln 0:21ff
+
+s : (6.11)
+
+These results for the transport rates of thermal partons, (6.10) and (6.11), have the unpleasant property of being negative if extrapolated to realistic values of the coupling constant (ffs = 0:2 - 0.5). For energetic particles, however, with s AE T 2 the transport rates remain positive (see (6.9)). This behavior, demonstrating the shortcoming of the logarithmic approximation, is caused by isolating the leading order contribution by means of the Braaten-Yuan prescription, analogously to the unphysical results for the energy loss of a heavy quark (section 5.5) for small momenta. It can be avoided only by going beyond the leading order ff2s, in which case we have to consider effective vertices in addition.
+
+Similar results for the transport rates in the QGP have been found by Heiselberg (1994a), becoming unphysical if ffs ? 0:3. Heiselberg derived the transport rates numerically from a variational solution of the Boltzmann equation taking into account an effective gluon propagator in the matrix element of the collision term. However, as he did not use the Braaten-Yuan prescription but integrated over the entire momentum range of the exchanged gluon, it is questionable if his final result is gauge independent and free of higher order contributions. In any case, his elaborate consideration of the transport theory by means of a variational method justifies the introduction of a transport factor, as his results shows the same dependence on the coupling constant and the temperature and the same infrared behavior (Heiselberg and Pethick, 1993) as in (6.10) and (6.11), with which it also agrees quantitatively quite well.
+
+56
+
+v=u v=0 Figure 6.2: Velocity gradient in a plasma leading to the shear viscosity.
+
+In conclusion, the Braaten-Yuan prescription allows for a calculation beyond the leading logarithm, if one is capable to evaluate the hard part. Whereas we succeeded to derive the hard contribution in the case of the energy loss of a heavy quark exactly, we had to adopt some approximations for the hard part of the transport rate. Anyway, the final result, coinciding with the one by Heiselberg (1994a), indicates that the leading order calculations for the transport rates are inconsistent, if extrapolated to realistic values of the strong coupling constant. Therefore, one has to be careful using results, such as thermalization times, obtained only within logarithmic accuracy.
+
+6.3 Viscosity Let us consider a plasma that deviates from the equilibrium state by a velocity gradient as in fig.6.2. The shear viscosity coefficient j indicates how fast the plasma equilibrates due to momentum transport between the different velocity domains. This behavior can be investigated by means of the transport theory. From elementary kinetic considerations or using the relaxation time approximation for the Boltzmann equation
+
+ji = 13 X
+
+i
+
+aei hpii *i (6.12)
+
+has been found in the non-relativistic case (Reif, 1965), where aei denotes the particle density, hpii the mean momentum, and *i the mean free path of the particles of kind i. Solving the Boltzmann equation for the deviation from the equilibrium, described above, by a variational calculations or expansion in moments (Reif, 1965), leads to a modification of the formula (6.12) by introducing the transport factor (sin `)2 in the cross section entering the mean free path and by replacing the factor of 1/3 by 0.327. This formula gives a result, for instance, in the case of a gas of hard spheres which deviates only by 1.6% from the exact one, whereas (6.12) underestimates the exact result by a factor of 1.5 (Reif, 1965).
+
+In a relativistic plasma the factor of 1/3 in (6.12) has to be replaced by 4/15 (de Groot, van Leeuwen, and van Weert, 1980; Danielewicz and Gyulassy, 1985). The mean free path *i follows from the transport rate *i = 1=(2\Gamma i;trans), where the factor
+
+57
+
+0.01 0.1 1 1
+
+10 100 1000 10000
+
+as h/T3
+
+Navier-Stokes Regime Figure 6.3: Shear viscosity coefficient of the QGP as function of the strong coupling constant according to (6.13) (solid line) and Baym et al. (1990) (dashed line). The Navier-Stokes equation is valid below the dotted line.
+
+of 1/2 is caused by the choice of the transport factor (sin `)2=2 instead of (sin `)2 in \Gamma trans.
+
+Inserting the quark and gluon transport rates (6.11) in *i in (6.12), we find for the shear viscosity coefficient of the QGP (Thoma, 1994a)
+
+j = jg + jq ' T
+
+3
+
+ff2s "
+
+0:11 ln(0:19=ffs) +
+
+0:37 ln(0:21=ffs) # : (6.13)
+
+The contribution from the quarks to the shear viscosity is about three times that of the gluons, since gluons interact stronger, having therefore a shorter mean free path. In fig.6.3 j=T 3 is depicted as a function of the coupling constant (solid line). The dashed line corresponds to a calculation by Baym et al. (1990), which is based on a variational solution of the Boltzmann equation. However, in this calculation the viscosity has been determined only up to logarithmic accuracy; i.e. the coefficient of 1=ffs under the logarithm has been set equal to 1, resulting in j = 1:16T 3=[ff2s ln(1=ffs)]. Consequently, both the calculations in fig.6.3 deviate significantly from each other for ffs ? 0:1, where the complete result (6.13) breaks down.
+
+Similar results within logarithmic accuracy of the same form as the one of Baym et al. (1990) have been reported in the literature with coefficients 0.28 (Hosoya and Kajantie, 1985), of 0.57 (Danielewicz and Gyulassy, 1985), and 1.02 (Thoma, 1991a) instead of 1.16. The first two results have been obtained using the Debye mass as an infrared regulator, whereas the latter result relies on the Braaten-Pisarski method. The dependence on the coupling constant, j , 1=ff2s , up to a logarithmic factor can
+
+58
+
+be traced back to the use of the transport rate (see also Mr'owczy'nski (1990)). Using instead the interaction rate for the mean free path, j , 1=ffs, is found. In other words, the simple formula (6.12) without transport factor leads to a result that deviates by a order of ffs from the one improved by the transport factor.
+
+An alternative access to the viscosity (Hosoya, Sakagami, and Takao, 1984; Furusawa et al., 1984; Horsely and Schoenmaker, 1987; Ilyin et al., 1989) besides the Boltzmann equation is provided by the Kubo formulas, in which the transport coefficients can be derived from equilibrium correlation functions of the energy-momentum tensor in accordance with the fluctuation-dissipation theorem (Zubarev, 1974). This method first led to a result with a wrong dependence on the coupling constant, j * 2:6T 3=ffs (Ilyin, Panferov, and Sinukov, 1989), that later on has been corrected (Ilyin et al, 1992). This original discrepancy between both the approaches was the reason for the investigation of the viscosity within the Braaten-Pisarski method (Thoma, 1991a), which allows for a consistent treatment of the infrared behavior which is responsible for the dependence on the coupling constant.
+
+In fig.6.3 the limit of the validity of the Navier-Stokes equation, providing a hydrodynamic description of the expansion phase of the QGP in ultrarelativistic heavy ion collisions, is shown in addition. As opposed to the Euler equation, the Navier-Stokes equations considers dissipative effects such as the viscosity. According to Danielewicz and Gyulassy (1985) the Navier-Stokes equations, not to mention the Euler equation, can be used only if the viscosity is smaller than j ! fflo/ =4, where ffl is the energy density of the QGP and o/ the proper time. Since o/ = (o/0=T 30 )T 3 holds, neglecting dissipative effects (Bjorken, 1983), we get the upper limit, shown in fig.6.3, for optimistically chosen values of o/0 = 1 fm/c and T0 = 1 GeV. The perturbatively derived results are above this limit even in the case of logarithmic accuracy. This means that hydrodynamical calculations starting from an ideal fluid without dissipation (Euler equation) are questionable. (The consideration of dissipation (Navier-Stokes equation) in the case ultrarelativistic heavy ion collisions seems to be difficult (Strottman, 1994).)
+
+Also simple models taking account of non-perturbative effects just above the critical temperature, T = 1 - 2 Tc, led to an estimate for the viscosity, which shows a non-negligible entropy production, and which should be considered in hydrodynamic models (Cleymans et al., 1994). Lattice calculations of the viscosity, based on the Kubo formulas, are affected by large uncertainties so far (Karsch and Wyld, 1987).
+
+59
+
+Chapter 7 Damping and production of hard photons
+
+Electromagnetic probes (photons, dileptons) have been proposed as promising signatures of the QGP formation (Ruuskanen, 1992). Photons and dileptons produced in relativistic heavy ion collisions leave the fireball without further interactions, thus providing a direct probe for the strongly interacting system. As an example we will consider the thermal production of hard photons with energies E AE T and momentum p from a QGP. To lowest order perturbation theory it is caused by the Compton scattering like process of fig.7.1(a) and the quark pair annihilation of fig.7.1(b). Neglecting the quark masses the production rate E dR=d3p suffers from a logarithmic infrared divergence. However, this singularity is screened by medium effects, leading to an effective temperature dependent quark mass of the order of gT (see (2.22)), which cuts off the divergence much more effectively than the bare mass. This medium effect can be taken into account consistently using the effective quark propagator (2.29).
+
+The damping rate fl(p) of a hard photon is defined as the imaginary part of the dispersion relation of a real, i.e. transverse, photon, fl(p) = \Gamma Im!(p), which follows from the transverse part of the photon self energy, containing a quark loop. To lowest order perturbation theory the mechanism of photon damping is given by the inverse inverse processes of fig.7.1, i.e. Compton scattering and pair creation with a photon in the initial state. These processes are related to the definition of the damping rate via the photon self energy, shown in fig.7.2, by cutting rules, similarly as in the case of the damping rates of hard leptons and partons, discussed in section 4.1. (Cutting the self energy in fig.7.2 leads to diagrams describing the production as well as the damping of a photon in the QGP (Weldon, 1983).)
+
+Photon production and damping are related to each other by the principle of detailed balance (Weldon, 1983): E dR=d3p = [4=(2ss)3] exp(\Gamma E=T ) fl(p), where the factor of 4=(2ss)3 is a matter of definition. As a matter of fact, the calculation of the damping rate is easier than the one of the production rate, as discussed below. Hence we will present only the calculation of the damping rate here, following Thoma (1994b).
+
+60
+
+(a) (b)
+
+s
+
+t u
+
+u
+
+Figure 7.1: Photon production in the QGP to lowest order. 7.1 Photon damping rate Since the photon damping rate to lowest order naive perturbation theory is logarithmically infrared divergent for a vanishing quark mass, a finite result complete to leading order in the coupling constants can be obtained again by means of the Braaten-Yuan prescription. Then the soft contribution follows from using the effective quark propagator in the photon self energy and the hard one from the matrix elements of the inverse processes of fig.7.1. Using the Braaten-Pisarski method for the soft part, the photon self energy of fig.7.3 will be considered, where the blob denotes the effective quark propagator. In the case of hard photons one effective quark propagator is sufficient. Also no effective quark-photon vertex is needed. The imaginary part of the photon self energy according to fig.7.3 comes from the imaginary part of the effective quark propagator, corresponding to the exchange of a collective quark mode.
+
+The dispersion relation of a hard real photon results from
+
+p20 \Gamma p2 \Gamma \Pi T (p0; p) = 0 ; (7.1) where the transverse part of the photon self energy is given in (2.15). From (7.1) we get for the damping rate of a hard photon in the case of no overdamping, fl o/ p,
+
+fl = \Gamma 12p Im \Pi T (p0 = p; p) : (7.2) The soft contribution (k2 \Gamma k20 ! k?2), where we have assumed a covariant separation scale in the exchanged quark momentum K, follows from using the photon self energy shown in fig.7.3 in (7.2), given by
+
+\Pi _* = 103 i e2 Z d
+
+4K
+
+(2ss)4 tr [fl_ S(Q)fl* S
+
+?(K)]; (7.3)
+
+61
+
+Figure 7.2: Lowest order contribution of the photon self energy in naive perturbation theory to the photon production and damping in the QGP.
+
+where the factor of 10/3 comes from adding up both the diagrams in fig.7.3, from summing over the colors of the internal quarks, and considering the electric charges of up and down quarks, assumed to be thermalized in the QGP. The quark propagators S(Q = P \Gamma K) and S?(K) denote the bare and the effective one, respectively, for which we will adopt the helicity representation of (2.29).
+
+Evaluating the trace over the fl matrices, we get for the transverse part of the polarization tensor
+
+\Pi T = 103 i e2 Z d
+
+4K
+
+(2ss)4 "
+
+1 D+(K)
+
+1 \Gamma V d+(Q) +
+
+1 + V d\Gamma (Q) ! +
+
+1 D\Gamma (K)
+
+1 + V d+(Q) +
+
+1 \Gamma V d\Gamma (Q) !# ;
+
+(7.4) where the functions D\Sigma (K) are given in (2.30), d\Sigma (Q) = \Gamma q0 \Sigma q, and V = (p \Delta k)(p \Delta q)=(p2qk).
+
+Using the imaginary time formalism, the integration over k0 in (7.4) is replaced by a discrete sum, which can be evaluated most easily by adopting the spectral representation for the fermion propagators (Braaten, Pisarski, and Yuan, 1990; Kapusta, Lichard, and Seibert, 1991), analogously to the one of the photon propagator, (4.6),
+
+1 D\Sigma (K) = \Gamma Z
+
+fi 0 do/ e
+
+k0o/ Z 1
+
+\Gamma 1 d! ae\Sigma (!; k) [1 \Gamma nF (!)] e
+
+\Gamma !o/ ;
+
+1 d\Sigma (Q) = \Gamma Z
+
+fi 0 do/ e
+
+q0o/ Z 1
+
+\Gamma 1 d!
+
+0 r\Sigma (!0; q) [1 \Gamma nF (!0)] e\Gamma !0o/0 ; (7.5)
+
+where we only need the discontinuous part of the spectral function, aedis(!; k) = fi\Sigma (!; k)`(k2 \Gamma !2) with fi\Sigma = \Gamma Im(1=D\Sigma )=ss, as the damping is due to the imaginary part of the effective quark propagator, and r\Sigma (!0; q) = ffi(!0 \Sigma q). Using furthermore p AE T and 0 ^ k2 \Gamma !2 ^ k?2 o/ T 2, we find
+
+Im \Pi T (p0; p) = \Gamma 5e
+
+2
+
+12ss Zk2\Gamma !2^k?2 dk Z d! [(k \Gamma !) fi+(!; k) + (k + !) fi\Gamma (!; k)]; (7.6)
+
+The integral in (7.6) also appears in the soft part of the photon production rate
+
+62
+
+Figure 7.3: Photon self energy with an effective quark propagator determining the soft part of the photon damping.
+
+(Kapusta, Lichard, and Seibert, 1991). It can be evaluated numerically, leading to
+
+flsoft = 5e
+
+2
+
+24ssp m
+
+2q ln k?2
+
+2m2q
+
+= 5ss9 ffffsT
+
+2
+
+p ln
+
+0:3183k?2
+
+ffsT 2 ; (7.7)
+
+where the effective quark mass is given by m2q = g2T 2=6.
+
+The hard contribution, for which the momentum K of the exchanged quark is larger than k?, can be calculated most conveniently from the matrix elements according to the inverse processes of fig.7.1, which are Compton scattering
+
+flComphard = 14p Z d
+
+3k
+
+(2ss)32k nF (k) Z
+
+d3p0 (2ss)32p0 [1 + nB(p
+
+0)] Z d3k0
+
+(2ss)32k0 [1 \Gamma nF (k
+
+0)]
+
+(2ss)4 ffi4(P + K \Gamma P 0 \Gamma K0) 12 hjMj2icomp (7.8) and pair creation
+
+flpairhard = 14p Z d
+
+3k
+
+(2ss)32k nB(k) Z
+
+d3p0 (2ss)32p0 [1 \Gamma nF (p
+
+0)] Z d3k
+
+0
+
+(2ss)32k0 [1 \Gamma nF (k
+
+0)]
+
+(2ss)4 ffi4(P + K \Gamma P 0 \Gamma K0) 16 hjMj2ipair : (7.9) Here momenta with a prime belong to outgoing particles. The factors in front of the amplitudes come from summing over the possible states of the incoming thermal parton. The amplitudes, averaged over initial states and summed over final ones, using Mandelstam variables, s = (P + K)2, t = (P \Gamma P 0)2, u = \Gamma s \Gamma t, are given by
+
+hjMj2iComp = \Gamma 4027 e2 g2 `us + su ' ;
+
+hjMj2ipair = 59 e2 g2 `ut + tu ' ; (7.10) where the amplitude of each process is the sum of the one involving an up quark and a down quark. (These contributions have to be added incoherently, as the electric charges of these quarks are different.) The dependence on the Mandelstam variables can be taken over from the corresponding QED processes (Halzen and Martin, 1984),
+
+63
+
+modified by color factors from averaging and summing over the initial and final color states, respectively.
+
+In order to evaluate the integrations over the final states in (7.8) and (7.9), we assume p0 AE T and k0 AE T , which is justified since p ? p0 + k0 AE T and the phase space for p0 !,T or k0 !,T is unfavorable (Kapusta, Lichard, and Seibert, 1991). Thus we may assume 1+nB (p0) ' 1\Gamma nF (p0) ' 1\Gamma nF (k0) ' 1 corresponding to the Boltzmann approximation for the distribution functions, e.g. 1 + nB(p0) = exp(p0=T ) nB(p0) ' 1, also used by Kapusta, Lichard, and Seibert (1991) in the case of photon production. This approximation simplifies the expressions (7.8) and (7.9) considerably, because we can now evaluate the integrals over p0 and k0 transforming to the center of mass system, using the Lorentz invariant phase space factor (Halzen and Martin, 1984)
+
+dL = (2ss)4 ffi4(P + K \Gamma P 0 \Gamma K0) d
+
+3p0
+
+(2ss)32p0
+
+d3k0 (2ss)32k0 =
+
+dt 8sss : (7.11)
+
+In the calculation of the photon production rate one has to integrate over the initial momenta. These integrations are rather involved (Kapusta, Lichard, and Seibert, 1991; Staadt, Greiner, and Rafelski, 1986) due to the distribution functions of the incoming particles, even assuming the Boltzmann approximation. However, in the case of photon damping, where one integrates over the final momenta (see (7.8) and (7.9)), the distribution functions of the outgoing particles vanish within the Boltzmann approximation. (There is no Pauli blocking or Bose enhancement for classical particles described by Boltzmann distributions.) Hence, these integrations can be performed easily using (7.11).
+
+Let us first consider Compton scattering:Z
+
+dL hjMj2iComp = 527ss e2 g2 `ln sk?2 + 12 ' ; (7.12) where k?2 o/ s cuts off the logarithmic infrared divergence of the u-channel. (In order to match the soft part onto the hard part consistently, we have chosen a covariant separation scale in both the contributions, which facilitates the calculation of the hard part.) Using s = 2pk(1 \Gamma ^p \Delta ^k) we obtain, after integrating over d3k,
+
+flComphard = 5ss27 ffffsT
+
+2
+
+p "ln
+
+8pT
+
+k?2 +
+
+1 2 \Gamma fl +
+
+i0(2)
+
+i(2) # ; (7.13)
+
+where fl = 0:57722 is Euler's constant and i(z) is Riemann's zeta function with i0(2)=i(2) = \Gamma 0:56996 (Braaten and Thoma, 1991a).
+
+The pair creation contribution gives analogously
+
+flpairhard = 10ss27 ffffsT
+
+2
+
+p "ln
+
+4pT
+
+k?2 \Gamma 1 \Gamma fl +
+
+i0(2)
+
+i(2) # : (7.14)
+
+Adding up the (7.13) and (7.14), we get the total hard contribution
+
+flhard = 5ss9 ffffsT
+
+2
+
+p ln
+
+0:9706pT
+
+k?2 : (7.15)
+
+64
+
+Adding up the soft contribution (7.7) and the hard one (7.15), the separation scale k? cancels, as expected, yielding the final result (Thoma, 1994b)
+
+fl = 5ss9 ffffsT
+
+2
+
+p ln
+
+0:2317 p
+
+ffsT : (7.16)
+
+Again the extrapolation to realistic values of ffs fails if the photon momentum becomes too small, p ! 4:4ffsT , as a consequence of isolating the leading order term by the Braaten-Yuan prescription.
+
+The mean free path, * = 1=fl, of a 1 GeV photon in a QGP at T = 200 MeV, extrapolating the result (7.16), obtained in the weak coupling limit g o/ 1, to a realistic ffs = 0:3, is * = 480 fm. This value is much larger than the dimensions of a fireball in ultrarelativistic heavy ion collisions, confirming that photons may be used as a direct probe of the fireball (Shuryak, 1978). (Of course, higher order processes such as bremsstrahlung may contribute to the rate similarly for realistic values of the strong coupling constant.)
+
+7.2 Photon production rate As mentioned above, the production rate of a hard photon in the QGP is related to the damping rate by the principle of detailed balance. In this way we obtain from (7.16)
+
+E dRd3p = 518ss2 ff ffs T 2 e\Gamma E=T ln 0:2317Eff
+
+sT ; (7.17)
+
+to lowest order in the coupling constants, denoting the photon energy by E instead of p now. The same result has been derived by Kapusta, Lichard, and Seibert (1991) and by Baier et al. (1992) directly. Their calculation, however, is somewhat more tedious, since they had to integrate over the Boltzmann distributions of the initial states, where they could not make use of (7.11). Kapusta, Lichard, and Seibert (1991) also justified the Boltzmann approximation by using the exact distributions, integrating numerically.
+
+Kapusta, Lichard, and Seibert (1991) also estimated the thermal photon production rate from hadronic matter, concluding that the QGP shines as brightly as hadronic matter at the same temperature. Recent investigations, including additional mesons in the hadron gas (Xiong, Shuryak, and Brown, 1992; Haglin, 1994), indicate that the hadronic systems emits at least twice as many photons as the QGP at the same temperature.
+
+These rates can be used in hydrodynamical models of the evolution of the fireball, assuming a QGP as well as a hadronic phase, for deriving photon spectra, measurable in heavy ion experiments. In this way a good agreement with the data from SPS has been found already (Arbex et al., 1994).
+
+However, these estimates have not yet included pre-equilibrium effects. Although thermalization, i.e. isotropic and exponential parton distribution functions, seems to
+
+65
+
+be achieved rapidly, already after about 0.2 - 0.3 fm/c, the chemical equilibration takes place much later, if at all (Bir'o et al., 1993; Geiger, 1993). On one side, an early thermalization corresponds to an high initial temperature (600 MeV at RHIC, 800 at LHC (Bir'o et al., 1993)), increasing the photon rate, on the other side, an incomplete chemical equilibration, in particular for the quark component, leads to a suppression of the photon rate. Phenomenological investigations of the influence of these pre-equilibrium effects show that the emission of high-energy photons are dominated by the pre-equilibrium phase (K"ampfer and Pavlenko, 1993; Strickland, 1994). Similar results hold for dileptons (K"ampfer and Pavlenko, 1992; Kawrakow and Ranft, 1992). A non-equilibrium resummation taking into account medium effects analogously to the Braaten-Pisarski method, allowing for a consistent calculation of the pre-equilibrium photon production, has not been developed so far.
+
+Furthermore, effects of a finite quark chemical potential should be considered for AGS-, SPS-, and maybe also RHIC-energies, as the nuclear transparency is expected to be incomplete for these energies. For example, the RQMD code (Keitz et al., 1991) indicates that the quark chemical potential even in a QGP formed at RHIC might be of the order _ = 1 - 2T close to the mid-rapidity region (Dumitru et al., 1992). Since lattice calculations do not allow for considering a finite chemical potential up to now, the only way of doing this is given by perturbative methods.
+
+The Braaten-Pisarski method can be extended to finite chemical potential in a straightforward way (Vija and Thoma, 1994). The only modification of the effective Green's functions is due to the effective masses, which now depends besides the temperature also on the chemical potential (Braaten and Pisarski, 1992a). The effective gluon mass is given by (Toimela, 1985; Toimela, 1986)
+
+m2g = g
+
+2T 2
+
+3 241 +
+
+1 6 0@Nf +
+
+3 ss2 Xf
+
+_2f T 2 1A35 ; (7.18)
+
+where _f is the quark chemical potential of quarks with flavor f . (In the following we will assume _ j _u = _d and _s = _c = _b = _t = 0.)
+
+The effective quark mass reads (Kajantie and Ruuskanen, 1983)
+
+m2q = g
+
+2T 2
+
+6 1 +
+
+1 ss2
+
+_2 T 2 ! : (7.19)
+
+In addition, the Fermi distributions, for example used in the hard parts, determined by integrations over matrix elements, also contain now the chemical potential: nF (Ep \Sigma _) = 1=[exp((Ep \Sigma _)=T ) + 1], where the minus sign indicates quarks and the plus sign anti-quarks.
+
+In this way the hard photon production rate has also been derived for a QGP with a finite quark chemical potential _ (Traxler, Vija, and Thoma, 1994). The soft part of the photon production (or damping) rate at finite quark chemical potential follows immediately from the _ = 0 case by substituting for mq in (7.7) the expression (7.19). In order to match the hard part onto the soft one (k?-cancellation), we have to give up
+
+66
+
+the Boltzmann approximation in the hard part, as it produces a _-independent prefactor in front of the logarithm, as e.g. in (7.15). Using exact distribution functions for all particles, e.g. in (7.8) and (7.9), the integrations in the hard part have to be done numerically. The final result can be fitted by (Traxler, Vija, and Thoma, 1994)
+
+E dRd3p = 518ss2 ff ffs T 2 1 + _
+
+2
+
+ss2T 2 ! e
+
+\Gamma E=T ln 0:2317E
+
+ffsT ; (7.20)
+
+which is independent of the separation scale k?, as expected. Surprisingly also the chemical potential drops out under the logarithm within an error of about 3%. This cancellation is due to adding the soft and the hard part, as the soft part contains _ under the logarithm according to (7.7). So the chemical potential shows up only in front of the logarithm, coming from the pre-factor m2q in the soft part, (7.7).
+
+If we put into (7.20) typical numbers for the quark chemical potential expected at RHIC, _ = 1 - 2T , the modification due to the chemical potential is negligible (fig.7.4), as the photon production rate is dominated by the exponential decrease with the temperature and the effect of the chemical potential is suppressed compared to the temperature by a factor of 1=ss2 according to (7.20). However, if we regard the energy density, ffl = ffl(T; _), instead of the temperature as given, since it can be derived more directly from the center of mass energy ps of the heavy ion collision, ffl , ln ps (Satz, 1992), than the temperature (Dumitru et al., 1993a), a significant reduction of the photon production rate results (fig.7.5). This suppression is caused by the fact that an increase of the quark chemical potential reduces the temperature for a given energy density, as can be seen for example by adopting a MIT-bag model equation of state (Dumitru, 1993b),
+
+ffl = 37ss
+
+2
+
+30 \Gamma
+
+11ssffs
+
+3 ! T
+
+4 + 3 `1 \Gamma 2ffs
+
+ss ' T
+
+2 _2 + 3
+
+2ss2 `1 \Gamma
+
+2ffs
+
+ss ' _
+
+4 + B (7.21)
+
+with a bag constant B = (200 MeV)4. In conclusion, the temperature is the dominating factor compared with the chemical potential.
+
+The production rate of soft photons has also been investigated by means of the Braaten-Pisarski method (Baier, Peign'e, and Schiff, 1994). Here effective vertices as well as propagators have to be used. However, in this case an infrared divergence, arising from a mass singularity in the effective photon vertex, has been encountered. This problem has not been solved so far.
+
+Also the production of soft dileptons has been calculated, using the effective perturbation theory (Braaten, Pisarski, and Yuan, 1990; Wong, 1992). The calculation is similar to the one of the soft photon production, but there is no infrared singularity, as the virtual photons decaying into dileptons are not on mass shell. An interesting structure of the soft dilepton spectrum has been found that originates from the dispersion relations of the collective quark modes. Unfortunately, this structure cannot be used presumably for detecting the QGP, since it is covered by a large background.
+
+67
+
+1.0 1.5 2.0 2.5 3.0 10-9
+
+10-8 10-7 10-6 10-5
+
+u = 0.4 GeVu = 0.3 GeV u = 0.2 GeV u=0
+
+2E dR/d 3 k [GeV -2 fm -4 ]
+
+E [GeV] Figure 7.4: Photon production rate of the QGP according to (7.20) as a function of the photon energy at a given temperature T = 200 MeV, ffs = 0:4, and various values of the quark chemical potential _.
+
+1.0 1.5 2.0 2.5 3.010 -8
+
+10-7 10-6 10-5 10-4
+
+u=0
+
+u = 0.1 GeV
+
+u = 0.4 GeV
+
+u = 0.3 GeV
+
+u = 0.2 GeV
+
+2EdR/d 3 k [GeV
+
+-2 fm -4 ]
+
+E [GeV] Figure 7.5: Photon production rate of the QGP according to (7.20) as a function of the photon energy at a given energy density ffl = 5 GeV/fm3, ffs = 0:4, and various values of the quark chemical potential _.
+
+68
+
+Chapter 8 Conclusions The development and application of field theoretic methods at finite temperature (and chemical potential) has been pushed recently by present (AGS, SPS) and future (RHIC, LHC) heavy ion experiments at relativistic energies (ps = 5 - 6300 GeV/A). In particular, these theoretical investigations are of crucial importance for the search for the QGP (M"uller, 1993).
+
+Perturbative QCD can be extended to thermal systems by considering imaginary times and discrete energies (Matsubara frequencies) (Kapusta, 1989). Compared to lattice calculations this method has the advantage of being capable to treat dynamical properties of the QGP, such as the most signatures proposed. For the evaluation of loop integrals within the imaginary time formalism it is most convenient to adopt a mixed time-momentum representation of the propagators (Saclay method) (Pisarski, 1988). Important examples for the application of these perturbative methods are the self energies of plasma particles (Klimov, 1982; Weldon, 1982a, 1982b), from which dispersion relations, damping and production rates follow.
+
+The use of perturbative methods for gauge theories, however, is complicated by gauge symmetry and massless gauge bosons: Naive perturbation theory, i.e. the exclusive use of bare propagators and vertices, may lead to gauge dependent and infrared divergent results for physical quantities. A famous example is given by the gluon damping rate at rest (plasmon puzzle) (Lopez, Parikh, and Siemens, 1985).
+
+Braaten and Pisarski (1990a) first recognized that these problems of the perturbation theory are based on the fact that at finite temperature diagrams of higher order may contribute to lower order in the coupling constant. In other words, results gained by using bare Green's functions can be incomplete in the order of the coupling constant. In order to avoid this problem, one has to resum a certain class of infinite many diagrams, the HTL, which are characterized by hard loop momenta of the order T , corresponding to the high temperature limit. This resummation can be performed by means of the Dyson-Schwinger equation and leads to effective propagators and vertices, showing a complex momentum dependence. These effective Green's functions can be used in a perturbative expansion analogously to bare ones. However, this is necessary only if all external momenta of the Green's function under consideration
+
+69
+
+can be soft, i.e. of the order of gT .
+
+The resummation of certain diagrams for avoiding infrared singularities is known for a long time in the case of non-relativistic problems and the scalar field theory. The achievements of Braaten and Pisarski consist in extracting the relevant diagrams (HTL) for gauge theories, which is much more complicated due to the momentum dependence of the HTL and Ward identities than for the scalar field theory, and in proving that the effective perturbation theory produces gauge independent results for observables (Braaten and Pisarski, 1990c).
+
+Applying the Braaten-Pisarski method it is possible to obtain consistent results, which are gauge independent and complete to leading order in the coupling constant, and which show an improved infrared behavior. (Many quantities that are infrared divergent within naive perturbation theory are finite now.) The physical meaning of using effective Green's functions is the inclusion of medium effects of the QGP, such as Debye screening by the color charges of the thermal partons. In this way Braaten and Pisarski (1990b) succeeded in deriving the gluon damping rate at zero momentum consistently, thus solving the plasmon puzzle. Thereby they found that the damping mechanism is completely different from the one suggested in naive perturbation theory, based on g $ gg processes. Using effective propagators and vertices for computing the imaginary part of the gluon self energy, from which the damping rate follows, it can be seen by cutting the diagrams of the self energy that gg $ gg and gg $ ggg processes are responsible for the damping. The imaginary part of the gluon polarisation tensor arises from the imaginary part of the effective Green's functions, which in turn comes from another medium effect, caused by the resummation, namely Landau damping.
+
+In conclusion, the Braaten-Pisarski method means an enormous progress for the qualitative understanding of the QGP as well as explicit calculations compared to naive perturbation theory. The application of the effective perturbation theory to realistic situations of the QGP, however, is hampered by two difficulties.
+
+First, the Braaten-Pisarski method is based on the assumption of the weak coupling limit, g o/ 1, allowing for a distinction between hard and soft momenta, whereas realistic values are given by g = 1:5 - 2.5. Thus the extrapolation of results obtained by using effective Green's functions to realistic values of g is questionable. On the other hand, the assumption, g o/ 1, might be too restrictive and should be replaced by ffs o/ ss (Braaten, 1995). This could be checked by considering corrections of the next to leading order in g. So far only the plasma frequency, i.e. the thermal photon mass, has been calculated beyond the leading order. In the case of a pure gluon gas it is given by !2pl = m2g (1 \Gamma 0:31g) with m2g = g2T 2=3 (Schulz, 1994), implying that the correction for g = 1 is about 30%. Furthermore, quantities that are logarithmically infrared divergent using bare propagators but finite applying the Braaten-Pisarski method, such as the energy loss, the transport rate, or the photon production rate, become unphysical, i.e. negative, above g ' 1, but only if the energies of the particles under consideration are not much larger than the temperature. This observation indicates that results achieved by means of the effective perturbation theory within the weak coupling limit can be extrapolated to realistic values of the coupling constant,
+
+70
+
+at least for quantities of energetic particles with E AE T . For thermal particles, however, g ! 1 has to be required (Thoma, 1994d). This restriction, for example, renders the determination of thermalization times in ultrarelativistic heavy ion collisions by means of the transport rate impossible, indicating the failure of the leading logarithm approximation in this case. Further hints for the validity of the extrapolation of the results to realistic values of the coupling constant can be found by comparing with non-perturbative results, such as lattice calculations and the mean field approximation. For example, the equation of state for the QGP obtained from lattice QCD coincides with the one derived from perturbative QCD above about twice to four times the critical temperature (Petersson, 1991). Also the effective gluon mass, found within the Hartree approximation (Thoma, 1992b, 1993b), differs from the perturbative result to lowest order by less than 30% at g = 1:5. Summarizing, the Braaten-Pisarski method not only considers important medium effects in the QGP qualitatively but also allows for explicit calculations in many cases, leading to results which are quantitatively correct within a factor of, let me say, about 2.
+
+The second problem, in contrast to the one discussed above, is a conceptual one, also occurring in the weak coupling limit, namely the absence of a static magnetic screening in the effective gluon propagator. Therefore quantities which are sensitive to the momentum scale g2T are still infrared divergent even at leading order, using effective Green's functions. For example the damping rates of hard partons are quadratically infrared divergent in naive perturbation theory and logarithmically in the effective one. Assuming an infrared cut-off of the order g2T , e.g. a non-perturbative magnetic screening mass (Pisarski, 1989b) or a finite width of the partons in the QGP (Lebedev and Smilga, 1990), the Braaten-Pisarski method allows for a result of these rates within logarithmic accuracy. Up to now only one observable, the color conductivity (Selikhov and Gyulassy, 1993; Heiselberg, 1994b), has been found, which suffers from this problem to leading order. However, from a certain order on probably all quantities become sensitive to the order g2T , where the Braaten-Pisarski method is insufficient. To what extent these higher order corrections are important after regularization by a method beyond the Braaten-Pisarski method is an open question. Such a method might be based on a self-consistent resummation, such as the Hartree approximation (Thoma, 1992b, 1993b). However, the Hartree approximation leads to inconsistent gauge dependent results and can be regarded only as a starting point for more elaborate approximations, of which only preliminary investigations exist (Bir'o, 1989; Kalashnikov, 1992; Mishra et al., 1993; Simonov, 1993).
+
+Further non-perturbative effects of the QGP, which cannot be described by the Braaten-Pisarski method, play a role at and just above the phase transition, such as the survival of mesonic and baryonic correlations in the deconfined phase (Boyd, 1994; Koch et al., 1992). Furthermore, there are predictions of non-perturbative field configurations, such as instantons (Gross, Pisarski, and Yaffe, 1981), monopoles (Oleszczuck and Polonyi, 1992; Bir'o and M"uller, 1993), or glue balls (Rischke et al., 1992) even at arbitrary high temperatures. Within the Braaten-Pisarski method we are able to describe important deviations from an ideal gas, e.g. by medium effects
+
+71
+
+like Debye screening, at least. Indeed, there are indications that the effective gluon mass may explain deviation from an ideal gas, observed on the lattice (Bir'o, 1992; Goloviznin and Satz, 1993; Peshier et al., 1994).
+
+Finally, the Braaten-Pisarski method can be applied only to equilibrated systems. A complete equilibration of the QGP in relativistic heavy ion collisions, however, may never happen (Bir'o et al., 1993). Non-equilibrium situations can also be treated diagramatically by means of the Keldysh formalism (Lifshitz and Pitaevskii, 1981). A resummation of certain diagrams analogously to the Braaten-Pisarski technique might be imaginable (Altherr, 1994).
+
+Thermal quantities, which diverge only logarithmically in naive perturbation theory, can be calculated consistently beyond the logarithmic approximation within the Braaten-Pisarski method in the weak coupling limit. This can be achieved by using the Braaten-Yuan prescription (Braaten and Yuan, 1991), where the soft part for momentum transfers below a separation scale q? is evaluated using effective propagators, whereas for the hard part above q? bare Green's functions are sufficient. Restricting the arbitrary separation scale by gT o/ q? o/ T , it cancels after adding up both the contributions, leading to a result which is complete to leading order in the coupling constant.
+
+A basic quantity, which has to be treated by means of the Braaten-Pisarski method and which represents the starting point for important observables of the QGP, is the damping (or interaction) rate of a quark or gluon. These rates can be derived either from the self energy of the particles under consideration or from the matrix elements of the corresponding processes. In the case of hard particles with momenta at least of the order of the temperature, where an effective gluon propagator suffices, a logarithmically infrared divergence due to the missing static magnetic screening has been found (Thoma and Gyulassy, 1991). Moreover, these rates are proportional to g2 instead of g4, as expected in naive perturbation theory. This is caused by the appearance of the square of the effective gluon mass, m2g , g2T 2, in the denominator of the effective gluon propagator and the fact that soft momenta contribute significantly in the integrals defining the rates. However, it is doubtful whether the damping rates have a physical relevance by themselves (Lebedev and Smilga, 1990).
+
+Damping rates of partons at zero momenta are infrared finite. They require the use of effective propagators and vertices at the same time, rendering their calculation very tedious (Braaten and Pisarski, 1990b, 1992b).
+
+The collisional energy loss of an energetic parton in the QGP (Bjorken, 1982; Thoma and Gyulassy, 1991), caused by elastic scattering via the exchange of a gluon, follows from the hard interaction rate by inserting the energy transfer per collision, divided by the velocity of the parton, under the integral defining the rate. In this way a field theoretic definition of the energy loss has been achieved, extending the Bethe-Bloch formula to the energy loss in a relativistic plasma (Braaten and Thoma, 1991a).
+
+The energy loss of high-energy partons in a QGP is of interest as it represents an important input parameter for the evolution of jets in ultrarelativistic heavy ion
+
+72
+
+collisions. In particular, preliminary estimates indicated that the energy loss in the QGP might be significantly smaller than the one in a hadron gas, providing therefore a signature for the QGP ("jet unquenching") (Gyulassy and Pl"umer, 1990). This speculation, however, has been revoked after including the radiative energy loss due to bremsstrahlung, which was estimated to be of the same order as the energy loss in hadronic matter (Gyulassy et al., 1992).
+
+Using the Braaten-Yuan prescription, the collisional energy loss of a heavy quark in the QGP has been calculated consistently (Braaten and Thoma, 1991b); i.e. a finite, gauge independent result has been derived, complete to leading order in the coupling constant and free of ambiguous parameters, such as a maximum or minimum momentum transfer or an arbitrary separation scale. Owing to the additional factor of the energy transfer per collision compared to the interaction rate, the energy loss is not only finite, using an effective gluon propagator in the soft part, but also of the order of g4 in contrast to the interaction rate. The independent evaluation of the soft and the hard part according to the Braaten-Yuan prescription allows for a result beyond the logarithmic approximation. For small energies below a few GeV the extrapolation to realistic values of g breaks down. There are, however, no problems for energies above about 10 GeV. The collisional energy loss of light partons requires the introduction of an empirical maximum energy transfer per collision, in order to describe the jet evolution, yielding typical values of dE=dx = 0:3 GeV/fm (Thoma, 1991b).
+
+Another interesting quantity of the QGP, which can be derived by means of the Braaten-Yuan prescription in a similar way as the energy loss, is the transport rate, from which thermalization times and the shear viscosity follow (Thoma, 1991a, 1994a). It can be obtained from the interaction rate by introducing a transport factor, which suppresses colinear and anti-colinear scattering events in the center of mass system, describing momentum relaxation. The transport factor improves the infrared behavior of the interaction rate in the same way as the energy transfer per collision in the case of the energy loss. Therefore a finite expression of the order g4 results. Unfortunately, it is not possible to obtain a meaningful estimate of the thermalization time from this, as the transport rates become negative if extrapolated to realistic values of the coupling constant for thermal energies.
+
+The shear viscosity coefficient, which is inversely proportional to the transport rate, has been calculated in this way beyond the logarithmic approximation (Thoma, 1994a). The result indicates that dissipative effects in the expansion phase of the QGP are important (Danielewicz and Gyulassy, 1985).
+
+Further interesting quantities, calculable consistently by means of the BraatenYuan prescription, are the production and damping rates of hard photons in the QGP (Kapusta, Lichard, and Seibert, 1991; Baier et al., 1992; Thoma, 1994b). The damping rate determines the mean free path of the photons in the QGP, while the production rate describes the thermal photon emission of the QGP, which might serve as a signature for the QGP. The soft part now requires the use of an effective quark propagator instead of a gluon propagator, as for the energy loss or transport rate, because the damping (production) of hard photons is caused to lowest order by
+
+73
+
+Compton scattering and pair creation (annihilation). As a result the mean free path of a photon in the QGP is confirmed to be much larger than the dimensions of the fireball (Thoma, 1994b), showing that hard photons provide a direct probe for the fireball. On the other hand, a hadron gas seems to emit about as much photons as a QGP at the same temperature (Kapusta, Lichard, and Seibert, 1991), suggesting that the photon production can be used only as a thermometer of the fireball but not for distinguishing between the deconfined and the hadronic phase.
+
+The introduction of a finite quark chemical potential, describing a surplus of quarks over anti-quarks in the QGP, originating from an incomplete transparency of the nuclear collision, into the Braaten-Pisarski method is straightforward (Vija and Thoma, 1994). The effective Green's functions are only changed by new effective gluon and quark masses, now containing also the chemical potential besides the temperature. The computation of the hard parts, however, is more complicated due to the integration over Fermi distributions with finite chemical potential. In this way the energy loss (Vija and Thoma, 1994) and the photon production rate (Traxler, Vija, and Thoma, 1994) have been extended to a finite quark chemical potential. Only minor modifications due to the chemical potential, even for _ = 2T , have been observed, demonstrating that the temperature plays the dominant role. If we keep, however, the energy density instead of the temperature fixed, the temperature decreases with increasing chemical potential, leading to a significant reduction of the results, in particular in the case of the photon production (Dumitru et al., 1993b). Which quantity should be considered as given, the temperature or the energy density, has to be decided by the experiment.
+
+A large number of interesting quantities of a QGP, but also of a QED or electroweak plasma, which are relevant for astrophysical problems (see e.g. Altherr and Kraemmer (1992) and Braaten (1992)), remain to be calculated by using the BraatenPisarski method. In particular, a systematic consideration of medium effects in the elementary parton cross sections is desirable. In this way, for example, the production and diffusion of strange or charm quarks could be treated consistently.
+
+Furthermore, it would be of great interest to extend the Braaten-Pisarski resummation to the pre-equilibrium phase, which might dominate many signatures in the fireball, for example by starting from a diagramatic non-equilibrium technique (Keldysh formalism). Finally, the development of methods beyond the BraatenPisarski method, suitable for describing non-perturbative phenomena (magnetic gluon mass, hadronic correlators, instantons, etc.), maybe within a self-consistent resummation, is still missing.
+
+74
+
+Appendix A Notations Here the notations used in this report are summarized. In addition, some Feynman rules are presented.
+
+Natural units, i.e. _h = c = 1, are adopted throughout the paper. Furthermore, Boltzmann's constant has been chosen as k = 1.
+
+The metric tensor is given by the Minkowski metric g_* with the diagonal elements g00 = 1 and g11 = g22 = g33 = \Gamma 1.
+
+Greek indices _; *; ::: of covariant vectors denote the space-time components, Latin ones i; j; ::: only space components.
+
+Four momenta are indicated by capital letters, the magnitudes of three momenta by small letters, e.g. K2 = k20 \Gamma k2 with k = jkj. This notation is convenient at finite temperature, as magnitudes of three momenta appear often, e.g. in the distribution functions nB;F (k).
+
+The bare propagator of a scalar particle with mass m is depicted by a dashed line and given by
+
+i\Delta (K) = iK2 \Gamma m2 + iffl : (A.1)
+
+The bare propagator of a fermion with mass M , represented by a solid line with an arrow, reads
+
+iS(P ) = iP _fl
+
+_ \Gamma M + iffl : (A.2)
+
+The bare propagator of a photon is indicated by a wavy line, the one of a gluon by a spiral line. The propagators of gauge bosons depend on the gauge choice and are given when needed (see e.g. (2.25)).
+
+The bare vertex of the OE4-theory is given by i 4! g2 and the photon-electron vertex by i e fl_. The vertices of QCD have not been used explicitly. They can be found e.g. in Itzykson and Zuber (1980).
+
+In the case of the OE4-theory symmetry factors have to be considered, e.g. a factor of 1/2 for the tadpole in (2.7).
+
+Otherwise standard Feynman rules are used (see e.g. Mandl and Shaw (1984)).
+
+75
+
+Appendix B Calculation of the photon self energy
+
+Here the longitudinal part of the photon self energy in the HTL-limit is calculated explicitly, because it is one of the most important quantities of gauge theories at finite temperature. The computation exemplifies also the perturbative methods at finite temperature, developed in chapter 2. We follow the ideas of Braaten and Pisarski (1990a) mainly.
+
+The starting point is given by the diagram in fig.2.2. Using standard Feynman rules, first at zero temperature, we get
+
+\Pi _*(P ) = \Gamma i e2 Z d
+
+4K
+
+(2ss)4 tr [fl_ S(K \Gamma P ) fl* S(K)] : (B.1) At finite temperature, after evaluating the trace over the fl matrices and using (2.11), we obtain
+
+\Pi _* (P ) = \Gamma 4 e2 T
+
+1X
+
+n=\Gamma 1 Z
+
+d3k (2ss)3 (K_Q* + Q_K* \Gamma g_* K \Delta Q) e\Delta (K) e\Delta (Q) ; (B.2)
+
+where Q = P \Gamma K and k0 and q0 assume discrete values, e.g. k0 = (2n + 1)issT .
+
+Restricting ourselves to the longitudinal component, \Pi 00 = \Pi L, and introducing the Saclay propagators, (2.12), we find
+
+\Pi L(P ) = \Gamma 4 e2 Z d
+
+3k
+
+(2ss)3 T Xk0 (k0q0 + k \Delta q) Z
+
+fi 0 do/ do/
+
+0 ek0o/ eq0o/0 e\Delta (o/; k) e\Delta (o/ 0; q) ; (B.3)
+
+where we neglected the fermion mass (T AE me).
+
+In order to evaluate the sum over k0, we absorb the term proportional to k0q0 in derivatives according to o/ and o/ 0 and integrate by parts,
+
+\Pi L(P ) = \Gamma 4 e2 Z d
+
+3k
+
+(2ss)3 T Xk0 Z
+
+fi 0 do/ do/
+
+0 ek0(o/\Gamma o/0) ep0o/0
+
+\Theta " d e\Delta (o/; k)do/ d e\Delta (o/
+
+0; q)
+
+do/ 0 + k \Delta q e\Delta (o/; k) e\Delta (o/
+
+0; q)# : (B.4)
+
+76
+
+After summing over k0 by means of
+
+T
+
+1X
+
+n=\Gamma 1 e
+
+k0(o/\Gamma o/0) = ffi(o/ \Gamma o/ 0) (B.5)
+
+and integrating over o/ 0 afterwards, we get using (2.13)
+
+\Pi L(P ) = \Gamma 2 e2 Z d
+
+3k
+
+(2ss)3 Z
+
+fi 0 e
+
+p0o/
+
+\Theta nnF (k) [1 \Gamma nF (q)] e(k\Gamma q)o/ + [1 \Gamma nF (k)] nF (q) e(\Gamma k+q)o/ o : (B.6) Here we assumed already k \Delta q=(kq) ' \Gamma 1, which follows from the high temperature limit, as discussed below. This assumption leads to a cancellation of half of the terms in the sum of both the propagator products in (B.4), since the derivative according to o/ changes the sign between the terms in (2.13).
+
+The integration over o/ yieldsZ
+
+fi 0 do/ e
+
+(p0\Sigma k\Sigma q)o/ = efi(\Sigma k\Sigma q) \Gamma 1
+
+p0 \Sigma k \Sigma q ; (B.7)
+
+where we utilized p0 = 2ssinT , as the particle belonging to p0 is a boson. Now the summation over k0 is concluded and we may continue the remaining p0 analytically; i.e., from now on p0 is regarded as real, continuous energy of the photon. By means of the useful relation n
+
+F (k)
+
+1 \Gamma nF (k) = e
+
+\Gamma fik ; (B.8)
+
+(B.6) reduces to
+
+\Pi L(P ) = 2 e2 Z d
+
+3k
+
+(2ss)3 [nF (k) \Gamma nF (q)]
+
+1 p0 + k \Gamma q \Gamma
+
+1 p0 \Gamma k + q ! : (B.9)
+
+This integral cannot be evaluated analytically. In the high temperature limit, T AE p0, p, however, the integral can be simplified. For this purpose we decompose the integral by introducing a separation momentum k?, restricted by p o/ k? o/ T . Owing to dimensional reasons, the integral from 0 to k? is proportional to k?2. The other possible scale in the integral, namely the temperature, drops out of the calculation because of nF (k) ' nF (q) ' 1=2 if k, q o/ T . Then the contribution from k ! k? can be neglected, since the final result in the high temperature limit, (2.16), is of order T 2, as we will see. For the integral over the hard momenta, k ? k?, the approximation q ' k \Gamma pj with j = ^p \Delta ^k can be adopted, from which we find 1. k \Delta q=(kq) ' \Gamma 1, as used already in (B.6), 2. p0 \Sigma (k \Gamma q) ' p0 \Sigma pj, and 3. nF (k) \Gamma nF (q) ' pj dnF (k)=dk.
+
+It should be noted that the expression (B.9) contains no temperature independent term. This is only the case, because we have used there already the approximation 1.
+
+77
+
+On the other hand, the temperature independent term has to be proportional to P 2 after renormalization and can be neglected, too. Next we substitute the approximations 2. and 3. into (B.9) and integrate over k from zero to infinity. The error made in this way is negligible, as it is of order k?2. Consequently, the high temperature limit, T AE p, p0, is equivalent to integrating over hard loop momenta (HTL), k , T . After integrating over j and k, usingZ
+
+1 0 dk k
+
+2 dnF (k)
+
+dk = \Gamma
+
+ss2 T 2
+
+6 ; (B.10)
+
+we end up with, (2.16), i.e.
+
+\Pi L(P ) = \Gamma e
+
+2 T 2
+
+3 1 \Gamma
+
+p0 2p ln
+
+p0 + p p0 \Gamma p ! ; (B.11)
+
+from which we see that the integral in (B.9) is of order T 2, indeed.
+
+78
+
+Acknowledgements I am indebted to E. Braaten and M. Gyulassy, who introduced me to this topic and collaborated with me on the applications discussed in chapter 4 and 5, and to C. Traxler and H. Vija for their collaboration on investigations to the finite chemical potential, presented in chapter 7. Furthermore, I would like to thank R. Baier, T.S. Bir'o, A. Dumitru, K. Geiger, U. Heinz, H. Heiselberg, B. M"uller, R. Pisarski, D. Rischke, D. Seibert, X.N. Wang, and H.A. Weldon for valuable discussions.
+
+I would like to thank the following institutions for their hospitality: Lawrence Berkeley Laboratory, Institute for Nuclear Theory (Seattle), Technische Universit"at M"unchen, Duke University (Durham), and Justus-Liebig Universit"at Giessen.
+
+This work has been supported partly by the Deutsche Forschungsgemeinschaft, the U.S. Department of Energy, the Bundesministerium f"ur Forschung und Technologie, and the GSI Darmstadt.
+
+79
+
+References Altherr, T., 1993; Int. J. Mod. Phys. A 8, 5605. Altherr, T., 1994, CERN preprint (CERN-TH.7336/94). Altherr, T., and U. Kraemmer, 1992, Astropart. Phys. 1, 133. Altherr, T., E. Petitgirard, and T. del Rio Gaztelurrutia, 1993, Phys. Rev. D 47, 703. Altherr, T., and D. Seibert, 1994, Phys. Rev. C 49, 1684. Apple, D.A., 1986, Phys. Rev. D 33, 717. Arbex, N., U. Ornik, M. Pl"umer, A. Timmermann, and R.M. Weiner, 1994, Marburg preprint. Baier, R., and R. Kobes, 1994, Winnipeg preprint . Baier, R., G. Kunstatter, and D. Schiff, 1992, Phys. Rev. D 45, 4381. Baier, R., H. Nakkagawa, and A. Ni'egawa, 1993, Can. J. Phys. 71, 205. Baier, R., H. Nakkagawa, A. Ni'egawa, and K. Redlich, 1992, Z. Phys. C 53, 433. Baier, R., S. Peign'e, and D. Schiff, 1994, Z.Phys. C 62, 337. Baier, R., B. Pire, and D. Schiff, 1991, Z. Phys. C 51, 581. Baym, G., H. Monien, and C.J. Pethick, 1988, Proc. International Workshop on Gross Properties of Nuclei and Nuclear Excitations XVI, Hirschegg, ed. H. Feldmeier, (GSI and Institut f"ur Kernphysik, Darmstadt) p.128. Baym, G., H. Monien, C.J. Pethick, and D.G. Ravenhall, 1990, Phys. Rev. Lett. 64, 1867. Billoire, A., G. Lazarides, and Q. Shafi, 1981, Phys. Lett. B 103, 450. Bir'o, T.S., 1989, Phys. Lett. B 228, 16. Bir'o, T.S., 1992, Int. J. Mod. Phys. E 1, 39. Bir'o, T.S., E. van Doorn, B. M"uller, M.H. Thoma, and X.N. Wang, 1993, Phys. Rev. C 48, 1275. Bir'o, T.S., 1994, C. Gong, B. M"uller, and A. Trayanov, 1994, Int. J. Mod. Phys. C 5, 113. Bir'o, T.S., and B. M"uller, 1993, Nucl. Phys. A 561, 477. Bjorken, J.D., 1982, Fermilab preprint (82/59-THY). Bjorken, J.D., 1983, Phys. Rev. D 27, 140. Bjorken, J.D., and S.D. Drell, 1964, Relativistic Quantum Mechanics (McGraw-Hill, New York). Blaizot, J.-P., and E. Iancu, 1993, Phys. Rev. Lett. 70, 3376. Blaizot, J.-P., and L.D. McLerran, 1986, Phys. Rev. D 34, 2739. Boyd, G., 1994, Nucl. Phys. A 566, 539c. Braaten, E., 1991, Nucl. Phys. B (Proc. Suppl.) 23B, 351. Braaten, E., 1992, Astrophys. J. 392, 70. Braaten, E., 1995, private communication. Braaten, E., and R.D. Pisarski, 1990a, Nucl. Phys. B 337, 569. Braaten, E., and R.D. Pisarski, 1990b, Phys. Rev. D 42, 2156. Braaten, E., and R.D. Pisarski, 1990c, Phys. Rev. Lett. 64, 1338. Braaten, E., and R.D. Pisarski, 1990d, Nucl. Phys. B 339, 310.
+
+80
+
+Braaten, E., and R.D. Pisarski, 1992a, Phys. Rev. D 45, 1827. Braaten, E., and R.D. Pisarski, 1992b, Phys. Rev. D 46, 1829. Braaten, E., R.D. Pisarski, and T.C. Yuan, 1990, Phys. Rev. Lett. 64, 2242. Braaten, E., and M.H. Thoma, 1991a, Phys. Rev. D 44, 1298. Braaten, E., and M.H. Thoma, 1991b, Phys. Rev. D 44, R2625. Braaten, E., and T.C. Yuan, 1991, Phys. Rev. Lett. 66, 2183. Brandt, F.T., J. Frenkel, J.C. Taylor, and S.M.H. Wong, Can. J. Phys. 71, 219. Brown, F.R., et al., 1990, Phys. Rev. Lett. 65, 2491. Burgess, C.P., and A.L. Marini, 1992, Phys. Rev. D 45, 17. Cassing, W., and U. Mosel, 1990, Progr. Part. Nucl. Phys. 25, 235. Cleymans, J., S.V Ilyin, S. Smolyansky, and G.M. Zinovjev, 1994, Z. Phys. C 62, 75. Combridge, B.L., J. Kripfganz, and J. Ranft, 1977, Phys. Lett. 70 B, 234. Creutz, M., 1983, Quarks, Gluons and Lattices (Cambridge University Press, Cambridge). Cutler, R., and D. Sivers, 1978, Phys. Rev D 17, 196. Danielewicz, P., and M. Gyulassy, 1985, Phys. Rev. D 31, 53. Dine, M., R.G. Leigh, P. Huet, A. Linde, and D. Linde, 1992, Phys. Rev. D 46, 550. Dumitru, A., et al., 1992, Frankfurt preprint (UFTP 319/1992). Dumitru, A., et al., 1993a, Phys. Rev. Lett. 70, 2860. Dumitru, A., D.H. Rischke, H.St"ocker, and W. Greiner, 1993b, Mod. Phys. Lett. A 8, 1291. van Eijck, M.A., C.R. Stephens, and C.G. van Weert, 1994, Mod. Phys. Lett. A 9, 309. Elze, H.T., and U. Heinz, 1989, Phys. Rep. 183, 81. Eskola, K.J., K. Kajantie, and J. Lindfors, 1989, Nucl. Phys. B 323, 37. Feinberg, E.L., 1966, Sov. Phys. JETP 23, 132. Frenkel, J., and J.C. Taylor, 1990, Nucl. Phys. B 334, 199. Furusawa, T., A. Hosoya, M. Takao, and M. Sakagami, 1984, Osaka preprint (OUHET-62). Gao, M., 1990, Phys. Rev. D 41, 626. Geiger, K., 1993, Phys. Rev. D 46, 4965, 4986. Geiger, K., and B. M"uller, 1992, Nucl. Phys. B 369, 600. Goloviznin, V., and H. Satz, 1993, Z. Phys. C 57, 671. Gong, C., 1993, Phys. Lett. B 298, 257. Gottlieb, S., et al., 1993, Phys. Rev. D 47, 3619. de Grand, T.A., and D. Toussaint, 1982, Phys. Rev. D 25, 526. de Groot, S.R., W.A. van Leeuwen, and C.G. van Weert, 1980, Relativistic Kinetic Theory (North-Holland, Amsterdam). Gross, J.D., R.D. Pisarski, and L.G. Yaffe, 1981, Rev. Mod. Phys. 53, 43. Gunion, J.F., and G. Bertsch, 1982, Phys. Rev. D 25, 746. Gyulassy, M., and M. Pl"umer, 1990, Phys. Lett. B 243, 432. Gyulassy, M., M. Pl"umer, M.H. Thoma, and X.N. Wang, 1992, Nucl. Phys. A 538, 37c. Gyulassy, M., and X.N. Wang, 1994, Nucl. Phys. B 420, 583.
+
+81
+
+Haglin, K., 1994, Phys. Rev. C 50, 1688. Halzen, F., and A.D. Martin, 1984, Quarks and Leptons (Wiley, New York). Heiselberg, H., 1994a, Phys. Rev. D 49, 4739. Heiselberg, H., 1994b, Phys. Rev. Lett. 72, 3013. Heiselberg, H., and C.J. Pethick, 1993, Phys. Rev. D 47, 769. Heinz, U., K. Kajantie, and T. Toimela, 1987, Ann. Phys. (N.Y.) 176, 218. Henning, P.A., R. Sollacher, and H. Weigert, 1994, GSI preprint (GSI-94-56). Horsely, R., and W. Schoenmaker, 1987, Nucl. Phys. B 280, 735. Hosoya, A., and K. Kajantie, 1985, Nucl. Phys. B 250, 666. Hosoya, A., M. Sakagami, and M. Takao, 1984, Ann. Phys. 154, 229. Huang, S., and M. Lissia, 1994, MIT preprint (CTP-2360). Ichimaru, S., 1973, Basic Principles of Plasma Physics (Benjamin, Reading). Ilyin, S.V., O.A. Mogilevsky, S. Smolyansky, and G.M. Zinovjev, 1992, Phys. Lett. B 296, 385. Ilyin, S.V., A.D. Panferov, and Y. Sinyukov, 1989, Phys. Lett. B 227, 455. Ilyin, S.V., A.D. Panferov, Y. Sinyukov, S. Smolyansky, and G.M. Zinovjev, 1989, Kiev preprint (ITP-89-6E). Itzykson, C., and J.B. Zuber, 1980, Quantum Field Theory (Mc Graw-Hill, New York). Jackson, J.D., 1975, Classical Electrodynamics (John Wiley, New York). Kajantie, K., and J.I. Kapusta, 1985, Ann. Phys. (N.Y.) 160, 477. Kajantie, K., and P.V. Ruuskanen, 1983, Phys. Lett. 121 B, 352. Kalashnikov, O.K., 1992, Phys. Lett. B 279, 367. Kalashnikov, O.K., 1994, Yukawa Institut preprint (YITP/K-1075). K"ampfer, B., and O.P. Pavlenko, 1992, Phys. Lett. B 289, 127. K"ampfer, B., and O.P. Pavlenko, 1993, Rossendorf preprint (FZR 93-09). Kapusta, J.I., 1989, Finite Temperature Field Theory (Cambridge University Press, New York). Kapusta, J.I., P. Lichard, and D. Seibert, 1991, Phys. Rev. D 44, 2774. Karsch, F., and H.W. Wyld, 1987, Proc. NATO Advanced Research Workshop on Lattice Gauge Theory '86, ed. H. Satz, I. Harrity and J. Potvin (Plenum, New York), p.187. Kawrakow, I. and J. Ranft, 1992, Leipzig preprint (UL-HEP-92-08). Keil, W., 1989, Phys. Rev. D 40, 1176. Keitz, A.V., et al., 1991, Phys. Lett. B 163, 355. Kelly, P.F., Q. Liu, C. Lucchesi, and C. Manuel, 1994, Phys. Rev. Lett. 72, 3461. Klein, S., et al., 1994, SLAC preprint (SLAC-PUB-6378). Klimov, V.V., 1982, Sov. Phys. JETP 55, 199. Kobes, R., G. Kunstatter, and K. Mak, 1992, Phys. Rev. D 45, 4632. Kobes, R., and K. Mak, 1993, Phys. Rev. D 48, 1868. Kobes, R., and G. Semenoff, 1985, Nucl. Phys. B 260, 714. Kobes, R., and G. Semenoff, 1986, Nucl. Phys. B 272, 329. Koch, V., E. Shuryak, G.E. Brown, and A.D. Jackson, 1992, Phys. Rev. D 46, 3169. Koike, Y., and T. Matsui, 1992, Phys. Rev. D 45, 3237.
+
+82
+
+Kraemmer, U., A. Rebhan, and H. Schulz, 1994, DESY preprint (DESY 94-034). Landau, L.D., and I.J. Pomeranshuck, 1953, Dok. Akad. Nauk. SSSR 92, 535 and 735. Lebedev, V.V., and A.V. Smilga, 1990, Ann. Phys. (N.Y.) 202, 229. Lebedev, V.V., and A.V. Smilga, 1991, Phys. Lett. B 253, 231. Lebedev, V.V., and A.V. Smilga, 1992, Physica A 181, 187. Lifshitz, E.M., and L.P. Pitaevskii, 1981, Physical Kinetics (Pergamon, New York). Lind'e, A., 1980, Phys. Lett. 96 B, 289. Lopez, J.A., J.C. Parikh, and P.J. Siemens, 1985, Texas A&M preprint. Mandl, F., and G. Shaw, 1984, Quantum Field Theory (John Wiley, Chichester). Matsubara, T., 1955, Progr. Theor. Phys. 14, 351. Mishra, A., H. Mishra, S.P. Misra, and S.N. Nayak, 1993, Z. Phys. C 57, 233. Mr'owczy'nski, S., 1990, in Quark-Gluon Plasma, ed. R. Hwa (World Scientific, Singapore), p.185. Mr'owczy'nski, S., 1991, Phys. Lett. B 269, 383. M"uller, B., 1992, Nucl. Phys. A 544, 95c. M"uller, B., 1993, in Particle Production in Highly Excited Matter, ed. H. Gutbrod and J. Rafelski (Plenum, New York). M"uller, B., and A. Trayanov, 1992, Phys. Rev. Lett. 68, 3387. Nakkagawa, H., A. Ni'egawa, and B. Pire, 1992, Phys. Lett. B 294, 396. Nakkagawa, H., A. Ni'egawa, and B. Pire, 1993, Can. J. Phys. 71, 269. Ni'egawa, A., 1994, Phys. Rev. Lett. 73, 2023. Oleszczuk, M., and J. Polonyi, 1992, Nucl. Phys. A 544, 523c. Peign'e, S., E. Pilon, and D. Schiff, 1993, Z. Phys. C 60, 455. Peshier, A., B. K"ampfer, O.P. Pavlenko, and G. Soff, 1994, Rossendorf preprint. Petersson, B., 1991, Nucl. Phys. A 525, 237c. Pethick, C.J., G. Baym, and H. Monien, 1989, Nucl. Phys. A 498, 313c. Pisarski, R.D., 1988, Nucl. Phys. B 309, 476. Pisarski, R.D., 1989a, Physica A 158, 146. Pisarski, R.D., 1989b, Phys. Rev. Lett. 63, 1129. Pisarski, R.D., 1991, Nucl. Phys. A 525, 175c. Pisarski, R.D., 1993, Phys. Rev. D 47, 5589. Rammerstorfer, M., and U. Heinz, 1990, Phys. Rev. D 41, 306. Rebhan, A., 1992a, Phys. Rev. D 46, 482. Rebhan, A., 1992b, Phys. Rev. D 46, 4779. Rebhan, A., 1993, Phys. Rev. D 47, R3967. Reif, F., 1965, Fundaments of Statistical and Thermal Physics (McGraw-Hill, New York). Rischke, D.H., et al., 1992, Phys. Lett. B 278, 19. Ruuskanen, P.V., 1992, Nucl. Phys. A 544, 169c. Satz, H., 1992, Nucl. Phys. A 544, 371c. Schulz, H., 1992, Phys. Lett. B 291, 448. Schulz, H., 1994, Nucl. Phys. B 413, 353. Selikhov, A.V., and M. Gyulassy, 1993, Phys. Lett. B 316, 373.
+
+83
+
+Shuryak, E., 1978, Sov. J. Nucl. Phys. 28, 408. Shuryak, E., 1992, Phys. Rev. Lett. 68, 3270. Silin, V.P., 1960, Sov. Phys. JETP 11, 1136. Simonov, Y.A., 1993, Moskau preprint (ITEP-93-3). Smilga, A.V., 1992, Bern preprint (BUTP-92/39). Staadt, G., W. Greiner, and J. Rafelski, Phys. Rev. D 33, 66. Strickland, M., 1994, Phys. Lett. B 331, 245. Strottman, D., 1994, Nucl. Phys. A 566, 245c. Svetitsky, B., 1988, Phys. Rev. D 37, 2484. Taylor, J.C., 1993, Phys. Rev. D 48, 958. Thoma, M.H., 1991a, Phys. Lett. B 269, 144. Thoma, M.H., 1991b, Phys. Lett. B 273, 128. Thoma, M.H., 1992b, Mod. Phys. Lett. A 7, 153. Thoma, M.H., 1993a, Proc. International Workshop on Gross Properties of Nuclei and Nuclear Excitations XXI, ed. H. Feldmaier, (GSI, Darmstadt), p. 187. Thoma, M.H., 1993b, Can. J. Phys. 71, 285. Thoma, M.H., 1994a, Phys. Rev. D 49, 451. Thoma, M.H., 1994b, Giessen preprint (UGI-94-04), Phys. Rev. D, im Druck. Thoma, M.H., 1994c, Giessen preprint (UGI-94-05), Z. Phys. C, im Druck. Thoma, M.H., 1994d, Proc. Workshop on Pre-Equilibrium Parton Dynamics, Berkeley, ed. X.N. Wang (Lawrence Berkeley Laboratory), S.171. Thoma, M.H., and M. Gyulassy, 1991, Nucl. Phys. B 351, 491. Toimela, T., 1985, Intern. J. Theor. Phys. 24, 901. Toimela, T., 1986, Phys. Lett. B 176, 463. Traxler, C., H. Vija, and M.H. Thoma, 1994, Giessen preprint (UGI-94-14), to be published in Phys. Lett. B. Vija, H., and M.H. Thoma, 1994, Giessen preprint (UGI-94-13), to be published in Phys. Lett. B. Wang, X.N., and M. Gyulassy, 1991, Phys. Rev. D 44, 3501. Wang, X.N., and M. Gyulassy, 1992, Phys. Rev. Lett. 68, 1480. Weldon, H.A., 1982a, Phys. Rev. D 26, 1394. Weldon, H.A., 1982b, Phys. Rev. D 26, 2789. Weldon, H.A., 1983, Phys. Rev. D 28, 2007. Wong, S.M.H. 1992, Z. Phys. C 53, 465. Xiong, L., and E. Shuryak, 1992, Stony Brook preprint (SUNY-NTG-93-24). Xiong, L., E. Shuryak, and G. Brown, 1992, Phys. Rev. D 46, 3798. Zubarev, D.N., 1974, Nonequilibrium Statistical Thermodynamics (Plenum, New York).
+
+84
+

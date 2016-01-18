@@ -1,0 +1,538 @@
+
+
+ 20 Dec 1995
+
+How Well Do We (and Will We) Know Solar Neutrino Fluxes
+
+and Oscillation Parameters?
+
+J.N. Bahcall and P.I. Krastev School of Natural Sciences, Institute for Advanced Study
+
+Princeton, NJ 08540
+
+Abstract Individual neutrino fluxes are not well determined by the four operating solar neutrino experiments. Assuming neutrino oscillations occur, the pp electron neutrino flux is uncertain by a factor of two, the 8B flux by a factor of five, and the 7Be flux by a factor of forty-five. For matter-enhanced oscillation (MSW) solutions, the range of allowed differences of squared neutrino masses, \Delta m2, varies between 4 \Theta 10\Gamma 6 eV2 and 1 \Theta 10\Gamma 4 eV2, while 4 \Theta 10\Gamma 3 ^ sin2 2` ^ 1:5\Theta 10\Gamma 2 or 0:5 ^ sin2 2` ^ 0:9. For vacuum oscillations, \Delta m2 varies between 5 \Theta 10\Gamma 11 eV2 to 1 \Theta 10\Gamma 10 eV2, while 0:7 ^ sin2 2` ^ 1:0. The inferred ranges of neutrino parameters depend only weakly on which standard solar model is used. Calculations of the expected results of future solar neutrino experiments (SuperKamiokande, SNO, BOREXINO, ICARUS, HELLAZ, and HERON) are used to illustrate the extent to which these experiments will restrict the range of the allowed neutrino mixing parameters. For example, the double ratio (observed ratio divided by standard model ratio) of neutral current to charged current event rates to be measured in the SNO experiment varies, at 95% confidence limit, over the range: 1:0 (no oscillations into active neutrinos), 3:1+1:8\Gamma 1:3 (small mixing angle MSW), 4:4+2:0\Gamma 1:4 (large mixing angle MSW), and 5:2+5:6\Gamma 2:9 (vacuum oscillations).
+
+1
+
+We present an improved formulation of the "luminosity constraint" and show that at 95% confidence limit this constraint establishes the best available limits on the rate of creation of pp neutrinos in the solar interior and provides the best upper limit to the 7Be neutrino flux. The actual rate of creation of solar neutrinos in the solar interior to the rate predicted by the standard solar model can vary (while holding the CNO neutrino flux constant) between 0:55 to 1:08 for pp neutrinos and between 0:0 and 6:35 for 7Be neutrinos.
+
+I. INTRODUCTION The purpose of this paper is to determine how well the four pioneering solar neutrino experiments determine the neutrino fluxes and possible mass and mixing parameters. We also explore to what extent the solar neutrino experiments under construction are likely to improve this knowledge.
+
+The reader who wants to quickly digest the main points of this paper is urged to turn immediately to the summary given in the concluding section, Section IX. Since this paper contains many detailed results, even the expert may find it useful to read this conclusion section first in order to obtain an overview of the principal results before becoming involved in the details.
+
+Table I summarizes the latest results for the four pioneering experiments on which the theoretical inferences are based. The rates of the three radiochemical experiments (Homestake [1], GALLEX [2], and SAGE [3]) are given in solar neutrino units (1 SNU = 10\Gamma 36 events per target atom per second) and the rate of the water- ^Cerenkov experiment (Kamiokande, [4]) has been presented as the measured 8B neutrino flux in units of cm\Gamma 2s\Gamma 1. We also show in Table I the ratios of the observed to the predicted rates, taking the predicted rates from the recent solar model of Bahcall and Pinsonneault [5] (which includes metal and helium diffusion) and assuming nothing happens to the neutrinos after they are created in the center of the sun (which is implied by the standard electroweak model [6]).
+
+The neutrino fluxes and mixing parameters determined in this paper are all consistent at the 95% confidence level with the four operating experiments.
+
+The four operating solar neutrino experiments do not provide enough information to determine uniquely the solar neutrino spectrum at earth. For example, three of the four experiments (chlorine and the two gallium experiments, GALLEX and SAGE) are radiochemical measurements that determine the number of events above a threshold energy (which
+
+2
+
+is different for each experiment). They cannot distinguish, for example, between a large number of low energy neutrinos and a smaller number of higher energy neutrinos.
+
+One must adopt some theoretical framework in which to answer the question: How well do we know the neutrino fluxes at earth from the individual solar neutrino reactions? We calculate the answer to this question by assuming Mikheyev-Smirnov-Wolfenstein (MSW) [7] or vacuum [8] neutrino oscillations and by adopting the basic picture of the solar neutrino spectrum [9]. We do not discuss sterile neutrinos, which would increase the set of possible solutions [10].
+
+After more than thirty years of investigation, there is essentially universal agreement on the validity of the basic picture of neutrino production in the sun [9], namely, that the principal neutrino sources are pp, pep, 7Be, 8B, 13N, and 15O, each source with a characteristic, known energy spectrum. This general picture has become so accepted that it is sometimes referred to as "model-independent"(see, e. g., [11,12]). There is also widespread agreement among workers in the field that the standard solar model gives a reasonable quantitative estimate of the neutrino fluxes from each source. Individual solar models differ somewhat in their predicted fluxes, but all recently-published models give essentially the same neutrino fluxes when the same input parameters are used [13,14]. Moreover, as we shall see from the detailed calculations presented in this paper, the dispersion in predicted neutrino fluxes between the published solar models is very small compared to the range of allowed fluxes permitted by the existing experiments. The currently-dominant uncertainties are experimental not theoretical.
+
+In order to obtain the smallest (plausible) estimate of the uncertainties in the neutrino fluxes at earth, we adopt the predictions of the standard solar model and the estimated uncertainties in those predictions. Table II gives the relevant predictions of the standard solar model of Bahcall and Pinsonneault [5], which includes helium and heavy element diffusion. The first column of Table II identifies the neutrino source, the second column gives the neutrino energy range, and the third column gives the predicted fluxes and their associated (1oe) uncertainties.
+
+We present in Section II the best-fit MSW [7] and vacuum neutrino oscillation [8] solutions to the most recent published data from solar neutrino experiments (see Table I) and the most detailed solar model [5]. In Section III, we show that the total range of allowed neutrino oscillation solutions is very large even if we require agreement with the standard solar model. The best-fit solutions and the total allowed range depend only weakly upon whether we adopt a 1988, 1992, or a 1995 version of the standard solar model.
+
+A number of authors [15-20] have discussed previously a constraint on a linear combination of the solar neutrino fluxes that is required by the assumption that the Sun is currently
+
+3
+
+supplying energy by nuclear fusion reactions in its interior at a rate that is essentially equal to the observed photon luminosity. We present in Section IV this luminosity constraint in a more complete and precise form.
+
+We calculate the allowed rates of creation for solar neutrinos in Section V (for MSW solutions) and in Section VI (for vacuum oscillations). We use the luminosity constraint to limit the allowed rates. Our approach in these two sections is somewhat similar to the approach adopted by Hata and Langacker [12], who however do not consider vacuum oscillations or the 1995 standard solar model and used a less complete statement of the luminosity condition. On the other hand, Hata and Langacker [12] provide powerful arguments that non-standard solar models are not a viable solution to the solar neutrino problem, a topic not discussed in the present paper.
+
+For future solar neutrino experiments (8B: SuperKamiokande [21], SNO [22], ICARUS [23]; 7Be: BOREXINO [24]; and pp: HELLAZ [25] and HERON [26]), we calculate in Section VII the best estimates of the expected event rates using the best-fit MSW and vacuum oscillation solutions (given in Section II) to the four existing experiments. We also calculate the expected results of these experiments to study how they can further constrain the allowed regions in the space of neutrino oscillation parameters.
+
+We calculate in Section VIII the expected ratio of neutral current to charged current events in the SNO detector. We present results assuming that no oscillations occur or that either MSW or vacuum oscillations occur. As was pointed out in the original proposal for a SNO detector [22], this ratio is relatively independent of solar model considerations and can be used to discriminate between broad classes of hypothetical solutions to the solar neutrino problems.
+
+II. BEST-FIT SOLUTIONS In this section, we present best-fit MSW and vacuum oscillation solutions to the most recent published data from the solar neutrino experiments (see Table I) and the most detailed solar model (see Table II). We also compare the allowed regions for three different solar models, which we will sometimes refer to as the 1988 [13], 1992 [27], and 1995 [5] standard solar models. The main physical difference between the 1995 model [5] and the two earlier models is the inclusion of both heavy element and helium element diffusion in the calculations, which leads to higher predicted event rates in all three detectors. The other changes in the 1995 model result from refinements of input data.
+
+Many authors have reported the results of refined studies of the MSW [12,20,28-33] and the vacuum [30,31,33,34] solutions of the solar neutrino problems. The techniques for
+
+4
+
+this analysis are therefore well documented in the literature and we only note briefly here those aspects of the calculation that require special mention. Our O/2 analysis of the data follows closely the prescription of Fogli and Lisi [20], except we treat the GALLEX and SAGE results as separate measurements. We have verified that the allowed regions for the parameters \Delta m2 and sin2 2` do not differ significantly from the ones obtained by combining the data from the two gallium experiments into a single data point. We include the published energy resolution and trigger efficiency of the Kamiokande detector [35]. We do not include a day-night comparison in the rates of the Kamiokande detector, since these data are not yet available for the latest published average event rate [4]. This omission is not important since previous studies [29,35] have shown that the nonobservation of the day-night effect only excludes a region in oscillation parameter space that is otherwise excluded by combining the results from the four operating experiments. We therefore do not include in the calculations described here the theoretical effect of neutrino regeneration in the earth (see [36]). Based upon exploratory calculations we have done, we expect that the inclusion of the available day-night data and the inclusion of the calculated earth regeneration effect, would only slightly deform the large mixing allowed region calculated in this paper and affect only marginally the rest of our results. For the MSW solution, we use the analytical description of the neutrino survival probabilities from [37] which allows the averaging over the neutrino production regions and the neutrino spectra to be done accurately with a reasonable amount of computer time. We use the neutrino interaction cross sections for each detector given in [13].
+
+The MSW mechanism provides a good fit to the data. There are two local minima of the O/2 function in the \Delta m2 - sin2 2` plane. The allowed region around the deepest minimum, which has the very small value of O/2min = 0:31, occurs at
+
+\Delta m2 = 5:4 \Theta 10\Gamma 6 eV2; (1a)
+
+sin2 2` = 7:9 \Theta 10\Gamma 3: (1b) The minimum defined by Eq. (1) is usually referred to as the "small mixing angle solution." In contrast, the "large mixing angle solution" has O/2min = 2:5, which is relatively large but acceptable for two degrees of freedom. The large mixing angle solution occurs at
+
+\Delta m2 = 1:7 \Theta 10\Gamma 5 eV2; (2a)
+
+sin2 2` = 0:69: (2b) Figure 1 shows, assuming MSW oscillations occur, the allowed regions for the three different solar models (1988, 1992, 1995), together with the points of the local O/2 minima. The precise
+
+5
+
+positions of the allowed regions and their shape depend not only on the measured rates in the solar neutrino experiments, but also somewhat on the solar model. The higher rates predicted in the model [5] require a stronger depletion of the electron neutrino flux from the Sun in order to account for the experimental data. Thus the parameters \Delta m2 and sin2 2` which minimize O/2 change as shown in the figure. Both the small and the large mixing angle allowed regions shift slightly toward the center of the figure, where the survival probability is lowest and the flux suppression strongest.
+
+Vacuum neutrino oscillations provide a somewhat worse but still acceptable fit to the data. The minimum in O/2 is O/2min = 2:5 and occurs at
+
+\Delta m2 = 6:0 \Theta 10\Gamma 11 eV2; (3a)
+
+sin2 2` = 0:96: (3b) There are several disconnected allowed regions in which the local minima of O/2 are larger than the global minimum whose location is specified by Eq. (3).
+
+Figure 2 shows, assuming vacuum neutrino oscillations occur, the allowed regions that were determined using the three different standard solar models (1988, 1992, and 1995). The inferred neutrino parameters are relatively insensitive to the many successive improvements in the standard solar models. The higher predicted event rates for the 1995 solar model require higher suppression of the electron neutrino flux, which causes the small mixing angle allowed region to shift to larger values of sin2 2` and the large mixing angle allowed region to shift to smaller values of sin2 2`.
+
+III. SURVIVAL PROBABILITIES In this section, we determine the extreme range of the allowed survival probabilities for each neutrino flux. We use the term "survival probability" to mean the probability that a neutrino created in the solar interior will remain an electron type neutrino until it reaches the detector on earth. All of the survival probabilities calculated in this paper are averaged over the solar interior using the 1995 detailed solar model [5].
+
+We define both "detector-dependent survival probabilities" (which have previously been used in the literature) and "detector-independent survival probabilities" (not previously used) and present results for both sets of quantities. We calculate the maximum and minimum fluxes consistent with the available data for both the MSW effect and for vacuum oscillations. The results given here permit the calculation of what may be observed in future experiments.
+
+6
+
+We assume that the published event rates and experimental errors (see Table I) are correct for the four operating experiments. We also assume that the calculated standard model production rates for neutrinos (see Table II) are correct within their published uncertainties. With these assumptions, we determine the allowed ranges of survival probabilities for both MSW and for vacuum neutrino oscillations. From our experience, we infer that authors are more likely to underestimate rather than overestimate uncertainties when reporting either experimental or theoretical results. Since we adopt the published uncertainties, the allowed range we find for the survival probability of each neutrino flux is likely to be a lower limit to the actual permitted range.
+
+A. Methods of Calculation For a dense set of representative values of \Delta m2 and sin2 2` within the 95% confidence limits indicated by Fig. 1 and Fig. 2, we calculate the survival probability, P (*e ! *e; E), for electron-type neutrinos. For continuum neutrino sources, we average the survival probability over neutrino energy using the known *e energy spectrum when created in the sun. We carry out the calculations with, or without, the additional weight of the energy-dependent neutrino interaction cross section for the detector of interest. For each \Delta m2 and sin2 2` chosen within the allowed region, we compute the partial contribution of each flux to the signal in each detector by using the neutrino survival probabilities calculated as described earlier. We find the minimum and maximum values for each survival probability by searching among the allowed set of solutions.
+
+The reader may be surprised that we present in this section the limiting contributions of different neutrino sources to experiments that have not yet been performed. However, the logic we use in these calculations is the same as we use for the operating experiments. We search through the set of solutions consistent with the already available data and find those solutions that maximize or minimize the contributions of a particular neutrino source to each experiment, whether or not the experiment has been performed. For future experiments, we do not of course have the benefit of direct constraints based upon the counting rate in that detector.
+
+B. Detector-Dependent Survival Probabilities In this subsection, we calculate survival probabilities in the way that they are usually determined in the literature, namely, with a weight that is proportional to the interaction
+
+7
+
+cross section in a specified detector. In the following subsection, we calculate survival probabilities that are independent of the characteristics of any specific detector.
+
+Table III and Table IV present the results of numerical calculations for many different theoretical solutions based upon either the MSW effect [7] or upon vacuum neutrino oscillations [8]. Each row gives, for a specific solar neutrino experiment, the minimum and maximum allowed contribution relative to the standard model prediction of the pp, 7Be, and 8B neutrino sources. The calculations apply to the operating experiments (chlorine, gallium,
+
+and Kamiokande) as well as to planned experiments (SuperKamiokande, SNO, BOREXINO, ICARUS, HELLAZ, and HERON).
+
+For each experiment, we present in Table III the extreme MSW survival probabilities weighted by the cross sections for interactions of electron-type neutrinos. The weighted survival probabilities for neutrinos of source i are defined by the following equation:
+
+(Weighted Survival Probability)i = R dE Fluxi(E) \Theta oe(E) \Theta Pi(E)R dE Flux
+
+i(E) \Theta oe(E) ; (4)
+
+where oe(E) is the interaction cross section and Pi(E) is the survival probability for electrontype neutrinos averaged over the production region of the i-th neutrino source. The integrals extend over the range in which the neutrino energy spectrum, Fluxi(E), is non-zero. The weighted survival probabilities defined in Eq. (4) are the ratios of the actual event rates to the standard model predicted rates (standard electroweak plus standard solar model). For brevity, we use the notation Ri j (weighted survival probability)i in Table III and Table IV (also in Table V). Thus the first entry (0.0045) under R(7Be)min in the first row of Table III is, for the MSW solution, the largest fractional reduction (relative to the standard solar model) of the 7Be contribution to the chlorine experiment that is consistent at 95% C.L. with all the experiments. For example, to obtain the maximum 8B contribution to the chlorine experiment in SNU, one has to multiply the entry in Table III, 0.56, times the standard model prediction of 7.36 SNU [5] to get 4.12 SNU. This large value, which considerably exceeds the experimental result given in the first row of Table I, is nevertheless allowed at 95% C.L. by the O/2 analysis because of the large theoretical uncertainty (14% at 1oe) of the 8B neutrino flux in the standard solar model. This uncertainty amounts to 1 SNU of the event rate in the chlorine detector.
+
+Table III shows that, for MSW oscillations, the pp contribution to the GALLEX and SAGE experiments is constrained to vary by at most a factor of two. The pp flux is the best determined of the neutrino fluxes. In the HELLAZ and HERON experiments, the expected range of the pp rate is less than a factor of two since these neutrino-electron scattering experiments are sensitive to both charged and neutral currents.
+
+The weighted average 8B flux that is measured in the Kamiokande experiment is also reasonably well determined (slightly more than a factor of two uncertainty), but the 8B
+
+8
+
+contributions to the radiochemical experiments (chlorine and gallium experiments) is less well constrained (more than a factor of three uncertainty). The radiochemical experiments have much lower energy thresholds than the Kamiokande experiment, which is also somewhat sensitive to the neutral current contribution.
+
+The 7Be contribution to the radiochemical experiments (chlorine and gallium) can vary between approximately 1% and 65% of the contribution predicted by the standard solar model. The rate for BOREXINO is predicted to lie within 22% to 72% of the standard rate. This variation is much less than is allowed in the gallium or chlorine experiments because BOREXINO is sensitive to both charged and neutral currents. The lower limit for BOREXINO corresponds to essentially all but about 1% of the electron neutrinos transforming to muon or tau neutrinos.
+
+Table IV is identical to Table III except that the weighted survival probabilities are computed for the mechanism of vacuum neutrino oscillations. The survival probabilities have been averaged, as described in ref. [30], over the distance between the Sun and the Earth, which changes during the year due to the eccentricity of the Earth's orbit. About 128 points (independent computations) for different positions on the Earth's orbit are needed to compute the average survival probability with an accuracy of 0.1%.
+
+For vacuum oscillation solutions, the range of allowed solutions is smaller than for the MSW effect. In fact, the pp neutrino flux is well determined. The pp contribution to the gallium experimental rate is 58% \Sigma 9% of the standard model rate, which corresponds to a fractional rate of 70% \Sigma 7% in the HELLAZ and HERON detectors. The 8B contribution is also reasonably well determined, 39%\Sigma 14%, for the Kamiokande experiment. The predicted rate relative to the standard solar model of the SNO and ICARUS experiments shows a larger variation since in this section we are considering only charged-current reactions for these two detectors.
+
+Perhaps the most surprising result for the vacuum neutrino oscillations is the fact that the 7Be contribution could be essentially equal to the standard model prediction. This result shows that some previous analyses may have oversimplified the situation when they have concluded that the solar neutrino problems can be summarized by the fact that 7Be neutrinos are missing.
+
+The extreme values for the masses and mixing angles do not always occur for extreme values of the neutrino fluxes. The extreme values of the neutrino parameters can be determined directly from the data files used to plot Figure 1 and Figure 2. For MSW solutions, the range of allowed \Delta m2 varies between 4 \Theta 10\Gamma 6 eV2 and 1 \Theta 10\Gamma 4 eV2, while 4 \Theta 10\Gamma 3 ^ sin2 2` ^ 1:5 \Theta 10\Gamma 2 or 0:5 ^ sin2 2` ^ 0:9. For vacuum oscillations, the \Delta m2 varies between 5 \Theta 10\Gamma 11 eV2 to 1 \Theta 10\Gamma 10 eV2, while 0:7 ^ sin2 2` ^ 1:0.
+
+9
+
+C. Detector-Independent Survival Probabilities Are there detector-independent bounds that one can place on the survival probabilities? The bounds given in Table III and Table IV depend manifestly upon the interaction cross sections of each detector. These detector-dependent limits are relevant when thinking about what has been learned from each experiment. However, one needs to consider detectorindependent bounds if one wants to determine the allowed regions permitted by all the experiments taken together.
+
+We have calculated unweighted (detector-independent) survival probabilities by searching in the complete parameter space of the two-component MSW and vacuum neutrino oscillations for solutions that are consistent at the 95% confidence level with the data summarized in Table I for the four ongoing experiments. The detector-independent average survival probabilities are defined as follows:
+
+(Average Survival Probability)i = R dE Fluxi(E) \Theta Pi(E)R dE Flux
+
+i(E) : (5)
+
+Table V summarizes the extreme values for the detector independent average survival probabilities for electron-type neutrino fluxes that are consistent with either MSW or vacuum oscillations. The range of allowed survival probabilities is a factor of two for pp neutrinos, a factor of more than five for 8B neutrinos, and a factor of more than forty for the 7Be neutrinos.
+
+IV. THE LUMINOSITY CONSTRAINT Each time a neutrino from a specified neutrino-producing reaction is created in the sun a fixed amount of usable (thermal) energy is supplied to the interior of the star. Since some of the nuclear reactions that are responsible for solar energy generation also produce neutrinos, the solar luminosity, Lfi, can be written as a linear combination of solar neutrino fluxes [15-20]. The luminosity constraint on the neutrino fluxes takes the form (cf. Eq. 3.36 of [9])
+
+Lfi 4ssr2 = Xj (Q \Gamma hEi)j OEj ; (6)
+
+where r is 1 A.U. (1:496 \Theta 1013 cm), Q is the energy released by the associated fusion reactions, hEi is the average energy loss by neutrinos, and OEj (j = pp; 7Be; 8B; etc:) is the neutrino flux at earth (if nothing happens to the neutrinos after they are created). The average energy loss by the neutrinos has been calculated in Appendix A of [13], which takes account of small corrections for the thermal motion of the interacting particles.
+
+10
+
+The explicit form of the luminosity constraint is
+
+Lfi 4ssr2 = Xj ffj OEj ; (7)
+
+where the eight coefficients, ffj, are given in Table VI and the solar constant (Lfi=4ssr2) is [5] 1367 Wm\Gamma 2. The numerical values given in Table VI include the small corrections due to the thermal motion of the solar particles [13]. For numerical applications, it is convenient to rewrite Eq. (7) in the following dimensionless form:
+
+1 = X
+
+i `
+
+ffi 10 MeV'
+
+OEi 8:532 \Theta 1010 cm\Gamma 2s\Gamma 1 ! (8)
+
+In applications, the linear relation given in Eq. (7) must be supplemented by the additional constraint:
+
+OE i7Bej + OE i8Bj ^ OE(pp) + OE(pep) : (9) The physical basis of Eq. (9) is that the 3He nuclei, which ultimately give rise to 7Be and 8B neutrinos via the nuclear reaction 3He(ff; fl)7Be, are created by pp and pep reactions.
+
+One pp or pep reaction must occur in order to supply the 3He nucleus that is burned each time a 7Be or 8B neutrino is produced. So far as we can tell from the published literature, Eq. (9) has not been implemented in previous applications of the luminosity constraint to the solar neutrino problem. In principle, Eq. (7) considered by itself permits a 7Be neutrino flux that is twice as large as is allowed by Eq. (9). Since the 14N(p; fl)15O reaction is the slowest process in the CNO cycle, one must also have
+
+OE i15Oj ^ OE i13Nj : (10) The luminosity constraint sets upper bounds on the allowed neutrino fluxes. Since somewhat different amounts of energy release are associated with each of the neutrino fluxes, the upper bounds depend somewhat upon the neutrino branch being considered. We find from Eqs. (7)-(10) the following upper limits for the neutrino fluxes:
+
+OE(pp) ^ 6:51 \Theta 1010 cm\Gamma 2s\Gamma 1 ; (11a)
+
+OE(pep) ^ 7:16 \Theta 1010 cm\Gamma 2s\Gamma 1 ; (11b)
+
+OE(7Be) ^ 3:33 \Theta 1010 cm\Gamma 2s\Gamma 1 ; (11c)
+
+OE(8B) ^ 4:32 \Theta 1010 cm\Gamma 2s\Gamma 1 ; (11d)
+
+11
+
+OE(CNO) ^ 3:41 \Theta 1010 cm\Gamma 2s\Gamma 1 : (11e) The upper limits on the fluxes of 7Be and 8B neutrinos are achieved [see Eq. (9)] when OE(pp) = OE(7Be) or OE(pp) = OE(8B). In deriving Eq. (11e), we have assumed that OE(13N) ' OE(15O) when the CNO cycle is dominant.
+
+What are the principal assumptions that are required to derive Eqs. (7)-(10)? The fundamental assumption is that nuclear fusion among light elements currently generates energy in the solar interior at a rate equal to the measured solar photon luminosity. Gravitational energy generation is neglected; this causes an error in Eq. (7) of only [13] \Gamma 0:03% Lfi (as estimated from the standard solar model). The abundance of 3He nuclei is also assumed to be in equilibrium, which is not strictly correct. In the outer regions of the solar core, 3He is continually produced (ultimately by the pp and pep reactions), but the temperature is too low to burn 3He at the equilibrium rate [via the reactions 3He(3He; 2p)4He and 3He(ff; fl)7Be)]. We have calculated the departure ffi from 3He equilibrium in the 1995 standard solar model [5] and find
+
+ffi j hOE(pp) + OE(pep) \Gamma 2OE(3He -3He) \Gamma OE i7Bej \Gamma OE i8Bji = [OE(pp) + OE(pep)] = \Gamma 0:04% ;
+
+(12)
+
+where we have introduced for notational convenience a "fictional neutrino flux," OE(3He -3He), produced by the 3He -3He reaction. Here OE(3He -3He) is the flux that would be produced if each 3He -3He reaction produced a neutrino. [The export nuclear energy generation subroutine available from one of us (JNB) calculates this fictional flux together with the real neutrino fluxes.]
+
+We conclude that Eqs. (7)-(10) are, when taken together, a statement of the luminosity constraint that is accurate to better than 1% for solar models in which the current nuclear energy generation equals the observed solar luminosity.
+
+V. ONE NONSTANDARD SOLAR NEUTRINO FLUX:
+
+MSW SOLUTIONS
+
+In this section and in the following section, we determine the extent to which existing experiments and the luminosity constraint together bound the allowed values of the neutrino fluxes at earth. We relax the assumption that all of the calculated standard model fluxes are correct within their quoted uncertainties. We permit one of the major fluxes (either pp, 7Be or 8B) to vary as a free parameter, together with \Delta m2 and sin2 2`. In the present section, we derive the allowed ranges for the principal neutrino fluxes assuming the correctness of
+
+12
+
+the MSW solution [7] of the solar neutrino problem and in the following section we derive allowed ranges for the solutions involving vacuum oscillations [8].
+
+In Section III, we analyzed the range of allowed neutrino fluxes observed at earth, while requiring consistency with the standard solar model calculations. In the present section and in the following section, we study the rate of creation of neutrinos in the solar interior, while only requiring consistency with the luminosity constraint, Eqs. (7)-(10). When calculating the allowed range of the 8B neutrinos, we keep the other neutrino fluxes fixed at their standard model values (since the 8B flux does not enter significantly the luminosity constraint). While varying either the pp (or the 7Be) neutrino flux, we adjust the 7Be (or the pp) flux at the value required to satisfy the luminosity constraint (with the minor fluxes fixed at their standard solar model values.) We shall see that the empirical limits on the creation rates of solar neutrinos are much larger than the quoted theoretical uncertainties, so it is not really important which precise values we choose for the fluxes not being systematically varied (as long as we require consistency with the luminosity constraint).
+
+We define fitting factors, fi, which are the ratios of the fluxes actually created in the center of the Sun to the fluxes predicted by the standard (1995) solar model. Thus:
+
+fi j OE(i)OE
+
+SSM(i) : (13)
+
+Using the three qualitatively different experiments, we can determine three parameters, \Delta m2, sin2 2` and one of the fluxes; we keep the other fluxes fixed at their standard model values (within the published theoretical uncertainties). We have varied the fi over a broad range compatible with the luminosity constraint, Eqs. (7)-(10). For each value of fi, we carry out the minimization of O/2 over \Delta m2 and sin2 2` within the region for which significant transitions between different flavors occur: 10\Gamma 4 ^ sin2 2` ^ 1:0, 10\Gamma 9 eV2 ^ \Delta m2 ^ 10\Gamma 3 eV2. The positions of the O/2 minima depend on the values of the fi. In fact, as shown in ref. [38], if f (8B) 6= 1, the 95% C.L. regions for a particular model can shift significantly with respect to those shown in Fig. 1.
+
+Figure 3 shows the results for the three neutrino ratios, fi. Each O/2 that is plotted is a function of three independent parameters, \Delta m2, sin2 2`, and one of the major neutrino fluxes (pp, 7Be or 8B). We display only the minimum (in \Delta m2 and sin2 2`) O/2 as a function of fi. The luminosity constraint requires that each flux lie within the vertical lines in Fig. 3. The horizontal lines mark the 68% confidence limit (O/2 = O/2min + 1:0).
+
+Figure 3 shows that the bounds imposed by the luminosity constraint and the 95% confidence limits on the fluxes are:
+
+0:55 ^ f (pp) ^ 1:08; (14a)
+
+0:0 ^ f (7Be) ^ 6:35; (14b)
+
+13
+
+0:37 ^ f (8B) ^ 2:44: (14c) The pp neutrino flux is the best determined flux. Both the upper and lower limits for the pp neutrinos are established by the luminosity constraint. The flux of pp neutrinos could at most vary by a factor of two and be consistent with the luminosity constraint. The flux of 7Be neutrinos is the least well determined. All of the data are consistent with a vanishingly
+
+small 7Be neutrino flux. The upper limit to the 7Be neutrino flux is fixed by the luminosity constraint.
+
+The Kamiokande and the chlorine data constrain the 8B neutrino flux to lie within a factor of three of the standard solar model prediction. The 8B neutrino flux is practically unconstrained by the solar luminosity since proton capture reaction by 7Be nuclei plays only a very minor role in the production of solar energy if the standard solar model is even approximately correct. [In fact, the contribution of 8B neutrinos to the right hand side of Eq. (7) is only about 10\Gamma 4 of the contribution of the pp neutrinos in the standard solar model.] The two minima in O/2 in Fig. 3c correspond to the small (sin2 2` ! 0:1; minimum at f (8B) = 0:96) and the large (sin2 2` * 0:1; minimum at f (8B) = 1:6) mixing-angle solutions; the relative maximum between the two minima corresponds to the transition from the small mixing angle to the large mixing angle solution.
+
+VI. ONE NONSTANDARD SOLAR NEUTRINO FLUX:
+
+VACUUM OSCILLATIONS
+
+In this section, we describe an analysis of the vacuum neutrino oscillation solution that is similar to the MSW analysis discussed in the previous section. We consider sin2 2` and \Delta m2, together with one of the major fluxes, as free parameters. In each case the sum of the neutrino fluxes satisfies the luminosity constraint, Eqs. (7)-(10). We have varied \Delta m2 and sin2 2` within the following limits: 0:4 ^ sin2 2` ^ 1:0; 10\Gamma 12 eV2 ^ \Delta m2 ^ 10\Gamma 9 eV2 .
+
+Figure 4 shows the allowed range for the pp, 7Be and 8B fluxes, respectively. The bounds imposed by the luminosity constraint and the 95% confidence limits on the fluxes are:
+
+0:55 ^ f (pp) ^ 1:08; (15a)
+
+0:0 ^ f (7Be) ^ 6:35; (15b)
+
+0:55 ^ f (8B) ^ 2:84: (15c) The pp neutrino flux is (as in the MSW solutions) the best determined flux. Both the upper and the lower limits are established by the luminosity constraint. The minimum O/2 occurs
+
+14
+
+slightly above f (pp) = 1. There is no lower-limit constraint on the 7Be flux, which could be zero consistent with all of the experimental data. The upper limit for the 7Be neutrinos is established by the luminosity constraint.
+
+The most ironic result for the 8B neutrinos is that the data suggest (at 1oe significance level) a higher neutrino flux than in the standard solar model (f (8B) * 1) if the vacuum neutrino solution is correct. Nearly all the published research on "non-standard" solar models over the last 25 years has had the stated goal of producing a lower (not a higher) 8B neutrino flux than in the standard solar model.
+
+VII. FUTURE DETECTORS Two new solar neutrino experiments, SuperKamiokande [21] and SNO [22], are expected to start taking data in 1996-97. The BOREXINO detector [24] is likely to become operational before the end of the century. Recently, a 600 ton module of the ICARUS [23] detector has been approved. Even further in the future, two ambitious helium detectors, HELLAZ [25] and HERON [26], whose purpose is to detect the basic pp neutrinos, are currently being studied as laboratory prototypes. An 127I detector is under development, but the neutrino absorption cross sections are not well enough known at present to permit a detailed theoretical analysis of the kind carried out in this paper [39].
+
+In this section, we make an initial appraisal of the potential of these future experiments to further constrain the allowed regions in the parameter space of \Delta m2 and sin2 2`. In Section VII A, we calculate the best-estimate rates for all five of the future experiments, assuming the correctness of either the small or the large mixing angle MSW solution or of vacuum oscillations. We use in Section VII A values for the neutrino parameters that minimize O/2 for the four operating experiments. In Section VII B, we calculate the `future' allowed regions in neutrino parameter space that will exist if one or two of the new experiments are performed. We focus in this subsection on the three experiments (SuperKamiokande, SNO, and BOREXINO) that are in advanced stages of development. In Section VII B, we allow the values of \Delta m2 and sin2 2` to range over the region of parameter space permitted, at 95% C.L. , by the four operating and the assumed future experiments.
+
+A. Best-Estimate Future Rates We calculate in this subsection the rates in future experiments that are implied by the results of the four operating experiments and the different neutrino oscillation scenarios. We adopt the best-fit neutrino oscillation parameters given in Eqs. (1)-Eq. (3), the expected
+
+15
+
+characteristics of the detectors specified in the published proposals, and the neutrino interaction cross sections (except for SNO) given in [9]. For SuperKamiokande, we shift the trigger efficiency function of Kamiokande 1.1 MeV lower in energy so that it becomes 50% at 5 MeV. The neutrino cross sections for SNO are taken from [40]. We defer a discussion of the SNO neutral current experiment to the following section. We do not discuss in this paper the potentially powerful SuperKamiokande measurement of the electron recoil spectrum and the important SNO measurement of the shape of the *e energy spectrum. The potential of both of these measurements to discriminate alternative hypotheses is being investigated, using an improved 8B neutrino energy spectrum, in a separate study [41].
+
+Table VII gives the best-estimate calculated event rates relative to the predictions of the standard solar model [5]. We also include the range over which the predictions vary if we require consistency, at 95% C.L., with the four operating experiments. The second column of Table VII gives the result that we expect if small-angle MSW oscillations are occuring, the next column gives the results for large-angle MSW oscillations, and the last column gives the results if vacuum oscillations are the explanation of the solar neutrino problems.
+
+The best-estimate predicted event rates are not very sensitive to the assumed neutrino oscillation scenario. Expressed as percentages of the standard model rates, we find that the best-estimates range over the following values: SuperKamiokande (36% \Sigma 5%), SNO (26% \Sigma 7%), BOREXINO (46% \Sigma 24%), ICARUS (28% \Sigma 6%), and HELLAZ/HERON (82% \Sigma 15%). However, if we consider the 95% confidence limits, the total range of expected event rates is rather large in all of the experiments (see Table VII).
+
+B. `Futuristic' Allowed Regions Figure 5-Figure 8 display the results of our futuristic simulations of the improvements in determining neutrino parameters that are likely to result from measuring the total rates in the new experiments. We have carried out the combined O/2 analysis as if the calculated rates for future experiments are indeed the rates that will be measured.
+
+The results shown in Figure 5-Figure 8 assume, for specificity, a 5% 1oe measurement error in each future experiment. We have also carried out calculations assuming 10% and 1% measurement errors for all the experiments. There is a significant improvement in the ability of the experiments to discriminate between different values of neutrino mixing parameters when the assumed errors are reduced from 10% to 5%, but there is very little additional improvement when the errors are reduced from 5% to 1%.
+
+If the small mixing angle MSW solution is correct, will future experiments eleminate the large mixing angle solution and the vacuum oscillation solution? This question is answered
+
+16
+
+in Fig. 5 and Fig. 6.
+
+We assume in calculating the results that are displayed in Fig. 5 and Fig. 6 that the small angle MSW solution (the minimum O/2 solution) is the correct description of neutrino propagation. The regions that will be allowed in neutrino parameter space are plotted in Fig. 5a-c and Fig. 6a-c if just one new experiment is performed (SuperKamiokande, SNO, or Borexino). Figure 5a-c show the regions that will be allowed for MSW solutions and Fig. 6a-c show the regions that will be allowed for vacuum oscillation solutions.
+
+We also performed the same type of analysis by adding two "new" experiments, SuperKamiokande and SNO, to the four already existing experiments. Figure 5d and Fig. 6d show the allowed regions when two new experiments are simulated.
+
+Figure 5 shows that 5% measurements of the total event rates will (with our assumption of the correctness of the small-angle MSW solution) essentially rule out at 95% C.L. the large mixing angle solutions. BOREXINO and SNO are particularly effective in this respect. Since the small-angle solution has a very low O/2 with for the four operating experiments, it is not surprising that one or two additional experiments consistent with this solution will eliminate the large angle solution.
+
+Figure 6 shows the situation is less favorable for the vacuum oscillations. They will be more difficult to rule out if the small mixing angle solution is correct. The one exception is BOREXINO. A measurement of the total flux from the 0.86 MeV 7Be line, consistent with the current best-estimate from the MSW solution, would eliminate the currrently-allowed vacuum oscilation solutions (see Fig. 6 c). The minimal O/2 for the vacuum oscillation region of parameter space, Fig. 6, is relatively large in all four cases: 3.7 for BOREXINO, 4.9 for SuperKamiokande, 4.7 for SNO, and 6.1 for SuperKamiokande plus SNO, but still acceptable at 95% C.L. .
+
+We now consider the opposite question to the one we just answered. If the vacuum mixing solution is correct, will future experiments eliminate the MSW solutions and converge on the true vacuum solution? This question is answered in Fig. 7 and Fig. 8.
+
+We assume in calculating the results that are displayed in Fig. 7 and Fig. 8 that the vacuum oscillation solution with the smallest O/2 is correct. We see that both BOREXINO and SNO can, with our assumptions, eliminate all, or nearly all, of the allowed regions of the small angle MSW solution. However, the large angle MSW solution will be not eliminated if the best-estimate current vacuum solution is the one that nature has adopted. The vacuum oscillation solutions will be constrained significantly by any one of the three experiments, SuperKamiokande, SNO, or BOREXINO (see Fig. 8). With our assumptions, the combination of SuperKamiokande and SNO will greatly reduce the allowed parameter space for vacuum oscillations.
+
+17
+
+Larger reductions in the allowed parameter space might occur if, for example, the new experiments yield results that lie at the edge of the parameter space permitted by the four operating experiments.
+
+VIII. NEUTRAL CURRENT TO CHARGED CURRENT RATIO IN SNO In this section, we focus on a specific measurement that will be made with the Sudbury Neutrino Observatory [22]. We calculate the expected ratio, (NC/CC), of neutral current events, NC (*any + 2H \Gamma ! p + n + *any), to charged current events, CC (*e + 2H \Gamma ! p + p + e, only *e), in the SNO experiment. Here *any represents the total flux of neutrinos, independent of neutrino flavor. We compute and compare the ratio assuming that there are no neutrino oscillations or that either the hypothesis of MSW or vacuum neutrino oscillations is correct. The best-estimates for the oscillation parameters are again taken from Eqs. (1)-(3), which assume the correctness of the standard model fluxes (within their quoted uncertainties).
+
+In the literature, it has often been stated that the ratio of neutral current to charged current event rates is "independent of solar model predictions" [22], with the implication that the ratio is thereby independent of the total flux (all flavors) of 8B neutrinos. This interpretaion of the neutral current to charged current ratio is correct if there is no physics beyond the standard electroweak model that changes the shape of the 8B neutrino energy spectrum; solar physics affects the shape of the energy spectrum by at most 1 part in 105 [42]. In the absence of physics beyond the standard electroweak model, the total number of created 8B neutrinos cancels out of the ratio since the predicted 8B neutrino flux appears in both the numerator and the denominator of the neutral current to charged current ratio. However, if either MSW or vacuum neutrino oscillations occur, the ratio depends somewhat upon the assumed total 8B neutrino flux since these solutions change the calculated shape of the neutrino energy spectrum and the best-fit oscillation parameters depend upon the absolute value of the assumed flux. We will explore this dependence in detail in a future publication.
+
+We normalize the neutral current to charged current ratio, (NC/CC), by dividing the observed ratio by the ratio computed assuming the correctness of the standard electroweak model (i. e., no oscillations). This double ratio, DR, is defined to be`
+
+NC
+
+CC 'DR j
+
+(NC=CC)observed (NC=CC)standard : (16)
+
+Many of the systematic uncertainties cancel out of the double ratio. Moreover, the doubleratio takes on the simple value of unity if no new physics is occuring.
+
+18
+
+Table VIII gives the ratio of neutral to charged current event rates for two different assumed energy thresholds (5 MeV and 6 MeV) for the charged current reaction. In each case (no oscillation, MSW, or vacuum oscillations), the upper row assumes a threshold of 5 MeV for the total electron energy and the lower row assumes a 6 MeV threshold. (The threshold of the neutral current reaction is 2.2 MeV.) The values without oscillations of the NC/CC ratio and the double ratio, Eq. (16), are given in the first two rows. In the second and third columns of Table VIII, we give the computed values of the neutral current to charged current ratio, and the double ratio, for \Delta m2 and sin2 2` that minimize O/2 [see Eqs. (1) and (3)]. The ranges of the double ratio given in columns four and five have been obtained by varying the oscillation parameters within the 95% C.L. allowed regions (for the four operating experiments), shown in Figs. 1-2, assuming the flux uncertainties of the standard solar model [5]. In computing the charged-current rate, we assumed that the energy of the electron that is produced is equal to the incoming neutrino energy minus the threshold energy (neglecting nucleon recoil and final state interactions as well as the energy resolution of the detector). Lisi (private communication, 1995) has made detailed calculations which show that the assumptions used here are typically accurate to a few percent for MSW oscillations and to about 15 percent for vacuum oscillations.
+
+Table VIII shows that, within relatively large ranges of parameter variations, the measurement of the neutral current to charged current ratio can determine if neutrino oscillations are the correct solution of the solar neutrino problem. For example, a measurement of a double ratio equal to unity with a 1oe accuracy of 20% would rule out any oscillation solution in Table VIII (i.e., any oscillation solution that does not include sterile neutrinos) at the 99% C.L. However, it may well be difficult to distinguish between different oscillation solutions because of the considerable overlap among the "new physics" solutions in Table VIII.
+
+IX. CONCLUSIONS In this paper, we have investigated the range of neutrino oscillation solutions that are allowed by the currently operating solar neutrino experiments and have explored, in a preliminary way, the additional constraints that may be imposed by future experiments. We study the allowed range of neutrino fluxes at earth and the allowed neutrino creation rate at the center of the sun. We summarize in this section some of our principal conclusions.
+
+ffl The MSW solution provides an excellent description of the results of the four operating experiments. Using the measured values and the quoted uncertainties for the experiments (see Table I) and the solar model predictions and their associated uncertainties (see Table II), the minimum value for O/2 (O/2min = 0:31) occurs at \Delta m2 = 5:4 \Theta 10\Gamma 6 eV2 and sin2 2` =
+
+19
+
+7:9 \Theta 10\Gamma 3 and is usually referred to as the "small-angle" MSW solution. The "large angle" MSW solution occurs at \Delta m2 = 1:7 \Theta 10\Gamma 5 and sin2 2` = 0:69 and is a less good fit to the data (O/2min = 2:5).
+
+ffl Vacuum neutrino oscillations provide an acceptable but not remarkably good fit to the experimental results and the standard model calculations. The minimum in O/2 (O/2min = 2:5) occurs at \Delta m2 = 6:0 \Theta 10\Gamma 11 eV2 and sin2 2` = 0:96.
+
+ffl The best-fit and allowed regions of the oscillation solutions do not depend sensitively upon the assumed solar model. We have used standard solar models published in 1988, 1992, and 1995; the results are rather similar in all cases (see Figure 1 for the MSW solutions and Figure 2 for the vacuum oscillation solutions).
+
+ffl The first three conclusions in this section (Section IX) are in good agreement with the calculations of previous authors [12,20,29-32,34,33], who made use of earlier results from the solar neutrino experiments and the standard solar models.
+
+ffl For MSW solutions, the allowed range of the electron neutrino fluxes at earth is large (see Table III). The flux of pp neutrinos is best determined, but even in this case the contribution to the GALLEX and SAGE experiments could vary between 50% to 100% of the predicted standard solar model value. The expected range in the HELLAZ and HERON experiments is between 65% and 100% of the standard model value; the variation is smaller for these future experiments because they have some sensitivity to neutral current reactions. The 7Be neutrino flux is poorly constrained. The contribution of 7Be to the gallium experiments could range between 1% and 65% of the standard model prediction; the expected range in BOREXINO is between 21% and 72% of the standard rate.
+
+ffl The range of allowed solutions for vacuum neutrino oscillations is smaller than the allowed range for MSW solutions (see Table IV). The pp contribution to the gallium rate is 58% \Sigma 9% of the standard model rate, which corresponds to 70% \Sigma 7% in the HELLAZ and HERON detectors. The 8B contribution corresponds to 39% \Sigma 14% of the standard rate for the Kamiokande experiment. The 7Be contribution can vary from approximately 10% to approximately 100% of the predicted rate for the chlorine and gallium experiments, while the expected rate in BOREXINO is between 29% and 98% of the standard model prediction.
+
+ffl For MSW solutions, the range of allowed neutrino masses is contained between 4 \Theta 10\Gamma 6 eV2 and 1 \Theta 10\Gamma 4 eV2, while 4 \Theta 10\Gamma 3 ^ sin2 2` ^ 1:5 \Theta 10\Gamma 2 or 0:5 ^ sin2 2` ^ 0:9. For vacuum oscillations, the masses vary between 5 \Theta 10\Gamma 11 eV2 to 1 \Theta 10\Gamma 10 eV2, while 0:7 ^ sin2 2` ^ 1:0.
+
+ffl Detector-independent limits on the allowed ranges of the electron neutrino fluxes can be extracted from the existing experiments (see Eq. 5 and Table V). Considering the combined
+
+20
+
+range of the MSW and vacuum neutrino solutions, the pp flux could be anywhere from 49% to 100% of the predicted standard model value, while the 8B flux lies between 11% and 60% of the standard value, and the 7Be flux could be between 2% and 97% of the standard value.
+
+ffl The "luminosity constraint" should take account of the fact that there must be a pp (or pep) neutrino for each 7Be (or 8B ) neutrino, if the solar luminosity is currently being supplied by nuclear fusion reactions among light elements. Eqs. (7)-(10), when taken together, constitute a statement of the luminosity constraint that is estimated to be accurate to better than 1%. At 95% confidence level, the upper and lower bounds on the allowed pp neutrino creation rate are determined by the luminosity constraint and the allowed upper limit on the 7Be neutrino creation rate is established by the luminosity constraint.
+
+ffl For pp and 7Be neutrinos, the luminosity constraint, not the four operating solar neutrino experiments, sets the most stringent limits on the allowed range of creation rates in the solar interior. The ratio of the creation rate in the center of the Sun to the rate predicted in the 1995 standard solar model varies between 0:55 to 1:08 for pp neutrinos and between 0:0 to 6:35 for the 7Be neutrinos assuming the CNO neutrino flux doesn't change from its predicted value in the standard solar model.
+
+ffl For 8B neutrinos, the operating experiments establish the allowed range of neutrino creation rates in the solar interior. For MSW oscillations, the ratio of the 8B neutrino creation rate in the interior of the Sun to the rate predicted in the 1995 standard solar model varies between 0:4 to 2:4. For vacuum oscillations, the ratio of the allowed flux to the flux predicted in the 1995 solar model varies between 0:6 to 2:8 for the 8B neutrinos.
+
+ffl The predicted event rates for the SuperKamiokande, SNO, BOREXINO, ICARUS, HELLAZ, and HERON experiments are given in Table VII for the best-fit small-angle MSW, large-angle MSW, and vacuum neutrino oscillation solutions. The best-estimates for SuperKamiokande, SNO, and ICARUS do not depend sensitively upon the assumed oscillation scenario. However, the range of expected event rates is rather large in all of the experiments if we allow the neutrino parameters to vary over the predicted 95% C.L. .
+
+ffl Futuristic calculations shown in Fig. 5-Fig. 8 illustrate some of the power of the planned experiments. For example, a 5% measurement of the total event rate with SNO will, if the small-angle MSW solution is correct, eliminate almost the entire large-angle MSW solution (see Figure 5b). BOREXINO will eliminate the large mixing angle (Figure 5c) and the vacuum oscillation solutions (see Figure 6c). If the vacuum oscillation parameters that best fit the currently-operating experiments are the correct solution of the solar neutrino problems, a 5% measurement of the total event rate in SNO or BOREXINO could essentially eliminate the small angle MSW solution (see Figure 7). Moreover, a 5% measurement with SuperKamiokande, SNO, or BOREXINO will also eliminate most of the existing neutrino
+
+21
+
+parameter space for vacuum solutions (see Fig. 8). There is a significant improvement in the calculated ability of future experiments to discriminate between different neutrino mixing parameters when the assumed measurement errors are reduced from 10% to 5%, but there is very little additional improvement when the errors are reduced from 5% to 1%.
+
+ffl The double ratio of neutral current to charged current rates in the SNO detector is, by definition [Eq. (16)], unity if no oscillations occur and has a 95% confidence range of 3:1+1:8\Gamma 1:3 for the small mixing angle MSW solution, 4:4+2:0\Gamma 1:4 for the large mixing angle MSW solution, and 5:2+5:6\Gamma 2:9 for the vacuum oscillation solutions. These results are relatively insensitive to changes in the solar model and suggest that an accurate measurement of the ratio of the total neutral current to charged current event rates may well be capable of distinguishing between no oscillation solutions and oscillation solutions (either MSW or vacuum).
+
+ACKNOWLEDGMENTS J.N.B. acknowledges support from NSF grant #PHY92-45317. The work of P.I.K. was partially supported by funds from the Institute for Advanced Study. We thank S. Glashow for asking a stimulating question that sparked our investigation of future detectors, K.S. Babu, M. Fukugita, C. Kolda, E. Lisi, and S. Parke for valuable comments and very helpful suggestions on the original manuscript, and A. Gould and W. Press for important discussions of statistical questions.
+
+22
+
+TABLES TABLE I. Solar neutrino data used in the analysis. The experimental results are given in SNU
+
+for all of the experiments except Kamiokande, for which the result is expressed the measured 8B flux above 5 MeV in units of cm\Gamma 2s\Gamma 1 at the earth. The ratios of the measured values to the corresponding predictions in the standard solar model of ref. [5] are also given. The result cited for the Kamiokande experiment assumes that the shape of the 8B neutrino spectrum is not affected by physics beyond the standard electroweak model. Experiment Result (1oe) Exp. Result/Th. Calculation Reference HOMESTAKE 2:55 \Sigma 0:17(stat) \Sigma 0:18(syst) 0:27 \Sigma 0:03 [1] GALLEX 77:1 \Sigma 8:5(stat) \Sigma +4:4\Gamma 5:4 (syst) 0:56 \Sigma 0:07 [2] SAGE 69 \Sigma 11(stat)+5\Gamma 7(syst) 0:50 \Sigma 0:09 [3] KAMIOKANDE [2:89\Sigma 0:220:21 (stat) \Sigma 0:35 (syst)] \Theta 106 0:44 \Sigma 0:06 [4]
+
+TABLE II. The Standard Model Solar Neutrino Fluxes. The neutrino fluxes given in this table are from the 1995 standard solar model of Bahcall and Pinsonneault [5], which includes both helium and heavy element diffusion. We also use in constructing Figures 1 and 2 a 1988 [13] and a 1992 [27] standard solar model.
+
+Source Energy Flux
+
+(MeV) (1010 cm\Gamma 2s\Gamma 1) pp ^ 0:42 5:91(1:00+0:01\Gamma 0:01) pep 1.44 1:40 \Theta 10\Gamma 2(1:00+0:01\Gamma 0:02) 7Be 0.86, 0.38 5:15 \Theta 10\Gamma 1(1:00+0:06
+
+\Gamma 0:07)
+
+8B !, 15 6:62 \Theta 10\Gamma 4(1:00+0:14
+
+\Gamma 0:17)
+
+13N ^ 1:2 6:18 \Theta 10\Gamma 2(1:00+0:17
+
+\Gamma 0:20)
+
+15O ^ 1:7 5:45 \Theta 10\Gamma 2(1:00+0:19
+
+\Gamma 0:22)
+
+17F ^ 1:7 6:48 \Theta 10\Gamma 4(1:00+0:15
+
+\Gamma 0:19)
+
+23
+
+TABLE III. MSW limiting *e fluxes. The minimum and maximum values (at 95% C.L.) are given for the ratios, R, of the measured to the predicted (1995 solar model) event rates in the four operating solar neutrino experiments. Experiment/SSM R(pp)min R(pp)max R(7Be)min R(7Be)max R(8B)min R(8B)max HOMESTAKE - - 0.005 0.65 0.16 0.56 SAGE/GALLEX 0.50 0.997 0.01 0.65 0.16 0.54 KAMIOKANDE - - - - 0.28 0.64 SUPERKAMIOKANDE - - - - 0.28 0.60 SNO - - - - 0.16 0.55 BOREXINO - - 0.21 0.72 - - ICARUS - - - - 0.16 0.57 HELLAZ/HERON 0.65 0.998 - - - -
+
+TABLE IV. Vacuum oscillations limiting *e fluxes. The minimum and maximum values (at 95% C.L.) are given for the ratios, R, of the measured to the predicted (1995 solar model) event rates in the four operating solar neutrino experiments. Experiment/SSM R(pp)min R(pp)max R(7Be)min R(7Be)max R(8B)min R(8B)max HOMESTAKE - - 0.083 0.98 0.12 0.43 GALLEX/SAGE 0.49 0.67 0.11 0.97 0.13 0.43 KAMIOKANDE - - - - 0.24 0.53 SUPERKAMIOKANDE - - - - 0.25 0.56 SNO - - - - 0.09 0.42 BOREXINO - - 0.29 0.98 - - ICARUS - - - - 0.11 0.43 HELLAZ/HERON 0.64 0.77 - - - -
+
+24
+
+TABLE V. Detector independent limiting *e fluxes. The limiting fractional fluxes (relative to the SSM) are given, independent of detector sensitivities [see Eq. (2)] for both MSW and vacuum neutrino solutions.
+
+R(pp)min R(pp)max R(7Be)min R(7Be)max R(8B)min R(8B)max MSW 0.52 0.997 0.02 0.65 0.11 0.40 vacuum 0.49 0.67 0.13 0.97 0.27 0.60
+
+TABLE VI. Coefficients for Luminosity Constraint. The coefficients are given in MeV. Flux ff Flux ff pp 13.097 13N 3.457 pep 11.918 15O 21.572 e\Gamma + 7Be 12.500 17F 2.363 8B 6.655 hep 10.170
+
+TABLE VII. Predicted event rates in future solar neutrino experiments expressed as ratios to the event rates expected from the standard solar model [5]. The values of \Delta m2 and sin2 2` used to minimize O/2 for the existing four experiments are given in Eqs. 1-3.
+
+MSW MSW Vacuum Oscillations (Small Mixing) (Large Mixing) SUPERKAMIOKANDE 0:41+0:19\Gamma 0:13 0:34+0:09\Gamma 0:06 0:31+0:25\Gamma 0:06 SNO 0:32+0:23\Gamma 0:16 0:22+0:23\Gamma 0:06 0:19+0:23\Gamma 0:10 BOREXINO 0:22+0:50\Gamma 0:01 0:59+0:13\Gamma 0:14 0:69+0:29\Gamma 0:40 ICARUS 0:34+0:23\Gamma 0:18 0:22+0:11\Gamma 0:06 0:23+0:20\Gamma 0:12 HELLAZ/HERON 0:96+0:04\Gamma 0:31 0:73+0:06\Gamma 0:08 0:67+0:10\Gamma 0:03
+
+25
+
+TABLE VIII. The ratio of neutral to charged current event rates in the SNO detector for different solutions of the solar neutrino problem. The ranges of the ratio (Min and Max) have been determined by varying ffim2 and sin2 2` within the 95% allowed regions for each solution. The electron energy threshold was assumed to be either 5 MeV (upper line) or 6 MeV (lower line).
+
+Scenario (NC/CC) (NC=CC)DR Min(NC=CC)DR Max(NC=CC)DR Standard model 0.44 1.00 1.00 1.00
+
+0.49 1.00 1.00 1.00 Small angle MSW 1.3 3.1 1.8 4.9
+
+1.5 3.0 1.8 4.7 Large angle MSW 1.9 4.4 3.0 6.4
+
+2.2 4.5 3.1 6.5 Vacuum oscillations 2.3 5.2 2.3 11
+
+2.3 4.8 2.4 11
+
+26
+
+REFERENCES [1] B. T. Cleveland et al., Nucl. Phys. B (Proc. Suppl.) 38, 47 (1995); R. Davis, Prog. Part.
+
+Nucl. Phys. 32, 13 (1994).
+
+[2] GALLEX collaboration, P. Anselmann et al., Phys. Lett. B 327, 377 (1994); 342, 440
+
+(1995).
+
+[3] SAGE collaboration, G. Nico et al., in Proceedings of the XXVII International Conference on High Energy Physics, Glasgow, 1994, edited by P. J. Bussey and I. G. Knowles (Institute of Physics, Bristol, 1995), p. 965; J. N. Abdurashitov et al., Phys. Lett. B 328, 234 (1994).
+
+[4] KAMIOKANDE collaboration, Y. Suzuki, Nucl. Phys. B (Proc. Suppl.) 38, 54 (1995). [5] J. Bahcall and M. Pinsonneault, Rev. Mod. Phys. 67, 1 (1995). [6] S. L. Glashow, Nucl. Phys. 22, 579 (1961); S. Weinberg, Phys. Rev. Lett. 19, 1264
+
+(1967); A. Salam, in Elementary Particle Theory, edited by N. Svartholm (Almquvist and Wiskells, Stockholm, 1968) p. 367.
+
+[7] S. P. Mikheyev and A. Y. Smirnov, Sov. Jour. Nucl. Phys. 42, 913 (1985); L. Wolfenstein,
+
+Phys. Rev. D 17, 2369 (1978).
+
+[8] B. Pontecorvo, Sov. Phys. JETP 26, 984 (1968); J. N. Bahcall and S. C. Frautschi,
+
+Phys. Lett. B 29, 623 (1969); S. M. Bilenky and B. M. Pontecorvo, Phys. Rep. 41, 225 (1978); S. L. Glashow and L. M. Krauss, Phys. Lett. B 190, 199 (1987).
+
+[9] J. Bahcall, Neutrino Astrophysics (Cambridge University Press, Cambridge, England,
+
+1989); Solar Modeling, edited by A. B. Balantekin and J. N. Bahcall (World Scientific, Singapore, 1995).
+
+[10] S. M. Bilenky and C. Giunti, Astropart. Phys. 2, 353 (1994); Phys. Lett. B 320, 323
+
+(1994).
+
+[11] V. Castellani et al., Phys. Rev. D 50, 4749 (1994). [12] N. Hata and P. Langacker, Phys. Rev. D 52, 420 (1995). [13] J. N. Bahcall and R. Ulrich, Rev. Mod. Phys. 60, 297 (1988). [14] I.-J. Sackman, A. I. Boothroyd, and W. A. Fowler, Astrophys. J. 360, 727 (1990); V.
+
+Castellani, S. Degl'Innocenti, and G. Fiorentini, Astron. Astrophys. 271, 601 (1993); S. Turck-Chie'ze and I. Lopes, Astrophys. J. 408, 347 (1993); S. Turck-Chie'ze, W. Dappen,
+
+27
+
+E. Fossat, J. Provost, E. Schatzman, and D. Vignaud, Phys. Rep. 230, 58 (1993); G. Berthomieu, J. Provost, P. Morel, and Y. Lebreton, Astron. Astrophys. 268, 775 (1993); A. Kovetz and G. Shaviv, Astrophys. J. 426, 787 (1994); C. R. Proffitt, Astrophys. J. 425, 849 (1994); J. Christensen-Dalsgaard, Europhysics News 25, 71 (1994); X. Shi, D. N. Schramm, and D. S. P. Dearborn, Phys. Rev. D. 50, 2414 (1994); J. N. Bahcall and A. Glasner, Astrophys. J. 437, 485 (1994).
+
+[15] M. Spiro and D. Vignaud, Phys. Lett. B 242, 279 (1990). [16] A. Dar and S. Nussinov, Particle World 2, 117 (1991). [17] V. Castellani et al., Phys. Lett. B 324, 425 (1994); Addendum, 329, 525 (1994). [18] V. Berezinsky, Comments Nucl. Part. Phys. 21, 249 (1994). [19] S. Parke, Phys. Rev. Lett. 74, 839 (1995). [20] G. L. Fogli, E. Lisi, and D. Montanino, Phys. Rev. D 49, 3226 (1994). [21] M. Takita, in Frontiers of Neutrino Astrophysics, edited by Y. Suzuki and K. Nakamura (Universal Academy Press, Tokyo, 1993), p. 147; T. Kajita, Physics with the SuperKamiokande Detector, ICRR Report 185-89-2, 1989.
+
+[22] H. H. Chen, Phys. Rev. Lett. 55, 1534 (1985); G. Ewan et al., Sudbury Neutrino
+
+Observatory Proposal, SNO-87-12, 1987.
+
+[23] A First 600 Ton ICARUS Detector Installed at the Gran Sasso Laboratory, addendum
+
+to proposal LNGS-94/99 I&II, preprint LNGS-95/10, 1995; J. N. Bahcall, M. BaldoCeollin, D. Cline, and C. Rubbia, Phys. Lett. B. 178, 324 (1986).
+
+[24] C. Arpesella et al., BOREXINO proposal, Vols. 1 and 2, edited by G. Bellini, R. Raghavan, et al. (Univ. of Milano, Milano, 1992); R. S. Raghavan, Science 267, 45 (1995).
+
+[25] G. Laurenti et al., in Proceedings of the Fifth International Workshop on Neutrino
+
+Telescopes, Venice, Italy, 1993, edited by M. Baldo Ceolin (Padua Univ., Padua, Italy 1994), p. 161; G. Bonvicini, Nucl. Phys. B. 35, 438 (1994).
+
+[26] S. R. Bandler et al., Journal of Low Temp. Phys. 93, 785 (1993); R. E. Lanou, H. J.
+
+Maris, and G. M. Seidel, Phys. Rev. Lett. 58, 2498 (1987).
+
+[27] J. Bahcall and M. Pinsonneault, Rev. Mod. Phys. 64, 885 (1992). [28] V. Berezinsky, G. Fiorentini, and M. Lissia, Phys. Lett.341B, 38 (1995). [29] N. Hata and P. Langacker, Phys. Rev. D 50, 632 (1993).
+
+28
+
+[30] P. Krastev and S.T. Petcov, Phys. Rev. Lett. 72, 1960 (1994); Nucl. Phys. B 449, 605
+
+(1995).
+
+[31] E. Gates, L.M. Krauss, and M. White, Phys. Rev. D 51, 2631 (1995). [32] T. K. Kuo and J. Pantaleone, Rev. Mod. Phys. 61, 937 (1987). [33] E. Calabresu, N. Ferrari, G. Fiorentini, and M. Lissia, preprint INFN-FE-10-95, June
+
+1995,  (unpublished).
+
+[34] Z. Berezhiani and A. Rossi, Phys. Rev. D 51, 5229 (1995). [35] K. Hirata et al., Phys. Rev. D 44, 2241 (1991). [36] A. J. Baltz and J. Weneser, Phys. Rev. D 35, 528 (1987); Phys. Rev. D 37, 3364 (1988). [37] P. Krastev and S.T. Petcov, Phys. Lett. B 207, 64 (1988); [Erratum: B214, 661 (1988)].
+
+See also S. T. Petcov, Phys. Lett. B 200, 373 (1988); 214, 139 (1988).
+
+[38] P.I. Krastev and A. Yu. Smirnov, Phys. Lett. B 338, 282 (1994). [39] W. C. Haxton, Phys. Rev. Lett. 60, 768 (1988); J. Engel, S. Pittel, and P. Vogel, Phys.
+
+Rev. Lett. 67, 426 (1991); J. Engel, P. I. Krastev, and K. Lande, Phys. Rev. C 51, 2837 (1995).
+
+[40] K. Kubodera and S. Nozawa, Int. J. of Mod. Phys. 3, 101 (1994); S. Ying, W. C.
+
+Haxton, and E. M. Henley, Phys. Rev. D 40, 3211 (1989); J. Bahcall, K. Kubodera, and S. Nozawa, Phys. Rev. D 38, 1030 (1988).
+
+[41] J. N. Bahcall and E. Lisi, in preparation (1995). [42] J. N. Bahcall, Phys. Rev. D. 44, 1644 (1991)
+
+29
+
+FIGURES FIG. 1. Allowed MSW Solutions. The allowed regions at 95% C.L. are shown for sin2 2` and \Delta m2 with the MSW solution of the solar neutrino problems. The dashed and dash-dotted line contours are for the solar models [13] (1988) and [27] (1992); the full line contour is for the most recent solar model [5] (1995). The points where O/2 has a local minimum are indicated by a triangle (1988 solar model), a square (1992 model), and a circle (1995 model).
+
+30
+
+FIG. 2. Allowed Vacuum Solutions. The allowed regions at 95% C.L. are shown for the vacuum neutrino oscillation solution of the solar neutrino problems. The symbols have the same meaning as for Fig. 1.
+
+31
+
+FIG. 3. The minimum O/2 as a function of one neutrino flux for the MSW solution. One neutrino flux and the neutrino oscillation parameters, sin2 2` and \Delta m2, are treated as free parameters. In Fig. 3a, the pp neutrino flux is treated as a free parameter; in Fig. 3b and Fig. 3c, the 7Be and 8B fluxes are treated as free parameters. The horizontal line marks O/2 = O/2min + 1:0. The vertical
+
+lines represent the luminosity constraint, Eqs. (7)-(10).
+
+32
+
+FIG. 4. The minimum O/2 as a function of one neutrino flux for the vacuum oscillation solution. One neutrino flux and the neutrino oscillation parameters, sin2 2` and \Delta m2, are treated as free parameters. In Fig. 4a, the pp neutrino flux is treated as a free parameter; in Fig. 4b and Fig. 4c, the 7Be and 8B fluxes are treated as free parameters. The horizontal line marks O/2 = O/2min + 1:0. The vertical lines represent the luminosity constraint, Eqs. (7)-(10).
+
+33
+
+FIG. 5. Future Experiments: The Small Mixing Angle MSW Solution Assumed Correct and the `Future' Allowed MSW Solutions. Assuming the correctness of the small mixing angle MSW solution, the results of future solar neutrino experiments are calculated. A 5% error, normally-distributed, is assumed for each of the future experiments. The 95% C.L. allowed regions for \Delta m2 and sin2 2` are calculated in a)-c) for four operating and one new experiment and in d) for four operating and two new experiments. The regions enclosed within the dark lines are permitted by the four operating experiments and the regions enclosed within the dashed lines are permitted by the combined operating and future experiments.
+
+34
+
+FIG. 6. Future Experiments: The Small Mixing Angle MSW Solution Assumed Correct and the `Future' Allowed Vacuum Oscillation Solutions. The caption for this figure is the same as for Figure 5 except that the allowed regions for vacuum neutrino oscillations are calculated for the combined operating and future experiments.
+
+35
+
+FIG. 7. Future Experiments: Vacuum Mixing Assumed Correct and the `Future' Allowed MSW Solutions. Assuming the correctness of the minimum O/2 vacuum neutrino solution, the results of future solar neutrino experiments are calculated. A 5% error, normally-distributed, is assumed for each of the future experiments. The 95% C.L. allowed regions for \Delta m2 and sin2 2` are calculated in a)-c) for four operating and one new experiment and in d) for four operating and two new experiments. The regions enclosed within the dark lines are permitted by the four operating experiments and the regions enclosed within the dashed lines are permitted by the combined operating and future experiments.
+
+36
+
+FIG. 8. Future Experiments: Vacuum Mixing Assumed Correct and the `Future' Allowed Vacuum Oscillation Solutions. The caption for this figure is the same as for Figure 7 except that the allowed regions for vacuum neutrino oscillations are calculated for the combined operating and future experiments.
+
+37
+

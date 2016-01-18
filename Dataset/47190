@@ -1,0 +1,5473 @@
+RARE B AND C DECAYS,
+AND THE CKM MATRIX
+
+
+
+Jon J. Thaler
+University of Illinois
+Urbana, IL 61801 USA
+jjt@uiuc.edu
+
+
+
+
+
+I report on developments in the experimental and
+phenomenological understanding of the rare decays of mesons
+containing b and c quarks, especially as they pertain to the
+understanding of the CKM matrix and the testing of the standard
+ 25 Jul 1995 model. Some related measurements are also discussed.
+
+
+Introduction
+
+There have, historically, been two principal approaches to testing theories of
+particle physics. One has been the use of novel accelerators to study previously
+inaccessible or unknown phenomena. The other has been the increasingly precise
+measurement of known processes or particles. The recent discovery of the top quark1
+
+is an example of the former, while the precise measurement of Zo decays2 is an
+example of the latter. The LHC will be the next novel accelerator to be built, so the
+next decade's progress will rely on our ability to improve experimental and theoretical
+precision. Fortunately, there is much activity in this direction, and I am confident that
+progress will continue to be made.
+
+In this talk, I will discuss the past year's work on rare decays of B and D mesons,
+which has tended to focus on two large issues. The first is the improvement in the
+measurement of the CKM matrix elements. The origin of quark mixing remains
+obscure, and precise measurement may be required to reveal a pattern. The second
+issue is the search for phenomena which do not fit within the standard model. The
+discovery of CP violation is an archetypal example of such a phenomenon (in 1964,
+K
+L was a rare decay). By organizing my talk around these two issues, I will, by
+necessity, mention a few topics which are somewhat outside the scope implied by the
+title. I will also not mention a few topics which I ought to (but my talk is not allowed
+to run overtime). I will leave most of CP violation to Kacper Zalewski3.
+
+What's new
+
+I list here the new developments that I will discuss:
+
+E791 (FNAL): New limits on FCNC in D decays.4
+E687 (FNAL): New limits on CP violation in D decays.5
+New measurements of Cabibbo suppressed D decays.6
+CDF (FNAL): New limits on FCNC in B decays.7
+ALEPH (LEP): Rare hadronic B decays.8
+DELPHI (LEP): Rare hadronic B decays.9
+CLEO (Cornell): New limits on CP violation in D decay.10
+New limits on radiative D decay.11
+Observation of B .12
+Improved measurements of rare hadronic B decays.13
+New measurement of D e14
+BES (Beijing): Measurement of Ds µ.15
+Phenomenology: DCSD and mixing might interfere in the D system.16
+Inclusive b c can be used for Vcb.17
+¡
+
+
+CKM Matrix
+
+Here is the CKM matrix, as given by the Particle Data Group18, showing
+Wolfenstein's parameterization19:
+
+
+1 - 2 A3 ( - i)
+
+v
+2
+ud vus vub
+
+2
+V = v
+
+cd vcs vcb - 1 - A2
+
+2
+v
+
+td vts vtb A
+3 1
+( - -i) -A2 1
+
+
+0
+.94747 -0.94759 0.218-0.224 0.002 -0.005
+=
+0.218 -0.224 0.9738-0.9752 0.032 -0.048
+
+0.004
+-0.015 0.030 -0.048 0.9988 -0.9995
+
+These are 90% confidence level intervals. Some are known very well and some
+hardly at all. Also, some of the values given are calculated, in the absence of direct
+experimental data, by assuming 3-generation unitarity. We desire not only to improve
+the accuracy, but also to reduce the reliance on standard model assumptions. The
+parameterization itself needs to be tested. For example, to what accuracy does
+|Vcb| = |Vts|? Some issues related to the accuracy of the Wolfenstein parameterization
+are discussed by Buras, et al.20 Figure 1 shows the usual graphical representation of
+the relation between , , and the CKM matrix elements. The fact that , , and A are
+all O(1) justifies the form chosen.
+
+There has been some new experimental data in the past year, but the biggest
+changes have come from improved theoretical understanding. Vcb is now known
+about twice as well as before, and there are the first beginnings of measurements of
+Vts and Vtb.
+
+I will have little to say about the "Cabibbo" (2x2) part of the matrix. It is
+measured to be:
+
+Vud = 0.9744 ± 0.0010 Beta decay,
+Vus = 0.2205 ± 0.0018 K e,
+Vcs = 1.02 ± 0.18 D Ke,
+Vcd = 0.204 ± 0.017 Charm production by neutrinos.
+
+
+
+
+
+
+(,)
+
+
+
+V* V
+ub t d
+||V || ||V ||
+cb cb
+
+(1 ,0 )
+
+Figure 1: One unitarity triangle that can be formed with the CKM matrix.
+
+
+
+The measurement of V is not improved by recent CLEO results, B(De)/ (DKe)
+cd
+
+= 0.103 ± 0.039 ± 0.013, because DKe background contaminates the signal. This
+situation is not likely to change significantly until the CLEO-III upgrade,21 which will
+have improved particle identification, is complete. It is sobering to note that the
+accuracy of the 2x2 matrix is not sufficient to infer the presence of a third generation
+solely from unitarity considerations. Unless there is something vastly wrong with Vtb,
+it seems unlikely that a fourth generation will be discovered by studying the CKM
+matrix.
+
+At the present time, rare B decays are comparable with K meson CP violation in
+their ability to determine the Wolfenstein parameters and .22 Figure 2 shows the
+current situation. Modest improvement in the B system will show that _ 0 without
+relying on K mesons. A comparison of K and B decays will test consistency of the
+model, especially when K+ + is measured. For the next few years more progress
+will be in the B system, at least partly because more effort is going into that work.
+
+Various B processes allow direct measurements of four of the five outer CKM
+matrix elements. I will discuss each of them here. Glasgow results are taken from Ali
+and London.23
+
+
+Vub V
+=0.075±0.01±0.01 td
+V =0.24±0.04 K
+cb Vcb
+
+
+
+
+
+0.4
+
+Allowed
+
+
+
+
+
+
+0
+-0.4 0 0.4
+
+Figure 2: Allowed region of the - plane.
+
+
+Vub
+
+Processes such as B , , , , which have only light quarks in the final
+state, are sensitive to Vub. The best measurements have come from inclusive
+b u decays24 (see figure 3). The useful end point of the lepton spectrum is only a
+small part of the phase space, and there are severe theoretical uncertainties in the
+analysis. |V / V | = 0.075 ± 0.02 V = (3.1±0.9)·10-3. This spring, CLEO announced
+ub cb ub
+
+the observation of the exclusive mode,12 with a branching ratio of
+¡
+
+
+
+
+
+-
+(1.70 ± 0 . 51 ± 0 .31 ± 0 . 27 ) 10 4 ( ) ( )
+. They also obtained B / B < 3 .4 . Figure 4
+shows the result.
+¡
+
+
+
+
+
+CLEO determines the neutrino momentum by fully reconstructing the entire
+event. The large data sets which this method requires are only now becoming
+available. The result is somewhat model dependent because of acceptance
+limitations. I quote the branching ratio which uses the WSB model, since ISGW is
+2
+
+incompatible with the upper limit. Theory predicts25 B( ) = (5 -12 ) Vub . So,
+
+V ~ (4.5±2.3)·10-3, with comparable experimental and theoretical uncertainties. This
+ub
+
+is not yet a competitive method, but its usefulness will increase with detector upgrades
+(background reduction) and more theoretical work.
+
+
+BB data
+
+60 Scaled continuum
+
+Fit to continuum
+40
+
+
+20
+
+
+0
+
+BB data - Fit
+
+Predicted bc
+40
+Signal
+region
+
+
+
+0
+
+
+2.00 2.25 2.50 2.75 3.00
+
+Lepton momentum (GeV/c)
+
+Figure 3: Inclusive measurement of b u .
+¡
+
+
+
+
+
+30
+
+
+Fit
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20 bc
+
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨
+
+
+
+
+
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+¨
+§
+¨
+§ § § § § § § § § § § § § § § § §
+
+
+
+
+
+§
+§ § § § § § § § § § § § § § § § §
+10 § § § § § § § § § § § § § § § § § §
+
+¦
+¦ ¦ ¦ ¦ ¦ ¦ ¦ ¦ ¦
+
+
+
+
+
+
+¦
+¦ ¦ ¦ ¦ ¦ ¦ ¦ ¦ ¥
+¦ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¤
+¥ ¤ ¤ ¤ ¤ ¤
+
+
+
+
+
+
+¦
+¦ ¦ ¦ ¦ ¦ ¦ ¦ ¦ ¥
+¦ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¤
+¥ ¤ ¤ ¤ ¤ ¤
+
+
+
+
+
+
+¦
+¦ ¦ ¦ ¦ ¦ ¦ ¦ ¦ ¥
+¦ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¥ ¤
+¥ ¤ ¤ ¤ ¤ £
+¤ £ £ £ £
+
+
+
+
+
+
+¦
+
+¦
+¦
+¦
+¦
+¦
+¦
+¦
+¦
+¥
+¦
+
+¥
+¥
+¥
+¥
+¥
+¥
+¥
+¥
+¤
+¥
+¤ ¤ ¤ ¤ £
+¤ £ £ £ ¢
+£ ¢ ¡
+¢ ¡
+¢ ¡ ¡
+Events per 7.5 MeV
+
+
+¤
+¤ ¤ ¤ ¤ £
+¤ £ £ £ ¢
+£ ¢ ¡
+¢ ¡
+¢ ¡ ¡
+
+
+
+
+
+
+
+
+¤
+
+¤
+¤
+¤
+¤
+£
+¤
+£
+£ £ ¢
+£ ¢ ¡
+¢ ¡
+¢ ¡ ¡
+
+
+
+
+
+
+
+
+
+£
+£
+£ £ ¢
+£ ¢ ¡
+¢ ¡
+¢ ¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+¢
+¢ ¡
+¢ ¡
+¢ ¡ ¡
+
+
+
+
+
+
+
+
+
+
+
+
+¢
+
+¢
+¡
+¢
+
+¡
+¢
+¡
+¡
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+©
+© © ©
+0 © © © ©
+
+5.1 5.2 5.3
+Beam Constrained Mass (GeV)
+Figure 4: Beam constrained mass in BB events.
+¡
+
+
+Vcb
+
+
+Vcb controls most B decays, such as B D, D , and D , so, strictly speaking,
+this quantity falls outside a rare decay talk. I will mention it briefly. There are no
+new experimental results, but there is an important theoretical
+development. A typical old result26 is CLEO's measurement
+-1
+B
+( D )
+= (29.9 ±1.9 ± 2 .7 ± 2.0 )ns . This yields F(1)V = 0.0351 ± 0.0019 ±
+cb
+0.0018 ± 0.0008, and HQET tells us F(1) = 0.91±0.0427. At Glasgow we had Vcb = 0.039
+± 0.006. Shifman and Ultrasev17 have observed that inclusive c also provides useful
+information about Vcb. Neubert,27 and Ball, Benke, and Braun28 have used this to
+obtain Vcb = 0.041±0.003, a significant improvement.
+
+Vtb
+
+There has until now been no data with a direct bearing on Vtb. The PDG number
+is obtained from unitarity constraints. CDF has now measured29 the probabilities for tt
+BF(t Wb ) = +0.13+0.13
+0 .87-0.30-0.11
+events to have 0, 1, or 2 b-quark jets. They obtain BF(t Wq ) , which
+>
+implies Vtb 0.016 if one assumes that there are no unknown decay channels. The
+limit is very weak, because Vtb is being played against Vts and Vtd. A significantly
+
+better limit will require a measurement of qq t b after the Main Injector is
+operational at Fermilab. Stelzer and Willenbrock estimate30 that 10% accuracy can be
+obtained with 3 fb-1 of integrated luminosity.
+
+Vtd
+
+CKM matrix elements which do not have a "b" in the subscript may nevertheless
+be measured in B decays which depend on loops. For example, if V = 1
+tb then BB
+mixing tells us20,22
+
+0.76 0.5
+- 170GeV x 1.5 ps
+V = 3 200MeV
+d
+
+td 8 .7 10 B
+
+B f B mt 0 .72 B
+= 9
+( .9 ±1.8 )10-3
+
+For this purpose mt, xd, and B are all known quite well, 5.3%, 5.7%, and 3.8%
+
+respectively. BB is known to 5-10% as well, so fB dominates the uncertainty. I will
+d
+discuss the determination of fB and fD below. A hundred thousand t-quark events
+would allow LHC to measure Vtd directly. This is a difficult measurement.
+
+
+50
+
+
+
+
+
+25
+
+
+
+
+
+
+0
+
+Events / 0.1 GeV
+
+
+-25
+
+
+1.8 2.0 2.2 2.4 2.6 2.8
+
+E (GeV)
+Figure 5: Inclusive bs photon energy spectrum observed by CLEO.
+The curve is the theoretical prediction.
+
+Vts
+
+The CLEO observation31 of the electromagnetic penguin, bs, (see figure 5) has
+been used by Griffin, Masip, and McGuigan32 to extract Vts = 0.026 ± 0.006 ± 0.011.
+*
+The amplitude for this process is proportional to VtbVts , so they assume that Vtb = 1
+(see the discussion above). They also must determine the form factors by
+
+extrapolating from D K * . BsB s mixing is a more promising long term method,
+but at this time there is only a limit, xs ³ 9.33
+
+fBd
+
+The interpretation of BB mixing data is limited by the knowledge of the heavy-
+light decay constant fB . There is no direct experimental measurement of this number;
+d
+
+only upper limits exist for the most promising decay mode, B.
+
+
+Experiment Limit on B
+
+ALEPH34 1.8·10-3
+ARGUS35 10.4·10-3
+CLEO36 2.2·10-3
+
+
+These results are background limited. CLEO may have improved sensitivity with its
+new silicon vertex detector, which will allow separation of from charm and other
+backgrounds. It remains to be seen whether CLEO can achieve the factor of 100
+required to detect the anticipated 4·10-5 branching ratio.
+
+In the absence of a measurement, one relies on more indirect methods. Much
+effort has gone into calculating fB and fD. Recent results are promising, but the
+uncertainties are still large. I take some lattice results from a review talk by S.
+Güsken.37
+
+
+
+Group fD (MeV) f (MeV) f
+Ds Bd (MeV)
+
+
+PSI-WUI37 170 ± 30 180 ± 50
+
+
+BLS37 208 ± 35 ± 12 147 ± 6 ± 23
+
+
+MILC38 180 ± 4 ± 18 ± 16 194 ± 3 ± 16 ± 9 148 ± 4 ± 14 ± 19
+
+
+LANL39 230 to 240 260 to 270
+
+
+Neubert, et al.40 281 ± 44
+
+
+
+In general, f is about 10% larger than f . The last result is not a lattice calculation,
+Qs Qd
+but the use of factorization and B(BoD+Ds) / B(BoD+-) = 4.63 ± 1.45.
+
+The values of fD are especially interesting, because D
+s sµ has been measured.
+
+
+
+
+Group fD (MeV)
+s
+
+
+WA7541 232±45±20±48
+
+CLEO42 344±37±52±42
+
++150+40
+BES15 430-130 -40
+Only the BES result is new since last summer. They observe 3 events. CLEO has
+about 80 events, but the background, mostly charm semileptonic decays, is large (see
+figure 6). Improved vertex reconstruction will reduce the signal to background ratio.
+
+
+60
+
+
+2
+
+
+40
+
+£
+# £ £ £ £
+
+
+
+
+
+
+#
+
+
+
+
+
+¢
+¢
+¢ ¢ ¢
+# ¢
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¥
+¥ ¥ ¥ ¥
+
+
+
+
+
+
+
+
+
+
+
+
+¡ ¡ ¡ ¡ ¡
+¡
+¤
+¤ ¤ ¤ ¤
+
+
+
+
+
+
+¡ ¡ ¡ ¡ ¡
+¡
+
+
+
+
+
+
+¦
+¦ ¦ ¦ ¦
+
+
+
+
+
+
+¦
+¦ ¦ ¦ ¦
+§
+§ § § §
+
+
+
+
+
+§
+§ § § §
+
+
+
+
+
+
+
+
+
+
+
+
+
+20
+
+
+
+
+
+
+
+© ©
+"
+" " " "
+
+
+
+
+
+© ©
+"
+" " " "
+
+
+
+
+
+© ©
+
+
+
+
+
+© ©
+
+$
+
+
+
+
+
+
+©
+© ¨
+¨ ¨ ¨ ¨
+!
+$ ! !
+!
+!
+
+
+
+
+
+!
+$ ! !
+!
+!
+Events per 20 Mev/c
+
+
+
+0
+0.00 0.10 0.20 0.30
+Mass difference M (GeV/c2)
+* ( )
+Figure 6:
+CLEO data for Ds Ds µ The dashed histogram is
+the background, measured using electrons.
+
+Beyond the SM:
+
+Searches for new phenomena, even when unsuccessful, teach us much about
+particle physics. Unsuccessful searches for flavor changing neutral currents (FCNC)
+led to the GIM mechanism. Now, the D meson system may be the best low energy
+place to look for nonstandard physics, because the standard model predicts
+unmeasurably small mixing, CP violation, and FCNC.
+
+D mixing & CP:
+
+Mixing (or DCSD) has now been seen both by CLEO43 and E-791.44
+
+
+BR Do K + -
+( ) = (7.7 ±2.5 ±2.5)10-3 x
+= (2.9 ±1.0 ±1. 0) tan4 c (CLEO)
+BR Do K - +
+( )
+
++ + =
+BR D K - +
+( ) (10. 3 ± 2 . 4 ±1.3 )10 -3
+= (3.9 ±0.9 ± 0.5 )tan4 c (E 791)
+BR D + K -+ +
+( )
+
+CLEO does not have lifetime information. That would distinguish mixing
+from doubly Cabibbo suppressed decays (DCSD). The best mixing limit
+
+
+remains that from Fermilab E61545 using semileptonic decays:
+
+r < 5.6·10-3. Other results46 assume no interference between DCSD and mixing,
+mix
+
+which is probably incorrect.47,48 There remains some controversy about whether the
+standard model predicts very small r (²10-8) or quite large (~10-3). The issue is the
+mix
+
+size of long distance corrections.48,49 If the prediction is small, then mixing could be a
+signal for new physics. A fourth generation, two Higgs doublets, or leptoquarks can
+all cause significant mixing.48
+
+E-687 and CLEO have new limits on CP violation in D decays.50 These are still
+not very stringent: A < 5-10% in several decay modes such as DoK+K-.
+CP
+
+
+B mixing and CP:
+
+Asymmetries due to the CP impurity of the mass states, as in the K system, are
+expected to be very small, because /M << 1. For example, the standard model
+predicts semileptonic charge asymmetries O(10-3) for B and O(10-4) for B . Direct CP
+d s
+
+violation in decay rates requires the interference between two processes leading to the
+same final state In order to perform consistency tests, one wants to look at various
+channels which measure different angles of the unitary triangle, One way to have two
+interfering processes is to look at states (e.g., CP eigenstates) which are equally
+accessible from Bo and B o . In that case mixing may produce interference. One
+difficulty is identifying the initial state. Another difficulty is that the time integrated
+asymmetry is zero. Asymmetric B factories will attack this problem by looking at the
+time dependence and tagging one B using the decays of the other.
+
+Comparison of B f with B f does not require a time measurement, and it can be
+used with charged B's. Interference occurs when two different diagrams contribute to
+the process (e.g., tree and penguin for K-o). One is not restricted to Bo decays. B±
+will do as well. The trick is to find decay modes which have both a significant
+asymmetry and a large enough branching ratio to be observable. An asymmetry also
+requires both weak and strong phases for the two diagrams.
+
+New results on rare hadronic B decays, such as Bo+- and K+-, have
+implications for future CP violation searches. Bo+- is dominated by the bu
+spectator diagram. It could be used to measure +
+V and CP. BoK - is primarily a
+ub
+
+hadronic penguin. The recent discussion of extracting phase angles from time
+integrated rates51 is of obvious interest to CLEO, which will have high luminosity
+(comparable to the B factories), but equal beam energies. The idea is that CP could
+be observed in B± as well as Bo decays, because direct CP is expected to be
+significant. An example is: ±
+B±K , B±±, B±K ±. CP violation would
+
+
+r 2 A(+o )
++ o) ) - o
+-
+A(K o)
+2 2 A(K
+. .. A(
+2 2
+r
+
+
+A(K o-) = A(K o+)
+Figure 7: Amplitude triangles for three B± decay modes. CKM unitarity
+and SU(3) symmetry imply the triangle relationships among
+the decay amplitudes.
+
+
+manifest itself as a charge asymmetry in the decay rates (see figure 7). CLEO quotes
+only upper limits13 in any single exclusive channel, (1 - 5)·10-5 in +-, K+-, +o, K+o,
+oo, Ko+, and Koo. However, there is an unambiguous signal in the
+= +5 .6 +2.2
+sum +- 17 . 2
++K+-. N+KK -4.9 -2.5 events (5.2 from 0, see figure 8).
+Particle identification limitations prevent a clean separation. B(+- or K+-) =
+(1.8±0.6±0.2)·10­5. ALEPH has 2 +- events (one event reported in `94 has been cut),
+while DELPHI has 3 events in different modes. They both report upper limits
+somewhat higher than CLEO's. New results are expected this summer. An increase of
+a factor of ten in integrated luminosity, so that there are about 100 events in each
+mode, along with an improvement in particle identification, may allow a 10 degree
+measurement of .
+
+FCNC:
+Flavor changing neutral currents (B or D or X ) have much in common with
+the radiative penguin process, b,c X. Having two charged leptons in the final state,
+they are easier to detect. However, the decay rates are expected to be quite a bit
+smaller, and they suffer from significant contamination from long distance effects,
+especially B X. There are several new results on FCNC (see the table on the next
+page). All are limits, although CLEO will approach the standard model prediction for
+
+BoKoe+e- in the next year or two. Due to large long distance (vector dominance)
+effects in radiative D decays, only D++e+e- appears to have a new physics
+opportunity in the D system.
+
+
+6
+
+
+
+
+
+
+
+
+K+-
+2 +-
+
+© © © ©
+4 © © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © ©
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+2 © © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+
+
+
+
+
+© © © © § § § § ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¢ ¡ ¡ ¡ ¡
+Events per 2.5 MeV / c ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ©
+©
+©
+©
+¨ ¨ §
+¨ §
+¨ §
+¨ §
+¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ ¢
+£ ¢
+£ ¢
+£ ¢
+£ ¢
+£ ¢
+£ ¢
+£ ¢
+£ £ ¡
+£ ¡
+£ ¡
+£ ¡
+£
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¤ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¨ ¥ ¥ ¥ ¥ ¦ ¦ ¦ ¦ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £ £
+
+
+
+
+
+5.21 5.23 5.25 5.27 5.29
+
+Mass (GeV/c2 )
+
+Figure 8: CLEO's evidence for B or K.
+
+
+
+
+Experiment Process Upper limit SM prediction52
+
+
+CLEO13 B+K+e+e- 1.2·10 -5 0.06·10 -5
+
+
+K+µ+µ- 0.9·10 -5 0.06·10 -5
+
+
+BoKoe+e- 1.6·10 -5 0.56·10 -5
+
+
+Koµ+µ- 3.1·10 -5 0.29·10 -5
+
+
+CLEO11 D(,,) (1 to 2)·10 -4 10 -6 to 10 -4
+
+
+CDF7 B+K+µ+µ- 3.5·10 -5 0.06·10 -5
+
+
+K+*µ+µ- 5.1·10 -5 0.23·10 -5
+
+
+B oµ+µ- 0.2·10 -5 8·10 -11
+d
+
+
+B oµ+µ- 0.7·10 -5 2·10 -9
+s
+
+
+E7914 D++e+e- 6.6·10 -5 ~1·10 -8
+
++µ+µ- 1.8·10 -5 "
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+2 £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+CLEO
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ Unitarity
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+SM
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+1 £
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+0 £
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+
+
+
+
+
+£
+¤ £
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+£
+¤
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+¡
+¢
+-1 £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+D0 & CDF
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+-2 £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+£
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ £
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢
+£
+¤ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢ ¡
+¢
+
+
+
+
+
+-4 -2 0 2 4
+
+Figure 9: 90% c.l. limits on WW anomalous couplings. The dashed
+oval is the unitarity limit for W = 1.5 TeV. Adapted from
+Hinchliffe.53
+
+
+
+Anomalous gauge boson couplings:
+
+Finally, I would like to mention a pretty result. The CLEO value31 for B(bs) =
+(2.32 ± 0.57 ± 0.35)·10-4, can be combined with CDF and D0 measurements54 of W
+production to constrain anomalous WW couplings (see figure 9). The results are
+consistent with the standard model (no anomalous couplings). The limits are already
+better than unitarity constraints, and will continue to improve.
+
+Acknowledgments
+
+I would like to thank all those people who provided me with their data,
+especially, Tony Liss, Tom LeCompte, Alan Litke, Wilbur Venus, Karen Lingel, Mats
+Selen, Milind Purohit, Jeff Appel, and Noel Stanton. I would also like to thank Scott
+Willenbrock and Aida El-Khadra for stimulating discussions. Finally, I thank Tom
+Browder and Klaus Honscheid, whose "B Mesons" review paper provided valuable
+guidance.
+
+1 Observation of the Top Quark, talk at this conference by Soo-Bong Kim.
+2 Precision Tests of Electroweak Interactions, talk at this conference by Wolfgang Hollik.
+3 Structure and Decay of Heavy Quarks, talk at this conference by Kacper Zalewski.
+4 M. V. Purohit, J. A. Appel, and Noel Stanton, private communication.
+5 P. Frabetti, et al., Phys. Rev. D50,2953(1994).
+6 P. Frabetti, et al., Phys. Lett . B321,295(1994) and Phys Lett B346,199(1995).
+7 Carol Anway-Wiese, Fermilab-Conf-94/210-E.
+8 A.M. Litke, SCIPP 94/35 (1994). in Proceedings of the XXVII International Conference on High Energy Physics
+(Glasgow 1994), p. 1333, and private communication.
+
+
+
+9 CERN-PPE/Draft2/Paper0104. Wilbur Venus, private communication.
+10 J. Bartelt, et al., CLNS 95/1333.
+11 M. Selen, talk at APS Meeting, April 1995.
+12 L. Gibbons, talk at 30th Rencontres de Moriond (1995).
+13 S. Playfer and S. Stone, HEPSY 95-01 , to appear in Intl. J. Mod. Phys. Lett.
+14 F. Butler, et al., CLNS 95/1324 (1995).
+15 J.Z. Dai, et al., SLAC-PUB-95-6746 (1995), to appear in Phys. Rev. Lett.
+16 T. Liu, in Proceedings of the CHARM2000 Workshop, 375(1995),
+G. Blaylock, A. Seiden, and Y. Nir, SCIPP-95-16 .
+17 M. Shifman, in Proceedings of the XXVII International Conference on High Energy Physics (Glasgow 1994), p,
+1125,
+M. Shifman and N. G. Ultrasev, TPI-MINN-94/41-T .
+18 Particle Data Group, Phys. Rev. D50, 1175 (1994)..
+19 L. Wolfenstein, Phys. Rev. Lett 51, 1945 (1983).
+20 A. J. Buras, M. E. Lautenbacher, and G. Ostermaier, Phys. Rev. D50, 3433 (1994).
+21 K. Berkelman, CLNS 93/1265 (1993).
+22 A. J. Buras, MPI-PhT/95-17, to appear in Acta Physica Polonica.
+23 A. Ali and D. London, in Proceedings of the XXVII International Conference on High Energy Physics (Glasgow
+1994), 1133 (1995),
+A. Ali and D. London, CERN-TH.7398/94.
+24 H. Albrecht, et al., Phys. Lett. B234, 409 (1990),
+H. Albrecht, et al., Phys. Lett. B255, 297 (1991),
+R. Fulton, et al., Phys. Rev. Lett. 64, 16 (1990),
+J. Bartelt, et al., Phys. Rev. Lett. 71, 4111 (1993).
+25 M. Wirbel, B. Stech, and M. Bauer, Z. Phys. C29, 637 (1985).
+J. G. Körner and G.A. Schuler, Z. Phys. C38, 511 (1988),
+P. Ball, Phys. Rev. D48, 3190 (1994),
+S. Narison, CERN-TH.7237/94 (1994),
+N. Isgur and D. Scora, CEBAF-TH-94-14 (1994),
+R. Faustov, V.O. Galkin, and A. Yu. Mishurov, .
+26 B. Barish, et al., Phys. Rev. D51, 1014(1995),
+M. Athenas, et al., Phys. Rev. Lett. 73, 3503(1994),
+I.J. Scott, in Proceedings of the XXVII International Conference on High Energy Physics (Glasgow 1994),
+1121(1995),
+H. Albrecht, et al., Z. Phys. C57, 533(1993),
+H. Albrecht, et al., Phys. Lett. B318, 397(1993).
+27 M. Neubert, in Proceedings of the XXVII International Conference on High Energy Physics (Glasgow 1994), 1129
+(1995),
+M. Neubert, CERN-TH/95-107 ,
+28 P. Ball, M. Benke, and V.M. Braun, CERN-TH/95-65 ,
+also see T.E. Browder and K. Honscheid, OHSTPY-HEP-E-95-010,
+to appear in Progress in Nuclear and Particle Physics 35.
+29 T. J. LeCompte and R. M. Roser, CDF/ANAL/TOP/CDFR/3056 (1995),
+and private communication.
+30 T. Stelzer and S. Willenbrock, ILL-(TH)-95-30, .
+31 R. Ammar, et al., Phys. Rev. Lett. 71, 674(1993),
+M.S. Alam, et al., Phys. Rev. Lett. 74, 2885(1995).
+32 P.A. Griffin, M. Masip, and M. McGuigan, Phys. Rev. D 50, 5751 (1994).
+33 Yi-Bin Pan, in Proceedings of the XXVII International Conference on High Energy Physics (Glasgow 1994), p. 753,
+S. Komamiya, ibid., p. 757.
+34 D. Buskulic, et al., Phys. Lett. B343, 444 (1994).
+35 H. Albrecht, et al., DESY 94-246.
+36 J. Alexander, et al., CLEO-CONF-94-5, to appear in Phys Rev Lett.
+37 S. Güsken, WUB 95-08, talk at Workshop on Heavy Quarks.
+38 C. Bernard, et al., FSU-SCRI-95C-28, talk at LISHEP95 .
+39 T, Bhattacharya and R. Gupta, .
+40 M. Neubert, V, Rieckert, B. Stech, Q.P. Xu, in Heavy Flavors (A. Buras and M. Lindner, eds.), p. 286 (1992).
+
+
+
+41 S. Aoki, et al., Prog. Theor. Phys. 89, 131 (1993).
+42 D. Acosta, et al., Phys. Rev. D49, 5690 (1994).
+43 D. Cinabro, et al., Phys. Rev. Lett. 72, 1406(1994),
+44 M. Purohit and J. Weiner, FERMILAB-CONF-94/408-E, to appear in the Proceedings of the Eight Meeting of the
+DPF of the APS (DPF `94).
+45 W.C. Louis, et al., Phys. Rev. Lett. 56, 1027(1986).
+46 M.V. Purohit, et al., FERMILAB-CONF-94/186-E.
+47 T. Liu, in the Proceedings of the CHARM2000 Workshop, 375(1995),
+G. Blaylock, A. Seiden, and Y. Nir, SCIPP-95-16 .
+48 J.L. Hewett, SLAC-PUB-95-6821 .
+49 T.A. Kaeding, LBL-37224 ,
+L. Wolfenstein, Phys. Lett. B164, 170(1985),
+L. Wolfenstein, CMU-HEP95-04 .
+50 P. Frabetti, et al., Phys. Rev. D50,2953(1994),
+J. Bartelt, et al., CLNS 95/1333.
+51 M. Gronau, J.l. Rosner, and D. London, Phys. Rev. Lett. 73, 21(1994),
+N. G. Deshpande and X-G. He, Phys. Rev. Lett. 74, 26(1995),
+M. Gronau, et al., TECHNION-PH-95-10, ,
+O.F. Hernandez, UdeM-GPP-TH-95-20, .
+52 A. Ali and T. Mannel, Phys. Lett. B264, 446 (1991),
+A. Ali, C. Greub, and T. Mannel, DESY-93-016 (1993),
+G. Burdman, E. Golowich, J. L. Hewett, and S. Pakvasa, SLAC-PUB-6692 ,
+A. J. Schwartz, Mod. Phys. Lett. A8, 967 (1993).
+53 I. Hinchliffe, LBL-37014 , talk at International Symposium on Vector Boson Self Interactions
+(1995).
+54 F. Abe, et al., Phys. Rev. Lett. 74, 1936 (1995),
+S. Abachi, FERMILAB-PUB-95-101-E .
+
+
+

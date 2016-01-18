@@ -1,0 +1,316 @@
+
+
+ 20 Jul 1995
+
+ANL-HEP-PR-95-31
+
+July 20, 1995
+
+Perturbative Gluon Resummation of the
+
+Top-Quark Production Cross Section
+
+Edmond L. Berger and Harry Contopanagos High Energy Physics Division, Argonne National Laboratory
+
+Argonne, IL 60439-4815, USA
+
+ABSTRACT We present a calculation of the total cross section for top quark production based on a new perturbative resummation of gluon radiative corrections to the basic QCD subprocesses. We use Principal Value Resummation to calculate all relevant large threshold corrections. Advantages of this method include its independence from arbitrary infrared cutoffs and specification of the perturbative regime of applicability. For p_p collisions at center-of-mass energy ps = 1:8TeV and a top mass of 175 GeV, we compute oe(t_t) = 5:52+0:07\Gamma 0:45pb.
+
+The quest for the top quark t reached fruition recently with the publication of results by two collaborations of experimenters studying t_t pair production in proton-antiproton collisions at the Fermilab Tevatron
+
+[1]: p + _p ! t + _t + X. The
+
+large mass of the quark and the possibility that its observed cross section exceeds theoretical expectations have, in turn, stimulated considerable theoretical activity. Among theoretical questions deserving attention is the quantitative reliability of cross sections based on the main production mechanism in perturbative quantum chromodynamics (pQCD), namely t_t pair creation.
+
+At lowest order (tree-level), the two partonic subprocesses are quark-antiquark annihilation:
+
+q + _q ! t + _t (1)
+
+and gluon-gluon fusion:
+
+g + g ! t + _t : (2)
+
+These subprocesses are of order ff2s in the strong coupling strength. The calculated top quark cross sections depend on these subprocess cross sections and on the parton density distributions that specify the probability densities of the quarks, antiquarks, and gluons of the incident p and _p.
+
+Both order ff2s
+
+[2] and the next-to-leading order ff3
+
+s
+
+[3] [4] contributions have been
+
+investigated thoroughly
+
+[5]. One observation is that the size of the O(ff3
+
+s) terms
+
+in the partonic cross sections is particularly large near the t_t production threshold, raising questions about the reliability of perturbation theory. This region of phase space is important for top quark production at the Tevatron owing to the large mass of the top quark. Virtual and bremsstrahlung corrections to the tree-level production channels, Eqs. (1) and (2), dominate the next-to-leading contributions in the near threshold region. The large threshold corrections can be identified with numerically large logarithmic terms attributable to initial-state gluon bremsstrahlung, accompanying uncompensated mass-singularities removed after mass-factorization. After convolution of the partonic cross section with the parton
+
+1
+
+flux, the O(ff3s) corrections to the physical cross section yield less dramatic enhancements, of the order of 25% at top mass m = 175 GeV. These enhancements motivate a complete study of the large logarithmic corrections at the partonic level, to all orders in perturbation theory. In this Letter we present a resummation of soft gluon corrections to the t_t cross section employing the Principal Value Resummation (PVR) technique
+
+[6].
+
+As in other hard-scattering processes, where large logarithmic threshold contributions are present
+
+[7], resummation of these corrections to all orders in ff
+
+s is
+
+important both for theoretical understanding of the perturbative process and for
+
+numerical control of the resulting predictions. One method for resummation has been implemented previously for t_t pair production
+
+[8]. In most resummation methods
+
+[9], including [8], the threshold corrections are exponentiated into a function of
+
+the QCD running coupling constant, ffs, evaluated at a variable momentum scale, and formally integrated throughout the proper phase space. The variable scale is a measure of the momenta of the gluons emitted from the initial partons, and the associated integration represents the inclusiveness of the measurement.
+
+An inherent uncertainty and limitation of the resummation method of [8] is its dependence on an undetermined infrared (IR) cutoff. This cutoff enters when the exponentiated resummation function is integrated over phase space. In the formulation of [8], it cuts off the Landau pole of the QCD running coupling constant and the corresponding threshold region. Since the function is exponentiated, the dependence of the resummed cross section on this cutoff is important numerically. Further, dependence of the resummation exponent on this additional undetermined mass scale spoils explicit renormalization-group invariance properties for any region of the radiation phase space. Such properties can be implemented for a fixed value of the IR cutoff, but a simultaneous variation of the cutoff and the renormalization scale would again produce large sensitivities.
+
+The main advantage of PVR is that it does not depend on arbitrary IR cutoffs, as all Landau-pole singularities are by-passed by a Cauchy principal-value
+
+2
+
+prescription. We emphasize three strengths:
+
+(i) PVR reproduces correctly all the asymptotic properties and renormalon structure of pQCD. Due to the absence of extra undetermined scales, it allows for an evaluation of the perturbative regime, i.e., the region of the radiation phase space where perturbation theory should be valid.
+
+(ii) The approach implements universality of resummation automatically since it is the same mechanism for all relevant processes, independent of undetermined parameters. This mechanism produces a different perturbative regime for different production channels, but the mechanism itself is common to such channels.
+
+(iii) PVR been tested successfully in l_l production
+
+[10] where its definition of
+
+resummed pQCD agrees fairly well with experiment, even at relatively low values of the hard scale (in the region of 5-10 GeV).
+
+In the remainder of this Letter, we present our results for the physical inclusive total cross section for t_t-production in PVR for a top-mass range m 2 f150; 250g GeV, including a discussion of the remaining theoretical uncertainties. We also show some results for the behavior of partonic cross sections at m = 175 GeV. We present our predictions in the M S factorization scheme, in which the q, _q and g densities and the next-to-leading order partonic cross sections are defined unambiguously. We postpone presentation of calculational details, more extensive comparisons with [8], and corresponding analyses of the differences to our longer companion paper
+
+[11].
+
+It has been observed that the functional form of the leading threshold corrections, order-by-order in perturbation theory, appears to be universal, i.e., independent of the hard-scattering process, except for differences in multiplicative color factors and process-specific kinematics. An example is the "universality" between dilepton- (l_l) and t_t-production, emphasized in [8]. We understand this universality to arise from the fact that mass-singularities in the former process are due purely to bremsstrahlung from the initial state, given that the l_l pair is produced through an electroweak vector boson of large invariant mass, an "external potential" to the
+
+3
+
+QCD sector, whereas, in the latter the final quarks are (highly) massive, and gluon bremsstrahlung from (or interference with) that sector does not produce leading mass singularities and associated large logarithms. In t_t production near threshold, the heavy quark final-state sector "factorizes" and behaves as an external heavy object, leaving the light initial states to produce the leading large QCD corrections. For the purposes of this work we accept this universality, assuming it valid to all orders in ffs, as in [8]. Furthermore, we have chosen the order-by-order logarithmic structure and running coupling constant identical to those of [8].
+
+The resummed partonic cross sections, including all large threshold corrections according to PVR, can be written as
+
+oeP Vij (j; m2) =
+
+1Z
+
+1\Gamma 4(1+j)+4p1+j
+
+dz^1 + Hij(z; ff)*oe0ij(j; m2; z): (3)
+
+In Eq. (3),
+
+Hij(z; ff) =
+
+ln( 11
+
+\Gamma z )Z
+
+0
+
+dxeEij(x;ff) 1X
+
+j=0
+
+Qj(x; ff) ; (4)
+
+oe0ij(j; m2; z) = d(oe(0)ij (j; m2; z))=dz, and oe(0)ij is the tree-level partonic cross section expressed in terms of inelastic kinematic variables [8] to account for the emitted radiation.? The variable j = ^s=4m2 \Gamma 1 is the distance from the partonic production threshold, ff j ffs(m)=ss, and ij 2 fq _q; ggg denotes the initial parton channel. The integration in Eq. (3) is over the phase space of the radiated gluons, parametrized through the dimensionless variable z. In l_l production z = Q2=^s, where Q is the invariant dilepton mass, and z = 1 corresponds to zero gluon momentum.
+
+Equation (4) is the main content of PVR. The leading large threshold corrections are contained in the exponent Eij(x; ff), which is a calculable polynomial
+
+? In other words, substituting H ! 0 in Eq. (3) and using the kinematic constraint
+
+oe0ij(j; m2; z = 1 \Gamma 4(1 + j) + 4p1 + j) = 0, we obtain the tree-level partonic cross section, oe0ij(j; m2) = oe0ij(j; m2; z = 1).
+
+4
+
+in x. fQj(x; ff)g are calculable functions produced by the analytical inversion of the Mellin transform from moment space (where the argument of Eij corresponds to x ! ln n) to the physically relevant momentum space expressed in Eq. (4). These functions are produced by the resummation and are expressed in terms of successive derivatives of Ey: Pk(x; ff) j @kE(x; ff)=k!@kx; k = 1; 2; :::. Given that E contains at most one more power of x than of ff, Pk contains at least k \Gamma 1 fewer powers of x than of ff, and Qj contributes the resummed version of terms containing j fewer powers of x than of ff in the integrand of Eq. (4).z For example Q0 contains all powers P m1 , Q1 all powers P2P m1 , etc.
+
+The main object of the resummation, Eij , was studied extensively in the context of l_l production [10]. Embodying the universality discussed earlier, its functional form for t_t production is identical to that of l_l production, except for the identification of the two separate channels, denoted by the subscript ij. However, there are significant differences between the two processes which affect the way we implement PVR practically for the process at hand. These can be described as follows:
+
+First, only the leading threshold corrections are universal. The physical reason behind this is the existence of hadronic final states, absent in l_l production, that produce interference effects with the initial hadronic states, a statement that can be deduced from the O(ff3) calculation as well. Therefore, from all structures fQjg in Eq. (4), the very leading one should be considered universal. This is the linear term in P1, which turns out to be P1 itself. Hence, Eq. (4) can be integrated explicitly, and Eq. (3) may be written as
+
+oeP Vij (j; m2) =
+
+1Z
+
+1\Gamma 4(1+j)+4p1+j
+
+dzeEij(ln(
+
+1 1\Gamma z );ff)oe0ij(j; m2; z): (5)
+
+y For simplicity, we drop the channel indices.z
+
+These contributions are only approximately equal to the corresponding structures obtained upon a finite-order expansion of the resummation formula, since such expansion involves truncation of a product of series.
+
+5
+
+The second issue has to do with the perturbative regime in momentum space. A basic property of Eij(ln n; ff) in moment space is that it has a perturbative representation in the region 2b2ff ln n ! 1, where b2 is the first coefficient of the QCD beta function. In the region 1 ! 2b2ff ln n ! 1, it has a non-perturbative representation which, in turn, is an exponential suppression. In fact, limn!1 Eij (ln n; ff) = \Gamma 1. This latter "higher-twist" region is of negligible importance, especially for the large scale m of the top quark production process. These considerations apply in moment space and are clearly independent of channel-dependent color factors, relying purely on the properties of the running coupling constant and PVR itself. To characterize a region in moment space as "higher-twist", however, one must first convert to momentum space through inversion of the Mellin transform, Eq. (4). Specification of the boundary, mentioned already in ref.[6], is realized by the constraint that all fQjg; j * 1 be small compared to Q0 which provides the leading integrand in Eq. (4), according to the previous power counting. This constraint can be shown quite generally to correspond to
+
+P1 `ln ` 11 \Gamma z ' ; ff' ! 1 : (6) This perturbative regime in momentum space corresponds nicely with the perturbative regime in moment space, since P1 contains at most equal powers of logarithms and ff. This determination of the perturbative regime is also less academic, in the sense that it realistically includes all relevant orders of perturbation theory, all relevant constants generated by the running of the coupling and, most importantly, the color factors that differentiate between various production channels. Color factors are not included in more abstract discussions in moment space but are physically extremely important.
+
+One could actually apply Eq. (5) all the way to z = 1 by using contour integration as suggested by PVR, beyond the perturbative regime of Eq. (6), but one would then be using a model for non-perturbative effects, the one suggested by PVR, far beyond the knowledge justified by perturbation theory. In this work
+
+6
+
+we confine our attention to the perturbative regime, and hence our cross section is evaluated accordingly, namely
+
+oeP Vpertij (j; m2) =
+
+zmaxZ
+
+1\Gamma 4(1+j)+4p1+j
+
+dzeEij(ln(
+
+1 1\Gamma z );ff)oe0ij(j; m2; z) : (7)
+
+The upper limit is calculated through
+
+P1 `ln ` 11 \Gamma z
+
+max ' ; ff' = 1 : (8)
+
+Equations (7), (8) are the basic formulas of our approach. Based on these, notice that our perturbative approach can probe the threshold region down to j * (1 \Gamma zmax)=2. It turns out our final result does not rely much upon the PVR method to by-pass IR renormalons and associated problems, precisely because it is restricted to the perturbative regime. In that sense, the presence of arbitrary IR cutoffs in previous resummations is superfluous, as all necessary information about IR sensitivity (i.e., the perturbative regime) can be obtained by examining the perturbative asymptotic properties of the resummation functions. Further analysis of these issues, especially the perturbative representation of Eq. (4) as an asymptotic series and related numerical issues relevant to the color factors characterizing each specific production channel, will be presented in our longer paper[11].
+
+We provide our final resummed cross sections for each production channel by taking into account the complete next-to-leading calculation, oe(0+1)ij , through the improved prediction
+
+oefinalij (j; m2) = oeP Vpertij (j; m2) + oe(0+1)ij (j; m2) \Gamma oe(0+1)ij (j; m2)fifififi
+
+P V : (9)
+
+The last term in Eq. (9) is the next-to-leading order partonic cross section included in the resummation, oeP Vpertij .
+
+7
+
+In Fig.1 we present our prediction for the partonic cross sections in the q _q and gg channels, in the M S scheme, at m = 175 GeV. We also show the tree-level (oe(0)) and next-to-leading (oe(0+1)) counterparts. Notice that the three curves differ substantially in the partonic threshold region j ! 1, with the final resummed curve exceeding the other two. Below j ' 7 \Theta 10\Gamma 3 in the q _q channel and ' 5 \Theta 10\Gamma 2 in the gg channel, our final perturbative cross sections become identical to the nextto-leading order cross sections. This is a consequence of our decision to perform the resummation in the perturbative domain. This domain is smaller in the gg case because the color factors are larger in this channel. Above j ' 1, we note that our resummed cross sections are essentially identical to the next-to-leading order cross sections, as is to be expected since the near-threshold enhancements that concern us in this paper are not relevant at large j.
+
+In Fig.2 we plot the physical cross section oefinal, along with the tree-level and the next-to-leading order counterparts, for the q _q and gg channels for a wide range of top mass. These are obtained after the partonic cross sections shown in Fig.1 are convoluted with parton densities and integrals are performed over j. We use the most recent CT EQ3M parton distributions
+
+[12] . Here, the usual factorization
+
+scale _ has been chosen equal to the mass of the top. We observe that perturbative resummation enhances the cross section by about 10%.
+
+In Fig.3 we plot the same cross section as a function of the factorization ("hard") scale _ in a range _=m 2 f0:5; 2g. Notice the mild dependence, as well as the interesting shape that peaks around the value 1. We consider the variation of the physical cross section the range _=m 2 f0:5; 2g a good measure of the theoretical perturbative uncertainty.
+
+Our prediction for the inclusive total t_t-production cross section at the Tevatron, using CT EQ3M parton densities, is
+
+oet_tfinal(m = 175 GeV) = 5:52+0:07\Gamma 0:45 pb : (10) The "central" value of 5.52 pb is obtained with _=m = 1, and the upper and lower
+
+8
+
+limits of the uncertainty band correspond to the maximum and minimum values of the cross section in the range _=m 2 f0:5; 2g. The cross section is insensitive to the choice of parton densities. Repeating the same analysis with the M RS(A0) densities
+
+[13], we obtain
+
+oet_tfinal(m = 175 GeV) = 5:32+0:08\Gamma 0:41 pb : (11)
+
+In Tables 1 (2) we summarize the main features of the physical cross section, in pb, for top mass m = 175 GeV for three choices of _ and CT EQ3M (M RS(A0)) parton densities. The first line in each table shows the values of the two-loop ffs=ss for the corresponding set; there is very little difference in the values. The M RS(A0) cross sections are a bit smaller than the CT EQ3M values. For the q _q channel this difference is less than 4% and is about 5% for the gg channel.
+
+m = 175 GeV _ = m=2 _ = m _ = 2m
+
+ffs=ss 0.03584 0.03260 0.02991
+
+oe(0)q_q 5.02 3.69 2.78 oe(0+1)q_q 4.13 4.43 4.21
+
+oefinalq_q 4.70 4.87 4.55
+
+oe(0)gg 0.55 0.34 0.22 oe(0+1)gg 0.72 0.63 0.50
+
+oefinalgg 0.75 0.65 0.52
+
+oet_tfinal 5.45 5.52 5.07
+
+Table 1.
+
+9
+
+m = 175 GeV _ = m=2 _ = m _ = 2m
+
+ffs=ss 0.03596 0.03269 0.02998
+
+oe(0)q_q 4.88 3.57 2.68 oe(0+1)q_q 4.00 4.28 4.08
+
+oefinalq_q 4.56 4.71 4.41
+
+oe(0)gg 0.51 0.32 0.21 oe(0+1)gg 0.67 0.59 0.49
+
+oefinalgg 0.70 0.61 0.50
+
+oet_tfinal 5.26 5.32 4.91
+
+Table 2. The value in Eq. (10) is larger than that of [8], but within uncertainties, and it agrees with the present CDF and D0 measurements [1]. In Fig.4 we show the top-mass dependence of the physical cross section for p_p ! (t_t)X.
+
+The band of perturbative uncertainty quoted in Eq. (10) is relatively narrow. On the other hand, we noted in discussing Fig.1 that there is a reasonable range of j near threshold in which perturbative resummation does not apply. Perturbation theory is not justified in this region. Correspondingly, further strong interaction enhancements of the t_t cross section may arise from physics in this region. We know of no reliable way to estimate the size of such non-perturbative effects and, therefore, cannot include such uncertainties in the estimates of the perturbative uncertainty of Eqs. (10) and (11).
+
+In our longer companion paper we will present mathematical and physical details, more extensive comparisons of our approach to existing results, and a discussion of remaining theoretical uncertainties.
+
+Acknowledgements: We thank E. Laenen, J. Smith and G. Sterman for many useful discussions. This work was supported by the U.S. Department of Energy, Division of High Energy Physics, contract W-31-109-ENG-38.
+
+10
+
+REFERENCES 1. F. Abe et al., Phys. Rev. Lett. 74 (1995) 2626; S. Abachi et al., Phys. Rev.
+
+Lett. 74 (1995) 2632.
+
+2. M. Gluck, J.F. Owens and E. Reya, Phys. Rev. D17 (1978) 2324; B.L.
+
+Combridge, Nucl. Phys. B151 (1979) 429; J. Babcock, D. Sivers and S. Wolfram, Phys. Rev. D18 (1978) 162; K. Hagiwara and T. Yoshino, Phys. Lett. B80 (1979) 282; L.M. Jones and H. Wyld, Phys. Rev. D17 (1978) 782; H. Georgi et al., Ann. of Phys. 114 (1978) 273.
+
+3. P. Nason, S. Dawson and R.K. Ellis, Nucl. Phys. B303 (1988) 607; B327
+
+(1989) 49; Erratum: B335 (1990) 260.
+
+4. W. Beenakker, H. Kuijf, W.L. van Neerven and J. Smith, Phys. Rev. D40
+
+(1989) 54; W. Beenakker, W.L. van Neerven, R. Meng, G.A. Schuler and J. Smith, Nucl. Phys. B351 (1991) 507.
+
+5. E. Berger and R. Meng, Phys. Rev. D49 (1994) 3248, and references therein. 6. H. Contopanagos and G. Sterman, Nucl. Phys. B400 (1993) 211; Nucl. Phys.
+
+B419 (1994) 77.
+
+7. G. Altarelli, R.K. Ellis and G. Martinelli, Nucl. Phys. B157 (1979) 461; B.
+
+Humpert and W.L. van Neerven, Phys. Lett. B84 (1979) 327; J. KubarAndre and F.E. Paige, Phys. Rev. D19 (1979) 221; K. Harada, T. Kaneko and N. Sakai, Nucl. Phys. B155 (1979) 169.
+
+8. E. Laenen, J. Smith and W.L. van Neerven, Nucl. Phys. B369 (1992) 543;
+
+Phys. Lett. 321B (1994) 254.
+
+9. G. Sterman, Nucl. Phys. B281 (1987) 310; S. Catani and L. Trentadue, Nucl.
+
+Phys. B327 (1989) 323.
+
+10. L. Alvero and H. Contopanagos, Nucl. Phys. B436 (1995) 184; ANL-HEPPR-94-59/ITP-SB-94-41, Nucl. Phys. B (in print).
+
+11. E. Berger and H. Contopanagos, in preparation.
+
+11
+
+12. H.L. Lai et al., Phys. Rev. D51 (1995) 4763. 13. A. Martin, R. Roberts and W.J. Stirling, Rutherford preprint RAL-95-021
+
+(to be published).
+
+FIGURE CAPTIONS
+
+1. The total parton-parton cross sections as a function of j in the M S scheme at m = 175 GeV for the subprocesses (a) q _q ! t_tX and (b) gg ! t_tX. Plotted are the lowest order Born cross section (dotted line), the next-to-leading-order cross section (dashed line), and the cross section obtained after resummation of soft gluons by the principal value resummation method (solid line). The QCD scale _ = m.
+
+2. The calculated cross sections for t_t production as a function of top mass m in p_p collisions at ps = 1:8 TeV for the q _q (upper bunch) and gg (lower bunch) subprocesses. Each bunch consists of three curves: the Born cross section (dotted line), the next-to-leading-order cross section (dashed line), and the cross section obtained after soft gluon resummation (solid line).
+
+3. Plot showing the calculated dependence of the final resummed cross section on (_=m) for t_t production at m = 175 GeV and ps = 1:8 TeV. Shown also is the next-to-leading order result (dashed curve).
+
+4. Physical cross section for p_p ! (t_t)X at ps = 1:8 TeV as a function of top mass. Data from the CDF and D0[1] collaborations are shown. Our calculated cross section here is obtained from adding the final resummed q _q and gg contributions. Shown are entries for _=m = 0:5 (dashed), 1 (solid) and 2 (dotted).
+
+12 13 14 15 16 17
+

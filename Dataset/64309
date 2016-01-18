@@ -1,0 +1,153 @@
+
+
+ 15 Mar 1995
+
+FSU-SCRI-95C-28 Status and prospect for determining fB , fB
+
+s, fBs =fBon the lattice
+
+1
+
+The MILC Collaboration C. Bernard,a T. Blum,b A. De,a T. DeGrand,c C. DeTar,d Steven Gottlieb,e Urs M. Heller,f N. Ishizuka,a L. K"arkk"ainen,b J. Labrenz,g K. Rummukainen,e
+
+A. Soni,h R. Sugar,i and D. Toussaintb
+
+aDepartment of Physics, Washington University,
+
+St. Louis, MO 63130, USA bDepartment of Physics, University of Arizona,
+
+Tucson, AZ 85721, USA cPhysics Department, University of Colorado,
+
+Boulder, CO 80309, USA dDepartment of Physics, University of Utah,
+
+Salt Lake City, UT 84112, USA eDepartment of Physics, Indiana University,
+
+Bloomington, IN 47405, USA f SCRI, The Florida State University,
+
+Tallahassee, FL 32306-4052, USA gPhysics Department, University of Washington,
+
+Seattle, WA 98195, USA hPhysics Department, Brookhaven National Laboratory,
+
+Upton, NY 11973, USA iDepartment of Physics, University of California,
+
+Santa Barbara, CA 93106, USA
+
+1Talk presented by Urs M. Heller at LISHEP95, February 20-22, Rio de Janeiro, Brazil.
+
+Abstract Preliminary results from the MILC collaboration for fB, fBs, fD, fDs and their ratios are presented. We compute in the quenched approximation at fi = 6:3, 6.0 and 5.7 with Wilson light quarks and static and Wilson heavy quarks. We attempt to quantify all systematic errors other than quenching, and have a first indication of the size of quenching errors.
+
+1 Introduction Existing and planned experimental measurements of B- _B and Bs- _Bs mixing do not constrain the Cabibbo-Kobayashi-Maskawa matrix without knowledge of the heavylight decay constants fB and fBs and the corresponding B-parameters. For example, the amplitude of B- _B mixing is written in the form
+
+xd , jV ?tdVtbj2f (mt) \Delta 83 m2Bf 2BBB : (1) Here the mixing matrix element is
+
+8 3 m
+
+2 Bf
+
+2 BBB = hB0j( _dfl_(1 \Gamma fl5)b)( _dfl_(1 \Gamma fl5)b)j _B0i (2)
+
+and the decay constant fB is defined by the matrix element
+
+h0j _dfl_fl5bjB(p)i = ip_fB : (3) The only known method of computing fB and the B-parameter BB from first principles is lattice QCD. This fact has led to a major effort in the lattice community to compute these quantities [1].
+
+The B-parameter is believed to be close to its vacuum saturation value BB ss 1 and the major uncertainty is thus the value of fB. Fortunately this is also the easier matrix element to be computed with lattice methods, since it only involves the computation of appropriate two-point functions and not the harder three-point functions needed for the computation of BB.
+
+Over the past year and a half, the MILC collaboration has been computing heavylight decay constants in the quenched approximation - the approximation where internal fermion loops are ignored - on Intel Paragon computers. Most of the computations have been performed on the 512-node Paragon at Oak Ridge National Laboratory, but Paragons at Indiana University and at the San Diego Supercomputer Center have also been used. More recently we have started computations with the effects of two light flavors of dynamical fermions included. This will allow us, eventually, to remove the last unknown systematic uncertainty in our computations.
+
+1
+
+2 Features of the lattice computation Lattice QCD is a discrete approximation to QCD where the fields are restricted to the sites (quark fields) and the links connecting neighboring sites (gauge fields) of a space-time lattice with lattice spacing a. Continuum physics is recovered in the limit a ! 0 and thus all results have to be carefully extrapolated to this limit. Next, the space-time volume is kept finite and the results have thus to be extrapolated to the infinite volume limit. Keeping both lattice spacing and volume finite we have a finite number of degrees of freedom which allows us to use powerful numerical methods for our computations. We use stochastic Monte Carlo methods and therefore our results will have statistical errors.
+
+To calculate fB, we compute, with ^B an operator that creates a B-meson, e.g.,^ B = _dfl5b, the two-point functionX
+
+~x h
+
+( _dfl0fl5b)(~x; t) ^By(0)i = X
+
+n h0j
+
+_dfl0fl5bjni e
+
+\Gamma Ent
+
+2EnV hnj ^B
+
+yj0i
+
+\Gamma !
+
+t!1
+
+mBfB
+
+2mBV hBj ^B
+
+yj0ie\Gamma mBt : (4)
+
+The unknown amplitude hBj ^Byj0i can be obtained from the two-point function
+
+h ^B ^Byi \Gamma !
+
+t!1
+
+1
+
+2mBV jhBjB
+
+yj0ij2e\Gamma mBt : (5)
+
+The parameters in eqs. (4,5) are obtained by fits to the (stochastically) computed two-point functions.
+
+Performing such a computation we still do not yet get quite the desired result. Though the current we have used for our computation on the lattice looks identical to the continuum current, quantum fluctuations induce a finite renormalization
+
+f contB = Z\Gamma 1A f LB; ZA = 1 + O(ffs); (6) computable in perturbation theory. All our results we will quote include this renormalization.
+
+For the computation of the two-point functions we need one light and one heavy quark propagator. We compute the heavy quark propagator in a "hopping parameter" expansion [2] - essentially a 1=mQ expansion - keeping 400 terms. This gives very good convergence, on our lattices, for quark masses well below the charm. The ability to adjust the heavy quark mass arbitrarily is proving very useful in the analysis of systematic errors.
+
+Since we only have results for degenerate light quarks, we determine ^s, the strange
+
+quark hopping parameter, by adjusting the pseudoscalar mass to q2m2K \Gamma m2ss, the lowest order chiral perturbation theory value.
+
+2
+
+For heavy-light mesons we use the Kronfeld-Mackenzie [3] norm (p1 \Gamma 6~^) and adjust the measured meson pole mass upward by the difference between the heavy quark pole mass ("m1") and the heavy quark dynamical mass ("m2") as calculated in the tadpole-improved tree approximation [3]. This procedure eliminates the leading (in ffs) discretization errors that would have been of order O(amQ), with amQ?,1 in the charm region.
+
+3 Results
+
+Table 1: Lattice parameters. name fi size # configs.
+
+A 5.7 83 \Theta 48 200
+
+B 5.7 163 \Theta 48 100
+
+E 5.85 123 \Theta 48 100 C 6.0 163 \Theta 48 100 D 6.3 243 \Theta 80 100
+
+F 5.7; m=.01 163 \Theta 32 49
+
+(nF = 2 QCD)
+
+So far we have results from six different lattices with parameters listed in Table 1. fi = 6=g2 denotes the bare lattice coupling.
+
+In the limit of an infinitely heavy quark, heavy quark effective theory tells us that the combination OEP = fP pMP of pseudoscalar meson decay constant and mass becomes independent of the heavy quark mass, up to renormalization group logarithms, with corrections that vanish as powers of 1=MP
+
+OEP = fP qMP = OE1 "1 + c
+
+1
+
+MP +
+
+c2 M 2P + \Delta \Delta \Delta # : (7)
+
+Therefore, it has become customary to plot fP pMP vs. 1=MP . Such a plot for lattice D is shown in Fig. 1. The fit is covariant, to the form (7). Although to the eye there appears to be reasonable consistency among the heavy-light results and between the heavy-light and static-light results, the O/2=d:o:f for the fit is ss 2 (confidence levelss
+
+10%), whether or not the static-light point is included. The rather low confidence level may perhaps be due to the fact that we have not included additional large-ma corrections to the action and operators [4], or simply to the small differences between the heavy quark mass and the meson mass MP . Such effects are under investigation. Note that, in an earlier calculation [5], the statistical errors were considerably larger,
+
+3 Error: /rangecheck in --repeat--
+Operand stack:
+-1 --nostringval--
+Execution stack:
+%interp_exit .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- false 1 %stopped_push 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop 2 3 %oparray_pop .runexec2 --nostringval-- --nostringval-- --nostringval-- 2 %stopped_push --nostringval-- --nostringval-- --nostringval-- --nostringval--
+Dictionary stack:
+--dict:1100/1123(ro)(G)-- --dict:0/20(G)-- --dict:74/200(L)-- --dict:122/250(L)-- --dict:42/200(L)--
+Current allocation mode is local
+

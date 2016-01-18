@@ -1,0 +1,636 @@
+
+
+ 31 Jan 94
+
+UTAS-PHYS-94-01
+
+The R^ole of fl5 in Dimensional Regularization
+
+Dirk Kreimer
+
+\Lambda
+
+Dept. of Physics Univ. of Tasmania
+
+G.P.O. Box 252C
+
+Hobart 7001
+
+Australia
+
+December 1993
+
+Abstract We discuss the consistency of a new fl5-scheme with renormalization. In particular we study the power-counting behaviour of multiloop graphs to prove its consistency. As a side effect we obtain a short proof of the Adler-Bardeen theorem. Further we show that this fl5-scheme does not modify the BRST identities at any loop orders in contrast to BM type schemes.
+
+1 Introduction At the moment the situation in perturbation theory using dimensional regularization (DR) as a regulator and investigating problems involving fl5 is somewhat weird. On the one hand, there is the proposal of abandoning the anticommuting fl5 as in [1]. This scheme emphasizes the loss of full D-dimensional Lorentz invariance by introducing D-dimensional, 4-dimensional and (D \Gamma 4)-dimensional objects. It restricts the range of indices in metric and Levi-Civita tensors. A similar approach, based on physical demands of axial amplitudes was obtained in [2]. It avoids the difficult notion of a tensor with indices of restricted range by considering antisymmetrized products of fl-matrices instead of fl5, as it is motivated for example by the use of the Levi-Civita tensor contracted with three fl-matrices for the chiral current. These schemes, in the following collectively denoted as BM schemes, give a welldefined regulator for arbitrary applications of fl5. They are well-defined in the sense that they respect the structure of the loop expansion of the full theory, which means that the renormalization program can be carried out [1].
+
+Unfortunately these schemes violate the BRST Identities and one thus has to install them by hand order by order [3]. A more systematic approach seems likely but is still not available.
+
+On the other hand, in [4] a scheme was proposed which suggests a different treatment of the fl5-problem. There is overwhelming evidence [5] that the use of an anticommuting fl5 is legitimate in anomaly free theories. Preserving an anticommuting fl5, the proposed scheme is based on a replacement of the usual trace in four dimensions by a functional Trace, a linear functional which agrees with the trace only in D = 4 dimensions. The reader will find all necessary definitions and properties in an appendix.
+
+\Lambda email: kreimer@physvax.phys.utas.edu.au
+
+1
+
+It is a feature of this new scheme that one can establish a one to one correspondence between the fl5-problem and the appearance of anomalies. In this paper we will prove that this scheme is well defined in the above sense, that is it is compatible with the renormalization program. Further we will prove that no violation of BRST identities can appear to any loop orders, and we will show that the Adler-Bardeen theorem arises quite naturally in the context of this scheme.
+
+The organization of the paper is as follows. First we give some general arguments excluding reading prescriptions which would immediately lead to wrong results. We will insist on charge conjugation properties (Furry's theorem) and Bose symmetry to restrict the number of allowed reading prescriptions. We will end up with a final reading prescription which is applicable in the most general circumstances including applications of DR in infrared problems or as a regulator in non-renormalizable theories.
+
+Then we show the promised conservation of BRST identities. The crucial point is the investigation of the BRST identity for the fermionic vertex, as its radiative corrections are possible candidates for the generation of an non-anticommuting fl5 in higher loop orders, even in this scheme. The Adler-Bardeen theorem then follows from a screening mechanism, where, de facto, Zimmermann's forest formula protects the axial (A) vertex inside a forest from being anomalous.
+
+Some more general remarks on the r^ole of fl5 will finish this paper. We have collected all relevant formulas and derivations of the main algebraic properties of the Trace functional in an appendix, most of them the reader will also find in [6]. In abandoning cyclicity we are forced to choose reading points. Some necessary notation for this is collected in an appendix too, as well as our notation for the forest formula.
+
+2 Defining the Scheme Given an arbitrary string of fl-matrices the question arises where one should start reading it when one applies a non-cyclic functional to it. One of the necessary conditions is that one should be able to obtain unique results for a renormalizable theory. This includes the situation that subdivergences of a fermion loop are subtracted in a consistent manner. In the following we first discuss these subdiagrams of a fermion loop and extract a condition on reading prescriptions from these considerations. We then investigate how some basic facts resulting from the study of one-loop anomalous graphs lead to further constraints for reading prescriptions. In doing so we abandon all reading prescriptions which could be only defined with respect to a specified topology of a graph, and we insist on Bose symmetry and charge conjugation properties as they are expressed in Furry's theorem for fermion loops.
+
+In this way we obtain as the final result of this section a unique reading prescription which has to be considered as part of the definition of our scheme.
+
+Our starting point to find sensible reading prescriptions is to consider a closed fermion loop in an anomaly free theory. An abnormal amplitude (by this we mean an amplitude involving a fl5-odd fermion loop) then has a vanishing overall degree of divergence. We allow for arbitrary subloops. We want to find a sufficient condition to have unique results for the Trace functional under these circumstances. To this end consider the associated forests of its subdivergences. Every forest has its maximal forest, and forests never overlap. So in general the fermion loop will look like the following example in Fig.(1).
+
+2
+
+3
+
+4 1
+
+2
+
+Fig.(1) A fermion loop with subdivergences and forest structure including k = 4 maximal forests.
+
+A chosen reading point will be either outside or inside a maximal forest. A precise definition of the notion of a reading point inside or outside a maximal forest is given in the appendix. Every forest corresponds to a subdivergence and it is a crucial ingredient of the renormalization program that this subdivergence corresponds to a unique Laurent series in the cut-off parameter ((D \Gamma 4) in DR). We can calculate the subdivergences separately and the resulting counterterms must cancel the subdivergences of Fig.(1).
+
+1 2 3 4 Fig.(2) The subdivergences of Fig.(1).
+
+To be able to calculate Fig.(1) we have to choose a reading point. Assume we have chosen one not located inside a maximal forest, then Trace would result in an expression of the form
+
+Tr(fl5p/1\Gamma 1p/2 : : : p/k\Gamma k); where the \Gamma i in the above expression correspond to the strings of fl-matrices associated to the k maximal forests of the fermion loop and the pi correspond to the propagators carrying the charge flow of the fermion loop between these maximal forests. The \Gamma i correspond on the other hand to the subdivergences generating the relevant counterterms, as in Fig.(2) above for our example.
+
+We see that the addition of appropriate counterterms will cancel these subdivergences. As there are no overall divergences by assumption, adding all counterterms gives a finite result, R(G) = finite. Now the difference of two reading prescriptions (each one based on reading points starting outside maximal forests) is an order (D \Gamma 4) operator, vanishing when multiplied by a finite expression. So all these reading prescriptions are equivalent.
+
+If we were to choose a reading point located inside a maximal forest, we would destroy the mutual cancellation between subdivergences and counterterms, which can be explicitly checked already at the two-loop level. We would have a Trace of the following form
+
+Tr(\Gamma k;f fl5p/1\Gamma 1 : : : \Gamma k;i);
+
+\Gamma k = \Gamma k;i\Gamma k;f ;
+
+where the splitting of \Gamma k into pieces \Gamma k;i and \Gamma k;f indicates the modification of the subdivergence. We cannot use cyclicity to connect these open lines. So we would need a counterterm
+
+3
+
+which differs from the one generated by the unbroken \Gamma k. The following Fig.(3) gives an example how a two-loop subdivergence, cut open by an illegitimate reading prescription, fails to be compensated by the standard counterterms.
+
+Z Z
+
+Z
+
+1 1 1 3
+
+2 1
+
+=R R
+
+Fig.(3) A legal and an illegal reading prescription. The first column of graphs on the left represents all forests (assuming vanishing overall degree of divergence). It has an allowed reading point outside the maximal forest. The second column has an illegal reading point. \Gamma denotes the loop at the internal boson line. Assuming that all subdivergences give rise to the standard counterterms as they should, both columns give rise to similar counterterms for the last two graphs. They involve a one-loop Z-factor for the boson self-energy Z13 , a one-loop Z-factor for the vertex correction Z11 and a two-loop Z-factor Z21 . In both columns the first two graphs can be summarized by replacing \Gamma by R(\Gamma ). The two columns disagree. Calculating the fermion loop with a bare internal boson line gives a result c0 1D\Gamma 4 + c1 say for the left column. For the right we
+
+would obtain c0 1D\Gamma 4 + d1, with c1 6= d1. So the finite parts disagree. But by dressing the internal boson line with R(\Gamma ) the leading divergence is , 1(D\Gamma 4)2 . The subtraction involved in R(\Gamma ) subtracts the non-local bits and pieces but does not kill the leading divergence in (D \Gamma 4). This is so because we have C(\Gamma 2) 6= 0, where \Gamma 2 denotes the two-loop subdivergence which generates the maximal forest. So the disagreement between the two columns appears now in the non-leading but still divergent terms , 1D\Gamma 4 . As the sum of the four graphs in the left column is finite because the last two graphs give just the counterterms for the subdivergences generated by the first two graphs we see that the same counterterms can not render the first two graphs in the right column finite.
+
+We learn that we have to base reading prescriptions on reading points located outside of maximal forests to respect the subtraction of subdivergences of a closed fermion loop, as it is governed by the forest formula. We have a unique result for fermion loops with vanishing
+
+4
+
+overall degree of divergence. We do not continue discussing renormalizable theories here. Up to now we have restricted ourselves to the study of amplitudes of vanishing overall degree of divergence. As we want to obtain a unique reading prescription we continue to find further restrictions for reading prescriptions. After we have done so and thus completed the definition of our scheme we are prepared for the more difficult problem of fermion loops being subloops in other graphs, thus suffering from overall divergences. We will attack this problem in the next section when we study BRST identities.
+
+Let us consider the anomaly. In [4] it was shown how to extract the anomaly as the typically non-cyclic output of the fl5-scheme considered here. One of the lessons to be learned from this is that we are not allowed to start Trace reading at different points in graphs contributing to the same process. In [6] an example was given how one could violate gauge invariance by erroneously doing so for the SM. Another lesson learnt from the study of the anomaly is that we should and can maintain Bose symmetry. Considering the AAA anomaly there are six possibilities to connect the three vertices of the amputated Green function to three exterior lines. Three of these possibilities simply correspond to cyclic permutations and would be identical for a cyclic trace functional. They would cancel a factor 3 in 13! , arising from the Taylor expansion of the interaction part of the generating functional for the loop expansion. For the noncyclic Trace we then have 13 \Theta (3 reading possibilities) [6]. In general we would have 1n \Theta (P n reading points ) if the permutations generated by Bose symmetry contain the cyclic permutation group of order n as a subgroup, see Fig.(4). The correct result AAA = 13 AV V is generated by this constraint on reading prescriptions. Also the physical constraint of vector current conservation was used for the AV V anomaly, which nonetheless, as we will see shortly, is only a constraint at the one-loop level.
+
+Fig.(4) The cyclic permutation subgroup of all Bose permutations for a fermion loop.
+
+Up to now we have excluded the interior of maximal forests as possible reading points and we have established Bose symmetry for a chosen reading prescription. But what then are possible reading points and prescriptions?
+
+As explained in the appendix there are type i+; iI; iII and type III reading points. They correspond to the first vertex of a maximal forest of an exterior vertex (type i+), to the outgoing propagator of this forest (type iI), and to the propagator entering this forest (type iII) respectively. The rest are type III reading points which are located between maximal forests of self energy corrections of propagators carrying the charge flow of the fermion loop:
+
+ii i i+ III Fig.(5a) The different types of reading points. Here and in all following figures an arrow at the fermion line indicates the momentum flow, not the charge flow.
+
+5
+
+i i i+1
+
+(i+1)
+
+I
+
+II
+
+(i+1)I III
+
+Fig.(5b) Propagators as reading points. Note that a propagator can be of type (I) and (II) similarly.
+
+We do not consider exterior scalar or pseudo scalar vertices here as they correspond to type III reading points, as explained in the appendix.
+
+Further, we exclude type III reading points from reading prescriptions as they are not identifyable in a unique manner, according to the various ways of dressing propagators with self-energies.
+
+Studying the anomaly it was found in [4, 6] that type iI reading points are equivalent to reading points of type i+. This resulted from the fact that a violation of a Ward identity is only possible at a given vertex if the momentum flow is cut open at this vertex.
+
+q q q i i iII + I
+
+Fig.(6) The momentum flow at a vertex. BRST identities for this vertex can only be violated if the momentum flow is cut open, otherwise the substitution q/ ! (k/ + q/) \Gamma k/ would cancel a propagator to the left resp. right and thus establish the BRST identity for this vertex. The type iI and the type i+ reading points give the same result.
+
+In the same way type (i + 1)II reading points are equivalent to reading points of type iI at the previous vertex, as indicated in Fig.(5b). Let us check how these results, gained from one-loop anomaly calculations where all forests were trivial, transfer to the general case. To this end let us study charge conjugation properties.
+
+In a closed fermion loop we always have to sum over both possible charge flows. Using this let us try to prove Furry's theorem. We will use the charge conjugation properties of propagators and vertices as summarized in Eq.(19). As long as one can guarantee a proper behaviour of the axial coupling under charge conjugation one can prove Furry's theorem also in BM-type schemes.
+
+Using Eq.(19) we have expressions of the form
+
+Tr(fl5(l/ + q/1)\Gamma 1 : : : \Gamma k) clockwise orientation; +Tr(fl5(l/ + q/1)\Gamma k : : : \Gamma 1) anticlockwise orientation, (1)
+
+where again the \Gamma i correspond to maximal forest terms, l/ is the loop momentum of the fermion loop and the q/i are combinations of exterior momenta and other loop momenta induced by the forests.
+
+For the first line we obtain
+
+Tr(fl5\Gamma k : : : \Gamma 1(l/ + q/1)); which is a cyclic permutation of the second line in Eq.(1). We summarize this result in the following figure:
+
+6
+
+= i i i
+
+i I
+
++
+
+= i i i+
+
+iI
+
+Fig.(7) Furry's theorem. stating that a iI reading point with momentum flow clockwise is related to the next reading point in the direction of charge flow and the charge flow then reversed, which is i+ in counterclockwise momentum flow. Similarly one finds that i+ is related to iI in the reversed orientation.
+
+So we can maintain Furry's theorem by adopting the reading prescription
+
+(iI + i+)=2: (2) What about type iII reading prescriptions? Clearly we can assign to them a combination with type j+ (i 6= j in general) reading points which maintains Furry's theorem too. Further, Fig.(6) together with Fig.(5a) above seem to show that whenever an exterior vertex i is screened by a subdivergence we can start Trace reading at i+ or iI without assigning an anomalous behaviour to the i-vertex, thus allowing for a much wider class of reading prescriptions. But this is not so. Because whenever a vertex is contained in a maximal forest there is also a counterterm graph replacing this forest where this vertex is unscreened.
+
+i i+ I i i+
+
+I
+
+Fig.(8a) Unscreening a vertex by counterterming it. This also excludes type iII reading points as they are, by the same mechanism, also type jI for some other vertex j = i \Gamma 1 in the counterterm graphs. So a type iII reading point would assign an anomalous behaviour to the reading point (i \Gamma 1)I thus corrupting the renormalization of the vertex (i \Gamma 1):
+
+i-1 i-1i ii i(i-1)IIII
+
+I
+
+Fig.(8b) The problem with type iII vertices.
+
+7
+
+To summarize, we have restricted ourself for consistency reasons to reading points of type i+; iI, where i counts all A vertices. This automatically incorporates vector current conservation and gives the correct results for the anomalies. We have kept Bose symmetry by summing over all these reading points if appropriate and maintained Furry's theorem by using a symmetric reading prescription in the i+ and iI type reading. So we are left with a single consistent reading prescription, the Bose symmetrized sum of Eq.(2), where the sum runs over all axial couplings to the fermion loop. Note that our reading prescription is based solely on reading points determined by exterior couplings to the fermion loop and is independent from all further topological properties of the actual Feynman graph.
+
+Does this reading prescription necessarily exist? As the determination of reading points uses ZFF we can expect difficulties when we have overlapping divergences for singularities not generated by UV divergences. Consider for example the following two-point function:
+
+Fig.(9) Overlapping divergences. As far as its UV singularities are concerned the diagram vanishes and for higher n-point functions the overlapping cannot appear. But for this two-point function, appearing as a squared matrix element, it must not vanish (because there is a second momentum involved); however we can guarantee charge conjugation and vector current conservation with our reading prescription, but an anomalous term is likely to appear due to the fact that there is no reading point outside all subdivergences. This is indeed what happens when one considers for example the case of IR divergent phase space integrations in the process g + W ! q _q [7].
+
+3 BRST Identities In this section we are concerned with the study of possible violations of BRST identities in our scheme. Such violations would result in modifications of these identities, a situation which is familiar in BM schemes. We claim that such modifications do not appear here.
+
+In the following it is understood that every graph has its subdivergences subtracted, G ! R(G), as only overall divergences can possibly generate violations of BRST identities in our scheme.
+
+This is so because the R operation is always sufficient to render a fl5-odd fermion loop finite in an anomaly free theory, according to our results from the previous section. As all noncyclic results are at least of order (D \Gamma 4) algebraically, a UV divergence is needed to have possible violations of BRST identities. As UV overall divergences are renormalization scheme independent, we do not have to specify a certain scheme in the following.
+
+Let us start considering the BRST identity for the fermionic vertex. Our notation follows [8].
+
++ + = 0. k
+
+Fig.(10) The BRST identity for the fermionic vertex.
+
+8
+
+Possible violations of the above identity generated by the fl5-problem can only result from a modification of the three-point Green function in such a way that its contraction with the momentum k fails to give the expected two-point fermion propagators involved in the last two terms in the identity. So we will concentrate in the following on the study of this vertex function, assuming that it has a fl5-odd fermion loop as a subgraph.
+
+The exterior boson can either couple to the fermion loop or somewhere else.
+
+a) b)
+
+Fig.(11) Radiative corrections to the fermionic vertex. The black oval bubble indicates an arbitrary structure, and the fermion loop under consideration might have arbitrary vertex and self-energy corrections, their subdivergences being subtracted by the R operation already. The same remark applies to the propagators connecting the fermion loop to the bubble.
+
+In BM-type schemes the identity in Fig.(10) is violated because of the non-vanishing anticommutator. Here, it is not sufficient to show that Fig.(11) fulfills its BRST identities. To this end one would only have to prove that its contraction with the boson momentum results in the corresponding two-point Green functions of the fermionic selfenergy of Fig.(10) above but there would still be a problem at the multiloop level.
+
+To see this consider the following graph as an example:
+
+Fig.(12) The generation of a non-anticommuting fl5. After integrating out all loop momenta and evaluating Trace the result will be proportional
+
+, ffl*_1_2_3 fl_1 fl_2 fl_3 , ^fl5fl*; * 2 (0; 1; 2; 3); where ^fl5 is a non-anticommuting fl5 like in BM schemes.
+
+By naive power counting, the above graph is logarithmic overall divergent. So it might generate a counterterm introducing a non anti-commuting ^fl5 and would thus introduce in our scheme all the same problems the BM-schemes have with BRST identities, at least from the three-loop level on. So these counterterms would plague all higher order loop corrections. This would be a serious drawback for our scheme. The only possible cure will be an improved power-counting for these three-point functions.
+
+Note that this does not mean that the fermionic vertex has an improved power counting in general; it is once and for all logarithmic divergent, but what we are looking for is to show the absence of divergences for a certain set of graphs, an improved power counting for graphs containing a closed fl5-odd fermion loop as a subgraph.
+
+We do not adopt the standard way of improving power counting by restricting the set of possible Lorentz covariants with the help of gauge invariance. This method is helpful to
+
+9
+
+improve the power counting for a given Green function and could well be applied here. But the sceptical reader might have doubts even if our scheme conserves vector gauge invariance.
+
+Let us study Fig.(11a) first. We have to sum over all possibilities where the exterior boson is connected to the fermion loop. As we are considering a renormalizable theory all UV divergence is located in the form factors , fl_ or , fl5fl_. To extract the logarithmic overall UV divergence it is sufficient to consider the graph at momentum transfer zero, q = 0. This is true because our scheme does not change power-counting. So acting with a first order derivative in an exterior momentum on the graph must kill its logarithmic overall divergence. Then the sum over all couplings appearing in Fig.(13), evaluated with one arbitrarily chosen reading point
+
+q=0 q=0 q=0 q=0
+
+Fig.(13) The exterior boson with vanishing momentum transfer, coupling in all possible ways to the fermion loop.
+
+is a total derivative of Fig.(14)
+
+Fig.(13) , Z dDl @@l
+
+ae Fig.(14); (3)
+
+and thus vanishes. Note that this argument remains true even if all couplings and propagators in the fermion loop in Fig.(13) are fully dressed ones. The above argument is a generalization of the identity
+
+\Gamma @@l
+
+ae
+
+1 l/ + iffl =
+
+1 l/ + iffl flae
+
+1 l/ + iffl ;
+
+to our purposes.
+
+Fig.(14) This graph generates Fig.(13) via a total derivative acting on the integrand. So we can improve power counting for these graphs from a logarithmic divergent to convergent behaviour and thus see that Fig.(11a) will not give rise to a counterterm.
+
+We cannot use this argument for Fig.(11b), but we will argue in the following way. Consider first the case of a fermion loop with 2k couplings in Fig.(11b). It then has an odd number of vector couplings, so the trace over the group generators will be of the form
+
+tr( X
+
+perm.
+
+Ta1 : : : Ta2k ) \Gamma tr( X
+
+perm.
+
+Ta2k : : : Ta1); (4)
+
+where the sum runs over all permutations generated by the different ways of connecting the fermion loop to the bubble and the two sums correspond to the two possible orientations of charge flow. According to Furry's theorem each summand in one of the above sums appears with the opposite sign in the other sum.
+
+Consider first the case of no abelian factors in the structure group, SU (N ) say. The above trace will be purely imaginery (for hermitian generators and imaginery structure constants
+
+10
+
+fabc, [Ta; Tb] = fabcTc). For an anomaly safe representation we have dabc = 0, and the above expression, being imaginary, must be linear in fabc. But we cannot match an even number of indices with products of the f tensor and ffiab, the metric tensor in group space, so it vanishes. In the same way the trace appearing in the case of 2k + 1 couplings in Fig.(11b) is of the form
+
+tr( X
+
+perm.
+
+Ta1 : : : Ta2k+1 ) + tr( X
+
+perm.
+
+Ta2k+1 : : : Ta1); (5)
+
+so that it is real and cannot contain the f tensor. Again we cannot match an odd number of indices with the ffi-tensor alone and again it vanishes.
+
+Now let us generalize to the case of abelian factors in the structure group, e.g. U (1) \Theta SU (2). The above argument cannot be pursued as an appearance of an odd number of hypercharge generators Y in the trace ruins the above reasoning.
+
+We can refine it in the following manner. Consider Fig.(11b) where we emphasize that it contains the sum over all possible ways of connecting the fermion loop to the graph via the internal bosons. So this sum will be totally symmetric under simultaneous exchange of group indices, Lorentz indices, momenta and boson masses. In the case of 2k couplings non-vanishing terms must still be linear in the f-tensor, for example tr(Y 2k+1TaTbTc) , fabc (dabc = 0!), so they are necessarily antisymmetric in at least three of the group indices. As these internal indices are to be summed over, and as the overall divergence is independent of the masses of the internal bosons, the result vanishes when summing over the internal group indices. This must not be true for the terms of vanishing overall degree of divergence as for them the antisymmetric part of the trace can become symmetric when multiplying terms in the loop integrals which are possibly antisymmetric under the corresponding exchange of masses, though, as one always can work with mass independent renormalization schemes, this is a rather academic restriction.
+
+In the case of (2k + 1) couplings our trace of the form Eq.(5) will not vanish if, again, we have an odd number of hypercharge generators. But now the result is symmetric. But this means that we only have to consider the symmetric part under simultaneous exchange of Lorentz indices and corresponding momenta. As all outgoing momenta of the fermion loop in Fig.(11b) are to be integrated over with an explicitly symmetric integration measure, we are restricted to the total symmetric part in the exchange of Lorentz indices. But the Trace of the fermion loop is necessarily proportional to the Levi Civita tensor, so again the result vanishes.
+
+We have improved the power counting by at least one degree for Fig.(11a,b) and therefore will not have counterterms generated by these graphs. Further they fulfill their BRST identity because, with a vanishing overall degree of divergence, we can cyclically permute Trace without changing the results, thus directly establishing the BRST identity in Fig.(10). Note that the above reasoning is not restricted to the case U (1)\Theta SU (2) or U (1)\Theta SU (2)\Theta SU (3). It applies to arbitrary abelian factors as long as we have an anomaly free representation.
+
+Let us check the other BRST identities.
+
++ + = 0 k a)
+
++ k + perm. = 0 b)
+
+Fig.(15) The other BRST identities for vertices [8].
+
+11
+
+For the logarithmic divergent functions Fig.(15b) we can use the above mechanism Eq.(3) to reduce the problem to the case of no exterior particle coupling to the fermion loop. The arguments we used for Fig.(11a) can be used almost unchanged for the case of several exterior lines coupling to the fermion loop. The novel feature that there is more than one exterior line at the fermion loop does not demand a separate treatment. We are still allowed to set one of the momentum transfers to zero and could then consider appropriate sums over all possible couplings. Here we used the fact that all possibilities to connect j exterior particles to the fermion loop can be ordered in the following manner. First connect (j \Gamma 1) lines in some way to the fermion loop. Then connect the last line (with momentum transfer zero) in all possible ways and apply the above total derivative argument Eq.(3) to this sum. Now sum over all possible ways to connect the (j \Gamma 1) lines.
+
+We are left with the case that no exterior line couples to the fermion loop, so that there is a total internal fermion loop. For this case we then use the arguments we used for Fig.(11b) as they are totally independent of the nature of the exterior particles. Let us call this the internal fermion loop argument (IFLA).
+
+In the case of linear divergences we can use the same arguments as before. Though there is a linear divergence the relevant form factor for the overall degree of divergence always factorizes an exterior momentum. We can still achieve the graph to be finite by acting with an appropriate first order derivative in an exterior momentum on it. So we can apply the total derivative argument Eq.(3) to the case of exterior couplings to the fermion loop and apply again IFLA for the remaining case.
+
+The last identity to be checked is the BRST identity for the two-point gauge boson propagator. We are confronted with a quadratic divergence. We cannot apply the total derivative argument.
+
+a) b) c)
+
+Fig.(16) The three cases for the gauge boson propagator. But nevertheless, for the case of one or two external lines coupling to the fermion loop Fig.(16b, 16c) the result follows easily. The only non-trivial case is when there are terms proportional to \Gamma 35;_ or \Gamma 55;_ in Fig.(16b) resp. \Gamma 45 in Fig.(16c). Here \Gamma 35;_; \Gamma 55;_; \Gamma 45 are shorthand notations for a contracted product of the Levi-Civita tensor with 3, 5 or 4 fl-matrices as defined in the appendix. These structures can be generated by the black bubble in Fig.(16). Then we can explicitly verify transversality by considering Traces of the form
+
+Tr(fl5fl_l/\Gamma 45(l/ + q/)); Tr(fl5fl_l/\Gamma 55;_(l/ + q/)); Tr(fl5fl_l/\Gamma 35;_(l/ + q/)); which all vanish identically when contracted with q_.
+
+For Fig.(16a) we use IFLA again. We conclude that we are not confronted with modifications of BRST identities in our scheme. Also uniqueness of the Trace functional follows easily. The above reasoning covers all relevant couplings of exterior particles to fermion loops. Cases like the Yukawa coupling in the Higgs-fermion sector are unproblematic as for the overall divergent Green functions (see [8] section 4.2.5) the above arguments can be applied in a similar manner. Other Green functions involve particles not coupling to fermions and can most easily handled by the IFLA argument.
+
+12
+
+4 Verification of the Adler Bardeen Theorem in this
+
+Scheme
+
+Here we will give a short proof of the Adler Bardeen Theorem [9]. We can restrict our attention to the case of radiative corrections to the axial vector coupling. These can be generated by overall divergences of the corresponding graphs or as subdivergences modifying the axial vector coupling to the fermion loop.
+
+We first note that whenever the A vertex is located in the interior of a non-trivial maximal forest it is screened by this forest. This means that a contraction with the corresponding momenta establishes the corresponding BRST identity, as our reading rules guarantee that we do not start Trace reading inside this forest. On the other hand we still have vector current conservation, so we will not find an anomaly in these higher loop graphs.
+
+A
+
+V
+
+V
+
+Fig.(17) The screening. Our type i+ or iI reading points give a non-anomalous result.
+
+In case that the maximal forest containing A contains the whole fermion loop we can always find a reading point guaranteeing a non-anomalous result:
+
+A
+
+V
+
+V
+
+Fig.(18) The maximal forest contains the fermion loop. Any reading point which does not coincide with an exterior vertex or an incoming propagator of such a vertex is anomaly free.
+
+It remains to discuss the case that the fermion loop is part of a bigger topology, Fig.(19).
+
+A V
+
+V
+
+a)q
+
+p
+
+p
+
+1
+
+2 AA
+
+V
+
+V
+
+b)q p
+
+p
+
+1
+
+2 Fig.(19) a) The fermion loop appearing as a subgraph in an anomalous Green function. b) Integrating out the fermion loop gives the anomaly or a related tensor.
+
+13
+
+We cannot use the above argument, as there can be overall divergences which, in contrast to subdivergences of the fermion loop, do not shelter the A vertex from becoming anomalous.
+
+At least one fermion loop must necessarily appear as a subgraph involving an odd number of A vertices to generate a possible anomalous structure. Then this graph gives us the anomaly as a result, see Fig.(19a). The case that it couples to more than three vertices -the dots in Fig.(19a)- does not modify the following reasoning in an essential manner. The result for this graph will still involve the Levi Civita-tensor, and thus sufficient antisymmetry for the following argument to apply:
+
+Integrating out the fermion loop, the resulting expression, Fig.(19b), is only logarithmic divergent by power counting, as the anomaly behaves as ffl0123_1_2fi1fi2pfi11 pfi22 where p1; p2 are the momenta entering the other (V ) vertices of the fermion loop. But we can always choose these momenta which contract the ffl-tensor to have the form p1 = k + q1; p2 = k + q2, that is they are both combination of the same internal loop momentum k and different exterior momenta qi. We see that by contracting with the Levi-Civita tensor we improve power counting by one, so that our graphs have vanishing overall degree of divergence. They then vanish because the Trace evaluations bring at least an order (D \Gamma 4) operator. We conclude that there are no radiative corrections to the one-loop anomalous fermion loops - the Adler Bardeen theorem.
+
+5 General Remarks and Conclusions In this paper we examined some basic features of a new proposal for the fl5-problem in DR. Compared to the common approach of a non-anticommuting fl5 we find a different behaviour with respect to gauge symmetries. The anomalies appear as the only consequence of the breaking of Lorentz invariance in this new scheme. All further modifications of the BRST identities could be avoided. In this sense, this new scheme seems most economical in its treatment of gauge invariance.
+
+This has to be compared with BM schemes. There even in amplitudes involving only open fermion lines one has a modification of the BRST identities. Modifications in this sector are not possible in our scheme. Now our reasoning in section 3 was based on an improvement of power-counting. So the arguments there should have consequences for BM schemes too. In the open fermion line sector there can be no doubt that the BM schemes, after an appropriate modification of their BRST identities, will give the same results for physical amplitudes as our scheme gives. The modifications cure the spurious anomalies of the gauge symmetry in the BM scheme. But then all our reasoning in section 3 should be applicable to the BM schemes too, showing that in processes involving closed fermion loops the modified BM BRST identities are sufficient to incorporate all effects of the fl5- problem. This seems reasonable because all subdivergences of a fermion loop are open fermion line amplitudes. Indeed, for example the conclusions in [10] or [11] seem to support this viewpoint. It was found that, after compensating the open fermion line spuriosities of BM schemes in an appropriate manner, it is justified to calculate with an anticommuting fl5 in closed fermion loops in the case of several fl5's [10]. In [11] this property was checked and confirmed to all loop orders, as expected from the results in [4].
+
+All this is certainly no surprise from the viewpoint of our scheme, and might be considered as justified by our reasoning in section 3.
+
+Note that one cannot derive such results from schemes favouring an anticommuting fl5 naively [12].
+
+It should be justified then to consider BM schemes and the new scheme as fully equivalent. It seems that from the viewpoint of the practitioner the new scheme is more efficient [6]. The only complication is the need to determine all maximal forests. On the other hand this is an unavoidable step in the calculation of multiloop diagrams anyhow, so there is no real complication in the D-dimensional generalization of the fl-algebra. Especially statements of the form that chiral fermions cannot be consistently defined in DR are not justified.
+
+14
+
+When one applies DR as a regulator to nonrenormalizable theories the considerations of section 3 certainly do not apply. To use DR as a unique regulator demands some physical input then. An example is the demand of vector current conservation for the one-loop triangle anomaly. Such physical input is necessary in all schemes, and is incorporated in the BM-scheme explitly (do not commute fl5 away from the axial vertex) as well as in our scheme (start Trace reading at the axial vertex).
+
+Also IR regularizations do not obey the arguments of section 3, but all ambiguity can be avoided by treating squared matrix elements and corresponding loop amplitudes in the same manner [6]. This does not exclude IR anomalies as mentioned at the end of section 2.
+
+Two final remarks. The first considers the r^ole of the Fierz transformation. The use of it in BM schemes is clearly demonstrated in [13]. To make use of the formalism obtained there in our scheme we stress that the derivation of Fierz identities between bilinear scalar spinor densities is not restricted to ordinary traces appearing as the linear functional in them. A short glance to the standard derivation shows that one can generalize to arbitrary linear functionals. Especially we can choose this linear functional to be Trace to obtain
+
+Tr(2 \Omega \Gamma i(1))Tr(4 \Omega \Gamma i(3)) = X
+
+j
+
+cij(D)Tr(2 \Omega \Gamma j(3))Tr(4 \Omega \Gamma j(1)): (6)
+
+The matrix cij(D) is the D-dimensional generalization of the matrix appearing in the familiar Fierz transformations in four dimensions [13]. Then one can make use of the formalism in [13] to obtain a unique prescription for the handling of Fierz identities in our scheme. Due to the projector properties of Trace the sum in Eq.(6) will become a finite sum if the involved spinors are known to be on-shell.
+
+The final remark provides an example how to summarize the gauge properties of the new scheme in a kind of toy homology. In the following we neglect the ghost sector as we do expect all anomalous contributions to be generated by the treatment of a fl5-odd fermion loop.
+
+Assume we act with the BRST identity Fig.(10) on an arbitrary Green function G(k) involving a fermion loop with k exterior couplings to this fermion loop. We can then establish a relation between this Green function and two Green functions G(k\Gamma 1), with only (k \Gamma 1) couplings to the fermion loop, as usual
+
+q_
+
+i
+
+i G(
+
+k) _1:::_i:::_k (q1; : : : qk) \Gamma G
+
+(k\Gamma 1) _1::: ^_i:::_k (f1g) + G
+
+(k\Gamma 1) _1::: ^_i:::_k (f2g) = 0; (7)
+
+where f1g; f2g specify appropriate sets of exterior momenta. Define now an operator \Delta :=P
+
+i \Delta i, acting on fermion loops coupling to exterior lines, where the sum runs over all (axial)couplings of exterior lines to the fermion loop. We define
+
+\Delta i := q_
+
+i
+
+i G(
+
+k) _1:::_i:::_k(q1; : : : qk) \Gamma G
+
+(k\Gamma 1) _1::: ^_i:::_k(f1g) + G
+
+(k\Gamma 1) _1::: ^_i:::_k (f2g): (8)
+
+It results that every fermion loop Green function G(k) which fulfills its BRST identities is in the kernel of this operator, \Delta (G(k)) = 0. If we have a Green function G(0) for which no exterior line is connected to a closed fermion loop, IFLA justifies the definition \Delta (G(0)) = 0.
+
+Further we have \Delta 2 = 0 in our fl5-scheme. This is so because one can cut a closed fermion loop only at one point. The operator \Delta 2 corresponds to two contractions of a fermion loop with exterior momenta. For such a contraction to fail in a resulting BRST identity the fermion loop must be cut open at the corresponding exterior vertex, cf. Fig.(6). So at least one of the two contractions will fulfill its BRST identity, so that \Delta 2 = 0 in our fl5-scheme.
+
+Consider anomalies ! A ?. They are generated by \Delta , by construction of \Delta . So they are
+
+in the image of \Delta , for example the AAA anomaly is \Delta (G(3)oneloop). So the anomalies are in the image modulo the kernel of \Delta , ! A ?2 H\Delta j Im\Delta =Ker\Delta . This is just the statement that the addition of BRST invariant terms leaves the anomalies unchanged. Though the above homology is a very naive and truncated counterpart of the usual BRST cohomology which specifies physical amplitudes it summarizes the content of our fl5-scheme in a neat manner.
+
+15
+
+One can also write down a path-integral representation for the operator \Delta based on the cyclic permutation group, Wick's theorem and the generating functional for closed fermion loops. If anything of interest, like connections to cyclic (co)homology, can be obtained from it will be a subject of future studies.
+
+Acknowledgements Stimulating discussions on the subject with D. Broadhurst, A. Buras, J. G. K"orner, K. Schilcher and G. Thompson are gratefully acknowledged. It is a pleasure to thank P. D. Jarvis especially for discussions on the (co)homological properties of the BRST identities.
+
+But most grateful I am to R. Delbourgo. His insight and comments were of enormous help.
+
+I would like to thank D. Maison and C. Schubert for correspondence. T. Baker, N. Jones and T. Waites were helpful in generating all the figures. This work was supported under grant number 4 from the Australian Research Council.
+
+A Definition of the Scheme Consider an arbitrary string of fl-matrices which has a natural Z2 grading
+
+\Gamma 0 j 1; \Gamma 2k j fl_1 : : : fl_2k ; \Gamma 2k+1 j fl_1 : : : fl_2k+1 : (9)
+
+We can expand such a string according to a basis including the identity as a zero form and the antisymmetric products of fl-matrices.
+
+\Gamma 2k j a02k1 + a22kfl ^ fl + a42kfl ^ fl ^ fl ^ fl + : : : \Gamma 2k+1 j a12kfl + a32kfl ^ fl ^ fl + : : : : (10)
+
+In four dimensions the expansion stops with the four-form fl ^ fl ^ fl ^ fl = fl0fl1fl2fl3. Note that we normalized our forms ! j fl; fl ^ fl; : : : so that !2 = 1.
+
+Now we have in four dimensions with Eq.(10)
+
+tr(\Gamma 2k+1) = 0;
+
+tr(\Gamma 2k) = a02ktr(1); tr(fl5\Gamma 2k+1) = 0;
+
+tr(fl5) = 0; tr(fl5\Gamma 2) = 0; tr(fl5\Gamma 4) = a44tr(1); tr(fl5\Gamma 2k) = a42ktr(1) for k ? 2; (11)
+
+where ifl5 fl0fl1fl2fl3 = 1;
+
+a44 = ffl0123_1 : : : _4; and a42k is a linear combination
+
+of the ffl-tensor and metrical tensors: a42k = ffl0123ff1 : : : ff4tr(flff1 : : : flff4 fl_1 : : : fl_2k ):
+
+The crucial point is that in this way we can express the trace operation as a projection, which projects on the a02k element if there is an even number of fl5 in the argument and on the a42k element if the number of fl5 is odd.
+
+16
+
+Let us consider the generalization to D 6= 4 dimensions. In a slight abuse of notation fl5 still denotes the one unique anticommuting element of the Clifford algebra:
+
+ffl5; fl_g = 0: Note that with this fl5 we would have
+
+tr(fl5fl_1 : : : fl_2k ) = 0 8 2k ! D and D integer. An expicit representation of dimensional regularization can be given in terms of functions which depend on the dimensionality of spacetime in a manner which clarifies the continuation to arbitrary complex dimensions; this is done by formulating DR on an arbitrary dimensional vector space [14]. We stress that such a consistent continuation is always based on Clifford algebras in higher integer dimensional spacetimes [14].
+
+Having this in mind we see that the only modification we get if the expansion in Eq.(10) does not stop with four-forms in four dimensions is that our linear projection operation is not a trace anymore, but a linear functional which happens to agree with the trace functional in four dimensions. So this functional, which we denote by Tr in the following, acts as
+
+Tr(\Gamma 2k) = a02kTr(1); (12) Tr(fl5\Gamma 2k) = a42kTr(1): (13)
+
+Note that with an anticommuting fl5 we have to consider these two cases only. The existence of such an anticommuting element is guaranteed by the periodicity properties of Clifford algebras [15]. Note that the notation ffl0123::: emphasizes that our projection is on the four dimensional Minkowski space represented by the index set (0; 1; 2; 3) (there are other four dimensional hyperplanes in a higher dimensional vector space and so there are other four forms as well as other evanescent forms of higher degree). That means the Levi-Civita tensor we use is the Levi-Civita of four dimensional space time imbedded in the higher dimensional vectorspaces so that it vanishes whenever one of its indices is not in the index set (0; 1; 2; 3). This can be summarized in the definition
+
+ffl0123_1_2_3_4 j ffi0[_1 ffi1_2 ffi2_3 ffi3_4]; (14) which expresses the Levi-Civita as an antisymmetrized product of Kronecker ffi's.
+
+Note further that the expansions in Eq.(10) gives the coefficients a42k as products of metrical tensors times ffl0123::: . No (evanescent) forms of rank ? 4 appear. So these coefficient functions remain unchanged for fixed k when we vary the spacetime dimensionality in the sense of [14]. This means that our functional Tr can be defined in a consistent manner in DR.
+
+Let us mention here a convenient way to calculate Tr. By its definition and the Z2-grading of the Clifford algebra we have
+
+Tr(\Gamma 2k+1) = 0; Tr(fl5\Gamma 2k+1) = 0;
+
+Tr(fl5) = 0; Tr(fl5\Gamma 2) = 0;
+
+Tr(\Gamma 2k) = tr(\Gamma 2k); (15)
+
+so that Tr is cyclic when acting on strings containing an even number of fl-matrices and no fl5. Further with Eq.(10)
+
+ffl0123_1 : : : _4fl_1 : : : fl_4 \Gamma 2k = [ffl0123_1 : : : _4fl_1 : : : fl_4 ]a02k1 + (16)
+
+[ffl0123_1 : : : _4fl_1 : : : fl_4 ]a22k fl ^ fl + a42k1 + evanescent terms.
+
+17
+
+Applying Tr to this equation yields
+
+ffl0123_1 : : : _4Tr(fl_1 : : : fl_4 \Gamma 2k) = a42kTr(1); (17) and using the above Eq.(15) and the definition of Trace,
+
+Tr(fl5\Gamma 2k) = a42kTr(1) = ffl0123_1 : : : _4Tr(fl_1 : : : fl_4\Gamma 2k)
+
+= ffl0123_1 : : : _4tr(fl_1 : : : fl_4 \Gamma 2k); (18)
+
+which gives an easy rule to calculate Tr in terms of the ordinary trace. Note that this does not mean that Tr becomes cyclic or that we are calculating with an not-anticommuting ^fl5 = ifl0fl1fl2fl3, it only states that we can use fl0fl1fl2fl3 to mimick the projection properties of Tr after using the anticommutation relation ffl5; fl_g = 0 to bring fl5 to the left.
+
+One can now easily check that Tr is a noncyclic functional
+
+Tr(\Gamma jfl5\Gamma i) 6= Tr(fl5\Gamma i\Gamma j); (i + j) even. An example might be in order here. As we see the first possible non-cyclicity can appear when applying Tr to a string containing an odd number of fl5 and six fl-matrices. The resulting noncyclicity might be regarded as the source of the anomaly in this scheme [16, 4, 6]:
+
+Tr(fl5fl_1 : : : fl_6 ) \Gamma Tr(fl_6 fl5fl_1 : : : fl_5 )g_1_6
+
+= 8(D \Gamma 4)ffl0123_2:::_5:
+
+Let us mention a few properties of explicit noncyclic Traces. The origin of the noncyclicity is the D-dimensional metric tensor in the sense that iff the index which was permuted is to be contracted with an index which is restricted to the set (0; 1; 2; 3) all noncyclic effects disappear. The permuted index has necessarily to be contracted to make an effect and after integrating out all loop momenta the only tensor which provides indices not in the Minkowski set is the metric tensor. The Levi Civita tensor we have defined to be nonvanishing only in this Minkowski set while all exterior momenta are restricted to this set in DR [14]. This automatically means that all non-cyclic effects are of O(D \Gamma 4) and are restricted to contractions with metric tensors involving a permuted index.
+
+Finally, let us mention some charge conjugation properties. We have
+
+Tr(X) = Tr(CXC\Gamma 1)8 strings X; Tr(X) = Tr(XT )8 strings X; Cfl_C\Gamma 1 = \Gamma flT_ ; (19)
+
+Cfl5C\Gamma 1 = fl5T ;
+
+where the last property for fl5 holds in 4; 8; : : : dimensions and has to be replaced by Cfl5C\Gamma 1 = \Gamma fl5T in 2; 6; : : : dimensions.
+
+For later use we define
+
+\Gamma 45 := ffl0123_1_2_3_4 fl_1 fl_2 fl_3 fl_4 ; \Gamma 35;_ := ffl0123__2_3_4fl_2 fl_3 fl_4 ; (20) \Gamma 55;_ := ffl0123_1_2_3_4 fl_fl_1 fl_2 fl_3 fl_4 :
+
+B Zimmermann's Forest Formula For the renormalization procedure, we need a cancellation mechanism for one-particle irreducible (1PI) subdivergences. So we recall the key properties of Zimmermann's forest formula (ZFF) [17].
+
+The renormalization problem is mainly to establish a recursive definition of a cancellation mechanism which guarantees all divergences and subdivergences are absorbed in the
+
+18
+
+redefinition of the coefficients of the monomials of the bare lagrangian. This mechanism is shown to exist with zero-momentum subtractions in [18], with the help of DR together with minimal subtraction in [1, 19], and, in a regularization independent manner (on integrands), in [20].
+
+The above recursion problem has a solution found in [17], where a subtraction procedure is given by application of a subtraction operator to all possible forests of a graph. This is, especially for the problem of overlapping divergences, an elegant method, very powerful for developing proofs with respect to the substructure of graphs.
+
+Let a graph G be given. Let R(G) denote its regularized value, U(G) the unregularized graph and let T denote a mechanism which extracts the divergences (poles) of the graph: R(G) = U(G) \Gamma T ffi U(G) (our notation strictly follows [14]). Let us further assume that we know how to extract subdivergences. Let the graph with subtracted subdivergences be R(G). Then we can define an overall counterterm C(G) := \Gamma T ffi R(G). We define C(G) = 0 if there is no overall divergence. We have
+
+R(G) = R(G) + C(G): (21) Now we come to the definition of R(G). By definition, if G has no subdivergences at all, we must have R(G) = U(G). If it has subdivergences, it is given by
+
+R(G) = U(G) + X
+
+flaeG
+
+Cfl(G)
+
+C(fl) = ( \Gamma T ffi R(fl); if fl has an overall divergence0 ; if fl has no overall divergence ) ; (22) where fl denotes real subgraphs of G. This recursion ends with the one-loop graphs which do not contain further subdivergences. This is the subtraction mechanism which every regularization prescription has to respect.
+
+Now let us turn to the forest formula. Imagine you denote each application of the subtraction operator T in the above recursion graphically by encircling the corresponding 1PI-subgraph with a box. Call this a forest. The graph G itself without subtraction corresponds to the empty set. Then the set of all forests of a graph includes so-called normal forests, which subtract subdivergences, and so-called full forests, which combine to subtract the overall divergences. Full forests always encirle the whole of G. Maximal forests are normal forests not contained in any other normal forest.
+
+Let F(G) be the set of all forests. Note that with the above definition forests are always disjoint or nested, but not overlapping. Then the forest formula is given by
+
+R(G) = X
+
+U2F(G) Yfl2U
+
+(\Gamma Tfl)G: (23)
+
+The application of this formula gives the same result as the above recursion prescription [17].
+
+It can be proven that these methods for subtracting subdivergences give local counterterms. That is the counterterms are polynomial expressions in exterior momenta of degree not higher than the overall degree of divergence which one obtains from power-counting. Further the counterterms add to a counterterm lagrangian including only the same monomials as in the bare lagrangian, as promised.
+
+C Reading prescriptions We denote the point where we start Trace reading as a reading point and any combination of the form 1n times n reading points as a reading prescription.
+
+Consider the i-th exterior vertex of a n-point fermion loop and the associated maximal forest.
+
+19
+
+ii i i+ III Fig.(C1) Reading points The non-forbidden reading points are i+; iI; iII. These are the ones which can be defined with respect to the exterior vertex i as the points which are the first vertex of the maximal forest of i, -i+-, the propagator entering this maximal forest, -iII-, and the propagator leaving it, -iI. If there are no subdivergences at the exterior vertex i we associate it with the empty forest, so that i+ is the vertex i itself for example. These reading points are considered as to be outside the maximal forest. Any other reading point between i+ and iI we define to be inside the maximal forest. Such reading points cut open the subdivergence associated with the maximal forest.
+
+Reading points which cannot be defined with respect to an exterior vertex i are called type III reading points. They are useless as they do not provide a unique way of identifying them. To a given loop order the number of i+ and iI; iII reading points is simply k, the number of exterior couplings to the fermion loop, while the number of type III reading points is not fixed at all, though bounded by the loop order. If for some reason we were forced to make use of type III reading points we would have to proof that all there ambiguities do cancel. Fortunately we are able to avoid their use and can omit this cumbersome proof.
+
+Reading points associated with exterior scalar or pseudoscalar vertices are denoted as type III too, stressing that they also can be avoided. They might be dangerous as they do not provide us with a free Lorentz index to identify them. As overall divergences tend to be independent of external momenta the unique identification of such a vertex in a fermion loop is critical.
+
+The reader might wonder where one should start Trace reading then in a fl5-odd fermion loop which has no exterior A vertices but only some pseudoscalar vertices. But note that for a non-cyclic effect to appear we need at least six fl-matrices. As the replacement of axial-vector couplings by pseudo-scalar ones lowers the number of fl-matrices in the fermion loop we do not have an overall degree of divergence for such a fermion loop itself. So all reading points outside the forests are equivalent. On the other hand, the appearance of such a loop as a subgraph in other loops is covered by our considerations in section 3 (IFLA, total derivative argument).
+
+References
+
+[1] G.'t Hooft, M. Veltman, Nucl. Phys.B44, 189 (1972)
+
+P. Breitenlohner, D. Maison, Comm. Math. Phys.52, 11, 39, 55 (1977)
+
+[2] D.A. Akyeampong, R. Delbourgo, Nuovo Cim.17A, 578 (1973); 18A, 94 (1973); 19A,
+
+219 (1974) G. Thompson, H.L. Yu, Phys. Lett.151B, 119 (1985)
+
+[3] G. Bonneau, Int. J. Mod. Phys.A5, 3831 (1990) [4] D. Kreimer, Phys. Lett.B237, 59 (1990) [5] W. Hollik, Renormalization of the Standard Model, to appear in 'Precision Tests of the
+
+Standard Model', World Scientific Publ.Co.; P. Langacker, editor A.J. Buras, M. Jamin, M.E. Lautenbacher, P.H. Weisz, Nucl. Phys.B400, 37 and 75 (1993)
+
+20
+
+[6] J.G. K"orner, K. Schilcher, D. Kreimer, Z. Phys.C54, 503 (1992) [7] Willy van Neerven, private communications [8] K.I. Aoki, Z. Hioki, R. Kawabe, M. Konuma, T. Muta, Suppl. Prog. Theor. Phys.73, 1
+
+(1982)
+
+[9] S. Adler, W. Bardeen, Phys. Rev.182, 1517 (1969) [10] S. A. Larin, Phys. Lett.B303, 113 (1993) [11] D.J. Broadhurst, A.L. Kataev, Phys. Lett.B315, 179 (1993) [12] M. Chanowitz, M. Furman, I. Hinchcliffe, Nucl. Phys.B159, 225 (1979) [13] R. Delbourgo, V.B. Prasad, Nuovo Cim.21A, 32 (1974) [14] J. Collins, 'Renormalization', Cambridge Univ. Press (1984)
+
+P.A. Baikov, V.A. Ilyin, Theor. Math. Phys.88, 789 (1991)
+
+[15] J.E. Gilbert, M.A.M. Murray, 'Clifford algebras and Dirac operators in harmonic analysis', Cambridge Univ. Press (1991)
+
+[16] H. Nicolai, P.K. Townsend, Phys. Lett.B93, 111 (1980) [17] W. Zimmermann, Comm. Math. Phys.15, 208 (1969) [18] N.N. Bogoliubov, D.V. Shirkov, 'Introduction to the theory of quantized fields', Wiley
+
+(1980)
+
+[19] J. Collins, Nucl. Phys.B92, 477 (1975) [20] W. Zimmermann, Ann. Phys.77, 570 (1973)
+
+21
+

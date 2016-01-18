@@ -1,0 +1,293 @@
+F.V.Tkachov Talk at ACAT'02  1
+
+Quasi-optimal observables vs. event selection cuts
+
+F.V.Tkachov
+Institute for Nuclear Research of Russian Academy of Sciences
+Moscow, 117312, Russian Federation
+
+
+The method of quasi-optimal observables  offers a fundamental yet simple and flexible algorithmic
+framework for data processing in high energy physics to improve upon the practice of event selection cuts.
+
+
+
+No better preface could be imagined for my presentation of the hood prescribes to estimate M by the value which maximizes the
+method of quasi-optimal observables [1] than the talk we've just expression ln (
+j Pj ) . The method may be difficult to apply (es-
+heard [2]: there is obviously a number of HEP data processing spe- pecially if the probability density is not known analytically or the
+cialists around the globe seeking ways -- similarly to Dr. Anipko number of events is large, as is often the case in HEP), but it is op-
+et al. -- to extract maximum signal from their event samples. The timal in the sense that the resulting estimate M
+talk [2] is also another evidence (not that there is a lack thereof) opt corresponds to
+the absolute lower bound as established by the fundamental Fisher-
+that the prescriptions which I am going to discuss are unknown to Frechet-Rao-Cramer inequality which for our purpose can be writ-
+many physicists (see [3] for a discussion of this; see, however, ten as follows:
+Notes added hereafter).
+I am going to advocate the method of quasi-optimal observables Var M [ f ] Var M . (1)
+opt
+as a systematic solution of the problem of optimal HEP measure- But however inferior the method of moments may seem, it
+ments, including but not limited to, the finding of optimal event se- represents a fundamental viewpoint in that the probability distribu-
+lection cuts. The method: tion can be equated to the collection of all average values f (re-
+derives from first principles of mathematical statistics;
+call the mathematical definition of distributions as linear function-
+is simple and fundamental (and as such deserves to be known als on test functions; probabilistic measures are special cases of
+to every non-mathematical physicist);
+distributions). However abstract this may seem, at least it's an in-
+offers a rather universal guiding principle for doing data dication (it was for me) that the method of moments may have a
+processing in HEP, especially in the precision measurement deeper significance than is the popular perception.
+type problems;
+So, let us ask a simple question: given that Var is
+offers a flexible algorithmic framework that seems to require M [ f ]
+neither artificial intelligence, nor neural networks (not to men- bounded from below, where in the space of f is the minimum lo-
+tion ants); in fact its implementations can be based on avail- cated? A baffling aspect of all this (discussed in [3]) is that there is
+able adaptive algorithms for multidimensional integration little evidence that in the 100+ years since the introduction of the
+(among other options) and seem otherwise straightforward. method there have been serious attempts to find ways to determine
+which f are better than others in this respect -- given that the
+The method came about as a by-product of the theory of jet minimum has been known to exist for 50+ years (see, however,
+definition [4] and is a result of attempts to understand the basics of Notes added hereafter).
+HEP data processing under a premise that adding a fancy idea to a Once one's asked the question, it is straightforward to write
+mess (a customary way of doing things in what is known as nor- down the following criteria for the minimum:
+mal science [5]) usually creates only more mess (my favorite illus-
+2
+tration of the law is the design of C++; see [6] and refs. therein).
+Var M [ f ] = 0, Var M [ f ] > 0. (2)
+Let {P } f ( )
+P f ( )
+P f (Q)
+i i be the events (instances of a random variable P) dis-
+tributed according to the probability density (P); the density is Further, in the statistical limit one has
+assumed to depend on a parameter denoted as M . Take any text- -
+Var = Var ×
+arXiv: v3 21 Jan 2003 book of mathematical statistics for physicists and recall that the M f ( f ) 2
+[ ] f M . (3)
+simplest method of parameter estimation1 is that of (generalized)
+moments going back to Pearson (1894) where one fixes a function Simple calculations (for details see [1]) yield the solution:
+on events (weight) f (P) and then finds the experimental estimate ln ( )
+P
+for M -- denote it as M [f ] -- by fitting the theoretical mean f ( )
+P = (4)
+opt M
+
+value, f = dP ( )
+P f ( )
+P , against its experimental ana-
+(up to an additive and a multiplicative constants that may both de-
+log 1
+f N -
+= f(P); denote as VarM[f] the variance of the pend on M) and that for small deviations from optimality
+exp i
+i
+estimate, then the actual error from the fit is estimated -1 -3
+2
+Var M[ f + ] = f + O( 2
+) 2 + (5)
+opt f
+opt opt ...
+as -1
+N Var M [ f ] . The method is simple but is considered inferior
+2
+to the extent that it is no longer mentioned in the PDG booklets. where O ( ) is a known non-negative expression, which fact is
+The problem is that there have been no prescription to choose f (P) essentially equivalent to the FFRC inequality (1). Note that fopt has
+sensibly, i.e. so as to minimize Var M [f ] . to be fixed for some M0. If M1 is the value extracted from data us-
+On the other hand, Fisher's (1912) method of maximal likeli- ing such fopt , then M , and so on. The
+1 can be used to reevaluate fopt
+resulting iterative procedure is seen to be essentially equivalent to
+
+1 the optimization involved in the maximal likelihood method.
+At this point it is worth emphasizing that parameter estimation is a more ade-
+quate interpretation of HEP data processing than event selection which -- one The beautiful aspect of (5) is that the quadratic nature of the
+tends to forget -- is only an auxiliary tool. second term on the r.h.s. of (5) (for which an explicit analytical
+
+
+
+
+
+
+
+F.V.Tkachov Talk at ACAT'02  2
+
+expression is available [1]) means that fopt need not be known ex- Again, the factorized form on the r.h.s. nicely corresponds to the
+actly: working with an approximation fq-opt to the optimal moment conventional procedures: the first factor corresponds to event se-
+fopt may be practically sufficient. The approximation is then called lection cuts for this channel and the second factor, to the specific
+quasi-optimal observable. Note that one may be able to construct measurement with the selected events.
+satisfactory quasi-optimal observables even in situations when the Another example is as follows. One can construct optimal ob-
+method of maximal likelihood is not applicable, e.g. when the servables on events reduced to a few parameters using e.g. a jet al-
+probability density is only known in the form of a MC generator gorithm. Then the quality of the resulting measurement procedure
+rather than analytical formula. depends on the reduction (jet) algorithm used and one could em-
+As a typical example, consider measurements of a process me- ploy the quantity 2
+f that emerges in (5) to compare different
+diated by an intermediate particle (cf. [2]; another example is the opt
+top quark search in the all-jets channel at D0 [7]). Then the prob- jet algorithms: the larger this number, the smaller the error of the
+ability distribution is represented as follows (remember that the measurement of M, and the better the jet algorithm. This number
+overall normalization plays no role in this): can also be used to control the tradeoffs between quality and speed
+involved in various optimizations. A comparison of this kind has
+2
+( )
+P = (P) + g ( )
+P . (6)
+bg signal been undertaken in [8]. Referring the reader for details to [8], I only
+cite the finding that the optimal jet definition introduced in [4]
+The first unknown parameter is g2, usually corresponding to the in- proves to be equivalent on this test to the k
+termediate particle's coupling. Other parameters (e.g. its mass M) T algorithm [9], with
+both appreciably better than the JADE algorithm [10]. Furthermore,
+may be hidden within .
+signal a simple optimization makes the implementation of the optimal jet
+The optimal observable for measurement of g2 (effectively, of definition reported in [11] more than twice as fast as any of the
+the production rate for this channel) is other two algorithms without noticeable loss in quality.
+2
+To conclude, the method of quasi-optimal observables com-
+P g
+(P)
+ln ( ) signal
+P
+F ( ) = 1. (7) bines:
+opt 2 2
+g
+( )P+ g (P)
+bg signal the simplicity of use of the method of moments;
+It is straightforward to generate an approximation for this using a the optimal quality of results of maximal likelihood;
+MC generator. Note that Eq. (7) approaches 1 whenever the signal algorithmic flexibility;
+exceeds the background appreciably, and approaches 0 in the op- a deterministic method to replace and improve upon event se-
+posite case. Should F lection procedures based on cuts.
+opt happen to be such as to take only values 0
+and 1 then it would exactly be the selection criterion that Dr. It also meshes well with advanced theoretical calculations (al-
+Anipko et al. [2] devised their algorithm to seek. lowing theorists to use arbitrarily singular expressions for
+However, F higher order corrections to probability distributions -- once
+opt is a continuous function in practical situations.
+This means that the optimal way (i.e. one ensuring minimum er- quasi-optimal observables have been agreed upon with ex-
+rors) to measure the production rate for this channel is to evaluate perimentalists);
+the sum and offers a complete analytical control over one's optimiza-
+F P (8) tions etc. (via the quantity 2
+f ).
+opt ( i opt
+i )
+The next task is to engineer good software implementations of the
+rather than count events selected with any 0/1 approximation to method.
+Fopt . We are forced to conclude that any conventional data process- I thank E.Jankowski for several discussions and A.Czarnecki
+ing procedure based on 0/1 selection cuts -- no matter what kind for the hospitality at the University of Alberta, Edmonton, where
+of intelligence it relies upon -- involves a loss of physical infor- some of this work was done. This work was supported in parts by
+mation -- i.e. yields systematically higher errors compared with the NATO grant PST.CLG.977751 and the Natural Sciences and
+the procedure based on the optimal observable. Engineering Research Council of Canada.
+How can one estimate the losses? Given that the hypersurface
+which separates the 0 and 1 regions in the space of events is mostly Notes added
+regular, and so has codim = 1 , it is sufficient to examine a one-
+dimensional situation. So let P [0,1] and (P) = P. Compare the After the first and second postings of this text, first Dr. A. Soni
+fluctuations of two observables, and then Drs. M. Diehl, O. Nachtmann and F. Nigel notified me of
+f (P) = P and
+cont some relevant earlier publications. I am particularly indebted to
+1
+f (P) = IF P < THEN 0 ELSE 1 END. The second one corre-
+cut Dr. Diehl for kindly sending me copies of the papers published in
+2
+sponds to the usual cuts whereas the first one can be an optimal the early 90s that are unavailable on-line and in Russian libraries.
+observable. For the statistical errors in the two cases, one finds The summary below rectifies some incorrect statements made in
+= Notes added in the second posting of this text.
+1.6 -- a substantial factor sufficient to transform a 3
+cut cont It turns out, the important special case of linear dependence on
+signal into a 5 discovery (or vice versa)! This is an optimistic the measured parameter, Eqs. (6), (7), has a rather rich history of
+case (or pessimistic, depending on the viewpoint). But it does indi- ten years -- although it has been remaining a sort of esoteric
+cate the range of possibilities. knowledge in the community of specialists in weak and anomalous
+Next, suppose one wishes to measure, say, the mass M of the in- couplings.
+termediate particle which is responsible for the production channel Ref. [12] derived the corresponding optimal observable using
+being studied. The corresponding optimal observable is repre- orthogonality in Hilbert spaces familiar from quantum mechanics.
+sented as follows (the interesting factorized form is new compared An interesting paper [13] dealt with the method of maximal
+with the earlier discussions): likelihood in the case of the probability distribution (6) and pointed
+2 out that the likelihood function depends only on the real variable
+g
+M signal
+f (P) = = F ( )
+P × ln ( )
+P . (9) = (P) (P) , therefore, all the information on the parame-
+opt,M 2 opt M signal
++ signal bg
+g
+bg signal ter being estimated is carried by . However, Ref. [13] stopped
+
+
+
+
+
+
+
+F.V.Tkachov Talk at ACAT'02  3
+
+short of reformulating the estimation procedure in terms of the
+method of moments. As a kind of test of whether or not ref. [13]
+crossed the discovery line, I note the following: Whereas it would
+have been immediate to make use of the result of [12] in my work
+on jet observables [14] (and it would have saved me a lot of trou-
+ble then and later, even if the result is not general), it would be
+hardly possible to make a similar use of [13]; also, the problem
+was formulated in [12] in such a way that I can easily imagine my-
+self replacing the derivation of [12] with the more general one [1]
+to arrive at the general result (4), but I cannot imagine ref. [13] as
+such a starting point.
+An extension to several parameters, and with inclusion of quad-
+ratic terms (within the ideological framework of [12]) was pre-
+sented and systematically studied in [15], including the connection
+with the FFRC inequality [16]. It resulted in a body of work on
+measurement of (anomalous) trilinear couplings (e.g. [17], [18]).
+A generalization similar to that of [15] was achieved in [19].
+Note that if the dependence on the parameter being estimated is
+essentially non-linear (as would be the case e.g. with masses, de-
+cay widths, etc.), the general formulae (4) and (9) have to be in-
+voked.
+It is rather amusing that the citations of [12], [15], [19] are
+strongly correlated with the keywords "CP violation", "trilinear
+gauge couplings", "anomalous three gauge boson couplings".
+The corresponding community seems to have no appreciable inter-
+section with that specializing in jet algorithms or in the construc-
+tion of cuts using complicated algorithmic machinery (as repre-
+sented e.g. at the ACAT/AIHENP workshops).
+Still, I find it strange that little, if any, effort seems to have been
+expended to decouple the results of refs. [12], [15], [19] from the
+rather special physical problematics and to make them known be-
+yond the community of weak-couplings specialists, as those for-
+mulae deserved.
+
+References
+
+[1] F.V.Tkachov,  Part. Nucl., Letters, 2[111] (2002) 28.
+[2] D. Anipko, Search of natural cuts in seeking of new physics phenomena,
+talk at ACAT'02, ID=139.
+[3] F.V.Tkachov,  in: XI Int. School "Particles and Cosmol-
+ogy", Baksan Valley, 18-24 April 2000, INR RAS, Moscow.
+[4] F.V. Tkachov,  Int. J. Mod. Phys. A17 (2002) 2783.
+[5] T. Kuhn, The Structure of Scientific Revolutions, Chicago Univ. Press,
+1962.
+[6] F.V. Tkachov,  [talk at CPP'2001, Tokyo, 28-30 Nov 2001]
+[7] P. Bhat, H. Prosper and S. Snyder,  IJMP A13 (1998) 5113.
+[8] E. Jankowski, D.Yu. Grigoriev and F.V.Tkachov, in preparation.
+[9] S. Catani et al., Phys. Lett. 269B (1991) 432.
+[10] JADE Collaboration (W. Bartel et al.), Z. f. Physik C33 (1986) 23.
+[11] D.Yu. Grigoriev and F.V. Tkachov,  [in QFTHEP'99,
+Moscow, May 27 - June 2 1999, MSU-Press, Moscow].
+[12] D. Atwood and A. Soni, Phys. Rev. D45 (1992) 2405.
+[13] M. Davier, L. Duflot, F. Le Diberder and A. Rougé, Phys. Lett. B306
+(1993) 411.
+[14] F.V. Tkachov, Phys. Rev. Lett. 73 (1994) 2405.
+[15] M. Diehl and O. Nachtmann, Z. Phys. C62 (1994) 397;
+M. Diehl and O. Nachtmann, Eur. Phys. J. C1 (1998) 177, hep-
+;
+M. Diehl, O. Nachtmann and F. Nagel, .
+[16] R.A. Fisher, Proc. Camb. Phil. Soc. 22 (1925) 700-725;
+M. Frechet, Rev. Intern. de Stat. 1943, 182;
+C.R. Rao, Bull. Calcutta Math. Soc. 37 (1945) 81-91;
+H. Cramer, Aktuariestidskrift 29 (1946) 458-463.
+[17] G.J. Gounaris and C.G. Papadopoulos, Eur. Phys. J. C2 (1998) 365,
+.
+[18] G.K. Fanourakis, D. Fassouliotis, S.E. Tzamarias, Nucl. Instrum. Meth.
+A412 (1998) 465, ;
+G.K. Fanourakis et al., Nucl. Instrum. Meth. A430 (1999) 465, hep-
+.
+[19] J.F. Gunion, B.Grzadkowski and X.-G. He, Phys. Rev. Lett. 77 (1996)
+5172.
+
+
+
+
+
+
+
+
+

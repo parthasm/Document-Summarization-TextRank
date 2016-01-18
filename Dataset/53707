@@ -1,0 +1,1768 @@
+
+
+Two-loop electroweak corrections to the ae
+
+parameter beyond the leading approximation
+
+Joannis Papavassiliou and Kostas Philippides
+
+Department of Physics, New York University,
+
+4 Washington Place, New York, N. Y. 10003, USA
+
+and Ken Sasaki Department of Physics, Yokohama National University,
+
+Yokohama 240, JAPAN
+
+ABSTRACT We show that in the framework of the pinch technique the universal part of the ae parameter can be meaningfully defined, beyond one loop. The universal part so obtained satisfies the crucial requirements of gauge-independence, finiteness, and process-independence, even when subleading contributions of the top quark are included. The mechanism which enforces the aforementioned properties is explained in detail, and several subtle field theoretical issues are discussed. Explicit calculations of the sub-leading two-loop corrections of order O(G2_m2t M 2Z ) are carried out in the context of an SU (2) model, with MW = MZ , and various intermediate and final results are reported.
+
+1
+
+1. Introduction
+
+One of the most important quantities of the standard model is the ae-parameter [1], defined as the ratio of the relative strength between neutral and charged current interactions, at low momentum transfer, namely
+
+ae = GNC(0)G
+
+CC (0) =
+
+1 1 \Gamma \Delta ae : (1:1)
+
+The ae-parameter displays a strong dependence on mt and affects most electroweak parameters such as \Delta r, MW , and sin2 `eff (MZ ). The ae parameter defined above as the ratio of two amplitudes is a gauge independent and finite quantity. In addition, it is manifestly process dependent, and its value depends on the quantum numbers of the external particles chosen. To fully determine the value of ae for a given neutral and charged process, one must compute the complete set of Feynman diagrams ( self-energy, vertex and box graphs) to a given order in perturbation theory. However, traditionally one focuses instead on the quantity \Delta , defined as
+
+\Delta = AW (0)M 2
+
+W \Gamma
+
+AZ (0) + (2s=c)AflZ (0)
+
+M 2Z ; (1:2)
+
+where AW , AZ and AflZ are the cofactors of g_* in the W W and ZZ self-energies, respectively, and s = sin `W and c = cos `W . The parameter \Delta is often called the "universal" part of ae, since, by definition, does not depend on the details of the process. According to the standard lore \Delta contains the dominant contribution to ae.
+
+In this paper we address theoretical issues related to the definition and calculation of the universal part of the ae parameter. Several of the ingredients of the subsequent analysis are known, but they exist in a fragmented fashion and their relevance in the context of aeparameter calculations has not been fully recognized. The purpose of the present work is to provide a unified view of all relevant facts, incorporating them into a coherent framework.
+
+2
+
+The leading mt contributions to \Delta , both from one-loop and two-loop diagrams, are gauge-independent and ultraviolet finite However, as soon as the subleading contributions are considered, \Delta becomes gauge-dependent and ultraviolet divergent. More specificaly, the leading one-loop mt contributions to \Delta (of order G_m2t ) are manifestly gaugeindependent, since the gauge fixing parameter does not appear inside fermion loops, and ultraviolet (UV) finite. On the other hand, as was explicitly shown by Degrassi, Kniehl, and Sirlin [2], the one-loop bosonic contributions to \Delta (subleading in m2t , of order g2m0t ) are gauge dependent and, except when formulated within a restricted class of gauges, UV divergent [3]. Similarly, the leading two-loop contributions to \Delta [4-6](of order G2_m4t ) are also gauge-independent and UV-finite, exactly as their one-loop counterparts. On the other hand, the straighforward calculation of the subleading two-loop mt contributions (of order G2_m2t M 2Z ) to \Delta , carried out in the renormalizable Feynman gauge (,W = ,Z = 1), gives rise to an answer which is ultraviolet divergent, in the sence that 1ffl terms survive [7-8]. In addition, as stated in [7], the result for \Delta is gauge dependent, in the context of the R, gauges. The reason for this rather striking analogy between the one-loop and the two-loop analysis, is the fact that, as soon as the subleading contributions (of order m0t at one-loop, and of order m2t at two-loops) are considered, Feynmam graphs containing the W and Z gauge-bosons must be included. It is the inclusion of such graphs, which, when carried out without a concrete guiding principle, gives rise to the aforementioned pathologies.
+
+In order to understand the origin of the problems associated with the subleading contributions one has to first establish the mechanism which enforces the good behavior of the leading contributions, in particular their UV finiteness. If we denote the leading contributions (both at one and two loops) to the to W W and ZZ self-energies by [\Pi _*W ](`) and [\Pi _*Z ](`), respectively (the superscript ` stands for "leading"), and use the fact that
+
+3
+
+A(`)flZ (0) = 0, we can write for \Delta (`):
+
+\Delta (`) = A
+
+(`) W (0)
+
+M 2W \Gamma
+
+A(`)Z (0)
+
+M 2Z : (1:3)
+
+It is elementary to show (see section 3) that \Delta (`) is finite as long as the following relation holds
+
+1
+
+Z(`)W =
+
+1 Z(`)Z + `
+
+ffic2
+
+c2 '
+
+(`)
+
+(1:4)
+
+where ZW and ZZ are the wave function renormalization constants of the W and Z fields, respectively, and `
+
+ffic2
+
+c2 '
+
+(`)
+
+= Re[A
+
+(`) W (M 2W )]
+
+M 2W \Gamma
+
+Re[A(`)Z (M 2Z )]
+
+M 2Z : (1:5)
+
+Eq. (1.4) is indeed true for the leading contributions, due to a set of QED-like Ward identities relating the vertex and fermion wave function renormalization constants (the QED analog of Z1 = Z2). An equivalent way for establishing the finiteness of the leading contributions is to resort to the following Ward identities:
+
+q_q* [\Pi _*W ](`) = M 2W \Pi (`)OE q_q* [\Pi _*Z ](`) = M 2Z \Pi (`)O/ ;
+
+(1:6)
+
+where \Pi OE and \Pi O/ are the OEOE and O/O/ self-energies, respectively, with OE (O/) the charged (neutral) would-be Goldstone bosons. Writing the general self-energy in the form
+
+\Pi _* (q2) = A(q2)g_* + B(q2) q
+
+_q*
+
+q2 ; (1:7)
+
+and using the algebraic identity
+
+A(0) = ^ ddq2 fq_q* \Pi _* (q2)g* ; fifififi
+
+q2=0 (1
+
+:8)
+
+together with the Ward identities of Eq. (1.6), and the fact that A(`)flZ (0) = 0, we can write for \Delta (`):
+
+\Delta (`) = A
+
+(`) W (0)
+
+M 2W \Gamma
+
+A(`)Z (0)
+
+M 2Z
+
+= ^ ddq2 f\Pi (`)OE \Gamma \Pi (`)O/ g* fifififi
+
+q2=0
+
+: (1:9)
+
+4
+
+The final ingredient which enforces the finiteness of the result for the leading \Delta ae contributions, is the equality Z(`)OE = Z(`)O/ , where Z(`)OE and Z(`)O/ are the wave-function renormalization constants of \Pi (`)OE and \Pi (`)O/ , respectively (see section III). However, none of the above conditions are valid anymore, when one calculates the subleading parts of the W and Z self-energies in the framework of the R, gauges. Consequently, since the mechanism enforcing the finiteness does not operate any more, the resulting expressions do not have to be UV finite, and, indeed, they are not.
+
+The standard way to circumvent the above problems is to readily abandon the notion of a "universal" part of \Delta ae, by stating that, instead of only \Delta , the entire process must now be considered, in order to restore the finiteness and gauge-independence of the final answer. So, one has to introduce vertex and box corrections, which render the result gauge-idependent and finite, at the expense of making it process-dependent, and therefore non-"universal".
+
+This unpleasant trade-off between gauge-independence and process-independence can be avoided however [2] if one defines the universal part of ae within the framework of the pinch technique (PT) [9-15]. As shown in Ref [2], the PT at one-loop gives rise to a gauge-independent and UV finite answer, without introducing any process-dependence. This is so because all PT self-energies are individually gauge-independent, and in addition, all conditions which enforce the finiteness are valid for both leading and subleading contributions. Evidently, the PT restores the mechanism for the cancellation of the UV divergences, and at the same time guarantees the gauge-and process-independence of the final answer.
+
+In this paper we propose to elevate the \Delta defined in terms of the PT self-energies as the truly universal part of \Delta ae, beyond one-loop, in the spirit originally suggested in Ref [2]. This new quantity, which we denote by ^\Delta , is endowed with three crucial properties:
+
+i) ^\Delta is independent of the gauge-fixing procedure and the gauge-fixing parameter, ii) ^\Delta is ultraviolet finite, and
+
+5
+
+iii) ^\Delta is process-independent. In addition to the above obvious theoretical advantages, the calculation of ^\Delta is significantly fascilitated by the fact that only self-energy-like graphs need be considered. In particular, no vertex or box diagrams need be calculated, in order to render the answer finite, as is the case in the conventional treatment [16]. Therefore ^\Delta lends itself as the natural generalization of the conventional \Delta , which can consistently accomodate both leading and subleading contributions, and can be expressed in a closed analytic form up to two loops.
+
+In Ref [7] the nature of the two-loop subleading contributions, as well as their numerical importance for the conventionally defined \Delta , were studied in the context of an SU (2) model, with MW = MZ = M , and no photon. In Ref [8] the previous analysis was extended to the full standard model; the two answers turned out to be numerically rather close. Since we are mainly interested in addressing the conceptual issues involved, in this paper we also restrict ourselves to the study of this simplified version of the standard model. Of course, we have no a priori knowledge if the ^\Delta of the SU (2) and the ^\Delta of the full stadard model will be numerically close, as was the case between the results of Ref [7] and Ref [8].
+
+The paper is organized as follows: In section 2 we briefly review the PT, mainly as it applies in the present context. In section 3 we define the universal quantity ^\Delta and discuss some of its properties. In section 4 we calculate the subleading top quark contributions to ^\Delta in the framework of the SU (2) model. This section is rather technical and contains several intermediate results. Finally, we present our conclusions in section 5. In addition, we present two Appendixes concerning scalar two loop integrals at zero momentum transfer, and the Feynman rules we have used.
+
+6
+
+2. The pinch technique
+
+Gauge-invariant effective self-energies The simplest example that demonstrates how the PT works is the gluon two point function. [10] Consider the S-matrix element T for the elastic scattering such as q1 _q2 ! q1 _q2, where q1,q2 are two on-shell test quarks with masses m1 and m2. To any order in perturbation theory T is independent of the gauge fixing parameter ,. On the other hand, as an explicit calculation shows, the conventionally defined proper self-energy depends on , defined through the tree level gluon propagator
+
+\Delta _*(k; ,) = \Gamma ik2 [g_* \Gamma (1 \Gamma ,) k
+
+_k*
+
+k2 ] : (2:1)
+
+At the one loop level this dependence is canceled by contributions from other graphs, which, at first glance, do not seem to be propagator-like. That this cancellation must occur and can be employed to define a g.i. self-energy, is evident from the decomposition:
+
+T (s; t; m1; m2) = T0(t; ,) + T1(t; m1; ,) + T2(t; m2; ,) + T3(s; t; m1; m2; ,) ; (2:2) where the function T0(t; ,) depends kinematically only on the Mandelstam variable t = \Gamma (^p1 \Gamma p1)2 = \Gamma q2, and not on s = (p1 + p2)2 or on the external masses. Typically, self-energy, vertex, and box diagrams contribute to T0, T1, T2, and T3, respectively. Such contributions are , dependent, in general. However, as the sum T (s; t; m1; m2) is g.i., it is easy to show that Eq. (2.2) can be recast in the form
+
+T (s; t; m1; m2) = ^T0(t) + ^T1(t; m1) + ^T2(t; m2) + ^T3(s; t; m1; m2) ; (2:3) where the ^Ti (i = 0; 1; 2; 3) are individually ,-independent. The propagator-like parts of vertex and box graphs which enforce the gauge independence of T0(t), are called pinch parts. They emerge every time a gluon propagator or an elementary three-gluon vertex contributes a longitudinal k_ to the original graph's numerator. The action of such a term
+
+7
+
+is to trigger an elementary Ward identity of the form /k = (/p + /k \Gamma m) \Gamma (/p \Gamma m) when it gets contracted with a fl matrix. The first term removes (pinches out) the internal fermion propagator, whereas the second vanishes on shell. From the g.i. functions ^Ti (i = 1; 2; 3) one may now extract a g.i. effective gluon (G) self-energy ^\Pi _* (q), g.i. Gqi _qi vertices ^\Gamma (i)_ , and a g.i. box ^B, in the following way:
+
+^T0 = g2 _u1fl_u1[( 1q2 ) ^\Pi _* (q)( 1q2 )]_u2fl*u2 ;
+
+^T1 = g2 _u1 ^\Gamma (1)* u1( 1q2 )_u2fl* u2 ; ^T2 = g2 _u1fl_u1( 1q2 )_u2 ^\Gamma (2)* u2 ; ^T3 = ^B ;
+
+(2:4)
+
+where ui are the external spinors, and g is the gauge coupling.
+
+The one-loop expression for ^\Pi _* (q), calculated in the Feynman gauge , = 1 is given by [10]: b
+
+\Pi _* (q) = \Pi (,=1)_* (q) + t_* \Pi P (q) ; (2:5)
+
+where t_* = \Gamma g_* + q_q* =q2 ; l_* = q_q* =q2 are the usual transverse and longitudinal projectors, and
+
+\Pi P (q) = 2icag2q2 Z
+
+D
+
+1 k2(k + q)2 ; (2:6)
+
+where RD j _4\Gamma D R d
+
+Dk
+
+(2ss)D is the dimensionally regularized loop integral, D is the dimensionality of space-time, and ca is the quadratic Casimir operator for the adjoint representation [for SU (N ), ca = N ]. After integration and renormalization we find
+
+\Pi P (q) = 2ca( g
+
+2
+
+16ss2 )q
+
+2 ln( \Gamma q2
+
+_2 )] : (2:7)
+
+Adding this to the Feynman-gauge proper self-energy
+
+\Pi (,=1)_* (q) = [ 53 ca( g
+
+2
+
+16ss2 )q
+
+2 ln( \Gamma q2
+
+_2 )]t_* ; (2:8)
+
+we obtain for \Pi _* (q) b
+
+\Pi _* (q) = bg2 ln( \Gamma q
+
+2
+
+_2 )t_* ; (2:9)
+
+8
+
+where b = 116ss2 11ca3 is the coefficient of \Gamma g3 in the usual fi function of QCD without fermions. This procedure can be extended to an arbitrary n-point function; of particular physical interest are the g.i. three and four point functions ^\Gamma _*ff [17-18] and ^\Gamma _*fffi [19]. Finally, the generalization of the PT to the case of non-conserved external currents is technically more involved, but conceptually straightforward [20-21].
+
+The current algebra formulation of the pinch technique
+
+An important alternative formulation of the PT in the context of the SM has been introduced by Degrassi and Sirlin Ref. [12]. In this approach the interaction of gauge bosons with external fermions is expressed in terms of current correlation functions, i.e. matrix elements of Fourier transforms of time-ordered products of current operators [22]. This is particularly economical because these amplitudes automatically include several closely related Feynman diagrams. When one of the current operators is contracted with its fourmomentum (i.e. the four momentum absorbed by the current), a Ward identity is triggered. The pinch part is then identified with the contributions involving equal-time commutators in the Ward identities, and therefore involve amplitudes in which the number of current operators has been decreased by one or more. As emphasized in Ref. [12], this procedure has an important advantage when one considers external particles endowed with strong interactions. Because the contributions from the equal-time commutators are not affected by the dynamics of the strong interactions, the aforementioned identification ensures the universality of the "pinch parts". That is, the cofactors of the current operators in the pinch parts are the same whether the external particles are leptons or strongly interacting fermions. To illustrate the method with an example, consider the vertex function iU *z (W ) that contributes to Fig.(1b), where now the gauge particles in the loop are W's, the incoming one is a Z, and the incoming and outgoing fermions are massless. It can be
+
+9
+
+written as
+
+iU *z (W ) = ig
+
+3c
+
+2 Z
+
+dnk (2ss)n \Delta
+
+Wffae(k)\Delta Woefi(k + q)[gaeoe(2k + q)* \Gamma g*oe(2q + k)ae \Gamma gae*(k \Gamma q)oe ]
+
+\Theta Z dnxeikx ! f jT \Lambda [J ffyW (x)J fiW (0)]ji ?;
+
+(2:10)
+
+where
+
+\Delta _*i (k; ,i) = \Gamma ik2 \Gamma M 2 [g_* \Gamma (1 \Gamma ,i) k
+
+_k*
+
+k2 \Gamma ,iM 2i ] (2:11)
+
+with i = W; Z; fl and Mfl = 0, are the propagators of the gauge bosons in a general R, gauge. An appropriate momentum, say kff, from the three gauge boson vertex or the longitudinal part of the propagator can be transformed into a derivative ddxff acting on the T \Lambda product. Invoking current conservation this leads to an equal-time commutator of current operators. Thus, such contribution are proportional to the matrix element of a single current operator, namely ! f jJ *3 ji ?; these are precisely the pinch parts. Calling iU *z (W )P the total pinch contribution from Eq. (2.10), we find in the , = 1 gauge
+
+U *z (W )P = ig3c ! f jJ *3 ji ? Z 1(k2 \Gamma M 2
+
+w)[(k + q)
+
+2 \Gamma M 2
+
+w]
+
+: (2:12)
+
+Clearly, the integral in Eq. (2.12) is the generalization of the QCD expression Eq. (2.6) to the massive gauge boson case.
+
+Ward identities of the PT Another important fact is that the PT Green's functions satisfy tree-level Ward identities. Most noticeably, the g.i. QCD vertex Gqi _qi satisfies the following Ward-identity:
+
+q_ ^\Gamma _ = ^\Sigma (p + q) \Gamma ^\Sigma (p) (2:13) where ^\Sigma (p) is the g.i. quark self-energy [23] The above QED-like Ward identity, which is not true for the conventional \Gamma (i)_ , enforces the equality ^Z1 = ^Z2 between the vertex renormalization constant ^Z1 and the quark wave function renormalization constant ^Z2. Consequently, exactly as happens in QED, the PT vacuum polarization contains the entire
+
+10
+
+running of the QCD coupling, as shown already by the explicit result of Eq. (2.9) [10], [24].
+
+The above QCD results have been generalized for the electroweak part of the standard model, where it was found that the one-loop PT Green's functions satisfy again tree-level Ward identities [18], [21], [25]. Therefore, the wave function renormalizations for the PT flfl and W W self-energy contain the running of the gauge couplings e2(q2) and g2(q2), respectively [12], [13]. Denoting by ^\Pi _* the gauge boson PT self energies ( ^\Pi W_* or ^\Pi Z_* ), by ^\Theta _ the mixed PT self energy of a gauge boson and its associated unphysical scalar ( ^\Pi W
+
+\Gamma OE+
+
+_ j ^\Pi +_ = \Gamma ^\Pi \Gamma _ , or ^\Pi ZO/_ ), and by \Omega the PT self energies of the unphysical scalars
+
+( ^\Pi OE or ^\Pi O/), the following WI hold [26]:
+
+q_ b\Pi _* \Gamma iM b\Theta * = 0
+
+q_ b\Theta _ + iM b\Omega = 0 q_q* b\Pi _* \Gamma M 2 b\Omega = 0 :
+
+(2:14)
+
+Additional WI between other PT Green's functions can be found in the literature. As was explained in detail in [21], the PT Ward identities are instrumental for the final cancellation of gauge dependences in S-matrix elements.
+
+Imposing the elementary requirement that the renormalized PT Green's functions should respect the same Ward identities as their unrenormalized counterparts, we obtain the following relationships between the standard model renormalization constants:b
+
+ZW = bZ\Gamma 2g (2:15)b Z\Gamma 1Z = bZ\Gamma 1W + ffi^c
+
+2
+
+^c2 ; (2:16) and b
+
+ZH = bZO/ = bZOE = bZW + ffi ^M
+
+2W
+
+^M 2W ; (2:17)
+
+with
+
+ffi^c2
+
+^c2 =
+
+ffi ^M 2W
+
+^M 2W \Gamma
+
+ffi ^M 2Z
+
+^M 2Z : (2:18)
+
+11
+
+In the simplified SU (2) model we will use laetr we have:b
+
+ZZ = bZW = bZ\Gamma 2g (2:19) and b
+
+ZH = bZO/ = bZOE = bZ\Gamma 2g + ffi ^M
+
+2
+
+^M 2 : (2:20)
+
+As usual, gauge boson self energies are cast in the formb
+
+\Pi _* (q) = g_* ^A(q2) + q_q*q2 ^B(q2) (2:21) and the renormalization constants are defined from the expansion
+
+^A(q2) = ^A(M 2) + (q2 \Gamma M 2) d ^A(q
+
+2)
+
+dq2 fifififiq2=M2 + ^A(q
+
+2)finite (2:22)
+
+as
+
+ffi ^M 2 = Re i ^A(M 2)j ; bZ\Gamma 1 = 1 \Gamma d ^A(q
+
+2)
+
+dq2 fifififiq2=M2 : (2:23)
+
+3. The universal ^\Delta
+
+In this section we focus on the universal part of ae defined by the PT. In particular we will emphasize issues of gauge-independence and finiteness.
+
+Traditionally the universal part \Delta is defined as in Eq. (1.2). \Delta vanishes in the limit of exact SU (2)V custodial symmetry, e.g. for MW = MZ (no hypercharge) and for degenerate fermion doublets, mu = md [27].
+
+The fermionic one-loop contribution is given by [1]
+
+\Delta ae1f = Nc G_8p2 ss2 ^m2u + m2d + 2m
+
+2um2d
+
+m2u \Gamma m2d ln
+
+m2d m2u * (3:1)
+
+12
+
+Clearly, \Delta ae1 ! 0 as mu ! md. When the mass splitting in the fermion doublet is large, as in the case of the top and bottom quarks, the factor in square brackets in Eq. (3.1) is replaced by m2t , the heavy fermion mass. By neglecting the contribution of all light fermions the one loop fermionic contribution is written as
+
+\Delta ae1f = Ncxt (3:2) where
+
+xt = G_m
+
+2t
+
+8p2 ss2 =
+
+g2 16ss2
+
+m2t 4M 2W (3:3)
+
+If one attempts to use the definition of Eq. (1.2) to include bosonic one loop corrections
+
+one is faced with two problems
+
+(a) The result is , \Gamma dependent (b) Unless computed in a special class of gauges, it is ultraviolet divergent. In particular, regarding the first point, the dependence on the gauge fixing parameter enters through the tree-level propagators for the W , the Z and the photon which, in the R, gauges they are given by Eq. (2.11). In addition, the tree-level propagators of the unphysical Goldstone bosons are given by
+
+\Delta s(q; ,i) = iq2 \Gamma ,
+
+iM 2i ; (3:4)
+
+with (s; i) = (OE; W ) or (O/; Z), and they also explicitly depend on ,i. The conventional one-loop self-energies depend explicitly on the gauge-fixing parameters, even at q2 = 0.
+
+Regarding point (b), unless the relation
+
+,W = ,fl sin2` + ,Z cos2` : (3:5) between the gauge fixing parameters ,i is satisfied, the resulting expression for \Delta contains a term proportional to 1ffl .
+
+The problems mentioned above persist when one computes the two-loop contributions to \Delta . Again, as happens in the one-loop case, the leading contributions are both gaugeindependent and finite. As soon as the subleading contributions are taken into account the
+
+13
+
+pathologies familiar from the one-loop, reappear: The results are again gauge-dependent and, even when computed in the Feynman gauges ,W = ,Z = ,fl = 1, which obviously satisfies the one-loop condition of Eq. (3.5), are ultraviolet divergent. Evidently, Eq. (3.5) breaks down beyond one loop.
+
+Before we proceed to the study of \Delta defined via the PT, it is worthwhile to further elaborate on the gauge independence of the leading two-loop contributions to the conventional \Delta mentioned above. The reason for it is simply that the S-matrix is gaugeindependent, and there are no vertex or box contributions proportional to m4t which could cancell any possible gauge-dependences coming from the self-energy graphs. Consequently, one is allowed to choose any convenient gauge for calculating these leading self-energy contributions. In particular, in the Feynman gauge (, = 1)only graphs with scalars and fermions contribute to this order. This is not generally true however for an arbitrary value of the gauge fixing parameter ,. The graphs of Fig.9 for example will give rise to leading m4t contributions, due to the longitudinal parts of the gauge boson propagators. Obviously the characterization of individual Feynman graphs as "leading" and "subleading" is a gauge dependent statement. When all relevant graphs are correctly accounted for, they will indeed conspire to furnish a unique ,-independent answer, which will clearly be identical to the one obtained in the Feynman gauge. It is instructive to briefly highlight the mechanism enforcing the cancellations of the gauge-dependences. To that end we can employ the elementary algebraic identity
+
+1 q2 \Gamma ,M 2 =
+
+1 q2 \Gamma M 2 +
+
+(1 \Gamma ,)M 2 (q2 \Gamma M 2)(q2 \Gamma ,M 2) (3:6)
+
+in the graphs containing scalars and fermions. The first term in r.h.s. of Eq. (3.6) is the Feynam gauge scalar propagator, whereas the second term resembles the longitudinal part of the corresponding gauge boson propagator. The final cancellation proceeds after using the elementary Ward identity
+
+k_fl_PL j /kPL = S\Gamma 1i (p + k)PL \Gamma PRS\Gamma 1j (p) + miPL \Gamma mj PR ; (3:7)
+
+14
+
+where PR;L = (1 \Sigma fl5)=2, triggered by the longitudinal term k_k* of the gauge boson propagator. It is this Ward identity, which when applied for both k_ and k*, gives rise to an extra power of m2t , thus converting pieces of a diagram, which is subleading in the Feynman gauge, into leading.
+
+If one defines \Delta instead in terms of the effective W W and ZZ propagators obtained via the PT all problems associated with the gauge-independence and finiteness of the subleading parts are automatically solved. We denote ^\Delta the universal part of \Delta ae defined via the PT as follows
+
+^\Delta = ^AW (0)M 2
+
+W \Gamma
+
+^AZ (0)
+
+M 2Z (3:8) It is important to notice the absence of the flZ mixing term in the above definition; this
+
+is so because in the PT the flZ self-energy vanishes at q2 = 0, e.g. ^\Pi flZ_* (0) = 0. The PT self-energies are individually independent of the gauge-fixing parameters, and when combined according to Eq. (3.8) they give a UV finite answer.
+
+Although the gauge-invariance of the result in the context of the PT is guaranteed by construction, its finiteness may be less obvious. There are two equivalent ways of understanding why the PT definition gives rise to a finite expression, both relying on the Ward identities presented in section 2. Writing the W W and ZZ self-energies in the form
+
+^AW (q2) = ^AW (M 2W ) + (q2 \Gamma M 2W )[1 \Gamma ^Z\Gamma 1W ] + ^AfW (q2) ; (3:9)
+
+and
+
+^AZ (q2) = ^AZ (M 2Z ) + (q2 \Gamma M 2Z )[1 \Gamma ^Z\Gamma 1Z ] + ^AfZ (q2) ; (3:10)
+
+Eq. (3.8) yields
+
+^\Delta = ^\Delta fifidiv + ^A
+
+f W (0)
+
+M 2W \Gamma
+
+^AfZ (0)
+
+M 2Z (3:11) ^\Delta fifidiv, which contains the terms proportional to 1ffl ( and possibly finite pieces, which we
+
+neglect at this point), is given by
+
+^\Delta fifidiv = " ^AW (M
+
+2W )
+
+M 2W \Gamma
+
+^AZ (M 2Z )
+
+M 2Z # + ( ^Z
+
+\Gamma 1 W \Gamma ^Z
+
+\Gamma 1 Z )
+
+= 0
+
+(3:12)
+
+15
+
+where in the last step we used Eq. (2.16). So, ^\Delta of Eq. (3.11) is finite for leading, subleading, and bosonic contributions.
+
+Another way to establish the finiteness of ^\Delta is the following: After computing the off-shell W W and ZZ self-energies, which have the form of Eq. (1.7), we use Eq. (1.8) together with the Ward identities of Eq. (1.6), we can write for ^\Delta :
+
+^\Delta = ^AW (0)M 2
+
+W \Gamma
+
+^AZ (0)
+
+M 2Z
+
+=[ ddq2 f ^\Pi OE \Gamma \Pi O/ g]jq2=0
+
+(3:13)
+
+We than use the fact that
+
+\Pi OE(q2) = \Pi OE(M 2W ) + (q2 \Gamma M 2W )[1 \Gamma bZ\Gamma 1OE ] + \Pi fOE(q2) and
+
+\Pi O/(q2) = \Pi O/(M 2Z ) + (q2 \Gamma M 2Z )[1 \Gamma bZ\Gamma 1O/ ] + \Pi fO/(q2)
+
+where 1 \Gamma bZ\Gamma 1OE = db\Pi OE(q
+
+2)
+
+dq2 jq2=M2W and 1 \Gamma bZ
+
+\Gamma 1O/ = db\Pi O/(q2)dq
+
+2 jq2=M2Z . Taking the difference of
+
+the two scalar self-energies, and using the fact that bZOE = bZO/ j bZ we haveb
+
+\Pi OE(q2)\Gamma b\Pi O/(q2) = [ b\Pi OE(M 2W )\Gamma b\Pi O/(M 2Z )]+(1\Gamma bZ\Gamma 1)[M 2Z \Gamma M 2W ]+[ b\Pi fOE(q2)\Gamma b\Pi fO/(q2)] : (3:14) The first two terms on r.h.s. of the last equation are proportional to 1ffl , but they are constant, independent of q2. Therefore, upon differentiation with respect to q2 they vanish. The third term is q2-dependent and finite, and after diferentiating it with respect to q2 and subsequently setting q2 = 0 we obtain the UV finite expression for ^\Delta . Clearly, the above proof of finiteness does not depend on the choice of the renormalization point; so instead of expanding around q2 = M 2W and q2 = M 2Z , we can equally well expand around q2 = _21 and q2 = _22, respectively.
+
+It is important to emphasize that all properties of the PT self-energies stemming from the PT Ward identities hold for the corresponding conventional self-energies computed in
+
+16
+
+the background field method (BFM) [28], for every value of the gauge-fixing parameter ,WQ and ,ZQ, used for the quantum fields, and to all orders in perturbation theory [29]. Consequently, in the BFM the finiteness of \Delta is true for every value of the gauge fixing parameter and to all loops [30]. The final answer is however not gauge-invariant. This is so because in the BFM the gauge boson self-energies depend in general on the choice of gauge-fixing parameters [23](these gauge dependent terms are however UV finite); this remaining gauge-dependence does not cancel when the difference of the W W and ZZ selfenergies is formed, in order to construct \Delta , already at the one-loop level. So, the one loop bosonic contribution \Delta 1bfifiBF M , defined via the BFM off shell OEOE and O/O/, which are both explicitly ,Q-dependent, has the form
+
+\Delta 1bfifiBF M = \Delta 1bfifi,
+
+Q=1 + \Delta
+
+1b(,Q): (3:15)
+
+\Delta fifi,
+
+Q=1 = ^\Delta
+
+1b is the gauge independent bosonic PT result, given by
+
+^\Delta 1b = g
+
+2
+
+64ss2 ^1 +
+
+9c2 \Gamma 8c4 + h(5c2 \Gamma 6)
+
+s2(c2 \Gamma h) log(c
+
+2) \Gamma 3s2h2
+
+c2(c2 \Gamma h)(1 \Gamma h) log(h)* ; (3:16)
+
+where h = M 2H =m2t , and MH is the mass of the Higgs scalar. \Delta 1b(,Q) carries explicitly the gauge parameter dependence (one sets for simplicity ,ZQ = ,WQ j ,Q). \Delta 1b(,Q) vanishes at ,Q = 1, and when MW = MZ (s = 0), but is non-zero otherwise; its explicit expression has been reported in [31]. As one can see from Fig.1, the gauge dependent term \Delta 1b(,Q) is unbounded from above and below, and is numerically significant. We observe that although the BFM endows the Green's function with the desirable theoretical properties, it fails to address the crucial issue of gauge-fixing parameter independence, as any other gauge fixing procedure for that matter. Nevertheless, it provides a convenient starting point for the implementation of the PT [23].
+
+17
+
+4. Subleading top contributions to ^\Delta in the SU (2) model
+
+In this section we apply the formalism developed thus far to the case of an SU (2) model, which corresponds to the standard SU (2) \Theta U (1), with electromagnetism turned off. This means that s = 0 and c = 1, or equivalently MW = MZ j M , and there is no photon. In such a model, a non-vanishing ^\Delta comes only from the mass-splitting within a fermion iso-doublet; in particular, there are no genuinely bosonic contributions to ^\Delta , since MW = MZ . We ignore the contributions of all light fermions, and concentrate on the top quark contribution. Since at one loop ^\Delta contains only fermionic contributions it is automatically gauge independent and UV finite. Obviously, at one loop the PT definition coincides with the conventional one.
+
+At two loops there are two kinds of contributions: (i) The leading, of order m4t , which originate from graphs containing fermions and only scalars, without gauge bosons.
+
+(ii) The sub-leading, of order m2t , which originate from the graphs of (i), if scalars are replaced by gauge bosons (W or Z).
+
+The leading contributions of a very heavy top quark to the conventionally defined \Delta have been first computed in [4], in the limit where MW = MZ = MH = 0. The case of an arbitrary Higgs mass MH , but still MW = MZ = 0, was computed in [5], [6], and the case MW = MZ = M 6= 0 was presented in [7]. In the above calculations the Feynman gauge was used; as already explained in section 3, this convenient choice of gauge is legitimate, since the result is guaranteed to be gauge-independent and UV finite. Clearly, the PT and the conventional definitions are identical for the leading part of the calculation.
+
+The sub-leading top contributions to the conventionally defined \Delta were first addressed in [7]; it was explicitly shown that the resulting expressions contain left-over terms proportional to 1ffl . In addition, it was pointed out that this result, calculated in the renormalizable Feynman gauge, was in fact gauge-dependent, and was correctly argued that
+
+18
+
+due to this theoretical shortcommings the inclusion of subleading corrections deprives the conventionally defined \Delta of any physical meaning. In order to restore gauge invariance and finiteness several contributions from vertex and box diagrams were included; however, since no guiding principle such as the PT was followed, these contributions rendered the answer process-dependent. Furthermore, it was sugested that, since the sub-leading contributions cannot be defined in a process-independent way, the possibility of resumming them [32] should probably be abadoned. Since no closed expressions for two-loop vertex and box graphs exist yet in the literature, the process-dependent parts were calculated approximately, up to order O(M 2=m2t ), for the case of *_e scattering. The final conclussion was that the part of ffiae that one extracts with their method, for the case of *_e scattering receives sizable corrections due to sub-leading top contributions.
+
+In the context of the PT all aforementioned pathologies are automatically bypassed. The answer is gauge-independent by construction, UV finite, and manifestly processindependent. We conclude therefore that in the context of the PT there is no limitation whatsoever in defining the subleading top contributions to the universal ^\Delta . In particular, the necessary condition for attempting the resummation of the universal part of ae, i.e. the process-idependence, is still valid. It turns out that the relative size of the subleading contributions compared to the leading is in accordance to what one would naively expect from a power series whose expansion parameter r = M 2=m2t is of the order of 1=4.
+
+We now proceed to the more technical aspects of our calculations. (a) It has been known for years that when computing the PT Green's functions any convenient gauge may be chosen, as long as one properly accounts for the pinch contributions within that gauge [10]. In the context of the "renormalizable" R, gauges the most convenient gauge-fixing choice is the Feynman gauge (, = 1). This is so because the longitudinal parts of the gauge boson propagators, which can pinch, vanish for , = 1, and the only possibility for pinching stems from the tree-boson vertices. As was recently realized [29], the task of the PT rearrangment of the S-matrix can be further fascilitated,
+
+19
+
+if one quantizes the theory in the context of the BFM. Even though the Feynman rules obtained via the BFM are rather involved, they become particularly suited for one-loop pinching, if one chooses the Feynman gauge (,Q = 1) inside the quantum loops. In fact, all possible one-loop pinch contribution are zero in this gauge; consequently, the one-loop PT Green's functions (which one can obtain for every gauge) are identical to the conventional Green's functions, calculated in the Feynman gauge of the BFM. This property of the Feynman gauge in the BFM persists in two loop calculations, only for the subset of diagrams which contain at least one fermion-loop [33], which is precisely the type of graphs we are interested in [34]. We therefore choose to work in the BFM Feynman gauge. This correspondence between PT and BFM at ,Q = 1 [35] breaks down for the two-loop purely bosonic part [36]. The technical details leading to this conclusion will be presented in [37].
+
+(b) Using the algebraic identity of Eq. (1.8), and the WI of Eq. (2.14), we write ^\Delta as in Eq. (3.13). Therefore, the entire calculation boils down to calculating the derivative of each Feynman graph shown in Fig.2-Fig.7, at q2 = 0. In these figures we show the complete set of two-loop irreducible graphs that contribute only m2t terms to ^\Delta , in the SU (2) model. Graphs with photons or with couplings proportional to sin `W in the standard model are omitted. For example, graphs such as those shown in Fig.8 for the self-energies of the scalars do not contribute, since they contain couplings proportional to sin `W = 0. In our calculation we have used a fully anticommuting fl5 since this does not produce any inconsistencies for the graphs we have to compute.
+
+The validity of the Ward identity of Eq. (2.14) for the full standard model has been verified by directly contracting individual graphs by q_q* , before carrying out any loop integrations. In fact, the Ward identities of Eq. (2.14) hold individually for each of the graphs shown in Fig.2- Fig.7, where the corresponding graph of the gauge boson self energy -which is to be contracted by q_q* - can be obtained by replacing the external ^OE ^OE ( ^O/^O/) legs by ^W ^W ( ^Z ^Z), respectively. The only exceptions are some of the triangle graphs, i.e.
+
+20
+
+Fig.5(a,c), that need to be combined with graphs such as those depicted in Fig.8, in order to yield zero in the r.h.s. of the WI. For example we have
+
+q_q* h\Pi W (5:a)_* + \Pi W (8:c)_* i \Gamma M 2W h\Pi OE (5:a) + \Pi OE (8:d)i = 0 (4:1)
+
+q_q* h\Pi W (5:c)_* + \Pi W (8:a)_* i \Gamma M 2W h\Pi OE (5:c) + \Pi OE (8:b)i = 0 (4:2) In the above equations, we note that although the graphs of Fig.8 for the self energies of the scalars vanish for sin `W = 0, the corresponding ones for the gauge bosons do not.
+
+Using the notation
+
+Gk(q2) j \Gamma i (Feynman \Gamma Graph k) we find it more convenient to act with the four-Laplacian instead of the regular derivative of q2. Namely
+
+dGk(q2)
+
+dq2 fifififiq2=0 j
+
+1 2D ` qGk(q
+
+2)'
+
+q=0
+
+: (4:3)
+
+This facilitates the computation enormously since it reduces it to straightforward algebra that can be carried out easily by hand. This procedure reduces each graph down to standard scalar two loop integrals at zero external momentum, for which explicit expressions can easily be found (see Appendix I). As it turns out the result can be analyticaly expressed, like the leading corrections, in terms of logarithms, dilogarithms and the two functions g(x) and f (x; 1). The function g(x) stems from the on-shell counterterms, while f (x; 1) from the two loop scalar integrals; they too can be expressed in terms of logarithms and dilogarithms. Explicit intermediate results for each of the set of graphs of Fig.2-Fig.7 are given in the next section.
+
+21
+
+5. Calculations and results
+
+In this section we present the explicit results of the two loop one particle irreducible contributions ^\Delta (2) to the universal part ^\Delta of the ae parameter. We neglect the contributions of the light fermions and consider only the effect of a single fermion doublet (t; b), with large mass splitting. The mass of the lightest partner in the doublet has been set equal to zero (mb = 0) from the beginning of the calculation; this has produced no mass singularities. We decompose \Delta (2) in three parts as :
+
+^\Delta (2) = ^\Delta (2)lead + ^\Delta (2)sub + ^\Delta (2)bos (5:1)
+
+where ^\Delta (2)lead are the graphs with scalars and fermions that contain leading contributions proportional to m4t as well as m2t , ^\Delta (2)sub are the graphs with fermions and gauge bosons that contain contributions of order m2t only, and finally ^\Delta (2)bos is the pure bosonic contribution which is independent of mt and in our approximation is zero. The results are given in terms of two variables h = M 2H =m2t , and r = M 2=m2t , where MH is the mass of the Higgs boson and mt is the pole mass of the heavy quark (top) in the doublet.
+
+The leading contributions ^\Delta (2)lead are given by [38]
+
+^\Delta (2)lead = Ncx2t R(h; r)
+
+= Ncx2t ( 23 \Gamma 4h + 2hh \Gamma r \Gamma 11r + ss
+
+2
+
+3 r
+
+2 \Gamma `2 \Gamma h
+
+2 ' phg(h) +
+
+r 2 prg(r) + r
+
+2 ln2 r
+
+\Gamma (1 \Gamma r)2 ln(1 \Gamma r) + ^\Gamma 6 \Gamma 2h \Gamma 12r + 32 r2 + 2h
+
+2
+
+(h \Gamma r)2 + 2h
+
+(1 + h)
+
+h \Gamma r +
+
+8 4 \Gamma r * ln r
+
++ ^\Gamma 4h + h
+
+2
+
+2 \Gamma
+
+2h2 (h \Gamma r)2 \Gamma 2h
+
+(2 + h)
+
+h \Gamma r * ln h
+
++ ^\Gamma (1 \Gamma h)2 + 2h (1 \Gamma h)
+
+2
+
+(h \Gamma r)2 + 2
+
+(1 \Gamma h)3 + (1 \Gamma h)2)
+
+h \Gamma r * Li2(1 \Gamma h)
+
++ ^\Gamma 11 + 10h \Gamma 2h2 \Gamma 2hr + 16r \Gamma 5r2 \Gamma 2h (1 \Gamma h)
+
+2
+
+(h \Gamma r)2 \Gamma 2
+
+(1 \Gamma h)3 + (1 \Gamma h)2
+
+h \Gamma r * Li2(1 \Gamma r)
+
+22
+
++ ^6 \Gamma 4h + h2 + 2h2 (4 \Gamma h)(h \Gamma r)2 \Gamma 2h 1 \Gamma (3 \Gamma h)
+
+2
+
+h \Gamma r * f (h; 1)
+
++ ^26 \Gamma 14h + 2h2 + 2hr \Gamma 30r + 7r2 \Gamma 2h2 (4 \Gamma h)(h \Gamma r)2 \Gamma 2h 1 + (3 \Gamma h)
+
+2
+
+h \Gamma r +
+
+4 4 \Gamma r * f (r; 1))
+
+(5:2)
+
+where f (x; 1) is a function stemming from the two-loop scalar integrals [39-40], [6]
+
+f (x; 1) = \Gamma 1p4 \Gamma y ^ ss
+
+2
+
+6 + 2Li2(i) +
+
+1 2 ln
+
+2 i* 4 ^ x
+
+= \Gamma 4 ln 2 x = 4 = \Gamma 2py \Gamma 4 Cl2(') 0 ^ x ^ 4 ;
+
+(5:3)
+
+and g(x) is a function that originates from the on-shell counterterms
+
+g(x) = p4 \Gamma x [ss \Gamma OE] 0 ^ x ^ 4
+
+= 0 x = 4 = px \Gamma 4 ln \Gamma \Gamma i\Delta 4 * x :
+
+(5:4)
+
+The variables y; i; and OE are defined as in [6]
+
+y = 4x ; i = p1 \Gamma y \Gamma 1p1 \Gamma y + 1 ; and OE = 2 arcsin ` px2 ' : By taking the r ! 0 limit in Eq. (5.2) one can recover the result of Eq.(12) of [6] where the leading contributions were calculated in the approximation MZ = MW = 0. In the analytic formula of Eq. (5.2) the apparent mass singularities cancell in the relevant limits h ! r and r ! 4. For example, in the r ! 4 limit the terms that contain r \Gamma 4 in their denominator give 4(2 ln r +f (r; 1))=(4\Gamma r) ! (4=3)(\Gamma 1+ln 2) . In the limit h ! r Eq. (5.2) reduces to
+
+^\Delta (2)leadfifififi
+
+h=r =
+
+Ncx2t n19 \Gamma 17r + ss
+
+2
+
+3 r
+
+2 \Gamma (2 \Gamma r)prg(r) + r2 ln2 r \Gamma (1 \Gamma r)2 ln(1 \Gamma r)
+
+\Gamma 2r(10 \Gamma r) ln r + 2(\Gamma 6 + 14r \Gamma 5r2)Li2(1 \Gamma r) + 4(11 \Gamma 13r + 3r2)f (r; 1)o
+
+(5:5)
+
+Finally taking the limit r ! 0 one obtains the result of [4]
+
+^\Delta (2)leadfifififi
+
+h=r=0 = \Gamma
+
+Ncx2t (2ss2 \Gamma 19) (5:6)
+
+23
+
+where the leading contributions of a very heavy quark were calculated with all other masses neglected.
+
+We now present our result for ^\Delta (2)sub in full analytic form. We decompose the result as
+
+^\Delta (2)sub = Ncx2t h ^\Delta (2)1 + ^\Delta (2)2 + ^\Delta (2)3 + ^\Delta (2)4 + ^\Delta (2)5 + ^\Delta (2)6 + ^\Delta (2)6cti (5:7)
+
+and give the analytic form of each intermediate result ^\Delta (2)i as well. Each ^\Delta (2)i equals the contribution coming from the graphs shown in Fig.2-Fig.7 respectively. This grouping of graphs is dictated by their topology, the particles they contain in the loops, and the WI of Eq. (2.14).
+
+The graphs of Fig.2 give
+
+^\Delta (2)1 =4r2" \Gamma ss
+
+2
+
+12 \Gamma
+
+h2 4(h \Gamma r)2 ln
+
+2 h + `\Gamma 1
+
+4 +
+
+h2 4(h \Gamma r)2 ' ln
+
+2 r
+
+\Gamma (1 \Gamma h)
+
+2
+
+(h \Gamma r)2 Li2(1 \Gamma h) + `\Gamma 1 +
+
+(1 \Gamma h)2
+
+(h \Gamma r)2 ' Li2(1 \Gamma r)
+
++ (2 \Gamma h)(4 \Gamma h)2(h \Gamma r)2 f (1; h) \Gamma ` 2 \Gamma r2r + 2 \Gamma h2r h(2 \Gamma r) + 2r(h \Gamma r)2 ' f (1; r)#
+
+(5:8)
+
+In the difference of the self energies the graphs (2.a ) and (2.ff ) cancell for MW = MZ and need not be computed. In the h = r limit the above formula reduces to
+
+^\Delta (2)6 fifififi
+
+h=r = 4
+
+r2"\Gamma ss
+
+2
+
+12 +
+
+1 4(4 \Gamma r) ln r\Gamma
+
+1 4 ln
+
+2 r\Gamma Li2(1\Gamma r)+ r \Gamma 2
+
+r `
+
+1 2 +
+
+1 r(4 \Gamma r) ' f (1; r)#
+
+(5:9)
+
+For the uninteresting value r = 4 the above result as well as the results that follow are all regular as can be seen from the explicit values of f (4; 1) and f
+
+0 (4; 1) given in the Appendix.
+
+The contribution of the graphs of Fig.3 is given by ^\Delta (2)2 =2r"1 + 1h \Gamma r + `1 \Gamma 1h \Gamma r ' h ln h \Gamma r ln rh \Gamma r`
+
+h(4 \Gamma h)
+
+(h \Gamma r)2 \Gamma
+
+h2 \Gamma 6h + 6
+
+h \Gamma r ' f (1; h) + ` \Gamma
+
+r2 + 2rh \Gamma 6h + 2r
+
+(h \Gamma r)2 +
+
+r2 \Gamma 6r + 6
+
+h \Gamma r ' f (1; r)`
+
+(1 \Gamma h)2
+
+(h \Gamma r)2 +
+
+(3 \Gamma h)(1 \Gamma h)
+
+h \Gamma r ' Li2(1 \Gamma h) + `1 \Gamma
+
+(1 \Gamma h)2
+
+(h \Gamma r)2 \Gamma
+
+(3 \Gamma r)(1 \Gamma r)
+
+h \Gamma r ' Li2(1 \Gamma r)#
+
+(5:10)
+
+24
+
+When h = r this reduces to
+
+^\Delta (2)2 fifififi
+
+h=r = 2
+
+r"2+`2 + 14 \Gamma r ' ln r +(2r \Gamma 3)Li2(1\Gamma r)+`7 \Gamma 2r \Gamma 2r + 2r(4 \Gamma r) ' f (1; r)#
+
+(5:11) The graphs of Fig.4 give
+
+^\Delta (2)3 =r" \Gamma 124 \Gamma r ln r + r ln2 r + ss
+
+2
+
+3 r + 4(2 + r)Li2(1 \Gamma r) + 2 `\Gamma 2 +
+
+7
+
+r \Gamma r \Gamma
+
+3 4 \Gamma r ' f (r; 1)#
+
+(5:12)
+
+Graphs (4.a) and (4.ff) as well as (4.c ) with (4.fl) are equal for MZ = MW and cancell in the difference.
+
+From the graphs of Fig.5 we obtain
+
+^\Delta (2)4 =2r"8 + 6 `\Gamma 1 + 14 \Gamma r ' ln r \Gamma 2r ln2 r \Gamma 2ss
+
+2
+
+3 r \Gamma 6Li2(1 \Gamma r) + `14 \Gamma 4r \Gamma
+
+1
+
+r +
+
+3 4 \Gamma r ' f (r; 1)# (5:13)
+
+The graphs of Fig.6 give
+
+^\Delta (2)5 =r" \Gamma 2r + r2(4 \Gamma r) ss
+
+2
+
+3 + 2 `
+
+4 4 \Gamma r \Gamma 2r' ln r + r
+
+2(4 \Gamma r) ln2 r
+
+\Gamma 4r(1 \Gamma 4r + r2)Li2(1 \Gamma r) + 2 ` 24 \Gamma r \Gamma 2r + 8r \Gamma 6r2 + r3' f (r; 1)#
+
+(5:14)
+
+From the graphs of Fig.7 we obtain ^\Delta (2)6 =r" \Gamma 3ffl + 6 `m + 472 \Gamma 30r \Gamma r(4 \Gamma 7r) ss
+
+2
+
+3
+
++ 10 `\Gamma 3r + 24 \Gamma r ' ln r \Gamma r(4 \Gamma 7r) ln2 r+
+
+2(\Gamma 7 + 14r \Gamma r2)Li2(1 \Gamma r) + 2 `27 + 54 \Gamma r \Gamma 5r \Gamma 34r + 8r2' f (r; 1)#
+
+(5:15)
+
+where `m = flE + ln(ssm2).
+
+This last set of graphs requires counterterms which are solely due to the one-loop mass renormalization of the top quark. We perform the renormalization on-shell. The fermion two-point function \Gamma f is written as
+
+\Gamma f (p) = i(/p \Gamma m0f ) \Gamma i\Sigma f (p) (5:16)
+
+25
+
+where \Sigma f is the fermion self-energy function. The superscript G will denote the gauge boson's contribution to \Sigma f shown in Fig.9. It is given by
+
+\Sigma Gt (p) = /pPL\Sigma Gt;L(p) (5:17) with
+
+\Sigma Gt;L(p) = g
+
+2
+
+16ss2
+
+2 \Gamma D
+
+4 \Theta B1(p
+
+2; m2t ; M 2Z ) + 2B1(p2; 0; M 2W )\Lambda (5:18)
+
+B1(p2; m2; M 2) = ffi2 \Gamma F1(p2; m2; M 2) ; (5:19) where
+
+ffi = 1ffl \Gamma flE \Gamma ln ss ; and PR;L = 1 \Sigma fl52 (5:20)
+
+and
+
+Fn(p2; m2; M 2) = Z
+
+1
+
+0 dxx
+
+n ln((1 \Gamma x)m2 + xM 2 \Gamma x(1 \Gamma x)p2) : (5:21)
+
+The mass counterterm is defined by
+
+m0t = mt \Gamma ffimt (5:22) and is determined by the on-shell renormalization conditions
+
+\Gamma t(p)ut(p)j/p=m
+
+t = 0; ut(p)\Gamma t(p)j/p=mt = 0 (5:23)
+
+ffimt
+
+mt =
+
+1 2 \Sigma
+
+Gt (p2 = m2t )
+
+= g
+
+2
+
+32ss2 "\Gamma
+
+3 4 `
+
+1
+
+ffl \Gamma [flE + ln(ssm
+
+2t )]' \Gamma 1 + 3
+
+4 r
+
+\Gamma 5r
+
+2 \Gamma 12r
+
+8 lnr +
+
+(1 \Gamma r)2
+
+2 lnj1 \Gamma rj \Gamma
+
+r \Gamma 2
+
+8 prg(r)# :
+
+(5:24)
+
+This renormalization of the top mass gives rise to two kinds of counterterms for ^\Delta (2)sub. The mass-insertion counterterms shown in Fig.7(ct1,ct3) and the vertex counterterms shown in Fig.7(ct2,ct4). The mass insertion counterterms diverge as 1=ffl, which cancells
+
+26
+
+in the difference, and they give a finite contribution to ^\Delta (2)sub. In terms of scalar integrals this contribution equals
+
+^\Delta 6ct(mi) = \Gamma i g
+
+2
+
+(2ss)4
+
+m2 M 2 ^
+
+ffim
+
+m * ^2
+
+(2 \Gamma D)
+
+D `(mm) \Gamma
+
+(m)
+
+m2 ' + m
+
+2(mmm)* ; (5:25)
+
+where henceforth m j mt. The vertex counterterms turn out to be just the one loop fermion graphs multiplied by the factor ffimm . In terms of scalar integrals they are given by
+
+^\Delta 6ct(v) = \Gamma i g
+
+2
+
+(2ss)4
+
+m2 M 2 ^
+
+ffim
+
+m * ^2
+
+(2 \Gamma D)
+
+D
+
+(m)
+
+m2 + (mm)* : (5:26)
+
+To see how this comes about, we note that upon renormalization the OE _ (and similarly the O/ _ ) vertex will get modified to
+
+g0 m0M
+
+0 OE0
+
+_ \Gamma ! Zgg (m + ffim)(M + ffiM ) Z1=2OE OE _ ;
+
+where we have ommited wave function renormalization of the fermion fields, since it will cancell agianst the corresponding wave function renormalization of the fermion propagators inside the loop. Then, at one loop the modification reads
+
+1 + ffiZg + ffimm \Gamma ffiMM + 12 ffiZOE = 1 + ffimm ; where in the last step we have used Eq. (2.20). Finally the result for the counterterms is
+
+\Delta (2)6ct =r" 3ffl \Gamma 6`m + 52 \Gamma 3r \Gamma r `6 \Gamma 52 r' ln r \Gamma 2(1 \Gamma r)2 ln(1 \Gamma r)
+
++ 12 (r \Gamma 2)prg(r)#
+
+(5:27)
+
+We note that after the inclusion of the counterterms, the terms proportional to 1=ffl present in \Delta (2)6 cancell, and the final result emerges finite as expected. In the limit where the mass spliting in the doublet is zero, which in our case means mt = mb = 0, all of the above expressions vanish, as can be seen from the asymptotic expressions of the functions g(x); f (x; 0); and f (x; 1), if we take x ! 1 (for x = r or h).
+
+27
+
+Adding together Eq. (5.8) to Eq. (5.27) we report as our final result \Delta (2)sub = Ncx2t S(h; r)
+
+= Ncx2t 2r(22 \Gamma 352 r + 1h \Gamma r \Gamma r(8 + 3r + r2) ss
+
+2
+
+6 +
+
+1 4 (r \Gamma 2)prg(r)
+
+\Gamma ^ rh \Gamma r `1 \Gamma 1h \Gamma r ' + 6 + 20r + 54 r2 \Gamma 144 \Gamma r * ln r + hh \Gamma r ^1 \Gamma 1h \Gamma r * ln h
+
+\Gamma (1 \Gamma r)2 ln j1 \Gamma rj + ^ rh
+
+2
+
+2(h \Gamma r)2 \Gamma 4r +
+
+11
+
+2 r
+
+2 \Gamma 1
+
+2 r
+
+3* ln2 r \Gamma rh2
+
+2(h \Gamma r)2 ln
+
+2 h
+
+\Gamma ^(1 \Gamma 2r) (1 \Gamma h)
+
+2
+
+(h \Gamma r)2 +
+
+(3 \Gamma r)(1 \Gamma r)
+
+h \Gamma r + 8 \Gamma 12r \Gamma 7r
+
+2 + 2r3* Li2(1 \Gamma r)
+
++ ^(1 \Gamma 2r) (1 \Gamma h)
+
+2
+
+(h \Gamma r)2 +
+
+(3 \Gamma h)(1 \Gamma h)
+
+h \Gamma r * Li2(1 \Gamma h)
+
+\Gamma ^ r(2 \Gamma h)(4 \Gamma h) + r(4 \Gamma r)(h \Gamma r)2 \Gamma (r \Gamma 2)
+
+2 + 2(h \Gamma 4)
+
+h \Gamma r \Gamma 37 + 30r +
+
+1
+
+r \Gamma
+
+7 4 \Gamma r * f (r; 1)
+
++ ^ r(2 \Gamma h)(4 \Gamma h) + h(4 \Gamma h)(h \Gamma r)2 \Gamma (h \Gamma 2)
+
+2 + 2(1 \Gamma h)
+
+h \Gamma r * f (h; 1)) :
+
+(5:28)
+
+In Figure 10 we show together the functions R(h; r) and S(h; r), which describe respectively the leading and subleading contributions, for M=mt = 0:5 or r = 0:25 and a wide range of values for the mass of the Higgs boson, MH , where h = M 2H =m2t . The function R(h; r) of the leading contributions grows asymptoticaly in the way described in [6]. On the other hand, the function S(h; r) of the subleading contributions becomes independent MH for a very heavy Higgs boson (as pointed out in [7]). For the phenomenologically interesting range of values for MH , the two functions have opposite sign. In Table 1 we give numerical results for ^\Delta (2) for different values of the ratios M=mt and MH =mt in units of Ncx2t . The first entry of each column corresponds to the leading contribution ^\Delta (2)lead, while the second gives the total correction ^\Delta (2)lead + ^\Delta (2)sub. We notice that for a light Higgs boson, where ^\Delta (2) is small, the two contributions ^\Delta (2)lead and ^\Delta (2)sub are comparable in magnitude, as can be seen from the entries in the first three lines of the first four columns. We also observe that for a light top (M=mt = 0:6, fifth column) the two corrections come with the same negative sign for MH ^ mt. On the other hand, for the largest part of the parameter
+
+28
+
+space of mt and MH , the subleading contributions ^\Delta (2)sub are approximately 22-27% of the leading ^\Delta (2)lead contributions, which is what one would naively expect. Finally, in Figure 11 we give the two loop correction ^\Delta (2) as a function of MH for M = 91:19 GeV and mt = 175 GeV.
+
+6. Conclussions
+
+In this paper we showed that in the framework of the PT one can define a universal part of the ae parameter, which satisfies all necessary field theoretical requirements, for both leading and sub-leading two-loop corrections. Most noticeably, the PT universal part is by construction independent of the gauge-fixing parameter, and, at the same time, process independent; furthermore, by virtue of the PT Ward identities it is also UV finite.
+
+We have calculated the two loop contributions at the subleading order O(G2_m2t M 2Z ), in the limit MW = MZ , and s = 0. Their relative size was found to be around 25% with respect to the leading ones. From the technical point of view, the computation involved self-energy garphs only, which exist in closed analytic form. The computational part was significantly fascilitated by the PT Ward identities, relating the self-energies of the gauge bosons (W W and ZZ) to the corresponding self-energies of the would-be Goldstone bosons (OEOE and O/O/). These Ward identities, which are valid for both leading and sub-leading contributions, reduce the task into calculating Goldstone boson self-energies only.
+
+Having laid out the framework of how such calculations should proceed, it is straightforward to compute the two loop corrections to the universal part of ae defined via the PT, for the full SU (2)L \Theta U (1)Y standard model. Results in this direction will be presented elsewhere.
+
+29
+
+7. Acknowledgements
+
+The authors thank P. Gambino and A. Sirlin for useful discussions. K.S. would like to thank A. Sirlin for the hospitality extended to him at the New York University, where part of this work was done. This work was supported in part by the National Science Foundation Grant No..
+
+8. Figure captions
+
+Figure 1 : The ,Q dependent part of \Delta in the background field gauges at one loop (for MH = 300 GeV and in units of g2=(16ss2)).
+
+Figure 2 : Subleading two loop graphs containing self energy insertions of a Higgs boson or a gauge boson.
+
+Figure 3 : The subleading fermionic triangle graphs that contain a Higgs boson. Figure 4 : The rest of the subleading graphs containing bosonic self energy insertions. Figure 5 : The rest of the subleading triangle graphs. Figure 6 : Subleading fermionic bubble graphs with a vertex correction. Figure 7 : Subleading fermionic bubble graphs with self energy insertions and their relevant counterterms.
+
+Figure 8 : Subleading graphs that contain a mixed self energy insertion. The graphs that correspond to the scalar self energy OEOE vanish for sin `W = 0.
+
+Figure 9 : The gauge boson contributions to the one loop top self energy. Figure 10 : The functions R(h; r) and S(h; r) describing respectively the leading and the subleading contributions to ^\Delta , for r = 0:25.
+
+Figure 11 : The universal two loop ^\Delta (2) correction to the ae parameter as a function of the Higgs boson mass, for different approximations, in units of Ncx2t . Dotted line : the
+
+30
+
+leading result in the approximation MW = MZ = 0, [5], [6]. Dashed line : The leading contribution in the approximation MW = MZ = M [7]. Solid line : the total correction, leading and subleading, for MW = MZ = M . (mt = 175 GeV, M = 91:19 GeV).
+
+Table 1 : Numerical values for ^\Delta (2) in units of Ncx2t , for different values of ph = MH =mt and pr = M=mt. The first entry of each column corresponds to the leading contribution ^\Delta (2)lead in the approximation MW = MZ = M , while the second gives the total result ^\Delta (2) = ^\Delta (2)lead + ^\Delta (2)sub in the same approximation.
+
+9. References
+
+1. M. Veltman, Nucl. Phys. B 123, 89 (1977). 2. G. Degrassi, B. Kniehl, and A. Sirlin, Phys. Rev. D 48, R3963 (1993). 3. \Delta is proportional to the T parameter introduced together with the S and the U
+
+parameters in M. E. Peskin and T. Takeuchi, Phys. Rev. Lett 65, 964 (1990).
+
+4. J. J Van der Bij and F. Hoogeveen Nucl. Phys. B283, 477 (1987). 5. R. Barbieri, M. Beccaria, P. Ciafaloni, G. Curci, and A. Vicere. Nucl. Phys. B409,
+
+105 (1993).
+
+6. J. Fleischer, O.V. Tarasov, and F. Jegerlehner, Phys. Lett. B319, 249 (1993);
+
+J. Fleischer, O.V. Tarasov, and F. Jegerlehner, Phys. Rev. D 51, 3820 (1995).
+
+7. G. Degrassi, S. Fanchioti, and P. Gambino, Int.J.Mod.Phys. A10, 1337 (1995). 8. G. Degrassi, S. Fanchioti, F. Feruglio, P. Gambino, and A. Vicini, to appear in the
+
+Report of the Working Group on Precision Calculaltions for the Z Resonance, CERN .
+
+31
+
+9. J. M. Cornwall, in Proceedings of the French-American Seminar on Theoretical Aspects of Quantum Chromodynamics, Marseille, France, 1981, edited J. W. Dash (Centre de Physique Th'eorique, Marseille, 1982).
+
+10. J. M. Cornwall, Phys. Rev.; D 26, 1453 (1982). 11. J. Papavassiliou, Phys. Rev. D 41, 3179 (1990). 12. G. Degrassi and A. Sirlin, Phys. Rev. D 46, 3104 (1992). 13. K. Hagiwara, S. Matsumoto, and C. S. Kim Proceedings of the 14'th International
+
+Workshop, Weak Interactions and Neutrinos, edited by J.E.Kim and S.K.Kim, (World Scientific, 1994), p.19; K.Hagiwara, D.Haidt, C.S.Kim and S.Matsumoto, Z. Phys. C64, 559 (1994).
+
+14. J. Papavassiliou and A. Sirlin, Phys. Rev. D 50, 5951 (1994). 15. N. J. Watson, Phys. Lett. B 349, 155 (1995). 16. Of course, the propagator-like pinch contributions, which restore the gauge-independence and finiteness, originate from vertex and box diagrams, but they are extracted before the loop integrations are carried out.
+
+17. J. M. Cornwall and J. Papavassiliou, Phys. Rev. D 40, 3474 (1989). 18. J. Papavassiliou and K. Philippides Phys. Rev. D 48, (1993) 4255. 19. J. Papavassiliou, Phys. Rev. D 47, 4728 (1993). 20. J. Papavassiliou , Phys. Rev. D 50, 5958 (1994). 21. J. Papavassiliou and K. Philippides,  to appear in Phys. Rev. D. 22. A. Sirlin, Rev. Mod. Phys. 50, 573 (1978). 23. J. Papavassiliou, Phys. Rev. D 51, 856 (1995). 24. N. J. Watson, Effective charges in non-Abelian gauge theories, talk presented at the
+
+workshop on "Perspectives for electroweak interactions in e+e\Gamma collisions", hosted by
+
+32
+
+the Max Plank Institut at the Ringberg Castle, M"unich, February 5-8, 1995,  to appear in the Proceedings, edited by B. Kniehl.
+
+25. K. Philippides, The Ward identities of the gauge invariant three boson vertices,
+
+talk presented at the "International Symposium on Vector Boson Self-Interactions", hosted by the University of California, Los Angeles, February 1-3, 1995,  to appear in the Proceedings, edited by U. Baur, S. Errede, T. Mueller.
+
+26. In all PT self-energies tadpole graphs have also been included [12]. 27. S. Weinberg, Phys. Rev. D 19, 1277 (1979);
+
+L. Susskind, Phys. Rev D 20, 2619 (1979); M. B. Einhorn, D. R. T. Jones and M. Veltman, Nuc. Phys. B 191, 146 (1981).
+
+28. L. F. Abbott, Nucl. Phys. B 185, (1981) 189, and references therein. 29. A. Denner, S. Dittmaier, and G. Weiglein, Phys. Lett. B 333, 420 (1994);
+
+S. Hashimoto, J. Kodaira, Y. Yasui, and K. Sasaki, Phys. Rev. D 50, 7066 (1994); E. de Rafael and N. J. Watson, (unpublished); L. Xiao-yuan, Y. Liao, AS-ITP-94-50, ; A. Denner, G. Weiglein, S. Dittmaier Nucl. Phys. B 440, 95 (1995).
+
+30. As a matter of fact, the idea of computing the \Delta ae in the context of the BFM in order
+
+to guarantee the desired WI for both leading and subleading contributions, was first proposed in Ref [5], but has not been carried out to this date.
+
+31. A. Denner, S. Dittmaier, and G. Weiglein, Gauge invariance, gauge parameter independence and properties of Green functions, BI-TP-95-17 and  to appear in the Proceedings of the workshop on `Perspectives for electroweak interactions in e+e\Gamma collisions", hosted by the Max Plank Institut at the Ringberg Castle, M"unich, February 5-8, 1995, edited by B. Kniehl.
+
+32. S. Peris, Phys. Lett. B 251, 603 (1990);
+
+S. Peris, Mod. Phys. Lett. A 6, 1505 (1991).
+
+33
+
+33. S. Bauberger, M. B"ohm, G. Weiglein, F. A. Berends, and M. Buza, in Teupitz 1994,
+
+Proceedings, Physics at LEP200 and beyond, 95-114, and Nucl.Phys.B, Proc. Suppl. 37B, 95 (1994).
+
+34. The graphs containing only gauge-bosons have no mt-dependence (they give in fact
+
+zero contribution to ^\Delta , since MW = MZ ).
+
+35. Certain misconceptions related to this apparent correspondence have been discussed
+
+by J. Papavassiliou in Recent developments in the pinch technique, talk presented at the workshop on `Perspectives for electroweak interactions in e+e\Gamma collisions", hosted by the Max Plank Institut at the Ringberg Castle, M"unich, February 5-8, 1995,  to appear in the Proceedings, edited by B. Kniehl.
+
+36. J. M. Cornwall, private communication. 37. J. Papavassiliou, The formulation of the pinch technique beyond one-loop, in preparation.
+
+38. We thank P. Gambino for providing us with the full analytic result of the leading
+
+terms in the approximation MZ = MW j M and s = sin `W = 0, which was used but not reported in [7].
+
+39. J.J. van der Bij and M. Veltman, Nucl. Phys. B 231, 205 (1984). 40. A.I. Davydyshev and J.B. Tausk, Nucl. Phys. B 248, 123 (1993).
+
+34
+
+Appendix I. Scalar two loop integrals
+
+The scalar two loop integrals at zero external momentum are defined as in [39] and [40]:
+
+(m1:::m1-- -z ""
+
+*1 j
+
+m2:::m2-- -z ""
+
+*2 j
+
+m3:::m3-- -z ""
+
+*3
+
+) = Z Z d
+
+DkdD`
+
+[k2 \Gamma m21]*
+
+1 [`2 \Gamma m2
+
+2]
+
+*2 [(k + `)2 \Gamma m2
+
+3]
+
+*3 (I:1)
+
+Obviously (m1:::m1-- -z ""
+
+*1 j
+
+m2:::m2-- -z ""
+
+*2 j
+
+m3:::m3-- -z ""
+
+*3
+
+) = (m2:::m2-- -z ""
+
+*2 j
+
+m1:::m1-- -z ""
+
+*1 j
+
+m3:::m3-- -z ""
+
+*3
+
+) = (m3:::m3-- -z ""
+
+*1 j
+
+m2:::m2-- -z ""
+
+*2 j
+
+m1:::m1-- -z ""
+
+*1
+
+)
+
+Note that, within each of the three groups of masses in Eq. (I.1), all masses are equal. Any other integral, for which different masses appear within the same group, can be brought in the form of Eq. (I.1) by use of partial fractions
+
+1 k2 \Gamma m21
+
+1 k2 \Gamma m22 =
+
+1 m21 \Gamma m22 ^
+
+1 k2 \Gamma m21 \Gamma
+
+1 k2 \Gamma m22 * : (I:2)
+
+All of these integrals can be calculated from the knowledge of a single master integral, either by use of recurrence relations, derived through integration by parts, or by differentiation with respect to one of the masses. For example
+
+(M M M jM1 jM2) = 12 @@M 2 (M M jM1 jM2) (I:3) and
+
+(M M jM1 M1jM2) = @@M 2
+
+1 (M M jM
+
+1jM2) : (I:4)
+
+For our purposes, we have found the following two recursion relations very useful
+
+(M1)(M3M3) \Gamma (M3)(M1M1) + (M2) ((M1M1) \Gamma (M3M3)) = (M 21 \Gamma M 22 \Gamma M 23 )(M3M3jM1jM2) + (M 21 + M 22 \Gamma M 23 )(M1M1jM2jM3)
+
+(I:5)
+
+35
+
+and (D \Gamma 3)(M
+
+1jM2jM3) =M 21 (M1M1jM2jM3) + M 22 (M2M2jM1jM3)
+
++ M 23 (M3M3jM1jM2) ;
+
+(I:6)
+
+The integrals of the type (M M ), are one loop integrals and are defined at the end of this Appendix. To prove Eq. (I.5) we consider
+
+S(q2) j Z dDkdD` 2k \Delta q[(` + q)2 \Gamma m2
+
+1] (k2 \Gamma m22) [(` + q + k)2 \Gamma m23] (I:7)
+
+which is zero as can be easily seen by the shift of variables ` ! ` + q. Then from
+
+dS(q2)
+
+dq2 fifififiq2=0 j
+
+1 2D ` qS(q
+
+2)'
+
+q=0 = 0 (
+
+I:8)
+
+one obtains Eq. (I.5). To prove the identity of Eq. (I.6), which has also been given in [39], we use
+
+L(q2) j Z dDkdD` @@k_ ^ k_(k2 \Gamma M 2
+
+1 )(`2 \Gamma M 22 ) [(k + `)2 \Gamma M 23 ] * = 0 (I:9)
+
+and Eq. (I.5).
+
+In [39], the master integral (M M jM1jM2) has been calculated . In [40] the same integrals have been discussed in a different mathematical framework and the master integral (M jM1jM2) is given. In what follows we use the notation of [39]. With D = 4 \Gamma 2ffl the result for the master integral is :
+
+(M M jM1jM2) = ss4 ^\Gamma 12ffl2 \Gamma 12ffl (1 \Gamma 2`M ) + `M \Gamma `2M \Gamma 12 \Gamma ss
+
+2
+
+12 \Gamma f (a; b)* (I:10)
+
+where
+
+`M = flE + ln ssM 2; a = M
+
+21
+
+M 2 ; b =
+
+M 22 M 2 :
+
+The real function f (a; b) is symmetric in its arguments and defined as
+
+f (a; b) = Z
+
+1
+
+0 dx `Li
+
+2(1 \Gamma _2) \Gamma _
+
+2
+
+1 \Gamma _2 ln _
+
+2' ; _2 = ax + b(1 \Gamma x)
+
+x(1 \Gamma x) ;
+
+with Li2 the dilogarithm function
+
+Li2(x) = \Gamma Z
+
+x
+
+0 dy
+
+ln(1 \Gamma y)
+
+y (I:11)
+
+36
+
+The explicit form of f (a; b) is
+
+f (a; b) = \Gamma 12 ln a ln b + 1 \Gamma a \Gamma bp h ss
+
+2
+
+6 + Li2 `\Gamma
+
+x2
+
+y1 ' + Li2 `\Gamma
+
+y2 x1 '
+
++ 14 ln2 x2y
+
+1 +
+
+1 4 ln
+
+2 y2
+
+x1 +
+
+1 4 ln
+
+2 x1
+
+y1 \Gamma
+
+1 4 ln
+
+2 x2
+
+y2 i
+
+(I:12)
+
+with
+
+p = p1 \Gamma 2(a + b) + (a \Gamma b)2; x
+
+1;2 = 12 h1 + b \Gamma a \Sigma p i ; y1;2 = 12 h1 + a \Gamma b \Sigma p i :
+
+It turns out that all of our results can be expressed in terms of f (a; 0) and f (a; 1). These functions are explicitly given by :
+
+f (a; 0) = Li2(1 \Gamma a) = ss
+
+2
+
+6 \Gamma Li2(a) \Gamma ln a ln(1 \Gamma a) ; (I:13)
+
+and
+
+f (a; 1) = \Gamma 1p4 \Gamma y ^ ss
+
+2
+
+6 + 2Li2(i) +
+
+1 2 ln
+
+2 i* 4 ! a
+
+= \Gamma 4 ln 2 a = 4 = \Gamma 2py \Gamma 4 Cl2(') a ? 4
+
+(I:14)
+
+where Cl2(x) is the Clausen function
+
+Cl2(x) = Im[Li2(eix)] ; (I:15) and the variables y; i; and OE are defined as in [6]
+
+y = 4x ; i = p1 \Gamma y \Gamma 1p1 \Gamma y + 1 ; and OE = 2 arcsin ` px2 ' : The derivatives of f (a; 1) and f (a; 0) are given by
+
+df (a; 1)
+
+da =
+
+1 4 \Gamma a ^ln a +
+
+2 a f (a; 1)* ; a 6= 4 ;
+
+= \Gamma 16 (1 + 2 ln 2) ; a = 4
+
+df (a; 0)
+
+da =
+
+ln a 1 \Gamma a
+
+37
+
+We will also need the following derivative
+
+@f (a; b)
+
+@b fifififib=1 = \Gamma
+
+2 4 \Gamma a ^ln a + `1 \Gamma
+
+2 a ' f (a; 1)* ; a 6= 4
+
+= 13 \Gamma 43 ln 2 ; a = 4 : which we obtain directly from Eq. (I.12).
+
+The following relationships are useful in expressing the results in terms of only these two functions
+
+f ( 1a ; 0) = \Gamma f (a; 0) \Gamma 12 ln2 a
+
+f ( 1a ; 1a ) = \Gamma `1 \Gamma 2a ' f (a; 1) \Gamma 12 ln2 a :
+
+(I:16)
+
+In our calculations we have encountered two loop integrals with three, four, and five propagators. All integrals with three propagators are converted to integrals with four propagators using Eq. (I.6). Most of the integrals with four propagators can be directly obtained from Eq. (I.10). For the integrals (00jmjM ) and (00j0jM ) we use Eq. (I.5), and write them as
+
+(1 \Gamma r)(00jmjM ) = 1m2 (m)(M M ) \Gamma (1 + r)(M M jmj0) and
+
+(00j0jM ) = \Gamma (M M j0j0)
+
+with r = M 2=m2 as usual.
+
+The integrals with five propagators that we encountered are the following :
+
+(M M M jmjm) = 12 @@M 2 (M M jmjm)
+
+= ss
+
+4
+
+2M 2 ^
+
+1
+
+ffl + 1 \Gamma 2`M +
+
+2 ln r 4 \Gamma r +
+
+4 r(4 \Gamma r) f (r; 1)*
+
+(M M M jmj0) = 12 @@M 2 (M M jmj0)
+
+= ss
+
+4
+
+2M 2 ^
+
+1
+
+ffl + 1 \Gamma 2`M +
+
+ln r 1 \Gamma r *
+
+(M M M j0j0) = 12 @@M 2 (M M j0j0)
+
+= ss
+
+4
+
+2M 2 ^
+
+1
+
+ffl + 1 \Gamma 2`M *
+
+(I:17)
+
+38
+
+(mmmjmjM ) = 12 @@m2 (mmj_jM )fifififi
+
+_=m
+
+= ss
+
+4
+
+2m2 ^
+
+1
+
+ffl + 1 \Gamma 2`m +
+
+@f (a; r)
+
+@a fifia=1 + r
+
+@f (1; r)
+
+@r *
+
+= ss
+
+4
+
+2m2 ^
+
+1
+
+ffl + 1 \Gamma 2`m \Gamma
+
+2 \Gamma r 4 \Gamma r ln r +
+
+4 r(4 \Gamma r) f (r; 1)*
+
+(mmjmmjM ) = @@_2 (mmj_jM )fifififi
+
+_=m = \Gamma
+
+ss4 m2
+
+@f (r; b)
+
+@b fifififib=1
+
+= ss
+
+4
+
+m2
+
+2 4 \Gamma r ^ln r + `1 \Gamma
+
+2
+
+r ' f (r; 1)*
+
+(M M jmmj0) = @@m2 (M M jmj0) = @@M 2 (mmjM j0) = \Gamma ss
+
+4
+
+m2
+
+df (r; 1)
+
+dr
+
+= \Gamma ss
+
+4
+
+m2
+
+ln r 1 \Gamma r
+
+(I:18)
+
+Besides the two loop integrals our results also contain products of one loop integrals. These integrals can all be computed from the integral (m) through differentiation.
+
+(m:::m-- -z ""
+
+n
+
+) j Z d
+
+nk
+
+[k2 \Gamma m2]n =
+
+1 (n \Gamma 1)!
+
+dn d(m2)n (m)
+
+The expression for (m) up to O(ffl) is
+
+(m) = Z d
+
+nk
+
+k2 \Gamma m2 = issm
+
+2 ^ 1
+
+ffl + 1 \Gamma `m + ffl `1 +
+
+ss2
+
+12 \Gamma `m +
+
+1 2 `
+
+2m'* : (I:19)
+
+39
+
+Appendix II. Feynman rules in the background field gauges
+
+In this appendix we give the Feynman rules that are relevant for the calculation of the subleading two loop contributions to ^\Delta . The rules are given for the full standard model, and the calculations in the text were carried out in the approximation : MW = MZ , s = 0, mb = 0.
+
+40
+

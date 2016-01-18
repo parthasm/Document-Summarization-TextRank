@@ -1,0 +1,292 @@
+
+
+Glueball Masses in QCD3 Qi-Zhou Chen,a;b Xiang-Qian Luo,c;d;e Shuo-Hong Guob, and Xi-Yan Fanga;b
+
+aCCAST (World Laboratory), P.O. Box 8730, Beijing 100080, People's Republic of China bDepartment of Physics, Zhongshan University, Guangzhou 510275, China
+
+cDepartamento de F'isica Te'orica, Facultad de Ciencias,
+
+Universidad de Zaragoza, E-50009 Zaragoza, Spain dHLRZ, Forschungszentrum, D-52425 J"ulich, Germany \Lambda
+
+e Deutsches Elektronen-Synchrotron DESY, D-22603 Hamburg, Germany
+
+Abstract We discuss how to extract the spectroscopy of quantum chromodynamics (QCD) in the pure gauge sector from the Hamiltonian lattice field theory approach. The recently developed truncated eigenvalue equation method is applied to the estimation of the scalar glueball 0++ and 0\Gamma \Gamma masses in the (2+1)-dimensional case. These masses reach the constant values in a scaling region as required by the renormalizability.
+
+\Lambda Mailing Address
+
+1
+
+QCD predicts the existence of glueballs, the gluonic bound states formed through strong interactions of gluons. Precise calculations of the glueball spectrum will also test decisively the validity of QCD and give guide to experimentalists in future particle searches. One of the most popular and practical techniques for the nonperturbtive determination of the glueball spectroscopy is to do numerical simulations on the Euclidean lattice. A lot of progress in this direction has been made, giving increasingly accurate estimation of the glueball masses.
+
+Here we would like to discuss an alternative approach: the Hamiltonian formulation, which by solving the lattice Schr"odinger equation can directly provide not only the glueball masses from the eigenvalues, but also the profiles, i.e., the wave functions for the ground state and excited states.
+
+QCD in 3 dimensions (QCD3) [?, ?] is a nontrivial SU(3) gauge theory, which shares a lot of important features of QCD4, but is much more simplified due to lower dimensionality and superrenormalizability. Furthermore, it is hopeful that some techniques and findings in QCD3 may be generalized to its 4 dimensional physical relative.
+
+In a previous paper [?], we have investigated the long wavelength structure of the ground state of QCD3, and evaluated its vacuum wave function. It has been demonstrated that our lattice vacuum wave function has the correct continuum limit and nice scaling behavior for the coefficients in the continuum vacuum wave function. This is the first step towards the understanding of the structure of the glueball and hadrons. It is worth mentioning that the ground state properties of the lattice SU(2) pure gauge models, being closely related to the confinement phenomenon, have been extensively studied both numerically [?, ?, ?] and analytically [?, ?, ?, ?, ?, ?]. What is new in [?] is the exploratory study of the realistic gauge group SU(3) using the recently developed truncated eigenvalue equation method [?, ?] and some new prescription scheme for the classification of the graphs in the wave function, which lead to rapid convergence to the continuum limit.
+
+The purpose of this paper is to give a first estimation of the scalar glueball masses in QCD3 as well as their wave functions.
+
+Concerning the notations, truncated eigenvalue equation method and classification scheme for the graphs, we refer to [?] for further details and here just give the most relevant ones. On a discrete space and continuous time lattice with temporal gauge, the dynamics of the pure gauge system is described by
+
+2
+
+H = g
+
+2
+
+2a
+
+X
+
+l
+
+Effl Effl \Gamma 1ag2 X
+
+p T r(U
+
+p + U yp \Gamma 2); (1)
+
+which becomes the Yang-Mills Hamiltonian with a renormalized charge e in the continuum limit (a ! 0, or equivalently fi = 6=g2 ! 1). The superrenormalzabilty of the theory in 2+1 dimensions implies that the bare coupling g and the lattice spacing a have a simple relation g2 = e2a.
+
+The ground state can be written in the form of j\Omega i = exp[R(U )]j0i, with j0i being the fluxless bare vacuum and R(U ) being a linear combination of gauge invariant gluonic operators such as the Wilson loops. In [?], we have illustrated how to obtain R(U ) and the vacuum energy ffl\Omega by a truncation method developed in [?], where R(U ) is expanded in order of graphs R(U ) =P
+
+i Ri(U ), and Ri(U ) is classified according to the scheme described in [?],with
+
+i being the order of the graphs. Up to the third order, they are
+
+R1(U ) = C1G1 + h:c:;
+
+R2(U ) =
+
+6X
+
+i=1
+
+C2;iG2;i + h:c:;
+
+R3(U ) =
+
+29X
+
+i=1
+
+C3;iG3;i + h:c:; (2)
+
+which graphs G1, G2;i and G3;i are given in Fig. 1 (see also [?]), and the coefficients C1, C2;i and C3;i are determined by solving the eigenvalue equation at the corresponding order n:
+
+X
+
+l
+
+f[El; [El;
+
+nX
+
+i
+
+Ri(U )]] + X
+
+i+j^n[
+
+El; Ri(U )][El; Rj (U )]g \Gamma 2g4 X
+
+p T r(U
+
+p + U yp )
+
+= 2ag2 ffl\Omega : (3) To calculate the glueball masses, an important procedure is to construct appropriate states for the particles. The wave functions of these states are
+
+3
+
+created by gauge invariant operators with the same quantum numbers as these glueballs acting on the vacuum state. Here for simplicity we concentrate on two scalar glueballs with quantum numbers J P C = 0++ and J P C = 0\Gamma \Gamma . The wave function of a glueball is of the form
+
+jF i = [F (U ) \Gamma h\Omega jF (U )j\Omega ih\Omega j\Omega i ]j\Omega i; (4) which is so chosen that it is orthogonal to the vacuum state j\Omega i. The creation operator of the state F (U ) is a linear combination of a complete set of graphs with the given quantum number of the glueball. The gap or the mass of the glueball MJPC = \Delta ffl = fflF \Gamma ffl\Omega can be obtained by solving the Schr"odinger equation
+
+HjF i = fflF jF i; (5) which is reduced to the eigenvalue equation
+
+X
+
+l
+
+f[El; [El; F (U )]] + 2[El; F (U )][El; R(U )]g = 2a\Delta fflg2 F (U ): (6)
+
+Again, F (U ) is expanded in order of graphs as
+
+F (U ) = X
+
+i F
+
+i(U ); (7)
+
+and (??) is truncated to the nth order as
+
+X
+
+l
+
+f[El; [El;
+
+nX
+
+i
+
+Fi(U )]] + 2 X
+
+i+j^n[
+
+El; Fi(U )][El; Rj(U )]g = 2a\Delta fflg2
+
+nX
+
+i
+
+F (U ): (8)
+
+We choose the operators for the glueball 0++ as
+
+F 0
+
+++
+
+1 (U ) = f 0
+
+++ 1 G1 + h:c:;
+
+F 0
+
+++
+
+2 (U ) =
+
+6X
+
+i=1
+
+f 0
+
+++
+
+2;i G2;i + h:c:;
+
+F 0
+
+++(U)
+
+3 =
+
+29X
+
+i=1
+
+f 0
+
+++
+
+3;i G3;i + h:c:; (9)
+
+4
+
+which are the same set of graphs G1, G2;i and G3;i as those in (??) but with different coefficients. Substituting (??) into (??), we obtain 36 nonlinear equations for f 0
+
+++
+
+1 , f 0
+
+++ 2;i , and f 0
+
+++ 3;i , which can be solved numerically.The operators for the glueball 0\Gamma \Gamma are
+
+F 0
+
+\Gamma \Gamma
+
+1 (U ) = f 0
+
+\Gamma \Gamma 1 G1 \Gamma h:c:;
+
+F 0
+
+\Gamma \Gamma
+
+2 (U ) = f 0
+
+\Gamma \Gamma 2;1 G2;1 + f 0
+
+\Gamma \Gamma 2;3 G2;3 + f 0
+
+\Gamma \Gamma 2;4 G2;4 \Gamma h:c:;
+
+F 0
+
+\Gamma \Gamma
+
+3 (U ) = X
+
+i
+
+f 0
+
+\Gamma \Gamma
+
+3;i G0
+
+\Gamma \Gamma 3;i \Gamma h:c:; (10)
+
+where the coefficients are similarly determined and G0
+
+\Gamma \Gamma
+
+3;i stand for the ope-rators with J P C = 0\Gamma \Gamma chosen from G
+
+3;i. For large fi = 6=g2, there should be a so called scaling region where the
+
+physical quantities become constants. Equivalently, by dimensional analysis, in the lattice unit the inverse correlation length or the dimensionless masses aMJPC should be proportional to g2, i.e.,
+
+aMJPC
+
+g2 !
+
+MJPC
+
+e2 = const:; (11)
+
+as required by the renormalizability of the theory.
+
+The results for aM0++=g2 and aM0\Gamma \Gamma =g2 are shown in Fig. 2. As one sees, there exists indeed a scaling window fi 2 [5; 8) for 0++ and fi 2 (6; 12] for 0\Gamma \Gamma where we can extract their masses (indicated by the dot lines in Fig. 2). From the data on the dot lines, we get
+
+M0\Gamma \Gamma
+
+M0++ ss 1:6989: (12)
+
+To summarize, using the techniques and information on the vacuum wave function in [?], and solving the lattice Schr"odinger equation truncated to the third order, we have obtained the glueball wave functions and masses in QCD3. The results for the mass spectrum show sensible scaling behavior in some intermediate or weak coupling regions. (In comparison, the QCD4 glueball masses from the Monte Carlo simulations in the literature are extracted within fi 2 [5:9; 6:2].) Of course, when approaching the continuum
+
+5
+
+limit a ! 0 or equivalently fi ! 1, as the correlation lengths in the lattice units will be divergent, a conventional wisdom is to include higher and higher orders of graphs to better represent the glueballs. This is quite similar to the situation in the Monte Carlo simulation on the Euclidean lattice where larger and larger lattices are required in the weak coupling regime. It may also be possible to improve the scaling using a better graphic classification (mixing) scheme. This issue and the higher order effects on the physical observables will be further investigated.
+
+Q.Z.C., S.H.G. and X.Y.F. were supported by the Doctoral Program Foundation of Institute of Higher Education, the People's Republic of China and the Advanced Research Center of Zhongshan University, Hong Kong. X.Q.L. thanks DESY for support.
+
+6
+
+References [1] V. Azcoiti and X.Q. Luo, Phys. Lett. B313 (1993) 191. [2] Q.Z. Chen, X.Q. Luo, and S.H. Guo, Phys. Lett. B341 (1995) 349. [3] J. Greensite, Phys. Lett. B191 (1987) 431. [4] J. Greensite and J. Iwasaki, Phys. Lett. B223 (1989) 207. [5] H. Arisue, Phys. Lett. B280 (1992) 85. [6] J. Greensite, Nucl. Phys. B166 (1980) 113. [7] S.H. Guo, W.H. Zheng, and J.M. Liu, Phys. Rev. D38, (1988) 2591; R.
+
+Roskies, ibid., D39 (1989) 3177; H. Arisue, ibid. D43 (1991) 3575.
+
+[8] S.H. Guo, W.H. Zheng, J.M. Liu, and Z.B. Li, Phys. Rev. D44, (1991)
+
+1269.
+
+[9] C.H. Llewellyn Smith and N.J. Watson, Phys. Lett. B302 (1993) 463. [10] S.H. Guo, Q.Z. Chen, and L. Li, Phys. Rev. D49 (1994) 507, and references therein.
+
+[11] Q.Z. Chen, S.H. Guo, W.H. Zheng, and X.Y. Fang, Phys. Rev. D50
+
+(1994) 3564.
+
+7
+
+Figure Captions Fig. 1.1. First order graph in R(U ). Fig. 1.2. Second order graphs in R(U ). Fig. 1.3(a). Third order graphs in R(U ). Fig. 1.3(b). Third order graphs (continuation of Fig. 1.3(a)) in R(U ).
+
+Fig. 2. aM0++=g2 and aM0\Gamma \Gamma =g2 as a function of fi. The dot lines indicate the corresponding mean values in the scaling region.
+
+8
+

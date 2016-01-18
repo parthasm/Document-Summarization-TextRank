@@ -1,0 +1,794 @@
+
+
+
+
+Neutrino oscillations in matter of varying density
+
+Paul M. Fishbane*
+Physics Dept. and Institute for Nuclear and Particle Physics,
+Univ. of Virginia, Charlottesville, VA 22904
+
+Peter Kaus**
+Aspen Center for Physics, Aspen, CO 81611
+
+
+
+We consider two-family neutrino oscillations in a medium of
+continuously-varying density as a limit of the process in a series
+of constant-density layers. We construct analytic expressions
+for the conversion amplitude at high energies within a medium
+with a density profile that is piecewise linear. We compare
+some cases to understand the type of effects that depend on the
+order of the material traversed by a neutrino beam.
+
+
+
+I. Transition amplitudes for structured matter.
+
+The problem of neutrino oscillations in matter is of obvious importance, and it is interesting to
+see to what extent and in what manner analytic solution is possible. In this note we discuss a
+general approach to the problem which allows us to solve in a new way the case of neutrino
+passage through matter whose density varies linearly with distance.
+Under the assumption that a two-channel approximation to neutrino mixing holds, the
+amplitude Aj for passage of a neutrino beam of energy E through a medium of constant electron
+density, whose properties (density Nj and thickness xj) we label by j, is a 2 × 2 matrix whose
+indices label flavors. It is given by the expression
+
+j
+A = cosf + i sinf cos q s - i f q s (1.1)
+j j (2 j) sin sin
+z j (2 j) x
+
+where the work [1] of Mikheyev and Smirnov and of Wolfenstein [MSW] showed that the
+effect of the matter is summarized by
+
+* e-mail address pmf2r@virginia.edu
+** e-mail address pkaus@futureone.com
+
+
+1
+
+
+2 2 2
+m m = m q - x + q
+k (cos2 k )2 2
+sin 2
+2
+m
+k
+j j = x (1.2)
+k 4 k
+E
+2
+sin 2q
+2
+q q sin 2q =
+k k (cos2q -x + q
+k )2 2
+sin 2
+and
+2EV
+k
+x with V = 2G N . (1.3)
+k 2
+m k F k
+The mass parameter m2 = m 2 2
+2 - m1 is positive. We recover the vacuum result, Cabibbo
+angle q, for V = 0.
+Let us now consider the elements of the amplitude A123.. = A1A2...An for passage
+through a series of layers labeled sequentially from n to 1. These can be found either by trace
+techniques or by the following direct technique: We extract a factor of cosfj from each factor
+Aj. Then the amplitude takes the form
+
+n
+12Ln
+A = cosf cosf Lcosf b
+(1.4)
+1 2 n j
+j 1
+=
+where r
+b = 1+sr B (1.5)
+j j
+and r
+B = i tan f (-sin2q ,0,cos2q (1.6)
+j j j j )
+To find the ordered product over the bj, we require products of the form
+( r r r
+sr B sr B sr
+L B , and these can be found recursively using the m = 2 result
+1 )( 2 ) ( m ) r r r r r r
+(srB srB = B B i+sr B ×B .
+1 )( 2 ) 1 2 ( 1 2)
+(In the recursive development, it is helpful that the vector B has no y-component.) The general
+form for our product is thereby found to be
+( m
+r r r r r r
+n
+s B s B L s B = i tanf
+
+1 )( 2 ) ( m) j
+j 1=
+(1.7)
+s
+cos q - q +L+ q -s q - q +L + q modd
+z (2 2 2 sin 2 2 2
+1 2 m ) x ( 1 2 m )
+× co
+s
+(2q -2q +L- 2q +is sin 2q - 2q +L+ 2q meven
+1 2 m ) y ( 1 2 m )
+In turn the transition matrix elements of interest are
+
+
+
+
+
+2
+
+
+n
+
+1+ itanf cos2q + i f f q - q
+j j ( )2 tan tan cos
+j k (2 2
+j k )
+j=1 j<k
+
+n
+
+L
+12 n
+A = cosf + i tanf tanf tanf cos 2q -2q + 2q +K (1.8a)
+11 j ( )3 j k l ( j k l )
+j 1= j<k <
+l
+(
++ i)n tanf tanf Ltanf cos 2q -2q +L- -1 n 2q
+1 2 n ( 1 2 ( ) n )
+
+and
+n
+
+-itanf sin2q + -i f f q - q
+j j ( )2 tan tan sin
+j k (2 2
+j k )
+j 1
+= j k
+<
+
+n
+
+L
+12 n
+A = cosf + i
+- tanf tanf tanf sin 2q -2q +2q +K (1.8b)
+12 j ( )3 j k l ( j k l )
+j 1= j<k <
+l
+(
++ -i)n tanf tanf Ltanf sin 2q -2q +L- -1 n 2q
+1 2 n ( 1 2 ( ) n)
+
+One can immediately check that |A11|2 + |A12|2 = 1.
+
+Recovery of the vacuum result. A useful check on Eqs. (1.8) follows from the assumption
+that the parameter xj is small compared to cos2q for all j. We can thus approximate qj q as
+well as m 2j m2. Assuming that the n slabs have equal width, we in addition have tanfj
+tan(ffull/n), where ffull = m2X/(4E) is the angle appropriate to passage of a total length X
+through vacuum. Thus when there are an odd number of angles,
+2qi - 2qj +...+ 2qk 2q,
+and when there are an even number of angles
+2qi - 2qj +...- 2qk 0.
+Thus, with f ffull/n, the 11 element of the amplitude is
+n(n - )
+1
+1+
+(itanf )2 +
+K
+2
+A cosn f
+=
+11
+n n - n -
+cos2q n(itanf) ( )1( 2) (itanf)3
++ + +
+K
+3!
+
+1
+= { inf -in
+e
++ e f + cos2 inf -in
+q e
+- e f
+} (1.9a)
+2
+= cosf + i cos2q sinf .
+full full
+We have here used
+1 ( n n - n -
+1+ x)n -(1-x)n ( )1( 2) 3
+= nx + x +
+K
+2 3!
+1 ( n n -
+1 x)n (1 x)n ( )1 2
+
++ + - =1+ x +K
+2 2!
+Similarly,
+
+
+
+
+3
+
+
+n n - n -
+A cosn f sin2q n
+( i tanf ) ( )1( 2) (itanf)3
+= - + +K
+12
+3!
+
+n 1 n n
+= - + - -
+cos f sin2q (1 i tanf ) (1 i tanf )
+2
+(1.9b)
+1
+= - sin2 inf -in
+q e + e f
+2
+= -isin2q sinf .
+full
+The expressions (1.9) match the vacuum result for a single width X, Eq. (1.1) with the angles
+replaced by their vacuum values.
+
+A Given ordering and its reverse. One of the important features of oscillations within matter
+is that the amplitude for transitions depends on the order of the density of the layers through
+which a beam passes. The amplitude for passage through a single layer, Eq. (1.1), is symmetric,
+A T
+j = Aj . Therefore
+2
+L 1 = ( 12L )T
+n n
+A A , (1.10)
+where we recall that the sequence of superscripts matches the layer order. That means in
+particular that the diagonal (survival) elements are equal, e.g.,
+n 2
+L 1 12 n
+A = A L (1.11)
+11 11
+Unitarity in the two channel problem then gives us equal probabilities for the off-diagonal
+(conversion) elements for a given order and its reverse,
+2 2
+n 2
+L 1 12Ln
+A = A (1.12)
+12 12
+
+This proof fails for the three-channel conversion problem [2].
+To learn the relation between the off-diagonal elements of the amplitudes themselves,
+we note that A12...n has the simple form
+L a b
+12 n
+A = ,
+(1.13)
+b * a *
+-
+
+To see this, one can for example use a recursive proof: Equation (1.1) shows it is true for one
+layer, and explicit calculation shows that it is also true for two layers. Then one calculates
+L L a b g d ag - bd * ad + bg *
+12 (n+1) 12 n n+1
+A = A A = = ,
+
+b * a * d * g * b *g a *d * b *d a *g *
+- - - - - +
+
+and this has the requisite property.
+We can now put Eqs. (1.10) and (1.13) together to show that
+a
+L -b *
+n 21
+A = . (1.14)
+b a *
+
+Thus in particular
+n 2
+L 1 = -( 12 n
+A A L * . (1.15)
+12 12 )
+These results have been verified for the particular profiles we study below.
+
+
+
+4
+
+
+High energy limit. Let us call xmin = 2EVmin/m2 the minimum value taken on by the
+parameter xj as j runs from 1 to n. Then we can study a high energy limit,
+xmin >> cos2q, sin2q (1.16)
+In this limit
+sin2q sin2q
+2q =1 (1.17)
+j x x
+j min
+and, because m 2j xj m2 in this limit, we also have
+1
+f f x (1.18)
+j full j
+n
+For arbitrary n this could be large or small; however, because we are ultimately interested in
+large n and because for many situations this quantity is small in any case, we shall also assume,
+as part of the definition of the high energy limit, that fj is small for all j and retain only first order
+terms in fj. In particular the prefactor of the product over the cosfj in Eqs. (1.9) is unity.
+The effect of our limit is most easily seen in the 12 element of the transition amplitude A,
+Eq. (1.8b). Let us refer to the m-tuple sum in the curly brackets on the right of Eq. (1.8b) as
+Tm, so that A12 is a sum over these sums.
+Generally Tm is a function of the potential V; however for m = 1, which is the one term
+in A12 that is order independent, the potential dependence cancels,
+n
+T = i
+- tan f sin2q = i
+- f sin2q
+. (1.19)
+1 j j full
+j 1
+=
+This leading term essentially reproduces the vacuum result, independent of n. Both the potential
+and the order dependence are present in the m = 2 term,
+T (V ) = - tanf tanf sin 2q - 2q
+
+2 j k ( j k )
+j k
+<
+2 (1.20)
+1 2E
+- f sin2q V x -V x
+full 2 ( k )
+( j )
+n m
+j<k
+This expression sets the pattern for the general term,
+T (V ) = - tanf Ltanf sin 2q -2q +K- 1 m
+- 2q
+m j1 jm ( j1 j2 ( ) jm )
+j < j <K j
+1 2 m (1.21)
+m m-1
+1 2E
+i f sin2q
+- S (V ),
+full 2 m
+n m
+
+where the multiple sum Sm is defined by
+1 1
+m 1
+S (V ) = V z V
+L z
+- +K- - . (1.22)
+m ( 1
+1 ) ( m )
+< <K V z V z V z
+1
+j 2
+j m
+j ( 1) ( 2) ( ) ( m)
+In the following section, we consider these sums for specific potentials.
+The continuum limit of the sums of Eq. (1.22) can also be found in the usual manner.
+With the scaling variables zk jk/n, the large n limit of Sm(V) is
+1 m
+z z2
+m 1 1 m 1
+S V n dz dz L dzV z V
+L z
+- +K- -
+m ( ) 1
+m m 1
+- 1 ( 1) ( m )
+V z V z V z
+0 0 0 ( 1 ) ( 2 ) ( ) ( m)
+
+5
+
+
+(1.23)
+
+
+II. Linear density profile
+
+Here we consider a simple linear profile V1 given by
+V1(xj) = Vmin + V¢jX/n. (2.1)
+The linear case has in fact been solved in other ways. In work [3, 4] on passage of neutrinos
+through layers of constant density matter, a linear density profile was used to interpolate the
+layers, and in so doing it was noticed that a formally identical problem had been solved much
+earlier in the context of atomic physics [5, 6]. This work was more thoroughly recalled and
+refined by Petcov [7]. More recently, another approach has produced a solution to the case of
+linear matter for an arbitrary number of channels [8]. In addition there is a body of work based
+on various approximations[9]. What we present here differs considerably in technique from the
+exact work cited and the high energy approximation that applies to the examples below
+complements the approximate work.
+For the profile of Eq. (2.1) the double sum term, Eq. (1.22), takes the form
+n k-1
+X X X n n +1 n -1
+S V = V k - j = V k - j = V
+(2.2)
+2 ( 1 ) ( ) ( ) ( )( )
+n j<k n k 1= j 1= n 6
+This behaves as n2 at large n, and since there is an additional factor n-2 in T2, Eq. (1.20), T2
+itself has a finite large n limit, namely
+( ) X n (n + )
+1 (n - ) 2
+1 1 2E
+T V = V
+- f
+sin2q
+2 1 full 2
+n 6 n m (2.3)
+1 2
+
+- V X
+f sin2q.
+n 12 full
+The pattern is repeated for the general term1. We have
+m 1
+V X -
+
+S (V
+j L j - j j L j +K- -1 m j L j (2.4)
+m 1 ) ( 2 m 1 3 m ( ) 1 m-1 )
+n 1
+j < j2 <K jm
+This multiple sum is explicitly calculable for any finite n but is not very enlightening. The large n
+behavior is simpler, and we give here the first results for the first few values of m:
+S (V ) V X
+n
+n ( ) 2 1/3!
+2 1 ( )
+S (V ) V X
+n
+n ( )2 3 7/5!
+3 1 ( )
+S (V ) V X
+n
+n ( )3 4 27/7!
+4 1 ( )
+(2.5)
+S (V ) V X
+n
+n ( )4 5 321/9!
+5 1 ( )
+S (V ) V X
+n
+n ( )5 6 2265/11!
+6 1 ( )
+S (V ) V X
+n
+n ( )6 7 37575/13!
+7 1 ( )
+
+1 We have ignored the terms containing Vmin because they are nonleading as n becomes large. In other
+words, the expression of Eq. (2.4) is already a large-n approximation.
+
+
+6
+
+
+These results can be found either with the large n behavior of the multiple sums of Eq. (1.22) or,
+more simply, with the multiple integrals of the large n form Eq. (1.23).
+We first remark that the factors of n are those necessary to make the result finite, since
+Tm contains an additional factor of n-m. The sequence in the denominator can be identified [10]
+as follows:
+m 1
+- m 1
+2 2 -
+m V X
+a m -1 V X
+a (m - )
+1
+T = i
+- f q = T -i (2.6)
+m ( ) ( )
+2 (2m ) sin2 ,
+full 1
+1 ! 2
+- (2m-
+)1!
+where a(m) obeys the two-term recurrence relation
+a(m + 1) = a(m) + 2m(2m + 1)a(m - 1), with a(0) = a(1) = 1. (2.7)
+The quantity a(m) is an expansion coefficient in several elementary functions, including some
+combinations of inverse trigonmetric functions and algebraic functions. Perhaps the most
+interesting relation is
+y
+2
+2k (
+a k) 1 2
+y = exp y / 2 -u
+e du
+
+= k + y
+k 2 1 !
+0 ( ) ( )
+0
+
+1 p
+= exp( 2
+y / 2) erf ( y)
+y 2
+1 k
+y +
+= exp( y / 2) 2 1
+2 (- )1k ,
+y = k + k
+k 2 1 !
+0 ( )
+a relation that can be applied to our case with the substitution
+2
+V X
+
+y = exp ( -ip / 4) . (2.8)
+2
+The result is
+1 p
+A (V ) = T exp( 2
+y / 2 erf y (2.9)
+12 1 1 ) ( )
+y 2
+
+
+III. Comparison to other density profiles
+
+It is instructive to compare the results of the previous section with two other density profiles of
+the same total thickness X, each representing a rearrangement of the matter that composes the
+profile V1, i. e., each having the same integral of V over x from 0 to X. Specifically, we consider
+a profile peaked at the center,
+X n
+2V j j =1,
+K
+n 2
+V x = V + (3.1)
+2 ( j ) min n X n
+V
+X -2V j - j = +1,Kn
+
+2
+n 2
+and a constant profile,
+V3(xj) = Vmin + V X/2. (3.2)
+We again work at our high energy regime.
+
+
+7
+
+
+The profile V2 can be treated by many of the same techniques that we used for V1, even
+if the algebra is rather more complicated. We find for the double sum term, Eq. (1.22) with m =
+2,
+1
+S V = V
+x -V x = - VXn
+
+. (3.3)
+2 ( 2 ) 2 ( k ) 2
+( j )
+j k
+< 2
+This result should be compared to the corresponding one for S2(V1), Eq, (2.2), which is
+proportional to n2 at large n. The term T2(V2) vanishes in the large-n limit. The cancellation is a
+consequence of the symmetry of the matter distribution about X/2 (as will be confirmed below
+for the V3 case); indeed it is generally true that Sm(V2) = 0 for even values of m in the large-n
+limit. For odd values of m, however, there is a nonzero limit. We have worked through the first
+few odd-m expressions for Sm(V2) for finite n . These are not simple, even in the large-n limit,
+unless we set Vmin to 0, which we do to make the expressions clear2. Then the large-n results
+for all m are
+0
+m even
+
+S (V ) m -
+(3.4)
+m n (V X )m 1
+2 ( m-
+) m odd
+2 1 !!
+This gives for the conversion amplitude
+m-1
+i 1
+A (V ) 2
+= T - V X (3.5)
+12 2 1
+= K m -
+m 2 2 1 !!
+1,3 ( )
+where T1 is the amplitude for passage through a single layer of vacuum, Eq. (1.19). The sum on
+1
+2w 1
+the right is a Lommel function [11] U ( ,
+w 0) cos w
+( 2
+1 t
+= - dt , and
+1 )
+p 2
+
+2 0
+p 1
+A (V ) 2
+= T U V X , 0
+. (3.6)
+12 2 1 2 1
+V X 2
+
+2
+The Lommel function is associated with diffraction from edges.
+The amplitude for V3 is simply given by the MSW result of Eq. (1.1), i.e.
+A V = i
+- sin2q sin f .
+12 ( 3 ) 3
+V 3
+V
+1
+In the "high energy" limit we have f f x = V X and the conversion amplitude
+3
+V full 3
+V 3
+2
+becomes
+sin2q 1 f sin2q
+full 1
+A V i sin V X i sin V X
+- = -
+12 ( 3 ) 3 3
+x 2 f x 2
+
+3
+V full 3
+V
+
+1 1
+sin V X sin V X
+(3.7)
+3 3
+2 2
+T T
+= = .
+1 1
+f x 1
+full 3
+V V X
+3
+2
+
+
+2 Strictly speaking, this violates our high energy condition Eq. (1.16); however, because V is only non-zero
+for an arbitrarily small range of x this should not be troublesome.
+
+
+8
+
+
+The complete high energy expressions of Eqs. (3.6) and (3.7) are not very useful as
+grounds for comparison with the full result for V1, Eq. (2.9). It is more transparent to expand
+each result for small values of V X2 (as well as for Vmin = 0). In that case,
+2
+1 i 7 1
+A (V ) 2 2
+T 1
+- V X
+- V X
++K (3.8a)
+12 1 1
+3!2 5!
+2
+
+2
+1 1
+A (V ) 2
+T 1
+- V X
++K (3.8b)
+12 2 1
+5!!
+2
+
+2
+1 1
+A (V ) 2
+T 1
+- V X
++K (3.8c)
+12 3 1
+24
+2
+
+From these the conversion probabilities are, to leading order in V X2,
+2
+4 1
+P (V ) 2 2
+T 1
+- V X
++ K (3.9a)
+12 1 1
+45
+2
+
+2
+2 1
+P (V ) 2 2
+T 1
+- V X
++K (3.9b)
+12 2 1
+15
+2
+
+2
+1 1
+P (V ) 2 2
+T 1
+- V X
++K (3.9c)
+12 3 1
+12
+2
+
+The ratios of these probabilities is in principle subject to experimental test, although it is clear
+that such tests would be very difficult.
+
+
+
+Acknowledgements
+
+We would like to thank the Aspen Center for Physics, where much of this work was done.
+PMF would also like to thank Dominique Schiff and the members of the LPTHE at Université
+de Paris-Sud for their hospitality. This work is supported in part by the U.S. Department of
+Energy under grant number DE-FG02-97ER41027.
+
+
+References
+
+1. L. Wolfenstein, Phys. Rev. D17, 2369 (1978); S. P. Mikheyev and A. Yu. Smirnov, Sov. J.
+Nucl. Phys. 42, 913 (1985).
+
+2. P. M. Fishbane and P. Kaus, 8.
+
+3. W. C. Haxton, Phys. Rev. Lett. 57 (1986) 1271.
+
+4. S. J. Parke, Phys. Rev. Lett. 57 (1986) 1275.
+
+
+9
+
+
+
+5. L. D. Landau, Phys. Z. USSR 1 (1932) 426.
+
+6. C. Zener, Proc. R. Soc. A 137 (1932) 696.
+
+7. S. T. Petcov, Phys. Lett. B 191 (1987) 199.
+
+8. H. Lehmann, P. Osland, and T. T. Wu, .
+
+9. See for example T. K. Kuo and J. Pantaleone, Phys. Rev. Lett. 57 (1986) 1805; S. P.
+Rosen and J. M. Gelb, Phys. Rev. D 34 (1986) 969; V. Barger, R. J. N. Phillips, and K.
+Whisnant, Phys. Rev. D 34 (1986) 980.
+
+10. P. S. Bruckman, Fib. Quarterly 10, 169 (1972). This identification was made using The
+Encyclopedia of Integer Sequences (http://www.research.att.com/~njas/sequences/).
+
+11. G. N. Watson, A Treatise on the Theory of Bessel Functions, 2nd ed., Cambridge [Eng.]
+The University Press; New York, The Macmillan Company, 1944; K. W. Knockenhauer, Ann.
+der Physik und Chemie (2) XLI, 104 (1837).
+
+
+
+
+
+10
+
+
+

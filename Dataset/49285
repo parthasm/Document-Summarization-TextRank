@@ -1,0 +1,936 @@
+
+
+ 8 Dec 93
+
+Z
+
+2 1 1 2
+
+1 2
+
+1 2
+
+1 2
+
+1 2 2 1
+
+1 2 3 3 2 1
+
+2 1
+
+20 0
+
+0
+
+0
+
+C.T.Sachrajda
+
+ABSTRACT
+
+In this talk I will briefly review some of the important questions in particle physics phenomenology which are being studied using the lattice formulation of (Quantum Chromodynamics) QCD and numerical simulations. I hope to convince you that "Lattice Phenomenology" is already providing important contributions in particle physics, and that it is developing into the premier quan- titative tool for non-perturbative field theory. For some physical quantities lattice computations have been per- formed successfully for several years, and the emphasis is now on controlling and reducing the systematic errors in these computations. These quantities include the lep- tonic decay constants of mesons discussed in sections 2 and 3 below. For other quantities, such as the evalua- tion of the Isgur-Wise function of semi-leptonic decays of heavy mesons discussed in section 4, lattice studies are only just beginning.
+
+Before presenting some recent results, perhaps it is necessary to explain briefly what lattice calculations are, and to discuss the major sources of uncertainty in these computations. The starting point for lattice studies is the evaluation of the functional integral:
+
+( ) = 1 [ ][ ][ _]
+
+( ) (1) where and represent gluon and quark field respec- tively, ( ) is a multilocal operator com- posed of the fields, represents the action and is the partition function. ( ) is the vacuum ex- pectation value of the operator . The functional inte- gral is evaluated by discretising space and time, and generating field configurations weighted by the Boltz- man factor . The physical quantities which can be studied depend on the choice of operator . For ex- ample, by choosing to be a bilocal operator of the form ( ) = ( ) ( ), where and are interpolating operators which can create or annihilate the hadron , the propagation of hadron is studied,
+
+allowing one to evaluate its mass and the matrix ele- ment 0 . By evaluating 3-point correlation func- tions with ( ) = ( ) ( ) ( ), where
+
+is some local operator, we can evaluate matrix ele- ments of the form (0) . For many fundamental quantities in particle physics, particularly in studies of hadronic structure and weak decay processes, the (non- perturbative) strong interaction effects can be expressed as operator matrix elements of this kind. Hence the im- portance of lattice simulations.
+
+I will attempt to suppress any discussion of the tech- nology of lattice computations, nevertheless it is diffi- cult for me to avoid using two pieces of lattice jargon. The first is 6 ( ), where is the bare cou- pling constant and is the lattice spacing. It is conve- nient in lattice simulations to fix (and hence ( )), and to determine the corresponding value of the lattice spacing by comparing the lattice prediction for some physical quantity to its physical value, (rather than the apparently more natural procedure of fixing the lattice spacing and determining the corresponding value of ). The second piece of jargon is , the Wilson hopping pa- rameter, which is proportional to the coefficient of _ in Wilson's discretisation of the quark action (as well as generalisations of this like the action mentioned below). is therefore a measure of the quark mass, and the "critical" value of , which corresponds to zero renormalised quark mass (and zero pion mass), is called
+
+.
+
+The numerical computation of the functional inte- gral in eq.(1) leads to an evaluation of operator matrix elements "from first principles". However, there are a number of approximations in these calculations, lead- ing to uncertainties in the final results. First of all we have the "statistical" errors, that is the errors due to the fact that we are estimating the functional integral by sampling the integrand at a finite number of field configurations. The size of these errors can be esti- mated, using standard statistical methods, by observ- ing how the result varies as configurations are added or removed. As will be clear from the results presented
+
+n _ S
+
+n
+
+n
+
+n
+
+S
+
+h h h h
+
+h
+
+h h
+
+c I x ; x ; ; x Z dA d d e
+
+O x ; x ; ; x A
+
+O x ; x ; ; x
+
+S Z
+
+I x ; x ; ; x
+
+O I
+
+e
+
+O O O x ; x J x J x J J
+
+h h
+
+J h
+
+O x ; x ; x J x X x J x X
+
+h X h
+
+fi =g a g
+
+a
+
+fi g a
+
+g ^
+
+
+
+SW ^
+
+^
+
+^
+
+\Gamma
+
+\Gamma
+
+y y
+
+y \Delta \Delta \Delta
+
+\Delta \Delta \Delta
+
+\Delta \Delta \Delta
+
+\Delta \Delta \Delta
+
+h j j i
+
+h j j i
+
+j
+
+LATTICE PHENOMENOLOGY
+
+Physics Department, The University Southampton, SO9 5NH, United Kingdom
+
+A review of the status of lattice simulations in particle physics phenomenology is presented. Recent computations of leptonic decay constants of light and heavy mesons, and of the Isgur-Wise function relevant for semi-leptonic decays of -mesons, are discussed in some detail. Calculations of other quantities are briefly outlined. The systematic errors inherent in lattice simulations, and procedures to reduce and control them, are described.
+
+B
+
+1 Introduction
+
+2
+
+below, for many quantities (on typical lattices) it ap- pears that the statistical errors are adequately small for 50-100 field configurations (although there are some important exceptions to this0.
+
+More problematical are the systematic errors. These include "finite volume effects", i.e. errors due to the fact that the integrals are evaluated with space-time taken to be finite. These can be studied by repeating the simulations on lattices of different sizes, and this is now being done more frequently. Theoretically, for a range of interesting quantities, it is known that finite volume effects decrease exponentially with the volume [1], and numerically the effects appear to be small on currently used lattices, at least for quenched calculations. How- ever for this to be the case the numerical simulations are performed with light quark masses which are heav- ier than the physical ones (typically corresponding to pions with masses in the range of about 400 MeV - 1 GeV), and the results are then extrapolated to the physical limit (which is essentially the chiral limit for which the quarks are massless). I mention in passing that the dependence of masses and energy levels on the spatial volume of the lattice can be used to measure scattering lengths [1].
+
+A second source of systematic error is due to the finiteness of the lattice spacing. Again these errors can be studies by performing high statistics runs on lattices with different values of the lattice spacing (i.e. at differ- ent values of ). An example of this will be presented in sec.2. Another approach is that of "improvement" [2] in which the discretisation errors are formally reduced through the use of an "improved" action and operators. Some of the results presented below have been obtained with the use of the fermion-action proposed by Sheik- holeslami and Wohlert (the or "clover" action) [3]. With this action, and with the use of improved opera- tors, the discretisation errors are reduced from those of
+
+( ) (present in simulations with Wilson fermions) to ones of ( ) [4]. An exciting possibility is that, by the use of the renormalisation group transformations, it may be possible to construct "perfect actions", for which the discretisation errors will effectively be elimi- nated, and yet which will be practicable for numerical simulations [5]. Whether this will be possible should become apparent during the next year or so.
+
+Finally there is the problem of "quenching". The re- sults presented below have been obtained by neglecting the effects of quark loops (but including all gluonic ef- fects), and it is difficult in general to estimate the error this induces. Where the results of quenched calculations can be compared to experimental data, they are gener- ally in good agreement suggesting that these errors are moderate (an important exception may be the hyper- fine splittings in quarkonia). Sometimes it is possible to
+
+use the renormalisation group equations to relate two physical quantities, and the difference between results obtained by using zero flavours or the physical number of flavours in quark loops provides an estimate of the effects of quenching. However for the lattice computa- tions to be treated as a truly quantitative technique, the effects of quark loops should be included, for which bet- ter algorithms or theoretical developments (such as the perfect actions mentioned in the preceeding paragraph) are needed. Otherwise we will have to wait for several years (5-10 ?) while the improvements in computing resources become sufficiently powerful to cope with the evaluations of the fermion determinants, necessary for full QCD computations.
+
+In this short talk I clearly have to be selective in the subjects I cover. I hope nevertheless that the topics I have chosen will provide an accurate picture of the status of computations in lattice QCD, illustrating both what has been, and is being, achieved, and also some of the outstanding difficulties and attempts to overcome them. I will not have time to discuss many interesting lattice computations for field theories other than QCD. I also regret that I will not be able to compare the lattice results with those from model calculations or QCD sum rules.
+
+The leptonic decay constants of light mesons, (e.g. and ) are obtained from matrix elements which are among the simplest ones to compute using lattice QCD. They are defined by
+
+0 (0) ( ) = (2) and
+
+0 (0) ( ) = (3)
+
+where is the polarisation vector of the -meson, and
+
+and are the axial-vector and vector currents respec- tively. The experimental values of the decay constants are = 132 MeV ( 0 17), and 1 = 0 28(1).
+
+These decay constants have been computed for sev- eral years now. During the last year there have been a number of high statistics evaluations, and I will restrict my discussion to these studies. In particular the GF11 Collaboration [6] have evaluated the decay constants at several values of the lattice spacing with sufficient pre- cision to be able to attempt an extrapolation to the continuum limit = 0. In Fig.1 I present the lattice results for obtained by the GF11 [6] and APE [7] collaborations, using Wilson fermions . is
+
+s
+
+ss ae
+
+_ ss _ _ _ ae ae _
+
+ss ss ae ae
+
+ss ae A
+
+A
+
+fi
+
+SW O a
+
+O ff a
+
+f f
+
+! A ss p ? f p ! V ae p ? ffl m =f ffl ae A V
+
+f f =m : =f :
+
+a f =m =Z
+
+Z\Lambda
+
+j j j j
+
+'
+
+The results presented here for the GF11 collaboration are ones which have been corrected since their original preprint was circulated
+
+\Lambda
+
+2 Decay Constants of Light Mesons 1
+
+3 3 3
+
+2
+
+4 0 0
+
+Figure 1: Values of measured by the GF11 and APE Collaborations.
+
+Group GeV Lattice Size Configs
+
+GF11 5.70 1.36(2) 16 32 219 GF11 5.93 2.00(5) 24 36 217
+
+APE 6.00 2.23(5) 18 32 210 GF11 6.17 2.78(5) 30 32 32 219
+
+Table 1: Parameters of the Simulations by the GF11 and APE collaborations whose results for the decay con- stants are presented in this talk
+
+the renormalisation constant relating the lattice axial current to the physical one, and is calculable in per- turbation theory. In addition to the directly measured values, I have also included in Fig.1, the results ob- tained by extrapolating these values to physical quark and pion masses. The results from the two collabo- rations are clearly in excellent agreement. The lattice sizes and numbers of gluon configurations used in each simulation are presented in table 1. The values of the in- verse lattice spacings presented in table 1 were obtained from the measured values of the mass of the -meson from the corresponding simulation.
+
+The results in Fig.1 show a surprisingly mild depen- dence on the lattice spacing. In order to extract the physical quantity , they need to be multiplied by the renormalisation constant (which also depends mildly on the lattice spacing). Following the sugges- tion of Lepage and Mackenzie [8], I use the expres- sion (1 0 31 6 (4 ) (8 ) ) 8 , which includes the effects of a partial summation of tadpole diagrams (which are lattice artefacts giving large coefficients in lattice perturbation theory) [9, 10, 11]. The 's ob-
+
+1 5.70 0.176(7) 0.41(2) 5.93 0.165(5) 0.36(2) 6.00 0.167(7) -- 6.17 0.165(5) 0.34(2)
+
+Table 2: Values of and 1 obtained by the GF11 and APE collaborations.
+
+tained in this way are 0.67 at = 5 7, 0.74 at = 5 93, 0.75 at = 6 0 and finally 0.77 at = 6.17. The re- sults for obtained using these values of are presented in table 2. It must be stressed that the er- rors given in table 2 are statistical errors only. From these results we see that the dependence on the lattice spacing is remarkably small for this particular quantity, and that the results are in excellent agreement with the physical value.
+
+The situation is a little different for the decay con- stant of the -meson. Following the analogous proce- dure to that for above, we obtain (from the data of the GF11 collaboration) the values of 1 in the third column of table 2. If the behaviour with the lat- tice spacing is linear, the results for 1 extrapolate to about 1 = 0 25(3) at = 0 [6]. If this is the case, then clearly there are significant ( ) effects in the evaluation of 1 at around 6.0-6.2 for Wilson fermions, however further work is needed to establish that the behaviour with is indeed linear all the way down to = 5 7.
+
+Similar studies are beginning also with the - action, for which the discretisation errors are formally reduced [7, 12]. For example the UKQCD collabora- tion [12] find = 0 14(1) at = 6 2 and the APE collaboration find = 0 16(1) at = 6 0. Over the coming months it will become possible to study the -dependence in some detail. I should also men- tion that it is practicable, in simulations using the fermion action, to determine the renormalisation con- stants and non-perturbatively, by imposing the chiral Ward Identities [13], removing one source of un- certainty.
+
+In this section I will review the status of computa- tions of the decay constants of heavy-light pseudoscalar mesons, i.e. mesons with a heavy quark (anti-quark) and a light anti-quark (quark). The decay constant (in conjunction with the -parameter of - _ mixing) is an unknown parameter needed for the determination of the elements of the matrix, and the violat- ing phase in particular. I will present results obtained
+
+ss ae A ss ae
+
+A
+
+A c c
+
+A
+
+ss ae ae ss ae ae ss ae A
+
+ss ae
+
+ae
+
+ae ae
+
+ae
+
+ss ae
+
+ss ae
+
+A V
+
+B
+
+f =m =Z fi a
+
+ae f =m
+
+Z
+
+Z : = ssfi ^ = ^
+
+Z
+
+fi f =m =f
+
+f =m =f
+
+fi : fi : fi : fi
+
+f =m Z
+
+ae
+
+f =m
+
+=f
+
+=f =f : a
+
+O a =f fi
+
+a fi :
+
+SW
+
+f =m : fi :
+
+f =m : fi :
+
+a
+
+SW
+
+Z Z
+
+f B B B
+
+CKM CP
+
+\Gamma \Theta
+
+\Theta \Theta \Theta \Theta
+
+' \Gamma
+
+' 3 Decay Constants of Heavy Mesons
+
+h i
+
+0
+
+0
+
+0
+
+2
+
+2
+
+s
+
+s 3
+
+3 3
+
+3
+
+3
+
+2
+
+using two different approaches. The first method is an extension of the calculations described in section 2 but with the mass of the heavy quark in the region of that the charm quark (for quarks which are much heavier than this, the Compton wavelengths are smaller than the lattice spacing). I will refer to this method as sim- ulations with propagating heavy quarks. The second method involves simulations of the Heavy Quark Effec- tive Theory directly on the lattice, and I will refer to this method as simulations with static heavy quarks. I will not have time in this talk to describe lattice studies in heavy quark physics using the non-relativistic formu- lation of QCD (see however item c in section 5).
+
+Simulations with propagating heavy quarks have be- en performed for several years now, and for example, at the 1989 conference on Lattice Field Theory [14], Steve Sharpe summarised the results for as
+
+= 180 25 30 MeV (4) Results from recent simulations all lie in this range.
+
+In the heavy quark effective theory the decay con- stant of a heavy pseudoscalar ( ) meson is predicted to behave as a function of its mass as follows:
+
+= ( ( )) [1 + ( )] + (1 )
+
+(5) In lattice simulations it is the constant which is eval- uated, following the method proposed by Eichten [15]. I will denote by stat the value of obtained in this way, i.e. obtained by dropping the (1 ) terms. Early results for stat gave surprisingly large values:
+
+stat = 310 25 50 MeV ref.[16] (6) stat = 366 22 55 MeV ref.[17] (7)
+
+Clearly these results could only be made consistent with those in eq.(4) if there were large negative (1 ) corrections in the charm region, and significant ones for the -meson, so that = stat. It was therefore im- portant to check whether this was the case, and it was found in simulations with propagating quarks that in- deed the quantity ( ( )) does increase as is increased [18, 19].
+
+A compilation of the results for stat is presented in table 3 [20]. In the last column I present the re- sults as they were quoted in the publications, but I also present the values of the lattice spacing and renormal- isation constant which were used to obtain the result. Part of the reason for the spread of results is due to different procedures, particularly in the choice of , but there is still some debate whether all of the col- laborations can isolate the contribution of the ground state sufficiently accurately. To make further progress,
+
+more work on improving the evaluation of and above all on isolating the ground state is needed, and is in progress. There is some preliminary evidence thatstat
+
+may be decreasing as 0 [23, 24], and it will be very interesting to be able to check this when the precision of the calculations improves.
+
+This year two groups have presented new results ob- tained with propagating heavy quarks. Bernard, Lab- renz and Soni, have performed simulations at = 6 3 (20 configurations on a 24 55 lattice) and at = 6 0 (19 configurations on a 16 39 lattice and 8 config- urations on a 24 39 lattice) using Wilson fermions. These authors attempt to reduce the systematic errors associated with ( ) effects (where is the heavy quark) by modifying the heavy quark propagator fol- lowing a procedure based on the structure of the free- field propagator [25, 26], (it will be very interesting to see whether this procedure for reducing ( ) effects in simulations with Wilson fermions can be established when quantum loops are included, and this work is in progress [27]). Bernard, Labrenz and Soni quote
+
+= 187 10 34 15 MeV (8) = 208 9 35 12 MeV (9)
+
+These values are based on their results with both prop- agating and static heavy quarks.
+
+The second collaboration to present results this year with propagating quarks is the UKQCD collaboration which performed simulations at = 6 2 (60 configura- tions on a 24 48 lattice), and = 6 0 (36 config- urations on a 16 48 lattice) using the fermion action. Since the leading discretisation errors for the
+
+action are of ( ) (instead of ( ) as for Wilson fermions), it was important to check that the results found with Wilson fermions [18, 19], and the dependence on in particular, are reproduced . In Fig.2 I show the results for the "scaling" quantity
+
+( ( )) as a function of 1 obtained by the UKQCD collaboration from their simulation at
+
+= 6 2. The open points correspond to the measured values at three values of the mass of the light quark (de- creasing as the mass of the light quark is decreased) and the solid points are the results obtained after extrapo- lation to the chiral limit. The solid line is a linear fit to the heaviest three of the four points, and the broken line is a quadratic fit to all four points. The increase of this quantity as inreases is manifest. Also on this figure is shown the value of stat obtained from 20 of the 60 configurations, which is about 2-3 standard devi- ations above the value obtained by extrapolation from the results with propagating quarks. From their results
+
+D D
+
+P
+
+P
+
+s P =fi s P
+
+B B
+
+B
+
+B
+
+B B
+
+P B B
+
+P P s P =fi P
+
+B
+
+tatA
+
+tatA B
+
+Q
+
+Q
+
+B D
+
+s Q Q Q P P s P =fi P
+
+P
+
+B
+
+f f
+
+P f AM ff M O ff O =M
+
+A f f
+
+O =M f
+
+f f
+
+O =M B f f
+
+f = M ff M M
+
+f
+
+Z
+
+Z f a
+
+fi :
+
+fi :
+
+O m a Q
+
+O m a
+
+f f
+
+fi :
+
+fi :
+
+SW
+
+SW O ff m a O m a
+
+m f = M ff M =M fi :
+
+M
+
+f
+
+\Gamma
+
+y
+
+\Sigma \Sigma p
+
+\Sigma \Sigma \Sigma \Sigma
+
+6 p
+
+! \Theta \Theta \Theta
+
+\Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Theta \Theta p
+
+UKQCD have also analysed 18 (of the 36) configurations on the lattice at = 6 0 using Wilson fermions, and compare the results for the two different fermion actions
+
+fi :
+
+y
+
+0
+
+1 s
+
++ 32 + 810 + 6742 + 71 + 1615 +10514
+
+1 2 (2 ) + 66 + 5314 + 43 + 427
+
+1 + .7.1
+
++ 44 + 467
+
+0 0 2 2
+
+Ref. Action GeV stat MeV
+
+[21] Wilson 5.9 1.75 0.79 319 11 [16] Wilson 6.0 2 0 0 2 0.8 310 25 50 [17] Wilson 6.0 2 2 0 2 0.8 366 22 55
+
+[7] Wilson 6.0 2 11 05 10 0.8 350 40 30 [7] SW 6.0 2 05 0 06 0.89 370 40
+
+[20] SW 6.0 2 0 0.78 286
+
+[20] SW 6.2 2 7 0.79 253 [22] Wilson 6.3 3 21 09 17 0.69 235 20 21 [23] Wilson 5.74, 6.0, 6.26 1.12, 1.88, 2.78 0.71(8) 230 22 26
+
+Table 3: Compilation of Lattice Results for stat
+
+Figure 2: Values of ( ( ) ( )) measured by the UKQCD Collaboration.
+
+with propagating quarks UKQCD quote:
+
+= 160 MeV (10) = 185 MeV (11) The reason for such asymmetric errors in eqs.(10) and (11) is the uncertainty in the value of the lattice spacing obtained from the physics of light hadrons, for which the UKQCD collaboration quote = 2 7 GeV.
+
+My summary of the lattice results for the decay con- stants of heavy mesons, based on the above and earlier simulations, are
+
+= 180 40 MeV (12) = 200 30 MeV (13)
+
+An important step now will be to study the dependence of the results obtained with the fermion action on the lattice spacing, and this work is in progress [28].
+
+I would like to conclude this section by briefly men- tioning a number of related quantities. First of all, as is clear from fig.2 the decay constants decrease as the mass of the light quark decreases (this is interpreted as being due to the fact that the size of the meson in- creases, so that the wavefunction at the origin is re- duced). Lattice simulations typically give a result 10- 20% larger for and than for and (the errors in the ratio are small), and for example UKQCD
+
+quote = 212 MeV, to be compared to the experimental results of = 232 45 20 48 MeV [29] and = 344 37 53 42 MeV [30].
+
+Another important quantity is the (renormalisation group invariant) -parameter for _ mixing for which the ELC collaboration find = 220 40 MeV and ( ) ( ) = 1 19 0 10
+
+Semi-leptonic decays of heavy mesons are an important set of processes for studies of the standard model, and in the determination of the elements of the Cabibbo- Kobayashi-Maskawa (CKM) matrix (particularly for the
+
+matix element). In the heavy quark effective theory, the two form-factors for the decay + leptons and the four form-factors for decay + leptons, are all given in terms of a single unknown function of , ( , where and are the four-velocities of the and or mesons) [31]. Moreover this func- tion, ( ), known as the Isgur-Wise function [31], is normalised at the zero-recoil point, (1) = 1. Experi- mental studies of these decays give results for ( ) for values of 1, so a determination of requires an extrapolation of the experimental results to = 1. Lattice simulations can provide a determination of ( ) and also test whether the charm quark is sufficiently massive for the heavy quark effective theory to be use- ful for and decays.
+
+A convenient way of determining ( ) is by evaluat-
+
+s s s
+
+s s
+
+s s
+
+tatA B
+
+B
+
+P =P s P s B =fi B D
+
+B D
+
+B D B D D
+
+D D
+
+B B B B B B
+
+cb
+
+B D B D
+
+cb cb
+
+fi a Z f
+
+: : : : : : :
+
+: :
+
+:
+
+: : : :
+
+f
+
+f =M ff M =ff M f f
+
+a :
+
+f f
+
+SW
+
+f f f f f
+
+f f
+
+B B B
+
+f B f B = f B : :
+
+V
+
+B D B D
+
+! ! v v v v
+
+B D D
+
+, !
+
+,
+
+V , ! ! ? V
+
+!
+
+, !
+
+B D D
+
+, !
+
+\Gamma
+
+\Gamma \Gamma \Gamma \Gamma \Gamma \Gamma
+
+\Gamma \Gamma \Gamma \Gamma
+
+\Gamma \Gamma
+
+\Gamma \Gamma
+
+\Lambda \Lambda
+
+\Lambda
+
+\Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Sigma \Sigma
+
+\Sigma \Sigma
+
+\Sigma \Sigma \Sigma \Sigma \Sigma \Sigma
+
+\Sigma \Sigma
+
+\Sigma \Sigma \Sigma \Sigma \Sigma \Sigma
+
+\Gamma p \Sigma
+
+\Sigma
+
+!! j \Delta
+
+j j
+
+!
+
+4 The Isgur Wise Function ` ' p
+
++ 2
+
++ 2 2
+
+2
+
+2 + 72
+
++ 22 + 83 2
+
+3 3
+
+3
+
+2
+
+Figure 3: A comparison of the ARGUS experimen- tal data for ( ) with the lattice results from the UKQCD Collaboration.
+
+ing the elastic matrix element
+
+( ) _ ( ) = ( + ) ( ) (14) where = and the single form-factor , when considered as a function of ( = 2 (1 ) ), is equal to the Isgur-Wise function (once radiative correc- tions are included). The matrix element in eq.(14) can be evaluated using the techniques which have been de- veloped for decays of charmed mesons (i.e. for or and or semi-leptonic decays) [32, 33]. Two groups have recently presented results for ( ), Bernard, Shen and Soni [34] and the UKQCD collabo- ration [35, 36].
+
+In fig.3 I present the results from the UKQCD col- laboration, obtained at = 6 2 from 60 configurations using the -action, and after extrapolation to the chi- ral limit for the light quark masses. Fitting the lattice results to Stech's relativistic-oscillator parametrisation [37]:
+
+( ) = 2+ 1 exp (2 1) 1+ 1 (15)
+
+the UKQCD collaboration find = 1 2 . Also on Fig.3 are the data points from the ARGUS exper- iment, and by comparing the lattice determination of
+
+( ) to the ARGUS data, the UKQCD collaboration
+
+find 1 48 = 0 038 , where the first set of errors is due to the experimental uncertainty and the second is due to the uncertainty in the lattice de- termination of . An extension of this work to another value of is in progress.
+
+Bernard, Shen and Soni perform simulations with Wilson fermions, (but modifying the heavy quark prop- agator as discussed in section 3) at = 6 0 (19 configu- rations on a 16 39 lattice and 8 configs on a 24 39 one) and = 6 3 (20 configurations on a 24 61 lat- tice) They fix to be 0, and limit their calculations to the two lowest values of , however from their simu- lations at two values of and two values of the heavy quark mass they are able to obtain results for a range of 's. These authors quote = 1 41 0 19 0 19 based on their results for the largest values of the light quark mass (an improvement in statistics is needed to control the extrapolation to the chiral limit). It would be very interesting to extend the range of momentum values in this work so as to be able to study better the systematic errors.
+
+So far ( ) has only been determined from the matrix element in eq.(14). A very interesting set of checks will be performed during the next few months to establish whether the expectations of the heavy quark effective theory for the relation between the form factors in Pseudoscalar Pseudoscalar and Pseudoscalar Vector transitions are satisfied, for heavy quark masses in the region of the mass of the charm quark.
+
+I would like to end this talk by briefly mentioning a few other important studies in particle physics phenomenol- ogy which I haven't had time to discuss in detail.
+
+a) Determination of the Strong Coupling Constant:
+
+El-Khadra et al. have calculated the strong cou- pling constant by computing the 1 -1 mass split- ting in charmonium [38], finding
+
+(5 GeV) = 0 174 0 012 (16) L"uscher et al., are attempting to compute by using the size of the lattice as the dimensionful parameter[39].
+
+b) Potentials: The potentials between static heavy
+
+quarks can be computed accurately [40, 41] and used to determine .
+
+c) Quarkonia: One of the exciting recent develop-
+
+ments has been the use of non-relativistic QCD for studies of the spectrum and properties of Quarko- nia [42, 43]. Kronfeld and Mackenzie are also try- ing to generalise this approach to construct a field theory which would be applicable for all quark ma- sses [25, 26], and it will be very interesting to see whether this can be achieved.
+
+cb
+
+_ _
+
+D
+
+cb B
+
+MS
+
+s
+
+s
+
+V , ! ! D p cfl c D p ? p p f q
+
+q p p f
+
+! q m !
+
+D K ss D K ae
+
+, !
+
+fi : SW
+
+, ! ! ae !!
+
+ae :
+
+, !
+
+V o/ = : ps :
+
+ae fi
+
+fi : fi :
+
+~p ~
+
+~p fi
+
+! ae : : :
+
+, ! D D
+
+S P ff : :
+
+ff
+
+ff
+
+0 0
+
+0
+
+\Lambda
+
+\Gamma \Gamma \Gamma
+
+0 j j
+
+j j \Gamma \Gamma
+
+!!
+
+\Gamma \Gamma \Gamma
+
+\Theta \Theta \Theta
+
+j j
+
+\Sigma \Sigma
+
+! ! !
+
+\Sigma 5 Some Other Lattice Studies in Particle Phys-
+
+ics Phenomenology
+
+0 0
+
+2 3
+
++ 1
+
+1 1
+
+d) : The parameter , which parametrises the
+
+strong interaction effects in - _ mixing has been calculated by several groups during recent years. Lusignoli et al. [44] summarise the lattice results as ^ = 0 8 0 2, where ^ is the renormali- sation group invariant -parameter. The most precise results came from Kilcup et al. [45], using the staggered formulation of lattice fermions, who performed simulations at several values of and extrapolated their results to zero lattice spacing. Recently (indeed since this talk was presented), Sharpe has demonstrated that the discretisation errors in these calculations are of ( ) and not
+
+( ) [46], considerably reducing the uncertainty in the extrapolation to the continuum limit. The au- thors of ref.[45] quote ^ = 0 825 0 027 0 023 (preliminary).
+
+e) \Delta = 1 2 Rule: There has been no progress on
+
+this very fundamental problem recently. The prob- lem (for Wilson fermions) is how to subtract accu- rately the 1 diveregence which occurs when the operators of dimension 6 which contain the strong interaction effects for this process, mix with the di- mension 3 operator _ (through the so called eye- diagram). Although the subtraction can be per- formed in principle, the final results have errors of
+
+(100%).
+
+f) Semi-Leptonic Charm Decays: The semi-leptonic
+
+decays or + leptons have been studied for several years now [32, 33, 47], giving pleasing results both for the form-factors at zero momentum transfer, and for the behaviour of the form-factors with momentum transfer. This year the ELC Collaboration has presented results at
+
+= 6 4 with Wilson fermions [48], and although these have larger statistical errors than some of the earlier ones, the results are consistent (e.g. for the
+
+decay ELC quote (0) = 0 65(18)). In ref.[48] use of the heavy quark effective theory is made to develop a method for extrapolating the results to those for -decays.
+
+g) : At this conference we have heard from
+
+the CLEO collaboration about their observation of the process [49]. In the standard model this process occurs through "penguin" diagrams, and the rate is sensitive to possible new physics. In order to determine whether the observed rate is consistent with the prediction of the standard model it is necessary to evaluate the strong in- teraction effects. This is being done by two lat- tice groups, Bernard, Hsieh and Soni [50] and the UKQCD collaboration [51], both using propagat- ing heavy quarks. In fig.4 we see the measured re- sults from the UKQCD collaboration for the form- factor which contains the strong interaction ef-
+
+Figure 4: A comparison of the form-factor deter- mined from the CLEO measurement and lattice com- putations.
+
+fects for this process. The open squares are results obtained assuming that is independent of the mass of the light-quark, whereas the diamonds are the results obtained after extrapolation of the data to the chiral limit (there is no observed dependence on the light quark mass, but the errors grow sig- nificantly if an extrapolation is attempted). The crossed square and diamond are the correspond- ing points after linear extrapolation in the heavy quark mass to the physical value of ( is the mass of the heavy pseudoscalar). The value deduced from the CLEO data, assuming that = 150 GeV (the dependence on is mild) is also shown, as is the extrapolated value from the simu- lation of Bernard, Hsieh and Soni (BHS). The lat- tice results suggest that the observed rate is con- sistent with the standard model contribution.
+
+I hope that I have managed in this talk to demonstrate that lattice simulations are making important contribu- tions to particle physics phenomenology, and in particu- lar to many processes which are under intensive experi- mental investigation. I have also tried to explain a little about the systematic errors present in the calculations and about attempts to reduce and control them. Lattice simulations are developing into the major quantitative tool for non-perturbative strong interaction physics.
+
+K K
+
+K K
+
+K
+
+K
+
+K P P
+
+t t
+
+B B
+
+K K
+
+B : : B
+
+B
+
+fi
+
+O a O a
+
+B : : :
+
+I =
+
+=a
+
+sd O
+
+D K; ss; K ae
+
+fi : D K f :
+
+B b sfl
+
+B K fl
+
+T
+
+T T
+
+m =M M
+
+m m
+
+\Lambda
+
+\Lambda
+
+\Lambda
+
+\Sigma
+
+\Sigma \Sigma
+
+! ! !
+
+!
+
+6 Conclusions
+
+I am grateful to Don Weingarten for access to the data from the GF11 collaboration, and to Claude Bernard and Amarjit Soni for clarifying discussions of their re- sults. It is a pleasure to thank my colleagues from the ELC and UKQCD groups for such fruitful and stimu- lating collaborations. I acknowledge the support of the UK Science and Engineering Research Council through the award of a Senior Fellowship. Finally I would like to thank the organisers of this conference for creating such a stimulating and enjoyable environment for scientific presentations and discussions.
+
+[1] M.L"uscher, Comm. Math. Phys. 104 (1986) 177;
+
+Comm. Math. Phys. 105 (1986) 153 [2] K.Symanzik, Nucl. Phys. B226 (1983) 187 and
+
+205 [3] B.Sheikholeslami and R.Wohlert, Nucl. Phys.
+
+B259 (1985) 572 [4] G.Heatlie et al., Nucl. Phys. B352 (1991) 266 [5] P.Hasenfratz and F.Niedermeyer, University of
+
+Bern Preprint BU-93-17 (1993) [6] GF11 Collaboration, F.Butler et al., IBM York-
+
+town Heights Preprint IBM-HET-93-3 (1993) [7] APE Collaboration, C.R.Allton et al., University
+
+of Rome Preprint 928 (1993) [8] G.P.Lepage and P.B.Mackenzie, Fermilab
+
+Preprint 91-355-T-Revised (1992) [9] B.Meyer and C.Smith, Phys. Lett. B123 (1983)
+
+62 [10] G.Martinelli and Y.C.Zhang, Phys. Lett. B123
+
+(1983) 433 [11] R.Groot, J.Hoek and J.Smit, Nucl. Phys. B237
+
+1984 111 [12] The UKQCD Collaboration, C.R.Allton et al.,
+
+Edinburgh University Preprint 93-524 (1993) [13] G.Martinelli, S.Petrarca, C.T.Sachrajda and
+
+A.Vladikas, Phys. Lett. B311 (1993) 241 [14] S.Sharpe, Nucl. Phys. B(Proc.Suppl.)17 (1990)
+
+146 [15] E.Eichten, Nucl. Phys. B(Proc.Suppl.)4 (1988)
+
+170 [16] C.R.Allton et al., Nucl. Phys. B349 (1991) 598 [17] C.Alexandrou et al., Phys. Lett. B256 (1991) 60 [18] C.R.Allton et al., Nucl. Phys. B(Proc.Suppl.)20
+
+(1991) 504 [19] A.Abada et al., Nucl. Phys. B376 (1992) 172 [20] The UKQCD Collaboration, R.M.Baxter et al.,
+
+Southampton University Preprint SHEP 92/93- 24 [21] A.Duncan et al., Nucl. Phys. B(Proc.Suppl.)30
+
+(1993) 433 [22] C.W.Bernard, J.Labrenz and A.Soni, University
+
+of Washington Preprint UW/PT-93-06 (1993) [23] C.Alexandrou et al., PSI Preprint PSI-PR-92-27
+
+(1992)
+
+[24] E.Eichten, private communication[25] A.S.Kronfeld, Nucl. Phys. B(Proc.Suppl.)30
+
+(1993) 445[26] P.B.Mackenzie, Nucl. Phys. B(Proc.Suppl.)30 (1993) 30[27] A.S.Kronfeld and P.B.Mackenzie, private commu- nication[28] G.Martinelli, private communication [29] The WA75 collaboration, S.Aoki et al., Prog. of
+
+Theoretical Physics 89 (1993) 131[30] The CLEO collaboration, D.Acosta et al., Cornell
+
+Preprint CLNS-93-1238 (1993)[31] N.Isgur and M.Wise, Phys. Lett. B232 (1989) 113; Phys. Lett. B237 (1990) 527[32] C.W.Bernard, A.X.El-Khadra and A.Soni, Phys. Rev. D43 (1991) 2140; Phys. Rev. D45 (1992) 869[33] M.Crisafulli et al., Phys. Lett. B223 (1989) 90; V.Lubicz, G.Martinelli and C.T.Sachrajda, Nucl. Phys. B356 (1991) 301; V.Lubicz, G.Martinelli, M.S.McCarthy and C.T.Sachrajda, Phys. Lett. B274 (1992) 415[34] C.W.Bernard, Y.Shen and A.Soni, Boston Uni-
+
+versity Preprint, BUHEP-93-15 (1993); Nucl. Phys. B(Proc.Suppl.)30 (1993) 473[35] The UKQCD collaboration, S.P.Booth et al.,
+
+Southampton University Preprint, SHEP 92/93- 17 (1993)[36] L.P.Lellouch, these proceedings
+
+[37] M.Neubert and V.Rieckert, Nucl. Phys. B382
+
+(1992) 97; M.Neubert, V.Rieckert, B.Stech and Q.P.Xu, in , Eds. A.J.Buras and M.Lindner (World Scientific, Singapore, 1992)[38] A.X.El-Khadra et al., Phys. Rev. Lett.69 (1992)
+
+729[39] M.L"uscher et al., DESY Prepint 93-114 (1993); 92-157(1992); Nucl. Phys. B389 (1993) 247[40] G.S.Bali and K.Schilling, Phys. Rev. D46 (1992) 2636; Phys. Rev. D47 (1993) 661[41] The UKQCD Collaboration, S.P.Booth et al., Phys. Lett. B294 (1992) 385[42] G.P.Lepage and B.A.Thacker, Phys. Rev. D43 (1991) 196[43] C.Davies, J.Phys.G: Nucl. Part. Phys. 18 (1992) 1661[44] M.Lusignoli, L.Maini, G.Martinelli and L.Reina, Nucl. Phys. B369 (1992) 139[45] R.Gupta, G.Kilcup and S.Sharpe, Nucl. Phys. B(Proc.Suppl.)26 (1992) 197[46] S.Sharpe, presented at the 1993 International Conference on Lattice Field Theory.[47] T.Bhattacharya, D.Daniel and R.Gupta, Los Alamos Preprint, LA-UR-93-5580 (1993)[48] A.Abada et al., University of Rome Preprint, 946- 1993 (1993)[49] R.Ammar et al., Phys. Rev. Lett.71 (1993) 674 [50] C.W.Bernard, P.F.Hsieh and A.Soni, Nucl. Phys.
+
+B(Proc.Suppl.)26 (1992) 347; Washington Uni- versity Preprint HEP/93-35 (1993)[51] UKQCD Collaboration, K.C.Bowler et al., Uni-
+
+versity of Southampton Preprint SHEP93/94-01 (1993)
+
+Heavy Flavours Acknowledgements References
+

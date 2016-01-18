@@ -1,0 +1,1486 @@
+
+
+ 22 May 94
+
+LA-UR-94-783 February 18, 1994
+
+NON-EQUILIBRIUM QUANTUM FIELDS
+
+IN THE LARGE N EXPANSION
+
+Fred Cooper, Salman Habib, Yuval Kluger, Emil Mottola, and Juan Pablo Paz
+
+Theoretical Division Los Alamos National Laboratory
+
+Los Alamos, New Mexico 87545
+
+and Paul R. Anderson Department of Physics Wake Forest University Winston-Salem, North Carolina 27109
+
+Abstract An effective action technique for the time evolution of a closed system consisting of one or more mean fields interacting with their quantum fluctuations is presented. By marrying large N expansion methods to the Schwinger-Keldysh closed time path (CTP) formulation of the quantum effective action, causality of the resulting equations of motion is ensured and a systematic, energy conserving and gauge invariant expansion about the quasi-classical mean field(s) in powers of 1=N developed. The general method is exposed in two specific examples, O(N ) symmetric scalar *\Phi 4 theory and Quantum Electrodynamics (QED) with N fermion fields. The *\Phi 4 case is well suited to the numerical study of the real time dynamics of phase transitions characterized by a scalar order parameter. In QED the technique may be used to study the quantum non-equilibrium effects of pair creation in strong electric fields and the scattering and transport processes in a relativistic e+e\Gamma plasma. A simple renormalization scheme that makes practical the numerical solution of the equations of motion of these and other field theories is described.
+
+1 Introduction The derivation of macroscopic dissipative behavior from fundamental time reversal invariant dynamics is a subject at least as old as Boltzmann. In the classical approach to this issue two ingredients are necessary. First, non-equilibrium initial conditions for the system are considered, and second, some kind of coarse-graining or averaging procedure over unobserved degrees of freedom is introduced [1]. The classical prototype for this analysis is of course, Boltzmann's equation for the evolution of the molecular distribution function in a gas due to collisions between the molecules. Another classic example is the Brownian motion of a heavy particle in a fluctuating medium, where a clean separation between the "system" and "environmental" degrees of freedom to be averaged is assumed in the first step. In both of these examples from classical statistical mechanics the phenomenological point of view is the dominant one, and there is no question about how entropy growth or loss of information arises. It arises either by explicitly replacing the underlying time reversal invariant dynamics by stochastic assumptions, or by the separation into "system" and "environment" with all detailed information about the latter lost in the averaging procedure (save for a few parameters, such as temperature).
+
+In recent years there has been considerable growth in interest in the study of dissipative effects in specifically quantum mechanical systems. Driven largely by the impressive progress in the fabrication and control of sensitive microdevices, such as tunnel junctions, issues of quantum dissipation have been studied extensively by a variety of methods [2]. At the other end of the distance scale, the subject of loss of coherence in closed quantum systems has become of interest in quantum cosmology, where one would like to understand precisely how the quasi-classical universe we observe emerged from (presumably) purely quantal initial conditions [3]. Because of their technical simplicity and applicability to these widely different situations, model theories of quantum Brownian motion have often served as prototypes in studies of dissipation and decoherence. In fact, almost all existing treatments of non-equilibrium dissipative phenomena in quantum systems focus on some particular model or class of models, such as the coupled oscillators of Caldeira and Leggett [4], chosen primarily for the purpose of illustrating some definite feature of the analysis in the simplest way, or for describing a particular existing phenomenology. Since relativistic effects are unimportant in condensed matter applications, they have been generally neglected in those phenomenological models.
+
+There is no essential problem in extending the analyses of non-equilibrium and irreversible processes to systems with both quantum and relativistic features, i.e., to relativistic quantum field theories. Such an analysis is not necessary for the primary
+
+1
+
+application of field theories to experimental situations, namely scattering experiments involving a few particles, and this explains why it has not been much discussed in the literature. However, implicitly assumed in the calculation of a scattering matrix or cross section is that the particles in both the distant past (the in state) and in the remote future (the out state) of the scattering event are to be treated as essentially free particles. It is only this quite restrictive assumption that justifies the usual Feynman boundary conditions on Green's functions, and the corresponding path integral representation of the scattering matrix between in and out states.
+
+As successful as this scattering theory has been, it is clear that it is capable of addressing only a very limited subclass of questions one might hope to address in quantum field theory. The coupling may not be weak enough to justify a perturbative expansion, there may be no approximately free asymptotic scattering states, or we may be interested in more than just scattering probabilities, and of course, such a treatment based on asymptotic states cannot teach us anything directly about dissipation or loss of quantum coherence. Only relatively recently has it become apparent that there are many situations of physical interest requiring a detailed description of the time-dependent dynamical evolution, where the perturbative scattering formalism of quantum field theory is wholly inadequate. For example, this is the case for strong field electrodynamics in astrophysical plasmas, in nuclear collisions of heavy ions where it is possible that a phase transition to the quark-gluon plasma may be produced, in phase transitions in the hot, dense early universe, and in the dynamics of phase transitions generally. All of these problems require a detailed knowledge of the dynamical time evolution of the field configurations, as well as their non-equilibrium transport and energy-momentum flow characteristics. It is at that point also that the fundamental issue of dissipation in the time reversal invariant physics described by the underlying quantum fields asserts itself.
+
+Despite the apparent need for a time-dependent (and therefore not explicitly covariant) formulation of quantum field theory, to address both the fundamental issues and the many interesting applications, the technical complications of the renormalization procedure in a non-covariant treatment have usually been sufficient to dissuade all but the most persistent from the task. When renormalization issues are faced squarely, it is usually by rather formal methods, such as dimensional continuation. Although elegant theoretically this formal regularization technique is not adaptable to a computer, to which it should be clear from the outset one will have to resort to in order to solve the coupled non-linear partial differential equations of any realistic theory. In fact, it is only the advent of modern supercomputers that makes it even conceivable to carry out the program outlined in this paper and obtain useful results
+
+2
+
+in realistic physical systems.
+
+Motivated by these various considerations we wish in this paper to provide a fully quantum field theoretic framework for the systematic inclusion of the effects of fluctuations on the time evolution of a closed system in a formulation practical for numerical methods. In terms of our original discussion of "system" and "environment," the mean field (or fields) will play the role of the macroscopic subsystem, while the fluctuating degrees of freedom become the environment or bath in which the system moves. The important difference in our approach will be that the latter will not be introduced externally, but rather determined from the correlation functions of the theory self-consistently in terms of the time evolving mean field(s). In other words we wish to discuss the quantum evolution of a closed system, where no averaging over environmental degrees of freedom is ever performed. It is clear that the exact solution of this problem could never allow for any dissipation or decoherence, since well-defined Hamiltonian and unitary time evolution operators exist in the underlying field theory. However, we cannot hope to solve the Schwinger-Dyson equations of a non-trivial interacting quantum field theory exactly, so that some systematic approximation scheme is certainly required. In statistical mechanics the natural approximation scheme is to truncate the infinite hierarchy of correlation functions at some finite order. It is at this point when higher order correlations are neglected that information about the exact unitary evolution may be lost, and effective time irreversibilty may enter. This interesting point has been emphasized by Calzetta and Hu [5].
+
+The problem of the time evolution of a closed system together with its selfgenerated quantum fluctuations is clearly very general, and arises in a number of contexts in very different areas of physics. Original motivations in microscopic and mesoscopic quantum devices have been mentioned [2], but there are many other possible applications. To consider but a few examples, in electromagnetic plasmas the classical phenomenon of radiation reaction has its quantum counterpart when particle creation and virtual processes are considered. These lead to the damping of plasmon modes in strong fields, such as those in the vicinity of rapidly rotating neutron stars [6]. In heavy ion collisions of ultrarelativistic nuclei a strongly interacting quark-gluon plasma phase may be produced [7]. The theoretical understanding of nonequilibrium effects in such a plasma is very rudimentary at present, but is clearly required to interpret the data soon to be generated at accelerators such as RHIC or the LHC. Similar effects are expected in the real time dynamics of any phase transition, whether occuring in terrestrial condensed matter systems or in the early universe. In black hole evaporation, the effect of fluctuating degrees of freedom on the mean field (the
+
+3
+
+metric of spacetime) is called backreaction, and has given rise to much speculation on the status of entropy and information loss in quantum gravity. A fully consistent causal formulation of the time evolution problem for quantum field theory from given initial conditions is absolutely necessary to discuss this wide variety of quantum backreaction problems.
+
+Apart from their backreaction on the evolution of the mean value, the fluctuating degrees of freedom are responsible for another important effect. In standard treatments the environment also induces a process of negative selection in the Hilbert space of the system: most of the quantum states become very unstable and rapidly decay into mixtures of relatively stable states. In other words, the environment induces classical behavior in the quantum system by dynamically suppressing the interference effects between macroscopically distinguishable states of the system. This is the decoherence process [8], which plays an essential role in the transition from quantum to classical behavior. As one example of this phenomenon, in a theory with spontaneous symmetry breaking, the coherence between the components of the wave function corresponding to different ground states decohere due to the coupling between the system and the environment, so that after some characteristic decoherence time the state is a classical mixture (and not a quantum superposition) of macroscopically distinguishable states corresponding to different vacua. As soon as the dynamics is forced to choose between macroscopically different values (as in spontaneous symmetry breaking potentials) then we have the essential ingredient for macroscopic quantum coherence. The decoherence time scale arising from interactions with the fluctuating field(s) may be studied in a such a situation. The importance of decoherence in the context of quantum field theory, the physics of the early universe and quantum cosmology has been recognized and studied in recent years [3]. Most of these studies focus on very simple quantum mechanical toy models and very little has been done in realistic quantum field theories or in closed systems generally. The techniques we develop in this paper are directly applicable to the study of such processes, since the universe as a whole is certainly a closed system.
+
+The first requirement for the study of non-equilibrium time evolution is a general initial value formulation of quantum field theory. In several earlier papers, two of the authors have provided the necessary Heisenberg picture formulation of the initial value problem in the leading order of the large N expansion [9]. It has been successfully applied to the problem of pair creation in strong electric fields [10]. This leading order approximation in 1=N is equivalent to the Hartree-Fock mean field approximation which has been much studied in nuclear many-body, atomic and molecular chemistry applications [11]. It corresonds to a Gaussian ansatz for the Schr"odinger
+
+4
+
+wave functional. In general relativity the leading order approximation consists of replacing the energy-momentum source on the right side of Einstein's equations by its expectation value, thereby ignoring the effects of fluctuations of T_* from its mean on the quasi-classical metric of spacetime. It has been clear for some time that this approximation is not adequate in the final stages of black hole evaporation from the Hawking effect, or in very early stages of the universe's expansion. However, technical difficulties have thwarted attempts to go beyond the Gaussian ansatz for wave functionals. Our main contribution in this paper is a systematic technique for doing just that, in a way suitable for practical numerical solution on a computer.
+
+It is true that by suitably generalizing the Gaussian ansatz one should be able to evade the limitations of the mean field approximation in the Schr"odinger picture as well. Such an approach is possible in principle but unattractive (in our view) principally because of the technical complications of the renormalization program and the loss of all connection to a covariant analysis of divergences. For example, in \Phi 4 theory, even in the lowest order approximation the Ward identities are not preserved by Gaussian trial wave functions without imposing the large N limit as well. In general, variational ans"atze at the level of wave functions do not necessarily preserve the invariances of the underlying theory. It is the issue of renormalization on which most previous forays into this area founder in a web of intricate technicalities.
+
+In this paper we remove the restrictions of the Gaussian or mean field approximation by working in the Heisenberg picture, and making use of the SchwingerKeldysh closed time path (CTP) formulation of quantum field theory [12]. It is this method that provides the technical means to formulate the initial value problem in a completely causal manner, removing the Feynman boundary conditions on Green's functions, which are only appropriate for houtjini matrix elements and asymptotic scattering states. Otherwise, the techniques employed are completely familiar in field theory. Specifically, we make use of a (suitably modified) path integral representation for the generating function of connected Green's functions, and perform the Legendre transform to the effective action functional, which makes the covariance properties of the theory manifest. Hence, all conservation laws of the classical theory (which are not anomalous) are maintained explicitly. In particular, a conserved energy-momentum tensor for the fields in the plasma is obtained automatically by the effective action technique, and the renormalization program is no more difficult than in the ordinary covariant analysis. The variation of the effective action provides the dynamical evolution equation(s) for the quasi-classical mean field(s) and their fluctuations, in a form suitable for direct numerical integration from specified initial data at t = 0. Needless to say these equations of motion of the hinjini expectation values of fields are real
+
+5
+
+(which they would not be if the usual Feynman Green's functions were used).
+
+The large N expansion provides a convenient way of parameterizing the separation into quasi-classical mean fields and their fluctuations, and at the same time, a systematic approximation scheme to the Schwinger-Dyson equations of the full field theory. The method we espouse is therefore a kind of quantum analog of truncation of the BBGKY hierarchy of n-particle correlation functions of classical statistical mechanics at a finite order to render the system tractable to analysis [14]. Information loss and effective time irreversibility may enter because of this truncation [5], which is well motivated by the impracticality of having unlimited information about very high order correlations in the the initial state of any realistic system with many degrees of freedom. While the large N method may not be the only approximation scheme that makes this separation possible, it is a gauge and renormalization group invariant expansion which permits non-perturbative mean fields [15]. In other words, the large N method goes far beyond a simple perturbative expansion in the coupling constant(s) which is necessarily an expansion around the vacuum field configuration, such as is entirely inappropriate when energy densities are high and the state is far from the vacuum. The large N expansion also resums and rearranges the Feynman perturbation series for scattering diagrams (collisions in the Boltzmann language) in a way that automatically includes self-energy corrections generated by the very same microphysical scattering and collisional processes. This points the way to a systematic quantal generalization of classical transport theory even in the presence of strong mean fields, where quantum self-energy (and all vacuum polarization or offshell virtual processes) are treated on the same footing as collisional or real particle creation processes in the plasma. Fields which scale like N to a positive power for large N can be considered strong quasi-classical mean fields in this approach. Particle creation effects are contained already in the leading order (i.e., N 0) approximation. In the next to leading order (1=N ) the effects of collisional, virtual and radiation reaction processes back on the quasi-classical fields appear for the first time. For almost all applications of physical interest, these effects are essential, and cannot be described by Gaussian wave functions. Their description requires the full power of the Schwinger-Keldysh initial value formulation of quantum field theory.
+
+In order to expose the general method in as clear as possible a manner we shall consider in this paper two specific field theories for definiteness, scalar *\Phi 4 theory and quantum electrodynamics (QED). Each of these is interesting in its own right. The *\Phi 4 theory may be applied to the study of the time development of phase transitions characterized by a scalar order parameter, whether in the early universe or in a laboratory environment. In particular, the method is directly applicable to the chi6
+
+ral phase transition and the evolution of a disoriented chiral condensate in collisions of relativistic heavy nuclei [17]. Electrodynamics is interesting first because QED is arguably the most completely verified theory of fundamental interactions known and an excellent testing ground for general notions of dissipation or decoherence, and second, for application to particle production processes in strong field astrophysical plasmas. Although the details of the technique will be discussed in scalar \Phi 4 theory and QED in this paper, we would like to emphasize that the technique itself is ideally adapted to addressing the interesting fundamental issues of quantum dissipation, decoherence and time irreversibility in quantum field theories generally. The extension of these same methods to non-abelian gauge theories such as quantum chromodynamics (QCD), for application to the non-equilibrium time evolution of the quark-gluon plasma, and to gravity, for application to particle production processes in the very early universe and by black holes is planned in future publications.
+
+We are encouraged to believe that our methods will be applicable to all these problems by an additional technical advance in the area of renormalization. In earlier papers on the initial value formulation of quantum field theory (ours included), an adiabatic WKB expansion in the time variation of the frequency of oscillation of the fluctuating quantum modes is employed [10][18]. The ultraviolet divergent contributions in the effective equations of motion appear in the first few orders of this asymptotic expansion and may be removed by explicit subtractions. In trying to extend this method beyond the lowest order mean field approximation and/or to spatially non-uniform mean fields we found that it quickly becomes very complicated, and ill-suited to practical calculations. Fortunately, we are able to dispense with this adiabatic expansion entirely, by the simple device of introducing an ultraviolet cutoff on formally divergent integrals (which one always does in practice on the computer in any case). Then we have only to check that rescaling the cutoff and flowing the coupling constant according to the standard continuum renormalization group to a given order in 1=N leaves physical, renormalization group invariant quantities unchanged. If the scale of non-equilibrium time evolution and other physics of interest is far from the cutoff scale this procedure is a very sensible one on physical grounds, and certainly it is much easier to verify that this procedure works a posteriori than it is to apply adiabatic type expansions beyond the lowest order in 1=N . We give some explicit numerical evidence of the practical feasibility of this method in this paper.
+
+In order to make the paper as self-contained and readable as possible, we review in the next two sections first the derivation of the effective action for the mean fields in the large N expansion for both \Phi 4 theory and QED, and second, the basics of the Schwinger-Keldysh real time CTP formalism, from the functional integral point of
+
+7
+
+view. In Section 4 we bring the two ingredients together and derive the causal equations of motion for both scalar \Phi 4 theory and electrodynamics in the large N expansion. Section 5 is devoted to consideration of renormalization issues for the equations of motion, conserved currents, and energy-momentum tensors of each theory. We present here preliminary numerical evidence of the practicality of the renormalization scheme without the cumbersome adiabatic expansion employed in earlier papers. Our conclusions are summarized in Section 6.
+
+2 The Large N Expansion Scalar field theory with a *\Phi 4 self interaction is the simplest renormalizable quantum field theory with which to develop the techniques for separating a closed system into mean fields and the fluctuations about them. This model is interesting in its own right for the study of phase transitions characterized by a scalar order parameter, and for its role in the Higgs sector of the standard model of electroweak interactions. Let us begin by reviewing the large N expansion in the context of an N -component real scalar field with the O(N ) invariant Lagrangian density [15],
+
+L = \Gamma 12\Phi iG\Gamma 1[O/]\Phi i + N* O/ ` O/2 \Gamma _2' ; (2:1) where i = 1; : : : ; N and
+
+G\Gamma 1[O/] j \Gamma 2 + O/ : (2:2)
+
+This form is equivalent to the Lagrangian density,
+
+L0 = \Gamma 12(@a\Phi i)(@a\Phi i) \Gamma 12 _2(\Phi i\Phi i) \Gamma *8N (\Phi i\Phi i)2 (2:3) with the definition of the composite field O/ by
+
+O/ = _2 + *2N \Phi i\Phi i; (2:4) since the two Lagrangians L and L0 differ only by a constant and a surface term. The quartic coupling in the Lagrangian has been taken to be *=N from the outset, rather than rescaling it later by 1=N as is sometimes done [16].
+
+Adding independent sources to the Lagrangian and integrating over each of the fields O/ and \Phi i defines the generating functional,
+
+Z[J; K] j exp(iN W [J; K])
+
+j Z [DO/]
+
+NY
+
+i=1 Z [d\Phi
+
+i] exp aei Z d4x (L[\Phi ; O/] + Ji\Phi i + N KO/)oe : (2.5)
+
+8
+
+Here factors of N have been inserted which multiply both the O/ source K and the generating functional for connected Green's functions W , in anticipation of the large N expansion which we wish to examine. Because of the introduction of the composite field O/, the integrations over the N scalar fields \Phi i are Gaussian and may be performed explicitly:
+
+Z[J; K] = Z [DO/] exp aei Z d4x ^ N* O/ ( O/2 \Gamma _2)*oe
+
+\Theta exp aei Z d4x ^N KO/ + 12 Z d4yJi(x)G[O/]ij(x; y)Jj(y)*oe \Theta exp ae\Gamma N2 Tr ln G\Gamma 1[O/]oe ; (2.6) where the notation G[O/]ij(x; y) = ffiijG[O/](x; y) for the inverse of G\Gamma 1[O/] has been used. If we take each of the N copies of the original scalar field \Phi to be equivalent, we may set each of the N components of the source Ji to be equal, and writeZ
+
+d4x Z d4yJi(x)G[O/]ij(x; y)Jj(y) = N J ffi G ffi J (2:7) in a more compact notation. In all of the following, the symbol ffi will denote summation over internal indices and integration over continuous spacetime coordinates in the quantities on either side of it (the de Witt summation convention), whereas omission of the ffi will denote simple multiplication without summing or integrating over the coordinate labels.
+
+Once the generating functional (2.6) has been obtained by integrating over the N copies of the scalar field, (2.7) is obviously equivalent to simply rescaling the source J for a single OE field (and the OE field itself) by pN . This is the sense in which the OE field is quasi-classical, since its mean value is strongly enhanced with respect to ordinary perturbative treatments of the quantum field. A large value of the classical field strength implies that we are expanding about a field configuration far from the perturbative vacuum, which is the reason that the large N expansion is useful for matter under extreme conditions of high density or temperature. We should remark in passing as well, that scaling all N copies of the scalar field in the same way is not appropriate if one is interested in spontaneous breaking of the O(N ) symmetry, in which case one component should be singled out and treated differently from the remaining N \Gamma 1 Goldstone fields. We shall ignore this distinction in the following, and focus on the O(N ) symmetric case in order to simplify the presentation.
+
+It should be clear now why we introduced the factors of N as we did, for the exponent of the integrand in (2.6) contains an explicit overall multiplicative factor of N , and the O/ integration may be performed by the stationary phase method in the limit of large N . The stationary phase point of the integrand O/s[J; K] is determined
+
+9
+
+(implicitly) by the relation,
+
+K(x) + ^ 1* (O/(x) \Gamma _2) \Gamma 12 J ffi G( ; x)G(x; ) ffi J + i2 G(x; x)*O/
+
+=O/s = 0; (2:8)
+
+and the second derivative of the exponent in (2.6) with respect to O/(y) is \Gamma iN D\Gamma 1 with
+
+D\Gamma 1[J; K](x; y) j \Gamma 1* ffi4(x; y)
+
+\Gamma ^J ffi G( ; x)G(x; y)G(y; ) ffi J \Gamma i2 G(x; y)G(y; x)*O/
+
+=O/s :
+
+(2.9)
+
+Hence the result of the Gaussian stationary phase integration over O/ is
+
+W [J; K] j W (0) + 1N W (1) + 1N 2 W (2) + : : :
+
+= 1* O/s ffi ( O/s2 \Gamma _2) + K ffi O/s + 12 J ffi G[O/s] ffi J + i2 Tr ln G\Gamma 1[O/s]
+
++ 12N Tr ln D\Gamma 1[J; K] + O ` 1N 2 ' (2.10) where O/s is to be viewed as a function of the sources J and K through eq. (2.8) above, and order 1=N 2 terms have been dropped. By expanding the field O/ in a Taylor series about O/s in the original integral in (2.6) it is straightforward to derive the corrections to W [J; K] appearing in (2.10) to any desired order in 1=N . Hence the approximation scheme is systematic and controlled, and respects all the invariances of the original Lagrangian L or L0 [16].
+
+The mean field expectation values in the presence of the external sources are now given by the variations,
+
+OE(x) j ffiWffiJ (x) ; O/(x) j ffiWffiK(x) : (2:11) Note that the mean field O/ differs from the stationary phase point of the Gaussian integral at order 1=N , namely
+
+O/ = O/s + 1N ffiW
+
+(1)
+
+ffiO/s ffi
+
+ffiO/s
+
+ffiK + O `
+
+1 N 2 ' : (2:12)
+
+When no confusion with the integration variables in (2.5) is possible we shall omit the overline on the mean fields in the following to simplify the notation.
+
+The effective action functional may be defined in terms of the mean fields (2.11) by a Legendre transformation in the usual way,
+
+S[OE; O/] j W \Gamma J ffi OE \Gamma K ffi O/; (2:13)
+
+10
+
+where J and K are to be regarded here as functionals of the mean fields by inverting eqs. (2.11). Performing the inversion to order 1=N , we find
+
+J (x) = G\Gamma 1[O/]OE(x) + iN TrfG(x; ) ffi G ffi OE ffi Dg \Gamma
+
+1 N
+
+ffiW (1)
+
+ffiO/s ffi
+
+ffiO/s ffiJ (x)fififiJ=G
+
+\Gamma 1ffiOE + O `
+
+1
+
+N 2 ' : (2.14)
+
+When this is substituted into (2.13) and account is taken of eqs. (2.8) and (2.12), most of the 1=N terms cancel and we arrive at the relatively simple result,
+
+S[OE; O/] = \Gamma 12 OEffiG\Gamma 1[O/]ffiOE+ 1*O/ffi( O/2 \Gamma _2)+ i2 Tr ln G\Gamma 1[O/]+ i2N Tr ln D\Gamma 1[OE; O/]; (2:15) with
+
+D\Gamma 1[OE; O/](x; y) = \Gamma 1* ffi4(x; y) \Gamma OE(x)G[O/](x; y)OE(y) + i2 G[O/](x; y)G[O/](y; x); (2:16) correct to order 1=N . By differentiating the definition of the mean fields in (2.11) and using the form of the generating functional (2.10) and the stationarity condition (2.8) again, it is easy to check that G[O/] and (1=N )D[OE; O/] are precisely the lowest order connected two-point functions of the fluctuating quantum fields, propagating in background mean fields specified by (OE; O/). In the following the explicit functional dependence of G[O/] and D[OE; O/] on the mean fields will be suppressed, and we adopt the simpler notation G(x; y) and D(x; y) hereafter.
+
+From the explicit factor of 1=N multiplying the two-point function of the O/ field and the last term in the effective action (2.15) it is clear that the fluctuations of the composite O/ field enter the discussion at one higher order of 1=N than the original scalar OE field, whose fluctuations couple to the mean fields already at lowest order through the Tr ln G\Gamma 1 term in the effective action. The fact that O/ is an auxilliary field introduced into the discussion only for convenience and not a true propagating degree of freedom is reflected in the fact that there is no differential kinetic operator appearing in the expression for D\Gamma 1 (unlike in the definition of G\Gamma 1). The O/ field has no independent dynamics of its own, and its fluctuations are determined by those of the OE field. The last term in (2.16), namely
+
+\Pi [O/] j \Gamma i2 G[O/]G[O/] (2:17) is the one loop vacuum polarization of the O/ field due to its interaction with the fluctuating OE field. It is included at the same order as the point vertex 1=* in the large N method because all loops of the OE field are exhanced by a factor of N (for the N identical OE fields) relative to what one would expect in an ordinary perturbative loop expansion. Finally we remark that
+
+\Sigma (x; y) j iG(x; y)D(y; x) (2:18)
+
+11
+
+carries the interpretation of the one loop OE self-energy, as may be seen by calculating the OE inverse propagator function to order 1=N ,
+
+G\Gamma 1[O/] = G\Gamma 1 + 1N \Sigma + O ` 1N 2 ' : (2:19) The functional form of the quantum effective action (2.15) is the starting point for the analysis of the dynamics of the theory in the large N expansion. By differentiatingS
+
+with respect to the mean fields we obtain their equations of motion. In the absence of external sources these read:
+
+(\Gamma 2 + O/(x))OE(x) + 1N Z d4y \Sigma (x; y)OE(y) = 0; (2:20) and
+
+O/(x) = _2+ *2 OE2(x)\Gamma i*2 G(x; x)+ i*2N Z d4x1 Z d4x2 G(x; x1) e\Sigma (x1; x2)G(x; x2) (2:21)
+
+with e
+
+\Sigma (x1; x2) j \Sigma (x1; x2) \Gamma OE(x1)D(x1; x2)OE(x2)
+
+= D(x1; x2)[iG(x1; x2) \Gamma OE(x1)OE(x2)] (2.22)
+
+The equation (2.21) for O/ will be recognized as just the expectation value of the (operator) definition of O/, eq. (2.4) computed to order 1=N .
+
+Since the original Lagrangian (2.1) possesses the symmetry OE ! \Gamma OE, eq. (2.20) is homogeneous in the OE mean field and always admits the solution OE = 0. In this form it is suitable for study of second order phase transitions. If terms breaking the OE ! \Gamma OE discrete symmetry are added (for example by retaining the linear source term J ffi OE), then first order transitions may be studied as well. Both equations for the OE mean field and the O/ mean field contain non-local self-energy effects, and are therefore integro-differential equations. In the case of the auxilliary O/ field the differential term is absent, and eq. (2.21) is an equation of constraint (or gap equation) rather than a true propagating equation of motion for an independent degree of freedom.
+
+In this derivation of the equations of motion for the mean fields from the quantum effective action (2.15) we have encountered the two-point functions G and D. The equations of motion should be solved concurrently with those for the two-point functions obtained by inverting eqs. (2.2) and (2.16) respectively. Since there is no unique inverse of these relations, the question of which propagator function(s) should be chosen presents itself. If the standard Feynman propagator functions are substituted uncritically into eqs. (2.20) and (2.21), we find that the equations are both complex and acausal, in the sense that the integrations in (2.20) and (2.21) have support in regions of spacetime that are spacelike with respect to x. The absence of a
+
+12
+
+well-posed causal initial value problem and the complex valuedness of the field equations both signal that this choice of Feynman boundary conditions for the Green's functions is not the correct one. The reason is that we do not wish to consider offdiagonal houtjini matix elements of field operators but diagonal hinjini expectation values. If the field operators are Hermitian, such diagonal matrix elements must be real. If one's next thought is to try purely retarded propagators in the equations of motion (2.20) and (2.21), the result will be no better. The equations are intrinsically non-linear, so that no one simple choice of particular solutions to the linear equations G\Gamma 1 ffi G = 1 and D\Gamma 1 ffi D = 1 for the propagator functions will yield real, causal equations of motion for the mean fields. This situation is familiar in non-relativistic condensed matter applications, and is the reason that a more complete method for deriving the correct boundary conditions as well as the equations for the mean fields must be introduced. Having pointed out the generic non-local structure of the field equations following from the quantum effective action, we defer the discussion of the Schwinger-Keldysh CTP formalism which is precisely one such method until the next section, preferring first to carry out the derivation of the large N equations of motion in another interesting field theory, quantum electrodynamics.
+
+For QED with N identical charged fermion fields (flavors) we begin with the Lagrangian
+
+L = \Gamma
+
+NX
+
+i=1 Z
+
+d4x \Psi iG\Gamma 1[A]\Psi i \Gamma N4e2 Z d4x F_*F _* (2:23)
+
+where anti-symmetrization with respect to the Dirac field operators \Psi and \Psi is understood and
+
+G\Gamma 1[A] = i fl
+
+_
+
+2 (
+
+!@
+
+_ \Gamma
+
+@
+
+_) + fl_A_ + im : (2:24)
+
+The Dirac matrices here obey
+
+fl_fl* + fl*fl_ = 2g_* = 2 diag(\Gamma ; +; +; +) (2:25)
+
+so that g0 = \Gamma fl0 is anti-hermitian and
+
+\Psi j \Psi yfl0 : (2:26) Introducing external sources for the gauge potential and Dirac fields, we define the generating functional
+
+Z[J; j; j] j exp(iN W [J; K]) j Z [DA_]0
+
+NY
+
+i=1 Z [d\Psi
+
+i][d\Psi i] exp aei Z d4x L[A; \Psi ; \Psi ]oe
+
+\Theta exp niN J ffi A \Gamma j ffi \Psi \Gamma \Psi ffi jo ; (2.27) where the prime on the gauge field integration measure denotes that we should integrate only over distinct gauge invariant configurations (or equivalently, fix the gauge).
+
+13
+
+Performing the Gaussian integration over the anti-commuting Dirac fields, and rescaling the Grassman valued sources j ! pN j so that we can drop the sums over i = 1; : : : ; N as in the previous scalar case, we obtain
+
+Z[J; j; j] = Z [DA_]0 exp aeiN Z d4x 12e2 A_ (g_* 2 \Gamma @_@*) A*oe
+
+\Theta exp nN Tr ln G\Gamma 1 \Gamma N j ffi G[A] ffi j + iN J ffi Ao : (2.28)
+
+As in the previous discussion we have defined the sources and coupling with the correct powers of N to justify performing the remaining functional integration over the electromagnetic potential by the stationary phase method. The stationary phase value As_[J; j; j] is fixed by
+
+1 e2 ( g
+
+_* 2 \Gamma @_@*) As
+
+* (x) = itr fG[A
+
+s](x; x)fl_g+ijffiG[As]( ; x)fl_G[As](x; )ffij\Gamma J _(x)
+
+(2:29) where tr denotes the Dirac matrix trace only (without integration over spacetime coordinates). The second derivative of the exponent in (2.28) at its stationary point is \Gamma iN TrD\Gamma 1 where
+
+D\Gamma 1[J; j; j](x; y)_* = \Gamma 1e2 ( g_* 2 \Gamma @_@*) ffi4(x; y)\Gamma
+
+itr fG(y; x)fl_G(x; y)fl* + 2j ffi G( x)fl_G(x; y)fl* G(y; ) ffi jg (2.30)
+
+and A = As[J; j; j] from the eq. (2.29) and symmetrization with respect to interchange of the pair of spacetime labels (x; _) with (y; *) is understood. Thus, the result of the stationary phase evaluation of (2.27) and (2.28) in the QED case is
+
+W [J; K] = \Gamma As ffi d\Gamma 1 ffi As + J ffi As + ij ffi G[As] ffi j
+
+\Gamma iTr ln G\Gamma 1[As] + i2N Tr ln D\Gamma 1[As]; (2.31)
+
+where order 1=N 2 terms have been dropped, and
+
+d\Gamma 1(x; y)_* j \Gamma 1e2 ( g_* 2 \Gamma @_@*) ffi4(x; y) (2:32) is the differential operator from the classical action.
+
+The mean fields and quantum effective action are defined now by the analogs of eqs. (2.11), and (2.13), after solving for the sources J; j; j in terms of the mean fields. Omitting the details which are quite analogous to the scalar case, the result of this Legendre transformation is simply
+
+S[A] = \Gamma 12 A ffi d\Gamma 1 ffi A \Gamma iTr ln G\Gamma 1[A] + i2N Tr ln D\Gamma 1[A]; (2:33)
+
+14
+
+in the case of zero mean value for the Dirac field. The photon inverse propagator in the last term is given by
+
+D\Gamma 1[A](x; y)_* = (d\Gamma 1 + \Pi [A])(x; y)_* (2:34) with
+
+\Pi [A](x; y)_* j \Gamma itr ffl_G[A](x; y)fl* G[A](y; x)g (2:35)
+
+the polarization tensor in the presence of the mean potential A. The inverse propagator cannot be inverted without fixing a gauge, which may be done by a variety of standard methods. In the case of a non-abelian gauge symmetry, the gauge fixing introduces ghosts which will also contribute to the quantum effective action at order 1=N , and whose contribution is essential to obtaining gauge invariant results. In the abelian QED case the ghosts are independent of the mean potential (i.e., they decouple) and therefore may be omitted from the effective action (2.33). Of course, the non-abelian case is of great interest for describing the non-equilibrium evolution of the quark gluon plasma from first principles of QCD, and will be discussed in detail in a future publication.
+
+The integro-differential equation for the mean potential is obtained by varying the effective action. In this variation will appear
+
+ffi\Pi [A](x1; x2)fffi
+
+ffiA_(x) = itr hfl
+
+ffG(x1; x)fl_G(x; x2)flfiG(x2; x1)i
+
++itr hflffG(x1; x2)flfiG(x2; x)fl_G(x; x1)i ; (2.36) so that the equations of motion for the mean potential read
+
+@* F _*(x) = \Gamma ie2tr ffl_G[A](x; x)g + ie
+
+2
+
+2N Tr (D[A] ffi
+
+ffi\Pi [A] ffiA_(x) ) = \Gamma ie2tr ffl_G(x; x)g
+
++ ie
+
+2
+
+N Z d
+
+4x1 Z d4x2 tr ffl_G(x; x1)\Sigma (x1; x2)G(x2; x)g (2.37)
+
+with
+
+\Sigma (x1; x2) j ifl_G(x1; x2)fl* D*_(x2; x1) (2:38)
+
+the fermion self-energy. The current expectation value to order 1=N is represented pictorially by the graphs in Fig. 1.
+
+To leading order in 1=N the mean field equations are just the semi-classical Maxwell equations, obtained by replacing the electric current operator of the Dirac field by its expectation value. This leading order semi-classical equation already contains the dynamical reaction of e+e\Gamma pairs created by a non-zero electric field (the
+
+15
+
++
+
+xx 1N
+
+Figure 1: First two graphs in the 1=N expansion contributing to the induced current that governs the back reaction on the electric field.
+
+Schwinger mechanism) back on the electric field itself, and has been studied in previous publications [10]. However, at leading order in 1=N the created pairs can interact only through the mean field, not directly with each other. The order 1=N term with the fermion self-energy \Sigma contains the quantum Compton scattering, bremmstrahlung and Coulomb interaction effects of these particles on each other and their backreaction on the self-consistent mean field. Clearly these processes are essential mechanisms for the approach to equilibrium and must be included in any realistic transport theory of a relativistic e+e\Gamma plasma. Higher order processes (such as multiple scattering) can be included by working to higher orders in the 1=N expansion in a straightforward way.
+
+Having derived the integro-differential equations for the mean fields in both scalar *\Phi 4 theory and electrodynamics to order 1=N , we turn now to the Schwinger-Keldysh closed time path formulation of the effective action, in order to determine the correct propagator functions needed to obtain a causal (and real) solution to these equations.
+
+3 The Schwinger-Keldysh Closed Time Path Formalism
+
+The conventional path integral formalism used freely in the preceeding section defines transition elements between states at one time, t (usually taken to be in the infinite past) to states at another time t0 (in the distant future). If the class of paths is restricted to be the vacuum configuration at both of its endpoints, then the two states are the jini and houtj vacuum states of scattering theory respectively. The functional Z[J; K] of eq. (2.5) is the transition matrix element
+
+Z[J; K](t; t0) = hout; t0jin; tiJ;K (3:1) in the presence of the external sources J and K.
+
+By varying with respect to the external sources we obtain matrix elements of the
+
+16
+
+Heisenberg field operators between the jini and houtj states. For this reason we may refer to the conventional formulation of the generating functional Z as the "in-out" formalism. The time-ordered Green's functions obtained in this way necessarily obey Feynman boundary conditions, and these are the appropriate ones for the calculation of transition probabilities and cross sections between the jini and houtj states. On the other hand the off-diagonal transition matrix elements of the in-out formalism are completely inappropriate if what we wish to consider is the time evolution of physical observables from a given set of initial conditions. As we have remarked the in-out matrix elements are neither real, nor are their equations of motion causal at first order in 1=N , where direct self interactions between the fields appear for the first time. What we require is a generating functional for diagonal matrix elements of field operators with a corresponding modification of the Feynman boundary conditions on Green's functions to ensure causal time evolution. This "in-in" formalism was developed more than thirty years ago by Schwinger and later by Keldysh, and is called the closed time path (CTP) method [12].
+
+The basic idea of the CTP formalism is to take a diagonal matrix element of the system at a given time t = 0 and insert a complete set of states into this matrix element at a different (later) time t0. In this way one can express the original fixed time matrix element as a product of transition matrix elements from 0 to t0 and the time reversed (complex conjugate) matrix element from t0 to 0. Since each term in this product is a transition matrix element of the usual or time reversed kind, standard path integral representations for each may be introduced. If the same external source operates in the forward evolution as the backward one, then the two matrix elements are precisely complex conjugates of each other, all dependence on the source drops out and nothing has been gained. However, if the forward time evolution takes place in the presence of one source J+ but the reversed time evolution takes place in the presence of a different source J\Gamma , then the resulting functional is precisely the generating functional we seek. Indeed (setting K = 0 and N = 1 here for simplicity),
+
+Zin[J+; J\Gamma ] j Z [D\Psi ]hinjiJ\Gamma hjiniJ+
+
+= Z [D\Psi ]hinjT \Lambda exp "\Gamma i Z
+
+t0
+
+0 dtd
+
+3~xJ\Gamma (x)OE(x)# j\Psi ; t0i
+
+\Theta h\Psi ; t0jT exp "i Z
+
+t0
+
+0 dtd
+
+3~xJ+(x)OE(x)# jini (3.2)
+
+so that, for example,
+
+ffiWin[J+; J\Gamma ]
+
+ffiJ+(x) fifififiJ+=J\Gamma 0 = \Gamma
+
+ffiWin[J+; J\Gamma ]
+
+ffiJ\Gamma (x) fifififiJ+=J\Gamma =0 = hinjOE(x)jini (3:3)
+
+17
+
+c+
+
+-
+
+t ><c c
+
+Figure 2: Complex time contour C for the closed time path propagators. is a true field expectation value in the given time-independent Heisenberg state jini. Since the time ordering in eq. (3.2) is forward (denoted by T ) along the time path from 0 to t0 in the second transition matrix element, but backward (denoted by T \Lambda ) along the path from t0 to 0 in the first matrix element, this generating functional receives the name of the closed time path generating functional. If we deform the backward and forward directed segments of the path slightly in opposite directions in the complex t plane, the symbol TC may be introduced for path ordering along the full closed time contour, C depicted in Fig. 2.
+
+This deformation of the path corresponds precisely to opposite iffl prescriptions along the forward and backward directed segments, which we shall denote by C\Sigma respectively in the following.
+
+The doubling of sources, fields and integration contours in the CTP formalism may seem artificial, but in fact it appears naturally as soon as one discusses the time evolution not of states in Hilbert space but of density matrices. Then it is clear that whereas j i ket states evolve with Hamiltonian H, the conjugate h j bra states evolve with \Gamma H, and the evolution of the density matrix requires both. Hence a doubling of all sources and fields in the functional integral representation of its time evolution kernel is necessary. Indeed, it is easy to generalize the functional in (3.2) to the case of an arbitrary initial density matrix ae, by defining
+
+Z [J+; J\Gamma ; ae] j Tr (ae T \Lambda exp "\Gamma i Z
+
+t0
+
+0 dtd
+
+3~xJ\Gamma (x)OE(x)#!
+
+\Theta T exp "i Z
+
+t0
+
+0 dtd
+
+3~xJ+(x)OE(x)#!)
+
+= Z [D'][D'0][D] h'jaej'0 i h'0jT \Lambda exp "\Gamma i Z
+
+t0
+
+0 dtd
+
+3~xJ\Gamma (x)OE(x)# ji
+
+\Theta hjT exp "i Z
+
+t0
+
+0 dtd
+
+3~xJ+(x)OE(x)# j'i : (3.4)
+
+18
+
+Variations of this generating function will yield Green's functions in the state specified by the initial density matrix, i.e., expressions of the form,
+
+TrfaeOE(x1)OE(x2)OE(x3):::g: (3:5) Introducing the path integral representation for each transition matrix element in eq. (3.4) results in the expression,
+
+Z [J+; J\Gamma ; ae] = Z [D'][D'0] h'jaej'0i Z [D] Z
+
+
+
+' [DOE+] Z
+
+'0 [DOE\Gamma ] \Theta exp ^i Z
+
+1
+
+0 dtd
+
+3~x ( L[OE+] \Gamma L[OE\Gamma ] + J+OE+ \Gamma J\Gamma OE\Gamma )* ;
+
+(3.6) where L is the classical Lagrangian functional, and we have taken the arbitrary future time at which the time path closes t0 ! 1.
+
+The double path integral over the fields OE+ and OE\Gamma in (3.6) suggests that we introduce a two component contravariant vector of field variables by
+
+OEa = 0@ OE+OE
+
+\Gamma 1A ; a = 1; 2 (3.7)
+
+with a corresponding two component source vector,
+
+J a = 0@ J+J
+
+\Gamma 1A ; a = 1; 2 : (3.8)
+
+Because of the minus signs in the exponent of (3.6), it is necessary to raise and lower indices in this vector space with a 2 \Theta 2 matrix with indefinite signature, namely
+
+cab = diag (+1; \Gamma 1) = cab (3:9) so that, for example
+
+J acab\Phi b = J+OE+ \Gamma J\Gamma OE\Gamma : (3:10)
+
+These definitions imply that the correlation functions of the theory will exhibit a matrix structure in the 2 \Theta 2 space. For instance, the matrix of connected two point functions in the CTP space is
+
+Gab(x; y) = ffi
+
+2W
+
+ffiJa(x)ffiJb(y) fifififiJ=0 : (3:11) Explicitly, the components of this 2 \Theta 2 matrix are
+
+G21(x; y) j G?(x; y) = iTrfae \Phi (x)\Phi (y)gcon ; G12(x; y) j G!(x; y) = \Sigma iTrfae \Phi (y)\Phi (x)gcon; (3.12) G11(x; y) = iTr nae T [\Phi (x)\Phi (y)]ocon = `(x; y)G?(x; y) + `(y; x)G!(x; y); G22(x; y) = iTr nae T \Lambda [\Phi (x)\Phi (y)]ocon = `(y; x)G?(x; y) + `(x; y)G!(x; y);
+
+19
+
+where the \Sigma refers to Bose or Fermi fields respectively, and \Phi j \Phi y for bosons but \Psi j \Psi yfl0 for Dirac fermions. Notice that G?(x; y) = G!(x; y) if x and y are spacelike, and therefore
+
+G11(x; y) = G22(x; y) for (x; y) spacelike: (3:13)
+
+and in particular on the spacelike surface tx = ty. This will be fully consistent with the expressions for time ordered and anti-time ordered propagator functions in (3.13), provided we extend the usual definition of the discontinuous ` function so that
+
+`(t; t0) + `(t0; t) = 1 for all t; t0 (3:14) so that in particular,
+
+`(t; t) = 12 : (3:15)
+
+The 2 \Theta 2 matrix notation has been discussed extensively in the literature [12]. However, the development of the CTP formalism is cleaner, both conceptually and notationally, by returning to the definition of the generating functional (3.4), and using the composition rule for transition amplitudes along the closed time contour in the complex plane. Then we may dispense with the 2 \Theta 2 matrix notation altogether, and write simplyZ
+
+[D]h'0jT \Lambda exp ^\Gamma i Z
+
+1
+
+0 dtd
+
+3~x J\Gamma (x)OE(x)* jihjT exp ^i Z 1
+
+0 dtd
+
+3~x J+(x)OE(x)* j'i
+
+= h'0jTC exp ^i Z
+
+C dtd
+
+3~x J (x)OE(x)* j'i (3:16)
+
+so that (3.4) may be rewritten more concisely in the CTP complex path ordered form,
+
+ZC [J; ae] = Tr aeae `TC exp ^i Z
+
+C dtd
+
+3~xJ (x)OE(x)*'oe
+
+= Z [D'1] Z [D'2] h'1jaej'2 i Z
+
+'2
+
+'1 [DOE] exp ^i ZC dtd
+
+3~x (L[OE] + J OE)* :
+
+(3.17) The advantage of this form is that it is identical in structure to the usual expression for the generating functional in the more familiar in-out formalism, with the only difference of path ordering according to the complex time contour C replacing the ordinary time ordering prescription along only C+. Hence, all the functional formalism of the previous section may be taken over line for line, with only this modification of complex path ordering in the time integrations. For example, the propagator function becomes
+
+G(x; y) = `C(tx; ty)G?(x; y) + `C(ty; tx)G!(x; y)j
+
+`C(tx; ty)G21(x; y) + `C(ty; tx)G12(x; y) (3.18)
+
+20
+
+where `C is the CTP complex contour ordered theta function defined by
+
+`C(t; t0) j 8?????!?????:
+
+`(t; t0) for t; t0 both on C+ `(t0; t) for t; t0 both on C\Gamma 1 for t on C\Gamma , t0 on C+ 0 for t on C+ , t0 on C\Gamma
+
+(3.19)
+
+With this definition of G(x; y) on the closed time contour, the Feynman rules are the ordinary ones, and matrix indices are not required. In integrating over the second half of the contour C\Gamma we have only to remember to multiply by an overall negative sign to take account of the opposite direction of integration, according to the rule,Z
+
+C dt = Z
+
+1 0 C+ dt \Gamma Z
+
+1 0 C\Gamma dt : (3:20) A second simplification is possible in the form of the generating functional of (3.17), if we recognize that it is always possible to express the matrix elements of the density matrix as an exponential of a polynomial in the fields [5]:
+
+h'1jaej'2 i = exp ^R + Z d3~x Ra(~x)'a(~x) + Z d3~xd3~y Rab(~x; ~y)'a(~x)'b(~y) + : : :* :
+
+(3:21) Since any density matrix can be expressed in this form, there is no loss of generality involved in expressing ae as an exponential. If we add this exponent to that of the action in (3.17), and integrate over the two endpoints of the closed time path '1 and '2, then the only effect of the non-trivial density matrix ae is to introduce source terms into the path integral for ZC[J; ae] with support only at the endpoints. This means that the density matrix can only influence the boundary conditions on the path integral at t = 0, where the various coefficient functions Ra, Rab, etc. have the simple interpretations of initial conditions on the one-point (mean field), two-point (propagator), functions etc. It is clear that the equations of motion for t 6= 0 are not influenced by the presence of these terms at t = 0. In the special case that the initial density matrix describes a thermal state, aefi = expf\Gamma fiHg then the trace over aefi may be represented as an additional functional integration over fields along the purely imaginary contour from t = \Gamma ifi to t = 0 traversed before C\Gamma in Fig. 2. In this way the Feynman rules for real time thermal Green's functions are obtained [13]. Since we consider general nonequilibrium initial conditions here we have only the general expression for the initial ae above and no contour along the negative imaginary axis in Fig. 2.
+
+To summarize, we may take over all the results of the previous section on the generating functionals, effective actions, and equations of motion of scalar \Phi 4 theory and QED, provided only that we
+
+21
+
+1. substitute the CTP path ordered Green's function(s) (3.18) for the ordinary
+
+Feynman propagators in internal lines;
+
+2. integrate over the full closed time contour, C, according to (3.20); and 3. satisfy the conditions at t = 0 corresponding to the initial density matrix ae.
+
+4 Causal Evolution Equations in \Phi 4 Theory and
+
+QED
+
+To show that these three modifications of ordinary in-out formalism do lead to a wellposed initial value problem for quantum field theory with real and causal equations of motion for the mean fields and their Green's functions, let us reconsider eqs. (2.20) and (2.21), Section 2. First, the self-energy has the CTP ordered form,
+
+\Sigma (x; y) = i`C(tx; ty)G?(x; y)D?(x; y) + i`C(ty; tx)G!(x; y)D!(x; y) (4:1) since both G(x; y) and D(x; y) have this form separately. Using the rule (3.20) for the time contour integration, we haveZ
+
+C dty\Sigma (x; y)OE(y) = i Z
+
+tx 0 dty G?(x; y)D?(x; y)OE(y) + i Z
+
+1 tx dty G!(x; y)D!(x; y)OE(y)\Gamma i Z
+
+1
+
+0 dty G!(x; y)D!(x; y)OE(y) = i Z
+
+tx
+
+0 dty [G?(x; y)D?(x; y) \Gamma G!(x; y)D!(x; y)] OE(y) = \Gamma 2 Z
+
+tx
+
+0 dty Im [G?(x; y)D?(x; y)] OE(y) (4.2) The minus sign in the second line is because ty is on the second branch of the contour, and the fact that
+
+[G?(x; y)]\Lambda = \Gamma G!(x; y) [D?(x; y)]\Lambda = \Gamma D!(x; y) (4.3)
+
+for real boson fields has been used. Therefore, the equation of motion for the mean field, (2.20), is
+
+(\Gamma 2 + O/(x))OE(x) \Gamma 2N Z
+
+tx
+
+0 dtyd
+
+3~y Im [G?(x; y)D?(x; y)] OE(y) = 0 : (4:4)
+
+This equation is now explicitly both real and causal. Furthermore, it is not difficult to see that the cancellation of the acausal parts of the integration (when ty ? tx here)
+
+22
+
+is completely general in the CTP method, since every internal vertex requires a time integration over the full path C, and equal and opposite contributions will always come from the portions of the integration on C+ and C\Gamma with ty ? tx. One simply decomposes the time integration for each internal vertex ti into three segments, viz.,
+
+(i) 0 ! ti ! t; on C+ (ii) t ! ti ! 1; on C+ (iii) 0 ! ti ! 1; on C\Gamma (4.5)
+
+uses the definitions (3.18), (3.19), (3.20), and collects the non-cancelling terms. In this way we find that the 1=N term appearing in the eq. (2.21) for the O/ mean field reduces to
+
+i Z
+
+C dt1 ZC dt2G(t; t2)G(t1; t) e\Sigma (t1; t2) = i Z
+
+t 0 dt1 Z
+
+t 0 dt2nG?(t; t2)G!(t1; t) e\Sigma (t1; t2)\Gamma G!(t; t2)G!(t1; t) e\Sigma !(t1; t2)\Gamma
+
+G?(t; t2)G?(t1; t) e\Sigma ?(t1; t2)\Gamma G!(t; t2)G?(t1; t) e\Sigma \Lambda (t1; t2)o; (4.6)
+
+where the last term is anti-time ordered since t1 and t2 are both on C\Gamma , and all spatial dependences have been suppressed. By now expanding in the possible orderings of t1 and t2, interchanging integration variables, and using
+
+[G?;!(x; y)]\Lambda = \Gamma G?;!(y; x) [D?;!(x; y)]\Lambda = \Gamma D?;!(y; x) (4.7)
+
+which is true for real or complex Bose fields, we can write (4.6) in the form,
+
+2 Im Z
+
+t
+
+0 dt1 Z
+
+t1 0 dt2hG?(t1; t) \Gamma G!(t1; t)ihG?(t; t2) e\Sigma ?(t1; t2) \Gamma G!(t; t2) e\Sigma !(t1; t2)i(4:8)
+
+which is manifestly real and causal. It is easy to see that this result is identical to that obtained in the matrix notation from
+
+i Z
+
+t
+
+0 dt1 Z
+
+t 0 dt2 G
+
+1b(t; t2)Ga1(t1; t) e\Sigma ab(t1; t2) (4:9)
+
+provided indices are raised and lowered with the indefinite metric cab defined in eq. (3.9). Since the causality and reality of the equations are assured on general grounds, the result of any calculation is obtained most rapidly by proceeding to this matrix form directly.
+
+The effective Feynman rules for the CTP method in the large N expansion may be summarized then as follows. Derive the effective action and equations of motion for
+
+23
+
+the mean fields and propagator functions to a given order in 1=N in the usual in-out formalism, as in the previous section. In the corresponding graphical representation of these equations, replace the propagators with the 2 \Theta 2 matrix propagator of the CTP method, raising and lowering all contracted indices at internal vertices with the metric cab, and fixing the "external" vertex of the mean field(s) to be of type 1. After all time orderings have been taken into account only the Wightman functions such as G? = G21 or G! = G12 will appear in the equations, which can be solved for concurrently with the corresponding mean fields in a well-posed real and causal intitial value problem.
+
+For the \Phi 4 theory we have gone through the CTP procedure in some detail using the above manipulations. The final result for the equation of the OE mean field has been given already by (4.4). The corresponding causal O/ equation (2.21) is
+
+O/(x) = _2 + *2 OE2(x) \Gamma i*4 [G?(x; x) + G!(x; x)]
+
++ *N Im Z
+
+t
+
+0 dt1d
+
+3~x1 Z t1
+
+0 dt2d
+
+3~x2 [G?(x; x1) \Gamma G!(x; x1)]
+
+\Theta h e\Sigma !(x1; x2)G?(x2; x) \Gamma e\Sigma ?(x1; x2) \Gamma G!(x2; x)i ; (4.10) with e\Sigma given by eq. (2.22) of the previous section.
+
+Concurrently with the mean field equations we must solve for the two-point functions G and D. If both have the causal form of (3.18) in the path ordered notation, then the Wightman functions G?;! satisfy the homogeneous equations,
+
+(\Gamma 2 + O/(x)) G?;!(x; x0) = 0 ; (4:11) together with the initial conditions following from the initial density matrix ae as specified by eqs. (3.13). Because of the canonical equal time commutation relations the initial conditions on the first derivatives of G?;! must satisfy the constraint,
+
+d dtx [G?(x; y) \Gamma G!(x; y)]tx=ty = ffi
+
+3(~x \Gamma ~y) (4:12)
+
+which guarantees that the inhomogeneous equation G\Gamma 1 ffi G = 1 is satisfied by (3.18). There is no corresponding derivative condition for the D propagator function since the operator D\Gamma 1 of (2.16) does not contain any time derivatives. Instead, the function D satisfies the inhomogeneous integral equation,
+
+ffi4(x; y) = \Gamma 1* D(x; y) \Gamma Z
+
+C d
+
+4x1 e\Pi (x; x1)D(x1; y) (4:13)
+
+with e
+
+\Pi (x; y) j \Pi (x; y) + OE(x)G(x; y)OE(y)
+
+= G(x; y)h \Gamma i2 G(y; x) + OE(x)OE(y)i : (4.14)
+
+24
+
+The only way to satisfy the inhomogeneous equation (4.13) is for the D?;! functions themselves to contain a ffi function term. This is simply a consequence of the fact that the O/ field defined by eq. (2.4) is an auxilliary field, purely constrained in terms of OE by its definition with no conjugate momentum or independent dynamics of its own. Hence we seek a solution of (4.13) of the form,
+
+D?;!(x; y) = \Gamma *ffi4(x; y) + fD?;!(x; y) (4:15) with fD?;! smooth functions satisfyingf
+
+D!;?(x; y) = *2 e\Pi !;?(x; y) \Gamma * Z
+
+tx
+
+0 d
+
+4x1[ e\Pi ?(x; x1) \Gamma e\Pi ?(x; x1)]D!;?(x1; x)
+
++ * Z
+
+ty
+
+0 d
+
+4x1 e\Pi !;?(x; x1)[fD?(x1; y) \Gamma fD!(x1; y)] : (4.16)
+
+Evidently the functions fD?;! are determined completely by the initial conditions and causal evolution of the OE field and its propagator functions G?;!, consistent with O/ being a fully constrained field with no independent dynamics.
+
+This completes the derivation of the causal equations of motion for the initial value problem of nonequilibrium \Phi 4 theory to order 1=N . The derivation of the corresponding equations for nonequilibrium electrodynamics proceeds in an exactly analogous manner with the only difference that the relation
+
+[G?;!(x; y)]\Lambda = \Gamma fl0G?;!(y; x)fl0 (4:17) for complex Dirac fields replaces the first member of (4.7). The result is that the causal Maxwell equations of motion take the form,
+
+@*F _*(x) = hj_(x)i = \Gamma ie
+
+2
+
+2 tr ffl
+
+_[G?(x; x) + G!(x; x)]g
+
++ 2e
+
+2
+
+N Z
+
+t 0 dt1d
+
+3~x1 Z t1
+
+0 dt2d
+
+3~x2Imtraefl_ [G?(x; x1) \Gamma G!(x; x1)]
+
+\Theta [\Sigma !(x1; x2)G?(x2; x) \Gamma \Sigma ?(x1; x2)G!(x2; x)] oe : (4.18) The Wightman functions for the Dirac field satisfy
+
+(fl_@_ \Gamma ifl_A_ + m) j (fl_r_ + m)G?;!(x; y) = 0; (4:19) together with the initial conditions implied by the first two members of eqs. (3.13), which satisfy the canonical equal time anticommutator condition,
+
+\Gamma i [G?(x; y) \Gamma G!(x; y)]tx=ty = Tr nae[\Psi (x); \Psi (y)]+ot
+
+x=ty = fl
+
+0ffi3(~x \Gamma ~y) ; (4:20)
+
+appropriate for Fermi-Dirac statistics.
+
+25
+
+For a complete initial value problem to order 1=N , one needs also the two-point function of the Maxwell field obtained by inverting (2.34) subject to some gauge condition. The simplest way to impose the gauge condition is to treat it in a way similar to the constraint of the *\Phi 4 theory, i.e., we write
+
+D_* (x; y) = e2d_* (x; y) + fD_* (x; y) (4:21) with d_* the inverse of the differential operator (2.32) of the free action in a definite gauge. The gauge fixing can be performed at the level of the free photon propagator once and for all, independently of the dynamical time evolution problem, and the non-trivial time evolution is contained entirely in fD_* , which obeysi
+
+g_*2 \Gamma @_@*j fD** (x; y) = e2 Z
+
+C d
+
+4x1\Pi _*(x; x1) ie2d** (x1; y) + fD**(x1; y)j :
+
+(4:22) Writing the propagator in terms of its time ordered structure along the contour C as in eq. (3.18) we obtaini
+
+g_*2 \Gamma @_@*j fD?;!** (x; y) = \Gamma e2 Z
+
+ty
+
+0 d
+
+4x1 \Pi _*
+
+?;!(x; x1) he2d
+
+? **(x1; y) + fD
+
+? ** (x1; y) \Gamma e2d
+
+! **(x1; y) \Gamma fD
+
+! ** (x1; y)i
+
++e2 Z
+
+tx
+
+0 d
+
+4x1 h\Pi _*
+
+? (x; x1) \Gamma \Pi
+
+_* ! (x; x1)i he2d
+
+?;! ** (x1; y) + fD
+
+?;! ** (x1; y)i ; (4.23)
+
+which is explicitly causal. We remark that a particularly useful gauge choice for practical implementation of the initial value problem on a computer is the Coulomb gauge, which has the advantage of clearly isolating the physical transverse modes of the photon and allowing the longitudinal and gauge modes to be eliminated from the evolution problem, thereby making most efficient use of computer memory. In the Coulomb gauge the propagator and each of its pieces satisfies
+
+@mDm* = @mdm* = @mfDm* = 0 : (4:24) The Coulomb gauge condition substituted into (4.23) allows one to solve for the time components of the propagator fDt* explicitly in terms of the other components since there are no propagating timelike photons in this physical radiation gauge.
+
+In cases of special symmetry, such as spatially homogeneous mean fields, considerable simplification of the equations of motion occur. In the scalar field case let O/ = O/(t) and OE = OE(t) be functions only of time. Then the Wightman functions may
+
+be expressed as the Fourier transform,
+
+G?(t; x; t0; x0) = \Gamma G\Lambda !(t; x; t0; x0) = Z [dk]eik\Delta (x\Gamma x
+
+0)G
+
+?(t; t0; k) (4:25)
+
+26
+
+with
+
+[dk] j d
+
+3k
+
+(2ss)3 (4:26) and G? a function only of k j jkj. Introducing the Fourier mode functions fk(t) satisfying "
+
+d2
+
+dt2 + k
+
+2 + O/(t)# fk(t) = 0 (4:27)
+
+and normalized by the Wronskian condition,
+
+fk df
+
+\Lambda k
+
+dt \Gamma f
+
+\Lambda k df
+
+k
+
+dt = i (4:28)
+
+we may express the Wightman function in the form,
+
+G?(t; t0; k) = ifk(t)f \Lambda k (t0)(N (k) + 1) + if \Lambda k (t)fk(t0)N (k) + 2iRe ifk(t)fk(t0)F (k)j
+
+(4:29) where N (k) and F (k) carry the interpretation of particle number and correlated pair density in the general spatially homogeneous initial state:
+
+Triaeaykak0j = (2ss)3ffi3(k \Gamma k0)N (k) Triaeakak0j = (2ss)3ffi3(k + k0)F (k) : (4.30)
+
+By likewise Fourier transforming the D propagator, the field equations for the spatially homogeneous case may be expressed in the final form,
+
+d2 dt2 + O/(t)! OE(t) =
+
+1 ss2N Z
+
+t 0 dt
+
+0 Z 1
+
+0 k
+
+2dk Im [G?(t; t0; k)D?(t; t0; k)] OE(t0) ; (4:31)
+
+O/(t) = _2 + *2 OE2(t) + *4ss2 Z
+
+1
+
+0 k
+
+2dk Im G?(t; t; k) + (4.32)
+
+2* ss2N Z
+
+t 0 dt1 Z
+
+t1 0 dt2 Z
+
+1 0 k
+
+2dk Re hG?(t; t1; k)iIm h e\Sigma ?(t1; t2; k)G?(t2; t; k)i ;
+
+fD?(t; t0; k) = *2 e\Pi ?(t; t0; k) + 2* Z t
+
+0
+
+0 dt1 e\Pi ?(t; t1; k)Re fD?(t1; t
+
+0; k)
+
+\Gamma 2* Z
+
+t
+
+0 dt1 hRe e\Pi ?(t; t1; k)i fD?(t1; t
+
+0; k) (4.33)
+
+with e
+
+\Pi ?(t; t0; k) = OE(t)G?(t; t0; k)OE(t0) \Gamma i2 Z [dq]G?(t; t0; q)G?(t0; t; jk \Gamma qj)e
+
+\Sigma ?(t; t0; k) = \Gamma OE(t)fD?(t; t0; k)OE(t0) + i Z [dq]G?(t; t0; q)fD?(t; t0; jk \Gamma qj)
+
+(4.34) 27
+
+and eqs. (4.27)-(4.29) above. All the equations have been expressed in terms of the G? and fD? functions by using the relations (4.3) and (4.7).
+
+The result of our derivation is a well-defined initial value problem posed by the closed set of causal equations of motion and initial data, (4.27)-(4.34), corresponding to the mean fields and their fluctuations evolving forward in time from a specified spatially homogeneous initial density matrix. These equations are now suitable for numerical solution, provided the ultraviolet divergences in the momentum integrations are absorbed into renormalized parameters of the theory in the usual way. It is to this technical issue of the renormalization procedure that we turn next.
+
+5 Renormalization and Energy-Momentum Tensor
+
+To lowest order in 1=N (which includes the time dependent Hartree-Fock or Gaussian approximation) a convenient approach to the identification and removal of ultraviolet divergences in the evolution equations is the adiabatic method. This method is based on the fact that the large momentum behavior of the mode functions satisfying the differential eq. (4.27) is determined by an asymptotic expansion in derivatives of the time dependent frequency qk2 + O/(t). The divergences in the currents appearing in the mean field equations for O/(t) or A_(t) are contained in the first few terms of this adiabatic expansion for the mode functions, and coincide with the divergences of the manifestly covariant in-out formalism. Hence they are removed by the same countertems as in the covariant approach.
+
+At next order in 1=N the structure of the integro-differential equations for the mean fields is considerably more complicated, and the adiabatic method for identifying and explicitly removing the ultraviolet divergences appears to be quite unwieldy. In solving the evolution equations numerically, an ultraviolet (and infrared) cut-off is always present. There is no real need to remove the explicit cut-off dependence appearing in intermediate quantities, provided only that physical results are cut-off independent in the end. If all bare quantities are taken to depend on the explicit ultraviolet momentum cut-off and the renormalized parameters of the theory in the same way as in the usual covariant treatment, then the results for the physical time evolution of the system should be insensitive to the the cut-off in the final analysis. This insensitivity of the solution to the cut-off may be checked empirically by changing the cut-off and evolving the equations again with the same initial data. That is, we increase the cut-off and rescale the bare parameters keeping the renormalized parameters fixed until the evolution is insensitive to the cut-off. On the order of several
+
+28
+
+thousand field modes are typically required to approach this regime of insensitivity to the cut-off.
+
+To illustrate the practicality of this method consider the simplified case of spatially homogeneous mean fields in the lowest order of the 1=N expansion. The scalar \Phi 4 equations read in this case simply,"
+
+d2 dt2 + O/(t)# OE(t) = 0;
+
+O/(t) = _2 + *\Lambda 2 OE2(t) + *\Lambda 4ss2 Im Z
+
+\Lambda
+
+0 k
+
+2dk G?(t; t; k); (5.1)
+
+with G?(t; t; k) given in terms of the mode functions fk(t) by eqs. (4.27)-(4.29), and the dependence of the bare coupling upon the momentum cut-off is recorded explicitly. The O/ equation contains a quadratic divergence in the momentum integration as the cut-off \Lambda ! 1, which is independent of time and must be compensated by a counterterm in the bare mass parameter _2. This quadratic divergence may be removed by the simple device of expressing O/(t) in terms of its finite initial condition at t = 0, i.e.,
+
+O/(t) = O/(0) + *\Lambda 2 iOE2(t) \Gamma OE2(0)j + *\Lambda 4ss2 Z
+
+\Lambda
+
+0 k
+
+2dk Im fG?(t; t; k) \Gamma G?(0; 0; k)g :
+
+(5:2) The integration over k still leads to a logarithmic dependence on the cut-off for large \Lambda , but this is precisely compensated by the \Lambda dependence of the bare coupling according to the usual renormalization framework, viz.,
+
+*\Lambda = Z\Gamma 1* (\Lambda ; m) *R(m2) (5:3) with
+
+Z*(\Lambda ; m) = 1 \Gamma 116ss2 *R(m2) ln ` \Lambda m ' = ^1 + 116ss2 *\Lambda ln ` \Lambda m '*
+
+\Gamma 1
+
+(5:4)
+
+and *R(m2) the renormalized quartic coupling defined at some finite mass scale m2. Indeed, by dividing both sides of (5.2) by *\Lambda and using eqs. (5.3) and (5.4), it is straightforward to verify that the logarithmic dependence on \Lambda of the integral in (5.2) is cancelled by the logarithm in (5.4), so that the resulting equation for O/(t) is independent of \Lambda for \Lambda large (provided Z* ? 0). Since there is no OE (wavefunction) renormalization at lowest order in 1=N these simple steps are all that are required to arrive at cut-off independent evolution equations for the scalar theory at this order. Notice, in particular, that no adiabatic expansion of mode functions to isolate divergences is necessary in this approach. Such an expansion is useful only for verifying explicitly the cancellation of the cut-off dependence in (5.2) which must occur in any case.
+
+29
+
+In QED the Maxwell equation for the homogeneous mean electric field in the gauge A0 = 0 and Ai = ffiizA(t) at lowest order in 1=N becomes simply
+
+d2 dt2 A(t) = e
+
+2\Lambda Tr (aejz(t)) = \Gamma ie2\Lambda
+
+2 Z [dk]tr f[G?(t; t; k) + G!(t; t; k)] fl
+
+zg : (5:5)
+
+The Wightman functions G?;! may be expressed in terms of spinor mode functions obeying "
+
+i ddt \Gamma ff \Delta (k \Gamma A) \Gamma fim# 0@ uks(t)v
+
+ks(t) 1A = 0 (5:6)
+
+through
+
+G?;!(t; t0; k) = 8!: i Ps uks(t)uks(t
+
+0)
+
+\Gamma i Ps vks(t)vks(t0) +\Gamma i X
+
+s N (ks) (u
+
+ks(t)uks(t0) \Gamma vks(t)vks(t0))
+
++i X
+
+s (F (ks)u
+
+ks(t)vks(t0) + F \Lambda (ks)vks(t)uks(t0)) (5.7)
+
+respectively, where N and F are the mean number of particle pair and correlation densities in the initial state, and s = 1; 2 labels the spin. By assumption, N and F fall off faster than jkj\Gamma 4 for large jkj, so that the only divergence on the right side of eq. (5.5) comes from the N = F = 0 (vacuum) contribution, viz.,
+
+e2\Lambda h0jjz (t)j0i = e
+
+2\Lambda
+
+2 Z [dk] Xs fuks(t)fl
+
+zu
+
+ks(t) \Gamma vks(t)flzvks(t)g : (5:8)
+
+A naive cubic divergence in this expression is cancelled between the two charge conjugated spinors u and v. There remains only the logarithmic cut-off dependence related to charge renormalization. Let
+
+e2\Lambda = Z\Gamma 1e (\Lambda ; m) e2R(m2) (5:9) with
+
+Ze(\Lambda ; m) = 1 \Gamma 16ss2 e2R(m2) ln ` \Lambda m ' = ^1 + 16ss2 e2\Lambda ln ` \Lambda m'*
+
+\Gamma 1
+
+(5:10)
+
+which is the usual covariant charge renormalization of QED to this order. By dividing both sides of the Maxwell equation of motion, (5.5) by e2\Lambda and using the relations (5.9) and (5.10) it is straightforward to check that the logarithmic cut-off dependence of the current expectation value is precisely cancelled by the logarithmic \Lambda dependence of (5.10). Numerical results demonstrating the cut-off independence of the final result for the time evolution are presented in Figs. 3. The adiabatic expansion of mode functions previously employed in Refs. [9][10][18] is therefore quite unnecessary.
+
+30
+
+-15 -10
+
+-5
+
+0 5 10 15 20
+
+0 1 2 3 4 5 6 7 8 9 10 E
+
+t Figure 3: (a) Unrenormalized time evolution of the electric field in lowest order in 1=N for fixed initial conditions and fixed bare charge (e2 = 50) but different values of the cutoff. The electric field is scaled by the critical field (E ! eE=m2), and the time and cutoff are scaled by the mass (the cutoff is given in units of m while time is measured in units of m\Gamma 1). The solid, dashed, and dotted lines correspond to cutoffs of 64, 48, and 32, respectively.
+
+-10
+
+-5
+
+0 5 10 15 20
+
+0 1 2 3 4 5 6 7 8 9 10 E
+
+t Figure 3: (b) Same evolution as (a) but with fixed renormalized charge (e2R = 50), i.e., with the bare charge rescaled with cutoff according to equations (5.9) and (5.10). All three evolutions now fall on top of each other. Corresponding to the cutoff values of 64, 48, and 32, the values of Ze are :12, :18, and :26, respectively.31
+
+Figure 4: Born Diagram for O/ exchange which defines the renormalized quartic coupling *R in the 1=N resummed \Phi 4 field theory.
+
+The same strategy may be followed at any order of the 1=N expansion provided that the \Lambda dependence of the bare couplings are known to the same order in the covariant treatment. This is an enormous technical simplification over standard adiabatic expansion methods for removing the cut-off dependence explicitly.
+
+In *\Phi 4 theory the general renormalization algorithm beyond lowest order requires knowledge of the OE2O/ vertex and OE-wavefunction renormalization constants Z1 and Z2 respectively, as well as the coupling renormalization Z*. The first two of these are defined in terms of the effective action by the conditions,
+
+\Gamma (x; y; z) j \Gamma ffi
+
+3S
+
+ffiOE(x)ffiOE(y)ffiO/(z) =
+
+1 Z1 \Gamma R(x; y; z)
+
+G\Gamma 1(x; y) j \Gamma ffi
+
+2S
+
+ffiOE(x)ffiOE(y) =
+
+1 Z2 G
+
+\Gamma 1 R (x; y) ; (5.11)
+
+with \Gamma R the renormalized proper vertex part, and G\Gamma 1R the renormalized inverse OE propagator in the case the mean field OE = 0. In the case OE 6= 0 we may continue to define G\Gamma 1R as in (5.11) with the understanding that the two-point function for the fields OE and O/ becomes a matrix with off diagonal (i.e., OEO/) components, so that, in particular the renormalized OE propagator is no longer given simply by inverting G\Gamma 1R .
+
+The other diagonal two-point vertex is
+
+D\Gamma 1(x; y) j \Gamma ffi
+
+2S
+
+ffiO/(x)ffiO/(y) = D
+
+\Gamma 1 R (x; y) ; (5:12)
+
+which requires no renormalization, i.e., it is already RG invariant, since it can be related directly to the physical Born scattering amplitude as discussed in the third paper of Ref. [16] and represented in Fig. 4. Indeed, the renormalized * coupling is specified by the Schwinger-Dyson equation for the O/ inverse propagator,
+
+*\Gamma 1R (q2) j \Gamma D\Gamma 1(q) = 1*
+
+\Lambda \Gamma
+
+i 2 Z
+
+\Lambda d4p
+
+(2ss)4 G(p + q) \Gamma (p; p + q) G(p) ; (5:13)
+
+32
+
+-1 = + \Gamma .
+
+G
+
+G. .
+
+Figure 5: Exact Schwinger-Dyson equation for the O/ inverse propagator D\Gamma 1. HereG
+
+represents the exact unrenormalized OE field propagator and \Gamma the exact unrenormalized vertex function. For the case of QED, the photon inverse propagator has a similar graphical representation where the first term is replaced by d\Gamma 1 and the vertex \Gamma by \Gamma _.
+
+illustrated in Fig. 5. This defines the coupling renormalization Z*(\Lambda ; m = p\Gamma q2) in eq. (5.4) to any order of the 1=N expansion. To lowest order the vertex function, \Gamma = \Gamma 0 = 1 and the result of the previous discussion leading to eq. (5.4) is recovered.
+
+Now, from the definitions (5.11) it follows immediately that
+
+\Gamma (x; y; z) = ffiffiO/(z) G\Gamma 1(x; y) = 1Z
+
+2
+
+ffi O/(z) G
+
+\Gamma 1 R (x; y)
+
+= 1Z
+
+2 \Gamma
+
+R(x; y; z) (5.14)
+
+since the renormalized vertex part \Gamma R may be defined by the O/ variation of the renormalized self-energy appearing in G\Gamma 1R (x; y). Comparing the last relation with the first member of eq. (5.11) implies the Ward Identity,
+
+Z1 = Z2 : (5:15) Hence the vertex renormalization Z1 may be computed from the self-energy renormalization Z2 directly, just as in QED. Indeed, the definitions analogous to (5.11) in the QED case are
+
+\Gamma _(x; y; z) j \Gamma ffi
+
+3S
+
+ffi(x)ffi(y)ffiA_(z) =
+
+1 Z1 \Gamma
+
+_ R(x; y; z)
+
+G\Gamma 1(x; y) j \Gamma ffi
+
+2S
+
+ffi(x)ffi(y) =
+
+1 Z2 G
+
+\Gamma 1 R (x; y) : (5.16)
+
+The Ward Identity (5.15) follows immediately for the same reason as before. The general polarization tensor is guaranteed to be proportional to q2g_* \Gamma q_q* by the
+
+33
+
+Ward-Takahashi identity following from gauge invariance of the effective action, so that
+
+q_D\Gamma 1(q)_* = 0 ; (5:17)
+
+and the renormalized charge may be defined by the Schwinger-Dyson equation for the photon inverse propagator,
+
+D\Gamma 1(q)_* j 1e2
+
+R(q2) (q
+
+2g_* \Gamma q_q*)
+
+= d\Gamma 1(q)_* \Gamma i Z
+
+\Lambda d4p
+
+(2ss)4 tr ffl
+
+_ G(p) \Gamma * (p; p + q) G(p + q)g ; (5.18)
+
+illustrated again by Fig. 5, with the point vertex now representing d\Gamma 1_* (q) and \Gamma replaced by \Gamma _. This defines the coupling renormalization Ze(\Lambda ; m = p\Gamma q2) to any order of the 1=N expansion. To lowest order the vertex function, \Gamma _ = \Gamma _0 = fl_ and the result of the previous discussion leading to eq. (5.10) is recovered.
+
+If there is no mean value of the Dirac field, the Ward Identity guarantees that wavefunction and vertex renormalization drops out of the Maxwell equations for the mean field and that the charge renormalization Ze(\Lambda ; m) alone is sufficient to arrive at cut-off independent time evolution for the potential. To prove this we make use of several facts from the standard covariant analysis. First, we recall that the inverse propagator and vertex functions satisfy the Schwinger-Dyson equations,
+
+G\Gamma 1(q) = G\Gamma 1(q) \Gamma iN Z
+
+\Lambda d4p
+
+(2ss)4 fl
+
+_ G(p + q) \Gamma * (p; p + q) D_* (p)
+
+\Gamma _(p; q) = fl_ \Gamma Z d
+
+4r
+
+(2ss)4 tr fG(p + r) \Gamma
+
+_(p + r; q + r) K(p + r; q + r; p) G(q + r)g ;
+
+(5.19) where K is the two particle irreducible scattering kernel. These equations are illustrated in Figs. 6. The diagrams contributing to G\Gamma 1 and \Gamma to first order in 1=N are illustrated in Figs. 7. The advantage of introducing the kernel K into the discussion is due to the fact that GGK is RG invariant, viz.,
+
+G ffi K ffi G = GR ffi KR ffi GR (5:20) in the condensed notation of Section 2. This means that we may eliminate the bare pointlike vertex fl_ in favor of fully renormalized dressed quantities via
+
+fl_ = \Gamma _ + Tr f\Gamma _ ffi G ffi K ffi Gg = 1Z
+
+1 (\Gamma
+
+_ R + Tr f\Gamma
+
+_ R ffi GR ffi KR ffi GRg) : (5:21)
+
+Then varying the exact Maxwell equation,
+
+@*F _* = \Gamma ie2Tr ffl_G[A]g (5:22)
+
+34
+
+G-1 = G -1 1N+ \Gamma
+
+= . - . _ K\Gamma \Gamma .
+
+_ _
+
+_
+
+_
+
+Figure 6: Exact Schwinger-Dyson equations for (a) G and (b) \Gamma _ respectively.
+
++1N+ _\Gamma .
+
+_ = . ..
+
+G-1 = G -1 1N+
+
+Figure 7: First two terms in the large N expansion of (a) G and (b) \Gamma _ respectively.
+
+35
+
+with respect to the mean potential and using the definitions (5.16) yields
+
+d\Gamma 1_* ffiA* = iTr (fl_G ffi ffiG
+
+\Gamma 1
+
+ffiA* ffi G) ffiA* = iTr ffl_G ffi \Gamma * ffi Gg ffiA*
+
+= i Z
+
+21
+
+Z21 Tr f(\Gamma
+
+_ R + Tr f\Gamma
+
+_ R ffi GR ffi KR ffi GRg) GR ffi \Gamma
+
+* R ffi GRg ffiA*
+
+= iTr f(\Gamma _R + Tr f\Gamma _R ffi GR ffi KR ffi GRg) GR ffi \Gamma *R ffi GRg ffiA* ; (5.23)
+
+by eqs. (5.16), (5.15) and (5.21). The point of this exercise is that the Ward Identity guarantees the cancellation of wavefunction and vertex renormalization constants from the gauge invariant Maxwell equation for the mean potential. Since Z1=Z2 = 1 have cancelled out, the remaining loop integration over the skeleton diagrams of the last form of eq. (5.23) can have only log divergences which must be absorbed by charge renormalization alone. Indeed, comparing the second line of eq. (5.23) with the Schwinger-Dyson equation which defines the renormalized charge (5.18) shows that this is precisely what happens, since
+
+D\Gamma 1_* ffiA* = D\Gamma 1_*R ffiA* (5:24) is the RG invariant linear response equation. Setting this quantity to zero allows us to study the dynamics of small perturbations in any given background mean field in a gauge covariant way independent of the cut-off. Since higher functional derivatives of the Maxwell equation involve no divergences whatsoever by simple power counting, we have proven that charge renormalization alone is sufficient to render the Maxwell equation fully RG invariant, and that the logic of the lowest order renormalization carries through to arbitrary order in 1=N without modification. One simply needs the corresponding expression for Ze to the given order of 1=N , which has been given in the literature [20].
+
+The analogous argument for the the *\Phi 4 case encounters two complications. First, O/ contains quadratic divergences which must be handled correctly before applying the
+
+Ward Identity (5.15), and second, the mean field equation for OE will introduce the need for OE field renormalization over and above the coupling renormalization encountered in QED with zero mean Dirac fields. The first complication is handled by shifting from O/ to the renormalized mass, defined by
+
+G\Gamma 1(p2 = \Gamma m2R) = 0 : (5:25) To first order in 1=N (with OE = 0) we have
+
+m2R = O/ + 1N \Sigma (\Gamma m2R) = _2 \Gamma i*\Lambda 2 Z
+
+\Lambda d4p
+
+(2ss)4 G(p
+
+2) + 1
+
+N \Sigma (\Gamma m
+
+2 R) : (5:26)
+
+36
+
+By definition m2R is cut-off independent and RG invariant. Shifting to the physical mass pole is necessary in order to remove quadratic divergences on internal lines at order 1=N and higher. In the real time formalism the role of m2R is played by the time dependent effective mass,
+
+m2(t) = O/(t) \Gamma 2N Z
+
+t
+
+0 dt
+
+0 Z [dk]ImfG(t; t0; k)D(t; t0; k)g (5:27)
+
+Since any potential quadratic divergence in m2(t) is cancelled by the time independent bare mass counterterm _2, the quantity, m2(t) \Gamma m2(0) is free of such divergences. At lowest order we were able to show this explicitly by eqs. (5.2)-(5.4). At next (and higher orders) the proof is a bit more involved since the quadratic divergences appear at the endpoint of the the time integration t0 ! t due to the singular nature of the integrand(s) in the coincident limit. Hence the divergent local counterterm as t0 ! t must be identified explicitly and removed before sensible results can be obtained. Since this counterterm is time independent it can be extracted most simply by adding and subtracting from the time dependent kernel,I
+
+mfG(t; t0; k)D(t; t0; k)g the same quantity evaluated at constant mass, which is the same as in the covariant treatment and may be calculated analytically. The difference ImfG(t; t0; k)D(t; t0; k)\Gamma G0(t; t0; k)D0(t; t0; k)g then has no quadratic divergence, while the remainder has a quadratic divergence structure which is known, and may be removed explicitly by integration by parts with respect to t0. The upper limit of this integration by parts (at t0 = t) gives the local time independent quadratic cut-off dependence that is cancelled by subtracting m2(0), while the lower limit (at t0 = 0) gives a finite cut-off independent term which oscillates rapidly (with the cut-off frequency) for small t. This high frequency "ringing" is a transient result of the "kick" to the system coming from our sharp initial condition at definite initial time which introduces high frequency components in the Fourier transform, and has been found in previous studies of quantum Brownian motion [4].
+
+With these prior modifications to eliminate quadratic divergences explicitly, the argument leading to eq. (5.23) may be carried over to the scalar \Phi 4 case line for line, with the result that the evolution equation for m2(t) \Gamma m2(0) is completely RG invariant, the remaining logarithmic divergences being absorbed by the * coupling renormalization alone with Z1=Z2 = 1 having cancelled from the expression, precisely as in the QED case.
+
+The second difference of the \Phi 4 interaction from QED arises because of the existence of the non-vanishing OE mean field. Although the renormalization constants Z1 and Z2 drop out of the mass equation due to the Ward Identity (5.15), when the mean field OE is non-vanishing then it must be renormalized, so Z2(= Z1) will appear in the OE mean field equation. In the covariant formulation Z2 is the logarithmic wave
+
+37
+
+function renormalization constant given in terms of the derivative of the self-energy function on mass shell, namely
+
+1 Z2 =
+
+@G\Gamma 1(p2)
+
+@p2 fifififip2=\Gamma m2R = 1 +
+
+1 N
+
+@\Sigma (p2)
+
+@p2 fifififip2=\Gamma m2R + O `
+
+1 N 2 ' : (5:28)
+
+Since the field equation for the mean field involves G\Gamma 1 ffi OE and Z\Gamma 12 is a power series in 1=N , the mean field equation is renormalized by multiplying only the first (order 1=N 0) term of the OE eq. of motion (4.33) by Z\Gamma 12 . That is,
+
+d2 dt2 + m
+
+2(t)! OE(t) 1
+
+Z2 =
+
+1 ss2N Z
+
+t 0 dt
+
+0 (OE(t) \Gamma OE(t0)) Z \Lambda
+
+0 k
+
+2dk Im [G?(t; t0; k)D?(t; t0; k)]
+
+(5:29) with Z\Gamma 12 given by the previous relation is the correctly renormalized equation of motion for the OE mean field to order 1=N , with the \Lambda dependence in Z2 just cancelling that of the momentum integral in (5.29) to first order in 1=N . Naturally, if non-zero mean charged fields are considered in electrodynamics they will have to be renormalized in the same way.
+
+One additional remark about the *\Phi 4 theory and its renormalization is in order. It is well known that this theory is trivial, in the sense that the cut-off cannot be removed to infinity without vanishing renormalized *. From the point of view of practical numerical calculations this is irrelevant since a cut-off will always appear in the computer implementation, and the theory with finite cut-off is well defined and nontrivial. However, a necessary consequence of this point of view is that the cut-off cannot be removed in principle, and one should work in the range where the cut-off is not too large, or more precisely where
+
+0 ! 1 \Gamma Z*(\Lambda ; m) = 116ss2 *R(m2) ln ` \Lambda m' + O *R(m2) ln ` \Lambda m'
+
+2!
+
+! 1 : (5:30)
+
+That this is the right condition on the cut-off may be seen either from triviality considerations or the senselessness of the theory when the Landau pole is reached at Z* = 1. Similar considerations presumably apply to QED as well, where the very weak coupling still affords an enormous range of momenta before the Landau pole is reached. So it is always possible to satisfy (5.30) and still have \Lambda much greater than all frequencies of interest in the non-equilibrium time evolution of the fields, if the coupling is small enough. This necessary limitation on the theory has a positive side. If the quantity in (5.30) is small it is then permissible to develop the expression for ~D in eq. (4.16) in a power series in *, rather than solving this integral equation numerically, thereby recovering its ordinary perturbative expansion. This leads to an enormous economy of computer memory since the integral equation for
+
+38
+
+~D involves very big arrays and is extremely memory intensive. The evolution of the OE propagator and mean fields is still treated in the full 1=N expansion without modification. Further details of this procedure will be presented when we turn to numerical methods in future publications.
+
+Finally, for many applications it is useful to have the energy-momentum tensor following from the quantum effective action by variation with respect to the metric of spacetime,
+
+T_* = \Gamma 2p\Gamma g ffiSffig_* : (5:31)
+
+Since general coordinate invariance is maintained in the effective action, the energymomentum tensor is conserved. This is an important property in nonequilibrium dynamics which is easily lost if one makes uncontrolled stochastic assumptions or approximations in a transport formulation. In the effective action approach, on the contrary, conservation of T_* is automatic, provided the cut-off procedure does not violate coordinate invariance.
+
+In the scalar theory, after scaling out a factor of N we haveb
+
+T_* = @_\Phi @* \Phi + g_* ae\Gamma 12 @ff\Phi @* \Phi \Gamma 12 \Phi 2O/ + 1* O/ ` O/2 \Gamma _2'oe
+
++ ,(g_* 2 \Gamma @_@* )\Phi 2 (5.32)
+
+in terms of the original quantum fields, where the last term proportional to the arbitrary parameter , may be added without affecting conservation. By taking the expectation value of this quantity, we may express the conserved energy-momentum tensor in terms of the propagator and vertex functions introduced above, viz.,
+
+T_*(x) = T cl_*[OE; O/](x) \Gamma i `ffiff_ ffifi* \Gamma 12 gfffig_* ' @ff@0fiG(x; x0)jx=x0
+
+\Gamma 12N g_* Z d4x0 d4y0 d4z0 D(z0; x)G(x; x0)\Gamma (x0; y0; z0)G(y0; x) \Gamma i2*N g_* D(x; x) \Gamma i, (g_* 2 \Gamma @_@*) G(x; x) ; (5.33)
+
+where T cl_*[OE; O/] is (5.32) evaluated on the mean fields, and it must be recalled that G, the full connected two-point function for the \Phi field is not the inverse of G\Gamma 1 defined in eq. (5.11) when OE 6= 0.
+
+For QED the analogous expression is
+
+T_*(x) = T cl_*[A] \Gamma i2r(_tr nfl*)G(x; x)o \Gamma iN tfffiaeoe_* @ff@0fiDaeoe(x; x0)jx=x0
+
+\Gamma 1N Z d4x0 d4y0 d4z0 Dff(_(z0; x)tr nfl*)G(x; x0)\Gamma ff(x0; y0; z0)G(y0; x)o
+
+(5.34) 39
+
+where
+
+tfffiaeoe_* j 18 g_* (gffoegfiae \Gamma gfffigaeoe)+ 14 (ffiae(_ffioe*)gfffi \Gamma ffiff(_ffifi*)gaeoe +ffiae(_ffifi*)gffoe \Gamma ffiff(_ffioe*)gfiae) (5:35) and
+
+T cl_* [A] = tfffiaeoe_* @ffAae@fiAoe = \Gamma 14 g_* F fffiFfffi \Gamma F ff_ Fff* (5:36)
+
+is the stress tensor of the Maxwell mean potential. The next two terms on the first line of (5.34) are the contributions to the energy-momentum tensor of the fermions (moving in the mean potential A) and photons respectively, while the last term is the contribution of the interaction between them which appears first at order 1=N .
+
+Each energy-momentum tensor contains terms with quartic and quadratic dependence on the ultraviolet cut-off \Lambda . From general coordinate invariance of the effective action, these divergent contributions to T_* must be proportional to the metric of spacetime g_* which is flat here. Thus, these divergences may be isolated and removed rather easily by subtracting from the full T_* above the same quantity in zero mean field(s). The resulting subtracted T_* is still conserved and now completely finite. Indeed, the argument that the current appearing in the Maxwell equation (5.22) must be cut-off independent, provided that the bare charge is rescaled with the cut-off while keeping the renormalized charge fixed, may be taken over to the subtracted energy momentum tensor as well. Like the mass in the \Phi 4 theory, once the power law divergences are removed from T_* the resulting quantity is RG invariant, and may be interpreted as the physical energy-momentum of the nonequilibrium field theory evolution. Since this T_* is computed from the same propagator and vertex functions appearing in the evolution equations, the pressure, energy density and transport characteristics of the QED plasma or quantum \Phi 4 theory may be studied, and useful information about the approach to hydrodynamic behavior and/or an effective equation of state obtained. The effective equation of state for the QED plasma to lowest order in 1=N has been discussed in Ref. [10]. Detailed numerical results for these quantities and further applications of the large N CTP method are in preparation and will be presented in future publications.
+
+6 Conclusions In this paper we have presented a general approach to the nonequilibrium evolution of a closed system of quantum fields. The large N expansion permits a clean separation into mean fields and their fluctuations and constitutes a controlled approximation scheme to the infinite tower of coupled Schwinger-Dyson equations of quantum field theory. We have derived the equations from an effective action principle which
+
+40
+
+preserves all classical symmetries (which are not anomalous) at the quantum level. This is important because of the central role invariances play in the renormalization procedure through the Ward Identities, which are in danger of being obscured in a noncovariant time evolution problem. Nevertheless, manifest causality of the time evolution is enforced by the Schwinger-Keldysh CTP formulation of the effective action principle. We have sketched a renormalization procedure involving an ultraviolet cut-off which is well-suited to numerical solution of the equations on a computer, and demonstrated explicitly the practicality of this scheme at lowest order of the 1=N expansion.
+
+For definiteness, throughout the paper we have developed the general approach in the framework of two particular and familiar quantum field theories, viz., *\Phi 4 and QED. From this beginning there are three well-defined vectors for future work. The first consists in carrying out practical numerical computations in these theories for specific applications, for example, to the evolution of disoriented chiral condensates in heavy-ion collisions or to e+e\Gamma particle production and shorting of strong fields in astrophysical plasmas. These applications are clearly interesting in their own right. The second direction to pursue is the use of these particular field theories as model systems for the study of more general phenomena, such as dissipation and decoherence in closed quantum systems. The emergence of an effective Boltzmann or transport equation description from fundamental time reversal invariant dynamics may be studied in these realistic field theories in a controlled way without additional stochastic assumptions. Finally, because of the existence of a gauge invariant action principle, the general method followed in this paper can be extended to non-abelian gauge theories such as QCD and gravitation without essential difficulty. This will make it possible to take into account consistently the backreaction of quantum fluctuations on the nonequilibrium evolution of a mean color or metric field and open up interesting applications in studies of the quark-gluon plasma, black hole decay, and cosmological models. We plan to take up each of these lines of research in subsequent publications.
+
+7 Acknowledgments We thank Alex Kovner for several helpful discussions. This work was supported by the U. S. Department of Energy at Los Alamos National Laboratory. S. H. was supported in part by the Air Force Office of Scientific Research. Y. K. wishes to thank the Center for Nonlinear Studies at Los Alamos National Laboratory for providing partial support. Numerical work was carried out on the CM-5 at the Advanced
+
+41
+
+Computing Laboratory at Los Alamos National Laboratory. References
+
+[1] See, e.g., R. Zwanzig, in Lectures in Theoretical Physics, edited by W. E. Brittin,
+
+B. W. Downs, and J. Downs (Interscience Publishers, New York, 1961).
+
+[2] A. J. Leggett, S. Chakravrty, A. T. Dorsey, M. P. A. Fisher, A. Garg, and W.
+
+Zwerger, Rev. Mod. Phys. 59, 1 (1987).
+
+[3] J. J. Halliwell, Phys. Rev. D 39, 2912 (1989);
+
+S. Habib and R. Laflamme, Phys. Rev. D 42, 4056 (1990); J. P. Paz and S. Sinha, Phys. Rev. D 44, 1038 (1991); 45, 2823 (1992).
+
+[4] A. O. Caldeira and A. J. Leggett, Physica 121A, 587 (1983); Phys. Rev. A 31,
+
+1059 (1985); H. Grabert, P. Schramm, and G.-L. Ingold, Phys. Rep. 168, 115 (1988); W. G. Unruh and W. H. Zurek, Phys. Rev. D 40, 1071 (1989); J. P. Paz, S. Habib and W. H. Zurek, Phys. Rev. D 47, 488 (1992); W. H. Zurek, S. Habib, and J. P. Paz, Phys. Rev. Lett. 70, 1187 (1992); B. L. Hu, J. P. Paz and Y. Zhang, Phys. Rev. D 45, 2843 (1992); 47, 1576 (1993).
+
+[5] E. Calzetta and B. L. Hu, Phys. Rev. D 35, 495 (1987). [6] M. A. Ruderman and P. G. Sutherland, Ap. J. 196, 51 (1975). [7] See, e.g., B. M"uller, in Particle Production in Highly Excited Matter, edited by H.
+
+H. Gutbrod and J. Rafelski, Proceedings of a NATO Advanced Study Institute on Particle Production in Highly Excited Matter, July 12-24, 1992, Il Ciocco, Italy (Plenum Press, New York, 1993). This collection of articles contains several other pertinent contributions.
+
+[8] See, e.g., the review of W. H. Zurek, Physics Today 44, 36 (1991). [9] F. Cooper and E. Mottola, Phys. Rev. D 36 (1987) 3114; 40 (1989) 456. [10] Y. Kluger, J. M. Eisenberg, B. Svetitsky, F. Cooper, and E. Mottola, Phys. Rev.
+
+Lett. 67 (1991) 2427; Phys. Rev. D 45, 4659 (1992); 48, 190 (1993).
+
+[11] S. Epstein, The Variational Method in Quantum Chemistry (Academic, New
+
+York, 1974); P. Bouche, S. Koonin, and J. W. Negele, Phys. Rev. C 13, 1226 (1976);
+
+42
+
+A. Kerman and S. Koonin, Ann. Phys. 100, 332 (1976); F. Cooper, S. Y. Pi, and P. N. Stancioff, Phys. Rev. D 34, 3831 (1986).
+
+[12] J. Schwinger, J. Math. Phys. 2, 407 (1961);
+
+P. M. Bakshi and K. T. Mahanthappa, J. Math. Phys. 4, 1 (1963); 4, 12 (1963); L V Keldysh Zh. Eksp. Teor. Fiz. 47, 1515 (1964)[Sov. Phys. JETP 20, 1018 (1965)]; G. Zhou, Z. Su, B. Hao and L. Yu, Phys. Rep. 118, 1 (1985).
+
+[13] A. J. Niemi and G. W. Semenoff, Ann. Phys. 152, 105 (1984); Nucl. Phys. B230,
+
+181 (1984); R. L. Kobes, G. Semenoff and N. Weiss, Z. Phys. C 29, 371 (1985); N. P. Landsman and Ch. G. van Weert, Phys. Rep. 145, 141 (1987).
+
+[14] R. Balescu, Equilibrium and Nonequilibrium Statistical Mechanics, (Wiley, New
+
+York, 1975), and references therein.
+
+[15] K. Wilson, Phys. Rev. D 7, 2911 (1973)
+
+J. Cornwall, R. Jackiw, and E. Tomboulis, Phys. Rev. D 10, 2424 (1974); S. Coleman, R. Jackiw and H. D. Politzer, Phys. Rev. D 10, 2491 (1974);
+
+[16] R. Root, Phys. Rev. D 11, 831 (1975);
+
+C. M. Bender, F. Cooper, and G. S. Guralnik Ann. Phys. 109, 165 (1977); C. M. Bender and F. Cooper, Ann. Phys. 160, 323 (1985).
+
+[17] F. Cooper, Y. Kluger, E. Mottola, and J. P. Paz, Los Alamos Preprint (1994)
+
+ submitted to Phys. Rev. D.
+
+[18] S. A. Fulling, Aspects of Quantum Field Theory in Curved Spacetime, (Cambridge Univ. Press, Cambridge, 1989) and references therein.
+
+[19] J. D. Bjorken and S. D. Drell, Relativistic Quantum Fields, (McGraw-Hill, New
+
+York, 1965), and references therein.
+
+[20] D. Espriu, A. Palanques-Mestre, P. Pascual and R. Tarrach, Z. Phys. C 13, 153
+
+(1982); A. Palanques-Mestre and P. Pascual, Comm. Math. Phys. 95, 277 (1984); J.A. Gracey, Int. J. Mod. Phys. A8, 2465 (1993).
+
+43
+

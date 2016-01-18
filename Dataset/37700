@@ -1,0 +1,787 @@
+
+
+TUBT005
+
+
+
+REPORT ON THE PCAPAC 2000 WORKSHOP
+
+R. Bacher*, Deutsches Elektronen-Synchrotron DESY, D-22603 Hamburg, Germany
+
+Abstract Participation in PCaPAC 2000 reached an all-time high
+In October 2000, the third PCaPAC (PCs and Particle of 127 registered attendees from 43 different institutes
+Accelerator Controls) workshop took place at DESY. and 17 countries.
+This paper presents a summary of the workshop. The :25.6+23 723,&6
+workshop reviewed existing and new PC-based
+accelerator control systems, from small-scale to large-
+scale installations. It demonstrated convincingly the 2.1 Scientific Programme
+advantage of modern, commercial mass-market products
+used for accelerator controls. Disadvantages of these The scientific programme of the workshop was
+technologies were reported as well. Large-scale PC categorized according the following topics:
+systems inherently bring administrative concerns into the Controlling Accelerator Subsystems and Experiments (37
+picture. In this vein, special emphasis was given to contributions)
+system administration for distributed systems. A major · running systems: including commercial or
+topic of the workshop was the integration of different SCADA systems
+control system approaches as well as the integration of · peripheral systems: including archiving, alarm,
+different platforms within the same control system. In sequencing etc.
+particular, PC-based concepts offer the simple · process control: including OPC
+opportunity to interface to commercial SCADA systems. · data acquisition
+In addition, large emphasis was given to the presentation · real-time solutions
+of future developments including the next network trends Interfacing Accelerator Hardware (2 contributions)
+to data exchange via SOAP and XML. · IO control
+,1752'8&7,21 · field busses
+· device drivers etc.
+Accelerator Control Objects and Components (14
+The PCaPAC (PCs and Particle Accelerator Controls) contributions)
+workshop began in October 1996 at DESY and was · object-oriented design and implementation
+designed to be a biennial workshop. The second involving OLE, DCOM, ActiveX, Java, Java
+workshop was held in January 1999 at KEK and the third Beans, CORBA, C++ etc.
+took place in October 2000 again at DESY. PCaPAC is Integrating Different Systems (6 contributions)
+scheduled to be held in the "non-ICALEPCS" years. · operating systems and platforms
+PCaPAC is not in conflict to ICALEPCS, although it · commercial systems, SCADA systems, in-house
+arXiv: 31 Oct 2001 has a significant overlap in topics with ICALEPCS due to systems, web-based systems
+the common focus on accelerator control systems. Control System Architecture (15 contributions)
+However, PCaPAC focus particularly onto the impact of · methods of distributing control and data
+PCs to particle accelerator controls. The usage of PCs exchange mechanisms
+bring especial advantages as well as disadvantages. · layering models for data flow
+Therefore, the workshop provides a platform to exchange System Administration and Project Management (7
+ideas and experience in the dedicated field of PC-related contributions)
+technologies where trends are changing rapidly and where · impact of system administration on machine
+the pace at which hardware as well as software evolve is operation
+very fast. · control system project management using PC-
+PCaPAC is designed to be a workshop. Following this based tools
+approach, no parallel sessions were scheduled to give Operator Interface (3 contributions)
+everybody a chance to attend. The morning sessions were · man-machine interface
+dedicated to oral presentation categorized according to · ergonomics etc.
+the announced workshop topics. The afternoon sessions Future Trends and Technologies (8 contributions)
+were split; a poster session was followed by an open- · XML, 64-bit processors, WAP, data
+discussion session guided by a chairman. These warehousing and mining, blue tooth
+discussion sessions picked up open questions left from · accommodating trends in old systems
+the morning sessions and provided a forum to discuss In total, 92 contributions (oral: 31, poster: 58, tutorial:
+special topics raised by the conference attendees or the 3) were presented (see Fig.1).
+chairman.
+
+
+
+
+
+
+
+
+© 7DONV DQG 7XWRULDOV
+
+¨
+
+
+
+
+
+§
+
+
+
+
+
+¦
+
+
+
+
+
+"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¥
+
+
+
+
+
+!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+£
+
+
+
+
+
+¢
+
+
+
+
+
+¡
+
+
+
+
+
+
+
+
+
+
+
+5
+
+
+
+5
+
+
+
+
+
+5
+
+4
+5 5 5 5 5
+5 5
+
+5
+
+5 5 5
+5 5 5 5
+
+2
+
+5
+
+4
+
+4 4 4
+
+9 9
+g
+
+3 2
+
+2 2 2 2
+
+
+3
+
+
+G 3
+G D
+D
+
+
+D D
+0
+3
+
+3 2 D )
+S
+
+3 H 3
+
+3H 2
+
+2 2 0 0
+
+3H
+3 D 2
+
+
+
+
+e e
+2 P % %
+
+8
+2 3
+2
+
+2
+
+2 2
+E E 1
+
+
+
+P 2 3
+G H
+
+1
+G A
+
+1
+
+1 2 2 G
+
+
+d d
+
+0 D C
+
+
+)
+
+A
+
+0
+
+0 0
+
+
+
+' ' G G
+W '
+` W
+
+0 '
+0 2 `
+`
+
+3
+
+
+
+
+
+'
+
+W
+'
+
+
+
+A
+
+) 4
+@
+
+P (
+@%
+@ )
+
+6 ' 7 ' )
+G
+
+9
+
+
+T a
+
+( )
+
+( ) d Y Y
+Q #
+
+D E F )
+
+
+E A
+` '
+
+D
+
+E @
+
+D F
+
+
+
+
+$
+
+C 9
+
+3
+
+
+
+$
+%
+
+X C c c
+
+'
+
+
+
+
+D B ' '
+
+'
+
+6 ' @ a B
+& ' 0 X
+
+'
+@ a
+' R
+
+
+h
+E
+
+9
+
+9
+D T
+
+
+
+
+S
+
+1
+
+%
+
+6 `
+% A
+
+
+`
+
+
+
+
+7
+)
+
+E %
+
+) %
+$
+
+
+
+
+
+@
+' %
+
+
+@ R @ A A
+D f
+$ % %
+)
+
+@ '
+
+
+
+
+)
+
+
+
+
+
+)
+E Y
+
+3
+D E
+
+
+
+
+B
+
+%
+#
+
+I c X
+W
+
+0 e
+
+9
+
+
+
+E
+
+Q
+
+
+
+
+
+4
+
+$ I
+
+
+W W W
+$
+X
+
+W
+
+
+
+
+a
+
+
+
+
+
+3
+
+
+
+%
+2
+A b
+
+
+
+
+
+%
+3
+
+
+
+
+
+3 W
+
+Y
+
+P
+
+
+
+
+
+SQ
+
+
+
+
+Q
+
+E W
+
+2
+
+d
+
+
+
+V
+
+
+
+
+
+X
+
+
+
+
+
+D
+
+
+
+3
+
+
+
+
+P Q
+
+
+
+
+A
+
+
+
+D
+
+
+
+
+I
+
+
+)
+
+
+
+
+E
+
+
+
+
+
+X
+
+
+
+
+
+T
+
+
+
+
+
+%
+
+
+
+
+
+1
+
+
+
+
+
+2
+
+
+
+
+
+D
+
+
+
+
+
+7 U
+
+
+
+
+
+%
+
+
+
+
+
+
+Figure 1: Number of talks and tutorials versus presenting institutes
+
+
+2.2 Status and Progress Reports standard LonWorks field bus network. Each branch of the
+network is attached to a PC. Device servers running on
+At PCaPAC 2000, many running accelerators of which these PCs map the devices and their properties onto 1500
+the control-system infrastructure was based entirely or in objects and make them remotely available using CORBA.
+part on PCs were presented. Among these were small On the client side, the objects are wrapped into specially
+systems built and maintained by a few people (e.g. the developed Java Beans called Abeans [2], which provide
+storage rings ASTRID and ELISA of the ISA Storage also a rich framework of tools that clients always need.
+Ring Facilities at the University of Aarhus in Denmark), This allows applications to be written easily, even by
+medium-scale systems (e.g. the ANKA synchrotron light nonprogrammers.
+source in Karlsruhe in Germany, and accelerators at KEK COACK (Component Oriented Accelerator Control
+in Japan) and probably the largest PC-based control Kernel) [3] being developed at KEK in Japan in joint
+systems for the HERA, PETRA and DORIS storage rings venture with IT-industry is a general-purpose kernel for
+and their injectors at DESY in Hamburg (Germany). The accelerator controls based on Microsoft's COM/DCOM
+volume and success of development work was manifest in foundation. It consists of different components like a
+a series of corresponding status reports. class builder, data cache, message exchanger (peer-to-
+The idea of the control system for the synchrotron peer and publish-subscribe type communication),
+radiation light source ANKA is to provide a user-friendly accelerator virtual machine, operation support (scheduling
+control system where "user" means a physicist operating and polling), database (SQL, XML, Excel) and
+the accelerator and not a computer expert [1]. The control data/command logging, own registry and diagnostic tools
+system contains around 500 physical devices (power (session manager and status display). In addition, support
+supplies, vacuum pumps, beam position monitors, RF to integrate complete SCADA systems and lab
+generators, etc.) The device I/O is handled by self- automation software like LabView or HPVEE is
+sufficient micro-controller boards, which connect to a provided.
+
+
+
+
+
+
+
+
+2.3 System Administration Concerns 2.5 Future Trends and Technologies
+
+The distributed nature of PC-based control systems is PCaPAC has been seen to be worthwhile in discussions
+manifest in the important role that is played by system involving the technologies of the fast evolving internet.
+administration. A. Pace from CERN [8] demonstrated impressively the
+The automated installation for Linux PCs usage of the Web as a platform-independent application
+(reconstruction farms, work group server and desktop platform and the potential of SOAP (Simple Object
+workstations) is done at DESY with YaST, the Access Protocol) as a Web-wide application protocol
+administration tool of the SuSE Linux distribution. In based on HTTP and XML. He recommended the
+spring 2000, SuSE has introduced the successor tool integration of the control systems into the Web to make
+YaST2 [4]. DESY took the chance to influence the Web technologies to be the core and not the border of the
+YaST2 development in an early stage and have SuSE control systems. Furthermore, he pointed out the
+integrate features to turn YaST2 into a network based possibilities which rendering software provides. This will
+configuration management. YaST2 takes a fully modular open control systems not only to traditional Web
+approach to configuration, installation, and administration browsers but also mobile phones, WebTV or any internet
+of the system. It comes with its own scripting language enabled device.
+ycp (YaST control protocol), which has an interface to $&.12:/('*(0(17
+call other code, like C, perl, or shell script. YaST2
+supports remote, network transparent configuration,
+installation, and administration of a PC or a group of PCs The author would like to thank P. Duval, I. Nikodem, J.
+by users or group administrators. The configuration is Maaß, R. Schmidt, R. Schröder and W. Schütte for their
+stored on a network database. Existing configurations can great enthusiasm and effort organizing the PCaPAC 2000
+be cloned to set up clusters of identical PCs. A workshop.
+hierarchical administration structure can be realised.
+To manage the Windows-based HERA console 5()(5(1&(6
+workstations at DESY, NetInstall is used for system and
+application management [5]. The idea is to use the same
+tool for the HERA consoles as for the desktop PCs at [1] M. Plesko and the KGB Team, Proceedings of
+DESY. The benefit is threefold, (1) sharing of knowledge, PCaPAC 2000 workshop, ID 96 (Managing the
+Development of a New Control System) and ID 115
+(2) exporting control software to all office PCs at DESY (ANKA Control System Takes Control) and references
+and (3) importing standard software from central therein
+application support. About 50 dedicated control PCs are [2] M. Plesko and G. Tkacik, Proceedings of PCaPAC
+located in various control rooms. The update of DLLs and 2000 workshop, ID 89 (How to Build Professional
+other important software is done at logon time. In Control System Applications)
+addition, a check of the control application at launch time [3] I. Abe et al., Proceedings of PCaPAC 2000 workshop,
+for newer versions is performed. ID 117 (Recent Status of COACK and its Functions)
+[4] T. Kleinwort and K. Woller, Proceedings of PCaPAC
+2.4 Integrating Different Control Systems 2000 workshop, ID 131 (YaST2 Based Automated Linux
+Installations at DESY ­ Taking Central Linux Support to
+It is a common and unavoidable experience that the Next Level)
+different control systems have to be interfaced. Complete [5] C. Trachimow, Proceedings of PCaPAC 2000
+commercial SCADA systems as well as in-house workshop, ID 136 (System Management in a Windows
+developed control systems have to be integrated into based Control Environment)
+other accelerator control systems. [6] Z. Kakucs, P. Duval and M. Clausen, Proceedings of
+An example is the EPICS-to-TINE translator [6] at PCaPAC 2000 workshop, ID 128 (An EPICS to TINE
+DESY. TINE is the dominant accelerator control system Translator)
+protocol at HERA [7]. The translator server resides [7] P. Duval, Proceedings of PCaPAC 2000 workshop, ID
+directly on the EPICS IOC. The EPICS names are 69 (The TINE Control System Protocol: Status Report)
+mapped to TINE device names. The Channel Access [8] A. Pace, Proceedings of PCaPAC 2000 workshop, ID
+140 (Can Future Web Technologies Profit to Accelerator
+Protocol is by-passed and the process variables are Control?)
+accessed directly using the database access layer
+including the necessary data type conversions. * for the PCaPAC 2000 organizing committee
+http://desyntwww.desy.de/pcapac/
+
+
+

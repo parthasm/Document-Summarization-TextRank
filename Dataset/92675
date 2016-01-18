@@ -1,0 +1,282 @@
+
+
+ 3 Oct 94
+
+Red Giant Bound on the Axion-Electron Coupling Revisited
+
+Georg Raffelt Max-Planck-Institut f"ur Physik F"ohringer Ring 6, 80805 M"unchen, Germany
+
+and Achim Weiss Max-Planck-Institut f"ur Astrophysik
+
+85748 Garching, Germany
+
+October 3, 1994
+
+Abstract If axions or other low-mass pseudoscalars couple to electrons ("fine structure constant" ffa) they are emitted from red giant stars by the Compton process fl + e ! e + a and by bremsstrahlung e + (Z; A) ! (Z; A) + e + a. We construct a simple analytic expression for the energy-loss rate for all conditions relevant for a red giant and include axion losses in evolutionary calculations from the main sequence to the helium flash. We find that ffa ,! 0:5\Theta 10\Gamma 26 or ma ,! 9 meV= cos2 fi lest the red giant core at helium ignition exceed its standard mass by more than 0:025 Mfi, in conflict with observational evidence. Our bound is the most restrictive limit on ffa, but it does not exclude the possibility that axion emission contributes significantly to the cooling of ZZ Ceti stars such as G117-B15A for which the period decrease was recently measured.
+
+1
+
+1 Introduction The cooling rate of the ZZ Ceti star G117-B15A as determined from the decrease of its pulsation period appears to be somewhat faster than can be accounted for by standard photon cooling. Isern, Hernandez and GarciaBerro [1] speculated that this discrepancy was an indication for a novel cooling agent, notably for the emission of "invisible axions".
+
+Axions [2] are low-mass pseudoscalar particles that couple to electrons by virtue of a Lagrangian density
+
+Lint = \Gamma ig efl5e a (1) where g is a dimensionless coupling constant, e is the electron Dirac field, and a the axion field. We shall also use the "axionic fine structure constant"
+
+ffa j g2=4ss and ff26 = ffa=10\Gamma 26: (2) In a certain class of models (DFSZ axions) the Yukawa coupling is
+
+g = 2:8\Theta 10\Gamma 14 mmeV cos2 fi (3) where cos2 fi is a model-dependent parameter which we shall always set equal to unity, and mmeV is the axion mass ma in units of 1 meV = 10\Gamma 3 eV. Then, ff26 = 0:64\Theta 10\Gamma 2 m2meV.
+
+The main energy-loss mechanism in a white dwarf is bremsstrahlung emission e+(Z; A) ! (Z; A)+e+a. Isern, Hernandez and Garcia-Berro [1] favored an axion mass of 8:4 meV, equivalent to ff26 = 0:45, in order to explain the cooling rate of G117-B15A.
+
+Of course, this interpretation is very speculative and so, naturally one wants to know if it is consistent with other astrophysical phenomena that might be affected by axion emission. For example, the overall white dwarf luminosity function leads to a constraint of ff26 ,! 1:0 [3].
+
+Another constraint was derived by Wang [4] who required that axion cooling would not prevent carbon ignition in accreting white dwarfs so that type I supernova explosions can occur. Wang's bound, based on a simple analytic estimate, is ff26 ,! 6 or ma ,! 30 meV.
+
+Horizontal-branch stars have a nondegenerate, helium-burning core which would emit axions dominantly by the Compton process fl + e ! e + a. A crude bound is based on the requirement that the energy-loss rate should
+
+2
+
+not exceed 100 erg g\Gamma 1 s\Gamma 1 or else the HB lifetime would be reduced by more than about a factor of two, in conflict with the observed number of HB stars in globular clusters. Then one finds the bound ff26 ,! 5 [5].
+
+The potentially most restrictive argument discussed in the literature was put forth by Dearborn, Schramm and Steigman [6]. They considered the impact of axion emission on red giants near the helium flash; for ff26 ,? 0:16 they found helium ignition to be suppressed entirely which would clearly contradict the mere existence of the horizontal and asymptotic giant branches observed in stellar systems. Unfortunately, they used emission rates which did not take degeneracy effects properly into account; near the center of a red giant before helium ignition they overestimate the energy-loss rate by as much as a factor of 10 (see below). Still, their adjusted limit on ff26 is only a factor of 2 or 3 above the value favored to explain the cooling rate of G117-B15A, and so, it seems worthwhile to revisit the helium ignition argument with a more appropriate energy-loss rate.
+
+2 Energy-Loss Rate 2.1 Compton Process The simplest possibility to produce axions by virtue of their coupling to electrons is the Compton process fl + e ! e + a [7]. In the nonrelativistic limit one finds a cross section oe = 4ssffffa!2=3m4e with ff = 1=137 and ! the photon energy. A simple integral over the initial-state photon phase space then yields the energy-loss rate per unit mass
+
+ffl = 160 i6 ffffass YeT
+
+6
+
+mN m4e F = ff26 \Theta 33 erg g
+
+\Gamma 1 s\Gamma 1 Ye T 68 F (4)
+
+where i6 ss 1:0173, Ye is the number of electrons per baryon, mN is the nucleon mass which is used for an approximate conversion between the number density of baryons and the mass density of the medium, and T8 = T =108 K.
+
+The factor F accounts for relativistic corrections as well as for degeneracy effects and the nontrivial photon dispersion in a medium. For our purposes, the most severe deviation from F = 1 occurs at the center of a red giant before the helium flash. Taking ae = 106 g=cm3 and T = 108 K = 8:6 keV as nominal values, the plasma frequency is 18 keV and the electron Fermi momentum
+
+3
+
+is 409 keV whence the degeneracy parameter is j = (_ \Gamma me)=T = 16:7. Typical blackbody photons have an energy of about 3T whence corrections from a "photon mass" remain moderate. Also, relativistic corrections to the emission rate are only about a 30% effect (Fukugita, Watamura and Yoshimura [8]).
+
+These authors also gave a table for F on a grid of T and ae. For a fixed temperature, their values for F slightly increase with increasing density, contrary to the expectation that degeneracy effects should decrease the emission rate. Upon closer scrutiny we are unable to find a Pauli-blocking factor in their expressions of the phase-space integrals. We believe that the Compton process must be suppressed by electron degeneracy which implies that bremsstrahlung dominates (see below). Therefore, a precise calculation for the degenerate regime is not warranted. In order to interpolate between degenerate and nondegenerate conditions, however, an estimate of the suppression factor Fdeg is useful.
+
+In the nonrelativistic limit electron recoils can be neglected so that the initial- and final-states have the same momentum. Therefore, Fdeg is the Pauli blocking factor, averaged over all electrons,
+
+Fdeg = 1n
+
+e Z
+
+2 d3p (2ss)3
+
+1 e(E\Gamma _)=T + 1 `1 \Gamma
+
+1 e(E\Gamma _)=T + 1 ' ; (5)
+
+where _ is the electron chemical potential and ne the electron density. Then,
+
+Fdeg = 1n
+
+ess2 Z
+
+1 me p E dE
+
+ex (ex + 1)2 ; (6)
+
+where x j (E \Gamma _)=T . For degenerate conditions the integrand is strongly peaked near x = 0 (the Fermi surface) so that one may replace p and E with pF and EF, respectively, and one may extend the lower limit of integration to \Gamma 1. The integral then yields T so that
+
+Fdeg = 3EFT =p2F; (7) where ne = p3F=3ss2 was used. A Fermi momentum pF = 409 keV implies EF = 655 keV; with T = 8:6 keV this gives Fdeg = 0:10. Of course, there are relativistic corrections to this result.
+
+4
+
+2.2 Nondegenerate Bremsstrahlung The nondegenerate bremsstrahlung rate e + (Z; A) ! (Z; A) + e + a was first calculated by Krauss, Moody and Wilczek [9] and e + e ! e + e + a was added by Raffelt [10]. Ignoring screening effects which are a small correction for nondegenerate conditions, and allowing a chemical composition of only hydrogen (mass fraction X) and helium (mass fraction 1\Gamma X) the energy-loss rate is
+
+ffl = 6445 ` 2ss '
+
+1=2
+
+ff2ffa ae T
+
+5=2
+
+m2N m7=2e "(1 + X) +
+
+(1 + X)2
+
+2p2 #
+
+= ff26 \Theta 297 erg g\Gamma 1 s\Gamma 1 T 2:58 ae6 "(1 + X) + (1 + X)
+
+2
+
+2p2 # (8) where T8 = T =108 K as before and ae6 = ae=106 g cm\Gamma 3.
+
+2.3 Degenerate Bremsstrahlung The degenerate bremsstrahlung rate was calculated in order to derive a bound on ffa from white dwarf cooling times [3]. In this case screening effects must be included; otherwise the emission rate diverges. As a screening scale the electron Thomas-Fermi wave number was used, a common but incorrect practice, which leads to an underestimate of the screening suppression because the main contribution is from the ions. Of course, because the screening scale enters logarithmically the error remains moderate--a factor of 2 or 3 for the white dwarf cooling rate.
+
+The axion emission rate for very degenerate matter relevant for white dwarfs and the crust of neutron stars was also calculated [11]. The main point was to include ion correlations in a strongly coupled plasma, a condition quantified by the parameter
+
+\Gamma = Z
+
+2 4ssff
+
+aT = 0:2275
+
+Z2
+
+T8 `
+
+ae6
+
+A '
+
+1=3 (9)
+
+where Z is the charge of the ions, A their atomic mass, and n their density which determines the ion-sphere radius a = (3=4ssn)1=3. For \Gamma ? 178 the ions arrange themselves in a bcc lattice while for \Gamma ,! 1 their correlations are weak. In a white dwarf \Gamma is typically between 20 and 150.
+
+5
+
+However, red giants near helium ignition are hot; for our standard set of parameters we find \Gamma = 0:57 which implies that Debye screening is still a reasonable description of the ion correlations. The electrons contribute little to screening because the Thomas-Fermi wave number is much smaller than the Debye scale; otherwise the plasma would not be degenerate. (For our standard red giant conditions the Thomas-Fermi wave number is about 50 keV while the Debye scale for the ions is 222 keV.)
+
+With these approximations one finds for the energy-loss rate [12]
+
+ffl = ss
+
+2ff2ffa
+
+15
+
+Z2
+
+A
+
+T 4 mN m2e F = ff26 \Theta 10:8 erg g
+
+\Gamma 1 s\Gamma 1 Z2
+
+A T
+
+48 F; (10)
+
+where
+
+F = 23 log 2 + ^
+
+2
+
+^2 ! + "
+
+2 + 5^2
+
+15 log
+
+2 + ^2
+
+^2 ! \Gamma
+
+2 3 # fi
+
+2F + O(fi4F) (11)
+
+with fiF = pF=EF the velocity at the Fermi surface. With kD the Debye screening scale of the ions (density n, charge Ze)
+
+^2 = k
+
+2D
+
+2p2F =
+
+4ssff Z2 n
+
+T
+
+1 2p2F : (12)
+
+For helium this is ^2 = 0:147 ae1=36 =T8. For our benchmark conditions we have fi2F = 0:39 and then F = 1:7.
+
+2.4 Interpolation Formula The main region of interest to us is the degenerate red giant core. However, the hydrogen burning shell is entirely nondegenerate and also at a temperature of about 108 K so that a consistent treatment requires to implement axion emission everywhere in the star. To this end we interpolate between the degenerate and nondegenerate bremsstrahlung rates by
+
+ffl = (ffl\Gamma 1ND + ffl\Gamma 1D )\Gamma 1: (13) The nondegenerate Compton rate is switched off in the degenerate regime by means of a factor (1 + F \Gamma 2deg)\Gamma 1=2 where Fdeg was given in Eq. (7). In Fig. 1 we show the different rates as well as our interpolation as a function of ae for T = 108 K. Interestingly, the total rate is nearly independent of density;
+
+6
+
+Figure 1: Axionic energy-loss rates for the processes discussed in the text for ff26 = 1, T = 108 K, and a composition of pure helium. The solid line is our interpolated emission rate.
+
+this is a coincidence at the given temperature because the Compton and degenerate bremsstrahlung rates vary with different powers of T .
+
+Dearborn, Schramm and Steigman [6] gave a table of their energy-loss rates. For a coupling constant ff26 = 1 and T = 108 K they used 20, 50, and 201 erg g\Gamma 1 s\Gamma 1 at densities 102, 104, and 106 g=cm3. At the highest relevant density this is about a factor of 10 above our rate.
+
+3 Red Giant Evolution In order to test the impact of axion emission on the evolution of red giants we have included the interpolation formula described in the previous section in our stellar evolution code in analogy to our previous study of nonstandard neutrino losses [13]. We have then calculated several evolutionary sequences from the main sequence to helium ignition with different axion coupling strengths ff26. We used a chemical composition corresponding to
+
+7
+
+Mixture I of Ref. [13], i.e., to Z = 10\Gamma 3 and Y0 = 0:239. The opacities were chosen for a Ross-Aller mixture; the impact of axion emission on the core mass is found to be the same for older Los Alamos ("AOL") [14] as well as the latest Livermore ("OPAL") [15] opacities, which have greatly improved the agreement between observations and stellar evolution theory in general. The mixing length parameter is taken to be 1.55. The plasma neutrino energyloss rate was taken from Ref. [16]. The total stellar mass was 0:8 Mfi; mass loss on the red giant branch was ignored. For other aspects of our stellar evolution calculations see Ref. [13] and references therein.
+
+We find that helium ignites at a core mass Mig which is increased by the ff26-dependent amount which is given in Tab. 1 and shown in Fig. 2. The coupling strength ff26 = 2 corresponds approximately to the case where helium ignition was suppressed in the calculations of Dearborn, Schramm and Steigman [6] if one corrects for the overestimate of their emission rate. Even for stronger couplings helium still ignites in our calculations, although for our largest value (ff26 = 8) the core-mass increase is so large that, had we included mass loss, the entire envelope could have been consumed before helium had a chance to ignite.
+
+Even though our calculations do not reproduce the suppression of helium ignition, which is an overly conservative criterion to constrain axion emission, we believe that the core mass increase alone can be used to derive a significant limit on ff26.
+
+Table 1: Increase of the core mass at helium ignition.
+
+ff26 ffiMig [Mfi]
+
+0.0 0.000 0.5 0.022 1.0 0.036 2.0 0.056 4.0 0.080 8.0 0.111
+
+8
+
+Figure 2: Increase of the core mass of a red giant at helium ignition due to axion emission.
+
+4 Discussion and Summary It was previously shown [17] that observations of globular cluster stars and of field RR Lyrae stars confirm the standard core mass at helium ignition Mig to within about 5%, i.e., to within about 0:025 Mfi. The main observational constraint is the maximum brightness reached by red giants, and the observed brightness of field RR Lyrae stars. We have previously used this method to constrain neutrino magnetic dipole moments [13].M
+
+ig depends slightly on the total stellar mass and on the chemical composition (see [13, 17] for approximate analytic formulae); it is about 0:490Mfi
+
+for a helium content of 0.26 and a metallicity of 0.001. The systematic uncertainties of Mig due to possible deviations of the opacities from a Ross-Aller metallicity mixture, due to the standard mixing length treatment of convection, mass loss on the red giant branch, and the numerical shell-shifting technique all seem to be much smaller than this limit [13, 18, 19].
+
+A core-mass increase of 0:025 Mfi corresponds approximately to ff26 = 0:5, i.e., we find that globular cluster stars require that
+
+ffa ,! 0:5\Theta 10\Gamma 26 or ma ,! 9 meV= cos2 fi: (14) This is the strongest bound currently available on the axion-electron coupling,
+
+9
+
+but it is not in conflict with the interpretation that axions could contribute significantly to the cooling of ZZ Ceti stars such as G117-B15A.
+
+References
+
+[1] J. Isern, M. Hernanz, and E. Garcia-Berro, Ap. J. 392, L23 (1992). [2] For reviews of axions and their astrophysical and cosmological role see
+
+J. E. Kim, Phys. Rep. 150, 1 (1987), H.-Y. Cheng, Phys. Rep. 158, 1 (1988), G. Raffelt, Phys. Rep. 198, 1 (1990), M. S. Turner, Phys. Rep. 197, 67 (1990), E. W. Kolb and M. S. Turner, The Early Universe (Addison-Wesley, Reading, MA, 1990).
+
+[3] G. Raffelt, Phys. Lett. B 166, 402 (1986). The nominal limit ff26 ,! 0:3
+
+given in this reference must be adjusted upward when screening effects are properly incorporated--see Sect. 2.
+
+[4] J. Wang, Phys. Lett. B 291, 97 (1992). [5] For references to the original literature see G. Raffelt, Phys. Rep. 198,
+
+1 (1990).
+
+[6] D. S. P. Dearborn, D. N. Schramm, and G. Steigman, Phys. Rev. Lett.
+
+56, 26 (1986).
+
+[7] M. I. Vysotsskii, Ya. B. Zel'dovich, M. Yu. Khlopov, and V. M.
+
+Chechetkin, Pis'ma Zh. Eksp. Teor. Fiz. 27, 533 (1978) [JETP Lett. 27, 502 (1978)]. D. A. Dicus, E. W. Kolb, V. L. Teplitz, and R. V. Wagoner, Phys. Rev. D 18, 1829 (1978) and Phys. Rev. D 22, 839 (1980).
+
+[8] M. Fukugita, S. Watamura, and M. Yoshimura, Phys. Rev. D 26, 1840
+
+(1982).
+
+[9] L. M. Krauss, J. E. Moody, and F. Wilczek, Phys. Lett. B 116, 161
+
+(1982).
+
+[10] G. Raffelt, Phys. Rev. D 33, 897 (1986). [11] M. Nakagawa, Y. Kohyama, and N. Itoh, Ap. J. 322, 291 (1987). M. Nakagawa, T. Adachi, Y. Kohyama, and N. Itoh, Ap. J. 326, 241 (1988).
+
+10
+
+[12] G. Raffelt, Phys. Rev. D 41, 1324 (1990). [13] G. Raffelt and A. Weiss, Astron. Astrophys. 264, 536 (1992). [14] W. F. H"ubner, A. L. Merts, N. H. Magee, and M. F. Argo, Astrophyical
+
+Opacity Library, Los Alamos Scientific Laboratory Report LA-6760-M (1977).
+
+[15] F. Rogers and C. A. Iglesias, Ap. J. Suppl. 79, 507 (1992). [16] M. Haft, G. Raffelt, and A. Weiss, Ap. J. 425, 222 (1994). [17] G. Raffelt, Ap. J. 365, 559 (1990). [18] M. Castellani and V. Castellani, Ap. J. 407, 649 (1993). [19] A. V. Sweigart, Ap. J. 426, 612 (1994).
+
+11
+

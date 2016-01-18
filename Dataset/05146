@@ -1,0 +1,314 @@
+
+
+SLAC-PUB-95-7055
+
+MIT-LNS-96-161
+
+December 1995
+
+APPLICATION OF `OPTIMISED' PERTURBATION THEORY TO DETERMINATION OF ffs(M 2Z ) FROM HADRONIC EVENT
+
+SHAPE OBSERVABLES IN e+e\Gamma ANNIHILATION ?
+
+P.N. Burrows Massachusetts Institute of Technology
+
+Cambridge, MA 02139, USA
+
+H. Masuda, D. Muller Stanford Linear Accelerator Center Stanford University, Stanford, CA 94309, USA
+
+Y. Ohnishi Nagoya University Nagoya 464, Japan
+
+ABSTRACT We have applied so-called `optimised' perturbation theory to resolve the renormalisation-scale (_) ambiguity of exact O(ff2s) QCD calculations of event shape observables in e+e\Gamma ! hadrons. We fitted the optimised predictions for 15 observables to hadronic Z0 decay data from the SLD experiment to determine ffs(M 2Z ). Comparing with results using the physical scale _ = MZ we found no reduction in the scatter among ffs(M 2Z ) values from the 15 observables, implying that the O(ff2s) predictions with optimised scales are numerically no closer to the exact all-orders results than those with the physical scale.
+
+Submitted to Physics Letters B ? Work supported by Department of Energy contracts DE-AC02-76ER03069 (MIT)
+
+and DE-AC03-76SF00515 (SLAC).
+
+1. Introduction
+
+The theory of strong interactions, Quantum Chromodynamics (QCD) [1], contains in principle only one free parameter, the strong interaction scale \Lambda . Tests of QCD hence comprise comparisons of measurements of \Lambda in different processes and at different hard scales Q. In practise QCD calculations of observables are performed using finite-order perturbation theory, and calculations beyond leading order depend on the renormalisation scheme employed, implying a scheme-dependent \Lambda . Here we consider calculations performed in the modified minimal subtraction scheme (M S scheme) [2], and use the strong interaction scale \Lambda MS for five active quark flavours. If one knows \Lambda MS one may calculate the strong coupling ffs(Q2) from the solution of the QCD renormalisation group equation [3]. Because of the large data samples taken in e+e\Gamma annihilation at the Z0 resonance, it has become conventional to use as a yardstick ffs(M 2Z ), where MZ is the mass of the Z0 boson; MZ ss 91.2 GeV [4]. Tests of QCD can therefore be quantified in terms of the consistency of the values of ffs(M 2Z ) measured in different experiments.
+
+Measurements of ffs(M 2Z ) have been performed in e+e\Gamma annihilation, hadron-hadron collisions, and in deep-inelastic lepton-hadron scattering experiments, covering a range of Q2 from roughly 1 to 104 GeV2; for recent reviews see [5,6]. Within the errors there is a remarkable degree of consistency between these measurements; an average yields ffs(M 2Z ) = 0:117 \Sigma 0:006 [6], implying that QCD has been tested to a precision of about 5%. This precision is however rather modest compared with the achievement of sub-1% level tests of the electroweak theory [7], and this is due primarily to the theoretical uncertainties that dominate most of the experimental measurements. These uncertainties are due to both the restriction of complete perturbative QCD calculations to low order, and non-perturbative effects that are
+
+2
+
+presently incalculable in QCD. The latter are often called `hadronisation uncertainties' or `higher twist effects'.
+
+For any observable, truncation of the perturbation series at finite order causes a residual dependence on the (scheme-dependent) renormalisation scale _. In the case of e+e\Gamma annihilation, perturbative QCD calculations of hadronic event shape observables, such as jet rates [8] or thrust [9], have been performed exactly only up to second order in ffs [10,11], and have been used extensively by experiments at the PETRA, PEP, TRISTAN, SLC, and LEP colliders for measurement of ffs(M 2Z ) [5,6]. The precision of these measurements is limited predominantly by the lack of knowledge of higher-order contributions, whose effect can, by definition, only be estimated in an ad hoc fashion. A consensus has arisen among experimentalists to estimate this effect from the _-dependence of the \Lambda MS, or equivalently ffs(M 2Z ), values derived from fits of the calculations to the data, see eg. [12], and to quote a corresponding renormalisation scale uncertainty. This procedure, well-motivated in that the _-dependence caused by the truncation of the perturbation series would be cancelled by addition of the higher-order terms, is, however, arbitrary, and is not equivalent to knowledge of the size of the a priori unknown terms. This arbitrariness is manifested in the fact that the experimental collaborations have chosen different ranges over which to vary _; combined with their different choices of observables and averaging methods, this has led to the variation among quoted central values of ffs(M 2Z ) and scale uncertainties shown in Table 1. Despite this variation it is apparent that the scale uncertainty is much larger than both the experimental error and the hadronisation uncertainty, and represents the most serious limitation towards improved precision on measurements of ffs(M 2Z ) using hadronic event shapes in e+e\Gamma annihilation.
+
+3
+
+The renormalisation scheme/scale ambiguity of QCD calculations has been discussed extensively in the literature [17]. The scheme ambiguity can be sidestepped by simply adopting one particular scheme, usually M S, as a reference; a next-to-leading order calculation of an observable in any scheme can then always be translated to the reference scheme [18]. The best resolution of the scale ambiguity would be to reduce its effect by calculating observables to higher order in perturbation theory. Though this is in principle possible, the large number of Feynman diagrams involved renders the task difficult and unattractive. In e+e\Gamma annihilation only two inclusive observables, the hadronic cross-section ratio R [19] and the o/ hadronic decay ratio Ro/ [20], have been calculated exactly up to O(ff3s). For the hadronic event shape observables O(ff3s) contributions have not yet been calculated completely, although progress has been made recently for some observables in the form of all-orders `resummation' of leading and next-to-leading logarithmic contributions in the two-jet (`Sudakov') region [21]. These calculations have been `matched' to the exact O(ff2s) results to yield improved predictions which, though not formally complete at any order beyond the second, have been found to yield a reduced dependence on the renormalisation scale, but at the cost of additional uncertainties relating to ambiguities at O(ff3s) in the matching procedure; see eg. [12]. In this paper we consider alternative approaches which attempt to `optimise' O(ff2s) QCD predictions by choosing the renormalisation scale according to ad hoc criteria.
+
+2. Optimised Perturbation Theory
+
+The O(ff2s) prediction for an infra-red- and collinear-safe observable X can be written:
+
+oeX j 1oe doedX (X; _) = ffs(_)A(X) + ffs2(_)(A(X)2ssb0ln(_2=Q2) + B(X; Nf )) (1)
+
+4
+
+where ffs j ffs=2ss, b0 = (33 \Gamma 2Nf )=12ss, Nf is the number of active quark flavours, Q is the c.m. energy, and A(X) and B(X; Nf ) can be calculated [11]. Explicit dependence on the renormalisation scale _ can be seen in the next-to-leading coefficient. We consider five possibilities for choosing this scale:
+
+(i) Physical scale: _ = Q, the hard scale of the interaction; in e+e\Gamma annihilation at the Z0 resonance this corresponds to _ = MZ . This choice explicitly removes the logarithmic term in Eq. (1).
+
+(ii) Experimentally-optimised scale: _ can be derived from a simultaneous fit of \Lambda MS and _ to experimental data. This is entirely pragmatic and allows the data to `choose' the scale. The resulting \Lambda MS and _ values are highly correlated [22].
+
+(iii) PMS scale: Since the all-orders result would be independent of renormalisation scale, Stevenson suggests that _ be chosen according to the `Principle of Minimal Sensitivity' (PMS) [23], from the solution of:
+
+@oeX
+
+@_ = 0: (2)
+
+(iv) FAC scale: Grunberg suggests that _ be chosen to give the `fastest apparent convergence' (FAC) of the series [24], so that the second-order term in eq. (1) vanishes:
+
+A(X) 2ssb0 ln(_2=Q2) + B(X; Nf ) = 0: (3) At next-to-leading order this is equivalent to the `effective charge' (EC) approach [24,25].
+
+(v) BLM scale: Brodsky, Lepage and Mackenzie advocate [26] that _ be chosen to remove the Nf -dependence of the second-order term in eq. (1):
+
+_ = Q expf3(B(X; Nf = 5) \Gamma B(X; Nf = 4)=2A(X))g (4)
+
+5
+
+As in Quantum Electrodynamics, this effectively incorporates quark and gluon vacuum polarisation contributions into the definition of the strong coupling.
+
+The experimentally-optimised, PMS, FAC and BLM approaches (ii)-(v) are usually collectively termed `optimised' perturbation theory. In the PMS, FAC and BLM cases the optimised scale implicitly depends upon the value of the observable X.
+
+Early theoretical studies applied optimised perturbation theory to jet rates in e+e\Gamma ! hadrons, and employed the PMS approach at Q , 34 GeV [27], and the PMS, FAC and BLM approaches at Q = MZ [28]. Experimentally-optimised scales were also determined for jet rates at Q = 29 GeV [29]. The focus of these early studies was largely on obtaining an improved description of the rate of 4-jet production by O(ff2s) QCD, which, for the physical scale Q, had been shown not to reproduce the PETRA data [8]. Until the SLC/LEP era, the influence of variation of the renormalisation scale on ffs(M 2Z ) measurements was usually not considered, corresponding, de facto, to choice of the physical scale. Early SLC/LEP ffs(M 2Z ) measurements based on jet rates and energy-energy correlations included experimentally-optimised scales [30] as well as the PMS, FAC and BLM methods [31,32]. However, theoretical controversy (see eg. [33]) motivated experimental groups to avoid specific scale-choice prescriptions, and subsequently to adopt the pragmatic approach of quoting an uncertainty on ffs(M 2Z ) by varying the renormalisation scale over a wide range; this approach has itself been criticised by theoreticians [34]. We are not aware of any comprehensive application of optimised perturbation theory to hadronic event shape observables, and of its effect on ffs(M 2Z ) determinations.
+
+Here we present such a study. We have calculated the PMS, FAC and BLM scales for the 15 collinear- and infra-red-safe hadronic event shape observables considered
+
+6
+
+in the SLD ffs(M 2Z ) measurement [12]. Using these scales, as well as the physical and experimentally-optimised scales, we have extracted ffs(M 2Z ) values from comparison with the SLD data. For each scale choice we have studied the scatter among the ffs(M 2Z ) values from the 15 observables, which one expects a priori to be reduced if the optimised perturbation series up to O(ff2s) are indeed better approximations to the all-orders results.
+
+3. Hadronic Event Shape Observables
+
+First we review briefly the hadronic event shape observables. Thrust T is defined [9]
+
+T = max Pi j ~pi \Delta ~nT jP
+
+i j ~pi j ; (5)
+
+where ~pi is the momentum vector of particle i, and ~nT is the thrust axis to be determined. We define o/ j 1 \Gamma T . An axis ~nmaj can be found to maximize the momentum sum transverse to ~nT , and an axis ~nmin is defined to be perpendicular to the two axes ~nT and ~nmaj . The variables thrust-major Tmaj and thrust-minor Tmin are obtained by replacing ~nT in Eq. (5) by ~nmaj or ~nmin, respectively. The oblateness O is then given by [35] O = Tmaj\Gamma Tmin. The C-parameter, C = 3(*1*2+*2*3+*3*1), is derived from the eigenvalues *i (i = 1,2,3) of the infrared-safe momentum tensor [36]:
+
+`aeoe = Pi p
+
+ae i poei = j ~pi jP
+
+i j ~pi j ; (6)
+
+where paei is the ae-th component of the three momentum of particle i, and i runs over all the final state particles.
+
+Events can be divided into two hemispheres, a and b, of invariant mass Ma and Mb, by a plane perpendicular to the thrust axis ~nT . The heavy jet mass MH is then
+
+7
+
+defined [37] MH = max(Ma; Mb). Here we consider the normalized quantity ae j M
+
+2 HE 2 vis ,
+
+where Evis is the visible energy measured in each hadronic event. Jet broadening
+
+measures have been proposed in Ref. [38]. In each hemisphere a, b:
+
+Ba;b = Pi
+
+2a;b j ~pi \Theta ~nT j
+
+2 Pi j ~pi j (7)
+
+is calculated. The total jet broadening BT and wide jet broadening BW are defined by BT = Ba + Bb and BW = max(Ba; Bb), respectively.
+
+For back-to-back two-parton final states o/ , O, C, BT and BW are zero; for planar three-parton final states 0 ^ o/ ^ 1=3, 0 ^ O ^ 1=p3 and 0 ^ C ^ 2=3; spherical events have o/ = 1=2 and C = 1.
+
+Another useful method of classifying the structure of hadronic final states is in terms of jets. Jets may be reconstructed using iterative clustering algorithms in which a measure yij, such as scaled invariant mass, is calculated for all pairs of particles i and j, and the pair with the smallest yij is combined into a single particle. This procedure is repeated until all pairs have yij exceeding a value ycut, and the jet multiplicity of the event is defined as the number of particles remaining. The n-jet rate Rn(ycut) is the fraction of events classified as n-jet, and the differential 2-jet rate is defined [31]
+
+D2(ycut) j R2(ycut) \Gamma R2(ycut \Gamma \Delta ycut)\Delta y
+
+cut : (8)
+
+Several schemes have been proposed comprising different yij definitions and recombination procedures. We have applied the E, E0, P, and P0 variations of the JADE algorithm [8] as well as the Durham (D) and Geneva (G) schemes [39].
+
+Hadronic events can also be classified in terms of inclusive two-particle correlations. The energy-energy correlation (EEC) [40] is the normalized
+
+8
+
+energy-weighted cross section defined in terms of the angle O/ij between two particles i and j in an event:
+
+EEC(O/) j 1N
+
+events\Delta O/ Xevents
+
+O/+ \Delta O/2Z
+
+O/\Gamma \Delta O/2
+
+X
+
+ij
+
+EiEj
+
+E2vis ffi(O/
+
+0 \Gamma O/ij )dO/0; (9)
+
+where O/ (0 ^ O/ ^ 180ffi) is an opening angle to be studied for the correlations, \Delta O/ is the angular bin width, and Ei and Ej are the energies of particles i and j respectively. The shape of the EEC in the central region, O/ , 90ffi, is determined by hard gluon emission. The asymmetry of the EEC (AEEC) is defined as AEEC(O/) = EEC(180ffi \Gamma O/) \Gamma EEC(O/). Another procedure, related to the angle of particle emission, is to integrate the energy within a conical shell of opening angle O/ about the thrust axis. The Jet Cone Energy Fraction (JCEF ) is defined [41]:
+
+J CEF (O/) j 1N
+
+events\Delta O/ Xevents
+
+O/+ \Delta O/2Z
+
+O/\Gamma \Delta O/2
+
+X
+
+i
+
+Ei Evis ffi(O/
+
+0 \Gamma O/i)dO/0; (10)
+
+where O/i = arccos (~pi \Delta ~nT = j ~pi j) is the opening angle between a particle and the thrust axis vector, ~nT , whose direction is defined to point from the heavy jet mass hemisphere to the light jet mass hemisphere. Hard gluon emission contributes to the region corresponding to the heavy jet mass hemisphere, 90ffi ^ O/ ^ 180ffi.
+
+4. Measurement of ffs(M 2Z )
+
+Distributions of these 15 event shape observables were measured [12] using a sample of approximately 50,000 hadronic Z0 decay events collected by the SLD experiment. The data were corrected [12] for detector bias effects such as acceptance, resolution, and inefficiency, as well as for the effects of initial-state radiation and hadronisation, to arrive at `parton-level' distributions.
+
+9
+
+For each observable we employed the EVENT program [42] to calculate the coefficients A and B in Eq. (1). We then fitted the O(ff2s) calculation to the measured parton-level distributions, using first the physical scale _ = MZ , by minimising O/2 w.r.t. variation of \Lambda MS. In each case the fit range was chosen so as to exclude the 2-jet region, where resummation [21] of higher-order perturbative contributions is required [12], as well as the 4-jet region, where the O(ff2s) calculation is not expected to reproduce the data accurately; these ranges are indicated in Fig. 1. Each resulting \Lambda MS value was translated into ffs(M 2Z ); these are shown, with experimental errors [12], in Fig. 2(a). It can be seen that there is considerable scatter among the 15 ffs(M 2Z ) values. Since the same data sample was used to measure each observable, and since the observables are highly correlated, this scatter is very significant. Similar results have been observed previously [16]. The scatter can be interpreted as arising from uncalculated higher-order perturbative QCD contributions, which a priori may be of different sign and magnitude for the different observables. Taking an unweighted average over all 15 ffs(M 2Z ) values, and a corresponding r.m.s. deviation, yields 1:
+
+ffs(M 2Z ) = 0:1265 \Sigma 0:0076 (physical scale): We repeated this procedure using the experimentally-optimised-scale approach. In this case a simultaneous fit of \Lambda MS and _ to each distribution was performed; the fitted value of _ is indicated in Fig. 1. The resulting pairs of \Lambda MS and _ values were translated to ffs(M 2Z ), which are also shown in Fig. 2(a)2. Again, there is large scatter among the 15 ffs(M 2Z ) values. It should be noted that for most observables
+
+1 A weighted average based on experimental errors yields ff
+
+s(M
+
+2
+
+Z) = 0.1273, which agrees withthe unweighted average by less than the statistical error on ff
+
+s(M
+
+2
+
+Z) from a single observable. 2 For the DP 0
+
+2 observable no minimum in O/
+
+2 w.r.t. variation of _ in the range 10\Gamma 4 ^ _2=M 2
+
+Z ^10 2 could be found.
+
+10
+
+the experimentally-optimised scale yields a lower value of ffs(M 2Z ) than the physical scale; this is because the optimised scale is typically smaller than MZ , which usually requires a smaller value of \Lambda MS in order to fit the data [22]. For each observable such a systematic difference is encompassed by the renormalisation scale uncertainty on ffs(M 2Z ) considered in [12], which is also shown in Fig. 2. Taking an unweighted average and r.m.s. deviation yields 1:
+
+ffs(M 2Z ) = 0:1173 \Sigma 0:0071 (experimentally \Gamma optimised scale): As expected from the preceeding discussion, the central value is lower than for the physical scale choice. However, the r.m.s. deviation obtained with experimentally-optimised scales is comparable with that resulting from choice of the physical scale.
+
+For each observable we then calculated the PMS, FAC and BLM optimised scales by solving Eqs. (2), (3) and (4), respectively; in the BLM case the next-to-leading coefficients B were calculated separately using the EVENT program for Nf = 4 and 5. These scales are shown in Fig. 1. For each observable the following points are apparent: 1) the optimised scale depends strongly on the value of the observable; 2) with the exception of O, across the observable range the optimised scales are typically much smaller than the physical scale _ = MZ ; 3) the PMS and FAC scales are almost identical; 4) as one approaches the 2-jet region, corresponding to X=(Xmax \Gamma Xmin) ! 0 in Fig. 1(a), ycut ! 0 in Fig. 1(b), and O/ ! 180ffi in Fig. 1(c), the BLM scale decreases whereas the PMS and FAC scales increase. In the last case the BLM behaviour conforms to the naive expectation that the optimised scale should be
+
+1 A weighted average using experimental errors yields ff
+
+s(M
+
+2
+
+Z) = 0.1166.
+
+11
+
+closely related to the momentum-transfer involved in the physical process, namely the radiation of soft and/or collinear gluons; the behaviour of the PMS and FAC scales in the two-jet limit does not appear to satisfy this expectation.
+
+For each observable we then fitted the O(ff2s) calculation to the measured distribution, using in turn the PMS, FAC and BLM scales, to determine \Lambda MS and hence ffs(M 2Z ). The results are shown in Fig. 2(b); in the case of oblateness an acceptable fit with the BLM scale could not be obtained. For each observable it can be seen that the PMS- and FAC-derived ffs(M 2Z ) values are very similar, whereas, typically, the BLM-derived ffs(M 2Z ) value differs from them. This behaviour follows from the correlation between the scale value (Fig. 1) and the corresponding \Lambda MS required to fit the data [22]. Comparing Figs. 2(a) and 2(b) it can be seen that for a given observable the PMS- and FAC-derived ffs(M 2Z ) values are often, though not always, close to that determined using the experimentally-optimised scale. Furthermore, for most observables the PMS-, FAC- and BLM-derived ffs(M 2Z ) values all lie within the range encompassed by the _-variation considered in [12], though for ae, BW , DP2 , DP 02 , DG2 and (BT ), the BLM- (PMS/FAC-) derived values lie below this range.
+
+The most striking feature of Fig. 2(b) is that, for any of the PMS, FAC or BLM scale choices, there is considerable scatter among the ffs(M 2Z ) values from all the observables. In each case, taking an unweighted average over all the ffs(M 2Z ) values and a corresponding r.m.s. deviation yields 1:
+
+ffs(M 2Z ) = 0:1123 \Sigma 0:0079 (PMS scale) 1 Weighted averages based on experimental errors yield central ff
+
+s(M
+
+2
+
+Z ) values of 0.1120 (PMS),0.1120 (FAC) and 0.1086 (BLM).
+
+12
+
+ffs(M 2Z ) = 0:1123 \Sigma 0:0080 (FAC scale) ffs(M 2Z ) = 0:1088 \Sigma 0:0075 (BLM scale): In each case the r.m.s. deviation is comparable with that resulting from choice of the physical scale, or of the experimentally-optimised scale.
+
+5. Summary and Conclusions
+
+We have determined ffs(M 2Z ) by fitting O(ff2s) QCD predictions of 15 hadronic event shape observables to e+e\Gamma annihilation data at the Z0 resonance collected by the SLD experiment. We used five prescriptions for resolving the renormalisation scale ambiguity that arises in the truncated perturbative calculation, namely the physical, experimentally-optimised, PMS-, FAC- and BLM-optimised scales. The average ffs(M 2Z ) value, taken over all the observables, differs among these five procedures, which can be understood from the correlation of ffs(M 2Z ) with the renormalisation scale value [22]. More importantly, the scatter among the ffs(M 2Z ) values is equally large for all five prescriptions, the r.m.s. deviation being about 0.008.
+
+We conclude that the optimised perturbation theory approach does not reduce the scatter among the ffs(M 2Z ) values determined from different observables. If such scatter is interpreted as arising from the effects of the uncalculated higher-order perturbative QCD contributions, then in the cases we have investigated these contributions appear to be as large for optimised scales as for the physical scale. Therefore, notwithstanding the possible merits of optimised perturbation theory from a theoretical point-of-view, we have demonstrated that this approach does not appear to offer any numerical advantage in terms of the accuracy of perturbative QCD predictions of e+e\Gamma event shapes. This is in agreement with the
+
+13
+
+expectations of a recent study by Barclay and Maxwell [18], who advocate the use of renormalisation-scheme-invariant quantities as probes of the size of uncalculated higher-order QCD effects.
+
+We thank our colleagues in the SLD Collaboration for support for this analysis. We also thank S. Brodsky, L. Dixon and C. Maxwell for helpful discussions and for their encouragement of this work.
+
+14
+
+REFERENCES 1. H. Fritzsch, M. Gell-Mann, H. Leutwyler, Phys. Lett. B47 (1973) 365.
+
+D.J. Gross, F. Wilczek, Phys. Rev. Lett. 30 (1973) 1343. H.D. Politzer, Phys. Rev. Lett. 30 (1973) 1346. 2. W.A. Bardeen, A.J. Buras, D.W. Duke, T. Muta, Phys. Rev. 18 (1978) 3998.
+
+D.W. Duke, Rev. Mod. Phys. 52 (1980) 199. 3. L. Montanet et al., Phys. Rev. D50 (1994) 1297. 4. L. Montanet et al., Phys. Rev. D50 (1994) 1191. 5. B.R. Webber, Proc. XXVII International Conference on High Energy Physics,
+
+July 20-27 1994, Glasgow, Scotland, IoP Publishing, Eds. P.J. Bussey, I.G. Knowles, p. 213. 6. S. Bethke, Nucl. Phys. B (Proc. Suppl.) 39B, C (1995) 198. 7. P.B. Renton, Oxford preprint OUNP-95-20 (1995); to appear in Proc. 17th
+
+International Symposium on Lepton-Photon Interactions, August 10-15 1995, Beijing, China. 8. JADE Collab., S. Bethke et al., Phys. Lett. B213 (1988) 235.
+
+TASSO Collab., W. Braunschweig et al., Phys. Lett. B214 (1988) 286. 9. E. Farhi, Phys. Rev. Lett. 39 (1977) 1587. 10. R.K. Ellis, D.A. Ross, A.E. Terrano, Phys. Rev. Lett. 45 (1980) 1226; Nucl.
+
+Phys. B178 (1981) 421. G. Kramer, B. Lampe, Z. Phys. C39 (1988) 101; Fortschr. Phys. 37 (1989) 161. 11. Z. Kunszt et al., CERN 89-08 Vol I, (1989) p. 373. 12. SLD Collab., K.Abe et al., Phys. Rev. D51 (1995) 962. 13. ALEPH Collab., D.Decamp et al., Phys. Lett. B255 (1991) 623. 14. DELPHI Collab., P. Abreu et al., Z. Phys. C54 (1992) 55.
+
+15
+
+15. L3 Collab., B. Adeva et al., Phys. Lett. B248 (1990) 464; Phys. Lett. B257
+
+(1991) 469. 16. OPAL Collab., P.D. Acton et al., Z. Phys. C55 (1992) 1. 17. See eg. D.W. Duke, R.G. Roberts, Phys. Rep. 120 (1985) 275. 18. D.T. Barclay, C.J. Maxwell, M.T. Reader, Durham preprint DTP-93/68 (1993). 19. S.G. Gorishny, A.L. Kataev, S.A. Larin, Phys. Lett. B259 (1991) 144.
+
+L.R. Surguladze, M.A. Samuel, Phys. Rev. Lett. 66 (1991) 560; ibid 66 (1991) 2416. 20. E. Braaten, S. Narison, A. Pich, Nucl. Phys. B373 (1992) 581. 21. S. Catani, L. Trentadue, G. Turnock, and B.R. Webber, Nucl. Phys. B407
+
+(1993) 3. 22. P.N. Burrows, H. Masuda, Z. Phys. C63 (1994) 235. 23. P.M. Stevenson, Phys. Rev. D23 (1981) 2916. 24. G. Grunberg, Phys. Rev. D29 (1984) 2315. 25. A. Dhar, V. Gupta, Phys. Rev. D29 (1984) 2822. 26. S.J. Brodsky, G.P. Lepage, P.B. Mackenzie, Phys. Rev. D28 (1983) 228. 27. G. Kramer, B. Lampe, Z. Phys. C39 (1988) 101. 28. G. Kramer, B. Lampe, Z. Phys. A339 (1991) 189. 29. S. Bethke, Z. Phys. C43 (1989) 331. 30. OPAL Collab., M.Z. Akrawy et al., Phys. Lett. B235 (1990) 389.
+
+DELPHI Collab., P. Abreu et al., Phys. Lett. B247 (1990) 167. OPAL Collab., M.Z. Akrawy et al., Phys. Lett. B252 (1990) 159. 31. Mark II Collab., S. Komamiya et al., Phys. Rev. Lett. 64 (1990) 987. 32. OPAL Collab., M.Z. Akrawy et al., Z. Phys. C49 (1991) 375.
+
+16
+
+33. H.J. Lu, S.J. Brodsky, U. of Md. PP # 93-087 (1993).
+
+P.M. Stevenson, DOE-ER-40717-2 (1993). 34. D.T. Barclay, C.J. Maxwell, Durham preprint DTP-92/26 (1992). 35. MARK-J Collab., D. P. Barber et al., Phys. Lett. B89 (1979) 139. 36. G. Parisi, Phys. Lett. B 74 (1978) 65.
+
+J. F. Donoghue, F. E. Low, and S. Y. Pi, Phys. Rev. D20 (1979) 2759. 37. L. Clavelli, Phys. Lett. B85 (1979) 111. 38. S. Catani, G. Turnock, and B. R. Webber, Phys, Lett. B295 (1992) 269. 39. S. Bethke et al., Nucl. Phys. B370 (1992) 310. 40. C. L. Basham et al., Phys. Rev. Lett. 41 (1978) 1585; Phys Rev.
+
+D17 (1978) 2298; Phys. Rev. D19 (1979) 2018. 41. Y. Ohnishi and H. Masuda, SLAC-PUB-6560 (1994); submitted to Phys. Rev.
+
+D. 42. EVENT program supplied by P. Nason.
+
+17
+
+Errors Experiment Observables ffs(M 2Z ) Exp. Had. Scale Reference SLD T , O, C, M 2h , BT , BW , 0.123 \Sigma 0.003 \Sigma 0:002 \Sigma 0.011 [12]
+
+DE2 , DE02 , DP2 , DP 02 , DD2 , DG2 , EEC, AEEC, JCEF ALEPH DE02 0.121 \Sigma 0.004 \Sigma 0:007 a) +0:007\Gamma 0:012 [13] DELPHI T , O, C, M 2h , M 2d , DE02 , 0.113 \Sigma 0.002 \Sigma 0.003 \Sigma 0:006 [14]
+
+EEC, AEEC L3 b) RE3 , RE03 , EEC, AEEC 0.118 \Sigma 0.004 \Sigma 0:004 \Sigma 0:006 [15] OPAL T , O, C, Mh, Md, M (M)h , 0.122 \Sigma 0:002 c) - +0:006\Gamma 0:005 d) [16]
+
+M (M)d , DE2 , DE02 , DP2 , DD2 , AEEC, PTEC
+
+Table 1. ffs(M 2Z ) and errors from O(ff2s) QCD fits to hadronic event shape observables in Z0 decays. For each experiment results are taken from the most recent ffs determination based on event shapes using O(ff2s) calculations. Definitions of the observables listed in the second column can be found in the references shown in the last column. The fourth column shows experimental errors, the fifth column hadronisation uncertainties and the sixth column scale uncertainties. Notes: a) uncertainty due to combined `higher orders and hadronisation effects' [13], not including the scale uncertainty; b) we averaged the separate L3 measurements from jet rates and the EEC and AEEC; c) we estimated this value from Table 4 of Ref. [16]; d) Ref. [16] quotes a total uncertainty of +0:006\Gamma 0:005 based on a weighted average over all 13 observables, taking correlations into account; subtracting the estimated experimental error in quadrature yields a theoretical uncertainty of +0:006\Gamma 0:005, which includes both hadronisation and scale uncertainties.
+
+18
+
+Figure Captions FIG. 1. Optimised values of the renormalisation scale plotted as f = _2=s. Experimentally-optimised scale (horizontal dotted line); PMS and FAC (solid), and BLM (dashed) scales. Differences between the PMS and FAC scales cannot be resolved in this figure. In (a) the scale is plotted vs. the dimensionless variable X=(Xmax \Gamma Xmin), where X = o/ , ae, BT , BW , O or C, and Xmax (Xmin) is the maximum (minimum) kinematically-allowed value of X. In (b) the scale is plotted vs. ycut for D2(yc) calculated with the E, E0, P, P0, D and G jet-finding schemes. In (c) the scale is plotted vs. O/ for the EEC, AEEC and JCEF (see text). The range of each observable used in the fits to determine ffs(M 2Z ) is indicated by vertical dashed lines.
+
+FIG. 2. Values of ffs(M 2Z ) from QCD fits to the data using: (a) physical (solid circles), and experimentally-optimised (open circles) scales; (b) PMS- (solid circles), FAC- (solid triangles), and BLM- (open squares) optimised scales. In all cases only experimental error bars are shown. For each observable the shaded region indicates the total uncertainty estimated in Ref. [12], dominated by the contribution from wide variation of the renormalisation scale.
+
+19
+

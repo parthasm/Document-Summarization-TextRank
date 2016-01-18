@@ -1,0 +1,986 @@
+
+
+ 24 Mar 95
+
+NYU-TH-95/03/01
+
+March 1995
+
+Leading Vacuum-Polarization Contributions to the Relation
+
+Between Pole and Running Masses
+
+Kostas Philippides and Alberto Sirlin
+
+Department of Physics, New York University
+
+4 Washington Place New York, NY 10003, USA
+
+Abstract The vacuum-polarization contributions of O(bn
+
+\Gamma 1ffns ) to the relation between the pole-mass
+
+M of a quark and the MS parameter ^m(M ) are evaluated by a straightforward method. They are found to approximate very well the exact answer, known through O(ff2s), thus providing a simple physical interpretation. Results are also given for the cases when the vacuum-polarization contributions are defined by the pinch technique prescription and specific background field gauges. Assuming that the terms n * 3 are also dominant, we evaluate Mt= ^mt(Mt), compare the results with those of optimization methods, briefly discuss Mb= ^mb(Mb), and estimate the irreducible errors in the perturbative series. Implications for the electroweak amplitude \Delta ae are emphasized. An update of the QCD corrections to this amplitude, including an estimate of the theoretical error, is given.
+
+1 Leading Vacuum-Polarization Contributions to M= ^m(M ) The relation between the pole and running quark masses is a question of considerable practical and conceptual interest. For example, in electroweak physics it has been recently observed [1-2] that the QCD corrections to the dominant mt-dependent contributions are very small through O(ff2s ) when the amplitudes are expressed in terms of ^mt(Mt) (henceforth M and
+
+^m denote the pole and the MS running masses, respectively). On the other hand, the pole mass is the concept most closely related to mass measurements based on kinematical considerations [3]. The pole mass is also employed in many calculations of the semileptonic and Higss-boson decays, and in the evaluation of ^m(M ) for the b and c quarks [4]. Recently, there has also been considerable interest in studies of contributions to the pole mass associated with renormalons, leading to the conclusion that there is an irreducible uncertainty , \Lambda QCD in the perturbative definition of this concept [5-11].
+
+For the ratio M= ^m(M ) there is an important exact perturbative expansion through O(ff2s), due to Gray, Broadhurst, Grafe, and Schilcher [12] :
+
+M ^m(M ) = 1 +
+
+4 3 a(M ) + Ka
+
+2(M ) ; (1)
+
+where a(_) j ffs(_)=ss and K is given by [12,13]
+
+K = 16:0065 \Gamma nf 1:0414 + 0:1036 + 43
+
+nfX
+
+i=1 \Delta `
+
+Mi
+
+M ' : (2)
+
+The first term in Eq.(2) corresponds to the quenched approximation, while the second and the third are the vacuum polarization contributions of nf massless quarks and the quark of mass M , respectively. The \Delta terms represent the mass corrections associated with nf "light quarks" with masses Mi ! M (\Delta (r)=r is roughly constant, being equal to ss
+
+2
+
+8 at r = 0, ss 1:04
+
+at r ss 0:3 and ss
+
+2\Gamma 3
+
+8 at r = 1). Numerically, K is quite large : 10.96 for the top, 12.5 for the
+
+bottom, and 13.2 for the charm quarks, respectively.
+
+Recently [1-2], Eq.(1) in the top quark case has been studied using the BLM [14], PMS
+
+1
+
+[15], and FAC [16] optimization methods, neglecting the small \Delta terms. In particular, for the BLM procedure, one has
+
+Mt ^mt(Mt) = 1 +
+
+4 3a(_
+
+\Lambda t ) \Gamma 1:072 a2(_\Lambda t ) ; (3)
+
+with _
+
+\Lambda t = 0:0960Mt. When applied to Eq.(1) in the top quark case, the three optimization
+
+methods give remarkably close answers, but at the same time they strongly suggest that the higher order terms in Eq.(1) have large and increasing coefficients, , 102 and , 103 in the O(a3) and O(a4) contributions, respectively. The most rigorous way to settle this issue would be to evaluate exactly the next term in Eq.(1). However, because of the difficulty of exact multi-loop calculations, prospects for this appear at present to be remote1. The question naturally arises as to whether there is a simple way to understand large and potentially dominant contributions to Eq.(1) occurring in O(a2) and higher. Following the QED example, a natural idea is to incorporate the large effects of one-loop vacuum-polarization bubbles (see Fig.1), which may be interpreted as a renormalization of (g0s )2, the bare strong coupling constant present in the basic one-loop contribution. However, unlike the QED case, the concept of vacuum-polarization is ill-defined in non-abelian theories. The reason is that the familiar self-energy loops, associated with vacuum polarization, are gauge dependent. To underscore the magnitude of this problem, we recall that in the R, gauges the logarithmic contributions to the one-loop diagrams do not coincide with those associated with the running of ffs. A significant improvement can be achieved by identifying the one-loop diagrams in Fig.1 with the pinch technique (PT) self-energy b\Pi (k2) [17]. The PT is an algorithm that automatically re-arranges one-loop R, amplitudes into ,-independent contributions endowed with desirable theoretical features. In particular, the logarithms associated with the running of ffs, as well as the full fermionic contribution, are automatically included inb \Pi (k2). Defining the self-energy tensor as \Gamma i times the associated Feynman diagrams, writing
+
+1Private communication from D.J. Broadhurst.
+
+2
+
+b\Pi _*(k) = (k2g_* \Gamma k_k* ) b\Pi (k2) , and evaluating the PT self-energy b\Pi (k2) in dimensional regularization, we haveb
+
+\Pi (k2) = 6(g0s )2(\Gamma k2)
+
+\Gamma ffl(4ss)ffl\Gamma 2\Gamma (ffl)B(2 \Gamma ffl; 2 \Gamma ffl) ^ 11 \Gamma 7ffl
+
+1 \Gamma ffl \Gamma
+
+2 3 nf * ; (4)
+
+where k is the external gluon momentum, ffl = 2 \Gamma D=2, D is the dimension of space-time, and B is Euler's Beta function. The first term in Eq.(4) is the ,-independent gluonic contribution obtained by adding the pinch parts to the usual self-energy, while the second represents the fermionic terms (nf is the number of light quarks regarded as massless). Alternatively, Eq(4) can be written in the formb
+
+\Pi (k2) = 6(g0s )2(\Gamma k2)
+
+\Gamma ffl(4ss)ffl\Gamma 2\Gamma (ffl)B(2 \Gamma ffl; 2 \Gamma ffl)b ^1 + 4
+
+b
+
+ffl 1 \Gamma ffl * ; (5a)
+
+where b = 11 \Gamma 2nf =3 is the first coefficient of the SU(3)c fi\Gamma function. In the ffl ! 0 limit, using Eq.(8) and implementing the MS renormalization, this becomesb
+
+\Pi (k2)jMS = ffs(_)4ss b "ln(\Gamma _
+
+2
+
+k2 ) +
+
+5 3 +
+
+4
+
+b # : (5b)
+
+The mechanism whereby pinching on the relevant Feynman diagrams generates the lowest- order b\Pi (k2) contribution to the quark self-energy has been shown in Ref.[18]. It has been recently pointed out [19] that the PT self-energy coincides with the background-field-gauge (BFG) self-energy \Pi (k2; ,Q)BF G evaluated for ,Q = 1, where ,Q is the gauge parameter associated with the quantum loops. At the one-loop level, and for arbitrary ,Q, the latter is given by2
+
+\Pi (k2; ,Q)BF G = 6(g0s )2(\Gamma k2)
+
+\Gamma ffl(4ss)ffl\Gamma 2\Gamma (ffl)B(2 \Gamma ffl; 2 \Gamma ffl)
+
+\Theta b f1 + (4ffl=b(1 \Gamma ffl)) [1 \Gamma (1 \Gamma ,Q)(7 + ,Q)(3 \Gamma 2ffl)=16]g : (6a) In the ffl ! 0 limit, employing again Eq.(8) and the MS renormalization, Eq.(6a) reduces to [20]
+
+2An expression equivalent to Eq.(6a) has been also derived by G. Weiglein (private communication).
+
+3
+
+\Pi (k2; ,Q)jMSBF G = ffs(_)4ss b (ln(\Gamma _
+
+2
+
+k2 ) +
+
+5 3 +
+
+4
+
+b ^1 \Gamma
+
+3 16 (1 \Gamma ,Q)(7 + ,Q)*) : (6b)
+
+Eqs.(5) and (6) indeed coincide for ,Q = 1, as well as for ,Q = \Gamma 7 [20]. From Eq.(6b) we see that the BFG self-energy also automatically includes the logarithms associated with the running of ffs, but the non-logarithmic terms depend now on the gauge parameter ,Q. Thus, the concept of vacuum-polarization is also undefined in the BFG approach. A unique one-loop answer emerges, however, if one applies the PT within the BFG amplitudes [20], in which case one obtains once more b\Pi (k2).
+
+Figure 1 Vacuum polarization contributions to the quark self-energy , involving a chain of one-loop diagrams. Each bubble can be identified with the PT or BFG one-loop gluon self-energy (see text).
+
+In the first part of our analysis we retain only contributions of O(bn
+
+\Gamma 1ffsn(_)) (n = 1; 2; :::)
+
+to M= ^m(_), where the expansion is mathematically defined so that there is no residual nf \Gamma dependence in the corresponding cofactors. The ab-initio rationale is that b is large
+
+4
+
+and that these contributions are uniquely associated with the chains of one-loop bubbles depicted in Fig.1, while terms of O(blffsn) (l ^ n \Gamma 2) also arise from other diagrams. A more powerful a-posteriori argument is that, as we will explicitly show, the retained contributions approximate very well, through O(ffs2), the exact result of Eq.(1). Consistently with this approximation, we first neglect the (1=b) terms in the last factors of Eqs.(5a) and (6a), in which limit these expressions coincide. This approximation is mathematically equivalent to an approach sometimes referred to as "naive non-abelianization"[8]. The effect of retaining the specific (1=b) contributions in Eq.(5a), and in Eq.(6a) for special ,Q values, will be discussed later.
+
+The sum of contributions involving n = 1; 2; ::::; 1 bubbles is a geometric series that renormalizes (g0s )2 according to
+
+(g0s )2 \Gamma ! (g
+
+0s )2
+
+1 \Gamma b\Pi (k2) : (7) In order to express this amplitude in terms of renormalized parameters, we write
+
+(g0s )2 = 4ss _
+
+2efl
+
+4ss !
+
+ffl ff
+
+s(_)
+
+Z3 ; (8)
+
+so that the r.h.s. of Eq.(7) becomes
+
+(4ssffs(_)=Z3) (_2efl =4ss)fflh 1 \Gamma 3 (bffs(_)=2ssZ3) (\Gamma _2efl=k2)ffl \Gamma (ffl)B(2 \Gamma ffl; 2 \Gamma ffl)i : (9)
+
+In the MS renormalization, Z3 is adjusted to cancell the 1=ffl singularity in the second term of the denominator. Thus, for the diagrams under consideration,
+
+Z3 = 1 + ba(_)4ffl : (10) Setting \Gamma k2 = ^2, we note parenthetically that in the ffl ! 0 limit Eq.(7) reduces to ffs(e
+
+\Gamma 5=6^),
+
+the V-scheme running coupling [14].
+
+We now turn our attention to the mass renormalization
+
+M \Gamma m0 = \Sigma (p= = M ) ; (11)
+
+5
+
+where m0 is the bare mass and \Sigma the quark self-energy. At the one-loop level we have
+
+\Sigma (p= = M ) = \Gamma i 43 Z d
+
+nk
+
+(2ss)n
+
+(g0s )2(2M \Gamma k=(n \Gamma 2))
+
+k2(k2 + 2p \Delta k) p= =M ; (12)
+
+where, following the derivation of Eqs.(1,2) [12], we have neglected width effects. In order to absorb the vacuum polarization contributions, the next step is to replace (g0s )2 in Eq.(12) by the expression of Eq.(9), expand the geometric series and carry out the n-dimensional integration. The result is
+
+\Sigma (p= = M ) = 4Mb
+
+1X
+
+n=1
+
+ba(_)
+
+4fflZ3 !
+
+n f (ffl; nffl)
+
+n ; (13)
+
+where
+
+f (ffl; y) j i _
+
+2
+
+M2 j
+
+y [6eflffl\Gamma (1 + ffl)B(2 \Gamma ffl; 2 \Gamma ffl)] y
+
+ffl \Gamma 1
+
+\Theta 2eflffl\Gamma (1 + y)\Gamma (1 \Gamma 2y)(1 \Gamma y)(1 \Gamma 2ffl3 )=\Gamma (3 \Gamma ffl \Gamma y) : (14)
+
+Recalling Eq.(10), we now expand (1=Z3)n in powers of O/(_) j ba(_)=4ffl and re-arrange the double summation to read
+
+\Sigma (p= = M ) = 4Mb
+
+1X
+
+n=1 (O/(_))
+
+n (n \Gamma 1)! nX
+
+l=1
+
+(\Gamma 1)n
+
+\Gamma l
+
+l!(n \Gamma l)! f (ffl; lffl) : (15)
+
+Next we substitute M ! m0 in the overall cofactor, as the difference involves terms of O(blffns ) (l ^ n \Gamma 2) which are beyond our approximation. Inserting the result in Eq.(11), performing the MS -renormalization
+
+m0 = ^m(_)Z(m) ; (16) where
+
+Z(m) = 1 + a(_) Z1ffl + a2(_) ` Z22ffl2 + Z21ffl ' + ::: ; (17)
+
+and dividing by ^m(_) we find
+
+M ^m(_) = Z(m) "1 +
+
+\Sigma (p= = M )
+
+M # : (18)
+
+6
+
+The counterterms present in Z(m) are important to cancel ffl singularities but it is easy to see that they only contribute finite terms of O(blffns ) (l ^ n \Gamma 2). For example, Z1 = O(1) and contributes finite terms of O(a2) but not O(ba2); Z22 and Z21 contain terms of O(b) and contribute finite terms of O(ba3) but not O(b2a3). Thus, in the finite terms of O(bn
+
+\Gamma 1an) the
+
+ffln contained in O/n(_) are cancelled by ffl factors from f (ffl; lffl). The l summation in Eq.(15) can be carried out by expanding
+
+f (ffl; lffl) =
+
+nX
+
+p=0 c
+
+p(ffl)(lffl)p + O(ffln+1) ; (19)
+
+interchanging the l and p summations so that
+
+nX
+
+l=1
+
+(\Gamma 1)n
+
+\Gamma l
+
+l!(n \Gamma l)! f (ffl; lffl) =
+
+nX
+
+p=0 c
+
+p(ffl)fflp
+
+nX
+
+l=1
+
+(\Gamma 1)n
+
+\Gamma l
+
+l!(n \Gamma l)! l
+
+p + O(ffln+1) ; (20)
+
+and using the identity
+
+nX
+
+l=1
+
+(\Gamma 1)n
+
+\Gamma l
+
+l!(n \Gamma l)! l
+
+p = (\Gamma 1)n+1
+
+n! ffip0 + ffipn (p ^ n) : (21)
+
+Thus
+
+nX
+
+l=1
+
+(\Gamma 1)n
+
+\Gamma l
+
+l!(n \Gamma l)! f (ffl; lffl) =
+
+(\Gamma 1)n+1
+
+n! c0(ffl) + cn(ffl)ffl
+
+n + O(ffln+1) : (22)
+
+The terms of O(ffln+1) give vanishing contributions to Eq.(15) as ffl ! 0. Eq.(21) can be proved by applying the differential operator ix ddx j
+
+p to both sides of the binomial expansion
+
+(1 \Gamma x)n =
+
+nX
+
+l=0 `
+
+nl ' (\Gamma 1)lxl ; (23)
+
+and then setting x = 1. Inserting Eq.(22) into Eqs.(15,18), we have
+
+M ^m(_) = Z(m) (1 +
+
+4
+
+b
+
+1X
+
+n=1
+
+a(_)b
+
+4 !
+
+n
+
+(n \Gamma 1)! "cn(ffl) + (\Gamma 1)
+
+n+1
+
+n!
+
+c0(ffl)
+
+ffln #) : (24)
+
+From Eqs.(14,19) it follows that
+
+c0(ffl) = f (ffl; 0) = 1 \Gamma 2ffl=31 \Gamma ffl !
+
+2 1 \Gamma 2ffl
+
+1 \Gamma ffl=2 !
+
+\Gamma (1 \Gamma 2ffl) \Gamma (1 + ffl)\Gamma 3(1 \Gamma ffl) : (25)
+
+7
+
+Expanding
+
+f (ffl; 0) = X
+
+r=0 f
+
+rfflr ; (26)
+
+and neglecting terms of O(blffsn) (l ^ n \Gamma 2), only fn and cn(0) contribute to Eq.(24) as ffl ! 0. Thus
+
+M ^m(_) = 1 +
+
+4
+
+b Xn=1
+
+a(_)b
+
+4 !
+
+n
+
+(n \Gamma 1)! "cn(0) + (\Gamma 1)
+
+n+1
+
+n! fn# ; (27)
+
+where the ffl singularities have explicitly cancelled. The cn(0) can be obtained by using again Eqs.(14,19) :
+
+f (0; y) = _
+
+2
+
+M 2 e
+
+5=3!
+
+y \Gamma (1 + y)\Gamma (1 \Gamma 2y)
+
+(1 \Gamma y=2)\Gamma (1 \Gamma y) = Xn=0 cn(0)y
+
+n : (28)
+
+We note that the cn(0) depend on _2=M 2. It is interesting to observe that, using Eq.(28), the Borel transform of the first series in Eq.(29), involving cn(0), can be expressed in closed analytic form. In fact, it is given by
+
+1 ss
+
+1X
+
+n=0
+
+bt 4ss !
+
+n
+
+cn+1(0) = 1ss [f (0; u) \Gamma 1]u = 1ss " _
+
+2
+
+M 2 e
+
+5=3!
+
+u 2(1 \Gamma u)\Gamma (u)\Gamma (1 \Gamma 2u)
+
+\Gamma (3 \Gamma u) \Gamma
+
+1 u # ;
+
+where u = bt=4ss and t is the Borel parameter. This expression exhibits the characteristic infrared renormalon pole at u = 1=2, and has been already given by Beneke and Braun in the leading 1=nf approximation (cf. Eq.(3.13) of Ref. [7]). We have not found, however, a simple closed form for the Borel transform of the second series, involving fn. For our purposes, which is to evaluate the coefficients of an, Eq.(27) suffices.
+
+In summary, the terms of O(bn
+
+\Gamma 1ffsn) are given by Eq.(27). The coefficients fn and cn(0)
+
+are obtained form Eqs.(25,26,28). Setting _ = M , Eq.(27) can be expressed as
+
+M ^m(M ) = 1 +
+
+4a(M )
+
+3
+
+1X
+
+n=0
+
+ba(M )
+
+2 !
+
+n
+
+n!An ; (29)
+
+where
+
+An = 32n+2 "cn+1(0) + (\Gamma 1)
+
+n
+
+(n + 1)! fn+1# : (30)
+
+8
+
+The coefficients An are given in Table 1 up to n = 10. We note that the An are remarkably constant for n * 1 and converge to a value ss 2:301 very close to e5=6, a factor associated with the residue of the infrared renormalon pole. In particular, A1 = ss2=8 + 71=64. The second order term is 2bA1a2=3 = 1:56205ba2.Recalling that b contains \Gamma 2nf =3, we see that the coefficient of nf in the a2 term is -1.0414, in agreement with Eq.(2). This is a welcome check, as our calculation should reproduce this factor exactly. For the top, bottom and charm cases our approximate evaluation of the a2 term leads to coefficients 11.98, 13.02, and 14.06, respectively, to be compared with 10.90, 11.94, and 12.99 from Eq.(2) when the small \Delta corrections are neglected. We see that the n = 0; 1 terms in Eq.(29) approximate very well the exact results, thus providing a simple physical interpretation of these important but technically complex corrections.
+
+At this stage we return to Eq.(5a), and examine the effect of retaining the specific 1=b term contained in the last factor. It is easy to see that the only changes are an additional factor [1 + 4ffl=b(1 \Gamma ffl)]
+
+\Gamma 1 in the r.h.s. of Eq.(25) and the replacement e5=3 ! e5=3+4=b in Eq.(28).
+
+This leads to an expansion of the same form as Eq.(29) with An ! Pn, where the first ten coefficients are given in Table 2 in the top quark case (b = 23=3). We see that the Pn are asymptotically larger than the An by e2=b ss 1:30, with smaller differences for low n values. In particular, the O(a2(M )) coefficient in M= ^m(M ) is now 1:56205 b + 9=4. It contains again the exact nf term and, in the top-quark case, amounts to 14.23, which is 19% larger that the result 11.98 from Eq.(29) and 30% larger than the value 10.90 from the exact calculation of Eqs.(1,2). Thus, the Pn expansion provides a rough aprroximation to Eqs.(1,2) through O(ffs2), but it is not nearly as precise as Eq.(29). It is also interesting to inquire whether the aprroximation of neglecting the 1=b terms in Eqs.(5a) or (6a) corresponds exactly to a specific choice of gauge in the BFG formulation. We note that the gauges ,Q = \Gamma 3 \Sigma 4q2=3 reduce the expression between curly brackets in Eq.(6a) to 1 + (8=3b)(ffl2=(1 \Gamma ffl)). As the
+
+9
+
+cofactor of this expression in Eq.(5a) has only a 1=ffl singularity, in four dimensions these particular choices of ,Q correspond, in fact, to that approximation. However, the presence of the residual ffl2 contributions shows that in n\Gamma dimensions there exists no BFG that exactly reproduces the "naive non-abelianization" prescription. The retention of this ffl2\Gamma term does not affect Eq.(28), but it introduces an additional factor [1 + 8ffl2=3b(1 \Gamma ffl)]
+
+\Gamma 1 in Eq.(25).
+
+This alters the fr parameters and leads to an expansion of the same form as Eq.(29), with slightly modified coefficients. In particular the O(a2(M )) coefficient in M= ^m(M ) becomes 1:56205 b + 1=3. On the other hand, as the cn(0) are not affected, the asymptotic behaviour is the same as in the An expansion.
+
+As a further application of Eq.(6a), we note that any choice of gauge with ,Q * 1 will increase the coefficient of the ffl term in the expression between curly brackets, relative to the PT result, and therefore lead to asymptotically larger coefficients. In the following we consider three interesting cases in which the opposite occurs, namely ,Q = 0 (which may be referred to as the transverse or Landau BFG), ,Q = \Gamma 3 and a specific gauge ,
+
+\Lambda Q to be defined later. The
+
+,Q = \Gamma 3 gauge corresponds to the minimum of the ffl cofactor in Eq.(6a) and, therefore, to expansion parameters with the smallest asymptotic behaviour. By a curious coincidence, in four dimensions the ,Q = \Gamma 3 BFG self-energy also coincides with the one-loop correction to the interaction potential between two infinitely heavy quarks (see discussion after Eq.(31)). The ,
+
+\Lambda Q gauges are defined so that the O(a2(M )) contribution in Eq.(29) coincides with the
+
+exact value K (Eq.(2)) when the small \Delta \Gamma terms are neglected. In other words, the complete O(a2(M )) correctios to M= ^m(M ) is identified as a self-energy contribution. This can be readily implemented by noting that the contribution from Eq.(6a) to the a2(M ) coefficient in Eq.(29) is 1:56205 b + (9 \Gamma 23c=3)=4, where c = 3(1 \Gamma ,Q)(7 + ,Q)=16, while Eq.(2) with high precision can be rewritten as 1:56205b \Gamma 1:07249. Thus, c = 1:73347, which corresponds to ,
+
+\Lambda Q ss \Gamma 5:599 or \Gamma 0:401. We also note that in the general ,Q gauge, the asymptotic behaviour
+
+10
+
+of the corresponding coefficients in Eq.(29) is e5=6+2(1
+
+\Gamma c)=b.
+
+For ,Q = 0, the factor between curly brackets in Eq.(6a) reduces to the expression 1 \Gamma [ffl=b(1 \Gamma ffl)][5=4 \Gamma 7ffl=2]. This introduces a modification e5=3 ! e5=3
+
+\Gamma 5=4b in Eq.(28) and
+
+an additional factor [1 \Gamma (ffl=b(1 \Gamma ffl))(5=4 \Gamma 7ffl=2)]
+
+\Gamma 1 in Eq.(25). The corresponding Ln coefficients are shown in Table 2 for the top quark case. We see that the asymptotic behaviour is reduced by a factor e
+
+\Gamma 5=8b = 0:922 relative to that in Eq.(29). On the other hand, the
+
+O(a2(M )) coefficient in M= ^m(M ) becomes 1:56205b \Gamma 0:26563, which is very close to the result in Eq.(29).
+
+For general ,Q, we have the modification e5=3 ! e5=3+4(1
+
+\Gamma c)=b in Eq.(28) and an additional
+
+factor f1 + [4ffl=b(1 \Gamma ffl)][1 \Gamma c(1 \Gamma 2ffl=3)]g
+
+\Gamma 1 in Eq.(25). As mentioned before, in the ,\Lambda Q case
+
+c = 1:73347 and we obtain the B
+
+\Lambda n coefficients shown in Table 2 for the top quark. The
+
+asymptotic behaviour is now reduced by e
+
+\Gamma 1:467=b = 0:826 relative to that in Eq.(29). The ,\Lambda Q
+
+prescription has the interesting feature of incorporating into Eq.(29) the complete O(a2(M )) contribution of Eq.(2), which is manifestly gauge invariant.
+
+For ,Q = \Gamma 3, the expression between curly brackets in Eq.(6a) simplifies to 1 \Gamma 8ffl=b. Recalling Eq.(8), neglecting the higher-order 1=Z3 correction and taking the ffl ! 0 limit, we have
+
+\Pi (k2; \Gamma 3)jMSBF G = ffs(_)4ss b "ln(\Gamma _
+
+2
+
+k2 ) +
+
+5 3 \Gamma
+
+8
+
+b # ; (31)
+
+where the superscript MS means that the MS renormalization has been implemented. Eq.(31)
+
+coincides with the one-loop correction to the interaction potential between two infinitely massive quarks [21], and thus it is amenable to direct physical interpretation. The 1 \Gamma 8ffl=b correction induces a modification e5=3 ! e5=3
+
+\Gamma 8=b in Eq.(28) and an additional factor (1 \Gamma 8ffl=b)\Gamma 1
+
+in Eq.(25). The corresponding Vn coefficients are shown in Table 5. Asymptotically, Vn , e
+
+\Gamma 4=bAn = 0:59An in the top quark case, a significant difference. The O(a2(M )) coefficient in
+
+M= ^m(M ) becomes 1:56205b \Gamma 7=2, which in the top quark case is 22% smaller than the exact
+
+11
+
+result of Eq.(2).
+
+In summary, if the basic one-loop vacuum polarization diagram is defined on the basis of Eqs.(5a) or (6a) with the neglect of the 1=b terms, the contributions of O(bn
+
+\Gamma 1ffsn) to
+
+M= ^m(M ) are given by the An expansion of Eq.(29), which corresponds to the so called "naive non-abelianization" prescription. If the 1=b terms in Eq.(5a) are retained, in accordance with a definition of the basic one-loop vacuum-polarization function based on the complete PT self-energy , we have the alternative expansion involving the Pn coefficients . They are (19-30)% larger than their An counterparts. If instead, the 1=b terms in Eq.(6a) are retained, corresponding to the BFG framework, the answer depends on the choice of ,Q. We have discussed five particular cases : i) ,Q = 1 which also leads to the Pn expansion. ii) ,Q = \Gamma 3 \Sigma 4q2=3, which is very close to the An case. iii) ,Q = 0 (Landau or transverse BFG) with coefficients Ln similar to the An, but asymptotically reduced by e
+
+\Gamma 5=8b = 0:922. v) ,\Lambda Q
+
+which incorporates the exact result of O(a2(M )). iv) ,Q = \Gamma 3 which leads to expansion coefficients Vn with the smallest asymptotic limit. In all cases we have the important constraint that the a2(M ) coefficients should be close to the exact answer of Eq.(2). According to this criterion, the ,
+
+\Lambda Q BFG calculation is singled out, as it reproduces Eq.(2) exactly. However, the
+
+An and Ln expansions also fare very well, with O(a2(Mt)) coefficients that are only 9.8% and 7.4% larger, respectively, than the exact result. On the other hand, the Pn and Vn expansions are not so accurate, with O(a2(Mt)) coefficients 30% higher, and 22% lower, respectively. As there are other contributions of O(blffsn) (l ^ n \Gamma 2) which we have neglected, it may be argued that the An expansion represents a more self-consistent approach than its Pn, Ln and Vn counterparts. On the other hand, the ,
+
+\Lambda Q BFG prescription has the advantage of exactly
+
+incorporating the most important subleading contributions, namely those of O(a2(M )). It is clear that the ,
+
+\Lambda Q procedure can be generalized to other QCD calculations where the a2(M )
+
+coefficients are known exactly.
+
+12
+
+After completing our calculation, we have learned that very recently [8] Beneke and Braun have also considered the detailed resummation of fermion bubble chains ( characterized as the leading corrections in the 1=nf expansion ) and proposed to include the gluonic contribution by the heuristic procedure nf ! \Gamma 3b=2, which is refered to as "naive non-abelianization". In the M= ^m(M ) calculation, this approach should be equivalent to the An expansion of Eq.(29). Their result is expressed in the form
+
+M ^m(M ) = 1 +
+
+a(M )
+
+3
+
+1X
+
+n=0 r
+
+n ba(M )4 !
+
+n
+
+;
+
+where the large rn coefficients are evaluated by ingenious Borel transform techniques and given numerically up to n = 8. We have verified that the relation rn = 2n+2n!An, necessary for the consistency of the results of Ref.[8] with Eq.(29), holds numerically with high precision up to n = 8.
+
+Assuming that the terms n * 2 also give dominant contributions, we employ Eq.(29) to estimate the higher order coefficients and evaluate M= ^m(M ). For the top quark case, according to Eq.(29) the O(a3) and O(a4) coefficients are 86 and 1031, which are close to the values ss 104 and 1041 estimated by optimization methods [1,2]. Their sizeable magnitude arises because of the factorial growth and the fact that the expansion parameter involves the rather large factor b=2. As all the terms are of the same sign, Eq.(29) with asymptotically constant An is not Borel-summable. Therefore, the sum is carried out to the optimal term of smallest magnitude, which at the same time is regarded as an irreducible theoretical error associated with the presumed asymptotic nature of the perturbative QCD expansion [5-11]. Although the O(a2) term in Eq.(29) is a very good approximation, in order to obtain a more accurate answer we replace it, in the top-quark case, by 10:90a2, the O(a2) contribution from the exact Eq.(2) when the small \Delta corrections are neglected. As an illustration, we consider Mt = 175 GeV. Using a three-loop fi function with 5 active flavours normalized to ffs(mZ) = 0:118, we have ffs(175GeV) = 0:1074. In this example, the smallest term in Eq.(29)
+
+13
+
+occurs at n = 7 and we obtain Mt= ^mt(Mt)= 1.06518 if this term is included, and 1.06482 if the series is terminated at n = 6. This is to be compared with the values 1.06470, 1.06470, and 1.06463 derived using the three optimization methods [1,2], and 1.05835 from Eq.(1). Thus, the QCD correction in the present calculation (0.06482-0.06518) is very close to the results found by optimization methods, and differs from the results from Eq.(1) by (11-12)%. Table 3 extends this comparison to the range 130 GeV ^ mt ^ 220GeV. The second column gives the value from Eq.(1), the third column that from the BLM expression (Eq.(3)), the fourth and fifth columns give the results of incorporating the higher order terms in Eq.(29) up to n = 6 and n = 7 (previous to smallest and smallest terms, respectively). The smallest term for Mt = 175GeV is 3.52\Theta 10
+
+\Gamma 4, so that our estimate of the irreducible theoretical error
+
+in Mt is 3:52 \Theta 10
+
+\Gamma 4 \Theta 175GeV=1:065 ss 58MeV. If we use Stirling's approximation and the
+
+one-loop relation 2=ba(M ) = ln(M=\Lambda QCD), our irreducible error estimate can be written as
+
+ffiM ss 83 ffs(M )b !
+
+1=2
+
+e5=6\Lambda QCD (32)
+
+In this case \Lambda QCDss 85 MeV (from the one-loop relation) and from (32) one has ffiMt ss 62 MeV. An alternative procedure to estimate ffiM is based on the ambiguity of the Borel transform. For example, using Eq.(34) of Ref.[8], one obtains an expression similar to Eq.(32) with (ffs(M )=b)1=2 ! 1=b. In the top quark case this increases the uncertainty by a factor (ffs(M ) b)
+
+\Gamma 1=2 ss 1:10 so that ffiM ss 68 MeV. Fortunately, such uncertainties are phenomenologically negligible. Because complete higher order results are not available, the actual error in current calculations is, of course, likely to be significantly higher. In Ref.[2] the last term in Eq.(3) was used as an estimate of the magnitude of the theoretical uncertainty and this gives \Sigma 2:74 \Theta 10
+
+\Gamma 3. It is worth noting that an analogous use of the Pn and Vn expansions,
+
+i.e. the two extreme cases we have considered, lead to values of Mt= ^mt(Mt) that differ from the BLM result (Eq.(3)) by (2 \Gamma 2:5) \Theta 10
+
+\Gamma 3. On the other hand, the Ln and B\Lambda n expansions
+
+differ from the BLM result by !, 1 \Theta 10
+
+\Gamma 3. We also emphasize that the optimization methods
+
+14
+
+applied directly to the O(ff2s) expansion (Eq.(1)) fail to uncover the factorial growth displayed in Eq.(29). For instance, if a(_
+
+\Lambda t ) in Eq.(3) is expanded in terms of a(Mt), it obviously generates a geometric series. The numerical closeness of the two calculations is therefore very interesting.
+
+We briefly illustrate the application of Eq.(1) and Eq.(29) to the bottom quark case using Mb = 4:72 GeV [13], in which case ffs(4:72GeV) = 0:2162. We again improve the accuracy by replacing the a2 term in Eq.(29) by 12.5a2, the result obtained from the exact Eq.(2) including the \Delta corrections. In this case, the smallest term is n = 3, and we have Mb= ^mb(Mb) = 1.214 if it is included, and 1.184 if the sum is stopped at n = 2. This is to be compared with 1.151 from Eq.(1). Such differences are not too surprising. We note that the expansion from Eq.(1) is 1 + 0.0918 + 0.0592. Thus, although Eq.(1) is routinely applied to the b and c quarks [4], its convergence properties suggests a large theoretical uncertainty in those cases. As the value of ^mb(Mb) is frequently derived from Mb by using Eq.(1) [4], one obtains in this case ^mb(Mb) = 4.72 GeV/1.151 = 4.10 GeV, while application of the present n = 2 calculation leads to
+
+^mb(Mb) = 4.72 GeV/1.184 = 3.99 GeV, a difference of 114 MeV or ss 3%. The smallest term in the series amounts in this case to 2.97\Theta 10
+
+\Gamma 2, so that our estimate of the irreducible
+
+theoretical uncertainty in Mb is 2.97\Theta 10
+
+\Gamma 2\Theta 3.99 GeV ss 119 MeV, which is twice as large as
+
+that given in Ref.[6]. This difference can be roughly traced to the factor e5=6 in Eq.(32). A more detailed treatment of M= ^m(M ) for the b and c cases has recently been proposed by Beneke and Braun [8]. In the b case their central value is close to the average of the two values we have given, while their irreducible error is about 25% smaller.
+
+2 QCD corrections to (\Delta ae)f The study of the QCD corrections to (\Delta ae)f , the fermionic component of \Delta ae, is a subject of considerable interest, as this amplitude contains the leading asymptotic contributions,
+
+15
+
+for large Mt, of the basic radiative corrections \Delta r,\Delta ^r, and \Delta ^ae [22,23]. We also recall that aef j [1 \Gamma (\Delta ae)f ]
+
+\Gamma 1 is frequently separated, as an overall renormalization factor, when neutral
+
+current amplitudes are expressed in terms of G_. In this section we apply the previous results to the study of these corrections. We also update the discussion of Refs.[1,2], including an estimate of the theoretical error, to take into account very recent modifications in the O(ffff2s) calculations.
+
+Neglecting higher-order electroweak effects , O(ff=sss2)2(M 2t =m2W ), but retaining QCD corrections, (\Delta ae)f can be written as
+
+(\Delta ae)f = 3G_M
+
+2t
+
+8p2ss2 [1 + ffiQCD] ; (33) where the first factor is the one-loop result and ffiQCD represents the relevant QCD correction.
+
+Alternatively, calling _t the solution of ^m(_) = _, where ^mt(_) is the MS -running mass, Eq.(33) can be expressed in the equivalent forms
+
+(\Delta ae)f = 3G__
+
+2t
+
+8p2ss2 h1 + ffi
+
+MSQCDi ; (34)
+
+and
+
+(\Delta ae)f = 3G_ ^m
+
+2 t (Mt)
+
+8p2ss2 [1 + \Delta QCD] : (35)
+
+Eq.(34) can be interpreted as a pure-MS expression, while Eq.(35) is very useful because it
+
+can be used in conjunction with the results of Section 1.
+
+Two recent evaluations of the complete three-loop corrections of O(ffff2s) have been given by Avdeev, Fleischer, Mikhailov, and Tarasov [24], and by Chetyrkin, K"uhn, and Steinhauser [25], in the limit Mb = 0. After an initial discrepancy the two results now agree and, to good accuracy, are given by
+
+ffiQCD = \Gamma 2:8599 a(Mt) \Gamma (23:525 \Gamma 1:7862 nf )a2(Mt) ; (36) where the O(a(Mt)) term is the Djouadi-Verzegnassi result, and nf = 5 is the number of massless flavours. Numerically, the second order coefficient is \Gamma 14:594. Using Eq.(1) in the
+
+16
+
+\Delta = 0 approximation and the relation _t = [1 + (8=3)a2(Mt) + :::] ^m(Mt), Eq.(36) implies
+
+ffiMSQCD = \Gamma 0:19325 a(Mt) \Gamma 3:970 a2(Mt) ; (37) \Delta QCD = \Gamma 0:19325 a(Mt) + 1:364 a2(Mt) : (38) As pointed out in Ref.[25], the second order coefficient in Eq.(37) is almost entirely due to the opening of a new channel in O(ffff2s), namely the double triangle graph. It is interesting to compare the new results of Eqs.(36-38) with a very simple estimate made before the complete three-loop calculations were carried out [26]. In that analysis the correction \Delta QCD was written as
+
+\Delta QCD = \Gamma 0:19325 a(Mt) + C a2(Mt) ; (39)
+
+and the constant C estimated to be C = 0 \Sigma 6 on the basis of convergence assumptions (optimization arguments carried out in Ref.[26] also led to C ss +3, but the more conservative estimate 0 \Sigma 6 was employed in the analysis). In turn, C = 0 \Sigma 6 implies a second-order coefficient \Gamma 15:958 \Sigma 6 in Eq.(36). Thus, we see that the central values in the estimate of Ref.[26], namely C=0 in Eq.(39) and \Gamma 15:958 in Eq.(36), are amusingly close to the new revised second-order coefficients in the exact calculation .
+
+Applying directly the optimization methods to Eq.(36), we find
+
+ffiQCD = \Gamma 2:8599 a(0:1536Mt) + 5:947 a2(0:1536Mt) (BLM) ; (40)
+
+ffiQCD = \Gamma 2:8599 a(0:2241Mt) + 1:803 a2(0:2241Mt) (PMS) ; (41)
+
+ffiQCD = \Gamma 2:8599 a(0:2642Mt) (FAC) : (42) Eqs.(40-42) can be obtained, for example, by using the explicit expressions given in Eqs.(16- 18) of Ref.[2]. As an illustration, we consider the case Mt = 175 GeV. Employing a three-loop fi function with five active flavours ( we neglect the very small three-loop discontinuity at _ = Mt) and normalizing once more ffs(_) such that ffs(MZ ) = 0:118 for MZ = 91:19 GeV,
+
+17
+
+Eqs.(40-42) give, for Mt = 175 GeV, ffiQCD = \Gamma 0:1192; \Gamma 0:1198; and \Gamma 0:1197, respectively. This is to be compared with \Gamma 0:1149 from Eq.(36). It is interesting to note that: i) The BLM approach works considerably better with the recently modified version of ffiQCD, in the sense that the residual O(a2) term is not as large as before. ii) The three optimization methods give now close answers. iii) The difference between the results from the optimization methods and Eq.(36) is ss 4:9 \Theta 10
+
+\Gamma 3, which is roughly as large as the effect of the recent modifications,
+
+namely 4:04 a2(Mt) = 4:7 \Theta 10
+
+\Gamma 3. It should be stressed that the 4:9 \Theta 10\Gamma 3 variation is due
+
+to different ways of accounting for the contributions of O(a3) and higher.
+
+The presence of large and increasing coefficients, the observations in iii), and the large vacuum-polarization contributions to Mt= ^m(Mt) we have encountered in Section 1, strongly suggest that the corrections of O(a3) and higher to Eq.(36) are significant. It is therefore a good idea to examine alternative evaluations of ffiQCD that involve second order coefficients of O(1), rather than O(10). Such strategy was explained in Refs.[1,2], and is updated in the following to take into account the very recent modifications in the O(ffff2s) corrections and the results of Section 1.
+
+Combining Eqs.(33) and (35) we have
+
+1 + ffiQCD = ^m(Mt)M
+
+t !
+
+2
+
+[1 + \Delta QCD] : (43)
+
+The correction \Delta QCD is very small. However, in order to incorporate large vacuum-polarization effects that are induced in O(a3), we replace Eq.(38) by the more detailed expression
+
+\Delta QCD = \Gamma 0:19325 a(Mt) \Gamma 3:970 a2(Mt) + 163 a2(0:252 Mt) \Gamma 9:97 a3(0:252 Mt) : (44) This is obtained by combining Eq.(37) with the BLM optimized expansion
+
+_t ^mt(Mt) = 1 +
+
+8 3 a
+
+2(0:252 Mt) \Gamma 4:47a3(0:252 Mt) ; (45)
+
+derived in Ref.[1]. The large vacuum-polarization effects of O(a3) incorporated in Eq.(45) are due to the presence of the pole mass in the argument of ^m. As Eq.(45) is exactly known
+
+18
+
+through O(a3) [1], this is a very instructive illustration of the fact that the occurence of the pole mass M in theoretical expressions is very likely to engender large vacuum-polarization effects, as well as large coefficients in higher orders, if ffs(M ) is employed as an expansion parameter. The correction \Delta QCD, evaluated on the basis of Eq.(44), is given as a function of Mt, in Table 4. We see that \Delta QCD ss \Gamma (2:3 \Gamma 2:6) \Theta 10
+
+\Gamma 3 is very small. This is close in
+
+magnitude to the values reported before [1], but of opposite sign. The difference is due to the modification of the second-order coefficients in the exact calculation .
+
+Table 5 compares several evaluations of ffiQCD, as a function of Mt. The second column gives the values from Eq.(36) while the remaining ones report the results from using Eq.(43), Table 4 for \Delta QCD, and the evaluations of Mt= ^mt(Mt) given in Section 1. Specifically, the third, fourth, and fifth column employ the Mt= ^mt(Mt) values from the BLM approach (Eq.(3)), and the n = 6 and n = 7 summations explained in Section 1, respectively (see Table 3). It is clear that the last three columns, and especially the third and fourth, are quite close. On the other hand, they are larger than the first by roughly (4-6)% depending on Mt and the particular entries being compared. This is not too surprising because the last three columns incorporate relatively large vacuum-polarization contributions of O(a3:::) to Mt= ^mt(Mt), not included in the first one. Because of the closeness of the last three columns, there is no point in drawing distinctions among them and, for definiteness, we adopt the entries in the third one, based on Eq.(43) and the BLM optimization of Eq.(3), as our central values. Following Ref.[2], we estimate the theoretical error due to unknown higher order corrections by the magnitude of the last retained terms. We emphasize that, although the three optimizations of Mt= ^mt(Mt)give nearly the same numerical answer, in order to analyze the error we employ the BLM approach, which leads to the most conservative estimate. From Eq.(3) we have
+
+ffi ^m(Mt)M
+
+t !
+
+2 ss \Sigma 2 \Theta 1:073a2(_\Lambda )
+
+(Mt= ^m(Mt))3 ss \Sigma 1:78 a
+
+2(_\Lambda ) : (46)
+
+19
+
+From Eq.(38)
+
+ffi(\Delta QCD) ss \Sigma 10 a3(0:252 Mt) : (47)
+
+Inserting these uncertainties in Eq.(43) and adding them linearly we obtain
+
+ffi(ffiQCD) = \Sigma (4:8; 4:9; 5:2; 5:9) \Theta 10
+
+\Gamma 3 ; (48)
+
+for Mt = 220; 200; 175; 130 GeV, respectively. These error estimates coincide with the values reported in Ref.[2].
+
+In analogy with the discussion in Refs.[1,2], the values for ffiQCD given in Table 5 can accurately be represented by simple empirical formulae. We find that our central values (third column of Table 5) and error estimates due to higher order corrections can be conveniently expressed as
+
+ffiQCD = \Gamma 2:8599 a(,Mt) ; (49)
+
+, = 0:260+0:079\Gamma 0:056 ; (50) while Eq.(36) (second column of Table 5) corresponds to , = 0:339. We emphasize that Eqs.(47,48) are not the result of a FAC optimization. They are simply empirical formulae that reproduce the values in the tables with errors of at most 1 \Theta 10
+
+\Gamma 4 for , = 0:260 and
+
+, = 0:339, and at most 2 \Theta 10
+
+\Gamma 4 for , = 0:204.
+
+Combining quadratically the theoretical error in Eq.(48) with that arising from the \Sigma 0:006 uncertainty is ffs, we obtain an overall uncertainty in ffiQCD of \Sigma (8:0; 8:2; 8:6; 9:7) \Theta 10
+
+\Gamma 3 for
+
+Mt = (220; 200; 175; 130)GeV. The effect on the predicted values of mW and sin2 ^`W (mZ ) due to a shift in ffiQCD can be obtained using Eqs.(37a) and (37b) of Ref.[27]. We have
+
+ffimW
+
+mW =
+
+c2xtffi(ffiQCD) 2(c2 \Gamma s2 \Gamma 2c2xt) ; (51)
+
+ffi^s2 = \Gamma 316ss ^ff^c2 \Gamma ^s2 M
+
+2t
+
+m2Z ffi(ffiQCD) ; (52)
+
+20
+
+where xt = 3G_M 2t =(8p2ss2), s2 = 1 \Gamma c2 j 1 \Gamma m2W =m2Z, and ^s2 = 1 \Gamma ^c2 j sin2 ^`W (mZ) and
+
+^ff = ^ff(mZ) ss 1=127:9 are the MS parameters. For the above Mt entries and MH = 300GeV, and using the overall uncertainty ffi(ffiQCD), we obtain ffimW = \Sigma (7:1; 6:0; 4:8; 3:0) MeV and ffi^s2 = \Sigma (4:0; 3:4; 2:8; 1:7) \Theta 10
+
+\Gamma 5, with a very similar shift for the effective electroweak
+
+parameter sin2 `effW . The effect on the Mt prediction from precision electroweak physics can be inferred from detailed tables such as those given in Ref.[27]. However, a simple estimate can be obtained by noting that, to a good approximation, the precision electroweak data fixes the value of (\Delta ae)f . Recalling Eq.(33), we have therefore the approximate relation
+
+ffiMt ss \Gamma Mt2 ffi(ffiQCD)[1 + ffi
+
+QCD] ; (53)
+
+from which we find ffiMt ss \Sigma (9:9; 9:3; 8:6; 7:2) \Theta 10
+
+\Gamma 1 GeV.
+
+It is interesting to note that: i) The results of the a(Mt) expansion (Eq.(36)) lie almost exactly at the lower boundary (in absolute value) of the band derived by our central values (third column of Table 5) and error estimates (Eqs.(48-50)). ii) On the other hand, the values from the optimized versions of Eq.(36), namely Eqs.(40-42), are not only close among themselves, but also lie near the central values reported in this paper. iii) The latter represent a fractional enhancement of (24-22)%, depending on Mt, over the one-loop Djouadi-Verzegnassi result. iv) Our value for Mt = 200 Gev, namely ffiQCD = \Gamma 0:1174 \Sigma 0:0049, is quite close to the estimate ffiQCD = \Gamma 0:121 \Sigma 0:006 given in Ref.[25] before the complete O(ffff2s) result became available.
+
+3 Aknowledgments. We would like to thank M. Beneke, K.G. Chetyrkin, J.M. Cornwall, P. Gambino, J.H. K"uhn, J. Papavassiliou, G. Passarino, M. Porrati and G. Weiglein for very useful discussions. This research was supported in part by the National Science Foundation under grant No. .
+
+21
+
+References
+
+[1] A. Sirlin, NYU-TH-94/08/01,  to be published in Phys. Lett. B. [2] A. Sirlin, NYU-TH-94/11/02,  to appear in " Reports of the Working
+
+group on Precision Calculations for the Z-resonance" (CERN Yellow Report).
+
+[3] CDF Collaboration : F. Abe et al., Phys.Rev.Lett. 73 (1994) 225;
+
+F. Abe et al., Phys.Rev. D50 (1994) 2966 ; F. Abe et al., FERMILAB-PUB-95/022-E  ; D0 Collaboration : S. Abachi et al., FERMILAB-PUB-95-028-E, March 1995.
+
+[4] H. Arason et. al., Phys.Rev. D46 (1992) 3946. [5] A.L. Kataev, Summary Talk at the Symposium on "Radiative Corrections; Status and
+
+Outlook", Gatlinburg, Tenessee (1994), CERN-TH.7465/94, and references cited therein.
+
+[6] I.I. Bigi, M.A. Schifman, N.G. Uraltsev, and A.I. Vainhtein, Phys.Rev. D50 (1994) 2234. [7] M. Beneke and V.M. Braun, Nucl.Phys. B426 (1994) 301. [8] M. Beneke and V.M. Braun, DESY 94-200, UM-TH-94-37, . [9] P. Ball, M. Beneke, V.M. Braun, CERN-TH-95-26, . [10] M. Beneke, V.M. Braun, and V.I. Zakharov, Phys.Rev.Letters 73 (1994) 3058. [11] M. Neubert, CERN-TH.7487/94,  and references cited therein. [12] N. Gray, D.J. Broadhurst, W. Grafe, K. Schilcher, Z. Phys. C48 (1990) 673. [13] L.R. Surguladze, OIIS 543 (1994), . [14] S.J. Brodsky, G.P. Lepage, and P.B. Mackenzie, Phys. Rev.D28, 228 (1983);
+
+S.J. Brodsky and H.J. Lu, SLAC-PUB-6481 (1994).
+
+22
+
+[15] P.M. Stevenson, Phys. Lett. B100 (1981) 61; Phys. Rev.D23, (1981) 2916 ; Nucl. Phys.
+
+B203 (1982) 472 and B231 (1984) 65.
+
+[16] G. Grunberg, Phys. Lett. B95 (1980) 70 and B110 (1982) 501 ; Phys. Rev.D29 (1984)
+
+2315.
+
+[17] J. M. Cornwall, in Proceedings of the French-American Seminar on Theoretical Aspects
+
+of Quantum Chromodynamics, Marseille, France, 1981, edited by J. W. Dash (Centre de Physique Th'eorique, Marseille, 1982) ; J. M. Cornwall, Phys. Rev. D 26 (1982) 1453 ; J. M. Cornwall and J. Papavassiliou , Phys. Rev. D 40 (1989) 3474 .
+
+[18] B. Haeri Phys. Rev. D38 (1988) 3799. [19] A. Denner, S. Dittmaier, and G. Weiglein, Phys. Lett. B333 (1994) 420 ;
+
+S. Hashimoto, J. Kodaira, Y. Yasui, and K. Sasaki, Phys. Rev D50 (1994) 7066 ; E. de Rafael and N. J. Watson, (unpublished).
+
+[20] J. Papavassiliou, Phys. Rev. D51 (1995) 856. [21] L. Susskind, Lattice gauge theories, Les Houches lectures, 1976 ;
+
+W. Fischler, Nucl. Phys. B129 (1977) 157 ; J. Papavassiliou, K. Philippides, M. Schaden, NYU-TH-94/10/03,  to be published in Phys.Rev D (June 1995) .
+
+[22] A. Sirlin, Phys.Rev.D22 (1980) 971 ;
+
+W. Marciano and A. Sirlin, Phys.Rev D22 (1980) 2695.
+
+[23] A. Sirlin, Phys.Lett. B 232 (1989) 123 ;
+
+G. Degrassi, S. Fanchiotti, and A. Sirlin, Nucl.Phys. B 351 (1991) 49.
+
+23
+
+[24] L. Avdeev, J. Fleischer, S. Mikhailov and O. Tarasov, Phys.Lett B336 (1994) 560, and
+
+ revised (1995).
+
+[25] K.G. Chetyrkin, J.H. K"uhn, M. Steinhauser, TTP95-03, . [26] A. Sirlin, BNL-60161 (1994), . [27] S. Fanchiotti, B. Kniehl, and A. Sirlin, Phys.Rev D48 (1993) 307.
+
+24
+
+Table 1 The An coefficients in Eq.(29). This expansion corresponds to the neglect of all contributions of O(blffsn) (l ^ n \Gamma 2). See text.
+
+n 0 1 2 3 4 5 6 7 8 9 10 An 1 2:34308 2:20283 2:28873 2:27584 2:30200 2:29632 2:30185 2:30003 2:30127 2:30077
+
+Table 2 Alternative prescriptions for the expansion coefficients in Eq.(29). i) The Pn replace the An when the 1=b terms in the PT self-energy are incorporated. ii) The Ln coefficients are similarly based on the transverse or Landau (,Q = 0) BFG. iii) The B
+
+\Lambda n correspond to the
+
+,
+
+\Lambda Q prescription. iv) The Vn correspond to the ,Q = \Gamma 3 BFG. Among the BFG coefficients,
+
+the Vn have the smallest asymptotic limit. These alternative prescriptions are nf \Gamma dependent and are given here for the top quark case (b = 23=3).
+
+n 0 1 2 3 4 5 6 7 8 9 10 Pn 1 2:78329 2:84487 2:93323 2:95309 2:98043 2:98150 2:98642 2:98592 2:98687 2:98664 Ln 1 2:29111 2:02192 2:11758 2:09633 2:12387 2:11601 2:12210 2:11980 2:12122 2:12060 B
+
+\Lambda n 1 2:13324 1:79728 1:91085 1:87524 1:90510 1:89496 1:90208 1:89907 1:90076 1:89998
+
+Vn 1 1:65829 1:23658 1:41819 1:32999 1:38095 1:35691 1:36964 1:36347 1:36663 1:36507
+
+25
+
+Table 3 Comparison of different evaluations of Mt= ^mt(Mt). The second column gives the results of Eqs.(1,2), while the third one is based on the BLM optimization Eq.(3). The fourth and fifth columns are based on Eq.(29) with the summation truncated at n = 6 and n = 7, respectively, and the second order coefficient replaced by its exact value from Eqs.(1,2).
+
+Mt= ^mt(Mt) Mt Eqs:(1; 2) Eq:(3) Eq:(29) Eq:(29) (GeV ) n = 6 n = 7
+
+130 1:06140 1:06875 1:06902 1:06951 150 1:05989 1:06673 1:06693 1:06735 175 1:05835 1:06470 1:06482 1:06518 200 1:05708 1:06303 1:06311 1:06342 220 1:05621 1:06190 1:06195 1:06222
+
+26
+
+Table 4 The correction \Delta QCD (Eq.(44))
+
+Mt 103\Delta QCD (GeV )
+
+130 \Gamma 2:27 150 \Gamma 2:39 175 \Gamma 2:50 200 \Gamma 2:59 220 \Gamma 2:64
+
+Table 5 Comparison of several evaluations of ffiQCD.
+
+ffiQCD Mt Eq:(36) Eqs:(3; 43) Eqs:(29; 43) Eqs:(29; 43) (GeV ) n = 6 n = 7
+
+130 \Gamma 0:1205 \Gamma 0:1265 \Gamma 0:1269 \Gamma 0:1277 150 \Gamma 0:1177 \Gamma 0:1233 \Gamma 0:1236 \Gamma 0:1243 175 \Gamma 0:1149 \Gamma 0:1200 \Gamma 0:1202 \Gamma 0:1208 200 \Gamma 0:1125 \Gamma 0:1174 \Gamma 0:1175 \Gamma 0:1180 220 \Gamma 0:1109 \Gamma 0:1155 \Gamma 0:1156 \Gamma 0:1161
+
+27
+
