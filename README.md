@@ -10,10 +10,9 @@ the top-k sentences are used.This algorithm is run on a dataset of scientific pa
 The document summaries produced is scored for similarity with the abstracts of the papers and these
 similarity scores are reported. For scoring, an enhanced version of the
 ROUGE (Recall-Oriented Understudy for Gisting Evaluation) measure is used. Instead of considering only
-the n-grams present in the reference summary and the machine-generated summary for Rouge (as is
-usual), this project proposes an ‘Enhanced’ Rouge which also considers other relevant n-grams. This
-relevance is indicated by parts of speech tags of the words present in the n-grams. These words are
-present in both the summary and the abstract, though the n-grams themselves are only present in the
-machine-generated summary.
+the exact n-grams present in both the reference summary and the machine-generated summary for Rouge (as is
+usual), this project proposes an ‘Enhanced’ Rouge which considers other relevant n-grams. 
+These other n-grams in the machine-generated summary contain nouns and adjectives present in both the summaries,
+though the exact n-gram is absent in the reference summary.
  
-For comparison, the output files conatining the 2 versions of the Rouge scores for k=3,4 & 5 are uploaded.
+For comparison, the output files containing the 2 versions of the Rouge scores for k=3,4 & 5 are uploaded.
