@@ -2,6 +2,7 @@
 
 Short Version: A summary of a scientific paper is generated using TextRank algorithm. This summary is evaluated with Rouge and a proposed evaluation measure - "Enhanced Rouge". 
 
+Long Version:
 In this project, a document summary is produced for every document by
 selecting the most relevant sentences. The TextRank algorithm is used to select these sentences. This
 algorithm creates a weighted non-directed graph from all the sentences in a document. The edge
